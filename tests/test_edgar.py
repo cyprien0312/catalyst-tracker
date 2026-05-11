@@ -61,6 +61,21 @@ def test_get_filing_text_strips_html():
 
 
 @responses.activate
+def test_filings_expose_8k_items():
+    body = (FIX / "edgar_submissions_apld.json").read_text()
+    responses.add(
+        responses.GET,
+        "https://data.sec.gov/submissions/CIK0001144879.json",
+        body=body, status=200,
+    )
+    c = EdgarClient()
+    filings = c.recent_filings("0001144879", forms=("10-Q", "8-K"))
+    by_form = {f.form: f for f in filings}
+    assert by_form["10-Q"].items == ()
+    assert by_form["8-K"].items == ("2.04", "7.01")
+
+
+@responses.activate
 def test_user_agent_header_is_sent(monkeypatch):
     monkeypatch.setenv("SEC_USER_AGENT", "catalyst-tracker test@example.com")
     body = (FIX / "edgar_submissions_amzn.json").read_text()

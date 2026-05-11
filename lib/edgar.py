@@ -25,6 +25,7 @@ class Filing:
     filed_date: str
     primary_document: str
     url: str
+    items: tuple[str, ...] = ()
 
 
 def _strip_html(html: str) -> str:
@@ -72,6 +73,11 @@ class EdgarClient:
             primary = rec["primaryDocument"][i]
             cik_int = str(int(cik))
             acc_nodash = acc.replace("-", "")
+            raw_items = ""
+            items_col = rec.get("items")
+            if items_col is not None and i < len(items_col):
+                raw_items = items_col[i] or ""
+            items = tuple(s.strip() for s in raw_items.split(",") if s.strip()) if raw_items else ()
             out.append(
                 Filing(
                     cik=cik,
@@ -82,6 +88,7 @@ class EdgarClient:
                     url=ARCHIVE_URL.format(
                         cik_int=cik_int, acc_nodash=acc_nodash, primary=primary
                     ),
+                    items=items,
                 )
             )
             if len(out) >= limit:
