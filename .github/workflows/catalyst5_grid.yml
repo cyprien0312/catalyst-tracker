@@ -1,0 +1,40 @@
+name: catalyst5-grid
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+    - cron: "15 13 1-7 * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalyst5
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run catalyst 5
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python -m catalysts.c5_grid
+      - name: Rebuild dashboard
+        run: python scripts/build_dashboard.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: state/tracker.sqlite docs/index.html docs/data/status.json
+          commit_message: "state: c5 run ${{ github.run_id }}"

@@ -1,0 +1,37 @@
+name: catalyst4-capex
+
+on:
+  schedule:
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalyst4
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run catalyst 4
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python -m catalysts.c4_capex
+      - name: Rebuild dashboard
+        run: python scripts/build_dashboard.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: state/tracker.sqlite docs/index.html docs/data/status.json
+          commit_message: "state: c4 run ${{ github.run_id }}"

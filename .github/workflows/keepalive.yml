@@ -1,0 +1,23 @@
+name: keepalive
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch heartbeat
+        run: |
+          mkdir -p state
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > state/heartbeat.txt
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: state/heartbeat.txt
+          commit_message: "chore: weekly heartbeat ${{ github.run_id }}"

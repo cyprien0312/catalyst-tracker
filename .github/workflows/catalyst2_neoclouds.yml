@@ -1,0 +1,38 @@
+name: catalyst2-neoclouds
+
+on:
+  schedule:
+    - cron: "30 13-21 * * 1-5"
+    - cron: "0 12 * * 0,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalyst2
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run catalyst 2
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python -m catalysts.c2_neoclouds
+      - name: Rebuild dashboard
+        run: python scripts/build_dashboard.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: state/tracker.sqlite docs/index.html docs/data/status.json
+          commit_message: "state: c2 run ${{ github.run_id }}"
