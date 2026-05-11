@@ -1,7 +1,7 @@
 {
-  "generated_at": 1778516231,
-  "generated_at_str": "2026-05-11 16:17:11 UTC",
-  "last_event_ts": 1778515939,
+  "generated_at": 1778516362,
+  "generated_at_str": "2026-05-11 16:19:22 UTC",
+  "last_event_ts": 1778516342,
   "tables": {
     "alerts_dedup": {
       "count": 1,
@@ -14,10 +14,85 @@
     "c2_filings": {
       "count": 60,
       "last_ts": 1778515939
+    },
+    "c3_msft_filings": {
+      "count": 20,
+      "last_ts": 1778516336
+    },
+    "c4_signals": {
+      "count": 2,
+      "last_ts": 1778516342
+    },
+    "rss_meta_blob": {
+      "count": 2,
+      "last_ts": 1778516327
+    },
+    "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
+      "count": 30,
+      "last_ts": 1778516326
+    },
+    "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
+      "count": 36,
+      "last_ts": 1778516327
+    },
+    "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "count": 100,
+      "last_ts": 1778516324
     }
   },
-  "c4_xbrl": [],
-  "c5_queues": [],
+  "c4_xbrl": [
+    {
+      "cik": "0000789019",
+      "period_end": "2026-03-31",
+      "capex_ttm": 196282000000.0,
+      "ocf_ttm": 346881000000.0,
+      "ratio": 0.5658482303729521
+    },
+    {
+      "cik": "0001652044",
+      "period_end": "2026-03-31",
+      "capex_ttm": 156110000000.0,
+      "ocf_ttm": 258148000000.0,
+      "ratio": 0.604730619644545
+    },
+    {
+      "cik": "0001326801",
+      "period_end": "2026-03-31",
+      "capex_ttm": 109725000000.0,
+      "ocf_ttm": 185425000000.0,
+      "ratio": 0.5917486854523393
+    },
+    {
+      "cik": "0001341439",
+      "period_end": "2026-02-28",
+      "capex_ttm": 80342000000.0,
+      "ocf_ttm": 50367000000.0,
+      "ratio": 1.5951317330791988
+    },
+    {
+      "cik": "0001045810",
+      "period_end": "2020-07-26",
+      "capex_ttm": 1112000000.0,
+      "ocf_ttm": 184183000000.0,
+      "ratio": 0.0060374735996264585
+    },
+    {
+      "cik": "0001018724",
+      "period_end": "2017-03-31",
+      "capex_ttm": 23749000000.0,
+      "ocf_ttm": 514262000000.0,
+      "ratio": 0.0461807405563701
+    }
+  ],
+  "c5_queues": [
+    {
+      "iso": "CAISO",
+      "snapshot_date": "2026-05-12",
+      "total_mw": 0.0,
+      "count": 314,
+      "withdrawn_count": 0
+    }
+  ],
   "catalysts": [
     {
       "id": "C1",
