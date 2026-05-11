@@ -88,3 +88,32 @@ class Catalyst1(CatalystBase):
                     body=_render_body(ticker, filing, hits),
                 ))
         return alerts
+
+
+def _main(argv: list[str] | None = None) -> int:
+    import argparse
+    from lib.notify import send_alert
+
+    p = argparse.ArgumentParser(description="Catalyst 1: GPU Depreciation scanner")
+    p.add_argument("--dry-run", action="store_true",
+                   help="print alerts instead of emailing")
+    args = p.parse_args(argv)
+
+    cat = Catalyst1()
+    alerts = cat.run()
+    if not alerts:
+        print("c1: no alerts")
+        return 0
+    for a in alerts:
+        if args.dry_run:
+            print("=" * 72)
+            print(a.subject)
+            print(a.body)
+        else:
+            send_alert(a.subject, a.body, severity=a.severity)
+    print(f"c1: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(_main())
