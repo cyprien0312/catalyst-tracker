@@ -1,0 +1,160 @@
+"""Catalyst 5 — Grid Bottlenecks / Power Constraints."""
+from __future__ import annotations
+
+from catalysts.base import Alert, CatalystBase
+from lib.state import State
+from lib import grid_queues
+from lib.eia import henry_hub_strip
+
+
+HENRY_HUB_STRESS = 5.00          # USD/MMBtu — 12-month strip average
+MOM_DROP_PCT = 5.0               # % MoM drop in queue total MW
+WITHDRAWN_THRESHOLD = 5          # weekly new withdrawals of ≥100MW projects
+
+
+def _ensure_table(state: State) -> None:
+    with state.connection() as c:
+        c.execute("""
+            CREATE TABLE IF NOT EXISTS c5_queues (
+                iso TEXT,
+                snapshot_date TEXT,
+                total_mw REAL,
+                count INTEGER,
+                withdrawn_count INTEGER,
+                withdrawn_mw_100plus INTEGER,
+                PRIMARY KEY(iso, snapshot_date)
+            )
+        """)
+
+
+def _store_snapshot(state: State, iso: str, snapshot_date: str, summary: dict) -> None:
+    with state.connection() as c:
+        c.execute(
+            "INSERT INTO c5_queues(iso, snapshot_date, total_mw, count, withdrawn_count, withdrawn_mw_100plus) "
+            "VALUES(?,?,?,?,?,?) "
+            "ON CONFLICT(iso, snapshot_date) DO UPDATE SET "
+            "total_mw=excluded.total_mw, count=excluded.count, "
+            "withdrawn_count=excluded.withdrawn_count, "
+            "withdrawn_mw_100plus=excluded.withdrawn_mw_100plus",
+            (iso, snapshot_date, summary["total_mw"], summary["count"],
+             summary["withdrawn_count"], summary["withdrawn_mw_100plus"]),
+        )
+
+
+def _prior_snapshot(state: State, iso: str, current_date: str) -> dict | None:
+    with state.connection() as c:
+        row = c.execute(
+            "SELECT snapshot_date, total_mw, withdrawn_count FROM c5_queues "
+            "WHERE iso=? AND snapshot_date<? ORDER BY snapshot_date DESC LIMIT 1",
+            (iso, current_date),
+        ).fetchone()
+    if not row:
+        return None
+    return {"date": row[0], "total_mw": float(row[1]), "withdrawn_count": int(row[2])}
+
+
+class Catalyst5(CatalystBase):
+    name = "Grid Bottlenecks"
+
+    def __init__(self, state: State | None = None,
+                 fetch_pjm=grid_queues.pjm_active_queue,
+                 fetch_caiso=grid_queues.caiso_queue,
+                 fetch_henryhub=henry_hub_strip):
+        self._state = state or State("c5")
+        self._fetch_pjm = fetch_pjm
+        self._fetch_caiso = fetch_caiso
+        self._fetch_henryhub = fetch_henryhub
+        _ensure_table(self._state)
+
+    def _check_iso(self, iso: str, snapshot_date: str, fetch) -> list[Alert]:
+        alerts: list[Alert] = []
+        try:
+            df = fetch()
+        except Exception as e:
+            print(f"c5: {iso} fetch failed: {e}")
+            return alerts
+        summary = grid_queues.summarize(df, iso)
+        prior = _prior_snapshot(self._state, iso, snapshot_date)
+        _store_snapshot(self._state, iso, snapshot_date, summary)
+
+        if prior:
+            prior_mw = prior["total_mw"]
+            if prior_mw > 0:
+                drop_pct = (prior_mw - summary["total_mw"]) / prior_mw * 100.0
+                if drop_pct >= MOM_DROP_PCT:
+                    key = f"c5_mw_drop|{iso}|{snapshot_date}"
+                    if not self._state.seen("c5_signals", key):
+                        self._state.mark_seen("c5_signals", key)
+                        alerts.append(Alert(
+                            catalyst="C5", severity="MED",
+                            subject=f"[C5-MED] {iso}: queue MW down {drop_pct:.1f}% vs {prior['date']}",
+                            body=f"Total MW {summary['total_mw']:.0f} (was {prior_mw:.0f}). Snapshot {snapshot_date}.\n",
+                        ))
+            new_withdrawn = summary["withdrawn_count"] - prior["withdrawn_count"]
+            if new_withdrawn >= WITHDRAWN_THRESHOLD:
+                key = f"c5_withdrawn|{iso}|{snapshot_date}"
+                if not self._state.seen("c5_signals", key):
+                    self._state.mark_seen("c5_signals", key)
+                    alerts.append(Alert(
+                        catalyst="C5", severity="HIGH",
+                        subject=f"[C5-HIGH] {iso}: {new_withdrawn} new withdrawals vs {prior['date']}",
+                        body=f"Withdrawn count {summary['withdrawn_count']} (was {prior['withdrawn_count']}).\n",
+                    ))
+        return alerts
+
+    def _check_henry_hub(self, snapshot_date: str) -> list[Alert]:
+        alerts: list[Alert] = []
+        strip = self._fetch_henryhub()
+        if not strip:
+            return alerts
+        avg = sum(strip) / len(strip)
+        if avg >= HENRY_HUB_STRESS:
+            key = f"c5_hh_stress|{snapshot_date}"
+            if not self._state.seen("c5_signals", key):
+                self._state.mark_seen("c5_signals", key)
+                alerts.append(Alert(
+                    catalyst="C5", severity="MED",
+                    subject=f"[C5-MED] Henry Hub 12mo strip avg ${avg:.2f}/MMBtu ≥ ${HENRY_HUB_STRESS:.2f}",
+                    body=f"Strip values: {strip}\n",
+                ))
+        return alerts
+
+    def run(self) -> list[Alert]:
+        import datetime as _dt
+        snapshot_date = _dt.date.today().isoformat()
+        alerts: list[Alert] = []
+        alerts.extend(self._check_iso("PJM", snapshot_date, self._fetch_pjm))
+        alerts.extend(self._check_iso("CAISO", snapshot_date, self._fetch_caiso))
+        alerts.extend(self._check_henry_hub(snapshot_date))
+        return alerts
+
+
+def _main(argv: list[str] | None = None) -> int:
+    import argparse
+    from lib.notify import send_alert
+    p = argparse.ArgumentParser(description="Catalyst 5: Grid bottlenecks")
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--skip-iso", action="store_true", help="skip live ISO XLSX downloads")
+    args = p.parse_args(argv)
+
+    if args.skip_iso:
+        import pandas as pd
+        empty = lambda: pd.DataFrame()
+        cat = Catalyst5(fetch_pjm=empty, fetch_caiso=empty)
+    else:
+        cat = Catalyst5()
+    alerts = cat.run()
+    if not alerts:
+        print("c5: no alerts")
+        return 0
+    for a in alerts:
+        if args.dry_run:
+            print("=" * 72); print(a.subject); print(a.body)
+        else:
+            send_alert(a.subject, a.body, severity=a.severity)
+    print(f"c5: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(_main())
