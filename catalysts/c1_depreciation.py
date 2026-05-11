@@ -34,3 +34,57 @@ def scan_text(text: str) -> list[dict]:
         if m:
             out.append({"key": key, "severity": sev, "snippet": m.group(0)[:240]})
     return out
+
+
+from lib.config import HYPERSCALERS
+from lib.edgar import EdgarClient
+from lib.state import State
+from catalysts.base import Alert, CatalystBase
+
+_FORMS = ("10-K", "10-Q")
+
+
+def _render_body(ticker: str, filing, hits: list[dict]) -> str:
+    lines = [
+        f"Ticker:    {ticker}",
+        f"Form:      {filing.form}",
+        f"Filed:     {filing.filed_date}",
+        f"Accession: {filing.accession}",
+        f"URL:       {filing.url}",
+        "",
+        "Pattern hits:",
+    ]
+    for h in hits:
+        snippet = h["snippet"].replace("\n", " ")
+        lines.append(f"- {h['key']} ({h['severity']}): {snippet}")
+    return "\n".join(lines)
+
+
+class Catalyst1(CatalystBase):
+    name = "GPU Depreciation Useful-Life Changes"
+
+    def __init__(self, edgar: EdgarClient | None = None, state: State | None = None,
+                 watchlist: dict[str, str] | None = None):
+        self._edgar = edgar or EdgarClient()
+        self._state = state or State("c1")
+        self._watchlist = watchlist if watchlist is not None else HYPERSCALERS
+
+    def run(self) -> list[Alert]:
+        alerts: list[Alert] = []
+        for ticker, cik in self._watchlist.items():
+            for filing in self._edgar.recent_filings(cik, forms=_FORMS):
+                if self._state.seen("c1_filings", filing.accession):
+                    continue
+                text = self._edgar.get_filing_text(filing)
+                hits = scan_text(text)
+                self._state.mark_seen("c1_filings", filing.accession)
+                if not hits:
+                    continue
+                sev = MAX_SEVERITY_RANK([h["severity"] for h in hits])
+                alerts.append(Alert(
+                    catalyst="C1",
+                    severity=sev,
+                    subject=f"[C1-{sev}] {ticker} {filing.form}: depreciation language change detected",
+                    body=_render_body(ticker, filing, hits),
+                ))
+        return alerts
