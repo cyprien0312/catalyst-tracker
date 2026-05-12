@@ -36,26 +36,38 @@ def _ensure_table(state: State) -> None:
                 PRIMARY KEY(cik, period_end)
             )
         """)
+        # Migration: add fcf_ttm column if missing.
+        cols = [r[1] for r in c.execute("PRAGMA table_info(c4_xbrl)").fetchall()]
+        if "fcf_ttm" not in cols:
+            try:
+                c.execute("ALTER TABLE c4_xbrl ADD COLUMN fcf_ttm REAL")
+            except Exception:
+                pass
 
 
-def _prior_ratio(state: State, cik: str, current_end: str) -> float | None:
+def _prior_state(state: State, cik: str, current_end: str) -> tuple[float | None, float | None]:
+    """Return (prior_ratio, prior_fcf) for the most recent earlier snapshot."""
     with state.connection() as c:
         row = c.execute(
-            "SELECT ratio FROM c4_xbrl WHERE cik=? AND period_end<? "
+            "SELECT ratio, fcf_ttm FROM c4_xbrl WHERE cik=? AND period_end<? "
             "ORDER BY period_end DESC LIMIT 1",
             (cik, current_end),
         ).fetchone()
-    return float(row[0]) if row else None
+    if not row:
+        return None, None
+    prior_ratio = float(row[0]) if row[0] is not None else None
+    prior_fcf = float(row[1]) if row[1] is not None else None
+    return prior_ratio, prior_fcf
 
 
-def _store_snapshot(state: State, cik: str, end: str, capex_ttm: float, ocf_ttm: float, ratio: float) -> None:
+def _store_snapshot(state: State, cik: str, end: str, capex_ttm: float, ocf_ttm: float, ratio: float, fcf_ttm: float) -> None:
     with state.connection() as c:
         c.execute(
-            "INSERT INTO c4_xbrl(cik, period_end, capex_ttm, ocf_ttm, ratio) "
-            "VALUES(?,?,?,?,?) "
+            "INSERT INTO c4_xbrl(cik, period_end, capex_ttm, ocf_ttm, ratio, fcf_ttm) "
+            "VALUES(?,?,?,?,?,?) "
             "ON CONFLICT(cik, period_end) DO UPDATE SET "
-            "capex_ttm=excluded.capex_ttm, ocf_ttm=excluded.ocf_ttm, ratio=excluded.ratio",
-            (cik, end, capex_ttm, ocf_ttm, ratio),
+            "capex_ttm=excluded.capex_ttm, ocf_ttm=excluded.ocf_ttm, ratio=excluded.ratio, fcf_ttm=excluded.fcf_ttm",
+            (cik, end, capex_ttm, ocf_ttm, ratio, fcf_ttm),
         )
 
 
@@ -83,13 +95,13 @@ class Catalyst4(CatalystBase):
             return alerts
         ratio = capex_ttm / ocf_ttm
         end = capex_pts[-1].end
-
-        prior = _prior_ratio(self._state, cik, end)
-        _store_snapshot(self._state, cik, end, capex_ttm, ocf_ttm, ratio)
-
-        # FCF negative trigger
         fcf = ocf_ttm - capex_ttm
-        if fcf < 0:
+
+        prior, prior_fcf = _prior_state(self._state, cik, end)
+        _store_snapshot(self._state, cik, end, capex_ttm, ocf_ttm, ratio, fcf)
+
+        # FCF negative transition trigger: prior FCF was non-negative, current is negative.
+        if fcf < 0 and prior_fcf is not None and prior_fcf >= 0:
             key = f"c4_fcf_neg|{cik}|{end}"
             if not self._state.seen("c4_signals", key):
                 self._state.mark_seen("c4_signals", key)
@@ -103,18 +115,18 @@ class Catalyst4(CatalystBase):
                     ),
                 ))
 
-        # Ratio threshold cross
-        if ratio >= RATIO_CROSS_THRESHOLD and (prior is None or prior < RATIO_CROSS_THRESHOLD):
+        # Ratio threshold cross: must have a prior observation strictly below threshold.
+        if prior is not None and prior < RATIO_CROSS_THRESHOLD and ratio >= RATIO_CROSS_THRESHOLD:
             key = f"c4_ratio_cross|{cik}|{end}"
             if not self._state.seen("c4_signals", key):
                 self._state.mark_seen("c4_signals", key)
                 alerts.append(Alert(
                     catalyst="C4", severity="HIGH",
-                    subject=f"[C4-HIGH] {ticker}: TTM Capex/OCF crossed {ratio*100:.0f}% (was {(prior or 0)*100:.0f}%)",
+                    subject=f"[C4-HIGH] {ticker}: TTM Capex/OCF crossed {ratio*100:.0f}% (was {prior*100:.0f}%)",
                     body=(
                         f"Ticker:    {ticker}\nPeriod:    TTM ending {end}\n"
                         f"Capex TTM: ${capex_ttm/1e9:.2f}B\nOCF TTM:   ${ocf_ttm/1e9:.2f}B\n"
-                        f"Ratio:     {ratio*100:.1f}% (prior {(prior or 0)*100:.1f}%)\n"
+                        f"Ratio:     {ratio*100:.1f}% (prior {prior*100:.1f}%)\n"
                     ),
                 ))
 
