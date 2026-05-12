@@ -156,22 +156,12 @@ class Catalyst4(CatalystBase):
 
 
 def _main(argv: list[str] | None = None) -> int:
-    import argparse
-    from lib.notify import send_alert
-    p = argparse.ArgumentParser(description="Catalyst 4: Capex/OCF")
-    p.add_argument("--dry-run", action="store_true")
-    args = p.parse_args(argv)
-    alerts = Catalyst4().run()
-    if not alerts:
-        print("c4: no alerts")
-        return 0
-    for a in alerts:
-        if args.dry_run:
-            print("=" * 72); print(a.subject); print(a.body)
-        else:
-            send_alert(a.subject, a.body, severity=a.severity)
-    print(f"c4: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
-    return 0
+    from catalysts.base import run_cli
+    return run_cli(
+        lambda args: Catalyst4(),
+        description="Catalyst 4: Capex/OCF",
+        argv=argv,
+    )
 
 
 if __name__ == "__main__":

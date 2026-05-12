@@ -146,22 +146,12 @@ class Catalyst3(CatalystBase):
         return alerts
 
 
-def _main(argv: list[str] | None = None) -> int:
-    import argparse
-    from lib.notify import send_alert
-
-    p = argparse.ArgumentParser(description="Catalyst 3: OpenAI stress")
-    p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--no-edgar", action="store_true", help="skip MSFT filings scan")
-    args = p.parse_args(argv)
-
-    cat = Catalyst3()
-    if args.no_edgar:
-        # Run only the news path.
+class _Catalyst3NewsOnly(Catalyst3):
+    """News-only variant used by `--no-edgar`."""
+    def run(self) -> list[Alert]:
         from lib.rss import fetch_many
-        entries = fetch_many(cat._feeds, cat._state)
-        alerts = []
-        for entry in entries:
+        alerts: list[Alert] = []
+        for entry in fetch_many(self._feeds, self._state):
             sev = classify(f"{entry.title}\n{entry.summary}")
             if sev:
                 alerts.append(Alert(
@@ -169,20 +159,20 @@ def _main(argv: list[str] | None = None) -> int:
                     subject=f"[C3-{sev}] {entry.title[:120]}",
                     body=_render_news_body(entry, sev),
                 ))
-    else:
-        alerts = cat.run()
-    if not alerts:
-        print("c3: no alerts")
-        return 0
-    for a in alerts:
-        if args.dry_run:
-            print("=" * 72)
-            print(a.subject)
-            print(a.body)
-        else:
-            send_alert(a.subject, a.body, severity=a.severity)
-    print(f"c3: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
-    return 0
+        return alerts
+
+
+def _main(argv: list[str] | None = None) -> int:
+    from catalysts.base import run_cli
+
+    def _factory(args):
+        return _Catalyst3NewsOnly() if args.no_edgar else Catalyst3()
+
+    def _extra(p):
+        p.add_argument("--no-edgar", action="store_true", help="skip MSFT filings scan")
+
+    return run_cli(_factory, description="Catalyst 3: OpenAI stress",
+                   extra_args=_extra, argv=argv)
 
 
 if __name__ == "__main__":

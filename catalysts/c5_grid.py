@@ -133,30 +133,21 @@ class Catalyst5(CatalystBase):
 
 
 def _main(argv: list[str] | None = None) -> int:
-    import argparse
-    from lib.notify import send_alert
-    p = argparse.ArgumentParser(description="Catalyst 5: Grid bottlenecks")
-    p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--skip-iso", action="store_true", help="skip live ISO XLSX downloads")
-    args = p.parse_args(argv)
+    from catalysts.base import run_cli
 
-    if args.skip_iso:
-        import pandas as pd
-        empty = lambda: pd.DataFrame()
-        cat = Catalyst5(fetch_pjm=empty, fetch_caiso=empty)
-    else:
-        cat = Catalyst5()
-    alerts = cat.run()
-    if not alerts:
-        print("c5: no alerts")
-        return 0
-    for a in alerts:
-        if args.dry_run:
-            print("=" * 72); print(a.subject); print(a.body)
-        else:
-            send_alert(a.subject, a.body, severity=a.severity)
-    print(f"c5: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
-    return 0
+    def _factory(args):
+        if args.skip_iso:
+            import pandas as pd
+            empty = lambda: pd.DataFrame()
+            return Catalyst5(fetch_pjm=empty, fetch_caiso=empty)
+        return Catalyst5()
+
+    def _extra(p):
+        p.add_argument("--skip-iso", action="store_true",
+                       help="skip live ISO XLSX downloads")
+
+    return run_cli(_factory, description="Catalyst 5: Grid bottlenecks",
+                   extra_args=_extra, argv=argv)
 
 
 if __name__ == "__main__":

@@ -155,29 +155,17 @@ class Catalyst2(CatalystBase):
 
 
 def _main(argv: list[str] | None = None) -> int:
-    import argparse
-    from lib.notify import send_alert
+    from catalysts.base import run_cli
 
-    p = argparse.ArgumentParser(description="Catalyst 2: Neocloud distress")
-    p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--no-prices", action="store_true", help="skip yfinance crash detector")
-    args = p.parse_args(argv)
+    def _factory(args):
+        price_fetch = (lambda t: __import__("pandas").DataFrame()) if args.no_prices else None
+        return Catalyst2(price_fetch=price_fetch)
 
-    price_fetch = (lambda t: __import__("pandas").DataFrame()) if args.no_prices else None
-    cat = Catalyst2(price_fetch=price_fetch)
-    alerts = cat.run()
-    if not alerts:
-        print("c2: no alerts")
-        return 0
-    for a in alerts:
-        if args.dry_run:
-            print("=" * 72)
-            print(a.subject)
-            print(a.body)
-        else:
-            send_alert(a.subject, a.body, severity=a.severity)
-    print(f"c2: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
-    return 0
+    def _extra(p):
+        p.add_argument("--no-prices", action="store_true", help="skip yfinance crash detector")
+
+    return run_cli(_factory, description="Catalyst 2: Neocloud distress",
+                   extra_args=_extra, argv=argv)
 
 
 if __name__ == "__main__":
