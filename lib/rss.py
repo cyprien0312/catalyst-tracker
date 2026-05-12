@@ -1,14 +1,13 @@
 """RSS / Atom feed fetcher with per-feed dedup via SQLite state.
 
 Designed for the catalyst tracker:
-- Per-feed etag / last-modified persisted in `seen` under key `rss_meta:{url}`.
-- Per-entry GUID stored under table `rss_seen:{url}`.
+- Per-feed etag / last-modified persisted in dedicated `rss_meta` table.
+- Per-entry GUID stored under table `rss_seen:{url}` in `seen`.
 - Returns only new entries each call.
 """
 from __future__ import annotations
 
 import hashlib
-import json
 import time
 from dataclasses import dataclass
 from typing import Iterable
@@ -17,6 +16,31 @@ import feedparser
 import requests
 
 from lib.state import State
+
+
+_RSS_META_SCHEMA = """
+CREATE TABLE IF NOT EXISTS rss_meta (
+    feed_url     TEXT PRIMARY KEY,
+    etag         TEXT,
+    last_modified TEXT,
+    ts           INTEGER NOT NULL
+);
+"""
+
+_LEGACY_CLEANED = False
+
+
+def _ensure_meta_table(state: State) -> None:
+    """Create rss_meta if missing and cleanup legacy rss_meta_blob rows once per process."""
+    global _LEGACY_CLEANED
+    with state.connection() as c:
+        c.executescript(_RSS_META_SCHEMA)
+        if not _LEGACY_CLEANED:
+            try:
+                c.execute("DELETE FROM seen WHERE table_name='rss_meta_blob'")
+            except Exception:
+                pass
+            _LEGACY_CLEANED = True
 
 
 @dataclass(frozen=True)
@@ -30,7 +54,6 @@ class Entry:
 
 
 def _entry_guid(entry: dict) -> str:
-    # feedparser gives us .id, .guid, .link — pick best, else hash title+summary.
     for k in ("id", "guid", "link"):
         v = entry.get(k)
         if v:
@@ -41,26 +64,37 @@ def _entry_guid(entry: dict) -> str:
     return f"hash:{h}"
 
 
+def _load_meta(state: State, feed_url: str) -> tuple[str | None, str | None]:
+    with state.connection() as c:
+        row = c.execute(
+            "SELECT etag, last_modified FROM rss_meta WHERE feed_url=?",
+            (feed_url,),
+        ).fetchone()
+    if not row:
+        return None, None
+    return row[0], row[1]
+
+
+def _save_meta(state: State, feed_url: str, etag: str | None, last_modified: str | None) -> None:
+    with state.connection() as c:
+        c.execute(
+            "INSERT INTO rss_meta(feed_url, etag, last_modified, ts) VALUES(?,?,?,?) "
+            "ON CONFLICT(feed_url) DO UPDATE SET etag=excluded.etag, "
+            "last_modified=excluded.last_modified, ts=excluded.ts",
+            (feed_url, etag, last_modified, int(time.time())),
+        )
+
+
 def fetch(feed_url: str, state: State, *, timeout: int = 30,
           user_agent: str = "catalyst-tracker") -> list[Entry]:
     """Fetch a feed and return entries we haven't seen before."""
-    meta_key = f"rss_meta:{feed_url}"
+    _ensure_meta_table(state)
     headers = {"User-Agent": user_agent}
-    # Read prior etag/last-modified.
-    with state.connection() as c:
-        row = c.execute(
-            "SELECT key FROM seen WHERE table_name='rss_meta_blob' AND key LIKE ?",
-            (meta_key + ":%",),
-        ).fetchone()
-    if row:
-        try:
-            blob = json.loads(row[0].split(":", 2)[2])
-            if blob.get("etag"):
-                headers["If-None-Match"] = blob["etag"]
-            if blob.get("last_modified"):
-                headers["If-Modified-Since"] = blob["last_modified"]
-        except Exception:
-            pass
+    etag, lm = _load_meta(state, feed_url)
+    if etag:
+        headers["If-None-Match"] = etag
+    if lm:
+        headers["If-Modified-Since"] = lm
 
     try:
         resp = requests.get(feed_url, headers=headers, timeout=timeout)
@@ -74,18 +108,10 @@ def fetch(feed_url: str, state: State, *, timeout: int = 30,
         print(f"rss: {feed_url} returned {resp.status_code}")
         return []
 
-    # Persist new etag / last-modified.
-    etag = resp.headers.get("ETag")
-    lm = resp.headers.get("Last-Modified")
-    if etag or lm:
-        blob = json.dumps({"etag": etag, "last_modified": lm})
-        with state.connection() as c:
-            c.execute("DELETE FROM seen WHERE table_name='rss_meta_blob' AND key LIKE ?",
-                      (meta_key + ":%",))
-            c.execute(
-                "INSERT INTO seen(table_name, key, ts) VALUES(?,?,?)",
-                ("rss_meta_blob", f"{meta_key}:_:{blob}", int(time.time())),
-            )
+    new_etag = resp.headers.get("ETag")
+    new_lm = resp.headers.get("Last-Modified")
+    if new_etag or new_lm:
+        _save_meta(state, feed_url, new_etag, new_lm)
 
     parsed = feedparser.parse(resp.content)
     out: list[Entry] = []

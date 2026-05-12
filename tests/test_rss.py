@@ -41,3 +41,22 @@ def test_fetch_handles_304_not_modified(tmp_path):
     responses.add(responses.GET, URL, status=304)
     st = State("rss", db_path=tmp_path / "t.sqlite")
     assert fetch(URL, st) == []
+
+
+@responses.activate
+def test_rss_meta_table_populated_with_etag(tmp_path):
+    body = (FIX / "sample_feed.xml").read_text()
+    responses.add(
+        responses.GET, URL, body=body, status=200,
+        headers={"ETag": "\"abc123\"", "Last-Modified": "Wed, 21 Oct 2026 07:28:00 GMT"},
+    )
+    st = State("rss", db_path=tmp_path / "t.sqlite")
+    fetch(URL, st)
+    with st.connection() as c:
+        row = c.execute(
+            "SELECT etag, last_modified FROM rss_meta WHERE feed_url=?",
+            (URL,),
+        ).fetchone()
+    assert row is not None
+    assert row[0] == "\"abc123\""
+    assert row[1] == "Wed, 21 Oct 2026 07:28:00 GMT"
