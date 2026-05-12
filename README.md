@@ -70,6 +70,78 @@ python scripts/build_dashboard.py   # writes docs/index.html
 4. The five `catalystN_*.yml` workflows run on cron (see `.github/workflows/`).
 5. `keepalive.yml` pings weekly to prevent the 60-day cron disable.
 
+## Email alerts — what to expect
+
+Every alert lands in `ALERT_TO` with `From: GMAIL_USER`. Subjects are prefixed
+`[C{N}-{SEVERITY}]` so you can build Gmail filters. The header
+`X-Catalyst-Severity: CRITICAL|HIGH|MED|LOG` is also set for routing.
+
+### Severity tiers
+
+| Tier | When | Suggested action |
+|---|---|---|
+| `CRITICAL` | Hard distress signal (going-concern, 8-K item 2.04/4.02/1.03, OpenAI default/bond, covenant breach) | Investigate same day |
+| `HIGH` | Strong leading indicator (capex/OCF cross, FCF negative, stock crash, useful-life shortening) | Investigate within a day or two |
+| `MED` | Soft signal (Henry Hub stress, queue MW drop, generic Sarah Friar mention) | Skim; correlate with other tiers |
+| `LOG` | Tracked but not alert-worthy on its own | No action |
+
+### Subject formats per catalyst
+
+| Catalyst | Example subject | What it means |
+|---|---|---|
+| **C1** | `[C1-HIGH] AMZN 10-K: depreciation language change detected` | A regex hit in a freshly-filed 10-K/10-Q for a hyperscaler |
+| **C2 (filing)** | `[C2-CRITICAL] APLD 10-Q: distress language detected` | Going-concern / covenant / material-adverse language in a neocloud filing |
+| **C2 (8-K)** | `[C2-CRITICAL] CRWV 8-K: distress item(s) 2.04` | A neocloud filed an 8-K item 2.04 / 4.02 / 1.03 |
+| **C2 (price)** | `[C2-HIGH] IREN: crash -18.5% on 4.2x volume` | Single-session drop ≥15% on volume ≥3× 20-day avg |
+| **C3 (news)** | `[C3-CRITICAL] OpenAI bond prospectus filed — Reuters` | RSS item where an OpenAI mention is within 120 chars of a tier token |
+| **C3 (MSFT)** | `[C3-CRITICAL] MSFT 10-K: OpenAI critical-tier mention` | A new MSFT 10-K/10-Q has an OpenAI mention near a CRITICAL token |
+| **C4 (cross)** | `[C4-HIGH] MSFT: TTM Capex/OCF crossed 112% (was 89%)` | Hyperscaler's TTM ratio crossed 110% upward this quarter |
+| **C4 (jump)** | `[C4-MED] META: Capex/OCF jumped 17pp` | ≥15-percentage-point QoQ jump in the ratio |
+| **C4 (FCF)** | `[C4-HIGH] ORCL: TTM FCF turned negative (-30.0B as of 2026-02-28)` | TTM Free Cash Flow went below zero |
+| **C5 (MW)** | `[C5-MED] PJM: queue MW down 6.3% vs 2026-04-12` | Interconnection-queue total dropped ≥5% vs prior snapshot |
+| **C5 (withdraw)** | `[C5-HIGH] PJM: 7 new withdrawals vs 2026-04-12` | ≥5 new withdrawn projects ≥100 MW since last snapshot |
+| **C5 (Henry Hub)** | `[C5-MED] Henry Hub 12mo strip avg $5.18/MMBtu ≥ $5.00` | EIA 12-month gas-futures strip crossed the stress line |
+| **OPS test** | `[OPS-TEST] catalyst-tracker SMTP smoke` | Manual test via `scripts/test_alert.py` |
+
+### Email body
+
+Each body includes (when applicable): ticker, form, filed date, accession
+number, direct EDGAR URL, and the regex-matched snippet (±240 chars) so you
+can confirm the signal in one click.
+
+### Dedup — you will NOT get spam
+
+`lib/notify.py` SHA-256 hashes `(subject, body[:500])` and stores it for
+**7 days**. The same alert won't re-fire in that window even if the catalyst
+sees it on every scheduled run. Per-source idempotency is also enforced:
+- SEC filings dedup by accession number (immutable)
+- RSS items dedup by `(feed_url, GUID)` with a 30-day TTL
+- C4/C5 numeric crosses dedup by `(signal_kind, ticker, period)`
+
+So a single "MSFT Capex/OCF crossed 110%" event sends exactly one email even
+though the workflow runs daily forever afterwards.
+
+### Cadence — when you might wake up to an alert
+
+| Catalyst | Cron (UTC) | Typical earliest news from |
+|---|---|---|
+| C1 | daily 11:00 | Quarterly earnings windows (Feb, May, Aug, Nov) |
+| C2 | hourly during US market hours, weekends light | Any business hour |
+| C3 | every 30 min, 24/7 | Any time — news-driven |
+| C4 | daily 11:30 | Post-earnings days |
+| C5 | daily 10:00, monthly first-Friday for ERCOT | Mostly slow-moving |
+
+GitHub Actions cron drift is 10–30 min in practice. So worst-case C3 latency
+on a breaking news item is ~45 min.
+
+### Tuning email volume
+
+- Make a tier silent: comment the tier loop in `c3_openai.classify()` or set
+  the threshold in `lib/thresholds.py` higher.
+- Change dedup window: `DEDUP_TTL_SECONDS` in `lib/notify.py`.
+- Route by severity: add Gmail filters on `X-Catalyst-Severity: CRITICAL`
+  forwarding to your phone.
+
 ## Source-spec note
 
 The threshold tables and verbatim regex anchors live in `docs/source-spec.md`
