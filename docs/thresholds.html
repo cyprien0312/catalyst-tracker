@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>catalyst-tracker — thresholds</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { margin-bottom: 0; }
+  h2 { margin-top: 2rem; padding-bottom: 4px; border-bottom: 2px solid #eee; }
+  .meta { color: #666; font-size: 0.9em; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin: 1rem 0; }
+  .card { border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px 14px; background: #fafafa; }
+  .card .name { font-weight: 600; color: #222; }
+  .card .val { font-family: ui-monospace, monospace; font-size: 1.05em; margin: 4px 0; color: #111; word-break: break-word; }
+  .card .note { color: #666; font-size: 0.85em; margin-top: 4px; }
+  .sev { display: inline-block; padding: 1px 8px; border-radius: 10px; color: white; font-size: 0.75em; font-weight: 600; letter-spacing: 0.5px; }
+</style>
+</head><body>
+<h1>Thresholds</h1>
+<div class="meta">Generated 2026-05-12 04:32:29 UTC · <a href="index.html">← dashboard</a></div>
+
+<p>The numbers and patterns each catalyst uses to decide when to fire an alert.
+Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
+
+
+
+
+<h2>C1 — GPU Depreciation Useful-Life Changes</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">Useful life shortened 6→5 years</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Amazon FY2024 10-K verbatim trigger</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Useful life study language</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Anchored on AMZN/META 10-K phrasing</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">META 5.5-year language</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">Generic; alone is not enough to act on</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Accelerated depreciation + server</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Impairment proxy</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Estimate change near equipment</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    
+  </div>
+  
+</div>
+
+
+
+
+<h2>C2 — Neocloud Distress</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">Going-concern language</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #c0392b;">CRITICAL</span>
+    </div>
+    <div class="note">10-K/10-Q text</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Covenant distress</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">breach|default|waiver|amendment</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Material adverse change</div>
+    <div class="val">regex hit</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">near liquidity/debt</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">8-K item 2.04 / 4.02 / 1.03</div>
+    <div class="val">filing</div>
+    <div>
+      <span class="sev" style="background: #c0392b;">CRITICAL</span>
+    </div>
+    <div class="note">debt acceleration / non-reliance / bankruptcy</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Stock crash price drop</div>
+    <div class="val">≤ −15%</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Single-session close</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Stock crash volume ratio</div>
+    <div class="val">≥ 3.0× 20d avg</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Both price AND volume must hit</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C3 — OpenAI Financial Stress</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">OpenAI proximity window</div>
+    <div class="val">≤ 120 chars</div>
+    <div>
+      <span class="sev" style="background: #bdc3c7;">—</span>
+    </div>
+    <div class="note">Tier token must be within this many chars of an OpenAI mention</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">CRITICAL tier tokens</div>
+    <div class="val">bond\b, prospectus\b, \bdefault(?:s|ed|ing)?\b, \bcovenant\b, \bwrite[- ]?down\b, \bimpair(?:ment|ed)\b, \brestructuring\b, \bgoing\s+concern\b</div>
+    <div>
+      <span class="sev" style="background: #c0392b;">CRITICAL</span>
+    </div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="name">HIGH tier tokens</div>
+    <div class="val">\bburn\s+rate\b, \bcash\s+burn\b, \bdown\s+round\b, \bvaluation\s+cut\b, \bnet\s+loss(es)?\b, \bIPO\b</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="name">MED tier tokens</div>
+    <div class="val">\bSarah\s+Friar\b</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">Case-sensitive proper nouns only</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C4 — Hyperscaler Capex Cuts</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">TTM Capex/OCF cross</div>
+    <div class="val">≥ 110%</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Upward cross of the prior quarter's value</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">QoQ ratio jump</div>
+    <div class="val">≥ 15 pp</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="name">TTM Free Cash Flow</div>
+    <div class="val">< 0</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">OCF − Capex over trailing four quarters</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C5 — Grid Bottlenecks</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">Henry Hub 12-mo strip avg</div>
+    <div class="val">≥ $5.00/MMBtu</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">Average of front-month + 11 futures contracts</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">MoM queue MW drop</div>
+    <div class="val">≥ 5%</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="name">Weekly new withdrawals</div>
+    <div class="val">≥ 5</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Projects ≥ 100 MW</div>
+  </div>
+  
+</div>
+
+
+
+<hr>
+<p class="meta">Source: <a href="https://github.com/cyprien0312/catalyst-tracker">catalyst-tracker</a></p>
+</body></html>

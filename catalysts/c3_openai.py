@@ -15,30 +15,73 @@ DEFAULT_FEEDS = [
     "https://feeds.content.dowjones.io/public/rss/RSSWSJD",
 ]
 
+# Proximity window: a tier token must appear within this many characters of an
+# OpenAI mention to count. This kills the "MSFT 10-Q mentions OpenAI in one
+# paragraph and 'impairment of goodwill' in an unrelated paragraph" FP.
+PROXIMITY_WINDOW = 120
+
+# Tokens are tier-level keywords. Each tier is a list of regex fragments —
+# word-boundary anchored where possible so "ipo" doesn't match "iponomy".
 CRITICAL_TOKENS = (
-    "bond", "prospectus", "default", "covenant", "write-down", "writedown",
-    "impair", "impairment", "restructuring",
+    r"bond\b", r"prospectus\b", r"\bdefault(?:s|ed|ing)?\b",
+    r"\bcovenant\b", r"\bwrite[- ]?down\b",
+    r"\bimpair(?:ment|ed)\b",      # requires word boundary; not just "impair" substring
+    r"\brestructuring\b",
+    r"\bgoing\s+concern\b",
 )
 HIGH_TOKENS = (
-    "burn rate", "losses", "down round", "valuation cut", "ipo",
+    r"\bburn\s+rate\b", r"\bcash\s+burn\b",
+    r"\bdown\s+round\b", r"\bvaluation\s+cut\b",
+    r"\bnet\s+loss(es)?\b",
+    r"\bIPO\b",  # uppercase IPO only — avoids "ipo" inside other words; case-sensitive intentional
 )
-MED_TOKENS = ("sarah friar", "revenue")
+MED_TOKENS = (
+    r"\bSarah\s+Friar\b",          # case-sensitive: proper noun
+)
 
-# Pre-filter so we only consider items that mention OpenAI / GPT / Altman.
+# OpenAI / Altman / ChatGPT / GPT-N references.
 _OPENAI_RE = re.compile(r"\b(openai|altman|chatgpt|gpt-?[0-9])\b", re.I)
 
 
+def _near_openai(text: str, token_pattern: str, *, case_sensitive: bool) -> bool:
+    """True if any match of token_pattern is within PROXIMITY_WINDOW chars
+    of an OpenAI mention."""
+    flags = 0 if case_sensitive else re.I
+    openai_spans = [m.span() for m in _OPENAI_RE.finditer(text)]
+    if not openai_spans:
+        return False
+    for tm in re.finditer(token_pattern, text, flags=flags):
+        ts, te = tm.span()
+        for os_, oe in openai_spans:
+            # Distance from nearest edge to nearest edge.
+            if ts >= oe:
+                gap = ts - oe
+            elif os_ >= te:
+                gap = os_ - te
+            else:
+                gap = 0  # overlapping
+            if gap <= PROXIMITY_WINDOW:
+                return True
+    return False
+
+
 def classify(text: str) -> str | None:
-    """Return severity if the text mentions OpenAI AND a tier token."""
+    """Return severity tier if the text contains an OpenAI mention with a
+    tier token within PROXIMITY_WINDOW characters. Severity falls through
+    CRITICAL → HIGH → MED."""
     if not _OPENAI_RE.search(text):
         return None
-    low = text.lower()
-    if any(tok in low for tok in CRITICAL_TOKENS):
-        return "CRITICAL"
-    if any(tok in low for tok in HIGH_TOKENS):
-        return "HIGH"
-    if any(tok in low for tok in MED_TOKENS):
-        return "MED"
+    # IPO and proper nouns are case-sensitive; the rest case-insensitive.
+    for pat in CRITICAL_TOKENS:
+        if _near_openai(text, pat, case_sensitive=False):
+            return "CRITICAL"
+    for pat in HIGH_TOKENS:
+        cs = pat == r"\bIPO\b"
+        if _near_openai(text, pat, case_sensitive=cs):
+            return "HIGH"
+    for pat in MED_TOKENS:
+        if _near_openai(text, pat, case_sensitive=True):
+            return "MED"
     return None
 
 

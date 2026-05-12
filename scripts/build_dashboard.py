@@ -11,11 +11,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from jinja2 import Template
 
 from lib.state import State
+from lib.thresholds import all_thresholds
 
 REPO = Path(__file__).resolve().parent.parent
 TEMPLATE_PATH = REPO / "docs" / "index.html.j2"
 OUT_HTML = REPO / "docs" / "index.html"
 OUT_JSON = REPO / "docs" / "data" / "status.json"
+OUT_THRESHOLDS = REPO / "docs" / "thresholds.html"
 
 CATALYSTS = [
     ("C1", "GPU Depreciation Useful-Life Changes"),
@@ -100,7 +102,7 @@ DEFAULT_TEMPLATE = """<!doctype html>
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated {{ s.generated_at_str }}</div>
+<div class="meta">Generated {{ s.generated_at_str }} · <a href="thresholds.html">view thresholds →</a></div>
 
 <h2>Catalysts</h2>
 <table>
@@ -154,13 +156,82 @@ DEFAULT_TEMPLATE = """<!doctype html>
 """
 
 
+_SEVERITY_COLORS = {
+    "CRITICAL": "#c0392b",
+    "HIGH": "#e67e22",
+    "MED": "#f1c40f",
+    "LOG": "#7f8c8d",
+    "—": "#bdc3c7",
+}
+
+
+def render_thresholds() -> str:
+    thresholds = all_thresholds()
+    by_cat: dict[str, list] = {}
+    for t in thresholds:
+        by_cat.setdefault(t.catalyst, []).append(t)
+    tmpl = Template(THRESHOLDS_TEMPLATE)
+    return tmpl.render(by_cat=by_cat,
+                       cat_names=dict(CATALYSTS),
+                       colors=_SEVERITY_COLORS,
+                       generated_at_str=time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()))
+
+
+THRESHOLDS_TEMPLATE = """<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>catalyst-tracker — thresholds</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { margin-bottom: 0; }
+  h2 { margin-top: 2rem; padding-bottom: 4px; border-bottom: 2px solid #eee; }
+  .meta { color: #666; font-size: 0.9em; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin: 1rem 0; }
+  .card { border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px 14px; background: #fafafa; }
+  .card .name { font-weight: 600; color: #222; }
+  .card .val { font-family: ui-monospace, monospace; font-size: 1.05em; margin: 4px 0; color: #111; word-break: break-word; }
+  .card .note { color: #666; font-size: 0.85em; margin-top: 4px; }
+  .sev { display: inline-block; padding: 1px 8px; border-radius: 10px; color: white; font-size: 0.75em; font-weight: 600; letter-spacing: 0.5px; }
+</style>
+</head><body>
+<h1>Thresholds</h1>
+<div class="meta">Generated {{ generated_at_str }} · <a href="index.html">← dashboard</a></div>
+
+<p>The numbers and patterns each catalyst uses to decide when to fire an alert.
+Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
+
+{% for cid in ["C1","C2","C3","C4","C5"] %}
+{% set items = by_cat.get(cid, []) %}
+{% if items %}
+<h2>{{ cid }} — {{ cat_names.get(cid, "") }}</h2>
+<div class="card-grid">
+  {% for t in items %}
+  <div class="card">
+    <div class="name">{{ t.name }}</div>
+    <div class="val">{{ t.value }}</div>
+    <div>
+      <span class="sev" style="background: {{ colors.get(t.severity, '#888') }};">{{ t.severity }}</span>
+    </div>
+    {% if t.note %}<div class="note">{{ t.note }}</div>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endfor %}
+
+<hr>
+<p class="meta">Source: <a href="https://github.com/cyprien0312/catalyst-tracker">catalyst-tracker</a></p>
+</body></html>
+"""
+
+
 def main() -> int:
     status = collect_status()
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(status, indent=2))
-    html = render(status)
-    OUT_HTML.write_text(html)
-    print(f"wrote {OUT_HTML} and {OUT_JSON}")
+    OUT_HTML.write_text(render(status))
+    OUT_THRESHOLDS.write_text(render_thresholds())
+    print(f"wrote {OUT_HTML}, {OUT_THRESHOLDS}, {OUT_JSON}")
     return 0
 
 
