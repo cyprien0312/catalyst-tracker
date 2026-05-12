@@ -36,9 +36,11 @@ def collect_status() -> dict:
     last_ts = 0
     table_counts = {}
     for table, cnt, ts in rows:
-        table_counts[table] = {"count": int(cnt), "last_ts": int(ts or 0)}
-        if ts and int(ts) > last_ts:
-            last_ts = int(ts)
+        ts_int = int(ts or 0)
+        last_str = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(ts_int)) if ts_int else ""
+        table_counts[table] = {"count": int(cnt), "last_ts": ts_int, "last_str": last_str}
+        if ts_int > last_ts:
+            last_ts = ts_int
 
     # Snapshot of c4 ratios and c5 queues if those tables exist.
     c4_rows = []
@@ -113,7 +115,7 @@ DEFAULT_TEMPLATE = """<!doctype html>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 {% for name, info in s.tables.items()|sort %}
 <tr><td><code>{{ name }}</code></td><td>{{ info.count }}</td>
-<td>{% if info.last_ts %}{{ info.last_ts|string }}{% else %}—{% endif %}</td></tr>
+<td>{% if info.last_str %}{{ info.last_str }}{% else %}—{% endif %}</td></tr>
 {% endfor %}
 </table>
 
