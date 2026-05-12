@@ -46,6 +46,26 @@ python -m catalysts.c4_capex --dry-run
 python -m catalysts.c5_grid --dry-run
 ```
 
+Available CLI flags per module:
+- All: `--dry-run` (print alerts instead of emailing)
+- C2: `--no-prices` (skip yfinance crash detector)
+- C3: `--no-edgar` (RSS feeds only — skip MSFT filings scan)
+- C5: `--skip-iso` (skip live PJM/CAISO XLSX downloads — useful when SSL fails locally)
+
+## Logging
+
+All diagnostics route through `lib/log.py` (`lib.log.get_logger(__name__)`).
+Stack traces are included automatically when logged from an `except` block.
+
+Adjust verbosity via env var:
+```bash
+LOG_LEVEL=DEBUG python -m catalysts.c3_openai --dry-run
+LOG_LEVEL=WARNING python -m catalysts.c5_grid    # quieter in production
+```
+
+Default level is `INFO`. The end-of-run summary line (`c3: 4 alert(s) emailed`)
+goes to stdout via `print()` — intentional, not a logger message.
+
 ## Backfill (one-time seed)
 
 ```bash
@@ -108,6 +128,34 @@ Every alert lands in `ALERT_TO` with `From: GMAIL_USER`. Subjects are prefixed
 Each body includes (when applicable): ticker, form, filed date, accession
 number, direct EDGAR URL, and the regex-matched snippet (±240 chars) so you
 can confirm the signal in one click.
+
+### Transition vs. state — when alerts fire
+
+For C4 (capex) and the planned C2 numeric triggers, alerts fire on
+**transitions**, not on persistent state. Concretely:
+
+- **C4 ratio cross**: fires only when the previous quarter's TTM Capex/OCF was
+  *below* 110% and the current quarter is *at or above* 110%. A company that
+  has been at 160% for three years will alert exactly once (when it first
+  crossed), then never again until it drops below and re-crosses.
+- **C4 FCF turning negative**: fires only when the previous TTM FCF was
+  ≥ 0 and the current is < 0. Long-standing negative-FCF companies do not
+  alert on every scan.
+- **C5 ISO MW drop / withdrawals**: requires a prior snapshot. First run for a
+  given ISO just establishes the baseline.
+
+This means the **first scan of a fresh database is intentionally quiet** —
+you'll get the baseline established, then real signals from there.
+
+The prior values live in `c4_xbrl` (`fcf_ttm`, `ratio`) and `c5_queues`. Run
+`sqlite3 state/tracker.sqlite ".schema c4_xbrl"` to inspect.
+
+### yfinance price-crash cache (C2)
+
+The C2 stock-crash detector hits yfinance, which throttles aggressively.
+`lib/prices.py:stock_crash_cached` wraps the check with a **6-hour TTL cache**
+via the `c2_price_check` state table. C2 fires hourly during market hours but
+yfinance is queried at most once every 6 hours per ticker.
 
 ### Dedup — you will NOT get spam
 
