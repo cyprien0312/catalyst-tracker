@@ -50,3 +50,28 @@ def stock_crash(
             "date": str(df.index[-1].date()) if hasattr(df.index[-1], "date") else str(df.index[-1]),
         }
     return None
+
+
+def stock_crash_cached(
+    ticker: str,
+    state,
+    fetch: Optional[Callable[[str], pd.DataFrame]] = None,
+    ttl_seconds: int = 6 * 3600,
+    pct_threshold: float = -0.15,
+    vol_ratio_threshold: float = 3.0,
+) -> dict | None:
+    """Cached wrapper around stock_crash.
+
+    Uses the State's `seen` table under "c2_price_check" with the given TTL.
+    Returns None on cache hit (no alert this run); otherwise performs a fresh
+    check and marks the ticker as seen.
+    """
+    if state.seen("c2_price_check", ticker, ttl_seconds=ttl_seconds):
+        return None
+    result = stock_crash(
+        ticker, fetch=fetch,
+        pct_threshold=pct_threshold,
+        vol_ratio_threshold=vol_ratio_threshold,
+    )
+    state.mark_seen("c2_price_check", ticker)
+    return result

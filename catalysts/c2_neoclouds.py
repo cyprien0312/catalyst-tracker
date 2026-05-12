@@ -11,7 +11,7 @@ from catalysts.base import Alert, CatalystBase
 from lib.config import NEOCLOUDS
 from lib.edgar import EdgarClient, Filing
 from lib.log import get_logger
-from lib.prices import stock_crash
+from lib.prices import stock_crash, stock_crash_cached
 from lib.state import State
 
 log = get_logger(__name__)
@@ -134,9 +134,9 @@ class Catalyst2(CatalystBase):
                             body=_render_filing_body(ticker, filing, hits),
                         ))
 
-            # Stock crash check (one per ticker per day)
+            # Stock crash check (cached 6h to absorb yfinance flakiness).
             try:
-                crash = stock_crash(ticker, fetch=self._price_fetch)
+                crash = stock_crash_cached(ticker, self._state, fetch=self._price_fetch)
             except Exception:
                 crash = None
                 # Non-fatal — yfinance may rate-limit or fail; continue.
