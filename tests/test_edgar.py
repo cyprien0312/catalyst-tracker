@@ -76,6 +76,29 @@ def test_filings_expose_8k_items():
 
 
 @responses.activate
+def test_get_filing_text_decodes_html_entities():
+    f = Filing(
+        cik="0001018724",
+        accession="0001018724-25-000004",
+        form="10-K",
+        filed_date="2025-02-07",
+        primary_document="amzn-20241231.htm",
+        url="https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+    )
+    responses.add(
+        responses.GET, f.url,
+        body="<p>&#8220;hello&#8221; &amp; goodbye</p>",
+        status=200,
+    )
+    c = EdgarClient()
+    text = c.get_filing_text(f)
+    assert "“hello”" in text
+    assert "& goodbye" in text
+    assert "&amp;" not in text
+    assert "&#8220;" not in text
+
+
+@responses.activate
 def test_user_agent_header_is_sent(monkeypatch):
     monkeypatch.setenv("SEC_USER_AGENT", "catalyst-tracker test@example.com")
     body = (FIX / "edgar_submissions_amzn.json").read_text()

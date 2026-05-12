@@ -1,3 +1,4 @@
+import html
 import re
 from dataclasses import dataclass
 from typing import Iterable
@@ -28,10 +29,11 @@ class Filing:
     items: tuple[str, ...] = ()
 
 
-def _strip_html(html: str) -> str:
-    s = _SCRIPT_RE.sub(" ", html)
+def _strip_html(html_text: str) -> str:
+    s = _SCRIPT_RE.sub(" ", html_text)
     s = _STYLE_RE.sub(" ", s)
     s = _TAG_RE.sub(" ", s)
+    s = html.unescape(s)
     return _WS_RE.sub(" ", s).strip()
 
 
