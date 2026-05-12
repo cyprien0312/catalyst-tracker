@@ -38,6 +38,7 @@ def scan_text(text: str) -> list[dict]:
 
 from lib.config import HYPERSCALERS
 from lib.edgar import EdgarClient
+from lib.explanations import append_context
 from lib.state import State
 from catalysts.base import Alert, CatalystBase
 
@@ -81,11 +82,15 @@ class Catalyst1(CatalystBase):
                 if not hits:
                     continue
                 sev = MAX_SEVERITY_RANK([h["severity"] for h in hits])
+                # Pick the highest-severity hit's key for the explanation; for ties,
+                # the first matched pattern wins.
+                top_hit = max(hits, key=lambda h: _SEVERITY_ORDER[h["severity"]])
+                body = append_context(_render_body(ticker, filing, hits), "C1", top_hit["key"])
                 alerts.append(Alert(
                     catalyst="C1",
                     severity=sev,
                     subject=f"[C1-{sev}] {ticker} {filing.form}: depreciation language change detected",
-                    body=_render_body(ticker, filing, hits),
+                    body=body,
                 ))
         return alerts
 

@@ -5,6 +5,7 @@ import re
 
 from catalysts.base import Alert, CatalystBase
 from lib.edgar import EdgarClient
+from lib.explanations import append_context
 from lib.rss import Entry, fetch_many
 from lib.state import State
 
@@ -116,11 +117,12 @@ class Catalyst3(CatalystBase):
             sev = classify(text)
             if not sev:
                 continue
+            body = append_context(_render_news_body(entry, sev), "C3", sev)
             alerts.append(Alert(
                 catalyst="C3",
                 severity=sev,
                 subject=f"[C3-{sev}] {entry.title[:120]}",
-                body=_render_news_body(entry, sev),
+                body=body,
             ))
 
         # MSFT filings — scan for OpenAI mentions paired with CRITICAL tokens.
@@ -132,16 +134,20 @@ class Catalyst3(CatalystBase):
             sev = classify(text)
             if sev != "CRITICAL":
                 continue
-            alerts.append(Alert(
-                catalyst="C3",
-                severity=sev,
-                subject=f"[C3-{sev}] MSFT {filing.form}: OpenAI critical-tier mention",
-                body=(
+            body = append_context(
+                (
                     f"Form:      {filing.form}\n"
                     f"Filed:     {filing.filed_date}\n"
                     f"Accession: {filing.accession}\n"
                     f"URL:       {filing.url}\n"
                 ),
+                "C3", sev,
+            )
+            alerts.append(Alert(
+                catalyst="C3",
+                severity=sev,
+                subject=f"[C3-{sev}] MSFT {filing.form}: OpenAI critical-tier mention",
+                body=body,
             ))
         return alerts
 
@@ -154,10 +160,11 @@ class _Catalyst3NewsOnly(Catalyst3):
         for entry in fetch_many(self._feeds, self._state):
             sev = classify(f"{entry.title}\n{entry.summary}")
             if sev:
+                body = append_context(_render_news_body(entry, sev), "C3", sev)
                 alerts.append(Alert(
                     catalyst="C3", severity=sev,
                     subject=f"[C3-{sev}] {entry.title[:120]}",
-                    body=_render_news_body(entry, sev),
+                    body=body,
                 ))
         return alerts
 

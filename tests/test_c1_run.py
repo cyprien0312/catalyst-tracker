@@ -37,6 +37,9 @@ def test_run_emits_alert_when_filing_matches(tmp_path):
     assert "AMZN" in a.subject and "10-K" in a.subject
     assert "0001018724-25-000004" in a.body
     assert "AMZN_SUBSET_PHRASE" in a.body or "USEFUL_LIFE_SHORTENED_6_TO_5" in a.body
+    # Explanation context appended
+    assert "What this means:" in a.body
+    assert "Why it matters:" in a.body
 
 
 def test_run_skips_already_seen_filings(tmp_path):

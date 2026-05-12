@@ -10,6 +10,7 @@ import re
 from catalysts.base import Alert, CatalystBase
 from lib.config import NEOCLOUDS
 from lib.edgar import EdgarClient, Filing
+from lib.explanations import append_context
 from lib.log import get_logger
 from lib.prices import stock_crash, stock_crash_cached
 from lib.state import State
@@ -115,11 +116,15 @@ class Catalyst2(CatalystBase):
                     self._state.mark_seen("c2_filings", filing.accession)
                     if distress:
                         sev = _max_sev([DISTRESS_ITEMS[it][0] for it in distress])
+                        # Highest-severity item drives the explanation key.
+                        top_item = max(distress, key=lambda it: _SEVERITY_ORDER[DISTRESS_ITEMS[it][0]])
+                        body = append_context(_render_8k_body(ticker, filing, distress),
+                                              "C2", f"C2_ITEM_{top_item}")
                         alerts.append(Alert(
                             catalyst="C2",
                             severity=sev,
                             subject=f"[C2-{sev}] {ticker} 8-K: distress item(s) {','.join(distress)}",
-                            body=_render_8k_body(ticker, filing, distress),
+                            body=body,
                         ))
                 else:
                     text = self._edgar.get_filing_text(filing)
@@ -127,11 +132,14 @@ class Catalyst2(CatalystBase):
                     self._state.mark_seen("c2_filings", filing.accession)
                     if hits:
                         sev = _max_sev([h["severity"] for h in hits])
+                        top_hit = max(hits, key=lambda h: _SEVERITY_ORDER[h["severity"]])
+                        body = append_context(_render_filing_body(ticker, filing, hits),
+                                              "C2", top_hit["key"])
                         alerts.append(Alert(
                             catalyst="C2",
                             severity=sev,
                             subject=f"[C2-{sev}] {ticker} {filing.form}: distress language detected",
-                            body=_render_filing_body(ticker, filing, hits),
+                            body=body,
                         ))
 
             # Stock crash check (cached 6h to absorb yfinance flakiness).
@@ -145,11 +153,13 @@ class Catalyst2(CatalystBase):
                 key = f"{ticker}|{crash['date']}"
                 if not self._state.seen("c2_crash", key):
                     self._state.mark_seen("c2_crash", key)
+                    body = append_context(_render_crash_body(ticker, crash),
+                                          "C2", "C2_STOCK_CRASH")
                     alerts.append(Alert(
                         catalyst="C2",
                         severity="HIGH",
                         subject=f"[C2-HIGH] {ticker}: crash {crash['change_pct']*100:.1f}% on {crash['ratio']:.1f}x volume",
-                        body=_render_crash_body(ticker, crash),
+                        body=body,
                     ))
         return alerts
 

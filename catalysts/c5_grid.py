@@ -2,10 +2,11 @@
 from __future__ import annotations
 
 from catalysts.base import Alert, CatalystBase
+from lib.eia import henry_hub_strip
+from lib.explanations import append_context
 from lib.log import get_logger
 from lib.state import State
 from lib import grid_queues
-from lib.eia import henry_hub_strip
 
 log = get_logger(__name__)
 
@@ -91,7 +92,10 @@ class Catalyst5(CatalystBase):
                         alerts.append(Alert(
                             catalyst="C5", severity="MED",
                             subject=f"[C5-MED] {iso}: queue MW down {drop_pct:.1f}% vs {prior['date']}",
-                            body=f"Total MW {summary['total_mw']:.0f} (was {prior_mw:.0f}). Snapshot {snapshot_date}.\n",
+                            body=append_context(
+                                f"Total MW {summary['total_mw']:.0f} (was {prior_mw:.0f}). Snapshot {snapshot_date}.\n",
+                                "C5", "MW_DROP",
+                            ),
                         ))
             new_withdrawn = summary["withdrawn_count"] - prior["withdrawn_count"]
             if new_withdrawn >= WITHDRAWN_THRESHOLD:
@@ -101,7 +105,10 @@ class Catalyst5(CatalystBase):
                     alerts.append(Alert(
                         catalyst="C5", severity="HIGH",
                         subject=f"[C5-HIGH] {iso}: {new_withdrawn} new withdrawals vs {prior['date']}",
-                        body=f"Withdrawn count {summary['withdrawn_count']} (was {prior['withdrawn_count']}).\n",
+                        body=append_context(
+                            f"Withdrawn count {summary['withdrawn_count']} (was {prior['withdrawn_count']}).\n",
+                            "C5", "NEW_WITHDRAWALS",
+                        ),
                     ))
         return alerts
 
@@ -118,7 +125,10 @@ class Catalyst5(CatalystBase):
                 alerts.append(Alert(
                     catalyst="C5", severity="MED",
                     subject=f"[C5-MED] Henry Hub 12mo strip avg ${avg:.2f}/MMBtu ≥ ${HENRY_HUB_STRESS:.2f}",
-                    body=f"Strip values: {strip}\n",
+                    body=append_context(
+                        f"Strip values: {strip}\n",
+                        "C5", "HENRY_HUB_STRESS",
+                    ),
                 ))
         return alerts
 

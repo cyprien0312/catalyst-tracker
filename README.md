@@ -129,6 +129,28 @@ Each body includes (when applicable): ticker, form, filed date, accession
 number, direct EDGAR URL, and the regex-matched snippet (±240 chars) so you
 can confirm the signal in one click.
 
+**Every alert ends with a "What this means / Why it matters" section** —
+a plain-English explanation of the signal and its implication for the
+AI-infrastructure thesis. These come from `lib/explanations.py`, indexed by
+`(catalyst, signal_kind)`. Edit that file to tune the wording.
+
+Example tail of a C4 FCF-negative alert:
+
+```
+────────────────────────────────────────────────────────────
+What this means:
+A hyperscaler's trailing-twelve-month free cash flow turned from
+non-negative to negative.
+
+Why it matters:
+Hyperscalers historically generated massive FCF — that's how the AI capex
+was supposed to be paid for. When TTM FCF goes negative, the implicit
+funding source switches to debt or balance sheet drawdown. Bank of America
+projected hyperscalers would spend ~94% of operating cash flow on capex in
+2026. Crossing zero on FCF means capex now exceeds *all* operating cash —
+they're pre-funding via debt.
+```
+
 ### Transition vs. state — when alerts fire
 
 For C4 (capex) and the planned C2 numeric triggers, alerts fire on

@@ -6,6 +6,7 @@ import re
 from catalysts.base import Alert, CatalystBase
 from lib.config import HYPERSCALERS
 from lib.edgar import EdgarClient
+from lib.explanations import append_context
 from lib.log import get_logger
 from lib.state import State
 from lib.xbrl import company_concept, quarterly_only, compute_ttm
@@ -111,10 +112,11 @@ class Catalyst4(CatalystBase):
                 alerts.append(Alert(
                     catalyst="C4", severity="HIGH",
                     subject=f"[C4-HIGH] {ticker}: TTM FCF turned negative ({fcf/1e9:.1f}B as of {end})",
-                    body=(
+                    body=append_context(
                         f"Ticker:    {ticker}\nPeriod:    TTM ending {end}\n"
                         f"Capex TTM: ${capex_ttm/1e9:.2f}B\nOCF TTM:   ${ocf_ttm/1e9:.2f}B\n"
-                        f"FCF TTM:   ${fcf/1e9:.2f}B\nRatio:     {ratio*100:.1f}%\n"
+                        f"FCF TTM:   ${fcf/1e9:.2f}B\nRatio:     {ratio*100:.1f}%\n",
+                        "C4", "FCF_NEGATIVE",
                     ),
                 ))
 
@@ -126,10 +128,11 @@ class Catalyst4(CatalystBase):
                 alerts.append(Alert(
                     catalyst="C4", severity="HIGH",
                     subject=f"[C4-HIGH] {ticker}: TTM Capex/OCF crossed {ratio*100:.0f}% (was {prior*100:.0f}%)",
-                    body=(
+                    body=append_context(
                         f"Ticker:    {ticker}\nPeriod:    TTM ending {end}\n"
                         f"Capex TTM: ${capex_ttm/1e9:.2f}B\nOCF TTM:   ${ocf_ttm/1e9:.2f}B\n"
-                        f"Ratio:     {ratio*100:.1f}% (prior {prior*100:.1f}%)\n"
+                        f"Ratio:     {ratio*100:.1f}% (prior {prior*100:.1f}%)\n",
+                        "C4", "RATIO_CROSS",
                     ),
                 ))
 
@@ -141,9 +144,10 @@ class Catalyst4(CatalystBase):
                 alerts.append(Alert(
                     catalyst="C4", severity="MED",
                     subject=f"[C4-MED] {ticker}: Capex/OCF jumped {(ratio-prior)*100:.0f}pp",
-                    body=(
+                    body=append_context(
                         f"Ticker:    {ticker}\nPeriod:    TTM ending {end}\n"
-                        f"Ratio:     {ratio*100:.1f}% (was {prior*100:.1f}%)\n"
+                        f"Ratio:     {ratio*100:.1f}% (was {prior*100:.1f}%)\n",
+                        "C4", "RATIO_JUMP",
                     ),
                 ))
         return alerts
