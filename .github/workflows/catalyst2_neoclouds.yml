@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: state-commit
+  group: catalyst2
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
         run: python -m catalysts.c2_neoclouds
       - name: Rebuild dashboard
         run: python scripts/build_dashboard.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit state
+        uses: ./.github/actions/commit-state
         with:
-          file_pattern: state/tracker.sqlite docs/index.html docs/data/status.json
-          commit_message: "state: c2 run ${{ github.run_id }}"
+          message: "state: c2 run ${{ github.run_id }}"

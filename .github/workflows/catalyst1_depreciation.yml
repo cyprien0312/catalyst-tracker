@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: state-commit
+  group: catalyst1
   cancel-in-progress: false
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
         run: python -m catalysts.c1_depreciation
       - name: Rebuild dashboard
         run: python scripts/build_dashboard.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit state
+        uses: ./.github/actions/commit-state
         with:
-          file_pattern: state/tracker.sqlite docs/index.html docs/data/status.json
-          commit_message: "state: c1 run ${{ github.run_id }}"
+          message: "state: c1 run ${{ github.run_id }}"

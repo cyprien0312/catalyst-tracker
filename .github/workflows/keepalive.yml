@@ -17,7 +17,8 @@ jobs:
         run: |
           mkdir -p state
           date -u +"%Y-%m-%dT%H:%M:%SZ" > state/heartbeat.txt
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit heartbeat
+        uses: ./.github/actions/commit-state
         with:
-          file_pattern: state/heartbeat.txt
-          commit_message: "chore: weekly heartbeat ${{ github.run_id }}"
+          message: "chore: weekly heartbeat ${{ github.run_id }}"
+          files: state/heartbeat.txt
