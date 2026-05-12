@@ -15,7 +15,10 @@ from typing import Iterable
 import feedparser
 import requests
 
+from lib.log import get_logger
 from lib.state import State
+
+log = get_logger(__name__)
 
 
 _RSS_META_SCHEMA = """
@@ -98,14 +101,14 @@ def fetch(feed_url: str, state: State, *, timeout: int = 30,
 
     try:
         resp = requests.get(feed_url, headers=headers, timeout=timeout)
-    except requests.RequestException as e:
-        print(f"rss: fetch failed {feed_url}: {e}")
+    except requests.RequestException:
+        log.exception("rss fetch failed %s", feed_url)
         return []
 
     if resp.status_code == 304:
         return []
     if resp.status_code >= 400:
-        print(f"rss: {feed_url} returned {resp.status_code}")
+        log.warning("rss %s returned %s", feed_url, resp.status_code)
         return []
 
     new_etag = resp.headers.get("ETag")

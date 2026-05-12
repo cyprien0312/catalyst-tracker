@@ -10,8 +10,11 @@ import re
 from catalysts.base import Alert, CatalystBase
 from lib.config import NEOCLOUDS
 from lib.edgar import EdgarClient, Filing
+from lib.log import get_logger
 from lib.prices import stock_crash
 from lib.state import State
+
+log = get_logger(__name__)
 
 
 PATTERNS: list[tuple[str, str, str]] = [
@@ -134,10 +137,10 @@ class Catalyst2(CatalystBase):
             # Stock crash check (one per ticker per day)
             try:
                 crash = stock_crash(ticker, fetch=self._price_fetch)
-            except Exception as e:
+            except Exception:
                 crash = None
                 # Non-fatal — yfinance may rate-limit or fail; continue.
-                print(f"c2: stock_crash({ticker}) failed: {e}")
+                log.exception("stock_crash(%s) failed", ticker)
             if crash:
                 key = f"{ticker}|{crash['date']}"
                 if not self._state.seen("c2_crash", key):

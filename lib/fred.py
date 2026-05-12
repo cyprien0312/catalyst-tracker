@@ -6,6 +6,10 @@ from typing import Optional
 
 import requests
 
+from lib.log import get_logger
+
+log = get_logger(__name__)
+
 BASE = "https://api.stlouisfed.org/fred"
 
 
@@ -25,7 +29,7 @@ def observations(series_id: str, limit: int = 30) -> list[dict]:
             timeout=30,
         )
         r.raise_for_status()
-    except requests.RequestException as e:
-        print(f"fred: fetch failed {series_id}: {e}")
+    except requests.RequestException:
+        log.exception("fred fetch failed %s", series_id)
         return []
     return r.json().get("observations", []) or []

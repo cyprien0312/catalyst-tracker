@@ -6,6 +6,10 @@ from typing import Optional
 
 import requests
 
+from lib.log import get_logger
+
+log = get_logger(__name__)
+
 BASE = "https://api.eia.gov/v2"
 
 
@@ -26,8 +30,8 @@ def series(series_id: str, length: int = 30) -> list[dict]:
     try:
         r = requests.get(url, params=params, timeout=30)
         r.raise_for_status()
-    except requests.RequestException as e:
-        print(f"eia: fetch failed {series_id}: {e}")
+    except requests.RequestException:
+        log.exception("eia fetch failed %s", series_id)
         return []
     data = r.json().get("response", {})
     return data.get("data", []) or []

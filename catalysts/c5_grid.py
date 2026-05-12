@@ -2,9 +2,12 @@
 from __future__ import annotations
 
 from catalysts.base import Alert, CatalystBase
+from lib.log import get_logger
 from lib.state import State
 from lib import grid_queues
 from lib.eia import henry_hub_strip
+
+log = get_logger(__name__)
 
 
 HENRY_HUB_STRESS = 5.00          # USD/MMBtu — 12-month strip average
@@ -70,8 +73,8 @@ class Catalyst5(CatalystBase):
         alerts: list[Alert] = []
         try:
             df = fetch()
-        except Exception as e:
-            print(f"c5: {iso} fetch failed: {e}")
+        except Exception:
+            log.exception("%s fetch failed", iso)
             return alerts
         summary = grid_queues.summarize(df, iso)
         prior = _prior_snapshot(self._state, iso, snapshot_date)

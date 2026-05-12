@@ -6,8 +6,11 @@ import re
 from catalysts.base import Alert, CatalystBase
 from lib.config import HYPERSCALERS
 from lib.edgar import EdgarClient
+from lib.log import get_logger
 from lib.state import State
 from lib.xbrl import company_concept, quarterly_only, compute_ttm
+
+log = get_logger(__name__)
 
 CAPEX_CONCEPT = "PaymentsToAcquirePropertyPlantAndEquipment"
 OCF_CONCEPT = "NetCashProvidedByUsedInOperatingActivities"
@@ -86,8 +89,8 @@ class Catalyst4(CatalystBase):
         try:
             capex_pts = quarterly_only(company_concept(self._edgar, cik, CAPEX_CONCEPT))
             ocf_pts = quarterly_only(company_concept(self._edgar, cik, OCF_CONCEPT))
-        except Exception as e:
-            print(f"c4: xbrl fetch failed for {ticker}: {e}")
+        except Exception:
+            log.exception("xbrl fetch failed for %s", ticker)
             return alerts
         capex_ttm = compute_ttm(capex_pts)
         ocf_ttm = compute_ttm(ocf_pts)
