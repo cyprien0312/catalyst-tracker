@@ -1,9 +1,9 @@
 name: catalyst5-grid
 
 on:
-  schedule:
-    - cron: "0 10 * * *"
-    - cron: "15 13 1-7 * 5"
+  #   schedule:
+    #     - cron: "0 10 * * *"
+    #     - cron: "15 13 1-7 * 5"
   workflow_dispatch:
 
 permissions:
