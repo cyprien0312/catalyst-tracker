@@ -16,7 +16,7 @@
 </style>
 </head><body>
 <h1>Thresholds</h1>
-<div class="meta">Generated 2026-05-12 05:52:13 UTC · <a href="index.html">← dashboard</a></div>
+<div class="meta">Generated 2026-05-14 07:24:08 UTC · <a href="index.html">← dashboard</a></div>
 
 <p>The numbers and patterns each catalyst uses to decide when to fire an alert.
 Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
@@ -162,7 +162,7 @@ Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune th
   
   <div class="card">
     <div class="name">HIGH tier tokens</div>
-    <div class="val">\bburn\s+rate\b, \bcash\s+burn\b, \bdown\s+round\b, \bvaluation\s+cut\b, \bnet\s+loss(es)?\b, \bIPO\b</div>
+    <div class="val">\bburn\s+rate\b, \bcash\s+burn\b, \bdown\s+round\b, \bvaluation\s+cut\b</div>
     <div>
       <span class="sev" style="background: #e67e22;">HIGH</span>
     </div>
@@ -171,7 +171,7 @@ Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune th
   
   <div class="card">
     <div class="name">MED tier tokens</div>
-    <div class="val">\bSarah\s+Friar\b</div>
+    <div class="val">\bSarah\s+Friar\b, \bnet\s+loss(es)?\b, \bIPO\b</div>
     <div>
       <span class="sev" style="background: #f1c40f;">MED</span>
     </div>
