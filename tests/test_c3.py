@@ -64,9 +64,19 @@ def test_lowercase_ipo_inside_other_word_does_not_match():
     assert classify(text) is None
 
 
-def test_uppercase_IPO_does_match():
+def test_uppercase_IPO_matches_as_med():
+    # IPO is a context token, not a stress signal — daily news, not actionable.
     text = "OpenAI IPO timeline shifts"
-    assert classify(text) == "HIGH"
+    assert classify(text) == "MED"
+
+
+def test_net_loss_is_med_not_high():
+    # "net loss" gets quoted in every OpenAI recap; demoted to MED.
+    assert classify("OpenAI net loss widened in Q2") == "MED"
+
+
+def test_down_round_remains_high():
+    assert classify("OpenAI down round expected") == "HIGH"
 
 
 def test_sarah_friar_lowercase_does_not_match():
@@ -101,6 +111,59 @@ def test_run_returns_news_alerts(tmp_path):
     sevs = sorted(a.severity for a in alerts)
     assert "CRITICAL" in sevs
     assert "MED" in sevs
+
+
+def test_primary_source_detection():
+    from catalysts.c3_openai import _is_primary_source
+    assert _is_primary_source("https://feeds.bloomberg.com/technology/news.rss")
+    assert _is_primary_source("https://feeds.content.dowjones.io/public/rss/RSSWSJD")
+    assert not _is_primary_source(
+        "https://news.google.com/rss/search?q=OpenAI+when:1d"
+    )
+
+
+@responses.activate
+def test_high_from_google_news_downgrades_to_med(tmp_path):
+    # A HIGH-tier keyword in a Google News headline should arrive as MED
+    # because Google News is not a primary source.
+    feed_url = "https://news.google.com/rss/search?q=OpenAI"
+    body = """<?xml version="1.0"?><rss version="2.0"><channel>
+<title>x</title><link>http://x</link><description>x</description>
+<item><title>OpenAI down round rumored</title>
+<link>http://example.com/a</link>
+<description>OpenAI down round rumored as costs mount</description>
+<guid>a1</guid><pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+</item></channel></rss>"""
+    responses.add(responses.GET, feed_url, body=body, status=200)
+
+    edgar = MagicMock()
+    edgar.recent_filings.return_value = []
+    st = State("c3", db_path=tmp_path / "t.sqlite")
+    cat = Catalyst3(edgar=edgar, state=st, feeds=[feed_url])
+    alerts = cat.run()
+    assert len(alerts) == 1
+    assert alerts[0].severity == "MED"
+
+
+@responses.activate
+def test_high_from_bloomberg_stays_high(tmp_path):
+    feed_url = "https://feeds.bloomberg.com/technology/news.rss"
+    body = """<?xml version="1.0"?><rss version="2.0"><channel>
+<title>x</title><link>http://x</link><description>x</description>
+<item><title>OpenAI down round rumored</title>
+<link>http://bloomberg.com/a</link>
+<description>OpenAI down round rumored as costs mount</description>
+<guid>b1</guid><pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+</item></channel></rss>"""
+    responses.add(responses.GET, feed_url, body=body, status=200)
+
+    edgar = MagicMock()
+    edgar.recent_filings.return_value = []
+    st = State("c3", db_path=tmp_path / "t.sqlite")
+    cat = Catalyst3(edgar=edgar, state=st, feeds=[feed_url])
+    alerts = cat.run()
+    assert len(alerts) == 1
+    assert alerts[0].severity == "HIGH"
 
 
 @responses.activate

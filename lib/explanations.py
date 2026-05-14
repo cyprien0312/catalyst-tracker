@@ -220,9 +220,40 @@ def explain(catalyst: str, signal_kind: str) -> Explanation:
     return cat.get(signal_kind, _FALLBACK)
 
 
-def append_context(body: str, catalyst: str, signal_kind: str) -> str:
-    """Append a 'What this means / Why it matters' section to an alert body."""
-    e = explain(catalyst, signal_kind)
+def append_context(
+    body: str,
+    catalyst: str,
+    signal_kind: str,
+    *,
+    ticker: str | None = None,
+    snippet: str | None = None,
+    numbers: dict | None = None,
+    use_llm: bool = True,
+) -> str:
+    """Append a 'What this means / Why it matters' section to an alert body.
+
+    When CATALYST_LLM_ENABLED=1 and ``use_llm`` is True, attempts an LLM-generated
+    explanation tailored to the supplied ticker/snippet/numbers. Any failure
+    transparently falls back to the static template registry — so existing
+    callers that pass only the positional args see no behaviour change.
+    """
+    e: Explanation | None = None
+    if use_llm:
+        # Local import to avoid a hard dependency cycle (lib.llm imports from here).
+        from lib.llm import summarize_explanation
+
+        try:
+            e = summarize_explanation(
+                catalyst,
+                signal_kind,
+                ticker=ticker,
+                snippet=snippet,
+                numbers=numbers,
+            )
+        except Exception:
+            e = None
+    if e is None:
+        e = explain(catalyst, signal_kind)
     divider = "─" * 60
     return (
         f"{body}\n"

@@ -33,12 +33,27 @@ CRITICAL_TOKENS = (
 HIGH_TOKENS = (
     r"\bburn\s+rate\b", r"\bcash\s+burn\b",
     r"\bdown\s+round\b", r"\bvaluation\s+cut\b",
-    r"\bnet\s+loss(es)?\b",
-    r"\bIPO\b",  # uppercase IPO only — avoids "ipo" inside other words; case-sensitive intentional
 )
 MED_TOKENS = (
     r"\bSarah\s+Friar\b",          # case-sensitive: proper noun
+    r"\bnet\s+loss(es)?\b",        # context token — quoted in every OpenAI recap
+    r"\bIPO\b",                    # context token — daily speculation; case-sensitive
 )
+
+# Feeds we treat as primary sources. HIGH-tier hits from non-primary feeds
+# (Google News opinion columns, aggregators) get downgraded to MED — the
+# keyword is present but a single secondary headline isn't a stress signal.
+PRIMARY_SOURCE_DOMAINS = (
+    "bloomberg.com",
+    "dowjones.io",      # WSJ feeds
+    "wsj.com",
+    "reuters.com",
+    "ft.com",
+)
+
+
+def _is_primary_source(feed_url: str) -> bool:
+    return any(d in feed_url for d in PRIMARY_SOURCE_DOMAINS)
 
 # OpenAI / Altman / ChatGPT / GPT-N references.
 _OPENAI_RE = re.compile(r"\b(openai|altman|chatgpt|gpt-?[0-9])\b", re.I)
@@ -77,11 +92,11 @@ def classify(text: str) -> str | None:
         if _near_openai(text, pat, case_sensitive=False):
             return "CRITICAL"
     for pat in HIGH_TOKENS:
-        cs = pat == r"\bIPO\b"
-        if _near_openai(text, pat, case_sensitive=cs):
+        if _near_openai(text, pat, case_sensitive=False):
             return "HIGH"
     for pat in MED_TOKENS:
-        if _near_openai(text, pat, case_sensitive=True):
+        cs = pat in (r"\bSarah\s+Friar\b", r"\bIPO\b")
+        if _near_openai(text, pat, case_sensitive=cs):
             return "MED"
     return None
 
@@ -117,7 +132,12 @@ class Catalyst3(CatalystBase):
             sev = classify(text)
             if not sev:
                 continue
-            body = append_context(_render_news_body(entry, sev), "C3", sev)
+            if sev == "HIGH" and not _is_primary_source(entry.feed_url):
+                sev = "MED"
+            body = append_context(
+                _render_news_body(entry, sev), "C3", sev,
+                snippet=text[:4000],
+            )
             alerts.append(Alert(
                 catalyst="C3",
                 severity=sev,
@@ -142,6 +162,8 @@ class Catalyst3(CatalystBase):
                     f"URL:       {filing.url}\n"
                 ),
                 "C3", sev,
+                ticker="MSFT",
+                snippet=text[:4000],
             )
             alerts.append(Alert(
                 catalyst="C3",
@@ -158,9 +180,15 @@ class _Catalyst3NewsOnly(Catalyst3):
         from lib.rss import fetch_many
         alerts: list[Alert] = []
         for entry in fetch_many(self._feeds, self._state):
-            sev = classify(f"{entry.title}\n{entry.summary}")
+            text = f"{entry.title}\n{entry.summary}"
+            sev = classify(text)
             if sev:
-                body = append_context(_render_news_body(entry, sev), "C3", sev)
+                if sev == "HIGH" and not _is_primary_source(entry.feed_url):
+                    sev = "MED"
+                body = append_context(
+                    _render_news_body(entry, sev), "C3", sev,
+                    snippet=text[:4000],
+                )
                 alerts.append(Alert(
                     catalyst="C3", severity=sev,
                     subject=f"[C3-{sev}] {entry.title[:120]}",
