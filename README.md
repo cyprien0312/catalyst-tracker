@@ -236,28 +236,37 @@ Each body includes (when applicable): ticker, form, filed date, accession
 number, direct EDGAR URL, and the regex-matched snippet (±240 chars) so you
 can confirm the signal in one click.
 
-**Every alert ends with a "What this means / Why it matters" section** —
-plain-English context for the signal. By default these come from
-`lib/explanations.py`, indexed by `(catalyst, signal_kind)`. When
-`CATALYST_LLM_ENABLED=1` is set, `lib/llm.py` rewrites them on the fly via the
-local `claude` CLI for catalyst-specific phrasing. Misses and fallbacks are
-logged with `llm.miss` / `llm.fallback`.
+**Every alert ends with a "What this means / Why it matters" section.** By
+default these come from the static template registry in `lib/explanations.py`,
+indexed by `(catalyst, signal_kind)`. When `CATALYST_LLM_ENABLED=1` is set,
+`lib/llm.py` replaces them with **bilingual (English + 简体中文)** LLM-generated
+explanations that cite the specific ticker / numbers / filing snippet for that
+alert. Static fallback stays English-only. Call paths are logged as
+`llm.hit` (cache) / `llm.miss` (fresh CLI call) / `llm.fallback reason=…`.
 
-Example tail of a C4 FCF-negative alert:
+Example tail of a C4 RATIO_CROSS alert with the LLM path on:
 
 ```
 ────────────────────────────────────────────────────────────
 What this means:
-A hyperscaler's trailing-twelve-month free cash flow turned from
-non-negative to negative.
+META's capex-to-operating-cash-flow ratio crossed above the 110%
+threshold, hitting 113.4% in 2026-Q1 versus 96.8% prior
+($71.2B capex on $62.8B OCF).
+
+内容:
+META 资本开支对经营现金流的比率突破 110% 阈值，2026-Q1 达到 113.4%，
+上一期为 96.8%（capex $71.2B / OCF $62.8B）。
 
 Why it matters:
-Hyperscalers historically generated massive FCF — that's how the AI capex
-was supposed to be paid for. When TTM FCF goes negative, the implicit
-funding source switches to debt or balance sheet drawdown. Bank of America
-projected hyperscalers would spend ~94% of operating cash flow on capex in
-2026. Crossing zero on FCF means capex now exceeds *all* operating cash —
-they're pre-funding via debt.
+Capex is now outrunning the cash the business generates, so incremental
+AI buildout is being funded externally rather than from operations.
+Crossing 100% — and now the 110% stress line — marks the point where the
+spend cycle stops being self-financing, a classic late-cycle capex signal.
+
+影响:
+资本开支已经跑赢业务自身产生的现金流，意味着增量 AI 建设要靠外部融资
+而非经营现金支撑。突破 100%、再到 110% 压力线，标志着支出周期不再
+自给自足，是经典的周期晚期 capex 信号。
 ```
 
 ### Tuning email volume
@@ -328,18 +337,59 @@ update rates), not by us.
 
 ### LLM explanation path
 
-When `CATALYST_LLM_ENABLED=1`:
+`lib/llm.py` calls the local `claude` CLI in headless mode
+(`claude -p ... --output-format json`) so it works against the user's
+claude.ai subscription with no API key. Designed to **never break alerting** —
+every external dependency is wrapped, any failure returns `None` and the caller
+silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
 
-1. `lib/explanations.py` builds the static `Explanation` for `(catalyst, signal_kind)`.
-2. `lib/llm.summarize_explanation()` calls the local `claude` CLI binary at
-   `CATALYST_LLM_CLAUDE_BIN` (default: first `claude` on PATH).
-3. Output is a `{"what":..., "why":...}` JSON envelope which replaces the
-   static text in the email body.
-4. Failures (CLI missing, parse error, timeout) are logged as `llm.fallback
-   reason=...` and the static text is used instead — alerts never block on LLM.
+**Flow per alert** (when `CATALYST_LLM_ENABLED=1`):
 
-The smoke probe at `scripts/llm_smoke.py` verifies the CLI envelope shape
-without sending real alerts.
+1. `append_context(body, catalyst, signal_kind, ticker=…, snippet=…, numbers=…)`
+   in `lib/explanations.py` invokes `llm.summarize_explanation`.
+2. `summarize_explanation` computes a cache key including the prompt version,
+   model tag, catalyst, signal kind, ticker, `sha256(snippet[:4000])`, and the
+   `numbers` dict. Hit → return cached `Explanation` (log `llm.hit`).
+3. Miss → build prompt with system rules, two few-shot examples (C1 AMZN +
+   C4 META, both bilingual), and the alert-specific input as JSON.
+4. `subprocess.run(["claude", "-p", prompt, "--output-format", "json"])` with
+   per-call timeout. Parse envelope (`{is_error, subtype, result}`), then extract
+   the inner `{what, why, what_zh, why_zh}` JSON (tolerates ```json fences).
+5. Cache the result with 30-day TTL in the `llm_cache` table of
+   `state/tracker.sqlite`. Sleep 2s after a successful fresh call (rate-limit
+   courtesy). Log `llm.miss`.
+6. Any failure → log `llm.fallback reason=<branch>` and return `None`; the
+   caller renders the English-only static template.
+
+**Context passed by each catalyst:**
+
+| Catalyst | Signal kinds | Context passed to LLM |
+|---|---|---|
+| C1 | depreciation patterns | `ticker` + concatenated `hits[*].snippet` |
+| C2 | 8-K items, filing scan, stock crash | `ticker` + items/snippet/crash numbers |
+| C3 | RSS HIGH/MED/CRITICAL, MSFT filings | `snippet=title+summary`; MSFT path adds `ticker=MSFT` + filing text |
+| C4 | FCF_NEGATIVE, RATIO_CROSS, RATIO_JUMP | `ticker` + `numbers` dict (capex, OCF, FCF, ratio, period) |
+| C5 | MW_DROP, NEW_WITHDRAWALS, HENRY_HUB_STRESS | `numbers` dict (ISO/MW/withdrawals/strip values); no ticker |
+
+**Tunable env vars:**
+
+| Env var | Default | Purpose |
+|---|---|---|
+| `CATALYST_LLM_ENABLED` | unset | Master switch; must be `"1"` to activate |
+| `CATALYST_LLM_BACKEND` | `cli` | `cli` (only one implemented); `api` reserved for future Anthropic-SDK backend |
+| `CATALYST_LLM_CLAUDE_BIN` | `which claude` | Override binary path (useful in cron) |
+| `CATALYST_LLM_TIMEOUT` | `30` | Per-call subprocess timeout, seconds |
+| `CATALYST_LLM_SLEEP_AFTER` | `2` | Seconds to sleep after a successful fresh call; `0` disables |
+| `CATALYST_LLM_MODEL` | `claude-cli-default` | Cache-key namespace tag |
+
+The prompt version is bumped (`_PROMPT_VERSION` in `lib/llm.py`) whenever the
+system prompt or schema changes, which automatically invalidates all cached
+entries without manual purge.
+
+**Smoke test before enabling:** `python scripts/llm_smoke.py` does a real
+envelope check + end-to-end probe against a temp DB so it doesn't pollute prod
+cache. Run this once after installing/upgrading the `claude` CLI to verify the
+envelope shape hasn't changed upstream.
 
 ## Alternative deployment: GitHub Actions
 
@@ -357,9 +407,17 @@ To re-enable scheduled GH Actions:
 3. Enable GitHub Pages: Settings → Pages → Source = `main`, folder `/docs`.
 
 The LLM explanation path (`CATALYST_LLM_ENABLED`) is **not** wired into the
-workflows — GH Actions would need to install and authenticate the `claude`
-CLI on every run, which isn't worth it. Without that env var the catalysts
-fall back to `lib/explanations.py` static text.
+workflows — GH Actions runners are ephemeral and can't reuse the local
+claude.ai session, so the CLI backend has no way to authenticate. Without that
+env var the catalysts fall back to `lib/explanations.py` static English text
+(no Chinese in fallback). If you need LLM-augmented alerts from GH Actions,
+the path forward is the `api` backend stub in `lib/llm.py` (Anthropic API key
+as a repo secret) — see step 7 in
+`docs/superpowers/plans/2026-05-14-llm-summarization-layer.md`.
+
+The `tests.yml` workflow uses `paths-ignore` so it doesn't re-run on
+state-only commits pushed by the cron host — only actual code changes trigger
+CI.
 
 ## Source spec
 
