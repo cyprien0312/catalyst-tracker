@@ -26,7 +26,7 @@ from lib.state import DEFAULT_DB
 
 _CACHE_TTL_SECONDS = 30 * 86400
 _SNIPPET_LIMIT = 4000
-_PROMPT_VERSION = "v1"
+_PROMPT_VERSION = "v2"
 
 _log = get_logger(__name__)
 
@@ -51,12 +51,14 @@ def _sleep_after() -> float:
 
 _SYSTEM_PROMPT = (
     "You are writing a short, direct explanation for an alert in an AI-infrastructure "
-    "\"bubble-stress\" tracker.\n"
+    "\"bubble-stress\" tracker. The reader is bilingual (English / 中文).\n"
     "Tone: direct, no hedging, no marketing language. 1-2 short sentences per field.\n"
-    "Output ONLY a single JSON object with keys \"what\" and \"why\":\n"
-    "  - what: 1-2 sentences on what literally happened. Cite ticker / number / phrase if given.\n"
-    "  - why: 1-3 sentences on why it matters for the AI-capex / bubble-stress thesis.\n"
-    "Do not include any prose, code fences, or commentary outside the JSON."
+    "Output ONLY a single JSON object with FOUR keys:\n"
+    "  - what:    1-2 sentences in English on what literally happened. Cite ticker / number / phrase if given.\n"
+    "  - why:     1-3 sentences in English on why it matters for the AI-capex / bubble-stress thesis.\n"
+    "  - what_zh: 与 what 等价的简体中文版本。保留专有名词 (ticker / 公司名 / 数字 / SEC / 8-K 等) 不翻译。\n"
+    "  - why_zh:  与 why 等价的简体中文版本，自然中文表达，不要逐字直译，但要保留所有数字和事实。\n"
+    "Do not include any prose, code fences, or commentary outside the JSON object."
 )
 
 _FEWSHOT: list[tuple[dict[str, Any], dict[str, str]]] = [
@@ -71,6 +73,8 @@ _FEWSHOT: list[tuple[dict[str, Any], dict[str, str]]] = [
         {
             "what": "AMZN told the SEC it is shortening the useful life of servers and networking equipment from six years to five.",
             "why": "Reverses the 2022-2023 tailwind that flattered hyperscaler earnings. Implies hardware is being retired faster than planned — likely because next-gen silicon outperforms current-gen by enough to make running old chips uneconomic. Bearish for the AI-capex-payback narrative.",
+            "what_zh": "AMZN 向 SEC 披露，将服务器与网络设备的折旧年限从 6 年缩短到 5 年。",
+            "why_zh": "这逆转了 2022-2023 年通过延长折旧美化超大规模厂商利润的会计红利。隐含意义是硬件比预期更快被淘汰——很可能因为新一代芯片的性能优势已经大到让继续使用旧卡变得不划算。对 AI capex 回本逻辑是利空信号。",
         },
     ),
     (
@@ -84,6 +88,8 @@ _FEWSHOT: list[tuple[dict[str, Any], dict[str, str]]] = [
         {
             "what": "META's trailing-twelve-month free cash flow flipped from +$4.2B to -$1.1B.",
             "why": "Capex now exceeds all operating cash — the gap is funded by debt or balance-sheet drawdown. Crossing zero on TTM FCF is a classic late-cycle signal that the spend cycle is outrunning the revenue cycle.",
+            "what_zh": "META 过去 12 个月的自由现金流从 +$4.2B 翻负至 -$1.1B。",
+            "why_zh": "资本开支已经超过全部经营现金流，缺口要靠举债或动用资产负债表填。TTM 自由现金流跌破零是经典的周期晚期信号——支出节奏在跑赢收入节奏。",
         },
     ),
 ]
@@ -222,7 +228,11 @@ def _call_claude_cli(prompt: str) -> str | None:
 
 
 def _parse_result(raw: str) -> Explanation | None:
-    """Extract the {what, why} JSON object from a model response."""
+    """Extract the {what, why, what_zh, why_zh} JSON object from a model response.
+
+    English fields are required (what >= 10, why >= 20 chars). Chinese fields
+    are best-effort: present only if the model produced usable strings.
+    """
     text = raw.strip()
     # Tolerate ```json fences or surrounding chatter.
     start = text.find("{")
@@ -241,7 +251,11 @@ def _parse_result(raw: str) -> Explanation | None:
     why = why.strip()
     if len(what) < 10 or len(why) < 20:
         return None
-    return Explanation(what=what, why=why)
+    what_zh = obj.get("what_zh")
+    why_zh = obj.get("why_zh")
+    what_zh = what_zh.strip() if isinstance(what_zh, str) and what_zh.strip() else None
+    why_zh = why_zh.strip() if isinstance(why_zh, str) and why_zh.strip() else None
+    return Explanation(what=what, why=why, what_zh=what_zh, why_zh=why_zh)
 
 
 def summarize_explanation(
@@ -274,7 +288,11 @@ def summarize_explanation(
                 "llm.hit catalyst=%s signal_kind=%s ticker=%s",
                 catalyst, signal_kind, ticker,
             )
-            return Explanation(what=what, why=why)
+            return Explanation(
+                what=what, why=why,
+                what_zh=cached.get("what_zh") or None,
+                why_zh=cached.get("why_zh") or None,
+            )
         _log.info(
             "llm.fallback catalyst=%s signal_kind=%s ticker=%s reason=cache_corrupt",
             catalyst, signal_kind, ticker,
@@ -301,7 +319,12 @@ def summarize_explanation(
             catalyst, signal_kind, ticker,
         )
         return None
-    _cache_put(db, key, {"what": explanation.what, "why": explanation.why})
+    _cache_put(db, key, {
+        "what": explanation.what,
+        "why": explanation.why,
+        "what_zh": explanation.what_zh,
+        "why_zh": explanation.why_zh,
+    })
     _log.info(
         "llm.miss catalyst=%s signal_kind=%s ticker=%s",
         catalyst, signal_kind, ticker,

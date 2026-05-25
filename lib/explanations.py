@@ -14,8 +14,10 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class Explanation:
-    what: str       # 1–2 sentences: what literally happened
-    why: str        # 1–3 sentences: implication for the AI-infra thesis
+    what: str                  # 1–2 sentences (English): what literally happened
+    why: str                   # 1–3 sentences (English): implication for the AI-infra thesis
+    what_zh: str | None = None # Chinese version — populated only by LLM path
+    why_zh: str | None = None  # Chinese version — populated only by LLM path
 
 
 # ---------- C1 — Depreciation useful-life ----------
@@ -255,9 +257,10 @@ def append_context(
     if e is None:
         e = explain(catalyst, signal_kind)
     divider = "─" * 60
-    return (
-        f"{body}\n"
-        f"{divider}\n"
-        f"What this means:\n{e.what}\n\n"
-        f"Why it matters:\n{e.why}\n"
-    )
+    what_block = f"What this means:\n{e.what}"
+    if e.what_zh:
+        what_block += f"\n\n内容:\n{e.what_zh}"
+    why_block = f"Why it matters:\n{e.why}"
+    if e.why_zh:
+        why_block += f"\n\n影响:\n{e.why_zh}"
+    return f"{body}\n{divider}\n{what_block}\n\n{why_block}\n"
