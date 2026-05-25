@@ -3,6 +3,11 @@ name: tests
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'state/**'
+      - 'docs/**'
+      - '.github/workflows/catalyst*.yml'
+      - '.github/workflows/keepalive.yml'
   pull_request:
   workflow_dispatch:
 
