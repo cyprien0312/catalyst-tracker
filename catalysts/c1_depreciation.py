@@ -85,7 +85,11 @@ class Catalyst1(CatalystBase):
                 # Pick the highest-severity hit's key for the explanation; for ties,
                 # the first matched pattern wins.
                 top_hit = max(hits, key=lambda h: _SEVERITY_ORDER[h["severity"]])
-                body = append_context(_render_body(ticker, filing, hits), "C1", top_hit["key"])
+                body = append_context(
+                    _render_body(ticker, filing, hits), "C1", top_hit["key"],
+                    ticker=ticker,
+                    snippet=" | ".join(h["snippet"] for h in hits)[:4000],
+                )
                 alerts.append(Alert(
                     catalyst="C1",
                     severity=sev,

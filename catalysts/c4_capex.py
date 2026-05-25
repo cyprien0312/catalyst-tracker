@@ -117,6 +117,15 @@ class Catalyst4(CatalystBase):
                         f"Capex TTM: ${capex_ttm/1e9:.2f}B\nOCF TTM:   ${ocf_ttm/1e9:.2f}B\n"
                         f"FCF TTM:   ${fcf/1e9:.2f}B\nRatio:     {ratio*100:.1f}%\n",
                         "C4", "FCF_NEGATIVE",
+                        ticker=ticker,
+                        numbers={
+                            "capex_ttm_b": round(capex_ttm / 1e9, 2),
+                            "ocf_ttm_b": round(ocf_ttm / 1e9, 2),
+                            "fcf_ttm_b": round(fcf / 1e9, 2),
+                            "ttm_fcf_prior_b": round(prior_fcf / 1e9, 2) if prior_fcf is not None else None,
+                            "ratio_pct": round(ratio * 100, 1),
+                            "period_end": end,
+                        },
                     ),
                 ))
 
@@ -133,6 +142,15 @@ class Catalyst4(CatalystBase):
                         f"Capex TTM: ${capex_ttm/1e9:.2f}B\nOCF TTM:   ${ocf_ttm/1e9:.2f}B\n"
                         f"Ratio:     {ratio*100:.1f}% (prior {prior*100:.1f}%)\n",
                         "C4", "RATIO_CROSS",
+                        ticker=ticker,
+                        numbers={
+                            "ratio_now_pct": round(ratio * 100, 1),
+                            "ratio_prior_pct": round(prior * 100, 1),
+                            "capex_ttm_b": round(capex_ttm / 1e9, 2),
+                            "ocf_ttm_b": round(ocf_ttm / 1e9, 2),
+                            "threshold_pct": round(RATIO_CROSS_THRESHOLD * 100, 1),
+                            "period_end": end,
+                        },
                     ),
                 ))
 
@@ -148,6 +166,13 @@ class Catalyst4(CatalystBase):
                         f"Ticker:    {ticker}\nPeriod:    TTM ending {end}\n"
                         f"Ratio:     {ratio*100:.1f}% (was {prior*100:.1f}%)\n",
                         "C4", "RATIO_JUMP",
+                        ticker=ticker,
+                        numbers={
+                            "ratio_now_pct": round(ratio * 100, 1),
+                            "ratio_prior_pct": round(prior * 100, 1),
+                            "delta_pp": round((ratio - prior) * 100, 1),
+                            "period_end": end,
+                        },
                     ),
                 ))
         return alerts

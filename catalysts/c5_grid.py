@@ -95,6 +95,14 @@ class Catalyst5(CatalystBase):
                             body=append_context(
                                 f"Total MW {summary['total_mw']:.0f} (was {prior_mw:.0f}). Snapshot {snapshot_date}.\n",
                                 "C5", "MW_DROP",
+                                numbers={
+                                    "iso": iso,
+                                    "mw_now": round(summary["total_mw"], 0),
+                                    "mw_prior": round(prior_mw, 0),
+                                    "drop_pct": round(drop_pct, 1),
+                                    "prior_date": prior["date"],
+                                    "snapshot_date": snapshot_date,
+                                },
                             ),
                         ))
             new_withdrawn = summary["withdrawn_count"] - prior["withdrawn_count"]
@@ -108,6 +116,14 @@ class Catalyst5(CatalystBase):
                         body=append_context(
                             f"Withdrawn count {summary['withdrawn_count']} (was {prior['withdrawn_count']}).\n",
                             "C5", "NEW_WITHDRAWALS",
+                            numbers={
+                                "iso": iso,
+                                "withdrawn_now": summary["withdrawn_count"],
+                                "withdrawn_prior": prior["withdrawn_count"],
+                                "new_count": new_withdrawn,
+                                "prior_date": prior["date"],
+                                "snapshot_date": snapshot_date,
+                            },
                         ),
                     ))
         return alerts
@@ -128,6 +144,13 @@ class Catalyst5(CatalystBase):
                     body=append_context(
                         f"Strip values: {strip}\n",
                         "C5", "HENRY_HUB_STRESS",
+                        numbers={
+                            "strip_avg": round(avg, 2),
+                            "threshold": HENRY_HUB_STRESS,
+                            "strip_min": round(min(strip), 2),
+                            "strip_max": round(max(strip), 2),
+                            "snapshot_date": snapshot_date,
+                        },
                     ),
                 ))
         return alerts

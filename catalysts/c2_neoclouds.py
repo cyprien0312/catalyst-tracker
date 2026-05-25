@@ -118,8 +118,12 @@ class Catalyst2(CatalystBase):
                         sev = _max_sev([DISTRESS_ITEMS[it][0] for it in distress])
                         # Highest-severity item drives the explanation key.
                         top_item = max(distress, key=lambda it: _SEVERITY_ORDER[DISTRESS_ITEMS[it][0]])
-                        body = append_context(_render_8k_body(ticker, filing, distress),
-                                              "C2", f"C2_ITEM_{top_item}")
+                        body = append_context(
+                            _render_8k_body(ticker, filing, distress),
+                            "C2", f"C2_ITEM_{top_item}",
+                            ticker=ticker,
+                            snippet=f"{filing.form} items={','.join(distress)} accession={filing.accession}",
+                        )
                         alerts.append(Alert(
                             catalyst="C2",
                             severity=sev,
@@ -133,8 +137,12 @@ class Catalyst2(CatalystBase):
                     if hits:
                         sev = _max_sev([h["severity"] for h in hits])
                         top_hit = max(hits, key=lambda h: _SEVERITY_ORDER[h["severity"]])
-                        body = append_context(_render_filing_body(ticker, filing, hits),
-                                              "C2", top_hit["key"])
+                        body = append_context(
+                            _render_filing_body(ticker, filing, hits),
+                            "C2", top_hit["key"],
+                            ticker=ticker,
+                            snippet=" | ".join(h["snippet"] for h in hits)[:4000],
+                        )
                         alerts.append(Alert(
                             catalyst="C2",
                             severity=sev,
@@ -153,8 +161,16 @@ class Catalyst2(CatalystBase):
                 key = f"{ticker}|{crash['date']}"
                 if not self._state.seen("c2_crash", key):
                     self._state.mark_seen("c2_crash", key)
-                    body = append_context(_render_crash_body(ticker, crash),
-                                          "C2", "C2_STOCK_CRASH")
+                    body = append_context(
+                        _render_crash_body(ticker, crash),
+                        "C2", "C2_STOCK_CRASH",
+                        ticker=ticker,
+                        numbers={
+                            "change_pct": round(crash["change_pct"] * 100, 2),
+                            "volume_ratio": round(crash["ratio"], 2),
+                            "date": crash["date"],
+                        },
+                    )
                     alerts.append(Alert(
                         catalyst="C2",
                         severity="HIGH",
