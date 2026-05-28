@@ -74,8 +74,8 @@ class Catalyst5(CatalystBase):
         alerts: list[Alert] = []
         try:
             df = fetch()
-        except Exception:
-            log.exception("%s fetch failed", iso)
+        except Exception as e:
+            log.warning("c5.%s source failed: %s", iso.lower(), e)
             return alerts
         summary = grid_queues.summarize(df, iso)
         prior = _prior_snapshot(self._state, iso, snapshot_date)
@@ -159,9 +159,18 @@ class Catalyst5(CatalystBase):
         import datetime as _dt
         snapshot_date = _dt.date.today().isoformat()
         alerts: list[Alert] = []
-        alerts.extend(self._check_iso("PJM", snapshot_date, self._fetch_pjm))
-        alerts.extend(self._check_iso("CAISO", snapshot_date, self._fetch_caiso))
-        alerts.extend(self._check_henry_hub(snapshot_date))
+        try:
+            alerts.extend(self._check_iso("PJM", snapshot_date, self._fetch_pjm))
+        except Exception as e:
+            log.warning("c5.pjm path failed: %s", e)
+        try:
+            alerts.extend(self._check_iso("CAISO", snapshot_date, self._fetch_caiso))
+        except Exception as e:
+            log.warning("c5.caiso path failed: %s", e)
+        try:
+            alerts.extend(self._check_henry_hub(snapshot_date))
+        except Exception as e:
+            log.warning("c5.henry_hub path failed: %s", e)
         return alerts
 
 
