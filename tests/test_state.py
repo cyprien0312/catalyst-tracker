@@ -40,3 +40,15 @@ def test_connection_is_usable_for_custom_tables(tmp_path):
     with st.connection() as c:
         rows = list(c.execute("SELECT a FROM x"))
     assert rows == [(1,)]
+
+
+def test_alerts_table_created():
+    import tempfile, sqlite3
+    from pathlib import Path
+    from lib.state import State
+    with tempfile.TemporaryDirectory() as d:
+        db = Path(d) / "t.sqlite"
+        State("x", db_path=db)
+        with sqlite3.connect(db) as c:
+            cols = {r[1] for r in c.execute("PRAGMA table_info(alerts)")}
+        assert {"id", "ts", "catalyst", "severity", "subject", "body", "emailed", "fingerprint"} <= cols
