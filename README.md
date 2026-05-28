@@ -271,11 +271,22 @@ spend cycle stops being self-financing, a classic late-cycle capex signal.
 
 ### Tuning email volume
 
+- **Mute a whole catalyst's emails**: add `CATALYST_EMAIL_DISABLE=c3` (CSV) to
+  `~/.catalyst.env`. The alert still lands in the `alerts` table and shows up
+  in the dashboard, but no email is sent. Useful when one catalyst is too
+  chatty (C3 in particular hits frequently because RSS feeds update fast).
 - Silence a tier: comment the tier loop in `c3_openai.classify()` or raise
   the threshold in `lib/thresholds.py`.
 - Adjust dedup window: `DEDUP_TTL_SECONDS` in `lib/notify.py`.
 - Route by severity: Gmail filter on `X-Catalyst-Severity: CRITICAL`
   forwarding to your phone.
+
+### Dashboard alert viewer
+
+The GitHub Pages dashboard at `https://<your-gh-user>.github.io/catalyst-tracker/`
+now renders the last 200 rows of the `alerts` table with catalyst/severity
+filters. Read-state is tracked in browser `localStorage` (per-device, not
+synced across phone/laptop). "Reset read state" wipes the local set.
 
 ## Architecture notes
 
