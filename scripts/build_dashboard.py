@@ -122,6 +122,19 @@ DEFAULT_TEMPLATE = """<!doctype html>
   th, td { border-bottom: 1px solid #ddd; padding: 6px 10px; text-align: left; }
   th { background: #f6f6f6; }
   code { background: #f0f0f0; padding: 0 4px; border-radius: 3px; }
+  .alert-toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0.5rem 0 1rem; font-size: 0.9em; }
+  .alert-toolbar select, .alert-toolbar button { font-size: 0.9em; padding: 2px 6px; }
+  .alert { border-bottom: 1px solid #eee; padding: 6px 0; }
+  .alert summary { cursor: pointer; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  .alert summary .subj { flex: 1; min-width: 200px; }
+  .alert pre { background: #f6f6f6; padding: 8px; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
+  .alert.read summary { color: #999; }
+  .alert.read summary .subj { font-weight: normal; }
+  .sev { display: inline-block; padding: 1px 8px; border-radius: 10px; color: white; font-size: 0.72em; font-weight: 600; letter-spacing: 0.5px; }
+  .sev-bg-CRITICAL { background: #c0392b; }
+  .sev-bg-HIGH     { background: #e67e22; }
+  .sev-bg-MED      { background: #f1c40f; color: #333; }
+  .sev-bg-LOG      { background: #7f8c8d; }
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
@@ -134,6 +147,46 @@ DEFAULT_TEMPLATE = """<!doctype html>
 <tr><td><code>{{ cat.id }}</code></td><td>{{ cat.name }}</td></tr>
 {% endfor %}
 </table>
+
+<h2>Recent alerts <span id="alerts-count" class="meta"></span></h2>
+<div class="alert-toolbar">
+  <label>Catalyst:
+    <select id="filter-catalyst">
+      <option value="">all</option>
+      <option value="C1">C1</option><option value="C2">C2</option>
+      <option value="C3">C3</option><option value="C4">C4</option>
+      <option value="C5">C5</option>
+    </select>
+  </label>
+  <label>Severity:
+    <select id="filter-severity">
+      <option value="">all</option>
+      <option value="CRITICAL">CRITICAL</option>
+      <option value="HIGH">HIGH</option>
+      <option value="MED">MED</option>
+      <option value="LOG">LOG</option>
+    </select>
+  </label>
+  <label><input type="checkbox" id="filter-unread"> only unread</label>
+  <button id="mark-all-read" type="button">mark all visible read</button>
+  <button id="clear-read" type="button">reset read state</button>
+</div>
+<div id="alerts-list">
+{% for a in s.alerts %}
+<details class="alert sev-{{ a.severity }}" data-id="{{ a.id }}" data-catalyst="{{ a.catalyst }}" data-severity="{{ a.severity }}">
+  <summary>
+    <span class="sev sev-bg-{{ a.severity }}">{{ a.severity }}</span>
+    <code>{{ a.catalyst }}</code>
+    <span class="subj">{{ a.subject }}</span>
+    <span class="meta">{{ a.ts_str }}{% if not a.emailed %} · muted{% endif %}</span>
+  </summary>
+  <pre>{{ a.body }}</pre>
+  <button class="mark-read" type="button" data-id="{{ a.id }}">mark read</button>
+</details>
+{% else %}
+<p class="meta">No alerts recorded yet.</p>
+{% endfor %}
+</div>
 
 <h2>State table counts</h2>
 <table>
@@ -175,6 +228,64 @@ DEFAULT_TEMPLATE = """<!doctype html>
 
 <hr>
 <p class="meta">Source: <a href="https://github.com/cyprien0312/catalyst-tracker">catalyst-tracker</a></p>
+<script>
+(function () {
+  const KEY = "catalyst-tracker:read-ids";
+  const read = new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+  const list = document.getElementById("alerts-list");
+  const fCat = document.getElementById("filter-catalyst");
+  const fSev = document.getElementById("filter-severity");
+  const fUnread = document.getElementById("filter-unread");
+  const count = document.getElementById("alerts-count");
+
+  function persist() { localStorage.setItem(KEY, JSON.stringify([...read])); }
+
+  function applyState() {
+    let visible = 0;
+    for (const el of list.querySelectorAll(".alert")) {
+      const id = el.dataset.id;
+      const isRead = read.has(id);
+      el.classList.toggle("read", isRead);
+      const catOK = !fCat.value || el.dataset.catalyst === fCat.value;
+      const sevOK = !fSev.value || el.dataset.severity === fSev.value;
+      const unreadOK = !fUnread.checked || !isRead;
+      const show = catOK && sevOK && unreadOK;
+      el.style.display = show ? "" : "none";
+      if (show) visible++;
+    }
+    count.textContent = "(" + visible + " visible)";
+  }
+
+  list.addEventListener("click", (e) => {
+    const btn = e.target.closest(".mark-read");
+    if (!btn) return;
+    e.preventDefault();
+    read.add(btn.dataset.id);
+    persist();
+    applyState();
+  });
+
+  document.getElementById("mark-all-read").addEventListener("click", () => {
+    for (const el of list.querySelectorAll(".alert")) {
+      if (el.style.display !== "none") read.add(el.dataset.id);
+    }
+    persist();
+    applyState();
+  });
+
+  document.getElementById("clear-read").addEventListener("click", () => {
+    if (!confirm("Reset read state on this device?")) return;
+    read.clear();
+    persist();
+    applyState();
+  });
+
+  fCat.addEventListener("change", applyState);
+  fSev.addEventListener("change", applyState);
+  fUnread.addEventListener("change", applyState);
+  applyState();
+})();
+</script>
 </body></html>
 """
 
