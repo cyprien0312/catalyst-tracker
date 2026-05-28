@@ -1,7 +1,7 @@
 {
-  "generated_at": 1779979445,
-  "generated_at_str": "2026-05-28 14:44:05 UTC",
-  "last_event_ts": 1779979444,
+  "generated_at": 1779979517,
+  "generated_at_str": "2026-05-28 14:45:17 UTC",
+  "last_event_ts": 1779979507,
   "tables": {
     "alerts_dedup": {
       "count": 490,
@@ -20,8 +20,8 @@
     },
     "c2_price_check": {
       "count": 4,
-      "last_ts": 1779957484,
-      "last_str": "2026-05-28 08:38:04 UTC"
+      "last_ts": 1779979507,
+      "last_str": "2026-05-28 14:45:07 UTC"
     },
     "c3_msft_filings": {
       "count": 20,
@@ -221,38 +221,7 @@
       "withdrawn_count": 0
     }
   ],
-  "alerts": [
-    {
-      "id": 4,
-      "ts": 1779978896,
-      "ts_str": "2026-05-28 14:34 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "TEST: OpenAI bond prospectus filed \u2014 Reuters (demo)",
-      "body": "This is a demo row injected to verify the dashboard renders. Safe to mark as read or wait for cron to flush.\n\nReuters reported (fake) that OpenAI filed a bond prospectus with the SEC...",
-      "emailed": false
-    },
-    {
-      "id": 5,
-      "ts": 1779975296,
-      "ts_str": "2026-05-28 13:34 UTC",
-      "catalyst": "C4",
-      "severity": "HIGH",
-      "subject": "TEST: MSFT TTM Capex/OCF crossed 112% (demo)",
-      "body": "Demo C4 alert. MSFT capex $71.2B vs OCF $62.8B \u2192 ratio 113.4%.",
-      "emailed": true
-    },
-    {
-      "id": 6,
-      "ts": 1779971696,
-      "ts_str": "2026-05-28 12:34 UTC",
-      "catalyst": "C2",
-      "severity": "MED",
-      "subject": "TEST: IREN crash -18.5% on 4.2x volume (demo)",
-      "body": "Demo C2 price-crash alert.",
-      "emailed": true
-    }
-  ],
+  "alerts": [],
   "catalysts": [
     {
       "id": "C1",
