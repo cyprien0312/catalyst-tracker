@@ -57,7 +57,7 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
 - `lib/edgar.py` — SEC EDGAR client (requires `SEC_USER_AGENT`)
 - `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL
 - `lib/xbrl.py` — XBRL facts pull for hyperscaler capex/OCF/FCF (C4)
-- `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). **Known broken:** `PJM_QUEUE_URL` (`services.pjm.com/PJMPlanningApi/api/Queues/ExportToExcel`) returns 404 as of 2026-05; PJM restructured their site. Until fixed, C5 raises on every run and skips CAISO + Henry Hub too. Fix planned in `docs/superpowers/plans/2026-05-29-c5-pjm-endpoint-fix.md`.
+- `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). PJM is now a POST to `services.pjm.com/PJMPlanningApi/api/Queue/ExportToXls` with an `api-subscription-key` header (the old GET `/Queues/ExportToExcel` 404s as of 2026-05). The subscription key lives in the public JS bundle on pjm.com and may rotate — if PJM fetches start 401/403'ing, refresh `PJM_API_SUBSCRIPTION_KEY` from `https://www.pjm.com/dist/interconnectionqueues.*.js`.
 - `lib/eia.py`, `lib/fred.py` — Henry Hub & macro data (C5)
 - `lib/prices.py` — yfinance wrapper with **6-hour TTL cache** keyed in the `c2_price_check` table (yfinance throttles hard)
 - `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `llm_cache`, `alerts` (history rendered in dashboard), and the dedup `seen` table (`alerts_dedup` namespace + per-source idempotency keys)

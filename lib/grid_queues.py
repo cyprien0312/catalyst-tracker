@@ -9,7 +9,13 @@ import requests
 
 HEADERS = {"User-Agent": "catalyst-tracker cyprien0312@gmail.com"}
 
-PJM_QUEUE_URL = "https://services.pjm.com/PJMPlanningApi/api/Queues/ExportToExcel"
+# PJM restructured their queue API in early 2026. The old GET
+# /PJMPlanningApi/api/Queues/ExportToExcel now 404s; the new endpoint is a
+# POST to /PJMPlanningApi/api/Queue/ExportToXls and requires an
+# api-subscription-key (extracted from the public interconnectionqueues JS
+# bundle — same key used by pjm.com's own page, not a private credential).
+PJM_QUEUE_URL = "https://services.pjm.com/PJMPlanningApi/api/Queue/ExportToXls"
+PJM_API_SUBSCRIPTION_KEY = "E29477D0-70E0-4825-89B0-43F460BF9AB4"
 CAISO_QUEUE_URL = "https://www.caiso.com/documents/publicqueuereport.xlsx"
 
 
@@ -19,8 +25,16 @@ def _read_xlsx(url: str, timeout: int = 60) -> pd.DataFrame:
     return pd.read_excel(BytesIO(r.content))
 
 
-def pjm_active_queue() -> pd.DataFrame:
-    return _read_xlsx(PJM_QUEUE_URL)
+def pjm_active_queue(timeout: int = 60) -> pd.DataFrame:
+    headers = {
+        **HEADERS,
+        "api-subscription-key": PJM_API_SUBSCRIPTION_KEY,
+        "Origin": "https://www.pjm.com",
+        "Referer": "https://www.pjm.com/",
+    }
+    r = requests.post(PJM_QUEUE_URL, headers=headers, timeout=timeout)
+    r.raise_for_status()
+    return pd.read_excel(BytesIO(r.content))
 
 
 def caiso_queue() -> pd.DataFrame:
