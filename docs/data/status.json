@@ -1,12 +1,12 @@
 {
-  "generated_at": 1779980883,
-  "generated_at_str": "2026-05-28 15:08:03 UTC",
-  "last_event_ts": 1779979507,
+  "generated_at": 1779981258,
+  "generated_at_str": "2026-05-28 15:14:18 UTC",
+  "last_event_ts": 1779981257,
   "tables": {
     "alerts_dedup": {
-      "count": 490,
-      "last_ts": 1779968660,
-      "last_str": "2026-05-28 11:44:20 UTC"
+      "count": 491,
+      "last_ts": 1779981257,
+      "last_str": "2026-05-28 15:14:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -34,9 +34,9 @@
       "last_str": "2026-05-11 16:19:02 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 870,
-      "last_ts": 1779979444,
-      "last_str": "2026-05-28 14:44:04 UTC"
+      "count": 874,
+      "last_ts": 1779981243,
+      "last_str": "2026-05-28 15:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 200,
@@ -44,9 +44,9 @@
       "last_str": "2026-05-28 11:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4534,
-      "last_ts": 1779979443,
-      "last_str": "2026-05-28 14:44:03 UTC"
+      "count": 4544,
+      "last_ts": 1779981242,
+      "last_str": "2026-05-28 15:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -221,7 +221,18 @@
       "withdrawn_count": 0
     }
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "id": 7,
+      "ts": 1779981257,
+      "ts_str": "2026-05-28 15:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Binance Expands Pre-IPO Perpetuals with OpenAI Listing Following Strong Early Market Response - ipsnews.net",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 28 May 2026 11:46:17 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNzJuR3JDazZDUDY0NUNkTVBGei1MektoVzlxZ0tDbVpXZ0V2bmJsN3RrRTJFWlU3VkRiOUZMNWVPczcxdWhMOG9fWWxCR3RBOGkxVS02ZEZ4UkNibDd2cmdORzdvQUJlbFlKRjBNTXRzcktNSUFLLVJXcm0xdXNOaWFXZ2F4ZFdWUkxtdW83N0dSRnVxc1h4Y2c3blRRaTJrUlRPcVB1VF9SeFE4RmNuTzJRVUpYb3ZMYzIzYVVjLWctVkNodDcycU5wYUV1bERwZmJFcGtaVQ?oc=5\n\nBinance Expands Pre-IPO Perpetuals with OpenAI Listing Following Strong Early Market Response - ipsnews.net\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNzJuR3JDazZDUDY0NUNkTVBGei1MektoVzlxZ0tDbVpXZ0V2bmJsN3RrRTJFWlU3VkRiOUZMNWVPczcxdWhMOG9fWWxCR3RBOGkxVS02ZEZ4UkNibDd2cmdORzdvQUJlbFlKRjBNTXRzcktNSUFLLVJXcm0xdXNOaWFXZ2F4ZFdWUkxtdW83N0dSRnVxc1h4Y2c3blRRaTJrUlRPcVB1VF9SeFE4RmNuTzJRVUpYb3ZMYzIzYVVjLWctVkNodDcycU5wYUV1bERwZmJFcGtaVQ?oc=5\" target=\"_blank\">Binance Expands Pre-IPO Perpetuals with OpenAI Listing Following Strong Early Market Response</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ipsnews.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBinance listed an OpenAI pre-IPO perpetual futures contract, citing strong early market demand.\n\n\u5185\u5bb9:\nBinance \u4e0a\u7ebf\u4e86 OpenAI \u7684 Pre-IPO \u6c38\u7eed\u5408\u7ea6\uff0c\u5e76\u79f0\u65e9\u671f\u5e02\u573a\u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nPre-IPO perpetuals on a private company let speculators take leveraged directional bets on OpenAI's valuation without any cash flows or disclosure. Offshore crypto venues running synthetic AI-equity exposure is a textbook late-cycle froth marker \u2014 retail leverage is reaching the most-hyped private name in the cycle.\n\n\u5f71\u54cd:\n\u9488\u5bf9\u672a\u4e0a\u5e02\u516c\u53f8\u7684 Pre-IPO \u6c38\u7eed\u5408\u7ea6\u8ba9\u6295\u673a\u8005\u53ef\u4ee5\u5728\u6ca1\u6709\u4efb\u4f55\u73b0\u91d1\u6d41\u6216\u4fe1\u606f\u62ab\u9732\u7684\u60c5\u51b5\u4e0b\uff0c\u5bf9 OpenAI \u7684\u4f30\u503c\u52a0\u6760\u6746\u505a\u65b9\u5411\u6027\u62bc\u6ce8\u3002\u79bb\u5cb8\u52a0\u5bc6\u4ea4\u6613\u6240\u63a8\u51fa AI \u80a1\u6743\u7684\u5408\u6210\u655e\u53e3\uff0c\u662f\u6559\u79d1\u4e66\u7ea7\u522b\u7684\u5468\u671f\u665a\u671f\u6ce1\u6cab\u4fe1\u53f7\u2014\u2014\u6563\u6237\u6760\u6746\u5df2\u7ecf\u8ffd\u5230\u4e86\u672c\u8f6e\u6700\u88ab\u70ed\u7092\u7684\u975e\u4e0a\u5e02\u6807\u7684\u3002\n",
+      "emailed": false
+    }
+  ],
   "catalysts": [
     {
       "id": "C1",
