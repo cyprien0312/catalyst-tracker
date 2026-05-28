@@ -62,6 +62,16 @@ def collect_status() -> dict:
     except Exception:
         pass
 
+    alerts_rows = []
+    try:
+        with st.connection() as c:
+            alerts_rows = c.execute(
+                "SELECT id, ts, catalyst, severity, subject, body, emailed "
+                "FROM alerts ORDER BY ts DESC LIMIT 200"
+            ).fetchall()
+    except Exception:
+        pass
+
     return {
         "generated_at": int(time.time()),
         "generated_at_str": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
@@ -74,6 +84,19 @@ def collect_status() -> dict:
         "c5_queues": [
             {"iso": r[0], "snapshot_date": r[1], "total_mw": r[2], "count": r[3], "withdrawn_count": r[4]}
             for r in c5_rows
+        ],
+        "alerts": [
+            {
+                "id": r[0],
+                "ts": int(r[1]),
+                "ts_str": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime(int(r[1]))),
+                "catalyst": (r[2] or "").upper(),
+                "severity": r[3],
+                "subject": r[4],
+                "body": r[5],
+                "emailed": bool(r[6]),
+            }
+            for r in alerts_rows
         ],
         "catalysts": [{"id": cid, "name": name} for cid, name in CATALYSTS],
     }
