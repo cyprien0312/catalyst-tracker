@@ -8,10 +8,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from jinja2 import Template
+from jinja2 import Environment, select_autoescape
 
 from lib.state import State
 from lib.thresholds import all_thresholds
+
+_JINJA_ENV = Environment(autoescape=select_autoescape(["html", "htm", "xml"]))
 
 REPO = Path(__file__).resolve().parent.parent
 TEMPLATE_PATH = REPO / "docs" / "index.html.j2"
@@ -104,9 +106,9 @@ def collect_status() -> dict:
 
 def render(status: dict) -> str:
     if TEMPLATE_PATH.exists():
-        tmpl = Template(TEMPLATE_PATH.read_text())
+        tmpl = _JINJA_ENV.from_string(TEMPLATE_PATH.read_text())
     else:
-        tmpl = Template(DEFAULT_TEMPLATE)
+        tmpl = _JINJA_ENV.from_string(DEFAULT_TEMPLATE)
     return tmpl.render(s=status)
 
 
@@ -304,7 +306,7 @@ def render_thresholds() -> str:
     by_cat: dict[str, list] = {}
     for t in thresholds:
         by_cat.setdefault(t.catalyst, []).append(t)
-    tmpl = Template(THRESHOLDS_TEMPLATE)
+    tmpl = _JINJA_ENV.from_string(THRESHOLDS_TEMPLATE)
     return tmpl.render(by_cat=by_cat,
                        cat_names=dict(CATALYSTS),
                        colors=_SEVERITY_COLORS,
