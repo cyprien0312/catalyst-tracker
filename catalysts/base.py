@@ -79,5 +79,5 @@ def run_cli(
             print(a.body)
         else:
             send_alert(a.subject, a.body, severity=a.severity, catalyst=tag)
-    print(f"{tag}: {len(alerts)} alert(s) {'printed' if args.dry_run else 'emailed'}")
+    print(f"{tag}: {len(alerts)} alert(s) {'printed' if args.dry_run else 'recorded'}")
     return 0
