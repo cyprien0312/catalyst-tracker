@@ -57,10 +57,10 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
 - `lib/edgar.py` — SEC EDGAR client (requires `SEC_USER_AGENT`)
 - `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL
 - `lib/xbrl.py` — XBRL facts pull for hyperscaler capex/OCF/FCF (C4)
-- `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5)
+- `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). **Known broken:** `PJM_QUEUE_URL` (`services.pjm.com/PJMPlanningApi/api/Queues/ExportToExcel`) returns 404 as of 2026-05; PJM restructured their site. Until fixed, C5 raises on every run and skips CAISO + Henry Hub too. Fix planned in `docs/superpowers/plans/2026-05-29-c5-pjm-endpoint-fix.md`.
 - `lib/eia.py`, `lib/fred.py` — Henry Hub & macro data (C5)
 - `lib/prices.py` — yfinance wrapper with **6-hour TTL cache** keyed in the `c2_price_check` table (yfinance throttles hard)
-- `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `llm_cache`, dedup tables
+- `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `llm_cache`, `alerts` (history rendered in dashboard), and the dedup `seen` table (`alerts_dedup` namespace + per-source idempotency keys)
 - `lib/notify.py` — Gmail SMTP send + alert dedup + persistence. **SHA-256 over `(subject, body[:500])` with 7-day TTL** prevents repeat emails AND prevents duplicate `alerts` rows. Every non-deduped alert is INSERTed into the `alerts` table regardless of whether SMTP fired. Set `CATALYST_EMAIL_DISABLE=c3,c5` (CSV) to silence specific catalysts' emails while keeping their rows in DB. Header `X-Catalyst-Severity:` still set.
 - `lib/thresholds.py` — numeric thresholds (110% capex/OCF, $5/MMBtu Henry Hub, etc.). When tuning email volume, change here rather than in catalyst modules.
 - `lib/explanations.py` — `_REGISTRY` of static English "What this means / Why it matters" templates keyed by `(catalyst, signal_kind)`. `append_context()` is the entry point that catalysts call; it bridges to the LLM layer when enabled.
@@ -74,6 +74,14 @@ C4 and C5 numeric alerts fire on **transitions, not on persistent state**. C4 ra
 **Consequence:** the first scan against a fresh `state/tracker.sqlite` is intentionally quiet — it establishes baselines in `c4_xbrl` / `c5_queues`. When writing tests or debugging silence, check whether the prior row exists.
 
 Dedup is per-`(signal_kind, ticker, period)` on top of the 7-day subject/body hash, so a one-time cross emits exactly one email forever (until the database is wiped).
+
+### Dashboard alert viewer
+
+`scripts/build_dashboard.py` renders the last 200 rows of the `alerts` table into `docs/index.html` with catalyst/severity filters and an "only unread" toggle. Read-state is tracked in browser `localStorage` under key `catalyst-tracker:read-ids` (per-device, not synced — there is no server-side write path because Pages is static). The Jinja templates use `Environment(autoescape=select_autoescape(["html","htm","xml"]))` because subjects/bodies originate from external RSS feeds — do NOT switch back to `Template(...)` without autoescape. Muted alerts (those whose catalyst is in `CATALYST_EMAIL_DISABLE`) get a `· muted` suffix in the summary row so they're visually distinct.
+
+### Recovering from a polluted dedup state
+
+If a noisy catalyst floods email (the original motivation for `CATALYST_EMAIL_DISABLE`), recovery is two steps: (1) add the catalyst tag to `CATALYST_EMAIL_DISABLE` in `~/.catalyst.env`; (2) optionally purge `alerts_dedup` so dashboard backfills with recent alerts (`DELETE FROM seen WHERE table_name='alerts_dedup'` via `State("x").connection()`). Purging only widens what enters `alerts` — it does NOT undo email mute. Per-source idempotency rows (filing accession numbers, RSS GUIDs, C4/C5 transition keys) are stored under different `table_name` values and should NOT be purged unless you want to re-emit historical signals.
 
 ### Cron wrapper (`bin/run_catalyst.sh`)
 
