@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780069805,
-  "generated_at_str": "2026-05-29 15:50:05 UTC",
-  "last_event_ts": 1780069443,
+  "generated_at": 1780070193,
+  "generated_at_str": "2026-05-29 15:56:33 UTC",
+  "last_event_ts": 1780070192,
   "tables": {
     "alerts_dedup": {
-      "count": 4,
-      "last_ts": 1779993870,
-      "last_str": "2026-05-28 18:44:30 UTC"
+      "count": 5,
+      "last_ts": 1780070192,
+      "last_str": "2026-05-29 15:56:32 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -32,6 +32,11 @@
       "count": 2,
       "last_ts": 1778516342,
       "last_str": "2026-05-11 16:19:02 UTC"
+    },
+    "c5_signals": {
+      "count": 1,
+      "last_ts": 1780070174,
+      "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
       "count": 946,
@@ -99,7 +104,7 @@
       "snapshot_date": "2026-05-30",
       "total_mw": 643507.4735000001,
       "count": 9263,
-      "withdrawn_count": 6281
+      "withdrawn_count": 6912
     },
     {
       "iso": "CAISO",
@@ -236,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 12,
+      "ts": 1780070192,
+      "ts_str": "2026-05-29 15:56 UTC",
+      "catalyst": "C5",
+      "severity": "HIGH",
+      "subject": "[C5-HIGH] PJM: 631 new withdrawals vs 2026-05-29",
+      "body": "Withdrawn count 6912 (was 6281).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn ISO recorded \u22655 new withdrawn/suspended projects of \u2265100 MW since the prior snapshot.\n\nWhy it matters:\nWithdrawing a \u2265100MW project means abandoning a years-long interconnection process. Multiple withdrawals in a single cycle is a strong indicator developers can't get the economics to work \u2014 usually because of either power-delivery delays or hyperscaler capex pullback. Watch for whether the withdrawals cluster around specific utilities.\n",
+      "emailed": true
+    },
     {
       "id": 10,
       "ts": 1779993870,
