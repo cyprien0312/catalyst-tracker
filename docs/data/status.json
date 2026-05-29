@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780078084,
-  "generated_at_str": "2026-05-29 18:08:04 UTC",
-  "last_event_ts": 1780076643,
+  "generated_at": 1780078465,
+  "generated_at_str": "2026-05-29 18:14:25 UTC",
+  "last_event_ts": 1780078465,
   "tables": {
     "alerts_dedup": {
-      "count": 6,
-      "last_ts": 1780073060,
-      "last_str": "2026-05-29 16:44:20 UTC"
+      "count": 7,
+      "last_ts": 1780078465,
+      "last_str": "2026-05-29 18:14:25 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 951,
-      "last_ts": 1780076643,
-      "last_str": "2026-05-29 17:44:03 UTC"
+      "count": 954,
+      "last_ts": 1780078443,
+      "last_str": "2026-05-29 18:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 213,
@@ -49,9 +49,9 @@
       "last_str": "2026-05-29 17:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4847,
-      "last_ts": 1780076642,
-      "last_str": "2026-05-29 17:44:02 UTC"
+      "count": 4854,
+      "last_ts": 1780078442,
+      "last_str": "2026-05-29 18:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 14,
+      "ts": 1780078465,
+      "ts_str": "2026-05-29 18:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026",
+      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Fri, 29 May 2026 17:29:06 GMT\nLink:      https://www.bloomberg.com/news/videos/2026-05-29/bloomberg-tech-5-29-2026-video\n\nSpaceX Lowers IPO Valuation Target | Bloomberg Tech 5/29/2026\n\nBloomberg\u2019s Tim Stenovec breaks down why SpaceX is coming back down to Earth with a slightly lower valuation in its IPO. Plus, Anthropic closes a funding round at a whopping $965 billion valuation, surpassing OpenAI for the first time in the AI race; and Dell surges after the hardware giant's outlook far surpassed Wall Street estimates. (Source: Bloomberg)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg Tech segment (5/29/2026) reports SpaceX cut its IPO valuation target, Anthropic closed a funding round at a $965B valuation \u2014 surpassing OpenAI for the first time \u2014 and Dell surged after its outlook beat Wall Street estimates.\n\n\u5185\u5bb9:\nBloomberg Tech \u8282\u76ee\uff082026/5/29\uff09\u62a5\u9053\uff1aSpaceX \u4e0b\u8c03\u4e86 IPO \u4f30\u503c\u76ee\u6807\uff1bAnthropic \u4ee5 $965B \u4f30\u503c\u5b8c\u6210\u4e00\u8f6e\u878d\u8d44\uff0c\u9996\u6b21\u8d85\u8d8a OpenAI\uff1bDell \u56e0\u4e1a\u7ee9\u5c55\u671b\u8fdc\u8d85\u534e\u5c14\u8857\u9884\u671f\u800c\u80a1\u4ef7\u5927\u6da8\u3002\n\nWhy it matters:\nAnthropic at $965B private valuation marks a new high-water mark for AI funding concentration, while Dell's blowout outlook shows the capex is still flowing into hardware. The SpaceX IPO markdown is a counter-signal that public-market appetite for richly-valued tech is cooling \u2014 the gap between private AI exuberance and public skepticism is the bubble-stress tension to watch.\n\n\u5f71\u54cd:\nAnthropic \u8fbe\u5230 $965B \u79c1\u52df\u4f30\u503c\uff0c\u5237\u65b0\u4e86 AI \u878d\u8d44\u96c6\u4e2d\u5ea6\u7684\u65b0\u9ad8\uff0c\u800c Dell \u5c55\u671b\u5927\u8d85\u9884\u671f\u8bf4\u660e\u8d44\u672c\u4ecd\u5728\u6d8c\u5165\u786c\u4ef6\u3002SpaceX \u4e0b\u8c03 IPO \u4f30\u503c\u5219\u662f\u53cd\u5411\u4fe1\u53f7\u2014\u2014\u516c\u5f00\u5e02\u573a\u5bf9\u9ad8\u4f30\u503c\u79d1\u6280\u80a1\u7684\u80c3\u53e3\u6b63\u5728\u964d\u6e29\u3002\u79c1\u52df\u5e02\u573a\u7684 AI \u72c2\u70ed\u4e0e\u516c\u5f00\u5e02\u573a\u7684\u8c28\u614e\u4e4b\u95f4\u7684\u843d\u5dee\uff0c\u6b63\u662f\u9700\u8981\u5173\u6ce8\u7684\u6ce1\u6cab\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 13,
       "ts": 1780073060,
