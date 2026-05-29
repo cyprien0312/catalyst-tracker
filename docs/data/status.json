@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780072683,
-  "generated_at_str": "2026-05-29 16:38:03 UTC",
-  "last_event_ts": 1780071245,
+  "generated_at": 1780073061,
+  "generated_at_str": "2026-05-29 16:44:21 UTC",
+  "last_event_ts": 1780073060,
   "tables": {
     "alerts_dedup": {
-      "count": 5,
-      "last_ts": 1780070192,
-      "last_str": "2026-05-29 15:56:32 UTC"
+      "count": 6,
+      "last_ts": 1780073060,
+      "last_str": "2026-05-29 16:44:20 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -49,9 +49,9 @@
       "last_str": "2026-05-29 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4826,
-      "last_ts": 1780071243,
-      "last_str": "2026-05-29 16:14:03 UTC"
+      "count": 4833,
+      "last_ts": 1780073043,
+      "last_str": "2026-05-29 16:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 13,
+      "ts": 1780073060,
+      "ts_str": "2026-05-29 16:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic drops new Claude model as OpenAI IPO race heats up - thestreet.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 29 May 2026 16:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxPb0h6RTlkc3ZYdUk0SGJENTI2OUdBcHJZV0xSc3Z0Y2t2dFhHblhCa2pPcUNlalFOQkZYSmVnOV95dnJieVVNbmc0cmtuVjRJdmdMWm90ZTk4WXhrdFZxNlRLaXdndmQwNjJJNFVWdGVtX1Y0VGtYYUZibjFYT0syS0h6UlU5eUphZmRyLXhSdFZqajhsY2xKbnlROHNFZw?oc=5\n\nAnthropic drops new Claude model as OpenAI IPO race heats up - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPb0h6RTlkc3ZYdUk0SGJENTI2OUdBcHJZV0xSc3Z0Y2t2dFhHblhCa2pPcUNlalFOQkZYSmVnOV95dnJieVVNbmc0cmtuVjRJdmdMWm90ZTk4WXhrdFZxNlRLaXdndmQwNjJJNFVWdGVtX1Y0VGtYYUZibjFYT0syS0h6UlU5eUphZmRyLXhSdFZqajhsY2xKbnlROHNFZw?oc=5\" target=\"_blank\">Anthropic drops new Claude model as OpenAI IPO race heats up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA thestreet.com headline reports Anthropic shipped a new Claude model as the \"OpenAI IPO race heats up.\"\n\n\u5185\u5bb9:\nthestreet.com \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053\u79f0\uff0cAnthropic \u53d1\u5e03\u4e86\u65b0\u7684 Claude \u6a21\u578b\uff0c\u4e0e\u6b64\u540c\u65f6 OpenAI IPO \u7ade\u8d5b\u5347\u6e29\u3002\n\nWhy it matters:\nRSS headline noise, not a hard financial signal \u2014 relevant only as a marker that the OpenAI IPO narrative is intensifying. An OpenAI IPO would be the clearest test of whether public markets will fund AI capex at private-round valuations; watch for it to move from press chatter to an actual S-1.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f RSS \u6807\u9898\u566a\u97f3\uff0c\u4e0d\u662f\u786c\u6027\u8d22\u52a1\u4fe1\u53f7\uff0c\u610f\u4e49\u4ec5\u5728\u4e8e\u6807\u5fd7 OpenAI IPO \u53d9\u4e8b\u6b63\u5728\u5347\u6e29\u3002OpenAI \u771f\u6b63 IPO \u5c06\u662f\u68c0\u9a8c\u516c\u5f00\u5e02\u573a\u662f\u5426\u613f\u610f\u6309\u79c1\u52df\u8f6e\u4f30\u503c\u4e3a AI capex \u4e70\u5355\u7684\u6700\u6e05\u6670\u4e00\u5173\u2014\u2014\u9700\u5173\u6ce8\u5b83\u4f55\u65f6\u4ece\u5a92\u4f53\u4f20\u8a00\u53d8\u6210\u771f\u6b63\u63d0\u4ea4\u7684 S-1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 12,
       "ts": 1780070192,
