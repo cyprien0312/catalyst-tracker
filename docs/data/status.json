@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780137483,
-  "generated_at_str": "2026-05-30 10:38:03 UTC",
-  "last_event_ts": 1780134242,
+  "generated_at": 1780137864,
+  "generated_at_str": "2026-05-30 10:44:24 UTC",
+  "last_event_ts": 1780137863,
   "tables": {
     "alerts_dedup": {
-      "count": 31,
-      "last_ts": 1780132463,
-      "last_str": "2026-05-30 09:14:23 UTC"
+      "count": 32,
+      "last_ts": 1780137863,
+      "last_str": "2026-05-30 10:44:23 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 962,
-      "last_ts": 1780118044,
-      "last_str": "2026-05-30 05:14:04 UTC"
+      "count": 963,
+      "last_ts": 1780137849,
+      "last_str": "2026-05-30 10:44:09 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 218,
@@ -49,9 +49,9 @@
       "last_str": "2026-05-30 01:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4974,
-      "last_ts": 1780134242,
-      "last_str": "2026-05-30 09:44:02 UTC"
+      "count": 4978,
+      "last_ts": 1780137847,
+      "last_str": "2026-05-30 10:44:07 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 39,
+      "ts": 1780137863,
+      "ts_str": "2026-05-30 10:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Altman tempers AI job loss fears as OpenAI IPO nears - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 09:04:13 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVzZmSFhNWnZfdTIxNFJkSHZOV1F6VFFOaEdVemNJYUYyLVZKdFRfOTUyZ29DYVFfSkNQa3N6OUVWNTA1eUJfcktkV2QtMGFtYVhuZ1ZSQ3JjX1MzVmpQT1M0ZkJxOXllam1ZSEhUOUc3aFUyWEsxRTB4VzdtTU5QajI4S29uQktTanRQbDEzY3ZvZ2kxc3FEN2ZUeUZhN2VGYlVhT2V1WXFydw?oc=5\n\nAltman tempers AI job loss fears as OpenAI IPO nears - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVzZmSFhNWnZfdTIxNFJkSHZOV1F6VFFOaEdVemNJYUYyLVZKdFRfOTUyZ29DYVFfSkNQa3N6OUVWNTA1eUJfcktkV2QtMGFtYVhuZ1ZSQ3JjX1MzVmpQT1M0ZkJxOXllam1ZSEhUOUc3aFUyWEsxRTB4VzdtTU5QajI4S29uQktTanRQbDEzY3ZvZ2kxc3FEN2ZUeUZhN2VGYlVhT2V1WXFydw?oc=5\" target=\"_blank\">Altman tempers AI job loss fears as OpenAI IPO nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item crossed the C3 feed: \"Altman tempers AI job loss fears as OpenAI IPO nears\" (MSN), signaling OpenAI is moving toward a public offering.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u6355\u6349\u5230\u4e00\u6761\u65b0\u95fb\uff1a\"Altman tempers AI job loss fears as OpenAI IPO nears\"\uff08MSN\uff09\uff0c\u663e\u793a OpenAI \u6b63\u5728\u63a8\u8fdb\u4e0a\u5e02\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the largest test of public-market appetite for the AI-capex thesis. Sam Altman publicly softening job-loss messaging as the listing approaches is narrative management \u2014 the kind of sentiment-smoothing that tends to cluster near the top of a spending cycle.\n\n\u5f71\u54cd:\nOpenAI \u7684 IPO \u5c06\u662f\u516c\u5f00\u5e02\u573a\u5bf9 AI capex \u903b\u8f91\u4e70\u4e0d\u4e70\u8d26\u7684\u6700\u5927\u4e00\u6b21\u68c0\u9a8c\u3002Sam Altman \u5728\u4e34\u8fd1\u4e0a\u5e02\u65f6\u516c\u5f00\u6de1\u5316 AI \u53d6\u4ee3\u5c31\u4e1a\u7684\u62c5\u5fe7\uff0c\u662f\u5178\u578b\u7684\u53d9\u4e8b\u7ba1\u7406\u2014\u2014\u8fd9\u79cd\u5b89\u629a\u60c5\u7eea\u7684\u52a8\u4f5c\u5f80\u5f80\u96c6\u4e2d\u51fa\u73b0\u5728\u652f\u51fa\u5468\u671f\u7684\u9876\u90e8\u9644\u8fd1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 38,
       "ts": 1780132463,
