@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780103283,
-  "generated_at_str": "2026-05-30 01:08:03 UTC",
-  "last_event_ts": 1780101843,
+  "generated_at": 1780103686,
+  "generated_at_str": "2026-05-30 01:14:46 UTC",
+  "last_event_ts": 1780103685,
   "tables": {
     "alerts_dedup": {
-      "count": 21,
-      "last_ts": 1780100058,
-      "last_str": "2026-05-30 00:14:18 UTC"
+      "count": 24,
+      "last_ts": 1780103685,
+      "last_str": "2026-05-30 01:14:45 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-05-30 00:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 215,
-      "last_ts": 1780100045,
-      "last_str": "2026-05-30 00:14:05 UTC"
+      "count": 217,
+      "last_ts": 1780103649,
+      "last_str": "2026-05-30 01:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4914,
-      "last_ts": 1780101843,
-      "last_str": "2026-05-30 00:44:03 UTC"
+      "count": 4922,
+      "last_ts": 1780103642,
+      "last_str": "2026-05-30 01:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 29,
+      "ts": 1780103685,
+      "ts_str": "2026-05-30 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI discusses IPO roles with Citi, JPMorgan - Tech in Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 00:19:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTFBTUkJUMG9wQkVWNXJaMjVZdE52dmJ4ZGh5b0c5Z3pxOW1XYjB5RUxELTNZT0NXTGdqNmVHekk5SUxXSGRuekFBMFRjNUlfTFQ3OHRPMV9tbGV1VG1DamREOENrblNyMEdlWkpxZUN1Y0JFX2M3dHRfNEtuQWk?oc=5\n\nOpenAI discusses IPO roles with Citi, JPMorgan - Tech in Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBTUkJUMG9wQkVWNXJaMjVZdE52dmJ4ZGh5b0c5Z3pxOW1XYjB5RUxELTNZT0NXTGdqNmVHekk5SUxXSGRuekFBMFRjNUlfTFQ3OHRPMV9tbGV1VG1DamREOENrblNyMEdlWkpxZUN1Y0JFX2M3dHRfNEtuQWk?oc=5\" target=\"_blank\">OpenAI discusses IPO roles with Citi, JPMorgan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech in Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline via Tech in Asia: \"OpenAI discusses IPO roles with Citi, JPMorgan.\" OpenAI is reportedly in talks with Citi and JPMorgan over lead-underwriter roles for an IPO.\n\n\u5185\u5bb9:\nTech in Asia \u7ecf Google News \u62a5\u9053\u6807\u9898\uff1a\"OpenAI discusses IPO roles with Citi, JPMorgan\"\u3002OpenAI \u636e\u62a5\u6b63\u4e0e Citi \u548c JPMorgan \u5546\u8c08 IPO \u7684\u627f\u9500\u4e3b\u5bfc\u89d2\u8272\u3002\n\nWhy it matters:\nLining up bulge-bracket banks is a concrete step toward a public listing \u2014 the clearest signal yet that OpenAI wants public-market capital to fund its compute buildout. An IPO would also force disclosure of burn rate and compute costs, exposing the unit economics the AI-capex thesis hinges on.\n\n\u5f71\u54cd:\n\u6572\u5b9a\u9876\u7ea7\u6295\u884c\u662f\u8fc8\u5411\u516c\u5f00\u4e0a\u5e02\u7684\u5b9e\u8d28\u6027\u4e00\u6b65\uff0c\u4e5f\u662f\u8fc4\u4eca\u6700\u660e\u786e\u7684\u4fe1\u53f7\uff1aOpenAI \u60f3\u7528\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u6765\u652f\u6491\u5176\u7b97\u529b\u6269\u5f20\u3002IPO \u8fd8\u4f1a\u8feb\u4f7f\u5176\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\uff0c\u628a AI capex \u903b\u8f91\u8d56\u4ee5\u6210\u7acb\u7684\u5355\u4f4d\u7ecf\u6d4e\u5b66\u6446\u5230\u53f0\u9762\u4e0a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 30,
+      "ts": 1780103685,
+      "ts_str": "2026-05-30 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI said to have held talks with Citigroup, JPMorgan for IPO preparations - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 29 May 2026 23:24:44 GMT\nLink:      https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRFVaZ29MaVZCWUZrMExweXNvZVJhVThOVGN5YWZXMFZWOW4ycHFFMHV4UVRQTHNKazUxQTZVYzVGX1U4LUFIb0lVdVlXRGlDTjR4SlpvaEYzVmJVVm95NUY1SlVVNTR0alJGcUtReGFxYzR5T1ZSNU9KVHZUNThYUFM3TE9EdmVFRk1OTXdnZVhPak4tTE9PMjVfRmh6NkVLaXNYdE5wNEt2RWg0Y2dkMHNRaHRoRFM0N0JrWFVxM0dObTlzZFVLQXh0ZnU0N041QUoyM3JtamswSHhMUDBybWQ4N0YwTmczQllj?oc=5\n\nOpenAI said to have held talks with Citigroup, JPMorgan for IPO preparations - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRFVaZ29MaVZCWUZrMExweXNvZVJhVThOVGN5YWZXMFZWOW4ycHFFMHV4UVRQTHNKazUxQTZVYzVGX1U4LUFIb0lVdVlXRGlDTjR4SlpvaEYzVmJVVm95NUY1SlVVNTR0alJGcUtReGFxYzR5T1ZSNU9KVHZUNThYUFM3TE9EdmVFRk1OTXdnZVhPak4tTE9PMjVfRmh6NkVLaXNYdE5wNEt2RWg0Y2dkMHNRaHRoRFM0N0JrWFVxM0dObTlzZFVLQXh0ZnU0N041QUoyM3JtamswSHhMUDBybWQ4N0YwTmczQllj?oc=5\" target=\"_blank\">OpenAI said to have held talks with Citigroup, JPMorgan for IPO preparations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reported to have held talks with Citigroup and JPMorgan to begin IPO preparations.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u5df2\u4e0e Citigroup \u548c JPMorgan \u63a5\u89e6\uff0c\u5f00\u59cb\u7b79\u5907 IPO\u3002\n\nWhy it matters:\nAn IPO would let OpenAI tap public markets to fund its massive compute and capex commitments \u2014 a sign that private and partner funding is no longer enough to cover the AI buildout. It also creates a public valuation and disclosure regime that ties the entire AI-capex thesis to quarterly scrutiny.\n\n\u5f71\u54cd:\n\u4e0a\u5e02\u610f\u5473\u7740 OpenAI \u9700\u8981\u52a8\u7528\u516c\u5f00\u5e02\u573a\u6765\u4e3a\u5176\u5e9e\u5927\u7684\u7b97\u529b\u548c\u8d44\u672c\u5f00\u652f\u627f\u8bfa\u878d\u8d44\u2014\u2014\u8868\u660e\u79c1\u52df\u548c\u5408\u4f5c\u4f19\u4f34\u7684\u8d44\u91d1\u5df2\u4e0d\u8db3\u4ee5\u652f\u6491\u8fd9\u8f6e AI \u57fa\u5efa\u6269\u5f20\u3002\u540c\u65f6\uff0cIPO \u4f1a\u5e26\u6765\u516c\u5f00\u4f30\u503c\u548c\u4fe1\u606f\u62ab\u9732\u8981\u6c42\uff0c\u4f7f\u6574\u4e2a AI capex \u903b\u8f91\u66b4\u9732\u5728\u6bcf\u5b63\u5ea6\u7684\u5e02\u573a\u5ba1\u89c6\u4e4b\u4e0b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 31,
+      "ts": 1780103685,
+      "ts_str": "2026-05-30 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Citi, JPM reportedly in talks to join OpenAI IPO bank lineup - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 29 May 2026 20:59:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVBtN2p1UnY1YmlDOElQaEdYSFd1bGNXcVhGTThzWVRoa0hEWk1wOG04dUlhOFVJaHVkb3gxOHZqX3hQZVFrdXgtSldlNnBhblduQnFIcVlxXzRaV2F3T3Zka3pWOUdSRmVzUnNBWmw5Y0ZGRVhBeEJfenNKWnRXaDNUR0tuZG14eXlxcnlxbm9uS2hIUmV6SlRtRk1yOU1nNFdGR1JxdU5iUlhzX2NhczNZTQ?oc=5\n\nCiti, JPM reportedly in talks to join OpenAI IPO bank lineup - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVBtN2p1UnY1YmlDOElQaEdYSFd1bGNXcVhGTThzWVRoa0hEWk1wOG04dUlhOFVJaHVkb3gxOHZqX3hQZVFrdXgtSldlNnBhblduQnFIcVlxXzRaV2F3T3Zka3pWOUdSRmVzUnNBWmw5Y0ZGRVhBeEJfenNKWnRXaDNUR0tuZG14eXlxcnlxbm9uS2hIUmV6SlRtRk1yOU1nNFdGR1JxdU5iUlhzX2NhczNZTQ?oc=5\" target=\"_blank\">Citi, JPM reportedly in talks to join OpenAI IPO bank lineup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti and JPMorgan are reportedly in talks to join the bank lineup for OpenAI's IPO, per an MSN report.\n\n\u5185\u5bb9:\n\u636e MSN \u62a5\u9053\uff0cCiti \u548c JPM \u6b63\u5728\u6d3d\u8c08\u52a0\u5165 OpenAI IPO \u7684\u627f\u9500\u94f6\u884c\u9635\u5bb9\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the marquee liquidity event of the AI-capex cycle \u2014 the point where private backers cash out into public markets. Expanding the underwriting syndicate signals the deal is moving from rumor toward execution, which historically marks the late, distribution phase of a boom rather than the early build-out.\n\n\u5f71\u54cd:\nOpenAI \u7684 IPO \u5c06\u662f\u8fd9\u8f6e AI capex \u5468\u671f\u6700\u5177\u6807\u5fd7\u6027\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u79c1\u4eba\u6295\u8d44\u8005\u501f\u6b64\u5411\u516c\u5f00\u5e02\u573a\u5957\u73b0\u9000\u51fa\u3002\u627f\u9500\u56e2\u6269\u5bb9\u610f\u5473\u7740\u8fd9\u7b14\u4ea4\u6613\u6b63\u4ece\u4f20\u95fb\u8d70\u5411\u843d\u5730\uff0c\u800c\u8fd9\u5728\u5386\u53f2\u4e0a\u5f80\u5f80\u6807\u5fd7\u7740\u7e41\u8363\u8fdb\u5165\u665a\u671f\u7684\u6d3e\u53d1\u9636\u6bb5\uff0c\u800c\u975e\u65e9\u671f\u7684\u5efa\u8bbe\u9636\u6bb5\u3002\n",
+      "emailed": false
+    },
     {
       "id": 28,
       "ts": 1780100058,
