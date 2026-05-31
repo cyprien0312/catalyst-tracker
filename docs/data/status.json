@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780220283,
-  "generated_at_str": "2026-05-31 09:38:03 UTC",
-  "last_event_ts": 1780218842,
+  "generated_at": 1780220670,
+  "generated_at_str": "2026-05-31 09:44:30 UTC",
+  "last_event_ts": 1780220669,
   "tables": {
     "alerts_dedup": {
-      "count": 56,
-      "last_ts": 1780211658,
-      "last_str": "2026-05-31 07:14:18 UTC"
+      "count": 58,
+      "last_ts": 1780220669,
+      "last_str": "2026-05-31 09:44:29 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-05-31 06:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 221,
-      "last_ts": 1780197249,
-      "last_str": "2026-05-31 03:14:09 UTC"
+      "count": 222,
+      "last_ts": 1780220644,
+      "last_str": "2026-05-31 09:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5128,
-      "last_ts": 1780218842,
-      "last_str": "2026-05-31 09:14:02 UTC"
+      "count": 5132,
+      "last_ts": 1780220643,
+      "last_str": "2026-05-31 09:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 64,
+      "ts": 1780220669,
+      "ts_str": "2026-05-31 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic hits $965B valuation, overtakes OpenAI ahead of IPO race - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 31 May 2026 00:39:01 GMT\nLink:      https://news.google.com/rss/articles/CBMi-wFBVV95cUxOLVUxWkQzMlNTaGZhVHR6UnBweHB5SzI0Y0Jqdjl4cVlkZnNCNzdHX2M1dVZHVEl0SWVnZzFSaXV2ekVFRGYxZ2xoTzNJZ1dWVVgtdUJJOHpUaFMwWEZ5YUpFMnJXN1dUVTRUeWUyZ0E0RlNZMDgtTi10dWRWQVdhejBVa2VNRUFNN1V4ZXJIRFZQMWZGaVpnLTZCb2hjTHE2YWVYNkRSTnNWbkhpb1pTYjZYM2d6Zi0wR0lvb1d1SU81eW5iRHBRZzFTUFlRNWlucHlzU3VGRmFua2d6RUxHaGFfZDFVSGhHRTJCQjlMNnZXaG1JRFRTbnpoRQ?oc=5\n\nAnthropic hits $965B valuation, overtakes OpenAI ahead of IPO race - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOLVUxWkQzMlNTaGZhVHR6UnBweHB5SzI0Y0Jqdjl4cVlkZnNCNzdHX2M1dVZHVEl0SWVnZzFSaXV2ekVFRGYxZ2xoTzNJZ1dWVVgtdUJJOHpUaFMwWEZ5YUpFMnJXN1dUVTRUeWUyZ0E0RlNZMDgtTi10dWRWQVdhejBVa2VNRUFNN1V4ZXJIRFZQMWZGaVpnLTZCb2hjTHE2YWVYNkRSTnNWbkhpb1pTYjZYM2d6Zi0wR0lvb1d1SU81eW5iRHBRZzFTUFlRNWlucHlzU3VGRmFua2d6RUxHaGFfZDFVSGhHRTJCQjlMNnZXaG1JRFRTbnpoRQ?oc=5\" target=\"_blank\">Anthropic hits $965B valuation, overtakes OpenAI ahead of IPO race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Anthropic hit a $965B valuation, overtaking OpenAI ahead of an IPO race.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0 Anthropic \u4f30\u503c\u8fbe\u5230 $965B\uff0c\u5728 IPO \u7ade\u8d5b\u524d\u8d85\u8d8a OpenAI\u3002\n\nWhy it matters:\nPrivate AI-lab valuations near $1T with no public financials to anchor them are a hallmark of late-stage bubble pricing. A leapfrog over OpenAI on headline valuation signals capital is chasing AI narrative faster than fundamentals, raising the risk of a sharp repricing.\n\n\u5f71\u54cd:\n\u79c1\u6709 AI \u5b9e\u9a8c\u5ba4\u4f30\u503c\u903c\u8fd1 $1T\uff0c\u5374\u6ca1\u6709\u516c\u5f00\u8d22\u62a5\u4f5c\u652f\u6491\uff0c\u8fd9\u662f\u5468\u671f\u665a\u671f\u6ce1\u6cab\u5b9a\u4ef7\u7684\u5178\u578b\u7279\u5f81\u3002\u5728\u4f30\u503c\u4e0a\u53cd\u8d85 OpenAI \u8bf4\u660e\u8d44\u672c\u8ffd\u9010 AI \u53d9\u4e8b\u7684\u901f\u5ea6\u5df2\u7ecf\u5feb\u8fc7\u57fa\u672c\u9762\uff0c\u4e00\u65e6\u91cd\u65b0\u5b9a\u4ef7\uff0c\u56de\u8c03\u53ef\u80fd\u5f88\u5267\u70c8\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 65,
+      "ts": 1780220669,
+      "ts_str": "2026-05-31 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic overtakes OpenAI as SpaceX readies record IPO - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 31 May 2026 09:22:04 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNUV5MlpGeWRjWTdMNVhYRHZxbXJSMEptS0ZKTWJlU1YzcmRhSTRNUm1aQzdJT0hockpiQVRkeUc1cjhZUURvdUU3U0dEYkpGMUo1bWlRZWIyeG5iWWNjcVVyU1RMQVZ4aTgxWndtbUc0d0lGbGlESExJVFlIOWRGR2xRQkE0QUw2aEctUFpDSG9wdk5lOHliN3RIclVOLXpPMGR2NVcxaTlfVzRIREFERERvYVBlNlp6R1piTDZ1TVR1TnloSkVNYUtjRE5nN0ZoclBicHVhckJtRG14?oc=5\n\nAnthropic overtakes OpenAI as SpaceX readies record IPO - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNUV5MlpGeWRjWTdMNVhYRHZxbXJSMEptS0ZKTWJlU1YzcmRhSTRNUm1aQzdJT0hockpiQVRkeUc1cjhZUURvdUU3U0dEYkpGMUo1bWlRZWIyeG5iWWNjcVVyU1RMQVZ4aTgxWndtbUc0d0lGbGlESExJVFlIOWRGR2xRQkE0QUw2aEctUFpDSG9wdk5lOHliN3RIclVOLXpPMGR2NVcxaTlfVzRIREFERERvYVBlNlp6R1piTDZ1TVR1TnloSkVNYUtjRE5nN0ZoclBicHVhckJtRG14?oc=5\" target=\"_blank\">Anthropic overtakes OpenAI as SpaceX readies record IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline crossed the C3 feed: \"Anthropic overtakes OpenAI as SpaceX readies record IPO\" (via MSN). It reports Anthropic surpassing OpenAI alongside a record-size SpaceX IPO.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u6355\u6349\u5230\u4e00\u6761\u65b0\u95fb\u6807\u9898\uff1a\"Anthropic overtakes OpenAI as SpaceX readies record IPO\"\uff08\u6765\u6e90 MSN\uff09\uff0c\u62a5\u9053 Anthropic \u53cd\u8d85 OpenAI\uff0c\u540c\u65f6 SpaceX \u51c6\u5907\u8fdb\u884c\u521b\u7eaa\u5f55\u89c4\u6a21\u7684 IPO\u3002\n\nWhy it matters:\nOpenAI is the demand anchor underwriting much of the AI-capex buildout; signs it is losing its lead weaken the assumption that committed compute spend will be absorbed. Headlines pairing an AI leadership shift with a record IPO are the kind of late-cycle, top-of-market framing that marks sentiment peaks.\n\n\u5f71\u54cd:\nOpenAI \u662f\u652f\u6491\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u5b83\u5931\u53bb\u9886\u5148\u5730\u4f4d\u7684\u8ff9\u8c61\uff0c\u4f1a\u52a8\u6447\"\u5df2\u627f\u8bfa\u7684\u7b97\u529b\u652f\u51fa\u80fd\u88ab\u6d88\u5316\"\u8fd9\u4e00\u524d\u63d0\u3002\u628a AI \u9886\u5bfc\u6743\u6613\u4e3b\u4e0e\u521b\u7eaa\u5f55 IPO \u653e\u5728\u4e00\u8d77\u7684\u6807\u9898\uff0c\u6b63\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u3001\u5e02\u573a\u9876\u90e8\u53d9\u4e8b\uff0c\u5f80\u5f80\u6807\u5fd7\u60c5\u7eea\u89c1\u9876\u3002\n",
+      "emailed": false
+    },
     {
       "id": 63,
       "ts": 1780211658,
