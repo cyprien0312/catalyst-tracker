@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780340883,
-  "generated_at_str": "2026-06-01 19:08:03 UTC",
-  "last_event_ts": 1780339485,
+  "generated_at": 1780341258,
+  "generated_at_str": "2026-06-01 19:14:18 UTC",
+  "last_event_ts": 1780341257,
   "tables": {
     "alerts_dedup": {
-      "count": 102,
-      "last_ts": 1780339485,
-      "last_str": "2026-06-01 18:44:45 UTC"
+      "count": 103,
+      "last_ts": 1780341257,
+      "last_str": "2026-06-01 19:14:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1033,
-      "last_ts": 1780339444,
-      "last_str": "2026-06-01 18:44:04 UTC"
+      "count": 1036,
+      "last_ts": 1780341244,
+      "last_str": "2026-06-01 19:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 237,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-01 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5506,
-      "last_ts": 1780339443,
-      "last_str": "2026-06-01 18:44:03 UTC"
+      "count": 5533,
+      "last_ts": 1780341243,
+      "last_str": "2026-06-01 19:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 110,
+      "ts": 1780341257,
+      "ts_str": "2026-06-01 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI's Altman Says He Is Not Focused On IPO Timing After Anthropic Filed - CNBC - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 01 Jun 2026 18:47:34 GMT\nLink:      https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYzNTaV9RTkNXZ2J0dlJhTThyTkx2R3J2bnp2VmdiQklXd2hwMng5T1NDcDdkZkRFeUhod2NrUndkdW9Ed0xScjFCTGgyalB4YkpwNkFzb2dZV0t6WnhsYms0cTlsRmZsdzgzb0dPSjVTOFdrUk5QVmdvbWZpQVFpMUJqdEM3SkNKeGRETG9FTE8yMEFYSU0wTWZycG9HQ2dfZWUtWW5hWjZuTTdoTzc3dGRLYVh3QU1KX3ptblcyZmN1TDJLRTlwMTlzWGVsWVFwQzJIeG9hY2dFdm01ZnhIOG1wTQ?oc=5\n\nOpenAI's Altman Says He Is Not Focused On IPO Timing After Anthropic Filed - CNBC - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYzNTaV9RTkNXZ2J0dlJhTThyTkx2R3J2bnp2VmdiQklXd2hwMng5T1NDcDdkZkRFeUhod2NrUndkdW9Ed0xScjFCTGgyalB4YkpwNkFzb2dZV0t6WnhsYms0cTlsRmZsdzgzb0dPSjVTOFdrUk5QVmdvbWZpQVFpMUJqdEM3SkNKeGRETG9FTE8yMEFYSU0wTWZycG9HQ2dfZWUtWW5hWjZuTTdoTzc3dGRLYVh3QU1KX3ptblcyZmN1TDJLRTlwMTlzWGVsWVFwQzJIeG9hY2dFdm01ZnhIOG1wTQ?oc=5\" target=\"_blank\">OpenAI's Altman Says He Is Not Focused On IPO Timing After Anthropic Filed - CNBC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news signal fired on a CNBC headline: OpenAI's Sam Altman says he is not focused on IPO timing after Anthropic filed.\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u4fe1\u53f7\u7531\u4e00\u6761 CNBC \u6807\u9898\u89e6\u53d1\uff1aOpenAI \u7684 Sam Altman \u8868\u793a\uff0c\u5728 Anthropic \u63d0\u4ea4 IPO \u7533\u8bf7\u540e\uff0c\u4ed6\u5e76\u4e0d\u5173\u6ce8 OpenAI \u81ea\u8eab\u7684 IPO \u65f6\u95f4\u8868\u3002\n\nWhy it matters:\nAnthropic moving toward an IPO and reporters pressing Altman on OpenAI's own timing signals that the largest AI labs are eyeing public markets \u2014 typically a move to raise capital and give early backers an exit when private funding gets harder. Late-cycle IPO chatter around the marquee names is a classic bubble-stress tell.\n\n\u5f71\u54cd:\nAnthropic \u63a8\u8fdb IPO\u3001\u8bb0\u8005\u8ffd\u95ee Altman \u5173\u4e8e OpenAI \u4e0a\u5e02\u65f6\u95f4\uff0c\u8bf4\u660e\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u6b63\u5728\u7784\u51c6\u516c\u5f00\u5e02\u573a\u2014\u2014\u901a\u5e38\u662f\u4e3a\u4e86\u5728\u79c1\u52df\u878d\u8d44\u53d8\u96be\u65f6\u7b79\u8d44\u5e76\u8ba9\u65e9\u671f\u6295\u8d44\u8005\u9000\u51fa\u3002\u56f4\u7ed5\u6807\u5fd7\u6027\u516c\u53f8\u7684\u5468\u671f\u665a\u671f IPO \u4f20\u95fb\u662f\u5178\u578b\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 107,
       "ts": 1780339485,
