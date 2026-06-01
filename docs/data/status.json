@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780315683,
-  "generated_at_str": "2026-06-01 12:08:03 UTC",
-  "last_event_ts": 1780314242,
+  "generated_at": 1780316071,
+  "generated_at_str": "2026-06-01 12:14:31 UTC",
+  "last_event_ts": 1780316070,
   "tables": {
     "alerts_dedup": {
-      "count": 72,
-      "last_ts": 1780307070,
-      "last_str": "2026-06-01 09:44:30 UTC"
+      "count": 74,
+      "last_ts": 1780316070,
+      "last_str": "2026-06-01 12:14:30 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1003,
-      "last_ts": 1780312451,
-      "last_str": "2026-06-01 11:14:11 UTC"
+      "count": 1006,
+      "last_ts": 1780316044,
+      "last_str": "2026-06-01 12:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 231,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-01 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5322,
-      "last_ts": 1780314242,
-      "last_str": "2026-06-01 11:44:02 UTC"
+      "count": 5329,
+      "last_ts": 1780316043,
+      "last_str": "2026-06-01 12:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 80,
+      "ts": 1780316070,
+      "ts_str": "2026-06-01 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Why It Matters if OpenAI or Anthropic Wins the IPO Race - WSJ",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 01 Jun 2026 09:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE8wY0x4bjdLN01XZklMLTBaUTk4b3hvNF83ZHdtaGVNWmNPR0NCdkMwYUNBa2FlRlRvNU9uVXRzUmlrcmpFVEV6QXBkb0d2LXBNeE1fUU5ydnpCa3FIc2RNam5aeVBPREVNdFdVVThZVFYzeFgxUG4wZg?oc=5\n\nWhy It Matters if OpenAI or Anthropic Wins the IPO Race - WSJ\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE8wY0x4bjdLN01XZklMLTBaUTk4b3hvNF83ZHdtaGVNWmNPR0NCdkMwYUNBa2FlRlRvNU9uVXRzUmlrcmpFVEV6QXBkb0d2LXBNeE1fUU5ydnpCa3FIc2RNam5aeVBPREVNdFdVVThZVFYzeFgxUG4wZg?oc=5\" target=\"_blank\">Why It Matters if OpenAI or Anthropic Wins the IPO Race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA WSJ headline asks why it matters whether OpenAI or Anthropic wins \"the IPO Race\" \u2014 framing a near-term public listing of a frontier AI lab as a live question.\n\n\u5185\u5bb9:\nWSJ \u7684\u6807\u9898\u8ba8\u8bba OpenAI \u6216 Anthropic \u8c01\u5148\u8d62\u5f97\u300cIPO \u7ade\u8d5b\u300d\u4e3a\u4f55\u91cd\u8981\uff0c\u628a\u524d\u6cbf AI \u5b9e\u9a8c\u5ba4\u5373\u5c06\u4e0a\u5e02\u5f53\u4f5c\u4e00\u4e2a\u73b0\u5b9e\u8bae\u9898\u6765framing\u3002\n\nWhy it matters:\nAn IPO forces audited financials and a public valuation onto a previously private, capital-hungry AI lab. The market's reaction to those first real numbers \u2014 burn rate, compute costs, revenue multiples \u2014 is a key stress test of whether AI-infrastructure valuations survive public scrutiny.\n\n\u5f71\u54cd:\nIPO \u4f1a\u8feb\u4f7f\u4e00\u5bb6\u6b64\u524d\u79c1\u6709\u3001\u6781\u5ea6\u70e7\u94b1\u7684 AI \u5b9e\u9a8c\u5ba4\u516c\u5f00\u7ecf\u5ba1\u8ba1\u7684\u8d22\u62a5\u548c\u5e02\u573a\u4f30\u503c\u3002\u5e02\u573a\u5bf9\u8fd9\u4e9b\u9996\u6b21\u771f\u5b9e\u6570\u636e\u2014\u2014\u70e7\u94b1\u901f\u5ea6\u3001\u7b97\u529b\u6210\u672c\u3001\u8425\u6536\u500d\u6570\u2014\u2014\u7684\u53cd\u5e94\uff0c\u662f\u68c0\u9a8c AI \u57fa\u7840\u8bbe\u65bd\u4f30\u503c\u80fd\u5426\u7ecf\u53d7\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u7684\u5173\u952e\u538b\u529b\u6d4b\u8bd5\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 81,
+      "ts": 1780316070,
+      "ts_str": "2026-06-01 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Why it matters if OpenAI or Anthropic wins the IPO race - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 01 Jun 2026 09:42:53 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdDQ5bTRFdDBkN0tDVWk4aE1GTWdQcGdCX2gyOXFPelBQT1dMc0hDbDZmTWlMNDhsVjFJMlNFZm5iZ2tEYTJiNDhJUXdLUzFfZFIzdFBLVmhDSnB4SUJKVTl5YVl3a19QS3FzYWJSa0ZhUlNyazlQclp2OGxTaFdjUTFvOTZvbmgyYXB2SHR0Snp4dTZwYnpraVJhYXR3ZWZxS3JXMUtsaV9TcG1WX25SdmNab01zZzRYNDRwc1ZUb1M1b09vUkExY2dXczFnQ0Y2?oc=5\n\nWhy it matters if OpenAI or Anthropic wins the IPO race - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdDQ5bTRFdDBkN0tDVWk4aE1GTWdQcGdCX2gyOXFPelBQT1dMc0hDbDZmTWlMNDhsVjFJMlNFZm5iZ2tEYTJiNDhJUXdLUzFfZFIzdFBLVmhDSnB4SUJKVTl5YVl3a19QS3FzYWJSa0ZhUlNyazlQclp2OGxTaFdjUTFvOTZvbmgyYXB2SHR0Snp4dTZwYnpraVJhYXR3ZWZxS3JXMUtsaV9TcG1WX25SdmNab01zZzRYNDRwc1ZUb1M1b09vUkExY2dXczFnQ0Y2?oc=5\" target=\"_blank\">Why it matters if OpenAI or Anthropic wins the IPO race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item surfaced in the C3 feed: an MSN article titled \"Why it matters if OpenAI or Anthropic wins the IPO race,\" framing OpenAI and Anthropic as competitors heading toward a public listing.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u4e2d\u51fa\u73b0\u4e00\u6761 Google News \u6761\u76ee\uff1aMSN \u6587\u7ae0\u300aWhy it matters if OpenAI or Anthropic wins the IPO race\u300b\uff0c\u5c06 OpenAI \u4e0e Anthropic \u63cf\u8ff0\u4e3a\u7ade\u9010\u4e0a\u5e02\u7684\u5bf9\u624b\u3002\n\nWhy it matters:\nPress chatter about an OpenAI/Anthropic IPO race signals the funding model is shifting from private rounds toward public markets. An IPO push often means private capital is getting harder to raise at current valuations \u2014 a late-cycle tell for the AI-capex thesis, since it forces public disclosure of burn rates and compute costs.\n\n\u5f71\u54cd:\n\u5173\u4e8e OpenAI/Anthropic \u4e0a\u5e02\u7ade\u8d5b\u7684\u5a92\u4f53\u8ba8\u8bba\uff0c\u610f\u5473\u7740\u878d\u8d44\u6a21\u5f0f\u6b63\u4ece\u79c1\u52df\u8f6e\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u3002\u63a8\u52a8 IPO \u5f80\u5f80\u8bf4\u660e\u5728\u5f53\u524d\u4f30\u503c\u4e0b\u79c1\u52df\u8d44\u91d1\u8d8a\u6765\u8d8a\u96be\u7b79\u2014\u2014\u8fd9\u662f AI capex \u903b\u8f91\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\uff0c\u56e0\u4e3a\u4e0a\u5e02\u4f1a\u8feb\u4f7f\u516c\u5f00\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 78,
       "ts": 1780307070,
