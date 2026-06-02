@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780358883,
-  "generated_at_str": "2026-06-02 00:08:03 UTC",
-  "last_event_ts": 1780357443,
+  "generated_at": 1780359256,
+  "generated_at_str": "2026-06-02 00:14:16 UTC",
+  "last_event_ts": 1780359256,
   "tables": {
     "alerts_dedup": {
-      "count": 115,
-      "last_ts": 1780355655,
-      "last_str": "2026-06-01 23:14:15 UTC"
+      "count": 116,
+      "last_ts": 1780359256,
+      "last_str": "2026-06-02 00:14:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1045,
-      "last_ts": 1780355643,
-      "last_str": "2026-06-01 23:14:03 UTC"
+      "count": 1047,
+      "last_ts": 1780359243,
+      "last_str": "2026-06-02 00:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 241,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-01 21:44:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5671,
-      "last_ts": 1780357443,
-      "last_str": "2026-06-01 23:44:03 UTC"
+      "count": 5677,
+      "last_ts": 1780359242,
+      "last_str": "2026-06-02 00:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 123,
+      "ts": 1780359256,
+      "ts_str": "2026-06-02 00:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic files confidentially for IPO in race with OpenAI - The Japan Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 01 Jun 2026 22:17:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxPdTJDdGN3VlpwdDgxelJabkFXYUcxakUyekl5RWI3QmVnLUc3ZFJvQlB4VHRaa2lwNU5URHRuRUhGYkxLOTFjaDJPMDRsM0NLSDNkNjNzejRVbWNIWHBobklMUkNMaVdEenROWlFFYUNHZDB1c0pyd2k5UkIwTnBrdWNrekpIWHc?oc=5\n\nAnthropic files confidentially for IPO in race with OpenAI - The Japan Times\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPdTJDdGN3VlpwdDgxelJabkFXYUcxakUyekl5RWI3QmVnLUc3ZFJvQlB4VHRaa2lwNU5URHRuRUhGYkxLOTFjaDJPMDRsM0NLSDNkNjNzejRVbWNIWHBobklMUkNMaVdEenROWlFFYUNHZDB1c0pyd2k5UkIwTnBrdWNrekpIWHc?oc=5\" target=\"_blank\">Anthropic files confidentially for IPO in race with OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Japan Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item via The Japan Times reports that Anthropic has filed confidentially for an IPO, framed as a race with OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u6761\u7ecf\u7531 The Japan Times \u7684 Google News RSS \u62a5\u9053\u79f0\uff0cAnthropic \u5df2\u79d8\u5bc6\u63d0\u4ea4 IPO \u7533\u8bf7\uff0c\u5e76\u88ab\u63cf\u8ff0\u4e3a\u4e0e OpenAI \u7684\u4e0a\u5e02\u7ade\u8d5b\u3002\n\nWhy it matters:\nA confidential IPO filing from a leading AI lab signals it is moving to tap public-market capital, likely because private funding can no longer cover the cash burn of frontier-model training. An OpenAI/Anthropic listing race would mark the point where the AI buildout starts pulling from public investors \u2014 a late-stage funding signal for the capex cycle.\n\n\u5f71\u54cd:\n\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u79d8\u5bc6\u9012\u4ea4 IPO\uff0c\u8bf4\u660e\u5b83\u5f00\u59cb\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u5f88\u53ef\u80fd\u662f\u56e0\u4e3a\u79c1\u52df\u8d44\u91d1\u5df2\u65e0\u6cd5\u8986\u76d6\u524d\u6cbf\u6a21\u578b\u8bad\u7ec3\u7684\u73b0\u91d1\u6d88\u8017\u3002OpenAI \u4e0e Anthropic \u7684\u4e0a\u5e02\u7ade\u8d5b\uff0c\u6807\u5fd7\u7740 AI \u57fa\u5efa\u6295\u5165\u5f00\u59cb\u5411\u516c\u4f17\u6295\u8d44\u8005\u4f38\u624b\u2014\u2014\u8fd9\u662f\u8d44\u672c\u5f00\u652f\u5468\u671f\u8fdb\u5165\u540e\u671f\u7684\u878d\u8d44\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 122,
       "ts": 1780355655,
