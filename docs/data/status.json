@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780425483,
-  "generated_at_str": "2026-06-02 18:38:03 UTC",
-  "last_event_ts": 1780424056,
+  "generated_at": 1780425881,
+  "generated_at_str": "2026-06-02 18:44:41 UTC",
+  "last_event_ts": 1780425880,
   "tables": {
     "alerts_dedup": {
-      "count": 130,
-      "last_ts": 1780424056,
-      "last_str": "2026-06-02 18:14:16 UTC"
+      "count": 132,
+      "last_ts": 1780425880,
+      "last_str": "2026-06-02 18:44:40 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1106,
-      "last_ts": 1780424046,
-      "last_str": "2026-06-02 18:14:06 UTC"
+      "count": 1107,
+      "last_ts": 1780425849,
+      "last_str": "2026-06-02 18:44:09 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 250,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-02 18:14:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5872,
-      "last_ts": 1780424043,
-      "last_str": "2026-06-02 18:14:03 UTC"
+      "count": 5884,
+      "last_ts": 1780425847,
+      "last_str": "2026-06-02 18:44:07 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 138,
+      "ts": 1780425880,
+      "ts_str": "2026-06-02 18:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Look Who Just Crashed OpenAI and SoftBank\u2019s IPO Party - Bloomberg.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 02 Jun 2026 18:00:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQcFNUT182bjVHYzljWTRkdHhYV3pfZmU0Yy1JU0llVUtVdGZvYmRWTmpWTHFOMDFKQ3VnZndQTEhDS29HR2FEQ0JiQm9FRUtsc2ZybmNNQWs1ZWVWWWNUaWVjSld1TzhNdVByYnZVbmVqTHFnOEw3VFdVTUxVaTFmMHJoUXBoRElrQkNpSGVYVDNEeXBpSUFzLV9jQ2FrQzlPVUlEQXpQeGJmQTdXV1NmZUJTOA?oc=5\n\nLook Who Just Crashed OpenAI and SoftBank\u2019s IPO Party - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQcFNUT182bjVHYzljWTRkdHhYV3pfZmU0Yy1JU0llVUtVdGZvYmRWTmpWTHFOMDFKQ3VnZndQTEhDS29HR2FEQ0JiQm9FRUtsc2ZybmNNQWs1ZWVWWWNUaWVjSld1TzhNdVByYnZVbmVqTHFnOEw3VFdVTUxVaTFmMHJoUXBoRElrQkNpSGVYVDNEeXBpSUFzLV9jQ2FrQzlPVUlEQXpQeGJmQTdXV1NmZUJTOA?oc=5\" target=\"_blank\">Look Who Just Crashed OpenAI and SoftBank\u2019s IPO Party</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg headline flagged by the C3 OpenAI feed reads \"Look Who Just Crashed OpenAI and SoftBank's IPO Party,\" signaling a disruption to OpenAI/SoftBank IPO plans.\n\n\u5185\u5bb9:\nC3 OpenAI \u4fe1\u606f\u6e90\u6355\u83b7\u5230\u4e00\u6761 Bloomberg \u6807\u9898\uff1a\"Look Who Just Crashed OpenAI and SoftBank's IPO Party\"\uff0c\u6697\u793a OpenAI/SoftBank \u7684 IPO \u8ba1\u5212\u906d\u9047\u6405\u5c40\u3002\n\nWhy it matters:\nOpenAI and SoftBank are the anchor demand story for the AI-capex buildout. Anything that complicates their financing or IPO path tightens the funding pipe the whole sector is leaning on \u2014 a stress point for the bubble thesis.\n\n\u5f71\u54cd:\nOpenAI \u4e0e SoftBank \u662f\u652f\u6491 AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u6838\u5fc3\u9700\u6c42\u53d9\u4e8b\u3002\u4efb\u4f55\u4f7f\u5176\u878d\u8d44\u6216 IPO \u8def\u5f84\u590d\u6742\u5316\u7684\u56e0\u7d20\uff0c\u90fd\u4f1a\u6536\u7d27\u6574\u4e2a\u884c\u4e1a\u6240\u4f9d\u8d56\u7684\u8d44\u91d1\u6765\u6e90\u2014\u2014\u662f\u6ce1\u6cab\u8bba\u7684\u4e00\u4e2a\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 139,
+      "ts": 1780425880,
+      "ts_str": "2026-06-02 18:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic's IPO Filing Signals Race to Lead Over OpenAI - StartupHub.ai",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 02 Jun 2026 18:02:39 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc185WEhzTVNJYl90U1RXT3Q4aGFNRTNMV0VfMjkxUTVqeFJyaVR3SU9fQjAtUDhDbWtEMGRiQi1qaFlCdXhzTTNweTVMOGpmT1QxbGJDOHhVUm0xSno3QkE5dXFJVXkwZDJYUWN5ZVRIN2kzWWVHNUlnLVY0VFJpZXlhQ1hWTDA3RE52WjlSVDFNNldDbkV0YmY1cm9TZUVzRjlpTUZhVFEtVHM?oc=5\n\nAnthropic's IPO Filing Signals Race to Lead Over OpenAI - StartupHub.ai\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc185WEhzTVNJYl90U1RXT3Q4aGFNRTNMV0VfMjkxUTVqeFJyaVR3SU9fQjAtUDhDbWtEMGRiQi1qaFlCdXhzTTNweTVMOGpmT1QxbGJDOHhVUm0xSno3QkE5dXFJVXkwZDJYUWN5ZVRIN2kzWWVHNUlnLVY0VFJpZXlhQ1hWTDA3RE52WjlSVDFNNldDbkV0YmY1cm9TZUVzRjlpTUZhVFEtVHM?oc=5\" target=\"_blank\">Anthropic's IPO Filing Signals Race to Lead Over OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StartupHub.ai</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that Anthropic has filed for an IPO, framed as a move to lead the race against OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Anthropic \u5df2\u63d0\u4ea4 IPO \u7533\u8bf7\uff0c\u5e76\u5c06\u5176\u5b9a\u4f4d\u4e3a\u4e0e OpenAI \u4e89\u593a\u9886\u5148\u5730\u4f4d\u4e4b\u4e3e\u3002\n\nWhy it matters:\nA frontier lab filing to go public pulls private AI-capex losses into public disclosure \u2014 S-1 financials would expose burn rate, compute commitments, and margin structure. It also signals the funding cycle is shifting from private rounds to public markets, a late-stage sign that private capital is reaching its limit.\n\n\u5f71\u54cd:\n\u524d\u6cbf\u5927\u6a21\u578b\u516c\u53f8\u7533\u8bf7\u4e0a\u5e02\uff0c\u4f1a\u628a\u539f\u672c\u79c1\u6709\u7684 AI capex \u4e8f\u635f\u7eb3\u5165\u516c\u5f00\u62ab\u9732\u2014\u2014S-1 \u8d22\u62a5\u5c06\u66b4\u9732\u5176\u70e7\u94b1\u901f\u5ea6\u3001\u7b97\u529b\u627f\u8bfa\u548c\u5229\u6da6\u7ed3\u6784\u3002\u8fd9\u4e5f\u8868\u660e\u878d\u8d44\u5468\u671f\u6b63\u4ece\u79c1\u52df\u8f6e\u8f6c\u5411\u516c\u5f00\u5e02\u573a\uff0c\u662f\u79c1\u4eba\u8d44\u672c\u63a5\u8fd1\u6781\u9650\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 137,
       "ts": 1780424056,
