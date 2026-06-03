@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780465087,
-  "generated_at_str": "2026-06-03 05:38:07 UTC",
-  "last_event_ts": 1780463644,
+  "generated_at": 1780465458,
+  "generated_at_str": "2026-06-03 05:44:18 UTC",
+  "last_event_ts": 1780465457,
   "tables": {
     "alerts_dedup": {
-      "count": 141,
-      "last_ts": 1780461859,
-      "last_str": "2026-06-03 04:44:19 UTC"
+      "count": 142,
+      "last_ts": 1780465457,
+      "last_str": "2026-06-03 05:44:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1138,
-      "last_ts": 1780463644,
-      "last_str": "2026-06-03 05:14:04 UTC"
+      "count": 1139,
+      "last_ts": 1780465443,
+      "last_str": "2026-06-03 05:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 253,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-03 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5962,
-      "last_ts": 1780463642,
-      "last_str": "2026-06-03 05:14:02 UTC"
+      "count": 5965,
+      "last_ts": 1780465442,
+      "last_str": "2026-06-03 05:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 149,
+      "ts": 1780465457,
+      "ts_str": "2026-06-03 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Sam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 03 Jun 2026 03:34:38 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wNBVV95cUxPZzgtdU5XZG1iWk1zNnVzOVRCUHBfZWdkMEc1eElqczJjNEtRR2dfZ0JNc0lVSzlRbFgwN0NtbWRGaXdNOWk4OHFxc3lhNHlYUzBnYWRIdFBtQTh2N2hHWWozR0NSaGQ4T2hYY2thS2VmVjdjLUlweVBWUVlGX2lhYzZKWENncXM5dVhOWENOcmNtUnJ4U2tROVhHQlJOdGJRSFFmbWw5ZTdSNXRrWjFxN1dsbmFycDJQWGpHVTZoY1l1YTRnZFhZdGVRTE5wakxZT09sbzYtQmI0Y0FqLUhlVTRST2pWNWNkMlhLS2JHRlpVSGFHRFpoR3BidWNxRHpsYVJFOGkwNElod0JiTlNKQWVHNmZlWkxXanV4VnNMQlJzblgwSzBPamVrU1l1SGZhUTEwMkZtd0ZQMkVrRmlaX3FGbnBLYzM4NTJuQXl4Sy1rM0tpc25YNlZYQ3c2VHdpMkVoNFhiaXlMcU13ejdlYUtNOG9sSVp1YU92OHQ2N3FFN1RQVHBnQ1N2RjBFdUhjRk45bUVYdk1jM3p3Q29IS2FDMVdnV2VmbkhHc1RsdVItR3VnS0gzdUZZS21FNDhKeWhJN1l3UVV2ZEROQ1U2NFBxdVB6b2c0RTVpZHRfbw?oc=5\n\nSam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wNBVV95cUxPZzgtdU5XZG1iWk1zNnVzOVRCUHBfZWdkMEc1eElqczJjNEtRR2dfZ0JNc0lVSzlRbFgwN0NtbWRGaXdNOWk4OHFxc3lhNHlYUzBnYWRIdFBtQTh2N2hHWWozR0NSaGQ4T2hYY2thS2VmVjdjLUlweVBWUVlGX2lhYzZKWENncXM5dVhOWENOcmNtUnJ4U2tROVhHQlJOdGJRSFFmbWw5ZTdSNXRrWjFxN1dsbmFycDJQWGpHVTZoY1l1YTRnZFhZdGVRTE5wakxZT09sbzYtQmI0Y0FqLUhlVTRST2pWNWNkMlhLS2JHRlpVSGFHRFpoR3BidWNxRHpsYVJFOGkwNElod0JiTlNKQWVHNmZlWkxXanV4VnNMQlJzblgwSzBPamVrU1l1SGZhUTEwMkZtd0ZQMkVrRmlaX3FGbnBLYzM4NTJuQXl4Sy1rM0tpc25YNlZYQ3c2VHdpMkVoNFhiaXlMcU13ejdlYUtNOG9sSVp1YU92OHQ2N3FFN1RQVHBnQ1N2RjBFdUhjRk45bUVYdk1jM3p3Q29IS2FDMVdnV2VmbkhHc1RsdVItR3VnS0gzdUZZS21FNDhKeWhJN1l3UVV2ZEROQ1U2NFBxdVB6b2c0RTVpZHRfbw?oc=5\" target=\"_blank\">Sam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Sam Altman saying OpenAI will go public \"when it makes sense,\" brushing off IPO-timing questions after Anthropic's filing.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 Sam Altman \u8868\u793a OpenAI \u4f1a\u5728\"\u65f6\u673a\u5408\u9002\u65f6\"\u4e0a\u5e02\uff0c\u5e76\u5728 Anthropic \u63d0\u4ea4\u7533\u62a5\u540e\u56de\u907f\u4e86 IPO \u65f6\u95f4\u8868\u7684\u95ee\u9898\u3002\n\nWhy it matters:\nPublic-market timing signals are part of the C3 OpenAI-watch thesis: an IPO would force audited disclosure of OpenAI's true burn rate and compute commitments, while deferring it keeps the largest AI-capex driver opaque. Altman deflecting right after a rival's filing suggests the numbers aren't yet ready to face public scrutiny.\n\n\u5f71\u54cd:\n\u4e0a\u5e02\u65f6\u95f4\u662f C3 OpenAI \u76d1\u6d4b\u903b\u8f91\u7684\u4e00\u90e8\u5206\uff1aIPO \u4f1a\u8feb\u4f7f OpenAI \u516c\u5f00\u7ecf\u5ba1\u8ba1\u7684\u771f\u5b9e\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u627f\u8bfa\uff0c\u800c\u63a8\u8fdf\u4e0a\u5e02\u5219\u8ba9\u8fd9\u4e2a\u6700\u5927\u7684 AI capex \u63a8\u624b\u7ee7\u7eed\u4fdd\u6301\u4e0d\u900f\u660e\u3002Altman \u5728\u7ade\u4e89\u5bf9\u624b Anthropic \u7533\u62a5\u540e\u7acb\u523b\u56de\u907f\u6b64\u95ee\u9898\uff0c\u6697\u793a\u5176\u8d22\u52a1\u6570\u636e\u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u68c0\u9a8c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 148,
       "ts": 1780461859,
