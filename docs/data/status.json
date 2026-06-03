@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780522683,
-  "generated_at_str": "2026-06-03 21:38:03 UTC",
-  "last_event_ts": 1780521244,
+  "generated_at": 1780523081,
+  "generated_at_str": "2026-06-03 21:44:41 UTC",
+  "last_event_ts": 1780523080,
   "tables": {
     "alerts_dedup": {
-      "count": 156,
-      "last_ts": 1780510472,
-      "last_str": "2026-06-03 18:14:32 UTC"
+      "count": 159,
+      "last_ts": 1780523080,
+      "last_str": "2026-06-03 21:44:40 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1209,
-      "last_ts": 1780521243,
-      "last_str": "2026-06-03 21:14:03 UTC"
+      "count": 1211,
+      "last_ts": 1780523043,
+      "last_str": "2026-06-03 21:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 261,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-03 21:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6143,
-      "last_ts": 1780521242,
-      "last_str": "2026-06-03 21:14:02 UTC"
+      "count": 6150,
+      "last_ts": 1780523042,
+      "last_str": "2026-06-03 21:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 164,
+      "ts": 1780523080,
+      "ts_str": "2026-06-03 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] As OpenAI heads for IPO, Sam Altman says Trump\u2019s AI safety order \u2018gets the balance right\u2019 - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 03 Jun 2026 20:10:25 GMT\nLink:      https://news.google.com/rss/articles/CBMirANBVV95cUxPbUVJbS0xRHFiNkhLR0VMZnh3LXlzTy1vVGFheUFwVzBUbkFQekt4MWhhT09nVWVuQzlYNFV3MU5hZlg0ZGdneGlQWHgxNzBheGJONGNOd0o1dVBGSXlpdWgxQmQyYmlQaW9GNkpueXVHZ3JYRU5QVkRZS3FQWGtYVWNERmNZTE1oSUl3ZGRpalpYbW1kekVIakd1YnRCNnRDNF9JM2ZkYlBtV09vcWpOYkVSWktQeTdUTk85M3Fib1hCSllMTks4dTNTWncxSkFaSmgxQks4V1A1WXMxbzNvOG93cVVZZmJPVHo0aHhvSEY5M2MzVGNUREFwTGVwVU9jeGtxTjViTTRXdVFxY1hKTzhwaVIwZzJJU0J3SnZJVnV1QkRzT2xuSVdxdDlmLXR4MzZnT3pOUFZkTUZoamFhVGFlZHJOMnIwQXZKY0ZiZDRpdHFRSDNHNUpCaHRaSWFUN1BpZnltWXdoS2VuOGF0OUNKb1dUNHB3alczWVpFZVhJMnFUOGxWbFE5eHVRYTFGdVJxYk5QX2E5ZUhYY2RfMS1IQ21EOVFTMmE3ZQ?oc=5\n\nAs OpenAI heads for IPO, Sam Altman says Trump\u2019s AI safety order \u2018gets the balance right\u2019 - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMirANBVV95cUxPbUVJbS0xRHFiNkhLR0VMZnh3LXlzTy1vVGFheUFwVzBUbkFQekt4MWhhT09nVWVuQzlYNFV3MU5hZlg0ZGdneGlQWHgxNzBheGJONGNOd0o1dVBGSXlpdWgxQmQyYmlQaW9GNkpueXVHZ3JYRU5QVkRZS3FQWGtYVWNERmNZTE1oSUl3ZGRpalpYbW1kekVIakd1YnRCNnRDNF9JM2ZkYlBtV09vcWpOYkVSWktQeTdUTk85M3Fib1hCSllMTks4dTNTWncxSkFaSmgxQks4V1A1WXMxbzNvOG93cVVZZmJPVHo0aHhvSEY5M2MzVGNUREFwTGVwVU9jeGtxTjViTTRXdVFxY1hKTzhwaVIwZzJJU0J3SnZJVnV1QkRzT2xuSVdxdDlmLXR4MzZnT3pOUFZkTUZoamFhVGFlZHJOMnIwQXZKY0ZiZDRpdHFRSDNHNUpCaHRaSWFUN1BpZnltWXdoS2VuOGF0OUNKb1dUNHB3alczWVpFZVhJMnFUOGxWbFE5eHVRYTFGdVJxYk5QX2E5ZUhYY2RfMS1IQ21EOVFTMmE3ZQ?oc=5\" target=\"_blank\">As OpenAI heads for IPO, Sam Altman says Trump\u2019s AI safety order \u2018gets the balance right\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that, as OpenAI heads for an IPO, Sam Altman said Trump's AI safety executive order \"gets the balance right.\"\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5728 OpenAI \u8fc8\u5411 IPO \u4e4b\u9645\uff0cSam Altman \u8868\u793a Trump \u7684 AI \u5b89\u5168\u884c\u653f\u4ee4\"\u628a\u63e1\u4f4f\u4e86\u5e73\u8861\"\u3002\n\nWhy it matters:\nAltman publicly endorsing the administration's AI order while steering OpenAI toward an IPO signals a regulatory-and-financing alignment that smooths the path to public markets. An OpenAI IPO would be the clearest test yet of whether private AI valuations survive public-market scrutiny \u2014 a key pressure point for the bubble-stress thesis.\n\n\u5f71\u54cd:\nAltman \u5728\u63a8\u52a8 OpenAI \u8d70\u5411 IPO \u7684\u540c\u65f6\u516c\u5f00\u4e3a\u653f\u5e9c\u7684 AI \u884c\u653f\u4ee4\u80cc\u4e66\uff0c\u663e\u793a\u51fa\u76d1\u7ba1\u4e0e\u878d\u8d44\u4e24\u7aef\u7684\u534f\u8c03\u6b63\u5728\u4e3a\u4e0a\u5e02\u94fa\u8def\u3002OpenAI \u4e00\u65e6 IPO\uff0c\u5c06\u662f\u68c0\u9a8c AI \u79c1\u52df\u4f30\u503c\u80fd\u5426\u7ecf\u53d7\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u7684\u6700\u76f4\u63a5\u4e00\u5173\u2014\u2014\u4e5f\u662f bubble-stress \u903b\u8f91\u7684\u5173\u952e\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 165,
+      "ts": 1780523080,
+      "ts_str": "2026-06-03 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Sam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 03 Jun 2026 19:08:41 GMT\nLink:      https://news.google.com/rss/articles/CBMizgNBVV95cUxNbDRfaEkweERXWFBYOERwSE1SSWVvQ2kxV0dQUlBjZ2s0c1FweHJnWTdOVWphanFTU1JJa25CZjNBbFBfVHIyRTZFbmF6QzdNbkRvdEwyX1dCd21MbjB6b3E0NFl6SE9NbDhYVEpoZHZON05rcHpicDRzWVFNS1lOczcwd1lKdXh4Qm1HMnlWblJXT1BRbXM0WUtEMnNEQkp4WWpOQW0wNzN6TUo4QnFac3FocnJJTmFfb1ZrdXJkNUk1d0RKeVVpdHdJTWk4MU1PTUJlaUZ4Y21sMENseHJYY29ZTkFhWVZFX1g1Q0R5SzFZVGxEMXBINGo1Z0p1RjBJQ3hYY1BBOTB4SG8zT3pCdFAxRVRBZzRKOHRjdE16a2dJNXUzY05PanRKS0hkZldEeUFvRndNUkFSNlJJR3FJalFIVTdxTkRCaGQtZ2RJcXViNzI1cUlSU0NqSGk4ZXhLWVdVdl9UdHB1T1RUTWJESFV1QUVfUTFpYzhfQUxmU3hOdTcwcklnM1NqTlZYMkdvQkRvLThFT3RrSm1pRklUdzBqS3o5RWtYazJPdENiaVdzdTNhRDhUdzN6bFVfLXFZcjV5eV9yUUNlc05ldnc?oc=5\n\nSam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizgNBVV95cUxNbDRfaEkweERXWFBYOERwSE1SSWVvQ2kxV0dQUlBjZ2s0c1FweHJnWTdOVWphanFTU1JJa25CZjNBbFBfVHIyRTZFbmF6QzdNbkRvdEwyX1dCd21MbjB6b3E0NFl6SE9NbDhYVEpoZHZON05rcHpicDRzWVFNS1lOczcwd1lKdXh4Qm1HMnlWblJXT1BRbXM0WUtEMnNEQkp4WWpOQW0wNzN6TUo4QnFac3FocnJJTmFfb1ZrdXJkNUk1d0RKeVVpdHdJTWk4MU1PTUJlaUZ4Y21sMENseHJYY29ZTkFhWVZFX1g1Q0R5SzFZVGxEMXBINGo1Z0p1RjBJQ3hYY1BBOTB4SG8zT3pCdFAxRVRBZzRKOHRjdE16a2dJNXUzY05PanRKS0hkZldEeUFvRndNUkFSNlJJR3FJalFIVTdxTkRCaGQtZ2RJcXViNzI1cUlSU0NqSGk4ZXhLWVdVdl9UdHB1T1RUTWJESFV1QUVfUTFpYzhfQUxmU3hOdTcwcklnM1NqTlZYMkdvQkRvLThFT3RrSm1pRklUdzBqS3o5RWtYazJPdENiaVdzdTNhRDhUdzN6bFVfLXFZcjV5eV9yUUNlc05ldnc?oc=5\" target=\"_blank\">Sam Altman says OpenAI will go public when it makes sense \u2014 shrugs off IPO timing questions after Anthropic filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (MSN) reports Sam Altman saying OpenAI will go public \"when it makes sense,\" brushing off IPO-timing questions after Anthropic's filing.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS\uff08\u6765\u6e90 MSN\uff09\u62a5\u9053\uff0cSam Altman \u79f0 OpenAI \u4f1a\u5728\"\u65f6\u673a\u5408\u9002\u65f6\"\u4e0a\u5e02\uff0c\u5e76\u5728 Anthropic \u63d0\u4ea4 IPO \u6587\u4ef6\u540e\u56de\u907f\u4e86\u5177\u4f53\u4e0a\u5e02\u65f6\u95f4\u7684\u63d0\u95ee\u3002\n\nWhy it matters:\nPublic chatter about an OpenAI IPO \u2014 and a competing Anthropic filing \u2014 signals the AI-capex cycle reaching for public-market capital, the stage where private funding no longer covers the spend. Watch for an actual S-1, which would expose OpenAI's true burn and unit economics to the bubble-stress thesis.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u7684\u516c\u5f00\u8ba8\u8bba\uff0c\u52a0\u4e0a Anthropic \u5df2\u9012\u4ea4\u6587\u4ef6\uff0c\u8bf4\u660e AI capex \u5468\u671f\u6b63\u5728\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\u2014\u2014\u8fd9\u901a\u5e38\u610f\u5473\u7740\u79c1\u52df\u8d44\u91d1\u5df2\u65e0\u6cd5\u8986\u76d6\u652f\u51fa\u89c4\u6a21\u3002\u5173\u952e\u8981\u76ef\u4f4f\u771f\u6b63\u7684 S-1 \u6587\u4ef6\uff0c\u5b83\u4f1a\u628a OpenAI \u7684\u5b9e\u9645\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u5b66\u66b4\u9732\u5728 bubble-stress \u903b\u8f91\u4e4b\u4e0b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 166,
+      "ts": 1780523080,
+      "ts_str": "2026-06-03 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic files for IPO \u2014 Claude maker races OpenAI and SpaceX to Wall Street - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 03 Jun 2026 20:24:44 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AJBVV95cUxQS09pR3RDdThHbnJveEsyQVZIMl9zUkZhLXF1Yl8zOGxiNThKaVV0OHZzeXR1WnZ6SzF3UGxtYnFtbHNwMWh1X21samdCZUo4MU02cm8xWm5WRkVMdExkZV9YX2VRUDhkd0dQNGdZS2dkOGp6MjRONFhCdmhjelFfUlVyLUhUUHg4bF9ZZFRQXzRIVG4xUDVrUng2ZEtrcmdGU3BjM0F3V2Q2aW5qd0ROaXc1TmFJcktEUXRvTVVldGhMaWRGSl9RNVpEZU51MUhBMWJROXB5dmNvOVNfOEprNG1YYTNrcVNKMnI0cDZuSmI0Z1lNeFNpZmJZYU9oWm9rMmhFbm1JZGdpRVhSTFI2d0NPVjFIbGV3ZE1DWXBybWpWdXdCdjhUOTRZdndFb2hBaWU4aHVKZkV2bEdULVBoa24wOUdnM040UnZMbzd0TlBXcFEtdTNnUHVQRGtuQmpDMEoybGFqbnpuaklhX3B3QzBhM3U?oc=5\n\nAnthropic files for IPO \u2014 Claude maker races OpenAI and SpaceX to Wall Street - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AJBVV95cUxQS09pR3RDdThHbnJveEsyQVZIMl9zUkZhLXF1Yl8zOGxiNThKaVV0OHZzeXR1WnZ6SzF3UGxtYnFtbHNwMWh1X21samdCZUo4MU02cm8xWm5WRkVMdExkZV9YX2VRUDhkd0dQNGdZS2dkOGp6MjRONFhCdmhjelFfUlVyLUhUUHg4bF9ZZFRQXzRIVG4xUDVrUng2ZEtrcmdGU3BjM0F3V2Q2aW5qd0ROaXc1TmFJcktEUXRvTVVldGhMaWRGSl9RNVpEZU51MUhBMWJROXB5dmNvOVNfOEprNG1YYTNrcVNKMnI0cDZuSmI0Z1lNeFNpZmJZYU9oWm9rMmhFbm1JZGdpRVhSTFI2d0NPVjFIbGV3ZE1DWXBybWpWdXdCdjhUOTRZdndFb2hBaWU4aHVKZkV2bEdULVBoa24wOUdnM040UnZMbzd0TlBXcFEtdTNnUHVQRGtuQmpDMEoybGFqbnpuaklhX3B3QzBhM3U?oc=5\" target=\"_blank\">Anthropic files for IPO \u2014 Claude maker races OpenAI and SpaceX to Wall Street</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Anthropic has filed for an IPO, joining OpenAI and SpaceX in heading toward public markets.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Anthropic \u5df2\u7533\u8bf7 IPO\uff0c\u4e0e OpenAI\u3001SpaceX \u4e00\u540c\u8fc8\u5411\u516c\u5f00\u5e02\u573a\u4e0a\u5e02\u3002\n\nWhy it matters:\nAn AI-lab IPO is a liquidity event that lets insiders and early backers cash out \u2014 historically clustered near cycle tops when private capital wants public exit liquidity. Filing alongside OpenAI signals the AI buildout is shifting from venture-funded land-grab to public-market scrutiny of actual economics.\n\n\u5f71\u54cd:\nAI \u5b9e\u9a8c\u5ba4 IPO \u662f\u4e00\u6b21\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u8ba9\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u4eba\u5f97\u4ee5\u5957\u73b0\u2014\u2014\u5386\u53f2\u4e0a\u8fd9\u7c7b\u96c6\u4e2d\u4e0a\u5e02\u5f80\u5f80\u51fa\u73b0\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\uff0c\u6b64\u65f6\u79c1\u52df\u8d44\u672c\u6025\u4e8e\u5bfb\u627e\u516c\u5f00\u5e02\u573a\u7684\u9000\u51fa\u51fa\u53e3\u3002\u4e0e OpenAI \u540c\u671f\u7533\u62a5\uff0c\u610f\u5473\u7740 AI \u57fa\u5efa\u6b63\u4ece\u98ce\u6295\u8f93\u8840\u7684\u5708\u5730\u9636\u6bb5\uff0c\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u5bf9\u771f\u5b9e\u7ecf\u6d4e\u6548\u76ca\u7684\u5ba1\u89c6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 162,
       "ts": 1780510472,
