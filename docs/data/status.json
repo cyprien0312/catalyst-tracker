@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780600083,
-  "generated_at_str": "2026-06-04 19:08:03 UTC",
-  "last_event_ts": 1780598658,
+  "generated_at": 1780600475,
+  "generated_at_str": "2026-06-04 19:14:35 UTC",
+  "last_event_ts": 1780600475,
   "tables": {
     "alerts_dedup": {
-      "count": 172,
-      "last_ts": 1780598658,
-      "last_str": "2026-06-04 18:44:18 UTC"
+      "count": 174,
+      "last_ts": 1780600475,
+      "last_str": "2026-06-04 19:14:35 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1280,
-      "last_ts": 1780598644,
-      "last_str": "2026-06-04 18:44:04 UTC"
+      "count": 1281,
+      "last_ts": 1780600444,
+      "last_str": "2026-06-04 19:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 272,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-04 17:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6342,
-      "last_ts": 1780598643,
-      "last_str": "2026-06-04 18:44:03 UTC"
+      "count": 6348,
+      "last_ts": 1780600443,
+      "last_str": "2026-06-04 19:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 180,
+      "ts": 1780600475,
+      "ts_str": "2026-06-04 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] $960 Billion: Anthropic Beats OpenAI to the IPO Filing in a Race That Could Reshape AI Investing - 24/7 Wall St.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 04 Jun 2026 16:10:11 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxQemV6YUZEbTdGdmVpMFBsejRzR085VGE1bjZnNHFKUTJFYTNnY3lyNzNKbEF1SE5lYzNCQkNENENWUHNtMzE1MVE0YXhQOGlwZTdraXREdjctekFmSEdVX0JVQjcxQVRfanFQQ3c3R0hnQ0ZhV1lidUtpUTdYaXB3Z0V3ZENjNWtEajJ0MXd1X0dRQ05wTDBGbTRtZko4RDVQckk5R3VPNDJVWG5MTnl4Wnh1NnZmYnBrNkl0bHkybG9GcXZ3cm41MjZGdmtmN1pBR0tSdA?oc=5\n\n$960 Billion: Anthropic Beats OpenAI to the IPO Filing in a Race That Could Reshape AI Investing - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQemV6YUZEbTdGdmVpMFBsejRzR085VGE1bjZnNHFKUTJFYTNnY3lyNzNKbEF1SE5lYzNCQkNENENWUHNtMzE1MVE0YXhQOGlwZTdraXREdjctekFmSEdVX0JVQjcxQVRfanFQQ3c3R0hnQ0ZhV1lidUtpUTdYaXB3Z0V3ZENjNWtEajJ0MXd1X0dRQ05wTDBGbTRtZko4RDVQckk5R3VPNDJVWG5MTnl4Wnh1NnZmYnBrNkl0bHkybG9GcXZ3cm41MjZGdmtmN1pBR0tSdA?oc=5\" target=\"_blank\">$960 Billion: Anthropic Beats OpenAI to the IPO Filing in a Race That Could Reshape AI Investing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 24/7 Wall St. headline reports that Anthropic filed for an IPO ahead of OpenAI, at a reported $960 Billion valuation.\n\n\u5185\u5bb9:\n24/7 Wall St. \u62a5\u9053\u79f0\uff0cAnthropic \u62a2\u5728 OpenAI \u4e4b\u524d\u63d0\u4ea4\u4e86 IPO \u7533\u8bf7\uff0c\u62a5\u9053\u7684\u4f30\u503c\u9ad8\u8fbe $960 Billion\u3002\n\nWhy it matters:\nA near-trillion-dollar IPO filing from a pre-profit AI lab is a top-of-cycle marker: private AI valuations are being pushed into public markets to find new capital and liquidity for insiders. The OpenAI-vs-Anthropic IPO race signals the funding model is shifting from private rounds to public exit, which is where late-stage bubbles typically cash out.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5c1a\u672a\u76c8\u5229\u7684 AI \u5b9e\u9a8c\u5ba4\u4ee5\u63a5\u8fd1\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7533\u8bf7 IPO\uff0c\u662f\u5468\u671f\u9876\u90e8\u7684\u5178\u578b\u6807\u5fd7\uff1a\u79c1\u52df AI \u4f30\u503c\u6b63\u88ab\u63a8\u5411\u516c\u5f00\u5e02\u573a\uff0c\u4ee5\u5bfb\u627e\u65b0\u8d44\u91d1\u5e76\u4e3a\u65e9\u671f\u6295\u8d44\u8005\u63d0\u4f9b\u9000\u51fa\u6d41\u52a8\u6027\u3002OpenAI \u4e0e Anthropic \u7684 IPO \u7ade\u8d5b\u8bf4\u660e\u878d\u8d44\u6a21\u5f0f\u6b63\u4ece\u79c1\u52df\u8f6e\u8f6c\u5411\u516c\u5f00\u9000\u51fa\uff0c\u800c\u8fd9\u901a\u5e38\u6b63\u662f\u6ce1\u6cab\u665a\u671f\u5957\u73b0\u7684\u73af\u8282\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 181,
+      "ts": 1780600475,
+      "ts_str": "2026-06-04 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Citigroup (C) Might Get a Role in OpenAI IPO - Insider Monkey",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 04 Jun 2026 18:17:58 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQb3NzMkI4bUJmdzlCTjdMazZRMGlLVmo4djFwTktRb2RmRGhUeFpFUHVyRklSdnBJSXJjNUgtSXdIU3VJMXRsY1VxdlFYUXpkbldiRnIta1lBMTI5am9ESWdUTG5XMTNIbzNQU1Q1dFdyNHJuRmM2Q0ZkYWNBV3BpQWNETDlUaVZTcXE3c3pFZ9IBlwFBVV95cUxOVThOYnJfR2NsZ1FDZzFSV3RETlg1Z2ItRmZ6eUx4MkQ2Z3BSUWJGVUI4SjV2Zl9kUjFfbGNWanBNd0xDSmNGc2NBTEpzZVBRZTlvajhwT1FOdm1xTUhTSk1GYmVfR1NBTnp1eE44d29UNEV1Y3JpTkVSZnV1aHlaSGVVTzhkdUZfOTYycUJvMHBPN0gwdHRR?oc=5\n\nCitigroup (C) Might Get a Role in OpenAI IPO - Insider Monkey\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQb3NzMkI4bUJmdzlCTjdMazZRMGlLVmo4djFwTktRb2RmRGhUeFpFUHVyRklSdnBJSXJjNUgtSXdIU3VJMXRsY1VxdlFYUXpkbldiRnIta1lBMTI5am9ESWdUTG5XMTNIbzNQU1Q1dFdyNHJuRmM2Q0ZkYWNBV3BpQWNETDlUaVZTcXE3c3pFZ9IBlwFBVV95cUxOVThOYnJfR2NsZ1FDZzFSV3RETlg1Z2ItRmZ6eUx4MkQ2Z3BSUWJGVUI4SjV2Zl9kUjFfbGNWanBNd0xDSmNGc2NBTEpzZVBRZTlvajhwT1FOdm1xTUhTSk1GYmVfR1NBTnp1eE44d29UNEV1Y3JpTkVSZnV1aHlaSGVVTzhkdUZfOTYycUJvMHBPN0gwdHRR?oc=5\" target=\"_blank\">Citigroup (C) Might Get a Role in OpenAI IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insider Monkey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Citigroup (C) may get a role in OpenAI's IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Citigroup (C) \u53ef\u80fd\u5728 OpenAI \u7684 IPO \u4e2d\u83b7\u5f97\u627f\u9500\u89d2\u8272\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the marquee liquidity event for the AI-capex cycle \u2014 banks lining up for the mandate signals the deal is moving toward market. An IPO lets early backers cash out, which often marks the late stage of a private-funding boom and shifts the funding burden onto public investors.\n\n\u5f71\u54cd:\nOpenAI IPO \u5c06\u662f\u6574\u4e2a AI capex \u5468\u671f\u6700\u5177\u6807\u5fd7\u6027\u7684\u9000\u51fa\u4e0e\u53d8\u73b0\u4e8b\u4ef6\u2014\u2014\u6295\u884c\u4e89\u62a2\u8fd9\u7b14\u627f\u9500\u4e3b\u5bfc\u6743\uff0c\u8bf4\u660e\u4ea4\u6613\u6b63\u5728\u5411\u516c\u5f00\u5e02\u573a\u63a8\u8fdb\u3002IPO \u8ba9\u65e9\u671f\u6295\u8d44\u8005\u5957\u73b0\u79bb\u573a\uff0c\u8fd9\u5f80\u5f80\u6807\u5fd7\u7740\u79c1\u52df\u878d\u8d44\u70ed\u6f6e\u8fdb\u5165\u665a\u671f\uff0c\u5e76\u628a\u51fa\u8d44\u538b\u529b\u8f6c\u79fb\u5230\u516c\u5f00\u5e02\u573a\u6295\u8d44\u8005\u8eab\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 179,
       "ts": 1780598658,
