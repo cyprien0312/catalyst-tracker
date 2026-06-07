@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780814283,
-  "generated_at_str": "2026-06-07 06:38:03 UTC",
-  "last_event_ts": 1780812847,
+  "generated_at": 1780814659,
+  "generated_at_str": "2026-06-07 06:44:19 UTC",
+  "last_event_ts": 1780814659,
   "tables": {
     "alerts_dedup": {
-      "count": 194,
-      "last_ts": 1780782257,
-      "last_str": "2026-06-06 21:44:17 UTC"
+      "count": 195,
+      "last_ts": 1780814659,
+      "last_str": "2026-06-07 06:44:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1395,
-      "last_ts": 1780809244,
-      "last_str": "2026-06-07 05:14:04 UTC"
+      "count": 1396,
+      "last_ts": 1780814644,
+      "last_str": "2026-06-07 06:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 289,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-06 12:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6852,
-      "last_ts": 1780812847,
-      "last_str": "2026-06-07 06:14:07 UTC"
+      "count": 6860,
+      "last_ts": 1780814643,
+      "last_str": "2026-06-07 06:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 202,
+      "ts": 1780814659,
+      "ts_str": "2026-06-07 06:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI prepping huge ChatGPT update, plans to turn it into a superapp ahead of IPO - India Today",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 07 Jun 2026 06:06:41 GMT\nLink:      https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ3RRamk2bW5aazJQRTh1Vmlhd2paRG9iSWh3TGFCal8xaER0Yi1yOG1MZzdLYkRHckp2Z3RMbUdQZ2JTX0N4VTNtWG1Od2ZNWmVmSG1FNGo0dlhNbW1WV3RLalpDdmpnVmQ2Y2dsamJoM1E1dmozb3lfWV9jQi1FbEd1RWxfdGFnS2k2UFJqQWtRWkowN3FNRTZxSWoxZll5VlVFZGZ3MmNsZmptYnl2NUFIbEUxN0hkaVZwbkZWYWpUTkRDYkdGVjF3eS1Vb2hhdHhyUUxBWVk0Z0VOVVJEUTR30gHnAUFVX3lxTE9KSnFFR3IzaVh4X2NiMEtVSk1oU3ExM2hmWVg3UFVIV0pLaVdGSlktLUh4Tl9XamZqckpCQUtWLXdkSEdHMlNNVzBPbWV1WmFVZzI4bUdCMVBYUXkzcDQ5TXNhQ0dxWk16T052bElaa0NzdHdlY1dMVDRSa0JIOFB5enJER084R3YyQ3drbXAxUFhJS2lzY09pbVVObVhUd2twY0ZQdGJRZjNhUVZ2SzVSY2h0SVFkTE0tNndXWVRQWWV2X1E2dnlRZlZfME83cExybmp3dTkybnJ3NFZiT0hLbU9vRTFUNA?oc=5\n\nOpenAI prepping huge ChatGPT update, plans to turn it into a superapp ahead of IPO - India Today\n\n<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQ3RRamk2bW5aazJQRTh1Vmlhd2paRG9iSWh3TGFCal8xaER0Yi1yOG1MZzdLYkRHckp2Z3RMbUdQZ2JTX0N4VTNtWG1Od2ZNWmVmSG1FNGo0dlhNbW1WV3RLalpDdmpnVmQ2Y2dsamJoM1E1dmozb3lfWV9jQi1FbEd1RWxfdGFnS2k2UFJqQWtRWkowN3FNRTZxSWoxZll5VlVFZGZ3MmNsZmptYnl2NUFIbEUxN0hkaVZwbkZWYWpUTkRDYkdGVjF3eS1Vb2hhdHhyUUxBWVk0Z0VOVVJEUTR30gHnAUFVX3lxTE9KSnFFR3IzaVh4X2NiMEtVSk1oU3ExM2hmWVg3UFVIV0pLaVdGSlktLUh4Tl9XamZqckpCQUtWLXdkSEdHMlNNVzBPbWV1WmFVZzI4bUdCMVBYUXkzcDQ5TXNhQ0dxWk16T052bElaa0NzdHdlY1dMVDRSa0JIOFB5enJER084R3YyQ3drbXAxUFhJS2lzY09pbVVObVhUd2twY0ZQdGJRZjNhUVZ2SzVSY2h0SVFkTE0tNndXWVRQWWV2X1E2dnlRZlZfME83cExybmp3dTkybnJ3NFZiT0hLbU9vRTFUNA?oc=5\" target=\"_blank\">OpenAI prepping huge ChatGPT update, plans to turn it into a superapp ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India Today</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says OpenAI is preparing a major ChatGPT update to turn it into a \"superapp\" ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u5728\u51c6\u5907 ChatGPT \u7684\u91cd\u5927\u66f4\u65b0\uff0c\u8ba1\u5212\u5728 IPO \u524d\u5c06\u5176\u6253\u9020\u6210\u4e00\u4e2a\"\u8d85\u7ea7\u5e94\u7528\"(superapp)\u3002\n\nWhy it matters:\nAn IPO is the exit event that lets early backers cash out \u2014 pushing for one while bundling features into a superapp signals a shift from growth-at-any-cost to monetization and liquidity. Framing the IPO as a near-term goal is the kind of late-cycle positioning that matters for the AI-capex bubble thesis.\n\n\u5f71\u54cd:\nIPO \u662f\u8ba9\u65e9\u671f\u6295\u8d44\u4eba\u5957\u73b0\u9000\u51fa\u7684\u5173\u952e\u8282\u70b9\u2014\u2014\u4e00\u8fb9\u63a8\u8fdb IPO\u3001\u4e00\u8fb9\u628a\u529f\u80fd\u5806\u53e0\u6210\u8d85\u7ea7\u5e94\u7528\uff0c\u6807\u5fd7\u7740\u4ece\u4e0d\u8ba1\u6210\u672c\u7684\u589e\u957f\u8f6c\u5411\u53d8\u73b0\u548c\u6d41\u52a8\u6027\u3002\u628a IPO \u5f53\u4f5c\u8fd1\u671f\u76ee\u6807\u6765\u9020\u52bf\uff0c\u6b63\u662f AI capex \u6ce1\u6cab\u8bba\u4e2d\u503c\u5f97\u5173\u6ce8\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 201,
       "ts": 1780782257,
