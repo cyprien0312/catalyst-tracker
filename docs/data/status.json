@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780877283,
-  "generated_at_str": "2026-06-08 00:08:03 UTC",
-  "last_event_ts": 1780875843,
+  "generated_at": 1780877657,
+  "generated_at_str": "2026-06-08 00:14:17 UTC",
+  "last_event_ts": 1780877656,
   "tables": {
     "alerts_dedup": {
-      "count": 227,
-      "last_ts": 1780870457,
-      "last_str": "2026-06-07 22:14:17 UTC"
+      "count": 228,
+      "last_ts": 1780877656,
+      "last_str": "2026-06-08 00:14:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1406,
-      "last_ts": 1780875843,
-      "last_str": "2026-06-07 23:44:03 UTC"
+      "count": 1408,
+      "last_ts": 1780877643,
+      "last_str": "2026-06-08 00:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 293,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-07 16:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7036,
-      "last_ts": 1780875842,
-      "last_str": "2026-06-07 23:44:02 UTC"
+      "count": 7041,
+      "last_ts": 1780877642,
+      "last_str": "2026-06-08 00:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 235,
+      "ts": 1780877656,
+      "ts_str": "2026-06-08 00:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI to overhaul ChatGPT into AI agent superapp before IPO - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 07 Jun 2026 06:03:02 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbm1RQzg0XzBLQmpXM2lhS2I2cC1sdkczanUtQldkRXVPa2JqbFM3N25VT01YUkpsLXNMYWRrdThSNEtObEJ5T0J1cUd5ZEFWOWhJdWhQUElPSEVMUG9GN2hDWnBlVGotdWpVc09ESFNGbHY4NmpiZU1rM0pndmM1MFg1SE5uZDZxaFc2U09lLVpjSTBsSy1VQkF0VjVTUzlfS0xPbUVmd0ZORVRYLTJUbjdnbmM0Z0VER1djX3E1LXlfR2xwVmNZSGtaMi12M05DQzJsZnhIdVVZMlZaWFh4RjlnYlotNURBV1JuY25MNUVmWUZN?oc=5\n\nOpenAI to overhaul ChatGPT into AI agent superapp before IPO - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxNbm1RQzg0XzBLQmpXM2lhS2I2cC1sdkczanUtQldkRXVPa2JqbFM3N25VT01YUkpsLXNMYWRrdThSNEtObEJ5T0J1cUd5ZEFWOWhJdWhQUElPSEVMUG9GN2hDWnBlVGotdWpVc09ESFNGbHY4NmpiZU1rM0pndmM1MFg1SE5uZDZxaFc2U09lLVpjSTBsSy1VQkF0VjVTUzlfS0xPbUVmd0ZORVRYLTJUbjdnbmM0Z0VER1djX3E1LXlfR2xwVmNZSGtaMi12M05DQzJsZnhIdVVZMlZaWFh4RjlnYlotNURBV1JuY25MNUVmWUZN?oc=5\" target=\"_blank\">OpenAI to overhaul ChatGPT into AI agent superapp before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI plans to overhaul ChatGPT into an \"AI agent superapp\" ahead of an IPO.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u8ba1\u5212\u5728 IPO \u4e4b\u524d\u5c06 ChatGPT \u6539\u9020\u6210\"AI agent \u8d85\u7ea7\u5e94\u7528\"\u3002\n\nWhy it matters:\nRepositioning toward a consumer superapp and signaling an IPO are both moves to monetize and raise capital fast \u2014 consistent with needing to fund or justify enormous compute spend. IPO chatter is a late-cycle marker: the private money that financed the AI-capex boom is looking for an exit.\n\n\u5f71\u54cd:\n\u8f6c\u5411\u6d88\u8d39\u7ea7\u8d85\u7ea7\u5e94\u7528\u5e76\u91ca\u653e IPO \u4fe1\u53f7\uff0c\u90fd\u662f\u4e3a\u4e86\u5feb\u901f\u53d8\u73b0\u548c\u52df\u96c6\u8d44\u91d1\u2014\u2014\u4e0e\u6025\u9700\u4e3a\u5de8\u989d\u7b97\u529b\u652f\u51fa\u878d\u8d44\u6216\u81ea\u5706\u5176\u8bf4\u7684\u5904\u5883\u4e00\u81f4\u3002IPO \u4f20\u95fb\u662f\u5468\u671f\u665a\u671f\u7684\u6807\u5fd7\uff1a\u5f53\u521d\u4e3a AI capex \u70ed\u6f6e\u63d0\u4f9b\u8d44\u91d1\u7684\u79c1\u52df\u8d44\u672c\u6b63\u5728\u5bfb\u627e\u9000\u51fa\u901a\u9053\u3002\n",
+      "emailed": false
+    },
     {
       "id": 234,
       "ts": 1780870457,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Aiming for the largest IPO in history! OpenAI secretly conspired with Citi and JPMorgan, as Wall Street\u2019s star-studded u",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 06:49:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM3pJVWlMdkpnVndzdEJzSGlRLURNWW9Qck5JYzBuOGlnamdMQmJuTF9kc2p1QlVFN0NKUGF3clNXZjFRRl96MGlYdHgxSGswVF90S1VvQmpKVHJ2NjJQUkRzaEpUa1F6ajlISzBsRXVlY1c0TVpTYnk5eVhITEY1RTQ3eG5wekNyTjJZbEh5d2FmZk01dnNPWWQ0SUVwbEFILVcxVkt0a0U?oc=5\n\nAiming for the largest IPO in history! OpenAI secretly conspired with Citi and JPMorgan, as Wall Street\u2019s star-studded underwriting syndicate gradually emerges. - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM3pJVWlMdkpnVndzdEJzSGlRLURNWW9Qck5JYzBuOGlnamdMQmJuTF9kc2p1QlVFN0NKUGF3clNXZjFRRl96MGlYdHgxSGswVF90S1VvQmpKVHJ2NjJQUkRzaEpUa1F6ajlISzBsRXVlY1c0TVpTYnk5eVhITEY1RTQ3eG5wekNyTjJZbEh5d2FmZk01dnNPWWQ0SUVwbEFILVcxVkt0a0U?oc=5\" target=\"_blank\">Aiming for the largest IPO in history! OpenAI secretly conspired with Citi and JPMorgan, as Wall Street\u2019s star-studded underwriting syndicate gradually emerges.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Moomoo news item reports OpenAI is working with Citi and JPMorgan to assemble a Wall Street underwriting syndicate, targeting what would be the largest IPO in history.\n\n\u5185\u5bb9:\nMoomoo \u7684\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u4e0e Citi \u548c JPMorgan \u5408\u4f5c\u7ec4\u5efa\u534e\u5c14\u8857\u627f\u9500\u56e2\uff0c\u76ee\u6807\u662f\u53f2\u4e0a\u89c4\u6a21\u6700\u5927\u7684 IPO\u3002\n\nWhy it matters:\nAn OpenAI IPO would let early backers and employees cash out and shift funding risk to public markets \u2014 a classic top-of-cycle move when private capital wants liquidity. Underwriters lining up a record-size deal signals the AI-capex story is being packaged for retail at peak narrative.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u8ba9\u65e9\u671f\u6295\u8d44\u8005\u548c\u5458\u5de5\u5957\u73b0\uff0c\u5e76\u628a\u878d\u8d44\u98ce\u9669\u8f6c\u79fb\u7ed9\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u662f\u79c1\u52df\u8d44\u672c\u5bfb\u6c42\u6d41\u52a8\u6027\u65f6\u5178\u578b\u7684\u5468\u671f\u9876\u90e8\u52a8\u4f5c\u3002\u627f\u9500\u5546\u7b79\u5907\u521b\u7eaa\u5f55\u89c4\u6a21\u7684\u4ea4\u6613\uff0c\u8bf4\u660e AI capex \u6545\u4e8b\u6b63\u5728\u53d9\u4e8b\u9ad8\u70b9\u88ab\u6253\u5305\u5356\u7ed9\u6563\u6237\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 35,
-      "ts": 1780125287,
-      "ts_str": "2026-05-30 07:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI is laying groundwork for a $1 trillion September IPO: Reports - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 02:45:20 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzhSbUdPUWJDQ2pNQ1JYVVUtd1g4ZXJSZERmZ3o5NHptZ1AtaXFZVFlLMWxWdXJ5YmpRZ1A3b281bURCRFVEX0ZhVU1aVmJoa0NwRjRtLTNQVS0xMXdSTHRES0hrVE94a012R2R1ZXVQYjdDZks5bk9jcWV3blUwRUtBQ0tjUldzaUFqRGFmUHYtNXc1QV9BUnNMU0t5eTlKRVBVMXE0bEFMbHE4aXJoSTlkUUIzU1FGVTFyNQ?oc=5\n\nOpenAI is laying groundwork for a $1 trillion September IPO: Reports - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPSzhSbUdPUWJDQ2pNQ1JYVVUtd1g4ZXJSZERmZ3o5NHptZ1AtaXFZVFlLMWxWdXJ5YmpRZ1A3b281bURCRFVEX0ZhVU1aVmJoa0NwRjRtLTNQVS0xMXdSTHRES0hrVE94a012R2R1ZXVQYjdDZks5bk9jcWV3blUwRUtBQ0tjUldzaUFqRGFmUHYtNXc1QV9BUnNMU0t5eTlKRVBVMXE0bEFMbHE4aXJoSTlkUUIzU1FGVTFyNQ?oc=5\" target=\"_blank\">OpenAI is laying groundwork for a $1 trillion September IPO: Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is laying groundwork for a $1 trillion September IPO, per MSN citing other reports.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u636e MSN \u63f4\u5f15\u5176\u4ed6\u62a5\u9053\uff0cOpenAI \u6b63\u5728\u4e3a 9 \u6708\u4efd 1 \u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7684 IPO \u505a\u51c6\u5907\u3002\n\nWhy it matters:\nA $1T valuation for a company still burning cash on compute would be the largest IPO ever and a peak-cycle marker \u2014 public markets being tapped to fund AI capex is how late-stage bubbles transfer risk from private backers to retail. Watch whether the float is real or a trial balloon.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u5728\u4e3a\u7b97\u529b\u5927\u5e45\u70e7\u94b1\u7684\u516c\u53f8\u4f30\u503c\u8fbe\u5230 $1 trillion\uff0c\u5c06\u662f\u53f2\u4e0a\u6700\u5927\u89c4\u6a21\u7684 IPO\uff0c\u4e5f\u662f\u5468\u671f\u89c1\u9876\u7684\u6807\u5fd7\u2014\u2014\u52a8\u7528\u516c\u5f00\u5e02\u573a\u4e3a AI capex \u878d\u8d44\uff0c\u6b63\u662f\u6ce1\u6cab\u665a\u671f\u628a\u98ce\u9669\u4ece\u79c1\u4eba\u6295\u8d44\u65b9\u8f6c\u5ac1\u7ed9\u6563\u6237\u7684\u5178\u578b\u65b9\u5f0f\u3002\u9700\u5173\u6ce8\u8fd9\u662f\u771f\u5b9e\u53d1\u884c\u8fd8\u662f\u8bd5\u63a2\u6027\u653e\u98ce\u3002\n",
       "emailed": false
     }
   ],
