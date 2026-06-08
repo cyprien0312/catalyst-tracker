@@ -1,6 +1,6 @@
 {
-  "generated_at": 1780928405,
-  "generated_at_str": "2026-06-08 14:20:05 UTC",
+  "generated_at": 1780928775,
+  "generated_at_str": "2026-06-08 14:26:15 UTC",
   "last_event_ts": 1780928056,
   "tables": {
     "alerts_dedup": {
@@ -99,6 +99,20 @@
     }
   ],
   "c5_queues": [
+    {
+      "iso": "PJM",
+      "snapshot_date": "2026-06-09",
+      "total_mw": 643507.0734999999,
+      "count": 9263,
+      "withdrawn_count": 6912
+    },
+    {
+      "iso": "CAISO",
+      "snapshot_date": "2026-06-09",
+      "total_mw": 0.0,
+      "count": 292,
+      "withdrawn_count": 0
+    },
     {
       "iso": "PJM",
       "snapshot_date": "2026-06-08",
@@ -221,20 +235,6 @@
     {
       "iso": "CAISO",
       "snapshot_date": "2026-05-31",
-      "total_mw": 0.0,
-      "count": 298,
-      "withdrawn_count": 0
-    },
-    {
-      "iso": "PJM",
-      "snapshot_date": "2026-05-30",
-      "total_mw": 643507.4735000001,
-      "count": 9263,
-      "withdrawn_count": 6912
-    },
-    {
-      "iso": "CAISO",
-      "snapshot_date": "2026-05-30",
       "total_mw": 0.0,
       "count": 298,
       "withdrawn_count": 0
