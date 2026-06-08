@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780920483,
-  "generated_at_str": "2026-06-08 12:08:03 UTC",
-  "last_event_ts": 1780919063,
+  "generated_at": 1780920856,
+  "generated_at_str": "2026-06-08 12:14:16 UTC",
+  "last_event_ts": 1780920856,
   "tables": {
     "alerts_dedup": {
-      "count": 248,
-      "last_ts": 1780919063,
-      "last_str": "2026-06-08 11:44:23 UTC"
+      "count": 249,
+      "last_ts": 1780920856,
+      "last_str": "2026-06-08 12:14:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1438,
-      "last_ts": 1780919044,
-      "last_str": "2026-06-08 11:44:04 UTC"
+      "count": 1443,
+      "last_ts": 1780920845,
+      "last_str": "2026-06-08 12:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 301,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-08 11:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7163,
-      "last_ts": 1780919043,
-      "last_str": "2026-06-08 11:44:03 UTC"
+      "count": 7166,
+      "last_ts": 1780920842,
+      "last_str": "2026-06-08 12:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 256,
+      "ts": 1780920856,
+      "ts_str": "2026-06-08 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI prepares a major ChatGPT update ahead of a possible IPO - en.ain.ua",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 08 Jun 2026 11:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkNXWm1QbHdNekpKYVo3SUdEWUI1czJ1TnBIUm5iWE9jZGdZM0xoQnJWT2lhSWRWZDdZd1dJSklPRGs0UFJYLWYyQnFkMjdTQ19tN3BxTXVpcmJqT2VPaXBBbzRyWmJCdFU4UHRGRXRNV19ZV0JGTllvcHhDNW1VU0F4LWc2Z3NXM3lBck9pWHBURjV0c2Y2T2F4UUJ1RjNPaWxzRlpEdmxjeWJzVjZjZ3p5cm9JMXczQ1E?oc=5\n\nOpenAI prepares a major ChatGPT update ahead of a possible IPO - en.ain.ua\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkNXWm1QbHdNekpKYVo3SUdEWUI1czJ1TnBIUm5iWE9jZGdZM0xoQnJWT2lhSWRWZDdZd1dJSklPRGs0UFJYLWYyQnFkMjdTQ19tN3BxTXVpcmJqT2VPaXBBbzRyWmJCdFU4UHRGRXRNV19ZV0JGTllvcHhDNW1VU0F4LWc2Z3NXM3lBck9pWHBURjV0c2Y2T2F4UUJ1RjNPaWxzRlpEdmxjeWJzVjZjZ3p5cm9JMXczQ1E?oc=5\" target=\"_blank\">OpenAI prepares a major ChatGPT update ahead of a possible IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">en.ain.ua</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 255,
       "ts": 1780919063,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI reportedly readying blockbuster IPO - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 20:27:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQU1ZIanIxWjA0QVZLbE1LaVJXNWo1NGJveHJ1elEtdkJtdHdfRHpPRG05TEliTDg2SFNMaEk0UVNoWGdyU2dqTnRiclFZelhSd29oV213QVNZd1dXdGhncnFWQXFPOWZuNnJiSWt6MGo5cUQ3OWU2ZXR3dlg5YVNWLXRua3hSUkR2S0tBcExvNA?oc=5\n\nOpenAI reportedly readying blockbuster IPO - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQU1ZIanIxWjA0QVZLbE1LaVJXNWo1NGJveHJ1elEtdkJtdHdfRHpPRG05TEliTDg2SFNMaEk0UVNoWGdyU2dqTnRiclFZelhSd29oV213QVNZd1dXdGhncnFWQXFPOWZuNnJiSWt6MGo5cUQ3OWU2ZXR3dlg5YVNWLXRua3hSUkR2S0tBcExvNA?oc=5\" target=\"_blank\">OpenAI reportedly readying blockbuster IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is reportedly preparing a \"blockbuster\" IPO (source: AOL.com, via Google News RSS).\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u636e\u4f20\u6b63\u5728\u7b79\u5907\u4e00\u6869\"\u91cd\u78c5\" IPO\uff08\u6765\u6e90\uff1aAOL.com\uff0c\u7ecf Google News RSS \u8f6c\u53d1\uff09\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the marquee liquidity event of the AI-capex cycle \u2014 a signal that insiders and early backers want to convert paper gains into cash. Late-cycle, marquee IPOs of category-defining names often mark the top, where private markets hand the bag to public investors. Watch whether the timing coincides with slowing fundamentals.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u662f\u8fd9\u8f6e AI capex \u5468\u671f\u91cc\u6700\u53d7\u77a9\u76ee\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u610f\u5473\u7740\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u60f3\u628a\u8d26\u9762\u6536\u76ca\u53d8\u73b0\u6210\u73b0\u91d1\u3002\u5468\u671f\u665a\u671f\uff0c\u6807\u5fd7\u6027\u516c\u53f8\u7684\u660e\u661f IPO \u5f80\u5f80\u51fa\u73b0\u5728\u9876\u90e8\uff0c\u79c1\u52df\u5e02\u573a\u501f\u6b64\u628a\u7b79\u7801\u8f6c\u4ea4\u7ed9\u516c\u5f00\u5e02\u573a\u6295\u8d44\u8005\u3002\u9700\u5173\u6ce8\u5176\u65f6\u70b9\u662f\u5426\u4e0e\u57fa\u672c\u9762\u653e\u7f13\u91cd\u5408\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 54,
-      "ts": 1780173880,
-      "ts_str": "2026-05-30 20:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI may be days away from filing IPO paperwork, report says - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 15:29:11 GMT\nLink:      https://news.google.com/rss/articles/CBMijwNBVV95cUxQWUhSQ0syR1FvMlNza0NwbDNSVGF1TjZwR1hPWmxOUVhwcnVYR1g0d0tKNlM3Y0laSDhUU0p6Wm04NEtQLVJ3LW9OQ1BqdHh1dnUtelJZQTZvcWUyM1hkU1lJUGlRRjBHTE91Z2hXQVRxelE1M3poeGRwTWR6TTVfXzJZRFM3dTZKUXFoS0xYY2pIZ09TdU50UzZEdTA1dFdkb2JtWlZwVmdMY1hBS2wyV0ozYUVuYnVvc2NOTmFtNE93ejBIa1A3NEpxS01uLUtYM3BNSW1VTWt6Y0pEa29sN2I1cjY5dVhPbXdOZjZweDNTRUxaTXpPTkFDVjNJZGx3c0psbnVZMHdMNW81MjlYSjVldVAzVXhaM3Yxdi1aOC1vX080aDNKVzA1dDVUUGRzb2dFUmZKVGV3VnFXSW00enBFWUtPWE5YUUp0WEhEbjJ0MUFPa3VwZjBfdlpaYTlTdW9NWUd4VTB0ekhIekxUTmx2bXYxUWVaVFdoY3cyWW9sQ3dURFdEMzRORm9tbkE?oc=5\n\nOpenAI may be days away from filing IPO paperwork, report says - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMijwNBVV95cUxQWUhSQ0syR1FvMlNza0NwbDNSVGF1TjZwR1hPWmxOUVhwcnVYR1g0d0tKNlM3Y0laSDhUU0p6Wm04NEtQLVJ3LW9OQ1BqdHh1dnUtelJZQTZvcWUyM1hkU1lJUGlRRjBHTE91Z2hXQVRxelE1M3poeGRwTWR6TTVfXzJZRFM3dTZKUXFoS0xYY2pIZ09TdU50UzZEdTA1dFdkb2JtWlZwVmdMY1hBS2wyV0ozYUVuYnVvc2NOTmFtNE93ejBIa1A3NEpxS01uLUtYM3BNSW1VTWt6Y0pEa29sN2I1cjY5dVhPbXdOZjZweDNTRUxaTXpPTkFDVjNJZGx3c0psbnVZMHdMNW81MjlYSjVldVAzVXhaM3Yxdi1aOC1vX080aDNKVzA1dDVUUGRzb2dFUmZKVGV3VnFXSW00enBFWUtPWE5YUUp0WEhEbjJ0MUFPa3VwZjBfdlpaYTlTdW9NWUd4VTB0ekhIekxUTmx2bXYxUWVaVFdoY3cyWW9sQ3dURFdEMzRORm9tbkE?oc=5\" target=\"_blank\">OpenAI may be days away from filing IPO paperwork, report says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says OpenAI may be days away from filing IPO paperwork.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u53ef\u80fd\u5728\u51e0\u5929\u5185\u5c31\u8981\u63d0\u4ea4 IPO \u4e0a\u5e02\u7533\u8bf7\u6587\u4ef6\u3002\n\nWhy it matters:\nAn OpenAI IPO would force public disclosure of its real economics \u2014 revenue, losses, and compute spend \u2014 into mandatory filings. It also signals the company needs public-market capital to fund the AI-capex cycle, and a filing window is where bubble narratives get stress-tested against audited numbers.\n\n\u5f71\u54cd:\nOpenAI \u4e00\u65e6 IPO\uff0c\u5c31\u5fc5\u987b\u5728\u6b63\u5f0f\u7533\u62a5\u6587\u4ef6\u4e2d\u62ab\u9732\u771f\u5b9e\u7ecf\u8425\u6570\u636e\u2014\u2014\u6536\u5165\u3001\u4e8f\u635f\u548c\u7b97\u529b\u652f\u51fa\u3002\u8fd9\u4e5f\u8bf4\u660e\u516c\u53f8\u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u6765\u652f\u6491 AI \u8d44\u672c\u5f00\u652f\u5468\u671f\uff1b\u800c\u7533\u62a5\u7a97\u53e3\u6b63\u662f\u6ce1\u6cab\u53d9\u4e8b\u88ab\u5ba1\u8ba1\u540e\u7684\u771f\u5b9e\u6570\u5b57\u68c0\u9a8c\u7684\u65f6\u523b\u3002\n",
       "emailed": false
     }
   ],
