@@ -1,12 +1,12 @@
 {
-  "generated_at": 1780915083,
-  "generated_at_str": "2026-06-08 10:38:03 UTC",
-  "last_event_ts": 1780913658,
+  "generated_at": 1780915463,
+  "generated_at_str": "2026-06-08 10:44:23 UTC",
+  "last_event_ts": 1780915463,
   "tables": {
     "alerts_dedup": {
-      "count": 245,
-      "last_ts": 1780913658,
-      "last_str": "2026-06-08 10:14:18 UTC"
+      "count": 246,
+      "last_ts": 1780915463,
+      "last_str": "2026-06-08 10:44:23 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,9 +39,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1429,
-      "last_ts": 1780911849,
-      "last_str": "2026-06-08 09:44:09 UTC"
+      "count": 1432,
+      "last_ts": 1780915449,
+      "last_str": "2026-06-08 10:44:09 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 300,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-08 09:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7151,
-      "last_ts": 1780913643,
-      "last_str": "2026-06-08 10:14:03 UTC"
+      "count": 7154,
+      "last_ts": 1780915448,
+      "last_str": "2026-06-08 10:44:08 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 253,
+      "ts": 1780915463,
+      "ts_str": "2026-06-08 10:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] Is OpenAI's New Lockdown Mode An Admission That Default ChatGPT Was Never Safe Enough? - The Cyber Ex ... - The Cyber Ex",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 08 Jun 2026 10:18:17 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RNIBgAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RA?oc=5\n\nIs OpenAI's New Lockdown Mode An Admission That Default ChatGPT Was Never Safe Enough? - The Cyber Ex ... - The Cyber Express\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RNIBgAFBVV95cUxQREs0Z2kwSFRjV1hXVENCX2d6S3QzSTV5MkVIN0JfU2FsUkZVNHo1d00zN0o5VzVNOXJmQ19INWh6SXNoSkhPY1RTNDFLYUVpRk5XZkdVaXkyN292WE9ybW43c21nQWFZRTFDc05GeWxmMjMzb283dUVKNnU2TWY5RA?oc=5\" target=\"_blank\">Is OpenAI's New Lockdown Mode An Admission That Default ChatGPT Was Never Safe Enough? - The Cyber Ex ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Cyber Express</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news signal flagged a headline asking whether OpenAI's new \"Lockdown Mode\" is an admission that default ChatGPT was never safe enough (The Cyber Express).\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u4fe1\u53f7\u6355\u6349\u5230\u4e00\u6761\u6807\u9898\uff0c\u8d28\u95ee OpenAI \u65b0\u63a8\u51fa\u7684 \"Lockdown Mode\" \u662f\u5426\u7b49\u4e8e\u627f\u8ba4\u9ed8\u8ba4\u7684 ChatGPT \u4ece\u6765\u5c31\u4e0d\u591f\u5b89\u5168\uff08\u6765\u6e90\uff1aThe Cyber Express\uff09\u3002\n\nWhy it matters:\nC3 tracks OpenAI headline risk as a proxy for sentiment turning on the sector's anchor name. A security-framed \"was it ever safe\" narrative erodes the trust premium that justifies OpenAI's valuation and, by extension, the AI-capex buildout funded on its growth story.\n\n\u5f71\u54cd:\nC3 \u628a OpenAI \u7684\u8d1f\u9762\u6807\u9898\u5f53\u4f5c\u6574\u4e2a\u884c\u4e1a\u9f99\u5934\u60c5\u7eea\u8f6c\u5411\u7684\u98ce\u5411\u6807\u3002\u8fd9\u79cd \"\u5b83\u5230\u5e95\u5b89\u4e0d\u5b89\u5168\" \u7684\u5b89\u5168\u8d28\u7591\u53d9\u4e8b\u4f1a\u4fb5\u8680\u652f\u6491 OpenAI \u4f30\u503c\u7684\u4fe1\u4efb\u6ea2\u4ef7\uff0c\u8fdb\u800c\u52a8\u6447\u5efa\u7acb\u5728\u5176\u589e\u957f\u6545\u4e8b\u4e4b\u4e0a\u3001\u4e3a AI capex \u6269\u5f20\u63d0\u4f9b\u878d\u8d44\u4f9d\u636e\u7684\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 252,
       "ts": 1780913658,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Sam Altman backtracks on AI job loss warnings ahead of IPO push - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 05:11:31 GMT\nLink:      https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRGZFLVVTRmJadXF2Tng3TzdCdVFOMmJJbTY2VTNlNzdzMTQteWZKMzJYSkMwOTg1a3Y3MWFSLTF3bzlaNGxHX2hXdW5ORV9XNjZRYVJXcXhnbVZiOEV3V09nTndKa0IwOTliZ0dvUEhaU0hFV3pmbjlHV0NycGMyUm9sVVhLeVVNVlRsU2l1OXQzUEtrZ3FYMWpKOS00bHJIaXdRWi1xNVdqRGlWWHdyZG1ZUEY0WGdzclp1dHE1ek9fZV9qSjhjTF93VlhwYmtubG1WVFFwdWZHVDhhcUxiNlN6MXBVMjVLZTR6RUxiUXNSNS1QLVhmYkRB?oc=5\n\nSam Altman backtracks on AI job loss warnings ahead of IPO push - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRGZFLVVTRmJadXF2Tng3TzdCdVFOMmJJbTY2VTNlNzdzMTQteWZKMzJYSkMwOTg1a3Y3MWFSLTF3bzlaNGxHX2hXdW5ORV9XNjZRYVJXcXhnbVZiOEV3V09nTndKa0IwOTliZ0dvUEhaU0hFV3pmbjlHV0NycGMyUm9sVVhLeVVNVlRsU2l1OXQzUEtrZ3FYMWpKOS00bHJIaXdRWi1xNVdqRGlWWHdyZG1ZUEY0WGdzclp1dHE1ek9fZV9qSjhjTF93VlhwYmtubG1WVFFwdWZHVDhhcUxiNlN6MXBVMjVLZTR6RUxiUXNSNS1QLVhmYkRB?oc=5\" target=\"_blank\">Sam Altman backtracks on AI job loss warnings ahead of IPO push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that Sam Altman is backtracking on his earlier warnings about AI-driven job losses, with the reversal timed ahead of an OpenAI IPO push.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cSam Altman \u6b63\u5728\u6536\u56de\u4ed6\u6b64\u524d\u5173\u4e8e AI \u5bfc\u81f4\u5931\u4e1a\u7684\u8b66\u544a\uff0c\u800c\u8fd9\u4e00\u8f6c\u5411\u6070\u597d\u8d76\u5728 OpenAI \u63a8\u8fdb IPO \u4e4b\u524d\u3002\n\nWhy it matters:\nSoftening the job-loss messaging right before an IPO is narrative management, not new data \u2014 it suggests the AI story is being tuned for public-market buyers. When a key promoter walks back his own claims to smooth a fundraise, it signals the capital cycle is now driving the messaging, a late-stage bubble tell.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u5915\u6de1\u5316\u5931\u4e1a\u8bba\u8c03\u662f\u53d9\u4e8b\u7ba1\u7406\uff0c\u800c\u975e\u65b0\u589e\u4e8b\u5b9e\u2014\u2014\u8bf4\u660e AI \u6545\u4e8b\u6b63\u88ab\u8c03\u6574\u4ee5\u8fce\u5408\u516c\u5f00\u5e02\u573a\u7684\u4e70\u5bb6\u3002\u5f53\u5173\u952e\u9f13\u5439\u8005\u4e3a\u4e86\u94fa\u5e73\u878d\u8d44\u800c\u6536\u56de\u81ea\u5df1\u7684\u8bf4\u6cd5\u65f6\uff0c\u610f\u5473\u7740\u8d44\u672c\u5468\u671f\u5f00\u59cb\u4e3b\u5bfc\u53d9\u4e8b\uff0c\u8fd9\u662f\u6ce1\u6cab\u665a\u671f\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 53,
-      "ts": 1780172056,
-      "ts_str": "2026-05-30 20:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI reportedly in talks to add Citigroup and JPMorgan to its IPO underwriting team - Bitget",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 30 May 2026 04:02:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RdnZWLW1pNENPRWRENUZYVi1wSGpEMUoxay1IVHpRaUxiWkJCaTRMb2VMUzFWMGs1MDZNa1FablRYa285YmJGaTU1cmktbWJjTlBBaXZuNlQ3SjQ3aUd2ajlGb9IBY0FVX3lxTE1RdnZWLW1pNENPRWRENUZYVi1wSGpEMUoxay1IVHpRaUxiWkJCaTRMb2VMUzFWMGs1MDZNa1FablRYa285YmJGaTU1cmktbWJjTlBBaXZuNlQ3SjQ3aUd2ajlGbw?oc=5\n\nOpenAI reportedly in talks to add Citigroup and JPMorgan to its IPO underwriting team - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RdnZWLW1pNENPRWRENUZYVi1wSGpEMUoxay1IVHpRaUxiWkJCaTRMb2VMUzFWMGs1MDZNa1FablRYa285YmJGaTU1cmktbWJjTlBBaXZuNlQ3SjQ3aUd2ajlGb9IBY0FVX3lxTE1RdnZWLW1pNENPRWRENUZYVi1wSGpEMUoxay1IVHpRaUxiWkJCaTRMb2VMUzFWMGs1MDZNa1FablRYa285YmJGaTU1cmktbWJjTlBBaXZuNlQ3SjQ3aUd2ajlGbw?oc=5\" target=\"_blank\">OpenAI reportedly in talks to add Citigroup and JPMorgan to its IPO underwriting team</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced a report that OpenAI is in talks to add Citigroup and JPMorgan to its IPO underwriting team.\n\n\u5185\u5bb9:\nGoogle News RSS \u663e\u793a\u6709\u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u5728\u6d3d\u8c08\u5c06 Citigroup \u548c JPMorgan \u52a0\u5165\u5176 IPO \u627f\u9500\u56e2\u961f\u3002\n\nWhy it matters:\nBuilding out a bulge-bracket underwriting syndicate is a concrete step toward an OpenAI IPO. A public listing would force disclosure of the economics underpinning the whole AI-capex buildout and gives the bubble a definable liquidity event \u2014 the kind of late-cycle marker that tends to cluster near a peak.\n\n\u5f71\u54cd:\n\u7ec4\u5efa\u9876\u7ea7\u6295\u884c\u627f\u9500\u56e2\u662f OpenAI \u8d70\u5411 IPO \u7684\u5b9e\u8d28\u6027\u4e00\u6b65\u3002\u4e00\u65e6\u4e0a\u5e02\uff0c\u5c31\u5fc5\u987b\u62ab\u9732\u652f\u6491\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u771f\u5b9e\u7ecf\u6d4e\u8d26\u76ee\uff0c\u540c\u65f6\u4e5f\u7ed9\u8fd9\u8f6e\u6ce1\u6cab\u63d0\u4f9b\u4e86\u4e00\u4e2a\u660e\u786e\u7684\u6d41\u52a8\u6027\u5151\u73b0\u8282\u70b9\u2014\u2014\u8fd9\u7c7b\u4fe1\u53f7\u5f80\u5f80\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\u96c6\u4e2d\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
