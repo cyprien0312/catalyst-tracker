@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781087883,
-  "generated_at_str": "2026-06-10 10:38:03 UTC",
-  "last_event_ts": 1781086483,
+  "generated_at": 1781088258,
+  "generated_at_str": "2026-06-10 10:44:18 UTC",
+  "last_event_ts": 1781088258,
   "tables": {
     "alerts_dedup": {
-      "count": 622,
-      "last_ts": 1781086483,
-      "last_str": "2026-06-10 10:14:43 UTC"
+      "count": 623,
+      "last_ts": 1781088258,
+      "last_str": "2026-06-10 10:44:18 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,19 +39,19 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1575,
-      "last_ts": 1781084643,
-      "last_str": "2026-06-10 09:44:03 UTC"
+      "count": 1577,
+      "last_ts": 1781088243,
+      "last_str": "2026-06-10 10:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 324,
-      "last_ts": 1781082844,
-      "last_str": "2026-06-10 09:14:04 UTC"
+      "count": 325,
+      "last_ts": 1781088244,
+      "last_str": "2026-06-10 10:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7818,
-      "last_ts": 1781086443,
-      "last_str": "2026-06-10 10:14:03 UTC"
+      "count": 7822,
+      "last_ts": 1781088242,
+      "last_str": "2026-06-10 10:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 630,
+      "ts": 1781088258,
+      "ts_str": "2026-06-10 10:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Perplexity says 2028 IPO remains on track irrespective of Anthropic, OpenAI debuts - Indiatimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 07:21:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeHdIRnhNcnBVWnlHeVhLTHl1WjZJbW9zeFJXZkQzS050Ym50U2t2WjhObUM4TW9SaVotYmlTcFlyT1FiNEZqOUpCMmZUR3NuNk5kSGo0SXZ2OC0xaXhNTkdCbE5lMzU3QjJXVjVpcE83OUZKek9zcUloSTlfSnM4TnhoTnl5V2J3VVU1akVtUS1NR3h1clg3dUhEb2cxeFhqSmhEMHh1RkNTRHZlR1ZNdHpxbjIweVBORWdTVTJZMWJUM0VSQWNVajQxSkdrWUFWSkd1UWVsYm8xdUNMbXJjWdIB5gFBVV95cUxNbnhoNGh5MHhaODFnVVBvZlE4Qy05MUhMdk5uNHRjOGQtaU11Wk1lSXRyUGt3Q2hZYUVXVG5RYW9QN1ZtdHp5Q2pzMHgyRnBNMllXQ21TWHRHdUU4amJGLTZOWHdpRVJTRlh3TWlCaldhRENRLUtjTUpjT2ZTWXZDemQzaVU5X1JhMVZlN1BlTGt1VVZROHZZUmY0Vkc0dS1zWW1FSDhqdW15MmQ5WDhFN1NJbWprWk1YeWdqR1F4WlUtdERlc0JpV0RwZkt1VjVIRmdOZUFfbnRuQ0g4S3FTbWZtc3JJdw?oc=5\n\nPerplexity says 2028 IPO remains on track irrespective of Anthropic, OpenAI debuts - Indiatimes\n\n<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPeHdIRnhNcnBVWnlHeVhLTHl1WjZJbW9zeFJXZkQzS050Ym50U2t2WjhObUM4TW9SaVotYmlTcFlyT1FiNEZqOUpCMmZUR3NuNk5kSGo0SXZ2OC0xaXhNTkdCbE5lMzU3QjJXVjVpcE83OUZKek9zcUloSTlfSnM4TnhoTnl5V2J3VVU1akVtUS1NR3h1clg3dUhEb2cxeFhqSmhEMHh1RkNTRHZlR1ZNdHpxbjIweVBORWdTVTJZMWJUM0VSQWNVajQxSkdrWUFWSkd1UWVsYm8xdUNMbXJjWdIB5gFBVV95cUxNbnhoNGh5MHhaODFnVVBvZlE4Qy05MUhMdk5uNHRjOGQtaU11Wk1lSXRyUGt3Q2hZYUVXVG5RYW9QN1ZtdHp5Q2pzMHgyRnBNMllXQ21TWHRHdUU4amJGLTZOWHdpRVJTRlh3TWlCaldhRENRLUtjTUpjT2ZTWXZDemQzaVU5X1JhMVZlN1BlTGt1VVZROHZZUmY0Vkc0dS1zWW1FSDhqdW15MmQ5WDhFN1NJbWprWk1YeWdqR1F4WlUtdERlc0JpV0RwZkt1VjVIRmdOZUFfbnRuQ0g4S3FTbWZtc3JJdw?oc=5\" target=\"_blank\">Perplexity says 2028 IPO remains on track irrespective of Anthropic, OpenAI debuts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Indiatimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Perplexity saying its 2028 IPO remains on track \"irrespective of Anthropic, OpenAI debuts.\"\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u663e\u793a\uff0cPerplexity \u8868\u793a\u5176 2028 \u5e74 IPO \u8ba1\u5212\u7167\u5e38\u63a8\u8fdb\uff0c\"\u4e0e Anthropic\u3001OpenAI \u4e0a\u5e02\u4e0e\u5426\u65e0\u5173\"\u3002\n\nWhy it matters:\nAn AI startup reaffirming a still-distant 2028 listing while name-checking rivals' debuts signals a crowded pipeline of pre-revenue-scale AI firms racing to tap public markets. Pre-announcing IPO timing this far out is a sentiment/liquidity-cycle marker, not a fundamentals one \u2014 the kind of froth that tends to cluster near a capex-cycle top.\n\n\u5f71\u54cd:\n\u4e00\u5bb6 AI \u521d\u521b\u516c\u53f8\u5728\u63d0\u524d\u6570\u5e74\u558a\u51fa 2028 \u5e74\u4e0a\u5e02\u65f6\u95f4\u8868\u3001\u8fd8\u7279\u610f\u5bf9\u6807\u7ade\u4e89\u5bf9\u624b\u7684\u4e0a\u5e02\u52a8\u4f5c\uff0c\u8bf4\u660e\u4e00\u6279\u5c1a\u672a\u5f62\u6210\u89c4\u6a21\u76c8\u5229\u7684 AI \u516c\u53f8\u6b63\u624e\u5806\u62a2\u767b\u516c\u5f00\u5e02\u573a\u3002\u5982\u6b64\u63d0\u524d\u9884\u544a IPO \u65f6\u70b9\u53cd\u6620\u7684\u662f\u60c5\u7eea\u548c\u6d41\u52a8\u6027\u5468\u671f\uff0c\u800c\u975e\u57fa\u672c\u9762\u2014\u2014\u8fd9\u7c7b\u6ce1\u6cab\u5f0f\u4fe1\u53f7\u5f80\u5f80\u51fa\u73b0\u5728\u8d44\u672c\u5f00\u652f\u5468\u671f\u89c1\u9876\u9644\u8fd1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 628,
       "ts": 1781086483,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI begins IPO process with confidential SEC filing - digitimes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 03:15:25 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlBlaTY2akxib3Y0WlFCRVY5cnBXODdjTDcwYkIzOVRLMlJpb1ZQNGR4WXREVlBTRmR3M0ttSWpUdXhvQlNic3QzcjZHUVU4dUc1SVJheW85cW1ybVFCRnZTQTBMemtrMnF6OWx4NWtYOERSZFU4bmI3VVJNdUI1djdxVjRvWUU?oc=5\n\nOpenAI begins IPO process with confidential SEC filing - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlBlaTY2akxib3Y0WlFCRVY5cnBXODdjTDcwYkIzOVRLMlJpb1ZQNGR4WXREVlBTRmR3M0ttSWpUdXhvQlNic3QzcjZHUVU4dUc1SVJheW85cW1ybVFCRnZTQTBMemtrMnF6OWx4NWtYOERSZFU4bmI3VVJNdUI1djdxVjRvWUU?oc=5\" target=\"_blank\">OpenAI begins IPO process with confidential SEC filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA digitimes report says OpenAI has begun the IPO process with a confidential SEC filing.\n\n\u5185\u5bb9:\n\u636e digitimes \u62a5\u9053\uff0cOpenAI \u5df2\u901a\u8fc7\u5411 SEC \u63d0\u4ea4\u4fdd\u5bc6\u6587\u4ef6\u542f\u52a8 IPO \u6d41\u7a0b\u3002\n\nWhy it matters:\nA confidential S-1 means OpenAI is positioning to raise public-market capital \u2014 a sign that private funding alone can no longer cover its compute and capex burn. An OpenAI IPO would also hand the market its first clean public read on the unit economics underpinning the entire AI-infrastructure buildout.\n\n\u5f71\u54cd:\n\u4fdd\u5bc6\u9012\u4ea4 S-1 \u610f\u5473\u7740 OpenAI \u6b63\u51c6\u5907\u4ece\u516c\u5f00\u5e02\u573a\u878d\u8d44\u2014\u2014\u8868\u660e\u4ec5\u9760\u79c1\u52df\u8d44\u91d1\u5df2\u65e0\u6cd5\u8986\u76d6\u5176\u7b97\u529b\u4e0e\u8d44\u672c\u5f00\u652f\u7684\u6d88\u8017\u3002OpenAI \u4e0a\u5e02\u8fd8\u5c06\u9996\u6b21\u5411\u5e02\u573a\u66b4\u9732\u652f\u6491\u6574\u4e2a AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u771f\u5b9e\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 433,
-      "ts": 1780978544,
-      "ts_str": "2026-06-09 04:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Perplexity CEO signals IPO plans as OpenAI, Anthropic filings stir AI market - CryptoRank",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 03:46:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1ZaemNieDgtcC1pUjVIdnhDRS02NC0yenN0NEpzMHAtemV6RlNkZUx3NkFMUjB4ampkV0RhaFhqQ1YtU2RsUk5LOTI4WEgwZW12U0loendoY1NFWmtCU1p1UnZWR2ZqcEFMeW9CTC04b3hicGZFZlQ2LWd6ZEw4VEFENkIyNGZwRERSUmJLTUFBZE9vcV9OR1k2TXl0c18yWVVEZDZtNjNQT3djZVBOQ2Fmbw?oc=5\n\nPerplexity CEO signals IPO plans as OpenAI, Anthropic filings stir AI market - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1ZaemNieDgtcC1pUjVIdnhDRS02NC0yenN0NEpzMHAtemV6RlNkZUx3NkFMUjB4ampkV0RhaFhqQ1YtU2RsUk5LOTI4WEgwZW12U0loendoY1NFWmtCU1p1UnZWR2ZqcEFMeW9CTC04b3hicGZFZlQ2LWd6ZEw4VEFENkIyNGZwRERSUmJLTUFBZE9vcV9OR1k2TXl0c18yWVVEZDZtNjNQT3djZVBOQ2Fmbw?oc=5\" target=\"_blank\">Perplexity CEO signals IPO plans as OpenAI, Anthropic filings stir AI market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CryptoRank headline reports Perplexity's CEO is signaling IPO plans, while filings from OpenAI and Anthropic are stirring the AI market.\n\n\u5185\u5bb9:\nCryptoRank \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053\u79f0\uff0cPerplexity CEO \u91ca\u653e IPO \u8ba1\u5212\u4fe1\u53f7\uff0c\u540c\u65f6 OpenAI \u4e0e Anthropic \u7684\u6587\u4ef6\u6b63\u5728\u6405\u52a8 AI \u5e02\u573a\u3002\n\nWhy it matters:\nPrivate AI leaders rushing toward public markets is a late-cycle tell: insiders monetizing into retail demand often marks the top of a funding cycle. IPO chatter clustering across OpenAI, Anthropic, and Perplexity suggests the window to cash out is perceived as closing.\n\n\u5f71\u54cd:\n\u5934\u90e8\u79c1\u8425 AI \u516c\u53f8\u624e\u5806\u51b2\u523a\u4e0a\u5e02\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\uff1a\u5185\u90e8\u4eba\u8d81\u6563\u6237\u70ed\u60c5\u9ad8\u6da8\u5957\u73b0\uff0c\u5f80\u5f80\u51fa\u73b0\u5728\u878d\u8d44\u5468\u671f\u7684\u9876\u90e8\u3002OpenAI\u3001Anthropic\u3001Perplexity \u540c\u65f6\u4f20\u51fa IPO \u98ce\u58f0\uff0c\u8bf4\u660e\u5404\u65b9\u90fd\u8ba4\u4e3a\u5151\u73b0\u9000\u51fa\u7684\u7a97\u53e3\u6b63\u5728\u5173\u95ed\u3002\n",
       "emailed": false
     }
   ],
