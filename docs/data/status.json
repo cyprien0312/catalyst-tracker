@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781143683,
-  "generated_at_str": "2026-06-11 02:08:03 UTC",
-  "last_event_ts": 1781142245,
+  "generated_at": 1781144067,
+  "generated_at_str": "2026-06-11 02:14:27 UTC",
+  "last_event_ts": 1781144067,
   "tables": {
     "alerts_dedup": {
-      "count": 666,
-      "last_ts": 1781140455,
-      "last_str": "2026-06-11 01:14:15 UTC"
+      "count": 668,
+      "last_ts": 1781144067,
+      "last_str": "2026-06-11 02:14:27 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-11 01:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8046,
-      "last_ts": 1781142242,
-      "last_str": "2026-06-11 01:44:02 UTC"
+      "count": 8053,
+      "last_ts": 1781144042,
+      "last_str": "2026-06-11 02:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 674,
+      "ts": 1781144067,
+      "ts_str": "2026-06-11 02:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] WSJ: OpenAI weighs major price cuts to compete with Anthropic before IPO push - investingLive",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 01:51:40 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkNmMXp3UHo0cjBYZG9ESzQtbUZHMTFVMFBxWEFfUHBDbDFXVkMzUzJhYUE5NXpzRXdUUXd6aXhkc0I4alZLZzlIbDV3N1c2Z0k3WWU1TWNlcEdNSXVvdWVvM3hxMnlyak5QX1NUNVN1NzdUb3BrZWxFcWNHOTFYT2RQZVRuRGVKQmZDUExiZlhkYzZPSkZMRnRfY01KMG1VVE1nUzNpLXVmcnBUMVFUVU56SVdYZnEzakFOQWI3UU5UVDFTMkIxbnh0bnQ?oc=5\n\nWSJ: OpenAI weighs major price cuts to compete with Anthropic before IPO push - investingLive\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOdkNmMXp3UHo0cjBYZG9ESzQtbUZHMTFVMFBxWEFfUHBDbDFXVkMzUzJhYUE5NXpzRXdUUXd6aXhkc0I4alZLZzlIbDV3N1c2Z0k3WWU1TWNlcEdNSXVvdWVvM3hxMnlyak5QX1NUNVN1NzdUb3BrZWxFcWNHOTFYT2RQZVRuRGVKQmZDUExiZlhkYzZPSkZMRnRfY01KMG1VVE1nUzNpLXVmcnBUMVFUVU56SVdYZnEzakFOQWI3UU5UVDFTMkIxbnh0bnQ?oc=5\" target=\"_blank\">WSJ: OpenAI weighs major price cuts to compete with Anthropic before IPO push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">investingLive</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nWSJ reports OpenAI is weighing major price cuts to compete with Anthropic ahead of an IPO push.\n\n\u5185\u5bb9:\nWSJ \u62a5\u9053\uff0cOpenAI \u6b63\u5728\u8003\u8651\u5927\u5e45\u964d\u4ef7\u4ee5\u4e0e Anthropic \u7ade\u4e89\uff0c\u5e76\u4e3a IPO \u9020\u52bf\u3002\n\nWhy it matters:\nPrice cuts before an IPO signal pricing power is eroding under competition, not expanding. If the category leader has to discount to hold share, the per-token revenue used to justify hundreds of billions in AI capex is being marked down \u2014 directly undercutting the payback math for the whole buildout.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u964d\u4ef7\u8bf4\u660e\u5b9a\u4ef7\u6743\u5728\u7ade\u4e89\u4e0b\u88ab\u4fb5\u8680\uff0c\u800c\u975e\u6269\u5927\u3002\u5982\u679c\u8fde\u884c\u4e1a\u9f99\u5934\u90fd\u8981\u9760\u6253\u6298\u4fdd\u4f4f\u5e02\u573a\u4efd\u989d\uff0c\u90a3\u4e48\u7528\u6765\u652f\u6491\u6570\u5343\u4ebf AI capex \u7684\u5355\u4f4d token \u6536\u5165\u5c31\u88ab\u4e0b\u8c03\u4e86\u2014\u2014\u8fd9\u76f4\u63a5\u524a\u5f31\u4e86\u6574\u4e2a\u57fa\u5efa\u72c2\u6f6e\u7684\u56de\u672c\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 675,
+      "ts": 1781144067,
+      "ts_str": "2026-06-11 02:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI considers significant token price cuts ahead of IPO, WSJ reports - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 01:52:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIejNiSkFzZ3ZlZFF3dHVJMHY3bWRjWUJfaG1USUdCN1lub3VlSGI2V0tnYjlvX2FNWG5sX1Y0NGpZVVlLNUdKblViUS1PWkI2SmtpS3RHN2otZ3pGc29hMllxR282UQ?oc=5\n\nOpenAI considers significant token price cuts ahead of IPO, WSJ reports - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIejNiSkFzZ3ZlZFF3dHVJMHY3bWRjWUJfaG1USUdCN1lub3VlSGI2V0tnYjlvX2FNWG5sX1Y0NGpZVVlLNUdKblViUS1PWkI2SmtpS3RHN2otZ3pGc29hMllxR282UQ?oc=5\" target=\"_blank\">OpenAI considers significant token price cuts ahead of IPO, WSJ reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA WSJ report (via Crypto Briefing) says OpenAI is considering significant cuts to its API token prices ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u636e WSJ \u62a5\u9053\uff08\u7ecf Crypto Briefing \u8f6c\u8ff0\uff09\uff0cOpenAI \u6b63\u8003\u8651\u5728\u7b79\u5212 IPO \u524d\u5927\u5e45\u4e0b\u8c03\u5176 API token \u4ef7\u683c\u3002\n\nWhy it matters:\nToken price cuts signal that inference is being commoditized and that OpenAI is trading margin for volume to dress up growth before an IPO. If the category leader can't hold pricing, the revenue assumptions underwriting hyperscaler AI capex look optimistic.\n\n\u5f71\u54cd:\n\u4e0b\u8c03 token \u4ef7\u683c\u8bf4\u660e\u63a8\u7406\u670d\u52a1\u6b63\u5728\u8d70\u5411\u5546\u54c1\u5316\uff0cOpenAI \u5728 IPO \u524d\u7528\u5229\u6da6\u6362\u9500\u91cf\u6765\u7c89\u9970\u589e\u957f\u3002\u5982\u679c\u8fde\u9886\u5934\u7f8a\u90fd\u5b88\u4e0d\u4f4f\u5b9a\u4ef7\uff0c\u90a3\u4e48\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI capex \u7684\u6536\u5165\u5047\u8bbe\u5c31\u663e\u5f97\u8fc7\u4e8e\u4e50\u89c2\u4e86\u3002\n",
+      "emailed": false
+    },
     {
       "id": 673,
       "ts": 1781140455,
@@ -2219,26 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files for IPO - here\u2019s what investors need to know - CNBC",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 09:17:39 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEF5VElzTWo2RDlfamtKLU1VVzdVSHdWQnd6d3hfZmc1aFRKUllXdlFmYUhzajR2TnhsR0RvdkJwdGJoaDY1amJvaElKMGd4WThGa1JrUV9DU0JSdHh5aDF2WmhBWHFvX2YwbUZaTkdhZDRvR1k1Tzl3dG1xZ3E5ak80cS1paEc2MjcxekxCSE5HTGVhOTU5OW5VcmNWY0xm?oc=5\n\nOpenAI files for IPO - here\u2019s what investors need to know - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPTEF5VElzTWo2RDlfamtKLU1VVzdVSHdWQnd6d3hfZmc1aFRKUllXdlFmYUhzajR2TnhsR0RvdkJwdGJoaDY1amJvaElKMGd4WThGa1JrUV9DU0JSdHh5aDF2WmhBWHFvX2YwbUZaTkdhZDRvR1k1Tzl3dG1xZ3E5ak80cS1paEc2MjcxekxCSE5HTGVhOTU5OW5VcmNWY0xm?oc=5\" target=\"_blank\">OpenAI files for IPO - here\u2019s what investors need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC story headlined \"OpenAI files for IPO - here's what investors need to know\" surfaced in the C3 news feed, indicating OpenAI has filed to go public.\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u6d41\u4e2d\u51fa\u73b0 CNBC \u6807\u9898\u4e3a\"OpenAI files for IPO - here's what investors need to know\"\u7684\u62a5\u9053\uff0c\u8868\u660e OpenAI \u5df2\u7533\u8bf7 IPO \u4e0a\u5e02\u3002\n\nWhy it matters:\nAn OpenAI IPO would force public disclosure of revenue, burn rate, and compute/capex commitments that are currently private \u2014 the clearest test yet of whether AI economics support the spend. It also reads as the marquee insiders seeking liquidity, a classic late-cycle marker for the AI-capex bubble thesis.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u88ab\u8feb\u516c\u5f00\u62ab\u9732\u76ee\u524d\u4fdd\u5bc6\u7684\u8425\u6536\u3001\u70e7\u94b1\u901f\u5ea6\u4ee5\u53ca\u7b97\u529b/capex \u627f\u8bfa\uff0c\u8fd9\u662f\u8fc4\u4eca\u5bf9 AI \u7ecf\u6d4e\u6027\u80fd\u5426\u652f\u6491\u5de8\u989d\u652f\u51fa\u6700\u76f4\u63a5\u7684\u68c0\u9a8c\u3002\u540c\u65f6\uff0c\u5934\u90e8\u5185\u5e55\u65b9\u5bfb\u6c42\u5957\u73b0\u672c\u8eab\u5c31\u662f AI capex \u6ce1\u6cab\u8bba\u4e2d\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 474,
-      "ts": 1780998300,
-      "ts_str": "2026-06-09 09:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Joins IPO Race With Confidential S-1 Filing - RTTNews",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 09:10:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1RjcWdEbHJxX0VITFRQUW9ENkNUSXpBblk4TkJpb2k2aVd4RUotRUM1WVlQODkwNnYzUFBOWWh0UTU1VW11R1hrYXZCNGZkS3Z4QXhiRFdXQVBBcTdDN0lQRTFPTVp3YS1tSi1FY2pHYmpwWXB5dXRQWkN5dDhzQ0hWVm90dkwxZ2pzQ0tyVk0?oc=5\n\nOpenAI Joins IPO Race With Confidential S-1 Filing - RTTNews\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1RjcWdEbHJxX0VITFRQUW9ENkNUSXpBblk4TkJpb2k2aVd4RUotRUM1WVlQODkwNnYzUFBOWWh0UTU1VW11R1hrYXZCNGZkS3Z4QXhiRFdXQVBBcTdDN0lQRTFPTVp3YS1tSi1FY2pHYmpwWXB5dXRQWkN5dDhzQ0hWVm90dkwxZ2pzQ0tyVk0?oc=5\" target=\"_blank\">OpenAI Joins IPO Race With Confidential S-1 Filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RTTNews</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports \"OpenAI Joins IPO Race With Confidential S-1 Filing\" (RTTNews), indicating OpenAI has confidentially submitted an S-1 registration statement to the SEC.\n\n\u5185\u5bb9:\nGoogle News RSS \u6536\u5f55\u4e00\u6761\u6765\u81ea RTTNews \u7684\u62a5\u9053\uff1a\"OpenAI Joins IPO Race With Confidential S-1 Filing\"\uff0c\u663e\u793a OpenAI \u5df2\u5411 SEC \u79d8\u5bc6\u9012\u4ea4 S-1 \u4e0a\u5e02\u6ce8\u518c\u6587\u4ef6\u3002\n\nWhy it matters:\nA confidential S-1 means OpenAI is preparing to tap public markets \u2014 the clearest sign yet that the largest pure-play AI company needs external capital to fund its spend. Insiders cashing into a public listing near the top of the cycle is a textbook late-stage bubble signal.\n\n\u5f71\u54cd:\n\u79d8\u5bc6\u9012\u4ea4 S-1 \u610f\u5473\u7740 OpenAI \u6b63\u51c6\u5907\u767b\u9646\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u662f\u8fc4\u4eca\u6700\u660e\u786e\u7684\u4fe1\u53f7\uff1a\u8fd9\u5bb6\u6700\u5927\u7684\u7eaf AI \u516c\u53f8\u9700\u8981\u5916\u90e8\u8d44\u672c\u6765\u652f\u6491\u5176\u5f00\u652f\u3002\u5728\u5468\u671f\u9ad8\u4f4d\u901a\u8fc7 IPO \u8ba9\u5185\u90e8\u4eba\u5957\u73b0\uff0c\u662f\u6559\u79d1\u4e66\u5f0f\u7684\u6ce1\u6cab\u665a\u671f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 475,
-      "ts": 1780998300,
-      "ts_str": "2026-06-09 09:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s IPO Ambitions Lift Worldcoin \u2013 Even As Crypto Leaders Warn Of AI Capital Rotation - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 09:43:08 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSEd5dXFMcWVoWjF5UmZlMGFWYkhUTXgyYXp1UUlGV1lxOXdBVjRZLWRTdnZqOENNbllual9OWkhyODNYSGs5cmJHSGRCZjJVNl9veTlxem1WR2JLemFUU3dxMzM1eUVWS0U1V19VMFVSTGJlZGZHeGNMN0NxdDJ2UkFDN0puenVNVVRRaDBuY0c5bGVCVXVHWGpJeVBTNXIzMzFRTGdEQWJpZkRyM2tfZVhWQUF1RUVYa3dWRkdET01hemMtWlZIaThVeHkwWkEtY1E?oc=5\n\nOpenAI\u2019s IPO Ambitions Lift Worldcoin \u2013 Even As Crypto Leaders Warn Of AI Capital Rotation - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSEd5dXFMcWVoWjF5UmZlMGFWYkhUTXgyYXp1UUlGV1lxOXdBVjRZLWRTdnZqOENNbllual9OWkhyODNYSGs5cmJHSGRCZjJVNl9veTlxem1WR2JLemFUU3dxMzM1eUVWS0U1V19VMFVSTGJlZGZHeGNMN0NxdDJ2UkFDN0puenVNVVRRaDBuY0c5bGVCVXVHWGpJeVBTNXIzMzFRTGdEQWJpZkRyM2tfZVhWQUF1RUVYa3dWRkdET01hemMtWlZIaThVeHkwWkEtY1E?oc=5\" target=\"_blank\">OpenAI\u2019s IPO Ambitions Lift Worldcoin \u2013 Even As Crypto Leaders Warn Of AI Capital Rotation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Stocktwits headline reports that OpenAI's IPO ambitions are lifting Worldcoin, while crypto leaders warn of \"AI Capital Rotation.\"\n\n\u5185\u5bb9:\nStocktwits \u7684\u4e00\u5219\u5934\u6761\u62a5\u9053\u79f0\uff0cOpenAI \u7684 IPO \u8ba1\u5212\u6b63\u5728\u62c9\u62ac Worldcoin\uff0c\u4e0e\u6b64\u540c\u65f6\u52a0\u5bc6\u9886\u8896\u8b66\u544a\u51fa\u73b0 \"AI Capital Rotation\"\uff08AI \u8d44\u672c\u8f6e\u52a8\uff09\u3002\n\nWhy it matters:\nTwo stress signals in one headline: OpenAI floating an IPO suggests it needs public-market capital to fund its spend, and \"capital rotation\" warnings point to money chasing the AI narrative into loosely-related tokens like Worldcoin. Reflexive cross-asset hype around an OpenAI listing is the kind of late-cycle froth that marks a crowded trade.\n\n\u5f71\u54cd:\n\u4e00\u6761\u5934\u6761\u91cc\u6709\u4e24\u4e2a\u538b\u529b\u4fe1\u53f7\uff1aOpenAI \u653e\u98ce IPO \u8bf4\u660e\u5b83\u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u6765\u652f\u6491\u5f00\u652f\uff1b\u800c \"\u8d44\u672c\u8f6e\u52a8\" \u7684\u8b66\u544a\u610f\u5473\u7740\u8d44\u91d1\u6b63\u501f AI \u53d9\u4e8b\u6d8c\u5165\u50cf Worldcoin \u8fd9\u6837\u5173\u8054\u5ea6\u5f88\u5f31\u7684\u4ee3\u5e01\u3002\u56f4\u7ed5 OpenAI \u4e0a\u5e02\u7684\u8fd9\u79cd\u8de8\u8d44\u4ea7\u53cd\u8eab\u6027\u7092\u4f5c\uff0c\u6b63\u662f\u4ea4\u6613\u8fc7\u5ea6\u62e5\u6324\u7684\u5468\u671f\u665a\u671f\u6ce1\u6cab\u7279\u5f81\u3002\n",
       "emailed": false
     }
   ],
