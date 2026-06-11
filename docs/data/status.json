@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781219283,
-  "generated_at_str": "2026-06-11 23:08:03 UTC",
-  "last_event_ts": 1781217857,
+  "generated_at": 1781219660,
+  "generated_at_str": "2026-06-11 23:14:20 UTC",
+  "last_event_ts": 1781219659,
   "tables": {
     "alerts_dedup": {
-      "count": 703,
-      "last_ts": 1781217857,
-      "last_str": "2026-06-11 22:44:17 UTC"
+      "count": 704,
+      "last_ts": 1781219659,
+      "last_str": "2026-06-11 23:14:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,19 +39,19 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1700,
-      "last_ts": 1781217843,
-      "last_str": "2026-06-11 22:44:03 UTC"
+      "count": 1701,
+      "last_ts": 1781219644,
+      "last_str": "2026-06-11 23:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 348,
-      "last_ts": 1781214245,
-      "last_str": "2026-06-11 21:44:05 UTC"
+      "count": 349,
+      "last_ts": 1781219644,
+      "last_str": "2026-06-11 23:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8365,
-      "last_ts": 1781217842,
-      "last_str": "2026-06-11 22:44:02 UTC"
+      "count": 8372,
+      "last_ts": 1781219643,
+      "last_str": "2026-06-11 23:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 711,
+      "ts": 1781219659,
+      "ts_str": "2026-06-11 23:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] DW News. . OpenAI vs. Anthropic: the AI IPO race is on, and both are chasing public-market money. The difference is that",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 17:34:05 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxNQmtLX01nQ3hNejNhRi1OcGI3dHdSR3JuTWo0NTdUakgtcEJveENMN2J1SVZSU0xuQWtFX1ZHcU5DT1dqbVdadzFKNi14NUFiakZlZVBiczJ2N1Y1N21Ka2twcy1rdDFsTUtKNzl6c1pZYUFvNmxDRHBHWm04bDRtOG1FTk54ME5pWE9DSEhWR0ZhQnd1Umg3M0hoaFZWdHhWMTRLX2RXdTJ5emdMbjl2cUdhVndDU0E?oc=5\n\nDW News. . OpenAI vs. Anthropic: the AI IPO race is on, and both are chasing public-market money. The difference is that one is selling mass adoption, the other is selling corporate margins. #dwbusiness - facebook.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNQmtLX01nQ3hNejNhRi1OcGI3dHdSR3JuTWo0NTdUakgtcEJveENMN2J1SVZSU0xuQWtFX1ZHcU5DT1dqbVdadzFKNi14NUFiakZlZVBiczJ2N1Y1N21Ka2twcy1rdDFsTUtKNzl6c1pZYUFvNmxDRHBHWm04bDRtOG1FTk54ME5pWE9DSEhWR0ZhQnd1Umg3M0hoaFZWdHhWMTRLX2RXdTJ5emdMbjl2cUdhVndDU0E?oc=5\" target=\"_blank\">DW News. . OpenAI vs. Anthropic: the AI IPO race is on, and both are chasing public-market money. The difference is that one is selling mass adoption, the other is selling corporate margins. #dwbusiness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">facebook.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA DW News social post frames an \"AI IPO race\" between OpenAI and Anthropic, both chasing public-market capital \u2014 OpenAI selling mass adoption, Anthropic selling corporate margins.\n\n\u5185\u5bb9:\nDW News \u7684\u4e00\u6761\u793e\u5a92\u5e16\u5b50\u5c06 OpenAI \u4e0e Anthropic \u63cf\u8ff0\u4e3a\u4e00\u573a\"AI IPO \u7ade\u8d5b\"\uff0c\u4e24\u5bb6\u90fd\u5728\u4e89\u593a\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u2014\u2014OpenAI \u5356\u7684\u662f\u5927\u4f17\u666e\u53ca\uff0cAnthropic \u5356\u7684\u662f\u4f01\u4e1a\u5229\u6da6\u7387\u3002\n\nWhy it matters:\nTwo of the largest private AI labs moving toward IPOs signals the funding cycle is rotating from private rounds to public markets. That typically happens when private capital tightens and insiders want exit liquidity \u2014 a late-stage marker for the AI-capex boom.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u6700\u5927\u7684\u79c1\u6709 AI \u5b9e\u9a8c\u5ba4\u540c\u65f6\u8f6c\u5411 IPO\uff0c\u8bf4\u660e\u878d\u8d44\u5468\u671f\u6b63\u4ece\u79c1\u52df\u8f6e\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u3002\u8fd9\u901a\u5e38\u53d1\u751f\u5728\u79c1\u52df\u8d44\u91d1\u6536\u7d27\u3001\u5185\u90e8\u4eba\u60f3\u8981\u9000\u51fa\u53d8\u73b0\u7684\u65f6\u5019\uff0c\u662f AI capex \u70ed\u6f6e\u8fdb\u5165\u665a\u671f\u7684\u6807\u5fd7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 710,
       "ts": 1781217857,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s Public Market Test: Can ChatGPT Justify a Trillion-Dollar IPO Valuation? - Barron's",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 12:41:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmxRd2RMek5OOHNaelpnSnFmck9DUFpqOU9aQXNvMUxYZU5TVWE0S3l5UUR4UVdYQ2ctSQ?oc=5\n\nOpenAI\u2019s Public Market Test: Can ChatGPT Justify a Trillion-Dollar IPO Valuation? - Barron's\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN25nd0xUdF9ObFplOS1JcEJ2YTFfSElUOE5BUXMxUHNkZk15eF9hdlZ6UHpSSXRuSFE5Znp6cnhPS2ZQbTluLUVsSXp1c04waWRuTXpVSFJBWXZVQmxRd2RMek5OOHNaelpnSnFmck9DUFpqOU9aQXNvMUxYZU5TVWE0S3l5UUR4UVdYQ2ctSQ?oc=5\" target=\"_blank\">OpenAI\u2019s Public Market Test: Can ChatGPT Justify a Trillion-Dollar IPO Valuation?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Barron's headline frames OpenAI's path to public markets as a test of whether ChatGPT can justify a trillion-dollar IPO valuation.\n\n\u5185\u5bb9:\nBarron's \u7684\u62a5\u9053\u628a OpenAI \u8d70\u5411\u516c\u5f00\u5e02\u573a\uff0c\u5b9a\u6027\u4e3a\u5bf9 ChatGPT \u80fd\u5426\u6491\u8d77\u4e07\u4ebf\u7f8e\u5143 IPO \u4f30\u503c\u7684\u4e00\u6b21\u68c0\u9a8c\u3002\n\nWhy it matters:\nA $1T valuation for OpenAI anchors the entire AI-capex buildout \u2014 hyperscaler and neocloud spending is underwritten by the assumption that OpenAI-scale demand is real and durable. Mainstream financial press openly questioning that number signals the valuation narrative is moving from hype to scrutiny, an early bubble-stress tell.\n\n\u5f71\u54cd:\nOpenAI \u7684\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u951a\u70b9\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u652f\u51fa\uff0c\u90fd\u5efa\u7acb\u5728 OpenAI \u7ea7\u522b\u9700\u6c42\u771f\u5b9e\u4e14\u6301\u4e45\u7684\u5047\u8bbe\u4e4b\u4e0a\u3002\u4e3b\u6d41\u8d22\u7ecf\u5a92\u4f53\u516c\u5f00\u8d28\u7591\u8fd9\u4e2a\u6570\u5b57\uff0c\u8bf4\u660e\u4f30\u503c\u53d9\u4e8b\u6b63\u4ece\u72c2\u70ed\u8f6c\u5411\u5ba1\u89c6\uff0c\u662f\u65e9\u671f\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 505,
-      "ts": 1781010961,
-      "ts_str": "2026-06-09 13:16 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI, company behind ChatGPT, files for IPO - ABC News - Breaking News, Latest News and Videos",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 13:11:08 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJRX2Rta1dQZ19DQm41ajVyQk5qbEd0ZnNUeFBIRGhCNkU2QndEUXc2UEHSAYwBQVVfeXFMTTluYzdGZjJxa083MDVRdU9BYU9paUtaQVl1WWE5VndvYkVtZjNDTnhKeUI1alBtSEdfclhzUTZIWHJGU05EcnIwa0pGUHNHZHJ0d1ZWQWR4N2FpcHRwS3VBZFhrWU01dEQ4NTZfNWFVYXU0TUhQSE1nRzZUcDNZZGdwMXhfbi1NeDFValo?oc=5\n\nOpenAI, company behind ChatGPT, files for IPO - ABC News - Breaking News, Latest News and Videos\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1ppdVZyU2ExNTRiUHFwZzdoOTBQWWstdDJPTFFaNkZ0TG1uREhZVFY3S1M4UWlZRVl0R21hcjNETnJ1QWxad0cySklxUDQzVGFKM1dhRXcwX1lSSDJRX2Rta1dQZ19DQm41ajVyQk5qbEd0ZnNUeFBIRGhCNkU2QndEUXc2UEHSAYwBQVVfeXFMTTluYzdGZjJxa083MDVRdU9BYU9paUtaQVl1WWE5VndvYkVtZjNDTnhKeUI1alBtSEdfclhzUTZIWHJGU05EcnIwa0pGUHNHZHJ0d1ZWQWR4N2FpcHRwS3VBZFhrWU01dEQ4NTZfNWFVYXU0TUhQSE1nRzZUcDNZZGdwMXhfbi1NeDFValo?oc=5\" target=\"_blank\">OpenAI, company behind ChatGPT, files for IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News - Breaking News, Latest News and Videos</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline crossed the C3 feed: \"OpenAI, company behind ChatGPT, files for IPO\" (ABC News). This is an RSS-matched signal, not a confirmed S-1 filing.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u6355\u6349\u5230\u4e00\u6761\u65b0\u95fb\u6807\u9898\uff1a\"OpenAI, company behind ChatGPT, files for IPO\"\uff08ABC News\uff09\u3002\u8fd9\u662f RSS \u5339\u914d\u5230\u7684\u4fe1\u53f7\uff0c\u5e76\u975e\u5df2\u786e\u8ba4\u7684 S-1 \u6587\u4ef6\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the defining liquidity event of the AI-capex cycle \u2014 it lets early backers and employees cash out and forces public disclosure of OpenAI's true economics (compute costs, gross margins, Microsoft revenue-share). Insiders seeking the exit, plus the cash needed to fund losses, are both classic late-cycle tells. Headline needs confirmation against an actual SEC filing before treating it as fact.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u662f AI capex \u5468\u671f\u4e2d\u6807\u5fd7\u6027\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u65e9\u671f\u6295\u8d44\u4eba\u548c\u5458\u5de5\u5f97\u4ee5\u5957\u73b0\uff0c\u540c\u65f6\u88ab\u8feb\u516c\u5f00\u62ab\u9732 OpenAI \u7684\u771f\u5b9e\u7ecf\u6d4e\u72b6\u51b5\uff08\u7b97\u529b\u6210\u672c\u3001\u6bdb\u5229\u7387\u3001\u4e0e Microsoft \u7684\u6536\u5165\u5206\u6210\uff09\u3002\u5185\u90e8\u4eba\u5bfb\u6c42\u9000\u51fa\u3001\u4ee5\u53ca\u4e3a\u586b\u8865\u4e8f\u635f\u800c\u52df\u8d44\uff0c\u90fd\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\u5728\u62ff\u5230\u771f\u6b63\u7684 SEC \u6587\u4ef6\u786e\u8ba4\u4e4b\u524d\uff0c\u8be5\u6807\u9898\u4ecd\u9700\u6838\u5b9e\u3002\n",
       "emailed": false
     }
   ],
