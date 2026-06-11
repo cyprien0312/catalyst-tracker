@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781186883,
-  "generated_at_str": "2026-06-11 14:08:03 UTC",
-  "last_event_ts": 1781185458,
+  "generated_at": 1781187259,
+  "generated_at_str": "2026-06-11 14:14:19 UTC",
+  "last_event_ts": 1781187258,
   "tables": {
     "alerts_dedup": {
-      "count": 695,
-      "last_ts": 1781185458,
-      "last_str": "2026-06-11 13:44:18 UTC"
+      "count": 696,
+      "last_ts": 1781187258,
+      "last_str": "2026-06-11 14:14:18 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -39,19 +39,19 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1670,
-      "last_ts": 1781183644,
-      "last_str": "2026-06-11 13:14:04 UTC"
+      "count": 1673,
+      "last_ts": 1781187244,
+      "last_str": "2026-06-11 14:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 343,
-      "last_ts": 1781180044,
-      "last_str": "2026-06-11 12:14:04 UTC"
+      "count": 345,
+      "last_ts": 1781187244,
+      "last_str": "2026-06-11 14:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8234,
-      "last_ts": 1781185442,
-      "last_str": "2026-06-11 13:44:02 UTC"
+      "count": 8241,
+      "last_ts": 1781187243,
+      "last_str": "2026-06-11 14:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 703,
+      "ts": 1781187258,
+      "ts_str": "2026-06-11 14:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI heads into a price war ahead of an IPO? - XTB.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 14:04:40 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXozbWJfemJnU1FMc2IyVmQzUFBJdUR6MHk5YzItVldXN0g1ak84QzYtNUFYTk9Udi1GelhPRG1sOUVSOG45VVdvX0xYbW83dUkxN3lkWGw1UE83aUVDWkhxOXpZaGpUd2tjem05WUhJUGxjUWNKTmRJQ2oxUzNZN0c3aFpGMjRmNkx0M25sa1hNS3NWNndWMGRCOHdYUDFaZXg5eDB3?oc=5\n\nOpenAI heads into a price war ahead of an IPO? - XTB.com\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXozbWJfemJnU1FMc2IyVmQzUFBJdUR6MHk5YzItVldXN0g1ak84QzYtNUFYTk9Udi1GelhPRG1sOUVSOG45VVdvX0xYbW83dUkxN3lkWGw1UE83aUVDWkhxOXpZaGpUd2tjem05WUhJUGxjUWNKTmRJQ2oxUzNZN0c3aFpGMjRmNkx0M25sa1hNS3NWNndWMGRCOHdYUDFaZXg5eDB3?oc=5\" target=\"_blank\">OpenAI heads into a price war ahead of an IPO?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XTB.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 702,
       "ts": 1781185458,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files for US IPO after Anthropic as AI giants head to public markets - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 08 Jun 2026 23:56:36 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxOdUxZRndtVGQ1V2ZhT2xCa3dWT3hnU0k4cWg3ODFDYVJVLWI5bE5qMFhpeXN3WWFKRjQzOEVZTTFJeVV3Ql9TUXhkZXBBakl0dnpERi1DTHRvY3NWY0tYcFNqQXlFQW5PWkRWdWdnQXcyc21kNDZZcTRrcVJCTjd6Y1ZtVlVYSG5sdms3R3FTbVFqelNydmd0T0x3?oc=5\n\nOpenAI files for US IPO after Anthropic as AI giants head to public markets - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOdUxZRndtVGQ1V2ZhT2xCa3dWT3hnU0k4cWg3ODFDYVJVLWI5bE5qMFhpeXN3WWFKRjQzOEVZTTFJeVV3Ql9TUXhkZXBBakl0dnpERi1DTHRvY3NWY0tYcFNqQXlFQW5PWkRWdWdnQXcyc21kNDZZcTRrcVJCTjd6Y1ZtVlVYSG5sdms3R3FTbVFqelNydmd0T0x3?oc=5\" target=\"_blank\">OpenAI files for US IPO after Anthropic as AI giants head to public markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports OpenAI has filed for a US IPO, following Anthropic, as large AI companies move toward public markets.\n\n\u5185\u5bb9:\nYahoo Finance \u62a5\u9053\u79f0\uff0c\u7ee7 Anthropic \u4e4b\u540e\uff0cOpenAI \u5df2\u7533\u8bf7\u5728\u7f8e\u56fd IPO\uff0c\u5927\u578b AI \u516c\u53f8\u7eb7\u7eb7\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u3002\n\nWhy it matters:\nFiling to go public lets insiders and early backers sell into retail demand near peak AI enthusiasm \u2014 a classic top-of-cycle liquidity event. When the biggest private AI names rush to the public markets together, it signals they want to lock in valuations while sentiment is hot, not because the business needs the cash.\n\n\u5f71\u54cd:\n\u5728 AI \u70ed\u60c5\u63a5\u8fd1\u9876\u70b9\u65f6\u7533\u8bf7\u4e0a\u5e02\uff0c\u8ba9\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u5f97\u4ee5\u628a\u80a1\u4efd\u5356\u7ed9\u6563\u6237\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u9876\u90e8\u5957\u73b0\u884c\u4e3a\u3002\u5f53\u6700\u5927\u7684\u79c1\u6709 AI \u516c\u53f8\u96c6\u4f53\u624e\u5806\u51b2\u5411\u516c\u5f00\u5e02\u573a\uff0c\u8bf4\u660e\u5b83\u4eec\u60f3\u8d81\u5e02\u573a\u60c5\u7eea\u706b\u70ed\u9501\u5b9a\u4f30\u503c\uff0c\u800c\u975e\u4e1a\u52a1\u771f\u7684\u7f3a\u94b1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 498,
-      "ts": 1781009121,
-      "ts_str": "2026-06-09 12:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI files for US IPO, but says it still has things it wants to do while private - Data Center Dynamics",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 12:19:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYm9UdnJYYTZWcnhhdk1Fci12QktmTEFHVTE5bllYMHRwU3cxSW9nQ1oxZ05QcmJkZmZMb2xka0RZcXhUdWdOZzBXOUdlNEVoOGFYYkhqYzZ1a2ZMVHJvTV9iRGVXSlRRUXlVVjFYbjcza2E5ZW53bWxsTi1LOHdhejlGbWlyWkxqaktWcmhBdW5rM1o5emxfMXlCSVp1T01HaE5hZzQ4QzlqaXVlb0t3enpiMEVaeU9uRjNWYVZ5VmUySmc?oc=5\n\nOpenAI files for US IPO, but says it still has things it wants to do while private - Data Center Dynamics\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYm9UdnJYYTZWcnhhdk1Fci12QktmTEFHVTE5bllYMHRwU3cxSW9nQ1oxZ05QcmJkZmZMb2xka0RZcXhUdWdOZzBXOUdlNEVoOGFYYkhqYzZ1a2ZMVHJvTV9iRGVXSlRRUXlVVjFYbjcza2E5ZW53bWxsTi1LOHdhejlGbWlyWkxqaktWcmhBdW5rM1o5emxfMXlCSVp1T01HaE5hZzQ4QzlqaXVlb0t3enpiMEVaeU9uRjNWYVZ5VmUySmc?oc=5\" target=\"_blank\">OpenAI files for US IPO, but says it still has things it wants to do while private</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Data Center Dynamics</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI has filed for a US IPO, while saying it still has things it wants to do while private (via Data Center Dynamics).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u5df2\u7533\u8bf7\u7f8e\u56fd IPO\uff0c\u4f46\u8868\u793a\u5728\u4fdd\u6301\u79c1\u6709\u671f\u95f4\u4ecd\u6709\u4e00\u4e9b\u60f3\u505a\u7684\u4e8b\uff08\u6765\u6e90\uff1aData Center Dynamics\uff09\u3002\n\nWhy it matters:\nOpenAI tapping public markets signals the private-capital and SPV channels that funded its compute buildout are no longer sufficient. An IPO converts the AI-capex story into something quarterly-reported and mark-to-market \u2014 exposing burn rate and data-center spend to public scrutiny and pricing.\n\n\u5f71\u54cd:\nOpenAI \u8f6c\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u8bf4\u660e\u6b64\u524d\u652f\u6491\u5176\u7b97\u529b\u6269\u5f20\u7684\u79c1\u52df\u8d44\u672c\u548c SPV \u6e20\u9053\u5df2\u4e0d\u8db3\u4ee5\u6ee1\u8db3\u9700\u6c42\u3002IPO \u4f1a\u628a AI capex \u6545\u4e8b\u53d8\u6210\u9700\u6309\u5b63\u5ea6\u62ab\u9732\u3001\u968f\u5e02\u503c\u6ce2\u52a8\u7684\u516c\u5f00\u6807\u7684\uff0c\u8ba9\u70e7\u94b1\u901f\u5ea6\u548c\u6570\u636e\u4e2d\u5fc3\u652f\u51fa\u66b4\u9732\u5728\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u4e0e\u5b9a\u4ef7\u4e4b\u4e0b\u3002\n",
       "emailed": false
     }
   ],
