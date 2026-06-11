@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781161687,
-  "generated_at_str": "2026-06-11 07:08:07 UTC",
-  "last_event_ts": 1781160280,
+  "generated_at": 1781162047,
+  "generated_at_str": "2026-06-11 07:14:07 UTC",
+  "last_event_ts": 1781162047,
   "tables": {
     "alerts_dedup": {
-      "count": 677,
-      "last_ts": 1781160280,
-      "last_str": "2026-06-11 06:44:40 UTC"
+      "count": 678,
+      "last_ts": 1781162047,
+      "last_str": "2026-06-11 07:14:07 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-06-11 06:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 339,
-      "last_ts": 1781142245,
-      "last_str": "2026-06-11 01:44:05 UTC"
+      "count": 340,
+      "last_ts": 1781162045,
+      "last_str": "2026-06-11 07:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8109,
-      "last_ts": 1781160242,
-      "last_str": "2026-06-11 06:44:02 UTC"
+      "count": 8114,
+      "last_ts": 1781162043,
+      "last_str": "2026-06-11 07:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -241,6 +241,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 685,
+      "ts": 1781162047,
+      "ts_str": "2026-06-11 07:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI files confidential IPO targeting $1 trillion valuation - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 21:22:26 GMT\nLink:      https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQm5IMnR2cWtrTUJERTJrSGQ1aVBnZi04ZjdDMC14U0JRNTZNaGRnZ0lqYjQ4YUMtbWlubEE0N3VTb2ExOUhjODJnTHNVNnZuQ2VhQkpzUkprY2wxQkRLSl9BMERkdm1GdXJkLVpOWFFJM3BsbUdKczE0N2c3S3Z2RnA2c01sX3FnTHRwMHdXNHh2ZU9sdG40ckxxR05LMWdIM1lJU1VpVm94cnpCdjItXzFGTzFEdWFkM2MtNm5qQUZqN1o5RWhkRVZCVWxOMmQ5dFN3c2VFMjN3cEhwT0VQek5EaFJCUlFCNUgydGtxakZWNU51cGc?oc=5\n\nOpenAI files confidential IPO targeting $1 trillion valuation - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQm5IMnR2cWtrTUJERTJrSGQ1aVBnZi04ZjdDMC14U0JRNTZNaGRnZ0lqYjQ4YUMtbWlubEE0N3VTb2ExOUhjODJnTHNVNnZuQ2VhQkpzUkprY2wxQkRLSl9BMERkdm1GdXJkLVpOWFFJM3BsbUdKczE0N2c3S3Z2RnA2c01sX3FnTHRwMHdXNHh2ZU9sdG40ckxxR05LMWdIM1lJU1VpVm94cnpCdjItXzFGTzFEdWFkM2MtNm5qQUZqN1o5RWhkRVZCVWxOMmQ5dFN3c2VFMjN3cEhwT0VQek5EaFJCUlFCNUgydGtxakZWNU51cGc?oc=5\" target=\"_blank\">OpenAI files confidential IPO targeting $1 trillion valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 682,
       "ts": 1781160280,
@@ -2229,16 +2239,6 @@
       "severity": "MED",
       "subject": "[C3-MED] \u2018We expect it to leak\u2019: OpenAI is frontrunning the narrative around its $1 trillion IPO - Fortune",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 10:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTFA5Z2M2TEtwa19zd0JjVlNkeU55UWtSYXNoZEQ3ZXZqM0RPeThkSm1wUUtUT2tjWGpaQlhRWkhRZmp4TWc0M3VCb253UjgyTHZRRlVSMWd6dHVmWUQtRDBJeTNOWGhUblVJa19xX1cyeFE1QjRxeFFGQ1VoVQ?oc=5\n\n\u2018We expect it to leak\u2019: OpenAI is frontrunning the narrative around its $1 trillion IPO - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFA5Z2M2TEtwa19zd0JjVlNkeU55UWtSYXNoZEQ3ZXZqM0RPeThkSm1wUUtUT2tjWGpaQlhRWkhRZmp4TWc0M3VCb253UjgyTHZRRlVSMWd6dHVmWUQtRDBJeTNOWGhUblVJa19xX1cyeFE1QjRxeFFGQ1VoVQ?oc=5\" target=\"_blank\">\u2018We expect it to leak\u2019: OpenAI is frontrunning the narrative around its $1 trillion IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Fortune headline reports OpenAI is \"frontrunning the narrative\" around a possible $1 trillion IPO, with the company reportedly expecting the story to leak.\n\n\u5185\u5bb9:\nFortune \u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u300c\u62a2\u5148\u94fa\u57ab\u53d9\u4e8b\u300d\uff0c\u56f4\u7ed5\u4e00\u6869\u53ef\u80fd\u9ad8\u8fbe $1 trillion \u7684 IPO\uff0c\u5e76\u4e14\u636e\u79f0\u516c\u53f8\u9884\u671f\u76f8\u5173\u6d88\u606f\u4f1a\u88ab\u6cc4\u9732\u51fa\u53bb\u3002\n\nWhy it matters:\nA $1T valuation for a still-unprofitable, heavily cash-burning company is the kind of marquee number that tops out a capex cycle. Floating it via controlled leaks signals OpenAI is preparing to raise public-market money to fund compute spend it cannot self-finance \u2014 a late-stage bubble tell.\n\n\u5f71\u54cd:\n\u5bf9\u4e00\u5bb6\u4ecd\u672a\u76c8\u5229\u3001\u73b0\u91d1\u6d88\u8017\u5de8\u5927\u7684\u516c\u53f8\u7ed9\u51fa $1 trillion \u4f30\u503c\uff0c\u6b63\u662f\u90a3\u79cd\u6807\u5fd7\u8d44\u672c\u5f00\u652f\u5468\u671f\u89c1\u9876\u7684\u5929\u4ef7\u6570\u5b57\u3002\u901a\u8fc7\u53ef\u63a7\u7684\u6cc4\u9732\u6765\u8bd5\u63a2\u8fd9\u4e2a\u4f30\u503c\uff0c\u8bf4\u660e OpenAI \u5728\u51c6\u5907\u4ece\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u4ee5\u652f\u6491\u5b83\u65e0\u6cd5\u9760\u81ea\u8eab\u73b0\u91d1\u6d41\u627f\u62c5\u7684\u7b97\u529b\u5f00\u652f\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u665a\u671f\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 483,
-      "ts": 1781001910,
-      "ts_str": "2026-06-09 10:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI confidentially files for IPO, a week after rival Anthropic did the same - Music Business Worldwide",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 10:33:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWhaT290MjdPcGk3UVFLOEFsMjhVSW5HYVJzZUVoblJoaEljNmM2Zmk2bVF6SjBtYml2YUhkSXdMVGNNUWpPT1EtRXRyTWNUTnV0ZUJSLUxxd01FaEZpV2RyNXdZckI5OVJrc2pqU3FJSFZ5cS1CUUJaUFhhcXliTTY2OHZWdHpPSGVEQnlZdTQzdEEwb1BZYURnRDdURXFSZVQ3b2N2Um9lUjdkekVPeVNvellSZmow?oc=5\n\nOpenAI confidentially files for IPO, a week after rival Anthropic did the same - Music Business Worldwide\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeWhaT290MjdPcGk3UVFLOEFsMjhVSW5HYVJzZUVoblJoaEljNmM2Zmk2bVF6SjBtYml2YUhkSXdMVGNNUWpPT1EtRXRyTWNUTnV0ZUJSLUxxd01FaEZpV2RyNXdZckI5OVJrc2pqU3FJSFZ5cS1CUUJaUFhhcXliTTY2OHZWdHpPSGVEQnlZdTQzdEEwb1BZYURnRDdURXFSZVQ3b2N2Um9lUjdkekVPeVNvellSZmow?oc=5\" target=\"_blank\">OpenAI confidentially files for IPO, a week after rival Anthropic did the same</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Music Business Worldwide</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports that OpenAI has confidentially filed for an IPO, one week after Anthropic did the same.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u5934\u6761\u62a5\u9053\uff0cOpenAI \u5df2\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\uff0c\u6bd4\u5bf9\u624b Anthropic \u665a\u4e86\u4e00\u5468\u3002\n\nWhy it matters:\nConfidential IPO filings from the two leading model labs signal a push to convert private AI valuations into public-market liquidity. Insiders seeking an exit near a cycle top is a classic late-stage signal, and public filings would force disclosure of the gross-margin and compute-cost economics that private rounds have kept hidden.\n\n\u5f71\u54cd:\n\u4e24\u5927\u5934\u90e8\u6a21\u578b\u5b9e\u9a8c\u5ba4\u76f8\u7ee7\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\uff0c\u610f\u5473\u7740\u5b83\u4eec\u6b63\u6025\u4e8e\u628a\u9ad8\u4f01\u7684\u79c1\u52df\u4f30\u503c\u5151\u73b0\u4e3a\u516c\u5f00\u5e02\u573a\u7684\u6d41\u52a8\u6027\u3002\u6838\u5fc3\u5185\u90e8\u4eba\u5728\u5468\u671f\u9ad8\u70b9\u9644\u8fd1\u5bfb\u6c42\u9000\u51fa\uff0c\u662f\u5178\u578b\u7684\u665a\u5468\u671f\u4fe1\u53f7\uff1b\u800c\u516c\u5f00\u4e0a\u5e02\u5c06\u8feb\u4f7f\u62ab\u9732\u79c1\u52df\u8f6e\u4e00\u76f4\u63a9\u76d6\u7684\u6bdb\u5229\u7387\u4e0e\u7b97\u529b\u6210\u672c\u7ecf\u6d4e\u5b66\u3002\n",
       "emailed": false
     }
   ],
