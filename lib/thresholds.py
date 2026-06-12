@@ -88,8 +88,26 @@ C5_THRESHOLDS = [
 ]
 
 
+# C6 — memory/storage price stress.
+from catalysts import c6_memory  # noqa: E402
+_C6_WIN = c6_memory.PROXIMITY_WINDOW
+C6_THRESHOLDS = [
+    Threshold("C6", "Subject proximity window",  f"≤ {_C6_WIN} chars", "—",
+              "Tier token must be near a DRAM/NAND/HBM/SSD/HDD mention"),
+    Threshold("C6", "Order unwind tokens",       "cancel orders, inventory write-down, capex cut",
+              "CRITICAL",
+              "The downturn reaching real money"),
+    Threshold("C6", "Price reversal tokens",     "price cut/fall/drop, oversupply, glut, inventory correction",
+              "HIGH",
+              "Leading indicator — memory tops lead capex cuts by 1-2 quarters"),
+    Threshold("C6", "Price surge tokens",        "price hike/surge, shortage, allocation, record high",
+              "MED",
+              "Blow-off-top confirmation; consumer-deal headlines filtered out"),
+]
+
+
 def all_thresholds() -> list[Threshold]:
     return [
         *C1_THRESHOLDS, *C2_THRESHOLDS, *C3_THRESHOLDS,
-        *C4_THRESHOLDS, *C5_THRESHOLDS,
+        *C4_THRESHOLDS, *C5_THRESHOLDS, *C6_THRESHOLDS,
     ]

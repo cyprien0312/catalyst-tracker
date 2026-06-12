@@ -403,6 +403,41 @@ def ercot_gis_latest_url() -> str:
 
 ---
 
+### CATALYST 6 — Memory/Storage Price Stress
+**Module:** `catalysts/c6_memory.py`
+**Cadence:** Twice hourly (news-driven, same substrate as C3).
+
+**Thesis:** Memory/storage contract prices are the upstream thermometer of the
+AI-capex buildout. In the 2018 and 2022 cycles, memory price peaks led
+hyperscaler capex cuts by one to two quarters. The 2025–2026 DRAM/NAND
+super-spike is the froth; the rollover, when it comes, is the signal.
+
+**Data sources:** Google News RSS queries (TrendForce, DigiTimes, and the
+financial press all flow through it):
+- `%22DRAM%22+price+when:1d`
+- `%22NAND%22+price+when:1d`
+- `%22HBM%22+OR+%22memory+chip%22+price+when:1d`
+- `%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d`
+
+**Trigger conditions:**
+
+| Signal | Logic | Severity |
+|---|---|---|
+| Order unwind | cancel orders / inventory write-down / capex cut near a memory-subject mention | CRITICAL |
+| Price reversal | price cut/fall/drop/slump, oversupply, glut, inventory correction near subject | HIGH |
+| Price surge (froth) | price hike/surge/spike, shortage, allocation, record high, double-booking near subject | MED |
+
+All tokens must appear within 120 chars of a memory-subject term
+(DRAM/NAND/HBM/DDRx/flash memory/memory chip/SSD/HDD/hard drive).
+Consumer-deal headlines (Black Friday, Prime Day, deals/discount/coupon)
+are rejected outright.
+
+**Example alert subjects:**
+- `[C6-HIGH] DRAM contract prices fall 10% as oversupply emerges`
+- `[C6-CRITICAL] Hyperscaler cancels NAND orders amid capex rethink`
+
+---
+
 ## 4. Scheduling Design
 
 | Workflow | Cron (UTC) | Reason |
@@ -609,6 +644,9 @@ python -m catalysts.c1_depreciation --dry-run --since 2025-01-01
 
 ### C5 Grid Bottlenecks
 > **IF** PJM queue snapshot diff vs 7-days-ago shows ≥ 5 new "Withdrawn" status changes for ≥100 MW projects **OR** ERCOT total active MW drops ≥ 5% MoM **OR** CAISO ≥ 3 large-load suspensions in latest cycle **OR** any utility 8-K matches `power\s+delay|grid\s+bottleneck|interconnection\s+delay|data\s+center.{0,40}delay` **OR** EIA Henry Hub 12-month strip avg ≥ $5.00 **OR** that strip jumps ≥ 15% in 5 sessions **OR** Google News bottleneck-query feed item is new **THEN** alert.
+
+### C6 Memory/Storage Price Stress
+> **IF** a new RSS item pairs a memory-subject term (`dram|nand|hbm|ddr[3-5]|flash memory|memory chip|memory price|ssd|hdd|hard drive`) with a tier token within 120 chars — order-cancellation/write-down/capex-cut (CRITICAL), price-reversal/oversupply/glut (HIGH), or price-surge/shortage/allocation (MED) — **AND** the item contains no consumer-deal noise terms **THEN** alert.
 
 ---
 

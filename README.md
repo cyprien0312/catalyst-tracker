@@ -1,6 +1,6 @@
 # catalyst-tracker
 
-AI Infrastructure Bubble-Stress catalyst tracker. Monitors five distinct
+AI Infrastructure Bubble-Stress catalyst tracker. Monitors six distinct
 signals across SEC filings, news feeds, XBRL financial data, and ISO
 interconnection-queue snapshots, and emails alerts via Gmail SMTP.
 
@@ -27,6 +27,7 @@ The dashboard publishes to GitHub Pages from `/docs/`. See
 | C3 | OpenAI financial stress (news + MSFT filings) | `catalysts/c3_openai.py` |
 | C4 | Hyperscaler capex/OCF stress (XBRL TTM) | `catalysts/c4_capex.py` |
 | C5 | Grid bottlenecks (PJM / CAISO queues, Henry Hub) | `catalysts/c5_grid.py` |
+| C6 | Memory/storage price stress (DRAM/NAND/HBM/SSD/HDD news) | `catalysts/c6_memory.py` |
 
 Each catalyst is a standalone module under `catalysts/` with the same shape
 (`run()` plus a `__main__` block taking `--dry-run`). Shared infrastructure
@@ -124,6 +125,7 @@ PATH=/home/YOU/.hermes/node/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bi
 14,44 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c3_openai
 20,50 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c4_capex
 26,56 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c5_grid
+5,35  * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c6_memory
 ```
 
 Replace `YOU` with your username. Note: cron uses the **host's local timezone**,
@@ -165,6 +167,7 @@ python -m catalysts.c2_neoclouds --dry-run --no-prices
 python -m catalysts.c3_openai --dry-run
 python -m catalysts.c4_capex --dry-run
 python -m catalysts.c5_grid --dry-run
+python -m catalysts.c6_memory --dry-run
 ```
 
 Available CLI flags per module:

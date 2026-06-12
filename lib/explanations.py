@@ -197,6 +197,37 @@ _C5 = {
     ),
 }
 
+# ---------- C6 — Memory/storage price stress ----------
+_C6 = {
+    "C6_ORDER_UNWIND": Explanation(
+        what="A news item pairs a memory/storage product (DRAM, NAND, HBM, SSD, HDD) "
+             "with order-cancellation, inventory-write-down, or capex-cut language.",
+        why="This is the unwind reaching real money. In the 2018 and 2022 memory busts, "
+            "order cancellations and inventory write-downs marked the point where the "
+            "downturn became undeniable — and they preceded the broader capex contraction. "
+            "For the AI thesis specifically: hyperscalers cancelling memory orders means "
+            "data-center build plans are being cut, not just repriced.",
+    ),
+    "C6_PRICE_REVERSAL": Explanation(
+        what="A news item reports memory/storage prices declining — cuts, drops, oversupply, "
+             "glut, or inventory-correction language near a DRAM/NAND/HBM/SSD/HDD mention.",
+        why="Memory contract prices are the most cyclical, fastest-clearing signal in the "
+            "AI-hardware supply chain. A rollover after the 2025-2026 super-spike is the "
+            "leading indicator this catalyst exists for: in past cycles, memory price peaks "
+            "led capex cuts by one to two quarters. Watch whether reversal headlines cluster "
+            "— a single soft week is noise, three consecutive weeks is a turn.",
+    ),
+    "C6_PRICE_SURGE": Explanation(
+        what="A news item reports memory/storage prices surging — hikes, shortages, allocation, "
+             "or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.",
+        why="Up-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour "
+            "(double-booking, panic allocation, 'sold out through next year') is what tops are "
+            "made of — rising surge-headline frequency raises the prior that the reversal, "
+            "when it comes, will be sharp. Also a direct cost headwind: every dollar of memory "
+            "price increase worsens data-center capex payback math.",
+    ),
+}
+
 # Composite registry: catalyst → signal_kind → Explanation
 _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C1": _C1,
@@ -204,6 +235,7 @@ _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C3": _C3,
     "C4": _C4,
     "C5": _C5,
+    "C6": _C6,
 }
 
 

@@ -16,7 +16,7 @@
 </style>
 </head><body>
 <h1>Thresholds</h1>
-<div class="meta">Generated 2026-06-12 14:08:04 UTC · <a href="index.html">← dashboard</a></div>
+<div class="meta">Generated 2026-06-12 14:12:14 UTC · <a href="index.html">← dashboard</a></div>
 
 <p>The numbers and patterns each catalyst uses to decide when to fire an alert.
 Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
@@ -246,6 +246,50 @@ Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune th
       <span class="sev" style="background: #e67e22;">HIGH</span>
     </div>
     <div class="note">Projects ≥ 100 MW</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C6 — Memory/Storage Price Stress</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">Subject proximity window</div>
+    <div class="val">≤ 120 chars</div>
+    <div>
+      <span class="sev" style="background: #bdc3c7;">—</span>
+    </div>
+    <div class="note">Tier token must be near a DRAM/NAND/HBM/SSD/HDD mention</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Order unwind tokens</div>
+    <div class="val">cancel orders, inventory write-down, capex cut</div>
+    <div>
+      <span class="sev" style="background: #c0392b;">CRITICAL</span>
+    </div>
+    <div class="note">The downturn reaching real money</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Price reversal tokens</div>
+    <div class="val">price cut/fall/drop, oversupply, glut, inventory correction</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Leading indicator — memory tops lead capex cuts by 1-2 quarters</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">Price surge tokens</div>
+    <div class="val">price hike/surge, shortage, allocation, record high</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">Blow-off-top confirmation; consumer-deal headlines filtered out</div>
   </div>
   
 </div>

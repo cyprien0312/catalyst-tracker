@@ -1,7 +1,7 @@
 {
-  "generated_at": 1781273284,
-  "generated_at_str": "2026-06-12 14:08:04 UTC",
-  "last_event_ts": 1781271844,
+  "generated_at": 1781273534,
+  "generated_at_str": "2026-06-12 14:12:14 UTC",
+  "last_event_ts": 1781273450,
   "tables": {
     "alerts_dedup": {
       "count": 718,
@@ -47,6 +47,26 @@
       "count": 354,
       "last_ts": 1781255644,
       "last_str": "2026-06-12 09:14:04 UTC"
+    },
+    "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "count": 31,
+      "last_ts": 1781273446,
+      "last_str": "2026-06-12 14:10:46 UTC"
+    },
+    "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "count": 37,
+      "last_ts": 1781273448,
+      "last_str": "2026-06-12 14:10:48 UTC"
+    },
+    "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "count": 28,
+      "last_ts": 1781273447,
+      "last_str": "2026-06-12 14:10:47 UTC"
+    },
+    "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
+      "count": 38,
+      "last_ts": 1781273450,
+      "last_str": "2026-06-12 14:10:50 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8519,
@@ -2262,6 +2282,10 @@
     {
       "id": "C5",
       "name": "Grid Bottlenecks"
+    },
+    {
+      "id": "C6",
+      "name": "Memory/Storage Price Stress"
     }
   ]
 }

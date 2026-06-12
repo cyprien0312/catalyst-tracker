@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, and ISO interconnection-queue snapshots for five "AI infrastructure bubble-stress" signals (C1–C5) and emails alerts via Gmail SMTP. State lives in SQLite (`state/tracker.sqlite`); the dashboard is static HTML in `docs/` published to GitHub Pages.
+`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, and ISO interconnection-queue snapshots for six "AI infrastructure bubble-stress" signals (C1–C6) and emails alerts via Gmail SMTP. State lives in SQLite (`state/tracker.sqlite`); the dashboard is static HTML in `docs/` published to GitHub Pages.
 
 Production deployment is **local cron on this host** (not GitHub Actions). The workflows in `.github/workflows/` have their `schedule:` blocks commented out — only `workflow_dispatch` and `tests.yml` are live. See README "Why a single host instead of GitHub Actions" for rationale (mainly: reusing the long-lived `claude` CLI session for free LLM explanations).
 
