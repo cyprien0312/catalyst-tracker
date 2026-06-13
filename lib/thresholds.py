@@ -106,8 +106,44 @@ C6_THRESHOLDS = [
 ]
 
 
+# C7 — credit market stress.
+from catalysts import c7_credit  # noqa: E402
+C7_THRESHOLDS = [
+    Threshold("C7", "HY OAS widening off 90d low",
+              f"≥ +{c7_credit.SERIES['HY']['widen_trigger']*100:.0f} bp", "MED",
+              "HIGH at 2×; the fuse lighting"),
+    Threshold("C7", "HY OAS absolute stress",
+              f"≥ {c7_credit.SERIES['HY']['stress_level']*100:.0f} bp", "HIGH"),
+    Threshold("C7", "IG OAS widening off 90d low",
+              f"≥ +{c7_credit.SERIES['IG']['widen_trigger']*100:.0f} bp", "MED",
+              "HIGH at 2×"),
+    Threshold("C7", "IG OAS absolute stress",
+              f"≥ {c7_credit.SERIES['IG']['stress_level']*100:.0f} bp", "HIGH"),
+]
+
+# C8 — macro triggers.
+from catalysts import c8_macro  # noqa: E402
+C8_THRESHOLDS = [
+    Threshold("C8", "CPI YoY hot", f"≥ {c8_macro.CPI_HOT_THRESHOLD:.1f}%", "MED",
+              f"HIGH at ≥ {c8_macro.CPI_HOT_HIGH:.1f}%"),
+    Threshold("C8", "CPI YoY re-acceleration",
+              f"2 mo rising, ≥ {c8_macro.CPI_REACCEL_FLOOR:.1f}%", "MED",
+              "Direction over level"),
+]
+
+# C9 — crypto cycle top.
+from catalysts import c9_crypto  # noqa: E402
+C9_THRESHOLDS = [
+    Threshold("C9", "BTC Mayer Multiple", f"≥ {c9_crypto.MAYER_HOT:.1f}", "MED",
+              f"HIGH at ≥ {c9_crypto.MAYER_HIGH:.1f}; price/200DMA"),
+    Threshold("C9", "BTC Pi Cycle Top", "111DMA crosses > 2×350DMA", "HIGH",
+              "Calls cycle tops to within days"),
+]
+
+
 def all_thresholds() -> list[Threshold]:
     return [
         *C1_THRESHOLDS, *C2_THRESHOLDS, *C3_THRESHOLDS,
         *C4_THRESHOLDS, *C5_THRESHOLDS, *C6_THRESHOLDS,
+        *C7_THRESHOLDS, *C8_THRESHOLDS, *C9_THRESHOLDS,
     ]

@@ -438,6 +438,65 @@ are rejected outright.
 
 ---
 
+### CATALYST 7 — Credit Market Stress
+**Module:** `catalysts/c7_credit.py`
+**Cadence:** Twice hourly (daily FRED series, cheap to poll).
+
+**Thesis:** The AI buildout has shifted from an equity story to a debt story, and
+bubbles tear open in the credit market before equities. Corporate spreads are at
+their tightest since 1997 — the market prices almost no risk. The signal is not
+the tight level but spreads STARTING to widen. The "fuse of fuses".
+
+**Data sources (FRED keyless CSV, `fredgraph.csv`):**
+- `BAMLH0A0HYM2` — ICE BofA US High-Yield Index OAS
+- `BAMLC0A0CM` — ICE BofA US Corporate (IG) Index OAS
+
+**Trigger conditions (computed in-memory over the fetched series):**
+
+| Signal | Logic | Severity |
+|---|---|---|
+| SPREAD_WIDENING | current OAS − trailing-90-session low ≥ trigger (HY +75bp, IG +30bp) | MED (HIGH at 2×) |
+| SPREAD_STRESS | current OAS ≥ absolute level (HY 400bp, IG 125bp) | HIGH |
+
+---
+
+### CATALYST 8 — Macro Triggers (inflation / Fed path)
+**Module:** `catalysts/c8_macro.py`
+**Cadence:** Daily (CPI is monthly; daily poll catches the print promptly).
+
+**Thesis:** Inflation sticks → the Fed can't cut → high valuations and leverage are
+squeezed together. Cheap money is the common fuel of every signal in this tracker.
+
+**Data source:** `CPIAUCSL` (CPI all-urban, monthly index) via FRED keyless CSV.
+
+**Trigger conditions:**
+
+| Signal | Logic | Severity |
+|---|---|---|
+| CPI_HOT | YoY ≥ 3.5% | MED (HIGH at ≥ 4.5%) |
+| CPI_REACCEL | YoY rises 2 consecutive months AND ≥ 3.0% | MED |
+
+---
+
+### CATALYST 9 — Crypto Cycle Top
+**Module:** `catalysts/c9_crypto.py`
+**Cadence:** Daily.
+
+**Thesis:** Bitcoin runs on the same risk appetite and cheap-money liquidity as the
+AI-equity complex. An over-extended BTC is cross-asset confirmation of late-cycle
+risk-on positioning.
+
+**Data source:** CoinGecko public API (keyless), daily BTC closes.
+
+**Trigger conditions:**
+
+| Signal | Logic | Severity |
+|---|---|---|
+| MAYER_HOT | Mayer Multiple (price / 200DMA) ≥ 2.4 | MED (HIGH at ≥ 2.8) |
+| PI_CYCLE_TOP | 111DMA crosses above 2× 350DMA | HIGH |
+
+---
+
 ## 4. Scheduling Design
 
 | Workflow | Cron (UTC) | Reason |
@@ -647,6 +706,15 @@ python -m catalysts.c1_depreciation --dry-run --since 2025-01-01
 
 ### C6 Memory/Storage Price Stress
 > **IF** a new RSS item pairs a memory-subject term (`dram|nand|hbm|ddr[3-5]|flash memory|memory chip|memory price|ssd|hdd|hard drive`) with a tier token within 120 chars — order-cancellation/write-down/capex-cut (CRITICAL), price-reversal/oversupply/glut (HIGH), or price-surge/shortage/allocation (MED) — **AND** the item contains no consumer-deal noise terms **THEN** alert.
+
+### C7 Credit Market Stress
+> **IF** HY or IG OAS (FRED) has widened ≥ trigger bp off its trailing-90-session low (HY +75bp / IG +30bp) **OR** the OAS is ≥ its absolute stress level (HY 400bp / IG 125bp) **THEN** alert.
+
+### C8 Macro Triggers
+> **IF** CPI YoY ≥ 3.5% **OR** CPI YoY has risen for two consecutive months and is ≥ 3.0% **THEN** alert.
+
+### C9 Crypto Cycle Top
+> **IF** BTC Mayer Multiple (price/200DMA) ≥ 2.4 **OR** the 111DMA crosses above 2× the 350DMA (Pi Cycle Top) **THEN** alert.
 
 ---
 

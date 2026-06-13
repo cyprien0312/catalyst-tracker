@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, and ISO interconnection-queue snapshots for six "AI infrastructure bubble-stress" signals (C1–C6) and emails alerts via Gmail SMTP. State lives in SQLite (`state/tracker.sqlite`); the dashboard is static HTML in `docs/` published to GitHub Pages.
+`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for nine "AI infrastructure bubble-stress" signals (C1–C9) and emails alerts via Gmail SMTP.
+
+C7 (credit spreads) and C8 (CPI) pull from FRED's **keyless** `fredgraph.csv` export (`lib.fred.series_csv`) — no `FRED_API_KEY` needed. C9 uses the keyless CoinGecko public API (`lib.crypto`). All three degrade to `[]` on fetch failure. C7/C8/C9 compute their signals in-memory from the fetched series (transition logic doesn't depend on stored prior rows), so a fresh DB is NOT silent for them — unlike C4/C5. State lives in SQLite (`state/tracker.sqlite`); the dashboard is static HTML in `docs/` published to GitHub Pages.
 
 Production deployment is **local cron on this host** (not GitHub Actions). The workflows in `.github/workflows/` have their `schedule:` blocks commented out — only `workflow_dispatch` and `tests.yml` are live. See README "Why a single host instead of GitHub Actions" for rationale (mainly: reusing the long-lived `claude` CLI session for free LLM explanations).
 

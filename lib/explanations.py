@@ -228,6 +228,70 @@ _C6 = {
     ),
 }
 
+# ---------- C7 — Credit market stress ----------
+_C7 = {
+    "SPREAD_WIDENING": Explanation(
+        what="A corporate credit spread (high-yield or investment-grade OAS) has "
+             "widened materially off its recent low.",
+        why="Credit spreads are the fuse of fuses — bubbles tear open in the debt "
+            "market before equities. With the AI buildout now a debt story (≈$570B "
+            "of AI-linked bond issuance projected for 2026) and spreads at their "
+            "tightest since 1997, the market is pricing almost no risk. The actionable "
+            "signal is not the tight level but spreads STARTING to widen: that is the "
+            "first sign the market is repricing AI-infra credit risk. Watch whether the "
+            "widening sustains over consecutive sessions.",
+    ),
+    "SPREAD_STRESS": Explanation(
+        what="A corporate credit spread has reached an absolute stress level "
+             "(high-yield OAS ≥ 400 bp, or investment-grade OAS ≥ 125 bp).",
+        why="This is no longer early-warning — credit is pricing outright distress. "
+            "At these levels the refinancing window for the wall of 'B-'-and-below AI "
+            "debt maturing into 2027-2028 starts to close, and GPU-collateralised "
+            "loans (whose collateral depreciates faster than the borrower repays) come "
+            "under pressure. A sustained move here typically precedes forced selling.",
+    ),
+}
+
+# ---------- C8 — Macro triggers ----------
+_C8 = {
+    "CPI_HOT": Explanation(
+        what="CPI year-over-year is at or above 3.5% — above the Fed's comfort zone.",
+        why="The classic balloon-popping combination is inflation sticking so the Fed "
+            "can't cut, squeezing high valuations and high leverage at the same time. "
+            "Cheap money is the common fuel of every signal in this tracker; hot CPI "
+            "means it stays expensive. Above ~4.5% the stance is clearly restrictive and "
+            "rate-cut hopes priced into AI-debt issuance evaporate.",
+    ),
+    "CPI_REACCEL": Explanation(
+        what="CPI year-over-year has risen for two consecutive months (and is above 3%).",
+        why="Direction matters more than level. A re-acceleration after a disinflation "
+            "trend is what forces the Fed to hold or hike — the opposite of what a "
+            "debt-funded, rate-sensitive AI capex cycle needs. Two consecutive monthly "
+            "increases is the earliest robust signal that disinflation has stalled.",
+    ),
+}
+
+# ---------- C9 — Crypto cycle top ----------
+_C9 = {
+    "MAYER_HOT": Explanation(
+        what="Bitcoin's Mayer Multiple (price ÷ 200-day moving average) is ≥ 2.4.",
+        why="A Mayer Multiple above ~2.4 has historically marked froth zones where "
+            "price is stretched far above its long-term trend. Bitcoin trades on the "
+            "same risk appetite and cheap-money liquidity as the AI-equity complex, so "
+            "an over-extended BTC is corroborating evidence that risk-on positioning is "
+            "late-cycle. Above 2.8 the stretch is extreme.",
+    ),
+    "PI_CYCLE_TOP": Explanation(
+        what="Bitcoin's 111-day moving average has crossed above 2× its 350-day moving "
+             "average — the Pi Cycle Top trigger.",
+        why="This cross has called the last several Bitcoin cycle tops to within days. "
+            "It fires rarely and only near major peaks, so a trigger is a high-confidence "
+            "signal that the broad risk-appetite cycle — the same one funding the AI "
+            "buildout — may be topping. Treat as a cross-asset confirmation, not a "
+            "standalone AI-infra signal.",
+    ),
+}
+
 # Composite registry: catalyst → signal_kind → Explanation
 _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C1": _C1,
@@ -236,6 +300,9 @@ _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C4": _C4,
     "C5": _C5,
     "C6": _C6,
+    "C7": _C7,
+    "C8": _C8,
+    "C9": _C9,
 }
 
 

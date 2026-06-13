@@ -1,6 +1,6 @@
 # catalyst-tracker
 
-AI Infrastructure Bubble-Stress catalyst tracker. Monitors six distinct
+AI Infrastructure Bubble-Stress catalyst tracker. Monitors nine distinct
 signals across SEC filings, news feeds, XBRL financial data, and ISO
 interconnection-queue snapshots, and emails alerts via Gmail SMTP.
 
@@ -28,6 +28,9 @@ The dashboard publishes to GitHub Pages from `/docs/`. See
 | C4 | Hyperscaler capex/OCF stress (XBRL TTM) | `catalysts/c4_capex.py` |
 | C5 | Grid bottlenecks (PJM / CAISO queues, Henry Hub) | `catalysts/c5_grid.py` |
 | C6 | Memory/storage price stress (DRAM/NAND/HBM/SSD/HDD news) | `catalysts/c6_memory.py` |
+| C7 | Credit market stress (IG/HY OAS widening, FRED) | `catalysts/c7_credit.py` |
+| C8 | Macro triggers (CPI YoY hot / re-accelerating, FRED) | `catalysts/c8_macro.py` |
+| C9 | Crypto cycle top (BTC Mayer Multiple, Pi Cycle Top) | `catalysts/c9_crypto.py` |
 
 Each catalyst is a standalone module under `catalysts/` with the same shape
 (`run()` plus a `__main__` block taking `--dry-run`). Shared infrastructure
@@ -126,6 +129,9 @@ PATH=/home/YOU/.hermes/node/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bi
 20,50 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c4_capex
 26,56 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c5_grid
 5,35  * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c6_memory
+11,41 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c7_credit
+17    7 * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c8_macro
+23    8 * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c9_crypto
 ```
 
 Replace `YOU` with your username. Note: cron uses the **host's local timezone**,
@@ -168,6 +174,9 @@ python -m catalysts.c3_openai --dry-run
 python -m catalysts.c4_capex --dry-run
 python -m catalysts.c5_grid --dry-run
 python -m catalysts.c6_memory --dry-run
+python -m catalysts.c7_credit --dry-run   # keyless FRED CSV
+python -m catalysts.c8_macro --dry-run    # keyless FRED CSV
+python -m catalysts.c9_crypto --dry-run   # CoinGecko public API
 ```
 
 Available CLI flags per module:
