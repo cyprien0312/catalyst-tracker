@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781314324,
-  "generated_at_str": "2026-06-13 01:32:04 UTC",
-  "last_event_ts": 1781313244,
+  "generated_at": 1781314522,
+  "generated_at_str": "2026-06-13 01:35:22 UTC",
+  "last_event_ts": 1781314522,
   "tables": {
     "alerts_dedup": {
-      "count": 743,
-      "last_ts": 1781307861,
-      "last_str": "2026-06-12 23:44:21 UTC"
+      "count": 745,
+      "last_ts": 1781314522,
+      "last_str": "2026-06-13 01:35:22 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -49,19 +49,19 @@
       "last_str": "2026-06-13 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 68,
-      "last_ts": 1781310901,
-      "last_str": "2026-06-13 00:35:01 UTC"
+      "count": 69,
+      "last_ts": 1781314502,
+      "last_str": "2026-06-13 01:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 95,
-      "last_ts": 1781312703,
-      "last_str": "2026-06-13 01:05:03 UTC"
+      "count": 98,
+      "last_ts": 1781314504,
+      "last_str": "2026-06-13 01:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 49,
-      "last_ts": 1781309103,
-      "last_str": "2026-06-13 00:05:03 UTC"
+      "count": 50,
+      "last_ts": 1781314503,
+      "last_str": "2026-06-13 01:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 80,
@@ -261,6 +261,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 751,
+      "ts": 1781314522,
+      "ts_str": "2026-06-13 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 00:55:23 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\n\nSK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\" target=\"_blank\">SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDigitimes reports SK Hynix is weighing price hikes from its suppliers as the HBM boom lifts equipment makers \u2014 memory-chain pricing pressure is now propagating upstream into the equipment and materials layer.\n\n\u5185\u5bb9:\n\u636e digitimes \u62a5\u9053\uff0cHBM \u70ed\u6f6e\u5e26\u52a8\u8bbe\u5907\u5382\u5546\u8d70\u5f3a\uff0cSK Hynix \u6b63\u5728\u8003\u8651\u63a5\u53d7/\u6d88\u5316\u4f9b\u5e94\u5546\u7684\u6da8\u4ef7\u2014\u2014\u5b58\u50a8\u94fe\u7684\u4ef7\u683c\u538b\u529b\u6b63\u5411\u4e0a\u6e38\u8bbe\u5907\u4e0e\u6750\u6599\u73af\u8282\u4f20\u5bfc\u3002\n\nWhy it matters:\nHBM is the binding physical input for AI accelerators, and upstream price surges show demand still outrunning supply. The further down the supply chain the price pressure spreads, the higher the embedded cost basis of the entire AI buildout \u2014 raising the revenue bar that AI capex must eventually clear, and adding to the unwind risk if accelerator orders cool.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u5173\u952e\u7684\u7269\u7406\u74f6\u9888\uff0c\u4e0a\u6e38\u6da8\u4ef7\u8bf4\u660e\u9700\u6c42\u4ecd\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\u4ef7\u683c\u538b\u529b\u6cbf\u4f9b\u5e94\u94fe\u4f20\u5bfc\u5f97\u8d8a\u6df1\uff0c\u6574\u4e2a AI \u57fa\u5efa\u7684\u9690\u542b\u6210\u672c\u57fa\u6570\u5c31\u8d8a\u9ad8\u2014\u2014\u610f\u5473\u7740 AI capex \u6700\u7ec8\u9700\u8981\u8de8\u8fc7\u7684\u6536\u5165\u95e8\u69db\u88ab\u8fdb\u4e00\u6b65\u62ac\u9ad8\uff0c\u4e00\u65e6\u52a0\u901f\u5668\u8ba2\u5355\u964d\u6e29\uff0c\u56de\u8c03\u98ce\u9669\u4e5f\u968f\u4e4b\u653e\u5927\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 752,
+      "ts": 1781314522,
+      "ts_str": "2026-06-13 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 00:55:23 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\n\nSK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\" target=\"_blank\">SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDigitimes reports SK Hynix is weighing price hikes from its suppliers as the HBM boom lifts equipment makers \u2014 memory-chain pricing pressure is now propagating upstream into the equipment and materials layer.\n\n\u5185\u5bb9:\n\u636e digitimes \u62a5\u9053\uff0cHBM \u70ed\u6f6e\u5e26\u52a8\u8bbe\u5907\u5382\u5546\u8d70\u5f3a\uff0cSK Hynix \u6b63\u5728\u8003\u8651\u63a5\u53d7/\u6d88\u5316\u4f9b\u5e94\u5546\u7684\u6da8\u4ef7\u2014\u2014\u5b58\u50a8\u94fe\u7684\u4ef7\u683c\u538b\u529b\u6b63\u5411\u4e0a\u6e38\u8bbe\u5907\u4e0e\u6750\u6599\u73af\u8282\u4f20\u5bfc\u3002\n\nWhy it matters:\nHBM is the binding physical input for AI accelerators, and upstream price surges show demand still outrunning supply. The further down the supply chain the price pressure spreads, the higher the embedded cost basis of the entire AI buildout \u2014 raising the revenue bar that AI capex must eventually clear, and adding to the unwind risk if accelerator orders cool.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u5173\u952e\u7684\u7269\u7406\u74f6\u9888\uff0c\u4e0a\u6e38\u6da8\u4ef7\u8bf4\u660e\u9700\u6c42\u4ecd\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\u4ef7\u683c\u538b\u529b\u6cbf\u4f9b\u5e94\u94fe\u4f20\u5bfc\u5f97\u8d8a\u6df1\uff0c\u6574\u4e2a AI \u57fa\u5efa\u7684\u9690\u542b\u6210\u672c\u57fa\u6570\u5c31\u8d8a\u9ad8\u2014\u2014\u610f\u5473\u7740 AI capex \u6700\u7ec8\u9700\u8981\u8de8\u8fc7\u7684\u6536\u5165\u95e8\u69db\u88ab\u8fdb\u4e00\u6b65\u62ac\u9ad8\uff0c\u4e00\u65e6\u52a0\u901f\u5668\u8ba2\u5355\u964d\u6e29\uff0c\u56de\u8c03\u98ce\u9669\u4e5f\u968f\u4e4b\u653e\u5927\u3002\n",
+      "emailed": false
+    },
     {
       "id": 750,
       "ts": 1781307861,
@@ -2239,26 +2259,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI is getting closer to an IPO after confidential filing - Finimize",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 17:00:24 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2FGcEFSUzN1bWdmSGsxb3VOYjRaVFRRTkZ3ejBTRk9TVnlZc19oR3dZaEJnamx3SG8tR0hKa3hOOVFxS2xoaExUci1CVzZQai0ySjh4YUJrZHJBODJZTU1kczhZRE5hRTRZOGpkZTNqc2F1YXF6dnNRUGFIR0VmNlRTXzY2a2I0M1ZxVkx6SUo?oc=5\n\nOpenAI is getting closer to an IPO after confidential filing - Finimize\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQd2FGcEFSUzN1bWdmSGsxb3VOYjRaVFRRTkZ3ejBTRk9TVnlZc19oR3dZaEJnamx3SG8tR0hKa3hOOVFxS2xoaExUci1CVzZQai0ySjh4YUJrZHJBODJZTU1kczhZRE5hRTRZOGpkZTNqc2F1YXF6dnNRUGFIR0VmNlRTXzY2a2I0M1ZxVkx6SUo?oc=5\" target=\"_blank\">OpenAI is getting closer to an IPO after confidential filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports OpenAI is moving closer to an IPO after making a confidential filing.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u5934\u6761\u62a5\u9053\u79f0\uff0cOpenAI \u5728\u5b8c\u6210\u4fdd\u5bc6\u9012\u4ea4 (confidential filing) \u540e\uff0c\u6b63\u66f4\u63a5\u8fd1 IPO\u3002\n\nWhy it matters:\nA confidential S-1 means OpenAI is preparing to tap public markets for capital \u2014 a sign that private funding may no longer be sufficient to sustain its compute and capex burn. An IPO would also force public disclosure of its true cost structure and losses, a key stress test for the AI-buildout thesis.\n\n\u5f71\u54cd:\n\u4fdd\u5bc6\u9012\u4ea4 S-1 \u610f\u5473\u7740 OpenAI \u6b63\u51c6\u5907\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\u2014\u2014\u8fd9\u6697\u793a\u79c1\u52df\u8d44\u91d1\u53ef\u80fd\u5df2\u4e0d\u8db3\u4ee5\u652f\u6491\u5176\u7b97\u529b\u548c\u8d44\u672c\u5f00\u652f\u7684\u70e7\u94b1\u901f\u5ea6\u3002IPO \u8fd8\u4f1a\u8feb\u4f7f\u5176\u771f\u5b9e\u6210\u672c\u7ed3\u6784\u548c\u4e8f\u635f\u516c\u5f00\u62ab\u9732\uff0c\u662f AI \u5efa\u8bbe\u903b\u8f91\u7684\u5173\u952e\u538b\u529b\u6d4b\u8bd5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 549,
-      "ts": 1781023495,
-      "ts_str": "2026-06-09 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] It's official: OpenAI files IPO - Mashable",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 16:26:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\n\nIt's official: OpenAI files IPO - Mashable\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\" target=\"_blank\">It's official: OpenAI files IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mashable</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Mashable headline reports OpenAI has officially filed for an IPO. This is a C3 medium-severity news signal flagged from a Google News RSS item.\n\n\u5185\u5bb9:\nMashable \u6807\u9898\u62a5\u9053 OpenAI \u5df2\u6b63\u5f0f\u63d0\u4ea4 IPO \u7533\u8bf7\u3002\u8fd9\u662f\u4ece Google News RSS \u6761\u76ee\u4e2d\u8bc6\u522b\u51fa\u7684 C3 \u4e2d\u7b49\u7ea7\u522b\u65b0\u95fb\u4fe1\u53f7\u3002\n\nWhy it matters:\nAn OpenAI IPO would force public disclosure of revenue, burn rate, and compute costs that are currently private \u2014 the single biggest opaque variable in the AI-capex thesis. It also signals the company needs public-market capital, which fits a late-cycle pattern where private funding can no longer cover the spend.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u88ab\u8feb\u516c\u5f00\u62ab\u9732\u76ee\u524d\u4fdd\u5bc6\u7684\u6536\u5165\u3001\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\u2014\u2014\u8fd9\u662f AI capex \u903b\u8f91\u4e2d\u6700\u5927\u7684\u4e0d\u900f\u660e\u53d8\u91cf\u3002\u8fd9\u4e5f\u610f\u5473\u7740\u516c\u53f8\u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\uff0c\u7b26\u5408\u5468\u671f\u665a\u671f\u7684\u7279\u5f81\uff1a\u79c1\u52df\u878d\u8d44\u5df2\u65e0\u6cd5\u8986\u76d6\u652f\u51fa\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 550,
-      "ts": 1781023495,
-      "ts_str": "2026-06-09 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] While OpenAI Heads Toward an IPO, Sam Altman's $2.5 Billion Eyeball-Scanning Startup Is Laying Off Staff - inc.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 16:31:10 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYXh5dDZrZmhBSUpNa3FDbFdQME9BWVBpUTdmRmdDcWw0Q0h2RzVNV2pOQ3JoVDd6VkZOeXZJLXhYMjF4eF9ZQVczY1hRSHlKbnJlcklrX2ZRa21QanRZeEdXWGdZX21yWXN0bnkxX0w5cFhIczU1ODA4SldNMVVCal9fZXBLa2ZRNV9IYWtYU3VsYUJDTUxpSFFSR0h5NVJ4VHctbVVKVjUxS3N6OXRDVGd6QjZsWEd5YmlB?oc=5\n\nWhile OpenAI Heads Toward an IPO, Sam Altman's $2.5 Billion Eyeball-Scanning Startup Is Laying Off Staff - inc.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYXh5dDZrZmhBSUpNa3FDbFdQME9BWVBpUTdmRmdDcWw0Q0h2RzVNV2pOQ3JoVDd6VkZOeXZJLXhYMjF4eF9ZQVczY1hRSHlKbnJlcklrX2ZRa21QanRZeEdXWGdZX21yWXN0bnkxX0w5cFhIczU1ODA4SldNMVVCal9fZXBLa2ZRNV9IYWtYU3VsYUJDTUxpSFFSR0h5NVJ4VHctbVVKVjUxS3N6OXRDVGd6QjZsWEd5YmlB?oc=5\" target=\"_blank\">While OpenAI Heads Toward an IPO, Sam Altman's $2.5 Billion Eyeball-Scanning Startup Is Laying Off Staff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">inc.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that as OpenAI moves toward an IPO, Sam Altman's $2.5 billion eyeball-scanning startup (Worldcoin/Tools for Humanity) is laying off staff.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff1a\u5728 OpenAI \u8d70\u5411 IPO \u7684\u540c\u65f6\uff0cSam Altman \u65d7\u4e0b\u4f30\u503c $2.5 Billion \u7684\u8679\u819c\u626b\u63cf\u521b\u4e1a\u516c\u53f8 (Worldcoin/Tools for Humanity) \u6b63\u5728\u88c1\u5458\u3002\n\nWhy it matters:\nLayoffs at an Altman-backed AI venture while OpenAI preps a public listing point to capital being rationed across his portfolio \u2014 the IPO push reads as a need to raise outside cash, and trimming a flagship side-project signals the era of unlimited AI funding is tightening.\n\n\u5f71\u54cd:\nAltman \u7cfb\u7684\u4e00\u5bb6 AI \u516c\u53f8\u88c1\u5458\uff0c\u800c OpenAI \u53c8\u5728\u7b79\u5907\u4e0a\u5e02\uff0c\u8bf4\u660e\u8d44\u91d1\u6b63\u5728\u4ed6\u7684\u6295\u8d44\u7ec4\u5408\u5185\u88ab\u6536\u7d27\u5206\u914d\u2014\u2014\u63a8\u8fdb IPO \u900f\u9732\u51fa\u5bf9\u5916\u90e8\u878d\u8d44\u7684\u9700\u6c42\uff0c\u800c\u5bf9\u4e00\u4e2a\u65d7\u8230\u526f\u4e1a\u9879\u76ee\u52a8\u5200\u5219\u662f\u4fe1\u53f7\uff1aAI \u65e0\u9650\u8f93\u8840\u7684\u65f6\u4ee3\u6b63\u5728\u6536\u7d27\u3002\n",
       "emailed": false
     }
   ],
