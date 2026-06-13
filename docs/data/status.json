@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781368324,
-  "generated_at_str": "2026-06-13 16:32:04 UTC",
-  "last_event_ts": 1781368114,
+  "generated_at": 1781368507,
+  "generated_at_str": "2026-06-13 16:35:07 UTC",
+  "last_event_ts": 1781368506,
   "tables": {
     "alerts_dedup": {
-      "count": 769,
-      "last_ts": 1781368114,
-      "last_str": "2026-06-13 16:28:34 UTC"
+      "count": 770,
+      "last_ts": 1781368506,
+      "last_str": "2026-06-13 16:35:06 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-13 16:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 94,
-      "last_ts": 1781364902,
-      "last_str": "2026-06-13 15:35:02 UTC"
+      "count": 95,
+      "last_ts": 1781368502,
+      "last_str": "2026-06-13 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 136,
-      "last_ts": 1781364904,
-      "last_str": "2026-06-13 15:35:04 UTC"
+      "count": 137,
+      "last_ts": 1781368504,
+      "last_str": "2026-06-13 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 73,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 777,
+      "ts": 1781368506,
+      "ts_str": "2026-06-13 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory chip shortage: How crazy could it get? - Investing.com UK",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 13:08:59 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGVSZkd4UW1ubHNyLTZKQllkNmIxNm5nWks2QVhfUmRKUEt5TnlFS05aX0M3MEpHSEw3WGhBZ3EtRjBtNjVkR2M2UGQ4YXZWQ2RzVGFoMkxtWTVZX1VYMEN4TkJhenM0ejE3ck5pblpGRXgzWHdldlJQQlhjcEhKMng3WjY2clRXSlNLYklMS2ZBb3Ixb0dpWUR0TklfV2JjWUF1THkyLUFDRTFfNXVuRQ?oc=5\n\nMemory chip shortage: How crazy could it get? - Investing.com UK\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPUGVSZkd4UW1ubHNyLTZKQllkNmIxNm5nWks2QVhfUmRKUEt5TnlFS05aX0M3MEpHSEw3WGhBZ3EtRjBtNjVkR2M2UGQ4YXZWQ2RzVGFoMkxtWTVZX1VYMEN4TkJhenM0ejE3ck5pblpGRXgzWHdldlJQQlhjcEhKMng3WjY2clRXSlNLYklMS2ZBb3Ixb0dpWUR0TklfV2JjWUF1THkyLUFDRTFfNXVuRQ?oc=5\" target=\"_blank\">Memory chip shortage: How crazy could it get?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 776,
       "ts": 1781368114,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Files for IPO After Raising $122 Billion at $852 Billion Valuation - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 20:04:40 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxQTktrcU8zTzJuQ1J1cEtSNlNsRF9tNzNfOHdOanNuT0tYYmRKX0s1c0JpUVN3LUtHcFRpalhyalp4bl9fNjRncXdNWEVBSkplb3JPTV83VDJHeFAyNzc4VkRVdnJ3ZEM3NE9ISWtZOU9OZkpYcUstT1FCaU5OdVkxbkt0aC1kc01jQjFnc3VGOU0wcFZnam1JeVBoR2xLRjRBenJNblBrU0IwbHJyZGloMndwTm42TDBvZ3VyUExOblVVc2FuWUhkSERldw?oc=5\n\nOpenAI Files for IPO After Raising $122 Billion at $852 Billion Valuation - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQTktrcU8zTzJuQ1J1cEtSNlNsRF9tNzNfOHdOanNuT0tYYmRKX0s1c0JpUVN3LUtHcFRpalhyalp4bl9fNjRncXdNWEVBSkplb3JPTV83VDJHeFAyNzc4VkRVdnJ3ZEM3NE9ISWtZOU9OZkpYcUstT1FCaU5OdVkxbkt0aC1kc01jQjFnc3VGOU0wcFZnam1JeVBoR2xLRjRBenJNblBrU0IwbHJyZGloMndwTm42TDBvZ3VyUExOblVVc2FuWUhkSERldw?oc=5\" target=\"_blank\">OpenAI Files for IPO After Raising $122 Billion at $852 Billion Valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI filed for an IPO after raising $122 billion at an $852 billion valuation.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cOpenAI \u5728\u4ee5 $852 billion \u4f30\u503c\u878d\u8d44 $122 billion \u540e\u9012\u4ea4\u4e86 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nAn $852B valuation for a company still burning cash on compute marks a blow-off-top signal for the AI-capex cycle. Filing to IPO at that price lets insiders and earlier backers sell into public demand \u2014 a classic late-cycle liquidity event that shifts risk from private to retail hands.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u5728\u70e7\u94b1\u4e70\u7b97\u529b\u7684\u516c\u53f8\u62ff\u5230 $852B \u4f30\u503c\uff0c\u662f AI capex \u5468\u671f\u89c1\u9876\u7684\u6807\u5fd7\u6027\u4fe1\u53f7\u3002\u5728\u8fd9\u4e2a\u4ef7\u4f4d\u9012\u4ea4 IPO\uff0c\u8ba9\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u5f97\u4ee5\u5411\u516c\u4f17\u9700\u6c42\u5957\u73b0\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u628a\u98ce\u9669\u4ece\u79c1\u52df\u5e02\u573a\u8f6c\u5ac1\u5230\u6563\u6237\u624b\u4e2d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 580,
-      "ts": 1781037905,
-      "ts_str": "2026-06-09 20:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Files for IPO in Landmark A.I. Market Test - cheddar.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 19:14:25 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTFBMbWZST29SNEZrbU1JMXFYRHo0bGk5WlplZnRzclJmcEQ4UVlRMlB0ZlYzNmM3Rk12eUc2UDlRNzN4aldvcy1oVWNYZUlkdEhjSExLek5wNzNsemF3QzV6UFFzSkxTWXo0TTFXbkd6b1FsdnpEMEpVT1huYTd6UHc?oc=5\n\nOpenAI Files for IPO in Landmark A.I. Market Test - cheddar.com\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBMbWZST29SNEZrbU1JMXFYRHo0bGk5WlplZnRzclJmcEQ4UVlRMlB0ZlYzNmM3Rk12eUc2UDlRNzN4aldvcy1oVWNYZUlkdEhjSExLek5wNzNsemF3QzV6UFFzSkxTWXo0TTFXbkd6b1FsdnpEMEpVT1huYTd6UHc?oc=5\" target=\"_blank\">OpenAI Files for IPO in Landmark A.I. Market Test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cheddar.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports \"OpenAI Files for IPO in Landmark A.I. Market Test\" (via cheddar.com), indicating OpenAI has filed to go public.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS\uff08\u6765\u6e90 cheddar.com\uff09\u62a5\u9053 \"OpenAI Files for IPO in Landmark A.I. Market Test\"\uff0c\u663e\u793a OpenAI \u5df2\u63d0\u4ea4 IPO \u7533\u8bf7\u51c6\u5907\u4e0a\u5e02\u3002\n\nWhy it matters:\nAn OpenAI IPO forces the largest private AI-capex story onto public markets, where audited financials, burn rate, and compute-cost economics become visible and priced daily. It is a top-of-cycle signal \u2014 the marquee name monetizing into public hands is how prior tech bubbles distributed risk to retail.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u4f1a\u628a\u6700\u5927\u7684\u79c1\u6709 AI capex \u6545\u4e8b\u63a8\u4e0a\u516c\u5f00\u5e02\u573a\u2014\u2014\u7ecf\u5ba1\u8ba1\u7684\u8d22\u62a5\u3001\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\u7ecf\u6d4e\u5b66\u5c06\u88ab\u516c\u5f00\u62ab\u9732\u5e76\u6bcf\u65e5\u5b9a\u4ef7\u3002\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u9876\u90e8\u4fe1\u53f7\uff1a\u5934\u90e8\u540d\u5b57\u5728\u6b64\u65f6\u5411\u516c\u4f17\u5e02\u573a\u5957\u73b0\uff0c\u6b63\u662f\u4ee5\u5f80\u79d1\u6280\u6ce1\u6cab\u628a\u98ce\u9669\u8f6c\u5ac1\u7ed9\u6563\u6237\u7684\u65b9\u5f0f\u3002\n",
       "emailed": false
     }
   ],
