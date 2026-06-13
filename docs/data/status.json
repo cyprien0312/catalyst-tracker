@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781381477,
-  "generated_at_str": "2026-06-13 20:11:17 UTC",
-  "last_event_ts": 1781381104,
+  "generated_at": 1781381648,
+  "generated_at_str": "2026-06-13 20:14:08 UTC",
+  "last_event_ts": 1781381648,
   "tables": {
     "alerts_dedup": {
-      "count": 774,
-      "last_ts": 1781379848,
-      "last_str": "2026-06-13 19:44:08 UTC"
+      "count": 777,
+      "last_ts": 1781381648,
+      "last_str": "2026-06-13 20:14:08 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-13 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8789,
-      "last_ts": 1781379842,
-      "last_str": "2026-06-13 19:44:02 UTC"
+      "count": 8797,
+      "last_ts": 1781381642,
+      "last_str": "2026-06-13 20:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 782,
+      "ts": 1781381648,
+      "ts_str": "2026-06-13 20:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - PBS",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:52:18 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxNbm43dGZ4UEllRC1zOEhGQzllclNwYl9naE1hOHBiTGxkLVJsUFduYTJYSnZkY01zOU1oaWw5NzYzMTg2TTg1S3ItSlJnakhrZW5KMGE3MzN0cjU4NWM2aUdQVUZ3a2FNdm1pYzhyOElnd3hOQ3lRa1NpR1ktdWJRT3hkMzIwNk8xdHZ0NUNKVjZkUTlBOW95N1pjTnVETmJKX3hIVXV0Y1NaR1ZGaVE?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - PBS\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNbm43dGZ4UEllRC1zOEhGQzllclNwYl9naE1hOHBiTGxkLVJsUFduYTJYSnZkY01zOU1oaWw5NzYzMTg2TTg1S3ItSlJnakhrZW5KMGE3MzN0cjU4NWM2aUdQVUZ3a2FNdm1pYzhyOElnd3hOQ3lRa1NpR1ktdWJRT3hkMzIwNk8xdHZ0NUNKVjZkUTlBOW95N1pjTnVETmJKX3hIVXV0Y1NaR1ZGaVE?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
+    {
+      "id": 783,
+      "ts": 1781381648,
+      "ts_str": "2026-06-13 20:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - The Killeen Daily Herald",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:17:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi9gFBVV95cUxNd1VNcDQwM25wcnlaVExkYnVjQm1LS2pqUEZiVjFfa25SWXFNUnJISHVMWVJQNzl4aGxsMW5Ec211S0VkUk01MkkwWlFCT3FlTXN2S2ZrWFR5b09wM3FLUFhWdGxud2M3dllKbEw4RXNQaHdkcjBhTWU3MW9nc1BwV29qRllmRjVGU2h4cmZ3RU16N3d0X1lVRzE5SWJPMk1obk1YcVM5bUFfRDFLY3Q3OVZhU0JqUDdRX05YSy1oOVpHZllFOWtzZTA5TEJ0V1d6Z3VfbjZGYVFpM2w1ejVhWnNybk9iT3FjdjVFamJhR1kyeHU1LXc?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - The Killeen Daily Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxNd1VNcDQwM25wcnlaVExkYnVjQm1LS2pqUEZiVjFfa25SWXFNUnJISHVMWVJQNzl4aGxsMW5Ec211S0VkUk01MkkwWlFCT3FlTXN2S2ZrWFR5b09wM3FLUFhWdGxud2M3dllKbEw4RXNQaHdkcjBhTWU3MW9nc1BwV29qRllmRjVGU2h4cmZ3RU16N3d0X1lVRzE5SWJPMk1obk1YcVM5bUFfRDFLY3Q3OVZhU0JqUDdRX05YSy1oOVpHZllFOWtzZTA5TEJ0V1d6Z3VfbjZGYVFpM2w1ejVhWnNybk9iT3FjdjVFamJhR1kyeHU1LXc?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Killeen Daily Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
+    {
+      "id": 784,
+      "ts": 1781381648,
+      "ts_str": "2026-06-13 20:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - morning-times.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:17:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeTJUZnJfMXdlcGg1c0o0eThCeldHeTdxQk9NdW5lZVdWWUtJMGdZVEx3UXUtZ2ZhdWU2dmVRVmI4U2tOUFo3NEdTbm12Q3NXcE1OUmpHT2dpZ2JhQ1ZhSGpVREZHNWpQNDdtWmVwa1ZLeEJNX1VJTnJwRXl3UFdYZDc5Y0p0WEFPMEhKNzlhYUhOU2hxV3BxUzBzTUNsMy1HekQyOVltS09KUHFaSFdIWVl5aWgxbkFhdHBIZXdJeEpwQ2lmdXpUNmlWUXpZX1A4Ty1BRk1XYnVRSm9razNqc01qU2tFb0s4cmVBSWpWeE1PM0tHYUlYRg?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - morning-times.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeTJUZnJfMXdlcGg1c0o0eThCeldHeTdxQk9NdW5lZVdWWUtJMGdZVEx3UXUtZ2ZhdWU2dmVRVmI4U2tOUFo3NEdTbm12Q3NXcE1OUmpHT2dpZ2JhQ1ZhSGpVREZHNWpQNDdtWmVwa1ZLeEJNX1VJTnJwRXl3UFdYZDc5Y0p0WEFPMEhKNzlhYUhOU2hxV3BxUzBzTUNsMy1HekQyOVltS09KUHFaSFdIWVl5aWgxbkFhdHBIZXdJeEpwQ2lmdXpUNmlWUXpZX1A4Ty1BRk1XYnVRSm9razNqc01qU2tFb0s4cmVBSWpWeE1PM0tHYUlYRg?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">morning-times.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 779,
       "ts": 1781379848,
@@ -2234,36 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files confidentially for IPO as tech listings surge toward 2026 wave - Crypto Briefing",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 20:11:41 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE12VGNXaHRXN2RFRHlQZTJERVI0T3VjaUZBRXZoQjZLTW8zV2tOQ3lDa1NRaFg1XzVXd0ZBamc2VXpIbHVRbS13UUVoLVpSdzJSZGFfYTJKcHdBRDVKQXZXYVk5am5lUXYyQW9WTkw0S1VEQUk?oc=5\n\nOpenAI files confidentially for IPO as tech listings surge toward 2026 wave - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE12VGNXaHRXN2RFRHlQZTJERVI0T3VjaUZBRXZoQjZLTW8zV2tOQ3lDa1NRaFg1XzVXd0ZBamc2VXpIbHVRbS13UUVoLVpSdzJSZGFfYTJKcHdBRDVKQXZXYVk5am5lUXYyQW9WTkw0S1VEQUk?oc=5\" target=\"_blank\">OpenAI files confidentially for IPO as tech listings surge toward 2026 wave</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that OpenAI has filed confidentially for an IPO, framed as part of a surge of tech listings building toward a 2026 wave.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u5df2\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\uff0c\u88ab\u89c6\u4e3a\u79d1\u6280\u516c\u53f8\u4e0a\u5e02\u6f6e\u6d8c\u5411 2026 \u6d6a\u6f6e\u7684\u4e00\u90e8\u5206\u3002\n\nWhy it matters:\nAn OpenAI IPO would let insiders and early backers sell into public markets near the peak of AI enthusiasm \u2014 classic late-cycle behavior where private capital seeks an exit. A confidential filing also signals the funding need is large enough that private rounds alone no longer cover the capex burn.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u8ba9\u5185\u90e8\u4eba\u58eb\u548c\u65e9\u671f\u6295\u8d44\u8005\u5728 AI \u70ed\u60c5\u63a5\u8fd1\u9876\u5cf0\u65f6\u5411\u516c\u5f00\u5e02\u573a\u5957\u73b0\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u884c\u4e3a\uff0c\u79c1\u6709\u8d44\u672c\u5728\u5bfb\u627e\u9000\u51fa\u901a\u9053\u3002\u79d8\u5bc6\u9012\u8868\u4e5f\u8bf4\u660e\u5176\u8d44\u91d1\u9700\u6c42\u4e4b\u5927\uff0c\u5df2\u7ecf\u4e0d\u662f\u79c1\u52df\u8f6e\u6b21\u6240\u80fd\u8986\u76d6\u7684 capex \u6d88\u8017\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 585,
-      "ts": 1781041518,
-      "ts_str": "2026-06-09 21:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI and Anthropic race for IPO, but timing remains uncertain - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 21:07:45 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE9CMFFaMGRrcklLNTBjeXlIOGlPMGtKbThRZkNCekJqaGpBUGxKR3NsZXptSTNXMm94amNoejlDVTA1UnhibUVtbFdSTU9CbTBIWThjMnhwSGZxYWZxaUM3V0twemZtcjZybTJkNw?oc=5\n\nOpenAI and Anthropic race for IPO, but timing remains uncertain - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9CMFFaMGRrcklLNTBjeXlIOGlPMGtKbThRZkNCekJqaGpBUGxKR3NsZXptSTNXMm94amNoejlDVTA1UnhibUVtbFdSTU9CbTBIWThjMnhwSGZxYWZxaUM3V0twemZtcjZybTJkNw?oc=5\" target=\"_blank\">OpenAI and Anthropic race for IPO, but timing remains uncertain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Crypto Briefing) reports that OpenAI and Anthropic are both racing toward an IPO, but the timing remains uncertain.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff08\u6765\u6e90 Crypto Briefing\uff09\u62a5\u9053\uff0cOpenAI \u548c Anthropic \u90fd\u5728\u4e89\u76f8\u63a8\u8fdb IPO\uff0c\u4f46\u5177\u4f53\u65f6\u95f4\u4ecd\u4e0d\u786e\u5b9a\u3002\n\nWhy it matters:\nFrontier labs eyeing public markets signals a shift from private mega-rounds to needing broader capital \u2014 a sign the cash needs have outgrown what private investors will fund. IPO chatter also marks a late-cycle move to let early backers cash out near a possible peak.\n\n\u5f71\u54cd:\n\u524d\u6cbf\u5927\u6a21\u578b\u516c\u53f8\u8f6c\u5411\u516c\u5f00\u5e02\u573a\uff0c\u610f\u5473\u7740\u4ece\u79c1\u52df\u5de8\u989d\u878d\u8d44\u8f6c\u4e3a\u9700\u8981\u66f4\u5e7f\u6cdb\u7684\u8d44\u672c\u6765\u6e90\u2014\u2014\u8bf4\u660e\u8d44\u91d1\u9700\u6c42\u5df2\u7ecf\u8d85\u51fa\u79c1\u52df\u6295\u8d44\u8005\u613f\u610f\u627f\u62c5\u7684\u89c4\u6a21\u3002IPO \u7684\u4f20\u95fb\u4e5f\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u52a8\u4f5c\uff0c\u8ba9\u65e9\u671f\u6295\u8d44\u8005\u5728\u53ef\u80fd\u7684\u9ad8\u70b9\u9644\u8fd1\u5957\u73b0\u9000\u51fa\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 586,
-      "ts": 1781041518,
-      "ts_str": "2026-06-09 21:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Perplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets - International Business Times",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 19:16:38 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVXa0Jpdk9OYjc3MVZ2Y3BUSHJuemFRMnBYNG1iSGFCNEU4Yk1rdVQwNWhTZ21GeUQ0NUZFOWp3TUZVNlhBVTBuSEpnREgyV3hIQjFkaFhGb25qM1YyeU83akJ6U0QzVUdpYzRGeWxNUVd0bTJDMFVESXBPbmxTbTVDTlBLUS1lU2VxWDc2OHdORWZrVTRMVHJtY19pZ1ZGMXFBRHpkVlFFWHBua0pn?oc=5\n\nPerplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVXa0Jpdk9OYjc3MVZ2Y3BUSHJuemFRMnBYNG1iSGFCNEU4Yk1rdVQwNWhTZ21GeUQ0NUZFOWp3TUZVNlhBVTBuSEpnREgyV3hIQjFkaFhGb25qM1YyeU83akJ6U0QzVUdpYzRGeWxNUVd0bTJDMFVESXBPbmxTbTVDTlBLUS1lU2VxWDc2OHdORWZrVTRMVHJtY19pZ1ZGMXFBRHpkVlFFWHBua0pn?oc=5\" target=\"_blank\">Perplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports that Perplexity is sticking to a 2028 IPO timeline while OpenAI and Anthropic take steps toward public markets.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u79f0\uff0cPerplexity \u7ef4\u6301 2028 \u5e74 IPO \u65f6\u95f4\u8868\uff0c\u540c\u65f6 OpenAI \u548c Anthropic \u4e5f\u5728\u5411\u516c\u5f00\u5e02\u573a\u8fc8\u8fdb\u3002\n\nWhy it matters:\nLate-stage AI startups signaling IPO intent is a top-of-cycle marker \u2014 private players moving to monetize via public markets often coincides with peak private valuations and a search for exit liquidity before the capex bill comes due.\n\n\u5f71\u54cd:\n\u540e\u671f AI \u521d\u521b\u516c\u53f8\u91ca\u653e IPO \u610f\u5411\u662f\u5468\u671f\u9876\u90e8\u7684\u6807\u5fd7\u2014\u2014\u79c1\u6709\u73a9\u5bb6\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u5957\u73b0\uff0c\u5f80\u5f80\u4e0e\u79c1\u52df\u4f30\u503c\u89c1\u9876\u3001\u4ee5\u53ca\u5728\u8d44\u672c\u5f00\u652f\u8d26\u5355\u5230\u671f\u524d\u5bfb\u6c42\u9000\u51fa\u6d41\u52a8\u6027\u540c\u65f6\u51fa\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 587,
-      "ts": 1781041518,
-      "ts_str": "2026-06-09 21:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] The SpaceX\u2013OpenAI IPO boom: What investors must do now - thestreet.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 18:07:15 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFJRaE1xVkMtQnN4UGpGT0R4LWdpMERRdW9ycmlaaUVLZGVYU3hPdkFNTkdhTW5qZy1zZXNoZXhTM2lDcHJQOVczdWkycVBSRVVaTGtXdlpiZDRaUEZILXZERGVTVi1ra09XSzNCVE5yUWcxenIzM0RxYW1zQTE1RjRoQ3dTQnpUcGJyRmZR?oc=5\n\nThe SpaceX\u2013OpenAI IPO boom: What investors must do now - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFJRaE1xVkMtQnN4UGpGT0R4LWdpMERRdW9ycmlaaUVLZGVYU3hPdkFNTkdhTW5qZy1zZXNoZXhTM2lDcHJQOVczdWkycVBSRVVaTGtXdlpiZDRaUEZILXZERGVTVi1ra09XSzNCVE5yUWcxenIzM0RxYW1zQTE1RjRoQ3dTQnpUcGJyRmZR?oc=5\" target=\"_blank\">The SpaceX\u2013OpenAI IPO boom: What investors must do now</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA thestreet.com headline, surfaced via Google News RSS, hypes a \"SpaceX\u2013OpenAI IPO boom\" and tells investors \"what they must do now.\"\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u6765\u81ea thestreet.com\u3001\u7ecf Google News RSS \u6293\u53d6\u7684\u62a5\u9053\uff0c\u7092\u4f5c\u6240\u8c13\u7684 \"SpaceX\u2013OpenAI IPO boom\"\uff0c\u5e76\u544a\u8bc9\u6295\u8d44\u8005 \"\u73b0\u5728\u5fc5\u987b\u600e\u4e48\u505a\"\u3002\n\nWhy it matters:\nRetail-facing \"what to do now\" IPO-boom coverage of still-private names like OpenAI is a sentiment marker, not a fundamental one \u2014 it signals froth and FOMO crowding into AI exposure ahead of any actual listing. This kind of media framing tends to cluster near cycle tops.\n\n\u5f71\u54cd:\n\u9488\u5bf9\u6563\u6237\u7684 \"\u73b0\u5728\u8be5\u600e\u4e48\u529e\" \u5f0f IPO \u70ed\u6f6e\u62a5\u9053\uff0c\u56f4\u7ed5 OpenAI \u8fd9\u7c7b\u4ecd\u672a\u4e0a\u5e02\u7684\u516c\u53f8\u5c55\u5f00\uff0c\u662f\u60c5\u7eea\u6307\u6807\u800c\u975e\u57fa\u672c\u9762\u6307\u6807\u2014\u2014\u5b83\u53cd\u6620\u7684\u662f\u5728\u771f\u6b63\u6302\u724c\u4e4b\u524d\uff0c\u8d44\u91d1\u56e0 FOMO \u6d8c\u5165 AI \u655e\u53e3\u7684\u6ce1\u6cab\u6c1b\u56f4\u3002\u8fd9\u79cd\u5a92\u4f53\u53d9\u4e8b\u5f80\u5f80\u96c6\u4e2d\u51fa\u73b0\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\u3002\n",
       "emailed": false
     }
   ],
