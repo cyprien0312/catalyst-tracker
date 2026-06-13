@@ -94,6 +94,39 @@ def test_send_alert_disable_list_is_csv(smtp_cls, tmp_path, monkeypatch):
 
 
 @patch("lib.notify.smtplib.SMTP_SSL")
+def test_min_severity_floor_mutes_below_and_emails_at_or_above(smtp_cls, tmp_path, monkeypatch):
+    for k, v in ENV.items():
+        monkeypatch.setenv(k, v)
+    monkeypatch.setenv("CATALYST_EMAIL_MIN_SEVERITY", "c6:HIGH")
+    st = State("notify", db_path=tmp_path / "t.sqlite")
+    smtp = smtp_cls.return_value.__enter__.return_value = MagicMock()
+    # MED is below the floor -> muted but persisted.
+    assert send_alert("med", "body", severity="MED", catalyst="c6", state=st) is False
+    # HIGH is at the floor -> emails.
+    assert send_alert("high", "body2", severity="HIGH", catalyst="c6", state=st) is True
+    # CRITICAL is above the floor -> emails.
+    assert send_alert("crit", "body3", severity="CRITICAL", catalyst="c6", state=st) is True
+    assert smtp.send_message.call_count == 2
+    with sqlite3.connect(tmp_path / "t.sqlite") as c:
+        rows = dict(c.execute("SELECT severity, emailed FROM alerts").fetchall())
+    assert rows == {"MED": 0, "HIGH": 1, "CRITICAL": 1}
+
+
+@patch("lib.notify.smtplib.SMTP_SSL")
+def test_min_severity_floor_overrides_blanket_disable(smtp_cls, tmp_path, monkeypatch):
+    """A floor for c6 wins even if c6 is also in the blanket disable list."""
+    for k, v in ENV.items():
+        monkeypatch.setenv(k, v)
+    monkeypatch.setenv("CATALYST_EMAIL_DISABLE", "c3,c6")
+    monkeypatch.setenv("CATALYST_EMAIL_MIN_SEVERITY", "c6:HIGH")
+    st = State("notify", db_path=tmp_path / "t.sqlite")
+    smtp_cls.return_value.__enter__.return_value = MagicMock()
+    assert send_alert("a", "body", severity="HIGH", catalyst="c6", state=st) is True
+    # c3 has no floor and stays fully muted.
+    assert send_alert("b", "body", severity="CRITICAL", catalyst="c3", state=st) is False
+
+
+@patch("lib.notify.smtplib.SMTP_SSL")
 def test_send_alert_dedup_prevents_second_db_row(smtp_cls, tmp_path, monkeypatch):
     for k, v in ENV.items():
         monkeypatch.setenv(k, v)

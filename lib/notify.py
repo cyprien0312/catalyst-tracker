@@ -9,12 +9,45 @@ from lib.state import State
 
 DEDUP_TTL_SECONDS = 7 * 86400
 
+_SEVERITY_ORDER = {"LOG": 0, "MED": 1, "HIGH": 2, "CRITICAL": 3}
+
 
 def _fingerprint(subject: str, body: str) -> str:
     return hashlib.sha256(f"{subject}|{body[:500]}".encode()).hexdigest()
 
 
-def _email_disabled_for(catalyst: str | None) -> bool:
+def _min_severity_for(catalyst: str | None) -> str | None:
+    """Per-catalyst email floor from CATALYST_EMAIL_MIN_SEVERITY.
+
+    Format: 'c6:HIGH,c3:CRITICAL' — for that catalyst, only alerts at or above
+    the named severity email; quieter ones are muted (but still persisted).
+    Returns the floor name (e.g. 'HIGH') or None if no floor is set.
+    """
+    if not catalyst:
+        return None
+    raw = os.environ.get("CATALYST_EMAIL_MIN_SEVERITY", "")
+    for part in raw.split(","):
+        part = part.strip()
+        if not part or ":" not in part:
+            continue
+        tag, _, floor = part.partition(":")
+        if tag.strip().lower() == catalyst.lower():
+            floor = floor.strip().upper()
+            if floor in _SEVERITY_ORDER:
+                return floor
+    return None
+
+
+def _email_muted_for(catalyst: str | None, severity: str) -> bool:
+    """Decide whether to suppress the email for this alert.
+
+    A per-catalyst floor (CATALYST_EMAIL_MIN_SEVERITY) takes precedence: when
+    set, the alert emails iff its severity is at or above the floor. Otherwise
+    the blanket CATALYST_EMAIL_DISABLE list mutes the catalyst entirely.
+    """
+    floor = _min_severity_for(catalyst)
+    if floor is not None:
+        return _SEVERITY_ORDER.get(severity, 1) < _SEVERITY_ORDER[floor]
     if not catalyst:
         return False
     raw = os.environ.get("CATALYST_EMAIL_DISABLE", "")
@@ -47,7 +80,7 @@ def send_alert(subject: str, body: str, severity: str = "MED",
         return False
 
     tag = (catalyst or "").lower() or "unknown"
-    email_muted = _email_disabled_for(catalyst)
+    email_muted = _email_muted_for(catalyst, severity)
     emailed = False
 
     if not email_muted:
