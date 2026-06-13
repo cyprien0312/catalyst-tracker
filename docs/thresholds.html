@@ -16,7 +16,7 @@
 </style>
 </head><body>
 <h1>Thresholds</h1>
-<div class="meta">Generated 2026-06-13 16:20:06 UTC · <a href="index.html">← dashboard</a></div>
+<div class="meta">Generated 2026-06-13 16:26:15 UTC · <a href="index.html">← dashboard</a></div>
 
 <p>The numbers and patterns each catalyst uses to decide when to fire an alert.
 Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
@@ -290,6 +290,102 @@ Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune th
       <span class="sev" style="background: #f1c40f;">MED</span>
     </div>
     <div class="note">Blow-off-top confirmation; consumer-deal headlines filtered out</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C7 — Credit Market Stress</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">HY OAS widening off 90d low</div>
+    <div class="val">≥ +75 bp</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">HIGH at 2×; the fuse lighting</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">HY OAS absolute stress</div>
+    <div class="val">≥ 400 bp</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="name">IG OAS widening off 90d low</div>
+    <div class="val">≥ +30 bp</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">HIGH at 2×</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">IG OAS absolute stress</div>
+    <div class="val">≥ 125 bp</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    
+  </div>
+  
+</div>
+
+
+
+
+<h2>C8 — Macro Triggers</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">CPI YoY hot</div>
+    <div class="val">≥ 3.5%</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">HIGH at ≥ 4.5%</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">CPI YoY re-acceleration</div>
+    <div class="val">2 mo rising, ≥ 3.0%</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">Direction over level</div>
+  </div>
+  
+</div>
+
+
+
+
+<h2>C9 — Crypto Cycle Top</h2>
+<div class="card-grid">
+  
+  <div class="card">
+    <div class="name">BTC Mayer Multiple</div>
+    <div class="val">≥ 2.4</div>
+    <div>
+      <span class="sev" style="background: #f1c40f;">MED</span>
+    </div>
+    <div class="note">HIGH at ≥ 2.8; price/200DMA</div>
+  </div>
+  
+  <div class="card">
+    <div class="name">BTC Pi Cycle Top</div>
+    <div class="val">111DMA crosses &gt; 2×350DMA</div>
+    <div>
+      <span class="sev" style="background: #e67e22;">HIGH</span>
+    </div>
+    <div class="note">Calls cycle tops to within days</div>
   </div>
   
 </div>
