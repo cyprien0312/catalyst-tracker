@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781456524,
-  "generated_at_str": "2026-06-14 17:02:04 UTC",
-  "last_event_ts": 1781455478,
+  "generated_at": 1781456716,
+  "generated_at_str": "2026-06-14 17:05:16 UTC",
+  "last_event_ts": 1781456716,
   "tables": {
     "alerts_dedup": {
-      "count": 832,
-      "last_ts": 1781455478,
-      "last_str": "2026-06-14 16:44:38 UTC"
+      "count": 833,
+      "last_ts": 1781456716,
+      "last_str": "2026-06-14 17:05:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-14 16:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 142,
-      "last_ts": 1781454902,
-      "last_str": "2026-06-14 16:35:02 UTC"
+      "count": 143,
+      "last_ts": 1781456702,
+      "last_str": "2026-06-14 17:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 200,
-      "last_ts": 1781454904,
-      "last_str": "2026-06-14 16:35:04 UTC"
+      "count": 203,
+      "last_ts": 1781456704,
+      "last_str": "2026-06-14 17:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 95,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 840,
+      "ts": 1781456716,
+      "ts_str": "2026-06-14 17:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron's HBM Capacity Is Sold Out Through 2026 \u2014 Now the Stock Faces a Fed-Week Gauntlet - AD HOC NEWS",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 16:32:07 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVZUNGd3SkJ0WUFjWk5hQmhlQ0VJQTVtSWh3RlB1MURjV1FMcTlIbEFLbDZad3NicFNxUjA3MU5tMC03eE1yVlRXUlF4RFVRSjlJcmkzdFRrUHAzNG5YQkxmOFZTeXNVd2pHeC1TQkpNV0d5clBqdHc3dVowSGJYWktBYUg4UDV3NGJlV29QYTBGQzkwWUJ1OE8wMlh3Y05KMXphcWkwbV9DY1B3OVNiN3ZRZGpOdG9uNUdzaWFDckxCYnVTY0E?oc=5\n\nMicron's HBM Capacity Is Sold Out Through 2026 \u2014 Now the Stock Faces a Fed-Week Gauntlet - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVZUNGd3SkJ0WUFjWk5hQmhlQ0VJQTVtSWh3RlB1MURjV1FMcTlIbEFLbDZad3NicFNxUjA3MU5tMC03eE1yVlRXUlF4RFVRSjlJcmkzdFRrUHAzNG5YQkxmOFZTeXNVd2pHeC1TQkpNV0d5clBqdHc3dVowSGJYWktBYUg4UDV3NGJlV29QYTBGQzkwWUJ1OE8wMlh3Y05KMXphcWkwbV9DY1B3OVNiN3ZRZGpOdG9uNUdzaWFDckxCYnVTY0E?oc=5\" target=\"_blank\">Micron's HBM Capacity Is Sold Out Through 2026 \u2014 Now the Stock Faces a Fed-Week Gauntlet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Micron's HBM (high-bandwidth memory) capacity is sold out through 2026, ahead of a Fed-week test for the stock.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Micron \u7684 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u4ea7\u80fd\u5df2\u552e\u7f44\u81f3 2026 \u5e74\uff0c\u800c\u8be5\u80a1\u6b63\u9762\u4e34 Fed-week \u7684\u8003\u9a8c\u3002\n\nWhy it matters:\nHBM sold out through 2026 confirms demand is still outrunning supply at the memory layer that feeds AI accelerators \u2014 a sign the capex cycle has not yet cracked. It's a late-stage tell: pricing power this extreme usually marks the top of a supply-constrained boom rather than its middle.\n\n\u5f71\u54cd:\nHBM \u4ea7\u80fd\u552e\u7f44\u81f3 2026 \u5e74\u8bf4\u660e\u5728\u4e3a AI \u52a0\u901f\u5668\u4f9b\u8d27\u7684\u5185\u5b58\u73af\u8282\uff0c\u9700\u6c42\u4ecd\u7136\u8dd1\u8d62\u4f9b\u7ed9\u2014\u2014\u610f\u5473\u7740\u8fd9\u8f6e capex \u5468\u671f\u5c1a\u672a\u7834\u88c2\u3002\u4f46\u8fd9\u4e5f\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\uff1a\u5982\u6b64\u6781\u7aef\u7684\u5b9a\u4ef7\u80fd\u529b\u5f80\u5f80\u6807\u5fd7\u7740\u4f9b\u7ed9\u53d7\u9650\u7e41\u8363\u7684\u9876\u90e8\uff0c\u800c\u975e\u4e2d\u6bb5\u3002\n",
+      "emailed": false
+    },
     {
       "id": 837,
       "ts": 1781455478,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files confidentially for IPO amid AI market race - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 04:24:32 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxPVldsZE9ONlN5YlZITFZvWTQtMEtZYk5YTWlFRDZJclVHTzZ2Q0xwQkZBVkVMdHJEcUo0U0F4b1FrV2VYeHlGRXp4UU9zclVFVEttXzU5RDh1VVBTZGtJRUN0dkpRNUU0Rk9WcU9mZFlTVkFyS0VBVXAtazFrdmphcnJOVXJ5U012Y3VfZkhSX3BfNXZ3TC1XNlR5blF2MjFzLWNQNkJtb0NuRlpk?oc=5\n\nOpenAI files confidentially for IPO amid AI market race - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPVldsZE9ONlN5YlZITFZvWTQtMEtZYk5YTWlFRDZJclVHTzZ2Q0xwQkZBVkVMdHJEcUo0U0F4b1FrV2VYeHlGRXp4UU9zclVFVEttXzU5RDh1VVBTZGtJRUN0dkpRNUU0Rk9WcU9mZFlTVkFyS0VBVXAtazFrdmphcnJOVXJ5U012Y3VfZkhSX3BfNXZ3TC1XNlR5blF2MjFzLWNQNkJtb0NuRlpk?oc=5\" target=\"_blank\">OpenAI files confidentially for IPO amid AI market race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that OpenAI has filed confidentially for an IPO amid the AI market race (per MSN/Google News).\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\uff08MSN/Google News\uff09\u79f0\uff0cOpenAI \u5df2\u5728 AI \u5e02\u573a\u7ade\u8d5b\u80cc\u666f\u4e0b\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nA confidential IPO filing signals OpenAI is moving toward public markets \u2014 a way to raise large new capital and let early backers cash out. The timing during an AI-spending arms race suggests private funding may no longer cover its capex burn, and an IPO would put the sector's flagship name under public-market scrutiny.\n\n\u5f71\u54cd:\n\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\u610f\u5473\u7740 OpenAI \u6b63\u8d70\u5411\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u662f\u7b79\u96c6\u5927\u989d\u65b0\u8d44\u672c\u3001\u5e76\u8ba9\u65e9\u671f\u6295\u8d44\u8005\u5957\u73b0\u7684\u9014\u5f84\u3002\u5728 AI \u519b\u5907\u7ade\u8d5b\u7684\u65f6\u70b9\u9009\u62e9\u4e0a\u5e02\uff0c\u6697\u793a\u79c1\u52df\u878d\u8d44\u53ef\u80fd\u5df2\u65e0\u6cd5\u8986\u76d6\u5176\u8d44\u672c\u5f00\u652f\u6d88\u8017\uff0c\u800c IPO \u4f1a\u628a\u8fd9\u5bb6\u884c\u4e1a\u65d7\u8230\u516c\u53f8\u7f6e\u4e8e\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u4e4b\u4e0b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 637,
-      "ts": 1781097300,
-      "ts_str": "2026-06-10 13:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO: Is This a Real Business Yet? [Comprehensive Research] [2026] - Klover.ai",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 10:40:47 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmFiRTdmWmdieDFlaUVXblVhMG5CaDlNVzR5Z0Y4bDg3T25PakJiQXBtQkFBZzhUbGJKaGdUUkFJWmFqNlNCaE82eDFEeTJBajA1cDl5ODhhRGRFeUJXbE5uTklLeGo4S01WTlFZYUR1cmJ1Qk9rS0x3ZS1KSHZVV0tPWWx6TXI3MXpFeURhT1ZCMG8?oc=5\n\nOpenAI IPO: Is This a Real Business Yet? [Comprehensive Research] [2026] - Klover.ai\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmFiRTdmWmdieDFlaUVXblVhMG5CaDlNVzR5Z0Y4bDg3T25PakJiQXBtQkFBZzhUbGJKaGdUUkFJWmFqNlNCaE82eDFEeTJBajA1cDl5ODhhRGRFeUJXbE5uTklLeGo4S01WTlFZYUR1cmJ1Qk9rS0x3ZS1KSHZVV0tPWWx6TXI3MXpFeURhT1ZCMG8?oc=5\" target=\"_blank\">OpenAI IPO: Is This a Real Business Yet? [Comprehensive Research] [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Klover.ai</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item surfaced under C3 headlined \"OpenAI IPO: Is This a Real Business Yet? [Comprehensive Research] [2026]\" from Klover.ai, questioning whether OpenAI is a viable standalone business ahead of a potential IPO.\n\n\u5185\u5bb9:\nC3 \u6293\u53d6\u5230\u4e00\u6761 Google News \u6761\u76ee\uff0c\u6807\u9898\u4e3a\u300aOpenAI IPO: Is This a Real Business Yet? [Comprehensive Research] [2026]\u300b\uff0c\u6765\u6e90 Klover.ai\uff0c\u5728\u6f5c\u5728 IPO \u524d\u8d28\u7591 OpenAI \u662f\u5426\u662f\u4e00\u95e8\u80fd\u72ec\u7acb\u6210\u7acb\u7684\u771f\u5b9e\u751f\u610f\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout \u2014 hyperscaler and neocloud spending is underwritten by the assumption it converts into durable revenue. Public questioning of whether OpenAI is yet a \"real business\" signals the IPO-narrative scrutiny that tends to precede a repricing of the whole AI infrastructure trade.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u652f\u51fa\u90fd\u5efa\u7acb\u5728\u5b83\u80fd\u8f6c\u5316\u4e3a\u6301\u4e45\u6536\u5165\u8fd9\u4e00\u5047\u8bbe\u4e0a\u3002\u516c\u5f00\u8d28\u7591 OpenAI \u662f\u5426\u5df2\u662f\u4e00\u95e8\"\u771f\u5b9e\u751f\u610f\"\uff0c\u6b63\u662f\u5f80\u5f80\u51fa\u73b0\u5728\u6574\u4e2a AI \u57fa\u7840\u8bbe\u65bd\u4ea4\u6613\u88ab\u91cd\u65b0\u5b9a\u4ef7\u4e4b\u524d\u7684 IPO \u53d9\u4e8b\u5ba1\u89c6\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
