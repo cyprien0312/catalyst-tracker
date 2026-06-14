@@ -14,6 +14,7 @@ The dashboard publishes to GitHub Pages from `/docs/`. See
 - [Production deployment](#production-deployment) — current setup: local cron on a single host
 - [Local development](#local-development) — venv, tests, dry-run
 - [Email alerts](#email-alerts) — subjects, severity tiers, body format
+- [Daily digest](#daily-digest) — priority-ordered heartbeat + FOCUS analysis
 - [Architecture notes](#architecture-notes) — dedup, transitions, cadence, caches
 - [Alternative deployment: GitHub Actions](#alternative-deployment-github-actions) — kept as fallback
 - [Source spec](#source-spec)
@@ -132,6 +133,9 @@ PATH=/home/YOU/.hermes/node/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bi
 11,41 * * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c7_credit
 17    7 * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c8_macro
 23    8 * * * /home/YOU/catalyst-tracker/bin/run_catalyst.sh c9_crypto
+
+# Daily digest e-mail (priority-ordered heartbeat across all 9 catalysts)
+0     9 * * * /home/YOU/catalyst-tracker/bin/send_daily_report.sh
 ```
 
 Replace `YOU` with your username. Note: cron uses the **host's local timezone**,
@@ -287,6 +291,15 @@ spend cycle stops being self-financing, a classic late-cycle capex signal.
   `~/.catalyst.env`. The alert still lands in the `alerts` table and shows up
   in the dashboard, but no email is sent. Useful when one catalyst is too
   chatty (C3 in particular hits frequently because RSS feeds update fast).
+- **Email only above a severity floor** (preferred over a blanket mute):
+  `CATALYST_EMAIL_MIN_SEVERITY=c6:HIGH,c8:HIGH,c3:HIGH` (CSV of `tag:floor`).
+  For that catalyst, only alerts at or above the floor are e-mailed; quieter
+  ones still persist to the DB and dashboard. The floor takes precedence over
+  `CATALYST_EMAIL_DISABLE` for the same tag. This keeps the noisy MED-tier
+  catalysts (C3 IPO chatter, C6 froth, C8 monthly CPI) out of your inbox while
+  still pinging you on a genuine HIGH/CRITICAL. The agreed loud-vs-floored split:
+  loud (all severities) = the fuses C7/C2 and hard-data C4/C1; floored to HIGH =
+  C8/C6/C3/C5/C9.
 - Silence a tier: comment the tier loop in `c3_openai.classify()` or raise
   the threshold in `lib/thresholds.py`.
 - Adjust dedup window: `DEDUP_TTL_SECONDS` in `lib/notify.py`.
@@ -299,6 +312,41 @@ The GitHub Pages dashboard at `https://<your-gh-user>.github.io/catalyst-tracker
 now renders the last 200 rows of the `alerts` table with catalyst/severity
 filters. Read-state is tracked in browser `localStorage` (per-device, not
 synced across phone/laptop). "Reset read state" wipes the local set.
+
+## Daily digest
+
+A once-a-day heartbeat e-mail summarising all nine catalysts in priority order
+— sent even when nothing fired, so absence of an alert is informative too.
+
+```bash
+python scripts/daily_report.py             # send now
+python scripts/daily_report.py --dry-run   # print the text body
+python scripts/daily_report.py --html-out /tmp/d.html  # also dump the HTML
+bin/send_daily_report.sh                    # cron wrapper (sources env, logs)
+```
+
+What it contains, top to bottom:
+
+- **Status pills** — count of 🔴 firing / 🟡 watch / 🟢 quiet across the nine.
+- **★ FOCUS / 今日重点** — an analytical read of the single most important thing
+  today: the highest-priority *firing* signal, its live numbers, the standing
+  cross-signal thesis, and what would confirm/escalate it. Written by the LLM
+  (`llm.freeform`, Opus by default) when the CLI is available; falls back to a
+  rule-based analysis (`_analytical_focus`, with per-signal baked-in context) so
+  the digest never depends on the LLM being up. Bilingual EN/中文.
+- **Priority-grouped cards** — C7→C2→C4→C1→C8→C6→C3→C5→C9 in four tiers
+  (fuses → hard data → background → lagging), each with a status badge and the
+  live gauge / 7-day roll-up.
+- **Notable (HIGH+) last 7d** — deduped HIGH/CRITICAL subjects only, cutting
+  through MED noise (e.g. C3's IPO-headline flood).
+
+The numeric gauges (C7 spreads, C8 CPI, C9 Mayer) are **re-fetched live** each
+run, so the digest is current regardless of when the per-catalyst cron last ran;
+C4 reads the latest `c4_xbrl` snapshot; the event-driven catalysts roll up the
+`alerts` table. The e-mail is multipart (HTML body + plain-text fallback) and is
+sent independently of the per-alert path — no dedup, it goes out every day.
+Priority order and the loud-vs-floored e-mail split are documented under
+[Tuning email volume](#tuning-email-volume).
 
 ## Architecture notes
 
@@ -353,9 +401,14 @@ yfinance is queried at most once every 6 hours per ticker.
 | C3 | 2× per hour, 24/7 | Any time — news-driven |
 | C4 | 2× per hour | Post-earnings days |
 | C5 | 2× per hour, monthly first-Friday for ERCOT | Mostly slow-moving |
+| C6 | 2× per hour | Any time — news-driven (TrendForce/DigiTimes) |
+| C7 | 2× per hour | Daily FRED update (credit spreads) |
+| C8 | Daily 07:17 | Monthly CPI print |
+| C9 | Daily 08:23 | Daily BTC close |
+| Daily digest | Daily 09:00 | Heartbeat — always sends |
 
-The cron in `bin/run_catalyst.sh` runs every catalyst every 30 minutes. Real
-news cadence is dominated by source frequency (earnings filings, RSS feed
+C1–C7 run every 30 minutes; C8/C9 are daily (their sources are monthly/daily).
+Real news cadence is dominated by source frequency (earnings filings, RSS feed
 update rates), not by us.
 
 ### LLM explanation path
@@ -375,9 +428,12 @@ silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
    `numbers` dict. Hit → return cached `Explanation` (log `llm.hit`).
 3. Miss → build prompt with system rules, two few-shot examples (C1 AMZN +
    C4 META, both bilingual), and the alert-specific input as JSON.
-4. `subprocess.run(["claude", "-p", prompt, "--output-format", "json"])` with
-   per-call timeout. Parse envelope (`{is_error, subtype, result}`), then extract
+4. `subprocess.run(["claude", "-p", prompt, "--model", <model>, "--output-format", "json"])`
+   with per-call timeout. Parse envelope (`{is_error, subtype, result}`), then extract
    the inner `{what, why, what_zh, why_zh}` JSON (tolerates ```json fences).
+   The `--model` is passed explicitly (default `claude-opus-4-8`) because the CLI's
+   own default (Fable 5) returns `is_error="Claude Fable 5 is currently unavailable"`
+   in some regions (e.g. AU), which would silently force the static-template fallback.
 5. Cache the result with 30-day TTL in the `llm_cache` table of
    `state/tracker.sqlite`. Sleep 2s after a successful fresh call (rate-limit
    courtesy). Log `llm.miss`.
@@ -393,6 +449,14 @@ silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
 | C3 | RSS HIGH/MED/CRITICAL, MSFT filings | `snippet=title+summary`; MSFT path adds `ticker=MSFT` + filing text |
 | C4 | FCF_NEGATIVE, RATIO_CROSS, RATIO_JUMP | `ticker` + `numbers` dict (capex, OCF, FCF, ratio, period) |
 | C5 | MW_DROP, NEW_WITHDRAWALS, HENRY_HUB_STRESS | `numbers` dict (ISO/MW/withdrawals/strip values); no ticker |
+| C6 | price reversal/surge/order-unwind | `snippet=title+summary` |
+| C7 | SPREAD_WIDENING, SPREAD_STRESS | `numbers` dict (series, current_bp, low_bp, widened_bp) |
+| C8 | CPI_HOT, CPI_REACCEL | `numbers` dict (yoy_pct, threshold, month) |
+| C9 | MAYER_HOT, PI_CYCLE_TOP | `numbers` dict (mayer, price, sma200 / sma111, sma350x2) |
+
+The **daily digest** uses a separate entry point, `llm.freeform(prompt)`, to
+write the FOCUS note (see below) rather than the per-alert `summarize_explanation`
+path. Same CLI, same `--model`, same graceful fallback.
 
 **Tunable env vars:**
 
@@ -403,7 +467,7 @@ silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
 | `CATALYST_LLM_CLAUDE_BIN` | `which claude` | Override binary path (useful in cron) |
 | `CATALYST_LLM_TIMEOUT` | `30` | Per-call subprocess timeout, seconds |
 | `CATALYST_LLM_SLEEP_AFTER` | `2` | Seconds to sleep after a successful fresh call; `0` disables |
-| `CATALYST_LLM_MODEL` | `claude-cli-default` | Cache-key namespace tag |
+| `CATALYST_LLM_MODEL` | `claude-opus-4-8` | Passed to `claude --model`; also the cache-key namespace tag. Override if Opus is unavailable or to pin another model. |
 
 The prompt version is bumped (`_PROMPT_VERSION` in `lib/llm.py`) whenever the
 system prompt or schema changes, which automatically invalidates all cached

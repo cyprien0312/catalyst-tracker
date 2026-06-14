@@ -27,9 +27,17 @@ python3.11 -m venv .venv
 .venv/bin/python -m catalysts.c2_neoclouds   --dry-run --no-prices
 .venv/bin/python -m catalysts.c3_openai      --dry-run --no-edgar
 .venv/bin/python -m catalysts.c5_grid        --dry-run --skip-iso  # offline-friendly
+.venv/bin/python -m catalysts.c7_credit      --dry-run  # C7/C8/C9 use keyless FRED/CoinGecko
+.venv/bin/python -m catalysts.c8_macro       --dry-run
+.venv/bin/python -m catalysts.c9_crypto      --dry-run
 
 # Verbosity
 LOG_LEVEL=DEBUG .venv/bin/python -m catalysts.c3_openai --dry-run
+
+# Daily digest email (priority-ordered heartbeat + LLM FOCUS analysis)
+.venv/bin/python scripts/daily_report.py --dry-run             # print
+.venv/bin/python scripts/daily_report.py --html-out /tmp/d.html  # dump HTML
+bin/send_daily_report.sh                                        # cron wrapper (sources env)
 
 # Dashboard rebuild (writes docs/index.html, docs/thresholds.html, docs/data/status.json)
 .venv/bin/python scripts/build_dashboard.py
@@ -60,13 +68,14 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
 - `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL
 - `lib/xbrl.py` — XBRL facts pull for hyperscaler capex/OCF/FCF (C4)
 - `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). PJM is now a POST to `services.pjm.com/PJMPlanningApi/api/Queue/ExportToXls` with an `api-subscription-key` header (the old GET `/Queues/ExportToExcel` 404s as of 2026-05). The subscription key lives in the public JS bundle on pjm.com and may rotate — if PJM fetches start 401/403'ing, refresh `PJM_API_SUBSCRIPTION_KEY` from `https://www.pjm.com/dist/interconnectionqueues.*.js`.
-- `lib/eia.py`, `lib/fred.py` — Henry Hub & macro data (C5)
+- `lib/eia.py` — Henry Hub strip (C5). `lib/fred.py` — FRED data: `observations()` (JSON API, needs `FRED_API_KEY`) and **`series_csv()`** (the keyless `fredgraph.csv` export, used by C7 credit spreads + C8 CPI so they work with no secret).
+- `lib/crypto.py` — CoinGecko public API (keyless) — `btc_daily_closes()` daily BTC closes for C9. Rate-limited; degrades to `[]`.
 - `lib/prices.py` — yfinance wrapper with **6-hour TTL cache** keyed in the `c2_price_check` table (yfinance throttles hard)
-- `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `llm_cache`, `alerts` (history rendered in dashboard), and the dedup `seen` table (`alerts_dedup` namespace + per-source idempotency keys)
+- `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `c7_spreads`, `c8_macro`, `c9_crypto`, `llm_cache`, `alerts` (history rendered in dashboard), and the dedup `seen` table (`alerts_dedup` namespace + per-source idempotency keys)
 - `lib/notify.py` — Gmail SMTP send + alert dedup + persistence. **SHA-256 over `(subject, body[:500])` with 7-day TTL** prevents repeat emails AND prevents duplicate `alerts` rows. Every non-deduped alert is INSERTed into the `alerts` table regardless of whether SMTP fired. Two email-mute controls: `CATALYST_EMAIL_DISABLE=c3,c5` (CSV) silences a catalyst's emails entirely; `CATALYST_EMAIL_MIN_SEVERITY=c6:HIGH` (CSV of `tag:floor`) emails only alerts at/above the floor for that catalyst (quieter ones persist but don't email). The per-catalyst floor takes precedence over the blanket disable list. Both keep rows in DB; header `X-Catalyst-Severity:` still set.
 - `lib/thresholds.py` — numeric thresholds (110% capex/OCF, $5/MMBtu Henry Hub, etc.). When tuning email volume, change here rather than in catalyst modules.
 - `lib/explanations.py` — `_REGISTRY` of static English "What this means / Why it matters" templates keyed by `(catalyst, signal_kind)`. `append_context()` is the entry point that catalysts call; it bridges to the LLM layer when enabled.
-- `lib/llm.py` — invokes local `claude` CLI in headless mode (`claude -p ... --output-format json`) for bilingual EN/中文 explanations. Cache key includes `_PROMPT_VERSION` — **bumping that constant invalidates every cached explanation**. Designed to never break alerting: any failure logs `llm.fallback reason=...` and returns `None`, caller uses static template.
+- `lib/llm.py` — invokes local `claude` CLI in headless mode (`claude -p ... --model <m> --output-format json`) for bilingual EN/中文 explanations. **Passes `--model` explicitly (`CATALYST_LLM_MODEL`, default `claude-opus-4-8`)** — the CLI's own default (Fable 5) is region-restricted and returns `is_error="... Fable 5 is currently unavailable"` (e.g. AU), which silently forces the static-template fallback. `freeform(prompt)` is a public entry point for free-form text (used by the daily-digest FOCUS). Cache key includes `_PROMPT_VERSION` and the model tag — **bumping `_PROMPT_VERSION` invalidates every cached explanation**. Designed to never break alerting: any failure logs `llm.fallback reason=...` and returns `None`, caller uses static template.
 - `lib/log.py` — `get_logger(__name__)`; auto-attaches stack traces in `except` blocks. `LOG_LEVEL` env var controls level (default `INFO`).
 
 ### Transition semantics — critical for C4/C5
@@ -87,11 +96,15 @@ If a noisy catalyst floods email (the original motivation for `CATALYST_EMAIL_DI
 
 ### Cron wrapper (`bin/run_catalyst.sh`)
 
-After `python -m catalysts.<module>` and `scripts/build_dashboard.py`, the wrapper **commits and pushes** `state/tracker.sqlite` + `docs/index.html` + `docs/thresholds.html` + `docs/data/status.json` to `origin/main` with `pull --rebase` retries (the five catalysts cron-fire 6 minutes apart but races still happen). Commits are authored `catalyst-bot <bot@openclaw.local>`; recent `state: ...` commits in `git log` are from cron, not human edits — don't revert them. `tests.yml` uses `paths-ignore` so these state commits don't burn CI.
+After `python -m catalysts.<module>` and `scripts/build_dashboard.py`, the wrapper **commits and pushes** `state/tracker.sqlite` + `docs/index.html` + `docs/thresholds.html` + `docs/data/status.json` to `origin/main` with `pull --rebase` retries (the catalysts cron-fire minutes apart but races still happen). Commits are authored `catalyst-bot <bot@openclaw.local>`; recent `state: ...` commits in `git log` are from cron, not human edits — don't revert them. `tests.yml` uses `paths-ignore` so these state commits don't burn CI.
+
+### Daily digest (`scripts/daily_report.py`, `bin/send_daily_report.sh`)
+
+A once-a-day heartbeat email (cron 09:00 local), separate from the per-alert path. Priority-ordered (C7→C2→C4→C1→C8→C6→C3→C5→C9, grouped fuses→hard-data→background→lagging). Numeric gauges (C7/C8/C9) are **re-fetched live** each run so the digest is current regardless of cron timing; C4 reads the latest `c4_xbrl` snapshot; event-driven catalysts roll up the `alerts` table (7-day window). The **FOCUS** note is written by `llm.freeform` (Opus) with a rule-based `_analytical_focus` fallback that bakes in per-signal cross-references (e.g. Oracle = Leopold's short / CDS +310% / the C7-repricing tell). Multipart email (HTML + plain-text); no dedup — sends every day. The wrapper sources `~/.catalyst.env` but does **not** commit/push (read-only against state). Pure helpers are unit-tested in `tests/test_daily_report.py` (loaded via importlib since the script lives in `scripts/`). The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
 
 ### LLM explanation path
 
-Activated by `CATALYST_LLM_ENABLED=1`. Disabled by default in tests and dry-runs against a fresh DB unless the env var is set. The full flow (cache → CLI subprocess → JSON envelope parse → 30-day cache write) is documented in README "LLM explanation path" — when changing the prompt schema, bump `_PROMPT_VERSION` in `lib/llm.py` and re-run `scripts/llm_smoke.py`.
+Activated by `CATALYST_LLM_ENABLED=1`. Disabled by default in tests and dry-runs against a fresh DB unless the env var is set. The full flow (cache → CLI subprocess → JSON envelope parse → 30-day cache write) is documented in README "LLM explanation path" — when changing the prompt schema, bump `_PROMPT_VERSION` in `lib/llm.py` and re-run `scripts/llm_smoke.py`. The CLI is invoked with an explicit `--model` (`CATALYST_LLM_MODEL`, default `claude-opus-4-8`) because the default Fable 5 is region-restricted (AU) and returns `is_error`.
 
 GitHub Actions cannot use this path (ephemeral runners can't hold the claude.ai session); the `api` backend in `lib/llm.py` is a stub for an eventual Anthropic-SDK fallback.
 
