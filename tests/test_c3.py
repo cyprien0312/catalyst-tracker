@@ -94,6 +94,25 @@ def test_default_substring_inside_word_does_not_fire():
     # 'default' inside "defaultable" is still a word boundary match — that's fine.
 
 
+def test_default_chatgpt_is_not_critical():
+    """'default ChatGPT' / 'default mode' must NOT fire CRITICAL — the word
+    'default' there is an adjective, not a debt default."""
+    assert classify("Is OpenAI's lockdown mode an admission that default ChatGPT was unsafe?") is None
+    assert classify("OpenAI changes the default model for free users") is None
+
+
+def test_real_debt_default_still_critical():
+    assert classify("OpenAI defaulted on its debt") == "CRITICAL"
+    assert classify("OpenAI bond covenant default") == "CRITICAL"
+
+
+def test_ipo_prospectus_not_critical():
+    """IPO prospectus is MED-tier chatter, not distress; only a bond prospectus
+    (via the 'bond' token) is CRITICAL."""
+    assert classify("OpenAI files confidential IPO prospectus") == "MED"  # IPO token
+    assert classify("OpenAI bond prospectus filed") == "CRITICAL"
+
+
 @responses.activate
 def test_run_returns_news_alerts(tmp_path):
     body = (FIX / "sample_feed.xml").read_text()

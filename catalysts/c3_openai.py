@@ -24,12 +24,18 @@ PROXIMITY_WINDOW = 120
 # Tokens are tier-level keywords. Each tier is a list of regex fragments —
 # word-boundary anchored where possible so "ipo" doesn't match "iponomy".
 CRITICAL_TOKENS = (
-    r"bond\b", r"prospectus\b", r"\bdefault(?:s|ed|ing)?\b",
+    r"bond\b",
+    # 'default' must be a debt sense, not "default ChatGPT/mode/model" (a common
+    # OpenAI-news false positive). Negative lookahead drops the adjective uses.
+    r"\bdefault(?:s|ed|ing)?\b(?!\s+(?:chatgpt|gpt|mode|model|setting|option|behaviou?r|app|browser|voice|view|state|value|page|account))",
     r"\bcovenant\b", r"\bwrite[- ]?down\b",
     r"\bimpair(?:ment|ed)\b",      # requires word boundary; not just "impair" substring
     r"\brestructuring\b",
     r"\bgoing\s+concern\b",
 )
+# Note: bare "prospectus" was removed — in OpenAI news it is almost always an
+# *IPO* prospectus (MED-tier chatter), while a genuine debt/bond prospectus is
+# still caught by the "bond" token.
 HIGH_TOKENS = (
     r"\bburn\s+rate\b", r"\bcash\s+burn\b",
     r"\bdown\s+round\b", r"\bvaluation\s+cut\b",
