@@ -227,6 +227,20 @@ def _call_claude_cli(prompt: str) -> str | None:
     return result if isinstance(result, str) else None
 
 
+def freeform(prompt: str, *, timeout: int | None = None) -> str | None:
+    """Run a free-form prompt through the claude CLI; return the text result.
+
+    Returns None if the LLM layer is disabled, the CLI is missing, or the call
+    fails — callers must provide their own fallback. Used by the daily digest
+    to generate the FOCUS analysis. Honours CATALYST_LLM_TIMEOUT (or override).
+    """
+    if not _is_enabled() or _claude_bin() is None:
+        return None
+    if timeout is not None:
+        os.environ.setdefault("CATALYST_LLM_TIMEOUT", str(timeout))
+    return _call_claude_cli(prompt)
+
+
 def _parse_result(raw: str) -> Explanation | None:
     """Extract the {what, why, what_zh, why_zh} JSON object from a model response.
 
