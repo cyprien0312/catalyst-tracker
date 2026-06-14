@@ -16,7 +16,7 @@
 </style>
 </head><body>
 <h1>Thresholds</h1>
-<div class="meta">Generated 2026-06-14 01:11:02 UTC · <a href="index.html">← dashboard</a></div>
+<div class="meta">Generated 2026-06-14 01:14:05 UTC · <a href="index.html">← dashboard</a></div>
 
 <p>The numbers and patterns each catalyst uses to decide when to fire an alert.
 Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
@@ -153,7 +153,7 @@ Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune th
   
   <div class="card">
     <div class="name">CRITICAL tier tokens</div>
-    <div class="val">bond\b, prospectus\b, \bdefault(?:s|ed|ing)?\b, \bcovenant\b, \bwrite[- ]?down\b, \bimpair(?:ment|ed)\b, \brestructuring\b, \bgoing\s+concern\b</div>
+    <div class="val">bond\b, \bdefault(?:s|ed|ing)?\b(?!\s+(?:chatgpt|gpt|mode|model|setting|option|behaviou?r|app|browser|voice|view|state|value|page|account)), \bcovenant\b, \bwrite[- ]?down\b, \bimpair(?:ment|ed)\b, \brestructuring\b, \bgoing\s+concern\b</div>
     <div>
       <span class="sev" style="background: #c0392b;">CRITICAL</span>
     </div>
