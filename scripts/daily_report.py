@@ -245,7 +245,7 @@ _FOCUS_PROMPT = (
     "You are the analyst behind an AI-infrastructure \"bubble-stress\" tracker. "
     "The nine signals, priority-ordered (fuses first): C7 credit spreads, C2 neocloud distress, "
     "C4 hyperscaler capex/OCF, C1 GPU depreciation, C8 CPI/Fed, C6 memory prices, C3 OpenAI, "
-    "C5 grid, C9 BTC cycle.\nToday's readings:\n{state}\n\n"
+    "C5 grid, C9 BTC cycle.\nToday's readings:\n__STATE__\n\n"
     "Write the daily FOCUS note: pick the SINGLE most important thing today, explain it specifically "
     "(cite the exact numbers), connect it across signals, and say what would confirm or escalate it. "
     "Direct, no hedging, no filler, no marketing. Reader is bilingual.\n"
@@ -338,7 +338,8 @@ def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict
     rule-based analytical read that bakes in the standing cross-signal thesis."""
     fallback = _analytical_focus(rows)
     try:
-        raw = llm.freeform(_FOCUS_PROMPT.format(state=_state_summary(rows, notable)))
+        prompt = _FOCUS_PROMPT.replace("__STATE__", _state_summary(rows, notable))
+        raw = llm.freeform(prompt)
     except Exception:
         raw = None
     return (_parse_focus(raw) if raw else None) or fallback

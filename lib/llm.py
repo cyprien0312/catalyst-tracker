@@ -103,8 +103,18 @@ def _claude_bin() -> str | None:
     return os.environ.get("CATALYST_LLM_CLAUDE_BIN") or shutil.which("claude")
 
 
+# Model passed to `claude --model`. Defaults to Opus 4.8 because the CLI's
+# own default (Fable 5) is unavailable in some regions (e.g. AU) — the
+# headless call returns is_error="... Fable 5 is currently unavailable".
+_DEFAULT_MODEL = "claude-opus-4-8"
+
+
+def _model() -> str:
+    return os.environ.get("CATALYST_LLM_MODEL", _DEFAULT_MODEL)
+
+
 def _model_tag() -> str:
-    return os.environ.get("CATALYST_LLM_MODEL", "claude-cli-default")
+    return _model()
 
 
 def _build_prompt(
@@ -207,7 +217,7 @@ def _call_claude_cli(prompt: str) -> str | None:
         return None
     try:
         proc = subprocess.run(
-            [binary, "-p", prompt, "--output-format", "json"],
+            [binary, "-p", prompt, "--model", _model(), "--output-format", "json"],
             capture_output=True,
             text=True,
             timeout=_timeout(),
