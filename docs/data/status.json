@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781425923,
-  "generated_at_str": "2026-06-14 08:32:03 UTC",
-  "last_event_ts": 1781424869,
+  "generated_at": 1781426116,
+  "generated_at_str": "2026-06-14 08:35:16 UTC",
+  "last_event_ts": 1781426116,
   "tables": {
     "alerts_dedup": {
-      "count": 802,
-      "last_ts": 1781424869,
-      "last_str": "2026-06-14 08:14:29 UTC"
+      "count": 805,
+      "last_ts": 1781426116,
+      "last_str": "2026-06-14 08:35:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-14 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 112,
-      "last_ts": 1781424302,
-      "last_str": "2026-06-14 08:05:02 UTC"
+      "count": 113,
+      "last_ts": 1781426101,
+      "last_str": "2026-06-14 08:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 171,
-      "last_ts": 1781422504,
-      "last_str": "2026-06-14 07:35:04 UTC"
+      "count": 173,
+      "last_ts": 1781426103,
+      "last_str": "2026-06-14 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 86,
-      "last_ts": 1781417103,
-      "last_str": "2026-06-14 06:05:03 UTC"
+      "count": 87,
+      "last_ts": 1781426102,
+      "last_str": "2026-06-14 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 141,
@@ -266,6 +266,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 810,
+      "ts": 1781426116,
+      "ts_str": "2026-06-14 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:25:27 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\n\nMemory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\" target=\"_blank\">Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pandaily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Pandaily) reports a memory price surge is forcing smartphone makers to downgrade entry-level specs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u65b0\u95fb\uff08Pandaily\uff09\u62a5\u9053\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u8feb\u4f7f\u667a\u80fd\u624b\u673a\u5382\u5546\u4e0b\u8c03\u5165\u95e8\u673a\u578b\u7684\u89c4\u683c\u914d\u7f6e\u3002\n\nWhy it matters:\nDRAM/NAND pricing is being bid up by AI datacenter demand, and the spillover is now rationing memory away from consumer devices. When AI capex starts crowding out and repricing a commodity input across the whole electronics supply chain, it confirms the buildout is straining real-world component markets, not just balance sheets.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u9ad8\uff0c\u5916\u6ea2\u6548\u5e94\u5982\u4eca\u5f00\u59cb\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u4e2d\u6324\u8d70\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u5728\u6574\u4e2a\u7535\u5b50\u4f9b\u5e94\u94fe\u4e2d\u62a2\u5360\u5e76\u91cd\u65b0\u5b9a\u4ef7\u4e00\u79cd\u5927\u5b97\u5143\u4ef6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6324\u538b\u7684\u5df2\u662f\u771f\u5b9e\u7684\u5143\u5668\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 811,
+      "ts": 1781426116,
+      "ts_str": "2026-06-14 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:25:27 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\n\nMemory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\" target=\"_blank\">Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pandaily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Pandaily) reports a memory price surge is forcing smartphone makers to downgrade entry-level specs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u65b0\u95fb\uff08Pandaily\uff09\u62a5\u9053\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u8feb\u4f7f\u667a\u80fd\u624b\u673a\u5382\u5546\u4e0b\u8c03\u5165\u95e8\u673a\u578b\u7684\u89c4\u683c\u914d\u7f6e\u3002\n\nWhy it matters:\nDRAM/NAND pricing is being bid up by AI datacenter demand, and the spillover is now rationing memory away from consumer devices. When AI capex starts crowding out and repricing a commodity input across the whole electronics supply chain, it confirms the buildout is straining real-world component markets, not just balance sheets.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u9ad8\uff0c\u5916\u6ea2\u6548\u5e94\u5982\u4eca\u5f00\u59cb\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u4e2d\u6324\u8d70\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u5728\u6574\u4e2a\u7535\u5b50\u4f9b\u5e94\u94fe\u4e2d\u62a2\u5360\u5e76\u91cd\u65b0\u5b9a\u4ef7\u4e00\u79cd\u5927\u5b97\u5143\u4ef6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6324\u538b\u7684\u5df2\u662f\u771f\u5b9e\u7684\u5143\u5668\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 812,
+      "ts": 1781426116,
+      "ts_str": "2026-06-14 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:25:27 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\n\nMemory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\" target=\"_blank\">Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pandaily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Pandaily) reports a memory price surge is forcing smartphone makers to downgrade entry-level specs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u65b0\u95fb\uff08Pandaily\uff09\u62a5\u9053\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u8feb\u4f7f\u667a\u80fd\u624b\u673a\u5382\u5546\u4e0b\u8c03\u5165\u95e8\u673a\u578b\u7684\u89c4\u683c\u914d\u7f6e\u3002\n\nWhy it matters:\nDRAM/NAND pricing is being bid up by AI datacenter demand, and the spillover is now rationing memory away from consumer devices. When AI capex starts crowding out and repricing a commodity input across the whole electronics supply chain, it confirms the buildout is straining real-world component markets, not just balance sheets.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u9ad8\uff0c\u5916\u6ea2\u6548\u5e94\u5982\u4eca\u5f00\u59cb\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u4e2d\u6324\u8d70\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u5728\u6574\u4e2a\u7535\u5b50\u4f9b\u5e94\u94fe\u4e2d\u62a2\u5360\u5e76\u91cd\u65b0\u5b9a\u4ef7\u4e00\u79cd\u5927\u5b97\u5143\u4ef6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6324\u538b\u7684\u5df2\u662f\u771f\u5b9e\u7684\u5143\u5668\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
     {
       "id": 808,
       "ts": 1781424869,
@@ -2234,36 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI moves toward IPO as wave of major AI listings builds momentum - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 02:37:05 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkFxOWdVWDV0d0pvZ0psZ3haQ2NYRmw5Z09aZkd4eTVQZ3FiUlhHWjd1bmtMZGg2WHVrS0txcnkyMTZaRGlrYzZxdWVXczh0RmpybElPWGJVRlpVdEE0aEtDeU9uamcySW9YZXdRMXZ3U0h6cVlZVmNKRWRIbWxqLWc4em9uWXFGbkd6Tkd0TE8tOFh2SWhiMlVyWnA4dnpYYzQyWks2dlM4VEIwT0RTeUl6QURKTUhnaE9oT3hqdw?oc=5\n\nOpenAI moves toward IPO as wave of major AI listings builds momentum - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkFxOWdVWDV0d0pvZ0psZ3haQ2NYRmw5Z09aZkd4eTVQZ3FiUlhHWjd1bmtMZGg2WHVrS0txcnkyMTZaRGlrYzZxdWVXczh0RmpybElPWGJVRlpVdEE0aEtDeU9uamcySW9YZXdRMXZ3U0h6cVlZVmNKRWRIbWxqLWc4em9uWXFGbkd6Tkd0TE8tOFh2SWhiMlVyWnA4dnpYYzQyWks2dlM4VEIwT0RTeUl6QURKTUhnaE9oT3hqdw?oc=5\" target=\"_blank\">OpenAI moves toward IPO as wave of major AI listings builds momentum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 613,
-      "ts": 1781066666,
-      "ts_str": "2026-06-10 04:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI, company behind ChatGPT, files for IPO - Rural Radio Network",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 17:16:23 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUlFZ1FST0dabEVlSVRhTi1OSUM4T2VvaDFOWXRGd1ZoM2pUZk0tOTh4SUkxNUZNc2RfbjRTTHFnaVRlaTFaS3FtRGo4c1NmUEEzZWtRdHJHZmtOMXBsalF1U19OWWFpLUZ2SVMyUEhnd0xaUGo1b3ZWR1N6aTYyalJwNjFJTG9MVFFGZHV4TE9zVDRmQWhPWUpOWQ?oc=5\n\nOpenAI, company behind ChatGPT, files for IPO - Rural Radio Network\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNcUlFZ1FST0dabEVlSVRhTi1OSUM4T2VvaDFOWXRGd1ZoM2pUZk0tOTh4SUkxNUZNc2RfbjRTTHFnaVRlaTFaS3FtRGo4c1NmUEEzZWtRdHJHZmtOMXBsalF1U19OWWFpLUZ2SVMyUEhnd0xaUGo1b3ZWR1N6aTYyalJwNjFJTG9MVFFGZHV4TE9zVDRmQWhPWUpOWQ?oc=5\" target=\"_blank\">OpenAI, company behind ChatGPT, files for IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rural Radio Network</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that OpenAI, the company behind ChatGPT, has filed for an IPO.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u79f0 ChatGPT \u6bcd\u516c\u53f8 OpenAI \u5df2\u7533\u8bf7 IPO\u3002\n\nWhy it matters:\nAn OpenAI IPO would force public disclosure of its real revenue, losses, and compute commitments \u2014 the numbers the entire AI-capex buildout is justified on. It also signals the private funding runway is tightening, pushing the most important AI company toward public-market scrutiny and a cash raise. Watch for confirmation: a single-source headline this large needs a real S-1 behind it.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u88ab\u8feb\u516c\u5f00\u5176\u771f\u5b9e\u7684\u8425\u6536\u3001\u4e8f\u635f\u548c\u7b97\u529b\u652f\u51fa\u627f\u8bfa\u2014\u2014\u800c\u6574\u4e2a AI capex \u6269\u5f20\u6b63\u662f\u5efa\u7acb\u5728\u8fd9\u4e9b\u6570\u5b57\u4e4b\u4e0a\u7684\u3002\u8fd9\u4e5f\u6697\u793a\u79c1\u52df\u878d\u8d44\u7684\u4f59\u7cae\u6b63\u5728\u6536\u7d27\uff0c\u8feb\u4f7f\u8fd9\u5bb6\u6700\u91cd\u8981\u7684 AI \u516c\u53f8\u8d70\u5411\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u5e76\u5bfb\u6c42\u52df\u8d44\u3002\u9700\u7559\u610f\u6838\u5b9e\uff1a\u5982\u6b64\u91cd\u5927\u7684\u6d88\u606f\u82e5\u53ea\u6709\u5355\u4e00\u4fe1\u6e90\uff0c\u5fc5\u987b\u6709\u771f\u5b9e\u7684 S-1 \u6587\u4ef6\u652f\u6491\u624d\u7b97\u6570\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 611,
-      "ts": 1781064856,
-      "ts_str": "2026-06-10 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Files IPO a Week After Anthropic - Gotrade",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 10 Jun 2026 03:50:05 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE82cEYyVkRCbi1WdnBHNGE5Nmljb3UzUktLZVFQSFdDVndnU29Hakp4a3ppRlMzb3JFWWt3U2tQOG80RG4zR3ZVekhnb2tKZjVQZVQ0WGpwUFpNSjJBaGtFa1p0aFZTR19LbDdLcWVNMGxRWE5TVXg0?oc=5\n\nOpenAI Files IPO a Week After Anthropic - Gotrade\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE82cEYyVkRCbi1WdnBHNGE5Nmljb3UzUktLZVFQSFdDVndnU29Hakp4a3ppRlMzb3JFWWt3U2tQOG80RG4zR3ZVekhnb2tKZjVQZVQ0WGpwUFpNSjJBaGtFa1p0aFZTR19LbDdLcWVNMGxRWE5TVXg0?oc=5\" target=\"_blank\">OpenAI Files IPO a Week After Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gotrade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged a Gotrade headline: \"OpenAI Files IPO a Week After Anthropic.\"\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6293\u5230 Gotrade \u7684\u6807\u9898\uff1a\"OpenAI Files IPO a Week After Anthropic\"\uff08OpenAI \u5728 Anthropic \u4e4b\u540e\u4e00\u5468\u9012\u4ea4 IPO \u7533\u8bf7\uff09\u3002\n\nWhy it matters:\nBoth leading AI labs racing to tap public markets signals they need outside capital faster than private rounds can supply it \u2014 a sign the cash burn from AI buildout is outrunning private funding. IPO timing clustering at the top of a capex cycle is a classic late-stage liquidity-seeking signal.\n\n\u5f71\u54cd:\n\u4e24\u5927\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u62a2\u7740\u4e0a\u5e02\uff0c\u8bf4\u660e\u5b83\u4eec\u5bf9\u5916\u90e8\u8d44\u672c\u7684\u9700\u6c42\u5df2\u7ecf\u8d85\u8fc7\u79c1\u52df\u8f6e\u80fd\u63d0\u4f9b\u7684\u901f\u5ea6\u2014\u2014AI \u57fa\u5efa\u7684\u70e7\u94b1\u901f\u5ea6\u6b63\u5728\u8dd1\u8d62\u79c1\u52df\u878d\u8d44\u3002IPO \u96c6\u4e2d\u51fa\u73b0\u5728\u8d44\u672c\u5f00\u652f\u5468\u671f\u9876\u90e8\uff0c\u662f\u5178\u578b\u7684\u665a\u671f\u627e\u94b1\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 608,
-      "ts": 1781061279,
-      "ts_str": "2026-06-10 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] What Smart People Are Saying About OpenAI's IPO Filing - Business Insider",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 09 Jun 2026 22:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMia0FVX3lxTE1TdVliTGMtMm9aamRWRXU3bW03VDlBbUNReTdzak1XUzFlbDJzZTltTFBOYkExODkzSmtnXzFOTDdjaWJwT1oxNTU4X3p4NFc1eEE3REVlNmk5bDNmQjlqRHdiazZZd1VyMUpV?oc=5\n\nWhat Smart People Are Saying About OpenAI's IPO Filing - Business Insider\n\n<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1TdVliTGMtMm9aamRWRXU3bW03VDlBbUNReTdzak1XUzFlbDJzZTltTFBOYkExODkzSmtnXzFOTDdjaWJwT1oxNTU4X3p4NFc1eEE3REVlNmk5bDNmQjlqRHdiazZZd1VyMUpV?oc=5\" target=\"_blank\">What Smart People Are Saying About OpenAI's IPO Filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Business Insider article titled \"What Smart People Are Saying About OpenAI's IPO Filing\" surfaced in the C3 news feed, discussing reactions to OpenAI's IPO filing.\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u6d41\u4e2d\u51fa\u73b0\u4e00\u7bc7 Business Insider \u62a5\u9053\uff0c\u6807\u9898\u4e3a\u300aWhat Smart People Are Saying About OpenAI's IPO Filing\u300b\uff0c\u8ba8\u8bba\u5e02\u573a\u5bf9 OpenAI IPO \u62db\u80a1\u6587\u4ef6\u7684\u5404\u79cd\u53cd\u5e94\u3002\n\nWhy it matters:\nAn OpenAI IPO would force the largest pure-play AI lab to publish audited financials \u2014 revenue, burn rate, and compute costs that are currently private. Public scrutiny of those numbers is a key potential trigger for repricing the entire AI-capex thesis.\n\n\u5f71\u54cd:\nOpenAI \u4e00\u65e6 IPO\uff0c\u5c31\u5fc5\u987b\u516c\u5f00\u76ee\u524d\u4fdd\u5bc6\u7684\u7ecf\u5ba1\u8ba1\u8d22\u52a1\u6570\u636e\u2014\u2014\u8425\u6536\u3001\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\u3002\u5e02\u573a\u5bf9\u8fd9\u4e9b\u6570\u5b57\u7684\u516c\u5f00\u5ba1\u89c6\uff0c\u662f\u91cd\u65b0\u5b9a\u4ef7\u6574\u4e2a AI capex \u903b\u8f91\u7684\u5173\u952e\u6f5c\u5728\u89e6\u53d1\u70b9\u3002\n",
       "emailed": false
     }
   ],
