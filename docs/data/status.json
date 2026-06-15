@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781541707,
-  "generated_at_str": "2026-06-15 16:41:47 UTC",
-  "last_event_ts": 1781541304,
+  "generated_at": 1781541857,
+  "generated_at_str": "2026-06-15 16:44:17 UTC",
+  "last_event_ts": 1781541856,
   "tables": {
     "alerts_dedup": {
-      "count": 892,
-      "last_ts": 1781540062,
-      "last_str": "2026-06-15 16:14:22 UTC"
+      "count": 893,
+      "last_ts": 1781541856,
+      "last_str": "2026-06-15 16:44:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-15 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9217,
-      "last_ts": 1781540043,
-      "last_str": "2026-06-15 16:14:03 UTC"
+      "count": 9222,
+      "last_ts": 1781541842,
+      "last_str": "2026-06-15 16:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 900,
+      "ts": 1781541856,
+      "ts_str": "2026-06-15 16:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - Wilkes-Barre Citizens' Voice",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 13:47:18 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE5qS0I4XzI5SHBvcnFGbUlGRXFxSFFlS0RTcHJPWmE0Sy1fN1dIYlNrazBGLUtVZkdmNS1NdHNwX0thZWpHNzZnclBRV2FyUzAwRWpDNmlINkpnNXlVTVItMjRpa00zVUc0aE5xRW11enRleEU?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - Wilkes-Barre Citizens' Voice\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5qS0I4XzI5SHBvcnFGbUlGRXFxSFFlS0RTcHJPWmE0Sy1fN1dIYlNrazBGLUtVZkdmNS1NdHNwX0thZWpHNzZnclBRV2FyUzAwRWpDNmlINkpnNXlVTVItMjRpa00zVUc0aE5xRW11enRleEU?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wilkes-Barre Citizens' Voice</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA multistate investigation has been opened into OpenAI over possible user harm, reported as its IPO approaches.\n\n\u5185\u5bb9:\n\u591a\u5dde\u8054\u5408\u8c03\u67e5\u5df2\u5bf9 OpenAI \u542f\u52a8\uff0c\u6307\u5411\u5176\u53ef\u80fd\u9020\u6210\u7684\u7528\u6237\u4f24\u5bb3\uff0c\u5e76\u4e14\u6b63\u503c\u5176 IPO \u4e34\u8fd1\u4e4b\u9645\u3002\n\nWhy it matters:\nRegulatory probes landing right before a planned IPO threaten the valuation and timing of the single largest pure-play AI bet. If OpenAI's listing slips or prices down, it removes the marquee exit that underwrites the whole private AI-capex funding chain.\n\n\u5f71\u54cd:\n\u5728\u8ba1\u5212\u4e2d\u7684 IPO \u524d\u5915\u906d\u9047\u76d1\u7ba1\u8c03\u67e5\uff0c\u4f1a\u5a01\u80c1\u5230\u8fd9\u7b14\u6700\u5927\u7684\u7eaf AI \u6807\u7684\u7684\u4f30\u503c\u548c\u4e0a\u5e02\u65f6\u95f4\u8868\u3002\u5982\u679c OpenAI \u4e0a\u5e02\u63a8\u8fdf\u6216\u6298\u4ef7\u53d1\u884c\uff0c\u5c31\u62bd\u8d70\u4e86\u652f\u6491\u6574\u6761\u79c1\u52df AI capex \u878d\u8d44\u94fe\u6761\u7684\u6807\u6746\u6027\u9000\u51fa\u901a\u9053\u3002\n",
+      "emailed": false
+    },
     {
       "id": 899,
       "ts": 1781540062,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Anthropic files confidential IPO, OpenAI responds and sparks revenue dispute - mezha.net",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 11:27:06 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE9aRkE2X2J2ZzJoNXlWUkFFazNkMk02QUZ3ck9KNWVkV2dqd1Z2dkVkYU9sRmVja1paSEJ4ZnpuWDdfbUtOTU5DdVdMMnp5VE1vYzgwTFBSbGxUQ1c1U2VqZW52ZFh3VUNwTmloSE1BYnU0Q0Rh?oc=5\n\nAnthropic files confidential IPO, OpenAI responds and sparks revenue dispute - mezha.net\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9aRkE2X2J2ZzJoNXlWUkFFazNkMk02QUZ3ck9KNWVkV2dqd1Z2dkVkYU9sRmVja1paSEJ4ZnpuWDdfbUtOTU5DdVdMMnp5VE1vYzgwTFBSbGxUQ1c1U2VqZW52ZFh3VUNwTmloSE1BYnU0Q0Rh?oc=5\" target=\"_blank\">Anthropic files confidential IPO, OpenAI responds and sparks revenue dispute</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mezha.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Anthropic has filed confidentially for an IPO, and that OpenAI's response sparked a dispute over revenue figures.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 Anthropic \u5df2\u79d8\u5bc6\u9012\u4ea4 IPO \u7533\u8bf7\uff0c\u800c OpenAI \u7684\u56de\u5e94\u5f15\u53d1\u4e86\u4e00\u573a\u5173\u4e8e\u8425\u6536\u6570\u636e\u7684\u4e89\u8bae\u3002\n\nWhy it matters:\nA confidential IPO filing signals a major AI lab is moving to tap public markets for capital \u2014 a sign private funding may no longer be sufficient to sustain the spend. A public revenue dispute between the two leading labs suggests the headline revenue numbers underpinning AI valuations are contested, which is bearish for the bubble thesis.\n\n\u5f71\u54cd:\n\u79d8\u5bc6 IPO \u7533\u8bf7\u610f\u5473\u7740\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u5f00\u59cb\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\u2014\u2014\u8fd9\u6697\u793a\u79c1\u52df\u8d44\u91d1\u53ef\u80fd\u5df2\u4e0d\u8db3\u4ee5\u652f\u6491\u5176\u652f\u51fa\u8282\u594f\u3002\u4e24\u5927\u9886\u5148\u5b9e\u9a8c\u5ba4\u5c31\u8425\u6536\u516c\u5f00\u4e89\u6267\uff0c\u8bf4\u660e\u652f\u6491 AI \u4f30\u503c\u7684\u8425\u6536\u6570\u5b57\u672c\u8eab\u5b58\u5728\u5206\u6b67\uff0c\u5bf9\u6ce1\u6cab\u8bba\u662f\u5229\u7a7a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 701,
-      "ts": 1781178269,
-      "ts_str": "2026-06-11 11:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Will SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto? - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 10:23:24 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3puVkwyOWZla21HWUlhNl9RRGFKWldVQWZmTDB4RzlfenlIczNKQWpqX2xPT1JNLUZxOE5FNHlwdDVzTzZJWHpnSjhsbmVVQ1dHbTBZRF94Z05GWU5TUHI3ZUplZUFoOWIxd1JOTkhXYk5vNGtlT3RVLWpMUlRhN2FJR1cxRDBoU3MwanZOc050RGpUNFRRb29HWTFwek4tNmtORGF5N3dGZHpGOC15SWhIdmM5ZkdiTXhkQ3EtOU0ycG1uSEZIOQ?oc=5\n\nWill SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto? - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3puVkwyOWZla21HWUlhNl9RRGFKWldVQWZmTDB4RzlfenlIczNKQWpqX2xPT1JNLUZxOE5FNHlwdDVzTzZJWHpnSjhsbmVVQ1dHbTBZRF94Z05GWU5TUHI3ZUplZUFoOWIxd1JOTkhXYk5vNGtlT3RVLWpMUlRhN2FJR1cxRDBoU3MwanZOc050RGpUNFRRb29HWTFwek4tNmtORGF5N3dGZHpGOC15SWhIdmM5ZkdiTXhkQ3EtOU0ycG1uSEZIOQ?oc=5\" target=\"_blank\">Will SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingView headline asks whether the SpaceX, Anthropic, and OpenAI IPOs will drain all liquidity out of crypto.\n\n\u5185\u5bb9:\nTradingView \u7684\u4e00\u5219\u6807\u9898\u53d1\u95ee\uff1aSpaceX\u3001Anthropic \u548c OpenAI \u7684 IPO \u662f\u5426\u4f1a\u628a\u6d41\u52a8\u6027\u4ece crypto \u4e2d\u5168\u90e8\u62bd\u8d70\u3002\n\nWhy it matters:\nFrames the mega-cap private AI/tech IPO pipeline as a liquidity sink large enough to starve other risk assets. If these deals price, they pull tens of billions out of the market in a short window \u2014 a stress test for whether there's enough capital to absorb the AI-funding wave without something else cracking.\n\n\u5f71\u54cd:\n\u8fd9\u628a SpaceX\u3001Anthropic\u3001OpenAI \u8fd9\u6279\u5de8\u578b\u79c1\u8425\u79d1\u6280/AI \u516c\u53f8\u7684 IPO \u901a\u9053\uff0c\u63cf\u7ed8\u6210\u4e00\u4e2a\u8db3\u4ee5\u8ba9\u5176\u4ed6\u98ce\u9669\u8d44\u4ea7\u5931\u8840\u7684\u6d41\u52a8\u6027\u9ed1\u6d1e\u3002\u4e00\u65e6\u8fd9\u4e9b\u4ea4\u6613\u5b9a\u4ef7\uff0c\u4f1a\u5728\u77ed\u65f6\u95f4\u5185\u4ece\u5e02\u573a\u62bd\u8d70\u6570\u767e\u4ebf\u7f8e\u5143\u2014\u2014\u8fd9\u662f\u5bf9\u5e02\u573a\u80fd\u5426\u5728\u4e0d\u538b\u57ae\u5176\u4ed6\u8d44\u4ea7\u7684\u524d\u63d0\u4e0b\u6d88\u5316 AI \u878d\u8d44\u6d6a\u6f6e\u7684\u4e00\u6b21\u538b\u529b\u6d4b\u8bd5\u3002\n",
       "emailed": false
     }
   ],
