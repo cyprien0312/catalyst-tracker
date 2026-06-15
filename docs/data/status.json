@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781510524,
-  "generated_at_str": "2026-06-15 08:02:04 UTC",
-  "last_event_ts": 1781509443,
+  "generated_at": 1781510719,
+  "generated_at_str": "2026-06-15 08:05:19 UTC",
+  "last_event_ts": 1781510719,
   "tables": {
     "alerts_dedup": {
-      "count": 869,
-      "last_ts": 1781507659,
-      "last_str": "2026-06-15 07:14:19 UTC"
+      "count": 870,
+      "last_ts": 1781510719,
+      "last_str": "2026-06-15 08:05:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-15 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 228,
-      "last_ts": 1781508904,
-      "last_str": "2026-06-15 07:35:04 UTC"
+      "count": 230,
+      "last_ts": 1781510704,
+      "last_str": "2026-06-15 08:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 113,
-      "last_ts": 1781508903,
-      "last_str": "2026-06-15 07:35:03 UTC"
+      "count": 114,
+      "last_ts": 1781510703,
+      "last_str": "2026-06-15 08:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 187,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 877,
+      "ts": 1781510719,
+      "ts_str": "2026-06-15 08:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron\u2019s HBM Production Is Sold Out Through 2026, but the Stock\u2019s Next Move Hinges on June 24 Ea - AD HOC NEWS",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 07:31:26 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0dyUTVKV3AzQWZDTXg1NDdHek5lSjV0cGgtcXFnUjltb2wxeVlCcmlYb25Pam1LYzk1dENXSDl0eWNJTGxNT25LWHd0bWVKWTFjeGw5RGlyVG45REpMRXRhdUxTM3pvZEh1MmVNblI4ZHhmcFA4SWx4Zjg4Zk9vZnpWcGlYQjBUMGcwSThCYk4zSE5KZzJZT2libFA0T3Q3aE9mclZGYmhUM1hfc3BrNDRmUnBHYURqS3ZxeTNISVJ4aFhEQzhZ?oc=5\n\nMicron\u2019s HBM Production Is Sold Out Through 2026, but the Stock\u2019s Next Move Hinges on June 24 Ea - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0dyUTVKV3AzQWZDTXg1NDdHek5lSjV0cGgtcXFnUjltb2wxeVlCcmlYb25Pam1LYzk1dENXSDl0eWNJTGxNT25LWHd0bWVKWTFjeGw5RGlyVG45REpMRXRhdUxTM3pvZEh1MmVNblI4ZHhmcFA4SWx4Zjg4Zk9vZnpWcGlYQjBUMGcwSThCYk4zSE5KZzJZT2libFA0T3Q3aE9mclZGYmhUM1hfc3BrNDRmUnBHYURqS3ZxeTNISVJ4aFhEQzhZ?oc=5\" target=\"_blank\">Micron\u2019s HBM Production Is Sold Out Through 2026, but the Stock\u2019s Next Move Hinges on June 24 Ea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports Micron's HBM (high-bandwidth memory) production is sold out through 2026, with the stock's next move pinned to its June 24 earnings.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Micron \u7684 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u4ea7\u80fd\u5df2\u552e\u7f44\u81f3 2026 \u5e74\uff0c\u800c\u80a1\u4ef7\u7684\u4e0b\u4e00\u6b65\u8d70\u52bf\u53d6\u51b3\u4e8e 6 \u6708 24 \u65e5\u7684\u8d22\u62a5\u3002\n\nWhy it matters:\nHBM sold out years in advance confirms AI accelerators are still supply-constrained at the memory layer \u2014 demand is real, not yet rolling over. But a sold-out book this far out also locks in capacity and pricing assumptions that only hold if AI capex keeps climbing; it's a leading indicator that turns sharply if hyperscaler orders soften.\n\n\u5f71\u54cd:\nHBM \u63d0\u524d\u6570\u5e74\u552e\u7f44\uff0c\u8bf4\u660e AI \u52a0\u901f\u5668\u5728\u5185\u5b58\u73af\u8282\u4ecd\u7136\u4f9b\u4e0d\u5e94\u6c42\u2014\u2014\u9700\u6c42\u662f\u771f\u5b9e\u7684\uff0c\u5c1a\u672a\u89c1\u9876\u3002\u4f46\u5982\u6b64\u63d0\u524d\u9501\u5b9a\u7684\u8ba2\u5355\u540c\u65f6\u4e5f\u628a\u4ea7\u80fd\u548c\u5b9a\u4ef7\u9884\u671f\u7ed1\u6b7b\u5728 AI capex \u6301\u7eed\u6500\u5347\u7684\u5047\u8bbe\u4e0a\uff1b\u4e00\u65e6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8ba2\u5355\u8d70\u5f31\uff0c\u8fd9\u4e2a\u5148\u884c\u6307\u6807\u4f1a\u8fc5\u901f\u53cd\u8f6c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 876,
       "ts": 1781507659,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files confidential IPO as Altman eyes 12-month window - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 01:51:41 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTF9UeUpRM3FFbzlab3ZtRi1aSDZZNGlsUnA3RTBmYTd2cHRLWVBkQW9STGlELUppb2hyRGV2czg3ZHJtTFJRUWM5LXNUdkhRTG5wTklIYldSZi1rcnhEUk5pRml5TGhxV1hpTEczRkxqek9BMjlnM1FpcjF1WGFxdW1HQVFCNEdKWGRnV3h0RzBMRzgtSFEyc3UwellxWlZwV3c4dUlyYTQxY3VlZHZTOHpmMUtMTG9tY01qX1ludEUzenRXdEgxWUZwYWJHVkVZVnV4MVFUVQ?oc=5\n\nOpenAI files confidential IPO as Altman eyes 12-month window - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTF9UeUpRM3FFbzlab3ZtRi1aSDZZNGlsUnA3RTBmYTd2cHRLWVBkQW9STGlELUppb2hyRGV2czg3ZHJtTFJRUWM5LXNUdkhRTG5wTklIYldSZi1rcnhEUk5pRml5TGhxV1hpTEczRkxqek9BMjlnM1FpcjF1WGFxdW1HQVFCNEdKWGRnV3h0RzBMRzgtSFEyc3UwellxWlZwV3c4dUlyYTQxY3VlZHZTOHpmMUtMTG9tY01qX1ludEUzenRXdEgxWUZwYWJHVkVZVnV4MVFUVQ?oc=5\" target=\"_blank\">OpenAI files confidential IPO as Altman eyes 12-month window</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that OpenAI has confidentially filed for an IPO, with Altman reportedly targeting a 12-month window to go public.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u5df2\u79d8\u5bc6\u63d0\u4ea4 IPO \u7533\u8bf7\uff0cAltman \u636e\u79f0\u7784\u51c6 12 \u4e2a\u6708\u5185\u4e0a\u5e02\u7684\u7a97\u53e3\u3002\n\nWhy it matters:\nAn OpenAI IPO would convert the single most-cited private validator of the AI-capex thesis into a public company exposed to quarterly scrutiny and mark-to-market pricing. A confidential filing signals the spend cycle now needs public equity markets to fund it \u2014 a classic sign that private capital alone can no longer carry the buildout.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u4f1a\u628a AI capex \u903b\u8f91\u4e2d\u6700\u5e38\u88ab\u5f15\u7528\u7684\u79c1\u6709\u80cc\u4e66\u8005\uff0c\u53d8\u6210\u4e00\u5bb6\u8981\u63a5\u53d7\u5b63\u5ea6\u5ba1\u89c6\u548c\u6309\u5e02\u4ef7\u5b9a\u4ef7\u7684\u4e0a\u5e02\u516c\u53f8\u3002\u79d8\u5bc6\u9012\u4ea4\u7533\u8bf7\u610f\u5473\u7740\u8fd9\u8f6e\u652f\u51fa\u5468\u671f\u5df2\u7ecf\u9700\u8981\u4f9d\u9760\u516c\u5f00\u80a1\u6743\u5e02\u573a\u6765\u878d\u8d44\u2014\u2014\u8fd9\u662f\u79c1\u6709\u8d44\u672c\u5355\u72ec\u5df2\u65e0\u529b\u652f\u6491\u8fd9\u573a\u5efa\u8bbe\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 678,
-      "ts": 1781147689,
-      "ts_str": "2026-06-11 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Perplexity plans 2028 IPO regardless of Anthropic or OpenAI listings, CNBC reports - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 00:48:56 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVXlqNC1sdXNCXzQ3dWxTTDFLR0x5TGhqazNtbkJiNUl5cWljZXNSNE1Uc25HbXhLelZXUkhyNzJ4WVNyYWhQSnRMT3hYT0RZUl9EOFgzVlFtN0NUT0JmYXBiNG1XWi1LQ1Zzbjd6elg4UXA2SDBseEVNajJfTGZOYkpQTmRiRFZ2eUxjczA0TE4xXy1MTWluV1lqNFFIdXI4X2lPa25BTjNmNk9GcFROQkFGYU15VUdldmpUUE5iNENPTERhZEJ6ME10Uk5CNjBj?oc=5\n\nPerplexity plans 2028 IPO regardless of Anthropic or OpenAI listings, CNBC reports - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVXlqNC1sdXNCXzQ3dWxTTDFLR0x5TGhqazNtbkJiNUl5cWljZXNSNE1Uc25HbXhLelZXUkhyNzJ4WVNyYWhQSnRMT3hYT0RZUl9EOFgzVlFtN0NUT0JmYXBiNG1XWi1LQ1Zzbjd6elg4UXA2SDBseEVNajJfTGZOYkpQTmRiRFZ2eUxjczA0TE4xXy1MTWluV1lqNFFIdXI4X2lPa25BTjNmNk9GcFROQkFGYU15VUdldmpUUE5iNENPTERhZEJ6ME10Uk5CNjBj?oc=5\" target=\"_blank\">Perplexity plans 2028 IPO regardless of Anthropic or OpenAI listings, CNBC reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC report (via MSN) says Perplexity plans a 2028 IPO regardless of whether Anthropic or OpenAI list first.\n\n\u5185\u5bb9:\nCNBC \u62a5\u9053\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u79f0\uff0cPerplexity \u8ba1\u5212\u5728 2028 \u5e74 IPO\uff0c\u65e0\u8bba Anthropic \u6216 OpenAI \u662f\u5426\u5148\u4e0a\u5e02\u3002\n\nWhy it matters:\nAnother AI company signaling it wants public-market exit liquidity by 2028 \u2014 a sign the private funding round can't continue indefinitely and insiders are eyeing the exit. A cluster of AI IPOs converging on the same window is how late-cycle froth typically gets distributed to public investors.\n\n\u5f71\u54cd:\n\u53c8\u4e00\u5bb6 AI \u516c\u53f8\u91ca\u653e\u51fa\u8981\u5728 2028 \u5e74\u5bfb\u6c42\u516c\u5f00\u5e02\u573a\u9000\u51fa\u53d8\u73b0\u7684\u4fe1\u53f7\uff0c\u8bf4\u660e\u79c1\u52df\u878d\u8d44\u65e0\u6cd5\u65e0\u9650\u7eed\u547d\uff0c\u5185\u90e8\u4eba\u5f00\u59cb\u76ef\u7740\u9000\u51fa\u901a\u9053\u3002\u591a\u5bb6 AI \u516c\u53f8\u7684 IPO \u96c6\u4e2d\u6324\u5411\u540c\u4e00\u65f6\u95f4\u7a97\u53e3\uff0c\u6b63\u662f\u5468\u671f\u665a\u671f\u6ce1\u6cab\u5411\u516c\u4f17\u6295\u8d44\u8005\u6d3e\u53d1\u7684\u5178\u578b\u65b9\u5f0f\u3002\n",
       "emailed": false
     }
   ],
