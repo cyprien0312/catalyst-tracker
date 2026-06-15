@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781539890,
-  "generated_at_str": "2026-06-15 16:11:30 UTC",
-  "last_event_ts": 1781539685,
+  "generated_at": 1781540063,
+  "generated_at_str": "2026-06-15 16:14:23 UTC",
+  "last_event_ts": 1781540062,
   "tables": {
     "alerts_dedup": {
-      "count": 891,
-      "last_ts": 1781538262,
-      "last_str": "2026-06-15 15:44:22 UTC"
+      "count": 892,
+      "last_ts": 1781540062,
+      "last_str": "2026-06-15 16:14:22 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1823,
-      "last_ts": 1781538243,
-      "last_str": "2026-06-15 15:44:03 UTC"
+      "count": 1826,
+      "last_ts": 1781540044,
+      "last_str": "2026-06-15 16:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 382,
-      "last_ts": 1781529244,
-      "last_str": "2026-06-15 13:14:04 UTC"
+      "count": 384,
+      "last_ts": 1781540045,
+      "last_str": "2026-06-15 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 217,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-15 16:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9203,
-      "last_ts": 1781538242,
-      "last_str": "2026-06-15 15:44:02 UTC"
+      "count": 9217,
+      "last_ts": 1781540043,
+      "last_str": "2026-06-15 16:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 899,
+      "ts": 1781540062,
+      "ts_str": "2026-06-15 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Kraken Lists Pre-IPO Perpetuals On Anthropic, OpenAI - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 15:31:40 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxOVFREekZXOXJ4Q3preVJYLXEyQ3hWd204WEdRTVhFemdCVlVZVFVTZkFaTThWLUJHOTRLYWtBVWFsczFNZDBoSmNQa0lmNFBKLVN2WnAxRU5WVkUtNHhwYVBvMzFETXNpYm5UWEpLUUZCMmRzUldQcUlWZms5NkwtUjJNY04zZVZoTFMxWlF4NHJKemJFTU1pZ0N6d3NqTS1za0NMdTlEY1pmYVBMTWRfX0VCX0RDZTZaUUc4ckpR?oc=5\n\nKraken Lists Pre-IPO Perpetuals On Anthropic, OpenAI - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOVFREekZXOXJ4Q3preVJYLXEyQ3hWd204WEdRTVhFemdCVlVZVFVTZkFaTThWLUJHOTRLYWtBVWFsczFNZDBoSmNQa0lmNFBKLVN2WnAxRU5WVkUtNHhwYVBvMzFETXNpYm5UWEpLUUZCMmRzUldQcUlWZms5NkwtUjJNY04zZVZoTFMxWlF4NHJKemJFTU1pZ0N6d3NqTS1za0NMdTlEY1pmYVBMTWRfX0VCX0RDZTZaUUc4ckpR?oc=5\" target=\"_blank\">Kraken Lists Pre-IPO Perpetuals On Anthropic, OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nKraken has listed pre-IPO perpetual futures on Anthropic and OpenAI, letting traders take leveraged long/short positions on the two AI labs before either has gone public.\n\n\u5185\u5bb9:\nKraken \u4e0a\u7ebf\u4e86 Anthropic \u548c OpenAI \u7684 pre-IPO \u6c38\u7eed\u5408\u7ea6 (perpetuals)\uff0c\u8ba9\u4ea4\u6613\u8005\u5728\u8fd9\u4e24\u5bb6 AI \u516c\u53f8\u4e0a\u5e02\u524d\u5c31\u80fd\u5bf9\u5176\u8fdb\u884c\u6760\u6746\u505a\u591a/\u505a\u7a7a\u3002\n\nWhy it matters:\nTradable pre-IPO perpetuals create a continuous market price \u2014 and therefore a short side \u2014 on the two flagship private AI names. That hands bears a liquid instrument to express the bubble-stress thesis and makes private-market valuations visible and contestable in real time, rather than frozen at the last funding round.\n\n\u5f71\u54cd:\n\u53ef\u4ea4\u6613\u7684 pre-IPO \u6c38\u7eed\u5408\u7ea6\u4e3a\u8fd9\u4e24\u5bb6\u5934\u90e8\u672a\u4e0a\u5e02 AI \u516c\u53f8\u63d0\u4f9b\u4e86\u8fde\u7eed\u7684\u5e02\u573a\u4ef7\u683c\uff0c\u4e5f\u5c31\u63d0\u4f9b\u4e86\u505a\u7a7a\u7684\u6e20\u9053\u3002\u7a7a\u5934\u7531\u6b64\u83b7\u5f97\u4e86\u8868\u8fbe\u6ce1\u6cab\u538b\u529b\u903b\u8f91\u7684\u6d41\u52a8\u6027\u5de5\u5177\uff0c\u79c1\u52df\u4f30\u503c\u4e0d\u518d\u505c\u7559\u5728\u4e0a\u4e00\u8f6e\u878d\u8d44\u7684\u6570\u5b57\u4e0a\uff0c\u800c\u662f\u53ef\u4ee5\u88ab\u5b9e\u65f6\u5b9a\u4ef7\u548c\u6311\u6218\u3002\n",
+      "emailed": false
+    },
     {
       "id": 898,
       "ts": 1781538262,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Will SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto? - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 10:23:24 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3puVkwyOWZla21HWUlhNl9RRGFKWldVQWZmTDB4RzlfenlIczNKQWpqX2xPT1JNLUZxOE5FNHlwdDVzTzZJWHpnSjhsbmVVQ1dHbTBZRF94Z05GWU5TUHI3ZUplZUFoOWIxd1JOTkhXYk5vNGtlT3RVLWpMUlRhN2FJR1cxRDBoU3MwanZOc050RGpUNFRRb29HWTFwek4tNmtORGF5N3dGZHpGOC15SWhIdmM5ZkdiTXhkQ3EtOU0ycG1uSEZIOQ?oc=5\n\nWill SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto? - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3puVkwyOWZla21HWUlhNl9RRGFKWldVQWZmTDB4RzlfenlIczNKQWpqX2xPT1JNLUZxOE5FNHlwdDVzTzZJWHpnSjhsbmVVQ1dHbTBZRF94Z05GWU5TUHI3ZUplZUFoOWIxd1JOTkhXYk5vNGtlT3RVLWpMUlRhN2FJR1cxRDBoU3MwanZOc050RGpUNFRRb29HWTFwek4tNmtORGF5N3dGZHpGOC15SWhIdmM5ZkdiTXhkQ3EtOU0ycG1uSEZIOQ?oc=5\" target=\"_blank\">Will SpaceX, Anthropic, and OpenAI IPO Steal All Liquidity From Crypto?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingView headline asks whether the SpaceX, Anthropic, and OpenAI IPOs will drain all liquidity out of crypto.\n\n\u5185\u5bb9:\nTradingView \u7684\u4e00\u5219\u6807\u9898\u53d1\u95ee\uff1aSpaceX\u3001Anthropic \u548c OpenAI \u7684 IPO \u662f\u5426\u4f1a\u628a\u6d41\u52a8\u6027\u4ece crypto \u4e2d\u5168\u90e8\u62bd\u8d70\u3002\n\nWhy it matters:\nFrames the mega-cap private AI/tech IPO pipeline as a liquidity sink large enough to starve other risk assets. If these deals price, they pull tens of billions out of the market in a short window \u2014 a stress test for whether there's enough capital to absorb the AI-funding wave without something else cracking.\n\n\u5f71\u54cd:\n\u8fd9\u628a SpaceX\u3001Anthropic\u3001OpenAI \u8fd9\u6279\u5de8\u578b\u79c1\u8425\u79d1\u6280/AI \u516c\u53f8\u7684 IPO \u901a\u9053\uff0c\u63cf\u7ed8\u6210\u4e00\u4e2a\u8db3\u4ee5\u8ba9\u5176\u4ed6\u98ce\u9669\u8d44\u4ea7\u5931\u8840\u7684\u6d41\u52a8\u6027\u9ed1\u6d1e\u3002\u4e00\u65e6\u8fd9\u4e9b\u4ea4\u6613\u5b9a\u4ef7\uff0c\u4f1a\u5728\u77ed\u65f6\u95f4\u5185\u4ece\u5e02\u573a\u62bd\u8d70\u6570\u767e\u4ebf\u7f8e\u5143\u2014\u2014\u8fd9\u662f\u5bf9\u5e02\u573a\u80fd\u5426\u5728\u4e0d\u538b\u57ae\u5176\u4ed6\u8d44\u4ea7\u7684\u524d\u63d0\u4e0b\u6d88\u5316 AI \u878d\u8d44\u6d6a\u6f6e\u7684\u4e00\u6b21\u538b\u529b\u6d4b\u8bd5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 699,
-      "ts": 1781176459,
-      "ts_str": "2026-06-11 11:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic and OpenAI Compete for First AI IPO as Rivalry Intensifies - News and Statistics - IndexBox",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 10:53:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEJvejRxV0ctYV9UUk5PNy1tbGFnMGZCZXFiYU55QnZ2US14RHdVaGxmb2JiYlNHVkZMYUxycGYwSDFuMHFOb2o1YzBmWjFkY1pjdGhTVHQ5dTZqX0t2emJNWHJGel9TTGhxcm84SDJtVFZSTGo0WEpHbnRRamhHNG5fcWtadExCTmtvM3hn?oc=5\n\nAnthropic and OpenAI Compete for First AI IPO as Rivalry Intensifies - News and Statistics - IndexBox\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEJvejRxV0ctYV9UUk5PNy1tbGFnMGZCZXFiYU55QnZ2US14RHdVaGxmb2JiYlNHVkZMYUxycGYwSDFuMHFOb2o1YzBmWjFkY1pjdGhTVHQ5dTZqX0t2emJNWHJGel9TTGhxcm84SDJtVFZSTGo0WEpHbnRRamhHNG5fcWtadExCTmtvM3hn?oc=5\" target=\"_blank\">Anthropic and OpenAI Compete for First AI IPO as Rivalry Intensifies - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flags that Anthropic and OpenAI are competing to be the first major AI lab to IPO as their rivalry intensifies.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u6307\u51fa\uff0c\u968f\u7740\u7ade\u4e89\u52a0\u5267\uff0cAnthropic \u4e0e OpenAI \u6b63\u5728\u4e89\u593a\u6210\u4e3a\u9996\u5bb6 IPO \u7684\u4e3b\u8981 AI \u516c\u53f8\u3002\n\nWhy it matters:\nAn IPO push signals the private funding runway is tightening \u2014 labs that could previously raise unlimited private capital are now eyeing public markets to fund compute spend. First-mover IPO talk is often a top-of-cycle marker, when insiders seek exit liquidity before the AI-capex thesis is tested by public-market scrutiny.\n\n\u5f71\u54cd:\n\u63a8\u8fdb IPO \u8bf4\u660e\u79c1\u52df\u878d\u8d44\u7684\u8dd1\u9053\u6b63\u5728\u6536\u7a84\u2014\u2014\u8fc7\u53bb\u80fd\u65e0\u9650\u91cf\u79c1\u52df\u878d\u8d44\u7684\u5b9e\u9a8c\u5ba4\uff0c\u73b0\u5728\u5f00\u59cb\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u6765\u652f\u6491\u7b97\u529b\u652f\u51fa\u3002\u62a2\u5148 IPO \u7684\u8bf4\u6cd5\u5f80\u5f80\u662f\u5468\u671f\u9876\u90e8\u7684\u4fe1\u53f7\uff0c\u610f\u5473\u7740\u5185\u90e8\u4eba\u60f3\u5728 AI capex \u903b\u8f91\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u68c0\u9a8c\u4e4b\u524d\u5957\u73b0\u79bb\u573a\u3002\n",
       "emailed": false
     }
   ],
