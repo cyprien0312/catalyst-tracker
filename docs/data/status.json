@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781640662,
-  "generated_at_str": "2026-06-16 20:11:02 UTC",
-  "last_event_ts": 1781640305,
+  "generated_at": 1781640862,
+  "generated_at_str": "2026-06-16 20:14:22 UTC",
+  "last_event_ts": 1781640862,
   "tables": {
     "alerts_dedup": {
-      "count": 963,
-      "last_ts": 1781637256,
-      "last_str": "2026-06-16 19:14:16 UTC"
+      "count": 964,
+      "last_ts": 1781640862,
+      "last_str": "2026-06-16 20:14:22 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1890,
-      "last_ts": 1781639044,
-      "last_str": "2026-06-16 19:44:04 UTC"
+      "count": 1896,
+      "last_ts": 1781640844,
+      "last_str": "2026-06-16 20:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 396,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-16 20:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9554,
-      "last_ts": 1781639043,
-      "last_str": "2026-06-16 19:44:03 UTC"
+      "count": 9558,
+      "last_ts": 1781640843,
+      "last_str": "2026-06-16 20:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 971,
+      "ts": 1781640862,
+      "ts_str": "2026-06-16 20:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SpaceX Investor Powerlaw Debuts Amid IPO Race",
+      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Tue, 16 Jun 2026 19:40:16 GMT\nLink:      https://www.bloomberg.com/news/videos/2026-06-16/spacex-investor-powerlaw-debuts-amid-ipo-race-video\n\nSpaceX Investor Powerlaw Debuts Amid IPO Race\n\nPowerlaw, a closed-end fund that owns stakes in Elon Musk\u2019s\u00a0SpaceX\u00a0and artificial intelligence firm\u00a0OpenAI, traded well above the value of its underlying investments in its debut, capitalizing on retail investors\u2019 clamor for exposure to the hottest private tech companies. Bloomberg's Anthony Hughes and Mike Dinsdale, CEO at Powerlaw join to discuss Powerlaw\u2019s platform allowing exposure to private tech companies as well as the IPO enviroment.  (Source: Bloomberg)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPowerlaw, a closed-end fund holding stakes in SpaceX and OpenAI, debuted trading well above the value of its underlying investments, driven by retail demand for exposure to hot private tech names.\n\n\u5185\u5bb9:\nPowerlaw \u662f\u4e00\u53ea\u6301\u6709 SpaceX \u548c OpenAI \u80a1\u6743\u7684\u5c01\u95ed\u5f0f\u57fa\u91d1\uff0c\u4e0a\u5e02\u9996\u65e5\u4ea4\u6613\u4ef7\u683c\u8fdc\u9ad8\u4e8e\u5176\u5e95\u5c42\u6295\u8d44\u7684\u5b9e\u9645\u4ef7\u503c\uff0c\u80cc\u540e\u662f\u6563\u6237\u5bf9\u70ed\u95e8\u79c1\u8425\u79d1\u6280\u516c\u53f8\u655e\u53e3\u7684\u62a2\u8d2d\u9700\u6c42\u3002\n\nWhy it matters:\nA closed-end fund trading at a large premium to NAV is a textbook sign of retail mania \u2014 investors are paying more than $1 for $1 of assets just to access OpenAI/SpaceX. Premiums like this typically appear near the top of a hype cycle and unwind hard when sentiment turns.\n\n\u5f71\u54cd:\n\u5c01\u95ed\u5f0f\u57fa\u91d1\u76f8\u5bf9\u51c0\u503c\uff08NAV\uff09\u5927\u5e45\u6ea2\u4ef7\u662f\u5178\u578b\u7684\u6563\u6237\u72c2\u70ed\u4fe1\u53f7\u2014\u2014\u6295\u8d44\u8005\u4e3a\u4e86\u83b7\u5f97 OpenAI/SpaceX \u7684\u655e\u53e3\uff0c\u613f\u610f\u82b1\u8d85\u8fc7 $1 \u53bb\u4e70\u4ef7\u503c $1 \u7684\u8d44\u4ea7\u3002\u8fd9\u79cd\u6ea2\u4ef7\u901a\u5e38\u51fa\u73b0\u5728\u7092\u4f5c\u5468\u671f\u7684\u9876\u90e8\u9644\u8fd1\uff0c\u4e00\u65e6\u60c5\u7eea\u53cd\u8f6c\u5c31\u4f1a\u5267\u70c8\u56de\u5410\u3002\n",
+      "emailed": false
+    },
     {
       "id": 970,
       "ts": 1781637256,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files for IPO, setting stage for three massive California tech public company debuts - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 11:01:20 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQU16SW9YQ1NOWVBRZ282eWl1QXNYYTRxUm1WVExudktHSGh0Q1BqYnZPVV9GZWVmRzczR3M4M0tPcHoxOFpFLThoVThEVVJ0RW9aSFJjc2RNeFRVbFBpVjRIZE42ZkptMUd6TzAzajF5ZXg3MUlmOTROejRQSUU3TkFTeTJINEpicmFIN1Z0WXlUTThRbGFCTEVuNDdQcUNFTVZid2htTV84UGY3T01kVGl0VkZfWGEtX1Y4TVRPVVFSbHZzMnBabXBRaDJIdHF3ZUo3eXZUaks3b0NM?oc=5\n\nOpenAI files for IPO, setting stage for three massive California tech public company debuts - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQU16SW9YQ1NOWVBRZ282eWl1QXNYYTRxUm1WVExudktHSGh0Q1BqYnZPVV9GZWVmRzczR3M4M0tPcHoxOFpFLThoVThEVVJ0RW9aSFJjc2RNeFRVbFBpVjRIZE42ZkptMUd6TzAzajF5ZXg3MUlmOTROejRQSUU3TkFTeTJINEpicmFIN1Z0WXlUTThRbGFCTEVuNDdQcUNFTVZid2htTV84UGY3T01kVGl0VkZfWGEtX1Y4TVRPVVFSbHZzMnBabXBRaDJIdHF3ZUo3eXZUaks3b0NM?oc=5\" target=\"_blank\">OpenAI files for IPO, setting stage for three massive California tech public company debuts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 771,
-      "ts": 1781360046,
-      "ts_str": "2026-06-13 14:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026 - FourWeekMBA",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 14:07:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzdhRVQ3by1iR0E2TzBScFJXSjEwVzdUMC1OZW92aEJKV1FfdHVNWlZRWGRCSkswUk9EQktvRmFKaS11RkV5TXdtZlRtMm1KZFZtamRaTGNnTkREQmVhRUc1Zk41SDkxSWdtRXJWQVJUSm1VVjcxRmlNUHpEbHduQnhn?oc=5\n\nSpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026 - FourWeekMBA\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzdhRVQ3by1iR0E2TzBScFJXSjEwVzdUMC1OZW92aEJKV1FfdHVNWlZRWGRCSkswUk9EQktvRmFKaS11RkV5TXdtZlRtMm1KZFZtamRaTGNnTkREQmVhRUc1Zk41SDkxSWdtRXJWQVJUSm1VVjcxRmlNUHpEbHduQnhn?oc=5\" target=\"_blank\">SpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FourWeekMBA</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
