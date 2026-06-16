@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781598723,
-  "generated_at_str": "2026-06-16 08:32:03 UTC",
-  "last_event_ts": 1781597658,
+  "generated_at": 1781598917,
+  "generated_at_str": "2026-06-16 08:35:17 UTC",
+  "last_event_ts": 1781598917,
   "tables": {
     "alerts_dedup": {
-      "count": 937,
-      "last_ts": 1781597658,
-      "last_str": "2026-06-16 08:14:18 UTC"
+      "count": 938,
+      "last_ts": 1781598917,
+      "last_str": "2026-06-16 08:35:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -59,9 +59,9 @@
       "last_str": "2026-06-16 08:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 317,
-      "last_ts": 1781597104,
-      "last_str": "2026-06-16 08:05:04 UTC"
+      "count": 319,
+      "last_ts": 1781598903,
+      "last_str": "2026-06-16 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 144,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-16 08:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 256,
-      "last_ts": 1781593504,
-      "last_str": "2026-06-16 07:05:04 UTC"
+      "count": 257,
+      "last_ts": 1781598904,
+      "last_str": "2026-06-16 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9375,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 945,
+      "ts": 1781598917,
+      "ts_str": "2026-06-16 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Data Storage Market Prices to Rise: HDD Shortage to Last Until 2028 - Zamin.uz",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 07:51:36 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxObzlVVVBEckVoSnFyTkl1MnM3TzQ5ZUFDRHpfUXRZemRtanc2NXoyU3RYa0tIMEJWUzZRTzNPQ21WbW9vZnJqWjBYaHlnTDRYNXpKTDhpOFhIN3g0SnNnUlhnZ3FScWhoY3NDNHFkaDZHTlo3MTZ4RUVralNMTUVFSzdqWG95SzY1V0FZc2RtZGVfWm1LZldGQWlWUm9fWnkwZ3dVbktjQjEtT05lQ2c?oc=5\n\nData Storage Market Prices to Rise: HDD Shortage to Last Until 2028 - Zamin.uz\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObzlVVVBEckVoSnFyTkl1MnM3TzQ5ZUFDRHpfUXRZemRtanc2NXoyU3RYa0tIMEJWUzZRTzNPQ21WbW9vZnJqWjBYaHlnTDRYNXpKTDhpOFhIN3g0SnNnUlhnZ3FScWhoY3NDNHFkaDZHTlo3MTZ4RUVralNMTUVFSzdqWG95SzY1V0FZc2RtZGVfWm1LZldGQWlWUm9fWnkwZ3dVbktjQjEtT05lQ2c?oc=5\" target=\"_blank\">Data Storage Market Prices to Rise: HDD Shortage to Last Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Zamin.uz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports data-storage prices are set to rise, with an HDD shortage forecast to last until 2028.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\u6570\u636e\u5b58\u50a8\u4ef7\u683c\u5c06\u4e0a\u6da8\uff0c\u5e76\u9884\u6d4b HDD \u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nAI buildout is now tightening supply in adjacent hardware markets, not just GPUs. A multi-year HDD shortage raises storage capex and signals the AI-infrastructure demand shock is spilling into commodity components \u2014 broadening the cost pressure underpinning the bubble-stress thesis.\n\n\u5f71\u54cd:\nAI \u5efa\u8bbe\u6b63\u5728\u6536\u7d27 GPU \u4ee5\u5916\u7684\u76f8\u90bb\u786c\u4ef6\u5e02\u573a\u4f9b\u7ed9\u3002\u957f\u8fbe\u6570\u5e74\u7684 HDD \u77ed\u7f3a\u4f1a\u63a8\u9ad8\u5b58\u50a8\u8d44\u672c\u5f00\u652f\uff0c\u8868\u660e AI \u57fa\u7840\u8bbe\u65bd\u7684\u9700\u6c42\u51b2\u51fb\u6b63\u8513\u5ef6\u5230\u901a\u7528\u5143\u5668\u4ef6\uff0c\u6269\u5927\u4e86\u652f\u6491\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u7684\u6210\u672c\u538b\u529b\u9762\u3002\n",
+      "emailed": false
+    },
     {
       "id": 944,
       "ts": 1781597658,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX gave the IPO playbook to OpenAI and Anthropic, says Axios' Dan Primack - CNBC",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 17:28:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxQS25VU2xYTUJidXFxY1Z2U2ZlZkFpX1FKbW9DMTNQYkt2T1lPSEUzQ0hkdjdfRTZ3RDI0WHhRVG9SVGYtcWlQMnc5ZHZlYVItLUJzMk9NX1BfYmctSm9zdVFrYmpkNTRhOUhJeUFDOE5KaEZkN05DTjhVNTlzeGVlNXVyeXVXT3dWaHV4WUEtQ3MwRnhPMTE5OW0zbGctYy1LUXRoaVZ6cFZDQmVXRVpjbVQwVGZqVERNWEE?oc=5\n\nSpaceX gave the IPO playbook to OpenAI and Anthropic, says Axios' Dan Primack - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQS25VU2xYTUJidXFxY1Z2U2ZlZkFpX1FKbW9DMTNQYkt2T1lPSEUzQ0hkdjdfRTZ3RDI0WHhRVG9SVGYtcWlQMnc5ZHZlYVItLUJzMk9NX1BfYmctSm9zdVFrYmpkNTRhOUhJeUFDOE5KaEZkN05DTjhVNTlzeGVlNXVyeXVXT3dWaHV4WUEtQ3MwRnhPMTE5OW0zbGctYy1LUXRoaVZ6cFZDQmVXRVpjbVQwVGZqVERNWEE?oc=5\" target=\"_blank\">SpaceX gave the IPO playbook to OpenAI and Anthropic, says Axios' Dan Primack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC story (via Axios' Dan Primack) reports that SpaceX has shared its IPO playbook with OpenAI and Anthropic, signaling both labs are laying groundwork for eventual public listings.\n\n\u5185\u5bb9:\nCNBC \u62a5\u9053\uff08\u6d88\u606f\u6765\u81ea Axios \u7684 Dan Primack\uff09\uff1aSpaceX \u5df2\u5c06\u5176 IPO \u64cd\u4f5c\u624b\u518c\u5206\u4eab\u7ed9 OpenAI \u548c Anthropic\uff0c\u8868\u660e\u8fd9\u4e24\u5bb6 AI \u5b9e\u9a8c\u5ba4\u90fd\u5728\u4e3a\u6700\u7ec8\u4e0a\u5e02\u505a\u94fa\u57ab\u3002\n\nWhy it matters:\nIPO preparation by the largest private AI labs suggests insiders see the current window as the time to convert paper valuations into public-market capital. Mega-IPOs at peak valuations are a classic late-cycle liquidity event \u2014 they shift funding risk from private backers to public investors and often mark the top of a capex narrative.\n\n\u5f71\u54cd:\n\u6700\u5927\u7684\u79c1\u8425 AI \u5b9e\u9a8c\u5ba4\u5f00\u59cb\u7b79\u5907 IPO\uff0c\u8bf4\u660e\u5185\u90e8\u4eba\u8ba4\u4e3a\u5f53\u524d\u662f\u628a\u7eb8\u9762\u4f30\u503c\u5151\u73b0\u4e3a\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u7684\u7a97\u53e3\u671f\u3002\u5728\u4f30\u503c\u9ad8\u70b9\u8fdb\u884c\u8d85\u5927\u578b IPO \u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5b83\u628a\u878d\u8d44\u98ce\u9669\u4ece\u79c1\u4eba\u6295\u8d44\u65b9\u8f6c\u79fb\u7ed9\u516c\u4f17\u6295\u8d44\u8005\uff0c\u5f80\u5f80\u6807\u5fd7\u7740 capex \u53d9\u4e8b\u7684\u9876\u90e8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 744,
-      "ts": 1781298875,
-      "ts_str": "2026-06-12 21:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI says it filed confidential IPO as it positions itself for AI arms race - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 15:43:46 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWJtNXRDTzlNVnBwRFBMcWd6bWgwMzRSZk9sVFBxUl9QTW5hbjFVWERvbVFwc3ZPRkFZdURMWHFqOU1lcW56YU9WY3d2emliUXpNVnZ2Vl9nYWNVZnhIQ3pZNmpuNFZZNjlHaUhBbWpmcG1ISDZNVFZreHdtZDM0bGNQSkw?oc=5\n\nOpenAI says it filed confidential IPO as it positions itself for AI arms race - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWJtNXRDTzlNVnBwRFBMcWd6bWgwMzRSZk9sVFBxUl9QTW5hbjFVWERvbVFwc3ZPRkFZdURMWHFqOU1lcW56YU9WY3d2emliUXpNVnZ2Vl9nYWNVZnhIQ3pZNmpuNFZZNjlHaUhBbWpmcG1ISDZNVFZreHdtZDM0bGNQSkw?oc=5\" target=\"_blank\">OpenAI says it filed confidential IPO as it positions itself for AI arms race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News surfaced a report (via AOL.com) that OpenAI says it has filed a confidential IPO, positioning itself for the AI arms race.\n\n\u5185\u5bb9:\nGoogle News \u8f6c\u8f7d AOL.com \u62a5\u9053\uff1aOpenAI \u8868\u793a\u5df2\u79d8\u5bc6\u63d0\u4ea4 IPO \u7533\u8bf7\uff08confidential IPO\uff09\uff0c\u4e3a AI \u519b\u5907\u7ade\u8d5b\u505a\u51c6\u5907\u3002\n\nWhy it matters:\nAn OpenAI IPO would mark the largest private AI bet seeking public-market exit liquidity \u2014 insiders and late-stage investors converting paper gains into cash. Heavy supply of AI equity hitting public markets near peak enthusiasm is a classic late-cycle marker for the bubble-stress thesis.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u610f\u5473\u7740\u6700\u5927\u7684\u4e00\u7b14\u79c1\u52df AI \u62bc\u6ce8\u5f00\u59cb\u5bfb\u6c42\u516c\u5f00\u5e02\u573a\u9000\u51fa\u2014\u2014\u5185\u90e8\u4eba\u548c\u540e\u671f\u6295\u8d44\u8005\u628a\u8d26\u9762\u6536\u76ca\u53d8\u73b0\u3002\u5728\u5e02\u573a\u70ed\u60c5\u63a5\u8fd1\u9876\u70b9\u65f6\u5927\u91cf AI \u80a1\u6743\u4f9b\u7ed9\u6d8c\u5411\u4e8c\u7ea7\u5e02\u573a\uff0c\u662f\u6ce1\u6cab\u538b\u529b\u903b\u8f91\u4e0b\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
