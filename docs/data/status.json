@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781602862,
-  "generated_at_str": "2026-06-16 09:41:02 UTC",
-  "last_event_ts": 1781602504,
+  "generated_at": 1781603072,
+  "generated_at_str": "2026-06-16 09:44:32 UTC",
+  "last_event_ts": 1781603072,
   "tables": {
     "alerts_dedup": {
-      "count": 943,
-      "last_ts": 1781601270,
-      "last_str": "2026-06-16 09:14:30 UTC"
+      "count": 945,
+      "last_ts": 1781603072,
+      "last_str": "2026-06-16 09:44:32 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-16 09:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 391,
-      "last_ts": 1781601245,
-      "last_str": "2026-06-16 09:14:05 UTC"
+      "count": 392,
+      "last_ts": 1781603045,
+      "last_str": "2026-06-16 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 264,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-16 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9397,
-      "last_ts": 1781601243,
-      "last_str": "2026-06-16 09:14:03 UTC"
+      "count": 9409,
+      "last_ts": 1781603043,
+      "last_str": "2026-06-16 09:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 951,
+      "ts": 1781603072,
+      "ts_str": "2026-06-16 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:41:19 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWNVZ2s5alcwMnItd0l4SkVpV0I4M2prb0JHc1hoYkV6SmRXZG1qYi1VSzY1OFZ0SGt1alBkZnN6aVkxbl9CeXQ3QVpJR2tUSGNtUmIteTdCZnJZNGJRdU5WVVdFQkRSQUV2cnhxWnd4NTUxYk5TX1RSbUpWcEYxaGZ4ZzBkVk90WUhRQXVzblAyMktYTVZwVGw3aTVTWXVXQmJ1b2dURDd2T1lXUUs0aTNKWnVDdURhV1k4U0RoWElkLTg4UmlES3V4QXBEQ0hjcFNKNktYMjJvM3E5aFdycEwzTzBTVDQ?oc=5\n\nOpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWNVZ2s5alcwMnItd0l4SkVpV0I4M2prb0JHc1hoYkV6SmRXZG1qYi1VSzY1OFZ0SGt1alBkZnN6aVkxbl9CeXQ3QVpJR2tUSGNtUmIteTdCZnJZNGJRdU5WVVdFQkRSQUV2cnhxWnd4NTUxYk5TX1RSbUpWcEYxaGZ4ZzBkVk90WUhRQXVzblAyMktYTVZwVGw3aTVTWXVXQmJ1b2dURDd2T1lXUUs0aTNKWnVDdURhV1k4U0RoWElkLTg4UmlES3V4QXBEQ0hjcFNKNktYMjJvM3E5aFdycEwzTzBTVDQ?oc=5\" target=\"_blank\">OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News (via MSN) is carrying an FT report that OpenAI's spending hit $34 billion last year, surfacing ahead of a planned IPO.\n\n\u5185\u5bb9:\nGoogle News\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u63f4\u5f15 FT \u62a5\u9053\uff0cOpenAI \u53bb\u5e74\u7684\u652f\u51fa\u8fbe\u5230 340 \u4ebf\u7f8e\u5143\uff08$34 billion\uff09\uff0c\u4e14\u6d88\u606f\u51fa\u73b0\u5728\u5176\u8ba1\u5212 IPO \u4e4b\u524d\u3002\n\nWhy it matters:\n$34B of annual cash burn at a still-private company is the demand side of the AI-capex bubble \u2014 it is the spending that funds hyperscaler and neocloud revenue. Floating it into an IPO narrative signals OpenAI needs public-market capital to keep the burn going, which makes the whole AI buildout dependent on continued external funding.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u7684\u516c\u53f8\u6bcf\u5e74\u70e7\u6389 $34B \u73b0\u91d1\uff0c\u6b63\u662f AI capex \u6ce1\u6cab\u7684\u9700\u6c42\u7aef\u2014\u2014\u8fd9\u4e9b\u652f\u51fa\u6491\u8d77\u4e86\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u6536\u5165\u3002\u628a\u5b83\u5305\u88c5\u8fdb IPO \u53d9\u4e8b\uff0c\u8bf4\u660e OpenAI \u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u6765\u7ef4\u6301\u70e7\u94b1\uff0c\u8fd9\u610f\u5473\u7740\u6574\u4e2a AI \u57fa\u5efa\u6269\u5f20\u4f9d\u8d56\u4e8e\u6301\u7eed\u7684\u5916\u90e8\u8f93\u8840\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 952,
+      "ts": 1781603072,
+      "ts_str": "2026-06-16 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI spending hit $34 bln in 2025 ahead of planned IPO- FT - Investing.com Nigeria",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 04:44:20 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQYnhwZl91T2hILUk2NDVLNXpaWGxXSldtMzYyMG81bXZuRFNmQ1VtRU1HakZiYjZUSE03SzF0UXBObWU0ZUgwcnp2VGhmZEpBMzBsbU5VVU9Yb1lJWFl2dDZPUlBXUDZhcnZ5MWZkVUlBQm1JaG9xVmpTbWdsRkkzV0xaS2RaYTNHbEdBSjE5Y1hpSUZkR1pzYktVcDBtQ3NkV1g1Unh6MFdweVE0Y19vN0ZiTk4?oc=5\n\nOpenAI spending hit $34 bln in 2025 ahead of planned IPO- FT - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQYnhwZl91T2hILUk2NDVLNXpaWGxXSldtMzYyMG81bXZuRFNmQ1VtRU1HakZiYjZUSE03SzF0UXBObWU0ZUgwcnp2VGhmZEpBMzBsbU5VVU9Yb1lJWFl2dDZPUlBXUDZhcnZ5MWZkVUlBQm1JaG9xVmpTbWdsRkkzV0xaS2RaYTNHbEdBSjE5Y1hpSUZkR1pzYktVcDBtQ3NkV1g1Unh6MFdweVE0Y19vN0ZiTk4?oc=5\" target=\"_blank\">OpenAI spending hit $34 bln in 2025 ahead of planned IPO- FT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn FT story, surfaced via Google News RSS, reports OpenAI's spending hit $34bln in 2025 ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u7ecf Google News RSS \u6293\u53d6\u7684 FT \u62a5\u9053\u79f0\uff0cOpenAI \u5728 2025 \u5e74\u7684\u652f\u51fa\u8fbe\u5230 $34bln\uff0c\u5e76\u5728\u4e3a\u8ba1\u5212\u4e2d\u7684 IPO \u505a\u51c6\u5907\u3002\n\nWhy it matters:\n$34bln of cash burn at a still-private company is the demand engine under the whole AI-capex chain \u2014 it funds the GPU and data-center orders that hyperscalers and neoclouds are building against. Burn at that scale pre-IPO means the buildout is running on financing, not profits, and an IPO is being lined up to refill the tank.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u7684\u516c\u53f8\u70e7\u6389 $34bln\uff0c\u6b63\u662f\u6574\u6761 AI capex \u94fe\u6761\u4e0b\u6e38\u7684\u9700\u6c42\u5f15\u64ce\u2014\u2014\u8fd9\u4e9b\u94b1\u652f\u6491\u7740\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u636e\u4ee5\u6269\u5efa\u7684 GPU \u548c\u6570\u636e\u4e2d\u5fc3\u8ba2\u5355\u3002IPO \u524d\u5c31\u6709\u5982\u6b64\u89c4\u6a21\u7684\u70e7\u94b1\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u9760\u7684\u662f\u878d\u8d44\u800c\u975e\u5229\u6da6\uff0c\u800c IPO \u6b63\u662f\u4e3a\u4e86\u7ed9\u6cb9\u7bb1\u91cd\u65b0\u52a0\u6ee1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 950,
       "ts": 1781601270,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX, Anthropic, OpenAI lead IPO surge this summer as MANGOS replace FAANG - Crypto Briefing",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 17:09:46 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE5FU2t5TzRoakZFSlY1bHRKYjRoSUpydDV3YkpKUTFFWkFxOVcxUGF2cERnTFVrYUgzV3VMTVhnTXV0OGZ2SHQzb05PY3ktZ2NzQWdENzRPeXgyN3VCbVVpMmxYS2RJUVZDd19LOW5rY3h2MzBTeTJv?oc=5\n\nSpaceX, Anthropic, OpenAI lead IPO surge this summer as MANGOS replace FAANG - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5FU2t5TzRoakZFSlY1bHRKYjRoSUpydDV3YkpKUTFFWkFxOVcxUGF2cERnTFVrYUgzV3VMTVhnTXV0OGZ2SHQzb05PY3ktZ2NzQWdENzRPeXgyN3VCbVVpMmxYS2RJUVZDd19LOW5rY3h2MzBTeTJv?oc=5\" target=\"_blank\">SpaceX, Anthropic, OpenAI lead IPO surge this summer as MANGOS replace FAANG</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 751,
-      "ts": 1781314522,
-      "ts_str": "2026-06-13 01:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 00:55:23 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\n\nSK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\" target=\"_blank\">SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDigitimes reports SK Hynix is weighing price hikes from its suppliers as the HBM boom lifts equipment makers \u2014 memory-chain pricing pressure is now propagating upstream into the equipment and materials layer.\n\n\u5185\u5bb9:\n\u636e digitimes \u62a5\u9053\uff0cHBM \u70ed\u6f6e\u5e26\u52a8\u8bbe\u5907\u5382\u5546\u8d70\u5f3a\uff0cSK Hynix \u6b63\u5728\u8003\u8651\u63a5\u53d7/\u6d88\u5316\u4f9b\u5e94\u5546\u7684\u6da8\u4ef7\u2014\u2014\u5b58\u50a8\u94fe\u7684\u4ef7\u683c\u538b\u529b\u6b63\u5411\u4e0a\u6e38\u8bbe\u5907\u4e0e\u6750\u6599\u73af\u8282\u4f20\u5bfc\u3002\n\nWhy it matters:\nHBM is the binding physical input for AI accelerators, and upstream price surges show demand still outrunning supply. The further down the supply chain the price pressure spreads, the higher the embedded cost basis of the entire AI buildout \u2014 raising the revenue bar that AI capex must eventually clear, and adding to the unwind risk if accelerator orders cool.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u5173\u952e\u7684\u7269\u7406\u74f6\u9888\uff0c\u4e0a\u6e38\u6da8\u4ef7\u8bf4\u660e\u9700\u6c42\u4ecd\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\u4ef7\u683c\u538b\u529b\u6cbf\u4f9b\u5e94\u94fe\u4f20\u5bfc\u5f97\u8d8a\u6df1\uff0c\u6574\u4e2a AI \u57fa\u5efa\u7684\u9690\u542b\u6210\u672c\u57fa\u6570\u5c31\u8d8a\u9ad8\u2014\u2014\u610f\u5473\u7740 AI capex \u6700\u7ec8\u9700\u8981\u8de8\u8fc7\u7684\u6536\u5165\u95e8\u69db\u88ab\u8fdb\u4e00\u6b65\u62ac\u9ad8\uff0c\u4e00\u65e6\u52a0\u901f\u5668\u8ba2\u5355\u964d\u6e29\uff0c\u56de\u8c03\u98ce\u9669\u4e5f\u968f\u4e4b\u653e\u5927\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 752,
-      "ts": 1781314522,
-      "ts_str": "2026-06-13 01:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 00:55:23 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\n\nSK Hynix weighs supplier price hikes as HBM boom lifts equipment makers - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnppTTRpZkliNXY4TUl3U2FDZk5pWXRJekktTkJOVElrem4yYUdPXzFNTk5FMHMxaHI1LTZSMVdIV3NjT2M2RjlQNzg4TlpnbmNjejdnYmROZVBVaEVkMXNjZ252M2ticWRSX1BiOWVKZ2cyc2hjRER2Rkh5YzlOS1E5b3RkN0ZmVkhtRzBPYmhkQQ?oc=5\" target=\"_blank\">SK Hynix weighs supplier price hikes as HBM boom lifts equipment makers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDigitimes reports SK Hynix is weighing price hikes from its suppliers as the HBM boom lifts equipment makers \u2014 memory-chain pricing pressure is now propagating upstream into the equipment and materials layer.\n\n\u5185\u5bb9:\n\u636e digitimes \u62a5\u9053\uff0cHBM \u70ed\u6f6e\u5e26\u52a8\u8bbe\u5907\u5382\u5546\u8d70\u5f3a\uff0cSK Hynix \u6b63\u5728\u8003\u8651\u63a5\u53d7/\u6d88\u5316\u4f9b\u5e94\u5546\u7684\u6da8\u4ef7\u2014\u2014\u5b58\u50a8\u94fe\u7684\u4ef7\u683c\u538b\u529b\u6b63\u5411\u4e0a\u6e38\u8bbe\u5907\u4e0e\u6750\u6599\u73af\u8282\u4f20\u5bfc\u3002\n\nWhy it matters:\nHBM is the binding physical input for AI accelerators, and upstream price surges show demand still outrunning supply. The further down the supply chain the price pressure spreads, the higher the embedded cost basis of the entire AI buildout \u2014 raising the revenue bar that AI capex must eventually clear, and adding to the unwind risk if accelerator orders cool.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u5173\u952e\u7684\u7269\u7406\u74f6\u9888\uff0c\u4e0a\u6e38\u6da8\u4ef7\u8bf4\u660e\u9700\u6c42\u4ecd\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\u4ef7\u683c\u538b\u529b\u6cbf\u4f9b\u5e94\u94fe\u4f20\u5bfc\u5f97\u8d8a\u6df1\uff0c\u6574\u4e2a AI \u57fa\u5efa\u7684\u9690\u542b\u6210\u672c\u57fa\u6570\u5c31\u8d8a\u9ad8\u2014\u2014\u610f\u5473\u7740 AI capex \u6700\u7ec8\u9700\u8981\u8de8\u8fc7\u7684\u6536\u5165\u95e8\u69db\u88ab\u8fdb\u4e00\u6b65\u62ac\u9ad8\uff0c\u4e00\u65e6\u52a0\u901f\u5668\u8ba2\u5355\u964d\u6e29\uff0c\u56de\u8c03\u98ce\u9669\u4e5f\u968f\u4e4b\u653e\u5927\u3002\n",
       "emailed": false
     }
   ],
