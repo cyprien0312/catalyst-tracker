@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781595676,
-  "generated_at_str": "2026-06-16 07:41:16 UTC",
-  "last_event_ts": 1781595302,
+  "generated_at": 1781595864,
+  "generated_at_str": "2026-06-16 07:44:24 UTC",
+  "last_event_ts": 1781595863,
   "tables": {
     "alerts_dedup": {
-      "count": 935,
-      "last_ts": 1781593534,
-      "last_str": "2026-06-16 07:05:34 UTC"
+      "count": 936,
+      "last_ts": 1781595863,
+      "last_str": "2026-06-16 07:44:23 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-16 07:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9367,
-      "last_ts": 1781594042,
-      "last_str": "2026-06-16 07:14:02 UTC"
+      "count": 9372,
+      "last_ts": 1781595843,
+      "last_str": "2026-06-16 07:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 943,
+      "ts": 1781595863,
+      "ts_str": "2026-06-16 07:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] Key facts: NVIDIA OpenAI Ohio 20yr lease; $25B bond; Kazakhstan GPUs - TradingView",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 07:13:44 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDlMSVFlTzg2Z2dhUDNLRkItQnZjOXdNRlFwSjJ1N3hxNmN3MXBqOXlUc1kzbnJwTE5Cd2pPVllRQjhnTmZ3X1hsM241MmdKODJVdjQySk96b3UzcGVVczhrVllucDctRjAzSWZrdi1ndHRENHZnM1ZuY3lGOFFvYjNmY0l3Z2xOa1k0YXZyZllRc3BjdnRCdlBNOWdBZm5PWUU1Q2Y5ZjYwc2NFLWxLV2tjU0FCWEx5X0I0dldWMWpxY1VY?oc=5\n\nKey facts: NVIDIA OpenAI Ohio 20yr lease; $25B bond; Kazakhstan GPUs - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOMDlMSVFlTzg2Z2dhUDNLRkItQnZjOXdNRlFwSjJ1N3hxNmN3MXBqOXlUc1kzbnJwTE5Cd2pPVllRQjhnTmZ3X1hsM241MmdKODJVdjQySk96b3UzcGVVczhrVllucDctRjAzSWZrdi1ndHRENHZnM1ZuY3lGOFFvYjNmY0l3Z2xOa1k0YXZyZllRc3BjdnRCdlBNOWdBZm5PWUU1Q2Y5ZjYwc2NFLWxLV2tjU0FCWEx5X0I0dldWMWpxY1VY?oc=5\" target=\"_blank\">Key facts: NVIDIA OpenAI Ohio 20yr lease; $25B bond; Kazakhstan GPUs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 CRITICAL headline flags NVIDIA and OpenAI tied to a 20-year data-center lease in Ohio, a $25B bond raise, and GPUs in Kazakhstan.\n\n\u5185\u5bb9:\n\u4e00\u6761 C3 CRITICAL \u5934\u6761\u628a NVIDIA \u4e0e OpenAI \u5173\u8054\u5230\u4fc4\u4ea5\u4fc4\u5dde\u4e00\u4efd 20 \u5e74\u6570\u636e\u4e2d\u5fc3\u79df\u7ea6\u3001\u4e00\u7b14 $25B \u503a\u5238\u53d1\u884c\uff0c\u4ee5\u53ca\u4f4d\u4e8e Kazakhstan \u7684 GPU\u3002\n\nWhy it matters:\nA 20-year lease and a $25B bond convert flexible AI spend into fixed, long-dated obligations that must be serviced whether or not demand holds \u2014 exactly the rigid leverage that turns a slowdown into stress. GPUs surfacing in Kazakhstan also hint at circular financing and offshore capacity stretching well past visible demand.\n\n\u5f71\u54cd:\n20 \u5e74\u79df\u7ea6\u52a0 $25B \u503a\u5238\uff0c\u628a\u539f\u672c\u7075\u6d3b\u7684 AI \u652f\u51fa\u9501\u5b9a\u4e3a\u957f\u671f\u56fa\u5b9a\u8d1f\u503a\uff0c\u65e0\u8bba\u9700\u6c42\u662f\u5426\u6491\u5f97\u4f4f\u90fd\u5f97\u507f\u4ed8\u2014\u2014\u6b63\u662f\u8fd9\u79cd\u521a\u6027\u6760\u6746\u4f1a\u628a\u9700\u6c42\u653e\u7f13\u53d8\u6210\u5b9e\u8d28\u6027\u538b\u529b\u3002GPU \u51fa\u73b0\u5728 Kazakhstan \u4e5f\u6697\u793a\u5b58\u5728\u5faa\u73af\u878d\u8d44\uff0c\u4ee5\u53ca\u79bb\u5cb8\u7b97\u529b\u6269\u5f20\u5df2\u8fdc\u8d85\u53ef\u89c1\u9700\u6c42\u3002\n",
+      "emailed": true
+    },
     {
       "id": 941,
       "ts": 1781593534,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Moves Toward Historic IPO as Artificial Intelligence Race Intensifies - USA Herald",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 14:50:22 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQUU9PTmN0aVBRVDdwcGNpZndfMzItS05kenVFbVlZOTUwSEgySkp2TndjWDdDM3FhV09JSU1VOGNoWUQwUFVXUDZDTGQydTBodF9zNTR1ZE55UU9zWHFoQVhBR3B1azlQeEJWd1RkMjU0OS1DZVYwYVh2NHNKRkVtbDR6UGMwNXg0X0xOc1llVUx5UlNLLUpfMHFsTENoakJR?oc=5\n\nOpenAI Moves Toward Historic IPO as Artificial Intelligence Race Intensifies - USA Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQUU9PTmN0aVBRVDdwcGNpZndfMzItS05kenVFbVlZOTUwSEgySkp2TndjWDdDM3FhV09JSU1VOGNoWUQwUFVXUDZDTGQydTBodF9zNTR1ZE55UU9zWHFoQVhBR3B1azlQeEJWd1RkMjU0OS1DZVYwYVh2NHNKRkVtbDR6UGMwNXg0X0xOc1llVUx5UlNLLUpfMHFsTENoakJR?oc=5\" target=\"_blank\">OpenAI Moves Toward Historic IPO as Artificial Intelligence Race Intensifies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS picked up a USA Herald story headlined \"OpenAI Moves Toward Historic IPO as Artificial Intelligence Race Intensifies\".\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u53d6\u5230 USA Herald \u7684\u62a5\u9053\uff0c\u6807\u9898\u4e3a \"OpenAI Moves Toward Historic IPO as Artificial Intelligence Race Intensifies\"\uff08OpenAI \u6b63\u8fc8\u5411\u5386\u53f2\u6027 IPO\uff09\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the largest liquidity event of the AI cycle \u2014 insiders and late-stage investors converting paper marks into public-market exits is a classic top-of-cycle signal. Note this is a single secondary-source headline, not an SEC filing, so treat it as a tracking signal until an S-1 appears.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u5c06\u662f\u672c\u8f6e AI \u5468\u671f\u6700\u5927\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5185\u90e8\u4eba\u548c\u540e\u671f\u6295\u8d44\u8005\u628a\u8d26\u9762\u4f30\u503c\u5151\u6362\u6210\u516c\u5f00\u5e02\u573a\u9000\u51fa\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u89c1\u9876\u4fe1\u53f7\u3002\u4f46\u9700\u6ce8\u610f\u8fd9\u53ea\u662f\u5355\u4e00\u4e8c\u624b\u5a92\u4f53\u7684\u6807\u9898\uff0c\u5e76\u975e SEC \u6587\u4ef6\uff0c\u5728 S-1 \u51fa\u73b0\u4e4b\u524d\u53ea\u80fd\u4f5c\u4e3a\u8ddf\u8e2a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 743,
-      "ts": 1781298319,
-      "ts_str": "2026-06-12 21:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] New SSD price hikes are rumored \u2014 but CPU price increases may be much worse - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 11 Jun 2026 21:22:52 GMT\nLink:      https://news.google.com/rss/articles/CBMitANBVV95cUxQTjR5OGdjQjZBbWlEYTRpWFlySTZaM29pY01pcFJFY2hKYVN3T1c4b3llUkdmaVE3VWFVN3NpTHF1alJuck1oSVg4MUtEV2pYejRXQmVaNk80UjN5YkxGZW5ObS00LVZraEZiMTFMeUJUa0gxUjd3WHBuZjh1UjZiRmhLdFBUcVBzV1lJMkZ1NHdNQmVWWUg5SnhJZzduVzZuZFFUZW80MUEzbEI4WElLd2htaUx4amlBbWR2YVMtdF9feGRuQ2ljZWM1TlNObDVSRjFEMjZzeFRZODBfT2paVGxHM2IxUkhpSWRvNjNGN2hLUjlsbjU2ejJpS3VUYlgwYzFhNkxvOUlWSmNoSXFWU19nRFFYbnA3a2pqM0lTdzdyZmUwSkp4WDk1SERhR3NaUVhOSU5EbWdWVldqVXRiNGJlc0JMR0xjOGh1aF96RTlhRm5EdFg0Q2V5ZW01MExDOG1jbjFiaTBUbE5FblRXZzJpN3hoNkRWSHBUekdRbHNURWhEV0NnWlZwUG95S1pyd0M1MS1UX0NfSkxCQkVfR1Q0YndBbkQ2eUxVMlRzRWpjMlhq?oc=5\n\nNew SSD price hikes are rumored \u2014 but CPU price increases may be much worse - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMitANBVV95cUxQTjR5OGdjQjZBbWlEYTRpWFlySTZaM29pY01pcFJFY2hKYVN3T1c4b3llUkdmaVE3VWFVN3NpTHF1alJuck1oSVg4MUtEV2pYejRXQmVaNk80UjN5YkxGZW5ObS00LVZraEZiMTFMeUJUa0gxUjd3WHBuZjh1UjZiRmhLdFBUcVBzV1lJMkZ1NHdNQmVWWUg5SnhJZzduVzZuZFFUZW80MUEzbEI4WElLd2htaUx4amlBbWR2YVMtdF9feGRuQ2ljZWM1TlNObDVSRjFEMjZzeFRZODBfT2paVGxHM2IxUkhpSWRvNjNGN2hLUjlsbjU2ejJpS3VUYlgwYzFhNkxvOUlWSmNoSXFWU19nRFFYbnA3a2pqM0lTdzdyZmUwSkp4WDk1SERhR3NaUVhOSU5EbWdWVldqVXRiNGJlc0JMR0xjOGh1aF96RTlhRm5EdFg0Q2V5ZW01MExDOG1jbjFiaTBUbE5FblRXZzJpN3hoNkRWSHBUekdRbHNURWhEV0NnWlZwUG95S1pyd0M1MS1UX0NfSkxCQkVfR1Q0YndBbkQ2eUxVMlRzRWpjMlhq?oc=5\" target=\"_blank\">New SSD price hikes are rumored \u2014 but CPU price increases may be much worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 price-surge headline crossed the wire: \"New SSD price hikes are rumored \u2014 but CPU price increases may be much worse\" (via MSN / Google News). New rounds of SSD price hikes are rumored, with CPU prices expected to rise even more.\n\n\u5185\u5bb9:\nC6 \u4ef7\u683c\u5f02\u52a8\u4fe1\u53f7\u6355\u6349\u5230\u4e00\u6761\u65b0\u95fb\uff1a\"New SSD price hikes are rumored \u2014 but CPU price increases may be much worse\"\uff08\u6765\u6e90 MSN / Google News\uff09\u3002\u5e02\u573a\u4f20\u95fb SSD \u5c06\u8fce\u6765\u65b0\u4e00\u8f6e\u6da8\u4ef7\uff0c\u800c CPU \u7684\u6da8\u5e45\u53ef\u80fd\u66f4\u5927\u3002\n\nWhy it matters:\nHardware input costs rising across SSDs and CPUs means AI-driven demand is straining component supply beyond GPUs. Broad-based price inflation raises the cost of every datacenter build-out, squeezing capex payback math and signaling the supply chain is running hot \u2014 a classic overheating marker for the bubble-stress thesis.\n\n\u5f71\u54cd:\nSSD \u548c CPU \u4ef7\u683c\u540c\u65f6\u4e0a\u884c\uff0c\u8bf4\u660e AI \u9700\u6c42\u5bf9\u5143\u5668\u4ef6\u4f9b\u5e94\u7684\u6324\u538b\u5df2\u7ecf\u8d85\u51fa GPU \u8303\u56f4\u3002\u786c\u4ef6\u6210\u672c\u5168\u9762\u4e0a\u6da8\u4f1a\u62ac\u9ad8\u6bcf\u4e2a\u6570\u636e\u4e2d\u5fc3\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u538b\u7f29 capex \u56de\u672c\u7a7a\u95f4\uff0c\u4e5f\u8868\u660e\u4f9b\u5e94\u94fe\u5df2\u7ecf\u8fc7\u70ed\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u538b\u529b\u8bba\u9898\u4e0b\u5178\u578b\u7684\u5468\u671f\u8fc7\u70ed\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
