@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781626285,
-  "generated_at_str": "2026-06-16 16:11:25 UTC",
-  "last_event_ts": 1781625903,
+  "generated_at": 1781626486,
+  "generated_at_str": "2026-06-16 16:14:46 UTC",
+  "last_event_ts": 1781626486,
   "tables": {
     "alerts_dedup": {
-      "count": 953,
-      "last_ts": 1781615119,
-      "last_str": "2026-06-16 13:05:19 UTC"
+      "count": 956,
+      "last_ts": 1781626486,
+      "last_str": "2026-06-16 16:14:46 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1877,
-      "last_ts": 1781624643,
-      "last_str": "2026-06-16 15:44:03 UTC"
+      "count": 1879,
+      "last_ts": 1781626444,
+      "last_str": "2026-06-16 16:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 395,
-      "last_ts": 1781621044,
-      "last_str": "2026-06-16 14:44:04 UTC"
+      "count": 396,
+      "last_ts": 1781626445,
+      "last_str": "2026-06-16 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 279,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-16 15:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9513,
-      "last_ts": 1781624642,
-      "last_str": "2026-06-16 15:44:02 UTC"
+      "count": 9521,
+      "last_ts": 1781626443,
+      "last_str": "2026-06-16 16:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 961,
+      "ts": 1781626486,
+      "ts_str": "2026-06-16 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI spent $34 billion before IPO - Jawlah",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 13:02:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiP0FVX3lxTE1qMFVDYk5kQ2NmN1RsdUNzLUl4NUxhMlZCemFhbW9uSUtNOU5SVnRVTVBGR0xFWFI3NGU3NExFNA?oc=5\n\nOpenAI spent $34 billion before IPO - Jawlah\n\n<a href=\"https://news.google.com/rss/articles/CBMiP0FVX3lxTE1qMFVDYk5kQ2NmN1RsdUNzLUl4NUxhMlZCemFhbW9uSUtNOU5SVnRVTVBGR0xFWFI3NGU3NExFNA?oc=5\" target=\"_blank\">OpenAI spent $34 billion before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jawlah</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI spent $34 billion before its IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u5728 IPO \u4e4b\u524d\u5df2\u82b1\u8d39 340 \u4ebf\u7f8e\u5143\uff08$34 billion\uff09\u3002\n\nWhy it matters:\nConfirms the scale of pre-revenue cash burn at the center of the AI buildout \u2014 $34B consumed ahead of any public-market funding means OpenAI is dependent on continued private capital and compute commitments. If that funding tightens, the demand pull-through for hyperscaler AI capex weakens at the source.\n\n\u5f71\u54cd:\n\u8fd9\u5370\u8bc1\u4e86 AI \u5efa\u8bbe\u6838\u5fc3\u73af\u8282\u7684\u70e7\u94b1\u89c4\u6a21\u2014\u2014\u5728\u767b\u9646\u516c\u5f00\u5e02\u573a\u878d\u8d44\u4e4b\u524d\u5c31\u5df2\u6d88\u8017 $34B\uff0c\u610f\u5473\u7740 OpenAI \u9ad8\u5ea6\u4f9d\u8d56\u6301\u7eed\u7684\u79c1\u52df\u8d44\u672c\u548c\u7b97\u529b\u627f\u8bfa\u3002\u4e00\u65e6\u8fd9\u90e8\u5206\u8d44\u91d1\u6536\u7d27\uff0c\u5bf9\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI capex \u7684\u9700\u6c42\u62c9\u52a8\u4f1a\u4ece\u6e90\u5934\u51cf\u5f31\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 962,
+      "ts": 1781626486,
+      "ts_str": "2026-06-16 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI 2025 financials leaked: $39B loss ahead of IPO - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 13:39:09 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWwwTUxRM1VjYm5nZjIzZnU3UGY1YlpIc0V4S01zdEJNSWJBWV9sWWs1WHZhR01RQ2w4dlhLQUVDSzJ2eHRZRElMQjNudTJBaHlyXzFFVGpOTXV6TFdLWXZXSC1aWFJHWmhXajBPZjM4aFBxdUEyZVZzUkoyTmFsaEV6TXY5Zw?oc=5\n\nOpenAI 2025 financials leaked: $39B loss ahead of IPO - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWwwTUxRM1VjYm5nZjIzZnU3UGY1YlpIc0V4S01zdEJNSWJBWV9sWWs1WHZhR01RQ2w4dlhLQUVDSzJ2eHRZRElMQjNudTJBaHlyXzFFVGpOTXV6TFdLWXZXSC1aWFJHWmhXajBPZjM4aFBxdUEyZVZzUkoyTmFsaEV6TXY5Zw?oc=5\" target=\"_blank\">OpenAI 2025 financials leaked: $39B loss ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA leaked report claims OpenAI's 2025 financials show a $39B loss ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u6cc4\u9732\u7684\u62a5\u544a\u79f0\uff0cOpenAI 2025 \u5e74\u8d22\u52a1\u663e\u793a\u4e8f\u635f $39B\uff0c\u4e14\u6b63\u7b79\u5907 IPO\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a $39B loss this large signals the economics of frontier-model training and inference are nowhere near self-funding. An IPO at this burn rate would force public markets to price the gap between AI spend and AI revenue \u2014 the core bubble-stress question.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\uff1b\u5982\u6b64\u89c4\u6a21\u7684 $39B \u4e8f\u635f\u8bf4\u660e\u524d\u6cbf\u6a21\u578b\u8bad\u7ec3\u4e0e\u63a8\u7406\u7684\u7ecf\u6d4e\u6a21\u578b\u8fdc\u672a\u5b9e\u73b0\u81ea\u7ed9\u81ea\u8db3\u3002\u5728\u8fd9\u79cd\u70e7\u94b1\u901f\u5ea6\u4e0b\u63a8\u8fdb IPO\uff0c\u7b49\u4e8e\u903c\u8feb\u516c\u5f00\u5e02\u573a\u4e3a AI \u652f\u51fa\u4e0e AI \u6536\u5165\u4e4b\u95f4\u7684\u7f3a\u53e3\u5b9a\u4ef7\u2014\u2014\u8fd9\u6b63\u662f\u6ce1\u6cab\u538b\u529b\u7684\u6838\u5fc3\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 963,
+      "ts": 1781626486,
+      "ts_str": "2026-06-16 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s Spending Spree Put Its IPO Ambitions On Display - Finimize",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 10:06:39 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxOVENsNW4yUjZOSTB6S3lGa2NOUGhxRXVMaDNmQmQtOTAxWTBfd3loLUdsTllSa0RxdkhOaG95WXJGSWVGNEI3TkwyQzZxazhnbVd5UW1kcUxESG4zRC1IM2FrSlBfYndCU042LU9wM0J4TDQ0UF9BT09jRXlEMWM3ZUNSVjhTOExvTkdOLQ?oc=5\n\nOpenAI\u2019s Spending Spree Put Its IPO Ambitions On Display - Finimize\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOVENsNW4yUjZOSTB6S3lGa2NOUGhxRXVMaDNmQmQtOTAxWTBfd3loLUdsTllSa0RxdkhOaG95WXJGSWVGNEI3TkwyQzZxazhnbVd5UW1kcUxESG4zRC1IM2FrSlBfYndCU042LU9wM0J4TDQ0UF9BT09jRXlEMWM3ZUNSVjhTOExvTkdOLQ?oc=5\" target=\"_blank\">OpenAI\u2019s Spending Spree Put Its IPO Ambitions On Display</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Finimize headline flagged via C3's Google News RSS reads \"OpenAI's Spending Spree Put Its IPO Ambitions On Display\" \u2014 coverage tying OpenAI's aggressive outlays to a possible IPO.\n\n\u5185\u5bb9:\nC3 \u901a\u8fc7 Google News RSS \u6355\u6349\u5230 Finimize \u7684\u6807\u9898\u300aOpenAI's Spending Spree Put Its IPO Ambitions On Display\u300b\u2014\u2014\u62a5\u9053\u5c06 OpenAI \u6fc0\u8fdb\u7684\u652f\u51fa\u4e0e\u6f5c\u5728\u7684 IPO \u8054\u7cfb\u8d77\u6765\u3002\n\nWhy it matters:\nAn IPO is the classic way a cash-burning leader offloads capex risk onto public markets when private funding gets tight. Press framing OpenAI's spend as IPO-driven is an early tell that the AI-infrastructure buildout is outrunning private financing \u2014 a bubble-stress signal.\n\n\u5f71\u54cd:\n\u5f53\u79c1\u52df\u878d\u8d44\u6536\u7d27\u65f6\uff0c\u70e7\u94b1\u7684\u9f99\u5934\u4f01\u4e1a\u901a\u5e38\u9760 IPO \u628a\u8d44\u672c\u5f00\u652f\u98ce\u9669\u8f6c\u5ac1\u7ed9\u516c\u5f00\u5e02\u573a\u3002\u5a92\u4f53\u628a OpenAI \u7684\u652f\u51fa\u4e0e IPO \u6302\u94a9\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u901f\u5ea6\u8dd1\u8d62\u79c1\u52df\u878d\u8d44\u7684\u65e9\u671f\u4fe1\u53f7\uff0c\u5c5e\u4e8e\u6ce1\u6cab\u538b\u529b\u7684\u5f81\u5146\u3002\n",
+      "emailed": false
+    },
     {
       "id": 960,
       "ts": 1781615119,
@@ -2234,36 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] ChatGPT maker OpenAI files for IPO looking to capitalize on investor appetite for AI boom - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 21:01:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE54ay1JSkVVZkdYRHBndVlxOEVJV3RFcjg4ZzN2ekhFSFZFdlBHck1PVEl0eWlXVEUyREQxeURQdEhpUmV5d0E2dlM4M2tIRE83RGdHWlhkOVpuaFE4N0FkVHdBYUhFbXc3dWR4NFVubUs2bkVNX2ZSSmF3?oc=5\n\nChatGPT maker OpenAI files for IPO looking to capitalize on investor appetite for AI boom - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE54ay1JSkVVZkdYRHBndVlxOEVJV3RFcjg4ZzN2ekhFSFZFdlBHck1PVEl0eWlXVEUyREQxeURQdEhpUmV5d0E2dlM4M2tIRE83RGdHWlhkOVpuaFE4N0FkVHdBYUhFbXc3dWR4NFVubUs2bkVNX2ZSSmF3?oc=5\" target=\"_blank\">ChatGPT maker OpenAI files for IPO looking to capitalize on investor appetite for AI boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 760,
-      "ts": 1781342049,
-      "ts_str": "2026-06-13 09:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI files for US IPO after Anthropic as AI giants head to public markets - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 03:30:13 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxQbHpFeTJzM2dqZl9Za21RVVA4Vk05Y2ViU2V3MGVIMHRrQmFTYjJrRUhDdTJUa0JzclJxZ2xOSndjNzQtajVfd1NIeUVHX2V6RHktRnhFVkxCdTZNbUtSVWNOX2NqSnZId181anVCZnhkNHBXRGNPMHp1WEd1TzA1Z1dXRXF6YUEwTkJXSTNXRzN5VVRzMU03ZmtBTXR1SG9HaFZSdWRsd2E5U09yeFZKMkNxWWZvSmZPcndNaTRwQkFfaXdqTS1F?oc=5\n\nOpenAI files for US IPO after Anthropic as AI giants head to public markets - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQbHpFeTJzM2dqZl9Za21RVVA4Vk05Y2ViU2V3MGVIMHRrQmFTYjJrRUhDdTJUa0JzclJxZ2xOSndjNzQtajVfd1NIeUVHX2V6RHktRnhFVkxCdTZNbUtSVWNOX2NqSnZId181anVCZnhkNHBXRGNPMHp1WEd1TzA1Z1dXRXF6YUEwTkJXSTNXRzN5VVRzMU03ZmtBTXR1SG9HaFZSdWRsd2E5U09yeFZKMkNxWWZvSmZPcndNaTRwQkFfaXdqTS1F?oc=5\" target=\"_blank\">OpenAI files for US IPO after Anthropic as AI giants head to public markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 761,
-      "ts": 1781342049,
-      "ts_str": "2026-06-13 09:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Sam Altman\u2019s OpenAI Confidentially Files for IPO, Eyes $850+ Billion Valuation - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 04:58:24 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGxGVGp2WTFwOUZ4bFpNMWdSbk5ReHE0U2xYM2hTV2xVLXhTQ19hcE9rOGtYVWtMMnR0emxKR09BOUc1dG55VW1UblNHX3NuMzlLWDlwWFJwN0tpSmlRNC1qOUNBS1dDZlJiaXN4WEdYNVpYeXFCV2p0dG94YXZ5b1pJMUpiMm8zb3c?oc=5\n\nSam Altman\u2019s OpenAI Confidentially Files for IPO, Eyes $850+ Billion Valuation - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGxGVGp2WTFwOUZ4bFpNMWdSbk5ReHE0U2xYM2hTV2xVLXhTQ19hcE9rOGtYVWtMMnR0emxKR09BOUc1dG55VW1UblNHX3NuMzlLWDlwWFJwN0tpSmlRNC1qOUNBS1dDZlJiaXN4WEdYNVpYeXFCV2p0dG94YXZ5b1pJMUpiMm8zb3c?oc=5\" target=\"_blank\">Sam Altman\u2019s OpenAI Confidentially Files for IPO, Eyes $850+ Billion Valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 762,
-      "ts": 1781342049,
-      "ts_str": "2026-06-13 09:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] What to know about the OpenAI IPO - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 02:39:56 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxOb2FaRTZPX1ZmTGIwOFBKZklHUjFlMDVuNTExWDFaOUVKa3IwNXdnanI3MnRCanNLcFREYlo5U1FFdldpQ0x2SGlGc2FVbVY0T2NxaEU4UjJlZ25NZDBtUHAyeTdZYml3RDVBcDVFeHBaQkVoN2hhVnBPQnpoSTU5ZDVlZTJzdw?oc=5\n\nWhat to know about the OpenAI IPO - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOb2FaRTZPX1ZmTGIwOFBKZklHUjFlMDVuNTExWDFaOUVKa3IwNXdnanI3MnRCanNLcFREYlo5U1FFdldpQ0x2SGlGc2FVbVY0T2NxaEU4UjJlZ25NZDBtUHAyeTdZYml3RDVBcDVFeHBaQkVoN2hhVnBPQnpoSTU5ZDVlZTJzdw?oc=5\" target=\"_blank\">What to know about the OpenAI IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
