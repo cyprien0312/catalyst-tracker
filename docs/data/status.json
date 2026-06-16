@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781637062,
-  "generated_at_str": "2026-06-16 19:11:02 UTC",
-  "last_event_ts": 1781636704,
+  "generated_at": 1781637256,
+  "generated_at_str": "2026-06-16 19:14:16 UTC",
+  "last_event_ts": 1781637256,
   "tables": {
     "alerts_dedup": {
-      "count": 962,
-      "last_ts": 1781633105,
-      "last_str": "2026-06-16 18:05:05 UTC"
+      "count": 963,
+      "last_ts": 1781637256,
+      "last_str": "2026-06-16 19:14:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1887,
-      "last_ts": 1781635444,
-      "last_str": "2026-06-16 18:44:04 UTC"
+      "count": 1889,
+      "last_ts": 1781637243,
+      "last_str": "2026-06-16 19:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 396,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-16 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9544,
-      "last_ts": 1781635443,
-      "last_str": "2026-06-16 18:44:03 UTC"
+      "count": 9550,
+      "last_ts": 1781637242,
+      "last_str": "2026-06-16 19:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 970,
+      "ts": 1781637256,
+      "ts_str": "2026-06-16 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s net losses surged last year - AzerNews",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 19:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yWTNpcjJtQm9sZ0VyY0ZoQXNHc1FJUU05d1Rrb09Vc2pybmhRZDktbWRnT0ZGSmpwZlF5RE5wZUpmT2RwYTBPWHlTa01vbU90S3JFTg?oc=5\n\nOpenAI\u2019s net losses surged last year - AzerNews\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yWTNpcjJtQm9sZ0VyY0ZoQXNHc1FJUU05d1Rrb09Vc2pybmhRZDktbWRnT0ZGSmpwZlF5RE5wZUpmT2RwYTBPWHlTa01vbU90S3JFTg?oc=5\" target=\"_blank\">OpenAI\u2019s net losses surged last year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AzerNews</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline \u2014 \"OpenAI's net losses surged last year\" (AzerNews, via Google News RSS) \u2014 surfaced in the C3 OpenAI-watch feed.\n\n\u5185\u5bb9:\nC3 OpenAI \u76d1\u63a7\u7684 RSS feed \u4e2d\u51fa\u73b0\u4e00\u6761\u65b0\u95fb\u6807\u9898\u2014\u2014\"OpenAI's net losses surged last year\"\uff08AzerNews\uff0c\u7ecf Google News RSS\uff09\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; widening losses signal its core model economics aren't covering the compute it's buying. If the largest buyer of GPU capacity is burning more cash, the revenue case underpinning hyperscaler and neocloud spend gets weaker.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u51c0\u4e8f\u635f\u6269\u5927\u8bf4\u660e\u5176\u6838\u5fc3\u6a21\u578b\u7ecf\u6d4e\u6027\u8fd8\u65e0\u6cd5\u8986\u76d6\u5b83\u6240\u91c7\u8d2d\u7684\u7b97\u529b\u6210\u672c\u3002\u5982\u679c\u6700\u5927\u7684 GPU \u7b97\u529b\u4e70\u5bb6\u5728\u52a0\u901f\u70e7\u94b1\uff0c\u90a3\u4e48\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u6536\u5165\u903b\u8f91\u5c31\u66f4\u7ad9\u4e0d\u4f4f\u811a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 969,
       "ts": 1781633105,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026 - FourWeekMBA",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 14:07:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzdhRVQ3by1iR0E2TzBScFJXSjEwVzdUMC1OZW92aEJKV1FfdHVNWlZRWGRCSkswUk9EQktvRmFKaS11RkV5TXdtZlRtMm1KZFZtamRaTGNnTkREQmVhRUc1Zk41SDkxSWdtRXJWQVJUSm1VVjcxRmlNUHpEbHduQnhn?oc=5\n\nSpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026 - FourWeekMBA\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzdhRVQ3by1iR0E2TzBScFJXSjEwVzdUMC1OZW92aEJKV1FfdHVNWlZRWGRCSkswUk9EQktvRmFKaS11RkV5TXdtZlRtMm1KZFZtamRaTGNnTkREQmVhRUc1Zk41SDkxSWdtRXJWQVJUSm1VVjcxRmlNUHpEbHduQnhn?oc=5\" target=\"_blank\">SpaceX vs OpenAI vs Anthropic: Three IPO Business Models That Will Define 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FourWeekMBA</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 770,
-      "ts": 1781359506,
-      "ts_str": "2026-06-13 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory chip shortage: How crazy could it get? By Investing.com - Investing.com South Africa",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 13:09:11 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVZXY0pZSFlRaGRoelFESjhGTC0wS2dYaDRMeDhnUzJDZUpHN3FHWDVNYi12MFpZd0V4SVRlTTNSX3p6X0JNOVpER3JUNFFuajU2c2FDWFZOZXdXZG92T1pPNmRROUNEMXVwLUdQVVdncTRHSzJ2LV92Y2tYUFlfbnF2bktCRVctOWt1S2xxbkFtZ0stT2QtNHYzVnZ2LU0xOGswUDRHTWRlMnVtUEpzaw?oc=5\n\nMemory chip shortage: How crazy could it get? By Investing.com - Investing.com South Africa\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVZXY0pZSFlRaGRoelFESjhGTC0wS2dYaDRMeDhnUzJDZUpHN3FHWDVNYi12MFpZd0V4SVRlTTNSX3p6X0JNOVpER3JUNFFuajU2c2FDWFZOZXdXZG92T1pPNmRROUNEMXVwLUdQVVdncTRHSzJ2LV92Y2tYUFlfbnF2bktCRVctOWt1S2xxbkFtZ0stT2QtNHYzVnZ2LU0xOGswUDRHTWRlMnVtUEpzaw?oc=5\" target=\"_blank\">Memory chip shortage: How crazy could it get? By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
