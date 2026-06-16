@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781589724,
-  "generated_at_str": "2026-06-16 06:02:04 UTC",
-  "last_event_ts": 1781588683,
+  "generated_at": 1781589919,
+  "generated_at_str": "2026-06-16 06:05:19 UTC",
+  "last_event_ts": 1781589918,
   "tables": {
     "alerts_dedup": {
-      "count": 928,
-      "last_ts": 1781588683,
-      "last_str": "2026-06-16 05:44:43 UTC"
+      "count": 929,
+      "last_ts": 1781589918,
+      "last_str": "2026-06-16 06:05:18 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-16 02:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 250,
-      "last_ts": 1781586302,
-      "last_str": "2026-06-16 05:05:02 UTC"
+      "count": 251,
+      "last_ts": 1781589902,
+      "last_str": "2026-06-16 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 312,
-      "last_ts": 1781588104,
-      "last_str": "2026-06-16 05:35:04 UTC"
+      "count": 313,
+      "last_ts": 1781589903,
+      "last_str": "2026-06-16 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 141,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 936,
+      "ts": 1781589918,
+      "ts_str": "2026-06-16 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AMD acquires MEXT to address AI memory shortages, developing technology that treats flash memory as DRAM. - GIGAZINE",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 01:33:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE9LVndTRy0tbUtHNFYxUloxTVNkai1KYkdaNFMzRXdfY3ZCbHZLalA1ZmZtSXlGTzFDNWg3ZEVMeEdzaHc3RDJVMjVhNXlkR2lHU1BodzZLOXhmMFFQMV9MMjRNc2tUR0JuLW5qbXFFdWJSSnVUR1VXQUln?oc=5\n\nAMD acquires MEXT to address AI memory shortages, developing technology that treats flash memory as DRAM. - GIGAZINE\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9LVndTRy0tbUtHNFYxUloxTVNkai1KYkdaNFMzRXdfY3ZCbHZLalA1ZmZtSXlGTzFDNWg3ZEVMeEdzaHc3RDJVMjVhNXlkR2lHU1BodzZLOXhmMFFQMV9MMjRNc2tUR0JuLW5qbXFFdWJSSnVUR1VXQUln?oc=5\" target=\"_blank\">AMD acquires MEXT to address AI memory shortages, developing technology that treats flash memory as DRAM.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GIGAZINE</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (GIGAZINE): AMD is acquiring MEXT, a company developing technology that treats flash memory as DRAM, explicitly to address AI memory shortages.\n\n\u5185\u5bb9:\nGoogle News \u6807\u9898\uff08GIGAZINE\uff09\uff1aAMD \u6b63\u5728\u6536\u8d2d MEXT\uff0c\u8be5\u516c\u53f8\u5f00\u53d1\u5c06\u95ea\u5b58\u5f53\u4f5c DRAM \u4f7f\u7528\u7684\u6280\u672f\uff0c\u660e\u786e\u76ee\u7684\u662f\u7f13\u89e3 AI \u5185\u5b58\u77ed\u7f3a\u3002\n\nWhy it matters:\nA CPU/GPU vendor buying its way into memory tech signals that HBM/DRAM supply is a hard bottleneck on AI buildout, not just GPUs. Paying to substitute cheaper flash for DRAM is a scarcity tell \u2014 when the constraint moves to memory, capex efficiency drops and the timeline-to-payback stretches.\n\n\u5f71\u54cd:\n\u4e00\u5bb6 CPU/GPU \u5382\u5546\u51fa\u94b1\u5207\u5165\u5185\u5b58\u6280\u672f\uff0c\u8bf4\u660e HBM/DRAM \u4f9b\u7ed9\u5df2\u7ecf\u6210\u4e3a AI \u5efa\u8bbe\u7684\u786c\u74f6\u9888\uff0c\u800c\u4e0d\u53ea\u662f GPU \u7d27\u7f3a\u3002\u82b1\u94b1\u7528\u66f4\u4fbf\u5b9c\u7684\u95ea\u5b58\u66ff\u4ee3 DRAM \u662f\u7a00\u7f3a\u4fe1\u53f7\u2014\u2014\u5f53\u7ea6\u675f\u8f6c\u79fb\u5230\u5185\u5b58\u4e0a\u65f6\uff0c\u8d44\u672c\u5f00\u652f\u6548\u7387\u4e0b\u964d\uff0c\u56de\u672c\u5468\u671f\u88ab\u62c9\u957f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 933,
       "ts": 1781588683,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Lexar manager predicts another 2x memory price increase - OC3D",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 13:24:31 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxONlZaRTQwd0hCV0VqelFUZ0Nqb20weGkyNkhVaE1yNEMzTFNiWVVJdUZOZE80cGVvR1hOc05NdzY2RXZpMFJOY0FvbWpqV1hoemFaRjZIT241bm5lUkUxVWpYTTIweDNxd0M2alAyRm41UEdINUF6UDhvV0UtRE9SVFlIS3hudFh3ZHV6NTZIbEtkZ3BoV19B?oc=5\n\nLexar manager predicts another 2x memory price increase - OC3D\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxONlZaRTQwd0hCV0VqelFUZ0Nqb20weGkyNkhVaE1yNEMzTFNiWVVJdUZOZE80cGVvR1hOc05NdzY2RXZpMFJOY0FvbWpqV1hoemFaRjZIT241bm5lUkUxVWpYTTIweDNxd0M2alAyRm41UEdINUF6UDhvV0UtRE9SVFlIS3hudFh3ZHV6NTZIbEtkZ3BoV19B?oc=5\" target=\"_blank\">Lexar manager predicts another 2x memory price increase</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OC3D</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Lexar manager publicly predicted another 2x increase in memory prices, per an OC3D report surfaced via Google News.\n\n\u5185\u5bb9:\n\u636e OC3D \u62a5\u9053\uff08\u7ecf Google News \u63a8\u9001\uff09\uff0cLexar \u4e00\u4f4d\u7ecf\u7406\u516c\u5f00\u9884\u6d4b\u5185\u5b58\u4ef7\u683c\u8fd8\u5c06\u518d\u6da8 2 \u500d\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is a core input cost for AI servers; a further doubling would squeeze hyperscaler and neocloud capex budgets that are already stretched. Vendor-side price-surge talk signals supply is being absorbed by AI demand faster than capacity can respond \u2014 fuel for the bubble-stress thesis on input-cost inflation.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u6210\u672c\u9879\uff1b\u82e5\u4ef7\u683c\u518d\u7ffb\u4e00\u500d\uff0c\u672c\u5df2\u7d27\u7ef7\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u65b0\u5174\u4e91\u5382\u5546\u7684 capex \u9884\u7b97\u5c06\u8fdb\u4e00\u6b65\u627f\u538b\u3002\u5382\u5546\u65b9\u9762\u653e\u51fa\u6da8\u4ef7\u9884\u671f\uff0c\u8bf4\u660e AI \u9700\u6c42\u541e\u566c\u4f9b\u7ed9\u7684\u901f\u5ea6\u5feb\u4e8e\u4ea7\u80fd\u6269\u5f20\u2014\u2014\u8fd9\u6b63\u662f\u6ce1\u6cab\u538b\u529b\u8bba\u4e2d\u8f93\u5165\u6210\u672c\u901a\u80c0\u7684\u4f50\u8bc1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 736,
-      "ts": 1781284460,
-      "ts_str": "2026-06-12 17:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 12 Jun 2026 16:23:25 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUFMaUI0VjhsWFMxQTBOMGR6Z0ZiM0FPRkc3LS13NTBNMUFyZ2pLTldUMWR0dXBZd2JHOXpEV2toY0Y5OXQ2TjJVcmNId3kwYWdVZWZaVjBaWjlHOWEwV0gxdWJNbHRfcy1TVlNJc0kzYmZod3FPNmNlcE5mOFM1Y2wyUVVkcjI0ZktfcktHYXo2TlBUbjFZOXlLUTk?oc=5\n\nSpaceX, Anthropic, and OpenAI\u2019s hot IPO summer - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUFMaUI0VjhsWFMxQTBOMGR6Z0ZiM0FPRkc3LS13NTBNMUFyZ2pLTldUMWR0dXBZd2JHOXpEV2toY0Y5OXQ2TjJVcmNId3kwYWdVZWZaVjBaWjlHOWEwV0gxdWJNbHRfcy1TVlNJc0kzYmZod3FPNmNlcE5mOFM1Y2wyUVVkcjI0ZktfcktHYXo2TlBUbjFZOXlLUTk?oc=5\" target=\"_blank\">SpaceX, Anthropic, and OpenAI\u2019s hot IPO summer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 media-watch feed picked up a Yahoo Finance headline: \"SpaceX, Anthropic, and OpenAI's hot IPO summer\" \u2014 framing the three largest private AI/space names as IPO candidates this summer.\n\n\u5185\u5bb9:\nC3 \u5a92\u4f53\u76d1\u63a7\u6293\u5230 Yahoo Finance \u5934\u6761\uff1a\"SpaceX, Anthropic, and OpenAI's hot IPO summer\"\u2014\u2014\u628a\u8fd9\u4e09\u5bb6\u6700\u5927\u7684\u79c1\u6709 AI/\u822a\u5929\u516c\u53f8\u6846\u5b9a\u4e3a\u4eca\u5e74\u590f\u5929\u7684 IPO \u5019\u9009\u3002\n\nWhy it matters:\nMega-cap private AI names moving toward public listings is a classic late-cycle liquidity event: insiders and early backers get an exit window while retail absorbs supply at peak valuations. A clustered \"hot IPO summer\" for OpenAI and Anthropic would mark a sentiment top to watch for the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u8d85\u5927\u578b\u79c1\u6709 AI \u516c\u53f8\u96c6\u4f53\u8d70\u5411\u4e0a\u5e02\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6d41\u52a8\u6027\u4e8b\u4ef6\uff1a\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u83b7\u5f97\u9000\u51fa\u7a97\u53e3\uff0c\u800c\u6563\u6237\u5728\u4f30\u503c\u9ad8\u70b9\u63a5\u76d8\u3002OpenAI \u548c Anthropic \u82e5\u624e\u5806\u8fce\u6765\"\u706b\u70ed IPO \u590f\u5b63\"\uff0c\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u800c\u8a00\u662f\u503c\u5f97\u76ef\u7d27\u7684\u60c5\u7eea\u89c1\u9876\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
