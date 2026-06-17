@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781712662,
-  "generated_at_str": "2026-06-17 16:11:02 UTC",
-  "last_event_ts": 1781712320,
+  "generated_at": 1781712858,
+  "generated_at_str": "2026-06-17 16:14:18 UTC",
+  "last_event_ts": 1781712858,
   "tables": {
     "alerts_dedup": {
-      "count": 993,
-      "last_ts": 1781712320,
-      "last_str": "2026-06-17 16:05:20 UTC"
+      "count": 994,
+      "last_ts": 1781712858,
+      "last_str": "2026-06-17 16:14:18 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,14 +44,14 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1940,
-      "last_ts": 1781711043,
-      "last_str": "2026-06-17 15:44:03 UTC"
+      "count": 1944,
+      "last_ts": 1781712843,
+      "last_str": "2026-06-17 16:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 403,
-      "last_ts": 1781702044,
-      "last_str": "2026-06-17 13:14:04 UTC"
+      "count": 405,
+      "last_ts": 1781712844,
+      "last_str": "2026-06-17 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 359,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-17 16:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9756,
-      "last_ts": 1781711042,
-      "last_str": "2026-06-17 15:44:02 UTC"
+      "count": 9761,
+      "last_ts": 1781712842,
+      "last_str": "2026-06-17 16:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1001,
+      "ts": 1781712858,
+      "ts_str": "2026-06-17 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] The IPO Onslaught Is Forcing Bankers to Pick Teams",
+      "body": "Severity:  MED\nFeed:      https://feeds.content.dowjones.io/public/rss/RSSWSJD\nPublished: Wed, 17 Jun 2026 16:00:00 GMT\nLink:      https://www.wsj.com/finance/banking/the-ipo-onslaught-is-forcing-bankers-to-pick-teams-50fab052?mod=rss_Technology\n\nThe IPO Onslaught Is Forcing Bankers to Pick Teams\n\nBoth Goldman Sachs and Morgan Stanley are preparing for the dueling IPOs of OpenAI and Anthropic by forming separate teams to prevent information sharing between the AI giants.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoldman Sachs and Morgan Stanley are each forming walled-off internal teams to handle the competing OpenAI and Anthropic IPOs and prevent information leaking between the two AI giants.\n\n\u5185\u5bb9:\nGoldman Sachs \u548c Morgan Stanley \u6b63\u5404\u81ea\u7ec4\u5efa\u76f8\u4e92\u9694\u79bb\u7684\u5185\u90e8\u56e2\u961f\uff0c\u5206\u522b\u64cd\u4f5c OpenAI \u4e0e Anthropic \u4e92\u76f8\u7ade\u4e89\u7684 IPO\uff0c\u4ee5\u9632\u4e24\u5bb6 AI \u5de8\u5934\u4e4b\u95f4\u7684\u4fe1\u606f\u6cc4\u9732\u3002\n\nWhy it matters:\nTwo of the largest private AI labs racing to public markets at once signals insiders are moving to monetize while valuations are peak. Dueling mega-IPOs are a textbook late-cycle supply event \u2014 the smart money cashing out is the classic top-of-bubble tell.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u6700\u5927\u7684\u79c1\u6709 AI \u5b9e\u9a8c\u5ba4\u540c\u65f6\u51b2\u523a\u4e0a\u5e02\uff0c\u8bf4\u660e\u5185\u90e8\u4eba\u6b63\u8d76\u5728\u4f30\u503c\u9ad8\u70b9\u5957\u73b0\u3002\u540c\u65f6\u51fa\u73b0\u7684\u5de8\u578b IPO \u662f\u6559\u79d1\u4e66\u5f0f\u7684\u5468\u671f\u665a\u671f\u4f9b\u7ed9\u4e8b\u4ef6\u2014\u2014\u806a\u660e\u94b1\u79bb\u573a\u5f80\u5f80\u662f\u6ce1\u6cab\u89c1\u9876\u7684\u7ecf\u5178\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1000,
       "ts": 1781712320,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX, Anthropic, or OpenAI: Which IPO Is the Better Buy? - The Motley Fool",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 05:02:16 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPdEZRSk8xZTBlUWdNWkd3Y1E3WFV3RHNacVFwRmwwaEwxN3luV2E3a2xlYlNFYnRLcE1DWEZRY3RKS2NydG12Y3VjSzA2SmV3M1ZuczFDZE41RnNncDBsTWs5emRpOFFmMkpZUS1pVjBXSm5ucUdRNmpnS3hXTVl6RU9Sc3VfYl9CYS1QWURISVJMVWRIMVUtRg?oc=5\n\nSpaceX, Anthropic, or OpenAI: Which IPO Is the Better Buy? - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPdEZRSk8xZTBlUWdNWkd3Y1E3WFV3RHNacVFwRmwwaEwxN3luV2E3a2xlYlNFYnRLcE1DWEZRY3RKS2NydG12Y3VjSzA2SmV3M1ZuczFDZE41RnNncDBsTWs5emRpOFFmMkpZUS1pVjBXSm5ucUdRNmpnS3hXTVl6RU9Sc3VfYl9CYS1QWURISVJMVWRIMVUtRg?oc=5\" target=\"_blank\">SpaceX, Anthropic, or OpenAI: Which IPO Is the Better Buy?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool article asks whether SpaceX, Anthropic, or OpenAI is the better IPO buy, treating all three private AI/tech names as imminent public-market candidates.\n\n\u5185\u5bb9:\n\u4e00\u7bc7 Motley Fool \u6587\u7ae0\u53d1\u95ee SpaceX\u3001Anthropic \u8fd8\u662f OpenAI \u624d\u662f\u66f4\u503c\u5f97\u4e70\u7684 IPO\uff0c\u628a\u8fd9\u4e09\u5bb6\u4ecd\u672a\u4e0a\u5e02\u7684 AI/\u79d1\u6280\u516c\u53f8\u90fd\u5f53\u4f5c\u5373\u5c06\u4e0a\u5e02\u7684\u6807\u7684\u3002\n\nWhy it matters:\nRetail-facing 'which IPO should you buy' content about still-private AI labs is a late-cycle marker \u2014 it signals public appetite to cash out private AI bets and pressure to bring richly-valued, cash-burning names to market while sentiment holds. Watch for this framing to precede actual S-1 filings.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u300c\u8be5\u4e70\u54ea\u53ea IPO\u300d\u5185\u5bb9\u5f00\u59cb\u8ba8\u8bba\u4ecd\u5904\u4e8e\u79c1\u6709\u9636\u6bb5\u7684 AI \u5b9e\u9a8c\u5ba4\uff0c\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u51fa\u5e02\u573a\u6025\u4e8e\u4e3a\u79c1\u52df AI \u62bc\u6ce8\u5957\u73b0\uff0c\u4e5f\u53cd\u6620\u51fa\u8d81\u60c5\u7eea\u5c1a\u5728\u3001\u628a\u9ad8\u4f30\u503c\u3001\u70e7\u73b0\u91d1\u7684\u516c\u53f8\u63a8\u5411\u516c\u5f00\u5e02\u573a\u7684\u538b\u529b\u3002\u8fd9\u79cd\u53d9\u4e8b\u5f80\u5f80\u4f1a\u5148\u4e8e\u771f\u6b63\u7684 S-1 \u62db\u80a1\u4e66\u51fa\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 801,
-      "ts": 1781410459,
-      "ts_str": "2026-06-14 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] The Behind-the-Scenes Drama of SpaceX's IPO: Beating OpenAI to the Punch, Aggressive Acquisitions to Inflate Assets, and",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 07:22:43 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPbjVLcGFsbHM4ZC1wRWVSX3Y4YURYRXRjZGNWeXM1WUlFME14RlZKYndwb0w3bEJJNWdUTGU2YUNSV0lYeWJkdWdDbDBNY2FQR0VtajJOWVQwN0VMY0lhUk1JSTc4WFgyN0I4NEhoVkdYWmxsLVk4eVRuNzNUMnctZFpvYnFyQ0FmTGdYV2toZUppYkRUU01Z?oc=5\n\nThe Behind-the-Scenes Drama of SpaceX's IPO: Beating OpenAI to the Punch, Aggressive Acquisitions to Inflate Assets, and Wall Street Led by the Nose Throughout - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPbjVLcGFsbHM4ZC1wRWVSX3Y4YURYRXRjZGNWeXM1WUlFME14RlZKYndwb0w3bEJJNWdUTGU2YUNSV0lYeWJkdWdDbDBNY2FQR0VtajJOWVQwN0VMY0lhUk1JSTc4WFgyN0I4NEhoVkdYWmxsLVk4eVRuNzNUMnctZFpvYnFyQ0FmTGdYV2toZUppYkRUU01Z?oc=5\" target=\"_blank\">The Behind-the-Scenes Drama of SpaceX's IPO: Beating OpenAI to the Punch, Aggressive Acquisitions to Inflate Assets, and Wall Street Led by the Nose Throughout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA \u5bcc\u9014\u725b\u725b article frames SpaceX racing to IPO ahead of OpenAI, alleging it used aggressive acquisitions to inflate asset values while leading Wall Street along.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u5bcc\u9014\u725b\u725b\u6587\u7ae0\u63cf\u8ff0 SpaceX \u62a2\u5728 OpenAI \u4e4b\u524d\u51b2\u523a IPO\uff0c\u5e76\u6307\u5176\u901a\u8fc7\u6fc0\u8fdb\u6536\u8d2d\u6765\u865a\u589e\u8d44\u4ea7\u89c4\u6a21\u3001\u4e00\u8def\u7275\u7740\u534e\u5c14\u8857\u8d70\u3002\n\nWhy it matters:\nOpenAI's private valuation is the keystone of the AI-capex bubble; chatter about rivals rushing to list first and about asset-inflation tactics signals insiders are trying to cash out near the top before sentiment turns. A scramble for the IPO exit is a late-cycle tell.\n\n\u5f71\u54cd:\nOpenAI \u7684\u79c1\u52df\u4f30\u503c\u662f AI capex \u6ce1\u6cab\u7684\u6838\u5fc3\u652f\u67f1\uff1b\u5173\u4e8e\u5bf9\u624b\u62a2\u5148\u4e0a\u5e02\u3001\u4ee5\u53ca\u865a\u589e\u8d44\u4ea7\u624b\u6cd5\u7684\u4f20\u95fb\uff0c\u6697\u793a\u5185\u90e8\u4eba\u60f3\u8d81\u60c5\u7eea\u89c1\u9876\u524d\u5728\u9ad8\u4f4d\u5957\u73b0\u79bb\u573a\u3002\u4e89\u62a2 IPO \u51fa\u53e3\u672c\u8eab\u5c31\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
