@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781685123,
-  "generated_at_str": "2026-06-17 08:32:03 UTC",
-  "last_event_ts": 1781684043,
+  "generated_at": 1781685324,
+  "generated_at_str": "2026-06-17 08:35:24 UTC",
+  "last_event_ts": 1781685323,
   "tables": {
     "alerts_dedup": {
-      "count": 976,
-      "last_ts": 1781682259,
-      "last_str": "2026-06-17 07:44:19 UTC"
+      "count": 977,
+      "last_ts": 1781685323,
+      "last_str": "2026-06-17 08:35:23 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-17 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 312,
-      "last_ts": 1781681702,
-      "last_str": "2026-06-17 07:35:02 UTC"
+      "count": 315,
+      "last_ts": 1781685302,
+      "last_str": "2026-06-17 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 386,
-      "last_ts": 1781683503,
-      "last_str": "2026-06-17 08:05:03 UTC"
+      "count": 388,
+      "last_ts": 1781685304,
+      "last_str": "2026-06-17 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 169,
-      "last_ts": 1781679902,
-      "last_str": "2026-06-17 07:05:02 UTC"
+      "count": 170,
+      "last_ts": 1781685303,
+      "last_str": "2026-06-17 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 346,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 984,
+      "ts": 1781685323,
+      "ts_str": "2026-06-17 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage Driving India\u2019s Inflation \u2013 Explained - Vajiram & Ravi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 05:59:07 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTFBPQ2lRTktoYmJ5V0h4Zk04dXpCeXQtYlFEQkxOOF83WGpZOGUtWEVRY2tCSmNWS0ZyZDF1WklpX1l4S0gyYktBVTA1SzRMOHJRMGljNXFBTEJYWDZlVGVqVDlBMXVrUW1xZEVJcEJSTkhTZw?oc=5\n\nMemory Chip Shortage Driving India\u2019s Inflation \u2013 Explained - Vajiram & Ravi\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBPQ2lRTktoYmJ5V0h4Zk04dXpCeXQtYlFEQkxOOF83WGpZOGUtWEVRY2tCSmNWS0ZyZDF1WklpX1l4S0gyYktBVTA1SzRMOHJRMGljNXFBTEJYWDZlVGVqVDlBMXVrUW1xZEVJcEJSTkhTZw?oc=5\" target=\"_blank\">Memory Chip Shortage Driving India\u2019s Inflation \u2013 Explained</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vajiram & Ravi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports a memory chip shortage is driving inflation in India: \"Memory Chip Shortage Driving India's Inflation\" (Vajiram & Ravi).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u5370\u5ea6\u7684\u901a\u80c0\uff1a\"Memory Chip Shortage Driving India's Inflation\"\uff08\u6765\u6e90 Vajiram & Ravi\uff09\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) prices spilling into a national CPI print means the AI-buildout's component demand is now large enough to move consumer prices, not just chip spot markets. Broadening price pressure from a supply squeeze is a sign the capex cycle is straining the physical supply chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6da8\u4ef7\u4f20\u5bfc\u8fdb\u4e00\u56fd CPI\uff0c\u8bf4\u660e AI \u5efa\u8bbe\u5e26\u6765\u7684\u5143\u4ef6\u9700\u6c42\u5df2\u7ecf\u5927\u5230\u80fd\u64ac\u52a8\u6d88\u8d39\u8005\u7269\u4ef7\uff0c\u800c\u4e0d\u53ea\u662f\u82af\u7247\u73b0\u8d27\u5e02\u573a\u3002\u4f9b\u7ed9\u7d27\u5f20\u5f15\u53d1\u7684\u4ef7\u683c\u538b\u529b\u5916\u6ea2\uff0c\u662f capex \u5468\u671f\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 983,
       "ts": 1781682259,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - livingstonenterprise.net",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVElJS1p3cEk2emFNclUxcFJ4ejY2S0ZSdmNwRXJxemxVS2R3Zm4tV3RmOC00bWQ3QnpvX1VJZXgwNDdXWUc0NW1oRUdua3pGTWM0cnNaYXI4clc5RHFCQmdXM2toVm5KcnVmdU5OWmo2TUl5QTdBb1JJdUhJdjAzU296X0tQMFNTb1U5czl3Y0Nic2tyRFVycVUyV1hWWnFDd25ZSVQ1OUNqTXBJbHRPZVEtLWoxN3RHdUhwSTZra1RGQQ?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - livingstonenterprise.net\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVElJS1p3cEk2emFNclUxcFJ4ejY2S0ZSdmNwRXJxemxVS2R3Zm4tV3RmOC00bWQ3QnpvX1VJZXgwNDdXWUc0NW1oRUdua3pGTWM0cnNaYXI4clc5RHFCQmdXM2toVm5KcnVmdU5OWmo2TUl5QTdBb1JJdUhJdjAzU296X0tQMFNTb1U5czl3Y0Nic2tyRFVycVUyV1hWWnFDd25ZSVQ1OUNqTXBJbHRPZVEtLWoxN3RHdUhwSTZra1RGQQ?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">livingstonenterprise.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 782,
-      "ts": 1781381648,
-      "ts_str": "2026-06-13 20:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - PBS",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:52:18 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxNbm43dGZ4UEllRC1zOEhGQzllclNwYl9naE1hOHBiTGxkLVJsUFduYTJYSnZkY01zOU1oaWw5NzYzMTg2TTg1S3ItSlJnakhrZW5KMGE3MzN0cjU4NWM2aUdQVUZ3a2FNdm1pYzhyOElnd3hOQ3lRa1NpR1ktdWJRT3hkMzIwNk8xdHZ0NUNKVjZkUTlBOW95N1pjTnVETmJKX3hIVXV0Y1NaR1ZGaVE?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - PBS\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNbm43dGZ4UEllRC1zOEhGQzllclNwYl9naE1hOHBiTGxkLVJsUFduYTJYSnZkY01zOU1oaWw5NzYzMTg2TTg1S3ItSlJnakhrZW5KMGE3MzN0cjU4NWM2aUdQVUZ3a2FNdm1pYzhyOElnd3hOQ3lRa1NpR1ktdWJRT3hkMzIwNk8xdHZ0NUNKVjZkUTlBOW95N1pjTnVETmJKX3hIVXV0Y1NaR1ZGaVE?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
