@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781678462,
-  "generated_at_str": "2026-06-17 06:41:02 UTC",
-  "last_event_ts": 1781678103,
+  "generated_at": 1781678655,
+  "generated_at_str": "2026-06-17 06:44:15 UTC",
+  "last_event_ts": 1781678654,
   "tables": {
     "alerts_dedup": {
-      "count": 973,
-      "last_ts": 1781673262,
-      "last_str": "2026-06-17 05:14:22 UTC"
+      "count": 974,
+      "last_ts": 1781678654,
+      "last_str": "2026-06-17 06:44:14 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 1912,
-      "last_ts": 1781673244,
-      "last_str": "2026-06-17 05:14:04 UTC"
+      "count": 1913,
+      "last_ts": 1781678643,
+      "last_str": "2026-06-17 06:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 401,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-17 06:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9645,
-      "last_ts": 1781676843,
-      "last_str": "2026-06-17 06:14:03 UTC"
+      "count": 9647,
+      "last_ts": 1781678642,
+      "last_str": "2026-06-17 06:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 981,
+      "ts": 1781678654,
+      "ts_str": "2026-06-17 06:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Analysis: With the anticipated IPO of OpenAI gaining momentum, Worldcoin is poised to become a benchmark. - PANews",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 03:36:13 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE1WeGgxU05iVlhKcGpnSU5KQ0J6UmhlZkFhbUt0UmNlR1FtV1RicHJNd0RVOEVnOHNiTW9KLTY2SGladnA0S3FFaE5JeXFPZS1BVEp3cjVGdmd4bTdwT1g2ZjFWdEdRV1lrX2RhaFh2RXRYUEhFYl80M2N3QmVJMlU?oc=5\n\nAnalysis: With the anticipated IPO of OpenAI gaining momentum, Worldcoin is poised to become a benchmark. - PANews\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1WeGgxU05iVlhKcGpnSU5KQ0J6UmhlZkFhbUt0UmNlR1FtV1RicHJNd0RVOEVnOHNiTW9KLTY2SGladnA0S3FFaE5JeXFPZS1BVEp3cjVGdmd4bTdwT1g2ZjFWdEdRV1lrX2RhaFh2RXRYUEhFYl80M2N3QmVJMlU?oc=5\" target=\"_blank\">Analysis: With the anticipated IPO of OpenAI gaining momentum, Worldcoin is poised to become a benchmark.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 980,
       "ts": 1781673262,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - morning-times.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:17:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeTJUZnJfMXdlcGg1c0o0eThCeldHeTdxQk9NdW5lZVdWWUtJMGdZVEx3UXUtZ2ZhdWU2dmVRVmI4U2tOUFo3NEdTbm12Q3NXcE1OUmpHT2dpZ2JhQ1ZhSGpVREZHNWpQNDdtWmVwa1ZLeEJNX1VJTnJwRXl3UFdYZDc5Y0p0WEFPMEhKNzlhYUhOU2hxV3BxUzBzTUNsMy1HekQyOVltS09KUHFaSFdIWVl5aWgxbkFhdHBIZXdJeEpwQ2lmdXpUNmlWUXpZX1A4Ty1BRk1XYnVRSm9razNqc01qU2tFb0s4cmVBSWpWeE1PM0tHYUlYRg?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - morning-times.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeTJUZnJfMXdlcGg1c0o0eThCeldHeTdxQk9NdW5lZVdWWUtJMGdZVEx3UXUtZ2ZhdWU2dmVRVmI4U2tOUFo3NEdTbm12Q3NXcE1OUmpHT2dpZ2JhQ1ZhSGpVREZHNWpQNDdtWmVwa1ZLeEJNX1VJTnJwRXl3UFdYZDc5Y0p0WEFPMEhKNzlhYUhOU2hxV3BxUzBzTUNsMy1HekQyOVltS09KUHFaSFdIWVl5aWgxbkFhdHBIZXdJeEpwQ2lmdXpUNmlWUXpZX1A4Ty1BRk1XYnVRSm9razNqc01qU2tFb0s4cmVBSWpWeE1PM0tHYUlYRg?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">morning-times.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 779,
-      "ts": 1781379848,
-      "ts_str": "2026-06-13 19:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - New Haven Register",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:25:13 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxOV0pPejBLa1NNOUE0NGJzZFlteXY4YUFOaGw4WmJoOUQ2T09uTy1VQUFwc1Z5OVNSbEpQMFdRNGl3Tm9KMlNpQ2FGMzFKTVM3bnhGMGxqdmQzYXBMT3p5X0ZLRFlnQlVpX3hpY0lzdXZNWVY4LW4yRWNiMEdlVkZMMnlWdnVHSkFnM0tCcmVTMjdROFBUc0E0QzN0VHdWVGtUM21rMG1n?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - New Haven Register\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOV0pPejBLa1NNOUE0NGJzZFlteXY4YUFOaGw4WmJoOUQ2T09uTy1VQUFwc1Z5OVNSbEpQMFdRNGl3Tm9KMlNpQ2FGMzFKTVM3bnhGMGxqdmQzYXBMT3p5X0ZLRFlnQlVpX3hpY0lzdXZNWVY4LW4yRWNiMEdlVkZMMnlWdnVHSkFnM0tCcmVTMjdROFBUc0E0QzN0VHdWVGtUM21rMG1n?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Haven Register</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
