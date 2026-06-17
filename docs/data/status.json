@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781733724,
-  "generated_at_str": "2026-06-17 22:02:04 UTC",
-  "last_event_ts": 1781732644,
+  "generated_at": 1781733934,
+  "generated_at_str": "2026-06-17 22:05:34 UTC",
+  "last_event_ts": 1781733934,
   "tables": {
     "alerts_dedup": {
-      "count": 1003,
-      "last_ts": 1781732156,
-      "last_str": "2026-06-17 21:35:56 UTC"
+      "count": 1005,
+      "last_ts": 1781733934,
+      "last_str": "2026-06-17 22:05:34 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-17 21:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 372,
-      "last_ts": 1781728502,
-      "last_str": "2026-06-17 20:35:02 UTC"
+      "count": 373,
+      "last_ts": 1781733902,
+      "last_str": "2026-06-17 22:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 462,
-      "last_ts": 1781732104,
-      "last_str": "2026-06-17 21:35:04 UTC"
+      "count": 464,
+      "last_ts": 1781733904,
+      "last_str": "2026-06-17 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 214,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-17 21:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 390,
-      "last_ts": 1781730306,
-      "last_str": "2026-06-17 21:05:06 UTC"
+      "count": 391,
+      "last_ts": 1781733905,
+      "last_str": "2026-06-17 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9813,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1011,
+      "ts": 1781733934,
+      "ts_str": "2026-06-17 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to Raise Prices Due to Memory Chip Shortage, CEO Tells WSJ - GV Wire",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:41:01 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxNQTBFRGVGb1ZfY1FsdjBYVjdhcGhPUERGcmgyU0R3bFFEcE5vZVY1dFBWTFJOX180YktISXdEa1dDU2s2Wk5USlp0SXBJNUhscTRyTnJ3VmhVaF9ucUloQmI2aHBrQ3VUMkJ0cjdMdWE0MVdFTHVoeU9lLUdNbFpmbzA4UTl4cUdJaGo3c0ZmMVp0ZjZXcC1YRGhR?oc=5\n\nApple to Raise Prices Due to Memory Chip Shortage, CEO Tells WSJ - GV Wire\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNQTBFRGVGb1ZfY1FsdjBYVjdhcGhPUERGcmgyU0R3bFFEcE5vZVY1dFBWTFJOX180YktISXdEa1dDU2s2Wk5USlp0SXBJNUhscTRyTnJ3VmhVaF9ucUloQmI2aHBrQ3VUMkJ0cjdMdWE0MVdFTHVoeU9lLUdNbFpmbzA4UTl4cUdJaGo3c0ZmMVp0ZjZXcC1YRGhR?oc=5\" target=\"_blank\">Apple to Raise Prices Due to Memory Chip Shortage, CEO Tells WSJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GV Wire</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple's CEO told the WSJ that Apple will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\nApple CEO \u5411 WSJ \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being soaked up by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising costs for the largest consumer-electronics buyer, it confirms supply is tight and the spend is crowding out other end markets \u2014 a bubble-stress signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u7aef\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u5168\u7403\u6700\u5927\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u65b9\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u4f9b\u7ed9\u5df2\u7ecf\u7d27\u5f20\u3001AI \u652f\u51fa\u6b63\u5728\u6324\u5360\u5176\u4ed6\u7ec8\u7aef\u5e02\u573a\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1012,
+      "ts": 1781733934,
+      "ts_str": "2026-06-17 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to Raise Product Prices Amid Rising Memory Chip Costs, Cook Says - marketscreener.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:35:21 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDBWOFZqWTdObXdmRnA1VlVxV0VKb0dNTjdCdndFMDBJNENSNl85RzZ3XzN0UDNDNWJOLThUaF9vR3l0OWVMTFhxa0Zvd2NvS2dZMDlPcjFkcTNDRDVMMnQ2RjlFOXJwUGZhdmNwenJHaVhlWjBvYzI2c1dKTTRXZjBKNk9LQy1ITkFYQkMyZGxrNWhTUWtyeG5lSGswZFFCT0hXc0EtVi1tMzJ6a2pIaERJejJra2Qtd0F4MUVWOA?oc=5\n\nApple to Raise Product Prices Amid Rising Memory Chip Costs, Cook Says - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDBWOFZqWTdObXdmRnA1VlVxV0VKb0dNTjdCdndFMDBJNENSNl85RzZ3XzN0UDNDNWJOLThUaF9vR3l0OWVMTFhxa0Zvd2NvS2dZMDlPcjFkcTNDRDVMMnQ2RjlFOXJwUGZhdmNwenJHaVhlWjBvYzI2c1dKTTRXZjBKNk9LQy1ITkFYQkMyZGxrNWhTUWtyeG5lSGswZFFCT0hXc0EtVi1tMzJ6a2pIaERJejJra2Qtd0F4MUVWOA?oc=5\" target=\"_blank\">Apple to Raise Product Prices Amid Rising Memory Chip Costs, Cook Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook said Apple will raise product prices because of rising memory chip costs, per a marketscreener.com headline.\n\n\u5185\u5bb9:\n\u636e marketscreener.com \u6807\u9898\uff0cApple CEO Tim Cook \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u5347\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI-datacenter buildout is soaking up DRAM/NAND supply, pushing memory prices high enough that even Apple \u2014 with enormous purchasing power \u2014 has to pass the cost to consumers. That is AI capex leaking into real-economy price inflation and crowding out other buyers, a sign the spend is straining the broader supply chain.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u541e\u566c DRAM/NAND \u4f9b\u7ed9\uff0c\u628a\u5185\u5b58\u4ef7\u683c\u63a8\u9ad8\u5230\u8fde\u91c7\u8d2d\u80fd\u529b\u6781\u5f3a\u7684 Apple \u90fd\u4e0d\u5f97\u4e0d\u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u3002\u8fd9\u610f\u5473\u7740 AI capex \u6b63\u5916\u6ea2\u6210\u5b9e\u4f53\u7ecf\u6d4e\u7684\u4ef7\u683c\u901a\u80c0\uff0c\u5e76\u6324\u51fa\u5176\u4ed6\u4e70\u5bb6\u2014\u2014\u8868\u660e\u8fd9\u8f6e\u652f\u51fa\u5df2\u7ecf\u5728\u62c9\u7d27\u6574\u4e2a\u4f9b\u5e94\u94fe\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1007,
       "ts": 1781732156,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Regulatory Risks Rise for U.S. AI Leaders OpenAI and Anthropic Ahead of IPO - aju press",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 05:24:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xYmJVUVlLN09BRVRPbzI2UE81aVZsc3Nua3hVbEVmeFZJV2xDd05oc052ZVVnT01UbjFPeS10c29oNlhHdGdNSW4weFZfRkt3SXBZdVZQY9IBV0FVX3lxTE4xYmJVUVlLN09BRVRPbzI2UE81aVZsc3Nua3hVbEVmeFZJV2xDd05oc052ZVVnT01UbjFPeS10c29oNlhHdGdNSW4weFZfRkt3SXBZdVZQYw?oc=5\n\nRegulatory Risks Rise for U.S. AI Leaders OpenAI and Anthropic Ahead of IPO - aju press\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xYmJVUVlLN09BRVRPbzI2UE81aVZsc3Nua3hVbEVmeFZJV2xDd05oc052ZVVnT01UbjFPeS10c29oNlhHdGdNSW4weFZfRkt3SXBZdVZQY9IBV0FVX3lxTE4xYmJVUVlLN09BRVRPbzI2UE81aVZsc3Nua3hVbEVmeFZJV2xDd05oc052ZVVnT01UbjFPeS10c29oNlhHdGdNSW4weFZfRkt3SXBZdVZQYw?oc=5\" target=\"_blank\">Regulatory Risks Rise for U.S. AI Leaders OpenAI and Anthropic Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aju press</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flags that regulatory risk is rising for U.S. AI leaders OpenAI and Anthropic ahead of a possible IPO.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u6307\u51fa\uff0c\u7f8e\u56fd AI \u9f99\u5934 OpenAI \u4e0e Anthropic \u5728 IPO \u524d\u9762\u4e34\u4e0a\u5347\u7684\u76d1\u7ba1\u98ce\u9669\u3002\n\nWhy it matters:\nOpenAI and Anthropic are the demand anchors underwriting the entire AI-capex buildout. Heavier regulatory scrutiny ahead of an IPO raises their cost of capital and listing risk, which threatens the funding pipeline that keeps hyperscaler and neocloud spending flowing.\n\n\u5f71\u54cd:\nOpenAI \u548c Anthropic \u662f\u652f\u6491\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u57fa\u77f3\u3002IPO \u524d\u76d1\u7ba1\u538b\u529b\u52a0\u5927\u4f1a\u62ac\u9ad8\u5b83\u4eec\u7684\u878d\u8d44\u6210\u672c\u548c\u4e0a\u5e02\u98ce\u9669\uff0c\u8fdb\u800c\u5a01\u80c1\u5230\u7ef4\u7cfb\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e0e neocloud \u6301\u7eed\u6295\u5165\u7684\u8d44\u91d1\u94fe\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 810,
-      "ts": 1781426116,
-      "ts_str": "2026-06-14 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:25:27 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\n\nMemory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\" target=\"_blank\">Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pandaily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Pandaily) reports a memory price surge is forcing smartphone makers to downgrade entry-level specs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u65b0\u95fb\uff08Pandaily\uff09\u62a5\u9053\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u8feb\u4f7f\u667a\u80fd\u624b\u673a\u5382\u5546\u4e0b\u8c03\u5165\u95e8\u673a\u578b\u7684\u89c4\u683c\u914d\u7f6e\u3002\n\nWhy it matters:\nDRAM/NAND pricing is being bid up by AI datacenter demand, and the spillover is now rationing memory away from consumer devices. When AI capex starts crowding out and repricing a commodity input across the whole electronics supply chain, it confirms the buildout is straining real-world component markets, not just balance sheets.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u9ad8\uff0c\u5916\u6ea2\u6548\u5e94\u5982\u4eca\u5f00\u59cb\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u4e2d\u6324\u8d70\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u5728\u6574\u4e2a\u7535\u5b50\u4f9b\u5e94\u94fe\u4e2d\u62a2\u5360\u5e76\u91cd\u65b0\u5b9a\u4ef7\u4e00\u79cd\u5927\u5b97\u5143\u4ef6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6324\u538b\u7684\u5df2\u662f\u771f\u5b9e\u7684\u5143\u5668\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u6570\u5b57\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 811,
-      "ts": 1781426116,
-      "ts_str": "2026-06-14 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:25:27 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\n\nMemory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs - Pandaily\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOcjN2UGdrcHhhNmp5Q1hINzFpQjZMRTBwdkR0dnpfS3RFQVVGNUU3NWV2dzF5Sk02UXRGNkVLVWFDamI1MzRUMGlDMnpZZUZadzVTNlVLYkoyN2NOUVJnMGg1YVJmWU1XZ1lUTDZRV0VUbVEzUC1OSjVLRHJyWGpnMkg1UWo?oc=5\" target=\"_blank\">Memory Price Surge Forces Smartphone Makers to Downgrade Entry-Level Specs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pandaily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Pandaily) reports a memory price surge is forcing smartphone makers to downgrade entry-level specs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u65b0\u95fb\uff08Pandaily\uff09\u62a5\u9053\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u8feb\u4f7f\u667a\u80fd\u624b\u673a\u5382\u5546\u4e0b\u8c03\u5165\u95e8\u673a\u578b\u7684\u89c4\u683c\u914d\u7f6e\u3002\n\nWhy it matters:\nDRAM/NAND pricing is being bid up by AI datacenter demand, and the spillover is now rationing memory away from consumer devices. When AI capex starts crowding out and repricing a commodity input across the whole electronics supply chain, it confirms the buildout is straining real-world component markets, not just balance sheets.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u9ad8\uff0c\u5916\u6ea2\u6548\u5e94\u5982\u4eca\u5f00\u59cb\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u4e2d\u6324\u8d70\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u5728\u6574\u4e2a\u7535\u5b50\u4f9b\u5e94\u94fe\u4e2d\u62a2\u5360\u5e76\u91cd\u65b0\u5b9a\u4ef7\u4e00\u79cd\u5927\u5b97\u5143\u4ef6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6324\u538b\u7684\u5df2\u662f\u771f\u5b9e\u7684\u5143\u5668\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u6570\u5b57\u3002\n",
       "emailed": false
     }
   ],
