@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781699523,
-  "generated_at_str": "2026-06-17 12:32:03 UTC",
-  "last_event_ts": 1781698443,
+  "generated_at": 1781699721,
+  "generated_at_str": "2026-06-17 12:35:21 UTC",
+  "last_event_ts": 1781699721,
   "tables": {
     "alerts_dedup": {
-      "count": 982,
-      "last_ts": 1781691260,
-      "last_str": "2026-06-17 10:14:20 UTC"
+      "count": 983,
+      "last_ts": 1781699721,
+      "last_str": "2026-06-17 12:35:21 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-17 11:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 333,
-      "last_ts": 1781697903,
-      "last_str": "2026-06-17 12:05:03 UTC"
+      "count": 334,
+      "last_ts": 1781699702,
+      "last_str": "2026-06-17 12:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 412,
-      "last_ts": 1781696104,
-      "last_str": "2026-06-17 11:35:04 UTC"
+      "count": 419,
+      "last_ts": 1781699705,
+      "last_str": "2026-06-17 12:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 186,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 990,
+      "ts": 1781699721,
+      "ts_str": "2026-06-17 12:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple is beefing up inventor to weather memory price increases - MacTech.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 19:25:54 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2plemFUSUM2bGJWTHhyVHdheTI0b0tlVHF2elFQUEtRNW9oTTNPYzdXeC1VVW5wc25xNEpKWFBINUlnRlI1M3F1T0wzNzZsSG03ZmFieDVSQm9uc25yZG9hVDhFMEpOWVRTWEZmeV9vMWhKMGdmTlJvZVE0Ti1WMlJVaWdjZVM4Z1dUQTFITXdoeEVhOVVwLXJvc0tNOUU?oc=5\n\nApple is beefing up inventor to weather memory price increases - MacTech.com\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2plemFUSUM2bGJWTHhyVHdheTI0b0tlVHF2elFQUEtRNW9oTTNPYzdXeC1VVW5wc25xNEpKWFBINUlnRlI1M3F1T0wzNzZsSG03ZmFieDVSQm9uc25yZG9hVDhFMEpOWVRTWEZmeV9vMWhKMGdmTlJvZVE0Ti1WMlJVaWdjZVM4Z1dUQTFITXdoeEVhOVVwLXJvc0tNOUU?oc=5\" target=\"_blank\">Apple is beefing up inventor to weather memory price increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MacTech.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA MacTech.com headline reports Apple is building up inventory to weather memory (DRAM/NAND) price increases.\n\n\u5185\u5bb9:\nMacTech.com \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053 Apple \u6b63\u5728\u589e\u52a0\u5e93\u5b58\uff0c\u4ee5\u5e94\u5bf9\u5185\u5b58 (DRAM/NAND) \u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory price surges are a downstream symptom of AI-driven demand soaking up fab capacity \u2014 HBM and DDR5 for accelerators crowd out conventional supply. When a buyer as large as Apple stockpiles to front-run further hikes, it signals the AI-capex boom is tightening the broader memory market and pushing up costs across the hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI \u9700\u6c42\u6324\u5360\u6676\u5706\u4ea7\u80fd\u7684\u4e0b\u6e38\u5f81\u5146\u2014\u2014\u52a0\u901f\u5668\u7528\u7684 HBM \u548c DDR5 \u62a2\u5360\u4e86\u5e38\u89c4\u4f9b\u7ed9\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u5f00\u59cb\u56e4\u8d27\u4ee5\u62a2\u5728\u8fdb\u4e00\u6b65\u6da8\u4ef7\u4e4b\u524d\u4e0b\u624b\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5728\u6536\u7d27\u6574\u4e2a\u5185\u5b58\u5e02\u573a\uff0c\u5e76\u63a8\u9ad8\u6574\u6761\u786c\u4ef6\u94fe\u7684\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 989,
       "ts": 1781691260,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI takes step toward potential blockbuster IPO, files confidential S-1 - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 20:02:29 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbmU0Z3RpUGxUZUJhRlVhTlJzdlhjeHRQZEYxcDlaQ20wRGpITUZzeDZTVUw4cGlxTll3bzd1ZEo0U1FlY2ZJWkF5VUxId1dET2dRUkdLamNGazZ1bjBSdWpjdWRaLTViRVZZVXZUcDRua3Z5bGVLMGozZHVnNUU?oc=5\n\nOpenAI takes step toward potential blockbuster IPO, files confidential S-1 - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbmU0Z3RpUGxUZUJhRlVhTlJzdlhjeHRQZEYxcDlaQ20wRGpITUZzeDZTVUw4cGlxTll3bzd1ZEo0U1FlY2ZJWkF5VUxId1dET2dRUkdLamNGazZ1bjBSdWpjdWRaLTViRVZZVXZUcDRua3Z5bGVLMGozZHVnNUU?oc=5\" target=\"_blank\">OpenAI takes step toward potential blockbuster IPO, files confidential S-1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 791,
-      "ts": 1781390647,
-      "ts_str": "2026-06-13 22:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI files confidentially for IPO \u2014 but there\u2019s a catch - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 02:35:38 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSlMwRWNYV1Z4Ul95Wmt4U19uNHJBSEdKQXdoUXdjeTktbkJmallRWlRVU3B5eHFwY21vSUxuTXYyVmtDT19CekhkYVNXTVNId0tIVll0VzlqZk1wUEQydnlDTE1NTjhvUVFQQWN2X1hkRHZ5VGZNOHlvTGVrbGtZQjJFbmhtOTZyQkJGTWhlSmNmOGhLcWFkeTBCRWp6bDdKXy1zdE1XTFpSWHVaNDA5ZEFnVXdJN3BsRFlYeWdKWnJlQ0Y2TTUyU3lrSUVzbm16TmdrdllTdTg4dHhV?oc=5\n\nOpenAI files confidentially for IPO \u2014 but there\u2019s a catch - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSlMwRWNYV1Z4Ul95Wmt4U19uNHJBSEdKQXdoUXdjeTktbkJmallRWlRVU3B5eHFwY21vSUxuTXYyVmtDT19CekhkYVNXTVNId0tIVll0VzlqZk1wUEQydnlDTE1NTjhvUVFQQWN2X1hkRHZ5VGZNOHlvTGVrbGtZQjJFbmhtOTZyQkJGTWhlSmNmOGhLcWFkeTBCRWp6bDdKXy1zdE1XTFpSWHVaNDA5ZEFnVXdJN3BsRFlYeWdKWnJlQ0Y2TTUyU3lrSUVzbm16TmdrdllTdTg4dHhV?oc=5\" target=\"_blank\">OpenAI files confidentially for IPO \u2014 but there\u2019s a catch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
