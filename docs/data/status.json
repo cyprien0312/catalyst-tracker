@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781690524,
-  "generated_at_str": "2026-06-17 10:02:04 UTC",
-  "last_event_ts": 1781689473,
+  "generated_at": 1781690720,
+  "generated_at_str": "2026-06-17 10:05:20 UTC",
+  "last_event_ts": 1781690720,
   "tables": {
     "alerts_dedup": {
-      "count": 980,
-      "last_ts": 1781689473,
-      "last_str": "2026-06-17 09:44:33 UTC"
+      "count": 981,
+      "last_ts": 1781690720,
+      "last_str": "2026-06-17 10:05:20 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-17 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 324,
-      "last_ts": 1781688902,
-      "last_str": "2026-06-17 09:35:02 UTC"
+      "count": 326,
+      "last_ts": 1781690702,
+      "last_str": "2026-06-17 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 396,
-      "last_ts": 1781688904,
-      "last_str": "2026-06-17 09:35:04 UTC"
+      "count": 407,
+      "last_ts": 1781690704,
+      "last_str": "2026-06-17 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 174,
-      "last_ts": 1781688903,
-      "last_str": "2026-06-17 09:35:03 UTC"
+      "count": 177,
+      "last_ts": 1781690703,
+      "last_str": "2026-06-17 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 348,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 988,
+      "ts": 1781690720,
+      "ts_str": "2026-06-17 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SMI's PCIe 6.0 SSD controller for consumer SSDs coming next year, but severe NAND shortages will get even worse in 2027 ",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 13:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi6gJBVV95cUxNeWViNUZLZTBYRVY1UVVqWkZjY0JaMFNtdUZOaW9SNXA0YnQtTHFMX19NNnhnbGJFTy11VEVMd0VZSjhmbU8tb3BiVFRpZzdWOExyeGxPUnVpa2JTcXBnU0hQOGlBYW9wY1pySXp6al9jQ0liQmdmSEllZ3BxRTBLQ0JpazdNdFk1Y1lTUWFJcmNGZWdkd1ctVl9EczViRWtRWjZsTFJXWUdLTXNqbW1CRUNxTVV5SWFrUVlMUVh2WHZmQ2Rna2VMblQ1dGtKc3pIQlIzVC0tMXJ1ckd3ODZRdklCY2NzcmhKekdRenhTS2taUG0zbkJwR21RTGtPN2VHSkVsRnNKaWR2QUNsdExSTl9CZEVyRnBOcmlwdVNKRGo4ZGQycFp3VWNfaHJsTnhOSnczOS0ybkxfVmZuLV9vUkplS1N1QUdwcXM2U0J5WlFZS3hrby0yRlNrbnYwN0lCZmtKMkZQWkkzdw?oc=5\n\nSMI's PCIe 6.0 SSD controller for consumer SSDs coming next year, but severe NAND shortages will get even worse in 2027 as AI data centers swallow supply \u2014 An interview with Silicon Motion's SVP Nelson Duann - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMi6gJBVV95cUxNeWViNUZLZTBYRVY1UVVqWkZjY0JaMFNtdUZOaW9SNXA0YnQtTHFMX19NNnhnbGJFTy11VEVMd0VZSjhmbU8tb3BiVFRpZzdWOExyeGxPUnVpa2JTcXBnU0hQOGlBYW9wY1pySXp6al9jQ0liQmdmSEllZ3BxRTBLQ0JpazdNdFk1Y1lTUWFJcmNGZWdkd1ctVl9EczViRWtRWjZsTFJXWUdLTXNqbW1CRUNxTVV5SWFrUVlMUVh2WHZmQ2Rna2VMblQ1dGtKc3pIQlIzVC0tMXJ1ckd3ODZRdklCY2NzcmhKekdRenhTS2taUG0zbkJwR21RTGtPN2VHSkVsRnNKaWR2QUNsdExSTl9CZEVyRnBOcmlwdVNKRGo4ZGQycFp3VWNfaHJsTnhOSnczOS0ybkxfVmZuLV9vUkplS1N1QUdwcXM2U0J5WlFZS3hrby0yRlNrbnYwN0lCZmtKMkZQWkkzdw?oc=5\" target=\"_blank\">SMI's PCIe 6.0 SSD controller for consumer SSDs coming next year, but severe NAND shortages will get even worse in 2027 as AI data centers swallow supply \u2014 An interview with Silicon Motion's SVP Nelson Duann</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTom's Hardware quotes Silicon Motion SVP Nelson Duann warning that severe NAND flash shortages will worsen in 2027 as AI data centers absorb supply.\n\n\u5185\u5bb9:\nTom's Hardware \u63f4\u5f15 Silicon Motion(SMI)\u9ad8\u7ea7\u526f\u603b\u88c1 Nelson Duann \u8b66\u544a\u79f0,\u968f\u7740 AI \u6570\u636e\u4e2d\u5fc3\u541e\u566c\u4f9b\u5e94,\u4e25\u91cd\u7684 NAND \u95ea\u5b58\u77ed\u7f3a\u5c06\u5728 2027 \u5e74\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nAI buildout is now bidding memory away from consumer and enterprise markets, signaling component scarcity spreading beyond GPUs. Memory price surges raise the all-in cost of AI capex and squeeze every downstream buyer \u2014 a sign the spend is straining the wider supply chain, not just one bottleneck.\n\n\u5f71\u54cd:\nAI \u5efa\u8bbe\u6b63\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7ea7\u548c\u4f01\u4e1a\u7ea7\u5e02\u573a\u62a2\u8d70,\u8868\u660e\u96f6\u90e8\u4ef6\u77ed\u7f3a\u5df2\u4ece GPU \u8513\u5ef6\u5f00\u6765\u3002\u5185\u5b58\u6da8\u4ef7\u62ac\u9ad8\u4e86 AI capex \u7684\u603b\u4f53\u6210\u672c,\u5e76\u6324\u538b\u6bcf\u4e00\u4e2a\u4e0b\u6e38\u4e70\u5bb6\u2014\u2014\u8fd9\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u6b63\u5728\u62d6\u7d2f\u6574\u6761\u4f9b\u5e94\u94fe,\u800c\u4e0d\u53ea\u662f\u5355\u4e00\u74f6\u9888\u3002\n",
+      "emailed": false
+    },
     {
       "id": 986,
       "ts": 1781689473,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - Greenwich Time",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:24:26 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGl5S2NseTlzd1B3c1BmQXhOanRrVk9LU2E0bHFQN2d2c3M3ZmZYU2I0cVdVRDVQZ2lwWm55WDJTdXU5bHo5VVhubHdCclFZbWhyNTRZd3M0OXlzaFgtNnZqOG56dlMta0hyVXFCZzI1SlBxZE5FcnpNTWZjbzRhR2dKV0hqNXQ4NXVMYTA5SmtZS3JscVZDTlk5Q28zdlVITEltalNySG5YUQ?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - Greenwich Time\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGl5S2NseTlzd1B3c1BmQXhOanRrVk9LU2E0bHFQN2d2c3M3ZmZYU2I0cVdVRDVQZ2lwWm55WDJTdXU5bHo5VVhubHdCclFZbWhyNTRZd3M0OXlzaFgtNnZqOG56dlMta0hyVXFCZzI1SlBxZE5FcnpNTWZjbzRhR2dKV0hqNXQ4NXVMYTA5SmtZS3JscVZDTlk5Q28zdlVITEltalNySG5YUQ?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greenwich Time</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 789,
-      "ts": 1781388853,
-      "ts_str": "2026-06-13 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - New Castle News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 19:17:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQ0RtQmhHZmVqa0FEVVAtTVlsMm9XclhBWTVrdmo4NHhvWF9BSndkclEyaGVYVkJ6TGMtSkQ3NkhyM2lNVUpVNkRHb2Q2eDlIeFVFYThpVzlERjhLWGgxX3Y1Sms5WDY4b3RtWTZPbjF5VzBlWlg4eWVUUm9tMTYzNE1UUFVhREpaMXdydFZ5b0xzQkh6cldPRGpjOWtrWGpmVUZBd0FEdHNZdVdrdFBHampEUWltaGxRcWhBQUstR0Rxb0M0MXNrVGlPaXRqV3ZlTHVCTTJ4VHc0S1hXOC1JeDFUREM3aUNBRnRHSjk2SUJNaU8ySXRNaDVB?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - New Castle News\n\n<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQ0RtQmhHZmVqa0FEVVAtTVlsMm9XclhBWTVrdmo4NHhvWF9BSndkclEyaGVYVkJ6TGMtSkQ3NkhyM2lNVUpVNkRHb2Q2eDlIeFVFYThpVzlERjhLWGgxX3Y1Sms5WDY4b3RtWTZPbjF5VzBlWlg4eWVUUm9tMTYzNE1UUFVhREpaMXdydFZ5b0xzQkh6cldPRGpjOWtrWGpmVUZBd0FEdHNZdVdrdFBHampEUWltaGxRcWhBQUstR0Rxb0M0MXNrVGlPaXRqV3ZlTHVCTTJ4VHc0S1hXOC1JeDFUREM3aUNBRnRHSjk2SUJNaU8ySXRNaDVB?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Castle News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
