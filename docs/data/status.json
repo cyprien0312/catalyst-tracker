@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781826063,
-  "generated_at_str": "2026-06-18 23:41:03 UTC",
-  "last_event_ts": 1781825732,
+  "generated_at": 1781826262,
+  "generated_at_str": "2026-06-18 23:44:22 UTC",
+  "last_event_ts": 1781826259,
   "tables": {
     "alerts_dedup": {
-      "count": 1144,
-      "last_ts": 1781825732,
-      "last_str": "2026-06-18 23:35:32 UTC"
+      "count": 1145,
+      "last_ts": 1781826259,
+      "last_str": "2026-06-18 23:44:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2028,
-      "last_ts": 1781820843,
-      "last_str": "2026-06-18 22:14:03 UTC"
+      "count": 2029,
+      "last_ts": 1781826243,
+      "last_str": "2026-06-18 23:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 419,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-18 23:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 10077,
-      "last_ts": 1781824442,
-      "last_str": "2026-06-18 23:14:02 UTC"
+      "count": 10084,
+      "last_ts": 1781826242,
+      "last_str": "2026-06-18 23:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1152,
+      "ts": 1781826259,
+      "ts_str": "2026-06-18 23:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate pri",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 22:36:42 GMT\nLink:      https://news.google.com/rss/articles/CBMi6AFBVV95cUxONTl1Z2Z6Sl9VcDVTVDF4NS1UZHFvV0IwYnJKQ2tsQVhLOXoxUmNhOHZKbnRKMFVoTE1FdnplekQ0RWhBWlRWTk9jZTRjZGJhLXVTR1BfWkRXS2VGalRuSGdWcHZSYVJ5VU9BZk5nU2tSb0tGZXdyQjVmVHJ3d0w3UXFKMG50QzZabV8tRTB6bWx1OFR1QmNScVRLakM2emMzaHZncTVnTkkyMUFiSVFmdmhLNFBXVS00R1J4M1Z4T0JDR0RLaVJuNU9hUzREVjVfNFlza1J2UVpiYTByTm5Md1FOWE5LTl800gHoAUFVX3lxTE41OXVnZnpKX1VwNVNUMXg1LVRkcW9XQjBickpDa2xBWEs5ejFSY2E4dkpudEowVWhMTUV2emV6RDRFaEFaVFZOT2NlNGNkYmEtdVNHUF9aRFdLZUZqVG5IZ1ZwdlJhUnlVT0FmTmdTa1JvS0Zld3JCNWZUcnd3TDdRcUowbnRDNlptXy1FMHptbHU4VHVCY1JxVEtqQzZ6YzNodmdxNWdOSTIxQWJJUWZ2aEs0UFdVLTRHUngzVnhPQkNHREtpUm41T2FTNERWNV80WXNrUnZRWmJhMHJObkx3UU5YTktOXzQ?oc=5\n\nOpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate prices - ABC7 Bay Area\n\n<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxONTl1Z2Z6Sl9VcDVTVDF4NS1UZHFvV0IwYnJKQ2tsQVhLOXoxUmNhOHZKbnRKMFVoTE1FdnplekQ0RWhBWlRWTk9jZTRjZGJhLXVTR1BfWkRXS2VGalRuSGdWcHZSYVJ5VU9BZk5nU2tSb0tGZXdyQjVmVHJ3d0w3UXFKMG50QzZabV8tRTB6bWx1OFR1QmNScVRLakM2emMzaHZncTVnTkkyMUFiSVFmdmhLNFBXVS00R1J4M1Z4T0JDR0RLaVJuNU9hUzREVjVfNFlza1J2UVpiYTByTm5Md1FOWE5LTl800gHoAUFVX3lxTE41OXVnZnpKX1VwNVNUMXg1LVRkcW9XQjBickpDa2xBWEs5ejFSY2E4dkpudEowVWhMTUV2emV6RDRFaEFaVFZOT2NlNGNkYmEtdVNHUF9aRFdLZUZqVG5IZ1ZwdlJhUnlVT0FmTmdTa1JvS0Zld3JCNWZUcnd3TDdRcUowbnRDNlptXy1FMHptbHU4VHVCY1JxVEtqQzZ6YzNodmdxNWdOSTIxQWJJUWZ2aEs0UFdVLTRHUngzVnhPQkNHREtpUm41T2FTNERWNV80WXNrUnZRWmJhMHJObkx3UU5YTktOXzQ?oc=5\" target=\"_blank\">OpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Bay Area</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item (ABC7 Bay Area) reports that an OpenAI/Anthropic AI IPO boom is set to transform San Francisco, beginning with soaring real estate prices.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\uff08ABC7 Bay Area\uff09\u79f0\uff0cOpenAI\u3001Anthropic \u5f15\u9886\u7684 AI IPO \u70ed\u6f6e\u5c06\u91cd\u5851\u65e7\u91d1\u5c71\uff0c\u9996\u5148\u4f53\u73b0\u4e3a\u623f\u5730\u4ea7\u4ef7\u683c\u98d9\u5347\u3002\n\nWhy it matters:\nIPO-boom and local-asset-inflation framing is a textbook late-cycle marker: capital and media attention rotate from the technology itself to the wealth effects around it. When the story becomes 'AI is making the city rich' rather than 'AI is making money,' it signals froth, not fundamentals.\n\n\u5f71\u54cd:\nIPO \u70ed\u6f6e\u52a0\u4e0a\u672c\u5730\u8d44\u4ea7\u4ef7\u683c\u66b4\u6da8\u7684\u53d9\u4e8b\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6807\u5fd7\uff1a\u8d44\u672c\u548c\u5a92\u4f53\u7684\u6ce8\u610f\u529b\u4ece\u6280\u672f\u672c\u8eab\u8f6c\u5411\u4e86\u56f4\u7ed5\u5b83\u7684\u8d22\u5bcc\u6548\u5e94\u3002\u5f53\u4e3b\u6d41\u6545\u4e8b\u53d8\u6210\u300cAI \u8ba9\u8fd9\u5ea7\u57ce\u5e02\u66b4\u5bcc\u300d\u800c\u4e0d\u662f\u300cAI \u5728\u8d5a\u94b1\u300d\u65f6\uff0c\u53cd\u6620\u7684\u662f\u6ce1\u6cab\u60c5\u7eea\uff0c\u800c\u975e\u57fa\u672c\u9762\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1150,
       "ts": 1781825732,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron (MU) Stock Soars 245% in 2026 as HBM Shortages Drive Price Targets to $1,500 - MoneyCheck",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 09:51:06 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxOSjVOS2VXR0dsTlFRcjhHTkJvVVVrR3M5V1hhdjhFVDBqM2Z1YXFQeDdaU3FmREd5ZnYxOFYxZWxzRUg5SjZ2c3FNcGlyMHVVa0VVNjBaMWY0R0dvOHFlTFAzN1JJNm9NcEdUc2JMY3pkNnhLcDhRNXJjRGJHQkczU05EVlRTVkpFSUhoYzJ0Wi1QcVN1d0FDMGRlQTY4d3lUT3FOcA?oc=5\n\nMicron (MU) Stock Soars 245% in 2026 as HBM Shortages Drive Price Targets to $1,500 - MoneyCheck\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSjVOS2VXR0dsTlFRcjhHTkJvVVVrR3M5V1hhdjhFVDBqM2Z1YXFQeDdaU3FmREd5ZnYxOFYxZWxzRUg5SjZ2c3FNcGlyMHVVa0VVNjBaMWY0R0dvOHFlTFAzN1JJNm9NcEdUc2JMY3pkNnhLcDhRNXJjRGJHQkczU05EVlRTVkpFSUhoYzJ0Wi1QcVN1d0FDMGRlQTY4d3lUT3FOcA?oc=5\" target=\"_blank\">Micron (MU) Stock Soars 245% in 2026 as HBM Shortages Drive Price Targets to $1,500</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MoneyCheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Micron (MU) stock is up 245% in 2026, with HBM (high-bandwidth memory) shortages pushing price targets to $1,500.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0 Micron (MU) \u80a1\u4ef7\u5728 2026 \u5e74\u5927\u6da8 245%\uff0cHBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u77ed\u7f3a\u628a\u76ee\u6807\u4ef7\u63a8\u9ad8\u5230 $1,500\u3002\n\nWhy it matters:\nHBM is the memory bottleneck for AI accelerators, so a 245% run and $1,500 targets show the capex boom is bidding up the entire supply chain, not just GPUs. Vertical price moves and round-number targets like $1,500 are late-cycle melt-up behavior \u2014 the kind of euphoria that tends to mark a top rather than a sustainable repricing.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u7684\u5185\u5b58\u74f6\u9888\uff0c245% \u7684\u6da8\u5e45\u548c $1,500 \u7684\u76ee\u6807\u4ef7\u8bf4\u660e capex \u70ed\u6f6e\u6b63\u5728\u62ac\u9ad8\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u4ef7\u683c\uff0c\u800c\u4e0d\u53ea\u662f GPU\u3002\u8fd9\u79cd\u8fd1\u4e4e\u5782\u76f4\u7684\u62c9\u5347\u548c $1,500 \u8fd9\u6837\u7684\u6574\u6570\u76ee\u6807\u4ef7\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u72c2\u70ed\u2014\u2014\u5f80\u5f80\u6807\u5fd7\u7740\u9876\u90e8\uff0c\u800c\u975e\u53ef\u6301\u7eed\u7684\u4ef7\u503c\u91cd\u4f30\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 951,
-      "ts": 1781603072,
-      "ts_str": "2026-06-16 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:41:19 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWNVZ2s5alcwMnItd0l4SkVpV0I4M2prb0JHc1hoYkV6SmRXZG1qYi1VSzY1OFZ0SGt1alBkZnN6aVkxbl9CeXQ3QVpJR2tUSGNtUmIteTdCZnJZNGJRdU5WVVdFQkRSQUV2cnhxWnd4NTUxYk5TX1RSbUpWcEYxaGZ4ZzBkVk90WUhRQXVzblAyMktYTVZwVGw3aTVTWXVXQmJ1b2dURDd2T1lXUUs0aTNKWnVDdURhV1k4U0RoWElkLTg4UmlES3V4QXBEQ0hjcFNKNktYMjJvM3E5aFdycEwzTzBTVDQ?oc=5\n\nOpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWNVZ2s5alcwMnItd0l4SkVpV0I4M2prb0JHc1hoYkV6SmRXZG1qYi1VSzY1OFZ0SGt1alBkZnN6aVkxbl9CeXQ3QVpJR2tUSGNtUmIteTdCZnJZNGJRdU5WVVdFQkRSQUV2cnhxWnd4NTUxYk5TX1RSbUpWcEYxaGZ4ZzBkVk90WUhRQXVzblAyMktYTVZwVGw3aTVTWXVXQmJ1b2dURDd2T1lXUUs0aTNKWnVDdURhV1k4U0RoWElkLTg4UmlES3V4QXBEQ0hjcFNKNktYMjJvM3E5aFdycEwzTzBTVDQ?oc=5\" target=\"_blank\">OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News (via MSN) is carrying an FT report that OpenAI's spending hit $34 billion last year, surfacing ahead of a planned IPO.\n\n\u5185\u5bb9:\nGoogle News\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u63f4\u5f15 FT \u62a5\u9053\uff0cOpenAI \u53bb\u5e74\u7684\u652f\u51fa\u8fbe\u5230 340 \u4ebf\u7f8e\u5143\uff08$34 billion\uff09\uff0c\u4e14\u6d88\u606f\u51fa\u73b0\u5728\u5176\u8ba1\u5212 IPO \u4e4b\u524d\u3002\n\nWhy it matters:\n$34B of annual cash burn at a still-private company is the demand side of the AI-capex bubble \u2014 it is the spending that funds hyperscaler and neocloud revenue. Floating it into an IPO narrative signals OpenAI needs public-market capital to keep the burn going, which makes the whole AI buildout dependent on continued external funding.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u7684\u516c\u53f8\u6bcf\u5e74\u70e7\u6389 $34B \u73b0\u91d1\uff0c\u6b63\u662f AI capex \u6ce1\u6cab\u7684\u9700\u6c42\u7aef\u2014\u2014\u8fd9\u4e9b\u652f\u51fa\u6491\u8d77\u4e86\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u6536\u5165\u3002\u628a\u5b83\u5305\u88c5\u8fdb IPO \u53d9\u4e8b\uff0c\u8bf4\u660e OpenAI \u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u6765\u7ef4\u6301\u70e7\u94b1\uff0c\u8fd9\u610f\u5473\u7740\u6574\u4e2a AI \u57fa\u5efa\u6269\u5f20\u4f9d\u8d56\u4e8e\u6301\u7eed\u7684\u5916\u90e8\u8f93\u8840\u3002\n",
       "emailed": false
     }
   ],
