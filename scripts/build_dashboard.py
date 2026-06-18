@@ -78,6 +78,25 @@ def collect_status() -> dict:
     except Exception:
         pass
 
+    # U100/NDX buy plan. Fuse state (A vs B) is derived cheaply from recent
+    # C7/C2 HIGH+ alerts rather than re-fetching the credit series on every
+    # dashboard rebuild; the drawdown ladder needs one keyless FRED fetch.
+    plan = None
+    try:
+        from scripts.regime_signal import build_plan
+        from lib.index_quote import ndx_drawdown
+        since = int(time.time()) - 7 * 86400
+        with st.connection() as c:
+            fuse_rows = c.execute(
+                "SELECT DISTINCT UPPER(catalyst) FROM alerts WHERE ts>=? "
+                "AND severity IN ('HIGH','CRITICAL') AND LOWER(catalyst) IN ('c7','c2')",
+                (since,),
+            ).fetchall()
+        fuses = sorted({r[0] for r in fuse_rows})
+        plan = build_plan(ndx_drawdown(), bool(fuses), fuses)
+    except Exception:
+        plan = None
+
     return {
         "generated_at": int(time.time()),
         "generated_at_str": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
@@ -105,6 +124,7 @@ def collect_status() -> dict:
             for r in alerts_rows
         ],
         "catalysts": [{"id": cid, "name": name} for cid, name in CATALYSTS],
+        "plan": plan,
     }
 
 
@@ -141,10 +161,45 @@ DEFAULT_TEMPLATE = """<!doctype html>
   .sev-bg-HIGH     { background: #e67e22; }
   .sev-bg-MED      { background: #f1c40f; color: #333; }
   .sev-bg-LOG      { background: #7f8c8d; }
+  .plan { border: 1px solid #e0e0e0; border-radius: 8px; padding: 14px 18px; margin: 1.2rem 0; background: #fafbfc; }
+  .plan .ttl { font-size: 0.72em; font-weight: 700; letter-spacing: 1.2px; }
+  .plan .lvl { font-size: 1.15em; font-weight: 600; color: #1a2230; margin: 4px 0; }
+  .plan .reg { font-weight: 600; }
+  .plan table { margin: 8px 0 0; }
+  .plan td { border: none; padding: 4px 8px; font-size: 0.92em; }
+  .plan .pct { text-align: right; font-weight: 600; }
+  .plan .at { text-align: right; color: #667; font-variant-numeric: tabular-nums; }
+  .plan tr.on { background: #eef9f0; }
+  .plan tr.next { background: #fff7ed; }
+  .plan .warn { color: #c0392b; font-size: 0.9em; margin-top: 8px; }
+  .regA { color: #27ae60; } .regA-b { border-left: 4px solid #27ae60; }
+  .regB { color: #c0392b; } .regB-b { border-left: 4px solid #c0392b; }
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
 <div class="meta">Generated {{ s.generated_at_str }} · <a href="thresholds.html">view thresholds →</a></div>
+
+{% if s.plan %}
+{% set p = s.plan %}
+<div class="plan reg{{ p.regime }}-b">
+  <div class="ttl reg{{ p.regime }}">★ BUY PLAN · U100 / NDX</div>
+  <div class="lvl">NDX {{ '{:,.0f}'.format(p.ndx.current) }} · drawdown {{ '%+.1f'|format(p.ndx.drawdown*100) }}% off ATH {{ '{:,.0f}'.format(p.ndx.ath) }}</div>
+  <div class="reg reg{{ p.regime }}">Regime {{ p.regime }}{% if p.fuses %} · lit: {{ p.fuses|join(', ') }}{% else %} · 引信未响{% endif %}
+    · target {{ p.cumulative_target }}% deployed{% if p.reserve %} · reserve {{ p.reserve }}%{% endif %}</div>
+  <table>
+  {% for r in p.rungs %}
+    <tr class="{% if r.triggered %}on{% elif p.next_rung and r.thresh == p.next_rung.thresh %}next{% endif %}">
+      <td>{% if r.triggered %}✅{% elif p.next_rung and r.thresh == p.next_rung.thresh %}➡️{% else %}⬜{% endif %}
+        <b>{{ '%.0f'|format(r.thresh*100) }}%</b> · {{ r.label }}</td>
+      <td class="pct">{{ r.pct }}%</td>
+      <td class="at">NDX {{ '{:,.0f}'.format(r.level) }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+  {% if p.regime == 'B' %}<div class="warn">⚠ Fast ladder frozen — deep rung needs stabilisation (C7 stops widening, or 4–6wk no new 20d-low).</div>{% endif %}
+  <div class="meta" style="margin-top:8px;">Only the C7/C2 fuses switch Regime A↔B; the other signals are thermometers. Tracks <a href="https://www.globalxetfs.com.au/funds/u100/">ASX:U100</a> (Nasdaq-100).</div>
+</div>
+{% endif %}
 
 <h2>Catalysts</h2>
 <table>

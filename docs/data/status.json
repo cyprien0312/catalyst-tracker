@@ -1,6 +1,6 @@
 {
-  "generated_at": 1781758923,
-  "generated_at_str": "2026-06-18 05:02:03 UTC",
+  "generated_at": 1781759050,
+  "generated_at_str": "2026-06-18 05:04:10 UTC",
   "last_event_ts": 1781757870,
   "tables": {
     "alerts_dedup": {
@@ -2304,5 +2304,55 @@
       "id": "C9",
       "name": "Crypto Cycle Top"
     }
-  ]
+  ],
+  "plan": {
+    "ndx": {
+      "current": 29670.95,
+      "date": "2026-06-17",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.032277580999719446
+    },
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 15,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 20,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 15,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
