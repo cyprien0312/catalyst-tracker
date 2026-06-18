@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781800330,
-  "generated_at_str": "2026-06-18 16:32:10 UTC",
-  "last_event_ts": 1781799258,
+  "generated_at": 1781800533,
+  "generated_at_str": "2026-06-18 16:35:33 UTC",
+  "last_event_ts": 1781800532,
   "tables": {
     "alerts_dedup": {
-      "count": 1116,
-      "last_ts": 1781799258,
-      "last_str": "2026-06-18 16:14:18 UTC"
+      "count": 1118,
+      "last_ts": 1781800532,
+      "last_str": "2026-06-18 16:35:32 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-18 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 449,
-      "last_ts": 1781798703,
-      "last_str": "2026-06-18 16:05:03 UTC"
+      "count": 451,
+      "last_ts": 1781800502,
+      "last_str": "2026-06-18 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 561,
-      "last_ts": 1781798705,
-      "last_str": "2026-06-18 16:05:05 UTC"
+      "count": 562,
+      "last_ts": 1781800504,
+      "last_str": "2026-06-18 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 273,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1124,
+      "ts": 1781800532,
+      "ts_str": "2026-06-18 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SanDisk Jumps 11%, Western Digital Rises 7% After Apple Flags \"Unavoidable\" Memory Price Hikes - 24/7 Wall St.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 15:59:42 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1FJMzZ5cjJPZWp4NUZibDVlbXlUWEYyWWVJMDBvMVJPcTV0cTFZOTFNTGNyYzAtRzR4OUJNUjVtdkY4ZXVWM0NDR0FuMnloWThoSmhVeWs1NlU5cmhtbFlSOGtqMEhUeXhUQlZueGlrMXljNWN3ejJWSThVQjdURE1JeG9Zdk9waUtzbGpCcmx1UjM0bUZYNndOa1k0T0VKYURsNktPZnViamdHX1dnQ2g0MFFjS1o5VjhrLUZqMVE3cHpVQUR6cFVNaHBEQQ?oc=5\n\nSanDisk Jumps 11%, Western Digital Rises 7% After Apple Flags \"Unavoidable\" Memory Price Hikes - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1FJMzZ5cjJPZWp4NUZibDVlbXlUWEYyWWVJMDBvMVJPcTV0cTFZOTFNTGNyYzAtRzR4OUJNUjVtdkY4ZXVWM0NDR0FuMnloWThoSmhVeWs1NlU5cmhtbFlSOGtqMEhUeXhUQlZueGlrMXljNWN3ejJWSThVQjdURE1JeG9Zdk9waUtzbGpCcmx1UjM0bUZYNndOa1k0T0VKYURsNktPZnViamdHX1dnQ2g0MFFjS1o5VjhrLUZqMVE3cHpVQUR6cFVNaHBEQQ?oc=5\" target=\"_blank\">SanDisk Jumps 11%, Western Digital Rises 7% After Apple Flags \"Unavoidable\" Memory Price Hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSanDisk jumped 11% and Western Digital rose 7% after Apple flagged \"unavoidable\" memory price hikes.\n\n\u5185\u5bb9:\nApple \u516c\u5f00\u8868\u793a\u5b58\u50a8\u82af\u7247\u6da8\u4ef7\"\u4e0d\u53ef\u907f\u514d\"\u540e\uff0cSanDisk \u5927\u6da8 11%\uff0cWestern Digital \u4e0a\u6da8 7%\u3002\n\nWhy it matters:\nMemory is a core AI-buildout input; suppliers spiking and a hyperscale-scale buyer like Apple publicly conceding it can't avoid higher prices both signal NAND/DRAM supply is tightening. Rising memory costs squeeze AI-server margins and feed the capex-inflation leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u662f AI \u5efa\u8bbe\u7684\u6838\u5fc3\u7269\u6599\u3002\u4f9b\u5e94\u5546\u80a1\u4ef7\u98d9\u5347\u3001\u52a0\u4e0a Apple \u8fd9\u79cd\u5927\u4e70\u5bb6\u516c\u5f00\u627f\u8ba4\u65e0\u6cd5\u56de\u907f\u6da8\u4ef7\uff0c\u90fd\u8bf4\u660e NAND/DRAM \u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\u3002\u5b58\u50a8\u6210\u672c\u4e0a\u5347\u4f1a\u6324\u538b AI \u670d\u52a1\u5668\u5229\u6da6\uff0c\u5e76\u52a0\u5267 bubble-stress \u8bba\u70b9\u4e2d\u8d44\u672c\u5f00\u652f\u901a\u80c0\u8fd9\u4e00\u73af\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1125,
+      "ts": 1781800532,
+      "ts_str": "2026-06-18 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to Raise Prices as Tim Cook Warns of Soaring Memory Chip Costs - MEXC",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 16:11:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Nc3dHWGt0M2VPMVN4eE5mUFZISVZSQkY4b0VPVEFIYWR6dEFGRTJLb01pb1JoSGJBM2lrX1Z4eVBNVHdMUElXQQ?oc=5\n\nApple to Raise Prices as Tim Cook Warns of Soaring Memory Chip Costs - MEXC\n\n<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Nc3dHWGt0M2VPMVN4eE5mUFZISVZSQkY4b0VPVEFIYWR6dEFGRTJLb01pb1JoSGJBM2lrX1Z4eVBNVHdMUElXQQ?oc=5\" target=\"_blank\">Apple to Raise Prices as Tim Cook Warns of Soaring Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MEXC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is raising prices, with Tim Cook warning of soaring memory chip costs.\n\n\u5185\u5bb9:\nApple \u5ba3\u5e03\u6da8\u4ef7\uff0cTim Cook \u8b66\u544a\u5b58\u50a8\u82af\u7247\u6210\u672c\u98d9\u5347\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being bid away from consumer devices into AI datacenter buildouts, so the AI-capex boom is now spilling into end-product inflation. When a buyer as large as Apple can't absorb chip costs and has to pass them on, it signals the memory supply squeeze is acute and broad \u2014 a sign AI infrastructure demand is straining the wider hardware supply chain.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u82af\u7247\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u4ece\u6d88\u8d39\u7535\u5b50\u5e02\u573a\u62a2\u8d70\uff0cAI capex \u70ed\u6f6e\u5df2\u7ecf\u5916\u6ea2\u5230\u7ec8\u7aef\u4ea7\u54c1\u7684\u901a\u80c0\u4e0a\u3002\u5f53\u8fde Apple \u8fd9\u6837\u7684\u5927\u4e70\u5bb6\u90fd\u65e0\u6cd5\u6d88\u5316\u82af\u7247\u6210\u672c\u3001\u53ea\u80fd\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0c\u8bf4\u660e\u5b58\u50a8\u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u65e2\u6df1\u53c8\u5e7f\u2014\u2014\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6b63\u5728\u6324\u538b\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1123,
       "ts": 1781799258,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - CNA",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:41:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxPelk5TkxRMzN6R0RJM19hUWlZYjZMblU0cFhoV0lqM0JBaWY5SlJ6aG9NeVpLa0Y5VFlwZENVWTVUdjctOWdrMFZuRXVQOHFCWXVGVkoybGJXUUJNRlczZE01cVhlaFBSU1EyUm9sWHk0b2JDX1QzRnVlRGJqeUhCNllBeHl0bzVTWm9ENllQaXY2SWwxV3hBWXNqUnR2d1F1MkVmN3JPdHc5em1QZVo5cEFhSUsya2xxRWc?oc=5\n\nOpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - CNA\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPelk5TkxRMzN6R0RJM19hUWlZYjZMblU0cFhoV0lqM0JBaWY5SlJ6aG9NeVpLa0Y5VFlwZENVWTVUdjctOWdrMFZuRXVQOHFCWXVGVkoybGJXUUJNRlczZE01cVhlaFBSU1EyUm9sWHk0b2JDX1QzRnVlRGJqeUhCNllBeHl0bzVTWm9ENllQaXY2SWwxV3hBWXNqUnR2d1F1MkVmN3JPdHc5em1QZVo5cEFhSUsya2xxRWc?oc=5\" target=\"_blank\">OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNA</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Financial Times report (via CNA) says OpenAI's spending hit $34 billion last year, ahead of its planned IPO.\n\n\u5185\u5bb9:\n\u636e Financial Times \u62a5\u9053\uff08\u7ecf CNA \u8f6c\u8f7d\uff09\uff0cOpenAI \u53bb\u5e74\u7684\u652f\u51fa\u8fbe\u5230 $34 billion\uff0c\u53d1\u751f\u5728\u5176\u8ba1\u5212 IPO \u4e4b\u524d\u3002\n\nWhy it matters:\n$34B in annual outlays at a still-private, pre-IPO company shows the cash burn behind the AI buildout is enormous and front-loaded against revenue. Timing the disclosure right before an IPO suggests the spend has to be sold to public markets \u2014 the payback case is now a fundraising problem, not a settled fact.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5c1a\u672a\u4e0a\u5e02\u3001\u6b63\u7b79\u5907 IPO \u7684\u516c\u53f8\u5e74\u652f\u51fa\u5c31\u8fbe $34B\uff0c\u8bf4\u660e AI \u5efa\u8bbe\u80cc\u540e\u7684\u73b0\u91d1\u6d88\u8017\u6781\u5176\u5e9e\u5927\uff0c\u4e14\u8fdc\u8fdc\u8dd1\u5728\u6536\u5165\u524d\u9762\u3002\u628a\u8fd9\u4e00\u6570\u5b57\u653e\u5728 IPO \u524d\u62ab\u9732\uff0c\u610f\u5473\u7740\u8fd9\u7b14\u652f\u51fa\u9700\u8981\u5411\u516c\u5f00\u5e02\u573a\u515c\u552e\u2014\u2014\u56de\u672c\u903b\u8f91\u5df2\u7ecf\u53d8\u6210\u4e00\u4e2a\u878d\u8d44\u95ee\u9898\uff0c\u800c\u975e\u65e2\u6210\u4e8b\u5b9e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 922,
-      "ts": 1781583292,
-      "ts_str": "2026-06-16 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - Yahoo Finance Singapore",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:41:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC0tYWNjZUFra045eU9aLUtna1JaemFIc0RVdGJHUDZSZGRiaUlGb1R4cG4yWDdYQTFZZnprWU52N3hwLVM2N2loZzlzcHpnVUtoVHI1REVoTXhBclI5S0FrWVVHSlAwc0duRl9RLUt1amRKc1V6YjB3Sm1JalQzYXlQX1NfQQ?oc=5\n\nOpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - Yahoo Finance Singapore\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOMC0tYWNjZUFra045eU9aLUtna1JaemFIc0RVdGJHUDZSZGRiaUlGb1R4cG4yWDdYQTFZZnprWU52N3hwLVM2N2loZzlzcHpnVUtoVHI1REVoTXhBclI5S0FrWVVHSlAwc0duRl9RLUt1amRKc1V6YjB3Sm1JalQzYXlQX1NfQQ?oc=5\" target=\"_blank\">OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Singapore</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Financial Times report (via Yahoo Finance) says OpenAI's spending hit $34 billion last year, ahead of its planned IPO.\n\n\u5185\u5bb9:\n\u636e Financial Times \u62a5\u9053\uff08\u7ecf Yahoo Finance \u8f6c\u8f7d\uff09\uff0cOpenAI \u53bb\u5e74\u7684\u652f\u51fa\u8fbe\u5230 $34 billion\uff0c\u53d1\u751f\u5728\u5176\u8ba1\u5212\u4e2d\u7684 IPO \u4e4b\u524d\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout \u2014 its $34B burn is what justifies hyperscaler datacenter and chip orders. Spend at that scale before any IPO or proven payback shows the cash outflow is running far ahead of revenue, exactly the imbalance the bubble-stress thesis is watching.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\u2014\u2014\u6b63\u662f\u5b83 $34B \u7684\u70e7\u94b1\u89c4\u6a21\u652f\u6491\u4e86\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u6570\u636e\u4e2d\u5fc3\u548c\u82af\u7247\u8ba2\u5355\u3002\u5728\u5c1a\u672a IPO\u3001\u4e5f\u672a\u8bc1\u660e\u56de\u672c\u7684\u60c5\u51b5\u4e0b\u5c31\u6709\u5982\u6b64\u91cf\u7ea7\u7684\u652f\u51fa\uff0c\u8bf4\u660e\u73b0\u91d1\u6d41\u51fa\u8fdc\u8fdc\u8dd1\u5728\u6536\u5165\u524d\u9762\uff0c\u8fd9\u6b63\u662f bubble-stress \u903b\u8f91\u6240\u5173\u6ce8\u7684\u5931\u8861\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 923,
-      "ts": 1781583292,
-      "ts_str": "2026-06-16 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1UzTndFc3k4b2Jpd0Vhc041OWRnS2xYcFZHX2k5ODVBYnVyOUw4R0tFLTNQQ0RPQUlsSG5lMFVSd3dUeE9qcFNyTWRSNjdVajNjWHVtbklNdUVCX0M3WlBuR2RWdjRHMFh6WlBwOHlxQXRkcnZYbjFjTlFQVkxwVW9RRUpwQjk2OU5vdUdhMWQ1bVpJZ09XbG82c2JiejB6ZkpRNWU5cXducmxVQ3R0c2YxZEpTOVhQb3h3MEJZcVdsVHVmblJHaXp1WWNSTmNva3MtNS1qY1lkUQ?oc=5\n\nOpenAI spending hit $34 billion last year ahead of planned IPO, FT reports - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1UzTndFc3k4b2Jpd0Vhc041OWRnS2xYcFZHX2k5ODVBYnVyOUw4R0tFLTNQQ0RPQUlsSG5lMFVSd3dUeE9qcFNyTWRSNjdVajNjWHVtbklNdUVCX0M3WlBuR2RWdjRHMFh6WlBwOHlxQXRkcnZYbjFjTlFQVkxwVW9RRUpwQjk2OU5vdUdhMWQ1bVpJZ09XbG82c2JiejB6ZkpRNWU5cXducmxVQ3R0c2YxZEpTOVhQb3h3MEJZcVdsVHVmblJHaXp1WWNSTmNva3MtNS1qY1lkUQ?oc=5\" target=\"_blank\">OpenAI spending hit $34 billion last year ahead of planned IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingView/FT headline reports OpenAI's spending hit $34 billion last year, ahead of its planned IPO.\n\n\u5185\u5bb9:\nTradingView \u63f4\u5f15 FT \u62a5\u9053\uff0cOpenAI \u53bb\u5e74\u652f\u51fa\u8fbe\u5230 $34 billion\uff0c\u6b63\u503c\u5176\u7b79\u5212 IPO \u4e4b\u9645\u3002\n\nWhy it matters:\n$34B of annual cash burn at a still-private company headed for IPO shows the AI buildout is being funded far ahead of revenue. Putting that number in front of public-market investors pre-IPO is a stress test for how much loss the bubble narrative can absorb.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u3001\u5373\u5c06 IPO \u7684\u516c\u53f8\u5e74\u5ea6\u70e7\u94b1 $34 billion\uff0c\u8bf4\u660e AI \u57fa\u5efa\u7684\u6295\u5165\u8fdc\u8fdc\u8dd1\u5728\u6536\u5165\u524d\u9762\u3002\u5728 IPO \u524d\u628a\u8fd9\u4e2a\u6570\u5b57\u6446\u5230\u516c\u5f00\u5e02\u573a\u6295\u8d44\u8005\u9762\u524d\uff0c\u662f\u5bf9\u6ce1\u6cab\u53d9\u4e8b\u80fd\u627f\u53d7\u591a\u5927\u4e8f\u635f\u7684\u4e00\u6b21\u538b\u529b\u6d4b\u8bd5\u3002\n",
       "emailed": false
     }
   ],
