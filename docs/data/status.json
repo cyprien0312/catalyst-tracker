@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781811128,
-  "generated_at_str": "2026-06-18 19:32:08 UTC",
-  "last_event_ts": 1781810062,
+  "generated_at": 1781811318,
+  "generated_at_str": "2026-06-18 19:35:18 UTC",
+  "last_event_ts": 1781811317,
   "tables": {
     "alerts_dedup": {
-      "count": 1125,
-      "last_ts": 1781810062,
-      "last_str": "2026-06-18 19:14:22 UTC"
+      "count": 1126,
+      "last_ts": 1781811317,
+      "last_str": "2026-06-18 19:35:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-18 19:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 454,
-      "last_ts": 1781807703,
-      "last_str": "2026-06-18 18:35:03 UTC"
+      "count": 461,
+      "last_ts": 1781811302,
+      "last_str": "2026-06-18 19:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 569,
-      "last_ts": 1781809504,
-      "last_str": "2026-06-18 19:05:04 UTC"
+      "count": 570,
+      "last_ts": 1781811304,
+      "last_str": "2026-06-18 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 283,
-      "last_ts": 1781809503,
-      "last_str": "2026-06-18 19:05:03 UTC"
+      "count": 285,
+      "last_ts": 1781811303,
+      "last_str": "2026-06-18 19:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 445,
-      "last_ts": 1781809504,
-      "last_str": "2026-06-18 19:05:04 UTC"
+      "count": 446,
+      "last_ts": 1781811304,
+      "last_str": "2026-06-18 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10037,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1133,
+      "ts": 1781811317,
+      "ts_str": "2026-06-18 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] \u2018Unavoidable\u2019: Apple Plans Price Increases as the AI Memory Chip Crisis Worsens - breitbart.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 17:36:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR2VXbkRrYVloRFJYZTVVekFDOWxKbHQxNmZrNFMwbkcySWZScm56UFdhYkJpZ1hHX1ZlWnVncDNFa2xXdzQxY1NMOHhiZmJKaU5XOHU5WDNyTDduT2NFOXF3c0RiTVZ3aktUcWtJeTVSVWI5UkxzY2NyMDhyTDc3aTBHVGlxeW91MGZfbHpZMmJHZWRPcGRub3pKcHpEUVlOcnBHc0VNTDMtVmxwRm1pdWtlSnZjZkFOSXJYT243Z1rSAcABQVVfeXFMT0dlV25Ea2FZaERSWGU1VXpBQzlsSmx0MTZmazRTMG5HMklmUnJuelBXYWJCaWdYR19WZVp1Z3AzRWtsV3c0MWNTTDh4YmZiSmlOVzh1OVgzckw3bk9jRTlxd3NEYk1Wd2pLVHFrSXk1UlViOVJMc2NjcjA4ckw3N2kwR1RpcXlvdTBmX2x6WTJiR2VkT3Bkbm96SnB6RFFZTnJwR3NFTUwzLVZscEZtaXVrZUp2Y2ZBTklyWE9uN2da?oc=5\n\n\u2018Unavoidable\u2019: Apple Plans Price Increases as the AI Memory Chip Crisis Worsens - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR2VXbkRrYVloRFJYZTVVekFDOWxKbHQxNmZrNFMwbkcySWZScm56UFdhYkJpZ1hHX1ZlWnVncDNFa2xXdzQxY1NMOHhiZmJKaU5XOHU5WDNyTDduT2NFOXF3c0RiTVZ3aktUcWtJeTVSVWI5UkxzY2NyMDhyTDc3aTBHVGlxeW91MGZfbHpZMmJHZWRPcGRub3pKcHpEUVlOcnBHc0VNTDMtVmxwRm1pdWtlSnZjZkFOSXJYT243Z1rSAcABQVVfeXFMT0dlV25Ea2FZaERSWGU1VXpBQzlsSmx0MTZmazRTMG5HMklmUnJuelBXYWJCaWdYR19WZVp1Z3AzRWtsV3c0MWNTTDh4YmZiSmlOVzh1OVgzckw3bk9jRTlxd3NEYk1Wd2pLVHFrSXk1UlViOVJMc2NjcjA4ckw3N2kwR1RpcXlvdTBmX2x6WTJiR2VkT3Bkbm96SnB6RFFZTnJwR3NFTUwzLVZscEZtaXVrZUp2Y2ZBTklyWE9uN2da?oc=5\" target=\"_blank\">\u2018Unavoidable\u2019: Apple Plans Price Increases as the AI Memory Chip Crisis Worsens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Breitbart headline reports Apple plans 'unavoidable' price increases as the AI memory chip crisis worsens.\n\n\u5185\u5bb9:\nBreitbart \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053\u79f0\uff0c\u968f\u7740 AI \u5185\u5b58\u82af\u7247\u5371\u673a\u52a0\u5267\uff0cApple \u8ba1\u5212\u8fdb\u884c\u300c\u4e0d\u53ef\u907f\u514d\u300d\u7684\u6da8\u4ef7\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up HBM and DRAM supply, and the price pressure is now spilling into consumer hardware like the iPhone. When AI capex starts raising the cost of unrelated electronics, the spend is distorting the broader memory market \u2014 a sign the buildout is straining physical supply chains, not just balance sheets.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u5927\u89c4\u6a21\u5efa\u8bbe\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4f9b\u5e94\uff0c\u4ef7\u683c\u538b\u529b\u5982\u4eca\u5df2\u5916\u6ea2\u5230 iPhone \u8fd9\u7c7b\u6d88\u8d39\u786c\u4ef6\u3002\u5f53 AI capex \u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7535\u5b50\u4ea7\u54c1\u7684\u6210\u672c\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u6b63\u5728\u626d\u66f2\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u2014\u2014\u8fd9\u662f\u5efa\u8bbe\u6f6e\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\u94fe\u3001\u800c\u4e0d\u53ea\u662f\u8d44\u4ea7\u8d1f\u503a\u8868\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1132,
       "ts": 1781810062,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - Daily Freeman",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 13:47:50 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE1STWJCRDhQQnpwSTZwTnE0OW8wcmZXeEFucktyek5GanlzbThwNkZHbGY1ZjUyeE9ja3IzamZIcEQtWklad2dvZXNPRW9sV1g5N2VkUUVEQkRUZ0tLOXZ5NGNjZnotTVgwTDh4ZGJFX295QQ?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - Daily Freeman\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1STWJCRDhQQnpwSTZwTnE0OW8wcmZXeEFucktyek5GanlzbThwNkZHbGY1ZjUyeE9ja3IzamZIcEQtWklad2dvZXNPRW9sV1g5N2VkUUVEQkRUZ0tLOXZ5NGNjZnotTVgwTDh4ZGJFX295QQ?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Freeman</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is facing a multistate probe into possible user harm as its IPO approaches: \"OpenAI hit with multistate probe into possible user harm as its IPO looms\" (Daily Freeman).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cOpenAI \u5728 IPO \u4e34\u8fd1\u4e4b\u9645\u906d\u9047\u591a\u5dde\u8054\u5408\u8c03\u67e5\uff0c\u6d89\u53ca\u53ef\u80fd\u7684\u7528\u6237\u4f24\u5bb3\uff1a\"OpenAI hit with multistate probe into possible user harm as its IPO looms\"\uff08Daily Freeman\uff09\u3002\n\nWhy it matters:\nRegulatory exposure ahead of an IPO raises deal risk and could force disclosures or settlements that dent OpenAI's valuation. As the anchor demand driver for AI capex, any threat to OpenAI's funding path or growth story pressures the whole infrastructure buildout thesis.\n\n\u5f71\u54cd:\nIPO \u524d\u5915\u7684\u76d1\u7ba1\u98ce\u9669\u4f1a\u589e\u52a0\u4e0a\u5e02\u7684\u4e0d\u786e\u5b9a\u6027\uff0c\u53ef\u80fd\u8feb\u4f7f\u5176\u62ab\u9732\u95ee\u9898\u6216\u8fbe\u6210\u548c\u89e3\uff0c\u4ece\u800c\u6253\u538b OpenAI \u7684\u4f30\u503c\u3002\u4f5c\u4e3a AI capex \u6700\u6838\u5fc3\u7684\u9700\u6c42\u65b9\uff0c\u4efb\u4f55\u5a01\u80c1\u5230 OpenAI \u878d\u8d44\u8def\u5f84\u6216\u589e\u957f\u6545\u4e8b\u7684\u56e0\u7d20\uff0c\u90fd\u4f1a\u5bf9\u6574\u4e2a\u57fa\u7840\u8bbe\u65bd\u6269\u5efa\u903b\u8f91\u5f62\u6210\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 935,
-      "ts": 1781588683,
-      "ts_str": "2026-06-16 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - News-Herald",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 13:47:42 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE0zUDF1WUl4T1UwdXdFNDl5NjdkSFZqc3N4Tm56RWc4RkVXRkc4cERwSjBKVVJyelJSWHBNclpfTjF3dGs4d18yQzdtUGFKVlprQzNVY0JWeUtqakFLQjlEVmlDaGNiU2F0SEdQV2hIOWo?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - News-Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE0zUDF1WUl4T1UwdXdFNDl5NjdkSFZqc3N4Tm56RWc4RkVXRkc4cERwSjBKVVJyelJSWHBNclpfTjF3dGs4d18yQzdtUGFKVlprQzNVY0JWeUtqakFLQjlEVmlDaGNiU2F0SEdQV2hIOWo?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA multistate investigation has been opened into OpenAI over possible user harm, surfacing just as the company's IPO approaches.\n\n\u5185\u5bb9:\n\u591a\u5dde\u8054\u5408\u8c03\u67e5\u5df2\u5bf9 OpenAI \u542f\u52a8\uff0c\u9488\u5bf9\u5176\u53ef\u80fd\u9020\u6210\u7684\u7528\u6237\u4f24\u5bb3\uff0c\u800c\u6b64\u65f6\u6b63\u503c\u516c\u53f8 IPO \u4e34\u8fd1\u3002\n\nWhy it matters:\nRegulatory probes landing right before an IPO raise the cost and risk of the offering and can dent the valuation OpenAI needs to anchor the broader AI-capex narrative. OpenAI is the demand keystone for hyperscaler and neocloud buildouts \u2014 anything that threatens its IPO or growth story propagates down the whole infrastructure chain.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u5915\u843d\u5730\u7684\u76d1\u7ba1\u8c03\u67e5\u4f1a\u62ac\u9ad8\u53d1\u884c\u7684\u6210\u672c\u4e0e\u98ce\u9669\uff0c\u5e76\u53ef\u80fd\u538b\u4f4e OpenAI \u8d56\u4ee5\u652f\u6491\u6574\u4e2a AI capex \u53d9\u4e8b\u7684\u4f30\u503c\u3002OpenAI \u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u6269\u5efa\u7684\u9700\u6c42\u57fa\u77f3\u2014\u2014\u4efb\u4f55\u5a01\u80c1\u5176 IPO \u6216\u589e\u957f\u6545\u4e8b\u7684\u56e0\u7d20\u90fd\u4f1a\u6cbf\u7740\u6574\u6761\u57fa\u7840\u8bbe\u65bd\u94fe\u6761\u5411\u4e0b\u4f20\u5bfc\u3002\n",
       "emailed": false
     }
   ],
