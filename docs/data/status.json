@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781746324,
-  "generated_at_str": "2026-06-18 01:32:04 UTC",
-  "last_event_ts": 1781745242,
+  "generated_at": 1781746519,
+  "generated_at_str": "2026-06-18 01:35:19 UTC",
+  "last_event_ts": 1781746519,
   "tables": {
     "alerts_dedup": {
-      "count": 1022,
-      "last_ts": 1781744735,
-      "last_str": "2026-06-18 01:05:35 UTC"
+      "count": 1023,
+      "last_ts": 1781746519,
+      "last_str": "2026-06-18 01:35:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-17 21:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 384,
-      "last_ts": 1781744702,
-      "last_str": "2026-06-18 01:05:02 UTC"
+      "count": 385,
+      "last_ts": 1781746502,
+      "last_str": "2026-06-18 01:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 483,
-      "last_ts": 1781744704,
-      "last_str": "2026-06-18 01:05:04 UTC"
+      "count": 484,
+      "last_ts": 1781746503,
+      "last_str": "2026-06-18 01:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 225,
-      "last_ts": 1781744703,
-      "last_str": "2026-06-18 01:05:03 UTC"
+      "count": 226,
+      "last_ts": 1781746502,
+      "last_str": "2026-06-18 01:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 394,
-      "last_ts": 1781744705,
-      "last_str": "2026-06-18 01:05:05 UTC"
+      "count": 395,
+      "last_ts": 1781746504,
+      "last_str": "2026-06-18 01:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9846,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1030,
+      "ts": 1781746519,
+      "ts_str": "2026-06-18 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices due to memory chip crunch, says outgoing CEO Tim Cook - MacDailyNews",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 01:22:59 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1BzLXlFQk4yM2tJN19iWUNNNVpHWVlwdUZ6NGtSbF94cUNBcjhyVlBoSE9kaUswN3E4Sk1uQXo0MTBrUWtVcTU3UWYzLUdHbUNVNGtVajBOdFFyWEtyQ0FuMWplZEltamd5MEJ2UmFFQW9rRkY4YjV5b3NGXzNEYXdkVDFHd0RDT2FVWjY1aGJYSDhWSjRKbndNc2VRbGtlRWw0aTZwM0hnZ2IwX3NtY9IBtgFBVV95cUxON0FLUm9jbWgteDlRRkp6X01GZFk3LXVYNmEyaDNWdjd5MEU1NllPd2pIUXlSR3M4dWloSEdFczdVNkFXT2VIUV9jUlYzV0EwS2EzUVg5WXI1TlBueEVCYVVzb0JxandEcXNhREZlRFdKUHpwQjNiZmRJeVhwZWZOWF8xMnVZTEhERUF5S1dIMkRJaHpUM1VPelM3WHNZMEpiX0FjVEg3Y2RkMjYtNFpoQU1FY05kdw?oc=5\n\nApple to raise prices due to memory chip crunch, says outgoing CEO Tim Cook - MacDailyNews\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1BzLXlFQk4yM2tJN19iWUNNNVpHWVlwdUZ6NGtSbF94cUNBcjhyVlBoSE9kaUswN3E4Sk1uQXo0MTBrUWtVcTU3UWYzLUdHbUNVNGtVajBOdFFyWEtyQ0FuMWplZEltamd5MEJ2UmFFQW9rRkY4YjV5b3NGXzNEYXdkVDFHd0RDT2FVWjY1aGJYSDhWSjRKbndNc2VRbGtlRWw0aTZwM0hnZ2IwX3NtY9IBtgFBVV95cUxON0FLUm9jbWgteDlRRkp6X01GZFk3LXVYNmEyaDNWdjd5MEU1NllPd2pIUXlSR3M4dWloSEdFczdVNkFXT2VIUV9jUlYzV0EwS2EzUVg5WXI1TlBueEVCYVVzb0JxandEcXNhREZlRFdKUHpwQjNiZmRJeVhwZWZOWF8xMnVZTEhERUF5S1dIMkRJaHpUM1VPelM3WHNZMEpiX0FjVEg3Y2RkMjYtNFpoQU1FY05kdw?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip crunch, says outgoing CEO Tim Cook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MacDailyNews</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA MacDailyNews headline reports that, per outgoing CEO Tim Cook, Apple plans to raise prices because of a memory chip crunch.\n\n\u5185\u5bb9:\nMacDailyNews \u62a5\u9053\u79f0\uff0c\u636e\u5373\u5c06\u5378\u4efb\u7684 CEO Tim Cook \u900f\u9732\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u8ba1\u5212\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory is being bid away from consumer devices by AI datacenter buildout, and the squeeze is now hitting end-product pricing at the largest consumer hardware maker. When AI capex starts inflating the cost of unrelated electronics, it's evidence the spend is large enough to distort the broader supply chain \u2014 a bubble-stress signal bleeding into the real economy.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u7535\u5b50\u9886\u57df\u62a2\u8d70\uff0c\u8fd9\u4e00\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u5168\u7403\u6700\u5927\u6d88\u8d39\u786c\u4ef6\u5382\u5546\u7684\u7ec8\u7aef\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7535\u5b50\u4ea7\u54c1\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u89c4\u6a21\u5df2\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u6574\u4e2a\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u538b\u529b\u5916\u6ea2\u5230\u5b9e\u4f53\u7ecf\u6d4e\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1026,
       "ts": 1781744735,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI faces scrutiny from 42 states over ChatGPT's impact on users ahead of a potential IPO: Report - The Tech Portal",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 18:09:41 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYWFPRmFyV3plYzNDajhGZlFjT243R0pncWVwQjM4VThHQWVRZ0Fibk9TUzA0Sk5RVlBvX2NOem11bzhyUmk0MDZtMU9xazFxUURYZDZQZlJOeG1vQ3dSNWs4ZnBrQ2JocW9KR21vTFJ3TURoVE55ampVUkNYb2FLaHUyN1QtZWc3NFdPVTlEeGNEci1feUhSdEpmUW9jRlB6VzlYRHd4Z0NFOHB6SGFkTVdKY2QyUlRaOERBSGFjaDFjSkdjOVJKVXFQRUJOXzlUTXc?oc=5\n\nOpenAI faces scrutiny from 42 states over ChatGPT's impact on users ahead of a potential IPO: Report - The Tech Portal\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYWFPRmFyV3plYzNDajhGZlFjT243R0pncWVwQjM4VThHQWVRZ0Fibk9TUzA0Sk5RVlBvX2NOem11bzhyUmk0MDZtMU9xazFxUURYZDZQZlJOeG1vQ3dSNWs4ZnBrQ2JocW9KR21vTFJ3TURoVE55ampVUkNYb2FLaHUyN1QtZWc3NFdPVTlEeGNEci1feUhSdEpmUW9jRlB6VzlYRHd4Z0NFOHB6SGFkTVdKY2QyUlRaOERBSGFjaDFjSkdjOVJKVXFQRUJOXzlUTXc?oc=5\" target=\"_blank\">OpenAI faces scrutiny from 42 states over ChatGPT's impact on users ahead of a potential IPO: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tech Portal</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says OpenAI is facing scrutiny from 42 U.S. states over ChatGPT's impact on users, surfacing ahead of a potential OpenAI IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u9762\u4e34 42 \u4e2a\u5dde\u5c31 ChatGPT \u5bf9\u7528\u6237\u7684\u5f71\u54cd\u5c55\u5f00\u7684\u5ba1\u67e5\uff0c\u800c\u8fd9\u53d1\u751f\u5728 OpenAI \u53ef\u80fd IPO \u4e4b\u524d\u3002\n\nWhy it matters:\nMulti-state regulatory pressure raises legal and compliance overhang right as OpenAI eyes public markets \u2014 it threatens the IPO valuation and timeline that much of the AI-capex buildout is implicitly underwriting. If OpenAI's monetization path narrows, the demand case for the hyperscaler/neocloud spend weakens.\n\n\u5f71\u54cd:\n\u5728 OpenAI \u51c6\u5907\u4e0a\u5e02\u4e4b\u9645\uff0c\u6765\u81ea\u591a\u5dde\u7684\u76d1\u7ba1\u538b\u529b\u589e\u52a0\u4e86\u6cd5\u5f8b\u4e0e\u5408\u89c4\u5c42\u9762\u7684\u4e0d\u786e\u5b9a\u6027\uff0c\u53ef\u80fd\u51b2\u51fb IPO \u7684\u4f30\u503c\u4e0e\u65f6\u95f4\u8868\u2014\u2014\u800c\u6574\u4e2a AI capex \u6269\u5f20\u5728\u5f88\u5927\u7a0b\u5ea6\u4e0a\u6b63\u662f\u62bc\u6ce8\u4e8e\u6b64\u3002\u5982\u679c OpenAI \u7684\u53d8\u73b0\u8def\u5f84\u6536\u7a84\uff0c\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e0e neocloud \u5de8\u989d\u652f\u51fa\u7684\u9700\u6c42\u903b\u8f91\u5c31\u4f1a\u88ab\u524a\u5f31\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 828,
-      "ts": 1781441137,
-      "ts_str": "2026-06-14 12:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Files a Confidential $1 Trillion IPO With Goldman, Morgan Stanley, and JPMorgan Leading the Deal - openPR.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 13 Jun 2026 17:41:30 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxNS3VlSTNWT2JVLTRpMV9lZ1RlTGxPc2JxSVA4QnRiajJHZEs4N0lGVzV5VWxaWTNvb1VMY2pMcmlIeGhyU3VnU1FlaGdsQ0REangxZXR5V1BqdnpLaEotZlIxV21VaTdaWWJkTjZmR2JrWTVDU2hhTmFRblQ4ZThkTmp1WERLQ3pwSjdxbVVySElKMXQtb2cyby1YakI2OGs?oc=5\n\nOpenAI Files a Confidential $1 Trillion IPO With Goldman, Morgan Stanley, and JPMorgan Leading the Deal - openPR.com\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNS3VlSTNWT2JVLTRpMV9lZ1RlTGxPc2JxSVA4QnRiajJHZEs4N0lGVzV5VWxaWTNvb1VMY2pMcmlIeGhyU3VnU1FlaGdsQ0REangxZXR5V1BqdnpLaEotZlIxV21VaTdaWWJkTjZmR2JrWTVDU2hhTmFRblQ4ZThkTmp1WERLQ3pwSjdxbVVySElKMXQtb2cyby1YakI2OGs?oc=5\" target=\"_blank\">OpenAI Files a Confidential $1 Trillion IPO With Goldman, Morgan Stanley, and JPMorgan Leading the Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI has confidentially filed for a $1 trillion IPO, with Goldman Sachs, Morgan Stanley, and JPMorgan leading the deal.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u5df2\u79d8\u5bc6\u9012\u4ea4\u4e86 $1 Trillion\uff08\u4e07\u4ebf\u7f8e\u5143\uff09\u89c4\u6a21\u7684 IPO \u7533\u8bf7\uff0c\u7531 Goldman Sachs\u3001Morgan Stanley \u548c JPMorgan \u4e09\u5bb6\u4e3b\u627f\u9500\u3002\n\nWhy it matters:\nA $1T listing would be the largest IPO ever and the clearest sign of late-cycle AI euphoria \u2014 it lets insiders and early backers sell into public markets at peak valuation. Confidential filings with the three biggest banks signal the exit window is being prepared while private capital is still cheap. Watch for whether the headline is confirmed; a $1T tag on a deeply cash-burning company is itself a bubble-stress marker.\n\n\u5f71\u54cd:\n$1T \u7684\u4e0a\u5e02\u5c06\u662f\u53f2\u4e0a\u6700\u5927 IPO\uff0c\u4e5f\u662f AI \u72c2\u70ed\u8fdb\u5165\u5468\u671f\u665a\u671f\u7684\u6700\u660e\u786e\u4fe1\u53f7\u2014\u2014\u5b83\u8ba9\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u5f97\u4ee5\u5728\u4f30\u503c\u9876\u70b9\u5411\u516c\u5f00\u5e02\u573a\u5957\u73b0\u3002\u7531\u4e09\u5927\u6295\u884c\u64cd\u76d8\u7684\u79d8\u5bc6\u9012\u4ea4\uff0c\u610f\u5473\u7740\u5728\u79c1\u52df\u8d44\u91d1\u4ecd\u4fbf\u5b9c\u65f6\u5c31\u5df2\u5728\u7b79\u5907\u9000\u51fa\u901a\u9053\u3002\u9700\u7559\u610f\u8be5\u6d88\u606f\u662f\u5426\u88ab\u8bc1\u5b9e\uff1b\u7ed9\u4e00\u5bb6\u6df1\u5ea6\u70e7\u94b1\u7684\u516c\u53f8\u8d34\u4e0a $1T \u6807\u7b7e\uff0c\u672c\u8eab\u5c31\u662f\u6ce1\u6cab\u538b\u529b\u7684\u6807\u5fd7\u3002\n",
       "emailed": false
     }
   ],
