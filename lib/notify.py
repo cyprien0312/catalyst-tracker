@@ -1,10 +1,8 @@
 import hashlib
 import os
-import smtplib
 import time
-from email.message import EmailMessage
 
-from lib.config import require_env
+from lib.email_send import send_email
 from lib.state import State
 
 DEDUP_TTL_SECONDS = 7 * 86400
@@ -84,20 +82,11 @@ def send_alert(subject: str, body: str, severity: str = "MED",
     emailed = False
 
     if not email_muted:
-        gmail_user = require_env("GMAIL_USER")
-        gmail_pw = require_env("GMAIL_APP_PASSWORD")
-        alert_to = require_env("ALERT_TO")
-
-        msg = EmailMessage()
-        msg["Subject"] = subject
-        msg["From"] = gmail_user
-        msg["To"] = alert_to
-        msg["X-Catalyst-Severity"] = severity
-        msg.set_content(body)
-
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as s:
-            s.login(gmail_user, gmail_pw)
-            s.send_message(msg)
+        send_email(
+            subject,
+            text=body,
+            headers={"X-Catalyst-Severity": severity},
+        )
         emailed = True
 
     _persist_alert(
