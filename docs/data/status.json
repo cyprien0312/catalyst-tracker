@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781762526,
-  "generated_at_str": "2026-06-18 06:02:06 UTC",
-  "last_event_ts": 1781761442,
+  "generated_at": 1781762717,
+  "generated_at_str": "2026-06-18 06:05:17 UTC",
+  "last_event_ts": 1781762716,
   "tables": {
     "alerts_dedup": {
-      "count": 1056,
-      "last_ts": 1781760928,
-      "last_str": "2026-06-18 05:35:28 UTC"
+      "count": 1057,
+      "last_ts": 1781762716,
+      "last_str": "2026-06-18 06:05:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-18 02:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 406,
-      "last_ts": 1781760902,
-      "last_str": "2026-06-18 05:35:02 UTC"
+      "count": 407,
+      "last_ts": 1781762702,
+      "last_str": "2026-06-18 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 504,
-      "last_ts": 1781760903,
-      "last_str": "2026-06-18 05:35:03 UTC"
+      "count": 505,
+      "last_ts": 1781762704,
+      "last_str": "2026-06-18 06:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 240,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1064,
+      "ts": 1781762716,
+      "ts_str": "2026-06-18 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices due to memory chip crunch, Tim Cook says - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:31:13 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzNMWWZ3eVpjOTdhbEFzUGZseHJuOEZTSVUzcFpnUUNCRG1EOElJNVFmLVF6Y184RjF5azJyaDBDenJCWkJ0OFhJODlIYmxGdUJNNVVVb2NTaVh6dE95OWhOeTNiREl2QldaSWxBdm9wb01Pc2hvd1Rpd20zaGNyYUVXMndaY1p5a3ZIZFBJY3dEckxwQ2F4Zjd2eUFlR0N6Mmp1N3k5Qmp1dUJMeEZINg?oc=5\n\nApple to raise prices due to memory chip crunch, Tim Cook says - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzNMWWZ3eVpjOTdhbEFzUGZseHJuOEZTSVUzcFpnUUNCRG1EOElJNVFmLVF6Y184RjF5azJyaDBDenJCWkJ0OFhJODlIYmxGdUJNNVVVb2NTaVh6dE95OWhOeTNiREl2QldaSWxBdm9wb01Pc2hvd1Rpd20zaGNyYUVXMndaY1p5a3ZIZFBJY3dEckxwQ2F4Zjd2eUFlR0N6Mmp1N3k5Qmp1dUJMeEZINg?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip crunch, Tim Cook says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn MSN/Reuters headline reports Apple CEO Tim Cook saying Apple will raise prices because of a memory chip crunch.\n\n\u5185\u5bb9:\nMSN/\u8def\u900f\u7684\u6807\u9898\u62a5\u9053\u79f0\uff0cApple CEO Tim Cook \u8868\u793a Apple \u5c06\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away by AI datacenter buildout, and the squeeze has now reached consumer hardware pricing at the largest device maker. When AI capex starts visibly raising the cost of unrelated consumer electronics, the demand shock is broad enough to feed back into inflation and component-allocation stress.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u5360\u4ea7\u80fd\uff0c\u8fd9\u79cd\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u5168\u7403\u6700\u5927\u8bbe\u5907\u5382\u5546\u7684\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u7684\u6210\u672c\uff0c\u8bf4\u660e\u9700\u6c42\u51b2\u51fb\u7684\u8303\u56f4\u5df2\u7ecf\u5927\u5230\u8db3\u4ee5\u53cd\u9988\u8fdb\u901a\u80c0\u548c\u5143\u5668\u4ef6\u4f9b\u7ed9\u7d27\u5f20\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1062,
       "ts": 1781760928,
@@ -2254,16 +2264,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] WD_Black SN8100 NVMe SSD drops to $699.99 in latest price cut - Technobezz",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 02:26:22 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxOaFRBWkFLb1RQNTBtNHBmTVE3Q2YtTTVGYzNpTVNJMVRkV3NHUW1nMkI2c1FQM04zSU1pWlBKQm93M2VuVjlORkdOVVY1LUk1Z3laT2V6UWczM2pHb2U2NHN5eUwzTmR6bUlranJqMWJmYkE3ZzVzUEpOR2I3NE92VFZleW95VEllOVZ6U1R0WFBfQ19F?oc=5\n\nWD_Black SN8100 NVMe SSD drops to $699.99 in latest price cut - Technobezz\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOaFRBWkFLb1RQNTBtNHBmTVE3Q2YtTTVGYzNpTVNJMVRkV3NHUW1nMkI2c1FQM04zSU1pWlBKQm93M2VuVjlORkdOVVY1LUk1Z3laT2V6UWczM2pHb2U2NHN5eUwzTmR6bUlranJqMWJmYkE3ZzVzUEpOR2I3NE92VFZleW95VEllOVZ6U1R0WFBfQ19F?oc=5\" target=\"_blank\">WD_Black SN8100 NVMe SSD drops to $699.99 in latest price cut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technobezz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA WD_Black SN8100 NVMe SSD has been cut to $699.99 in the latest round of consumer price reductions.\n\n\u5185\u5bb9:\nWD_Black SN8100 NVMe SSD \u5728\u6700\u65b0\u4e00\u8f6e\u964d\u4ef7\u4e2d\u964d\u81f3 $699.99\u3002\n\nWhy it matters:\nFalling consumer SSD/NAND prices signal the AI-driven memory and storage shortage may be easing as supply catches up or demand softens. A sustained reversal in component prices undercuts the narrative that AI capex is keeping the whole hardware supply chain tight.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7 SSD/NAND \u4ef7\u683c\u4e0b\u8dcc\uff0c\u610f\u5473\u7740 AI \u9a71\u52a8\u7684\u5b58\u50a8\u7d27\u7f3a\u53ef\u80fd\u6b63\u5728\u7f13\u89e3\u2014\u2014\u8981\u4e48\u4f9b\u7ed9\u8ddf\u4e0a\uff0c\u8981\u4e48\u9700\u6c42\u8f6c\u5f31\u3002\u5982\u679c\u96f6\u90e8\u4ef6\u4ef7\u683c\u6301\u7eed\u53cd\u8f6c\uff0c\u5c31\u4f1a\u52a8\u6447\u201cAI capex \u8ba9\u6574\u6761\u786c\u4ef6\u4f9b\u5e94\u94fe\u4fdd\u6301\u7d27\u5f20\u201d\u7684\u903b\u8f91\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 864,
-      "ts": 1781490935,
-      "ts_str": "2026-06-15 02:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Upgrade Your Storage And Performance With Samsung\u2019s 4TB 9100 PRO PCIe NVMe Gen 5 SSD, Now 41% Off On Amazon, With Its Ne",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 20:48:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQM01xZ015aW1OM1VJNlIyUGF2NGV2Q1c2SjBab1hVNE5oNThDXzVjSkRtcWJkS3BNRk9WX2V3SURtc29DQnJPNVpEcTRhWVpidFBlcFllYzhScFZvNFB2RXVhLS1ENXNIR25heHRBMFpkQW1UeGhzZDJMa2pzTzQySlZ6WU1lMU82QTdENFM0YU9FU2EtX1NNandBQULSAaIBQVVfeXFMT183bjMtSF9SOVhQNktLVHk2ZnhseDBTS3NFTW9oVUJPSGRlR2k3YnRKVnJLNE5fZ04xMFVzTVlZbnpteGUzRk1Bek43R0s1ZVFGN1d3U3pRZFhIbllyZmJlcG42eUMyb0lDdGZheFVsdVUxLWthVW4za3ZnNy12eHc1bldaVEpfSVNBMXgzZ0FBNEZUX0JvOTg2dWhkOGRnMkRB?oc=5\n\nUpgrade Your Storage And Performance With Samsung\u2019s 4TB 9100 PRO PCIe NVMe Gen 5 SSD, Now 41% Off On Amazon, With Its New Price Dropping To $799.99 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQM01xZ015aW1OM1VJNlIyUGF2NGV2Q1c2SjBab1hVNE5oNThDXzVjSkRtcWJkS3BNRk9WX2V3SURtc29DQnJPNVpEcTRhWVpidFBlcFllYzhScFZvNFB2RXVhLS1ENXNIR25heHRBMFpkQW1UeGhzZDJMa2pzTzQySlZ6WU1lMU82QTdENFM0YU9FU2EtX1NNandBQULSAaIBQVVfeXFMT183bjMtSF9SOVhQNktLVHk2ZnhseDBTS3NFTW9oVUJPSGRlR2k3YnRKVnJLNE5fZ04xMFVzTVlZbnpteGUzRk1Bek43R0s1ZVFGN1d3U3pRZFhIbllyZmJlcG42eUMyb0lDdGZheFVsdVUxLWthVW4za3ZnNy12eHc1bldaVEpfSVNBMXgzZ0FBNEZUX0JvOTg2dWhkOGRnMkRB?oc=5\" target=\"_blank\">Upgrade Your Storage And Performance With Samsung\u2019s 4TB 9100 PRO PCIe NVMe Gen 5 SSD, Now 41% Off On Amazon, With Its New Price Dropping To $799.99</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA retail listing flags Samsung's 4TB 9100 PRO PCIe Gen 5 NVMe SSD at 41% off, dropping to $799.99 on Amazon.\n\n\u5185\u5bb9:\n\u4e00\u5219\u96f6\u552e\u4fe1\u606f\u663e\u793a Samsung 4TB 9100 PRO PCIe Gen 5 NVMe SSD \u5728 Amazon \u4e0a\u964d\u4ef7 41%\uff0c\u65b0\u4ef7\u683c\u964d\u81f3 $799.99\u3002\n\nWhy it matters:\nC6 tracks consumer storage/memory pricing as a demand tell. A sharp NAND price reversal points to softening end-demand and easing supply tightness \u2014 the opposite of the component scarcity that an AI-capex boom is supposed to sustain.\n\n\u5f71\u54cd:\nC6 \u628a\u6d88\u8d39\u7ea7\u5b58\u50a8/\u5185\u5b58\u4ef7\u683c\u5f53\u4f5c\u9700\u6c42\u4fe1\u53f7\u6765\u8ddf\u8e2a\u3002NAND \u4ef7\u683c\u5927\u5e45\u56de\u843d\u610f\u5473\u7740\u7ec8\u7aef\u9700\u6c42\u8d70\u8f6f\u3001\u4f9b\u7ed9\u7d27\u5f20\u7f13\u89e3\u2014\u2014\u8fd9\u4e0e AI capex \u70ed\u6f6e\u672c\u5e94\u7ef4\u6301\u7684\u96f6\u90e8\u4ef6\u77ed\u7f3a\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\n",
       "emailed": true
     }
   ],
