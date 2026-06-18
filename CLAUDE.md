@@ -34,10 +34,14 @@ python3.11 -m venv .venv
 # Verbosity
 LOG_LEVEL=DEBUG .venv/bin/python -m catalysts.c3_openai --dry-run
 
-# Daily digest email (priority-ordered heartbeat + LLM FOCUS analysis)
+# Daily digest email (priority-ordered heartbeat + LLM FOCUS analysis + buy plan)
 .venv/bin/python scripts/daily_report.py --dry-run             # print
 .venv/bin/python scripts/daily_report.py --html-out /tmp/d.html  # dump HTML
 bin/send_daily_report.sh                                        # cron wrapper (sources env)
+
+# U100/NDX buy-plan signal (regime + drawdown ladder, keyed off the C7/C2 fuses)
+.venv/bin/python scripts/regime_signal.py          # print the plan
+.venv/bin/python scripts/regime_signal.py --json   # machine-readable
 
 # Dashboard rebuild (writes docs/index.html, docs/thresholds.html, docs/data/status.json)
 .venv/bin/python scripts/build_dashboard.py
@@ -100,7 +104,9 @@ After `python -m catalysts.<module>` and `scripts/build_dashboard.py`, the wrapp
 
 ### Daily digest (`scripts/daily_report.py`, `bin/send_daily_report.sh`)
 
-A once-a-day heartbeat email (cron 09:00 local), separate from the per-alert path. Priority-ordered (C7→C2→C4→C1→C8→C6→C3→C5→C9, grouped fuses→hard-data→background→lagging). Numeric gauges (C7/C8/C9) are **re-fetched live** each run so the digest is current regardless of cron timing; C4 reads the latest `c4_xbrl` snapshot; event-driven catalysts roll up the `alerts` table (7-day window). The **FOCUS** note is written by `llm.freeform` (Opus) with a rule-based `_analytical_focus` fallback that bakes in per-signal cross-references (e.g. Oracle = Leopold's short / CDS +310% / the C7-repricing tell). Multipart email (HTML + plain-text); no dedup — sends every day. The wrapper sources `~/.catalyst.env` but does **not** commit/push (read-only against state). Pure helpers are unit-tested in `tests/test_daily_report.py` (loaded via importlib since the script lives in `scripts/`). The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
+A once-a-day heartbeat email (cron 09:00 local), separate from the per-alert path. Priority-ordered (C7→C2→C4→C1→C8→C6→C3→C5→C9, grouped fuses→hard-data→background→lagging). Numeric gauges (C7/C8/C9) are **re-fetched live** each run so the digest is current regardless of cron timing; C4 reads the latest `c4_xbrl` snapshot; event-driven catalysts roll up the `alerts` table (7-day window). The **FOCUS** note is written by `llm.freeform` (Opus) with a rule-based `_analytical_focus` fallback that bakes in per-signal cross-references (e.g. Oracle = Leopold's short / CDS +310% / the C7-repricing tell). Multipart email (HTML + plain-text); no dedup — sends every day. The wrapper sources `~/.catalyst.env` but does **not** commit/push (read-only against state). Pure helpers are unit-tested in `tests/test_daily_report.py` (loaded via importlib since the script lives in `scripts/`).
+
+The digest also embeds a **BUY PLAN** card (`scripts/regime_signal.py`) just under FOCUS: a drawdown ladder for accumulating **ASX:U100** (Global X US 100 ETF — tracks Nasdaq-100). `lib/index_quote.py` pulls the live NDX level + all-time high via the keyless FRED `NASDAQ100` series and computes drawdown-from-ATH. The plan has two regimes, and **only the C7/C2 fuses flip between them** (all other signals are thermometers): **Regime A** (no fuse FIRING) = shallow ladder, max 60% deployed / 40% reserve, "buy speed"; **Regime B** (C7 credit OR C2 neocloud FIRING) = freeze the fast ladder, deep ladder for a multi-quarter bust, last rung needs a manual stabilisation check (C7 stops widening, or 4-6wk no new 20d-low). Ladder rungs live in `REGIME_A_LADDER`/`REGIME_B_LADDER` in `scripts/regime_signal.py`. The card degrades to absent if the index fetch fails (wrapped in try/except in `build()`). Tested in `tests/test_regime_signal.py`. The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
 
 ### LLM explanation path
 

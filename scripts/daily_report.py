@@ -18,18 +18,18 @@ import argparse
 import datetime as dt
 import html
 import json
-import smtplib
 import sys
 import time
 from dataclasses import dataclass, field
-from email.message import EmailMessage
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from lib.config import HYPERSCALERS, NEOCLOUDS, require_env
+from lib.config import HYPERSCALERS, NEOCLOUDS
+from lib.email_send import send_email
 from lib import llm
 from lib.state import State
+from scripts import regime_signal
 
 DASHBOARD = "https://cyprien0312.github.io/catalyst-tracker/"
 
@@ -347,7 +347,8 @@ def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict
 
 # ---------- rendering ----------
 
-def render_text(rows: list[Row], counts: dict, notable, focus: dict, today: str) -> str:
+def render_text(rows: list[Row], counts: dict, notable, focus: dict, today: str,
+                plan: dict | None = None) -> str:
     L = [f"catalyst-tracker — Daily Digest · {today}", "=" * 46,
          f"Status: 🔴 {counts[FIRING]} firing · 🟡 {counts[WATCH]} watch · 🟢 {counts[QUIET]} quiet",
          f"Dashboard: {DASHBOARD}", "",
@@ -355,6 +356,9 @@ def render_text(rows: list[Row], counts: dict, notable, focus: dict, today: str)
     if focus.get("zh"):
         L.append(focus["zh"])
     L.append("")
+    if plan:
+        L.append(regime_signal.render_text(plan))
+        L.append("")
     for tier, subtitle in TIERS:
         L.append(f"── {tier} ({subtitle}) ──")
         for r in [r for r in rows if r.tier == tier]:
@@ -372,7 +376,8 @@ def _esc(s: str) -> str:
     return html.escape(s, quote=False)
 
 
-def render_html(rows: list[Row], counts: dict, notable, focus: dict, today: str) -> str:
+def render_html(rows: list[Row], counts: dict, notable, focus: dict, today: str,
+                plan: dict | None = None) -> str:
     def pill(status, n, dot):
         return (f'<span style="display:inline-block;padding:4px 12px;border-radius:14px;'
                 f'background:{_COLOR[status]};color:#fff;font-size:12px;font-weight:600;'
@@ -434,7 +439,7 @@ def render_html(rows: list[Row], counts: dict, notable, focus: dict, today: str)
     <div style="font-size:13.5px;line-height:1.7;color:#2a3344;">{_esc(focus["en"])}</div>
     {focus_zh}
   </div>
-
+{regime_signal.render_html_card(plan)}
   <div style="background:#f4f5f7;padding:4px 8px 10px;">
     {''.join(tier_blocks)}
 
@@ -456,25 +461,18 @@ def build() -> tuple[str, str, str]:
     today = dt.date.today().isoformat()
     rows, counts, notable = gather(state)
     focus = generate_focus(rows, notable)
+    try:
+        plan = regime_signal.plan_from_rows(rows)
+    except Exception:
+        plan = None
     subject = f"[catalyst-tracker] {today} · 🔴{counts[FIRING]} 🟡{counts[WATCH]} 🟢{counts[QUIET]} · {focus['title'][:50]}"
-    text = render_text(rows, counts, notable, focus, today)
-    html_body = render_html(rows, counts, notable, focus, today)
+    text = render_text(rows, counts, notable, focus, today, plan)
+    html_body = render_html(rows, counts, notable, focus, today, plan)
     return subject, text, html_body
 
 
 def send(subject: str, text: str, html_body: str) -> None:
-    gmail_user = require_env("GMAIL_USER")
-    gmail_pw = require_env("GMAIL_APP_PASSWORD")
-    alert_to = require_env("ALERT_TO")
-    msg = EmailMessage()
-    msg["Subject"] = subject
-    msg["From"] = gmail_user
-    msg["To"] = alert_to
-    msg.set_content(text)
-    msg.add_alternative(html_body, subtype="html")
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as s:
-        s.login(gmail_user, gmail_pw)
-        s.send_message(msg)
+    send_email(subject, text=text, html=html_body)
 
 
 def main(argv: list[str] | None = None) -> int:
