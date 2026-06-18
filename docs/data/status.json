@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781766126,
-  "generated_at_str": "2026-06-18 07:02:06 UTC",
-  "last_event_ts": 1781765043,
+  "generated_at": 1781766330,
+  "generated_at_str": "2026-06-18 07:05:30 UTC",
+  "last_event_ts": 1781766330,
   "tables": {
     "alerts_dedup": {
-      "count": 1059,
-      "last_ts": 1781764531,
-      "last_str": "2026-06-18 06:35:31 UTC"
+      "count": 1061,
+      "last_ts": 1781766330,
+      "last_str": "2026-06-18 07:05:30 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-18 02:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 408,
-      "last_ts": 1781764502,
-      "last_str": "2026-06-18 06:35:02 UTC"
+      "count": 409,
+      "last_ts": 1781766302,
+      "last_str": "2026-06-18 07:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 507,
-      "last_ts": 1781764504,
-      "last_str": "2026-06-18 06:35:04 UTC"
+      "count": 510,
+      "last_ts": 1781766304,
+      "last_str": "2026-06-18 07:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 241,
-      "last_ts": 1781764503,
-      "last_str": "2026-06-18 06:35:03 UTC"
+      "count": 242,
+      "last_ts": 1781766303,
+      "last_str": "2026-06-18 07:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 404,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1067,
+      "ts": 1781766330,
+      "ts_str": "2026-06-18 07:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices amid memory chip shortage, CEO Tim Cook tells WSJ - ThePrint",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 02:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0t1R2NNLTcxQkJ4YUkyYzNoRVJSV1JQV2NmU1o1Z2NwM29Tdkk1WlZXQkVXdjNqdmNCQ0otWGM1b2d3X2lTamN1cy1VSHo5bXVqOUhQRFZvTmtSMVdyNUQ3Z2lQRTUxVWFUZ3RLWTRUSF9rUnN0RHJrS0ZSWjdhQ2MyZk9XZVgydFRRcHFhZnN4cVBxUGJ2TVFMclM0V0s4emdkejdrb9IBrAFBVV95cUxPaldmb1BsYlEwMzN0amNBUThnaTZac3Q4QkJ2R0ZZLXo2cFVIbUEzanZXdTE5b1c1N1dOazBsdU5MU3dBOHFVRmV2Rkd3U2FJVGdtcHcyd1dsNnZCT2FaaHNCdDhjNzJ0bEgzODdJeTFDZGVYcHpVaTMzeURwdXVIbk5uQzB0MXlXLV9UdV9nWkpPTDE5clk1clQtUlN5ZWkwTmw2dDEwTl9RZFNK?oc=5\n\nApple to raise prices amid memory chip shortage, CEO Tim Cook tells WSJ - ThePrint\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNS0t1R2NNLTcxQkJ4YUkyYzNoRVJSV1JQV2NmU1o1Z2NwM29Tdkk1WlZXQkVXdjNqdmNCQ0otWGM1b2d3X2lTamN1cy1VSHo5bXVqOUhQRFZvTmtSMVdyNUQ3Z2lQRTUxVWFUZ3RLWTRUSF9rUnN0RHJrS0ZSWjdhQ2MyZk9XZVgydFRRcHFhZnN4cVBxUGJ2TVFMclM0V0s4emdkejdrb9IBrAFBVV95cUxPaldmb1BsYlEwMzN0amNBUThnaTZac3Q4QkJ2R0ZZLXo2cFVIbUEzanZXdTE5b1c1N1dOazBsdU5MU3dBOHFVRmV2Rkd3U2FJVGdtcHcyd1dsNnZCT2FaaHNCdDhjNzJ0bEgzODdJeTFDZGVYcHpVaTMzeURwdXVIbk5uQzB0MXlXLV9UdV9nWkpPTDE5clk1clQtUlN5ZWkwTmw2dDEwTl9RZFNK?oc=5\" target=\"_blank\">Apple to raise prices amid memory chip shortage, CEO Tim Cook tells WSJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ThePrint</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook told the WSJ that Apple will raise prices because of a memory (DRAM/NAND) chip shortage.\n\n\u5185\u5bb9:\nApple CEO Tim Cook \u5411 WSJ \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247 (DRAM/NAND) \u77ed\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up HBM and DRAM supply, and the squeeze is now spilling into consumer hardware pricing. When a buyer with Apple's scale and supply-chain leverage has to pass memory costs to customers, it signals the AI-capex demand shock has tightened the broader memory market \u2014 an inflationary, second-order stress from the buildout.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u6269\u5efa\u6b63\u5728\u5927\u91cf\u541e\u566c HBM \u548c DRAM \u4f9b\u7ed9\uff0c\u6324\u538b\u6548\u5e94\u5982\u4eca\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u7aef\u3002\u5f53 Apple \u8fd9\u79cd\u89c4\u6a21\u548c\u4f9b\u5e94\u94fe\u8bae\u4ef7\u80fd\u529b\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0c\u8bf4\u660e AI capex \u7684\u9700\u6c42\u51b2\u51fb\u5df2\u7ecf\u628a\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u7ef7\u7d27\u2014\u2014\u8fd9\u662f\u6269\u5efa\u5e26\u6765\u7684\u3001\u5177\u6709\u901a\u80c0\u6027\u8d28\u7684\u4e8c\u9636\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1068,
+      "ts": 1781766330,
+      "ts_str": "2026-06-18 07:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple May Raise Prices Amid Memory Chip Shortage, CEO Tim Cook Signals - Adjusted Earnings Analysis - newsline.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 03:14:15 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxQbTVuNGNYbWpUXzJSOGZYalVkeEU2OHI2SFVBMU9VbEZVRnhHbGlZV2pZMDlJMzhkbUhWRXlvY2dKT3ZWZllZWjJaM3hUMmNLNWFVUk9URUZzbDRBdDJYUXZuTHg3ZllUUGFGNmJLQ3otVzc1WnFnVHR0WWRWTXBHTHFpWGYtS1BGTWdLR3FUSFhHVXBiczhJZkltbDB4S0NJSnJ0NXZoTm5MOXNk?oc=5\n\nApple May Raise Prices Amid Memory Chip Shortage, CEO Tim Cook Signals - Adjusted Earnings Analysis - newsline.com\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQbTVuNGNYbWpUXzJSOGZYalVkeEU2OHI2SFVBMU9VbEZVRnhHbGlZV2pZMDlJMzhkbUhWRXlvY2dKT3ZWZllZWjJaM3hUMmNLNWFVUk9URUZzbDRBdDJYUXZuTHg3ZllUUGFGNmJLQ3otVzc1WnFnVHR0WWRWTXBHTHFpWGYtS1BGTWdLR3FUSFhHVXBiczhJZkltbDB4S0NJSnJ0NXZoTm5MOXNk?oc=5\" target=\"_blank\">Apple May Raise Prices Amid Memory Chip Shortage, CEO Tim Cook Signals - Adjusted Earnings Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newsline.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple CEO Tim Cook signaling Apple may raise prices amid a memory (DRAM/NAND) chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple CEO Tim Cook \u6697\u793a\uff0c\u53d7\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u5f71\u54cd\uff0cApple \u53ef\u80fd\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory pricing is a direct read on AI-infrastructure demand: hyperscaler HBM/DRAM buying for AI servers is crowding out consumer supply, forcing a downstream consumer-electronics giant like Apple to pass costs to buyers. It shows AI-capex strain leaking into the broader hardware economy and feeding inflation.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u7684\u76f4\u63a5\u4fe1\u53f7\uff1a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e3a AI \u670d\u52a1\u5668\u62a2\u8d2d HBM/DRAM\uff0c\u6324\u5360\u4e86\u6d88\u8d39\u7ea7\u4f9b\u5e94\uff0c\u8feb\u4f7f Apple \u8fd9\u6837\u7684\u4e0b\u6e38\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u4e70\u5bb6\u3002\u8fd9\u8868\u660e AI capex \u7684\u538b\u529b\u6b63\u5728\u5916\u6ea2\u5230\u66f4\u5e7f\u6cdb\u7684\u786c\u4ef6\u7ecf\u6d4e\uff0c\u5e76\u63a8\u9ad8\u901a\u80c0\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1065,
       "ts": 1781764531,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Citi Raises Western Digital Price Target to $500: Is the HDD Bull Case Just Getting Stronger? - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 15:42:51 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxQRFlEa1JJSnk3dk5CNTRNRnplb3B4UjJZZ3BJVGFLSEpyLXJ6UTRXbXdFR3pYT3BjX1AxdVBIdGZnblYteWY4ck5sNWhoQ3ZFR2laUi1Ock1Cbzc0LTAtS25nc3kwQjBaU1o3SkliZVFacGVXV21RSE5Ja1JlbmhHQnV2RQ?oc=5\n\nCiti Raises Western Digital Price Target to $500: Is the HDD Bull Case Just Getting Stronger? - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQRFlEa1JJSnk3dk5CNTRNRnplb3B4UjJZZ3BJVGFLSEpyLXJ6UTRXbXdFR3pYT3BjX1AxdVBIdGZnblYteWY4ck5sNWhoQ3ZFR2laUi1Ock1Cbzc0LTAtS25nc3kwQjBaU1o3SkliZVFacGVXV21RSE5Ja1JlbmhHQnV2RQ?oc=5\" target=\"_blank\">Citi Raises Western Digital Price Target to $500: Is the HDD Bull Case Just Getting Stronger?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti raised its Western Digital (WDC) price target to $500, framing the hard-disk-drive (HDD) bull case as strengthening.\n\n\u5185\u5bb9:\nCiti \u5c06 Western Digital (WDC) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $500\uff0c\u5e76\u79f0\u673a\u68b0\u786c\u76d8 (HDD) \u7684\u591a\u5934\u903b\u8f91\u6b63\u5728\u589e\u5f3a\u3002\n\nWhy it matters:\nSell-side targets near $500 on a legacy HDD maker signal that AI-data-center storage demand has gone vertical \u2014 the kind of euphoric price-target chase that marks late-cycle melt-ups, where capacity additions get priced in before the cycle actually turns.\n\n\u5f71\u54cd:\n\u5356\u65b9\u5bf9\u4e00\u5bb6\u4f20\u7edf HDD \u5382\u5546\u7ed9\u51fa\u63a5\u8fd1 $500 \u7684\u76ee\u6807\u4ef7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u5b58\u50a8\u9700\u6c42\u5df2\u7ecf\u5782\u76f4\u62c9\u5347\u2014\u2014\u8fd9\u79cd\u8ffd\u9010\u76ee\u6807\u4ef7\u7684\u72c2\u70ed\u6b63\u662f\u5468\u671f\u665a\u671f\u903c\u7a7a\u884c\u60c5\u7684\u5178\u578b\u7279\u5f81\uff1a\u5728\u5468\u671f\u771f\u6b63\u53cd\u8f6c\u4e4b\u524d\uff0c\u6269\u4ea7\u9884\u671f\u5df2\u88ab\u63d0\u524d\u5b9a\u4ef7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 867,
-      "ts": 1781493273,
-      "ts_str": "2026-06-15 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Nvidia\u2019s Huang Says $30B OpenAI Investment May Be Last Pre-IPO Deal - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 14 Jun 2026 08:57:46 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOR2dmdHo3Z0dMR0pQaXh6ZEVMZ3B4eVVxSmRhcTE3SmEtS3RTVjB1X0Z2dEMtLWxwdlZYdEYtY0pDOUNhcTJoTjI5eW11U3ItejgwWjlGdVUxWHoyZXB3QzVzNFM3WnZqSEdnRlUzajRRYUhIdnVfaFRzcDJ5WDVQVFVNbGpVZDdTdzRNQXprWWFyME9Fb0QzMVNhdlM1eFV2clY1R0ZVeENSWm1iMDhsR2hOT1JBWXotX1B3WWsxeGNOQU1aMzlr?oc=5\n\nNvidia\u2019s Huang Says $30B OpenAI Investment May Be Last Pre-IPO Deal - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOR2dmdHo3Z0dMR0pQaXh6ZEVMZ3B4eVVxSmRhcTE3SmEtS3RTVjB1X0Z2dEMtLWxwdlZYdEYtY0pDOUNhcTJoTjI5eW11U3ItejgwWjlGdVUxWHoyZXB3QzVzNFM3WnZqSEdnRlUzajRRYUhIdnVfaFRzcDJ5WDVQVFVNbGpVZDdTdzRNQXprWWFyME9Fb0QzMVNhdlM1eFV2clY1R0ZVeENSWm1iMDhsR2hOT1JBWXotX1B3WWsxeGNOQU1aMzlr?oc=5\" target=\"_blank\">Nvidia\u2019s Huang Says $30B OpenAI Investment May Be Last Pre-IPO Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 868,
-      "ts": 1781493273,
-      "ts_str": "2026-06-15 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] 42-state probe adds IPO risk for OpenAI after sweeping subpoena - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 01:42:31 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN24wMXJyd0RSRklwZUtURUlQaW1qMEN1a3VONWluOWhILTkwRWJWWDZfdG9jUzJGZzhyb0JLTzZEUDZEM2NDX2xQSWRaUlFxUnhsTHlTR0NFOHE0Z2tsNXo2aUxLX0hwVk05dzc2UzhfU3U5LVdPZmFzaVVnQ2hhUUhERkFsaGFCcjRCaGxHM2RDd2hQM3dfRmlJYXQ4RXVoQTBuV0xiX3VGN2FiWmxPVm9CX042eVRzNjB1Z3Z2VU1HV2E4SVFyX2dGcWlHZlppQ184VUdn?oc=5\n\n42-state probe adds IPO risk for OpenAI after sweeping subpoena - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN24wMXJyd0RSRklwZUtURUlQaW1qMEN1a3VONWluOWhILTkwRWJWWDZfdG9jUzJGZzhyb0JLTzZEUDZEM2NDX2xQSWRaUlFxUnhsTHlTR0NFOHE0Z2tsNXo2aUxLX0hwVk05dzc2UzhfU3U5LVdPZmFzaVVnQ2hhUUhERkFsaGFCcjRCaGxHM2RDd2hQM3dfRmlJYXQ4RXVoQTBuV0xiX3VGN2FiWmxPVm9CX042eVRzNjB1Z3Z2VU1HV2E4SVFyX2dGcWlHZlppQ184VUdn?oc=5\" target=\"_blank\">42-state probe adds IPO risk for OpenAI after sweeping subpoena</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports a 42-state probe adds IPO risk for OpenAI following a sweeping subpoena.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0c\u5728\u4e00\u4efd\u5927\u8303\u56f4 subpoena \u4e4b\u540e\uff0c42 \u4e2a\u5dde\u7684\u8054\u5408\u8c03\u67e5\u7ed9 OpenAI \u589e\u52a0\u4e86 IPO \u98ce\u9669\u3002\n\nWhy it matters:\nCoordinated multi-state legal scrutiny clouds OpenAI's path to a public listing \u2014 the exit that much of the AI-capex financing chain is implicitly pricing in. Regulatory drag on the sector's flagship name raises the cost and timing risk of monetizing the buildout.\n\n\u5f71\u54cd:\n\u591a\u5dde\u534f\u540c\u7684\u6cd5\u5f8b\u5ba1\u67e5\u7ed9 OpenAI \u7684\u4e0a\u5e02\u4e4b\u8def\u8499\u4e0a\u9634\u5f71\uff0c\u800c\u4e0a\u5e02\u6b63\u662f\u6574\u6761 AI capex \u878d\u8d44\u94fe\u6761\u9690\u542b\u5b9a\u4ef7\u7684\u9000\u51fa\u8def\u5f84\u3002\u5bf9\u884c\u4e1a\u65d7\u8230\u516c\u53f8\u7684\u76d1\u7ba1\u963b\u529b\uff0c\u62ac\u9ad8\u4e86\u5c06\u8fd9\u8f6e\u57fa\u5efa\u6295\u5165\u53d8\u73b0\u7684\u6210\u672c\u4e0e\u65f6\u95f4\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
