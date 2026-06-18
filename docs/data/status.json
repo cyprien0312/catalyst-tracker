@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781816527,
-  "generated_at_str": "2026-06-18 21:02:07 UTC",
-  "last_event_ts": 1781815443,
+  "generated_at": 1781816720,
+  "generated_at_str": "2026-06-18 21:05:20 UTC",
+  "last_event_ts": 1781816719,
   "tables": {
     "alerts_dedup": {
-      "count": 1133,
-      "last_ts": 1781814941,
-      "last_str": "2026-06-18 20:35:41 UTC"
+      "count": 1134,
+      "last_ts": 1781816719,
+      "last_str": "2026-06-18 21:05:19 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-18 20:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 463,
-      "last_ts": 1781814902,
-      "last_str": "2026-06-18 20:35:02 UTC"
+      "count": 464,
+      "last_ts": 1781816702,
+      "last_str": "2026-06-18 21:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 575,
-      "last_ts": 1781814904,
-      "last_str": "2026-06-18 20:35:04 UTC"
+      "count": 576,
+      "last_ts": 1781816703,
+      "last_str": "2026-06-18 21:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 287,
-      "last_ts": 1781813103,
-      "last_str": "2026-06-18 20:05:03 UTC"
+      "count": 288,
+      "last_ts": 1781816703,
+      "last_str": "2026-06-18 21:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 450,
-      "last_ts": 1781814905,
-      "last_str": "2026-06-18 20:35:05 UTC"
+      "count": 451,
+      "last_ts": 1781816704,
+      "last_str": "2026-06-18 21:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10058,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1141,
+      "ts": 1781816719,
+      "ts_str": "2026-06-18 21:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple may raise product prices due to memory chip shortage: CEO Tim Cook - Business Standard",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 01:52:22 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3NONWM5STdhQXI1TEdxS1I1b3BFT3N3NDNFeXlqUHFFLWMtOE1DZVlWcV8ybFBGaE5ERjlNU2lOaVhwMGNMb1VHTktVd0VvM05DVVE2QnVTdlJsYlkzU1NDUWFybmNLX0dUUmRRaGN0UENyNUI1dkdfT19BbktqcWJmMEdrMXIwTko0U205dGhmM25mc0hSZ2FQQkZRQUY4VV9YZkF3YUI0Wm1Mcnl4cmR6QXV0V3hKYm9EaXN6djJaQ2VYb0pMMm5Md095QVNhaUN6OHdVSdIB1wFBVV95cUxOd3NONWM5STdhQXI1TEdxS1I1b3BFT3N3NDNFeXlqUHFFLWMtOE1DZVlWcV8ybFBGaE5ERjlNU2lOaVhwMGNMb1VHTktVd0VvM05DVVE2QnVTdlJsYlkzU1NDUWFybmNLX0dUUmRRaGN0UENyNUI1dkdfT19BbktqcWJmMEdrMXIwTko0U205dGhmM25mc0hSZ2FQQkZRQUY4VV9YZkF3YUI0Wm1Mcnl4cmR6QXV0V3hKYm9EaXN6djJaQ2VYb0pMMm5Md095QVNhaUN6OHdVSQ?oc=5\n\nApple may raise product prices due to memory chip shortage: CEO Tim Cook - Business Standard\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd3NONWM5STdhQXI1TEdxS1I1b3BFT3N3NDNFeXlqUHFFLWMtOE1DZVlWcV8ybFBGaE5ERjlNU2lOaVhwMGNMb1VHTktVd0VvM05DVVE2QnVTdlJsYlkzU1NDUWFybmNLX0dUUmRRaGN0UENyNUI1dkdfT19BbktqcWJmMEdrMXIwTko0U205dGhmM25mc0hSZ2FQQkZRQUY4VV9YZkF3YUI0Wm1Mcnl4cmR6QXV0V3hKYm9EaXN6djJaQ2VYb0pMMm5Md095QVNhaUN6OHdVSdIB1wFBVV95cUxOd3NONWM5STdhQXI1TEdxS1I1b3BFT3N3NDNFeXlqUHFFLWMtOE1DZVlWcV8ybFBGaE5ERjlNU2lOaVhwMGNMb1VHTktVd0VvM05DVVE2QnVTdlJsYlkzU1NDUWFybmNLX0dUUmRRaGN0UENyNUI1dkdfT19BbktqcWJmMEdrMXIwTko0U205dGhmM25mc0hSZ2FQQkZRQUY4VV9YZkF3YUI0Wm1Mcnl4cmR6QXV0V3hKYm9EaXN6djJaQ2VYb0pMMm5Md095QVNhaUN6OHdVSQ?oc=5\" target=\"_blank\">Apple may raise product prices due to memory chip shortage: CEO Tim Cook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Business Standard headline reports Apple CEO Tim Cook said Apple may raise product prices because of a memory chip shortage.\n\n\u5185\u5bb9:\nBusiness Standard \u62a5\u9053\uff0cApple CEO Tim Cook \u8868\u793a\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u53ef\u80fd\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away from consumer devices by AI datacenter buildout, and the shortage is now severe enough to push prices through to end products. When a buyer the size of Apple gets crowded out and passes the cost to consumers, it confirms the AI-capex spend is straining the broader hardware supply chain \u2014 an inflationary, late-cycle stress signal.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u75af\u72c2\u6269\u5efa\u6b63\u628a\u5185\u5b58\uff08DRAM/NAND\uff09\u4ece\u6d88\u8d39\u7535\u5b50\u624b\u4e2d\u62a2\u8d70\uff0c\u77ed\u7f3a\u5df2\u4e25\u91cd\u5230\u8981\u4f20\u5bfc\u81f3\u7ec8\u7aef\u4ea7\u54c1\u5b9a\u4ef7\u3002\u5f53\u8fde Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u88ab\u6324\u51fa\u4f9b\u7ed9\u3001\u5e76\u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u8bf4\u660e AI capex \u7684\u652f\u51fa\u5df2\u7ecf\u5728\u6324\u538b\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u5e26\u901a\u80c0\u8272\u5f69\u7684\u5468\u671f\u665a\u671f\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1138,
       "ts": 1781814941,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] The DRAM shortage to extend into 2028. This means Micron stock could easily double from here. - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 01:10:14 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSnJ0UUVhQXpTbG13QjFiVTRuVXkwdWg4eTFFY2lzNTZVX29FcjBSUVZDZWgxS1NiR3E3NnJ0QTR3Qy1JSEpBdEw2M1NqM1hrTDJkaXd1UUNHUzhyVWpXenV3enBITXpLNGtmWEpzUEdnYkd0SWx4dzljN2IwamZabWpWQWZudENtXzhmUVdBZEQzSHQ4X2lUWlp3SURpcGo1SDFnOTFPTWVWaFg2TFZ3VWhLZWpjcHlBLWZRZXNadXpyWTZqQnZMaE1teVdZRlgySHlTSXhFZ093c3ZGSnc?oc=5\n\nThe DRAM shortage to extend into 2028. This means Micron stock could easily double from here. - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSnJ0UUVhQXpTbG13QjFiVTRuVXkwdWg4eTFFY2lzNTZVX29FcjBSUVZDZWgxS1NiR3E3NnJ0QTR3Qy1JSEpBdEw2M1NqM1hrTDJkaXd1UUNHUzhyVWpXenV3enBITXpLNGtmWEpzUEdnYkd0SWx4dzljN2IwamZabWpWQWZudENtXzhmUVdBZEQzSHQ4X2lUWlp3SURpcGo1SDFnOTFPTWVWaFg2TFZ3VWhLZWpjcHlBLWZRZXNadXpyWTZqQnZMaE1teVdZRlgySHlTSXhFZ093c3ZGSnc?oc=5\" target=\"_blank\">The DRAM shortage to extend into 2028. This means Micron stock could easily double from here.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA syndicated MSN/Google News headline claims the DRAM shortage will extend into 2028 and that Micron (MU) stock \"could easily double from here.\"\n\n\u5185\u5bb9:\n\u4e00\u6761\u7ecf MSN/Google News \u8f6c\u8f7d\u7684\u6807\u9898\u79f0 DRAM \u77ed\u7f3a\u5c06\u5ef6\u7eed\u5230 2028 \u5e74\uff0c\u5e76\u79f0 Micron (MU) \u80a1\u4ef7\"\u4ece\u8fd9\u91cc\u8f7b\u677e\u7ffb\u500d\"\u3002\n\nWhy it matters:\nC6 tracks memory-pricing froth as an AI-capex stress signal. Sell-side \"stock could double\" calls tied to a multi-year shortage narrative mark sentiment running hot \u2014 DRAM/HBM pricing is now a leveraged bet on AI buildout demand staying vertical, and crowded doubling calls are a late-cycle tell, not an early one.\n\n\u5f71\u54cd:\nC6 \u628a\u5185\u5b58\u6da8\u4ef7\u7684\u8fc7\u70ed\u60c5\u7eea\u4f5c\u4e3a AI capex \u538b\u529b\u4fe1\u53f7\u6765\u8ffd\u8e2a\u3002\u5356\u65b9\u558a\u51fa\"\u80a1\u4ef7\u7ffb\u500d\"\u5e76\u7ed1\u5b9a\u591a\u5e74\u671f\u77ed\u7f3a\u53d9\u4e8b\uff0c\u8bf4\u660e\u60c5\u7eea\u5df2\u7ecf\u504f\u70ed\u2014\u2014DRAM/HBM \u4ef7\u683c\u5982\u4eca\u662f\u62bc\u6ce8 AI \u5efa\u8bbe\u9700\u6c42\u6301\u7eed\u9661\u5347\u7684\u6760\u6746\u5934\u5bf8\uff0c\u800c\u62e5\u6324\u7684\u7ffb\u500d\u558a\u5355\u662f\u5468\u671f\u665a\u671f\u4fe1\u53f7\uff0c\u4e0d\u662f\u65e9\u671f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 942,
-      "ts": 1781593534,
-      "ts_str": "2026-06-16 07:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Contract Prices Surged More Than 100% in 1H26; Structural Shortages to Keep NOR Flash and SLC NAND Prices Rising in 2H26",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 06:30:52 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE9kZ3J4aFdscE5tck9EU0YtTkNoT1VKQVNFejg1dVlCM0otN2g1Z3Uyc3haeVRVTmdfMzR4YUE5TXhFYS1zQ01BcWRXV3YwODdOaTNlODlyQnlDNHpDYUJlUGZZcHgzclVTUmdudjZhQWI?oc=5\n\nContract Prices Surged More Than 100% in 1H26; Structural Shortages to Keep NOR Flash and SLC NAND Prices Rising in 2H26, Says TrendForce - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9kZ3J4aFdscE5tck9EU0YtTkNoT1VKQVNFejg1dVlCM0otN2g1Z3Uyc3haeVRVTmdfMzR4YUE5TXhFYS1zQ01BcWRXV3YwODdOaTNlODlyQnlDNHpDYUJlUGZZcHgzclVTUmdudjZhQWI?oc=5\" target=\"_blank\">Contract Prices Surged More Than 100% in 1H26; Structural Shortages to Keep NOR Flash and SLC NAND Prices Rising in 2H26, Says TrendForce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports memory contract prices surged more than 100% in 1H26, with structural shortages set to keep NOR Flash and SLC NAND prices rising through 2H26.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u544a\u79f0\uff0c\u5b58\u50a8\u5668\u5408\u7ea6\u4ef7\u5728 1H26 \u98d9\u5347\u8d85\u8fc7 100%\uff0c\u4e14\u7ed3\u6784\u6027\u77ed\u7f3a\u5c06\u4ee4 NOR Flash \u4e0e SLC NAND \u4ef7\u683c\u5728 2H26 \u7ee7\u7eed\u4e0a\u6da8\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials input; a >100% contract-price jump feeds directly into datacenter buildout costs and squeezes hyperscaler hardware margins. Structural (supply-driven) shortages mean the spike persists rather than mean-reverting, raising the capex bill just as payback is already in question.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u5668\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\u6210\u672c\uff0c\u5408\u7ea6\u4ef7\u4e0a\u6da8\u8d85 100% \u4f1a\u76f4\u63a5\u63a8\u9ad8\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6210\u672c\u3001\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u786c\u4ef6\u5229\u6da6\u3002\u7ed3\u6784\u6027\uff08\u4f9b\u7ed9\u7aef\uff09\u77ed\u7f3a\u610f\u5473\u7740\u8fd9\u8f6e\u6da8\u4ef7\u4f1a\u6301\u7eed\uff0c\u800c\u975e\u56de\u843d\u2014\u2014\u5728 AI capex \u56de\u672c\u672c\u5c31\u5b58\u7591\u4e4b\u9645\uff0c\u8fdb\u4e00\u6b65\u62ac\u9ad8\u4e86\u652f\u51fa\u8d26\u5355\u3002\n",
       "emailed": false
     }
   ],
