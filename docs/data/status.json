@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781910126,
-  "generated_at_str": "2026-06-19 23:02:06 UTC",
-  "last_event_ts": 1781909057,
+  "generated_at": 1781910316,
+  "generated_at_str": "2026-06-19 23:05:16 UTC",
+  "last_event_ts": 1781910316,
   "tables": {
     "alerts_dedup": {
-      "count": 1190,
-      "last_ts": 1781909057,
-      "last_str": "2026-06-19 22:44:17 UTC"
+      "count": 1191,
+      "last_ts": 1781910316,
+      "last_str": "2026-06-19 23:05:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-19 21:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 529,
-      "last_ts": 1781908502,
-      "last_str": "2026-06-19 22:35:02 UTC"
+      "count": 530,
+      "last_ts": 1781910302,
+      "last_str": "2026-06-19 23:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 658,
-      "last_ts": 1781906703,
-      "last_str": "2026-06-19 22:05:03 UTC"
+      "count": 660,
+      "last_ts": 1781910304,
+      "last_str": "2026-06-19 23:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 337,
-      "last_ts": 1781908502,
-      "last_str": "2026-06-19 22:35:02 UTC"
+      "count": 339,
+      "last_ts": 1781910303,
+      "last_str": "2026-06-19 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 512,
-      "last_ts": 1781906704,
-      "last_str": "2026-06-19 22:05:04 UTC"
+      "count": 513,
+      "last_ts": 1781910305,
+      "last_str": "2026-06-19 23:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10274,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1198,
+      "ts": 1781910316,
+      "ts_str": "2026-06-19 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Plans Device Price Hikes Amid Global Memory Chip Shortage - HarianBasis.co",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 22:39:13 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTFB3Z09adUw2cUFsa2trZjU2eVYxbm1DajRVcVdkWVBTV1h6aW14S3lRNjRUTnV4Y3FYX3BPWXNtMzM3UTMxdXpmMGFJdlFmb3A0WUFCMktaRGdmbGdKenBRcU05ZE5PU1RDQ3JzRQ?oc=5\n\nApple Plans Device Price Hikes Amid Global Memory Chip Shortage - HarianBasis.co\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFB3Z09adUw2cUFsa2trZjU2eVYxbm1DajRVcVdkWVBTV1h6aW14S3lRNjRUTnV4Y3FYX3BPWXNtMzM3UTMxdXpmMGFJdlFmb3A0WUFCMktaRGdmbGdKenBRcU05ZE5PU1RDQ3JzRQ?oc=5\" target=\"_blank\">Apple Plans Device Price Hikes Amid Global Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HarianBasis.co</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple plans to raise device prices, citing the global memory (DRAM/NAND) chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Apple \u8ba1\u5212\u4e0a\u8c03\u8bbe\u5907\u552e\u4ef7\uff0c\u7406\u7531\u662f\u5168\u7403\u5b58\u50a8\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory pricing is being squeezed by AI datacenter buildout hoarding HBM and DRAM capacity. When the shortage reaches consumer devices and forces Apple to pass costs through, it confirms AI capex is crowding out the rest of the chip supply chain \u2014 a real-economy spillover of the infrastructure spend.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u56e4\u79ef HBM \u548c DRAM \u4ea7\u80fd\uff0c\u6b63\u5728\u63a8\u9ad8\u5b58\u50a8\u4ef7\u683c\u3002\u5f53\u77ed\u7f3a\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\u3001\u8feb\u4f7f Apple \u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u7528\u6237\u65f6\uff0c\u8bf4\u660e AI capex \u6b63\u5728\u6324\u5360\u6574\u4e2a\u82af\u7247\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u5b9e\u8bc1\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1197,
       "ts": 1781909057,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com - Investing.com Australia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 13:04:26 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS19ESVFPbU9WNmRwWlJWTUZocnFrdDZPQTRORWpYdXNrM3ZuWnlPUGliRXk3Nlo4aWNZVzMxenNpR0lOMExmUWZHOFFZY1NxeE1RYXdnZWZSdGU4U1htc3BWRjQtbHc2MWwzbmkzVEx5UVFKWDBIRmVXVmxiVWE3cFl6SkE3QjdrSlZzMnNFZFBiTmZiYWRIaThyTF8yZHRQVmg1bW50Y25QNW1aUFUtc0FQOUtucjRPOHd0WUZqd0ZSTUdzcG81RFREaWpZUUlyMWc?oc=5\n\nMicron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com - Investing.com Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS19ESVFPbU9WNmRwWlJWTUZocnFrdDZPQTRORWpYdXNrM3ZuWnlPUGliRXk3Nlo4aWNZVzMxenNpR0lOMExmUWZHOFFZY1NxeE1RYXdnZWZSdGU4U1htc3BWRjQtbHc2MWwzbmkzVEx5UVFKWDBIRmVXVmxiVWE3cFl6SkE3QjdrSlZzMnNFZFBiTmZiYWRIaThyTF8yZHRQVmg1bW50Y25QNW1aUFUtc0FQOUtucjRPOHd0WUZqd0ZSTUdzcG81RFREaWpZUUlyMWc?oc=5\" target=\"_blank\">Micron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron (MU) shares rose as analysts lifted price targets, citing a DRAM supply squeeze.\n\n\u5185\u5bb9:\nMicron (MU) \u80a1\u4ef7\u4e0a\u6da8\uff0c\u5206\u6790\u5e08\u4ee5 DRAM \u4f9b\u5e94\u7d27\u5f20\u4e3a\u7531\u4e0a\u8c03\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nAI servers need vast amounts of HBM/DRAM, so a memory supply squeeze and rising chip prices are a direct read on AI-capex demand outrunning supply. It lifts the bill of materials for every AI buildout and signals the spend cycle is still accelerating, not cooling.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u8981\u6d77\u91cf HBM/DRAM\uff0c\u56e0\u6b64\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u3001\u82af\u7247\u6da8\u4ef7\u662f AI capex \u9700\u6c42\u8d85\u8fc7\u4f9b\u7ed9\u7684\u76f4\u63a5\u4fe1\u53f7\u3002\u8fd9\u4f1a\u62ac\u9ad8\u6bcf\u4e00\u4e2a AI \u5efa\u8bbe\u9879\u76ee\u7684\u7269\u6599\u6210\u672c\uff0c\u8bf4\u660e\u652f\u51fa\u5468\u671f\u4ecd\u5728\u52a0\u901f\u800c\u975e\u964d\u6e29\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 997,
-      "ts": 1781706930,
-      "ts_str": "2026-06-17 14:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com - Investing.com South Africa",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 13:03:43 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaWZBdkFURlJWNnNabmJXRERTN1l4RE14OUM5TDlHU296bF9kTU9EcGtrNm5MNl9KQ1BDNFpSTG9LdVktcHNIRFI5cTVRTjlCelR4YnB2RFIxdm9RVEFVeUVGd2lDWENmVzhHMjdTcklDdGh4czZWQmU1YmRVV09sZG5ucHNLbmNuNWhlZExlWEF4WWc2OTUtOFVWeW1tZXlmU1BZNlJITWVEOEJadGRCQUxaUjAwUGVxVjlZN0NvTDdtSXp1djRwMEc0WlhBUXoyblE?oc=5\n\nMicron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com - Investing.com South Africa\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaWZBdkFURlJWNnNabmJXRERTN1l4RE14OUM5TDlHU296bF9kTU9EcGtrNm5MNl9KQ1BDNFpSTG9LdVktcHNIRFI5cTVRTjlCelR4YnB2RFIxdm9RVEFVeUVGd2lDWENmVzhHMjdTcklDdGh4czZWQmU1YmRVV09sZG5ucHNLbmNuNWhlZExlWEF4WWc2OTUtOFVWeW1tZXlmU1BZNlJITWVEOEJadGRCQUxaUjAwUGVxVjlZN0NvTDdtSXp1djRwMEc0WlhBUXoyblE?oc=5\" target=\"_blank\">Micron shares climb as analysts raise targets on DRAM supply squeeze By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Micron (MU) shares climbing as analysts raise price targets on a DRAM supply squeeze.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u62a5\u9053 Micron (MU) \u80a1\u4ef7\u4e0a\u6da8\uff0c\u5206\u6790\u5e08\u56e0 DRAM \u4f9b\u5e94\u7d27\u5f20\u4e0a\u8c03\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nMemory pricing is a real-economy tell for AI-capex demand: HBM/DRAM tightness means hyperscalers and accelerator builders are pulling forward orders faster than fabs can supply. A supply-driven price surge confirms the buildout is still accelerating \u2014 but also concentrates more cost and single-supplier risk into the AI hardware stack.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u662f AI capex \u9700\u6c42\u7684\u5b9e\u4f53\u7ecf\u6d4e\u4fe1\u53f7\uff1aHBM/DRAM \u4f9b\u5e94\u5403\u7d27\u610f\u5473\u7740\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u52a0\u901f\u5361\u5382\u5546\u7684\u4e0b\u5355\u901f\u5ea6\u5df2\u7ecf\u8d85\u8fc7\u6676\u5706\u5382\u7684\u4ea7\u80fd\u3002\u4f9b\u7ed9\u9a71\u52a8\u7684\u4ef7\u683c\u98d9\u5347\u786e\u8ba4\u5efa\u8bbe\u4ecd\u5728\u52a0\u901f\u2014\u2014\u4f46\u4e5f\u628a\u66f4\u591a\u6210\u672c\u548c\u5355\u4e00\u4f9b\u5e94\u5546\u98ce\u9669\u96c6\u4e2d\u5230\u4e86 AI \u786c\u4ef6\u94fe\u6761\u4e0a\u3002\n",
       "emailed": false
     }
   ],
