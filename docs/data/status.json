@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781839931,
-  "generated_at_str": "2026-06-19 03:32:11 UTC",
-  "last_event_ts": 1781838842,
+  "generated_at": 1781840118,
+  "generated_at_str": "2026-06-19 03:35:18 UTC",
+  "last_event_ts": 1781840117,
   "tables": {
     "alerts_dedup": {
-      "count": 1150,
-      "last_ts": 1781834743,
-      "last_str": "2026-06-19 02:05:43 UTC"
+      "count": 1151,
+      "last_ts": 1781840117,
+      "last_str": "2026-06-19 03:35:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-19 01:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 471,
-      "last_ts": 1781838302,
-      "last_str": "2026-06-19 03:05:02 UTC"
+      "count": 472,
+      "last_ts": 1781840102,
+      "last_str": "2026-06-19 03:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 587,
-      "last_ts": 1781834703,
-      "last_str": "2026-06-19 02:05:03 UTC"
+      "count": 588,
+      "last_ts": 1781840103,
+      "last_str": "2026-06-19 03:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 298,
-      "last_ts": 1781838302,
-      "last_str": "2026-06-19 03:05:02 UTC"
+      "count": 299,
+      "last_ts": 1781840103,
+      "last_str": "2026-06-19 03:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 461,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1158,
+      "ts": 1781840117,
+      "ts_str": "2026-06-19 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tech giant Apple anticipates product price hikes amid surging memory chip expenses driven by AI demand - Mix Vale",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 02:51:34 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbHl5WURaRmt1ZzExbmhMSk5tNDVYTUhtMktsU3gwdFZDaVdud0FPOE5yUU1CYTRpWk9rOXRvajZXaGxmd2ZsSVRoaVJodWM4Mm5mR1lEVFhWNVdfR2VMcm5KRl9mTE5aOFVMXzNrWVF5OXZCZmE2S2c1UTcxcXh0bVY2eEhNYURzaUNMMm1aRWstTGlIcldfQmF4dGVqbDh5Nmk5UDRpcTRMQnlhOUlZQkhoNGNJam1oNFVHZkk0WmVYNHVCVnZBWGxzSmxJNU9Kc0RvRlhyX2_SAd4BQVVfeXFMT2laRjF0OXFSTElxbG1NWmlfbjJxMFVqUFZMUGw3c1BRQ01IblZUUzRBNEZIQzRQQ3NwN0FfeU00NzdGaG9nenk3VVFWcUQwZVNBYnA2cGJFM0pMN1hSWUJyQWdFN3hiRndjYllrREtNd09BYnBMeGllYnpqdC00b09UNTVienlQWnAwNFZJdUMwSVhJQlhnbjNEUlpQNVJSN3dGV2tGbksxbGllYTZFbG1sWGN3eE9NZlNZVDczcG9ELTJuSHhQMnA3WldQMlMtTUxaZGJib1V3Vi11cHdB?oc=5\n\nTech giant Apple anticipates product price hikes amid surging memory chip expenses driven by AI demand - Mix Vale\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbHl5WURaRmt1ZzExbmhMSk5tNDVYTUhtMktsU3gwdFZDaVdud0FPOE5yUU1CYTRpWk9rOXRvajZXaGxmd2ZsSVRoaVJodWM4Mm5mR1lEVFhWNVdfR2VMcm5KRl9mTE5aOFVMXzNrWVF5OXZCZmE2S2c1UTcxcXh0bVY2eEhNYURzaUNMMm1aRWstTGlIcldfQmF4dGVqbDh5Nmk5UDRpcTRMQnlhOUlZQkhoNGNJam1oNFVHZkk0WmVYNHVCVnZBWGxzSmxJNU9Kc0RvRlhyX2_SAd4BQVVfeXFMT2laRjF0OXFSTElxbG1NWmlfbjJxMFVqUFZMUGw3c1BRQ01IblZUUzRBNEZIQzRQQ3NwN0FfeU00NzdGaG9nenk3VVFWcUQwZVNBYnA2cGJFM0pMN1hSWUJyQWdFN3hiRndjYllrREtNd09BYnBMeGllYnpqdC00b09UNTVienlQWnAwNFZJdUMwSVhJQlhnbjNEUlpQNVJSN3dGV2tGbksxbGllYTZFbG1sWGN3eE9NZlNZVDczcG9ELTJuSHhQMnA3WldQMlMtTUxaZGJib1V3Vi11cHdB?oc=5\" target=\"_blank\">Tech giant Apple anticipates product price hikes amid surging memory chip expenses driven by AI demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mix Vale</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via Mix Vale) reports Apple expects to raise product prices as memory chip costs surge on AI-driven demand.\n\n\u5185\u5bb9:\nGoogle News\uff08\u6765\u6e90 Mix Vale\uff09\u62a5\u9053\uff0cApple \u9884\u8ba1\u5c06\u4e0a\u8c03\u4ea7\u54c1\u552e\u4ef7\uff0c\u539f\u56e0\u662f AI \u9700\u6c42\u63a8\u52a8\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\u3002\n\nWhy it matters:\nAI demand is now bidding up commodity memory (DRAM/NAND) hard enough to squeeze a non-AI buyer like Apple into consumer price hikes. That's the AI-capex boom leaking into the broader supply chain as cost inflation \u2014 a sign the buildout is straining component markets, not just hyperscaler balance sheets.\n\n\u5f71\u54cd:\nAI \u9700\u6c42\u628a\u5185\u5b58\uff08DRAM/NAND\uff09\u8fd9\u7c7b\u5927\u5b97\u82af\u7247\u7684\u4ef7\u683c\u62ac\u5230\u4e86\u8fde Apple \u8fd9\u79cd\u975e AI \u91c7\u8d2d\u65b9\u90fd\u88ab\u8feb\u5411\u6d88\u8d39\u8005\u6da8\u4ef7\u7684\u7a0b\u5ea6\u3002\u8fd9\u8bf4\u660e AI \u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u6b63\u4ee5\u6210\u672c\u901a\u80c0\u7684\u5f62\u5f0f\u5916\u6ea2\u5230\u6574\u4e2a\u4f9b\u5e94\u94fe\uff0c\u538b\u529b\u5df2\u4e0d\u53ea\u505c\u7559\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1155,
       "ts": 1781834743,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI 2025 financials leaked: $38.5B loss ahead of IPO - qz.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 12:17:49 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE5CTXlyMjRQZkFqaEZGcXpwalVLLXEwMzlNZXBIMXJMZ3RtMXppemoycGdRUDNic0g1Zm42SFk3OVBWaW5LT2J1ZjBja1RfRHctQ3NSSERWUG9xbnY3S01pZEhneXZEcTZfLW92ZWJLdWJXUjQ?oc=5\n\nOpenAI 2025 financials leaked: $38.5B loss ahead of IPO - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5CTXlyMjRQZkFqaEZGcXpwalVLLXEwMzlNZXBIMXJMZ3RtMXppemoycGdRUDNic0g1Zm42SFk3OVBWaW5LT2J1ZjBja1RfRHctQ3NSSERWUG9xbnY3S01pZEhneXZEcTZfLW92ZWJLdWJXUjQ?oc=5\" target=\"_blank\">OpenAI 2025 financials leaked: $38.5B loss ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA leaked report puts OpenAI's 2025 loss at $38.5B ahead of a planned IPO (qz.com).\n\n\u5185\u5bb9:\n\u6cc4\u9732\u7684\u62a5\u544a\u663e\u793a\uff0cOpenAI 2025 \u5e74\u4e8f\u635f\u8fbe $38.5B\uff0c\u4e14\u6b63\u7b79\u5907 IPO\uff08qz.com\uff09\u3002\n\nWhy it matters:\nA $38.5B annual loss going into an IPO shows the economics of frontier-model training and inference are nowhere near self-funding. OpenAI is the demand anchor for the whole AI-capex buildout \u2014 if the anchor tenant is burning this hard, the GPU and datacenter spend it underwrites looks structurally unprofitable.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u5f55\u5f97 $38.5B \u7684\u5e74\u5ea6\u4e8f\u635f\uff0c\u8bf4\u660e\u524d\u6cbf\u6a21\u578b\u7684\u8bad\u7ec3\u4e0e\u63a8\u7406\u7ecf\u6d4e\u6027\u8fdc\u672a\u5b9e\u73b0\u81ea\u7ed9\u81ea\u8db3\u3002OpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\u70b9\u2014\u2014\u5982\u679c\u8fd9\u4e2a\u6838\u5fc3\u79df\u6237\u90fd\u5728\u5982\u6b64\u5267\u70c8\u5730\u70e7\u94b1\uff0c\u5b83\u6240\u652f\u6491\u7684 GPU \u4e0e\u6570\u636e\u4e2d\u5fc3\u652f\u51fa\u5728\u7ed3\u6784\u4e0a\u5c31\u662f\u4e0d\u8d5a\u94b1\u7684\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 959,
-      "ts": 1781613872,
-      "ts_str": "2026-06-16 12:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 09:52:06 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxOczFfRHFIb3U2bVhGa3BvQmRNRVdLWUZvZDZDSHJOdS0ycXBYdEdQX1JhTjAzN0MwdHd2QUxSRExFRWdlR3lXR1owVzVfSXZMTzBXLXJ4aXZLaUppd2l4ZGpwTldsTTBrSmg5dlAwN2pmMmNHSklDblY1LWh2Yk5nSkZkaTFlbjNObnRpcWZnTzAxNENic1dNRFJyX3R2a2Q1OWEyaHEzWUxSM1JTaHFiZmhR?oc=5\n\nOpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOczFfRHFIb3U2bVhGa3BvQmRNRVdLWUZvZDZDSHJOdS0ycXBYdEdQX1JhTjAzN0MwdHd2QUxSRExFRWdlR3lXR1owVzVfSXZMTzBXLXJ4aXZLaUppd2l4ZGpwTldsTTBrSmg5dlAwN2pmMmNHSklDblY1LWh2Yk5nSkZkaTFlbjNObnRpcWZnTzAxNENic1dNRFJyX3R2a2Q1OWEyaHEzWUxSM1JTaHFiZmhR?oc=5\" target=\"_blank\">OpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline via MSN reports OpenAI's costs have soared to $34 billion ahead of an anticipated IPO.\n\n\u5185\u5bb9:\n\u7ecf\u7531 MSN \u8f6c\u8f7d\u7684 Google News \u5934\u6761\u62a5\u9053\uff0cOpenAI \u7684\u6210\u672c\u5728\u9884\u671f IPO \u524d\u98d9\u5347\u81f3 $34 billion\u3002\n\nWhy it matters:\n$34B in annual costs against a still-unprofitable model is the core of the OpenAI-burn thesis: the flagship AI company needs ever-larger capital raises (now an IPO) to fund losses. An IPO would shift that funding burden onto public markets \u2014 a classic late-cycle move when private capital tires of the cash burn.\n\n\u5f71\u54cd:\n$34B \u7684\u5e74\u5ea6\u6210\u672c\u5bf9\u5e94\u4e00\u4e2a\u4ecd\u672a\u76c8\u5229\u7684\u6a21\u5f0f\uff0c\u6b63\u662f OpenAI \u70e7\u94b1\u8bba\u7684\u6838\u5fc3\uff1a\u8fd9\u5bb6\u65d7\u8230 AI \u516c\u53f8\u9700\u8981\u4e0d\u65ad\u6269\u5927\u7684\u878d\u8d44\uff08\u5982\u4eca\u662f IPO\uff09\u6765\u586b\u8865\u4e8f\u635f\u3002IPO \u610f\u5473\u7740\u628a\u8fd9\u4e00\u878d\u8d44\u8d1f\u62c5\u8f6c\u5ac1\u7ed9\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u662f\u79c1\u52df\u8d44\u672c\u5bf9\u6301\u7eed\u70e7\u94b1\u5931\u53bb\u8010\u5fc3\u540e\u7684\u5178\u578b\u5468\u671f\u665a\u671f\u52a8\u4f5c\u3002\n",
       "emailed": false
     }
   ],
