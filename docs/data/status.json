@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781850726,
-  "generated_at_str": "2026-06-19 06:32:06 UTC",
-  "last_event_ts": 1781849642,
+  "generated_at": 1781850934,
+  "generated_at_str": "2026-06-19 06:35:34 UTC",
+  "last_event_ts": 1781850929,
   "tables": {
     "alerts_dedup": {
-      "count": 1156,
-      "last_ts": 1781847328,
-      "last_str": "2026-06-19 05:35:28 UTC"
+      "count": 1160,
+      "last_ts": 1781850929,
+      "last_str": "2026-06-19 06:35:29 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-19 01:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 476,
-      "last_ts": 1781849102,
-      "last_str": "2026-06-19 06:05:02 UTC"
+      "count": 478,
+      "last_ts": 1781850902,
+      "last_str": "2026-06-19 06:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 595,
-      "last_ts": 1781849104,
-      "last_str": "2026-06-19 06:05:04 UTC"
+      "count": 596,
+      "last_ts": 1781850904,
+      "last_str": "2026-06-19 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 304,
-      "last_ts": 1781849103,
-      "last_str": "2026-06-19 06:05:03 UTC"
+      "count": 305,
+      "last_ts": 1781850903,
+      "last_str": "2026-06-19 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 463,
-      "last_ts": 1781841906,
-      "last_str": "2026-06-19 04:05:06 UTC"
+      "count": 465,
+      "last_ts": 1781850905,
+      "last_str": "2026-06-19 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10123,
@@ -266,6 +266,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1164,
+      "ts": 1781850929,
+      "ts_str": "2026-06-19 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple plans price hikes as memory chip costs surge: Report - FoneArena.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 05:59:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\n\nApple plans price hikes as memory chip costs surge: Report - FoneArena.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\" target=\"_blank\">Apple plans price hikes as memory chip costs surge: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FoneArena.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report says Apple plans to raise prices on its products because memory (DRAM/NAND) chip costs are surging.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cApple \u56e0\u5185\u5b58 (DRAM/NAND) \u82af\u7247\u6210\u672c\u98d9\u5347\uff0c\u8ba1\u5212\u4e0a\u8c03\u5176\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nAI-server demand is draining the memory supply chain hard enough to force price hikes on the world's largest consumer-electronics buyer. When AI capex spills into downstream consumer pricing, it signals the spend is no longer contained to data centers \u2014 a broadening cost shock and a late-cycle stress marker.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u628a\u5185\u5b58\u4f9b\u5e94\u94fe\u62bd\u7d27\u5230\u8fde\u5168\u7403\u6700\u5927\u7684\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u65b9\u90fd\u88ab\u8feb\u6da8\u4ef7\u3002\u5f53 AI capex \u5916\u6ea2\u5230\u4e0b\u6e38\u6d88\u8d39\u54c1\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u7b14\u652f\u51fa\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\u2014\u2014\u8fd9\u662f\u6210\u672c\u51b2\u51fb\u6269\u6563\u3001\u5468\u671f\u665a\u671f\u627f\u538b\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1165,
+      "ts": 1781850929,
+      "ts_str": "2026-06-19 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple plans price hikes as memory chip costs surge: Report - FoneArena.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 05:59:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\n\nApple plans price hikes as memory chip costs surge: Report - FoneArena.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\" target=\"_blank\">Apple plans price hikes as memory chip costs surge: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FoneArena.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report says Apple plans to raise prices on its products because memory (DRAM/NAND) chip costs are surging.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cApple \u56e0\u5185\u5b58 (DRAM/NAND) \u82af\u7247\u6210\u672c\u98d9\u5347\uff0c\u8ba1\u5212\u4e0a\u8c03\u5176\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nAI-server demand is draining the memory supply chain hard enough to force price hikes on the world's largest consumer-electronics buyer. When AI capex spills into downstream consumer pricing, it signals the spend is no longer contained to data centers \u2014 a broadening cost shock and a late-cycle stress marker.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u628a\u5185\u5b58\u4f9b\u5e94\u94fe\u62bd\u7d27\u5230\u8fde\u5168\u7403\u6700\u5927\u7684\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u65b9\u90fd\u88ab\u8feb\u6da8\u4ef7\u3002\u5f53 AI capex \u5916\u6ea2\u5230\u4e0b\u6e38\u6d88\u8d39\u54c1\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u7b14\u652f\u51fa\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\u2014\u2014\u8fd9\u662f\u6210\u672c\u51b2\u51fb\u6269\u6563\u3001\u5468\u671f\u665a\u671f\u627f\u538b\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1166,
+      "ts": 1781850929,
+      "ts_str": "2026-06-19 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple plans price hikes as memory chip costs surge: Report - FoneArena.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 05:59:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\n\nApple plans price hikes as memory chip costs surge: Report - FoneArena.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcm1mNlM0d2llYjhDc1ZiZHVWd2dVV1p4U3h3YXpTUkExeXJQMHh5MGtXX0xBLTN3MmJyTVR3bEdfNXA4ckxuUmp3eTI4U0oxMWZlUzFLd1plUTFFeG9wdE00cW5vWUtuRGNLbVVxem5UdmV2enpMNmpEbXNubjVZMEI1WjdXRFJONEww0gGQAUFVX3lxTE1Fd205TUtvZlVBeTQ3VlZEeUtodFhudEt4N0FxcWFxSEg1UGpfb2RaYzlQeXNBLURqNkdTRk1SV0RNdVVBNVFwU3p6TTQ4eFZXaXdDQTdfaGhnX3pBUk5jdEJFY2JhNFc1cnVTRmQ5M1VzYXBsb3JBdmNCbTNjMXRheHFyZWRiQmxPQmhXTjNRSQ?oc=5\" target=\"_blank\">Apple plans price hikes as memory chip costs surge: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FoneArena.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report says Apple plans to raise prices on its products because memory (DRAM/NAND) chip costs are surging.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cApple \u56e0\u5185\u5b58 (DRAM/NAND) \u82af\u7247\u6210\u672c\u98d9\u5347\uff0c\u8ba1\u5212\u4e0a\u8c03\u5176\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nAI-server demand is draining the memory supply chain hard enough to force price hikes on the world's largest consumer-electronics buyer. When AI capex spills into downstream consumer pricing, it signals the spend is no longer contained to data centers \u2014 a broadening cost shock and a late-cycle stress marker.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u628a\u5185\u5b58\u4f9b\u5e94\u94fe\u62bd\u7d27\u5230\u8fde\u5168\u7403\u6700\u5927\u7684\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u65b9\u90fd\u88ab\u8feb\u6da8\u4ef7\u3002\u5f53 AI capex \u5916\u6ea2\u5230\u4e0b\u6e38\u6d88\u8d39\u54c1\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u7b14\u652f\u51fa\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\u2014\u2014\u8fd9\u662f\u6210\u672c\u51b2\u51fb\u6269\u6563\u3001\u5468\u671f\u665a\u671f\u627f\u538b\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1167,
+      "ts": 1781850929,
+      "ts_str": "2026-06-19 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 18:04:12 GMT\nLink:      https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaU80T2ZzQjh2YWVlVG1JbjFtVm1BdFBiZENRQU9VUHMxeXZobGxvejZMVVhndzA5Vm5MZ1JXZ290TWNLOVBKMnA5Z1llbE1yLVFVbXRHWVNRV2FqanhvQjFBU0w4YjhnX1ozYW50VzBibzJZUEdHbkJCSW8ycl9VQjlWOU83QXNqOXFFTlZsWEoyUXJkemJkZFA1R1BVTmc0amlQX3NuZFFucklhS2xLaFpDNXpPNFZqVGdWZFhCQ3QyeGc5MFpjUE1BVVQ0UkZ2a1U2em8xN2NLdDFPUjV4VnRWSFRwRGMxS3pOd1A0N0E5NG5DNDc0?oc=5\n\nSanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaU80T2ZzQjh2YWVlVG1JbjFtVm1BdFBiZENRQU9VUHMxeXZobGxvejZMVVhndzA5Vm5MZ1JXZ290TWNLOVBKMnA5Z1llbE1yLVFVbXRHWVNRV2FqanhvQjFBU0w4YjhnX1ozYW50VzBibzJZUEdHbkJCSW8ycl9VQjlWOU83QXNqOXFFTlZsWEoyUXJkemJkZFA1R1BVTmc0amlQX3NuZFFucklhS2xLaFpDNXpPNFZqVGdWZFhCQ3QyeGc5MFpjUE1BVVQ0UkZ2a1U2em8xN2NLdDFPUjV4VnRWSFRwRGMxS3pOd1A0N0E5NG5DNDc0?oc=5\" target=\"_blank\">SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSanDisk's 8TB PS5 SSD launched at nearly $3,000 amid shortages.\n\n\u5185\u5bb9:\nSanDisk \u7684 8TB PS5 SSD \u5728\u4f9b\u5e94\u77ed\u7f3a\u4e2d\u4ee5\u8fd1 $3,000 \u7684\u4ef7\u683c\u4e0a\u5e02\u3002\n\nWhy it matters:\nNAND/SSD prices spiking into consumer products signals the memory shortage is spilling beyond data centers. AI buildout is soaking up flash and DRAM supply, pushing storage costs up across the board \u2014 an early sign capex demand is straining the hardware supply chain.\n\n\u5f71\u54cd:\nNAND/SSD \u4ef7\u683c\u6da8\u8fdb\u6d88\u8d39\u7ea7\u4ea7\u54c1\uff0c\u8bf4\u660e\u5b58\u50a8\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6570\u636e\u4e2d\u5fc3\u4e4b\u5916\u3002AI \u57fa\u5efa\u6b63\u5728\u541e\u566c\u95ea\u5b58\u548c DRAM \u4f9b\u5e94\uff0c\u628a\u5b58\u50a8\u6210\u672c\u5168\u9762\u63a8\u9ad8\u2014\u2014\u8fd9\u662f\u8d44\u672c\u5f00\u652f\u9700\u6c42\u5f00\u59cb\u6324\u538b\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u65e9\u671f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1162,
       "ts": 1781847328,
@@ -2224,46 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Spending Hit $34 Billion Last Year Ahead of Planned IPO, FT Reports - U.S. News - Money",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 03:41:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxQN29KVnlBV0FSemJYLWhjZHVhLVdGZ1JVRGxyQVEybF9tdnZPLXFEelBrY2JYTUpwWmgyZ0lFazJIODdPOG0yWVhhajd2N2I2bGZNdFZCRFcxUGFFQjVqdEFEVnVGZUlzV1h5YmNYTkI1TmI0R0RvRDJOcmRKSkxmNWRWS0hKeDJGbEpDaUtRd045ckNSVl9pSlNRUDRFeEhKNEtxNElIRzUtN0g1OFR1Z29fOGtrMkJnZzVpV2xaa2hxY1o2SzBhdGFsOWY?oc=5\n\nOpenAI Spending Hit $34 Billion Last Year Ahead of Planned IPO, FT Reports - U.S. News - Money\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQN29KVnlBV0FSemJYLWhjZHVhLVdGZ1JVRGxyQVEybF9tdnZPLXFEelBrY2JYTUpwWmgyZ0lFazJIODdPOG0yWVhhajd2N2I2bGZNdFZCRFcxUGFFQjVqdEFEVnVGZUlzV1h5YmNYTkI1TmI0R0RvRDJOcmRKSkxmNWRWS0hKeDJGbEpDaUtRd045ckNSVl9pSlNRUDRFeEhKNEtxNElIRzUtN0g1OFR1Z29fOGtrMkJnZzVpV2xaa2hxY1o2SzBhdGFsOWY?oc=5\" target=\"_blank\">OpenAI Spending Hit $34 Billion Last Year Ahead of Planned IPO, FT Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. News - Money</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn FT report (via U.S. News) says OpenAI's spending reached $34 billion last year, ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u636e FT \u62a5\u9053\uff08\u7ecf U.S. News \u8f6c\u8f7d\uff09\uff0cOpenAI \u53bb\u5e74\u7684\u652f\u51fa\u8fbe\u5230 $34 billion\uff0c\u6b63\u5904\u5728\u7b79\u5907 IPO \u4e4b\u524d\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; $34B of annual burn against still-modest revenue means the keystone buyer is deeply cash-negative. An IPO framed around that burn rate tests whether public markets will keep funding losses at this scale \u2014 a key stress point for the bubble thesis.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6d6a\u6f6e\u7684\u9700\u6c42\u951a\u70b9\uff1b$34B \u7684\u5e74\u5ea6\u70e7\u94b1\u5bf9\u5e94\u4ecd\u7136\u6709\u9650\u7684\u6536\u5165\uff0c\u610f\u5473\u7740\u8fd9\u4e2a\u6700\u5173\u952e\u7684\u4e70\u5bb6\u6df1\u5ea6\u73b0\u91d1\u4e3a\u8d1f\u3002\u4ee5\u8fd9\u79cd\u70e7\u94b1\u901f\u5ea6\u63a8\u8fdb IPO\uff0c\u5b9e\u8d28\u662f\u5728\u68c0\u9a8c\u516c\u52df\u5e02\u573a\u662f\u5426\u613f\u610f\u7ee7\u7eed\u4e3a\u5982\u6b64\u89c4\u6a21\u7684\u4e8f\u635f\u4e70\u5355\u2014\u2014\u8fd9\u6b63\u662f\u6ce1\u6cab\u8bba\u9898\u7684\u5173\u952e\u538b\u529b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 967,
-      "ts": 1781631336,
-      "ts_str": "2026-06-16 17:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Seagate and Western Digital Hit Record Highs; Morgan Stanley: HDD Shortage Could Extend to 2028, with Pricing Expected t",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 15 Jun 2026 18:57:14 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQzdVRlJhOVFGNnJKazdvQ1QxT2h3dk5OX0c4UWhHeDF4YnFIaW84MXlMbU1XcUV6WlBQTl9FcVhxX2dvN0RGNl95aC00c2NkbUlyZk9yODNwSVoyb0RVaTE0V0NDYkdwbU56NzNTakpTYVhEaVBrNHN3NE9UOEFNSmlkdWowalo1RzNMeUZDbS13TUhVNHlKQkxva0t5bTV4TktOVmhlYlk?oc=5\n\nSeagate and Western Digital Hit Record Highs; Morgan Stanley: HDD Shortage Could Extend to 2028, with Pricing Expected to Remain Strong - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQzdVRlJhOVFGNnJKazdvQ1QxT2h3dk5OX0c4UWhHeDF4YnFIaW84MXlMbU1XcUV6WlBQTl9FcVhxX2dvN0RGNl95aC00c2NkbUlyZk9yODNwSVoyb0RVaTE0V0NDYkdwbU56NzNTakpTYVhEaVBrNHN3NE9UOEFNSmlkdWowalo1RzNMeUZDbS13TUhVNHlKQkxva0t5bTV4TktOVmhlYlk?oc=5\" target=\"_blank\">Seagate and Western Digital Hit Record Highs; Morgan Stanley: HDD Shortage Could Extend to 2028, with Pricing Expected to Remain Strong</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSeagate (STX) and Western Digital (WDC) hit record-high share prices, with Morgan Stanley saying the HDD shortage could extend to 2028 and pricing stay strong.\n\n\u5185\u5bb9:\nSeagate (STX) \u4e0e Western Digital (WDC) \u80a1\u4ef7\u521b\u5386\u53f2\u65b0\u9ad8\uff0cMorgan Stanley \u79f0 HDD \u77ed\u7f3a\u53ef\u80fd\u5ef6\u7eed\u5230 2028 \u5e74\uff0c\u4ef7\u683c\u9884\u8ba1\u5c06\u4fdd\u6301\u5f3a\u52b2\u3002\n\nWhy it matters:\nHard-disk drives are the cheap bulk-storage tier for AI training data and model checkpoints; a multi-year shortage with record-strong pricing is a direct read on AI-driven storage demand outrunning supply. Record highs in the legacy HDD names show the capex boom is now pulling up even the commodity, low-margin layers of the stack \u2014 a sign of how broad and stretched the spend cycle has become.\n\n\u5f71\u54cd:\n\u673a\u68b0\u786c\u76d8\u662f AI \u8bad\u7ec3\u6570\u636e\u548c\u6a21\u578b checkpoint \u7684\u5ec9\u4ef7\u5927\u5bb9\u91cf\u5b58\u50a8\u5c42\uff1b\u6301\u7eed\u6570\u5e74\u7684\u77ed\u7f3a\u52a0\u4e0a\u521b\u7eaa\u5f55\u7684\u5f3a\u4ef7\u683c\uff0c\u76f4\u63a5\u8bf4\u660e AI \u9a71\u52a8\u7684\u5b58\u50a8\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u4f9b\u7ed9\u3002\u8fde\u4f20\u7edf\u3001\u4f4e\u6bdb\u5229\u7684 HDD \u5382\u5546\u90fd\u88ab\u63a8\u4e0a\u5386\u53f2\u65b0\u9ad8\uff0c\u8bf4\u660e\u8fd9\u8f6e\u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u5df2\u7ecf\u8513\u5ef6\u5230\u4ea7\u4e1a\u94fe\u6700\u5e95\u5c42\u7684\u5927\u5b97\u5546\u54c1\u73af\u8282\u2014\u2014\u652f\u51fa\u5468\u671f\u5df2\u7ecf\u94fa\u5f97\u591a\u5e7f\u3001\u7ef7\u5f97\u591a\u7d27\u53ef\u89c1\u4e00\u6591\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 966,
-      "ts": 1781630059,
-      "ts_str": "2026-06-16 17:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI $34B spend tests IPO math; MSFT, NVDA in focus - NAI500",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 11:09:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeDU4ZlE4eEZqSU9xNDhFWWVaODdpQ2hLYTNGZmRkWUtacnFwaVZUTzFFaDlmcmlBRXAwNmdTUGxRYWFsNTdmcGFweUpfc18wQlZ4bHdMY0Zqd0VqWk5xWWRtbHk3U2o1SGZzdWdRY3NHaV9zZ2ZaTlZNNTg4Q0pSWkZJc21OSWJ4N1pr?oc=5\n\nOpenAI $34B spend tests IPO math; MSFT, NVDA in focus - NAI500\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeDU4ZlE4eEZqSU9xNDhFWWVaODdpQ2hLYTNGZmRkWUtacnFwaVZUTzFFaDlmcmlBRXAwNmdTUGxRYWFsNTdmcGFweUpfc18wQlZ4bHdMY0Zqd0VqWk5xWWRtbHk3U2o1SGZzdWdRY3NHaV9zZ2ZaTlZNNTg4Q0pSWkZJc21OSWJ4N1pr?oc=5\" target=\"_blank\">OpenAI $34B spend tests IPO math; MSFT, NVDA in focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NAI500</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news signal flagged the headline \"OpenAI $34B spend tests IPO math; MSFT, NVDA in focus\" (NAI500), citing OpenAI's ~$34B spending run-rate against the arithmetic of a future IPO.\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u4fe1\u53f7\u6355\u6349\u5230\u6807\u9898\u300aOpenAI $34B spend tests IPO math; MSFT, NVDA in focus\u300b(NAI500),\u6307\u51fa OpenAI \u7ea6 $34B \u7684\u652f\u51fa\u89c4\u6a21\u5bf9\u5176\u672a\u6765 IPO \u4f30\u503c\u7684\u7b97\u672f\u6784\u6210\u8003\u9a8c\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex chain \u2014 its spend justifies MSFT's datacenter buildout and NVDA's chip sales. When the press starts openly questioning whether the numbers can support an IPO valuation, it signals the narrative is shifting from growth to scrutiny of cash burn versus revenue, which is the precondition for a capex repricing.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u6761 AI \u8d44\u672c\u5f00\u652f\u94fe\u6761\u7684\u9700\u6c42\u951a\u2014\u2014\u5b83\u7684\u652f\u51fa\u652f\u6491\u7740 MSFT \u7684\u6570\u636e\u4e2d\u5fc3\u6269\u5efa\u548c NVDA \u7684\u82af\u7247\u9500\u552e\u3002\u5f53\u5a92\u4f53\u5f00\u59cb\u516c\u5f00\u8d28\u7591\u8fd9\u4e9b\u6570\u5b57\u80fd\u5426\u6491\u8d77 IPO \u4f30\u503c\u65f6,\u8bf4\u660e\u53d9\u4e8b\u6b63\u4ece\u8ffd\u9010\u589e\u957f\u8f6c\u5411\u5ba1\u89c6\u73b0\u91d1\u6d88\u8017\u4e0e\u6536\u5165\u7684\u843d\u5dee,\u800c\u8fd9\u6b63\u662f\u8d44\u672c\u5f00\u652f\u91cd\u65b0\u5b9a\u4ef7\u7684\u524d\u5146\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 964,
-      "ts": 1781628287,
-      "ts_str": "2026-06-16 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI financials leaked ahead of IPO? ChatGPT maker said to have lost $39B last year: Here's how that compares to Anthr",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 06:38:04 GMT\nLink:      https://news.google.com/rss/articles/CBMipANBVV95cUxPR1I3MzNTbGx2N0VXWWFCNDdoYzJhQXkzaGFyN2ZLZXpBS3NmQkYzNWNjNVZ0aHVETVpDYmRsaGU1UENpdERZQmZSa2pkWDg0VFB6M1FXd3V3QzAyYWF4d2VlSUhpaGQ0b05LaEY3YVd2NTBocmtRUU55MWdtTHBzenVTTE1uSzJVbTAybFlVODhla0h3al81UVppQ0plZnhyaXRRMmx2aDM5N2ltbWNBMzhVdDhDUG5sR3N3NEc4eV9SQXpsWmhWc05kNnNOYnBPbW95VndVelkyUVpnaU0wZnBEQ3dRZVVtbVpUekxjb20tZnNVM1luM2RFUm9MSWdaTzdsdmxCZmtPcWQ1bGtkUDh6NTRDT1NBMEkzc05FdGhIVWxCQUlTRUwxYTdlMGRwamtrRVYxVVBhMmcwMjFUY1N4Ni1YNEEwR3gwRGNXRXNIakdmWHNBalVzOVZNVEc2RUFiRF90R0laaVNEWWFLUHQwQXh0Z1VNNjk1R2ZyazdBSDF1aENzQkstdkdZcG12dE5Ob0NtME5rVjR6N0Y3X1FSTVQ?oc=5\n\nOpenAI financials leaked ahead of IPO? ChatGPT maker said to have lost $39B last year: Here's how that compares to Anthropic, SpaceX - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMipANBVV95cUxPR1I3MzNTbGx2N0VXWWFCNDdoYzJhQXkzaGFyN2ZLZXpBS3NmQkYzNWNjNVZ0aHVETVpDYmRsaGU1UENpdERZQmZSa2pkWDg0VFB6M1FXd3V3QzAyYWF4d2VlSUhpaGQ0b05LaEY3YVd2NTBocmtRUU55MWdtTHBzenVTTE1uSzJVbTAybFlVODhla0h3al81UVppQ0plZnhyaXRRMmx2aDM5N2ltbWNBMzhVdDhDUG5sR3N3NEc4eV9SQXpsWmhWc05kNnNOYnBPbW95VndVelkyUVpnaU0wZnBEQ3dRZVVtbVpUekxjb20tZnNVM1luM2RFUm9MSWdaTzdsdmxCZmtPcWQ1bGtkUDh6NTRDT1NBMEkzc05FdGhIVWxCQUlTRUwxYTdlMGRwamtrRVYxVVBhMmcwMjFUY1N4Ni1YNEEwR3gwRGNXRXNIakdmWHNBalVzOVZNVEc2RUFiRF90R0laaVNEWWFLUHQwQXh0Z1VNNjk1R2ZyazdBSDF1aENzQkstdkdZcG12dE5Ob0NtME5rVjR6N0Y3X1FSTVQ?oc=5\" target=\"_blank\">OpenAI financials leaked ahead of IPO? ChatGPT maker said to have lost $39B last year: Here's how that compares to Anthropic, SpaceX</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 965,
-      "ts": 1781628287,
-      "ts_str": "2026-06-16 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO - Gadget Review",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 16:27:59 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUtrWmc1ZUNWYVlYVTMzcWRlVGN0bTlXOWh6VlZKZ0xkNldUTlBsQlRieExpTDk5Qmljc3NjQU94Uk10b3BjU1cwRzFhUnZpRXdjbk5RalhtWnRzQ3JBaTNRRDZFbXNZcmNrMmt5MW1VYmM3cVQwQ0tiRnU0UmdLN2VyWE1kWjA?oc=5\n\nOpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO - Gadget Review\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUtrWmc1ZUNWYVlYVTMzcWRlVGN0bTlXOWh6VlZKZ0xkNldUTlBsQlRieExpTDk5Qmljc3NjQU94Uk10b3BjU1cwRzFhUnZpRXdjbk5RalhtWnRzQ3JBaTNRRDZFbXNZcmNrMmt5MW1VYmM3cVQwQ0tiRnU0UmdLN2VyWE1kWjA?oc=5\" target=\"_blank\">OpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadget Review</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI's losses grew 8x to a $34 billion cash burn ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cOpenAI \u5728\u7b79\u5907 IPO \u524d\u4e8f\u635f\u6269\u5927 8 \u500d\uff0c\u73b0\u91d1\u6d88\u8017\u8fbe\u5230 $34 Billion\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; an 8x jump in losses to $34B shows the flagship customer is burning cash far faster than it earns. If the anchor tenant can't fund itself, the compute-purchase commitments underpinning hyperscaler and neocloud capex are at risk.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u4e8f\u635f\u66b4\u589e 8 \u500d\u81f3 $34B\uff0c\u8bf4\u660e\u8fd9\u4e2a\u65d7\u8230\u5ba2\u6237\u70e7\u94b1\u7684\u901f\u5ea6\u8fdc\u8d85\u5176\u6536\u5165\u589e\u957f\u3002\u5982\u679c\u8fde\u951a\u5b9a\u79df\u6237\u90fd\u65e0\u6cd5\u81ea\u6211\u9020\u8840\uff0c\u90a3\u4e48\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u8d44\u672c\u5f00\u652f\u7684\u7b97\u529b\u91c7\u8d2d\u627f\u8bfa\u5c31\u5c8c\u5c8c\u53ef\u5371\u3002\n",
       "emailed": false
     }
   ],
