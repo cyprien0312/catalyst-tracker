@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781847126,
-  "generated_at_str": "2026-06-19 05:32:06 UTC",
-  "last_event_ts": 1781846042,
+  "generated_at": 1781847328,
+  "generated_at_str": "2026-06-19 05:35:28 UTC",
+  "last_event_ts": 1781847328,
   "tables": {
     "alerts_dedup": {
-      "count": 1154,
-      "last_ts": 1781841929,
-      "last_str": "2026-06-19 04:05:29 UTC"
+      "count": 1156,
+      "last_ts": 1781847328,
+      "last_str": "2026-06-19 05:35:28 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-19 01:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 474,
-      "last_ts": 1781845503,
-      "last_str": "2026-06-19 05:05:03 UTC"
+      "count": 475,
+      "last_ts": 1781847302,
+      "last_str": "2026-06-19 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 591,
-      "last_ts": 1781843704,
-      "last_str": "2026-06-19 04:35:04 UTC"
+      "count": 594,
+      "last_ts": 1781847304,
+      "last_str": "2026-06-19 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 300,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1162,
+      "ts": 1781847328,
+      "ts_str": "2026-06-19 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO tells WSJ - The Journal Record",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 16:46:49 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVpMME5jQ2FHbzZXLWFqXzJVd05uVllXZHUwNzA5VU5YRU0yZE5YMGZiN2RQUHBxYzJ6ZEkzYXZKVlVXM3VfdkIxVkV1V01oS0p0YjdTUXRzaHRzU0h2ODU2X1ZPR0I3c0t6S2RZQWl0ZG5pLVpodVl6Z3dJSDdHR3kzdw?oc=5\n\nApple to raise prices due to memory chip shortage, CEO tells WSJ - The Journal Record\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVpMME5jQ2FHbzZXLWFqXzJVd05uVllXZHUwNzA5VU5YRU0yZE5YMGZiN2RQUHBxYzJ6ZEkzYXZKVlVXM3VfdkIxVkV1V01oS0p0YjdTUXRzaHRzU0h2ODU2X1ZPR0I3c0t6S2RZQWl0ZG5pLVpodVl6Z3dJSDdHR3kzdw?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO tells WSJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Journal Record</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple's CEO told the WSJ that Apple will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple \u7684 CEO \u5411 WSJ \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up HBM and DRAM supply, and that scarcity is now leaking into consumer hardware pricing. When a buyer as large as Apple has to pass memory costs to customers, it confirms the AI-capex boom is bidding up a shared input \u2014 an inflationary stress signal that the spend is crowding out the rest of the chip market.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u5927\u89c4\u6a21\u5efa\u8bbe\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4f9b\u7ed9\uff0c\u8fd9\u79cd\u77ed\u7f3a\u5982\u4eca\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u5c31\u8bc1\u5b9e\u4e86 AI capex \u70ed\u6f6e\u6b63\u5728\u62ac\u9ad8\u4e00\u9879\u5171\u4eab\u7684\u4e0a\u6e38\u6295\u5165\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u901a\u80c0\u578b\u538b\u529b\u4fe1\u53f7\uff0c\u8868\u660e\u8fd9\u6ce2\u652f\u51fa\u6b63\u5728\u6324\u5360\u82af\u7247\u5e02\u573a\u7684\u5176\u4f59\u90e8\u5206\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1163,
+      "ts": 1781847328,
+      "ts_str": "2026-06-19 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple signals price hikes amid rising memory chip costs - The Hans India",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 05:30:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ21VY0lLLWxQSUxFS2VmU2hlbHJ5X0JzZVdRSm1XLXl4TTJtUEY3bkZtUHJjcFRySDA3eGVOZmRGM1pNbDNFU1dOLVdRVTNQMTRENGVkYnJudzQ3T3FQY0R5THFaMTNQNXkzV3o1cFloSWs2WVV0cGd5M29jbHlCTTJwczlXX0F3QWtoa0lJbUVOYVI1b1RQRmdvWXdLVHpYN0dF0gGoAUFVX3lxTE1yOW9NelJvYWw2cC11eWF5UlF3QWVvdnIwM3dscUdNWmUwTUgwWmhPcDk1OFE2TE9GSFVvcjl1U19vZXBsR21YTzZOdDdvNm9vZUFrall3UEZPS19kRUNTbEdDSlota1lRaVhvZkwxeGdtVk1JQ0ExZ0swa1BUYnAwR2dlZmZEVlB0aWdLeWJTNlBEMEY1Vkd1ejgyNHNrOWJ2LWRXcVlPRQ?oc=5\n\nApple signals price hikes amid rising memory chip costs - The Hans India\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ21VY0lLLWxQSUxFS2VmU2hlbHJ5X0JzZVdRSm1XLXl4TTJtUEY3bkZtUHJjcFRySDA3eGVOZmRGM1pNbDNFU1dOLVdRVTNQMTRENGVkYnJudzQ3T3FQY0R5THFaMTNQNXkzV3o1cFloSWs2WVV0cGd5M29jbHlCTTJwczlXX0F3QWtoa0lJbUVOYVI1b1RQRmdvWXdLVHpYN0dF0gGoAUFVX3lxTE1yOW9NelJvYWw2cC11eWF5UlF3QWVvdnIwM3dscUdNWmUwTUgwWmhPcDk1OFE2TE9GSFVvcjl1U19vZXBsR21YTzZOdDdvNm9vZUFrall3UEZPS19kRUNTbEdDSlota1lRaVhvZkwxeGdtVk1JQ0ExZ0swa1BUYnAwR2dlZmZEVlB0aWdLeWJTNlBEMEY1Vkd1ejgyNHNrOWJ2LWRXcVlPRQ?oc=5\" target=\"_blank\">Apple signals price hikes amid rising memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hans India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is signaling price hikes on its products, citing rising memory (DRAM/NAND) chip costs.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u56e0\u5185\u5b58 (DRAM/NAND) \u82af\u7247\u6210\u672c\u4e0a\u6da8\uff0c\u6b63\u91ca\u653e\u4ea7\u54c1\u6da8\u4ef7\u4fe1\u53f7\u3002\n\nWhy it matters:\nMemory prices spiking hard enough to force Apple \u2014 a company with enormous supplier leverage \u2014 to raise consumer prices points to AI-datacenter demand crowding out the consumer-electronics supply chain. Memory is the clearest pass-through where AI capex starts inflating prices for everyone else.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u6da8\u5230\u8fde\u4f9b\u5e94\u94fe\u8bae\u4ef7\u80fd\u529b\u6781\u5f3a\u7684 Apple \u90fd\u88ab\u8feb\u5411\u6d88\u8d39\u8005\u6da8\u4ef7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u7684\u9700\u6c42\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u5e94\u94fe\u3002\u5185\u5b58\u662f AI capex \u5916\u6ea2\u3001\u5f00\u59cb\u63a8\u9ad8\u6240\u6709\u4eba\u6210\u672c\u7684\u6700\u6e05\u6670\u4f20\u5bfc\u73af\u8282\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1160,
       "ts": 1781841929,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO - Gadget Review",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 16:27:59 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUtrWmc1ZUNWYVlYVTMzcWRlVGN0bTlXOWh6VlZKZ0xkNldUTlBsQlRieExpTDk5Qmljc3NjQU94Uk10b3BjU1cwRzFhUnZpRXdjbk5RalhtWnRzQ3JBaTNRRDZFbXNZcmNrMmt5MW1VYmM3cVQwQ0tiRnU0UmdLN2VyWE1kWjA?oc=5\n\nOpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO - Gadget Review\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUtrWmc1ZUNWYVlYVTMzcWRlVGN0bTlXOWh6VlZKZ0xkNldUTlBsQlRieExpTDk5Qmljc3NjQU94Uk10b3BjU1cwRzFhUnZpRXdjbk5RalhtWnRzQ3JBaTNRRDZFbXNZcmNrMmt5MW1VYmM3cVQwQ0tiRnU0UmdLN2VyWE1kWjA?oc=5\" target=\"_blank\">OpenAI\u2019s $34 Billion Burn: Losses Grew 8x Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadget Review</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI's losses grew 8x to a $34 billion cash burn ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cOpenAI \u5728\u7b79\u5907 IPO \u524d\u4e8f\u635f\u6269\u5927 8 \u500d\uff0c\u73b0\u91d1\u6d88\u8017\u8fbe\u5230 $34 Billion\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; an 8x jump in losses to $34B shows the flagship customer is burning cash far faster than it earns. If the anchor tenant can't fund itself, the compute-purchase commitments underpinning hyperscaler and neocloud capex are at risk.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u4e8f\u635f\u66b4\u589e 8 \u500d\u81f3 $34B\uff0c\u8bf4\u660e\u8fd9\u4e2a\u65d7\u8230\u5ba2\u6237\u70e7\u94b1\u7684\u901f\u5ea6\u8fdc\u8d85\u5176\u6536\u5165\u589e\u957f\u3002\u5982\u679c\u8fde\u951a\u5b9a\u79df\u6237\u90fd\u65e0\u6cd5\u81ea\u6211\u9020\u8840\uff0c\u90a3\u4e48\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u8d44\u672c\u5f00\u652f\u7684\u7b97\u529b\u91c7\u8d2d\u627f\u8bfa\u5c31\u5c8c\u5c8c\u53ef\u5371\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 961,
-      "ts": 1781626486,
-      "ts_str": "2026-06-16 16:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI spent $34 billion before IPO - Jawlah",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 13:02:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiP0FVX3lxTE1qMFVDYk5kQ2NmN1RsdUNzLUl4NUxhMlZCemFhbW9uSUtNOU5SVnRVTVBGR0xFWFI3NGU3NExFNA?oc=5\n\nOpenAI spent $34 billion before IPO - Jawlah\n\n<a href=\"https://news.google.com/rss/articles/CBMiP0FVX3lxTE1qMFVDYk5kQ2NmN1RsdUNzLUl4NUxhMlZCemFhbW9uSUtNOU5SVnRVTVBGR0xFWFI3NGU3NExFNA?oc=5\" target=\"_blank\">OpenAI spent $34 billion before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jawlah</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI spent $34 billion before its IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u5728 IPO \u4e4b\u524d\u5df2\u82b1\u8d39 340 \u4ebf\u7f8e\u5143\uff08$34 billion\uff09\u3002\n\nWhy it matters:\nConfirms the scale of pre-revenue cash burn at the center of the AI buildout \u2014 $34B consumed ahead of any public-market funding means OpenAI is dependent on continued private capital and compute commitments. If that funding tightens, the demand pull-through for hyperscaler AI capex weakens at the source.\n\n\u5f71\u54cd:\n\u8fd9\u5370\u8bc1\u4e86 AI \u5efa\u8bbe\u6838\u5fc3\u73af\u8282\u7684\u70e7\u94b1\u89c4\u6a21\u2014\u2014\u5728\u767b\u9646\u516c\u5f00\u5e02\u573a\u878d\u8d44\u4e4b\u524d\u5c31\u5df2\u6d88\u8017 $34B\uff0c\u610f\u5473\u7740 OpenAI \u9ad8\u5ea6\u4f9d\u8d56\u6301\u7eed\u7684\u79c1\u52df\u8d44\u672c\u548c\u7b97\u529b\u627f\u8bfa\u3002\u4e00\u65e6\u8fd9\u90e8\u5206\u8d44\u91d1\u6536\u7d27\uff0c\u5bf9\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI capex \u7684\u9700\u6c42\u62c9\u52a8\u4f1a\u4ece\u6e90\u5934\u51cf\u5f31\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 962,
-      "ts": 1781626486,
-      "ts_str": "2026-06-16 16:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI 2025 financials leaked: $39B loss ahead of IPO - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 13:39:09 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWwwTUxRM1VjYm5nZjIzZnU3UGY1YlpIc0V4S01zdEJNSWJBWV9sWWs1WHZhR01RQ2w4dlhLQUVDSzJ2eHRZRElMQjNudTJBaHlyXzFFVGpOTXV6TFdLWXZXSC1aWFJHWmhXajBPZjM4aFBxdUEyZVZzUkoyTmFsaEV6TXY5Zw?oc=5\n\nOpenAI 2025 financials leaked: $39B loss ahead of IPO - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWwwTUxRM1VjYm5nZjIzZnU3UGY1YlpIc0V4S01zdEJNSWJBWV9sWWs1WHZhR01RQ2w4dlhLQUVDSzJ2eHRZRElMQjNudTJBaHlyXzFFVGpOTXV6TFdLWXZXSC1aWFJHWmhXajBPZjM4aFBxdUEyZVZzUkoyTmFsaEV6TXY5Zw?oc=5\" target=\"_blank\">OpenAI 2025 financials leaked: $39B loss ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA leaked report claims OpenAI's 2025 financials show a $39B loss ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u6cc4\u9732\u7684\u62a5\u544a\u79f0\uff0cOpenAI 2025 \u5e74\u8d22\u52a1\u663e\u793a\u4e8f\u635f $39B\uff0c\u4e14\u6b63\u7b79\u5907 IPO\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a $39B loss this large signals the economics of frontier-model training and inference are nowhere near self-funding. An IPO at this burn rate would force public markets to price the gap between AI spend and AI revenue \u2014 the core bubble-stress question.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\uff1b\u5982\u6b64\u89c4\u6a21\u7684 $39B \u4e8f\u635f\u8bf4\u660e\u524d\u6cbf\u6a21\u578b\u8bad\u7ec3\u4e0e\u63a8\u7406\u7684\u7ecf\u6d4e\u6a21\u578b\u8fdc\u672a\u5b9e\u73b0\u81ea\u7ed9\u81ea\u8db3\u3002\u5728\u8fd9\u79cd\u70e7\u94b1\u901f\u5ea6\u4e0b\u63a8\u8fdb IPO\uff0c\u7b49\u4e8e\u903c\u8feb\u516c\u5f00\u5e02\u573a\u4e3a AI \u652f\u51fa\u4e0e AI \u6536\u5165\u4e4b\u95f4\u7684\u7f3a\u53e3\u5b9a\u4ef7\u2014\u2014\u8fd9\u6b63\u662f\u6ce1\u6cab\u538b\u529b\u7684\u6838\u5fc3\u95ee\u9898\u3002\n",
       "emailed": false
     }
   ],
