@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781833262,
-  "generated_at_str": "2026-06-19 01:41:02 UTC",
-  "last_event_ts": 1781832904,
+  "generated_at": 1781833459,
+  "generated_at_str": "2026-06-19 01:44:19 UTC",
+  "last_event_ts": 1781833456,
   "tables": {
     "alerts_dedup": {
-      "count": 1146,
-      "last_ts": 1781829858,
-      "last_str": "2026-06-19 00:44:18 UTC"
+      "count": 1147,
+      "last_ts": 1781833456,
+      "last_str": "2026-06-19 01:44:16 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2030,
-      "last_ts": 1781831643,
-      "last_str": "2026-06-19 01:14:03 UTC"
+      "count": 2032,
+      "last_ts": 1781833443,
+      "last_str": "2026-06-19 01:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 422,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-19 01:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 10090,
-      "last_ts": 1781829843,
-      "last_str": "2026-06-19 00:44:03 UTC"
+      "count": 10092,
+      "last_ts": 1781833442,
+      "last_str": "2026-06-19 01:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1154,
+      "ts": 1781833456,
+      "ts_str": "2026-06-19 01:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate pri",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 22:09:28 GMT\nLink:      https://news.google.com/rss/articles/CBMi4wFBVV95cUxQb2pEWGQwOHBZc2J4MWZwenF3TVA1TWI3RjRTVXBjUkZFQ05LVXFuNUoyc0dRM3JwMlpoc1p1N0tQTTlnOEh2elhNdldtcmhWelR4amV4OGdKbW0wTnQ4NXEyTlJzSTZkRHNHU052aTZFUUhCVzlXclRiNDE1MVl0Ti1GWDRweHNfMTR2UXJ5bzhSN2ZLSjdjTzVEZGFzWGlVSVNKOFlPdDFGNnJPWkZOd2ZBemlld01uSTk4YVNucG1PQ2FKQW9ER2gtdTlOSEdEMndMaEl5cXZ6QWRzLXNWMHNoY9IB6AFBVV95cUxONTl1Z2Z6Sl9VcDVTVDF4NS1UZHFvV0IwYnJKQ2tsQVhLOXoxUmNhOHZKbnRKMFVoTE1FdnplekQ0RWhBWlRWTk9jZTRjZGJhLXVTR1BfWkRXS2VGalRuSGdWcHZSYVJ5VU9BZk5nU2tSb0tGZXdyQjVmVHJ3d0w3UXFKMG50QzZabV8tRTB6bWx1OFR1QmNScVRLakM2emMzaHZncTVnTkkyMUFiSVFmdmhLNFBXVS00R1J4M1Z4T0JDR0RLaVJuNU9hUzREVjVfNFlza1J2UVpiYTByTm5Md1FOWE5LTl80?oc=5\n\nOpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate prices - ABC7 Bay Area\n\n<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQb2pEWGQwOHBZc2J4MWZwenF3TVA1TWI3RjRTVXBjUkZFQ05LVXFuNUoyc0dRM3JwMlpoc1p1N0tQTTlnOEh2elhNdldtcmhWelR4amV4OGdKbW0wTnQ4NXEyTlJzSTZkRHNHU052aTZFUUhCVzlXclRiNDE1MVl0Ti1GWDRweHNfMTR2UXJ5bzhSN2ZLSjdjTzVEZGFzWGlVSVNKOFlPdDFGNnJPWkZOd2ZBemlld01uSTk4YVNucG1PQ2FKQW9ER2gtdTlOSEdEMndMaEl5cXZ6QWRzLXNWMHNoY9IB6AFBVV95cUxONTl1Z2Z6Sl9VcDVTVDF4NS1UZHFvV0IwYnJKQ2tsQVhLOXoxUmNhOHZKbnRKMFVoTE1FdnplekQ0RWhBWlRWTk9jZTRjZGJhLXVTR1BfWkRXS2VGalRuSGdWcHZSYVJ5VU9BZk5nU2tSb0tGZXdyQjVmVHJ3d0w3UXFKMG50QzZabV8tRTB6bWx1OFR1QmNScVRLakM2emMzaHZncTVnTkkyMUFiSVFmdmhLNFBXVS00R1J4M1Z4T0JDR0RLaVJuNU9hUzREVjVfNFlza1J2UVpiYTByTm5Md1FOWE5LTl80?oc=5\" target=\"_blank\">OpenAI, Anthropic artificial intelligence IPO boom set to transform San Francisco, starting with soaring real estate prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Bay Area</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item (via ABC7 Bay Area) reports that an OpenAI/Anthropic AI IPO boom is set to transform San Francisco, \"starting with soaring real estate prices.\"\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u62a5\u9053\uff08\u6765\u6e90 ABC7 Bay Area\uff09\u79f0\uff0cOpenAI\u3001Anthropic \u5f15\u9886\u7684 AI IPO \u70ed\u6f6e\u5c06\u91cd\u5851\u65e7\u91d1\u5c71\uff0c\"\u9996\u5148\u4f53\u73b0\u5728\u623f\u5730\u4ea7\u4ef7\u683c\u98d9\u5347\"\u4e0a\u3002\n\nWhy it matters:\nLocal asset-price euphoria \u2014 Bay Area real estate bid up on anticipated AI IPO wealth \u2014 is a classic second-order bubble symptom: the spend hasn't paid back yet, but adjacent markets are already pricing in the windfall. The narrative shifting from product to IPO riches and property is a late-cycle tell.\n\n\u5f71\u54cd:\n\u672c\u5730\u8d44\u4ea7\u4ef7\u683c\u7684\u72c2\u70ed\u2014\u2014\u6e7e\u533a\u623f\u4ef7\u56e0\u9884\u671f\u4e2d\u7684 AI IPO \u8d22\u5bcc\u800c\u88ab\u7092\u9ad8\u2014\u2014\u662f\u5178\u578b\u7684\u4e8c\u9636\u6ce1\u6cab\u75c7\u72b6\uff1aAI \u6295\u5165\u5c1a\u672a\u56de\u672c\uff0c\u5468\u8fb9\u5e02\u573a\u5374\u5df2\u5f00\u59cb\u4e3a\u8fd9\u7b14\u6a2a\u8d22\u5b9a\u4ef7\u3002\u53d9\u4e8b\u4ece\u4ea7\u54c1\u8f6c\u5411 IPO \u66b4\u5bcc\u548c\u623f\u4ea7\uff0c\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1153,
       "ts": 1781829858,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s Costs Soar to $34 Billion Ahead of Anticipated IPO - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 09:52:06 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPWDk4RnRoS09rb1lkWFRPWVNKS28wM25FeVJucHItaUk0MXJ2RzJrSFA0d1Eta2JhU011WW1haUEzelVTb2M0M1o5VGJsYnR3YmlEQ0t2bUN6NFlYQjdWWXlJZUZlZHVvSUJiNG94OGtZVzJDeVd5emdwalRmLXUxNElsdThqVlZOMG9oVTRsdi13dGF3MTBR?oc=5\n\nOpenAI\u2019s Costs Soar to $34 Billion Ahead of Anticipated IPO - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPWDk4RnRoS09rb1lkWFRPWVNKS28wM25FeVJucHItaUk0MXJ2RzJrSFA0d1Eta2JhU011WW1haUEzelVTb2M0M1o5VGJsYnR3YmlEQ0t2bUN6NFlYQjdWWXlJZUZlZHVvSUJiNG94OGtZVzJDeVd5emdwalRmLXUxNElsdThqVlZOMG9oVTRsdi13dGF3MTBR?oc=5\" target=\"_blank\">OpenAI\u2019s Costs Soar to $34 Billion Ahead of Anticipated IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports OpenAI's costs have soared to $34 billion ahead of its anticipated IPO.\n\n\u5185\u5bb9:\nYahoo Finance \u62a5\u9053\u79f0\uff0cOpenAI \u7684\u6210\u672c\u5728\u9884\u671f IPO \u524d\u98d9\u5347\u81f3 $34 billion\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a $34B cost base with no comparable profit means the central buyer of compute is deeply loss-making. An IPO into those numbers tests whether public markets will keep funding the spend, or force a repricing that cascades to its suppliers.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u94fe\u6761\u7684\u9700\u6c42\u951a\u70b9\uff1b$34B \u7684\u6210\u672c\u89c4\u6a21\u5374\u6ca1\u6709\u76f8\u5e94\u5229\u6da6\uff0c\u610f\u5473\u7740\u7b97\u529b\u7684\u6838\u5fc3\u4e70\u5bb6\u5728\u5de8\u989d\u4e8f\u635f\u4e2d\u8fd0\u8f6c\u3002\u5728\u8fd9\u79cd\u6570\u5b57\u4e0b\u63a8\u8fdb IPO\uff0c\u7b49\u4e8e\u68c0\u9a8c\u516c\u52df\u5e02\u573a\u662f\u5426\u613f\u610f\u7ee7\u7eed\u4e3a\u8fd9\u8f6e\u652f\u51fa\u4e70\u5355\u2014\u2014\u82e5\u4e0d\u613f\u610f\uff0c\u91cd\u65b0\u5b9a\u4ef7\u5c06\u6cbf\u4f9b\u5e94\u94fe\u5411\u4e0a\u6e38\u4f20\u5bfc\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 954,
-      "ts": 1781606657,
-      "ts_str": "2026-06-16 10:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 16 Jun 2026 10:22:48 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaHN4V3pNbS1hUDVFN2lYelhPMGVEOWE5MnZBWkJuckEtbm1vTDBsZl9Jc3dWVFR5WXd2WDkwSkltZ0xBZ2lSdDFpb3R4WHpSWE1MTk50TTB6TDFSX2lDWkpiSF9INFo0X2gzTmVzYVJGOVJjT2JBd2xnUXJDbGtSY1lqMmtLTnJ3M3VPa0RNRlpRR09BMWlmLUt1NWtkQ0xtYWlHbDFwc0s5cDZHem9wLWJaMnRlUjdIYjMwc2thR2NFbHlleE1Eb1Zsb0ZLM0Vrc3RTdw?oc=5\n\nOpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaHN4V3pNbS1hUDVFN2lYelhPMGVEOWE5MnZBWkJuckEtbm1vTDBsZl9Jc3dWVFR5WXd2WDkwSkltZ0xBZ2lSdDFpb3R4WHpSWE1MTk50TTB6TDFSX2lDWkpiSF9INFo0X2gzTmVzYVJGOVJjT2JBd2xnUXJDbGtSY1lqMmtLTnJ3M3VPa0RNRlpRR09BMWlmLUt1NWtkQ0xtYWlHbDFwc0s5cDZHem9wLWJaMnRlUjdIYjMwc2thR2NFbHlleE1Eb1Zsb0ZLM0Vrc3RTdw?oc=5\" target=\"_blank\">OpenAI\u2019s costs soar to $34 billion ahead of anticipated IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI's costs have soared to $34 billion ahead of its anticipated IPO.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cOpenAI \u7684\u6210\u672c\u5728\u9884\u671f IPO \u4e4b\u524d\u98d9\u5347\u81f3 $34 billion\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout \u2014 if its own cost base is running at $34B while it remains deeply unprofitable, the spending it's driving across hyperscalers and neoclouds rests on a single loss-making buyer racing to IPO before the math is proven. A cost figure this large surfacing in IPO-timing coverage is a late-cycle tell.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\u2014\u2014\u5982\u679c\u5b83\u81ea\u8eab\u7684\u6210\u672c\u5df2\u7ecf\u8dd1\u5230 $34B \u5374\u4ecd\u6df1\u9677\u4e8f\u635f\uff0c\u90a3\u4e48\u5b83\u5728\u5404\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u8eab\u4e0a\u62c9\u52a8\u7684\u652f\u51fa\uff0c\u672c\u8d28\u4e0a\u9760\u7684\u662f\u4e00\u4e2a\u4e8f\u635f\u4e70\u5bb6\u5728\u76c8\u5229\u6a21\u578b\u5c1a\u672a\u8dd1\u901a\u524d\u62a2\u7740 IPO\u3002\u8fd9\u4e48\u5927\u7684\u6210\u672c\u6570\u5b57\u51fa\u73b0\u5728 IPO \u65f6\u70b9\u7684\u62a5\u9053\u91cc\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
