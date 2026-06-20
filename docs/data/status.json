@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781989328,
-  "generated_at_str": "2026-06-20 21:02:08 UTC",
-  "last_event_ts": 1781988242,
+  "generated_at": 1781989517,
+  "generated_at_str": "2026-06-20 21:05:17 UTC",
+  "last_event_ts": 1781989517,
   "tables": {
     "alerts_dedup": {
-      "count": 1218,
-      "last_ts": 1781987717,
-      "last_str": "2026-06-20 20:35:17 UTC"
+      "count": 1219,
+      "last_ts": 1781989517,
+      "last_str": "2026-06-20 21:05:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-20 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 601,
-      "last_ts": 1781987702,
-      "last_str": "2026-06-20 20:35:02 UTC"
+      "count": 604,
+      "last_ts": 1781989502,
+      "last_str": "2026-06-20 21:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 740,
-      "last_ts": 1781987703,
-      "last_str": "2026-06-20 20:35:03 UTC"
+      "count": 742,
+      "last_ts": 1781989504,
+      "last_str": "2026-06-20 21:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 384,
-      "last_ts": 1781987702,
-      "last_str": "2026-06-20 20:35:02 UTC"
+      "count": 385,
+      "last_ts": 1781989503,
+      "last_str": "2026-06-20 21:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 572,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1226,
+      "ts": 1781989517,
+      "ts_str": "2026-06-20 21:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Rising AI Memory Chip Costs Drive Apple iPhone, Mac Price Hikes - RS Web Solutions",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 20 Jun 2026 21:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxObTRPSVNpTEVxVHRsYjJpemJLRWRPVWcxd25tVWlXQ3hWZ2RIMThGYnl6Z3hZZ2YwYlJLWUNRMkU1TXlDZkhRVUtJcFlVNjBndks5WHA1ZjY4UFItUHZ5MnRvTVA4bGU3c2R6LU9ZS2xMOEg0V21TSmxIay1XUjh5ZDgwZDJ2TWxzTVZIVEFFY2Y3Tl9FNmt4SXpWc1BWMllHTGhCOGVtS3gtUW00WHE5TVpSbGRMTi16X0JveFVhSWE5ejFxSkJ4QnJKUQ?oc=5\n\nRising AI Memory Chip Costs Drive Apple iPhone, Mac Price Hikes - RS Web Solutions\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxObTRPSVNpTEVxVHRsYjJpemJLRWRPVWcxd25tVWlXQ3hWZ2RIMThGYnl6Z3hZZ2YwYlJLWUNRMkU1TXlDZkhRVUtJcFlVNjBndks5WHA1ZjY4UFItUHZ5MnRvTVA4bGU3c2R6LU9ZS2xMOEg0V21TSmxIay1XUjh5ZDgwZDJ2TWxzTVZIVEFFY2Y3Tl9FNmt4SXpWc1BWMllHTGhCOGVtS3gtUW00WHE5TVpSbGRMTi16X0JveFVhSWE5ejFxSkJ4QnJKUQ?oc=5\" target=\"_blank\">Rising AI Memory Chip Costs Drive Apple iPhone, Mac Price Hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RS Web Solutions</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports that rising AI memory chip costs are driving Apple to raise iPhone and Mac prices.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cAI \u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u6b63\u63a8\u52a8 Apple \u4e0a\u8c03 iPhone \u548c Mac \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nAI buildout is bidding up HBM/DRAM supply hard enough that the cost is now leaking into consumer hardware outside the datacenter. When AI-capex inflation starts raising prices for unrelated products like phones, it signals the spend is straining the broader supply chain \u2014 a second-order stress symptom, not just a hyperscaler line item.\n\n\u5f71\u54cd:\nAI \u57fa\u5efa\u5bf9 HBM/DRAM \u4f9b\u7ed9\u7684\u4e89\u62a2\u5df2\u7ecf\u6fc0\u70c8\u5230\u8ba9\u6210\u672c\u5916\u6ea2\u8fdb\u6570\u636e\u4e2d\u5fc3\u4e4b\u5916\u7684\u6d88\u8d39\u7ea7\u786c\u4ef6\u3002\u5f53 AI capex \u5f15\u53d1\u7684\u6da8\u4ef7\u5f00\u59cb\u6ce2\u53ca\u624b\u673a\u8fd9\u7c7b\u4e0d\u76f8\u5e72\u4ea7\u54c1\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u6b63\u5728\u6324\u538b\u6574\u4e2a\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u4e8c\u9636\u7684\u538b\u529b\u75c7\u72b6\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d26\u4e0a\u7684\u4e00\u7b14\u5f00\u652f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1225,
       "ts": 1781987717,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Tim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs - Notebookcheck",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 00:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWmJSSHFUcWVYZzF5eXRPRlRLR2o4NU83T2hzYVRaWlMtVXdyLUgyMndsRGF3OE8wU0ZBOC1ZQ3RTa0czTFJveEtMcUdVWWtqaHg3SlRsVTJ1bm9Gc1JyOFByd295MnhuSG5qWGd2Q1h4RHAtMUxjWUxhQzA1bGpRei12cVBLbWhmUzFfQkZqT3ZUeVM3YWQ4UzE2a01KMUNzRE1MR0NrSnRlbFB1YmZ4YUtGNXlEYm1KbGR6TGh4WHExZkZrcEFidFJEOXEtcGU3?oc=5\n\nTim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWmJSSHFUcWVYZzF5eXRPRlRLR2o4NU83T2hzYVRaWlMtVXdyLUgyMndsRGF3OE8wU0ZBOC1ZQ3RTa0czTFJveEtMcUdVWWtqaHg3SlRsVTJ1bm9Gc1JyOFByd295MnhuSG5qWGd2Q1h4RHAtMUxjWUxhQzA1bGpRei12cVBLbWhmUzFfQkZqT3ZUeVM3YWQ4UzE2a01KMUNzRE1MR0NrSnRlbFB1YmZ4YUtGNXlEYm1KbGR6TGh4WHExZkZrcEFidFJEOXEtcGU3?oc=5\" target=\"_blank\">Tim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck headline reports Tim Cook admitting that Apple product prices are rising due to skyrocketing memory chip costs.\n\n\u5185\u5bb9:\nNotebookcheck \u7684\u62a5\u9053\u79f0\uff0cTim Cook \u627f\u8ba4\u7531\u4e8e\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\uff0cApple \u4ea7\u54c1\u5c06\u8981\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) prices are being bid up by AI datacenter buildout, and the cost is now bleeding into consumer hardware. When even Apple \u2014 with the strongest supply-chain leverage in tech \u2014 has to pass memory costs to customers, it confirms the AI-capex spend is creating real component scarcity, not just paper demand.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u4ef7\u683c\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62ac\u9ad8\uff0c\u5982\u4eca\u8fd9\u4e00\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u3002\u5f53\u8fde\u4f9b\u5e94\u94fe\u8bae\u4ef7\u80fd\u529b\u6700\u5f3a\u7684 Apple \u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u8bf4\u660e AI capex \u652f\u51fa\u9020\u6210\u7684\u662f\u771f\u5b9e\u7684\u96f6\u90e8\u4ef6\u77ed\u7f3a\uff0c\u800c\u975e\u7eb8\u9762\u9700\u6c42\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1029,
-      "ts": 1781744735,
-      "ts_str": "2026-06-18 01:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Tim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs - Notebookcheck",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 00:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWmJSSHFUcWVYZzF5eXRPRlRLR2o4NU83T2hzYVRaWlMtVXdyLUgyMndsRGF3OE8wU0ZBOC1ZQ3RTa0czTFJveEtMcUdVWWtqaHg3SlRsVTJ1bm9Gc1JyOFByd295MnhuSG5qWGd2Q1h4RHAtMUxjWUxhQzA1bGpRei12cVBLbWhmUzFfQkZqT3ZUeVM3YWQ4UzE2a01KMUNzRE1MR0NrSnRlbFB1YmZ4YUtGNXlEYm1KbGR6TGh4WHExZkZrcEFidFJEOXEtcGU3?oc=5\n\nTim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWmJSSHFUcWVYZzF5eXRPRlRLR2o4NU83T2hzYVRaWlMtVXdyLUgyMndsRGF3OE8wU0ZBOC1ZQ3RTa0czTFJveEtMcUdVWWtqaHg3SlRsVTJ1bm9Gc1JyOFByd295MnhuSG5qWGd2Q1h4RHAtMUxjWUxhQzA1bGpRei12cVBLbWhmUzFfQkZqT3ZUeVM3YWQ4UzE2a01KMUNzRE1MR0NrSnRlbFB1YmZ4YUtGNXlEYm1KbGR6TGh4WHExZkZrcEFidFJEOXEtcGU3?oc=5\" target=\"_blank\">Tim Cook admits price hikes coming to Apple products due to skyrocketing memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck headline reports Tim Cook admitting that Apple product prices are rising due to skyrocketing memory chip costs.\n\n\u5185\u5bb9:\nNotebookcheck \u7684\u62a5\u9053\u79f0\uff0cTim Cook \u627f\u8ba4\u7531\u4e8e\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\uff0cApple \u4ea7\u54c1\u5c06\u8981\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) prices are being bid up by AI datacenter buildout, and the cost is now bleeding into consumer hardware. When even Apple \u2014 with the strongest supply-chain leverage in tech \u2014 has to pass memory costs to customers, it confirms the AI-capex spend is creating real component scarcity, not just paper demand.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u4ef7\u683c\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62ac\u9ad8\uff0c\u5982\u4eca\u8fd9\u4e00\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u3002\u5f53\u8fde\u4f9b\u5e94\u94fe\u8bae\u4ef7\u80fd\u529b\u6700\u5f3a\u7684 Apple \u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u8bf4\u660e AI capex \u652f\u51fa\u9020\u6210\u7684\u662f\u771f\u5b9e\u7684\u96f6\u90e8\u4ef6\u77ed\u7f3a\uff0c\u800c\u975e\u7eb8\u9762\u9700\u6c42\u3002\n",
       "emailed": false
     }
   ],
