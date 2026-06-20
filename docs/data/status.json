@@ -1,12 +1,12 @@
 {
-  "generated_at": 1781982127,
-  "generated_at_str": "2026-06-20 19:02:07 UTC",
-  "last_event_ts": 1781981058,
+  "generated_at": 1781982306,
+  "generated_at_str": "2026-06-20 19:05:06 UTC",
+  "last_event_ts": 1781982305,
   "tables": {
     "alerts_dedup": {
-      "count": 1216,
-      "last_ts": 1781981058,
-      "last_str": "2026-06-20 18:44:18 UTC"
+      "count": 1217,
+      "last_ts": 1781982305,
+      "last_str": "2026-06-20 19:05:05 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-20 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 592,
-      "last_ts": 1781980503,
-      "last_str": "2026-06-20 18:35:03 UTC"
+      "count": 596,
+      "last_ts": 1781982302,
+      "last_str": "2026-06-20 19:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 731,
-      "last_ts": 1781980505,
-      "last_str": "2026-06-20 18:35:05 UTC"
+      "count": 736,
+      "last_ts": 1781982304,
+      "last_str": "2026-06-20 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 380,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-20 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 566,
-      "last_ts": 1781980506,
-      "last_str": "2026-06-20 18:35:06 UTC"
+      "count": 567,
+      "last_ts": 1781982305,
+      "last_str": "2026-06-20 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10391,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1224,
+      "ts": 1781982305,
+      "ts_str": "2026-06-20 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] iPhone 18 Pro Could Rise to $1,399 Amid Memory Chip Shortage - \u0413\u043e\u043b\u043e\u0432\u043d\u0435 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 20 Jun 2026 17:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQNm5ZS0dZcFZLNVhGSG5KaUJReEUwMjRVSHUxM1NfRnc3RFpfM0VMdWVrTWpRQU93bEFfRVhKTmE1bkJtbklLRUxwTzBmSFJ4U2lOWlc2TGZOem9hTE9TV1N0VzNSUGhkdWc2MWM5SXVCZW1FRWRqQlgzbUhNcDRHQ3o5ckhTWHFXVGtPMnFZeDk2TDNBR0HSAZsBQVVfeXFMUEMyWnhPZ2lSdU9OTWpJUGpIbjdMMnZlUVdQb0x2RWFoRklTUDBCY2hQY2JhOUthRHZZWTJUNTVDbUFoc0Q5cnNfWmNvbk9pQ1FHVFZBWkVTeVd1MTduWGVjQzdlZ3pkUEszdjNoSk43UjhTY1gyN1dLT3ZWWmlha0NhWUFfa1M5QWlDWGpRUWxrYjAtSG9wQ2VCQ0k?oc=5\n\niPhone 18 Pro Could Rise to $1,399 Amid Memory Chip Shortage - \u0413\u043e\u043b\u043e\u0432\u043d\u0435 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQNm5ZS0dZcFZLNVhGSG5KaUJReEUwMjRVSHUxM1NfRnc3RFpfM0VMdWVrTWpRQU93bEFfRVhKTmE1bkJtbklLRUxwTzBmSFJ4U2lOWlc2TGZOem9hTE9TV1N0VzNSUGhkdWc2MWM5SXVCZW1FRWRqQlgzbUhNcDRHQ3o5ckhTWHFXVGtPMnFZeDk2TDNBR0HSAZsBQVVfeXFMUEMyWnhPZ2lSdU9OTWpJUGpIbjdMMnZlUVdQb0x2RWFoRklTUDBCY2hQY2JhOUthRHZZWTJUNTVDbUFoc0Q5cnNfWmNvbk9pQ1FHVFZBWkVTeVd1MTduWGVjQzdlZ3pkUEszdjNoSk43UjhTY1gyN1dLT3ZWWmlha0NhWUFfa1M5QWlDWGpRUWxrYjAtSG9wQ2VCQ0k?oc=5\" target=\"_blank\">iPhone 18 Pro Could Rise to $1,399 Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u0413\u043e\u043b\u043e\u0432\u043d\u0435 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports the iPhone 18 Pro could rise to $1,399 due to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u53d7\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5f71\u54cd\uff0ciPhone 18 Pro \u4ef7\u683c\u53ef\u80fd\u6da8\u81f3 $1,399\u3002\n\nWhy it matters:\nConsumer hardware passing through DRAM/NAND price spikes is the AI-capex boom leaking into the broader economy. When hyperscalers and AI accelerators soak up memory supply, the shortage shows up as higher prices in unrelated products \u2014 a sign the spend is large enough to distort end markets, not just chip-vendor margins.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7\u786c\u4ef6\u88ab\u8feb\u6d88\u5316 DRAM/NAND \u6da8\u4ef7\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5916\u6ea2\u5230\u66f4\u5e7f\u7684\u7ecf\u6d4e\u4e2d\u3002\u5f53\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c AI \u52a0\u901f\u5668\u5403\u6389\u5185\u5b58\u4f9b\u7ed9\u65f6\uff0c\u77ed\u7f3a\u4f1a\u4ee5\u4e0d\u76f8\u5173\u4ea7\u54c1\u6da8\u4ef7\u7684\u5f62\u5f0f\u663e\u73b0\u2014\u2014\u8fd9\u8868\u660e\u652f\u51fa\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u7ec8\u7aef\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u5f71\u54cd\u82af\u7247\u5382\u5546\u7684\u5229\u6da6\u7387\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1223,
       "ts": 1781981058,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Cascading Shortages in Consumer DRAM: How Capacity Pivots Fuel Legacy Node Adoption - TrendForce",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 09:00:22 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwNGRFUV80d3RybjRGQjZCamxtUEZqaTNOWXJwWjJFb28zZVpuTTI1bkQ1Nzh1SXE3NS1DaVFBT1V5bGtWVFNnU2pjS3V5ZENTVktjSm9CU0RIaDRNVFk0NFFRTHNXdw?oc=5\n\nCascading Shortages in Consumer DRAM: How Capacity Pivots Fuel Legacy Node Adoption - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwNGRFUV80d3RybjRGQjZCamxtUEZqaTNOWXJwWjJFb28zZVpuTTI1bkQ1Nzh1SXE3NS1DaVFBT1V5bGtWVFNnU2pjS3V5ZENTVktjSm9CU0RIaDRNVFk0NFFRTHNXdw?oc=5\" target=\"_blank\">Cascading Shortages in Consumer DRAM: How Capacity Pivots Fuel Legacy Node Adoption</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TrendForce headline flags cascading shortages in consumer DRAM, as memory makers pivot capacity toward AI-driven demand and push buyers onto legacy nodes.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u9053\u6d88\u8d39\u7ea7 DRAM \u51fa\u73b0\u8fde\u9501\u6027\u77ed\u7f3a\uff0c\u5b58\u50a8\u5382\u5546\u5c06\u4ea7\u80fd\u8f6c\u5411 AI \u9700\u6c42\uff0c\u8feb\u4f7f\u4e70\u5bb6\u8f6c\u7528 legacy node\uff08\u6210\u719f\u5236\u7a0b\uff09\u3002\n\nWhy it matters:\nDRAM/HBM is the supply bottleneck for AI buildouts \u2014 when capacity shifts to AI and consumer memory goes short, it confirms hyperscaler demand is crowding out the rest of the market and pushing component costs up across the board. Rising memory prices feed straight into AI-capex inflation.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u57fa\u5efa\u7684\u4f9b\u5e94\u74f6\u9888\u2014\u2014\u5f53\u4ea7\u80fd\u8f6c\u5411 AI\u3001\u6d88\u8d39\u7ea7\u5b58\u50a8\u9677\u5165\u77ed\u7f3a\u65f6\uff0c\u8bf4\u660e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u9700\u6c42\u6b63\u5728\u6324\u51fa\u5176\u4f59\u5e02\u573a\uff0c\u5e76\u63a8\u9ad8\u5168\u884c\u4e1a\u7684\u5143\u4ef6\u6210\u672c\u3002\u5b58\u50a8\u6da8\u4ef7\u4f1a\u76f4\u63a5\u4f20\u5bfc\u4e3a AI capex \u7684\u6210\u672c\u901a\u80c0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1023,
-      "ts": 1781741133,
-      "ts_str": "2026-06-18 00:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO tells WSJ - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:23:27 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxQVE80YkZ2OWhwTW5PRG1DLWhIRWtOVUJ1cDBjNW9KU3NueUplaFl6ZTRhQl9zUmJWTnRWVXdMalRiX19jVFdUb1hFRnVYM3RfWUx5N2NSM0RLc1Y2RlZFaGtRM1hBbjZBcmF5c3BtOHVOb0N3bEQwT0RXTDF5ZVhseTFvaHZCZEVXeWQ4ZkdzU0RDOXJx?oc=5\n\nApple to raise prices due to memory chip shortage, CEO tells WSJ - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQVE80YkZ2OWhwTW5PRG1DLWhIRWtOVUJ1cDBjNW9KU3NueUplaFl6ZTRhQl9zUmJWTnRWVXdMalRiX19jVFdUb1hFRnVYM3RfWUx5N2NSM0RLc1Y2RlZFaGtRM1hBbjZBcmF5c3BtOHVOb0N3bEQwT0RXTDF5ZVhseTFvaHZCZEVXeWQ4ZkdzU0RDOXJx?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO tells WSJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance / WSJ report says Apple's CEO will raise prices because of a memory chip shortage.\n\n\u5185\u5bb9:\nYahoo Finance \u63f4\u5f15 WSJ \u62a5\u9053\uff0cApple CEO \u8868\u793a\u5c06\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI-server demand is draining HBM/DRAM supply, and the price pressure is now spilling into consumer hardware \u2014 a sign the capex boom is rationing memory across the whole electronics market, not just data centers. When a buyer as large as Apple has to pass through chip costs, the shortage is structural, not a blip.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u6b63\u5728\u62bd\u5e72 HBM/DRAM \u4f9b\u7ed9\uff0c\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u5916\u6ea2\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8bf4\u660e\u8fd9\u8f6e\u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u6b63\u5728\u5411\u6574\u4e2a\u7535\u5b50\u4ea7\u54c1\u5e02\u573a\u5206\u914d\u7d27\u5f20\u7684\u5185\u5b58\uff0c\u800c\u4e0d\u53ea\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u5411\u4e0b\u6e38\u8f6c\u5ac1\u82af\u7247\u6210\u672c\u65f6\uff0c\u77ed\u7f3a\u5c31\u662f\u7ed3\u6784\u6027\u7684\uff0c\u800c\u975e\u77ed\u671f\u6ce2\u52a8\u3002\n",
       "emailed": false
     }
   ],
