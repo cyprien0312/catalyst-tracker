@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782066726,
-  "generated_at_str": "2026-06-21 18:32:06 UTC",
-  "last_event_ts": 1782065663,
+  "generated_at": 1782066917,
+  "generated_at_str": "2026-06-21 18:35:17 UTC",
+  "last_event_ts": 1782066917,
   "tables": {
     "alerts_dedup": {
-      "count": 1243,
-      "last_ts": 1782065663,
-      "last_str": "2026-06-21 18:14:23 UTC"
+      "count": 1244,
+      "last_ts": 1782066917,
+      "last_str": "2026-06-21 18:35:17 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-21 18:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 809,
-      "last_ts": 1782063305,
-      "last_str": "2026-06-21 17:35:05 UTC"
+      "count": 811,
+      "last_ts": 1782066903,
+      "last_str": "2026-06-21 18:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 423,
-      "last_ts": 1782061503,
-      "last_str": "2026-06-21 17:05:03 UTC"
+      "count": 426,
+      "last_ts": 1782066903,
+      "last_str": "2026-06-21 18:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 611,
-      "last_ts": 1782065104,
-      "last_str": "2026-06-21 18:05:04 UTC"
+      "count": 613,
+      "last_ts": 1782066904,
+      "last_str": "2026-06-21 18:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10545,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1251,
+      "ts": 1782066917,
+      "ts_str": "2026-06-21 18:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory chip shortage. Samsung Galaxy Z Fold8 will be more expensive - open.kg",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 03:54:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxQM3dfUHNRY3hVS0g5ajNGRVpkSG5BRk0zWFUwckc3dEtoY0pHemk1MjNwVy1DM1BwdFU1Ql93RmZFREJudnpUcjFSZWtkSzQ2MkpDZ2FQUF9UbnlJT1VsYTAxc2Rwc0JuVlVZNXA2Q1pGZmtRQl9GeHljV3dqNGJ2dzNMLUNEcUZWQy1JazA2WjRWRTR6RndfdWtyN0NHTl9JOXZB?oc=5\n\nMemory chip shortage. Samsung Galaxy Z Fold8 will be more expensive - open.kg\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQM3dfUHNRY3hVS0g5ajNGRVpkSG5BRk0zWFUwckc3dEtoY0pHemk1MjNwVy1DM1BwdFU1Ql93RmZFREJudnpUcjFSZWtkSzQ2MkpDZ2FQUF9UbnlJT1VsYTAxc2Rwc0JuVlVZNXA2Q1pGZmtRQl9GeHljV3dqNGJ2dzNMLUNEcUZWQy1JazA2WjRWRTR6RndfdWtyN0NHTl9JOXZB?oc=5\" target=\"_blank\">Memory chip shortage. Samsung Galaxy Z Fold8 will be more expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">open.kg</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 consumer-electronics RSS item reports a memory chip shortage, with Samsung's Galaxy Z Fold8 cited as becoming more expensive as a result.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u6d88\u8d39\u7535\u5b50 RSS \u4fe1\u606f\u663e\u793a\u51fa\u73b0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0c\u5e76\u4ee5 Samsung Galaxy Z Fold8 \u56e0\u6b64\u6da8\u4ef7\u4e3a\u4f8b\u3002\n\nWhy it matters:\nRising memory prices are a downstream symptom of AI-driven demand crowding out conventional DRAM/NAND supply. When the shortage starts lifting consumer device prices, it confirms AI capex is tightening the whole memory supply chain \u2014 a real-economy spillover from the buildout.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI \u9700\u6c42\u6324\u5360\u4f20\u7edf DRAM/NAND \u4f9b\u7ed9\u7684\u4e0b\u6e38\u8868\u73b0\u3002\u5f53\u77ed\u7f3a\u5f00\u59cb\u62ac\u9ad8\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u7684\u552e\u4ef7\uff0c\u5c31\u5370\u8bc1\u4e86 AI capex \u6b63\u5728\u6536\u7d27\u6574\u6761\u5185\u5b58\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u5efa\u8bbe\u6f6e\u5411\u5b9e\u4f53\u7ecf\u6d4e\u7684\u5916\u6ea2\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1250,
       "ts": 1782065663,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple to hike product prices amid memory chip shortage, Tim Cook says: Report - Storyboard18",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 03:42:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxNVmRocVlxQ2I0UlpSODJYZ0JUNnhTa0l5QklQZnN1MjBJNE81R0ZKaHNLY3Q5cTlpWkhkOUkxaVNfQTkzQkJ5WG5aV3JxUmNHSWJiNUFZckZ3TDVnT1g5T1ZBWTdpVWFxRXVYSmg2WGVWVzZRcEZ4d3RmLVhJQ0o5UURYZnB1a2p2NkR0dzJsUG1yVHFPNWJfWThuYlV6M2NmelVuM181NnFVYUVmZlp2NDZDRms2TjNHb3d3OW9GM1ZxVW5vY29QbW5EMNIB0AFBVV95cUxPWHE2SVBMak9TM0hpcWlaLXljeGFYWmlUbmN2M0ZTeU9vN1E0VktIbjY4ZVlUdnExa2YwcG1wdHVycHpDU3N6R0owbm1aUF9qUXhwaloxMkFOREhLNXVfc0xpaTVZdVNldzhQOGdtZFBOZUF6MU1TY2I5V0VoanlTUVFnaDdlS2RhYTBXMV9sWVlKT1h2T29yOEFBaWo4YUJtT2dqd0ZReFpNcUcwWGdhQmpmMDVPOUd3Z0FveTBnVmU2cnNfUWRJckVoOVhZOW1o?oc=5\n\nApple to hike product prices amid memory chip shortage, Tim Cook says: Report - Storyboard18\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNVmRocVlxQ2I0UlpSODJYZ0JUNnhTa0l5QklQZnN1MjBJNE81R0ZKaHNLY3Q5cTlpWkhkOUkxaVNfQTkzQkJ5WG5aV3JxUmNHSWJiNUFZckZ3TDVnT1g5T1ZBWTdpVWFxRXVYSmg2WGVWVzZRcEZ4d3RmLVhJQ0o5UURYZnB1a2p2NkR0dzJsUG1yVHFPNWJfWThuYlV6M2NmelVuM181NnFVYUVmZlp2NDZDRms2TjNHb3d3OW9GM1ZxVW5vY29QbW5EMNIB0AFBVV95cUxPWHE2SVBMak9TM0hpcWlaLXljeGFYWmlUbmN2M0ZTeU9vN1E0VktIbjY4ZVlUdnExa2YwcG1wdHVycHpDU3N6R0owbm1aUF9qUXhwaloxMkFOREhLNXVfc0xpaTVZdVNldzhQOGdtZFBOZUF6MU1TY2I5V0VoanlTUVFnaDdlS2RhYTBXMV9sWVlKT1h2T29yOEFBaWo4YUJtT2dqd0ZReFpNcUcwWGdhQmpmMDVPOUd3Z0FveTBnVmU2cnNfUWRJckVoOVhZOW1o?oc=5\" target=\"_blank\">Apple to hike product prices amid memory chip shortage, Tim Cook says: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Storyboard18</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Storyboard18 report says Apple's Tim Cook flagged that Apple will raise product prices because of a memory chip shortage.\n\n\u5185\u5bb9:\n\u636e Storyboard18 \u62a5\u9053\uff0cApple \u7684 Tim Cook \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247short\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being soaked up by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing \u2014 a sign AI capex is crowding out the rest of the supply chain. When a buyer as large as Apple has to pass through memory costs, the squeeze has left the datacenter and reached end markets.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0cshort\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u2014\u2014\u8fd9\u8bf4\u660e AI capex \u6b63\u5728\u6324\u5360\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u5176\u4f59\u90e8\u5206\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6da8\u4ef7\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0c\u6324\u538b\u5df2\u7ecf\u8d70\u51fa\u6570\u636e\u4e2d\u5fc3\u3001\u8513\u5ef6\u5230\u7ec8\u7aef\u5e02\u573a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1055,
-      "ts": 1781755543,
-      "ts_str": "2026-06-18 04:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple May Reportedly Raise iPhone, Mac Prices Amid Memory Chip Shortage, Tim Cook Says - Gadgets 360",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 03:35:10 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFU3UzNtZXl4SDFGbjJBQ1ZpY0pTdVZ2RG52Z3dJZU5pX1dBUTdyYy1mNEVrNVVXOWxnQlBEX2F3bDNnX3NVYVdvd0pvOTRHRnZjRlNlZVJtVE5iZk5tVEw3TVB6akQwY2I1VzhGdkVEeHdZY1c5X0NEYlZCQVhQN015ZVROMVMta3RGcTN3MkxiOWU1cjQ0c3prRV9yMGJ5SGI4a2lidTBucWhOcldlLUJ30gG3AUFVX3lxTFBBVnBZRERxMDVoY244QmhzdFE1Y2NwWWxrLUpqZFNBNlExUWxFdzh2MmNaam4zUkt1bG9ZU0JLb2ZFV2RwdThCeTcyaWJkMlQ0LW1rT0hKWGYxVFpRZ2R3WURiNmZrY2xLRDQtZDl0eTUyVVMyTW1JaXZKNG9xOURjTEtCc3FfUVpqekxzUjZzaXR4TzZVUExaZnJsYXJVMkRGWUgxLW5mTUdyWjliTGsyWTJINDVucw?oc=5\n\nApple May Reportedly Raise iPhone, Mac Prices Amid Memory Chip Shortage, Tim Cook Says - Gadgets 360\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFU3UzNtZXl4SDFGbjJBQ1ZpY0pTdVZ2RG52Z3dJZU5pX1dBUTdyYy1mNEVrNVVXOWxnQlBEX2F3bDNnX3NVYVdvd0pvOTRHRnZjRlNlZVJtVE5iZk5tVEw3TVB6akQwY2I1VzhGdkVEeHdZY1c5X0NEYlZCQVhQN015ZVROMVMta3RGcTN3MkxiOWU1cjQ0c3prRV9yMGJ5SGI4a2lidTBucWhOcldlLUJ30gG3AUFVX3lxTFBBVnBZRERxMDVoY244QmhzdFE1Y2NwWWxrLUpqZFNBNlExUWxFdzh2MmNaam4zUkt1bG9ZU0JLb2ZFV2RwdThCeTcyaWJkMlQ0LW1rT0hKWGYxVFpRZ2R3WURiNmZrY2xLRDQtZDl0eTUyVVMyTW1JaXZKNG9xOURjTEtCc3FfUVpqekxzUjZzaXR4TzZVUExaZnJsYXJVMkRGWUgxLW5mTUdyWjliTGsyWTJINDVucw?oc=5\" target=\"_blank\">Apple May Reportedly Raise iPhone, Mac Prices Amid Memory Chip Shortage, Tim Cook Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadgets 360</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Gadgets 360 headline reports Apple may raise iPhone and Mac prices, with Tim Cook citing a memory chip shortage.\n\n\u5185\u5bb9:\nGadgets 360 \u62a5\u9053\u79f0\uff0cApple \u53ef\u80fd\u4e0a\u8c03 iPhone \u548c Mac \u4ef7\u683c\uff0cTim Cook \u5c06\u539f\u56e0\u5f52\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being absorbed by AI datacenter buildout, squeezing supply for consumer devices. When the chip crunch reaches end-user pricing at a company as large as Apple, it confirms AI capex is now distorting the broader hardware market \u2014 a sign the spend is crowding out everything else.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u5e94\u3002\u5f53\u82af\u7247\u77ed\u7f3a\u4f20\u5bfc\u5230 Apple \u8fd9\u79cd\u4f53\u91cf\u516c\u53f8\u7684\u7ec8\u7aef\u5b9a\u4ef7\u65f6\uff0c\u8bf4\u660e AI capex \u5df2\u7ecf\u5f00\u59cb\u626d\u66f2\u6574\u4e2a\u786c\u4ef6\u5e02\u573a\u2014\u2014\u652f\u51fa\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e00\u5207\u3002\n",
       "emailed": false
     }
   ],
