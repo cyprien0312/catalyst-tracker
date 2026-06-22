@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782140526,
-  "generated_at_str": "2026-06-22 15:02:06 UTC",
-  "last_event_ts": 1782139471,
+  "generated_at": 1782140721,
+  "generated_at_str": "2026-06-22 15:05:21 UTC",
+  "last_event_ts": 1782140721,
   "tables": {
     "alerts_dedup": {
-      "count": 1285,
-      "last_ts": 1782139471,
-      "last_str": "2026-06-22 14:44:31 UTC"
+      "count": 1286,
+      "last_ts": 1782140721,
+      "last_str": "2026-06-22 15:05:21 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-22 14:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 743,
-      "last_ts": 1782138902,
-      "last_str": "2026-06-22 14:35:02 UTC"
+      "count": 747,
+      "last_ts": 1782140702,
+      "last_str": "2026-06-22 15:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 909,
-      "last_ts": 1782138904,
-      "last_str": "2026-06-22 14:35:04 UTC"
+      "count": 914,
+      "last_ts": 1782140704,
+      "last_str": "2026-06-22 15:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 483,
-      "last_ts": 1782137103,
-      "last_str": "2026-06-22 14:05:03 UTC"
+      "count": 488,
+      "last_ts": 1782140703,
+      "last_str": "2026-06-22 15:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 663,
-      "last_ts": 1782138905,
-      "last_str": "2026-06-22 14:35:05 UTC"
+      "count": 665,
+      "last_ts": 1782140705,
+      "last_str": "2026-06-22 15:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10750,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1293,
+      "ts": 1782140721,
+      "ts_str": "2026-06-22 15:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory chip maker SanDisk surges to record levels amid global flash storage shortage and rising AI demand - eciks.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 14:01:31 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE1MaXZncEZLMDB1UEllWGpOdjNqR1MxeVFpaTdtbVFqZTd5aUlnTEJDNjc5dGZkbE5MamJPX0h3ZS1QS0pZeWtsbG14Z1NWdmpZZkVzQ2NKUDU5Y3FWdzF3WFg0Zm51b20tcVY3c2hqNA?oc=5\n\nMemory chip maker SanDisk surges to record levels amid global flash storage shortage and rising AI demand - eciks.org\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1MaXZncEZLMDB1UEllWGpOdjNqR1MxeVFpaTdtbVFqZTd5aUlnTEJDNjc5dGZkbE5MamJPX0h3ZS1QS0pZeWtsbG14Z1NWdmpZZkVzQ2NKUDU5Y3FWdzF3WFg0Zm51b20tcVY3c2hqNA?oc=5\" target=\"_blank\">Memory chip maker SanDisk surges to record levels amid global flash storage shortage and rising AI demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eciks.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMemory chip maker SanDisk surged to record-high levels amid a global flash-storage shortage and rising AI demand.\n\n\u5185\u5bb9:\n\u5b58\u50a8\u82af\u7247\u5382\u5546 SanDisk \u5728\u5168\u7403\u95ea\u5b58\u77ed\u7f3a\u4e0e AI \u9700\u6c42\u4e0a\u5347\u7684\u80cc\u666f\u4e0b\uff0c\u80a1\u4ef7\u98d9\u5347\u81f3\u5386\u53f2\u9ad8\u4f4d\u3002\n\nWhy it matters:\nAI buildout is now pulling so hard on NAND/flash supply that prices and equity valuations are spiking \u2014 a sign demand is outrunning capacity. Memory price surges feed directly into hyperscaler capex inflation and are a textbook bubble-stress symptom when the move is this fast.\n\n\u5f71\u54cd:\nAI \u57fa\u5efa\u5bf9 NAND/\u95ea\u5b58\u4f9b\u7ed9\u7684\u62c9\u52a8\u5df2\u7ecf\u5927\u5230\u63a8\u9ad8\u4ef7\u683c\u548c\u80a1\u4ef7\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4ea7\u80fd\u3002\u5b58\u50a8\u4ef7\u683c\u6025\u6da8\u4f1a\u76f4\u63a5\u63a8\u5347\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u800c\u8fd9\u79cd\u5feb\u901f\u62c9\u5347\u6b63\u662f\u5178\u578b\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1291,
       "ts": 1782139471,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple to raise prices as AI boom drives up memory chip costs - Anadolu Ajans\u0131",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 12:12:39 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxNZmFGRWdWbldXVVdXZUFPVmpZS1B1SF9pTHRqdFFtWDRiSS00ZmJMOHlwZkd5UGxyaWJJOXRCYUNzVVBfdnlPOGZsbFdSOXJQQWp2SmtVQnF1bUdjRUdBVFk3allrWjM0LW9naGpxZFBCMkVJbWVKbnBVc0hOQ21iZUtzbmRReTR5eUI0dEJEcUNhSm1BMXhnZHhCdXVjMzFmZmhn?oc=5\n\nApple to raise prices as AI boom drives up memory chip costs - Anadolu Ajans\u0131\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNZmFGRWdWbldXVVdXZUFPVmpZS1B1SF9pTHRqdFFtWDRiSS00ZmJMOHlwZkd5UGxyaWJJOXRCYUNzVVBfdnlPOGZsbFdSOXJQQWp2SmtVQnF1bUdjRUdBVFk3allrWjM0LW9naGpxZFBCMkVJbWVKbnBVc0hOQ21iZUtzbmRReTR5eUI0dEJEcUNhSm1BMXhnZHhCdXVjMzFmZmhn?oc=5\" target=\"_blank\">Apple to raise prices as AI boom drives up memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajans\u0131</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is set to raise prices as the AI boom drives up memory (DRAM/NAND) chip costs.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u7531\u4e8e AI \u70ed\u6f6e\u63a8\u9ad8\u5185\u5b58\uff08DRAM/NAND\uff09\u82af\u7247\u6210\u672c\uff0cApple \u51c6\u5907\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI datacenter buildouts are absorbing so much memory supply that the price spike is now reaching consumer hardware. When AI capex starts inflating costs for unrelated end products, the demand shock has spilled out of the datacenter \u2014 a sign the boom is straining the broader supply chain, not just hyperscaler budgets.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u541e\u566c\u5927\u91cf\u5185\u5b58\u4f9b\u7ed9\uff0c\u4ef7\u683c\u98d9\u5347\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u3002\u5f53 AI capex \u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u9700\u6c42\u51b2\u51fb\u5df2\u7ecf\u6ea2\u51fa\u6570\u636e\u4e2d\u5fc3\u2014\u2014\u8fd9\u662f\u70ed\u6f6e\u6b63\u5728\u6324\u538b\u6574\u4e2a\u4f9b\u5e94\u94fe\u3001\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9884\u7b97\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1093,
-      "ts": 1781784860,
-      "ts_str": "2026-06-18 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX IPO boosted enthusiasm for OpenAI & Anthropic, but these 'key' tests still await - Yahoo! Finance Canada",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 12:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTRncDVRX2I2a21BV1A4VUlkYlZKdlktb0dsTl9aSk4xM3ZBckdKcFFEOXl3bVljWmpldlFwUkhHTHh5UFlKMFE1TlM0VnA2Uml6bWNjT1JEdTFUNkNSVzNGVWZuSnFJU3hySE5tdG14ZGJtdkRWTTZoN1U0OHlJcEgtckh5bGZLa2loRnJXTQ?oc=5\n\nSpaceX IPO boosted enthusiasm for OpenAI & Anthropic, but these 'key' tests still await - Yahoo! Finance Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTRncDVRX2I2a21BV1A4VUlkYlZKdlktb0dsTl9aSk4xM3ZBckdKcFFEOXl3bVljWmpldlFwUkhHTHh5UFlKMFE1TlM0VnA2Uml6bWNjT1JEdTFUNkNSVzNGVWZuSnFJU3hySE5tdG14ZGJtdkRWTTZoN1U0OHlJcEgtckh5bGZLa2loRnJXTQ?oc=5\" target=\"_blank\">SpaceX IPO boosted enthusiasm for OpenAI & Anthropic, but these 'key' tests still await</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
