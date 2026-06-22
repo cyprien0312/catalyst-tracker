@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782115326,
-  "generated_at_str": "2026-06-22 08:02:06 UTC",
-  "last_event_ts": 1782114242,
+  "generated_at": 1782115542,
+  "generated_at_str": "2026-06-22 08:05:42 UTC",
+  "last_event_ts": 1782115537,
   "tables": {
     "alerts_dedup": {
-      "count": 1262,
-      "last_ts": 1782113723,
-      "last_str": "2026-06-22 07:35:23 UTC"
+      "count": 1264,
+      "last_ts": 1782115537,
+      "last_str": "2026-06-22 08:05:37 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-22 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 702,
-      "last_ts": 1782113702,
-      "last_str": "2026-06-22 07:35:02 UTC"
+      "count": 705,
+      "last_ts": 1782115502,
+      "last_str": "2026-06-22 08:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 861,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1270,
+      "ts": 1782115537,
+      "ts_str": "2026-06-22 08:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM price surge threatens AI capital spending cycle, says P Equity Research - KuCoin",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 06:38:33 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxPenByWVpFenVYYWdKa2ZQVDBYak0ybVdkdGM5b1Azb2pXYnV2QnE4VFpGU040elFQZktFNkVnNDI2dlExX0NaMl9DaHBxdzJyR1lGdHZSYzRIemZmbzBuWlI1UjN3RTdMX1pjZjRoVWRBVW52Y2MtWWtYdUdZdFNBQllJSjF2d1Vsb2FQSnJJSDhLQmZQTHZxQTZMTExpNXRhbjg4dWNaWVg5V21zTXc?oc=5\n\nDRAM price surge threatens AI capital spending cycle, says P Equity Research - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPenByWVpFenVYYWdKa2ZQVDBYak0ybVdkdGM5b1Azb2pXYnV2QnE4VFpGU040elFQZktFNkVnNDI2dlExX0NaMl9DaHBxdzJyR1lGdHZSYzRIemZmbzBuWlI1UjN3RTdMX1pjZjRoVWRBVW52Y2MtWWtYdUdZdFNBQllJSjF2d1Vsb2FQSnJJSDhLQmZQTHZxQTZMTExpNXRhbjg4dWNaWVg5V21zTXc?oc=5\" target=\"_blank\">DRAM price surge threatens AI capital spending cycle, says P Equity Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flags \"DRAM price surge threatens AI capital spending cycle\" per P Equity Research, reported via KuCoin.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u63f4\u5f15 P Equity Research\uff08\u7ecf KuCoin \u8f6c\u8f7d\uff09\u8b66\u544a\uff1a\"DRAM \u4ef7\u683c\u98d9\u5347\u5a01\u80c1 AI \u8d44\u672c\u5f00\u652f\u5468\u671f\"\u3002\n\nWhy it matters:\nDRAM and HBM are a hard input to every AI server; a sustained memory price spike raises the cost per GPU node and squeezes the capex math hyperscalers are betting on. If higher memory prices force buildout budgets up or unit volumes down, it pressures the AI-capex-payback thesis from the supply-cost side.\n\n\u5f71\u54cd:\nDRAM \u548c HBM \u662f\u6bcf\u4e00\u53f0 AI \u670d\u52a1\u5668\u90fd\u7ed5\u4e0d\u5f00\u7684\u786c\u6027\u539f\u6599\uff0c\u5185\u5b58\u4ef7\u683c\u6301\u7eed\u98d9\u5347\u4f1a\u62ac\u9ad8\u5355\u4e2a GPU \u8282\u70b9\u7684\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u62bc\u6ce8\u7684 capex \u8d26\u3002\u5982\u679c\u5185\u5b58\u6da8\u4ef7\u8feb\u4f7f\u5efa\u8bbe\u9884\u7b97\u4e0a\u8c03\u6216\u91c7\u8d2d\u91cf\u4e0b\u964d\uff0c\u5c31\u4f1a\u4ece\u4f9b\u7ed9\u6210\u672c\u7aef\u52a8\u6447 AI capex \u56de\u672c\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1271,
+      "ts": 1782115537,
+      "ts_str": "2026-06-22 08:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26 - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 07:45:16 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNenktZmtlbXlpcHVoeFlQN0pZcWVPMGlFWU9BRW5QdFFQNkJOM0pYcjh2NmlXZENOaEdvSzg0THpPbFI4d2RfaEtPdEZFTGh0Y1EyWWNoTjhkN2l6VHd5LTRNSmNqcC1jZ2RIX0dSdjZZaVZyWHJqeVU3dFBQVlVWVmIxQWE5TkE3bjBHZFN0VHpZY0dUUDhEQ0M4aHk0cDBsbGtvSjhodENuaXhWUGtqV1QxSHZHQ3NmU0FmN0FXc0N3NnlHVDdaa3JIeElnX25SUWNIMkpR0gHbAUFVX3lxTFBUcGx6ZVJEU1FmSVRqSURTY0d6dHIxVThvazlZRVpNNVBzWUtlaUhab292TXJBU2ExU2RoZy1GVlk3aTY3X21pNFFRVnhDbk5vcWh4cnA5TDA1MlV1S3BMZFZPd0d2dWh0dnoxQXhmQVZ3aTRhWGFVdWZxbWxMV0I0d0VOczM1VUdnVVEwZTl0RlVDY3otSjdwUlpfazVIZlFvV0F4RVlMZ1NFaUE4TkNIcVdSa2lfNlZ6RjNqTjNsZTFHeW5zN09KRmVMeVRLTlp3SE1zMkthUE1ZOA?oc=5\n\nConsumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNenktZmtlbXlpcHVoeFlQN0pZcWVPMGlFWU9BRW5QdFFQNkJOM0pYcjh2NmlXZENOaEdvSzg0THpPbFI4d2RfaEtPdEZFTGh0Y1EyWWNoTjhkN2l6VHd5LTRNSmNqcC1jZ2RIX0dSdjZZaVZyWHJqeVU3dFBQVlVWVmIxQWE5TkE3bjBHZFN0VHpZY0dUUDhEQ0M4aHk0cDBsbGtvSjhodENuaXhWUGtqV1QxSHZHQ3NmU0FmN0FXc0N3NnlHVDdaa3JIeElnX25SUWNIMkpR0gHbAUFVX3lxTFBUcGx6ZVJEU1FmSVRqSURTY0d6dHIxVThvazlZRVpNNVBzWUtlaUhab292TXJBU2ExU2RoZy1GVlk3aTY3X21pNFFRVnhDbk5vcWh4cnA5TDA1MlV1S3BMZFZPd0d2dWh0dnoxQXhmQVZ3aTRhWGFVdWZxbWxMV0I0d0VOczM1VUdnVVEwZTl0RlVDY3otSjdwUlpfazVIZlFvV0F4RVlMZ1NFaUE4TkNIcVdSa2lfNlZ6RjNqTjNsZTFHeW5zN09KRmVMeVRLTlp3SE1zMkthUE1ZOA?oc=5\" target=\"_blank\">Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TechPowerUp headline reports consumer DRAM shortages have spread to DDR2 products, with contract prices expected to keep rising in 3Q26.\n\n\u5185\u5bb9:\nTechPowerUp \u62a5\u9053\uff0c\u6d88\u8d39\u7ea7 DRAM \u77ed\u7f3a\u5df2\u8513\u5ef6\u5230 DDR2 \u4ea7\u54c1\uff0c\u5408\u7ea6\u4ef7\u9884\u8ba1\u5728 3Q26 \u7ee7\u7eed\u4e0a\u6da8\u3002\n\nWhy it matters:\nDRAM is a core input for AI servers; tightening supply spreading even to old DDR2 signals broad memory scarcity, pushing up the build cost of AI infrastructure and squeezing hyperscaler/neocloud capex margins. Rising memory prices are a real-economy stress point in the AI-capex chain.\n\n\u5f71\u54cd:\nDRAM \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u5143\u4ef6\uff1b\u77ed\u7f3a\u8fde\u8001\u65e7\u7684 DDR2 \u90fd\u6ce2\u53ca\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u5168\u9762\u5403\u7d27\uff0c\u4f1a\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u8d44\u672c\u5f00\u652f\u5229\u6da6\u3002\u5185\u5b58\u6da8\u4ef7\u662f AI capex \u94fe\u6761\u4e0a\u4e00\u4e2a\u5b9e\u6253\u5b9e\u7684\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1269,
       "ts": 1782113723,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Snags Google AI Star Noam Shazeer Ahead of IPO - SQ Magazine",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 07:30:35 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE45d0RVYnBqMU5lbnFtS1BfMXpfZF85SWx5U003Ri1vSGN2Q3BMb2xQZWJHV2piWThub0ctemVqaWsxcTlIZ2VmRWNLbThNaEhBa3JNUE4xMDZvNk1xRzBGSWxLMVk0Y081WF94VndyMHFXNkE1?oc=5\n\nOpenAI Snags Google AI Star Noam Shazeer Ahead of IPO - SQ Magazine\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE45d0RVYnBqMU5lbnFtS1BfMXpfZF85SWx5U003Ri1vSGN2Q3BMb2xQZWJHV2piWThub0ctemVqaWsxcTlIZ2VmRWNLbThNaEhBa3JNUE4xMDZvNk1xRzBGSWxLMVk0Y081WF94VndyMHFXNkE1?oc=5\" target=\"_blank\">OpenAI Snags Google AI Star Noam Shazeer Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SQ Magazine</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI hired Google AI researcher Noam Shazeer (co-inventor of the Transformer architecture) ahead of its IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u5728 IPO \u524d\u6316\u6765\u4e86 Google \u7684 AI \u660e\u661f\u7814\u7a76\u5458 Noam Shazeer\uff08Transformer \u67b6\u6784\u7684\u5171\u540c\u53d1\u660e\u4eba\u4e4b\u4e00\uff09\u3002\n\nWhy it matters:\nHeadline-grabbing talent raids and explicit IPO framing are late-cycle markers \u2014 capital and prestige flowing into one name signals a hype peak, not a productivity gain. The IPO timing matters most: insiders monetizing into public markets is a classic top-of-cycle move.\n\n\u5f71\u54cd:\n\u62a2\u773c\u7684\u4eba\u624d\u4e89\u593a\u6218\u52a0\u4e0a\u660e\u786e\u7684 IPO \u53d9\u4e8b\u662f\u5468\u671f\u665a\u671f\u7684\u6807\u5fd7\u2014\u2014\u8d44\u672c\u548c\u58f0\u671b\u5411\u5355\u4e00\u540d\u5b57\u96c6\u4e2d\uff0c\u53cd\u6620\u7684\u662f\u7092\u4f5c\u89c1\u9876\u800c\u975e\u751f\u4ea7\u529b\u63d0\u5347\u3002\u5176\u4e2d IPO \u65f6\u70b9\u6700\u503c\u5f97\u5173\u6ce8\uff1a\u5185\u90e8\u4eba\u8d81\u673a\u5411\u516c\u5f00\u5e02\u573a\u5957\u73b0\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u9876\u90e8\u52a8\u4f5c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1072,
-      "ts": 1781768676,
-      "ts_str": "2026-06-18 07:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] The AI arms race is intensifying! OpenAI, on the verge of an IPO targeting a trillion-dollar valuation, has poached a st",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 07:23:39 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0MxS0pxVC1PQk1ZQllwUzAwX1RIV01mNmtFXy1KUng5Ym10QWVpcnpxdnpzY0NOSXpXWklnVmxTTGVFUHdMbEpScTlxMXpIY2ZzaWxhLUpGcmd6X0ZZWVJsWGJNWk1lcXpPNmhCUlpFLXpEdG5sdjFFMFhOVFNZUV81bUZqTkctYVBIRkxsT1BYMkE0Rl9QTw?oc=5\n\nThe AI arms race is intensifying! OpenAI, on the verge of an IPO targeting a trillion-dollar valuation, has poached a star researcher from Google (GOOGL.US). - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0MxS0pxVC1PQk1ZQllwUzAwX1RIV01mNmtFXy1KUng5Ym10QWVpcnpxdnpzY0NOSXpXWklnVmxTTGVFUHdMbEpScTlxMXpIY2ZzaWxhLUpGcmd6X0ZZWVJsWGJNWk1lcXpPNmhCUlpFLXpEdG5sdjFFMFhOVFNZUV81bUZqTkctYVBIRkxsT1BYMkE0Rl9QTw?oc=5\" target=\"_blank\">The AI arms race is intensifying! OpenAI, on the verge of an IPO targeting a trillion-dollar valuation, has poached a star researcher from Google (GOOGL.US).</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news item (MED) reports OpenAI poached a star researcher from Google (GOOGL.US) while reportedly approaching an IPO targeting a $1 trillion valuation.\n\n\u5185\u5bb9:\n\u4e00\u6761 C3 \u65b0\u95fb\uff08MED\uff09\u79f0 OpenAI \u4ece Google (GOOGL.US) \u6316\u8d70\u4e00\u540d\u660e\u661f\u7814\u7a76\u5458\uff0c\u540c\u65f6\u636e\u62a5\u9053\u6b63\u63a5\u8fd1\u4ee5 1 \u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u8fdb\u884c IPO\u3002\n\nWhy it matters:\nTalent bidding wars and a trillion-dollar IPO target are textbook late-cycle froth \u2014 capital and headcount are being repriced on narrative, not cash flow. A trillion-dollar valuation for a still-unprofitable lab sets the anchor the whole AI-capex complex is borrowing against.\n\n\u5f71\u54cd:\n\u4eba\u624d\u62a2\u593a\u6218\u52a0\u4e0a\u4e07\u4ebf\u7f8e\u5143 IPO \u76ee\u6807\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6ce1\u6cab\u8ff9\u8c61\u2014\u2014\u8d44\u672c\u548c\u4eba\u529b\u662f\u6309\u53d9\u4e8b\u800c\u975e\u73b0\u91d1\u6d41\u91cd\u65b0\u5b9a\u4ef7\u7684\u3002\u4e00\u4e2a\u4ecd\u672a\u76c8\u5229\u7684\u5b9e\u9a8c\u5ba4\u88ab\u7ed9\u5230\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\uff0c\u7b49\u4e8e\u4e3a\u6574\u4e2a AI capex \u4f53\u7cfb\u8bbe\u5b9a\u4e86\u501f\u4ee5\u52a0\u6760\u6746\u7684\u951a\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1070,
-      "ts": 1781768119,
-      "ts_str": "2026-06-18 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:24:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOT21raTI1SmJSV0E5RC0xbGJZd0NZT2thWjRPNjJ1dFhDa3hhZUliZWpsc1cxVUY5VURhYnU4c2NkVDUzall5U09HNVVHSWcxZ0FscUQtOVpNdnY1YXllX2pIOGxYWk1CMnp5RmxUYlQ5WnFmbkh4emlxYThfTG5YZ0MzYk4xX291RWNUUHFqRU5UVElsRXgtZ3NKUmpYSG1ld1FxaV9LVGN1Mk9xeFczUmJnOFNMMlV3V2Rtem91M21hWVRtb3lF?oc=5\n\nApple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOT21raTI1SmJSV0E5RC0xbGJZd0NZT2thWjRPNjJ1dFhDa3hhZUliZWpsc1cxVUY5VURhYnU4c2NkVDUzall5U09HNVVHSWcxZ0FscUQtOVpNdnY1YXllX2pIOGxYWk1CMnp5RmxUYlQ5WnFmbkh4emlxYThfTG5YZ0MzYk4xX291RWNUUHFqRU5UVElsRXgtZ3NKUmpYSG1ld1FxaV9LVGN1Mk9xeFczUmJnOFNMMlV3V2Rtem91M21hWVRtb3lF?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Reuters/Investing.com headline reports Apple's CEO told the WSJ it will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\nReuters/Investing.com \u62a5\u9053\uff0cApple CEO \u5bf9 WSJ \u8868\u793a\u5c06\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising prices for unrelated products like phones, the demand spike is real but so is the crowding-out \u2014 a sign the cycle is straining the supply chain, not just the financials.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6d88\u8d39\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u624b\u673a\u8fd9\u7c7b\u65e0\u5173\u4ea7\u54c1\u7684\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u9700\u6c42\u662f\u771f\u5b9e\u7684\uff0c\u4f46\u6324\u51fa\u6548\u5e94\u540c\u6837\u771f\u5b9e\u2014\u2014\u8fd9\u662f\u5468\u671f\u5f00\u59cb\u6324\u538b\u4f9b\u5e94\u94fe\u3001\u800c\u4e0d\u53ea\u662f\u6324\u538b\u8d22\u52a1\u62a5\u8868\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
