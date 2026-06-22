@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782145926,
-  "generated_at_str": "2026-06-22 16:32:06 UTC",
-  "last_event_ts": 1782144858,
+  "generated_at": 1782146123,
+  "generated_at_str": "2026-06-22 16:35:23 UTC",
+  "last_event_ts": 1782146122,
   "tables": {
     "alerts_dedup": {
-      "count": 1293,
-      "last_ts": 1782144858,
-      "last_str": "2026-06-22 16:14:18 UTC"
+      "count": 1294,
+      "last_ts": 1782146122,
+      "last_str": "2026-06-22 16:35:22 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-22 14:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 751,
-      "last_ts": 1782144302,
-      "last_str": "2026-06-22 16:05:02 UTC"
+      "count": 754,
+      "last_ts": 1782146102,
+      "last_str": "2026-06-22 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 921,
-      "last_ts": 1782144305,
-      "last_str": "2026-06-22 16:05:05 UTC"
+      "count": 923,
+      "last_ts": 1782146104,
+      "last_str": "2026-06-22 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 494,
-      "last_ts": 1782144304,
-      "last_str": "2026-06-22 16:05:04 UTC"
+      "count": 496,
+      "last_ts": 1782146103,
+      "last_str": "2026-06-22 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 669,
-      "last_ts": 1782144306,
-      "last_str": "2026-06-22 16:05:06 UTC"
+      "count": 674,
+      "last_ts": 1782146105,
+      "last_str": "2026-06-22 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10770,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1301,
+      "ts": 1782146122,
+      "ts_str": "2026-06-22 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26 - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 07:45:16 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVHBsemVSRFNRZklUaklEU2NHenRyMVU4b2s5WUVaTTVQc1lLZWlIWm9vdk1yQVNhMVNkaGctRlZZN2k2N19taTRRUVZ4Q25Ob3FoeHJwOUwwNTJVdUtwTGRWT3dHdnVodHZ6MUF4ZkFWd2k0YVhhVXVmcW1sTFdCNHdFTnMzNVVHZ1VRMGU5dEZVQ2N6LUo3cFJaX2s1SGZRb1dBeEVZTGdTRWlBOE5DSHFXUmtpXzZWekYzak4zbGUxR3luczdPSkZlTHlUS05ad0hNczJLYVBNWTjSAdsBQVVfeXFMUFRwbHplUkRTUWZJVGpJRFNjR3p0cjFVOG9rOVlFWk01UHNZS2VpSFpvb3ZNckFTYTFTZGhnLUZWWTdpNjdfbWk0UVFWeENuTm9xaHhycDlMMDUyVXVLcExkVk93R3Z1aHR2ejFBeGZBVndpNGFYYVV1ZnFtbExXQjR3RU5zMzVVR2dVUTBlOXRGVUNjei1KN3BSWl9rNUhmUW9XQXhFWUxnU0VpQThOQ0hxV1JraV82VnpGM2pOM2xlMUd5bnM3T0pGZUx5VEtOWndITXMyS2FQTVk4?oc=5\n\nConsumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVHBsemVSRFNRZklUaklEU2NHenRyMVU4b2s5WUVaTTVQc1lLZWlIWm9vdk1yQVNhMVNkaGctRlZZN2k2N19taTRRUVZ4Q25Ob3FoeHJwOUwwNTJVdUtwTGRWT3dHdnVodHZ6MUF4ZkFWd2k0YVhhVXVmcW1sTFdCNHdFTnMzNVVHZ1VRMGU5dEZVQ2N6LUo3cFJaX2s1SGZRb1dBeEVZTGdTRWlBOE5DSHFXUmtpXzZWekYzak4zbGUxR3luczdPSkZlTHlUS05ad0hNczJLYVBNWTjSAdsBQVVfeXFMUFRwbHplUkRTUWZJVGpJRFNjR3p0cjFVOG9rOVlFWk01UHNZS2VpSFpvb3ZNckFTYTFTZGhnLUZWWTdpNjdfbWk0UVFWeENuTm9xaHhycDlMMDUyVXVLcExkVk93R3Z1aHR2ejFBeGZBVndpNGFYYVV1ZnFtbExXQjR3RU5zMzVVR2dVUTBlOXRGVUNjei1KN3BSWl9rNUhmUW9XQXhFWUxnU0VpQThOQ0hxV1JraV82VnpGM2pOM2xlMUd5bnM3T0pGZUx5VEtOWndITXMyS2FQTVk4?oc=5\" target=\"_blank\">Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 memory-price signal fired on a headline: \"Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26\" (TechPowerUp). The shortage has now spread to legacy DDR2, with contract prices set to keep climbing into 3Q26.\n\n\u5185\u5bb9:\nC6 \u5185\u5b58\u4ef7\u683c\u4fe1\u53f7\u88ab\u4e00\u6761\u6807\u9898\u89e6\u53d1\uff1a\"Consumer DRAM Shortages Extend to DDR2 Products with Contract Prices Expected to Continue Rising in 3Q26\"\uff08TechPowerUp\uff09\u3002\u77ed\u7f3a\u5df2\u8513\u5ef6\u5230\u8001\u65e7\u7684 DDR2 \u4ea7\u54c1\uff0c\u5408\u7ea6\u4ef7\u9884\u8ba1\u5c06\u6301\u7eed\u4e0a\u6da8\u81f3 3Q26\u3002\n\nWhy it matters:\nDRAM is a core AI-buildout input, and shortages reaching even old DDR2 nodes show capacity is being starved across the board as HBM/AI demand soaks up fab output. Sustained, broadening price increases raise the bill of materials for servers and squeeze margins downstream \u2014 a sign the capex cycle is straining the supply chain.\n\n\u5f71\u54cd:\nDRAM \u662f AI \u57fa\u5efa\u7684\u6838\u5fc3\u5143\u4ef6\uff0c\u77ed\u7f3a\u8fde\u8001\u65e7\u7684 DDR2 \u8282\u70b9\u90fd\u6ce2\u53ca\uff0c\u8bf4\u660e HBM \u4e0e AI \u9700\u6c42\u6b63\u5438\u8d70\u6574\u4f53\u6676\u5706\u4ea7\u80fd\uff0c\u6324\u538b\u6240\u6709\u5185\u5b58\u4f9b\u7ed9\u3002\u4ef7\u683c\u6301\u7eed\u4e14\u5168\u9762\u4e0a\u6da8\u62ac\u9ad8\u4e86\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3001\u538b\u7f29\u4e0b\u6e38\u5229\u6da6\u2014\u2014\u8fd9\u662f capex \u5468\u671f\u6b63\u5728\u62c9\u7d27\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1300,
       "ts": 1782144858,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 13:18:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\n\nEven before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\" target=\"_blank\">Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck story flags that Apple's RAM and SSD upgrade prices are steeply marked up even before the announced Mac price hikes.\n\n\u5185\u5bb9:\nNotebookcheck \u62a5\u9053\u6307\u51fa\uff0c\u5373\u4fbf\u5728 Apple \u5ba3\u5e03 Mac \u6da8\u4ef7\u4e4b\u524d\uff0c\u5176 RAM \u4e0e SSD \u5347\u7ea7\u5b9a\u4ef7\u5c31\u5df2\u88ab\u5927\u5e45\u62ac\u9ad8\u3002\n\nWhy it matters:\nDRAM and NAND are the input cost here, and rising memory/storage prices are a direct tell that the AI-buildout is straining the memory supply chain. When even a vertically integrated vendor like Apple is raising RAM/SSD pricing, it signals the component squeeze is reaching consumer hardware \u2014 a broad cost-push symptom of AI-capex demand.\n\n\u5f71\u54cd:\nDRAM \u548c NAND \u662f\u8fd9\u91cc\u7684\u4e0a\u6e38\u6210\u672c\uff0c\u5185\u5b58\u4e0e\u5b58\u50a8\u4ef7\u683c\u4e0a\u6da8\u662f AI \u5927\u89c4\u6a21\u5efa\u8bbe\u6324\u538b\u5b58\u50a8\u4f9b\u5e94\u94fe\u7684\u76f4\u63a5\u4fe1\u53f7\u3002\u5f53\u8fde Apple \u8fd9\u79cd\u5782\u76f4\u6574\u5408\u5382\u5546\u90fd\u5728\u62ac\u9ad8 RAM/SSD \u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u5143\u5668\u4ef6\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8fd9\u662f AI capex \u9700\u6c42\u5f15\u53d1\u7684\u5e7f\u4e49\u6210\u672c\u63a8\u5347\u75c7\u72b6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1100,
-      "ts": 1781789732,
-      "ts_str": "2026-06-18 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 13:18:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\n\nEven before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\" target=\"_blank\">Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck story flags that Apple's RAM and SSD upgrade prices are steeply marked up even before the announced Mac price hikes.\n\n\u5185\u5bb9:\nNotebookcheck \u62a5\u9053\u6307\u51fa\uff0c\u5373\u4fbf\u5728 Apple \u5ba3\u5e03 Mac \u6da8\u4ef7\u4e4b\u524d\uff0c\u5176 RAM \u4e0e SSD \u5347\u7ea7\u5b9a\u4ef7\u5c31\u5df2\u88ab\u5927\u5e45\u62ac\u9ad8\u3002\n\nWhy it matters:\nDRAM and NAND are the input cost here, and rising memory/storage prices are a direct tell that the AI-buildout is straining the memory supply chain. When even a vertically integrated vendor like Apple is raising RAM/SSD pricing, it signals the component squeeze is reaching consumer hardware \u2014 a broad cost-push symptom of AI-capex demand.\n\n\u5f71\u54cd:\nDRAM \u548c NAND \u662f\u8fd9\u91cc\u7684\u4e0a\u6e38\u6210\u672c\uff0c\u5185\u5b58\u4e0e\u5b58\u50a8\u4ef7\u683c\u4e0a\u6da8\u662f AI \u5927\u89c4\u6a21\u5efa\u8bbe\u6324\u538b\u5b58\u50a8\u4f9b\u5e94\u94fe\u7684\u76f4\u63a5\u4fe1\u53f7\u3002\u5f53\u8fde Apple \u8fd9\u79cd\u5782\u76f4\u6574\u5408\u5382\u5546\u90fd\u5728\u62ac\u9ad8 RAM/SSD \u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u5143\u5668\u4ef6\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8fd9\u662f AI capex \u9700\u6c42\u5f15\u53d1\u7684\u5e7f\u4e49\u6210\u672c\u63a8\u5347\u75c7\u72b6\u3002\n",
       "emailed": false
     }
   ],
