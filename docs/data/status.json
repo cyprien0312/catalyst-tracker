@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782144662,
-  "generated_at_str": "2026-06-22 16:11:02 UTC",
-  "last_event_ts": 1782144318,
+  "generated_at": 1782144866,
+  "generated_at_str": "2026-06-22 16:14:26 UTC",
+  "last_event_ts": 1782144858,
   "tables": {
     "alerts_dedup": {
-      "count": 1292,
-      "last_ts": 1782144318,
-      "last_str": "2026-06-22 16:05:18 UTC"
+      "count": 1293,
+      "last_ts": 1782144858,
+      "last_str": "2026-06-22 16:14:18 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -44,9 +44,9 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2089,
-      "last_ts": 1782143043,
-      "last_str": "2026-06-22 15:44:03 UTC"
+      "count": 2090,
+      "last_ts": 1782144843,
+      "last_str": "2026-06-22 16:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 441,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-22 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 10759,
-      "last_ts": 1782143042,
-      "last_str": "2026-06-22 15:44:02 UTC"
+      "count": 10770,
+      "last_ts": 1782144842,
+      "last_str": "2026-06-22 16:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1300,
+      "ts": 1782144858,
+      "ts_str": "2026-06-22 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI is betting on a super app as it heads toward an IPO - Fortune",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 15:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFljUW43dTdjY04xZ05tNXRQb2RFSk9DMng4ZEp2SzZwdDNISHFDZnduYnRxNmNvRzZiVHMyNC1JTmhFNDJjeUk5QTZpTFdHdXZLUGRzTDBISnVBSGpfYUkyZk5DbnV6Q0l2UFFWX3JHNzJ1dnZub1JvQm05SmFCcw?oc=5\n\nOpenAI is betting on a super app as it heads toward an IPO - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNUFljUW43dTdjY04xZ05tNXRQb2RFSk9DMng4ZEp2SzZwdDNISHFDZnduYnRxNmNvRzZiVHMyNC1JTmhFNDJjeUk5QTZpTFdHdXZLUGRzTDBISnVBSGpfYUkyZk5DbnV6Q0l2UFFWX3JHNzJ1dnZub1JvQm05SmFCcw?oc=5\" target=\"_blank\">OpenAI is betting on a super app as it heads toward an IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Fortune headline reports OpenAI is building a consumer \"super app\" as it moves toward an IPO.\n\n\u5185\u5bb9:\nFortune \u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u5728\u6253\u9020\u4e00\u6b3e\u6d88\u8d39\u7ea7\"\u8d85\u7ea7\u5e94\u7528\"\uff0c\u540c\u65f6\u63a8\u8fdb IPO\u3002\n\nWhy it matters:\nAn IPO push signals OpenAI needs public capital \u2014 a tell that private funding can no longer cover its compute and operating burn. The \"super app\" pivot is a hunt for consumer revenue to justify a valuation that AI-capex math alone doesn't support. Both point to mounting pressure to monetize before the spend cycle outruns the funding cycle.\n\n\u5f71\u54cd:\n\u63a8\u8fdb IPO \u610f\u5473\u7740 OpenAI \u9700\u8981\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u2014\u2014\u8fd9\u662f\u79c1\u52df\u878d\u8d44\u5df2\u65e0\u6cd5\u8986\u76d6\u5176\u7b97\u529b\u4e0e\u8fd0\u8425\u70e7\u94b1\u7684\u4fe1\u53f7\u3002\u8f6c\u5411\"\u8d85\u7ea7\u5e94\u7528\"\u5219\u662f\u5728\u5bfb\u627e\u6d88\u8d39\u7aef\u6536\u5165\uff0c\u4ee5\u652f\u6491\u5355\u9760 AI capex \u903b\u8f91\u6491\u4e0d\u8d77\u7684\u4f30\u503c\u3002\u4e24\u8005\u90fd\u6307\u5411\u540c\u4e00\u538b\u529b\uff1a\u5728\u652f\u51fa\u8282\u594f\u8dd1\u8d62\u878d\u8d44\u8282\u594f\u4e4b\u524d\u5fc5\u987b\u52a0\u5feb\u53d8\u73b0\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1297,
       "ts": 1782144318,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 13:18:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\n\nEven before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3NNVzRCUVY5bWJrLWZLdkdqTVIxNnVGa1lTSmpZb01RNHctUnFBd0ZtakdEaWU2YXVBZkRqT0xqd2ZTQW5vMnUyU2YtLUZCRVRGdmRjd2dlQ2FmSnJSdUxncjNDU05haFcxTXhPNU1HY1k5MFpWdm9aZXBjaV81T3M3bktaa256OFl5VlpmN2lxVFZPdnhoQ3dnTkE0dHNpYkNzWkJDaVZnSHZDWlB6N253cGJVWWd0bmVDcFNpcEtBaHc?oc=5\" target=\"_blank\">Even before Mac price hikes: Here's how overpriced Apple's RAM and SSD prices are</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck story flags that Apple's RAM and SSD upgrade prices are steeply marked up even before the announced Mac price hikes.\n\n\u5185\u5bb9:\nNotebookcheck \u62a5\u9053\u6307\u51fa\uff0c\u5373\u4fbf\u5728 Apple \u5ba3\u5e03 Mac \u6da8\u4ef7\u4e4b\u524d\uff0c\u5176 RAM \u4e0e SSD \u5347\u7ea7\u5b9a\u4ef7\u5c31\u5df2\u88ab\u5927\u5e45\u62ac\u9ad8\u3002\n\nWhy it matters:\nDRAM and NAND are the input cost here, and rising memory/storage prices are a direct tell that the AI-buildout is straining the memory supply chain. When even a vertically integrated vendor like Apple is raising RAM/SSD pricing, it signals the component squeeze is reaching consumer hardware \u2014 a broad cost-push symptom of AI-capex demand.\n\n\u5f71\u54cd:\nDRAM \u548c NAND \u662f\u8fd9\u91cc\u7684\u4e0a\u6e38\u6210\u672c\uff0c\u5185\u5b58\u4e0e\u5b58\u50a8\u4ef7\u683c\u4e0a\u6da8\u662f AI \u5927\u89c4\u6a21\u5efa\u8bbe\u6324\u538b\u5b58\u50a8\u4f9b\u5e94\u94fe\u7684\u76f4\u63a5\u4fe1\u53f7\u3002\u5f53\u8fde Apple \u8fd9\u79cd\u5782\u76f4\u6574\u5408\u5382\u5546\u90fd\u5728\u62ac\u9ad8 RAM/SSD \u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u5143\u5668\u4ef6\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8fd9\u662f AI capex \u9700\u6c42\u5f15\u53d1\u7684\u5e7f\u4e49\u6210\u672c\u63a8\u5347\u75c7\u72b6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1101,
-      "ts": 1781789732,
-      "ts_str": "2026-06-18 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices to offset memory chip shortage, Cook says - The National",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 13:07:30 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxQVVBnc3R2RWYyemZsTmtPdDR2WTlnOWg2MUhINVJLMEhOaDV5bmNVWjNyYWJVenBaeDhPTXFRQkpkazNnTTFPVHlRM3pyZ0hqai1PcHNWMGE5TEFPZ2JkQWhvZF9xd1FIOUhnZkxiQmxTNXlSX0NpMHMwQ0EzMkRVNFpLT1IyN2dEUWROVS1rbFliSndwM2taRUJEMG9ycjJWb3JyaGt4NGpVaHFRbms2R1FtX21Ndw?oc=5\n\nApple to raise prices to offset memory chip shortage, Cook says - The National\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQVVBnc3R2RWYyemZsTmtPdDR2WTlnOWg2MUhINVJLMEhOaDV5bmNVWjNyYWJVenBaeDhPTXFRQkpkazNnTTFPVHlRM3pyZ0hqai1PcHNWMGE5TEFPZ2JkQWhvZF9xd1FIOUhnZkxiQmxTNXlSX0NpMHMwQ0EzMkRVNFpLT1IyN2dEUWROVS1rbFliSndwM2taRUJEMG9ycjJWb3JyaGt4NGpVaHFRbms2R1FtX21Ndw?oc=5\" target=\"_blank\">Apple to raise prices to offset memory chip shortage, Cook says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The National</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple will raise prices to offset a memory chip shortage, per CEO Tim Cook.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0c\u636e CEO Tim Cook \u8868\u793a\uff0cApple \u5c06\u4e0a\u8c03\u4ef7\u683c\u4ee5\u62b5\u6d88\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u7684\u5f71\u54cd\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When a company as supply-chained as Apple has to pass memory costs to customers, it signals the AI-capex demand shock is tightening the broader chip market \u2014 inflationary and a sign the buildout is crowding out other buyers.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53\u4f9b\u5e94\u94fe\u7ba1\u7406\u80fd\u529b\u5982 Apple \u8fd9\u822c\u5f3a\u7684\u516c\u53f8\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0c\u8bf4\u660e AI capex \u7684\u9700\u6c42\u51b2\u51fb\u6b63\u5728\u6536\u7d27\u6574\u4e2a\u82af\u7247\u5e02\u573a\u2014\u2014\u65e2\u6709\u901a\u80c0\u538b\u529b\uff0c\u4e5f\u8868\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
