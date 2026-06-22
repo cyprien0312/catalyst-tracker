@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782113526,
-  "generated_at_str": "2026-06-22 07:32:06 UTC",
-  "last_event_ts": 1782112443,
+  "generated_at": 1782113724,
+  "generated_at_str": "2026-06-22 07:35:24 UTC",
+  "last_event_ts": 1782113723,
   "tables": {
     "alerts_dedup": {
-      "count": 1261,
-      "last_ts": 1782108328,
-      "last_str": "2026-06-22 06:05:28 UTC"
+      "count": 1262,
+      "last_ts": 1782113723,
+      "last_str": "2026-06-22 07:35:23 UTC"
     },
     "c1_filings": {
       "count": 104,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-22 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 698,
-      "last_ts": 1782111902,
-      "last_str": "2026-06-22 07:05:02 UTC"
+      "count": 702,
+      "last_ts": 1782113702,
+      "last_str": "2026-06-22 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 858,
-      "last_ts": 1782111903,
-      "last_str": "2026-06-22 07:05:03 UTC"
+      "count": 861,
+      "last_ts": 1782113704,
+      "last_str": "2026-06-22 07:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 460,
-      "last_ts": 1782111903,
-      "last_str": "2026-06-22 07:05:03 UTC"
+      "count": 461,
+      "last_ts": 1782113703,
+      "last_str": "2026-06-22 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 621,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1269,
+      "ts": 1782113723,
+      "ts_str": "2026-06-22 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Bernstein raises Micron stock price target to $1,300 on DRAM strength - Investing.com Canada",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 07:18:51 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxQdjVzRml1SGVhVnZBOEdHSGhKMXpUTl9rQUNfOW5Ud05TczU5eEJueXhlQzJyTmxPdXhvZ0thb3lwX3J4bWo2ZjlBWm9HMmRJSnpNOWxmaWluS1ZPQVVFZUFMV253T19UR0ZjSUxNZ3RxSkROV3g0STZzSzloNzZrOVVhQXYzUGE3QzNRQjZhSFBDVFZ4aVg0bzkxckI4YU13Y3JkUVNIZkVKUC1uVE8ySFI3d1BENFFEZW5NSVBYMTdoOU5tOW53?oc=5\n\nBernstein raises Micron stock price target to $1,300 on DRAM strength - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQdjVzRml1SGVhVnZBOEdHSGhKMXpUTl9rQUNfOW5Ud05TczU5eEJueXhlQzJyTmxPdXhvZ0thb3lwX3J4bWo2ZjlBWm9HMmRJSnpNOWxmaWluS1ZPQVVFZUFMV253T19UR0ZjSUxNZ3RxSkROV3g0STZzSzloNzZrOVVhQXYzUGE3QzNRQjZhSFBDVFZ4aVg0bzkxckI4YU13Y3JkUVNIZkVKUC1uVE8ySFI3d1BENFFEZW5NSVBYMTdoOU5tOW53?oc=5\" target=\"_blank\">Bernstein raises Micron stock price target to $1,300 on DRAM strength</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein raised its Micron (MU) price target to $1,300, citing DRAM strength.\n\n\u5185\u5bb9:\nBernstein \u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,300\uff0c\u7406\u7531\u662f DRAM \u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nSell-side targets melting up on memory pricing is a late-cycle euphoria tell \u2014 analysts extrapolating an AI-driven DRAM/HBM super-cycle into perpetuity. The further targets detach from current price, the more the rally depends on sentiment rather than earnings, raising the air-pocket risk if memory pricing rolls over.\n\n\u5f71\u54cd:\n\u5356\u65b9\u76ee\u6807\u4ef7\u968f\u5185\u5b58\u6da8\u4ef7\u4e0d\u65ad\u4e0a\u4fee\uff0c\u662f\u5468\u671f\u665a\u671f\u7684\u4ea2\u594b\u4fe1\u53f7\u2014\u2014\u5206\u6790\u5e08\u628a AI \u9a71\u52a8\u7684 DRAM/HBM \u8d85\u7ea7\u5468\u671f\u65e0\u9650\u5916\u63a8\u3002\u76ee\u6807\u4ef7\u504f\u79bb\u73b0\u4ef7\u8d8a\u8fdc\uff0c\u8fd9\u6ce2\u884c\u60c5\u5c31\u8d8a\u4f9d\u8d56\u60c5\u7eea\u800c\u975e\u76c8\u5229\uff1b\u4e00\u65e6\u5185\u5b58\u4ef7\u683c\u89c1\u9876\u56de\u843d\uff0c\u6025\u8dcc\u98ce\u9669\u968f\u4e4b\u4e0a\u5347\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1266,
       "ts": 1782108328,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 17 Jun 2026 21:24:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOT21raTI1SmJSV0E5RC0xbGJZd0NZT2thWjRPNjJ1dFhDa3hhZUliZWpsc1cxVUY5VURhYnU4c2NkVDUzall5U09HNVVHSWcxZ0FscUQtOVpNdnY1YXllX2pIOGxYWk1CMnp5RmxUYlQ5WnFmbkh4emlxYThfTG5YZ0MzYk4xX291RWNUUHFqRU5UVElsRXgtZ3NKUmpYSG1ld1FxaV9LVGN1Mk9xeFczUmJnOFNMMlV3V2Rtem91M21hWVRtb3lF?oc=5\n\nApple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOT21raTI1SmJSV0E5RC0xbGJZd0NZT2thWjRPNjJ1dFhDa3hhZUliZWpsc1cxVUY5VURhYnU4c2NkVDUzall5U09HNVVHSWcxZ0FscUQtOVpNdnY1YXllX2pIOGxYWk1CMnp5RmxUYlQ5WnFmbkh4emlxYThfTG5YZ0MzYk4xX291RWNUUHFqRU5UVElsRXgtZ3NKUmpYSG1ld1FxaV9LVGN1Mk9xeFczUmJnOFNMMlV3V2Rtem91M21hWVRtb3lF?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO tells WSJ By Reuters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Reuters/Investing.com headline reports Apple's CEO told the WSJ it will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\nReuters/Investing.com \u62a5\u9053\uff0cApple CEO \u5bf9 WSJ \u8868\u793a\u5c06\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising prices for unrelated products like phones, the demand spike is real but so is the crowding-out \u2014 a sign the cycle is straining the supply chain, not just the financials.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6d88\u8d39\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u624b\u673a\u8fd9\u7c7b\u65e0\u5173\u4ea7\u54c1\u7684\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u9700\u6c42\u662f\u771f\u5b9e\u7684\uff0c\u4f46\u6324\u51fa\u6548\u5e94\u540c\u6837\u771f\u5b9e\u2014\u2014\u8fd9\u662f\u5468\u671f\u5f00\u59cb\u6324\u538b\u4f9b\u5e94\u94fe\u3001\u800c\u4e0d\u53ea\u662f\u6324\u538b\u8d22\u52a1\u62a5\u8868\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1069,
-      "ts": 1781766856,
-      "ts_str": "2026-06-18 07:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Google Gemini co-lead Noam Shazeer to join IPO-bound OpenAI - The Hindu",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 05:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXNwVmFpU1B0RDNGVExVZjZVM052OFZaLXVGc2F3NDdZZjRxOVc0UHh2NW5nOFZQdEJPT2pDMkR2aGNXd21RcUhsT0dkYm9Fdjg0RmtJVURrQmFNb1AxdzZWWnJFUVhyX2VPVHV6cERpWGozdGM3dXA0WFhCS2V4SWUxYjJQdWttS0Z0eVpHejFqMFpYa0w1SEtyeVZaV3hyQVlzMkRoWmh5SHZaVUpEblBrT3BIQlNLYmtOd2RQUW1kTVplQWRUeNIByAFBVV95cUxPQXNwVmFpU1B0RDNGVExVZjZVM052OFZaLXVGc2F3NDdZZjRxOVc0UHh2NW5nOFZQdEJPT2pDMkR2aGNXd21RcUhsT0dkYm9Fdjg0RmtJVURrQmFNb1AxdzZWWnJFUVhyX2VPVHV6cERpWGozdGM3dXA0WFhCS2V4SWUxYjJQdWttS0Z0eVpHejFqMFpYa0w1SEtyeVZaV3hyQVlzMkRoWmh5SHZaVUpEblBrT3BIQlNLYmtOd2RQUW1kTVplQWRUeA?oc=5\n\nGoogle Gemini co-lead Noam Shazeer to join IPO-bound OpenAI - The Hindu\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXNwVmFpU1B0RDNGVExVZjZVM052OFZaLXVGc2F3NDdZZjRxOVc0UHh2NW5nOFZQdEJPT2pDMkR2aGNXd21RcUhsT0dkYm9Fdjg0RmtJVURrQmFNb1AxdzZWWnJFUVhyX2VPVHV6cERpWGozdGM3dXA0WFhCS2V4SWUxYjJQdWttS0Z0eVpHejFqMFpYa0w1SEtyeVZaV3hyQVlzMkRoWmh5SHZaVUpEblBrT3BIQlNLYmtOd2RQUW1kTVplQWRUeNIByAFBVV95cUxPQXNwVmFpU1B0RDNGVExVZjZVM052OFZaLXVGc2F3NDdZZjRxOVc0UHh2NW5nOFZQdEJPT2pDMkR2aGNXd21RcUhsT0dkYm9Fdjg0RmtJVURrQmFNb1AxdzZWWnJFUVhyX2VPVHV6cERpWGozdGM3dXA0WFhCS2V4SWUxYjJQdWttS0Z0eVpHejFqMFpYa0w1SEtyeVZaV3hyQVlzMkRoWmh5SHZaVUpEblBrT3BIQlNLYmtOd2RQUW1kTVplQWRUeA?oc=5\" target=\"_blank\">Google Gemini co-lead Noam Shazeer to join IPO-bound OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle Gemini co-lead Noam Shazeer is reported to be joining IPO-bound OpenAI.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cGoogle Gemini \u8054\u5408\u8d1f\u8d23\u4eba Noam Shazeer \u5c06\u52a0\u5165\u6b63\u5728\u7b79\u5907 IPO \u7684 OpenAI\u3002\n\nWhy it matters:\nSenior talent moving from Google to a pre-IPO OpenAI signals both an intensifying talent war and OpenAI staffing up ahead of a public listing. An OpenAI IPO would be the marquee liquidity event of the AI-capex cycle \u2014 and a top-tick risk if it lands while infrastructure spend is peaking.\n\n\u5f71\u54cd:\n\u9876\u7ea7\u4eba\u624d\u4ece Google \u6d41\u5411 IPO \u524d\u7684 OpenAI\uff0c\u65e2\u53cd\u6620\u4eba\u624d\u4e89\u593a\u6218\u5347\u6e29\uff0c\u4e5f\u8bf4\u660e OpenAI \u6b63\u5728\u4e3a\u4e0a\u5e02\u6269\u5145\u56e2\u961f\u3002OpenAI \u7684 IPO \u5c06\u662f\u8fd9\u8f6e AI capex \u5468\u671f\u6700\u91cd\u78c5\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5982\u679c\u5b83\u6070\u597d\u5728\u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u89c1\u9876\u65f6\u843d\u5730\uff0c\u5f88\u53ef\u80fd\u5c31\u662f\u5468\u671f\u9876\u90e8\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
