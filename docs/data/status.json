@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782189124,
-  "generated_at_str": "2026-06-23 04:32:04 UTC",
-  "last_event_ts": 1782188077,
+  "generated_at": 1782189321,
+  "generated_at_str": "2026-06-23 04:35:21 UTC",
+  "last_event_ts": 1782189320,
   "tables": {
     "alerts_dedup": {
-      "count": 1308,
-      "last_ts": 1782188077,
-      "last_str": "2026-06-23 04:14:37 UTC"
+      "count": 1309,
+      "last_ts": 1782189320,
+      "last_str": "2026-06-23 04:35:20 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -59,9 +59,9 @@
       "last_str": "2026-06-23 03:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 939,
-      "last_ts": 1782187504,
-      "last_str": "2026-06-23 04:05:04 UTC"
+      "count": 940,
+      "last_ts": 1782189304,
+      "last_str": "2026-06-23 04:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 512,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1316,
+      "ts": 1782189320,
+      "ts_str": "2026-06-23 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Umahi demands cut in cement prices as Lafarge rebrands to HBM - Daily Trust",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 02:31:23 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVgtN000amVzcXBUeFF0Vno1UzE3dzVkdVRsZ2VyVVJhWWYyVjBKa3VBUEJac2pUMXVHdUVYc0pTUGNpMGc1QkhUelhqVVR4alloOXZYcWVEOXJhZ1ZEeElQUWlvWVFhRjh0dWo4bXl0bDFiZlJYN2hMd21waW0yT0tsVlNHSDlabHpQaQ?oc=5\n\nUmahi demands cut in cement prices as Lafarge rebrands to HBM - Daily Trust\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNVgtN000amVzcXBUeFF0Vno1UzE3dzVkdVRsZ2VyVVJhWWYyVjBKa3VBUEJac2pUMXVHdUVYc0pTUGNpMGc1QkhUelhqVVR4alloOXZYcWVEOXJhZ1ZEeElQUWlvWVFhRjh0dWo4bXl0bDFiZlJYN2hMd21waW0yT0tsVlNHSDlabHpQaQ?oc=5\" target=\"_blank\">Umahi demands cut in cement prices as Lafarge rebrands to HBM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Trust</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports that Nigerian senator Umahi is demanding lower cement prices as Lafarge rebrands to \"HBM.\" This is a cement-industry story; the \"HBM\" here is Lafarge's new corporate brand, not High Bandwidth Memory.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053\u5c3c\u65e5\u5229\u4e9a\u53c2\u8bae\u5458 Umahi \u8981\u6c42\u4e0b\u8c03\u6c34\u6ce5\u4ef7\u683c\uff0c\u80cc\u666f\u662f Lafarge \u66f4\u540d\u4e3a \"HBM\"\u3002\u8fd9\u662f\u6c34\u6ce5\u884c\u4e1a\u65b0\u95fb\uff0c\u8fd9\u91cc\u7684 \"HBM\" \u662f Lafarge \u7684\u65b0\u4f01\u4e1a\u54c1\u724c\uff0c\u5e76\u975e\u9ad8\u5e26\u5bbd\u5185\u5b58 (High Bandwidth Memory)\u3002\n\nWhy it matters:\nThis is a false-positive match \u2014 it has nothing to do with AI infrastructure, GPU memory, or capex. The C6 keyword filter caught \"HBM\" out of context. No bubble-stress signal here; the alert should be ignored or the matcher tightened.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e00\u6b21\u8bef\u62a5\u2014\u2014\u4e0e AI \u57fa\u7840\u8bbe\u65bd\u3001GPU \u663e\u5b58\u6216\u8d44\u672c\u5f00\u652f\u6beb\u65e0\u5173\u7cfb\u3002C6 \u5173\u952e\u8bcd\u8fc7\u6ee4\u5668\u628a\u8131\u79bb\u8bed\u5883\u7684 \"HBM\" \u5f53\u6210\u4e86\u4fe1\u53f7\u3002\u6b64\u5904\u4e0d\u5b58\u5728\u4efb\u4f55\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\uff0c\u5e94\u5ffd\u7565\u8be5\u544a\u8b66\u6216\u6536\u7d27\u5339\u914d\u89c4\u5219\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1314,
       "ts": 1782188077,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple to hike product prices amid rising memory chip costs: Tim Cook - Asianet Newsable",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 14:31:01 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcVhxcnFaeGhOVm8wdHNSc1BaamRYRzk5d2YtOUktSHJTRDNwM2NZV1NFNmNYck9MY2lLZUM3cVNiSTVWdVRiMnEzU3N1a3hyc1duakJ6QUVUX3gwejlFSHRrY0dUSXNQYmRSMjRPSzV1Q3c2b3ZjbkF6cXdfdU81cFFTcGRjMFpfWElYZi1CaGpEdzJ1UnQ3YTAtUGxPN0M1cUUtd1Vna1VEMXpCajh6cVRHS0RaSndDbHE4QnYxT1lDTGlEMzRIc9IBzgFBVV95cUxPZWhTRVo3UmJ6LWxNLTlHSmdSV0p4Qlk5VGpxZVJzMmtac1FGVlBleUIzaUR5aEx2RS1UV0JZVkEtSlJxMlJQNVY0amkzTnJmLTdNbkVLV3lhLV9KQmJjWXI2OXd4MDRTMWRDSmVvUjlLWk9QUTVmdWgxR19KaG5mNHl5WHJfYzVKUGlNM0ZzLXFnQ0puRHoyYVZMWTFLQTdqR1U1ekRJVTJoeVJrZlkyd2xLekhZdXVsZWxxTTl6S1hEdDRPTTQ3ODB6S1NyZw?oc=5\n\nApple to hike product prices amid rising memory chip costs: Tim Cook - Asianet Newsable\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcVhxcnFaeGhOVm8wdHNSc1BaamRYRzk5d2YtOUktSHJTRDNwM2NZV1NFNmNYck9MY2lLZUM3cVNiSTVWdVRiMnEzU3N1a3hyc1duakJ6QUVUX3gwejlFSHRrY0dUSXNQYmRSMjRPSzV1Q3c2b3ZjbkF6cXdfdU81cFFTcGRjMFpfWElYZi1CaGpEdzJ1UnQ3YTAtUGxPN0M1cUUtd1Vna1VEMXpCajh6cVRHS0RaSndDbHE4QnYxT1lDTGlEMzRIc9IBzgFBVV95cUxPZWhTRVo3UmJ6LWxNLTlHSmdSV0p4Qlk5VGpxZVJzMmtac1FGVlBleUIzaUR5aEx2RS1UV0JZVkEtSlJxMlJQNVY0amkzTnJmLTdNbkVLV3lhLV9KQmJjWXI2OXd4MDRTMWRDSmVvUjlLWk9QUTVmdWgxR19KaG5mNHl5WHJfYzVKUGlNM0ZzLXFnQ0puRHoyYVZMWTFLQTdqR1U1ekRJVTJoeVJrZlkyd2xLekhZdXVsZWxxTTl6S1hEdDRPTTQ3ODB6S1NyZw?oc=5\" target=\"_blank\">Apple to hike product prices amid rising memory chip costs: Tim Cook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asianet Newsable</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn Apple news item reports that Apple will hike product prices because of rising memory chip costs, attributed to Tim Cook.\n\n\u5185\u5bb9:\n\u4e00\u5219\u5173\u4e8e Apple \u7684\u65b0\u95fb\u63f4\u5f15 Tim Cook \u79f0\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being bid up by AI datacenter buildouts, and the cost is now reaching consumer hardware. When AI-capex demand starts raising prices on unrelated end products, it signals the spending is large enough to distort the broader supply chain \u2014 an inflation/margin-pressure transmission channel.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u8d2d\u63a8\u9ad8\u4ef7\u683c\uff0c\u5982\u4eca\u6210\u672c\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u3002\u5f53 AI capex \u9700\u6c42\u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u552e\u4ef7\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u89c4\u6a21\u5df2\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u6574\u4e2a\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u4e00\u6761\u901a\u80c0\u4e0e\u5229\u6da6\u7387\u6324\u538b\u7684\u4f20\u5bfc\u8def\u5f84\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1113,
-      "ts": 1781796952,
-      "ts_str": "2026-06-18 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple Plans Price Increase Amid Rising Memory Chip Costs (AAPL) - GuruFocus",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 05:07:07 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2hjdHlOTHB2LUV0M0UwdjFyRU1rQUxKbmYwa2ZyUF9iOWJ3V0gxYWNUZ1lFM3cxUVVDVDVpZjE0ZU9ocHZQOE1nOEl1Ul9xdlo5dEJqY25xcTF5X1lZSXlkZ21jVXhGWGNZTFVseHpJd0ZZcnV5eDNrYmNySFUyX0hfd0RNWXkwSjdKMmprRk8yc0x0cFFoY00xOXNnYmNQaDJ6UXpSYzBrc0t4X0hWR3hR?oc=5\n\nApple Plans Price Increase Amid Rising Memory Chip Costs (AAPL) - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPb2hjdHlOTHB2LUV0M0UwdjFyRU1rQUxKbmYwa2ZyUF9iOWJ3V0gxYWNUZ1lFM3cxUVVDVDVpZjE0ZU9ocHZQOE1nOEl1Ul9xdlo5dEJqY25xcTF5X1lZSXlkZ21jVXhGWGNZTFVseHpJd0ZZcnV5eDNrYmNySFUyX0hfd0RNWXkwSjdKMmprRk8yc0x0cFFoY00xOXNnYmNQaDJ6UXpSYzBrc0t4X0hWR3hR?oc=5\" target=\"_blank\">Apple Plans Price Increase Amid Rising Memory Chip Costs (AAPL)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA GuruFocus headline reports Apple (AAPL) plans to raise prices amid rising memory chip costs.\n\n\u5185\u5bb9:\nGuruFocus \u62a5\u9053\u79f0\uff0cApple (AAPL) \u8ba1\u5212\u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u5347\u800c\u63d0\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being bid up by AI datacenter buildout, and the cost is now bleeding into consumer hardware pricing. When a buyer as large as Apple has to pass through chip-cost inflation, it signals the AI-capex demand shock is tightening the broader component supply chain \u2014 a second-order stress beyond the hyperscalers themselves.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u8d2d\u63a8\u9ad8\uff0c\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u8f6c\u5ac1\u82af\u7247\u6da8\u4ef7\uff0c\u8bf4\u660e AI capex \u7684\u9700\u6c42\u51b2\u51fb\u6b63\u5728\u6536\u7d27\u6574\u4e2a\u96f6\u90e8\u4ef6\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e4b\u5916\u7684\u4e8c\u9636\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
