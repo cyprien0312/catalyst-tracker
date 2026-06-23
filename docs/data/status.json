@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782208931,
-  "generated_at_str": "2026-06-23 10:02:11 UTC",
-  "last_event_ts": 1782207844,
+  "generated_at": 1782209122,
+  "generated_at_str": "2026-06-23 10:05:22 UTC",
+  "last_event_ts": 1782209122,
   "tables": {
     "alerts_dedup": {
-      "count": 1319,
-      "last_ts": 1782206061,
-      "last_str": "2026-06-23 09:14:21 UTC"
+      "count": 1320,
+      "last_ts": 1782209122,
+      "last_str": "2026-06-23 10:05:22 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,14 +54,14 @@
       "last_str": "2026-06-23 09:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 775,
-      "last_ts": 1782205503,
-      "last_str": "2026-06-23 09:05:03 UTC"
+      "count": 777,
+      "last_ts": 1782209102,
+      "last_str": "2026-06-23 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 944,
-      "last_ts": 1782203704,
-      "last_str": "2026-06-23 08:35:04 UTC"
+      "count": 945,
+      "last_ts": 1782209104,
+      "last_str": "2026-06-23 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 520,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1327,
+      "ts": 1782209122,
+      "ts_str": "2026-06-23 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] TrendForce: DRAM Shortage Extends to DDR2, Prices of Older Memory Expected to Rise in Q3 - Bitget",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 07:36:11 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SMUQ5cUt5TkRUcGRXR2t1aVhfRXU5YWMxbEdycnM5cDRMT2JTdjRqSUJ3WjNIcFFiSWp0TUw1bWJiSnZTRUhPcDR0bXZpakFKaEdtdzM2TjhRdWg4UkZnckhHVdIBY0FVX3lxTE9SMUQ5cUt5TkRUcGRXR2t1aVhfRXU5YWMxbEdycnM5cDRMT2JTdjRqSUJ3WjNIcFFiSWp0TUw1bWJiSnZTRUhPcDR0bXZpakFKaEdtdzM2TjhRdWg4UkZnckhHVQ?oc=5\n\nTrendForce: DRAM Shortage Extends to DDR2, Prices of Older Memory Expected to Rise in Q3 - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SMUQ5cUt5TkRUcGRXR2t1aVhfRXU5YWMxbEdycnM5cDRMT2JTdjRqSUJ3WjNIcFFiSWp0TUw1bWJiSnZTRUhPcDR0bXZpakFKaEdtdzM2TjhRdWg4UkZnckhHVdIBY0FVX3lxTE9SMUQ5cUt5TkRUcGRXR2t1aVhfRXU5YWMxbEdycnM5cDRMT2JTdjRqSUJ3WjNIcFFiSWp0TUw1bWJiSnZTRUhPcDR0bXZpakFKaEdtdzM2TjhRdWg4UkZnckhHVQ?oc=5\" target=\"_blank\">TrendForce: DRAM Shortage Extends to DDR2, Prices of Older Memory Expected to Rise in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TrendForce report says the DRAM shortage has now spread to legacy DDR2, with prices of older memory expected to rise in Q3.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u544a\u79f0\uff0cDRAM \u77ed\u7f3a\u5df2\u8513\u5ef6\u81f3\u8001\u65e7\u7684 DDR2\uff0c\u9884\u8ba1 Q3 \u65e7\u578b\u53f7\u5185\u5b58\u4ef7\u683c\u5c06\u4e0a\u6da8\u3002\n\nWhy it matters:\nWhen even obsolete DDR2 is being bid up, it signals memory supply is tight across the entire stack, not just HBM for AI accelerators. AI capex is crowding out fab capacity for commodity memory, pushing input costs higher for everyone and confirming the demand surge is straining the whole supply chain.\n\n\u5f71\u54cd:\n\u5f53\u8fde\u65e9\u5df2\u8fc7\u65f6\u7684 DDR2 \u90fd\u88ab\u62ac\u4ef7\u65f6\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5df2\u5728\u6574\u6761\u4ea7\u54c1\u7ebf\u4e0a\u5168\u9762\u7d27\u5f20\uff0c\u800c\u4e0d\u53ea\u662f AI \u52a0\u901f\u5668\u7528\u7684 HBM\u3002AI \u8d44\u672c\u5f00\u652f\u6b63\u5728\u6324\u5360\u5546\u54c1\u5185\u5b58\u7684\u6676\u5706\u4ea7\u80fd\uff0c\u63a8\u9ad8\u6240\u6709\u4eba\u7684\u6295\u5165\u6210\u672c\uff0c\u4e5f\u5370\u8bc1\u4e86\u8fd9\u8f6e\u9700\u6c42\u6fc0\u589e\u6b63\u5728\u62c9\u626f\u6574\u4e2a\u4f9b\u5e94\u94fe\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1326,
       "ts": 1782206061,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Tim Cook Warns Apple Price Hikes Are 'Unavoidable' as AI Drives Global Memory Chip Shortage - The Bridge Chronicle",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 11:04:40 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlZ2NG9tbVR5QndrYXBVdU1tREJtYlpmbE9xZmhfV29QOWpKSzRCbndTdGstQmtrWXVXaS1ONGs2UHFfXzdac2ozcE9ESmx5ZWppU2NZOTdCeDRoZmV3NnpwMVRUX3pmVXBWNk14WlNwSmxWRHcwV3laejlfOG9MOFFUM0FLNkM2c2FDS1hUTzktZFdpMHJPVHBHTGQzbXRRWXgzakZMazBuQWpBNkFBUEJGY9IBwAFBVV95cUxQS3REMnZzdnRZMmdnUjNLU2xEYjBBS09sX05VVjZtZ25qZndRWlNQQ2hBc2RmTFhad1JoejduYVVUSGN5c3g4Snc0Uk84Wjd0TTIwcmsyMjBCMEdRQ1ZfaU5VVld2MUJCOUJJal9CVnBSRUZUOUx2WndJaUpUeU9VVnBrb19TR21FQVJqbDJrTWJjQ0RNXzFqYkotTUZKVS1MZDUwdmlVM1F0ZDNlN3l6akdmTEJwUGttS3M0RUxoY2Y?oc=5\n\nTim Cook Warns Apple Price Hikes Are 'Unavoidable' as AI Drives Global Memory Chip Shortage - The Bridge Chronicle\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlZ2NG9tbVR5QndrYXBVdU1tREJtYlpmbE9xZmhfV29QOWpKSzRCbndTdGstQmtrWXVXaS1ONGs2UHFfXzdac2ozcE9ESmx5ZWppU2NZOTdCeDRoZmV3NnpwMVRUX3pmVXBWNk14WlNwSmxWRHcwV3laejlfOG9MOFFUM0FLNkM2c2FDS1hUTzktZFdpMHJPVHBHTGQzbXRRWXgzakZMazBuQWpBNkFBUEJGY9IBwAFBVV95cUxQS3REMnZzdnRZMmdnUjNLU2xEYjBBS09sX05VVjZtZ25qZndRWlNQQ2hBc2RmTFhad1JoejduYVVUSGN5c3g4Snc0Uk84Wjd0TTIwcmsyMjBCMEdRQ1ZfaU5VVld2MUJCOUJJal9CVnBSRUZUOUx2WndJaUpUeU9VVnBrb19TR21FQVJqbDJrTWJjQ0RNXzFqYkotTUZKVS1MZDUwdmlVM1F0ZDNlN3l6akdmTEJwUGttS3M0RUxoY2Y?oc=5\" target=\"_blank\">Tim Cook Warns Apple Price Hikes Are 'Unavoidable' as AI Drives Global Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Bridge Chronicle</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 RSS hit flagged Tim Cook warning that Apple price hikes are 'unavoidable' as AI demand drives a global memory chip shortage.\n\n\u5185\u5bb9:\nC6 \u7684\u4e00\u6761 RSS \u547d\u4e2d\uff1aTim Cook \u8b66\u544a\u79f0\uff0c\u7531\u4e8e AI \u9700\u6c42\u5f15\u53d1\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u6da8\u4ef7\u5df2'\u4e0d\u53ef\u907f\u514d'(unavoidable)\u3002\n\nWhy it matters:\nDRAM/HBM scarcity from AI buildout is now bleeding into consumer hardware pricing \u2014 a sign AI-capex demand is crowding out the broader supply chain and pushing memory costs through to end products. Confirms the bubble-stress thesis that AI infrastructure spend is straining physical inputs, not just balance sheets.\n\n\u5f71\u54cd:\nAI \u5efa\u8bbe\u5e26\u6765\u7684 DRAM/HBM \u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u2014\u2014\u8fd9\u8bf4\u660e AI capex \u9700\u6c42\u6b63\u5728\u6324\u5360\u6574\u4e2a\u4f9b\u5e94\u94fe\uff0c\u5e76\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u5230\u7ec8\u7aef\u4ea7\u54c1\u4e0a\u3002\u8fd9\u5370\u8bc1\u4e86 bubble-stress \u903b\u8f91\uff1aAI \u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u6324\u538b\u7684\u4e0d\u53ea\u662f\u8d44\u4ea7\u8d1f\u503a\u8868\uff0c\u8fd8\u6709\u5b9e\u4f53\u4f9b\u7ed9\u7aef\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1127,
-      "ts": 1781807720,
-      "ts_str": "2026-06-18 18:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Business News | Apple May Hike Prices as It Grapples with Memory Chip Shortage: Report - LatestLY",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 15:28:23 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOY3JtX2xmT0Yya2lTNnkweGI2QXE2TzI3LV9XemY2TWxxa1lsa0t3SHVVVjFnMmRyLTJiY0c2U2lqTDdsSlZfUjUyOGI2SnoyTm4wYVlEMG1GUzhBdWVBbHpTVGZHZUxCeElILXpmTldQUGNIQjVLY0pTQU4wQ1JDNmt6SFNaRkxoVlV0cXBSUVA4dGUwSkRVa09kODIwN212bDMtcXlSdzJ2RTliaG8xOHZCRmtqTkJzTmprY1NENW9Ga2NHY0Jlczd6RzUwYXdQMnZJ0gHTAUFVX3lxTE5jcm1fbGZPRjJraVM2eTB4YjZBcTZPMjctX1d6ZjZNbHFrWWxrS3dIdVVWMWcyZHItMmJjRzZTaWpMN2xKVl9SNTI4YjZKejJObjBhWUQwbUZTOEF1ZUFselNUZkdlTEJ4SUgtemZOV1BQY0hCNUtjSlNBTjBDUkM2a3pIU1pGTGhWVXRxcFJRUDh0ZTBKRFVrT2Q4MjA3bXZsMy1xeVJ3MnZFOWJobzE4dkJGa2pOQnNOamtjU0Q1b0ZrY0djQmVzN3pHNTBhd1Aydkk?oc=5\n\nBusiness News | Apple May Hike Prices as It Grapples with Memory Chip Shortage: Report - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOY3JtX2xmT0Yya2lTNnkweGI2QXE2TzI3LV9XemY2TWxxa1lsa0t3SHVVVjFnMmRyLTJiY0c2U2lqTDdsSlZfUjUyOGI2SnoyTm4wYVlEMG1GUzhBdWVBbHpTVGZHZUxCeElILXpmTldQUGNIQjVLY0pTQU4wQ1JDNmt6SFNaRkxoVlV0cXBSUVA4dGUwSkRVa09kODIwN212bDMtcXlSdzJ2RTliaG8xOHZCRmtqTkJzTmprY1NENW9Ga2NHY0Jlczd6RzUwYXdQMnZJ0gHTAUFVX3lxTE5jcm1fbGZPRjJraVM2eTB4YjZBcTZPMjctX1d6ZjZNbHFrWWxrS3dIdVVWMWcyZHItMmJjRzZTaWpMN2xKVl9SNTI4YjZKejJObjBhWUQwbUZTOEF1ZUFselNUZkdlTEJ4SUgtemZOV1BQY0hCNUtjSlNBTjBDUkM2a3pIU1pGTGhWVXRxcFJRUDh0ZTBKRFVrT2Q4MjA3bXZsMy1xeVJ3MnZFOWJobzE4dkJGa2pOQnNOamtjU0Q1b0ZrY0djQmVzN3pHNTBhd1Aydkk?oc=5\" target=\"_blank\">Business News | Apple May Hike Prices as It Grapples with Memory Chip Shortage: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple may raise prices as it deals with a memory chip shortage. The alert is a C6_PRICE_SURGE signal tied to memory (DRAM/NAND) supply tightness.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u53ef\u80fd\u56e0\u5e94\u5bf9\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\u8be5\u8b66\u62a5\u662f\u4e0e\u5185\u5b58 (DRAM/NAND) \u4f9b\u5e94\u7d27\u5f20\u76f8\u5173\u7684 C6_PRICE_SURGE \u4fe1\u53f7\u3002\n\nWhy it matters:\nMemory pricing is a leading indicator of AI-capex stress: hyperscaler GPU/accelerator buildouts are draining HBM and DRAM supply, and the squeeze now reaching a consumer giant like Apple shows the shortage has spread beyond data-center parts into the broader electronics chain. Rising memory costs compress margins industry-wide and signal the AI buildout is crowding out other demand.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u662f AI capex \u538b\u529b\u7684\u9886\u5148\u6307\u6807\uff1a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 GPU/\u52a0\u901f\u5668\u6269\u5efa\u6b63\u5728\u62bd\u5e72 HBM \u548c DRAM \u4f9b\u5e94\uff0c\u5982\u4eca\u8fde Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u90fd\u53d7\u5230\u6324\u538b\uff0c\u8bf4\u660e\u77ed\u7f3a\u5df2\u4ece\u6570\u636e\u4e2d\u5fc3\u90e8\u4ef6\u8513\u5ef6\u5230\u66f4\u5e7f\u6cdb\u7684\u7535\u5b50\u4ea7\u4e1a\u94fe\u3002\u5185\u5b58\u6210\u672c\u4e0a\u6da8\u4f1a\u5168\u884c\u4e1a\u538b\u7f29\u5229\u6da6\u7387\uff0c\u4e5f\u8868\u660e AI \u5efa\u8bbe\u6b63\u5728\u6324\u5360\u5176\u4ed6\u9700\u6c42\u3002\n",
       "emailed": false
     }
   ],
