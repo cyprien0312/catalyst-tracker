@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782180126,
-  "generated_at_str": "2026-06-23 02:02:06 UTC",
-  "last_event_ts": 1782179042,
+  "generated_at": 1782180317,
+  "generated_at_str": "2026-06-23 02:05:17 UTC",
+  "last_event_ts": 1782180317,
   "tables": {
     "alerts_dedup": {
-      "count": 1301,
-      "last_ts": 1782176717,
-      "last_str": "2026-06-23 01:05:17 UTC"
+      "count": 1302,
+      "last_ts": 1782180317,
+      "last_str": "2026-06-23 02:05:17 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-23 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 761,
-      "last_ts": 1782176701,
-      "last_str": "2026-06-23 01:05:01 UTC"
+      "count": 762,
+      "last_ts": 1782180302,
+      "last_str": "2026-06-23 02:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 935,
-      "last_ts": 1782176703,
-      "last_str": "2026-06-23 01:05:03 UTC"
+      "count": 936,
+      "last_ts": 1782180304,
+      "last_str": "2026-06-23 02:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 508,
-      "last_ts": 1782176702,
-      "last_str": "2026-06-23 01:05:02 UTC"
+      "count": 509,
+      "last_ts": 1782180303,
+      "last_str": "2026-06-23 02:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 730,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1309,
+      "ts": 1782180317,
+      "ts_str": "2026-06-23 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple\u2019s Tim Cook says price hikes are on the way, citing memory chip crunch - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 01:22:04 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE1aNEJqTVY2emRRQUdlUDVYX2RTZEpUX3djUmdxc2Q1TlNYbXEwWG8xa2lIdklBR09IU1R5WWtZaEo2dWxPRktERnkyYjNkZjJyd3UzVU5odEEzYVZBYmYtaFgwbk9GMTFfU3Ixb3RobjhZeVE?oc=5\n\nApple\u2019s Tim Cook says price hikes are on the way, citing memory chip crunch - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE1aNEJqTVY2emRRQUdlUDVYX2RTZEpUX3djUmdxc2Q1TlNYbXEwWG8xa2lIdklBR09IU1R5WWtZaEo2dWxPRktERnkyYjNkZjJyd3UzVU5odEEzYVZBYmYtaFgwbk9GMTFfU3Ixb3RobjhZeVE?oc=5\" target=\"_blank\">Apple\u2019s Tim Cook says price hikes are on the way, citing memory chip crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook signaled upcoming price hikes on Apple products, blaming a memory chip crunch.\n\n\u5185\u5bb9:\nApple CEO Tim Cook \u91ca\u653e\u4fe1\u53f7\uff0c\u79f0\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u4ea7\u54c1\u5373\u5c06\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, draining supply to consumer devices and pushing prices up. When the AI-capex boom starts raising the cost of phones, the strain is leaking out of the datacenter into the broader economy \u2014 an inflation-via-AI-buildout signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u7ed9\u5e76\u63a8\u9ad8\u4ef7\u683c\u3002\u5f53 AI capex \u70ed\u6f6e\u5f00\u59cb\u63a8\u9ad8\u624b\u673a\u552e\u4ef7\uff0c\u610f\u5473\u7740\u538b\u529b\u5df2\u4ece\u6570\u636e\u4e2d\u5fc3\u5916\u6ea2\u5230\u66f4\u5e7f\u6cdb\u7684\u7ecf\u6d4e\u4e2d\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u7531 AI \u5efa\u8bbe\u5f15\u53d1\u7684\u901a\u80c0\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1308,
       "ts": 1782176717,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hires Google Gemini co-lead Noam Shazeer ahead of IPO - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 05:49:31 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRDZfQ3NRV083S3NFRUtLUWRVbHU0SHVsWlBLV1ZTSXRZZlhhQWRBZXIzcVo4NW5Ic0h4VlYtV2REYXI3cVJHeVQ1TnRHX0MwcW9EcWdIOVRwQ3dWTE1GaUM3QV9yWkZpaFRVOW90Vkl5eWFDUFRFSldUQ3lLd0RSSFktWUdYQjV3akpLWlF3czRrSXBrUXVFbkZad2g4dExmcWI3SFJGR2VYS0g2V0JQSlZUUmk0YnFRTTVDdWZWY2lhS1ZPUXRLWDNrc3did01XN2oxVHBkME9FdjUtdy1SbmplblZYek1vTFdDLV9VUTJwMl9H?oc=5\n\nOpenAI hires Google Gemini co-lead Noam Shazeer ahead of IPO - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRDZfQ3NRV083S3NFRUtLUWRVbHU0SHVsWlBLV1ZTSXRZZlhhQWRBZXIzcVo4NW5Ic0h4VlYtV2REYXI3cVJHeVQ1TnRHX0MwcW9EcWdIOVRwQ3dWTE1GaUM3QV9yWkZpaFRVOW90Vkl5eWFDUFRFSldUQ3lLd0RSSFktWUdYQjV3akpLWlF3czRrSXBrUXVFbkZad2g4dExmcWI3SFJGR2VYS0g2V0JQSlZUUmk0YnFRTTVDdWZWY2lhS1ZPUXRLWDNrc3did01XN2oxVHBkME9FdjUtdy1SbmplblZYek1vTFdDLV9VUTJwMl9H?oc=5\" target=\"_blank\">OpenAI hires Google Gemini co-lead Noam Shazeer ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI hired Google Gemini co-lead Noam Shazeer ahead of its IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cOpenAI \u5728 IPO \u524d\u5915\u6316\u6765\u4e86 Google Gemini \u7684\u8054\u5408\u8d1f\u8d23\u4eba Noam Shazeer\u3002\n\nWhy it matters:\nSenior-talent poaching from a top rival, paired with explicit IPO framing, signals OpenAI is racing to lock in headline credibility and lock down a valuation before the funding window narrows. IPO-timed hiring is a late-cycle tell \u2014 capital and prestige are being marshalled for an exit, not just for research.\n\n\u5f71\u54cd:\n\u4ece\u5934\u90e8\u7ade\u4e89\u5bf9\u624b\u6316\u89d2\u9876\u7ea7\u4eba\u624d\uff0c\u53c8\u660e\u786e\u4e0e IPO \u6302\u94a9\uff0c\u8bf4\u660e OpenAI \u6b63\u62a2\u5728\u878d\u8d44\u7a97\u53e3\u6536\u7a84\u524d\u9501\u5b9a\u8bdd\u9898\u58f0\u91cf\u548c\u4f30\u503c\u3002\u8e29\u7740 IPO \u8282\u70b9\u7684\u62db\u8058\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\u2014\u2014\u8d44\u672c\u548c\u58f0\u671b\u662f\u5728\u4e3a\u9000\u51fa\u9020\u52bf\uff0c\u800c\u4e0d\u53ea\u662f\u4e3a\u4e86\u641e\u7814\u7a76\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1106,
-      "ts": 1781793357,
-      "ts_str": "2026-06-18 14:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices as AI boom drives up memory chip costs - Anadolu Ajans\u0131",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 12:12:27 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxOelQ1VVRxbzJ5VUlFX1AyTjA5SEZuaGR0aVZjRUJPTG0tVWN0anZobnpSd1ZpWnZIUU5iRTFEeW5KWnhtUnNGUzRTcEpRSGpHeTFNMkd1QVJzZnRQS1ItN0J3VXN6S2FWQ25EeS1DTTI1ak9DeEduZ2k0YVRuTUk4TEpFZ0MySG9vM0IxNmR0V2k3aU9FYzVKV1ZJYlB1QQ?oc=5\n\nApple to raise prices as AI boom drives up memory chip costs - Anadolu Ajans\u0131\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOelQ1VVRxbzJ5VUlFX1AyTjA5SEZuaGR0aVZjRUJPTG0tVWN0anZobnpSd1ZpWnZIUU5iRTFEeW5KWnhtUnNGUzRTcEpRSGpHeTFNMkd1QVJzZnRQS1ItN0J3VXN6S2FWQ25EeS1DTTI1ak9DeEduZ2k0YVRuTUk4TEpFZ0MySG9vM0IxNmR0V2k3aU9FYzVKV1ZJYlB1QQ?oc=5\" target=\"_blank\">Apple to raise prices as AI boom drives up memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajans\u0131</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News surfaced an Anadolu Ajans\u0131 headline: \"Apple to raise prices as AI boom drives up memory chip costs.\" Apple is reportedly passing higher DRAM/NAND memory costs through to product prices.\n\n\u5185\u5bb9:\nGoogle News \u6293\u5230 Anadolu Ajans\u0131 \u7684\u6807\u9898\uff1a\u300cApple to raise prices as AI boom drives up memory chip costs\u300d\uff08\u82f9\u679c\u56e0 AI \u70ed\u6f6e\u63a8\u9ad8\u5185\u5b58\u82af\u7247\u6210\u672c\u800c\u6da8\u4ef7\uff09\u3002\u636e\u62a5\u9053 Apple \u6b63\u628a\u4e0a\u6da8\u7684 DRAM/NAND \u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u5230\u4ea7\u54c1\u552e\u4ef7\u4e0a\u3002\n\nWhy it matters:\nAI-datacenter demand is bidding up memory chips hard enough to leak into consumer hardware pricing \u2014 a sign the capex boom is now crowding out the broader supply chain. When AI spend starts raising costs for an unrelated player like Apple, the bubble's strain is spreading beyond the hyperscalers.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u9700\u6c42\u628a\u5185\u5b58\u82af\u7247\u4ef7\u683c\u62ac\u5230\u5df2\u7ecf\u5916\u6ea2\u8fdb\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u7684\u7a0b\u5ea6\uff0c\u8bf4\u660e\u8fd9\u8f6e capex \u70ed\u6f6e\u6b63\u5728\u6324\u538b\u66f4\u5e7f\u6cdb\u7684\u4f9b\u5e94\u94fe\u3002\u5f53 AI \u652f\u51fa\u5f00\u59cb\u63a8\u9ad8\u50cf Apple \u8fd9\u79cd\u4e0d\u76f8\u5e72\u5382\u5546\u7684\u6210\u672c\u65f6\uff0c\u6ce1\u6cab\u7684\u538b\u529b\u5df2\u7ecf\u8513\u5ef6\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e4b\u5916\u3002\n",
       "emailed": false
     }
   ],
