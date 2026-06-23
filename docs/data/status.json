@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782236466,
-  "generated_at_str": "2026-06-23 17:41:06 UTC",
-  "last_event_ts": 1782236105,
+  "generated_at": 1782236663,
+  "generated_at_str": "2026-06-23 17:44:23 UTC",
+  "last_event_ts": 1782236658,
   "tables": {
     "alerts_dedup": {
-      "count": 1336,
-      "last_ts": 1782231259,
-      "last_str": "2026-06-23 16:14:19 UTC"
+      "count": 1337,
+      "last_ts": 1782236658,
+      "last_str": "2026-06-23 17:44:18 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -44,14 +44,14 @@
       "last_str": "2026-06-13 16:28:24 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2152,
-      "last_ts": 1782234843,
-      "last_str": "2026-06-23 17:14:03 UTC"
+      "count": 2153,
+      "last_ts": 1782236643,
+      "last_str": "2026-06-23 17:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 456,
-      "last_ts": 1782234844,
-      "last_str": "2026-06-23 17:14:04 UTC"
+      "count": 458,
+      "last_ts": 1782236644,
+      "last_str": "2026-06-23 17:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 823,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-23 17:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11068,
-      "last_ts": 1782234842,
-      "last_str": "2026-06-23 17:14:02 UTC"
+      "count": 11074,
+      "last_ts": 1782236642,
+      "last_str": "2026-06-23 17:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1344,
+      "ts": 1782236658,
+      "ts_str": "2026-06-23 17:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Coinbase Bets on AI Trading With Pre-IPO of OpenAI, Anthropic? - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 16:07:00 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzd5M1FxU3RXU3ZzendKd3RjUFRZeERicnQ4MHhBeVIwcGF3Q1NfZGhSYVhFc3JyVEM1Y2wwR3JQX1pYTGwteG93VkQ1bERJQTFZMTRGZjVLcWt1RmNBdHRtcUFuZVUyOXBFZ3p0M0xiREJVeGV1YXF3bFd0aV81M0FEOW1nMWJYeWxyNFpuVmJUakZoVFU2U2VHaE0zdWxRaE9rWUtSaXZieTVLckIySmNyaFdkaW8?oc=5\n\nCoinbase Bets on AI Trading With Pre-IPO of OpenAI, Anthropic? - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPNzd5M1FxU3RXU3ZzendKd3RjUFRZeERicnQ4MHhBeVIwcGF3Q1NfZGhSYVhFc3JyVEM1Y2wwR3JQX1pYTGwteG93VkQ1bERJQTFZMTRGZjVLcWt1RmNBdHRtcUFuZVUyOXBFZ3p0M0xiREJVeGV1YXF3bFd0aV81M0FEOW1nMWJYeWxyNFpuVmJUakZoVFU2U2VHaE0zdWxRaE9rWUtSaXZieTVLckIySmNyaFdkaW8?oc=5\" target=\"_blank\">Coinbase Bets on AI Trading With Pre-IPO of OpenAI, Anthropic?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingView headline reports Coinbase is exploring offering pre-IPO exposure to private AI names like OpenAI and Anthropic. The framing is speculative (the title ends in a question mark).\n\n\u5185\u5bb9:\nTradingView \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053\u79f0 Coinbase \u6b63\u8003\u8651\u63d0\u4f9b OpenAI\u3001Anthropic \u7b49\u672a\u4e0a\u5e02 AI \u516c\u53f8\u7684 Pre-IPO \u6295\u8d44\u655e\u53e3\u3002\u6807\u9898\u4ee5\u95ee\u53f7\u7ed3\u5c3e\uff0c\u5c5e\u4e8e\u63a8\u6d4b\u6027\u62a5\u9053\u3002\n\nWhy it matters:\nPackaging stakes in still-private AI labs into retail-tradable products is a late-cycle distribution signal \u2014 it pushes illiquid, hard-to-value private valuations onto retail right as public AI-capex enthusiasm peaks. Watch for retail being handed the bag near the top.\n\n\u5f71\u54cd:\n\u628a\u4ecd\u672a\u4e0a\u5e02\u7684 AI \u5b9e\u9a8c\u5ba4\u80a1\u6743\u6253\u5305\u6210\u6563\u6237\u53ef\u4ea4\u6613\u7684\u4ea7\u54c1\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6d3e\u53d1\u4fe1\u53f7\u2014\u2014\u5728\u516c\u5f00\u5e02\u573a\u5bf9 AI capex \u7684\u70ed\u60c5\u89c1\u9876\u4e4b\u9645\uff0c\u628a\u6d41\u52a8\u6027\u5dee\u3001\u4f30\u503c\u96be\u5b9a\u7684\u79c1\u6709\u80a1\u6743\u585e\u7ed9\u6563\u6237\u3002\u9700\u8b66\u60d5\u6563\u6237\u5728\u9876\u90e8\u63a5\u76d8\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1343,
       "ts": 1782231259,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Tim Cook says prices of Apple devices will jump amid memory chip shortage - ABC News - Breaking News, Latest News and Vi",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 19:22:13 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTRtU0NJYkRtS0hicmFMVVExUEtQM0NrLXU2bk1YYXdUUnA3UmNDX0lkMnZzUkVBMDNKc25uTkh3ZElLbDRERG1RU3B3cU5sRXVWdUFDRzI0OXA2NFdUSEJWdVZzd2syUmdOaEtOV2hWSVgweGtRbVNac3NTYjg4RGJIYlZuTVFzaXN5ek05VFBZS2FJN285UUx30gGfAUFVX3lxTFByWEFGX0t2R1hWWFBROUhtNWg5X0VtQnJmSnFsWXRSdk5mYzdJVjV4RnhUVTZHYlpkSVB3Ni1ubVhMY1BhY2E3bzVHSjY0UU5LN1pyRUNtVmdNQXdZYkllX0tIWk95MWx3bXNJR1g1NGVYX085V1ZOVE15bGEzSUFaa2RhaW1adWU3T2JvTUZ0MEFvWFRHV1lUVGJxTGpYYw?oc=5\n\nTim Cook says prices of Apple devices will jump amid memory chip shortage - ABC News - Breaking News, Latest News and Videos\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTRtU0NJYkRtS0hicmFMVVExUEtQM0NrLXU2bk1YYXdUUnA3UmNDX0lkMnZzUkVBMDNKc25uTkh3ZElLbDRERG1RU3B3cU5sRXVWdUFDRzI0OXA2NFdUSEJWdVZzd2syUmdOaEtOV2hWSVgweGtRbVNac3NTYjg4RGJIYlZuTVFzaXN5ek05VFBZS2FJN285UUx30gGfAUFVX3lxTFByWEFGX0t2R1hWWFBROUhtNWg5X0VtQnJmSnFsWXRSdk5mYzdJVjV4RnhUVTZHYlpkSVB3Ni1ubVhMY1BhY2E3bzVHSjY0UU5LN1pyRUNtVmdNQXdZYkllX0tIWk95MWx3bXNJR1g1NGVYX085V1ZOVE15bGEzSUFaa2RhaW1adWU3T2JvTUZ0MEFvWFRHV1lUVGJxTGpYYw?oc=5\" target=\"_blank\">Tim Cook says prices of Apple devices will jump amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News - Breaking News, Latest News and Videos</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook said prices of Apple devices will rise because of a memory chip shortage.\n\n\u5185\u5bb9:\nApple CEO Tim Cook \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u8bbe\u5907\u7684\u4ef7\u683c\u5c06\u4e0a\u6da8\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away from consumer electronics by AI datacenter buildout, which is hoarding HBM and DRAM capacity. When a buyer as large as Apple has to pass through higher chip costs, it confirms the AI-capex boom is creating real supply scarcity that spills into the broader economy \u2014 an inflationary, late-cycle stress signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u8d70\u4ea7\u80fd\uff0cHBM \u548c DRAM \u4f9b\u7ed9\u88ab\u5927\u91cf\u5360\u7528\u3002\u8fde Apple \u8fd9\u6837\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u628a\u66f4\u9ad8\u7684\u82af\u7247\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u9020\u6210\u771f\u5b9e\u7684\u4f9b\u7ed9\u7d27\u5f20\uff0c\u5e76\u5916\u6ea2\u5230\u66f4\u5e7f\u6cdb\u7684\u7ecf\u6d4e\u4e2d\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u5e26\u901a\u80c0\u6027\u8d28\u7684\u5468\u671f\u665a\u671f\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1144,
-      "ts": 1781820369,
-      "ts_str": "2026-06-18 22:06 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage - Indiatimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 03:54:28 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb1BNUkU5aEJ3a2J3eUowbjcxMnFKTEVBZDZ2QXhyOFpOMGFjVHU5aEgxY0tHY1ViU1VTQm16VVRNeGoyeTdWOHlKbHZOMEx4X2lwTVRVU1BRRC1iYVozaG83V0NWMjRfUGRHanczaGtiX0pWcWNrRlZsdVozcVB4V2NuTEMwRFZoZHdUanJsdUozVEktQ2VVeENZNU13bW5QbkZqcERKZnVkYU5QWHl6OXdUOElKU0h2SjVjSHdFNEY3UQ?oc=5\n\nApple to raise prices due to memory chip shortage - Indiatimes\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb1BNUkU5aEJ3a2J3eUowbjcxMnFKTEVBZDZ2QXhyOFpOMGFjVHU5aEgxY0tHY1ViU1VTQm16VVRNeGoyeTdWOHlKbHZOMEx4X2lwTVRVU1BRRC1iYVozaG83V0NWMjRfUGRHanczaGtiX0pWcWNrRlZsdVozcVB4V2NuTEMwRFZoZHdUanJsdUozVEktQ2VVeENZNU13bW5QbkZqcERKZnVkYU5QWHl6OXdUOElKU0h2SjVjSHdFNEY3UQ?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Indiatimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple plans to raise prices because of a memory chip shortage (Indiatimes).\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u8ba1\u5212\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\uff08\u6765\u6e90 Indiatimes\uff09\u3002\n\nWhy it matters:\nAI data-center buildout is absorbing DRAM/HBM supply, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising costs for the largest consumer-electronics buyer, it signals the memory squeeze is broad and supply-driven \u2014 an inflationary side effect of the infrastructure spend.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u541e\u566c DRAM/HBM \u4f9b\u7ed9\uff0c\u77ed\u7f3a\u5982\u4eca\u5df2\u5916\u6ea2\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u5168\u7403\u6700\u5927\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u65b9\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5185\u5b58\u6324\u538b\u662f\u5e7f\u6cdb\u4e14\u7531\u4f9b\u7ed9\u7aef\u9a71\u52a8\u7684\u2014\u2014\u662f\u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u5e26\u6765\u7684\u901a\u80c0\u6027\u526f\u4f5c\u7528\u3002\n",
       "emailed": false
     }
   ],
