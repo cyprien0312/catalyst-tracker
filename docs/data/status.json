@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782297126,
-  "generated_at_str": "2026-06-24 10:32:06 UTC",
-  "last_event_ts": 1782296042,
+  "generated_at": 1782297318,
+  "generated_at_str": "2026-06-24 10:35:18 UTC",
+  "last_event_ts": 1782297318,
   "tables": {
     "alerts_dedup": {
-      "count": 1355,
-      "last_ts": 1782293706,
-      "last_str": "2026-06-24 09:35:06 UTC"
+      "count": 1356,
+      "last_ts": 1782297318,
+      "last_str": "2026-06-24 10:35:18 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-24 09:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1019,
-      "last_ts": 1782293705,
-      "last_str": "2026-06-24 09:35:05 UTC"
+      "count": 1022,
+      "last_ts": 1782297304,
+      "last_str": "2026-06-24 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 577,
-      "last_ts": 1782295503,
-      "last_str": "2026-06-24 10:05:03 UTC"
+      "count": 579,
+      "last_ts": 1782297303,
+      "last_str": "2026-06-24 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 826,
-      "last_ts": 1782295505,
-      "last_str": "2026-06-24 10:05:05 UTC"
+      "count": 828,
+      "last_ts": 1782297305,
+      "last_str": "2026-06-24 10:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11176,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1363,
+      "ts": 1782297318,
+      "ts_str": "2026-06-24 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Contract prices surged over 100% in 1H26; Structural shortages to keep NOR Flash and SLC NAND prices rising in 2H26 - dq",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 24 Jun 2026 04:40:37 GMT\nLink:      https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOVdPUzhaQ0E0Nzc1aGxxUnA1bG9faUt4Z1RqOTJZRWtTLVlKQXloQnBLVll4bUlGVXdMOUVtbTJJSHppN2tzQm04elo3bGZXYmRyQVliV0ZCNU8zX3h4TG02bzVCenpfMTJxMUNqTndNS0Jjb2FOV0xDTXY3RGJaTmRNbEpHZmg3NmlWTTVVdnl0eEdxbHIzWDFhT3RQNVE4anN5dUxtbFdmSDVNdWZUekl1aGRvcHctTUx4eDJqSXpaU1poc1RpalRRZjJRSmFiZlo0TG9ueDBVWnpmTzI4bkpWWktqZnV2T1RTNnQ1eUtrRjTSAfMBQVVfeXFMTjlXT1M4WkNBNDc3NWhscVJwNWxvX2lLeGdUajkyWUVrUy1ZSkF5aEJwS1ZZeG1JRlV3TDlFbW0ySUh6aTdrc0JtOHpaN2xmV2JkckFZYldGQjVPM194eExtNm81Qnp6XzEycTFDak53TUtCY29hTldMQ012N0RiWk5kTWxKR2ZoNzZpVk01VXZ5dHhHcWxyM1gxYU90UDVROGpzeXVMbWxXZkg1TXVmVHpJdWhkb3B3LU1MeHgyakl6WlNaaHNUaWpUUWYyUUphYmZaNExvbngwVVp6Zk8yOG5KVlpLamZ1dk9UUzZ0NXlLa0Y0?oc=5\n\nContract prices surged over 100% in 1H26; Structural shortages to keep NOR Flash and SLC NAND prices rising in 2H26 - dqindia.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOVdPUzhaQ0E0Nzc1aGxxUnA1bG9faUt4Z1RqOTJZRWtTLVlKQXloQnBLVll4bUlGVXdMOUVtbTJJSHppN2tzQm04elo3bGZXYmRyQVliV0ZCNU8zX3h4TG02bzVCenpfMTJxMUNqTndNS0Jjb2FOV0xDTXY3RGJaTmRNbEpHZmg3NmlWTTVVdnl0eEdxbHIzWDFhT3RQNVE4anN5dUxtbFdmSDVNdWZUekl1aGRvcHctTUx4eDJqSXpaU1poc1RpalRRZjJRSmFiZlo0TG9ueDBVWnpmTzI4bkpWWktqZnV2T1RTNnQ1eUtrRjTSAfMBQVVfeXFMTjlXT1M4WkNBNDc3NWhscVJwNWxvX2lLeGdUajkyWUVrUy1ZSkF5aEJwS1ZZeG1JRlV3TDlFbW0ySUh6aTdrc0JtOHpaN2xmV2JkckFZYldGQjVPM194eExtNm81Qnp6XzEycTFDak53TUtCY29hTldMQ012N0RiWk5kTWxKR2ZoNzZpVk01VXZ5dHhHcWxyM1gxYU90UDVROGpzeXVMbWxXZkg1TXVmVHpJdWhkb3B3LU1MeHgyakl6WlNaaHNUaWpUUWYyUUphYmZaNExvbngwVVp6Zk8yOG5KVlpLamZ1dk9UUzZ0NXlLa0Y0?oc=5\" target=\"_blank\">Contract prices surged over 100% in 1H26; Structural shortages to keep NOR Flash and SLC NAND prices rising in 2H26</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dqindia.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA trade-press headline reports memory contract prices surged over 100% in 1H26, with structural shortages expected to keep NOR Flash and SLC NAND prices rising through 2H26.\n\n\u5185\u5bb9:\n\u884c\u4e1a\u5a92\u4f53\u62a5\u9053\uff0c\u5b58\u50a8\u5668\u5408\u7ea6\u4ef7\u5728 1H26 \u98d9\u5347\u8d85\u8fc7 100%\uff0c\u4e14\u7ed3\u6784\u6027\u77ed\u7f3a\u9884\u8ba1\u5c06\u63a8\u52a8 NOR Flash \u4e0e SLC NAND \u4ef7\u683c\u5728 2H26 \u7ee7\u7eed\u4e0a\u6da8\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials input; a doubling of contract prices plus a multi-quarter shortage signals demand outrunning supply and pushes up the capex bill for every hyperscaler and neocloud build-out. Rising, sticky component costs squeeze the already-thin payback math on AI infrastructure.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u5668\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6e05\u5355\u7684\u6838\u5fc3\u6210\u672c\u9879\uff1b\u5408\u7ea6\u4ef7\u7ffb\u500d\u53e0\u52a0\u8de8\u5b63\u5ea6\u77ed\u7f3a\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4f9b\u7ed9\uff0c\u4f1a\u62ac\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u5efa\u8bbe\u7684\u8d44\u672c\u5f00\u652f\u8d26\u5355\u3002\u5143\u5668\u4ef6\u6210\u672c\u4e0a\u6da8\u4e14\u5c45\u9ad8\u4e0d\u4e0b\uff0c\u4f1a\u8fdb\u4e00\u6b65\u6324\u538b\u672c\u5c31\u5fae\u8584\u7684 AI \u57fa\u7840\u8bbe\u65bd\u56de\u672c\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1362,
       "ts": 1782293706,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 18:04:12 GMT\nLink:      https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaU80T2ZzQjh2YWVlVG1JbjFtVm1BdFBiZENRQU9VUHMxeXZobGxvejZMVVhndzA5Vm5MZ1JXZ290TWNLOVBKMnA5Z1llbE1yLVFVbXRHWVNRV2FqanhvQjFBU0w4YjhnX1ozYW50VzBibzJZUEdHbkJCSW8ycl9VQjlWOU83QXNqOXFFTlZsWEoyUXJkemJkZFA1R1BVTmc0amlQX3NuZFFucklhS2xLaFpDNXpPNFZqVGdWZFhCQ3QyeGc5MFpjUE1BVVQ0UkZ2a1U2em8xN2NLdDFPUjV4VnRWSFRwRGMxS3pOd1A0N0E5NG5DNDc0?oc=5\n\nSanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNaU80T2ZzQjh2YWVlVG1JbjFtVm1BdFBiZENRQU9VUHMxeXZobGxvejZMVVhndzA5Vm5MZ1JXZ290TWNLOVBKMnA5Z1llbE1yLVFVbXRHWVNRV2FqanhvQjFBU0w4YjhnX1ozYW50VzBibzJZUEdHbkJCSW8ycl9VQjlWOU83QXNqOXFFTlZsWEoyUXJkemJkZFA1R1BVTmc0amlQX3NuZFFucklhS2xLaFpDNXpPNFZqVGdWZFhCQ3QyeGc5MFpjUE1BVVQ0UkZ2a1U2em8xN2NLdDFPUjV4VnRWSFRwRGMxS3pOd1A0N0E5NG5DNDc0?oc=5\" target=\"_blank\">SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSanDisk's 8TB PS5 SSD launched at nearly $3,000 amid shortages.\n\n\u5185\u5bb9:\nSanDisk \u7684 8TB PS5 SSD \u5728\u4f9b\u5e94\u77ed\u7f3a\u4e2d\u4ee5\u8fd1 $3,000 \u7684\u4ef7\u683c\u4e0a\u5e02\u3002\n\nWhy it matters:\nNAND/SSD prices spiking into consumer products signals the memory shortage is spilling beyond data centers. AI buildout is soaking up flash and DRAM supply, pushing storage costs up across the board \u2014 an early sign capex demand is straining the hardware supply chain.\n\n\u5f71\u54cd:\nNAND/SSD \u4ef7\u683c\u6da8\u8fdb\u6d88\u8d39\u7ea7\u4ea7\u54c1\uff0c\u8bf4\u660e\u5b58\u50a8\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6570\u636e\u4e2d\u5fc3\u4e4b\u5916\u3002AI \u57fa\u5efa\u6b63\u5728\u541e\u566c\u95ea\u5b58\u548c DRAM \u4f9b\u5e94\uff0c\u628a\u5b58\u50a8\u6210\u672c\u5168\u9762\u63a8\u9ad8\u2014\u2014\u8fd9\u662f\u8d44\u672c\u5f00\u652f\u9700\u6c42\u5f00\u59cb\u6324\u538b\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u65e9\u671f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1162,
-      "ts": 1781847328,
-      "ts_str": "2026-06-19 05:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO tells WSJ - The Journal Record",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 16:46:49 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVpMME5jQ2FHbzZXLWFqXzJVd05uVllXZHUwNzA5VU5YRU0yZE5YMGZiN2RQUHBxYzJ6ZEkzYXZKVlVXM3VfdkIxVkV1V01oS0p0YjdTUXRzaHRzU0h2ODU2X1ZPR0I3c0t6S2RZQWl0ZG5pLVpodVl6Z3dJSDdHR3kzdw?oc=5\n\nApple to raise prices due to memory chip shortage, CEO tells WSJ - The Journal Record\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVpMME5jQ2FHbzZXLWFqXzJVd05uVllXZHUwNzA5VU5YRU0yZE5YMGZiN2RQUHBxYzJ6ZEkzYXZKVlVXM3VfdkIxVkV1V01oS0p0YjdTUXRzaHRzU0h2ODU2X1ZPR0I3c0t6S2RZQWl0ZG5pLVpodVl6Z3dJSDdHR3kzdw?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO tells WSJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Journal Record</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple's CEO told the WSJ that Apple will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple \u7684 CEO \u5411 WSJ \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up HBM and DRAM supply, and that scarcity is now leaking into consumer hardware pricing. When a buyer as large as Apple has to pass memory costs to customers, it confirms the AI-capex boom is bidding up a shared input \u2014 an inflationary stress signal that the spend is crowding out the rest of the chip market.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u5927\u89c4\u6a21\u5efa\u8bbe\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4f9b\u7ed9\uff0c\u8fd9\u79cd\u77ed\u7f3a\u5982\u4eca\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u5c31\u8bc1\u5b9e\u4e86 AI capex \u70ed\u6f6e\u6b63\u5728\u62ac\u9ad8\u4e00\u9879\u5171\u4eab\u7684\u4e0a\u6e38\u6295\u5165\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u901a\u80c0\u578b\u538b\u529b\u4fe1\u53f7\uff0c\u8868\u660e\u8fd9\u6ce2\u652f\u51fa\u6b63\u5728\u6324\u5360\u82af\u7247\u5e02\u573a\u7684\u5176\u4f59\u90e8\u5206\u3002\n",
       "emailed": false
     }
   ],
