@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782266526,
-  "generated_at_str": "2026-06-24 02:02:06 UTC",
-  "last_event_ts": 1782265462,
+  "generated_at": 1782266719,
+  "generated_at_str": "2026-06-24 02:05:19 UTC",
+  "last_event_ts": 1782266719,
   "tables": {
     "alerts_dedup": {
-      "count": 1348,
-      "last_ts": 1782265462,
-      "last_str": "2026-06-24 01:44:22 UTC"
+      "count": 1349,
+      "last_ts": 1782266719,
+      "last_str": "2026-06-24 02:05:19 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-24 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 848,
-      "last_ts": 1782264902,
-      "last_str": "2026-06-24 01:35:02 UTC"
+      "count": 849,
+      "last_ts": 1782266702,
+      "last_str": "2026-06-24 02:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1006,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-23 23:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 808,
-      "last_ts": 1782264904,
-      "last_str": "2026-06-24 01:35:04 UTC"
+      "count": 809,
+      "last_ts": 1782266706,
+      "last_str": "2026-06-24 02:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11133,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1356,
+      "ts": 1782266719,
+      "ts_str": "2026-06-24 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Consumer DRAM shortages extend to DDR2 products with contract prices expected to continue rising in 3Q26 - dqindia.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 24 Jun 2026 00:00:37 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZzhmM1pOajdjSmRPeEx3a3BwaVYzM0txSGNxRHBpSmxDQmZ1dVEzTzB2UU1ydFJacENrMXVKRlFBaVFmZDBGMk9KZzBSQTNPQjdGbDBGZlJONW53dmtzV0JqYXc5UXJ1dlRYR0VrZ0taUEItbkhkQk53UjFyejZKSmRIcTRtaXRmUUlZZ1ZuYURyTkMxMUdRZlM1V1ZQMVl3OEFUUl9Na1R6VWJKVm9URWhGNnpzWENyVDdRRUJhU2pOdU41TUJ1d1hrWTZQQzJ6MmZqSzQxN0VJb2Q5SnF0eGpiNzI3NTTSAecBQVVfeXFMTWc4ZjNaTmo3Y0pkT3hMd2twcGlWMzNLcUhjcURwaUpsQ0JmdXVRM08wdlFNcnRSWnBDazF1SkZRQWlRZmQwRjJPSmcwUkEzT0I3RmwwRmZSTjVud3Zrc1dCamF3OVFydXZUWEdFa2dLWlBCLW5IZEJOd1Ixcno2SkpkSHE0bWl0ZlFJWWdWbmFEck5DMTFHUWZTNVdWUDFZdzhBVFJfTWtUelViSlZvVEVoRjZ6c1hDclQ3UUVCYVNqTnVONU1CdXdYa1k2UEMyejJmaks0MTdFSW9kOUpxdHhqYjcyNzU0?oc=5\n\nConsumer DRAM shortages extend to DDR2 products with contract prices expected to continue rising in 3Q26 - dqindia.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZzhmM1pOajdjSmRPeEx3a3BwaVYzM0txSGNxRHBpSmxDQmZ1dVEzTzB2UU1ydFJacENrMXVKRlFBaVFmZDBGMk9KZzBSQTNPQjdGbDBGZlJONW53dmtzV0JqYXc5UXJ1dlRYR0VrZ0taUEItbkhkQk53UjFyejZKSmRIcTRtaXRmUUlZZ1ZuYURyTkMxMUdRZlM1V1ZQMVl3OEFUUl9Na1R6VWJKVm9URWhGNnpzWENyVDdRRUJhU2pOdU41TUJ1d1hrWTZQQzJ6MmZqSzQxN0VJb2Q5SnF0eGpiNzI3NTTSAecBQVVfeXFMTWc4ZjNaTmo3Y0pkT3hMd2twcGlWMzNLcUhjcURwaUpsQ0JmdXVRM08wdlFNcnRSWnBDazF1SkZRQWlRZmQwRjJPSmcwUkEzT0I3RmwwRmZSTjVud3Zrc1dCamF3OVFydXZUWEdFa2dLWlBCLW5IZEJOd1Ixcno2SkpkSHE0bWl0ZlFJWWdWbmFEck5DMTFHUWZTNVdWUDFZdzhBVFJfTWtUelViSlZvVEVoRjZ6c1hDclQ3UUVCYVNqTnVONU1CdXdYa1k2UEMyejJmaks0MTdFSW9kOUpxdHhqYjcyNzU0?oc=5\" target=\"_blank\">Consumer DRAM shortages extend to DDR2 products with contract prices expected to continue rising in 3Q26</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dqindia.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item flags that consumer DRAM shortages have spread to older DDR2 products, with contract prices expected to keep rising into 3Q26.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6307\u51fa\uff0c\u6d88\u8d39\u7ea7 DRAM \u77ed\u7f3a\u5df2\u8513\u5ef6\u81f3\u8f83\u65e7\u7684 DDR2 \u4ea7\u54c1\uff0c\u5408\u7ea6\u4ef7\u9884\u8ba1\u5c06\u6301\u7eed\u4e0a\u6da8\u81f3 3Q26\u3002\n\nWhy it matters:\nDRAM is a core AI-buildout input; shortages reaching even legacy DDR2 signal demand is draining supply across the whole memory stack, not just leading-edge HBM. Rising contract prices into 3Q26 push up the cost of every server and GPU board, squeezing hyperscaler capex budgets and tightening the AI hardware supply chain.\n\n\u5f71\u54cd:\nDRAM \u662f AI \u57fa\u5efa\u7684\u6838\u5fc3\u5143\u4ef6\uff0c\u77ed\u7f3a\u8fde DDR2 \u8fd9\u79cd\u8001\u578b\u53f7\u90fd\u6ce2\u53ca\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u62bd\u5e72\u6574\u4e2a\u5b58\u50a8\u6808\u7684\u4f9b\u7ed9\uff0c\u800c\u4e0d\u53ea\u662f\u6700\u5148\u8fdb\u7684 HBM\u3002\u5408\u7ea6\u4ef7\u6da8\u5230 3Q26 \u4f1a\u62ac\u9ad8\u6bcf\u4e00\u53f0\u670d\u52a1\u5668\u548c GPU \u677f\u5361\u7684\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u9884\u7b97\uff0c\u5e76\u8fdb\u4e00\u6b65\u7ef7\u7d27 AI \u786c\u4ef6\u4f9b\u5e94\u94fe\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1355,
       "ts": 1782265462,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory price surge splits PC and mobile fortunes as Korea gains edge - CHOSUNBIZ - Chosunbiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 21:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxQSDlkSmFzZDQ1WjBRNmNPNTJMRVpVRUQyZERJdlYzNzRNVVE4RkFYWXRDTVBadFlwNTBjVU5SN1lxWUNjQWtZbHpOWWVSZkc4MVFVQ1gyVHlPblFGa2VubjVXaGw3T295bk9xSUtWV0o2eHV6RU83Y3ptalVDajB1SFNQNGdmNTJKNmJpb1hn0gGOAUFVX3lxTFBIOWRKYXNkNDVaMFE2Y081MkxFWlVFRDJkREl2VjM3NE1VUThGQVhZdENNUFp0WXA1MGNVTlI3WXFZQ2NBa1lsek5ZZVJmRzgxUVVDWDJUeU9uUUZrZW5uNVdobDdPb3luT3FJS1ZXSjZ4dXpFTzdjem1qVUNqMHVIU1A0Z2Y1Mko2YmlvWGc?oc=5\n\nMemory price surge splits PC and mobile fortunes as Korea gains edge - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQSDlkSmFzZDQ1WjBRNmNPNTJMRVpVRUQyZERJdlYzNzRNVVE4RkFYWXRDTVBadFlwNTBjVU5SN1lxWUNjQWtZbHpOWWVSZkc4MVFVQ1gyVHlPblFGa2VubjVXaGw3T295bk9xSUtWV0o2eHV6RU83Y3ptalVDajB1SFNQNGdmNTJKNmJpb1hn0gGOAUFVX3lxTFBIOWRKYXNkNDVaMFE2Y081MkxFWlVFRDJkREl2VjM3NE1VUThGQVhZdENNUFp0WXA1MGNVTlI3WXFZQ2NBa1lsek5ZZVJmRzgxUVVDWDJUeU9uUUZrZW5uNVdobDdPb3luT3FJS1ZXSjZ4dXpFTzdjem1qVUNqMHVIU1A0Z2Y1Mko2YmlvWGc?oc=5\" target=\"_blank\">Memory price surge splits PC and mobile fortunes as Korea gains edge - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flagged a memory chip price surge: \"Memory price surge splits PC and mobile fortunes as Korea gains edge\" (Chosunbiz), with Korean suppliers benefiting most.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u6807\u8bb0\u4e86\u5b58\u50a8\u82af\u7247\u4ef7\u683c\u98d9\u5347\uff1a\"Memory price surge splits PC and mobile fortunes as Korea gains edge\"\uff08Chosunbiz\uff09\uff0c\u97e9\u56fd\u4f9b\u5e94\u5546\u83b7\u76ca\u6700\u591a\u3002\n\nWhy it matters:\nDRAM/NAND price spikes are driven largely by HBM and AI-server demand crowding out commodity memory supply. Rising memory prices feed straight into AI-server bill-of-materials, raising hyperscaler capex per unit and squeezing PC/mobile OEMs \u2014 a sign AI buildout is absorbing the supply chain.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u98d9\u5347\u4e3b\u8981\u7531 HBM \u548c AI \u670d\u52a1\u5668\u9700\u6c42\u6324\u5360\u666e\u901a\u5b58\u50a8\u4f9b\u7ed9\u6240\u81f4\u3002\u5b58\u50a8\u6da8\u4ef7\u4f1a\u76f4\u63a5\u62ac\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5355\u4f4d\u8d44\u672c\u5f00\u652f\uff0c\u540c\u65f6\u6324\u538b PC \u548c\u624b\u673a OEM \u5229\u6da6\u2014\u2014\u8fd9\u8868\u660e AI \u5efa\u8bbe\u6b63\u5728\u541e\u566c\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u4ea7\u80fd\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1156,
-      "ts": 1781834743,
-      "ts_str": "2026-06-19 02:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple May Raise iPhone Prices as AI Boom Triggers Global Memory Chip Shortage - Open Magazine",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 01:14:09 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkFMZl84SnZqc2ZqcGx1Zk4tZEp6bk9ScFM2ZE5ha2RuZlZiTkFscVhFNDJEY0tUeTgtYWdUYW53OEFUMjRiMjlTcXlkRVNtUHZjUTFFeGxLVFdWU21QRjREaThkN2FoUzFJY0R4X0M3dExWRlRNalN6SktyNzNic01teVMzWURKQURITWdYRF9NcXpaWjc4RjVOUTR4WWQ5SFFQd3NIOWc2dkNMYXBseg?oc=5\n\nApple May Raise iPhone Prices as AI Boom Triggers Global Memory Chip Shortage - Open Magazine\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkFMZl84SnZqc2ZqcGx1Zk4tZEp6bk9ScFM2ZE5ha2RuZlZiTkFscVhFNDJEY0tUeTgtYWdUYW53OEFUMjRiMjlTcXlkRVNtUHZjUTFFeGxLVFdWU21QRjREaThkN2FoUzFJY0R4X0M3dExWRlRNalN6SktyNzNic01teVMzWURKQURITWdYRF9NcXpaWjc4RjVOUTR4WWQ5SFFQd3NIOWc2dkNMYXBseg?oc=5\" target=\"_blank\">Apple May Raise iPhone Prices as AI Boom Triggers Global Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Open Magazine</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (Open Magazine): \"Apple May Raise iPhone Prices as AI Boom Triggers Global Memory Chip Shortage.\" Reports Apple may lift iPhone prices because the AI build-out is draining global memory (DRAM/NAND) supply.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08Open Magazine\uff09\uff1a\"Apple May Raise iPhone Prices as AI Boom Triggers Global Memory Chip Shortage\"\u3002\u62a5\u9053\u79f0\uff0c\u7531\u4e8e AI \u5efa\u8bbe\u62bd\u5e72\u5168\u7403\u5185\u5b58\uff08DRAM/NAND\uff09\u4f9b\u7ed9\uff0cApple \u53ef\u80fd\u4e0a\u8c03 iPhone \u552e\u4ef7\u3002\n\nWhy it matters:\nAI datacenter demand is now spilling into consumer hardware pricing \u2014 when hyperscaler HBM/DRAM buying squeezes the broader memory market, the cost shows up in phones. It's evidence the capex boom is creating real supply shortages and inflationary spillover, not just paper spending.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u9700\u6c42\u5df2\u7ecf\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u4e0a\u2014\u2014\u5f53\u8d85\u5927\u89c4\u6a21\u5382\u5546\u62a2\u8d2d HBM/DRAM \u6324\u538b\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u65f6\uff0c\u6210\u672c\u4f1a\u4f20\u5bfc\u5230\u624b\u673a\u4e0a\u3002\u8fd9\u8bf4\u660e\u8fd9\u8f6e capex \u72c2\u6f6e\u6b63\u5728\u5236\u9020\u771f\u5b9e\u7684\u4f9b\u7ed9\u77ed\u7f3a\u548c\u901a\u80c0\u5916\u6ea2\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u4e0a\u7684\u70e7\u94b1\u3002\n",
       "emailed": false
     }
   ],
