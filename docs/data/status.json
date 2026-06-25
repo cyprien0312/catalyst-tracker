@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782387124,
-  "generated_at_str": "2026-06-25 11:32:04 UTC",
-  "last_event_ts": 1782386044,
+  "generated_at": 1782387318,
+  "generated_at_str": "2026-06-25 11:35:18 UTC",
+  "last_event_ts": 1782387318,
   "tables": {
     "alerts_dedup": {
-      "count": 1380,
-      "last_ts": 1782381931,
-      "last_str": "2026-06-25 10:05:31 UTC"
+      "count": 1381,
+      "last_ts": 1782387318,
+      "last_str": "2026-06-25 11:35:18 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-25 10:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 913,
-      "last_ts": 1782385502,
-      "last_str": "2026-06-25 11:05:02 UTC"
+      "count": 914,
+      "last_ts": 1782387302,
+      "last_str": "2026-06-25 11:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1114,
-      "last_ts": 1782383704,
-      "last_str": "2026-06-25 10:35:04 UTC"
+      "count": 1117,
+      "last_ts": 1782387304,
+      "last_str": "2026-06-25 11:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 665,
-      "last_ts": 1782385502,
-      "last_str": "2026-06-25 11:05:02 UTC"
+      "count": 666,
+      "last_ts": 1782387303,
+      "last_str": "2026-06-25 11:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 900,
-      "last_ts": 1782383704,
-      "last_str": "2026-06-25 10:35:04 UTC"
+      "count": 901,
+      "last_ts": 1782387305,
+      "last_str": "2026-06-25 11:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11437,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1388,
+      "ts": 1782387318,
+      "ts_str": "2026-06-25 11:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] iPhone 18 Pro price hike may be lower than expected despite memory chip shortages - 91mobiles.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 11:15:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzVueExvd2RIRHpjbjhZVTA4Q3hPanpOUnFzazJBbHFoangzdHJLWS1nR2lRN2dhRG5LNWNHeF9iQnlfdnNLSEZmUlpQUV9QZzgxdVA5Y2szZFhpdFNicjlxT0QwMnE1Y1JCd2xJVUNDZE1rNTU4ZlVhMmVubTg0SzV3dEdORG9mUlHSAY8BQVVfeXFMUG1WWXRsVTczckFDcjVsOE9qb2xuT3pHNWR3T0hia25rSG4wV3VzdE1CZTBNSTNqeWstaGp1WGlIMmtGeWlzU0VqT1RFeC1UbDlsQnJWcHJVN2FNUmxxSmU2OHRDcVZmbkJMWkJSOC1iWVFLdkY1ckZLNlFHTHI3dDQ1NVNiOVdrZVZEelVKcDA?oc=5\n\niPhone 18 Pro price hike may be lower than expected despite memory chip shortages - 91mobiles.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzVueExvd2RIRHpjbjhZVTA4Q3hPanpOUnFzazJBbHFoangzdHJLWS1nR2lRN2dhRG5LNWNHeF9iQnlfdnNLSEZmUlpQUV9QZzgxdVA5Y2szZFhpdFNicjlxT0QwMnE1Y1JCd2xJVUNDZE1rNTU4ZlVhMmVubTg0SzV3dEdORG9mUlHSAY8BQVVfeXFMUG1WWXRsVTczckFDcjVsOE9qb2xuT3pHNWR3T0hia25rSG4wV3VzdE1CZTBNSTNqeWstaGp1WGlIMmtGeWlzU0VqT1RFeC1UbDlsQnJWcHJVN2FNUmxxSmU2OHRDcVZmbkJMWkJSOC1iWVFLdkY1ckZLNlFHTHI3dDQ1NVNiOVdrZVZEelVKcDA?oc=5\" target=\"_blank\">iPhone 18 Pro price hike may be lower than expected despite memory chip shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">91mobiles.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (91mobiles.com): \"iPhone 18 Pro price hike may be lower than expected despite memory chip shortages.\" The story flags rising memory (DRAM/NAND) chip prices but says Apple's resulting iPhone 18 Pro price increase should stay modest.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff0891mobiles.com\uff09\uff1a\"iPhone 18 Pro \u6da8\u4ef7\u5e45\u5ea6\u53ef\u80fd\u4f4e\u4e8e\u9884\u671f\uff0c\u5c3d\u7ba1\u5b58\u5728\u5185\u5b58\u82af\u7247\u77ed\u7f3a\"\u3002\u62a5\u9053\u6307\u51fa DRAM/NAND \u5185\u5b58\u82af\u7247\u4ef7\u683c\u4e0a\u6da8\uff0c\u4f46 Apple \u5bf9 iPhone 18 Pro \u7684\u76f8\u5e94\u63d0\u4ef7\u5e94\u4fdd\u6301\u6e29\u548c\u3002\n\nWhy it matters:\nMemory shortages mean AI datacenter demand is bidding up DRAM/NAND hard enough to spill into consumer-device pricing \u2014 a real-economy symptom of the AI-capex buildout draining the memory supply chain. That AI is now squeezing the iPhone bill of materials is a sign the spend is large enough to distort adjacent markets.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u610f\u5473\u7740 AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u628a DRAM/NAND \u4ef7\u683c\u62ac\u9ad8\u5230\u8db3\u4ee5\u5916\u6ea2\u8fdb\u6d88\u8d39\u7535\u5b50\u5b9a\u4ef7\u2014\u2014\u8fd9\u662f AI capex \u5927\u5efa\u8bbe\u62bd\u5e72\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u5b9e\u4f53\u7ecf\u6d4e\u75c7\u72b6\u3002AI \u5df2\u7ecf\u5f00\u59cb\u6324\u538b iPhone \u7684\u7269\u6599\u6210\u672c\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u76f8\u90bb\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1385,
       "ts": 1782381931,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Hires Transformer Co-Author Noam Shazeer and Former White House AI Official Dean Ball Ahead of IPO - AI Insider",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 16:17:03 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY1VUN1c1LWdNX1hrOEJxTVFmV3JTQVdIMUdpdTdWLWNyWlNXNnhvNnRFWkJhWVlqcUFiaXo2a181d09VR2Ezb0prQVQwcFJUOE9iRTFTaV9fS19rREtGNFU3UzN1cWdXc3BTZTBkNDgtV1pCZVpuSFFpa0tEZkF4bkZ3MDAtNU1RVE55YzJtVVh6WHhncGJPSE8yNFJKRDdjZVNIUVJpTVEwZWhrNzc2Z2M5YVJyX2haOGtJRkQ1VEZXQmhGOFhmclFLX1dGcUY4dXc2X1VEd2djb0U?oc=5\n\nOpenAI Hires Transformer Co-Author Noam Shazeer and Former White House AI Official Dean Ball Ahead of IPO - AI Insider\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY1VUN1c1LWdNX1hrOEJxTVFmV3JTQVdIMUdpdTdWLWNyWlNXNnhvNnRFWkJhWVlqcUFiaXo2a181d09VR2Ezb0prQVQwcFJUOE9iRTFTaV9fS19rREtGNFU3UzN1cWdXc3BTZTBkNDgtV1pCZVpuSFFpa0tEZkF4bkZ3MDAtNU1RVE55YzJtVVh6WHhncGJPSE8yNFJKRDdjZVNIUVJpTVEwZWhrNzc2Z2M5YVJyX2haOGtJRkQ1VEZXQmhGOFhmclFLX1dGcUY4dXc2X1VEd2djb0U?oc=5\" target=\"_blank\">OpenAI Hires Transformer Co-Author Noam Shazeer and Former White House AI Official Dean Ball Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI Insider</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news signal flagged a headline: \"OpenAI Hires Transformer Co-Author Noam Shazeer and Former White House AI Official Dean Ball Ahead of IPO.\"\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u4fe1\u53f7\u6355\u6349\u5230\u4e00\u6761\u6807\u9898\uff1aOpenAI \u5728 IPO \u524d\u62db\u52df Transformer \u8bba\u6587\u5171\u540c\u4f5c\u8005 Noam Shazeer \u4ee5\u53ca\u524d\u767d\u5bab AI \u5b98\u5458 Dean Ball\u3002\n\nWhy it matters:\nTalent and policy hires \"ahead of IPO\" are pre-listing positioning \u2014 OpenAI is staffing up technical credibility (Shazeer) and regulatory cover (Ball) before tapping public markets. An OpenAI IPO would be the defining liquidity event of the AI-capex cycle, and the timing of these hires signals it is moving from rumor toward execution.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u62db\u63fd\u4eba\u624d\u4e0e\u653f\u7b56\u4eba\u8109\u662f\u4e0a\u5e02\u524d\u7684\u5b9a\u4f4d\u52a8\u4f5c\u2014\u2014OpenAI \u6b63\u5728\u8865\u5f3a\u6280\u672f\u516c\u4fe1\u529b\uff08Shazeer\uff09\u548c\u76d1\u7ba1\u62a4\u57ce\u6cb3\uff08Ball\uff09\uff0c\u4e3a\u767b\u9646\u516c\u5f00\u5e02\u573a\u505a\u51c6\u5907\u3002OpenAI \u7684 IPO \u5c06\u662f\u6574\u4e2a AI capex \u5468\u671f\u91cc\u6700\u5177\u6807\u5fd7\u6027\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u8fd9\u4e9b\u62db\u8058\u7684\u65f6\u70b9\u8bf4\u660e\u5b83\u6b63\u4ece\u4f20\u95fb\u8d70\u5411\u5b9e\u9645\u63a8\u8fdb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1187,
-      "ts": 1781886918,
-      "ts_str": "2026-06-19 16:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Citi Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 12:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\n\nCiti Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\" target=\"_blank\">Citi Raises Applied Materials Price Target Following NAND Flash Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti raised its price target on Applied Materials (AMAT) following stronger NAND flash demand, per a sekbernews.id headline.\n\n\u5185\u5bb9:\n\u636e sekbernews.id \u62a5\u9053\uff0cCiti \u5728 NAND \u95ea\u5b58\u9700\u6c42\u8d70\u5f3a\u540e\u4e0a\u8c03\u4e86 Applied Materials (AMAT) \u7684\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nSell-side price-target hikes tied to memory demand feed the AI-capex momentum trade \u2014 analysts extrapolating NAND/HBM tightness into higher semicap valuations. It's a sentiment marker, not hard data: when targets rise on demand narratives, it signals the cycle is still in its optimistic phase.\n\n\u5f71\u54cd:\n\u5356\u65b9\u56e0\u5b58\u50a8\u9700\u6c42\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u662f\u5728\u4e3a AI \u8d44\u672c\u5f00\u652f\u7684\u52a8\u91cf\u4ea4\u6613\u6dfb\u67f4\u2014\u2014\u5206\u6790\u5e08\u628a NAND/HBM \u7684\u4f9b\u5e94\u7d27\u5f20\u5916\u63a8\u6210\u66f4\u9ad8\u7684\u534a\u5bfc\u4f53\u8bbe\u5907\u4f30\u503c\u3002\u8fd9\u662f\u60c5\u7eea\u6307\u6807\u800c\u975e\u786c\u6570\u636e\uff1a\u5f53\u76ee\u6807\u4ef7\u56e0\u9700\u6c42\u53d9\u4e8b\u800c\u4e0a\u8c03\u65f6\uff0c\u8bf4\u660e\u5468\u671f\u4ecd\u5904\u5728\u4e50\u89c2\u9636\u6bb5\u3002\n",
       "emailed": false
     }
   ],
