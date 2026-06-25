@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782345726,
-  "generated_at_str": "2026-06-25 00:02:06 UTC",
-  "last_event_ts": 1782319443,
+  "generated_at": 1782345923,
+  "generated_at_str": "2026-06-25 00:05:23 UTC",
+  "last_event_ts": 1782345918,
   "tables": {
     "alerts_dedup": {
-      "count": 1362,
-      "last_ts": 1782317114,
-      "last_str": "2026-06-24 16:05:14 UTC"
+      "count": 1363,
+      "last_ts": 1782345918,
+      "last_str": "2026-06-25 00:05:18 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,24 +54,24 @@
       "last_str": "2026-06-24 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 883,
-      "last_ts": 1782318902,
-      "last_str": "2026-06-24 16:35:02 UTC"
+      "count": 894,
+      "last_ts": 1782345902,
+      "last_str": "2026-06-25 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1035,
-      "last_ts": 1782318904,
-      "last_str": "2026-06-24 16:35:04 UTC"
+      "count": 1061,
+      "last_ts": 1782345905,
+      "last_str": "2026-06-25 00:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 604,
-      "last_ts": 1782318903,
-      "last_str": "2026-06-24 16:35:03 UTC"
+      "count": 615,
+      "last_ts": 1782345903,
+      "last_str": "2026-06-25 00:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 859,
-      "last_ts": 1782318906,
-      "last_str": "2026-06-24 16:35:06 UTC"
+      "count": 871,
+      "last_ts": 1782345906,
+      "last_str": "2026-06-25 00:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11291,
@@ -266,6 +266,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1370,
+      "ts": 1782345918,
+      "ts_str": "2026-06-25 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Telecom associations warn of US memory chip shortage - Broadband Communities",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 24 Jun 2026 01:54:08 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE1QdHpFN2JUVUl0NHNJaW02WXM5MGdFWWlxV1pPRDZiWkpDbmt1ekJTc1A0ZEVsQ09aX0VJcm5Hc1k2ZnZLWEI2eU81Mm9LV003VmJwNl9udDRTWXpsa1VoLWJSQVFXWUJhNE5KQ3dYX3haa1p0TGRLRlhHWkw?oc=5\n\nTelecom associations warn of US memory chip shortage - Broadband Communities\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1QdHpFN2JUVUl0NHNJaW02WXM5MGdFWWlxV1pPRDZiWkpDbmt1ekJTc1A0ZEVsQ09aX0VJcm5Hc1k2ZnZLWEI2eU81Mm9LV003VmJwNl9udDRTWXpsa1VoLWJSQVFXWUJhNE5KQ3dYX3haa1p0TGRLRlhHWkw?oc=5\" target=\"_blank\">Telecom associations warn of US memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Broadband Communities</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item flags telecom associations warning of a US memory chip shortage ('Telecom associations warn of US memory chip shortage', Broadband Communities).\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u62a5\u9053\u663e\u793a\uff0c\u7535\u4fe1\u884c\u4e1a\u534f\u4f1a\u8b66\u544a\u7f8e\u56fd\u51fa\u73b0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff08'Telecom associations warn of US memory chip shortage'\uff0c\u6765\u6e90 Broadband Communities\uff09\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and shortages spilling into telecom signal demand is crowding out other buyers. Tightening supply and rising memory prices feed straight into AI-capex cost inflation \u2014 a bubble-stress tell, not a comfort signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u8513\u5ef6\u5230\u7535\u4fe1\u884c\u4e1a\u8bf4\u660e\u5176\u4ed6\u4e70\u5bb6\u6b63\u88ab\u6324\u51fa\u5e02\u573a\u3002\u4f9b\u7ed9\u6536\u7d27\u3001\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u76f4\u63a5\u63a8\u9ad8 AI capex \u7684\u6210\u672c\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u800c\u975e\u5229\u597d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1369,
       "ts": 1782317114,
@@ -2254,16 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron shares climb as analysts raise targets on DRAM supply squeeze - Investing.com Australia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 10:07:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcEpERVNOcUhtTGNXNU82MnpqZklnNmxrQlBmc2phNzYxeUNvTE9YQl9ORlNGVkIxQ3NCaVY1T1NjNENiWDMxdGpjaHgwTUpQS1pnNmttT1IxM1FhNHBaNzlORVVsSWl6cG55anJVQktwTGlYMGZ0YXZpam5ScXFoUTcyUFZ4eEg4U19iTzBFWlNiNXJqblRkTy03ZWQ2TUZrSjliSWZEa0ZWQkNNejRRMnhhdmlab3hDQWNBUzhEeXYxUQ?oc=5\n\nMicron shares climb as analysts raise targets on DRAM supply squeeze - Investing.com Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcEpERVNOcUhtTGNXNU82MnpqZklnNmxrQlBmc2phNzYxeUNvTE9YQl9ORlNGVkIxQ3NCaVY1T1NjNENiWDMxdGpjaHgwTUpQS1pnNmttT1IxM1FhNHBaNzlORVVsSWl6cG55anJVQktwTGlYMGZ0YXZpam5ScXFoUTcyUFZ4eEg4U19iTzBFWlNiNXJqblRkTy03ZWQ2TUZrSjliSWZEa0ZWQkNNejRRMnhhdmlab3hDQWNBUzhEeXYxUQ?oc=5\" target=\"_blank\">Micron shares climb as analysts raise targets on DRAM supply squeeze</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Micron (MU) shares climbing as analysts raise price targets on a DRAM supply squeeze.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u663e\u793a\uff0c\u56e0 DRAM \u4f9b\u5e94\u7d27\u5f20\u3001\u5206\u6790\u5e08\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0cMicron (MU) \u80a1\u4ef7\u8d70\u9ad8\u3002\n\nWhy it matters:\nTightening DRAM/memory supply and rising memory prices are a direct read on AI-accelerator demand \u2014 HBM and DRAM are the bottleneck input for AI servers. A price surge here signals capacity is being absorbed faster than it's added, which both confirms the capex boom and raises the unit cost of every new AI build.\n\n\u5f71\u54cd:\nDRAM/\u5b58\u50a8\u4f9b\u5e94\u6536\u7d27\u3001\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\uff0c\u662f AI \u52a0\u901f\u5668\u9700\u6c42\u7684\u76f4\u63a5\u4fe1\u53f7\u2014\u2014HBM \u4e0e DRAM \u662f AI \u670d\u52a1\u5668\u7684\u74f6\u9888\u73af\u8282\u3002\u6b64\u5904\u7684\u80a1\u4ef7\u98d9\u5347\u8bf4\u660e\u4ea7\u80fd\u88ab\u6d88\u5316\u7684\u901f\u5ea6\u5feb\u4e8e\u65b0\u589e\u901f\u5ea6\uff0c\u65e2\u5370\u8bc1\u4e86\u8fd9\u8f6e capex \u70ed\u6f6e\uff0c\u4e5f\u63a8\u9ad8\u4e86\u6bcf\u4e00\u53f0\u65b0 AI \u8bbe\u5907\u7684\u5355\u4f4d\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1170,
-      "ts": 1781853257,
-      "ts_str": "2026-06-19 07:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 06:28:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPS1lWMm51TFNNU18wNmtUaDJZeXBpQ0R3czQ2bF8xVGpYclZ3djRzV3BQOENvYUh3RVMwa05LY0hmUFJDb2VWWDR6c2VwcWMtNXUwSGktQ0J0SG5JR3AtbDhQcU56Z21TamxWT2l5UDltcEd0bHJ1R1RUUEJ3ZkMxemVQSFRnZ0RERW5aMWlxeEVXY3FjdWc?oc=5\n\nGemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPS1lWMm51TFNNU18wNmtUaDJZeXBpQ0R3czQ2bF8xVGpYclZ3djRzV3BQOENvYUh3RVMwa05LY0hmUFJDb2VWWDR6c2VwcWMtNXUwSGktQ0J0SG5JR3AtbDhQcU56Z21TamxWT2l5UDltcEd0bHJ1R1RUUEJ3ZkMxemVQSFRnZ0RERW5aMWlxeEVXY3FjdWc?oc=5\" target=\"_blank\">Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS flagged a headline: \"Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO\" (Yahoo Finance).\n\n\u5185\u5bb9:\nGoogle News RSS \u6355\u6349\u5230\u4e00\u6761\u6807\u9898\uff1a\"Gemini Co-Lead Noam Shazeer Quits Google, Joins OpenAI Before IPO\"\uff08\u6765\u6e90 Yahoo Finance\uff09\u3002\n\nWhy it matters:\nSenior AI talent moving from Google to OpenAI ahead of an IPO signals where insiders see the upside, and concentrates key-person risk in the most capex-hungry private player. Headlines tying marquee hires to a pre-IPO window are the kind of hype-cycle marker that tends to cluster near a top.\n\n\u5f71\u54cd:\n\u9876\u7ea7 AI \u4eba\u624d\u5728 IPO \u524d\u4ece Google \u6d41\u5411 OpenAI\uff0c\u8bf4\u660e\u5185\u90e8\u4eba\u58eb\u8ba4\u4e3a\u4e0a\u884c\u7a7a\u95f4\u5728\u54ea\u4e00\u8fb9\uff0c\u540c\u65f6\u628a\u5173\u952e\u4eba\u7269\u98ce\u9669\u96c6\u4e2d\u5230\u4e86\u6700\u70e7\u94b1\u7684\u90a3\u5bb6\u672a\u4e0a\u5e02\u516c\u53f8\u3002\u628a\u660e\u661f\u4eba\u624d\u62db\u52df\u548c IPO \u7a97\u53e3\u7ed1\u5728\u4e00\u8d77\u7684\u6807\u9898\uff0c\u6b63\u662f\u5e38\u5728\u5468\u671f\u9876\u90e8\u624e\u5806\u51fa\u73b0\u7684\u7092\u4f5c\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
