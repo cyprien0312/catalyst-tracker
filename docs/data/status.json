@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782427262,
-  "generated_at_str": "2026-06-25 22:41:02 UTC",
-  "last_event_ts": 1782426904,
+  "generated_at": 1782427458,
+  "generated_at_str": "2026-06-25 22:44:18 UTC",
+  "last_event_ts": 1782427457,
   "tables": {
     "alerts_dedup": {
-      "count": 1438,
-      "last_ts": 1782426554,
-      "last_str": "2026-06-25 22:29:14 UTC"
+      "count": 1439,
+      "last_ts": 1782427457,
+      "last_str": "2026-06-25 22:44:17 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2321,
-      "last_ts": 1782425643,
-      "last_str": "2026-06-25 22:14:03 UTC"
+      "count": 2322,
+      "last_ts": 1782427444,
+      "last_str": "2026-06-25 22:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 486,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-25 22:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11572,
-      "last_ts": 1782425642,
-      "last_str": "2026-06-25 22:14:02 UTC"
+      "count": 11579,
+      "last_ts": 1782427443,
+      "last_str": "2026-06-25 22:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1446,
+      "ts": 1782427457,
+      "ts_str": "2026-06-25 22:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Mulls Delaying IPO Until 2027: Report - Investor's Business Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 22:28:00 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxNMEg5ek85WmpVWUk4REtQSmdoSEU5ekdNQ3MtRzlWUnVXYWZsS0xrbEFiSHc0RER6b0JyMnZvOTJZN1pHTmpnSjVCVGRyaEJsMFczOWlqY3hrZWlpRHFzUEpDeXNTdUJhSW92ZTAtQXU0cGdzM002aXAwbHdhMjk0eDlXLUlfc3BtNHVsQ2phWkNUR0RFSXdJeFJRYVZvdw?oc=5\n\nOpenAI Mulls Delaying IPO Until 2027: Report - Investor's Business Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNMEg5ek85WmpVWUk4REtQSmdoSEU5ekdNQ3MtRzlWUnVXYWZsS0xrbEFiSHc0RER6b0JyMnZvOTJZN1pHTmpnSjVCVGRyaEJsMFczOWlqY3hrZWlpRHFzUEpDeXNTdUJhSW92ZTAtQXU0cGdzM002aXAwbHdhMjk0eDlXLUlfc3BtNHVsQ2phWkNUR0RFSXdJeFJRYVZvdw?oc=5\" target=\"_blank\">OpenAI Mulls Delaying IPO Until 2027: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports OpenAI is mulling delaying its IPO until 2027 (Investor's Business Daily).\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff08\u6d88\u606f\u6765\u6e90 Investor's Business Daily\uff09\u3002\n\nWhy it matters:\nAn IPO is the cleanest exit for OpenAI's investors and the cleanest mark-to-market for the whole AI-capex stack. Pushing it out signals the company doesn't think public markets would underwrite its valuation yet \u2014 a soft tell that private funding still has to carry the buildout, and that the bubble's biggest name is in no hurry to face daily price discovery.\n\n\u5f71\u54cd:\nIPO \u662f OpenAI \u6295\u8d44\u8005\u6700\u5e72\u51c0\u7684\u9000\u51fa\u901a\u9053\uff0c\u4e5f\u662f\u5bf9\u6574\u4e2a AI capex \u677f\u5757\u6700\u5e72\u51c0\u7684\u5e02\u573a\u5b9a\u4ef7\u3002\u63a8\u8fdf\u4e0a\u5e02\u610f\u5473\u7740\u516c\u53f8\u8ba4\u4e3a\u516c\u5f00\u5e02\u573a\u76ee\u524d\u8fd8\u4e0d\u613f\u4e3a\u5176\u4f30\u503c\u4e70\u5355\u2014\u2014\u8fd9\u6697\u793a\u8fd9\u8f6e\u57fa\u5efa\u6269\u5f20\u4ecd\u8981\u9760\u79c1\u52df\u8d44\u91d1\u786c\u6491\uff0c\u800c\u6ce1\u6cab\u91cc\u6700\u5927\u7684\u540d\u5b57\u4e5f\u5e76\u4e0d\u6025\u4e8e\u63a5\u53d7\u6bcf\u65e5\u7684\u4ef7\u683c\u68c0\u9a8c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1445,
       "ts": 1782426554,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic - The Information",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 15:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxOZjFKUWliWk16ZVd0Qm5sLVNydTE2aG5qLVJ1Z25STzYtUzlSYjd3XzhlOU9LMlBsWXhGR3c5a1NGdHEzQ1R3REJaTDJlNWVzN2wtTUZHdzRJdXl4T2ZtOFltMWlBcmtmX2ZMMVM4THVNcHFtNjRIcFR2Vm45WVR5QkRYdXpxQXZvQ1VGcWxR?oc=5\n\nSpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic - The Information\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOZjFKUWliWk16ZVd0Qm5sLVNydTE2aG5qLVJ1Z25STzYtUzlSYjd3XzhlOU9LMlBsWXhGR3c5a1NGdHEzQ1R3REJaTDJlNWVzN2wtTUZHdzRJdXl4T2ZtOFltMWlBcmtmX2ZMMVM4THVNcHFtNjRIcFR2Vm45WVR5QkRYdXpxQXZvQ1VGcWxR?oc=5\" target=\"_blank\">SpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Information</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline via C3's RSS feed reads \"SpaceX's 74-Day IPO Sets Pace for OpenAI, Anthropic\" (The Information), framing SpaceX's fast private-to-public path as a template for OpenAI and Anthropic.\n\n\u5185\u5bb9:\nC3 \u7684 RSS \u6293\u5230\u4e00\u6761 Google News \u6807\u9898\uff1a\"SpaceX's 74-Day IPO Sets Pace for OpenAI, Anthropic\"\uff08\u6765\u6e90 The Information\uff09\uff0c\u628a SpaceX \u6781\u5feb\u7684\u4e0a\u5e02\u8def\u5f84\u63cf\u8ff0\u4e3a OpenAI \u548c Anthropic \u7684\u8303\u672c\u3002\n\nWhy it matters:\nPress chatter about OpenAI and Anthropic IPOs signals the AI buildout is approaching the point where private capital needs a public exit to keep funding capex. IPO timing talk is a late-cycle tell \u2014 insiders looking to monetize while sentiment is hot.\n\n\u5f71\u54cd:\n\u5173\u4e8e OpenAI \u548c Anthropic IPO \u7684\u5a92\u4f53\u8ba8\u8bba\uff0c\u8bf4\u660e AI \u57fa\u5efa\u6295\u5165\u6b63\u903c\u8fd1\u4e00\u4e2a\u4e34\u754c\u70b9\u2014\u2014\u79c1\u52df\u8d44\u672c\u9700\u8981\u516c\u5f00\u5e02\u573a\u9000\u51fa\u901a\u9053\u6765\u7ee7\u7eed\u7ed9 capex \u8f93\u8840\u3002\u8ba8\u8bba IPO \u65f6\u673a\u672c\u8eab\u5c31\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\uff1a\u5185\u90e8\u4eba\u60f3\u8d81\u5e02\u573a\u60c5\u7eea\u706b\u70ed\u65f6\u53d8\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1246,
-      "ts": 1782050706,
-      "ts_str": "2026-06-21 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip shortage, CEO Tim Cook says: Report - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 20 Jun 2026 23:59:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2RHOWk3YjAyeDZKOWhmblNUUW53bjgxdmV6cC1rTHh1X0pOU1cwU0xtazZ1MnpuRDA3N3ctSHZZaE1Uc1JYamRPak03RU10emZBZmF6d1FTb1lZQUkyVklRUXR6VTFNMVBCU0djVkcxeFlpbm5DNk5sWDhXVTZHNDVTdUJSUmxRbmFrNjQtV2VPaHZYa2FfbklyMHB5Z0FHd3ducEh3cVlzVld1OVZEa2U1c0JORUlPTm9FWUItVlI?oc=5\n\nApple to raise prices due to memory chip shortage, CEO Tim Cook says: Report - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY2RHOWk3YjAyeDZKOWhmblNUUW53bjgxdmV6cC1rTHh1X0pOU1cwU0xtazZ1MnpuRDA3N3ctSHZZaE1Uc1JYamRPak03RU10emZBZmF6d1FTb1lZQUkyVklRUXR6VTFNMVBCU0djVkcxeFlpbm5DNk5sWDhXVTZHNDVTdUJSUmxRbmFrNjQtV2VPaHZYa2FfbklyMHB5Z0FHd3ducEh3cVlzVld1OVZEa2U1c0JORUlPTm9FWUItVlI?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip shortage, CEO Tim Cook says: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via MSN): Apple CEO Tim Cook reportedly says Apple will raise prices due to a memory chip shortage.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u7ecf MSN\uff09\uff1a\u636e\u62a5\u9053 Apple CEO Tim Cook \u8868\u793a\uff0c\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u5c06\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being absorbed by AI datacenter buildout, tightening supply and pushing prices up for consumer hardware makers like AAPL. When AI capex starts visibly raising input costs for the rest of the economy, it's a sign the buildout is straining the physical supply chain \u2014 an inflationary spillover that pressures the bubble.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u6536\uff0c\u5bfc\u81f4\u4f9b\u5e94\u6536\u7d27\u3001\u4ef7\u683c\u4e0a\u6da8\uff0c\u5e76\u4f20\u5bfc\u5230 AAPL \u8fd9\u7c7b\u6d88\u8d39\u786c\u4ef6\u5382\u5546\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u5176\u4ed6\u884c\u4e1a\u7684\u6295\u5165\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u79cd\u901a\u80c0\u5916\u6ea2\u4f1a\u52a0\u5927\u6ce1\u6cab\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
