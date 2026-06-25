@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782369127,
-  "generated_at_str": "2026-06-25 06:32:07 UTC",
-  "last_event_ts": 1782368043,
+  "generated_at": 1782369329,
+  "generated_at_str": "2026-06-25 06:35:29 UTC",
+  "last_event_ts": 1782369328,
   "tables": {
     "alerts_dedup": {
-      "count": 1369,
-      "last_ts": 1782367514,
-      "last_str": "2026-06-25 06:05:14 UTC"
+      "count": 1371,
+      "last_ts": 1782369328,
+      "last_str": "2026-06-25 06:35:28 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -54,19 +54,19 @@
       "last_str": "2026-06-25 05:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 903,
-      "last_ts": 1782367501,
-      "last_str": "2026-06-25 06:05:01 UTC"
+      "count": 904,
+      "last_ts": 1782369302,
+      "last_str": "2026-06-25 06:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1093,
-      "last_ts": 1782367503,
-      "last_str": "2026-06-25 06:05:03 UTC"
+      "count": 1096,
+      "last_ts": 1782369304,
+      "last_str": "2026-06-25 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 634,
-      "last_ts": 1782367502,
-      "last_str": "2026-06-25 06:05:02 UTC"
+      "count": 639,
+      "last_ts": 1782369303,
+      "last_str": "2026-06-25 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 890,
@@ -266,6 +266,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1377,
+      "ts": 1782369328,
+      "ts_str": "2026-06-25 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Baird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com Canada",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 06:13:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd0FUNnFzVjB2VUNfUHhsbDREX0doaUNyd00xbTJFb2xXemFRbjJsVEtrQVB4ay1faWlZdUFTeGR4MVRJQjY5ejhNSU1DZ0pyM040YzUxZ0tnV2RqaTB0R3ZCd3N0RzZvTXBud1d2VnpHVjBvRHlxVzhoMnc3MW5GRmxkMmZWMzFueHNsRVI1SlczNTV0S09qMG5rRUI1TXFHSnF1Q01nMGxtcHB4dlhuX0tQNlZ2Y0JURFRDOFNmSzM?oc=5\n\nBaird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd0FUNnFzVjB2VUNfUHhsbDREX0doaUNyd00xbTJFb2xXemFRbjJsVEtrQVB4ay1faWlZdUFTeGR4MVRJQjY5ejhNSU1DZ0pyM040YzUxZ0tnV2RqaTB0R3ZCd3N0RzZvTXBud1d2VnpHVjBvRHlxVzhoMnc3MW5GRmxkMmZWMzFueHNsRVI1SlczNTV0S09qMG5rRUI1TXFHSnF1Q01nMGxtcHB4dlhuX0tQNlZ2Y0JURFRDOFNmSzM?oc=5\" target=\"_blank\">Baird raises Micron stock price target to $1,280 on DRAM outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item shows Baird raised its Micron (MU) price target to $1,280, citing the DRAM outlook.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u663e\u793a\uff0cBaird \u4ee5 DRAM \u524d\u666f\u4e3a\u7531\u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,280\u3002\n\nWhy it matters:\nSell-side targets in the four figures on a memory name signal that AI-memory euphoria has reached the price-target chase phase. Analyst PT hikes lagging a price surge are a late-cycle crowding tell, not new information \u2014 the kind of extrapolation that marks froth in the AI-capex trade.\n\n\u5f71\u54cd:\n\u5356\u65b9\u5bf9\u4e00\u53ea\u5b58\u50a8\u80a1\u7ed9\u51fa\u56db\u4f4d\u6570\u76ee\u6807\u4ef7\uff0c\u8bf4\u660e AI \u5b58\u50a8\u7684\u72c2\u70ed\u5df2\u8fdb\u5165\u8ffd\u9010\u76ee\u6807\u4ef7\u7684\u9636\u6bb5\u3002\u5206\u6790\u5e08\u5728\u80a1\u4ef7\u5927\u6da8\u4e4b\u540e\u624d\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u5c5e\u4e8e\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u62e5\u6324\u4fe1\u53f7\uff0c\u800c\u975e\u65b0\u589e\u4fe1\u606f\u2014\u2014\u8fd9\u79cd\u7ebf\u6027\u5916\u63a8\u6b63\u662f AI capex \u4ea4\u6613\u8fc7\u70ed\u7684\u6807\u5fd7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1378,
+      "ts": 1782369328,
+      "ts_str": "2026-06-25 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron shares surge 10% after hours as memory chip prices jump, sales quintuple - \ud5e4\ub7f4\ub4dc\uacbd\uc81c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 24 Jun 2026 20:36:35 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JSjJOMmhtdThzSVpNeFJndjJBUHFPZDF4RkszYzc2cHd0V0xZUHU3d0dDTEFCdkVmN1c0bHFlQk82UVlTZWtHQTc4cmpmbGhQaTh2U1J4NA?oc=5\n\nMicron shares surge 10% after hours as memory chip prices jump, sales quintuple - \ud5e4\ub7f4\ub4dc\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JSjJOMmhtdThzSVpNeFJndjJBUHFPZDF4RkszYzc2cHd0V0xZUHU3d0dDTEFCdkVmN1c0bHFlQk82UVlTZWtHQTc4cmpmbGhQaTh2U1J4NA?oc=5\" target=\"_blank\">Micron shares surge 10% after hours as memory chip prices jump, sales quintuple</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ud5e4\ub7f4\ub4dc\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron (MU) shares jumped 10% after hours after it reported memory chip prices surged and sales quintupled.\n\n\u5185\u5bb9:\nMicron (MU) \u80a1\u4ef7\u76d8\u540e\u5927\u6da8 10%\uff0c\u56e0\u5176\u62a5\u544a\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u3001\u9500\u552e\u989d\u66b4\u589e\u4e94\u500d\u3002\n\nWhy it matters:\nMemory is the cyclical chokepoint of the AI-capex chain \u2014 when HBM/DRAM prices spike and Micron's sales 5x, it confirms demand is still running hot at the hardware layer, but a price surge this steep also flags supply tightness that pulls forward spend and sets up a later inventory bust.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u8d44\u672c\u5f00\u652f\u94fe\u6761\u4e0a\u7684\u5468\u671f\u6027\u5361\u70b9\u2014\u2014\u5f53 HBM/DRAM \u4ef7\u683c\u66b4\u6da8\u3001Micron \u9500\u552e\u989d\u7ffb\u4e94\u500d\u65f6\uff0c\u8bf4\u660e\u786c\u4ef6\u5c42\u7684\u9700\u6c42\u4ecd\u7136\u706b\u70ed\uff1b\u4f46\u5982\u6b64\u9661\u5ced\u7684\u6da8\u4ef7\u4e5f\u66b4\u9732\u51fa\u4f9b\u7ed9\u7d27\u5f20\uff0c\u4f1a\u63d0\u524d\u900f\u652f\u652f\u51fa\uff0c\u4e3a\u65e5\u540e\u7684\u5e93\u5b58\u5d29\u584c\u57cb\u4e0b\u4f0f\u7b14\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1375,
       "ts": 1782367514,
@@ -2244,26 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple to raise prices as AI boom drives up memory chip costs - The Nation (Pakistan )",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 09:29:01 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEhRZVdfSExIeGxQVkExV3ljWlZNLVNYSmdaeEMydjJIaTg2R215RzlMb25taHYyMHNEY3NaSEhrMjVEazJJR3YwNUtFTFVZQWFMUkluSzA1ZnJDel9fdGJHSnlmNVBFMU1odWxmNWpvX1dZN3NJYlpyeXYtNWd3Z3dRYUQ4RHMtQlRUSWNkOUROM1U?oc=5\n\nApple to raise prices as AI boom drives up memory chip costs - The Nation (Pakistan )\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEhRZVdfSExIeGxQVkExV3ljWlZNLVNYSmdaeEMydjJIaTg2R215RzlMb25taHYyMHNEY3NaSEhrMjVEazJJR3YwNUtFTFVZQWFMUkluSzA1ZnJDel9fdGJHSnlmNVBFMU1odWxmNWpvX1dZN3NJYlpyeXYtNWd3Z3dRYUQ4RHMtQlRUSWNkOUROM1U?oc=5\" target=\"_blank\">Apple to raise prices as AI boom drives up memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Nation (Pakistan )</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple plans to raise product prices because the AI boom is driving up memory chip (DRAM/NAND) costs.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u8ba1\u5212\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\uff0c\u539f\u56e0\u662f AI \u70ed\u6f6e\u63a8\u9ad8\u4e86\u5185\u5b58\u82af\u7247 (DRAM/NAND) \u6210\u672c\u3002\n\nWhy it matters:\nMemory price surges are a downstream symptom of AI-capex demand soaking up supply \u2014 when it reaches consumer hardware like the iPhone, the cost pressure has spread beyond the datacenter into the broader electronics chain. Rising component costs squeeze margins and signal the AI build-out is now distorting prices for everyone.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI capex \u9700\u6c42\u541e\u566c\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u2014\u2014\u5f53\u5b83\u4f20\u5bfc\u5230 iPhone \u8fd9\u7c7b\u6d88\u8d39\u786c\u4ef6\u65f6\uff0c\u8bf4\u660e\u6210\u672c\u538b\u529b\u5df2\u4ece\u6570\u636e\u4e2d\u5fc3\u8513\u5ef6\u5230\u6574\u4e2a\u7535\u5b50\u4ea7\u4e1a\u94fe\u3002\u96f6\u90e8\u4ef6\u6210\u672c\u4e0a\u5347\u4f1a\u4fb5\u8680\u5229\u6da6\u7387\uff0c\u4e5f\u8868\u660e AI \u5efa\u8bbe\u6b63\u5728\u626d\u66f2\u6240\u6709\u4eba\u9762\u5bf9\u7684\u4ef7\u683c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1178,
-      "ts": 1781870718,
-      "ts_str": "2026-06-19 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] iPhone 18 Pro may cost over RM6,300 due to memory price hikes - SoyaCincau",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 11:44:06 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQTFVnLXV2Q0ZGSHpJelJHS19DUkcxRzBDMkg5Z2UyQlJqNDUwbkhUVGZTSXZLYjA4MkYxZ1h2Wml2emF0aUFseGRJTk1sUzZwWjE5QmNndGtXUkZZV0FpOEJuTFdYMzduanYwbnFiblk0OEpRNmtJOVd6WGRqUEpDM09KaUxXQzZXVHZESC02cGk1XzVxUjBnc3VB?oc=5\n\niPhone 18 Pro may cost over RM6,300 due to memory price hikes - SoyaCincau\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQTFVnLXV2Q0ZGSHpJelJHS19DUkcxRzBDMkg5Z2UyQlJqNDUwbkhUVGZTSXZLYjA4MkYxZ1h2Wml2emF0aUFseGRJTk1sUzZwWjE5QmNndGtXUkZZV0FpOEJuTFdYMzduanYwbnFiblk0OEpRNmtJOVd6WGRqUEpDM09KaUxXQzZXVHZESC02cGk1XzVxUjBnc3VB?oc=5\" target=\"_blank\">iPhone 18 Pro may cost over RM6,300 due to memory price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SoyaCincau</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SoyaCincau report says the iPhone 18 Pro may cost over RM6,300 because of memory price hikes.\n\n\u5185\u5bb9:\nSoyaCincau \u62a5\u9053\u79f0\uff0ciPhone 18 Pro \u7684\u552e\u4ef7\u53ef\u80fd\u56e0\u5185\u5b58\u6da8\u4ef7\u800c\u8d85\u8fc7 RM6,300\u3002\n\nWhy it matters:\nConsumer hardware passing memory inflation through to retail prices confirms DRAM/NAND tightness is real and broad. AI datacenter buildouts are bidding up the same memory supply, so the cost is now leaking into mainstream devices \u2014 a sign the capex boom is crowding out other buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7\u786c\u4ef6\u628a\u5185\u5b58\u6da8\u4ef7\u76f4\u63a5\u8f6c\u5ac1\u5230\u96f6\u552e\u4ef7\uff0c\u8bf4\u660e DRAM/NAND \u7684\u7d27\u7f3a\u662f\u771f\u5b9e\u4e14\u5e7f\u6cdb\u7684\u3002AI \u6570\u636e\u4e2d\u5fc3\u6269\u5efa\u6b63\u5728\u62a2\u8d2d\u540c\u4e00\u6279\u5185\u5b58\u4f9b\u5e94\uff0c\u6210\u672c\u5df2\u7ecf\u5916\u6ea2\u5230\u4e3b\u6d41\u8bbe\u5907\u4e0a\u2014\u2014\u8fd9\u8868\u660e capex \u70ed\u6f6e\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1176,
-      "ts": 1781867125,
-      "ts_str": "2026-06-19 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple (NASDAQ: AAPL) CEO Tim Cook Warns Price Hikes Are \"Unavoidable\" As Memory Chip Costs Spiral - foreignpolicyjournal",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 23:17:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUGdPeF9raEJoeHFXbWtHSjFUemJMeDFPZ0g5VG1DcFREUjRBcFMxSnZ2TG41SThQenp2QjZFNVJNcW9GZ0xxbm5UMUtzaGNqX3g5eDBsSVhja1lVdEZvaGFpNHNYNGNRVHVFa2oyUHNJSk5iY0IxMXVtY2haQ2tSZWVDOFRQREQtT1JJMUY1SGlxZzNyNEY3M0d1Rm53b3FDNjlsUjcwa0o3cXRtOVZMZTFtMjlsdkw5aWI5MGU2RnhxdVBCT3dER1hKUnhoMDhNTUc2X0NLd08?oc=5\n\nApple (NASDAQ: AAPL) CEO Tim Cook Warns Price Hikes Are \"Unavoidable\" As Memory Chip Costs Spiral - foreignpolicyjournal.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUGdPeF9raEJoeHFXbWtHSjFUemJMeDFPZ0g5VG1DcFREUjRBcFMxSnZ2TG41SThQenp2QjZFNVJNcW9GZ0xxbm5UMUtzaGNqX3g5eDBsSVhja1lVdEZvaGFpNHNYNGNRVHVFa2oyUHNJSk5iY0IxMXVtY2haQ2tSZWVDOFRQREQtT1JJMUY1SGlxZzNyNEY3M0d1Rm53b3FDNjlsUjcwa0o3cXRtOVZMZTFtMjlsdkw5aWI5MGU2RnhxdVBCT3dER1hKUnhoMDhNTUc2X0NLd08?oc=5\" target=\"_blank\">Apple (NASDAQ: AAPL) CEO Tim Cook Warns Price Hikes Are \"Unavoidable\" As Memory Chip Costs Spiral</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foreignpolicyjournal.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Apple (NASDAQ: AAPL) CEO Tim Cook called price hikes \"unavoidable\" as memory chip costs spiral.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0\uff0cApple (NASDAQ: AAPL) CEO Tim Cook \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\uff0c\u6da8\u4ef7\u5df2\"\u4e0d\u53ef\u907f\u514d\"\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away from consumer devices by AI datacenter demand, and the cost is now hitting end-product pricing at the largest hardware buyer in the world. When AI-capex spillover forces a non-AI giant like Apple to raise prices, the build-out is no longer absorbing its own input inflation \u2014 a sign the spend is straining the broader supply chain.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u628a\u5185\u5b58\uff08DRAM/NAND\uff09\u4ece\u6d88\u8d39\u7535\u5b50\u624b\u4e2d\u62a2\u8d70\uff0c\u5982\u4eca\u6210\u672c\u5df2\u4f20\u5bfc\u5230\u5168\u7403\u6700\u5927\u786c\u4ef6\u91c7\u8d2d\u5546\u7684\u7ec8\u7aef\u552e\u4ef7\u4e0a\u3002\u5f53 AI capex \u7684\u5916\u6ea2\u6548\u5e94\u903c\u5f97 Apple \u8fd9\u79cd\u975e AI \u5de8\u5934\u90fd\u8981\u6da8\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u5df2\u65e0\u6cd5\u81ea\u884c\u6d88\u5316\u5176\u6295\u5165\u7aef\u7684\u901a\u80c0\u2014\u2014\u662f\u652f\u51fa\u6b63\u5728\u6324\u538b\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
