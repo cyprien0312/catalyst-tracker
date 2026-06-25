@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782405124,
-  "generated_at_str": "2026-06-25 16:32:04 UTC",
-  "last_event_ts": 1782404044,
+  "generated_at": 1782405326,
+  "generated_at_str": "2026-06-25 16:35:26 UTC",
+  "last_event_ts": 1782405320,
   "tables": {
     "alerts_dedup": {
-      "count": 1393,
-      "last_ts": 1782401752,
-      "last_str": "2026-06-25 15:35:52 UTC"
+      "count": 1394,
+      "last_ts": 1782405320,
+      "last_str": "2026-06-25 16:35:20 UTC"
     },
     "c10_signals": {
       "count": 1,
@@ -64,19 +64,19 @@
       "last_str": "2026-06-25 16:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1140,
-      "last_ts": 1782403503,
-      "last_str": "2026-06-25 16:05:03 UTC"
+      "count": 1142,
+      "last_ts": 1782405304,
+      "last_str": "2026-06-25 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 693,
-      "last_ts": 1782403503,
-      "last_str": "2026-06-25 16:05:03 UTC"
+      "count": 695,
+      "last_ts": 1782405303,
+      "last_str": "2026-06-25 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 922,
-      "last_ts": 1782403504,
-      "last_str": "2026-06-25 16:05:04 UTC"
+      "count": 924,
+      "last_ts": 1782405305,
+      "last_str": "2026-06-25 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11485,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1401,
+      "ts": 1782405320,
+      "ts_str": "2026-06-25 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory chip shortage is pushing Apple prices higher - Yahoo Finance UK",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 16:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxQUU1DWnFIeEVuS3JNckpKMG1oTlhrU05RMkhUQzF6WWFyWnRGVHE5REZIV0tRWHZ2VU5GeVdJdTVaa20zeld1SlFzTGNZeW1MeFVyMm8zcUVBOWIxU2dSZF8tRzNYOG1fWWxXQTcwNmZiQndJbGw0Qzk3bjFBajJqd3hLcl9Na1EtSFZvVQ?oc=5\n\nMemory chip shortage is pushing Apple prices higher - Yahoo Finance UK\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQUU1DWnFIeEVuS3JNckpKMG1oTlhrU05RMkhUQzF6WWFyWnRGVHE5REZIV0tRWHZ2VU5GeVdJdTVaa20zeld1SlFzTGNZeW1MeFVyMm8zcUVBOWIxU2dSZF8tRzNYOG1fWWxXQTcwNmZiQndJbGw0Qzk3bjFBajJqd3hLcl9Na1EtSFZvVQ?oc=5\" target=\"_blank\">Memory chip shortage is pushing Apple prices higher</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance UK headline reports that a memory chip shortage is pushing Apple's prices higher.\n\n\u5185\u5bb9:\nYahoo Finance UK \u7684\u6807\u9898\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8 Apple \u7684\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/HBM scarcity driven by AI datacenter buildout is now bleeding into consumer hardware pricing \u2014 a sign AI capex is crowding out the rest of the semiconductor supply chain. When memory shortages reach phones, the squeeze is broad-based, not contained to GPUs, which raises input costs and stress across the tech complex.\n\n\u5f71\u54cd:\n\u7531 AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u63a8\u52a8\u7684 DRAM/HBM \u77ed\u7f3a\uff0c\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u2014\u2014\u8fd9\u8bf4\u660e AI capex \u6b63\u5728\u6324\u5360\u6574\u4e2a\u534a\u5bfc\u4f53\u4f9b\u5e94\u94fe\u7684\u5176\u4f59\u4ea7\u80fd\u3002\u5f53\u5185\u5b58\u77ed\u7f3a\u8513\u5ef6\u5230\u624b\u673a\u65f6\uff0c\u610f\u5473\u7740\u6324\u538b\u662f\u5168\u9762\u6027\u7684\uff0c\u800c\u975e\u53ea\u5c40\u9650\u4e8e GPU\uff0c\u8fd9\u4f1a\u62ac\u9ad8\u8f93\u5165\u6210\u672c\u5e76\u52a0\u5267\u6574\u4e2a\u79d1\u6280\u677f\u5757\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1397,
       "ts": 1782401752,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Tim Cook says prices of Apple devices will jump amid memory chip shortage - WWAYTV3",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 11:48:16 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPenhic1E5d2tOaTI3Zlo4UGR6d19iNWs4eXJFQmFqY3FCd05XRkRDR09zX2wtX2xKTkhOZWRGWXJrNkNrenlobFkwWjNmalFBQy01c3JfTExKa1htV2NPWS1JSXRsaU1kdmtBVWZyWnVfYkd1cFh5VGlNVW85N0Fyc29LcjJwclBVT3AyWXlCdDJFalBCZUprU3owbkRSWGs?oc=5\n\nTim Cook says prices of Apple devices will jump amid memory chip shortage - WWAYTV3\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPenhic1E5d2tOaTI3Zlo4UGR6d19iNWs4eXJFQmFqY3FCd05XRkRDR09zX2wtX2xKTkhOZWRGWXJrNkNrenlobFkwWjNmalFBQy01c3JfTExKa1htV2NPWS1JSXRsaU1kdmtBVWZyWnVfYkd1cFh5VGlNVW85N0Fyc29LcjJwclBVT3AyWXlCdDJFalBCZUprU3owbkRSWGs?oc=5\" target=\"_blank\">Tim Cook says prices of Apple devices will jump amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WWAYTV3</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News surfaced a WWAYTV3 headline quoting Apple CEO Tim Cook saying prices of Apple devices will jump amid a memory chip shortage.\n\n\u5185\u5bb9:\nGoogle News \u6293\u5230 WWAYTV3 \u7684\u6807\u9898\uff0c\u5f15\u7528 Apple CEO Tim Cook \u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cApple \u8bbe\u5907\u7684\u4ef7\u683c\u5c06\u4e0a\u6da8\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being bid away from consumer hardware to feed AI datacenter buildouts, and the shortage is now hitting end prices at the largest device maker. Confirms AI-capex demand is crowding out the rest of the supply chain \u2014 a classic bubble-stress spillover.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u8d70\uff0c\u6324\u538b\u6d88\u8d39\u786c\u4ef6\u4f9b\u7ed9\uff0c\u77ed\u7f3a\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6700\u5927\u8bbe\u5907\u5382\u5546\u7684\u7ec8\u7aef\u552e\u4ef7\u3002\u8fd9\u5370\u8bc1\u4e86 AI capex \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4f59\u4f9b\u5e94\u94fe\u2014\u2014\u662f\u5178\u578b\u7684\u6ce1\u6cab\u538b\u529b\u5916\u6ea2\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1201,
-      "ts": 1781918061,
-      "ts_str": "2026-06-20 01:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI hit with multistate probe into possible user harm as its IPO looms - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 23:15:47 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxQaVo1TkMtWV9fakNjTkFFdFVoNjBibExoSnlORnBYRXpZUUtmem5TV0ZJZWk0VUt6WW5xdDlNMHdySGZ1Z2ExS2o2WW5yVXR0U3dNOFl1RWdxTGtFaVF6WV9kbXNOdENNRTZxTnBfN0JDSzlxalZKVmFwNnRNRWM4ZzlsdGFrb3M?oc=5\n\nOpenAI hit with multistate probe into possible user harm as its IPO looms - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQaVo1TkMtWV9fakNjTkFFdFVoNjBibExoSnlORnBYRXpZUUtmem5TV0ZJZWk0VUt6WW5xdDlNMHdySGZ1Z2ExS2o2WW5yVXR0U3dNOFl1RWdxTGtFaVF6WV9kbXNOdENNRTZxTnBfN0JDSzlxalZKVmFwNnRNRWM4ZzlsdGFrb3M?oc=5\" target=\"_blank\">OpenAI hit with multistate probe into possible user harm as its IPO looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is facing a multistate probe into possible user harm as its IPO approaches.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u5728 IPO \u4e34\u8fd1\u4e4b\u9645\u6b63\u9762\u4e34\u591a\u5dde\u8054\u5408\u8c03\u67e5\uff0c\u6307\u5411\u53ef\u80fd\u7684\u7528\u6237\u4f24\u5bb3\u95ee\u9898\u3002\n\nWhy it matters:\nRegulatory and legal overhang on OpenAI just as it heads toward an IPO raises the cost and uncertainty of the AI sector's flagship private name. If the IPO that's meant to validate frontier-AI valuations gets clouded by investigations, it weakens the exit narrative underpinning the whole AI-capex bubble.\n\n\u5f71\u54cd:\n\u5728 OpenAI \u5373\u5c06 IPO \u4e4b\u65f6\u53e0\u52a0\u76d1\u7ba1\u4e0e\u6cd5\u5f8b\u98ce\u9669\uff0c\u62ac\u9ad8\u4e86 AI \u677f\u5757\u8fd9\u5bb6\u65d7\u8230\u79c1\u8425\u516c\u53f8\u7684\u6210\u672c\u548c\u4e0d\u786e\u5b9a\u6027\u3002\u5982\u679c\u8fd9\u573a\u672c\u5e94\u4e3a\u524d\u6cbf AI \u4f30\u503c\u6b63\u540d\u7684 IPO \u88ab\u8c03\u67e5\u8499\u4e0a\u9634\u5f71\uff0c\u5c31\u4f1a\u524a\u5f31\u652f\u6491\u6574\u4e2a AI capex \u6ce1\u6cab\u7684\u9000\u51fa\u53d9\u4e8b\u3002\n",
       "emailed": false
     }
   ],
