@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782381726,
-  "generated_at_str": "2026-06-25 10:02:06 UTC",
-  "last_event_ts": 1782380662,
+  "generated_at": 1782381931,
+  "generated_at_str": "2026-06-25 10:05:31 UTC",
+  "last_event_ts": 1782381931,
   "tables": {
     "alerts_dedup": {
-      "count": 1376,
-      "last_ts": 1782380662,
-      "last_str": "2026-06-25 09:44:22 UTC"
+      "count": 1380,
+      "last_ts": 1782381931,
+      "last_str": "2026-06-25 10:05:31 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-25 09:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1108,
-      "last_ts": 1782380103,
-      "last_str": "2026-06-25 09:35:03 UTC"
+      "count": 1112,
+      "last_ts": 1782381904,
+      "last_str": "2026-06-25 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 656,
-      "last_ts": 1782380103,
-      "last_str": "2026-06-25 09:35:03 UTC"
+      "count": 660,
+      "last_ts": 1782381903,
+      "last_str": "2026-06-25 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 898,
-      "last_ts": 1782380104,
-      "last_str": "2026-06-25 09:35:04 UTC"
+      "count": 899,
+      "last_ts": 1782381905,
+      "last_str": "2026-06-25 10:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11414,
@@ -266,6 +266,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1385,
+      "ts": 1782381931,
+      "ts_str": "2026-06-25 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Exclusive: Amundi launches cut price memory chip ETF - Citywire",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 08:53:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxQN2NJYW82TUxQejN4SUpmcVVlalpwdnVkUHptcE5fdUh1cXZQTWM4RHZtSDFqRjFIcmZEUFA4cXk3TmpXN2hCNDRWY0tBVkNBdENJM3FSWExlbmdBcVk0ekp0YWNtTm5IcWtmMFM4Zk13dEpwX2NqSFhHaE5lb3NaOXU0cmo4OURLd2YwYVhBeHNNWVhlRFZNYkV3a2pNY2x3OUJj?oc=5\n\nExclusive: Amundi launches cut price memory chip ETF - Citywire\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQN2NJYW82TUxQejN4SUpmcVVlalpwdnVkUHptcE5fdUh1cXZQTWM4RHZtSDFqRjFIcmZEUFA4cXk3TmpXN2hCNDRWY0tBVkNBdENJM3FSWExlbmdBcVk0ekp0YWNtTm5IcWtmMFM4Zk13dEpwX2NqSFhHaE5lb3NaOXU0cmo4OURLd2YwYVhBeHNNWVhlRFZNYkV3a2pNY2x3OUJj?oc=5\" target=\"_blank\">Exclusive: Amundi launches cut price memory chip ETF</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Citywire</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCitywire reports Amundi has launched a low-fee (\"cut price\") ETF tracking memory chip makers, picked up as a C6 price-reversal signal.\n\n\u5185\u5bb9:\nCitywire \u62a5\u9053\uff0cAmundi \u63a8\u51fa\u4e00\u53ea\u4f4e\u8d39\u7387\uff08\"cut price\"\uff09\u7684\u5b58\u50a8\u82af\u7247 ETF\uff0c\u88ab\u8bc6\u522b\u4e3a C6 \u4ef7\u683c\u53cd\u8f6c\u4fe1\u53f7\u3002\n\nWhy it matters:\nCheap, retail-facing thematic ETFs typically launch near the top of a hype cycle, after the easy gains are gone \u2014 issuers package a theme once it's crowded enough to sell. A memory-chip ETF arriving now suggests HBM/DRAM enthusiasm has reached the late, mass-distribution stage of the AI-capex trade.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u5ec9\u4ef7\u4e3b\u9898\u578b ETF \u901a\u5e38\u5728\u7092\u4f5c\u5468\u671f\u63a5\u8fd1\u9876\u90e8\u65f6\u624d\u63a8\u51fa\u2014\u2014\u5bb9\u6613\u8d5a\u7684\u94b1\u5df2\u7ecf\u8d5a\u5b8c\uff0c\u53d1\u884c\u5546\u603b\u662f\u7b49\u5230\u9898\u6750\u8db3\u591f\u62e5\u6324\u3001\u597d\u5356\u4e86\u624d\u6253\u5305\u4e0a\u67b6\u3002\u6b64\u65f6\u63a8\u51fa\u5b58\u50a8\u82af\u7247 ETF\uff0c\u8bf4\u660e HBM/DRAM \u70ed\u6f6e\u5df2\u8fdb\u5165 AI capex \u4ea4\u6613\u7684\u665a\u671f\u3001\u5927\u4f17\u5206\u9500\u9636\u6bb5\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 1386,
+      "ts": 1782381931,
+      "ts_str": "2026-06-25 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Citi Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped - Moomoo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:15:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNclNIcGZSV0tvTW8zODExdlBrQXRDaVVhbUdaZ3Bxem83N1BIYk9vU19fTkdEbXR2YmRMeFJCUzlQWEw2UWdDX2N2MnRjRG1XMTduZ2IwTUhYcDJBZHhoeUVEd3hFdHFvQjhId0NBZ1laeEFnWmNwOUdkSEMyS1RQbFlpS2hsQW5WLXJQMjQ0dHpvY0tWV0xXM0RLdlRTQlVLSGc?oc=5\n\nCiti Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNclNIcGZSV0tvTW8zODExdlBrQXRDaVVhbUdaZ3Bxem83N1BIYk9vU19fTkdEbXR2YmRMeFJCUzlQWEw2UWdDX2N2MnRjRG1XMTduZ2IwTUhYcDJBZHhoeUVEd3hFdHFvQjhId0NBZ1laeEFnWmNwOUdkSEMyS1RQbFlpS2hsQW5WLXJQMjQ0dHpvY0tWV0xXM0RLdlRTQlVLSGc?oc=5\" target=\"_blank\">Citi Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Citi note raised its Micron (MU) price target to $1,200 and said AI memory price increases have not stopped.\n\n\u5185\u5bb9:\nCiti \u7684\u4e00\u4efd\u62a5\u544a\u5c06 Micron (MU) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,200\uff0c\u5e76\u8868\u793a AI \u5185\u5b58\u7684\u6da8\u4ef7\u5c1a\u672a\u505c\u6b62\u3002\n\nWhy it matters:\nHBM and DRAM pricing power is the cleanest read-through on AI accelerator demand \u2014 buyers are paying up for memory to feed GPUs. A still-climbing target on memory pricing means the capex cycle is accelerating, not cooling, which feeds the bubble rather than relieving it.\n\n\u5f71\u54cd:\nHBM \u548c DRAM \u7684\u5b9a\u4ef7\u80fd\u529b\u662f AI \u52a0\u901f\u5668\u9700\u6c42\u6700\u76f4\u63a5\u7684\u53cd\u6620\u2014\u2014\u4e70\u5bb6\u4e3a\u4e86\u5582\u9971 GPU \u4e0d\u60dc\u4e3a\u5185\u5b58\u52a0\u4ef7\u3002\u5185\u5b58\u6da8\u4ef7\u76ee\u6807\u4ecd\u5728\u4e0a\u8c03\uff0c\u8bf4\u660e\u8d44\u672c\u5f00\u652f\u5468\u671f\u5728\u52a0\u901f\u800c\u975e\u964d\u6e29\uff0c\u8fd9\u662f\u5728\u7ed9\u6ce1\u6cab\u6dfb\u67f4\uff0c\u800c\u4e0d\u662f\u6cc4\u538b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1387,
+      "ts": 1782381931,
+      "ts_str": "2026-06-25 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Citi Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping - \u5bcc\u9014\u725b\u725b",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:22:14 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzdYNVNpcXVjaWZyT3FEOEw4OTd6Ujd4Nl85Rkc1ZklsSlZRa1ZjUDB6VG5iRTFRdk1ZVVh4YmRDQVBZcmRleGNFRlo1SEVqeFVhRjlMbVBNR1R6czBya3h5eTR5MTNDeEdCcW0xY2Nvamd0MzNLOXdlYlZxRHNlVGc2QTBhZ2trdkdkT0VCY19sVjJwMkVTcw?oc=5\n\nCiti Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzdYNVNpcXVjaWZyT3FEOEw4OTd6Ujd4Nl85Rkc1ZklsSlZRa1ZjUDB6VG5iRTFRdk1ZVVh4YmRDQVBZcmRleGNFRlo1SEVqeFVhRjlMbVBNR1R6czBya3h5eTR5MTNDeEdCcW0xY2Nvamd0MzNLOXdlYlZxRHNlVGc2QTBhZ2trdkdkT0VCY19sVjJwMkVTcw?oc=5\" target=\"_blank\">Citi Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Citi note (via \u5bcc\u9014\u725b\u725b) put Micron's (MU) target price at USD 1,200, saying AI memory price hikes show no signs of stopping.\n\n\u5185\u5bb9:\n\u82b1\u65d7 (Citi) \u7684\u4e00\u4efd\u62a5\u544a\uff08\u7ecf\u5bcc\u9014\u725b\u725b\u8f6c\u8f7d\uff09\u5c06 Micron (MU) \u76ee\u6807\u4ef7\u5b9a\u5728 USD 1,200\uff0c\u5e76\u79f0 AI \u5185\u5b58\u6da8\u4ef7\u6ca1\u6709\u4efb\u4f55\u505c\u6b62\u8ff9\u8c61\u3002\n\nWhy it matters:\nC6 tracks memory as the tightest physical bottleneck in the AI buildout \u2014 runaway HBM/DRAM pricing and sell-side targets this aggressive mark blow-off behavior, where the supply chain's scarcest input is repricing faster than end demand can be verified. Late-cycle euphoria, not just fundamentals.\n\n\u5f71\u54cd:\nC6 \u628a\u5185\u5b58\u89c6\u4e3a AI \u5efa\u8bbe\u4e2d\u6700\u7d27\u7684\u7269\u7406\u74f6\u9888\u3002HBM/DRAM \u4ef7\u683c\u5931\u63a7\u52a0\u4e0a\u5982\u6b64\u6fc0\u8fdb\u7684\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u6807\u5fd7\u7740\u5439\u6ce1\u6cab\u5f0f\u7684\u884c\u4e3a\u2014\u2014\u4f9b\u5e94\u94fe\u4e2d\u6700\u7a00\u7f3a\u7684\u73af\u8282\u6b63\u5728\u4ee5\u5feb\u4e8e\u7ec8\u7aef\u9700\u6c42\u88ab\u9a8c\u8bc1\u7684\u901f\u5ea6\u91cd\u65b0\u5b9a\u4ef7\u3002\u8fd9\u662f\u5468\u671f\u665a\u671f\u7684\u72c2\u70ed\uff0c\u800c\u4e0d\u53ea\u662f\u57fa\u672c\u9762\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1384,
+      "ts": 1782381930,
+      "ts_str": "2026-06-25 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Citi Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped - Moomoo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:15:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNclNIcGZSV0tvTW8zODExdlBrQXRDaVVhbUdaZ3Bxem83N1BIYk9vU19fTkdEbXR2YmRMeFJCUzlQWEw2UWdDX2N2MnRjRG1XMTduZ2IwTUhYcDJBZHhoeUVEd3hFdHFvQjhId0NBZ1laeEFnWmNwOUdkSEMyS1RQbFlpS2hsQW5WLXJQMjQ0dHpvY0tWV0xXM0RLdlRTQlVLSGc?oc=5\n\nCiti Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNclNIcGZSV0tvTW8zODExdlBrQXRDaVVhbUdaZ3Bxem83N1BIYk9vU19fTkdEbXR2YmRMeFJCUzlQWEw2UWdDX2N2MnRjRG1XMTduZ2IwTUhYcDJBZHhoeUVEd3hFdHFvQjhId0NBZ1laeEFnWmNwOUdkSEMyS1RQbFlpS2hsQW5WLXJQMjQ0dHpvY0tWV0xXM0RLdlRTQlVLSGc?oc=5\" target=\"_blank\">Citi Analysis: Micron Target Price Raised to $1200, AI Memory Price Increase Has Not Stopped</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Citi note raised its Micron (MU) price target to $1,200 and said AI memory price increases have not stopped.\n\n\u5185\u5bb9:\nCiti \u7684\u4e00\u4efd\u62a5\u544a\u5c06 Micron (MU) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,200\uff0c\u5e76\u8868\u793a AI \u5185\u5b58\u7684\u6da8\u4ef7\u5c1a\u672a\u505c\u6b62\u3002\n\nWhy it matters:\nHBM and DRAM pricing power is the cleanest read-through on AI accelerator demand \u2014 buyers are paying up for memory to feed GPUs. A still-climbing target on memory pricing means the capex cycle is accelerating, not cooling, which feeds the bubble rather than relieving it.\n\n\u5f71\u54cd:\nHBM \u548c DRAM \u7684\u5b9a\u4ef7\u80fd\u529b\u662f AI \u52a0\u901f\u5668\u9700\u6c42\u6700\u76f4\u63a5\u7684\u53cd\u6620\u2014\u2014\u4e70\u5bb6\u4e3a\u4e86\u5582\u9971 GPU \u4e0d\u60dc\u4e3a\u5185\u5b58\u52a0\u4ef7\u3002\u5185\u5b58\u6da8\u4ef7\u76ee\u6807\u4ecd\u5728\u4e0a\u8c03\uff0c\u8bf4\u660e\u8d44\u672c\u5f00\u652f\u5468\u671f\u5728\u52a0\u901f\u800c\u975e\u964d\u6e29\uff0c\u8fd9\u662f\u5728\u7ed9\u6ce1\u6cab\u6dfb\u67f4\uff0c\u800c\u4e0d\u662f\u6cc4\u538b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1383,
       "ts": 1782380662,
@@ -2224,46 +2264,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Citi Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 12:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\n\nCiti Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\" target=\"_blank\">Citi Raises Applied Materials Price Target Following NAND Flash Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti raised its price target on Applied Materials (AMAT) following stronger NAND flash demand, per a sekbernews.id headline.\n\n\u5185\u5bb9:\n\u636e sekbernews.id \u62a5\u9053\uff0cCiti \u5728 NAND \u95ea\u5b58\u9700\u6c42\u8d70\u5f3a\u540e\u4e0a\u8c03\u4e86 Applied Materials (AMAT) \u7684\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nSell-side price-target hikes tied to memory demand feed the AI-capex momentum trade \u2014 analysts extrapolating NAND/HBM tightness into higher semicap valuations. It's a sentiment marker, not hard data: when targets rise on demand narratives, it signals the cycle is still in its optimistic phase.\n\n\u5f71\u54cd:\n\u5356\u65b9\u56e0\u5b58\u50a8\u9700\u6c42\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u662f\u5728\u4e3a AI \u8d44\u672c\u5f00\u652f\u7684\u52a8\u91cf\u4ea4\u6613\u6dfb\u67f4\u2014\u2014\u5206\u6790\u5e08\u628a NAND/HBM \u7684\u4f9b\u5e94\u7d27\u5f20\u5916\u63a8\u6210\u66f4\u9ad8\u7684\u534a\u5bfc\u4f53\u8bbe\u5907\u4f30\u503c\u3002\u8fd9\u662f\u60c5\u7eea\u6307\u6807\u800c\u975e\u786c\u6570\u636e\uff1a\u5f53\u76ee\u6807\u4ef7\u56e0\u9700\u6c42\u53d9\u4e8b\u800c\u4e0a\u8c03\u65f6\uff0c\u8bf4\u660e\u5468\u671f\u4ecd\u5904\u5728\u4e50\u89c2\u9636\u6bb5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1188,
-      "ts": 1781886918,
-      "ts_str": "2026-06-19 16:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Citi Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 12:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\n\nCiti Raises Applied Materials Price Target Following NAND Flash Demand - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9id2dGQnJtR3VyVE1jdjM1bnNkWGJkUDBvOEN2VURMNmZ6RkQ0RFoyMTR2ZUhLVXRKNVN4RjNwazhJZllwUklkRzJRTFZLakNyRHd5d3VGdEVIMEVCVlN6NzBFOFhBT211Z18tT0dmV25hblE?oc=5\" target=\"_blank\">Citi Raises Applied Materials Price Target Following NAND Flash Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti raised its price target on Applied Materials (AMAT) following stronger NAND flash demand, per a sekbernews.id headline.\n\n\u5185\u5bb9:\n\u636e sekbernews.id \u62a5\u9053\uff0cCiti \u5728 NAND \u95ea\u5b58\u9700\u6c42\u8d70\u5f3a\u540e\u4e0a\u8c03\u4e86 Applied Materials (AMAT) \u7684\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nSell-side price-target hikes tied to memory demand feed the AI-capex momentum trade \u2014 analysts extrapolating NAND/HBM tightness into higher semicap valuations. It's a sentiment marker, not hard data: when targets rise on demand narratives, it signals the cycle is still in its optimistic phase.\n\n\u5f71\u54cd:\n\u5356\u65b9\u56e0\u5b58\u50a8\u9700\u6c42\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u662f\u5728\u4e3a AI \u8d44\u672c\u5f00\u652f\u7684\u52a8\u91cf\u4ea4\u6613\u6dfb\u67f4\u2014\u2014\u5206\u6790\u5e08\u628a NAND/HBM \u7684\u4f9b\u5e94\u7d27\u5f20\u5916\u63a8\u6210\u66f4\u9ad8\u7684\u534a\u5bfc\u4f53\u8bbe\u5907\u4f30\u503c\u3002\u8fd9\u662f\u60c5\u7eea\u6307\u6807\u800c\u975e\u786c\u6570\u636e\uff1a\u5f53\u76ee\u6807\u4ef7\u56e0\u9700\u6c42\u53d9\u4e8b\u800c\u4e0a\u8c03\u65f6\uff0c\u8bf4\u660e\u5468\u671f\u4ecd\u5904\u5728\u4e50\u89c2\u9636\u6bb5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1185,
-      "ts": 1781885138,
-      "ts_str": "2026-06-19 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Here's how much the Apple iPhone 18 Pro could cost due to memory price hike - GSMArena.com news - GSMArena.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 08:46:03 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTFA4NUV0QUd6RGdPYWdvVmsxRElLOWlqMGhjZVNiSWJfbzVXWERCNWIxV09DMnk0elBuX1lwcTZqOW80el8tb2Z3VXJmWFBwR2p2SUFQOURyWmlHVEV5TEZkOXFUUXJxemtSQXd0aEVMdWlxVFVXQ3BRbWFVYnhLNmPSAXtBVV95cUxQN1daeHNFVFhuWGoyTjJDVV8tM1pVMjZuNWUxaGpQc2ZaUUt6M0lLOWRLT0VPblNWZ1hrMVY0X1ZJTEh3QTBQa0tQTGNLUlJ5TjVwcWNjXzN5bVozTGdLNW0tX3Y2OFZwZ0NCdjFwSk1WNnV1c08xYWZMbWs?oc=5\n\nHere's how much the Apple iPhone 18 Pro could cost due to memory price hike - GSMArena.com news - GSMArena.com\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA4NUV0QUd6RGdPYWdvVmsxRElLOWlqMGhjZVNiSWJfbzVXWERCNWIxV09DMnk0elBuX1lwcTZqOW80el8tb2Z3VXJmWFBwR2p2SUFQOURyWmlHVEV5TEZkOXFUUXJxemtSQXd0aEVMdWlxVFVXQ3BRbWFVYnhLNmPSAXtBVV95cUxQN1daeHNFVFhuWGoyTjJDVV8tM1pVMjZuNWUxaGpQc2ZaUUt6M0lLOWRLT0VPblNWZ1hrMVY0X1ZJTEh3QTBQa0tQTGNLUlJ5TjVwcWNjXzN5bVozTGdLNW0tX3Y2OFZwZ0NCdjFwSk1WNnV1c08xYWZMbWs?oc=5\" target=\"_blank\">Here's how much the Apple iPhone 18 Pro could cost due to memory price hike - GSMArena.com news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GSMArena.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 memory-price-surge signal fired on a GSMArena headline reporting the Apple iPhone 18 Pro may cost more because of a memory price hike.\n\n\u5185\u5bb9:\nC6 \u5185\u5b58\u6da8\u4ef7\u4fe1\u53f7\u88ab\u4e00\u6761 GSMArena \u62a5\u9053\u89e6\u53d1\uff1a\u53d7\u5185\u5b58\u6da8\u4ef7\u5f71\u54cd\uff0cApple iPhone 18 Pro \u7684\u552e\u4ef7\u53ef\u80fd\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising DRAM/NAND prices are a downstream symptom of AI datacenter demand soaking up memory supply. When the squeeze starts repricing consumer hardware like the iPhone, it confirms the AI-capex buildout is crowding out other buyers and tightening the component cycle \u2014 a bubble-stress tell.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u4e0a\u6da8\u662f AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u541e\u566c\u5185\u5b58\u4f9b\u7ed9\u7684\u4e0b\u6e38\u5f81\u5146\u3002\u5f53\u8fd9\u79cd\u6324\u538b\u5f00\u59cb\u4f20\u5bfc\u5230 iPhone \u8fd9\u7c7b\u6d88\u8d39\u786c\u4ef6\u5e76\u63a8\u9ad8\u552e\u4ef7\uff0c\u5c31\u5370\u8bc1\u4e86 AI capex \u6269\u5f20\u6b63\u5728\u6324\u51fa\u5176\u4ed6\u4e70\u5bb6\u3001\u6536\u7d27\u96f6\u90e8\u4ef6\u5468\u671f\u2014\u2014\u5c5e\u4e8e\u6ce1\u6cab\u538b\u529b\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1186,
-      "ts": 1781885138,
-      "ts_str": "2026-06-19 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple may hike prices as it grapples with memory chip shortage: Report - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 18 Jun 2026 23:48:54 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1Jkb0ZIUDdqVkN5SHplamRpcVlVY1ExQk5zb25pMzljUGx2ZERFQjB3enM0dG9OQUFBQkY5NGwzYmFiTEphVUJQVTlKLU12bTJDQ3A5Sk50SThuZENpWkU5VlU3ZkpLRkRqY1NSUG01NnpObUNRTnpPTEhiOTRiRWRJUVlNMjVZd1lmbXNTazhKUzN5OVp2YkZEd3IxVlh2TGRlMjdKQVlhaC1CUFo3S2tCX3BtaXF4ZVVIUnJNeXp0c2MwVi1tZ3JFYUV1YW8?oc=5\n\nApple may hike prices as it grapples with memory chip shortage: Report - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1Jkb0ZIUDdqVkN5SHplamRpcVlVY1ExQk5zb25pMzljUGx2ZERFQjB3enM0dG9OQUFBQkY5NGwzYmFiTEphVUJQVTlKLU12bTJDQ3A5Sk50SThuZENpWkU5VlU3ZkpLRkRqY1NSUG01NnpObUNRTnpPTEhiOTRiRWRJUVlNMjVZd1lmbXNTazhKUzN5OVp2YkZEd3IxVlh2TGRlMjdKQVlhaC1CUFo3S2tCX3BtaXF4ZVVIUnJNeXp0c2MwVi1tZ3JFYUV1YW8?oc=5\" target=\"_blank\">Apple may hike prices as it grapples with memory chip shortage: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA press report says Apple may raise product prices because of a memory (DRAM/NAND) chip shortage. No price hike is confirmed yet \u2014 it is a reported possibility.\n\n\u5185\u5bb9:\n\u6709\u5a92\u4f53\u62a5\u9053\u79f0\uff0cApple \u53ef\u80fd\u56e0\u5185\u5b58 (DRAM/NAND) \u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\u76ee\u524d\u6da8\u4ef7\u5c1a\u672a\u8bc1\u5b9e\uff0c\u53ea\u662f\u62a5\u9053\u4e2d\u7684\u53ef\u80fd\u6027\u3002\n\nWhy it matters:\nMemory is being bid away from consumer devices toward AI servers (HBM/high-density DRAM), tightening supply for everyone else. When a buyer as large as Apple has to consider passing memory costs to customers, it signals the AI-capex buildout is now distorting the broader hardware supply chain \u2014 a second-order stress symptom, not yet a crack.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6b63\u88ab AI \u670d\u52a1\u5668 (HBM/\u9ad8\u5bc6\u5ea6 DRAM) \u62a2\u8d70\u4ea7\u80fd\uff0c\u5bfc\u81f4\u5176\u4ed6\u9886\u57df\u4f9b\u5e94\u5403\u7d27\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u8003\u8651\u628a\u5185\u5b58\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0c\u8bf4\u660e AI capex \u5efa\u8bbe\u5df2\u7ecf\u5f00\u59cb\u626d\u66f2\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u4e8c\u9636\u7684\u538b\u529b\u5f81\u5146\uff0c\u8fd8\u7b97\u4e0d\u4e0a\u88c2\u7f1d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1184,
-      "ts": 1781883306,
-      "ts_str": "2026-06-19 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] iPhone 18 Pro may cost over RM6,300 due to memory price hikes - SoyaCincau",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 19 Jun 2026 11:44:06 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQTFVnLXV2Q0ZGSHpJelJHS19DUkcxRzBDMkg5Z2UyQlJqNDUwbkhUVGZTSXZLYjA4MkYxZ1h2Wml2emF0aUFseGRJTk1sUzZwWjE5QmNndGtXUkZZV0FpOEJuTFdYMzduanYwbnFiblk0OEpRNmtJOVd6WGRqUEpDM09KaUxXQzZXVHZESC02cGk1XzVxUjBnc3VB?oc=5\n\niPhone 18 Pro may cost over RM6,300 due to memory price hikes - SoyaCincau\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQTFVnLXV2Q0ZGSHpJelJHS19DUkcxRzBDMkg5Z2UyQlJqNDUwbkhUVGZTSXZLYjA4MkYxZ1h2Wml2emF0aUFseGRJTk1sUzZwWjE5QmNndGtXUkZZV0FpOEJuTFdYMzduanYwbnFiblk0OEpRNmtJOVd6WGRqUEpDM09KaUxXQzZXVHZESC02cGk1XzVxUjBnc3VB?oc=5\" target=\"_blank\">iPhone 18 Pro may cost over RM6,300 due to memory price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SoyaCincau</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SoyaCincau report says the iPhone 18 Pro may cost over RM6,300 because of memory price hikes.\n\n\u5185\u5bb9:\nSoyaCincau \u62a5\u9053\u79f0\uff0ciPhone 18 Pro \u7684\u552e\u4ef7\u53ef\u80fd\u56e0\u5185\u5b58\u6da8\u4ef7\u800c\u8d85\u8fc7 RM6,300\u3002\n\nWhy it matters:\nConsumer hardware passing memory inflation through to retail prices confirms DRAM/NAND tightness is real and broad. AI datacenter buildouts are bidding up the same memory supply, so the cost is now leaking into mainstream devices \u2014 a sign the capex boom is crowding out other buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7\u786c\u4ef6\u628a\u5185\u5b58\u6da8\u4ef7\u76f4\u63a5\u8f6c\u5ac1\u5230\u96f6\u552e\u4ef7\uff0c\u8bf4\u660e DRAM/NAND \u7684\u7d27\u7f3a\u662f\u771f\u5b9e\u4e14\u5e7f\u6cdb\u7684\u3002AI \u6570\u636e\u4e2d\u5fc3\u6269\u5efa\u6b63\u5728\u62a2\u8d2d\u540c\u4e00\u6279\u5185\u5b58\u4f9b\u5e94\uff0c\u6210\u672c\u5df2\u7ecf\u5916\u6ea2\u5230\u4e3b\u6d41\u8bbe\u5907\u4e0a\u2014\u2014\u8fd9\u8868\u660e capex \u70ed\u6f6e\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
