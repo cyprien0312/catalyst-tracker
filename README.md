@@ -30,8 +30,9 @@ The dashboard publishes to GitHub Pages from `/docs/`. See
 | C5 | Grid bottlenecks (PJM / CAISO queues, Henry Hub) | `catalysts/c5_grid.py` |
 | C6 | Memory/storage price stress (DRAM/NAND/HBM/SSD/HDD news) | `catalysts/c6_memory.py` |
 | C7 | Credit market stress (IG/HY OAS widening, FRED) | `catalysts/c7_credit.py` |
-| C8 | Macro triggers (CPI YoY hot / re-accelerating, FRED) | `catalysts/c8_macro.py` |
+| C8 | Macro triggers (CPI + core PCE YoY hot / re-accelerating, FRED) | `catalysts/c8_macro.py` |
 | C9 | Crypto cycle top (BTC Mayer Multiple, Pi Cycle Top) | `catalysts/c9_crypto.py` |
+| C10 | Liquidity tightening (broad USD index surge, 10y real-yield spike/stress, FRED) | `catalysts/c10_liquidity.py` |
 
 Each catalyst is a standalone module under `catalysts/` with the same shape
 (`run()` plus a `__main__` block taking `--dry-run`). Shared infrastructure
@@ -299,7 +300,7 @@ spend cycle stops being self-financing, a classic late-cycle capex signal.
   catalysts (C3 IPO chatter, C6 froth, C8 monthly CPI) out of your inbox while
   still pinging you on a genuine HIGH/CRITICAL. The agreed loud-vs-floored split:
   loud (all severities) = the fuses C7/C2 and hard-data C4/C1; floored to HIGH =
-  C8/C6/C3/C5/C9.
+  C8/C10/C6/C3/C5/C9.
 - Silence a tier: comment the tier loop in `c3_openai.classify()` or raise
   the threshold in `lib/thresholds.py`.
 - Adjust dedup window: `DEDUP_TTL_SECONDS` in `lib/notify.py`.
@@ -315,7 +316,7 @@ synced across phone/laptop). "Reset read state" wipes the local set.
 
 ## Daily digest
 
-A once-a-day heartbeat e-mail summarising all nine catalysts in priority order
+A once-a-day heartbeat e-mail summarising all ten catalysts in priority order
 — sent even when nothing fired, so absence of an alert is informative too.
 
 ```bash
@@ -327,20 +328,20 @@ bin/send_daily_report.sh                    # cron wrapper (sources env, logs)
 
 What it contains, top to bottom:
 
-- **Status pills** — count of 🔴 firing / 🟡 watch / 🟢 quiet across the nine.
+- **Status pills** — count of 🔴 firing / 🟡 watch / 🟢 quiet across the ten.
 - **★ FOCUS / 今日重点** — an analytical read of the single most important thing
   today: the highest-priority *firing* signal, its live numbers, the standing
   cross-signal thesis, and what would confirm/escalate it. Written by the LLM
   (`llm.freeform`, Opus by default) when the CLI is available; falls back to a
   rule-based analysis (`_analytical_focus`, with per-signal baked-in context) so
   the digest never depends on the LLM being up. Bilingual EN/中文.
-- **Priority-grouped cards** — C7→C2→C4→C1→C8→C6→C3→C5→C9 in four tiers
+- **Priority-grouped cards** — C7→C2→C4→C1→C8→C10→C6→C3→C5→C9 in four tiers
   (fuses → hard data → background → lagging), each with a status badge and the
   live gauge / 7-day roll-up.
 - **Notable (HIGH+) last 7d** — deduped HIGH/CRITICAL subjects only, cutting
   through MED noise (e.g. C3's IPO-headline flood).
 
-The numeric gauges (C7 spreads, C8 CPI, C9 Mayer) are **re-fetched live** each
+The numeric gauges (C7 spreads, C8 CPI+PCE, C10 USD/real-yield, C9 Mayer) are **re-fetched live** each
 run, so the digest is current regardless of when the per-catalyst cron last ran;
 C4 reads the latest `c4_xbrl` snapshot; the event-driven catalysts roll up the
 `alerts` table. The e-mail is multipart (HTML body + plain-text fallback) and is
@@ -403,11 +404,12 @@ yfinance is queried at most once every 6 hours per ticker.
 | C5 | 2× per hour, monthly first-Friday for ERCOT | Mostly slow-moving |
 | C6 | 2× per hour | Any time — news-driven (TrendForce/DigiTimes) |
 | C7 | 2× per hour | Daily FRED update (credit spreads) |
-| C8 | Daily 07:17 | Monthly CPI print |
+| C8 | Daily 07:17 | Monthly CPI + core PCE prints |
 | C9 | Daily 08:23 | Daily BTC close |
+| C10 | Daily 08:29 | Daily FRED update (USD index, real yield) |
 | Daily digest | Daily 09:00 | Heartbeat — always sends |
 
-C1–C7 run every 30 minutes; C8/C9 are daily (their sources are monthly/daily).
+C1–C7 run every 30 minutes; C8/C9/C10 are daily (their sources are monthly/daily).
 Real news cadence is dominated by source frequency (earnings filings, RSS feed
 update rates), not by us.
 
@@ -451,8 +453,9 @@ silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
 | C5 | MW_DROP, NEW_WITHDRAWALS, HENRY_HUB_STRESS | `numbers` dict (ISO/MW/withdrawals/strip values); no ticker |
 | C6 | price reversal/surge/order-unwind | `snippet=title+summary` |
 | C7 | SPREAD_WIDENING, SPREAD_STRESS | `numbers` dict (series, current_bp, low_bp, widened_bp) |
-| C8 | CPI_HOT, CPI_REACCEL | `numbers` dict (yoy_pct, threshold, month) |
+| C8 | CPI_HOT, CPI_REACCEL, PCE_HOT, PCE_REACCEL | `numbers` dict (yoy_pct, threshold, month) |
 | C9 | MAYER_HOT, PI_CYCLE_TOP | `numbers` dict (mayer, price, sma200 / sma111, sma350x2) |
+| C10 | DOLLAR_SURGE, REAL_YIELD_SPIKE, REAL_YIELD_STRESS | `numbers` dict (series, current, low/stress_level, rise) |
 
 The **daily digest** uses a separate entry point, `llm.freeform(prompt)`, to
 write the FOCUS note (see below) rather than the per-alert `summarize_explanation`

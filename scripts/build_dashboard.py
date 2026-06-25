@@ -31,6 +31,7 @@ CATALYSTS = [
     ("C7", "Credit Market Stress"),
     ("C8", "Macro Triggers"),
     ("C9", "Crypto Cycle Top"),
+    ("C10", "Liquidity Tightening (USD / Real Yields)"),
 ]
 
 
@@ -217,7 +218,8 @@ DEFAULT_TEMPLATE = """<!doctype html>
       <option value="C1">C1</option><option value="C2">C2</option>
       <option value="C3">C3</option><option value="C4">C4</option>
       <option value="C5">C5</option><option value="C6">C6</option>
-      <option value="C7">C7</option><option value="C8">C8</option><option value="C9">C9</option>
+      <option value="C7">C7</option><option value="C8">C8</option>
+      <option value="C9">C9</option><option value="C10">C10</option>
     </select>
   </label>
   <label>Severity:
@@ -396,7 +398,7 @@ THRESHOLDS_TEMPLATE = """<!doctype html>
 <p>The numbers and patterns each catalyst uses to decide when to fire an alert.
 Edit <code>lib/thresholds.py</code> (or the catalyst module) and push to tune them.</p>
 
-{% for cid in ["C1","C2","C3","C4","C5","C6","C7","C8","C9"] %}
+{% for cid in ["C1","C2","C3","C4","C5","C6","C7","C8","C9","C10"] %}
 {% set items = by_cat.get(cid, []) %}
 {% if items %}
 <h2>{{ cid }} — {{ cat_names.get(cid, "") }}</h2>

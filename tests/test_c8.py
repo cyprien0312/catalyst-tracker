@@ -1,4 +1,4 @@
-from catalysts.c8_macro import Catalyst8, evaluate_cpi, _yoy_series
+from catalysts.c8_macro import Catalyst8, evaluate_cpi, evaluate_pce, _yoy_series
 from lib.state import State
 
 
@@ -50,6 +50,38 @@ def test_no_reaccel_when_falling():
 def test_cool_cpi_no_signal():
     monthly = _monthly([2.0, 2.1, 2.2])  # below hot threshold and reaccel floor
     assert evaluate_cpi(monthly) == []
+
+
+# --- core PCE (lower thresholds: hot ≥3.0, high ≥3.5, reaccel floor ≥2.5) ---
+
+def test_pce_hot_med():
+    monthly = _monthly([3.2])  # 3.2% ≥ 3.0, < 3.5
+    hot = [s for s in evaluate_pce(monthly) if s["kind"] == "PCE_HOT"][0]
+    assert hot["severity"] == "MED"
+
+
+def test_pce_hot_high():
+    monthly = _monthly([3.7])  # ≥ 3.5
+    hot = [s for s in evaluate_pce(monthly) if s["kind"] == "PCE_HOT"][0]
+    assert hot["severity"] == "HIGH"
+
+
+def test_pce_reaccel():
+    monthly = _monthly([2.6, 2.8, 3.1])  # rising 2 consecutive, ≥ 2.5
+    assert any(s["kind"] == "PCE_REACCEL" for s in evaluate_pce(monthly))
+
+
+def test_pce_cooler_than_cpi_thresholds():
+    # 2.8% is hot for PCE (≥3.0? no) — verify a 2.8 print is NOT hot for PCE,
+    # but 3.1 is. Guards against accidentally reusing the CPI threshold.
+    assert not any(s["kind"] == "PCE_HOT" for s in evaluate_pce(_monthly([2.8])))
+    assert any(s["kind"] == "PCE_HOT" for s in evaluate_pce(_monthly([3.1])))
+
+
+def test_cpi_thresholds_unchanged_by_refactor():
+    # 3.2% is hot for PCE but NOT for CPI (CPI hot floor is 3.5) — the shared
+    # helper must keep CPI's stricter thresholds.
+    assert not any(s["kind"] == "CPI_HOT" for s in evaluate_cpi(_monthly([3.2])))
 
 
 # --- run() integration ---

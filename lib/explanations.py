@@ -269,6 +269,21 @@ _C8 = {
             "debt-funded, rate-sensitive AI capex cycle needs. Two consecutive monthly "
             "increases is the earliest robust signal that disinflation has stalled.",
     ),
+    "PCE_HOT": Explanation(
+        what="Core PCE year-over-year is at or above 3.0% — well above the Fed's 2% target.",
+        why="Core PCE is the inflation gauge the FOMC actually sets policy on, so a hot "
+            "print is a more direct 'no cuts' signal than CPI. The same balloon-popping "
+            "logic applies: sticky core inflation keeps money expensive and squeezes the "
+            "leveraged, rate-sensitive AI-capex cycle. Above ~3.5% the stance is clearly "
+            "restrictive.",
+    ),
+    "PCE_REACCEL": Explanation(
+        what="Core PCE year-over-year has risen for two consecutive months (and is above 2.5%).",
+        why="A re-acceleration in the Fed's own target metric is the cleanest signal that "
+            "the disinflation that justified rate-cut expectations has stalled. It removes "
+            "the FOMC's room to ease into any AI-driven credit stress — the master fuel "
+            "line stays shut off.",
+    ),
 }
 
 # ---------- C9 — Crypto cycle top ----------
@@ -292,6 +307,37 @@ _C9 = {
     ),
 }
 
+# ---------- C10 — Liquidity tightening (USD / real yields) ----------
+_C10 = {
+    "DOLLAR_SURGE": Explanation(
+        what="The broad US dollar index has risen materially (≥2.5%) off its "
+             "recent trailing low.",
+        why="A surging dollar drains global liquidity: it tightens financial "
+            "conditions worldwide without the Fed touching the policy rate, and it "
+            "is the channel through which 'we might hike' jawboning actually bites. "
+            "Dollar-up regimes pressure risk assets and the dollar-funded carry that "
+            "leverages the AI-equity complex. Watch whether the move sustains "
+            "alongside the C7 credit and C8 inflation reads.",
+    ),
+    "REAL_YIELD_SPIKE": Explanation(
+        what="The 10-year real (inflation-adjusted) Treasury yield has risen ≥40 bp "
+             "off its recent trailing low.",
+        why="Real yields are the discount rate on every long-duration cash flow — "
+            "and AI-infra valuations are the longest-duration bet in the market. A "
+            "real-yield spike compresses those valuations directly and raises the true "
+            "cost of the debt funding the buildout, regardless of where headline rates "
+            "sit. This is the cleanest read on money getting genuinely more expensive.",
+    ),
+    "REAL_YIELD_STRESS": Explanation(
+        what="The 10-year real yield is at or above an absolute restrictive level "
+             "(≥2.50%).",
+        why="At this level real money is outright restrictive, not merely tightening. "
+            "It marks the zone where leveraged, no-current-cashflow AI bets and the "
+            "refinancing of AI-linked debt come under sustained valuation pressure — "
+            "the macro discount-rate equivalent of C7's outright credit stress.",
+    ),
+}
+
 # Composite registry: catalyst → signal_kind → Explanation
 _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C1": _C1,
@@ -303,6 +349,7 @@ _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C7": _C7,
     "C8": _C8,
     "C9": _C9,
+    "C10": _C10,
 }
 
 

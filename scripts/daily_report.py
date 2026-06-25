@@ -1,8 +1,8 @@
 """Daily digest e-mail for catalyst-tracker.
 
-A once-a-day heartbeat summarising all nine catalysts in priority order
+A once-a-day heartbeat summarising all ten catalysts in priority order
 (fuses first), with:
-  - live gauge readings for the numeric signals (C7/C8/C9) and C4 from XBRL,
+  - live gauge readings for the numeric signals (C7/C8/C10/C9) and C4 from XBRL,
   - a 7-day severity roll-up for the event-driven ones,
   - a deduped HIGH+ "notable" section that cuts through MED noise,
   - a FOCUS note (LLM-written analysis of the single most important thing
@@ -82,21 +82,83 @@ def gauge_c7() -> tuple[str, list[str]]:
 
 
 def gauge_c8() -> tuple[str, list[str]]:
-    from catalysts.c8_macro import CPI_SERIES, CPI_HOT_THRESHOLD, CPI_HOT_HIGH, _yoy_series, evaluate_cpi
+    from catalysts.c8_macro import (
+        CPI_SERIES, CPI_HOT_THRESHOLD, CPI_HOT_HIGH,
+        PCE_SERIES, PCE_HOT_THRESHOLD, PCE_HOT_HIGH, PCE_REACCEL_FLOOR,
+        _yoy_series, evaluate_cpi, evaluate_pce)
     from lib.fred import series_csv
+    lines: list[str] = []
+    status = QUIET
+
+    def _bump(new: str) -> None:
+        nonlocal status
+        order = {QUIET: 0, WATCH: 1, FIRING: 2}
+        if order[new] > order[status]:
+            status = new
+
+    # CPI (public-facing)
     monthly = series_csv(CPI_SERIES)
     if not monthly:
-        return QUIET, ["CPI: n/a (fetch failed)"]
-    yoy = _yoy_series(monthly)
-    if not yoy:
-        return QUIET, ["CPI: insufficient history"]
-    date, val = yoy[-1]
-    sigs = {s["kind"] for s in evaluate_cpi(monthly)}
-    status = FIRING if "CPI_HOT" in sigs else (WATCH if val >= 3.0 else QUIET)
-    hot = "✓" if val >= CPI_HOT_THRESHOLD else "✗"
-    extra = " · re-accel 2mo" if "CPI_REACCEL" in sigs else ""
-    return status, [f"CPI YoY {val:.2f}% ({date}) · hot ≥{CPI_HOT_THRESHOLD} {hot}, "
-                    f"restrictive ≥{CPI_HOT_HIGH}{extra}"]
+        lines.append("CPI: n/a (fetch failed)")
+    else:
+        yoy = _yoy_series(monthly)
+        if not yoy:
+            lines.append("CPI: insufficient history")
+        else:
+            date, val = yoy[-1]
+            sigs = {s["kind"] for s in evaluate_cpi(monthly)}
+            _bump(FIRING if "CPI_HOT" in sigs else (WATCH if val >= 3.0 else QUIET))
+            hot = "✓" if val >= CPI_HOT_THRESHOLD else "✗"
+            extra = " · re-accel 2mo" if "CPI_REACCEL" in sigs else ""
+            lines.append(f"CPI YoY {val:.2f}% ({date}) · hot ≥{CPI_HOT_THRESHOLD} {hot}, "
+                         f"restrictive ≥{CPI_HOT_HIGH}{extra}")
+
+    # Core PCE (the Fed's actual target)
+    pce = series_csv(PCE_SERIES)
+    if not pce:
+        lines.append("Core PCE: n/a (fetch failed)")
+    else:
+        yoy = _yoy_series(pce)
+        if not yoy:
+            lines.append("Core PCE: insufficient history")
+        else:
+            date, val = yoy[-1]
+            sigs = {s["kind"] for s in evaluate_pce(pce)}
+            _bump(FIRING if "PCE_HOT" in sigs else (WATCH if val >= PCE_REACCEL_FLOOR else QUIET))
+            hot = "✓" if val >= PCE_HOT_THRESHOLD else "✗"
+            extra = " · re-accel 2mo" if "PCE_REACCEL" in sigs else ""
+            lines.append(f"Core PCE YoY {val:.2f}% ({date}) · hot ≥{PCE_HOT_THRESHOLD} {hot}, "
+                         f"restrictive ≥{PCE_HOT_HIGH}{extra}")
+
+    return status, lines
+
+
+def gauge_c10() -> tuple[str, list[str]]:
+    from catalysts.c10_liquidity import SERIES, LOOKBACK, evaluate_series, _fmt
+    from lib.fred import series_csv
+    lines, status = [], QUIET
+    for cfg in SERIES.values():
+        series = series_csv(cfg["fred_id"])
+        if not series:
+            lines.append(f"{cfg['label']}: n/a (fetch failed)")
+            continue
+        values = [v for _, v in series]
+        current = values[-1]
+        low = min(values[-LOOKBACK:]) if len(values) >= LOOKBACK else min(values)
+        if cfg["mode"] == "pct":
+            rise = (current / low - 1.0) * 100.0 if low else 0.0
+            move = f"+{rise:.1f}% off 90d-low (fire ≥+{cfg['rise_trigger']:.1f}%)"
+        else:
+            rise = current - low
+            move = f"+{rise*100:.0f}bp off 90d-low (fire ≥+{cfg['rise_trigger']*100:.0f}bp)"
+        if evaluate_series(values, cfg):
+            status = FIRING
+        elif rise >= cfg["rise_trigger"] / 2 and status == QUIET:
+            status = WATCH
+        stress = (f" · restrictive ≥{cfg['stress_level']:.2f}%"
+                  if cfg.get("stress_level") is not None else "")
+        lines.append(f"{cfg['label']}: {_fmt(current, cfg['unit'])} · {move}{stress}")
+    return status, lines
 
 
 def gauge_c9() -> tuple[str, list[str]]:
@@ -213,6 +275,7 @@ def gather(state: State) -> tuple[list[Row], dict, list[tuple[str, str, str]]]:
     s7, l7 = gauge_c7()
     s4, l4 = gauge_c4(state)
     s8, l8 = gauge_c8()
+    s10, l10 = gauge_c10()
     s9, l9 = gauge_c9()
     s2, n2, b2 = recent_by_catalyst(state, "c2")
     s1, n1, b1 = recent_by_catalyst(state, "c1")
@@ -227,7 +290,8 @@ def gather(state: State) -> tuple[list[Row], dict, list[tuple[str, str, str]]]:
         Row("C4", "Hyperscaler Capex/OCF", "HARD DATA", s4, l4),
         Row("C1", "GPU Depreciation", "HARD DATA", s1,
             [f"{n1} useful-life/impairment filing(s) in 7d" + (f" ({b1})" if b1 else "")]),
-        Row("C8", "Macro / CPI", "BACKGROUND", s8, l8),
+        Row("C8", "Macro / CPI+PCE", "BACKGROUND", s8, l8),
+        Row("C10", "Liquidity (USD/real yield)", "BACKGROUND", s10, l10),
         Row("C6", "Memory/Storage", "BACKGROUND", s6,
             [f"{n6} price alert(s) in 7d" + (f" ({b6})" if b6 else "")]),
         Row("C3", "OpenAI Stress", "LAGGING", s3,
@@ -243,9 +307,9 @@ def gather(state: State) -> tuple[list[Row], dict, list[tuple[str, str, str]]]:
 
 _FOCUS_PROMPT = (
     "You are the analyst behind an AI-infrastructure \"bubble-stress\" tracker. "
-    "The nine signals, priority-ordered (fuses first): C7 credit spreads, C2 neocloud distress, "
-    "C4 hyperscaler capex/OCF, C1 GPU depreciation, C8 CPI/Fed, C6 memory prices, C3 OpenAI, "
-    "C5 grid, C9 BTC cycle.\nToday's readings:\n__STATE__\n\n"
+    "The ten signals, priority-ordered (fuses first): C7 credit spreads, C2 neocloud distress, "
+    "C4 hyperscaler capex/OCF, C1 GPU depreciation, C8 CPI/PCE/Fed, C10 USD & real-yield liquidity, "
+    "C6 memory prices, C3 OpenAI, C5 grid, C9 BTC cycle.\nToday's readings:\n__STATE__\n\n"
     "Write the daily FOCUS note: pick the SINGLE most important thing today, explain it specifically "
     "(cite the exact numbers), connect it across signals, and say what would confirm or escalate it. "
     "Direct, no hedging, no filler, no marketing. Reader is bilingual.\n"
@@ -298,6 +362,8 @@ _ANALYSIS = {
            "电网是最慢的约束——是增长天花板，不是金融引信。"),
     "C9": ("BTC is a cross-asset risk-appetite read on the same cheap-money liquidity. In the value zone now — far from a froth/top signal.",
            "BTC 是对同一便宜钱流动性的跨资产风险偏好读数。现在在价值区——离亢奋/见顶信号还很远。"),
+    "C10": ("The USD/real-yield channel is how tightening actually transmits — conditions can squeeze leveraged AI bets even with the Fed on hold. The cross-asset complement to C7 (credit) and C8 (inflation).",
+            "美元/实际利率是收紧真正传导的通道——即便美联储按兵不动，金融条件也能挤压高杠杆 AI 押注。它是 C7（信用）与 C8（通胀）的跨资产补充。"),
 }
 
 
@@ -328,7 +394,7 @@ def _analytical_focus(rows: list[Row]) -> dict:
     else:
         en_a, zh_a = _ANALYSIS["C7"]
         title = "All quiet — fuses cold"
-        en = f"All nine signals quiet.{c7_cross} {en_a}"
+        en = f"All ten signals quiet.{c7_cross} {en_a}"
         zh = f"九个信号全部平静。{c7_cross_zh}{zh_a}"
     return {"title": title[:70], "en": en.strip(), "zh": zh.strip()}
 
@@ -368,7 +434,7 @@ def render_text(rows: list[Row], counts: dict, notable, focus: dict, today: str,
     L.append("── Notable (HIGH+) last 7d ──")
     L.extend([f"  [{c}-{s}] {t}" for c, s, t in notable] if notable else ["  (none)"])
     L.append("")
-    L.append("Priority: C7→C2→C4→C1→C8→C6→C3→C5→C9 (fuses → hard data → background → lagging)")
+    L.append("Priority: C7→C2→C4→C1→C8→C10→C6→C3→C5→C9 (fuses → hard data → background → lagging)")
     return "\n".join(L)
 
 
@@ -449,7 +515,7 @@ def render_html(rows: list[Row], counts: dict, notable, focus: dict, today: str,
 
   <div style="text-align:center;padding:14px;color:#9aa3b2;font-size:12px;">
     <a href="{DASHBOARD}" style="color:#3b7ddd;text-decoration:none;font-weight:600;">Open dashboard →</a>
-    <div style="margin-top:6px;">Priority C7→C2→C4→C1→C8→C6→C3→C5→C9 · fuses → hard data → background → lagging</div>
+    <div style="margin-top:6px;">Priority C7→C2→C4→C1→C8→C10→C6→C3→C5→C9 · fuses → hard data → background → lagging</div>
   </div>
 </div></body></html>"""
 

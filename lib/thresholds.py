@@ -129,6 +129,11 @@ C8_THRESHOLDS = [
     Threshold("C8", "CPI YoY re-acceleration",
               f"2 mo rising, ≥ {c8_macro.CPI_REACCEL_FLOOR:.1f}%", "MED",
               "Direction over level"),
+    Threshold("C8", "Core PCE YoY hot", f"≥ {c8_macro.PCE_HOT_THRESHOLD:.1f}%", "MED",
+              f"HIGH at ≥ {c8_macro.PCE_HOT_HIGH:.1f}%; the Fed's target metric"),
+    Threshold("C8", "Core PCE YoY re-acceleration",
+              f"2 mo rising, ≥ {c8_macro.PCE_REACCEL_FLOOR:.1f}%", "MED",
+              "Direction over level"),
 ]
 
 # C9 — crypto cycle top.
@@ -140,10 +145,25 @@ C9_THRESHOLDS = [
               "Calls cycle tops to within days"),
 ]
 
+# C10 — liquidity tightening (USD / real yields).
+from catalysts import c10_liquidity  # noqa: E402
+C10_THRESHOLDS = [
+    Threshold("C10", "Broad USD surge",
+              f"≥ +{c10_liquidity.SERIES['USD']['rise_trigger']:.1f}% off 90d-low", "MED",
+              "HIGH at 2×; global liquidity drain"),
+    Threshold("C10", "10y real-yield spike",
+              f"≥ +{c10_liquidity.SERIES['REAL10']['rise_trigger']*100:.0f} bp off 90d-low", "MED",
+              "HIGH at 2×; discount-rate shock"),
+    Threshold("C10", "10y real-yield restrictive",
+              f"≥ {c10_liquidity.SERIES['REAL10']['stress_level']:.2f}%", "HIGH",
+              "Absolute restrictive level"),
+]
+
 
 def all_thresholds() -> list[Threshold]:
     return [
         *C1_THRESHOLDS, *C2_THRESHOLDS, *C3_THRESHOLDS,
         *C4_THRESHOLDS, *C5_THRESHOLDS, *C6_THRESHOLDS,
         *C7_THRESHOLDS, *C8_THRESHOLDS, *C9_THRESHOLDS,
+        *C10_THRESHOLDS,
     ]
