@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782428524,
-  "generated_at_str": "2026-06-25 23:02:04 UTC",
-  "last_event_ts": 1782427457,
+  "generated_at": 1782428732,
+  "generated_at_str": "2026-06-25 23:05:32 UTC",
+  "last_event_ts": 1782428731,
   "tables": {
     "alerts_dedup": {
-      "count": 1439,
-      "last_ts": 1782427457,
-      "last_str": "2026-06-25 22:44:17 UTC"
+      "count": 1443,
+      "last_ts": 1782428731,
+      "last_str": "2026-06-25 23:05:31 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-25 19:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 958,
-      "last_ts": 1782425102,
-      "last_str": "2026-06-25 22:05:02 UTC"
+      "count": 959,
+      "last_ts": 1782428702,
+      "last_str": "2026-06-25 23:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1171,
-      "last_ts": 1782426902,
-      "last_str": "2026-06-25 22:35:02 UTC"
+      "count": 1173,
+      "last_ts": 1782428703,
+      "last_str": "2026-06-25 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 706,
-      "last_ts": 1782425103,
-      "last_str": "2026-06-25 22:05:03 UTC"
+      "count": 707,
+      "last_ts": 1782428702,
+      "last_str": "2026-06-25 23:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 958,
-      "last_ts": 1782426904,
-      "last_str": "2026-06-25 22:35:04 UTC"
+      "count": 960,
+      "last_ts": 1782428704,
+      "last_str": "2026-06-25 23:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11579,
@@ -271,6 +271,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1447,
+      "ts": 1782428731,
+      "ts_str": "2026-06-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:22:38 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\n\nTim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\" target=\"_blank\">Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook called the recent memory chip price surge \"unprecedented,\" comparing it to a \"hundred-year flood.\"\n\n\u5185\u5bb9:\n\u82f9\u679c CEO Tim Cook \u79f0\u8fd1\u671f\u5185\u5b58\u82af\u7247\u6da8\u4ef7\"\u524d\u6240\u672a\u89c1\"\uff0c\u5e76\u5c06\u5176\u6bd4\u4f5c\"\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\"\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being soaked up by AI datacenter buildout, and pricing is now spilling into consumer hardware costs. When even Apple \u2014 a top-tier buyer with huge leverage \u2014 flags supply stress this loudly, it signals the AI-capex boom is straining the component supply chain and squeezing margins downstream.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6da8\u4ef7\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u6210\u672c\u3002\u8fde\u82f9\u679c\u8fd9\u79cd\u91c7\u8d2d\u91cf\u5de8\u5927\u3001\u8bae\u4ef7\u80fd\u529b\u9876\u5c16\u7684\u4e70\u5bb6\u90fd\u5982\u6b64\u9ad8\u8c03\u5730\u793a\u8b66\u4f9b\u5e94\u7d27\u5f20\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5728\u6324\u538b\u6574\u6761\u96f6\u90e8\u4ef6\u4f9b\u5e94\u94fe\uff0c\u5e76\u5411\u4e0b\u6e38\u4fb5\u8680\u5229\u6da6\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1448,
+      "ts": 1782428731,
+      "ts_str": "2026-06-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:22:38 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\n\nTim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\" target=\"_blank\">Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook called the recent memory chip price surge \"unprecedented,\" comparing it to a \"hundred-year flood.\"\n\n\u5185\u5bb9:\n\u82f9\u679c CEO Tim Cook \u79f0\u8fd1\u671f\u5185\u5b58\u82af\u7247\u6da8\u4ef7\"\u524d\u6240\u672a\u89c1\"\uff0c\u5e76\u5c06\u5176\u6bd4\u4f5c\"\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\"\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being soaked up by AI datacenter buildout, and pricing is now spilling into consumer hardware costs. When even Apple \u2014 a top-tier buyer with huge leverage \u2014 flags supply stress this loudly, it signals the AI-capex boom is straining the component supply chain and squeezing margins downstream.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6da8\u4ef7\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u6210\u672c\u3002\u8fde\u82f9\u679c\u8fd9\u79cd\u91c7\u8d2d\u91cf\u5de8\u5927\u3001\u8bae\u4ef7\u80fd\u529b\u9876\u5c16\u7684\u4e70\u5bb6\u90fd\u5982\u6b64\u9ad8\u8c03\u5730\u793a\u8b66\u4f9b\u5e94\u7d27\u5f20\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5728\u6324\u538b\u6574\u6761\u96f6\u90e8\u4ef6\u4f9b\u5e94\u94fe\uff0c\u5e76\u5411\u4e0b\u6e38\u4fb5\u8680\u5229\u6da6\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1449,
+      "ts": 1782428731,
+      "ts_str": "2026-06-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple raises prices due to memory chip shortage - Semafor",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 22:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxOTldsMmltY2piNllEci1TV3ZKOVJNcnd4SlVKekRXLVo3SnZEdVAxeDFjU0FUcl93UmR2Q2NFajJGUXVQRDFxbnNyTWF4SGFfLVRZcE1VRG4wRUVmaGh4dEV2RDdQYkVpVF8teGdEYngtdklnZmpabmRxbWVFTGNwVTZLd3B3S3JUNi1CT3FPMA?oc=5\n\nApple raises prices due to memory chip shortage - Semafor\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOTldsMmltY2piNllEci1TV3ZKOVJNcnd4SlVKekRXLVo3SnZEdVAxeDFjU0FUcl93UmR2Q2NFajJGUXVQRDFxbnNyTWF4SGFfLVRZcE1VRG4wRUVmaGh4dEV2RDdQYkVpVF8teGdEYngtdklnZmpabmRxbWVFTGNwVTZLd3B3S3JUNi1CT3FPMA?oc=5\" target=\"_blank\">Apple raises prices due to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Semafor</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is raising prices, citing a memory chip shortage, per a Semafor report.\n\n\u5185\u5bb9:\n\u636e Semafor \u62a5\u9053\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising costs for the largest consumer-electronics buyer, it signals supply is tight and the spend is crowding out other demand \u2014 a real-economy symptom of the infrastructure boom.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u5168\u7403\u6700\u5927\u6d88\u8d39\u7535\u5b50\u91c7\u8d2d\u5546\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u4f9b\u7ed9\u5df2\u7ecf\u7d27\u5f20\u3001\u8fd9\u7b14\u652f\u51fa\u6b63\u5728\u6324\u5360\u5176\u4ed6\u9700\u6c42\u2014\u2014\u8fd9\u662f\u57fa\u5efa\u70ed\u6f6e\u6e17\u5165\u5b9e\u4f53\u7ecf\u6d4e\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1450,
+      "ts": 1782428731,
+      "ts_str": "2026-06-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:22:38 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\n\nTim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood' - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaFpUc2FnZDNpQkRjWmtqQnBNMmVGQUpsWTFGWENSbWlxVVNaeXQ1NTllQnVSVHBoQ1J4VFR5TXp1bmgyazlyQzdFaDFHMU05VjA0TGNSNTR2UUprNnNzSlN5bmsxLUhZYnlSeEFSZmItU1FSUW9zVU5namdPZGs?oc=5\" target=\"_blank\">Tim Cook calls recent memory chip price surge unprecedented, compares it to a 'hundred-year flood'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook called the recent memory chip price surge \"unprecedented,\" comparing it to a \"hundred-year flood.\"\n\n\u5185\u5bb9:\n\u82f9\u679c CEO Tim Cook \u79f0\u8fd1\u671f\u5185\u5b58\u82af\u7247\u6da8\u4ef7\"\u524d\u6240\u672a\u89c1\"\uff0c\u5e76\u5c06\u5176\u6bd4\u4f5c\"\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\"\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being soaked up by AI datacenter buildout, and pricing is now spilling into consumer hardware costs. When even Apple \u2014 a top-tier buyer with huge leverage \u2014 flags supply stress this loudly, it signals the AI-capex boom is straining the component supply chain and squeezing margins downstream.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6da8\u4ef7\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u6210\u672c\u3002\u8fde\u82f9\u679c\u8fd9\u79cd\u91c7\u8d2d\u91cf\u5de8\u5927\u3001\u8bae\u4ef7\u80fd\u529b\u9876\u5c16\u7684\u4e70\u5bb6\u90fd\u5982\u6b64\u9ad8\u8c03\u5730\u793a\u8b66\u4f9b\u5e94\u7d27\u5f20\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5728\u6324\u538b\u6574\u6761\u96f6\u90e8\u4ef6\u4f9b\u5e94\u94fe\uff0c\u5e76\u5411\u4e0b\u6e38\u4fb5\u8680\u5229\u6da6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1446,
       "ts": 1782427457,
@@ -2229,46 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory chip shortage. Samsung Galaxy Z Fold8 will be more expensive - open.kg",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 03:54:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxQM3dfUHNRY3hVS0g5ajNGRVpkSG5BRk0zWFUwckc3dEtoY0pHemk1MjNwVy1DM1BwdFU1Ql93RmZFREJudnpUcjFSZWtkSzQ2MkpDZ2FQUF9UbnlJT1VsYTAxc2Rwc0JuVlVZNXA2Q1pGZmtRQl9GeHljV3dqNGJ2dzNMLUNEcUZWQy1JazA2WjRWRTR6RndfdWtyN0NHTl9JOXZB?oc=5\n\nMemory chip shortage. Samsung Galaxy Z Fold8 will be more expensive - open.kg\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQM3dfUHNRY3hVS0g5ajNGRVpkSG5BRk0zWFUwckc3dEtoY0pHemk1MjNwVy1DM1BwdFU1Ql93RmZFREJudnpUcjFSZWtkSzQ2MkpDZ2FQUF9UbnlJT1VsYTAxc2Rwc0JuVlVZNXA2Q1pGZmtRQl9GeHljV3dqNGJ2dzNMLUNEcUZWQy1JazA2WjRWRTR6RndfdWtyN0NHTl9JOXZB?oc=5\" target=\"_blank\">Memory chip shortage. Samsung Galaxy Z Fold8 will be more expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">open.kg</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 consumer-electronics RSS item reports a memory chip shortage, with Samsung's Galaxy Z Fold8 cited as becoming more expensive as a result.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u6d88\u8d39\u7535\u5b50 RSS \u4fe1\u606f\u663e\u793a\u51fa\u73b0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0c\u5e76\u4ee5 Samsung Galaxy Z Fold8 \u56e0\u6b64\u6da8\u4ef7\u4e3a\u4f8b\u3002\n\nWhy it matters:\nRising memory prices are a downstream symptom of AI-driven demand crowding out conventional DRAM/NAND supply. When the shortage starts lifting consumer device prices, it confirms AI capex is tightening the whole memory supply chain \u2014 a real-economy spillover from the buildout.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI \u9700\u6c42\u6324\u5360\u4f20\u7edf DRAM/NAND \u4f9b\u7ed9\u7684\u4e0b\u6e38\u8868\u73b0\u3002\u5f53\u77ed\u7f3a\u5f00\u59cb\u62ac\u9ad8\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u7684\u552e\u4ef7\uff0c\u5c31\u5370\u8bc1\u4e86 AI capex \u6b63\u5728\u6536\u7d27\u6574\u6761\u5185\u5b58\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u5efa\u8bbe\u6f6e\u5411\u5b9e\u4f53\u7ecf\u6d4e\u7684\u5916\u6ea2\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1250,
-      "ts": 1782065663,
-      "ts_str": "2026-06-21 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They G",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 18:04:29 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxNdkRoMWV0dFdtYTROc3psWGJDSHNBeWlYR1oxdWVkbWhoSTFqb3BWSHh4UVVXUU9FRWwwRXYyd1NKaFQxaHdtRGRKYzBNREdPTGNWdTA2bm90YTJtRnZoZERxM3BHU1UzVWtJUm0ta2FxS0FSQmRBZEFvM1RzOHhOdmhkcVNxRjZaYmRSdQ?oc=5\n\nSpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They Go Public. - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNdkRoMWV0dFdtYTROc3psWGJDSHNBeWlYR1oxdWVkbWhoSTFqb3BWSHh4UVVXUU9FRWwwRXYyd1NKaFQxaHdtRGRKYzBNREdPTGNWdTA2bm90YTJtRnZoZERxM3BHU1UzVWtJUm0ta2FxS0FSQmRBZEFvM1RzOHhOdmhkcVNxRjZaYmRSdQ?oc=5\" target=\"_blank\">SpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They Go Public.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool headline notes SpaceX just completed the biggest IPO in history and frames it as a read-through for buying Anthropic and OpenAI when they eventually go public.\n\n\u5185\u5bb9:\nMotley Fool \u7684\u4e00\u7bc7\u5934\u6761\u6307\u51fa SpaceX \u521a\u5b8c\u6210\u53f2\u4e0a\u6700\u5927\u89c4\u6a21\u7684 IPO\uff0c\u5e76\u5c06\u5176\u89e3\u8bfb\u4e3a\u6295\u8d44\u8005\u65e5\u540e\u4e70\u5165 Anthropic \u548c OpenAI \u4e0a\u5e02\u7684\u98ce\u5411\u6807\u3002\n\nWhy it matters:\nRetail-facing media is already priming investors to pile into AI labs at IPO \u2014 a sign of late-cycle hype where a single mega-IPO is used to justify buying the next batch of unprofitable, capital-hungry names. The framing normalizes paying up for AI exposure regardless of fundamentals, which is the kind of sentiment that tops out bubbles.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u5a92\u4f53\u5df2\u7ecf\u5728\u4e3a\u6295\u8d44\u8005\u62a2\u8d2d AI \u5b9e\u9a8c\u5ba4 IPO \u9020\u52bf\u2014\u2014\u8fd9\u662f\u5468\u671f\u665a\u671f\u72c2\u70ed\u7684\u4fe1\u53f7\uff1a\u7528\u4e00\u6b21\u8d85\u5927\u578b IPO \u6765\u7ed9\u4e70\u5165\u4e0b\u4e00\u6279\u70e7\u94b1\u3001\u5c1a\u672a\u76c8\u5229\u7684\u6807\u7684\u627e\u7406\u7531\u3002\u8fd9\u79cd\u53d9\u4e8b\u628a\u4e0d\u987e\u57fa\u672c\u9762\u3001\u9ad8\u4ef7\u8ffd\u9010 AI \u655e\u53e3\u6b63\u5e38\u5316\uff0c\u800c\u8fd9\u6b63\u662f\u6ce1\u6cab\u89c1\u9876\u65f6\u7684\u5178\u578b\u60c5\u7eea\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1249,
-      "ts": 1782060259,
-      "ts_str": "2026-06-21 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] MarketWise: OpenAI IPO prospects drive momentum as AI firms target historic 2026 market debut - Traders Union",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 16:25:33 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE5IbnJOampTei1kNnIydk5Yb1VacHpabU9KeUZxN3VYX3hOMFRBbDRLaFRnUFNxZTdNR1Jrd3NSQW1mTlZKVUNlaGJoUk1Ec3RuSzBMdWxtWFVPVmZPTm5RemtRUEY5UUdyMWs2YTNmbFp0RWVrTlBVWk1JWFQ?oc=5\n\nMarketWise: OpenAI IPO prospects drive momentum as AI firms target historic 2026 market debut - Traders Union\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5IbnJOampTei1kNnIydk5Yb1VacHpabU9KeUZxN3VYX3hOMFRBbDRLaFRnUFNxZTdNR1Jrd3NSQW1mTlZKVUNlaGJoUk1Ec3RuSzBMdWxtWFVPVmZPTm5RemtRUEY5UUdyMWs2YTNmbFp0RWVrTlBVWk1JWFQ?oc=5\" target=\"_blank\">MarketWise: OpenAI IPO prospects drive momentum as AI firms target historic 2026 market debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Traders Union</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Traders Union / MarketWise headline says OpenAI IPO prospects are driving momentum, with AI firms targeting a historic 2026 market debut.\n\n\u5185\u5bb9:\nTraders Union / MarketWise \u7684\u62a5\u9053\u79f0\uff0cOpenAI \u7684 IPO \u524d\u666f\u6b63\u5728\u63a8\u52a8\u5e02\u573a\u60c5\u7eea\uff0cAI \u516c\u53f8\u7784\u51c6 2026 \u5e74\u7684\u5386\u53f2\u6027\u4e0a\u5e02\u3002\n\nWhy it matters:\nIPO chatter at the top of an AI-capex cycle is a liquidity-event tell: insiders and late-stage backers look to sell into public demand near peak enthusiasm. A 2026 OpenAI debut would be the marquee exit of the cycle \u2014 the kind of supply that often marks froth rather than confirms durable value.\n\n\u5f71\u54cd:\n\u5728 AI capex \u5468\u671f\u9876\u90e8\u51fa\u73b0 IPO \u4f20\u95fb\u662f\u5178\u578b\u7684\u5957\u73b0\u4fe1\u53f7\u2014\u2014\u5185\u90e8\u4eba\u548c\u540e\u671f\u6295\u8d44\u8005\u8d81\u516c\u4f17\u70ed\u60c5\u9ad8\u6da8\u65f6\u5bfb\u6c42\u5728\u9ad8\u4f4d\u51fa\u8d27\u30022026 \u5e74 OpenAI \u4e0a\u5e02\u5c06\u662f\u672c\u8f6e\u5468\u671f\u6700\u53d7\u77a9\u76ee\u7684\u9000\u51fa\u4e8b\u4ef6\uff0c\u8fd9\u7c7b\u4f9b\u7ed9\u5f80\u5f80\u6807\u5fd7\u7740\u6ce1\u6cab\uff0c\u800c\u975e\u9a8c\u8bc1\u53ef\u6301\u7eed\u7684\u4ef7\u503c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1248,
-      "ts": 1782058463,
-      "ts_str": "2026-06-21 16:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI vs Anthropic: Which AI IPO Could Be the Better Stock to Buy? - CoinCentral",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 10:21:39 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxQcl9LRlZrS002Z2I3WnRENFcxWTZrdk5HMW8tbmdBeTNaYVVLdXFDa05ycVhnV0NxOXExVV9PVEtnMEc0VDQtbGt6Z0wxbEpqc0NHS1k1MFA5bjEzYzlIUGFFeFl4VHhvLUIyU0hwUXY1UXVGbkdObktQYS1Pa1FqTjZkb0Y0NW0wS1FsaU9tTEFJYkdk?oc=5\n\nOpenAI vs Anthropic: Which AI IPO Could Be the Better Stock to Buy? - CoinCentral\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQcl9LRlZrS002Z2I3WnRENFcxWTZrdk5HMW8tbmdBeTNaYVVLdXFDa05ycVhnV0NxOXExVV9PVEtnMEc0VDQtbGt6Z0wxbEpqc0NHS1k1MFA5bjEzYzlIUGFFeFl4VHhvLUIyU0hwUXY1UXVGbkdObktQYS1Pa1FqTjZkb0Y0NW0wS1FsaU9tTEFJYkdk?oc=5\" target=\"_blank\">OpenAI vs Anthropic: Which AI IPO Could Be the Better Stock to Buy?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinCentral</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item surfaced in the C3 feed: \"OpenAI vs Anthropic: Which AI IPO Could Be the Better Stock to Buy?\" (CoinCentral), framing both labs as IPO candidates to compare as stock picks.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u4e2d\u51fa\u73b0\u4e00\u6761\u65b0\u95fb\uff1a\u300aOpenAI vs Anthropic\uff1a\u54ea\u53ea AI IPO \u66f4\u503c\u5f97\u4e70\uff1f\u300b(CoinCentral)\uff0c\u628a\u4e24\u5bb6\u5b9e\u9a8c\u5ba4\u90fd\u5f53\u4f5c\u6f5c\u5728 IPO \u6807\u7684\u6765\u505a\u9009\u80a1\u5bf9\u6bd4\u3002\n\nWhy it matters:\nRetail-facing \"which AI IPO to buy\" coverage is a sentiment marker, not a hard signal \u2014 it shows the frontier-lab story shifting toward exit/liquidity narratives. Escalating IPO chatter is the kind of late-cycle froth that precedes the C3 funding-stress signals worth watching.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u9762\u5411\u6563\u6237\u7684\u300c\u8be5\u4e70\u54ea\u53ea AI IPO\u300d\u62a5\u9053\u662f\u60c5\u7eea\u6307\u6807\uff0c\u800c\u975e\u786c\u6570\u636e\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u524d\u6cbf\u5b9e\u9a8c\u5ba4\u7684\u53d9\u4e8b\u6b63\u8f6c\u5411\u9000\u51fa\u4e0e\u53d8\u73b0\u3002IPO \u8bdd\u9898\u5347\u6e29\u6b63\u662f\u5468\u671f\u665a\u671f\u7684\u6ce1\u6cab\u5f81\u5146\uff0c\u503c\u5f97\u7559\u610f\u540e\u7eed C3 \u7684\u878d\u8d44\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1247,
-      "ts": 1782054862,
-      "ts_str": "2026-06-21 15:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic - The Information",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 21 Jun 2026 15:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxOZjFKUWliWk16ZVd0Qm5sLVNydTE2aG5qLVJ1Z25STzYtUzlSYjd3XzhlOU9LMlBsWXhGR3c5a1NGdHEzQ1R3REJaTDJlNWVzN2wtTUZHdzRJdXl4T2ZtOFltMWlBcmtmX2ZMMVM4THVNcHFtNjRIcFR2Vm45WVR5QkRYdXpxQXZvQ1VGcWxR?oc=5\n\nSpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic - The Information\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOZjFKUWliWk16ZVd0Qm5sLVNydTE2aG5qLVJ1Z25STzYtUzlSYjd3XzhlOU9LMlBsWXhGR3c5a1NGdHEzQ1R3REJaTDJlNWVzN2wtTUZHdzRJdXl4T2ZtOFltMWlBcmtmX2ZMMVM4THVNcHFtNjRIcFR2Vm45WVR5QkRYdXpxQXZvQ1VGcWxR?oc=5\" target=\"_blank\">SpaceX\u2019s 74-Day IPO Sets Pace for OpenAI, Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Information</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline via C3's RSS feed reads \"SpaceX's 74-Day IPO Sets Pace for OpenAI, Anthropic\" (The Information), framing SpaceX's fast private-to-public path as a template for OpenAI and Anthropic.\n\n\u5185\u5bb9:\nC3 \u7684 RSS \u6293\u5230\u4e00\u6761 Google News \u6807\u9898\uff1a\"SpaceX's 74-Day IPO Sets Pace for OpenAI, Anthropic\"\uff08\u6765\u6e90 The Information\uff09\uff0c\u628a SpaceX \u6781\u5feb\u7684\u4e0a\u5e02\u8def\u5f84\u63cf\u8ff0\u4e3a OpenAI \u548c Anthropic \u7684\u8303\u672c\u3002\n\nWhy it matters:\nPress chatter about OpenAI and Anthropic IPOs signals the AI buildout is approaching the point where private capital needs a public exit to keep funding capex. IPO timing talk is a late-cycle tell \u2014 insiders looking to monetize while sentiment is hot.\n\n\u5f71\u54cd:\n\u5173\u4e8e OpenAI \u548c Anthropic IPO \u7684\u5a92\u4f53\u8ba8\u8bba\uff0c\u8bf4\u660e AI \u57fa\u5efa\u6295\u5165\u6b63\u903c\u8fd1\u4e00\u4e2a\u4e34\u754c\u70b9\u2014\u2014\u79c1\u52df\u8d44\u672c\u9700\u8981\u516c\u5f00\u5e02\u573a\u9000\u51fa\u901a\u9053\u6765\u7ee7\u7eed\u7ed9 capex \u8f93\u8840\u3002\u8ba8\u8bba IPO \u65f6\u673a\u672c\u8eab\u5c31\u662f\u5468\u671f\u665a\u671f\u7684\u4fe1\u53f7\uff1a\u5185\u90e8\u4eba\u60f3\u8d81\u5e02\u573a\u60c5\u7eea\u706b\u70ed\u65f6\u53d8\u73b0\u3002\n",
       "emailed": false
     }
   ],
