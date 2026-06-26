@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782455524,
-  "generated_at_str": "2026-06-26 06:32:04 UTC",
-  "last_event_ts": 1782454461,
+  "generated_at": 1782455731,
+  "generated_at_str": "2026-06-26 06:35:31 UTC",
+  "last_event_ts": 1782455731,
   "tables": {
     "alerts_dedup": {
-      "count": 1471,
-      "last_ts": 1782454461,
-      "last_str": "2026-06-26 06:14:21 UTC"
+      "count": 1473,
+      "last_ts": 1782455731,
+      "last_str": "2026-06-26 06:35:31 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-26 01:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 967,
-      "last_ts": 1782446702,
-      "last_str": "2026-06-26 04:05:02 UTC"
+      "count": 969,
+      "last_ts": 1782455702,
+      "last_str": "2026-06-26 06:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1184,
-      "last_ts": 1782453903,
-      "last_str": "2026-06-26 06:05:03 UTC"
+      "count": 1186,
+      "last_ts": 1782455704,
+      "last_str": "2026-06-26 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 719,
-      "last_ts": 1782450303,
-      "last_str": "2026-06-26 05:05:03 UTC"
+      "count": 722,
+      "last_ts": 1782455703,
+      "last_str": "2026-06-26 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 973,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1479,
+      "ts": 1782455731,
+      "ts_str": "2026-06-26 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Baird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com Nigeria",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 07:19:59 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYzNrZmJCblFUMHpzdnljZGN1S2tfc0xMRnR6YUdvNVpIVThuRkxNZW1fMklRTTcwdkZqUVhGbHpVSTlsdFZiVTRxVXJ0b1hSZ1ZMWHdYMlVRRkllYzRUNWxRSlEzQV9mR3lZTkJfNkdPQXFYWWozd3A5VEJrQkpmREZDS28xZnk2VHlNZWFLV0tSeVlkVnpQWmx3TlVTc0d5NDI2ZllJc1lJbGNZcFprYnllTWpXdG84MVhrWUlZdXY?oc=5\n\nBaird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYzNrZmJCblFUMHpzdnljZGN1S2tfc0xMRnR6YUdvNVpIVThuRkxNZW1fMklRTTcwdkZqUVhGbHpVSTlsdFZiVTRxVXJ0b1hSZ1ZMWHdYMlVRRkllYzRUNWxRSlEzQV9mR3lZTkJfNkdPQXFYWWozd3A5VEJrQkpmREZDS28xZnk2VHlNZWFLV0tSeVlkVnpQWmx3TlVTc0d5NDI2ZllJc1lJbGNZcFprYnllTWpXdG84MVhrWUlZdXY?oc=5\" target=\"_blank\">Baird raises Micron stock price target to $1,280 on DRAM outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Baird raised its price target on Micron (MU) to $1,280, citing the DRAM outlook.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cBaird \u57fa\u4e8e DRAM \u524d\u666f\u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,280\u3002\n\nWhy it matters:\nSell-side targets sprinting higher on memory pricing is a melt-up tell \u2014 analysts are extrapolating an AI-driven DRAM/HBM shortage into the indefinite future. The further price targets detach from current fundamentals, the more the rally depends on momentum rather than cash flows.\n\n\u5f71\u54cd:\n\u5356\u65b9\u76ee\u6807\u4ef7\u968f\u5185\u5b58\u6da8\u4ef7\u4e00\u8def\u98d9\u5347\u662f\u5178\u578b\u7684\u903c\u7a7a/\u72c2\u70ed\u4fe1\u53f7\u2014\u2014\u5206\u6790\u5e08\u628a AI \u9a71\u52a8\u7684 DRAM/HBM \u77ed\u7f3a\u65e0\u9650\u5916\u63a8\u5230\u672a\u6765\u3002\u76ee\u6807\u4ef7\u8d8a\u662f\u8131\u79bb\u5f53\u524d\u57fa\u672c\u9762\uff0c\u8fd9\u6ce2\u884c\u60c5\u5c31\u8d8a\u4f9d\u8d56\u52a8\u91cf\u800c\u975e\u73b0\u91d1\u6d41\u652f\u6491\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1480,
+      "ts": 1782455731,
+      "ts_str": "2026-06-26 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Raises Mac and iPad Prices as Memory Chip Shortage Bites - outlookbusiness.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 05:08:40 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxNT01jcFpWWFR3ZmRVTEs4MW1oVG9yRjlHVUl4MEo5LTlsZXJLTHoxVnBHUU9FM0psRnQ3NkdsX1FYZm9LTHpiT3F5YW9VZGN1SXNFT1BFMEkzUnVnUjZOSjNFZEVJNHV1SXRSdnc0NzBpcU1ib0IyZ2xKLWt4MlhvX3VabmZiLWNjWEZ6Z3RKRVJDSWFKNWRTTHM1VzRyYzlLQzd4MDJB0gGzAUFVX3lxTE9uOWZqXzUzYWJyWUFFOWV5VDhQZzVlaWdiVHhBdWRibElTUTJpc19JVnVUODB5dDFLV0FxcThBTTlyOW1FZEV3NDZmOGNscHJyZ0tGN2lKOGVZYTZadUFWU3NENWM5Y05XaE9fTGl2V2NDY0RnRHhuYWpYZVJtMzM5R05aRnRBdHp2UWZfVnpGU3JkUUtpa2JhRUpWYUJHVFB6cVVST0I3RFBUMm9qYXNWMEUw?oc=5\n\nApple Raises Mac and iPad Prices as Memory Chip Shortage Bites - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNT01jcFpWWFR3ZmRVTEs4MW1oVG9yRjlHVUl4MEo5LTlsZXJLTHoxVnBHUU9FM0psRnQ3NkdsX1FYZm9LTHpiT3F5YW9VZGN1SXNFT1BFMEkzUnVnUjZOSjNFZEVJNHV1SXRSdnc0NzBpcU1ib0IyZ2xKLWt4MlhvX3VabmZiLWNjWEZ6Z3RKRVJDSWFKNWRTTHM1VzRyYzlLQzd4MDJB0gGzAUFVX3lxTE9uOWZqXzUzYWJyWUFFOWV5VDhQZzVlaWdiVHhBdWRibElTUTJpc19JVnVUODB5dDFLV0FxcThBTTlyOW1FZEV3NDZmOGNscHJyZ0tGN2lKOGVZYTZadUFWU3NENWM5Y05XaE9fTGl2V2NDY0RnRHhuYWpYZVJtMzM5R05aRnRBdHp2UWZfVnpGU3JkUUtpa2JhRUpWYUJHVFB6cVVST0I3RFBUMm9qYXNWMEUw?oc=5\" target=\"_blank\">Apple Raises Mac and iPad Prices as Memory Chip Shortage Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 price-surge headline flagged that Apple is raising Mac and iPad prices, with \"Memory Chip Shortage Bites\" cited as the cause (outlookbusiness.com).\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u6da8\u4ef7\u4fe1\u53f7\u6807\u8bb0\u4e86 Apple \u4e0a\u8c03 Mac \u4e0e iPad \u4ef7\u683c\u7684\u62a5\u9053\uff0c\u539f\u56e0\u88ab\u6307\u4e3a\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\uff08\"Memory Chip Shortage Bites\"\uff0c\u6765\u6e90 outlookbusiness.com\uff09\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being absorbed by AI datacenter buildout, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising the cost of unrelated electronics, it signals supply-chain stress and crowding-out \u2014 a real-economy symptom of the AI-infrastructure boom overheating.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u6536\uff0c\u77ed\u7f3a\u5df2\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u4e0d\u76f8\u5173\u7535\u5b50\u4ea7\u54c1\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u4f9b\u5e94\u94fe\u7d27\u5f20\u3001\u4ea7\u751f\u4e86\u6324\u51fa\u6548\u5e94\u2014\u2014\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u70ed\u6f6e\u8fc7\u70ed\u5728\u5b9e\u4f53\u7ecf\u6d4e\u4e2d\u7684\u771f\u5b9e\u75c7\u72b6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1478,
       "ts": 1782454461,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SpaceX IPO Sparks Anticipation for OpenAI and Anthropic - marketscreener.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 10:29:41 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVZqeTVOTmpydXZ3cnV1UjM2RTNPY2F6amw0c1dvOFc2ZElXOHg4TVZMREEwangwZk8xRkxpRmZ1bzUwV0hMbXR4U1UxU1didG5MbnZXTUJjNlVwNkNkbi1wQjVwcGs1N28tMFp6VnZkc19PNWhpVUpJTFl1QXJ5WlNYd2UzOVRUQ1dBRFhnWFZhRUp3MDBCM1E3LTNIcU94aUprSVhERHM0VXF2?oc=5\n\nSpaceX IPO Sparks Anticipation for OpenAI and Anthropic - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVZqeTVOTmpydXZ3cnV1UjM2RTNPY2F6amw0c1dvOFc2ZElXOHg4TVZMREEwangwZk8xRkxpRmZ1bzUwV0hMbXR4U1UxU1didG5MbnZXTUJjNlVwNkNkbi1wQjVwcGs1N28tMFp6VnZkc19PNWhpVUpJTFl1QXJ5WlNYd2UzOVRUQ1dBRFhnWFZhRUp3MDBCM1E3LTNIcU94aUprSVhERHM0VXF2?oc=5\" target=\"_blank\">SpaceX IPO Sparks Anticipation for OpenAI and Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news item flagged a marketscreener.com headline: \"SpaceX IPO Sparks Anticipation for OpenAI and Anthropic\", framing a potential SpaceX listing as a precedent for OpenAI and Anthropic going public.\n\n\u5185\u5bb9:\nC3 \u6293\u5230 marketscreener.com \u7684\u4e00\u6761\u6807\u9898\uff1a\"SpaceX IPO Sparks Anticipation for OpenAI and Anthropic\"\uff0c\u628a SpaceX \u53ef\u80fd\u4e0a\u5e02\u5f53\u4f5c OpenAI \u548c Anthropic \u4e0a\u5e02\u7684\u5148\u4f8b\u6765\u7092\u4f5c\u3002\n\nWhy it matters:\nLate-cycle IPO chatter around the largest private AI names is a sentiment marker, not a fundamentals one \u2014 talk of cashing out the biggest pre-IPO holdings tends to cluster near the top, when private valuations need public-market liquidity to be realized. Watch for it as a distribution signal, not a growth one.\n\n\u5f71\u54cd:\n\u56f4\u7ed5\u6700\u5927\u7684\u975e\u4e0a\u5e02 AI \u516c\u53f8\u51fa\u73b0\u7684\u5468\u671f\u665a\u671f IPO \u4f20\u95fb\u662f\u60c5\u7eea\u4fe1\u53f7\uff0c\u800c\u975e\u57fa\u672c\u9762\u4fe1\u53f7\u2014\u2014\u5e02\u573a\u5f00\u59cb\u8ba8\u8bba\u7ed9\u6700\u5927\u7684 pre-IPO \u6301\u4ed3\u5957\u73b0\uff0c\u5f80\u5f80\u51fa\u73b0\u5728\u63a5\u8fd1\u9876\u90e8\u65f6\uff0c\u56e0\u4e3a\u79c1\u52df\u4f30\u503c\u9700\u8981\u516c\u5f00\u5e02\u573a\u7684\u6d41\u52a8\u6027\u624d\u80fd\u5151\u73b0\u3002\u628a\u5b83\u5f53\u4f5c\u6d3e\u53d1\u4fe1\u53f7\u6765\u770b\uff0c\u800c\u4e0d\u662f\u589e\u957f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1277,
-      "ts": 1782122731,
-      "ts_str": "2026-06-22 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Bernstein raises Micron stock price target to $1,300 on DRAM strength - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 07:28:02 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxNTllaN2UxMDIwOXNWU3E5ZE5qb2MzRnRXWlAzM2daVTZHWERjT1NrRnVSNHBVVEhxc1NCVFh5bFc4VUt6V3N1LXk0VDlFTjNTeHR2d1B3Tjlpczdxb3N0MEtDc0VuYVN2ZUt6NF9MNDhSQmt0cmpnRUtHTl9qUUdZRlZ4c2VPeXF6R041U2Z6WW9TcVR5ZENlOVdqVm84SDRCX1F1RlhSV2tCUkFaME5lck85c3pDYV9LYmRxSVE2YUthSFE3d2c?oc=5\n\nBernstein raises Micron stock price target to $1,300 on DRAM strength - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNTllaN2UxMDIwOXNWU3E5ZE5qb2MzRnRXWlAzM2daVTZHWERjT1NrRnVSNHBVVEhxc1NCVFh5bFc4VUt6V3N1LXk0VDlFTjNTeHR2d1B3Tjlpczdxb3N0MEtDc0VuYVN2ZUt6NF9MNDhSQmt0cmpnRUtHTl9qUUdZRlZ4c2VPeXF6R041U2Z6WW9TcVR5ZENlOVdqVm84SDRCX1F1RlhSV2tCUkFaME5lck85c3pDYV9LYmRxSVE2YUthSFE3d2c?oc=5\" target=\"_blank\">Bernstein raises Micron stock price target to $1,300 on DRAM strength</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein raised its Micron (MU) price target to $1,300, citing DRAM strength.\n\n\u5185\u5bb9:\nBernstein \u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,300\uff0c\u7406\u7531\u662f DRAM \u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nSell-side price targets racing higher on memory pricing is a classic momentum-melt-up tell \u2014 capacity for AI accelerators (HBM/DRAM) is being priced as if demand never reverts. Bullish-extreme analyst targets cluster near cycle tops, so this feeds the C6 sentiment-froth signal.\n\n\u5f71\u54cd:\n\u5356\u65b9\u76ee\u6807\u4ef7\u968f\u5b58\u50a8\u6da8\u4ef7\u4e0d\u65ad\u98d9\u5347\uff0c\u662f\u5178\u578b\u7684\u60c5\u7eea\u8fc7\u70ed\u4fe1\u53f7\u2014\u2014\u5e02\u573a\u628a AI \u52a0\u901f\u5668\u6240\u9700\u7684 HBM/DRAM \u4ea7\u80fd\u5f53\u6210\u9700\u6c42\u6c38\u4e0d\u56de\u843d\u6765\u5b9a\u4ef7\u3002\u6781\u7aef\u770b\u591a\u7684\u5206\u6790\u5e08\u76ee\u6807\u4ef7\u5f80\u5f80\u624e\u5806\u51fa\u73b0\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\uff0c\u56e0\u6b64\u8fd9\u6761\u89e6\u53d1\u4e86 C6 \u7684\u60c5\u7eea\u6ce1\u6cab\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1278,
-      "ts": 1782122731,
-      "ts_str": "2026-06-22 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Bernstein Raises Targets on Samsung, SK Hynix and Micron, Says Memory Price Surge Is Driving Up AI Costs - bloomingbit",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 09:53:45 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQnE2NXVnV3FOZXZidzNtZFJCVWI4aDVJVGxZU3RFbjVfT21VdFVHRjhEdjQ5aGJXSWx1YjZ1RG5FRjA3OFVNSmlWQVZFRzA0VmNLRg?oc=5\n\nBernstein Raises Targets on Samsung, SK Hynix and Micron, Says Memory Price Surge Is Driving Up AI Costs - bloomingbit\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzQnE2NXVnV3FOZXZidzNtZFJCVWI4aDVJVGxZU3RFbjVfT21VdFVHRjhEdjQ5aGJXSWx1YjZ1RG5FRjA3OFVNSmlWQVZFRzA0VmNLRg?oc=5\" target=\"_blank\">Bernstein Raises Targets on Samsung, SK Hynix and Micron, Says Memory Price Surge Is Driving Up AI Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomingbit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein raised price targets on Samsung, SK Hynix and Micron, citing a memory price surge that it says is driving up AI costs.\n\n\u5185\u5bb9:\nBernstein \u4e0a\u8c03\u4e86 Samsung\u3001SK Hynix \u548c Micron \u7684\u76ee\u6807\u4ef7\uff0c\u7406\u7531\u662f\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u6b63\u5728\u63a8\u9ad8 AI \u6210\u672c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is a core AI-server input, and a price surge feeds directly into hyperscaler capex per unit of compute. Rising component costs squeeze the AI build-out's economics \u2014 more dollars for the same capacity weakens the capex-payback case.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff0c\u4ef7\u683c\u98d9\u5347\u4f1a\u76f4\u63a5\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\u3002\u96f6\u90e8\u4ef6\u6210\u672c\u4e0a\u5347\u6324\u538b AI \u6269\u5efa\u7684\u7ecf\u6d4e\u6027\u2014\u2014\u540c\u6837\u7684\u7b97\u529b\u8981\u82b1\u66f4\u591a\u94b1\uff0c\u524a\u5f31 capex \u56de\u672c\u903b\u8f91\u3002\n",
       "emailed": false
     }
   ],
