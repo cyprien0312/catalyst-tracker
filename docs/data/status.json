@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782478924,
-  "generated_at_str": "2026-06-26 13:02:04 UTC",
-  "last_event_ts": 1782477899,
+  "generated_at": 1782479124,
+  "generated_at_str": "2026-06-26 13:05:24 UTC",
+  "last_event_ts": 1782479118,
   "tables": {
     "alerts_dedup": {
-      "count": 1526,
-      "last_ts": 1782477899,
-      "last_str": "2026-06-26 12:44:59 UTC"
+      "count": 1527,
+      "last_ts": 1782479118,
+      "last_str": "2026-06-26 13:05:18 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-26 12:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 983,
-      "last_ts": 1782477301,
-      "last_str": "2026-06-26 12:35:01 UTC"
+      "count": 985,
+      "last_ts": 1782479103,
+      "last_str": "2026-06-26 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1206,
-      "last_ts": 1782477303,
-      "last_str": "2026-06-26 12:35:03 UTC"
+      "count": 1208,
+      "last_ts": 1782479104,
+      "last_str": "2026-06-26 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 735,
-      "last_ts": 1782475503,
-      "last_str": "2026-06-26 12:05:03 UTC"
+      "count": 736,
+      "last_ts": 1782479103,
+      "last_str": "2026-06-26 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 982,
-      "last_ts": 1782477304,
-      "last_str": "2026-06-26 12:35:04 UTC"
+      "count": 983,
+      "last_ts": 1782479105,
+      "last_str": "2026-06-26 13:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11744,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1534,
+      "ts": 1782479118,
+      "ts_str": "2026-06-26 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:00:57 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHZTVkJRR0UwMXRrM0tzZ0JHNGxhM09jSkpvX1dtcGNBNDFEWWc1RFVJeG9abXRmMDJLWU50RTNvcVN2dmNmSTZyVnhud1FJeWRjX2JvdWZKSWx1NlltN3VySHlHU3Z3aFY4aWQxd1dJaWtvMjNoVjRRZm50eklqQWpjcnNBVG1lQjhvRE9HZG55RlppOThHSnZPR0Z3VzJ6VE85QWZwZWQxR1MzTU15aTZETVgxNHM2QnNQUtIBygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x3?oc=5\n\nApple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQWHZTVkJRR0UwMXRrM0tzZ0JHNGxhM09jSkpvX1dtcGNBNDFEWWc1RFVJeG9abXRmMDJLWU50RTNvcVN2dmNmSTZyVnhud1FJeWRjX2JvdWZKSWx1NlltN3VySHlHU3Z3aFY4aWQxd1dJaWtvMjNoVjRRZm50eklqQWpjcnNBVG1lQjhvRE9HZG55RlppOThHSnZPR0Z3VzJ6VE85QWZwZWQxR1MzTU15aTZETVgxNHM2QnNQUtIBygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x3?oc=5\" target=\"_blank\">Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising Mac and iPad prices, attributing the hike to more expensive AI memory chips.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u6b63\u5728\u4e0a\u8c03 Mac \u548c iPad \u7684\u552e\u4ef7\uff0c\u5e76\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e\u66f4\u8d35\u7684 AI \u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being bid up by AI-datacenter demand, and the cost is now bleeding into consumer hardware pricing. When AI capex starts inflating prices for unrelated end products, it's evidence the buildout is straining the broader memory supply chain \u2014 a second-order stress signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u62ac\u9ad8\u4ef7\u683c\uff0c\u5982\u4eca\u8fd9\u4e00\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u538b\u66f4\u5e7f\u6cdb\u7684\u5185\u5b58\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u4e8c\u9636\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1530,
       "ts": 1782477899,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Coinbase lists pre-IPO perps on SpaceX, OpenAI, Anthropic - crypto.news",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 12:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeU9FYXlESGZjWXFFWEN2UXhDbEpLQkhESDF4ZXlleDBKSXpESHpZLS1qR0NHYmlkOTFGZXpGd09maEUwbkxZSkptaUxTeVNtTzZFWmZpZ1ZTREREbnZmaXNTbjVkMDloQ2ZJSjBvLW10ZVBZaGc?oc=5\n\nCoinbase lists pre-IPO perps on SpaceX, OpenAI, Anthropic - crypto.news\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeU9FYXlESGZjWXFFWEN2UXhDbEpLQkhESDF4ZXlleDBKSXpESHpZLS1qR0NHYmlkOTFGZXpGd09maEUwbkxZSkptaUxTeVNtTzZFWmZpZ1ZTREREbnZmaXNTbjVkMDloQ2ZJSjBvLW10ZVBZaGc?oc=5\" target=\"_blank\">Coinbase lists pre-IPO perps on SpaceX, OpenAI, Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">crypto.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 1334,
-      "ts": 1782216858,
-      "ts_str": "2026-06-23 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX IPO'd, and Anthropic and OpenAI Could Go Public in 2026. Should You Buy All Three? - The Globe and Mail",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 11:07:27 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTDNTUmhrMXplTFpLTVc4aWN4el93NktHVDVad0VQQW1IYUxZNE0zNFZHMi1UOXdkUTRNdS12dTR4bHRXcUs5MkdLVmlKV0s2a3ZPVnpNLWk3VkNsWXZnbktBTVFWVUU5R3k1VnpBTDZaM29qai1CdF83WWV0NGMwS2xKYkJGVGpmRWNXUkJ1cHREbUZDT1o5YzRtc3F5RTB0RDBNa3djbFZkdVV5RnJQLWtPTTA5aUNncG0tMXF5dDdRZWtGOFpuYnREOWhHREdva0ItZm0tMzNjbG41bjJPVW1jMzdsWEZ5TmxPMGhSVjhfbXkxVDhjeg?oc=5\n\nSpaceX IPO'd, and Anthropic and OpenAI Could Go Public in 2026. Should You Buy All Three? - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTDNTUmhrMXplTFpLTVc4aWN4el93NktHVDVad0VQQW1IYUxZNE0zNFZHMi1UOXdkUTRNdS12dTR4bHRXcUs5MkdLVmlKV0s2a3ZPVnpNLWk3VkNsWXZnbktBTVFWVUU5R3k1VnpBTDZaM29qai1CdF83WWV0NGMwS2xKYkJGVGpmRWNXUkJ1cHREbUZDT1o5YzRtc3F5RTB0RDBNa3djbFZkdVV5RnJQLWtPTTA5aUNncG0tMXF5dDdRZWtGOFpuYnREOWhHREdva0ItZm0tMzNjbG41bjJPVW1jMzdsWEZ5TmxPMGhSVjhfbXkxVDhjeg?oc=5\" target=\"_blank\">SpaceX IPO'd, and Anthropic and OpenAI Could Go Public in 2026. Should You Buy All Three?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Globe and Mail article notes SpaceX has IPO'd and that Anthropic and OpenAI could go public in 2026, asking whether retail should buy all three.\n\n\u5185\u5bb9:\nThe Globe and Mail \u7684\u4e00\u7bc7\u62a5\u9053\u6307\u51fa SpaceX \u5df2\u7ecf IPO\uff0c\u800c Anthropic \u548c OpenAI \u53ef\u80fd\u5728 2026 \u5e74\u4e0a\u5e02\uff0c\u5e76\u8ba8\u8bba\u6563\u6237\u662f\u5426\u8be5\u4e09\u5bb6\u90fd\u4e70\u3002\n\nWhy it matters:\nPrivate AI leaders heading for public listings is a late-cycle tell: insiders and VCs use a hot IPO window to sell into retail demand near the top. When the marquee names start cashing out via public markets, it signals the smart money sees better exit liquidity than further private upside.\n\n\u5f71\u54cd:\n\u5934\u90e8\u79c1\u6709 AI \u516c\u53f8\u6392\u961f\u4e0a\u5e02\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\uff1a\u5185\u90e8\u4eba\u548c VC \u4f1a\u8d81 IPO \u70ed\u5ea6\u628a\u80a1\u4efd\u5356\u7ed9\u6563\u6237\u3001\u5728\u9ad8\u4f4d\u5957\u73b0\u3002\u5f53\u8fd9\u4e9b\u660e\u661f\u516c\u53f8\u5f00\u59cb\u901a\u8fc7\u516c\u5f00\u5e02\u573a\u9000\u51fa\u65f6\uff0c\u8bf4\u660e\u806a\u660e\u94b1\u8ba4\u4e3a\u6b64\u65f6\u7684\u9000\u51fa\u6d41\u52a8\u6027\u6bd4\u7ee7\u7eed\u7559\u5728\u4e00\u7ea7\u5e02\u573a\u66f4\u6709\u4ef7\u503c\u3002\n",
       "emailed": false
     }
   ],
