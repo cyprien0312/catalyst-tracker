@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782502326,
-  "generated_at_str": "2026-06-26 19:32:06 UTC",
-  "last_event_ts": 1782501262,
+  "generated_at": 1782502535,
+  "generated_at_str": "2026-06-26 19:35:35 UTC",
+  "last_event_ts": 1782502534,
   "tables": {
     "alerts_dedup": {
-      "count": 1598,
-      "last_ts": 1782501262,
-      "last_str": "2026-06-26 19:14:22 UTC"
+      "count": 1601,
+      "last_ts": 1782502534,
+      "last_str": "2026-06-26 19:35:34 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -64,19 +64,19 @@
       "last_str": "2026-06-26 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1223,
-      "last_ts": 1782500705,
-      "last_str": "2026-06-26 19:05:05 UTC"
+      "count": 1225,
+      "last_ts": 1782502504,
+      "last_str": "2026-06-26 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 766,
-      "last_ts": 1782500704,
-      "last_str": "2026-06-26 19:05:04 UTC"
+      "count": 768,
+      "last_ts": 1782502503,
+      "last_str": "2026-06-26 19:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 999,
-      "last_ts": 1782500706,
-      "last_str": "2026-06-26 19:05:06 UTC"
+      "count": 1003,
+      "last_ts": 1782502505,
+      "last_str": "2026-06-26 19:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11918,
@@ -271,6 +271,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1606,
+      "ts": 1782502534,
+      "ts_str": "2026-06-26 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years - TechInsights",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:28:40 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5\n\nWhy the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years - TechInsights\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5\" target=\"_blank\">Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechInsights</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TechInsights piece argues the AI-driven memory shortage could keep DRAM and NAND prices elevated for years.\n\n\u5185\u5bb9:\nTechInsights \u7684\u4e00\u7bc7\u6587\u7ae0\u6307\u51fa\uff0cAI \u9a71\u52a8\u7684\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u53ef\u80fd\u8ba9 DRAM \u548c NAND \u4ef7\u683c\u5728\u6570\u5e74\u5185\u7ef4\u6301\u9ad8\u4f4d\u3002\n\nWhy it matters:\nDRAM/NAND are core AI-server bill-of-materials; a multi-year price floor raises hyperscaler and neocloud capex per GPU and squeezes margins downstream. Sustained memory inflation is a cost-side stress that compounds the AI-capex-payback problem.\n\n\u5f71\u54cd:\nDRAM/NAND \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff1b\u4ef7\u683c\u591a\u5e74\u7ef4\u6301\u9ad8\u4f4d\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u6bcf\u5757 GPU \u7684\u8d44\u672c\u5f00\u652f\uff0c\u5e76\u6324\u538b\u4e0b\u6e38\u5229\u6da6\u3002\u5b58\u50a8\u4ef7\u683c\u7684\u6301\u7eed\u901a\u80c0\u662f\u4e00\u79cd\u6210\u672c\u7aef\u538b\u529b\uff0c\u4f1a\u52a0\u5267 AI capex \u56de\u672c\u7684\u96be\u9898\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1607,
+      "ts": 1782502534,
+      "ts_str": "2026-06-26 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple increases prices for Macs and iPads, blaming a shortage of memory chips - The Virginian-Pilot",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 19:46:27 GMT\nLink:      https://news.google.com/rss/articles/CBMibkFVX3lxTFBHUUdqcENXNmJQazU2VHNRd0hDTlR3VGtpdUU4TlFpR2lGZ1FQaWxtTElCNF9SZVEtaUlNbjljVVVBaFlIME8wTVVsdmEtb3hqb0QxNloyUEZEMFJvcFp5a1JDd2dIRmRJb1gyaGVB?oc=5\n\nApple increases prices for Macs and iPads, blaming a shortage of memory chips - The Virginian-Pilot\n\n<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBHUUdqcENXNmJQazU2VHNRd0hDTlR3VGtpdUU4TlFpR2lGZ1FQaWxtTElCNF9SZVEtaUlNbjljVVVBaFlIME8wTVVsdmEtb3hqb0QxNloyUEZEMFJvcFp5a1JDd2dIRmRJb1gyaGVB?oc=5\" target=\"_blank\">Apple increases prices for Macs and iPads, blaming a shortage of memory chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Virginian-Pilot</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised prices on Macs and iPads, explicitly blaming a shortage of memory chips, per The Virginian-Pilot.\n\n\u5185\u5bb9:\n\u636e The Virginian-Pilot \u62a5\u9053\uff0cApple \u4e0a\u8c03\u4e86 Mac \u548c iPad \u7684\u552e\u4ef7\uff0c\u5e76\u660e\u786e\u5c06\u539f\u56e0\u5f52\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory is the first component to tighten when AI datacenter buildouts soak up HBM and DRAM supply \u2014 consumer-device price hikes are the downstream bill landing on end users. A hyperscaler capex cycle bidding memory away from the consumer market is a concrete sign the AI-infrastructure spend is now distorting the broader hardware supply chain.\n\n\u5f71\u54cd:\n\u5f53 AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70 HBM \u548c DRAM \u4f9b\u7ed9\u65f6\uff0c\u5185\u5b58\u901a\u5e38\u662f\u6700\u5148\u7d27\u5f20\u7684\u73af\u8282\u2014\u2014\u6d88\u8d39\u7535\u5b50\u6da8\u4ef7\u6b63\u662f\u8fd9\u7b14\u8d26\u6700\u7ec8\u843d\u5230\u7ec8\u7aef\u7528\u6237\u5934\u4e0a\u7684\u4f53\u73b0\u3002\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u5468\u671f\u628a\u5185\u5b58\u4ece\u6d88\u8d39\u5e02\u573a\u62a2\u8d70\uff0c\u662f AI \u57fa\u5efa\u652f\u51fa\u5df2\u7ecf\u5f00\u59cb\u626d\u66f2\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u5b9e\u8bc1\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1608,
+      "ts": 1782502534,
+      "ts_str": "2026-06-26 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:46:01 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXg5SjJkS2pYVEpHcFlCYlhvbWhXekllR2FFbmo3bWdBU25QV0gweEI0b0laMFdVdHZITkpuOHhwQzZTMjNIaHlPZ3FjLUZqZ0tFd2lrbmw5cnNza05BZ0hhamNCeXg3bFJuaXhHVjFjNkctdXprSlJZbGd3b1oyb1VVTlhfMEFNVjM1OVpCOHBJbEg4aE13dmo5QTBBbmJ1RzUwdVZKUXlwQ3li?oc=5\n\nSanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXg5SjJkS2pYVEpHcFlCYlhvbWhXekllR2FFbmo3bWdBU25QV0gweEI0b0laMFdVdHZITkpuOHhwQzZTMjNIaHlPZ3FjLUZqZ0tFd2lrbmw5cnNza05BZ0hhamNCeXg3bFJuaXhHVjFjNkctdXprSlJZbGd3b1oyb1VVTlhfMEFNVjM1OVpCOHBJbEg4aE13dmo5QTBBbmJ1RzUwdVZKUXlwQ3li?oc=5\" target=\"_blank\">SanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports SanDisk's $2,960 PS5 SSD launching \"amid global memory shortage.\" The price is the signal \u2014 a consumer SSD priced near $3,000.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053 SanDisk \u552e\u4ef7 $2,960 \u7684 PS5 SSD \u5728\u201c\u5168\u7403\u5185\u5b58\u77ed\u7f3a\u201d\u4e2d\u4e0a\u5e02\u3002\u4fe1\u53f7\u5728\u4e8e\u4ef7\u683c\u2014\u2014\u4e00\u5757\u6d88\u8d39\u7ea7 SSD \u5b9a\u4ef7\u63a5\u8fd1 $3,000\u3002\n\nWhy it matters:\nC6 tracks memory-price stress as a proxy for AI-driven demand crowding out other buyers. NAND/DRAM being diverted to AI data centers tightens consumer supply and pushes prices to absurd levels; a $2,960 consumer SSD is a visible symptom that the memory market is being squeezed by the AI-capex buildout.\n\n\u5f71\u54cd:\nC6 \u7528\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4f5c\u4e3a AI \u9700\u6c42\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4ee3\u7406\u6307\u6807\u3002NAND/DRAM \u88ab\u5927\u91cf\u8f6c\u5411 AI \u6570\u636e\u4e2d\u5fc3\uff0c\u5bfc\u81f4\u6d88\u8d39\u7aef\u4f9b\u7ed9\u6536\u7d27\u3001\u4ef7\u683c\u98d9\u5230\u79bb\u8c31\u6c34\u5e73\uff1b\u4e00\u5757 $2,960 \u7684\u6d88\u8d39\u7ea7 SSD \u5c31\u662f\u5185\u5b58\u5e02\u573a\u88ab AI capex \u5efa\u8bbe\u6324\u538b\u7684\u660e\u663e\u75c7\u72b6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1605,
       "ts": 1782501262,
@@ -2239,36 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple raises iPad and Mac prices following months of RAM and SSD shortages - KitGuru",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 18:04:58 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaUxkYWRrNEkxTC1Fa2U0RENzV0xSM0VsVzk2ckN2djNCNG4tam1uNFBDNGk0SXRhSFRYZ3JhMnpMb1FCZjBBb2t0TlFuZlNkUTlWald1UHNwMHhFYkE5M0JpeUJUSG9MM1dDUVY3dDVXN2VzYnl1RjZhVjRFdDFMTHNVWkNXSU9Ja0tqT1VDb1ZuN1JSNW5vb1ZDTmNlYjJrSEIxTkt6NWphbXpfRUxUZkVOX1N6bzlRc19KQ3FiTlhvUnJ1ekxLaW5YNkRpcXRaekNLT0FLLV9JYVFoSk5YdjVFUEdwWGFvcklnTXZLdnNnTHox?oc=5\n\nApple raises iPad and Mac prices following months of RAM and SSD shortages - KitGuru\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaUxkYWRrNEkxTC1Fa2U0RENzV0xSM0VsVzk2ckN2djNCNG4tam1uNFBDNGk0SXRhSFRYZ3JhMnpMb1FCZjBBb2t0TlFuZlNkUTlWald1UHNwMHhFYkE5M0JpeUJUSG9MM1dDUVY3dDVXN2VzYnl1RjZhVjRFdDFMTHNVWkNXSU9Ja0tqT1VDb1ZuN1JSNW5vb1ZDTmNlYjJrSEIxTkt6NWphbXpfRUxUZkVOX1N6bzlRc19KQ3FiTlhvUnJ1ekxLaW5YNkRpcXRaekNLT0FLLV9JYVFoSk5YdjVFUEdwWGFvcklnTXZLdnNnTHox?oc=5\" target=\"_blank\">Apple raises iPad and Mac prices following months of RAM and SSD shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KitGuru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised iPad and Mac prices after months of RAM and SSD shortages, per a KitGuru report.\n\n\u5185\u5bb9:\n\u636e KitGuru \u62a5\u9053\uff0c\u5728 RAM \u4e0e SSD \u6301\u7eed\u6570\u6708\u77ed\u7f3a\u540e\uff0cApple \u4e0a\u8c03\u4e86 iPad \u548c Mac \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nMemory is the first input to visibly reprice for end customers \u2014 the AI-datacenter buildout is bidding HBM/DRAM/NAND away from consumer devices, and Apple passing the cost through means the component squeeze has reached retail. It marks the AI-capex boom spilling into the broader hardware supply chain as a cost shock, not just a chip-vendor windfall.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f\u7b2c\u4e00\u4e2a\u5bf9\u7ec8\u7aef\u6d88\u8d39\u8005\u660e\u663e\u6da8\u4ef7\u7684\u73af\u8282\u2014\u2014AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u628a HBM/DRAM/NAND \u4ece\u6d88\u8d39\u7535\u5b50\u624b\u4e2d\u62a2\u8d70\uff0cApple \u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u7528\u6237\uff0c\u8bf4\u660e\u5143\u4ef6\u6324\u538b\u5df2\u7ecf\u4f20\u5bfc\u5230\u4e86\u96f6\u552e\u7aef\u3002\u8fd9\u6807\u5fd7\u7740 AI capex \u70ed\u6f6e\u6b63\u4ee5\u6210\u672c\u51b2\u51fb\u7684\u5f62\u5f0f\u5916\u6ea2\u5230\u66f4\u5e7f\u7684\u786c\u4ef6\u4f9b\u5e94\u94fe\uff0c\u800c\u4e0d\u53ea\u662f\u82af\u7247\u5382\u5546\u7684\u5355\u65b9\u9762\u7ea2\u5229\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1408,
-      "ts": 1782410716,
-      "ts_str": "2026-06-25 18:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - NBC26",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 16:30:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp1RXh1cWp0OS1iZEZGQ1ZYaURzSmhURERzRUFyc0Q5RkExSnJpUVdFLW9KMkp0djMweDFZbHpNZGVtWmllMGFrQkh5VGlEblNtNmFacHJ3WHVaT0pMYUxTOU9iUFBvd3I4QWx6MExiYURRUC1PWDRqc1FyZFhYa1hXTTJ6NHB3alJJbGhSRTVIZXNZbHVPVjlvU3NkclBaRlQ0UFE4Qmx1UUlnbDRaLVE3c1p2OGhud0FV?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - NBC26\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp1RXh1cWp0OS1iZEZGQ1ZYaURzSmhURERzRUFyc0Q5RkExSnJpUVdFLW9KMkp0djMweDFZbHpNZGVtWmllMGFrQkh5VGlEblNtNmFacHJ3WHVaT0pMYUxTOU9iUFBvd3I4QWx6MExiYURRUC1PWDRqc1FyZFhYa1hXTTJ6NHB3alJJbGhSRTVIZXNZbHVPVjlvU3NkclBaRlQ0UFE4Qmx1UUlnbDRaLVE3c1p2OGhud0FV?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC26</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is raising prices on MacBooks and iPads, citing the memory chip shortage (per NBC26).\n\n\u5185\u5bb9:\nApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e0a\u8c03 MacBook \u548c iPad \u4ef7\u683c (\u636e NBC26 \u62a5\u9053)\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the squeeze has now reached consumer hardware pricing. When AI capex starts visibly raising prices on unrelated end products, the supply diversion is no longer contained to the datacenter \u2014 it's a real-economy cost the AI boom is imposing.\n\n\u5f71\u54cd:\n\u5185\u5b58 (DRAM/HBM) \u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u8fd9\u79cd\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u7aef\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u4e0e\u4e4b\u65e0\u5173\u7684\u7ec8\u7aef\u4ea7\u54c1\u4ef7\u683c\uff0c\u4f9b\u7ed9\u6324\u5360\u5c31\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\u5185\u90e8\u2014\u2014\u5b83\u5df2\u6210\u4e3a AI \u70ed\u6f6e\u5f3a\u52a0\u7ed9\u5b9e\u4f53\u7ecf\u6d4e\u7684\u771f\u5b9e\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1404,
-      "ts": 1782408959,
-      "ts_str": "2026-06-25 17:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple raises prices of some Macs, iPads amid surging memory chip costs - Xinhua",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 14:45:30 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTFAxOGstaVAtNnBEQU4xS1lLTUREN2VWNFhTY2FsY21nTWszT1YxU3VhT3pDM2V3LVZKanlEMWlUOFF2V3NXbVBHcTJhOHVCY0dMRmhzRUU1ZlF6Vk5PeGdwYjkwZDdZQW50QzJfaE1lekJOSjFQU2RZaUNGaEk?oc=5\n\nApple raises prices of some Macs, iPads amid surging memory chip costs - Xinhua\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFAxOGstaVAtNnBEQU4xS1lLTUREN2VWNFhTY2FsY21nTWszT1YxU3VhT3pDM2V3LVZKanlEMWlUOFF2V3NXbVBHcTJhOHVCY0dMRmhzRUU1ZlF6Vk5PeGdwYjkwZDdZQW50QzJfaE1lekJOSjFQU2RZaUNGaEk?oc=5\" target=\"_blank\">Apple raises prices of some Macs, iPads amid surging memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Xinhua</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nXinhua reports Apple is raising prices on some Macs and iPads, citing surging memory chip (DRAM/NAND) costs.\n\n\u5185\u5bb9:\nXinhua \u62a5\u9053\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u6210\u672c\u98d9\u5347\uff0c\u4e0a\u8c03\u90e8\u5206 Mac \u548c iPad \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nAI datacenter buildout is hoovering up memory supply, and the cost is now reaching consumer hardware \u2014 Apple, a price-setter with huge buying power, is passing it on. Memory inflation bleeding into end-product prices confirms the AI-capex boom is tightening physical component markets, not just balance sheets.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u7684\u6269\u5efa\u6b63\u5728\u541e\u566c\u5185\u5b58\u4f9b\u5e94\uff0c\u6210\u672c\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8fde Apple \u8fd9\u79cd\u62e5\u6709\u5f3a\u5927\u8bae\u4ef7\u80fd\u529b\u7684\u5b9a\u4ef7\u65b9\u90fd\u4e0d\u5f97\u4e0d\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u3002\u5185\u5b58\u6da8\u4ef7\u6e17\u900f\u5230\u7ec8\u7aef\u4ea7\u54c1\u4ef7\u683c\uff0c\u5370\u8bc1\u4e86 AI capex \u70ed\u6f6e\u6b63\u5728\u6536\u7d27\u5b9e\u4f53\u96f6\u90e8\u4ef6\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u505c\u7559\u5728\u8d22\u52a1\u62a5\u8868\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1405,
-      "ts": 1782408959,
-      "ts_str": "2026-06-25 17:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple hikes Macs, iPads prices by $200 amid global memory chip shortage - Peoples Gazette Nigeria",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 17:06:04 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPeUVRbHFrRWxXMEZocHdsZU9rbEc3R2tpMndreDUwZlBYMGc2SFdtWEp3THF6WjByZ0p5VGE2dElsQlpOeHNnd3hoblQ1RWp5SGZHaGwwMWQwaGwtVHhoaGtyUG5HMmdSRTBHRlpEXzR6Qkl3N0VCT1BITFhJWEhvWnBPTVRjMkNiaXZNTXBmcGFlSXRpVlpRVg?oc=5\n\nApple hikes Macs, iPads prices by $200 amid global memory chip shortage - Peoples Gazette Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPeUVRbHFrRWxXMEZocHdsZU9rbEc3R2tpMndreDUwZlBYMGc2SFdtWEp3THF6WjByZ0p5VGE2dElsQlpOeHNnd3hoblQ1RWp5SGZHaGwwMWQwaGwtVHhoaGtyUG5HMmdSRTBHRlpEXzR6Qkl3N0VCT1BITFhJWEhvWnBPTVRjMkNiaXZNTXBmcGFlSXRpVlpRVg?oc=5\" target=\"_blank\">Apple hikes Macs, iPads prices by $200 amid global memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Peoples Gazette Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising Mac and iPad prices by $200, attributing the hike to a global memory chip shortage.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cApple \u5c06 Mac \u548c iPad \u4ef7\u683c\u4e0a\u8c03 $200\uff0c\u5e76\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e\u5168\u7403\u5185\u5b58\u82af\u7247short\u7f3a\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildouts, squeezing supply for consumer devices and forcing price hikes. When AI-capex demand starts visibly raising prices for unrelated consumer hardware, it signals the buildout is straining the broader memory supply chain \u2014 a real-economy spillover from the AI spend cycle.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u5e94\u5e76\u8feb\u4f7f\u6da8\u4ef7\u3002\u5f53 AI capex \u9700\u6c42\u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u4e0e\u4e4b\u65e0\u5173\u7684\u6d88\u8d39\u786c\u4ef6\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u538b\u6574\u4e2a\u5185\u5b58\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f AI \u652f\u51fa\u5468\u671f\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
