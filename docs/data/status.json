@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782439330,
-  "generated_at_str": "2026-06-26 02:02:10 UTC",
-  "last_event_ts": 1782438281,
+  "generated_at": 1782439520,
+  "generated_at_str": "2026-06-26 02:05:20 UTC",
+  "last_event_ts": 1782439519,
   "tables": {
     "alerts_dedup": {
-      "count": 1451,
-      "last_ts": 1782438281,
-      "last_str": "2026-06-26 01:44:41 UTC"
+      "count": 1452,
+      "last_ts": 1782439519,
+      "last_str": "2026-06-26 02:05:19 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-26 01:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 961,
-      "last_ts": 1782434102,
-      "last_str": "2026-06-26 00:35:02 UTC"
+      "count": 962,
+      "last_ts": 1782439504,
+      "last_str": "2026-06-26 02:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1176,
-      "last_ts": 1782434104,
-      "last_str": "2026-06-26 00:35:04 UTC"
+      "count": 1178,
+      "last_ts": 1782439506,
+      "last_str": "2026-06-26 02:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 708,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-26 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 964,
-      "last_ts": 1782435904,
-      "last_str": "2026-06-26 01:05:04 UTC"
+      "count": 965,
+      "last_ts": 1782439507,
+      "last_str": "2026-06-26 02:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11617,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1459,
+      "ts": 1782439519,
+      "ts_str": "2026-06-26 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 02:36:27 GMT\nLink:      https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbUZBUW92bW1zcmFxUjVaS2pzeVZyTWpWMzlhcnBZX2hJcjZwVGFfenJLNGlfczZjN2lqeXVpVkdYS0hyUWdRRmtZaEtqa0FDbVg1T1hBZ2dleDFITEtjSGdka29uNHFXOXktQkJGQXVoVmJoS0hvX3NVM3R4V203Z1pNSFRkV0I2NmQ1LWVBWnVJa0l0RkF4MXBGWVZpUGt2SFk2UnYtaVA4UFVZb3h6NmtBMTYtcXlnOWhORWUwSDZzSFZJeHA3QnhIZjNSN21Sb1RWdGdPR1dtUGQ5M05jZzRUZGRaM0dhbkhmTDdQY1VRTVVCbnU4?oc=5\n\nSanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbUZBUW92bW1zcmFxUjVaS2pzeVZyTWpWMzlhcnBZX2hJcjZwVGFfenJLNGlfczZjN2lqeXVpVkdYS0hyUWdRRmtZaEtqa0FDbVg1T1hBZ2dleDFITEtjSGdka29uNHFXOXktQkJGQXVoVmJoS0hvX3NVM3R4V203Z1pNSFRkV0I2NmQ1LWVBWnVJa0l0RkF4MXBGWVZpUGt2SFk2UnYtaVA4UFVZb3h6NmtBMTYtcXlnOWhORWUwSDZzSFZJeHA3QnhIZjNSN21Sb1RWdGdPR1dtUGQ5M05jZzRUZGRaM0dhbkhmTDdQY1VRTVVCbnU4?oc=5\" target=\"_blank\">SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA consumer storage headline crossed C6: SanDisk's 8TB PS5 SSD launched at nearly $3,000 amid shortages.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6d88\u8d39\u7ea7\u5b58\u50a8\u65b0\u95fb\u89e6\u53d1\u4e86 C6\uff1aSanDisk \u7684 8TB PS5 SSD \u5728\u4f9b\u5e94\u77ed\u7f3a\u4e2d\u4ee5\u63a5\u8fd1 $3,000 \u7684\u4ef7\u683c\u4e0a\u5e02\u3002\n\nWhy it matters:\nNAND/SSD pricing spikes are a downstream symptom of AI-datacenter demand crowding out consumer supply. When retail flash prices blow out like this, it signals memory tightness feeding into hyperscaler component costs \u2014 an inflationary pressure on AI-capex and a stress marker for the buildout.\n\n\u5f71\u54cd:\nNAND/SSD \u4ef7\u683c\u66b4\u6da8\u662f AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u96f6\u552e\u95ea\u5b58\u4ef7\u683c\u8fd9\u6837\u5931\u63a7\uff0c\u8bf4\u660e\u5b58\u50a8\u6b63\u5728\u7d27\u7f3a\uff0c\u5e76\u4f20\u5bfc\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u96f6\u90e8\u4ef6\u6210\u672c\u2014\u2014\u65e2\u662f AI capex \u7684\u901a\u80c0\u538b\u529b\uff0c\u4e5f\u662f\u8fd9\u8f6e\u5efa\u8bbe\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1456,
       "ts": 1782438281,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] What the SpaceX IPO Teaches Investors About the Coming Anthropic and OpenAI Offerings - NAI500",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 01:37:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxQR3J5eW9SdERXdFBRSGd3R0dDektSb1BFb005bVgyODl2YU40NDJDMTRLdG9jOFBaNWg4VDBrNEdVanFKVjF0azBldjJQYnY4RmJfMkdnZjZ5OVdYTDBtRVl2a1RoWi1FdXhkTXN1alJabE1kbUxzNDlfZ0NsZWgxbzJuNFBGajhtcVVtdFcxdnh3VExtTWQyWDczbGdpWDU2TFdzTFU2MnBBZm55WVgwUGhfcnRPcGQ0akE?oc=5\n\nWhat the SpaceX IPO Teaches Investors About the Coming Anthropic and OpenAI Offerings - NAI500\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQR3J5eW9SdERXdFBRSGd3R0dDektSb1BFb005bVgyODl2YU40NDJDMTRLdG9jOFBaNWg4VDBrNEdVanFKVjF0azBldjJQYnY4RmJfMkdnZjZ5OVdYTDBtRVl2a1RoWi1FdXhkTXN1alJabE1kbUxzNDlfZ0NsZWgxbzJuNFBGajhtcVVtdFcxdnh3VExtTWQyWDczbGdpWDU2TFdzTFU2MnBBZm55WVgwUGhfcnRPcGQ0akE?oc=5\" target=\"_blank\">What the SpaceX IPO Teaches Investors About the Coming Anthropic and OpenAI Offerings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NAI500</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA NAI500 article frames the SpaceX IPO as a template for coming Anthropic and OpenAI share offerings, signaling that public-market exits for the largest private AI labs are being openly discussed.\n\n\u5185\u5bb9:\nNAI500 \u7684\u4e00\u7bc7\u6587\u7ae0\u628a SpaceX IPO \u5f53\u4f5c\u5373\u5c06\u5230\u6765\u7684 Anthropic \u548c OpenAI \u80a1\u7968\u53d1\u884c\u7684\u8303\u672c\uff0c\u8868\u660e\u6700\u5927\u7684\u79c1\u6709 AI \u5b9e\u9a8c\u5ba4\u901a\u8fc7\u516c\u5f00\u5e02\u573a\u9000\u51fa\u7684\u8bdd\u9898\u5df2\u7ecf\u88ab\u6446\u4e0a\u53f0\u9762\u3002\n\nWhy it matters:\nInsiders setting up retail-facing IPOs is a classic late-cycle distribution signal \u2014 it lets early backers sell into public demand near the top. Talk of Anthropic/OpenAI listings means the AI-capex boom is being packaged for exit, not just funded.\n\n\u5f71\u54cd:\n\u5185\u90e8\u4eba\u7740\u624b\u7b79\u5907\u9762\u5411\u6563\u6237\u7684 IPO \u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6d3e\u53d1\u4fe1\u53f7\u2014\u2014\u8fd9\u8ba9\u65e9\u671f\u6295\u8d44\u8005\u80fd\u5728\u9ad8\u4f4d\u628a\u7b79\u7801\u5356\u7ed9\u516c\u4f17\u3002\u8ba8\u8bba Anthropic/OpenAI \u4e0a\u5e02\uff0c\u610f\u5473\u7740 AI capex \u70ed\u6f6e\u6b63\u5728\u88ab\u6253\u5305\u4ee5\u4f9b\u9000\u51fa\uff0c\u800c\u4e0d\u53ea\u662f\u7ee7\u7eed\u878d\u8d44\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1258,
-      "ts": 1782089093,
-      "ts_str": "2026-06-22 00:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] 3 Lessons From the SpaceX IPO Every Investor Should Know Before Anthropic and OpenAI Hit the Market - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 00:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnQ2ejBCOFpPVmgzcWZBWmk2RzhNcHFaeHRJTVdnU2E4VFdKdlY4NV9vME94dHQzVnBta1oySnJ6S2J1RDNlLWhYenYyd1pYNC16bzZpVTRaQkQxX055Wmc3dXl3Skx1NjZvRWdIU1EzTmwteXRQY0Q4NXg2Rk1WQzl2ajFxc2toVTJnRm1xcGs1THVrMkE?oc=5\n\n3 Lessons From the SpaceX IPO Every Investor Should Know Before Anthropic and OpenAI Hit the Market - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnQ2ejBCOFpPVmgzcWZBWmk2RzhNcHFaeHRJTVdnU2E4VFdKdlY4NV9vME94dHQzVnBta1oySnJ6S2J1RDNlLWhYenYyd1pYNC16bzZpVTRaQkQxX055Wmc3dXl3Skx1NjZvRWdIU1EzTmwteXRQY0Q4NXg2Rk1WQzl2ajFxc2toVTJnRm1xcGs1THVrMkE?oc=5\" target=\"_blank\">3 Lessons From the SpaceX IPO Every Investor Should Know Before Anthropic and OpenAI Hit the Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline frames the SpaceX IPO as a template for the eventual public listings of Anthropic and OpenAI, signaling growing market anticipation that the two largest private AI labs will hit the market.\n\n\u5185\u5bb9:\nYahoo Finance \u7684\u4e00\u5219\u6807\u9898\u628a SpaceX IPO \u5f53\u4f5c Anthropic \u548c OpenAI \u672a\u6765\u4e0a\u5e02\u7684\u8303\u672c\uff0c\u53cd\u6620\u5e02\u573a\u5bf9\u8fd9\u4e24\u5bb6\u6700\u5927\u79c1\u6709 AI \u5b9e\u9a8c\u5ba4\u5373\u5c06\u4e0a\u5e02\u7684\u9884\u671f\u6b63\u5728\u5347\u6e29\u3002\n\nWhy it matters:\nSpeculation about AI-lab IPOs is itself a late-cycle marker \u2014 it shows the narrative shifting toward cashing out private valuations into public hands. An OpenAI/Anthropic listing would be the canonical liquidity event for the AI-capex bubble, and chatter about it precedes the actual filing.\n\n\u5f71\u54cd:\n\u5173\u4e8e AI \u5b9e\u9a8c\u5ba4 IPO \u7684\u731c\u6d4b\u672c\u8eab\u5c31\u662f\u5468\u671f\u665a\u671f\u7684\u6807\u5fd7\u2014\u2014\u5b83\u8bf4\u660e\u53d9\u4e8b\u6b63\u8f6c\u5411\u628a\u79c1\u52df\u9ad8\u4f30\u503c\u53d8\u73b0\u7ed9\u516c\u4f17\u6295\u8d44\u8005\u3002OpenAI/Anthropic \u4e0a\u5e02\u5c06\u662f AI capex \u6ce1\u6cab\u6700\u5177\u4ee3\u8868\u6027\u7684\u6d41\u52a8\u6027\u5151\u73b0\u4e8b\u4ef6\uff0c\u800c\u8fd9\u7c7b\u4f20\u95fb\u5f80\u5f80\u51fa\u73b0\u5728\u6b63\u5f0f\u9012\u8868\u4e4b\u524d\u3002\n",
       "emailed": false
     }
   ],
