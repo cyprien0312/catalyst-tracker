@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782497462,
-  "generated_at_str": "2026-06-26 18:11:02 UTC",
-  "last_event_ts": 1782497105,
+  "generated_at": 1782497715,
+  "generated_at_str": "2026-06-26 18:15:15 UTC",
+  "last_event_ts": 1782497710,
   "tables": {
     "alerts_dedup": {
-      "count": 1588,
-      "last_ts": 1782495959,
-      "last_str": "2026-06-26 17:45:59 UTC"
+      "count": 1592,
+      "last_ts": 1782497710,
+      "last_str": "2026-06-26 18:15:10 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2369,
-      "last_ts": 1782494048,
-      "last_str": "2026-06-26 17:14:08 UTC"
+      "count": 2370,
+      "last_ts": 1782497644,
+      "last_str": "2026-06-26 18:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 495,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-26 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11866,
-      "last_ts": 1782495843,
-      "last_str": "2026-06-26 17:44:03 UTC"
+      "count": 11885,
+      "last_ts": 1782497642,
+      "last_str": "2026-06-26 18:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1596,
+      "ts": 1782497710,
+      "ts_str": "2026-06-26 18:15 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:25:14 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5ySEIwcElwUHltV0ZQckMwSU9yU0RSckZWQk5NOG9pWkRVNlZRa01Wc1UyNHhqMDVBZDItWmRBdzdiT21XVmx5Zmt0blYwSVpfN0JWcTZsSW80WVJmeHZtdHZrRmUwallkaW9lcWdmakdTQlJLQUF6U1dnONIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\n\nOpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5ySEIwcElwUHltV0ZQckMwSU9yU0RSckZWQk5NOG9pWkRVNlZRa01Wc1UyNHhqMDVBZDItWmRBdzdiT21XVmx5Zmt0blYwSVpfN0JWcTZsSW80WVJmeHZtdHZrRmUwallkaW9lcWdmakdTQlJLQUF6U1dnONIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\" target=\"_blank\">OpenAI weighs IPO in 2027 after expected Anthropic public debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mercury News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Mercury News story reports OpenAI is weighing a 2027 IPO, expected to follow Anthropic's public debut.\n\n\u5185\u5bb9:\nMercury News \u62a5\u9053\uff0cOpenAI \u6b63\u5728\u6743\u8861 2027 \u5e74 IPO\uff0c\u9884\u8ba1\u5c06\u7d27\u968f Anthropic \u4e0a\u5e02\u4e4b\u540e\u3002\n\nWhy it matters:\nIPO chatter signals insiders looking to monetize private valuations into public liquidity near a cycle peak \u2014 the classic late-stage move to offload AI-infrastructure risk onto public markets. Both labs going public would mark the transition from private hype funding to public-market scrutiny of actual capex returns.\n\n\u5f71\u54cd:\nIPO \u4f20\u95fb\u610f\u5473\u7740\u5185\u90e8\u4eba\u58eb\u60f3\u5728\u5468\u671f\u9ad8\u70b9\u628a\u79c1\u52df\u4f30\u503c\u53d8\u73b0\u4e3a\u516c\u5f00\u5e02\u573a\u6d41\u52a8\u6027\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u665a\u5468\u671f\u52a8\u4f5c\uff0c\u628a AI \u57fa\u7840\u8bbe\u65bd\u98ce\u9669\u7529\u7ed9\u516c\u4f17\u6295\u8d44\u8005\u3002\u4e24\u5bb6\u5b9e\u9a8c\u5ba4\u90fd\u4e0a\u5e02\uff0c\u6807\u5fd7\u7740\u4ece\u79c1\u52df\u7092\u4f5c\u878d\u8d44\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u5bf9\u771f\u5b9e capex \u56de\u62a5\u7684\u5ba1\u89c6\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1597,
+      "ts": 1782497710,
+      "ts_str": "2026-06-26 18:15 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI considers delaying its IPO until next year, report says - CBS News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 13:31:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3ZqTUwwaWhHRW5vN2FadjFwYWg4UGhWRXM5Wkl2LTFYZm1GUWM2RXNlLWoxUmZSOFlMblBkYTktaHFYNnF0ZmRTZzdyZ0tpV1NTYjM5cno0N2F0NUJNU0o2M29IN3RTUVkxZ1pzeUNuN1N0VE1acDA2MzBrVkdhNFp0NG9kVzdmQVFwRThuR2txQ1FRVS1V?oc=5\n\nOpenAI considers delaying its IPO until next year, report says - CBS News\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3ZqTUwwaWhHRW5vN2FadjFwYWg4UGhWRXM5Wkl2LTFYZm1GUWM2RXNlLWoxUmZSOFlMblBkYTktaHFYNnF0ZmRTZzdyZ0tpV1NTYjM5cno0N2F0NUJNU0o2M29IN3RTUVkxZ1pzeUNuN1N0VE1acDA2MzBrVkdhNFp0NG9kVzdmQVFwRThuR2txQ1FRVS1V?oc=5\" target=\"_blank\">OpenAI considers delaying its IPO until next year, report says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CBS News report says OpenAI is considering delaying its IPO until next year. This is a C3 OpenAI-watch headline, not a confirmed filing.\n\n\u5185\u5bb9:\n\u636e CBS News \u62a5\u9053\uff0cOpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230\u660e\u5e74\u3002\u8fd9\u5c5e\u4e8e C3 \u7684 OpenAI \u52a8\u5411\u65b0\u95fb\uff0c\u5e76\u975e\u5df2\u786e\u8ba4\u7684\u6b63\u5f0f\u6587\u4ef6\u3002\n\nWhy it matters:\nOpenAI is the demand anchor underwriting the AI-capex buildout; a slipping IPO timeline signals it isn't confident it can command the valuation it wants right now. A delayed listing also pushes back the public-market liquidity event that funds further compute commitments \u2014 a soft stress signal for the bubble thesis.\n\n\u5f71\u54cd:\nOpenAI \u662f\u652f\u6491\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u63a8\u8fdf IPO \u8bf4\u660e\u5b83\u5f53\u524d\u5bf9\u80fd\u5426\u62ff\u5230\u7406\u60f3\u4f30\u503c\u6ca1\u6709\u628a\u63e1\u3002\u540c\u65f6\uff0c\u4e0a\u5e02\u5ef6\u540e\u4e5f\u610f\u5473\u7740\u4e3a\u540e\u7eed\u7b97\u529b\u627f\u8bfa\u63d0\u4f9b\u8d44\u91d1\u7684\u516c\u5f00\u5e02\u573a\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u63a8\u540e\u2014\u2014\u5bf9\u6ce1\u6cab\u8bba\u662f\u4e00\u4e2a\u6e29\u548c\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1598,
+      "ts": 1782497710,
+      "ts_str": "2026-06-26 18:15 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Pushes Its IPO to 2027 - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:24:05 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTQyaGVkR0ljWldFS3VtbFR3d2N1ZUdaS3pSalBzOTFSdHJLT1ZWbWVGMFhveXctTkYwV2FkcEFGbUY5a1Z0dFNDQkEzaHZ5RmRSeDVMWFh4eG81T3loVDlyb1lvRkpLMkw0b2FrR3hNQ1JkZU13SExvQkwtaVVCMVZfaVlucjl4TThVUFdQYUd6TXM?oc=5\n\nOpenAI Pushes Its IPO to 2027 - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTQyaGVkR0ljWldFS3VtbFR3d2N1ZUdaS3pSalBzOTFSdHJLT1ZWbWVGMFhveXctTkYwV2FkcEFGbUY5a1Z0dFNDQkEzaHZ5RmRSeDVMWFh4eG81T3loVDlyb1lvRkpLMkw0b2FrR3hNQ1JkZU13SExvQkwtaVVCMVZfaVlucjl4TThVUFdQYUd6TXM?oc=5\" target=\"_blank\">OpenAI Pushes Its IPO to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
+    {
+      "id": 1599,
+      "ts": 1782497710,
+      "ts_str": "2026-06-26 18:15 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Weighs IPO in 2027 | Bloomberg Tech 6/26/2026",
+      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Fri, 26 Jun 2026 17:36:23 GMT\nLink:      https://www.bloomberg.com/news/videos/2026-06-26/bloomberg-tech-6-26-2026-video\n\nOpenAI Weighs IPO in 2027 | Bloomberg Tech 6/26/2026\n\nBloomberg\u2019s Ed Ludlow breaks down OpenAI's decision to potentially hold off on an IPO until next year - sending shares of SoftBank falling. Plus, global tech stocks drop after Apple hikes hardware price due to a memory crunch, and SpaceX's $25 billion bond sale is off to a rocky start. (Source: Bloomberg)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBloomberg Tech (6/26/2026) reports OpenAI may delay its IPO until 2027, which sent SoftBank shares falling. The same segment notes global tech stocks dropping after Apple hiked hardware prices on a memory crunch, and a rocky start to SpaceX's $25B bond sale.\n\n\u5185\u5bb9:\nBloomberg Tech\uff082026/6/26\uff09\u62a5\u9053 OpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u6d88\u606f\u5bfc\u81f4 SoftBank \u80a1\u4ef7\u4e0b\u8dcc\u3002\u540c\u4e00\u8282\u76ee\u8fd8\u63d0\u5230\u5168\u7403\u79d1\u6280\u80a1\u56e0 Apple \u5728\u5185\u5b58\u7d27\u7f3a\u4e0b\u4e0a\u8c03\u786c\u4ef6\u4ef7\u683c\u800c\u8d70\u4f4e\uff0c\u4ee5\u53ca SpaceX 250 \u4ebf\u7f8e\u5143\u503a\u5238\u53d1\u884c\u5f00\u5c40\u4e0d\u987a\u3002\n\nWhy it matters:\nAn IPO that keeps slipping signals OpenAI isn't ready to face public-market scrutiny of its cash burn, and SoftBank's drop shows how levered the AI-infra complex is to that single outcome. The memory-crunch price hike and the strained SpaceX bond sale point to the same stress \u2014 capital and components for the buildout are getting scarcer and pricier.\n\n\u5f71\u54cd:\nIPO \u4e00\u518d\u63a8\u8fdf\uff0c\u8bf4\u660e OpenAI \u8fd8\u6ca1\u51c6\u5907\u597d\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u73b0\u91d1\u6d88\u8017\uff0c\u800c SoftBank \u5e94\u58f0\u4e0b\u8dcc\u5219\u66b4\u9732\u51fa\u6574\u4e2a AI \u57fa\u7840\u8bbe\u65bd\u677f\u5757\u5bf9\u8fd9\u4e00\u5355\u4e00\u7ed3\u679c\u7684\u9ad8\u5ea6\u6760\u6746\u655e\u53e3\u3002\u5185\u5b58\u7d27\u7f3a\u5bfc\u81f4\u7684\u6da8\u4ef7\u548c SpaceX \u503a\u5238\u53d1\u884c\u53d7\u963b\u6307\u5411\u540c\u4e00\u79cd\u538b\u529b\u2014\u2014\u8fd9\u8f6e\u5efa\u8bbe\u6240\u9700\u7684\u8d44\u91d1\u548c\u96f6\u90e8\u4ef6\u6b63\u53d8\u5f97\u66f4\u7a00\u7f3a\u3001\u66f4\u6602\u8d35\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1587,
       "ts": 1782495959,
@@ -2229,46 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - CNN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 13:44:46 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxNX1VlVXVSWmRYS0lXc3JjTHl5RDFnWTE2eldxSlJ0UFhVQ2M4TTY3di1vR051emNJQkNLTEZDOEFDcWZuNkpIenN6elU1YnFkTjg2R1BZZzNVZVVRRUMxbEFINlZzY1FtZEJWak9lQkNzLUZIUGF4Y2RwMFBqTDR1LTFOQlVBQW5IY0VFWUU5S0dhUmFnLXJtaGVHbUpxTUxoMjU4a0dvUFJuXzI3di1feklB?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - CNN\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNX1VlVXVSWmRYS0lXc3JjTHl5RDFnWTE2eldxSlJ0UFhVQ2M4TTY3di1vR051emNJQkNLTEZDOEFDcWZuNkpIenN6elU1YnFkTjg2R1BZZzNVZVVRRUMxbEFINlZzY1FtZEJWak9lQkNzLUZIUGF4Y2RwMFBqTDR1LTFOQlVBQW5IY0VFWUU5S0dhUmFnLXJtaGVHbUpxTUxoMjU4a0dvUFJuXzI3di1feklB?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNN headline reports Apple is hiking the prices of MacBooks and iPads, citing the memory chip shortage.\n\n\u5185\u5bb9:\nCNN \u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u4e0a\u8c03 MacBook \u4e0e iPad \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nAI-server demand is draining DRAM/NAND supply, and the cost is now reaching consumer hardware \u2014 a sign the capex buildout is creating real-economy price pressure outside the data center. Memory shortages flowing through to retail pricing is a late-cycle stress signal that the AI-infrastructure spend is distorting the broader supply chain.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u6b63\u5728\u62bd\u5e72 DRAM/NAND \u4f9b\u5e94\uff0c\u6210\u672c\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u8fd9\u8868\u660e\u8d44\u672c\u5f00\u652f\u6269\u5f20\u6b63\u5728\u6570\u636e\u4e2d\u5fc3\u4e4b\u5916\u5236\u9020\u771f\u5b9e\u7684\u7269\u4ef7\u538b\u529b\u3002\u5185\u5b58\u77ed\u7f3a\u4f20\u5bfc\u81f3\u96f6\u552e\u5b9a\u4ef7\u662f\u4e00\u4e2a\u5468\u671f\u665a\u671f\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u8bf4\u660e AI \u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u6b63\u5728\u626d\u66f2\u66f4\u5e7f\u6cdb\u7684\u4f9b\u5e94\u94fe\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1398,
-      "ts": 1782401752,
-      "ts_str": "2026-06-25 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple product prices in India to rise 15-20 per cent amid memory chip shortage - BusinessLine",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 14:49:06 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS0N6M3BBTFU4WVY1SVpSYmxFSkxudnZScVVZcFpFU0ZMQWptSm9oMFNzOHc5Zm13YXlHcVh4MWdpcHlSQ1RyVlNtcHotMHhYLS15MWQ1Um8wQmJyVjFqdE54bXdlQU1sSV9CdkxfRE5vMTRkTXV6a0EzTWY3VlhGbGdFVlRZUzNZaGxyUVVManhrZ0JEWmRoUUlrZlQzS191ODRLNFYzMUJLU3ljOElGTmMxWDZfdXp6UW9CdlRIaGZqd01KSW1VU3A1MjNrYVBjWHRaU0R6UXpVdkxSYlHSAeQBQVVfeXFMTkdrSXRkYkp1dzlVaGZUTlRrVE5ycmZlbTl6bjZPYlJ5ZDl3LW1fRXZacHBGd2JSc2lqYkdLbUJDbDlRRDVDSkM3UWl0Zkc4SEh5Y3l4ZHBvNHFTaVIxVUNjUnZyUjNzRXJuTmFtcXNvaU9ZNGdfcUtaM3pXekl0cjVGM2FDRFJkdk9mR3A4THhlT21fNEN1NEdmNVZIb3Uya24yOHpLc05UZWhHVVdsLWROUWF6cndoNkFmTUZCMGREdEh6b1BvR1NFdmNsOERhQ3c1ZjZzT2dfTnhRc1plUHJnbDVu?oc=5\n\nApple product prices in India to rise 15-20 per cent amid memory chip shortage - BusinessLine\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS0N6M3BBTFU4WVY1SVpSYmxFSkxudnZScVVZcFpFU0ZMQWptSm9oMFNzOHc5Zm13YXlHcVh4MWdpcHlSQ1RyVlNtcHotMHhYLS15MWQ1Um8wQmJyVjFqdE54bXdlQU1sSV9CdkxfRE5vMTRkTXV6a0EzTWY3VlhGbGdFVlRZUzNZaGxyUVVManhrZ0JEWmRoUUlrZlQzS191ODRLNFYzMUJLU3ljOElGTmMxWDZfdXp6UW9CdlRIaGZqd01KSW1VU3A1MjNrYVBjWHRaU0R6UXpVdkxSYlHSAeQBQVVfeXFMTkdrSXRkYkp1dzlVaGZUTlRrVE5ycmZlbTl6bjZPYlJ5ZDl3LW1fRXZacHBGd2JSc2lqYkdLbUJDbDlRRDVDSkM3UWl0Zkc4SEh5Y3l4ZHBvNHFTaVIxVUNjUnZyUjNzRXJuTmFtcXNvaU9ZNGdfcUtaM3pXekl0cjVGM2FDRFJkdk9mR3A4THhlT21fNEN1NEdmNVZIb3Uya24yOHpLc05UZWhHVVdsLWROUWF6cndoNkFmTUZCMGREdEh6b1BvR1NFdmNsOERhQ3c1ZjZzT2dfTnhRc1plUHJnbDVu?oc=5\" target=\"_blank\">Apple product prices in India to rise 15-20 per cent amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BusinessLine</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple product prices in India will rise 15-20% due to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u5934\u6761\u62a5\u9053\uff0c\u53d7\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5f71\u54cd\uff0cApple \u4ea7\u54c1\u5728\u5370\u5ea6\u7684\u552e\u4ef7\u5c06\u4e0a\u6da8 15-20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away from consumer electronics into AI servers, and the shortage is now hitting end-product pricing. When AI-capex demand visibly raises prices for unrelated devices, it confirms the supply squeeze is real and broad \u2014 and pressures the rest of the hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u670d\u52a1\u5668\u4ece\u6d88\u8d39\u7535\u5b50\u9886\u57df\u62a2\u8d70\uff0c\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u4ea7\u54c1\u5b9a\u4ef7\u3002\u5f53 AI capex \u9700\u6c42\u660e\u663e\u63a8\u9ad8\u65e0\u5173\u8bbe\u5907\u7684\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u662f\u771f\u5b9e\u4e14\u5e7f\u6cdb\u7684\uff0c\u5e76\u4f1a\u6324\u538b\u6574\u4e2a\u786c\u4ef6\u94fe\u6761\u7684\u5176\u4f59\u73af\u8282\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1399,
-      "ts": 1782401752,
-      "ts_str": "2026-06-25 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - KTEN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 13:44:46 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbzR2UjQzeUlmOElrdmdqaGRqbnVZMWNWR2RkZjI1dFVVRm45bFdhWDRPZW4zUnFjWkU4OE1IR2tvaTdSenFRVUxLdEIzRG82TDdMeUlRYURoNUlMdVlHbDVodTFfaW5QY0NjSzJkcTZhSTFOOTBjVXVGc0p2aTZUYllINDNJbmo2NThGdlB1YmdLX2RGWjZpTWNGU2h2U0lSOEVLY1Y4WEpXU09iZUIzUTlIdFIxcElpeHVNRERyMV9RekVUc3BERFE0UEUzRHdEQUZDZkNZUHdaNG4tbnJEa051b0VUd2hGdnl3YXpiQUE4Wkk3TjE2dg?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - KTEN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbzR2UjQzeUlmOElrdmdqaGRqbnVZMWNWR2RkZjI1dFVVRm45bFdhWDRPZW4zUnFjWkU4OE1IR2tvaTdSenFRVUxLdEIzRG82TDdMeUlRYURoNUlMdVlHbDVodTFfaW5QY0NjSzJkcTZhSTFOOTBjVXVGc0p2aTZUYllINDNJbmo2NThGdlB1YmdLX2RGWjZpTWNGU2h2U0lSOEVLY1Y4WEpXU09iZUIzUTlIdFIxcElpeHVNRERyMV9RekVUc3BERFE0UEUzRHdEQUZDZkNZUHdaNG4tbnJEa051b0VUd2hGdnl3YXpiQUE4Wkk3TjE2dg?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KTEN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA KTEN/Google News headline says Apple is hiking MacBook and iPad prices because of the memory chip shortage.\n\n\u5185\u5bb9:\nKTEN/Google News \u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03 MacBook \u4e0e iPad \u7684\u4ef7\u683c\u3002\n\nWhy it matters:\nConsumer-device pricing is now absorbing DRAM/NAND scarcity caused by AI datacenter demand soaking up memory supply. When AI capex starts raising prices on unrelated consumer hardware, the buildout is crowding out the rest of the chip market \u2014 a sign the spend is straining the broader supply chain, not just hyperscaler budgets.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u5f00\u59cb\u627f\u53d7\u7531 AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5438\u8d70\u5185\u5b58\u4f9b\u7ed9\u6240\u9020\u6210\u7684 DRAM/NAND \u77ed\u7f3a\u3002\u5f53 AI capex \u5f00\u59cb\u62ac\u9ad8\u4e0e\u4e4b\u65e0\u5173\u7684\u6d88\u8d39\u786c\u4ef6\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u5360\u6574\u4e2a\u82af\u7247\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u9884\u7b97\u2014\u2014\u8fd9\u662f\u652f\u51fa\u6b63\u5728\u62c9\u7d27\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1400,
-      "ts": 1782401752,
-      "ts_str": "2026-06-25 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Shortage Drives Apple Device Price Hikes - tippinsights",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 15:01:41 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPanNqdnVRUGlGXzRqTURhTDlxbkthX1dPYmJ0Y1loRFdUYmxxR3FhWm9SSExMOWJndkNNT0cyc0pWZjdvTGVkRldPMElkNDFhZmxEOTNPQ3htblA4Rk5laUJPamxZYVFVQ3NmTzBDY0h1SkhNbFZ2VG5RZGFqWmZQaklrRk8?oc=5\n\nMemory Chip Shortage Drives Apple Device Price Hikes - tippinsights\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPanNqdnVRUGlGXzRqTURhTDlxbkthX1dPYmJ0Y1loRFdUYmxxR3FhWm9SSExMOWJndkNNT0cyc0pWZjdvTGVkRldPMElkNDFhZmxEOTNPQ3htblA4Rk5laUJPamxZYVFVQ3NmTzBDY0h1SkhNbFZ2VG5RZGFqWmZQaklrRk8?oc=5\" target=\"_blank\">Memory Chip Shortage Drives Apple Device Price Hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tippinsights</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports a memory chip shortage is forcing Apple to raise prices on its devices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u8feb\u4f7f Apple \u4e0a\u8c03\u5176\u8bbe\u5907\u552e\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, draining supply for consumer hardware and pushing prices up. When AI capex starts visibly raising the cost of unrelated consumer electronics, the spend is large enough to distort the broader supply chain \u2014 a sign of bubble-stage resource crowding-out.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u6d88\u8d39\u786c\u4ef6\u7684\u4f9b\u7ed9\u5e76\u63a8\u9ad8\u4ef7\u683c\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u7b14\u652f\u51fa\u5df2\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u6574\u4e2a\u4f9b\u5e94\u94fe\u2014\u2014\u8fd9\u662f\u6ce1\u6cab\u9636\u6bb5\u8d44\u6e90\u6324\u5360\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1395,
-      "ts": 1782399933,
-      "ts_str": "2026-06-25 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple hikes MacBook, iPad prices due to memory chip shortage \u2013 here are the products getting hit - New York Post",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 14:48:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxOeFFlc1dTMW1GX3F1eC1DRHo3S1JqbDBmZjA4Y2o4NXhQd0ExREpGSnV1Vm5IbmgyR0tsNlJfejU5ZnhuZXVvY3I5WVJpTU1KSVhReHBiNzI1SGc1cFprZmRuS25MTWFxZk5WeVBhMTlibk9BLTRSTDVtZ3diak1iSkp0SU9FdkdKdjAyVTZpUk0wdUQ3LVRZd09raUlLMENnVEpSOWNrM2ZMaVZyWTFOblZiaEt1SzU3bEFEY285WHNtVkdjUEhfcU83UnlQUQ?oc=5\n\nApple hikes MacBook, iPad prices due to memory chip shortage \u2013 here are the products getting hit - New York Post\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOeFFlc1dTMW1GX3F1eC1DRHo3S1JqbDBmZjA4Y2o4NXhQd0ExREpGSnV1Vm5IbmgyR0tsNlJfejU5ZnhuZXVvY3I5WVJpTU1KSVhReHBiNzI1SGc1cFprZmRuS25MTWFxZk5WeVBhMTlibk9BLTRSTDVtZ3diak1iSkp0SU9FdkdKdjAyVTZpUk0wdUQ3LVRZd09raUlLMENnVEpSOWNrM2ZMaVZyWTFOblZiaEt1SzU3bEFEY285WHNtVkdjUEhfcU83UnlQUQ?oc=5\" target=\"_blank\">Apple hikes MacBook, iPad prices due to memory chip shortage \u2013 here are the products getting hit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA New York Post headline reports Apple is hiking MacBook and iPad prices, citing a memory chip shortage as the cause.\n\n\u5185\u5bb9:\nNew York Post \u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e0a\u8c03 MacBook \u548c iPad \u4ef7\u683c\u3002\n\nWhy it matters:\nAI-accelerator demand is absorbing so much HBM and DRAM capacity that it is now spilling into consumer-device pricing \u2014 a sign the memory squeeze has escaped the data center and is rationing supply economy-wide. When AI capex starts visibly raising prices on unrelated hardware, the buildout is straining the physical supply chain, not just balance sheets.\n\n\u5f71\u54cd:\nAI \u52a0\u901f\u5668\u9700\u6c42\u541e\u566c\u4e86\u5927\u91cf HBM \u548c DRAM \u4ea7\u80fd\uff0c\u5982\u4eca\u5df2\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u5b9a\u4ef7\u2014\u2014\u8bf4\u660e\u8fd9\u573a\u5185\u5b58\u6324\u538b\u5df2\u51b2\u51fa\u6570\u636e\u4e2d\u5fc3\uff0c\u5f00\u59cb\u5728\u6574\u4e2a\u7ecf\u6d4e\u5c42\u9762\u5206\u914d\u7d27\u7f3a\u4f9b\u7ed9\u3002\u5f53 AI capex \u660e\u663e\u63a8\u9ad8\u4e0d\u76f8\u5173\u786c\u4ef6\u7684\u4ef7\u683c\u65f6\uff0c\u610f\u5473\u7740\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\u94fe\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u8d22\u52a1\u3002\n",
       "emailed": false
     }
   ],
