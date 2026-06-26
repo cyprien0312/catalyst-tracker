@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-06-26 22:26:16 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-06-26 22:29:20 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -136,6 +136,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="1620" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.19% (+47bp off 90d-low)</span>
+    <span class="meta">2026-06-26 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-06-25
+Current:  2.19%
+90d low:  1.72%
+Move:     +47bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real yield (REAL10) jumped to 2.19% on 2026-06-25, up 0.47 points from its trailing-90-day low of 1.72%.
+
+内容:
+10 年期实际收益率 (REAL10) 在 2026-06-25 跳升至 2.19%，较过去 90 天低点 1.72% 上升了 0.47 个百分点。
+
+Why it matters:
+Real yields are the discount rate on long-duration AI-capex bets — a fast 47bp rise compresses the present value of profits that are years out, exactly where the hyperscaler buildout thesis lives. It also tightens financial conditions and raises the bar that AI returns must clear to justify the spend.
+
+影响:
+实际收益率是给长久期 AI 资本开支押注定价的贴现率——47 个基点的快速上行会压低那些要多年后才兑现的利润的现值，而超大规模厂商的建设逻辑恰恰押在这部分远期回报上。同时它收紧金融条件，抬高了 AI 回报必须跨过的门槛。
+</pre>
+  <button class="mark-read" type="button" data-id="1620">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="1618" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -6458,49 +6487,17 @@ Memory (HBM/DRAM) is being absorbed by AI datacenter buildout, and the squeeze i
   <button class="mark-read" type="button" data-id="1423">mark read</button>
 </details>
 
-<details class="alert sev-HIGH" data-id="1420" data-catalyst="C6" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C6</code>
-    <span class="subj">[C6-HIGH] SANDISK 2TB NVMe SSD falls to $409.99 in new price drop - Technobezz</span>
-    <span class="meta">2026-06-25 19:36 UTC</span>
-  </summary>
-  <pre>Severity:  HIGH
-Feed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 25 Jun 2026 19:09:26 GMT
-Link:      https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXliUzhCLTNnOG9Fb2ZzR2hVSEd4NXNJMll0cWMxX0E2YldFZEtUUzA0R1JXbUs3elFXMzBvNnQzbDBCTFVHR3JQbW96c0hERFlyaUxjelkzejJWY2tVWmZpVE9Nbzh3Y2wwbF9UZ0ludmVTOTFsRVppcWx2aTNxWjV6WkpjMXZRd3B6dnZn?oc=5
-
-SANDISK 2TB NVMe SSD falls to $409.99 in new price drop - Technobezz
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXliUzhCLTNnOG9Fb2ZzR2hVSEd4NXNJMll0cWMxX0E2YldFZEtUUzA0R1JXbUs3elFXMzBvNnQzbDBCTFVHR3JQbW96c0hERFlyaUxjelkzejJWY2tVWmZpVE9Nbzh3Y2wwbF9UZ0ludmVTOTFsRVppcWx2aTNxWjV6WkpjMXZRd3B6dnZn?oc=5&#34; target=&#34;_blank&#34;&gt;SANDISK 2TB NVMe SSD falls to $409.99 in new price drop&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Technobezz&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A retail listing flags a SANDISK 2TB NVMe SSD dropping to $409.99 in a new price cut.
-
-内容:
-一则零售信息显示 SANDISK 2TB NVMe SSD 在新一轮降价中跌至 $409.99。
-
-Why it matters:
-C6 tracks NAND/SSD pricing as a proxy for AI-driven storage demand. A consumer price drop points to easing supply tightness — the opposite of the shortage-driven price spikes that signal hyperscaler hoarding, so it weakly cuts against the AI-capex squeeze thesis.
-
-影响:
-C6 用 NAND/SSD 价格作为 AI 驱动存储需求的代理指标。消费级产品降价说明供给紧张在缓解——与超大规模厂商囤货推动的涨价信号相反，因此对 AI capex 挤压逻辑构成微弱的反向证据。
-</pre>
-  <button class="mark-read" type="button" data-id="1420">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>1612</td>
-<td>2026-06-26 22:05:27 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>1613</td>
+<td>2026-06-26 22:29:20 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>2</td>
-<td>2026-06-25 22:29:03 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>3</td>
+<td>2026-06-26 22:29:02 UTC</td></tr>
 
 <tr><td><code>c1_filings</code></td><td>105</td>
 <td>2026-06-22 20:32:03 UTC</td></tr>
