@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782459663,
-  "generated_at_str": "2026-06-26 07:41:03 UTC",
-  "last_event_ts": 1782459331,
+  "generated_at": 1782459866,
+  "generated_at_str": "2026-06-26 07:44:26 UTC",
+  "last_event_ts": 1782459865,
   "tables": {
     "alerts_dedup": {
-      "count": 1478,
-      "last_ts": 1782459331,
-      "last_str": "2026-06-26 07:35:31 UTC"
+      "count": 1480,
+      "last_ts": 1782459865,
+      "last_str": "2026-06-26 07:44:25 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -49,14 +49,14 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2338,
-      "last_ts": 1782458043,
-      "last_str": "2026-06-26 07:14:03 UTC"
+      "count": 2339,
+      "last_ts": 1782459843,
+      "last_str": "2026-06-26 07:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 488,
-      "last_ts": 1782458044,
-      "last_str": "2026-06-26 07:14:04 UTC"
+      "count": 489,
+      "last_ts": 1782459844,
+      "last_str": "2026-06-26 07:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 970,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-26 07:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11667,
-      "last_ts": 1782458042,
-      "last_str": "2026-06-26 07:14:02 UTC"
+      "count": 11673,
+      "last_ts": 1782459842,
+      "last_str": "2026-06-26 07:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1486,
+      "ts": 1782459865,
+      "ts_str": "2026-06-26 07:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI postpones GPT-5.6 and IPO: why? - Techzine Global",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:21:52 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGlfaG5lb0N4Sl9nMUZxdld3U2xENkNCNE43WVdZWFY4N2NLaVh1RDE2UjlRb3E0NmV2RHl3T2t0c3NzaXBGX0dDR1hnZTlWUm51NkVhSm0tNklrOE1kcldTaWwyRmNtbjgzRFZZcTJoOUhlSkNuZ2NiQk9SZVJfZWYwbjVFbEs5TW5jWk9sWQ?oc=5\n\nOpenAI postpones GPT-5.6 and IPO: why? - Techzine Global\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGlfaG5lb0N4Sl9nMUZxdld3U2xENkNCNE43WVdZWFY4N2NLaVh1RDE2UjlRb3E0NmV2RHl3T2t0c3NzaXBGX0dDR1hnZTlWUm51NkVhSm0tNklrOE1kcldTaWwyRmNtbjgzRFZZcTJoOUhlSkNuZ2NiQk9SZVJfZWYwbjVFbEs5TW5jWk9sWQ?oc=5\" target=\"_blank\">OpenAI postpones GPT-5.6 and IPO: why?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Techzine Global</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
+    {
+      "id": 1487,
+      "ts": 1782459865,
+      "ts_str": "2026-06-26 07:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SoftBank shares slip over 12% on OpenAI IPO delay concerns - Nikkei Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 03:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9YRjFnbDViMElsa25oNnZvZ25FRlFnY3dZc0dtZE5VcnpJSTdhaG5SdzdtdUh1bEtMRnlVUUI4Z1ZNWExCWk84SFNSOTlqZ1ljZkpWOGMzaXprR1Rob250QmJxZ0pXaVhkb3h5RHVhUGExLWlGVnBGdDkzMFh3NV8tNFVJU04yeU10cjFRX00td1NjQWRYS1VMRjdGbVk?oc=5\n\nSoftBank shares slip over 12% on OpenAI IPO delay concerns - Nikkei Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9YRjFnbDViMElsa25oNnZvZ25FRlFnY3dZc0dtZE5VcnpJSTdhaG5SdzdtdUh1bEtMRnlVUUI4Z1ZNWExCWk84SFNSOTlqZ1ljZkpWOGMzaXprR1Rob250QmJxZ0pXaVhkb3h5RHVhUGExLWlGVnBGdDkzMFh3NV8tNFVJU04yeU10cjFRX00td1NjQWRYS1VMRjdGbVk?oc=5\" target=\"_blank\">SoftBank shares slip over 12% on OpenAI IPO delay concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank (9984) shares fell more than 12% on reports of a delay to OpenAI's IPO, per Nikkei Asia.\n\n\u5185\u5bb9:\n\u636e Nikkei Asia \u62a5\u9053\uff0c\u56e0 OpenAI IPO \u63a8\u8fdf\u7684\u62c5\u5fe7\uff0cSoftBank (9984) \u80a1\u4ef7\u4e0b\u8dcc\u8d85\u8fc7 12%\u3002\n\nWhy it matters:\nSoftBank is one of the most leveraged public proxies for the OpenAI/AI-capex trade. A 12% single-name drop on IPO-timing concerns shows the market repricing the cash-out path for AI infrastructure bets \u2014 when the exit slips, the financing chain behind the buildout gets questioned.\n\n\u5f71\u54cd:\nSoftBank \u662f\u62bc\u6ce8 OpenAI / AI capex \u4e3b\u9898\u4e2d\u6760\u6746\u6700\u9ad8\u7684\u4e0a\u5e02\u4ee3\u7406\u6807\u7684\u4e4b\u4e00\u3002\u5355\u4e00\u6807\u7684\u56e0 IPO \u65f6\u70b9\u62c5\u5fe7\u5c31\u5927\u8dcc 12%\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u91cd\u65b0\u5b9a\u4ef7 AI \u57fa\u5efa\u62bc\u6ce8\u7684\u5957\u73b0\u9000\u51fa\u8def\u5f84\u2014\u2014\u4e00\u65e6\u9000\u51fa\u65f6\u70b9\u63a8\u8fdf\uff0c\u6574\u4e2a\u5efa\u8bbe\u80cc\u540e\u7684\u878d\u8d44\u94fe\u6761\u5c31\u4f1a\u88ab\u6253\u4e0a\u95ee\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1484,
       "ts": 1782459331,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s Light Balance Sheet Could Face a Hard Look Before IPO - The Information",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 13:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxPYnotRTFOQlpVRnF4R3dvR2h3Q21qa2JSMEpnanVVMW9idFBlYkRTX1pDbjdxRnVpdkxVUWhtWUVkMDlRWjNPc1RwenRfRTNuSjdYRmd4cVdCbVVPR2R5Y2UzTVlBVHVOME9ncUlPbjZQVnU3ZHdsc01WaDdheWJZd2lLanQyNGZzWHJPVXZSMA?oc=5\n\nOpenAI\u2019s Light Balance Sheet Could Face a Hard Look Before IPO - The Information\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPYnotRTFOQlpVRnF4R3dvR2h3Q21qa2JSMEpnanVVMW9idFBlYkRTX1pDbjdxRnVpdkxVUWhtWUVkMDlRWjNPc1RwenRfRTNuSjdYRmd4cVdCbVVPR2R5Y2UzTVlBVHVOME9ncUlPbjZQVnU3ZHdsc01WaDdheWJZd2lLanQyNGZzWHJPVXZSMA?oc=5\" target=\"_blank\">OpenAI\u2019s Light Balance Sheet Could Face a Hard Look Before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Information</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline flagged by C3: \"OpenAI's Light Balance Sheet Could Face a Hard Look Before IPO\" (The Information), reporting that OpenAI's thin balance sheet may draw scrutiny ahead of a planned IPO.\n\n\u5185\u5bb9:\nC3 \u6355\u6349\u5230\u4e00\u6761\u6807\u9898\uff1a\"OpenAI's Light Balance Sheet Could Face a Hard Look Before IPO\"\uff08The Information\uff09\uff0c\u62a5\u9053\u79f0 OpenAI \u5355\u8584\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u53ef\u80fd\u5728\u8ba1\u5212\u4e2d\u7684 IPO \u524d\u53d7\u5230\u5ba1\u89c6\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for much of the AI-capex buildout \u2014 its purchase commitments underwrite neocloud and hyperscaler spend. If a pre-IPO review exposes how little capital actually backs those commitments, it questions whether the company can fund the compute deals others are building against. A weak anchor balance sheet is upstream bubble-stress for the whole chain.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u7684\u9700\u6c42\u951a\u2014\u2014\u5b83\u7684\u91c7\u8d2d\u627f\u8bfa\u4e3a neocloud \u548c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u652f\u51fa\u515c\u5e95\u3002\u5982\u679c IPO \u524d\u7684\u5ba1\u67e5\u66b4\u9732\u51fa\u652f\u6491\u8fd9\u4e9b\u627f\u8bfa\u7684\u8d44\u672c\u5176\u5b9e\u5c11\u5f97\u53ef\u601c\uff0c\u5c31\u4f1a\u8ba9\u4eba\u8d28\u7591\u5b83\u80fd\u5426\u4e3a\u522b\u4eba\u6b63\u7167\u6b64\u642d\u5efa\u7684\u7b97\u529b\u8ba2\u5355\u4e70\u5355\u3002\u951a\u70b9\u516c\u53f8\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u865a\u5f31\uff0c\u662f\u6574\u6761\u94fe\u6761\u4e0a\u6e38\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1284,
-      "ts": 1782135355,
-      "ts_str": "2026-06-22 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914? - TradingKey",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 00:53:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5\n\nMicron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5\" target=\"_blank\">Micron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 price-surge headline flagged Micron (MU) trading at $914, with HBM memory reportedly sold out through 2026 and data-centre revenue up 150%.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u4ef7\u683c\u5f02\u52a8\u5934\u6761\u6807\u8bb0 Micron (MU) \u80a1\u4ef7\u89e6\u53ca $914\uff0c\u5176 HBM \u5185\u5b58\u636e\u79f0\u5df2\u552e\u7f44\u81f3 2026 \u5e74\uff0c\u6570\u636e\u4e2d\u5fc3\u6536\u5165\u589e\u957f 150%\u3002\n\nWhy it matters:\nHBM sold out through 2026 plus 150% data-centre growth signals demand running far ahead of supply \u2014 the kind of vertical price move and capacity froth that marks late-cycle euphoria in the AI memory chain. A $914 print on MU shows the bid widening from GPUs into the memory suppliers feeding them.\n\n\u5f71\u54cd:\nHBM \u552e\u7f44\u81f3 2026 \u5e74\u53e0\u52a0\u6570\u636e\u4e2d\u5fc3\u6536\u5165\u589e\u957f 150%\uff0c\u8bf4\u660e\u9700\u6c42\u8fdc\u8d85\u4f9b\u7ed9\u2014\u2014\u8fd9\u79cd\u5782\u76f4\u62c9\u5347\u548c\u4ea7\u80fd\u7d27\u4fcf\u6b63\u662f AI \u5185\u5b58\u94fe\u5468\u671f\u665a\u671f\u4ea2\u594b\u7684\u6807\u5fd7\u3002MU \u51b2\u5230 $914 \u8868\u660e\u8d44\u91d1\u6b63\u4ece GPU \u8513\u5ef6\u5230\u4e3a\u5176\u4f9b\u8d27\u7684\u5185\u5b58\u5382\u5546\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1285,
-      "ts": 1782135355,
-      "ts_str": "2026-06-22 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914? - TradingKey",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 00:53:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5\n\nMicron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTmtmTW4xSmZhZ0xhdkNlTWtVSm1laEp1ckUyT084X0hHY0M2MEJkanFUQWZUTW5jOWtCVGVYeXlEaFk0MkZVSUYta1pGTlB0VjZJY0JpSTZ0bnlFOUpUTjZhWWdtbzltTnB6dkx3R1FZWGVpenpYZkh1Rnc1VlpFM0FBMDFnV3pobGZGRGFYREM2Uk9rZjFyNmF5NHROUW1SOVpDT2NuRF82cHJYLWp1aTB5QkdoRmtKb19kSlU1dmJ6bjZycGlNWVQ4cTkwWnVZWm1qTXZpa0NLVWtacWxVYnRNdDlOdWVpWVQ4SUpoemxhNkFZeXdvbjZtZkhoUFdLUmNBVkZVN3Y?oc=5\" target=\"_blank\">Micron\u2019s HBM Is Sold Out Through 2026 and Data Centre Revenue Grew 150% \u2014 Is MU a Buy at $914?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 price-surge headline flagged Micron (MU) trading at $914, with HBM memory reportedly sold out through 2026 and data-centre revenue up 150%.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u4ef7\u683c\u5f02\u52a8\u5934\u6761\u6807\u8bb0 Micron (MU) \u80a1\u4ef7\u89e6\u53ca $914\uff0c\u5176 HBM \u5185\u5b58\u636e\u79f0\u5df2\u552e\u7f44\u81f3 2026 \u5e74\uff0c\u6570\u636e\u4e2d\u5fc3\u6536\u5165\u589e\u957f 150%\u3002\n\nWhy it matters:\nHBM sold out through 2026 plus 150% data-centre growth signals demand running far ahead of supply \u2014 the kind of vertical price move and capacity froth that marks late-cycle euphoria in the AI memory chain. A $914 print on MU shows the bid widening from GPUs into the memory suppliers feeding them.\n\n\u5f71\u54cd:\nHBM \u552e\u7f44\u81f3 2026 \u5e74\u53e0\u52a0\u6570\u636e\u4e2d\u5fc3\u6536\u5165\u589e\u957f 150%\uff0c\u8bf4\u660e\u9700\u6c42\u8fdc\u8d85\u4f9b\u7ed9\u2014\u2014\u8fd9\u79cd\u5782\u76f4\u62c9\u5347\u548c\u4ea7\u80fd\u7d27\u4fcf\u6b63\u662f AI \u5185\u5b58\u94fe\u5468\u671f\u665a\u671f\u4ea2\u594b\u7684\u6807\u5fd7\u3002MU \u51b2\u5230 $914 \u8868\u660e\u8d44\u91d1\u6b63\u4ece GPU \u8513\u5ef6\u5230\u4e3a\u5176\u4f9b\u8d27\u7684\u5185\u5b58\u5382\u5546\u3002\n",
       "emailed": false
     }
   ],
