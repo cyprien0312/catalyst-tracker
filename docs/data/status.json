@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782480726,
-  "generated_at_str": "2026-06-26 13:32:06 UTC",
-  "last_event_ts": 1782479670,
+  "generated_at": 1782480917,
+  "generated_at_str": "2026-06-26 13:35:17 UTC",
+  "last_event_ts": 1782480917,
   "tables": {
     "alerts_dedup": {
-      "count": 1529,
-      "last_ts": 1782479670,
-      "last_str": "2026-06-26 13:14:30 UTC"
+      "count": 1531,
+      "last_ts": 1782480917,
+      "last_str": "2026-06-26 13:35:17 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,9 +59,9 @@
       "last_str": "2026-06-26 12:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 985,
-      "last_ts": 1782479103,
-      "last_str": "2026-06-26 13:05:03 UTC"
+      "count": 992,
+      "last_ts": 1782480903,
+      "last_str": "2026-06-26 13:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1208,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-26 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 736,
-      "last_ts": 1782479103,
-      "last_str": "2026-06-26 13:05:03 UTC"
+      "count": 741,
+      "last_ts": 1782480903,
+      "last_str": "2026-06-26 13:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 983,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1537,
+      "ts": 1782480917,
+      "ts_str": "2026-06-26 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:13:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\n\nSK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\" target=\"_blank\">SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via KuCoin): \"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\" \u2014 SK Hynix beat Q2 estimates on rising DRAM and NAND prices.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u6765\u81ea KuCoin\uff09\uff1a\"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\"\u2014\u2014SK Hynix \u4e8c\u5b63\u5ea6\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u53d7 DRAM \u4e0e NAND \u4ef7\u683c\u4e0a\u6da8\u63a8\u52a8\u3002\n\nWhy it matters:\nSK Hynix is the lead HBM supplier for AI accelerators; rising DRAM/NAND prices and an earnings beat signal memory demand still running hot, which keeps AI-server bill-of-materials costs climbing and feeds the capex-inflation side of the bubble-stress thesis.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5668 HBM \u7684\u4e3b\u529b\u4f9b\u5e94\u5546\uff1bDRAM/NAND \u6da8\u4ef7\u52a0\u4e0a\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u8bf4\u660e\u5b58\u50a8\u9700\u6c42\u4f9d\u7136\u706b\u70ed\uff0c\u4f1a\u6301\u7eed\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5f3a\u5316\u4e86 bubble-stress \u8bba\u70b9\u4e2d\u8d44\u672c\u5f00\u652f\u901a\u80c0\u7684\u90a3\u4e00\u9762\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1538,
+      "ts": 1782480917,
+      "ts_str": "2026-06-26 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:13:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\n\nSK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\" target=\"_blank\">SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via KuCoin): \"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\" \u2014 SK Hynix beat Q2 estimates on rising DRAM and NAND prices.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u6765\u81ea KuCoin\uff09\uff1a\"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\"\u2014\u2014SK Hynix \u4e8c\u5b63\u5ea6\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u53d7 DRAM \u4e0e NAND \u4ef7\u683c\u4e0a\u6da8\u63a8\u52a8\u3002\n\nWhy it matters:\nSK Hynix is the lead HBM supplier for AI accelerators; rising DRAM/NAND prices and an earnings beat signal memory demand still running hot, which keeps AI-server bill-of-materials costs climbing and feeds the capex-inflation side of the bubble-stress thesis.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5668 HBM \u7684\u4e3b\u529b\u4f9b\u5e94\u5546\uff1bDRAM/NAND \u6da8\u4ef7\u52a0\u4e0a\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u8bf4\u660e\u5b58\u50a8\u9700\u6c42\u4f9d\u7136\u706b\u70ed\uff0c\u4f1a\u6301\u7eed\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5f3a\u5316\u4e86 bubble-stress \u8bba\u70b9\u4e2d\u8d44\u672c\u5f00\u652f\u901a\u80c0\u7684\u90a3\u4e00\u9762\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1535,
       "ts": 1782479670,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Crisis Devastates Consumer Sector: RAM and SSD Module Prices Soar by 90% in Q2 - ixbt.games",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 15:26:18 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWU9nY0ZYaDZ3LV9kRzNSYWI3eF8zb3VYNy1wVE5paUxnUXlBYVJoMzlLdHVGNXpuZFI2dERUVkRUN05YbmhWVlBDaWNHOXZRenh0dTJhaURfdWpOV3NjS2d0Z2ItcUZIT1kzOWNDV3JNXy1OamFJS19fY3pERm1Fc2lRVkpqREhaeWs0V2ZFT1RpUVFOMjgzbjRMQkp4SWZ2RmdtOUU4VUF0UHhfWjBiVnQxeE5kVFZBVlp5ZWJ6VmtXSG9ZSXFrOXhtWkctcHB0b0I0ZTlQZXU5TlVMTHVpQVZjU2tBVnE3VEttcdIB8gFBVV95cUxNSXNGRVZRb2Jfbmd3YS1FdFZrQ2VMWjk4b3NRcGxUY0ZaZFZqNy16NVBYSFRRUTZ5aG0wTTNGU3B1ZFN5MDRBNTc0UzlkNnJWa19CWTBRc095UnlDRTMxOXo1R0ZvekxyVGxoOTV2Q2FBcGR0Ni1jeDBDQmZTZ0tYbDhSZXU0V1J3dFpnZ1B4SV9BOVVhV2ttUzE1Q3hyWEpMeXY5T1o2TEpIeHI2RWE1LWJWQkVVeWswTms3LWpQdWdnY1RRby1TRndJTGZURkZuZUtZZGt2NjBUVFJkUW9rRktraktsLUg5UF9TMnpNdXlvQQ?oc=5\n\nMemory Crisis Devastates Consumer Sector: RAM and SSD Module Prices Soar by 90% in Q2 - ixbt.games\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWU9nY0ZYaDZ3LV9kRzNSYWI3eF8zb3VYNy1wVE5paUxnUXlBYVJoMzlLdHVGNXpuZFI2dERUVkRUN05YbmhWVlBDaWNHOXZRenh0dTJhaURfdWpOV3NjS2d0Z2ItcUZIT1kzOWNDV3JNXy1OamFJS19fY3pERm1Fc2lRVkpqREhaeWs0V2ZFT1RpUVFOMjgzbjRMQkp4SWZ2RmdtOUU4VUF0UHhfWjBiVnQxeE5kVFZBVlp5ZWJ6VmtXSG9ZSXFrOXhtWkctcHB0b0I0ZTlQZXU5TlVMTHVpQVZjU2tBVnE3VEttcdIB8gFBVV95cUxNSXNGRVZRb2Jfbmd3YS1FdFZrQ2VMWjk4b3NRcGxUY0ZaZFZqNy16NVBYSFRRUTZ5aG0wTTNGU3B1ZFN5MDRBNTc0UzlkNnJWa19CWTBRc095UnlDRTMxOXo1R0ZvekxyVGxoOTV2Q2FBcGR0Ni1jeDBDQmZTZ0tYbDhSZXU0V1J3dFpnZ1B4SV9BOVVhV2ttUzE1Q3hyWEpMeXY5T1o2TEpIeHI2RWE1LWJWQkVVeWswTms3LWpQdWdnY1RRby1TRndJTGZURkZuZUtZZGt2NjBUVFJkUW9rRktraktsLUg5UF9TMnpNdXlvQQ?oc=5\" target=\"_blank\">Memory Crisis Devastates Consumer Sector: RAM and SSD Module Prices Soar by 90% in Q2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ixbt.games</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Q2 industry report (ixbt.games) flags RAM and SSD module prices rising 90% \u2014 a \"memory crisis\" hitting the consumer sector.\n\n\u5185\u5bb9:\nQ2 \u884c\u4e1a\u62a5\u9053 (ixbt.games) \u6307\u51fa RAM \u548c SSD \u6a21\u7ec4\u4ef7\u683c\u4e0a\u6da8 90%\u2014\u2014\u4e00\u573a\u51b2\u51fb\u6d88\u8d39\u7ea7\u5e02\u573a\u7684\"\u5185\u5b58\u5371\u673a\"\u3002\n\nWhy it matters:\nAI datacenter buildouts are absorbing HBM and DRAM supply, starving the consumer channel and driving spot prices up ~90%. A memory-price spike of this size is a direct cost shock to anyone building AI capacity \u2014 it raises the bill of materials for every GPU server and signals the supply chain is straining under the buildout.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u6269\u5efa\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4ea7\u80fd\uff0c\u6324\u538b\u6d88\u8d39\u7ea7\u6e20\u9053\uff0c\u628a\u73b0\u8d27\u4ef7\u683c\u63a8\u9ad8\u7ea6 90%\u3002\u5982\u6b64\u89c4\u6a21\u7684\u5185\u5b58\u6da8\u4ef7\u662f\u5bf9\u6240\u6709 AI \u7b97\u529b\u5efa\u8bbe\u65b9\u7684\u76f4\u63a5\u6210\u672c\u51b2\u51fb\u2014\u2014\u5b83\u62ac\u9ad8\u4e86\u6bcf\u53f0 GPU \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u4f9b\u5e94\u94fe\u5df2\u88ab\u8fd9\u8f6e\u6269\u5efa\u62c9\u5230\u7d27\u7ef7\u72b6\u6001\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1337,
-      "ts": 1782223534,
-      "ts_str": "2026-06-23 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Think twice before hibernating your PC as SSD prices soar - Cybernews",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 12:46:31 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTFBmRWtGZHlYV3pSdDNLaUpqeU9QbXVGMGRfbGlUWG5IckF5ZzVaWThpcEFvRUlNWS1pNGVja1Y1Vy0yNnFIMDBqMnB3TGFPT05ic2dxb3I0YlRxbmlVZmczSzFvZXI2WjJlcjBlYU1tanlXUFdlclVOVA?oc=5\n\nThink twice before hibernating your PC as SSD prices soar - Cybernews\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBmRWtGZHlYV3pSdDNLaUpqeU9QbXVGMGRfbGlUWG5IckF5ZzVaWThpcEFvRUlNWS1pNGVja1Y1Vy0yNnFIMDBqMnB3TGFPT05ic2dxb3I0YlRxbmlVZmczSzFvZXI2WjJlcjBlYU1tanlXUFdlclVOVA?oc=5\" target=\"_blank\">Think twice before hibernating your PC as SSD prices soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybernews</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flags SSD prices soaring (Cybernews: \"Think twice before hibernating your PC as SSD prices soar\"). No ticker or figure given \u2014 the signal is the price-surge keyword itself.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\uff08Cybernews\uff1a\"Think twice before hibernating your PC as SSD prices soar\"\uff09\u663e\u793a SSD \u4ef7\u683c\u98d9\u5347\u3002\u6ca1\u6709\u7ed9\u51fa ticker \u6216\u5177\u4f53\u6570\u5b57\u2014\u2014\u4fe1\u53f7\u672c\u8eab\u5c31\u662f\"\u4ef7\u683c\u98d9\u5347\"\u8fd9\u4e2a\u5173\u952e\u8bcd\u3002\n\nWhy it matters:\nNAND/SSD price spikes are a downstream tell of AI-datacenter storage demand crowding out consumer supply. Rising memory/storage costs lift hyperscaler capex per rack and squeeze the unit economics of AI buildout \u2014 a cost-push stress signal for the bubble thesis.\n\n\u5f71\u54cd:\nNAND/SSD \u4ef7\u683c\u66b4\u6da8\u662f AI \u6570\u636e\u4e2d\u5fc3\u5b58\u50a8\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u4fe1\u53f7\u3002\u5b58\u50a8\u4e0e\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u673a\u67b6\u7684\u8d44\u672c\u5f00\u652f\uff0c\u538b\u7f29 AI \u6269\u5efa\u7684\u5355\u4f4d\u7ecf\u6d4e\u6027\u2014\u2014\u5bf9\u6ce1\u6cab\u8bba\u800c\u8a00\u662f\u4e00\u4e2a\u6210\u672c\u63a8\u52a8\u578b\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1338,
-      "ts": 1782223534,
-      "ts_str": "2026-06-23 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 23 Jun 2026 04:47:51 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPeHJaZ1h5X1dHOURHdFJuS0dLSUl5eDFrZHNacWhhVnJpQUtJTTNkQVhjUGdHUUIzZXhYVWprVkpmcFh0bzJ3RlczQVlEdGZ6Y0JxdTM4NXd0dWY2QnctUkhMRmRnZW55cS03VlZWM1JrWHMyLVZLR21aZFRQaDJfUGNtbGxHVmo4Z1lNVWZrQ3owLVlnT1hQd05WbjJVR25mdkdfV2M4alA3c3JSMTZJeFlERnhzeWlBaHlwWjhB?oc=5\n\nSanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPeHJaZ1h5X1dHOURHdFJuS0dLSUl5eDFrZHNacWhhVnJpQUtJTTNkQVhjUGdHUUIzZXhYVWprVkpmcFh0bzJ3RlczQVlEdGZ6Y0JxdTM4NXd0dWY2QnctUkhMRmRnZW55cS03VlZWM1JrWHMyLVZLR21aZFRQaDJfUGNtbGxHVmo4Z1lNVWZrQ3owLVlnT1hQd05WbjJVR25mdkdfV2M4alA3c3JSMTZJeFlERnhzeWlBaHlwWjhB?oc=5\" target=\"_blank\">SanDisk\u2019s $2,960 PS5 SSD launches amid global memory shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports SanDisk's PS5 SSD launching at $2,960 \"amid global memory shortage.\" The price reflects NAND/DRAM supply tightness rather than the drive itself.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 SanDisk \u7684 PS5 SSD \u4ee5 $2,960 \u4e0a\u5e02\uff0c\u80cc\u666f\u662f\"\u5168\u7403\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\"\u3002\u8fd9\u4e2a\u4ef7\u683c\u53cd\u6620\u7684\u662f NAND/DRAM \u4f9b\u5e94\u7d27\u5f20\uff0c\u800c\u975e\u786c\u76d8\u672c\u8eab\u7684\u4ef7\u503c\u3002\n\nWhy it matters:\nA consumer SSD at $2,960 is a visible symptom of the memory squeeze AI datacenter buildout is creating \u2014 hyperscaler HBM and NAND demand is draining supply and repricing the entire memory chain. Spiking memory prices raise AI capex costs and bleed into consumer hardware, a sign the buildout is straining physical supply.\n\n\u5f71\u54cd:\n\u4e00\u5757\u6d88\u8d39\u7ea7 SSD \u5356\u5230 $2,960\uff0c\u662f AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5f15\u53d1\u5b58\u50a8\u6324\u538b\u7684\u660e\u663e\u75c7\u72b6\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5bf9 HBM \u548c NAND \u7684\u9700\u6c42\u6b63\u5728\u62bd\u5e72\u4f9b\u5e94\u3001\u91cd\u65b0\u5b9a\u4ef7\u6574\u6761\u5b58\u50a8\u94fe\u3002\u5b58\u50a8\u4ef7\u683c\u98d9\u5347\u63a8\u9ad8 AI capex \u6210\u672c\u5e76\u5916\u6ea2\u5230\u6d88\u8d39\u786c\u4ef6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u5df2\u7ecf\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
