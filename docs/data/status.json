@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782457863,
-  "generated_at_str": "2026-06-26 07:11:03 UTC",
-  "last_event_ts": 1782457505,
+  "generated_at": 1782458058,
+  "generated_at_str": "2026-06-26 07:14:18 UTC",
+  "last_event_ts": 1782458057,
   "tables": {
     "alerts_dedup": {
-      "count": 1475,
-      "last_ts": 1782456270,
-      "last_str": "2026-06-26 06:44:30 UTC"
+      "count": 1476,
+      "last_ts": 1782458057,
+      "last_str": "2026-06-26 07:14:17 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -49,14 +49,14 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2337,
-      "last_ts": 1782456243,
-      "last_str": "2026-06-26 06:44:03 UTC"
+      "count": 2338,
+      "last_ts": 1782458043,
+      "last_str": "2026-06-26 07:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 487,
-      "last_ts": 1782438245,
-      "last_str": "2026-06-26 01:44:05 UTC"
+      "count": 488,
+      "last_ts": 1782458044,
+      "last_str": "2026-06-26 07:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 969,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-26 07:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11662,
-      "last_ts": 1782456242,
-      "last_str": "2026-06-26 06:44:02 UTC"
+      "count": 11667,
+      "last_ts": 1782458042,
+      "last_str": "2026-06-26 07:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1483,
+      "ts": 1782458057,
+      "ts_str": "2026-06-26 07:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] US stock futures fall as report on OpenAI IPO delay spooks tech - Investing.com Canada",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 06:39:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmZWdW9FZE0wVU85VmxzaWEyRWEzejRCY0xNc29KOGRKVUVWMWppdExvaHFEMTFhdU9EWlpQTGVxSzVCMjFDeldyVjY0czdLWmVGUFJkWGgwNFpCMmVOaWpPZEJyYjdwaXRpRmZaeldRWWdHMFZEa3drTTQzRWVEazUyMVpfX3J0Q2RXY1ppV0pBR0hWakJfdlUxd0gyb2xWWVByTjN2eGh1emIyZWRraWNNYUlXMDhCcnJvNVZvNjlyWEk?oc=5\n\nUS stock futures fall as report on OpenAI IPO delay spooks tech - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmZWdW9FZE0wVU85VmxzaWEyRWEzejRCY0xNc29KOGRKVUVWMWppdExvaHFEMTFhdU9EWlpQTGVxSzVCMjFDeldyVjY0czdLWmVGUFJkWGgwNFpCMmVOaWpPZEJyYjdwaXRpRmZaeldRWWdHMFZEa3drTTQzRWVEazUyMVpfX3J0Q2RXY1ppV0pBR0hWakJfdlUxd0gyb2xWWVByTjN2eGh1emIyZWRraWNNYUlXMDhCcnJvNVZvNjlyWEk?oc=5\" target=\"_blank\">US stock futures fall as report on OpenAI IPO delay spooks tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUS stock futures fell on a report that OpenAI's IPO has been delayed, with the headline naming the delay as the trigger that 'spooked tech.'\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u88ab\u63a8\u8fdf\uff0c\u7f8e\u80a1\u80a1\u6307\u671f\u8d27\u4e0b\u8dcc\uff0c\u65b0\u95fb\u6807\u9898\u76f4\u63a5\u5c06\u8fd9\u4e00\u63a8\u8fdf\u5217\u4e3a\u4ee4\u79d1\u6280\u80a1\u627f\u538b\u7684\u5bfc\u706b\u7d22\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex chain; a slipped IPO signals weaker access to public funding and dents the exit narrative investors are using to justify hyperscaler and neocloud spend. Equity futures pricing the news as a tech-wide negative shows how concentrated the bubble's sentiment is on a single private name.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u6761 AI capex \u94fe\u6761\u7684\u9700\u6c42\u951a\uff1bIPO \u63a8\u8fdf\u610f\u5473\u7740\u5176\u83b7\u53d6\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u7684\u6e20\u9053\u6536\u7a84\uff0c\u4e5f\u524a\u5f31\u4e86\u6295\u8d44\u8005\u7528\u6765\u7ed9\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u8fa9\u62a4\u7684\u9000\u51fa\u903b\u8f91\u3002\u671f\u8d27\u628a\u8fd9\u6761\u6d88\u606f\u5f53\u4f5c\u6574\u4e2a\u79d1\u6280\u677f\u5757\u7684\u5229\u7a7a\u6765\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u6ce1\u6cab\u7684\u60c5\u7eea\u9ad8\u5ea6\u96c6\u4e2d\u5728 OpenAI \u8fd9\u4e00\u5bb6\u672a\u4e0a\u5e02\u516c\u53f8\u8eab\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1481,
       "ts": 1782456270,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SanDisk (SNDK) Surges to New 52-Week Peak Amid Worsening Memory Chip Shortage - parameter.io",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 13:27:40 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxQdENFNDdlWFRiaTREWkMwNFpLU0tNcnpnU0tRY19KQkNJYi1tNHhTS3BPWlJPN2tEZmZKSTZmWWI2ZURSVFdqbUhzMlBSNmZobmVrcVdIOHFVUDZyMzFvRVpOX2RtelBhRmxqYmNEUlpGOFdsVmphN0NQLU55N1ZYRjdsUmE2TjNKVHdZdHlGdFNCX2Ria005Z1FkX3ZEZw?oc=5\n\nSanDisk (SNDK) Surges to New 52-Week Peak Amid Worsening Memory Chip Shortage - parameter.io\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdENFNDdlWFRiaTREWkMwNFpLU0tNcnpnU0tRY19KQkNJYi1tNHhTS3BPWlJPN2tEZmZKSTZmWWI2ZURSVFdqbUhzMlBSNmZobmVrcVdIOHFVUDZyMzFvRVpOX2RtelBhRmxqYmNEUlpGOFdsVmphN0NQLU55N1ZYRjdsUmE2TjNKVHdZdHlGdFNCX2Ria005Z1FkX3ZEZw?oc=5\" target=\"_blank\">SanDisk (SNDK) Surges to New 52-Week Peak Amid Worsening Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">parameter.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports SanDisk (SNDK) hit a new 52-week high amid a worsening memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u62a5\u9053 SanDisk (SNDK) \u5728\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u52a0\u5267\u4e4b\u9645\u521b\u4e0b 52 \u5468\u65b0\u9ad8\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is a core AI-infrastructure input; a shortage-driven price spike raises the bill of materials for every AI server. It signals demand outrunning supply and feeds the capex-inflation side of the bubble-stress thesis \u2014 higher build costs pressure the payback math on AI buildouts.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u82af\u7247\uff08DRAM/NAND\uff09\u662f AI \u57fa\u7840\u8bbe\u65bd\u7684\u6838\u5fc3\u5143\u4ef6\uff0c\u77ed\u7f3a\u63a8\u52a8\u7684\u6da8\u4ef7\u4f1a\u62ac\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\u8fd9\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u4f9b\u7ed9\uff0c\u52a0\u5267\u4e86\u8d44\u672c\u5f00\u652f\u7684\u6210\u672c\u901a\u80c0\u2014\u2014\u66f4\u9ad8\u7684\u5efa\u8bbe\u6210\u672c\u4f1a\u6324\u538b AI \u5efa\u8bbe\u7684\u56de\u672c\u7a7a\u95f4\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1283,
-      "ts": 1782132262,
-      "ts_str": "2026-06-22 12:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX\u2019s Record 74-Day IPO: Can OpenAI and Anthropic Replicate SpaceX\u2019s Capital Miracle? - TradingKey",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 22 Jun 2026 12:36:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxPdnNpT0EzWkh2eDBOdVdTQUxPWE13OS1DMzJja1JOenBTWnF6N2czVl82UkxxcDdWZGF5UHJvMllxTjA2anR0RFlvN3pjQURYT3FQT0tGQ284M3RiVS1qQ21UTVdEOGZtaG1rdlRKUFlXVU53LWhpUzYwWVlsMkNsenljc3dMamtxSHJ1a0tldXliRnlac1QtWS1vTm1UOWZhQ1dxdW01dUxla1Z6UWZtRHoxbE4xNG1GVEw3RG5lSG9kY24xWGVVU2RmYw?oc=5\n\nSpaceX\u2019s Record 74-Day IPO: Can OpenAI and Anthropic Replicate SpaceX\u2019s Capital Miracle? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPdnNpT0EzWkh2eDBOdVdTQUxPWE13OS1DMzJja1JOenBTWnF6N2czVl82UkxxcDdWZGF5UHJvMllxTjA2anR0RFlvN3pjQURYT3FQT0tGQ284M3RiVS1qQ21UTVdEOGZtaG1rdlRKUFlXVU53LWhpUzYwWVlsMkNsenljc3dMamtxSHJ1a0tldXliRnlac1QtWS1vTm1UOWZhQ1dxdW01dUxla1Z6UWZtRHoxbE4xNG1GVEw3RG5lSG9kY24xWGVVU2RmYw?oc=5\" target=\"_blank\">SpaceX\u2019s Record 74-Day IPO: Can OpenAI and Anthropic Replicate SpaceX\u2019s Capital Miracle?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingKey headline surfaced in the C3 feed asks whether OpenAI and Anthropic can replicate SpaceX's record 74-day IPO and \"capital miracle.\"\n\n\u5185\u5bb9:\nC3 \u4fe1\u53f7\u6d41\u4e2d\u51fa\u73b0\u4e00\u6761 TradingKey \u6807\u9898\uff0c\u8ba8\u8bba OpenAI \u548c Anthropic \u80fd\u5426\u590d\u5236 SpaceX \u521b\u7eaa\u5f55\u7684 74 \u5929 IPO \u53ca\u5176\"\u878d\u8d44\u5947\u8ff9\"\u3002\n\nWhy it matters:\nMedia framing OpenAI/Anthropic as the next SpaceX-style capital event signals the AI-financing narrative is shifting toward a public-market exit. This kind of IPO-hype coverage tends to cluster near cycle tops, when private capital starts looking for the public bid to take it out.\n\n\u5f71\u54cd:\n\u5a92\u4f53\u628a OpenAI/Anthropic \u63cf\u7ed8\u6210\u4e0b\u4e00\u4e2a SpaceX \u5f0f\u7684\u8d44\u672c\u4e8b\u4ef6\uff0c\u8bf4\u660e AI \u878d\u8d44\u53d9\u4e8b\u6b63\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u9000\u51fa\u3002\u8fd9\u7c7b IPO \u9020\u52bf\u62a5\u9053\u5f80\u5f80\u96c6\u4e2d\u51fa\u73b0\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\u2014\u2014\u6b64\u65f6\u79c1\u52df\u8d44\u672c\u5f00\u59cb\u5bfb\u627e\u516c\u5f00\u5e02\u573a\u7684\u63a5\u76d8\u65b9\u6765\u5151\u73b0\u79bb\u573a\u3002\n",
       "emailed": false
     }
   ],
