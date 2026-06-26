@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782516727,
-  "generated_at_str": "2026-06-26 23:32:07 UTC",
-  "last_event_ts": 1782515643,
+  "generated_at": 1782516923,
+  "generated_at_str": "2026-06-26 23:35:23 UTC",
+  "last_event_ts": 1782516922,
   "tables": {
     "alerts_dedup": {
-      "count": 1614,
-      "last_ts": 1782515117,
-      "last_str": "2026-06-26 23:05:17 UTC"
+      "count": 1615,
+      "last_ts": 1782516922,
+      "last_str": "2026-06-26 23:35:22 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-26 21:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1042,
-      "last_ts": 1782513302,
-      "last_str": "2026-06-26 22:35:02 UTC"
+      "count": 1044,
+      "last_ts": 1782516902,
+      "last_str": "2026-06-26 23:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1236,
-      "last_ts": 1782515104,
-      "last_str": "2026-06-26 23:05:04 UTC"
+      "count": 1237,
+      "last_ts": 1782516904,
+      "last_str": "2026-06-26 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 777,
-      "last_ts": 1782515103,
-      "last_str": "2026-06-26 23:05:03 UTC"
+      "count": 778,
+      "last_ts": 1782516903,
+      "last_str": "2026-06-26 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1012,
-      "last_ts": 1782511504,
-      "last_str": "2026-06-26 22:05:04 UTC"
+      "count": 1013,
+      "last_ts": 1782516905,
+      "last_str": "2026-06-26 23:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11983,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1622,
+      "ts": 1782516922,
+      "ts_str": "2026-06-26 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - WREX",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:29:37 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMU1CMEplWWNwSnVlal9xczhHbG1kN0RCTWduYk5Fcm5PRGxSc2lKTTJldzdKNzRiYm1pU25uRTQyYi1CT0F5YzREOVJxLXpwQ3lwVHJVUmpsM005bl9Pb1pIc1YzSmNoWEVMVGgxWHN1bUtWTVJtYXBuXzVTandqWGUyNmR5ZVdYMjVUT0FxNENWNERTcjFfSkJtUHdiV2dOWkhqNjk0X2J1ZmpRS3JNVHI4SDRoV2pxcjhBZUpzSVJsdnMtS2F2TjdFSWZNUk9CQTdhMjJDdFVUSjdzX0M3YVZtaVJQODVOSTBMaFQ5dmhpUjdVQ2Q1RQ?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - WREX\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOMU1CMEplWWNwSnVlal9xczhHbG1kN0RCTWduYk5Fcm5PRGxSc2lKTTJldzdKNzRiYm1pU25uRTQyYi1CT0F5YzREOVJxLXpwQ3lwVHJVUmpsM005bl9Pb1pIc1YzSmNoWEVMVGgxWHN1bUtWTVJtYXBuXzVTandqWGUyNmR5ZVdYMjVUT0FxNENWNERTcjFfSkJtUHdiV2dOWkhqNjk0X2J1ZmpRS3JNVHI4SDRoV2pxcjhBZUpzSVJsdnMtS2F2TjdFSWZNUk9CQTdhMjJDdFVUSjdzX0M3YVZtaVJQODVOSTBMaFQ5dmhpUjdVQ2Q1RQ?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WREX</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA WREX headline reports Apple is hiking MacBook and iPad prices, citing the memory chip shortage.\n\n\u5185\u5bb9:\nWREX \u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e0a\u8c03 MacBook \u548c iPad \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nDRAM/NAND is being diverted to AI datacenter buildouts, draining supply and pricing memory beyond what consumer-device margins can absorb. When AI-capex demand starts raising the price of unrelated consumer hardware, the buildout is crowding out the rest of the economy \u2014 a stress signal, not a growth one.\n\n\u5f71\u54cd:\nDRAM/NAND \u6b63\u88ab\u5927\u91cf\u8c03\u914d\u53bb\u652f\u6491 AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\uff0c\u6324\u538b\u4f9b\u7ed9\u3001\u63a8\u9ad8\u5185\u5b58\u4ef7\u683c\uff0c\u5e45\u5ea6\u5df2\u8d85\u51fa\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u5229\u6da6\u6240\u80fd\u6d88\u5316\u7684\u8303\u56f4\u3002\u5f53 AI capex \u7684\u9700\u6c42\u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u786c\u4ef6\u7684\u4ef7\u683c\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u5360\u5b9e\u4f53\u7ecf\u6d4e\u7684\u5176\u4ed6\u90e8\u5206\u2014\u2014\u8fd9\u662f\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u589e\u957f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1621,
       "ts": 1782515117,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] DRAM prices surged by up to 89% in Q2 2026, destroying the consumer segment - TweakTown",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 19:50:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxQSEJUNC1UY0Z3SVZaLW9hSm9FaDFHbTZSNW83NnhRSnpvWWNxUjhNNElFLVZnVHpZQXRadUJZaUgyS1gtRVZqVE1yRFY2U2RrWFROZTJENXFqQnY5VFZMLTNsRVZNRHY1eWZ5ZEJEREp3M1NCUnUySEdvOFpXMWZYUWdjVzNmbi1Bdm1zWUE0TlNZM25hRUlwNU5LeVFuZEFYcEc0SDdHLTl0N1pqRmVrWWJ2dWJKX0ZBZHlNRnJZQzlKX3JfR2RNbi1n?oc=5\n\nDRAM prices surged by up to 89% in Q2 2026, destroying the consumer segment - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQSEJUNC1UY0Z3SVZaLW9hSm9FaDFHbTZSNW83NnhRSnpvWWNxUjhNNElFLVZnVHpZQXRadUJZaUgyS1gtRVZqVE1yRFY2U2RrWFROZTJENXFqQnY5VFZMLTNsRVZNRHY1eWZ5ZEJEREp3M1NCUnUySEdvOFpXMWZYUWdjVzNmbi1Bdm1zWUE0TlNZM25hRUlwNU5LeVFuZEFYcEc0SDdHLTl0N1pqRmVrWWJ2dWJKX0ZBZHlNRnJZQzlKX3JfR2RNbi1n?oc=5\" target=\"_blank\">DRAM prices surged by up to 89% in Q2 2026, destroying the consumer segment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News/TweakTown reports DRAM prices surged by up to 89% in Q2 2026, with the consumer segment being squeezed out.\n\n\u5185\u5bb9:\nGoogle News/TweakTown \u62a5\u9053\uff0c2026 \u5e74 Q2 DRAM \u4ef7\u683c\u98d9\u5347\u6700\u9ad8\u8fbe 89%\uff0c\u6d88\u8d39\u7ea7\u5e02\u573a\u88ab\u6324\u538b\u51fa\u5c40\u3002\n\nWhy it matters:\nMemory is the gating input for AI servers; an 89% DRAM spike means HBM/DDR5 demand from AI buildouts is crowding out everyone else and re-inflating the bill of materials. Rising memory costs compress hyperscaler hardware margins and push AI-capex payback further out \u2014 a supply-stress signal, not a demand-weakness one.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u5173\u952e\u74f6\u9888\u8f93\u5165\uff1bDRAM \u66b4\u6da8 89% \u610f\u5473\u7740 AI \u5efa\u8bbe\u5e26\u6765\u7684 HBM/DDR5 \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u6240\u6709\u7528\u9014\uff0c\u5e76\u91cd\u65b0\u62ac\u9ad8\u7269\u6599\u6210\u672c\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u786c\u4ef6\u5229\u6da6\u7387\uff0c\u628a AI capex \u56de\u672c\u65f6\u70b9\u8fdb\u4e00\u6b65\u63a8\u540e\u2014\u2014\u8fd9\u662f\u4f9b\u7ed9\u7aef\u7d27\u5f20\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u75b2\u8f6f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1422,
-      "ts": 1782417941,
-      "ts_str": "2026-06-25 20:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Citi raises Sandisk price target to $2,500, bullish on NAND market tightness through 2027 - Pluang",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 17:39:51 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxORms3R2hMT2dqdTdKY2hFbWRmOWRMTWFKZFFCb0ZyNHM2RkVnaDNUOGtxWGRUeXpMd2JvYjVtcjVqalN6UFJJckFqRVVDY21ZWk11R3d3dWY2ZXgtZFFvOHdaYnNqUHZVd2VwZWF2QjdYT29xWnEtRWhaZE1hZmF1RFlhTWlwZw?oc=5\n\nCiti raises Sandisk price target to $2,500, bullish on NAND market tightness through 2027 - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxORms3R2hMT2dqdTdKY2hFbWRmOWRMTWFKZFFCb0ZyNHM2RkVnaDNUOGtxWGRUeXpMd2JvYjVtcjVqalN6UFJJckFqRVVDY21ZWk11R3d3dWY2ZXgtZFFvOHdaYnNqUHZVd2VwZWF2QjdYT29xWnEtRWhaZE1hZmF1RFlhTWlwZw?oc=5\" target=\"_blank\">Citi raises Sandisk price target to $2,500, bullish on NAND market tightness through 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Citi raised its price target on SanDisk to $2,500, citing bullishness on NAND market tightness through 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cCiti \u5c06 SanDisk \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $2,500\uff0c\u7406\u7531\u662f\u770b\u597d NAND \u5e02\u573a\u5230 2027 \u5e74\u7684\u4f9b\u5e94\u7d27\u5f20\u3002\n\nWhy it matters:\nSurging memory/NAND price targets are a second-order AI-capex tell: data-center buildouts are pulling NAND supply tight enough to justify a $2,500 target. Tightness driven by AI demand feeds the same capex cycle that the bubble-stress thesis tracks \u2014 a melt-up signal worth watching for the eventual reversal.\n\n\u5f71\u54cd:\n\u5b58\u50a8/NAND \u76ee\u6807\u4ef7\u98d9\u5347\u662f AI capex \u7684\u4e8c\u9636\u4fe1\u53f7\uff1a\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u628a NAND \u4f9b\u5e94\u62c9\u5f97\u8db3\u591f\u7d27\uff0c\u624d\u6491\u5f97\u8d77 $2,500 \u7684\u76ee\u6807\u4ef7\u3002\u8fd9\u79cd\u7531 AI \u9700\u6c42\u9a71\u52a8\u7684\u7d27\u5f20\uff0c\u5582\u517b\u7684\u6b63\u662f bubble-stress \u903b\u8f91\u6240\u8ffd\u8e2a\u7684\u540c\u4e00\u4e2a capex \u5468\u671f\u2014\u2014\u662f\u4e00\u4e2a\u503c\u5f97\u5173\u6ce8\u7684\u903c\u7a7a\u5f0f\u4e0a\u6da8\u4fe1\u53f7\uff0c\u7559\u610f\u6700\u7ec8\u7684\u53cd\u8f6c\u3002\n",
       "emailed": false
     }
   ],
