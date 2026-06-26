@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782493327,
-  "generated_at_str": "2026-06-26 17:02:07 UTC",
-  "last_event_ts": 1782492271,
+  "generated_at": 1782493519,
+  "generated_at_str": "2026-06-26 17:05:19 UTC",
+  "last_event_ts": 1782493518,
   "tables": {
     "alerts_dedup": {
-      "count": 1574,
-      "last_ts": 1782492271,
-      "last_str": "2026-06-26 16:44:31 UTC"
+      "count": 1575,
+      "last_ts": 1782493518,
+      "last_str": "2026-06-26 17:05:18 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-26 16:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1014,
-      "last_ts": 1782491702,
-      "last_str": "2026-06-26 16:35:02 UTC"
+      "count": 1022,
+      "last_ts": 1782493502,
+      "last_str": "2026-06-26 17:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1218,
-      "last_ts": 1782491704,
-      "last_str": "2026-06-26 16:35:04 UTC"
+      "count": 1219,
+      "last_ts": 1782493504,
+      "last_str": "2026-06-26 17:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 752,
-      "last_ts": 1782488103,
-      "last_str": "2026-06-26 15:35:03 UTC"
+      "count": 757,
+      "last_ts": 1782493503,
+      "last_str": "2026-06-26 17:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 990,
-      "last_ts": 1782491705,
-      "last_str": "2026-06-26 16:35:05 UTC"
+      "count": 993,
+      "last_ts": 1782493505,
+      "last_str": "2026-06-26 17:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11820,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1582,
+      "ts": 1782493518,
+      "ts_str": "2026-06-26 17:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:00:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x30gHKAUFVX3lxTE9LeDE0UkNjTXNrekYyeGI0dFZQWnowZGN0V0FYNzdHZEg5ankxM3dxRWFVTlpyZll6ZktPbDBpaHFXVEVXMGhfZkZQQmRJWjE4WEZ6NjhoY01udlltNU40RXNUaE1fWVRSaWFMVVJYcXVJRGtxdHdVRkJQNnhWS1IyUWFNWHgzdnpBZnAxc0hGNjhnemsxOW5IUWd1VS1faTdMak5vTC1tM1MtcHIwVzh6MW1WMERJX1QtQjJ0NG1ub2RPdjJ1c0pLTHc?oc=5\n\nApple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x30gHKAUFVX3lxTE9LeDE0UkNjTXNrekYyeGI0dFZQWnowZGN0V0FYNzdHZEg5ankxM3dxRWFVTlpyZll6ZktPbDBpaHFXVEVXMGhfZkZQQmRJWjE4WEZ6NjhoY01udlltNU40RXNUaE1fWVRSaWFMVVJYcXVJRGtxdHdVRkJQNnhWS1IyUWFNWHgzdnpBZnAxc0hGNjhnemsxOW5IUWd1VS1faTdMak5vTC1tM1MtcHIwVzh6MW1WMERJX1QtQjJ0NG1ub2RPdjJ1c0pLTHc?oc=5\" target=\"_blank\">Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising Mac and iPad prices, attributing the hike specifically to more expensive AI memory chips.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u6b63\u5728\u4e0a\u8c03 Mac \u548c iPad \u4ef7\u683c\uff0c\u5e76\u660e\u786e\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e\u66f4\u8d35\u7684 AI \u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nAI datacenter demand is bidding up HBM/DRAM supply, and the cost is now bleeding into consumer hardware pricing. When AI-capex spillover starts raising prices for unrelated end products, it signals memory supply is tight enough to ripple through the whole electronics chain \u2014 a sign the buildout is straining real-world component markets.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u62ac\u9ad8 HBM/DRAM \u7684\u4f9b\u5e94\u4ef7\u683c\uff0c\u5982\u4eca\u8fd9\u4e00\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u7684\u5916\u6ea2\u6548\u5e94\u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u4ef7\u683c\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u5230\u8db3\u4ee5\u6ce2\u53ca\u6574\u6761\u7535\u5b50\u4ea7\u4e1a\u94fe\u2014\u2014\u8fd9\u662f\u57fa\u5efa\u72c2\u6f6e\u6b63\u5728\u6324\u538b\u73b0\u5b9e\u96f6\u90e8\u4ef6\u5e02\u573a\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1580,
       "ts": 1782492271,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] An AI skeptic has sounded the alarm on OpenAI's finances ahead of its IPO. Here's what investing pros say. - Business In",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:30:13 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3VaM1NpTE9idWlwcjRNeWlrNnRid3VCMEpKNTZ5VEhtUEItU1NrS0pvUnNjZXN0YTlmOEIwTUhqVFI3MnBVZ2lDeHI3MWEyb08wWDl5TW5xUGZvODNyN1NsWnJlVWxKMWlzdDUzX3Y4dGlvTnVfNzRQclJJQXNaaGt3WEtFNl9ycVk2ZGJIVQ?oc=5\n\nAn AI skeptic has sounded the alarm on OpenAI's finances ahead of its IPO. Here's what investing pros say. - Business Insider\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3VaM1NpTE9idWlwcjRNeWlrNnRid3VCMEpKNTZ5VEhtUEItU1NrS0pvUnNjZXN0YTlmOEIwTUhqVFI3MnBVZ2lDeHI3MWEyb08wWDl5TW5xUGZvODNyN1NsWnJlVWxKMWlzdDUzX3Y4dGlvTnVfNzRQclJJQXNaaGt3WEtFNl9ycVk2ZGJIVQ?oc=5\" target=\"_blank\">An AI skeptic has sounded the alarm on OpenAI's finances ahead of its IPO. Here's what investing pros say.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Business Insider article surfaced in the C3 feed: an AI skeptic has publicly questioned OpenAI's finances ahead of its IPO, with investing pros weighing in.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u6355\u83b7\u4e00\u7bc7 Business Insider \u62a5\u9053\uff1a\u4e00\u4f4d AI \u6000\u7591\u8bba\u8005\u5728 OpenAI IPO \u524d\u516c\u5f00\u8d28\u7591\u5176\u8d22\u52a1\u72b6\u51b5\uff0c\u6587\u7ae0\u5e76\u9644\u4e0a\u591a\u4f4d\u6295\u8d44\u4e13\u5bb6\u7684\u770b\u6cd5\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout \u2014 if its pre-IPO financials draw skepticism, it threatens the revenue story that justifies hyperscaler and neocloud spending. Scrutiny of the central buyer's economics is exactly the kind of narrative crack that precedes a repricing.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\u2014\u2014\u5982\u679c\u5b83 IPO \u524d\u7684\u8d22\u52a1\u53d7\u5230\u8d28\u7591\uff0c\u5c31\u52a8\u6447\u4e86\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u6536\u5165\u903b\u8f91\u3002\u5bf9\u8fd9\u4e2a\u6838\u5fc3\u4e70\u5bb6\u7ecf\u6d4e\u6a21\u578b\u7684\u8d28\u7591\uff0c\u6b63\u662f\u5f15\u53d1\u4f30\u503c\u91cd\u5b9a\u4ef7\u524d\u7684\u5178\u578b\u53d9\u4e8b\u88c2\u7f1d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1382,
-      "ts": 1782380117,
-      "ts_str": "2026-06-25 09:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Citi Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping - \u5bcc\u9014\u725b\u725b",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:22:14 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzdYNVNpcXVjaWZyT3FEOEw4OTd6Ujd4Nl85Rkc1ZklsSlZRa1ZjUDB6VG5iRTFRdk1ZVVh4YmRDQVBZcmRleGNFRlo1SEVqeFVhRjlMbVBNR1R6czBya3h5eTR5MTNDeEdCcW0xY2Nvamd0MzNLOXdlYlZxRHNlVGc2QTBhZ2trdkdkT0VCY19sVjJwMkVTcw?oc=5\n\nCiti Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzdYNVNpcXVjaWZyT3FEOEw4OTd6Ujd4Nl85Rkc1ZklsSlZRa1ZjUDB6VG5iRTFRdk1ZVVh4YmRDQVBZcmRleGNFRlo1SEVqeFVhRjlMbVBNR1R6czBya3h5eTR5MTNDeEdCcW0xY2Nvamd0MzNLOXdlYlZxRHNlVGc2QTBhZ2trdkdkT0VCY19sVjJwMkVTcw?oc=5\" target=\"_blank\">Citi Analysis: Micron\u2019s target price seen at USD 1,200; AI memory price hikes show no signs of stopping</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Citi note (via \u5bcc\u9014\u725b\u725b) put Micron's (MU) target price at USD 1,200, saying AI memory price hikes show no signs of stopping.\n\n\u5185\u5bb9:\n\u82b1\u65d7 (Citi) \u7684\u4e00\u4efd\u62a5\u544a\uff08\u7ecf\u5bcc\u9014\u725b\u725b\u8f6c\u8f7d\uff09\u5c06 Micron (MU) \u76ee\u6807\u4ef7\u5b9a\u5728 USD 1,200\uff0c\u5e76\u79f0 AI \u5185\u5b58\u6da8\u4ef7\u6ca1\u6709\u4efb\u4f55\u505c\u6b62\u8ff9\u8c61\u3002\n\nWhy it matters:\nC6 tracks memory as the tightest physical bottleneck in the AI buildout \u2014 runaway HBM/DRAM pricing and sell-side targets this aggressive mark blow-off behavior, where the supply chain's scarcest input is repricing faster than end demand can be verified. Late-cycle euphoria, not just fundamentals.\n\n\u5f71\u54cd:\nC6 \u628a\u5185\u5b58\u89c6\u4e3a AI \u5efa\u8bbe\u4e2d\u6700\u7d27\u7684\u7269\u7406\u74f6\u9888\u3002HBM/DRAM \u4ef7\u683c\u5931\u63a7\u52a0\u4e0a\u5982\u6b64\u6fc0\u8fdb\u7684\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u6807\u5fd7\u7740\u5439\u6ce1\u6cab\u5f0f\u7684\u884c\u4e3a\u2014\u2014\u4f9b\u5e94\u94fe\u4e2d\u6700\u7a00\u7f3a\u7684\u73af\u8282\u6b63\u5728\u4ee5\u5feb\u4e8e\u7ec8\u7aef\u9700\u6c42\u88ab\u9a8c\u8bc1\u7684\u901f\u5ea6\u91cd\u65b0\u5b9a\u4ef7\u3002\u8fd9\u662f\u5468\u671f\u665a\u671f\u7684\u72c2\u70ed\uff0c\u800c\u4e0d\u53ea\u662f\u57fa\u672c\u9762\u3002\n",
       "emailed": false
     }
   ],
