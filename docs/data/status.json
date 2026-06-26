@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782508263,
-  "generated_at_str": "2026-06-26 21:11:03 UTC",
-  "last_event_ts": 1782508082,
+  "generated_at": 1782508473,
+  "generated_at_str": "2026-06-26 21:14:33 UTC",
+  "last_event_ts": 1782508470,
   "tables": {
     "alerts_dedup": {
-      "count": 1606,
-      "last_ts": 1782506132,
-      "last_str": "2026-06-26 20:35:32 UTC"
+      "count": 1608,
+      "last_ts": 1782508470,
+      "last_str": "2026-06-26 21:14:30 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2378,
-      "last_ts": 1782506644,
-      "last_str": "2026-06-26 20:44:04 UTC"
+      "count": 2379,
+      "last_ts": 1782508443,
+      "last_str": "2026-06-26 21:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 495,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-26 21:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11958,
-      "last_ts": 1782506643,
-      "last_str": "2026-06-26 20:44:03 UTC"
+      "count": 11966,
+      "last_ts": 1782508442,
+      "last_str": "2026-06-26 21:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1614,
+      "ts": 1782508470,
+      "ts_str": "2026-06-26 21:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI IPO delay sends AI tokens crashing - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 18:41:11 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxNb19sbFFLTjMxUDhzcXdGMDl3X1pLVzJVS3R1a25mYXhXYVNLUlJGWnlvTkxTNG1ncERlajlsM2JnUVo0cWhlLXpTcjNYYmlWQnhXb2VONHpFdW1LWENEYTVhZ2xSU1o4dkNxalFjbU5wX01vM2ZGVEJ0WHRwallYVmRMX2s5MHAxR0tSV0xpTHF3N1N4?oc=5\n\nOpenAI IPO delay sends AI tokens crashing - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNb19sbFFLTjMxUDhzcXdGMDl3X1pLVzJVS3R1a25mYXhXYVNLUlJGWnlvTkxTNG1ncERlajlsM2JnUVo0cWhlLXpTcjNYYmlWQnhXb2VONHpFdW1LWENEYTVhZ2xSU1o4dkNxalFjbU5wX01vM2ZGVEJ0WHRwallYVmRMX2s5MHAxR0tSV0xpTHF3N1N4?oc=5\" target=\"_blank\">OpenAI IPO delay sends AI tokens crashing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports an \"OpenAI IPO delay\" is sending AI tokens crashing.\n\n\u5185\u5bb9:\nYahoo Finance \u7684\u6807\u9898\u62a5\u9053\u79f0 OpenAI IPO \u5ef6\u8fdf\uff0c\u5bfc\u81f4 AI \u4ee3\u5e01\u66b4\u8dcc\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; signs that its public-market timeline is slipping remove the exit narrative that justifies hyperscaler and neocloud spending. A crypto-AI-token selloff on the news shows the market treating OpenAI's trajectory as the bellwether for the whole trade.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\uff1b\u5176\u4e0a\u5e02\u65f6\u95f4\u8868\u63a8\u8fdf\u7684\u8ff9\u8c61\u4f1a\u62bd\u8d70\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u6295\u5165\u7684\u9000\u51fa\u53d9\u4e8b\u3002AI \u52a0\u5bc6\u4ee3\u5e01\u5e94\u58f0\u629b\u552e\uff0c\u8bf4\u660e\u5e02\u573a\u628a OpenAI \u7684\u8d70\u5411\u5f53\u4f5c\u6574\u4e2a\u4ea4\u6613\u4e3b\u9898\u7684\u98ce\u5411\u6807\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1615,
+      "ts": 1782508470,
+      "ts_str": "2026-06-26 21:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Daily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees - The Business Journals",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 20:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlZNU2Y1dW8yZlFoNTVtWmFDQV9Qd0RzYW9keDFnb1l0c2ZYdHdGallRdVVWbER5VGM2enFlMGhjMTFjejNRODZYa2k3NzZQREs0SmZ3aFJ5WG0zMVdwcUdMOENtVzNaQVdOSHNWOHRFVlBIOGlyTVdDR19LeUhkMjNtdHpQTkpkSkliTDRORHgwT2tZOThmUkE2OTZlWnBCbXphdTJrUGxJSzJWQ1JBc1VB?oc=5\n\nDaily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees - The Business Journals\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlZNU2Y1dW8yZlFoNTVtWmFDQV9Qd0RzYW9keDFnb1l0c2ZYdHdGallRdVVWbER5VGM2enFlMGhjMTFjejNRODZYa2k3NzZQREs0SmZ3aFJ5WG0zMVdwcUdMOENtVzNaQVdOSHNWOHRFVlBIOGlyTVdDR19LeUhkMjNtdHpQTkpkSkliTDRORHgwT2tZOThmUkE2OTZlWnBCbXphdTJrUGxJSzJWQ1JBc1VB?oc=5\" target=\"_blank\">Daily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced under C3 (OpenAI watch): \"Daily Digest: OpenAI may delay IPO plans\" from The Business Journals. The headline bundles OpenAI's possible IPO delay with an unrelated California HOA-fee bill.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u8fdb\u5165 C3\uff08OpenAI \u76d1\u63a7\uff09\uff1aThe Business Journals \u7684\u300cDaily Digest: OpenAI may delay IPO plans\u300d\u3002\u8be5\u6807\u9898\u628a OpenAI \u53ef\u80fd\u63a8\u8fdf IPO \u4e0e\u4e00\u9879\u65e0\u5173\u7684\u52a0\u5dde HOA \u6536\u8d39\u6cd5\u6848\u6346\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nAn IPO is the cleanest exit and liquidity event for OpenAI's backers and the most direct public-market read on the AI-capex thesis. Signs of a delay suggest the company doesn't like the price it would fetch or the scrutiny it would face \u2014 a soft tell that the private bubble isn't ready to be marked-to-market.\n\n\u5f71\u54cd:\nIPO \u662f OpenAI \u6295\u8d44\u4eba\u6700\u5e72\u51c0\u7684\u9000\u51fa\u548c\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u4e5f\u662f\u516c\u5f00\u5e02\u573a\u5bf9 AI capex \u903b\u8f91\u6700\u76f4\u63a5\u7684\u5b9a\u4ef7\u3002\u63a8\u8fdf IPO \u7684\u8ff9\u8c61\u610f\u5473\u7740\u516c\u53f8\u4e0d\u6ee1\u610f\u5f53\u524d\u80fd\u62ff\u5230\u7684\u4f30\u503c\u3001\u6216\u4e0d\u613f\u63a5\u53d7\u4e0a\u5e02\u540e\u7684\u5ba1\u89c6\u2014\u2014\u8fd9\u662f\u79c1\u52df\u6ce1\u6cab\u8fd8\u4e0d\u6562\u88ab\u516c\u5f00\u5e02\u573a\u91cd\u65b0\u5b9a\u4ef7\u7684\u5fae\u5f31\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1613,
       "ts": 1782506132,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - Yahoo Finance Singapore",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 13:44:46 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEhjSVNxOE1CSlBHVGtXN3B0QUNMWktwSWl0TlFtNUthVUlLMC0yVEZLbFpVU2xuU0RQdVJzMTdiUVNEU3VEVElKQmxNM1BLZmkwTXE5S25MVGJCRThyLXJ6LUVJemlSQ3RLYnBpWjZEQ3VpbHpuZzh3SWZiMjA2NmxLTU9tX043eERJ?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - Yahoo Finance Singapore\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEhjSVNxOE1CSlBHVGtXN3B0QUNMWktwSWl0TlFtNUthVUlLMC0yVEZLbFpVU2xuU0RQdVJzMTdiUVNEU3VEVElKQmxNM1BLZmkwTXE5S25MVGJCRThyLXJ6LUVJemlSQ3RLYnBpWjZEQ3VpbHpuZzh3SWZiMjA2NmxLTU9tX043eERJ?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Singapore</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple is raising prices on MacBooks and iPads, citing the memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u4e0a\u8c03 MacBook \u548c iPad \u7684\u4ef7\u683c\u3002\n\nWhy it matters:\nAI datacenter buildouts are absorbing HBM and DRAM supply, and the shortage is now spilling into consumer hardware pricing. When AI capex starts visibly raising costs for the rest of the electronics supply chain, it signals the buildout is straining physical inputs \u2014 a real-economy stress marker, not just a financial one.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4f9b\u7ed9\uff0c\u77ed\u7f3a\u5df2\u7ecf\u5f00\u59cb\u5916\u6ea2\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u660e\u663e\u63a8\u9ad8\u7535\u5b50\u4f9b\u5e94\u94fe\u5176\u4ed6\u73af\u8282\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u7269\u6599\u4f9b\u7ed9\u2014\u2014\u8fd9\u662f\u5b9e\u4f53\u7ecf\u6d4e\u5c42\u9762\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u4e0d\u53ea\u662f\u91d1\u878d\u5c42\u9762\u7684\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1419,
-      "ts": 1782416170,
-      "ts_str": "2026-06-25 19:36 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple Raises Prices on Macs and iPads Amid AI-Driven Memory Chip Shortage - SSBCrack",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 19:06:40 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNaXJTUGNmMG1sd2poYl9sa0ExcDJoenJrLWMtX3ItWFZKM21qSkUyeDFlUllRb1VBU3d0NXpXcTMwVUtqNGdLWnRIY1N4VzljXzlsNkFkMW1OR1hmNHIwdzRwdEROc1VBU3hEZEJxSTBYaWdoSjVRaFJKX0xnamE4clc5X2xWNl8tcHJDdE9CUURnRDlnLTl3MndaUUFjSjEzWnc?oc=5\n\nApple Raises Prices on Macs and iPads Amid AI-Driven Memory Chip Shortage - SSBCrack\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNaXJTUGNmMG1sd2poYl9sa0ExcDJoenJrLWMtX3ItWFZKM21qSkUyeDFlUllRb1VBU3d0NXpXcTMwVUtqNGdLWnRIY1N4VzljXzlsNkFkMW1OR1hmNHIwdzRwdEROc1VBU3hEZEJxSTBYaWdoSjVRaFJKX0xnamE4clc5X2xWNl8tcHJDdE9CUURnRDlnLTl3MndaUUFjSjEzWnc?oc=5\" target=\"_blank\">Apple Raises Prices on Macs and iPads Amid AI-Driven Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SSBCrack</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised prices on Macs and iPads, citing an AI-driven memory chip (DRAM/NAND) shortage as the cause.\n\n\u5185\u5bb9:\nApple \u4e0a\u8c03\u4e86 Mac \u548c iPad \u7684\u4ef7\u683c\uff0c\u5e76\u5c06\u539f\u56e0\u5f52\u4e8e AI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI datacenter buildout is now diverting enough memory supply to raise consumer hardware prices \u2014 the capex boom is leaking into the real economy as inflation in unrelated products. When a hyperscaler-driven component squeeze forces a company like Apple to pass costs to consumers, the AI-infrastructure spend is no longer self-contained.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u62a2\u5360\u8db3\u591f\u591a\u7684\u5185\u5b58\u4f9b\u7ed9\uff0c\u4ee5\u81f4\u63a8\u9ad8\u6d88\u8d39\u7ea7\u786c\u4ef6\u4ef7\u683c\u2014\u2014\u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u6b63\u4ee5\u901a\u80c0\u7684\u5f62\u5f0f\u5916\u6ea2\u5230\u5b9e\u4f53\u7ecf\u6d4e\u4e2d\u65e0\u5173\u7684\u4ea7\u54c1\u4e0a\u3002\u5f53\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5f15\u53d1\u7684\u5143\u4ef6\u6324\u538b\u903c\u5f97 Apple \u8fd9\u6837\u7684\u516c\u53f8\u628a\u6210\u672c\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\u65f6\uff0cAI \u57fa\u5efa\u652f\u51fa\u5c31\u4e0d\u518d\u662f\u81ea\u6211\u5c01\u95ed\u7684\u4e86\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1409,
-      "ts": 1782412569,
-      "ts_str": "2026-06-25 18:36 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple plans price increases to offset surging memory chip costs, CEO Tim Cook says - eciks.org",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 14:38:45 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE5nVzVKYnBpR0NINjJWeWtWNERmdGt1ZlFtU0p2Ykt4cXhOQlVvelAtN0xWUGVFMGV4QkJ6MDdONHE5VHlucU83UzRqd2F5M0hYVTBkX3BtSXRYRnpqT2gtT0M1QlJFSllGSHZIYzJTZ1hCSkhrYkxIbg?oc=5\n\nApple plans price increases to offset surging memory chip costs, CEO Tim Cook says - eciks.org\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5nVzVKYnBpR0NINjJWeWtWNERmdGt1ZlFtU0p2Ykt4cXhOQlVvelAtN0xWUGVFMGV4QkJ6MDdONHE5VHlucU83UzRqd2F5M0hYVTBkX3BtSXRYRnpqT2gtT0M1QlJFSllGSHZIYzJTZ1hCSkhrYkxIbg?oc=5\" target=\"_blank\">Apple plans price increases to offset surging memory chip costs, CEO Tim Cook says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eciks.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple CEO Tim Cook says Apple plans price increases to offset surging memory (DRAM/NAND) chip costs.\n\n\u5185\u5bb9:\nApple CEO Tim Cook \u8868\u793a\uff0cApple \u8ba1\u5212\u4e0a\u8c03\u4ea7\u54c1\u552e\u4ef7\uff0c\u4ee5\u62b5\u6d88\u98d9\u5347\u7684\u5185\u5b58\uff08DRAM/NAND\uff09\u82af\u7247\u6210\u672c\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up memory supply, pushing chip prices high enough that even Apple \u2014 with its scale and pricing power \u2014 has to pass costs to consumers. It's a sign the AI-capex boom is now leaking into the broader electronics supply chain as real-world inflation.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u5927\u91cf\u5438\u8d70\u5185\u5b58\u4f9b\u5e94\uff0c\u628a\u82af\u7247\u4ef7\u683c\u63a8\u9ad8\u5230\u8fde\u62e5\u6709\u89c4\u6a21\u548c\u5b9a\u4ef7\u6743\u7684 Apple \u90fd\u4e0d\u5f97\u4e0d\u5411\u6d88\u8d39\u8005\u8f6c\u5ac1\u6210\u672c\u3002\u8fd9\u8868\u660e AI capex \u70ed\u6f6e\u5df2\u7ecf\u5916\u6ea2\u5230\u66f4\u5e7f\u6cdb\u7684\u7535\u5b50\u4f9b\u5e94\u94fe\uff0c\u5e76\u8f6c\u5316\u4e3a\u73b0\u5b9e\u4e16\u754c\u7684\u901a\u80c0\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
