@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782491526,
-  "generated_at_str": "2026-06-26 16:32:06 UTC",
-  "last_event_ts": 1782490577,
+  "generated_at": 1782491706,
+  "generated_at_str": "2026-06-26 16:35:06 UTC",
+  "last_event_ts": 1782491705,
   "tables": {
     "alerts_dedup": {
-      "count": 1571,
-      "last_ts": 1782490577,
-      "last_str": "2026-06-26 16:16:17 UTC"
+      "count": 1572,
+      "last_ts": 1782491705,
+      "last_str": "2026-06-26 16:35:05 UTC"
     },
     "c10_signals": {
       "count": 2,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-26 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1013,
-      "last_ts": 1782489902,
-      "last_str": "2026-06-26 16:05:02 UTC"
+      "count": 1014,
+      "last_ts": 1782491702,
+      "last_str": "2026-06-26 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1217,
-      "last_ts": 1782489905,
-      "last_str": "2026-06-26 16:05:05 UTC"
+      "count": 1218,
+      "last_ts": 1782491704,
+      "last_str": "2026-06-26 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 752,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-26 15:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 989,
-      "last_ts": 1782489905,
-      "last_str": "2026-06-26 16:05:05 UTC"
+      "count": 990,
+      "last_ts": 1782491705,
+      "last_str": "2026-06-26 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11812,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1579,
+      "ts": 1782491705,
+      "ts_str": "2026-06-26 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices due to memory chip crunch, Tim Cook says - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:32:57 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzNMWWZ3eVpjOTdhbEFzUGZseHJuOEZTSVUzcFpnUUNCRG1EOElJNVFmLVF6Y184RjF5azJyaDBDenJCWkJ0OFhJODlIYmxGdUJNNVVVb2NTaVh6dE95OWhOeTNiREl2QldaSWxBdm9wb01Pc2hvd1Rpd20zaGNyYUVXMndaY1p5a3ZIZFBJY3dEckxwQ2F4Zjd2eUFlR0N6Mmp1N3k5Qmp1dUJMeEZINg?oc=5\n\nApple to raise prices due to memory chip crunch, Tim Cook says - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzNMWWZ3eVpjOTdhbEFzUGZseHJuOEZTSVUzcFpnUUNCRG1EOElJNVFmLVF6Y184RjF5azJyaDBDenJCWkJ0OFhJODlIYmxGdUJNNVVVb2NTaVh6dE95OWhOeTNiREl2QldaSWxBdm9wb01Pc2hvd1Rpd20zaGNyYUVXMndaY1p5a3ZIZFBJY3dEckxwQ2F4Zjd2eUFlR0N6Mmp1N3k5Qmp1dUJMeEZINg?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip crunch, Tim Cook says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn MSN/Reuters headline reports Apple CEO Tim Cook saying Apple will raise prices because of a memory chip crunch.\n\n\u5185\u5bb9:\nMSN/\u8def\u900f\u7684\u6807\u9898\u62a5\u9053\u79f0\uff0cApple CEO Tim Cook \u8868\u793a Apple \u5c06\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away by AI datacenter buildout, and the squeeze has now reached consumer hardware pricing at the largest device maker. When AI capex starts visibly raising the cost of unrelated consumer electronics, the demand shock is broad enough to feed back into inflation and component-allocation stress.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u62a2\u5360\u4ea7\u80fd\uff0c\u8fd9\u79cd\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u5168\u7403\u6700\u5927\u8bbe\u5907\u5382\u5546\u7684\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI \u8d44\u672c\u5f00\u652f\u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u7684\u6210\u672c\uff0c\u8bf4\u660e\u9700\u6c42\u51b2\u51fb\u7684\u8303\u56f4\u5df2\u7ecf\u5927\u5230\u8db3\u4ee5\u53cd\u9988\u8fdb\u901a\u80c0\u548c\u5143\u5668\u4ef6\u4f9b\u7ed9\u7d27\u5f20\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1570,
       "ts": 1782490577,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple faces price hikes for iPhone 18 Pro amid global memory chip shortage - Crypto Briefing",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 08:05:30 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE8xZkRsUk52TGdMSktlcEcxSkNRT3E5RTNhYXRvcUpSa3ZTOWRNUDZGbldpc1RmQmhfMThPNjRiOVhITlM4RWMxYjJRNHk1SlVCaWsyTm1jU3ZOV0tIQWR4QmhUZlNxdklxNnhCZHprMTRKenA3QkdSRWhtVVBoNE0?oc=5\n\nApple faces price hikes for iPhone 18 Pro amid global memory chip shortage - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE8xZkRsUk52TGdMSktlcEcxSkNRT3E5RTNhYXRvcUpSa3ZTOWRNUDZGbldpc1RmQmhfMThPNjRiOVhITlM4RWMxYjJRNHk1SlVCaWsyTm1jU3ZOV0tIQWR4QmhUZlNxdklxNnhCZHprMTRKenA3QkdSRWhtVVBoNE0?oc=5\" target=\"_blank\">Apple faces price hikes for iPhone 18 Pro amid global memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple faces price hikes for the iPhone 18 Pro amid a global memory chip shortage (Crypto Briefing).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5728\u5168\u7403\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u80cc\u666f\u4e0b\uff0cApple \u7684 iPhone 18 Pro \u9762\u4e34\u6da8\u4ef7 (Crypto Briefing)\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildouts, squeezing supply for consumer electronics. When the shortage is severe enough to force price hikes on a flagship iPhone, it signals AI-capex demand is crowding out the broader chip market \u2014 a real-economy spillover from the infrastructure spend.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u82af\u7247 (DRAM/HBM) \u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u541e\u566c\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u7ed9\u3002\u5f53\u77ed\u7f3a\u4e25\u91cd\u5230\u8feb\u4f7f\u65d7\u8230 iPhone \u6da8\u4ef7\uff0c\u8bf4\u660e AI capex \u9700\u6c42\u5df2\u7ecf\u5f00\u59cb\u6324\u5360\u6574\u4e2a\u82af\u7247\u5e02\u573a\u2014\u2014\u8fd9\u662f\u57fa\u5efa\u652f\u51fa\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1379,
-      "ts": 1782371116,
-      "ts_str": "2026-06-25 07:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Baird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 06:12:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxQRHQtbm9rUGI1SkNxMlo1UkxZVnZpSHhKeHhMNi1LNWJDRzVaNF9mODhkZkNfemViUUtKcC1RX2djTnFIZmllU2VmSE9KejBGRmtoekV0VHJjN0huWm83MENaRHlTVkxqTGdDSWNsT29hLWFOTVlvbTJWNXlvZ1dfOGxvcVAtSDVrS1hvclJhN0liUklSbEFDbnUyX3NOUk1GekkwY3hQejZyaGdTa2N0OVlYc3VJcmxxVXNCcWhmYw?oc=5\n\nBaird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQRHQtbm9rUGI1SkNxMlo1UkxZVnZpSHhKeHhMNi1LNWJDRzVaNF9mODhkZkNfemViUUtKcC1RX2djTnFIZmllU2VmSE9KejBGRmtoekV0VHJjN0huWm83MENaRHlTVkxqTGdDSWNsT29hLWFOTVlvbTJWNXlvZ1dfOGxvcVAtSDVrS1hvclJhN0liUklSbEFDbnUyX3NOUk1GekkwY3hQejZyaGdTa2N0OVlYc3VJcmxxVXNCcWhmYw?oc=5\" target=\"_blank\">Baird raises Micron stock price target to $1,280 on DRAM outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBaird raised its Micron (MU) price target to $1,280, citing the DRAM outlook.\n\n\u5185\u5bb9:\nBaird \u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,280\uff0c\u7406\u7531\u662f DRAM \u524d\u666f\u770b\u597d\u3002\n\nWhy it matters:\nSell-side targets racing higher on memory pricing is the kind of momentum-chasing that marks late-cycle AI-capex froth. DRAM/HBM upgrades are a direct read on the AI-buildout demand thesis, so an aggressive target hike signals the optimism is getting priced to perfection \u2014 fragile if hyperscaler capex slows.\n\n\u5f71\u54cd:\n\u5356\u65b9\u76ee\u6807\u4ef7\u968f\u5185\u5b58\u6da8\u4ef7\u4e00\u8def\u51b2\u9ad8\uff0c\u6b63\u662f AI capex \u5468\u671f\u665a\u671f\u8fc7\u70ed\u3001\u8ffd\u6da8\u60c5\u7eea\u7684\u5178\u578b\u7279\u5f81\u3002DRAM/HBM \u7684\u4e0a\u8c03\u76f4\u63a5\u53cd\u6620 AI \u5efa\u8bbe\u7684\u9700\u6c42\u903b\u8f91\uff0c\u5982\u6b64\u6fc0\u8fdb\u7684\u76ee\u6807\u4ef7\u8bf4\u660e\u4e50\u89c2\u9884\u671f\u5df2\u88ab\u5b9a\u4ef7\u5230\u6781\u81f4\u2014\u2014\u4e00\u65e6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u653e\u7f13\u8d44\u672c\u5f00\u652f\uff0c\u5c31\u975e\u5e38\u8106\u5f31\u3002\n",
       "emailed": false
     }
   ],
