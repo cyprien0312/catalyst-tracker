@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782585123,
-  "generated_at_str": "2026-06-27 18:32:03 UTC",
-  "last_event_ts": 1782584058,
+  "generated_at": 1782585315,
+  "generated_at_str": "2026-06-27 18:35:15 UTC",
+  "last_event_ts": 1782585315,
   "tables": {
     "alerts_dedup": {
-      "count": 1634,
-      "last_ts": 1782584058,
-      "last_str": "2026-06-27 18:14:18 UTC"
+      "count": 1635,
+      "last_ts": 1782585315,
+      "last_str": "2026-06-27 18:35:15 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-27 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1115,
-      "last_ts": 1782583502,
-      "last_str": "2026-06-27 18:05:02 UTC"
+      "count": 1116,
+      "last_ts": 1782585302,
+      "last_str": "2026-06-27 18:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1319,
-      "last_ts": 1782583504,
-      "last_str": "2026-06-27 18:05:04 UTC"
+      "count": 1320,
+      "last_ts": 1782585303,
+      "last_str": "2026-06-27 18:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 849,
-      "last_ts": 1782583503,
-      "last_str": "2026-06-27 18:05:03 UTC"
+      "count": 850,
+      "last_ts": 1782585302,
+      "last_str": "2026-06-27 18:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1040,
-      "last_ts": 1782583504,
-      "last_str": "2026-06-27 18:05:04 UTC"
+      "count": 1043,
+      "last_ts": 1782585305,
+      "last_str": "2026-06-27 18:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12102,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1642,
+      "ts": 1782585315,
+      "ts_str": "2026-06-27 18:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 16:09:29 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\n\nMemory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\" target=\"_blank\">Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging memory prices are hitting Apple, with Tim Cook raising prices 20%.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u51b2\u51fb Apple\uff0cTim Cook \u5c06\u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) price spikes are a downstream symptom of AI-infrastructure demand crowding out consumer supply. When the cost pass-through reaches a consumer giant like Apple, the AI-capex boom is no longer contained to data centers \u2014 it's inflating the broader hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u66b4\u6da8\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u8513\u5ef6\u5230 Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u65f6\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\uff0c\u800c\u662f\u5f00\u59cb\u63a8\u9ad8\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1641,
       "ts": 1782584058,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI is leaning toward a 2027 IPO as its CFO warns the company isn't ready for public markets - Startup Fortune",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 21:35:32 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEhYNWlfNlQyTWtSNWNieEdIX2VmVTZvampmU1puTXdLcTB2SW1OcHJNd09oNWdIVWFQa2E0VWh4Ry0zaGNBNmxlM3AwWlBBcmpJdGVCdjI5eFBWdzhLdkcxWC00N2I5b19jVHF2S0xLMzAzeThGNEVEQ3pOV0E3c2JxcHd6YW1WXzBVUk93QV9FOWliN24wem5aOG4yNzNINGM1QmV5NmZTTUtfUFVxRmh2aE9QVTliaTdqUGZZUQ?oc=5\n\nOpenAI is leaning toward a 2027 IPO as its CFO warns the company isn't ready for public markets - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNMEhYNWlfNlQyTWtSNWNieEdIX2VmVTZvampmU1puTXdLcTB2SW1OcHJNd09oNWdIVWFQa2E0VWh4Ry0zaGNBNmxlM3AwWlBBcmpJdGVCdjI5eFBWdzhLdkcxWC00N2I5b19jVHF2S0xLMzAzeThGNEVEQ3pOV0E3c2JxcHd6YW1WXzBVUk93QV9FOWliN24wem5aOG4yNzNINGM1QmV5NmZTTUtfUFVxRmh2aE9QVTliaTdqUGZZUQ?oc=5\" target=\"_blank\">OpenAI is leaning toward a 2027 IPO as its CFO warns the company isn't ready for public markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is leaning toward a 2027 IPO while its CFO warns the company isn't ready for public markets.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u503e\u5411\u4e8e\u5728 2027 \u5e74 IPO\uff0c\u800c\u5176 CFO \u8b66\u544a\u516c\u53f8\u5c1a\u672a\u51c6\u5907\u597d\u8fdb\u5165\u516c\u5f00\u5e02\u573a\u3002\n\nWhy it matters:\nAn IPO timeline this distant, paired with the CFO's own caution, signals OpenAI still needs years of private capital before it can stand on public scrutiny \u2014 a tell that the AI leader's economics aren't yet self-sustaining. The longer the runway to public-market discipline, the longer the capex boom runs on private funding rather than proven returns.\n\n\u5f71\u54cd:\n\u5982\u6b64\u9065\u8fdc\u7684 IPO \u65f6\u95f4\u8868\uff0c\u52a0\u4e0a CFO \u81ea\u5df1\u7684\u8c28\u614e\u8868\u6001\uff0c\u8bf4\u660e OpenAI \u5728\u80fd\u591f\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u4e4b\u524d\u4ecd\u9700\u591a\u5e74\u7684\u79c1\u52df\u8d44\u91d1\u652f\u6301\u2014\u2014\u8fd9\u6697\u793a\u8fd9\u5bb6 AI \u9f99\u5934\u7684\u7ecf\u6d4e\u6a21\u578b\u8fd8\u65e0\u6cd5\u81ea\u6211\u7ef4\u6301\u3002\u8ddd\u79bb\u516c\u5f00\u5e02\u573a\u7684\u7ea6\u675f\u8d8a\u8fdc\uff0c\u8fd9\u8f6e\u8d44\u672c\u5f00\u652f\u72c2\u6f6e\u5c31\u8d8a\u662f\u9760\u79c1\u52df\u8d44\u91d1\u800c\u975e\u5df2\u88ab\u9a8c\u8bc1\u7684\u56de\u62a5\u5728\u652f\u6491\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1443,
-      "ts": 1782425691,
-      "ts_str": "2026-06-25 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI leans toward waiting until next year for IPO, NYT reports - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:43:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxNdFFFejNIX3BiZmV6Z0swdlRqaWczNWthaHhEeFNqQU1RV0YweURGVm81Y0RsOVlseTZkLVdjMzdNODJnMEhTMUlrakwxWDNfR0FaQTZEWVBXbHh2WFMtc2pObWdmLWJQUWdmRjROQUVQY25nZW1aUkhQOFJWRmlkaFlJNl9LelNnZzZEMGJnX3gtckJsSzVjQlNSM1BXY1BhT2pmNE83ZGJtR2pMYVNMNHZzYkdIdTRGRlo2ZVRScXdfYU9JZ193VlFjaUE4UQ?oc=5\n\nOpenAI leans toward waiting until next year for IPO, NYT reports - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNdFFFejNIX3BiZmV6Z0swdlRqaWczNWthaHhEeFNqQU1RV0YweURGVm81Y0RsOVlseTZkLVdjMzdNODJnMEhTMUlrakwxWDNfR0FaQTZEWVBXbHh2WFMtc2pObWdmLWJQUWdmRjROQUVQY25nZW1aUkhQOFJWRmlkaFlJNl9LelNnZzZEMGJnX3gtckJsSzVjQlNSM1BXY1BhT2pmNE83ZGJtR2pMYVNMNHZzYkdIdTRGRlo2ZVRScXdfYU9JZ193VlFjaUE4UQ?oc=5\" target=\"_blank\">OpenAI leans toward waiting until next year for IPO, NYT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is leaning toward delaying its IPO until next year rather than 2026, per an NYT report relayed by TradingView.\n\n\u5185\u5bb9:\n\u636e NYT \u62a5\u9053\uff08\u7ecf TradingView \u8f6c\u8f7d\uff09\uff0cOpenAI \u503e\u5411\u4e8e\u628a IPO \u63a8\u8fdf\u5230\u660e\u5e74\uff0c\u800c\u975e\u66f4\u65e9\u4e0a\u5e02\u3002\n\nWhy it matters:\nA pushed-back IPO timeline signals the company isn't confident public markets will pay its private valuation right now. For the AI-capex thesis, a deferred OpenAI listing removes the sector's biggest expected liquidity event and validation catalyst \u2014 a tell that the funding window is tightening.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u8bf4\u660e\u516c\u53f8\u5bf9\u5f53\u524d\u516c\u5f00\u5e02\u573a\u613f\u610f\u63a5\u53d7\u5176\u79c1\u52df\u4f30\u503c\u7f3a\u4e4f\u4fe1\u5fc3\u3002\u5bf9 AI capex \u903b\u8f91\u800c\u8a00\uff0cOpenAI \u4e0a\u5e02\u662f\u6574\u4e2a\u677f\u5757\u6700\u53d7\u671f\u5f85\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u548c\u4f30\u503c\u80cc\u4e66\uff0c\u63a8\u8fdf\u610f\u5473\u7740\u8fd9\u4e00\u50ac\u5316\u5242\u6d88\u5931\uff0c\u4e5f\u662f\u878d\u8d44\u7a97\u53e3\u6b63\u5728\u6536\u7d27\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
