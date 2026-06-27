@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782599526,
-  "generated_at_str": "2026-06-27 22:32:06 UTC",
-  "last_event_ts": 1782598442,
+  "generated_at": 1782599717,
+  "generated_at_str": "2026-06-27 22:35:17 UTC",
+  "last_event_ts": 1782599717,
   "tables": {
     "alerts_dedup": {
-      "count": 1643,
-      "last_ts": 1782596660,
-      "last_str": "2026-06-27 21:44:20 UTC"
+      "count": 1644,
+      "last_ts": 1782599717,
+      "last_str": "2026-06-27 22:35:17 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-27 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1123,
-      "last_ts": 1782597902,
-      "last_str": "2026-06-27 22:05:02 UTC"
+      "count": 1124,
+      "last_ts": 1782599703,
+      "last_str": "2026-06-27 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1330,
-      "last_ts": 1782597903,
-      "last_str": "2026-06-27 22:05:03 UTC"
+      "count": 1333,
+      "last_ts": 1782599705,
+      "last_str": "2026-06-27 22:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 861,
-      "last_ts": 1782596103,
-      "last_str": "2026-06-27 21:35:03 UTC"
+      "count": 862,
+      "last_ts": 1782599704,
+      "last_str": "2026-06-27 22:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1053,
-      "last_ts": 1782597904,
-      "last_str": "2026-06-27 22:05:04 UTC"
+      "count": 1056,
+      "last_ts": 1782599706,
+      "last_str": "2026-06-27 22:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12133,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1651,
+      "ts": 1782599717,
+      "ts_str": "2026-06-27 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple and Xbox Price Hikes Reveal Depth of Global Memory Chip Crisis - \u062c\u0648\u0644\u0629",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 19:55:38 GMT\nLink:      https://news.google.com/rss/articles/CBMiP0FVX3lxTFB3ZFkxM0VDbkc2X28tZkxSRkY2cjhIMHhVUjlFTWdMRnlobXpjN0xjZUV0Z1JNdk96X1dXLWlQMA?oc=5\n\nApple and Xbox Price Hikes Reveal Depth of Global Memory Chip Crisis - \u062c\u0648\u0644\u0629\n\n<a href=\"https://news.google.com/rss/articles/CBMiP0FVX3lxTFB3ZFkxM0VDbkc2X28tZkxSRkY2cjhIMHhVUjlFTWdMRnlobXpjN0xjZUV0Z1JNdk96X1dXLWlQMA?oc=5\" target=\"_blank\">Apple and Xbox Price Hikes Reveal Depth of Global Memory Chip Crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u062c\u0648\u0644\u0629</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that Apple and Xbox price hikes are being driven by the global memory chip crisis.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0cApple \u548c Xbox \u7684\u6da8\u4ef7\u53cd\u6620\u51fa\u5168\u7403\u5185\u5b58\u82af\u7247\u5371\u673a\u7684\u4e25\u91cd\u7a0b\u5ea6\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, squeezing supply for consumer electronics and forcing end-product price hikes. When AI capex starts visibly raising prices for unrelated consumer goods, the demand shock has spread beyond the datacenter \u2014 a sign the buildout is straining the broader supply chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u7ed9\uff0c\u8feb\u4f7f\u7ec8\u7aef\u4ea7\u54c1\u6da8\u4ef7\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u4e0e\u4e4b\u65e0\u5173\u7684\u6d88\u8d39\u54c1\u4ef7\u683c\u65f6\uff0c\u8bf4\u660e\u9700\u6c42\u51b2\u51fb\u5df2\u5916\u6ea2\u51fa\u6570\u636e\u4e2d\u5fc3\u2014\u2014\u8fd9\u662f\u5efa\u8bbe\u70ed\u6f6e\u6b63\u5728\u62c9\u7d27\u6574\u4e2a\u4f9b\u5e94\u94fe\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1650,
       "ts": 1782596660,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI staggers GPT-5.6 rollout for government vetting, eyes 2027 IPO - SiliconANGLE",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 22:48:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxOODlGRGpfcjAxX2pMeFFDYmVVT2daaUlTdWtHQnJYd1pwNDBObWJrNkNNS29mRGZyMkkweE44YlRieW1BV2NJVjNwTTBpOHVOWE9KVDlmZ1V4X01HMnNXMUY1QzJwcEJLejE5WEtMX1MtWWxodG5XV2kyYk9DNnFvRTRCUUd5bEFsRHVhMXpBY21CYk9ocHM1S211RTlwWTAxaWVZ?oc=5\n\nOpenAI staggers GPT-5.6 rollout for government vetting, eyes 2027 IPO - SiliconANGLE\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOODlGRGpfcjAxX2pMeFFDYmVVT2daaUlTdWtHQnJYd1pwNDBObWJrNkNNS29mRGZyMkkweE44YlRieW1BV2NJVjNwTTBpOHVOWE9KVDlmZ1V4X01HMnNXMUY1QzJwcEJLejE5WEtMX1MtWWxodG5XV2kyYk9DNnFvRTRCUUd5bEFsRHVhMXpBY21CYk9ocHM1S211RTlwWTAxaWVZ?oc=5\" target=\"_blank\">OpenAI staggers GPT-5.6 rollout for government vetting, eyes 2027 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SiliconANGLE</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SiliconANGLE headline reports OpenAI is staggering its GPT-5.6 rollout for government vetting while eyeing a 2027 IPO.\n\n\u5185\u5bb9:\nSiliconANGLE \u62a5\u9053\u79f0\uff0cOpenAI \u4e3a\u914d\u5408\u653f\u5e9c\u5ba1\u67e5\u800c\u5206\u6279\u63a8\u51fa GPT-5.6\uff0c\u540c\u65f6\u5c06 IPO \u65f6\u95f4\u7784\u51c6 2027 \u5e74\u3002\n\nWhy it matters:\nAn IPO timeline pushed out to 2027 signals OpenAI needs years more private capital before a public exit \u2014 the AI-capex buildout is being funded by private rounds, not yet validated by public-market scrutiny. Staggered government vetting also adds rollout friction that can slow revenue ramp against the spend.\n\n\u5f71\u54cd:\nIPO \u65f6\u95f4\u63a8\u5230 2027 \u5e74\uff0c\u610f\u5473\u7740 OpenAI \u5728\u516c\u5f00\u9000\u51fa\u524d\u8fd8\u9700\u8981\u6570\u5e74\u7684\u79c1\u52df\u8d44\u672c\u2014\u2014\u8fd9\u8f6e AI capex \u6269\u5f20\u9760\u7684\u662f\u79c1\u52df\u8f6e\u878d\u8d44\uff0c\u5c1a\u672a\u7ecf\u8fc7\u516c\u5f00\u5e02\u573a\u7684\u68c0\u9a8c\u3002\u5206\u6279\u7684\u653f\u5e9c\u5ba1\u67e5\u4e5f\u7ed9\u4ea7\u54c1\u63a8\u51fa\u589e\u52a0\u4e86\u963b\u529b\uff0c\u53ef\u80fd\u62d6\u6162\u6536\u5165\u76f8\u5bf9\u4e8e\u652f\u51fa\u7684\u722c\u5761\u901f\u5ea6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1452,
-      "ts": 1782429267,
-      "ts_str": "2026-06-25 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Could Reportedly Delay IPO After SpaceX Scare - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:54:26 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTVTNklUbUJzcV9JTFV6R1hYakxLYXdWMHdYM3ZmaG42WVdwYUtzYzljZ0s2bExTRDZNZ1ppVVR4YVRwd2xmWXhNc0RlLW9UV2RQMHJicTdUa2p1dU82NGhLSkx3OVlGMUtObExNTjRWWUtmWlNuSEhHbEJoNklYNFQtN2YyUFJoaFNNUS1xTEx3bmw5U01tdG0zanVnVm8?oc=5\n\nOpenAI Could Reportedly Delay IPO After SpaceX Scare - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNQTVTNklUbUJzcV9JTFV6R1hYakxLYXdWMHdYM3ZmaG42WVdwYUtzYzljZ0s2bExTRDZNZ1ppVVR4YVRwd2xmWXhNc0RlLW9UV2RQMHJicTdUa2p1dU82NGhLSkx3OVlGMUtObExNTjRWWUtmWlNuSEhHbEJoNklYNFQtN2YyUFJoaFNNUS1xTEx3bmw5U01tdG0zanVnVm8?oc=5\" target=\"_blank\">OpenAI Could Reportedly Delay IPO After SpaceX Scare</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI could delay its IPO after a \"SpaceX Scare.\"\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u53ef\u80fd\u5728\u7ecf\u5386 \"SpaceX Scare\" \u540e\u63a8\u8fdf\u5176 IPO\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the AI-capex buildout; any IPO delay signals weaker access to public funding and rising financing risk for the whole hyperscaler/neocloud chain. A delayed listing keeps capital constrained and raises the odds the buildout outruns its funding.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\uff1b\u4efb\u4f55 IPO \u63a8\u8fdf\u90fd\u610f\u5473\u7740\u5176\u83b7\u53d6\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u7684\u80fd\u529b\u51cf\u5f31\uff0c\u5e76\u63a8\u9ad8\u6574\u6761\u8d85\u5927\u89c4\u6a21\u5382\u5546/neocloud \u94fe\u6761\u7684\u878d\u8d44\u98ce\u9669\u3002\u4e0a\u5e02\u5ef6\u540e\u4f1a\u8ba9\u8d44\u672c\u6301\u7eed\u53d7\u9650\uff0c\u52a0\u5927\u5efa\u8bbe\u6295\u5165\u8dd1\u8d62\u8d44\u91d1\u4f9b\u7ed9\u7684\u6982\u7387\u3002\n",
       "emailed": false
     }
   ],
