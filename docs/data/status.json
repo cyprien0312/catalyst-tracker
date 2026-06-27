@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782540123,
-  "generated_at_str": "2026-06-27 06:02:03 UTC",
-  "last_event_ts": 1782538503,
+  "generated_at": 1782540319,
+  "generated_at_str": "2026-06-27 06:05:19 UTC",
+  "last_event_ts": 1782540318,
   "tables": {
     "alerts_dedup": {
-      "count": 1622,
-      "last_ts": 1782537261,
-      "last_str": "2026-06-27 05:14:21 UTC"
+      "count": 1623,
+      "last_ts": 1782540318,
+      "last_str": "2026-06-27 06:05:18 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-27 00:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1058,
-      "last_ts": 1782538502,
-      "last_str": "2026-06-27 05:35:02 UTC"
+      "count": 1059,
+      "last_ts": 1782540302,
+      "last_str": "2026-06-27 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1246,
-      "last_ts": 1782536705,
-      "last_str": "2026-06-27 05:05:05 UTC"
+      "count": 1248,
+      "last_ts": 1782540305,
+      "last_str": "2026-06-27 06:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 800,
-      "last_ts": 1782538503,
-      "last_str": "2026-06-27 05:35:03 UTC"
+      "count": 802,
+      "last_ts": 1782540303,
+      "last_str": "2026-06-27 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1022,
-      "last_ts": 1782533105,
-      "last_str": "2026-06-27 04:05:05 UTC"
+      "count": 1023,
+      "last_ts": 1782540306,
+      "last_str": "2026-06-27 06:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12030,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1630,
+      "ts": 1782540318,
+      "ts_str": "2026-06-27 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple raises Apple TV 4K prices by up to 67% due to memory chip shortage, with the 64GB model now starting at $199 - eci",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 04:38:22 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hckN3MThJTjNGa3hXUzBRMVJPWE9mdkhKYVVrczc5M0dTRzRQVjlxWmFYLW5YQVYyU3dZZFRsbGhwajRoWkF6SUxfNnczcTFIWnpZekktSUw2VXRramlwaXFwajJYdS1T?oc=5\n\nApple raises Apple TV 4K prices by up to 67% due to memory chip shortage, with the 64GB model now starting at $199 - eciks.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hckN3MThJTjNGa3hXUzBRMVJPWE9mdkhKYVVrczc5M0dTRzRQVjlxWmFYLW5YQVYyU3dZZFRsbGhwajRoWkF6SUxfNnczcTFIWnpZekktSUw2VXRramlwaXFwajJYdS1T?oc=5\" target=\"_blank\">Apple raises Apple TV 4K prices by up to 67% due to memory chip shortage, with the 64GB model now starting at $199</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eciks.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple raised Apple TV 4K prices by up to 67% due to a memory chip shortage, with the 64GB model now starting at $199.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06 Apple TV 4K \u4ef7\u683c\u4e0a\u8c03\u6700\u9ad8\u8fbe 67%\uff0c\u5176\u4e2d 64GB \u673a\u578b\u8d77\u552e\u4ef7\u5347\u81f3 $199\u3002\n\nWhy it matters:\nMemory-chip scarcity is bleeding out of the datacenter into consumer hardware pricing \u2014 AI buildouts are absorbing so much DRAM/NAND supply that even low-volume consumer devices get repriced. This is the cost-side stress of the capex boom showing up where end-buyers feel it.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\u7d27\u7f3a\u6b63\u4ece\u6570\u636e\u4e2d\u5fc3\u5916\u6ea2\u5230\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u2014\u2014AI \u57fa\u5efa\u541e\u566c\u4e86\u5982\u6b64\u591a\u7684 DRAM/NAND \u4f9b\u7ed9\uff0c\u8fde\u51fa\u8d27\u91cf\u5f88\u4f4e\u7684\u6d88\u8d39\u8bbe\u5907\u90fd\u88ab\u8feb\u6da8\u4ef7\u3002\u8fd9\u662f capex \u70ed\u6f6e\u5728\u6210\u672c\u7aef\u7684\u538b\u529b\uff0c\u4e14\u5df2\u4f20\u5bfc\u5230\u7ec8\u7aef\u4e70\u5bb6\u80fd\u76f4\u63a5\u611f\u53d7\u5230\u7684\u5730\u65b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1629,
       "ts": 1782537261,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Leans Toward Waiting Until 2027 for IPO, NY Times Says - Bloomberg",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:51:55 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkg1QVpidFNWaE1oaHhGTkhXQ2hvZUQ0WUlJbUdiOGdkd2tfLXRyWnoxazQ3OHFQcURUR0R5Vm9OcWhnQjdadTI5NTJwbmxJNGJUdVlpcmRINk5rTzM1cmVBWHNuam1wb3A1R0tCdFBYU28yTVhMWDE2aXJjODlpM19XU0V3SGRqanlyUEF0TXB5bzJFUnllUzY5ejBwYjhOYVVFQWpkenNMNE13eWpDZA?oc=5\n\nOpenAI Leans Toward Waiting Until 2027 for IPO, NY Times Says - Bloomberg\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkg1QVpidFNWaE1oaHhGTkhXQ2hvZUQ0WUlJbUdiOGdkd2tfLXRyWnoxazQ3OHFQcURUR0R5Vm9OcWhnQjdadTI5NTJwbmxJNGJUdVlpcmRINk5rTzM1cmVBWHNuam1wb3A1R0tCdFBYU28yTVhMWDE2aXJjODlpM19XU0V3SGRqanlyUEF0TXB5bzJFUnllUzY5ejBwYjhOYVVFQWpkenNMNE13eWpDZA?oc=5\" target=\"_blank\">OpenAI Leans Toward Waiting Until 2027 for IPO, NY Times Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg report (citing the NY Times) says OpenAI is leaning toward waiting until 2027 for an IPO.\n\n\u5185\u5bb9:\nBloomberg \u63f4\u5f15 NY Times \u62a5\u9053\u79f0\uff0cOpenAI \u503e\u5411\u4e8e\u628a IPO \u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nDelaying the IPO to 2027 keeps OpenAI's financials private for longer, deferring the market's first hard look at its real burn rate and unit economics. For the AI-capex thesis it removes a near-term price-discovery event that could either validate or puncture the sector's valuations.\n\n\u5f71\u54cd:\n\u628a IPO \u63a8\u5230 2027 \u5e74\u610f\u5473\u7740 OpenAI \u7684\u8d22\u52a1\u72b6\u51b5\u4f1a\u66f4\u957f\u65f6\u95f4\u4e0d\u516c\u5f00\uff0c\u5e02\u573a\u5bf9\u5176\u771f\u5b9e\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u7684\u9996\u6b21\u4e25\u8083\u5ba1\u89c6\u4e5f\u968f\u4e4b\u5ef6\u540e\u3002\u5bf9 AI capex \u903b\u8f91\u800c\u8a00\uff0c\u8fd9\u62b9\u6389\u4e86\u4e00\u4e2a\u672c\u53ef\u8bc1\u5b9e\u6216\u6233\u7834\u6574\u4e2a\u677f\u5757\u4f30\u503c\u7684\u8fd1\u671f\u5b9a\u4ef7\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1431,
-      "ts": 1782422092,
-      "ts_str": "2026-06-25 21:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Could Reportedly Delay IPO After SpaceX Scare - BeInCrypto",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SEN0UEY2WjZSVEwxZW5FUjFvU2dOMUs0aWlQdUZxUW85emZ1YUxFY054eDlfSHVjVGJvcmljOXhZUE9hV3hsbWVyOFNidFQyYWNSV1Z0Slh5VVQtdjROVW80OUhSMkU3?oc=5\n\nOpenAI Could Reportedly Delay IPO After SpaceX Scare - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SEN0UEY2WjZSVEwxZW5FUjFvU2dOMUs0aWlQdUZxUW85emZ1YUxFY054eDlfSHVjVGJvcmljOXhZUE9hV3hsbWVyOFNidFQyYWNSV1Z0Slh5VVQtdjROVW80OUhSMkU3?oc=5\" target=\"_blank\">OpenAI Could Reportedly Delay IPO After SpaceX Scare</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA BeInCrypto headline reports OpenAI could delay its IPO after a \"SpaceX Scare\" \u2014 an unspecified event tied to SpaceX rattling the deal timeline.\n\n\u5185\u5bb9:\nBeInCrypto \u7684\u6807\u9898\u62a5\u9053\u79f0\uff0cOpenAI \u53ef\u80fd\u5728\u4e00\u6b21 \"SpaceX Scare\"\uff08\u4e0e SpaceX \u76f8\u5173\u7684\u7a81\u53d1\u4e8b\u4ef6\uff09\u4e4b\u540e\u63a8\u8fdf\u5176 IPO\u3002\n\nWhy it matters:\nAn OpenAI IPO is the marquee liquidity event the AI-capex cycle is leaning on to validate private valuations and fund the next spend wave. A delay signals the public market isn't ready to absorb the bubble's biggest name, which keeps the funding circle private and fragile.\n\n\u5f71\u54cd:\nOpenAI \u7684 IPO \u662f\u6574\u4e2a AI capex \u5468\u671f\u6240\u501a\u8d56\u7684\u6807\u5fd7\u6027\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u7528\u6765\u9a8c\u8bc1\u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u5e76\u4e3a\u4e0b\u4e00\u8f6e\u652f\u51fa\u7b79\u8d44\u3002\u63a8\u8fdf\u610f\u5473\u7740\u516c\u5f00\u5e02\u573a\u5c1a\u672a\u51c6\u5907\u597d\u6d88\u5316\u8fd9\u4e2a\u6ce1\u6cab\u4e2d\u6700\u5927\u7684\u540d\u5b57\uff0c\u8fd9\u4f1a\u8ba9\u878d\u8d44\u94fe\u6761\u7ee7\u7eed\u56f0\u5728\u79c1\u52df\u7aef\uff0c\u66f4\u663e\u8106\u5f31\u3002\n",
       "emailed": false
     }
   ],
