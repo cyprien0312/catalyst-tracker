@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782554524,
-  "generated_at_str": "2026-06-27 10:02:04 UTC",
-  "last_event_ts": 1782553458,
+  "generated_at": 1782554723,
+  "generated_at_str": "2026-06-27 10:05:23 UTC",
+  "last_event_ts": 1782554717,
   "tables": {
     "alerts_dedup": {
-      "count": 1629,
-      "last_ts": 1782553458,
-      "last_str": "2026-06-27 09:44:18 UTC"
+      "count": 1630,
+      "last_ts": 1782554717,
+      "last_str": "2026-06-27 10:05:17 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-27 09:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1071,
-      "last_ts": 1782552903,
-      "last_str": "2026-06-27 09:35:03 UTC"
+      "count": 1075,
+      "last_ts": 1782554702,
+      "last_str": "2026-06-27 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1272,
-      "last_ts": 1782552906,
-      "last_str": "2026-06-27 09:35:06 UTC"
+      "count": 1275,
+      "last_ts": 1782554703,
+      "last_str": "2026-06-27 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 809,
-      "last_ts": 1782547503,
-      "last_str": "2026-06-27 08:05:03 UTC"
+      "count": 810,
+      "last_ts": 1782554702,
+      "last_str": "2026-06-27 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1028,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1637,
+      "ts": 1782554717,
+      "ts_str": "2026-06-27 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] 2003-era DDR2 memory prices jump up to 60% - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 11:05:32 GMT\nLink:      https://news.google.com/rss/articles/CBMivAJBVV95cUxNb1NPbFluS204X1EwWktuV20zVEhRLXNoeUZLb250SnVFZmVBVG1UU0xsdzlXSUx3WTFRdHZqQXJJUUsxYmhadWdvVFQ3QUZPLURqVFFiVE5ObVNzRXp6N2NkV3lsaTF4RWlnY1hURnFQTEw3V3lzV0pScFpteUdnbDdBV0NEWElJbTd0LVM0MnR0ZkJOWUpBejFmQld4U0RCczR2a0UwRF94bHFXM1U2ZFlWSnR4SHkzT0k5TGVuVFNiTGdaMDRzSDJYbTMtRXVTNFZmYzRySkVOOUVZNzA2NGRLeGdsSXJJT2R6N0trVEhOYmZpcVRtV3FuUWRxSVdGeDhib2czNE9saXdOM1ZDcmtyMGhCd0JlRmFXd0ctc3RkcUpmWWtPLTRfWGFvVjhjVjcxVHlCWVhVNUNj?oc=5\n\n2003-era DDR2 memory prices jump up to 60% - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMivAJBVV95cUxNb1NPbFluS204X1EwWktuV20zVEhRLXNoeUZLb250SnVFZmVBVG1UU0xsdzlXSUx3WTFRdHZqQXJJUUsxYmhadWdvVFQ3QUZPLURqVFFiVE5ObVNzRXp6N2NkV3lsaTF4RWlnY1hURnFQTEw3V3lzV0pScFpteUdnbDdBV0NEWElJbTd0LVM0MnR0ZkJOWUpBejFmQld4U0RCczR2a0UwRF94bHFXM1U2ZFlWSnR4SHkzT0k5TGVuVFNiTGdaMDRzSDJYbTMtRXVTNFZmYzRySkVOOUVZNzA2NGRLeGdsSXJJT2R6N0trVEhOYmZpcVRtV3FuUWRxSVdGeDhib2czNE9saXdOM1ZDcmtyMGhCd0JlRmFXd0ctc3RkcUpmWWtPLTRfWGFvVjhjVjcxVHlCWVhVNUNj?oc=5\" target=\"_blank\">2003-era DDR2 memory prices jump up to 60%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline (via MSN) reports that prices for legacy 2003-era DDR2 memory have jumped up to 60%.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u7684\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0c2003 \u5e74\u65f6\u4ee3\u7684\u8001\u65e7 DDR2 \u5185\u5b58\u4ef7\u683c\u66b4\u6da8\u6700\u9ad8\u8fbe 60%\u3002\n\nWhy it matters:\nEven obsolete memory is spiking, which means AI-driven demand for current-gen HBM/DDR5 is so intense that fabs are reallocating capacity away from legacy nodes, squeezing the entire DRAM supply chain. Broad memory inflation is a real cost pressure on AI-capex and a sign the buildout is straining hardware supply.\n\n\u5f71\u54cd:\n\u8fde\u65e9\u5df2\u8fc7\u65f6\u7684\u5185\u5b58\u90fd\u5728\u6da8\u4ef7\uff0c\u8bf4\u660e AI \u9a71\u52a8\u7684\u65b0\u4e00\u4ee3 HBM/DDR5 \u9700\u6c42\u6781\u5176\u65fa\u76db\uff0c\u6676\u5706\u5382\u6b63\u628a\u4ea7\u80fd\u4ece\u8001\u5236\u7a0b\u8f6c\u79fb\u51fa\u53bb\uff0c\u6324\u538b\u6574\u4e2a DRAM \u4f9b\u5e94\u94fe\u3002\u5185\u5b58\u5168\u9762\u6da8\u4ef7\u5bf9 AI capex \u662f\u5b9e\u6253\u5b9e\u7684\u6210\u672c\u538b\u529b\uff0c\u4e5f\u8868\u660e\u8fd9\u8f6e\u5efa\u8bbe\u6b63\u5728\u62c9\u7d27\u786c\u4ef6\u4f9b\u7ed9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1636,
       "ts": 1782553458,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI considers pausing IPO pursuit until 2027: report - Seeking Alpha",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 21:30:17 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPOEVrR0tzb0QtTXhVeDZEX2d1RkZqSFcxMUdXenpqbVhaNVBPaHhjajAwYmtZcU9rYk1MUzE2ZTRIZUlSSTZYZFVnbFhNQ2Z0RkVuLUZwaUNJYkZPLTRFWHFydWZHXzRzX29tMFdQWDJYLS1ZcEVPWEhkcFRtQXVsbkg5eGQ3NTBWRW9CMDU5V25UOHI3bE00?oc=5\n\nOpenAI considers pausing IPO pursuit until 2027: report - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPOEVrR0tzb0QtTXhVeDZEX2d1RkZqSFcxMUdXenpqbVhaNVBPaHhjajAwYmtZcU9rYk1MUzE2ZTRIZUlSSTZYZFVnbFhNQ2Z0RkVuLUZwaUNJYkZPLTRFWHFydWZHXzRzX29tMFdQWDJYLS1ZcEVPWEhkcFRtQXVsbkg5eGQ3NTBWRW9CMDU5V25UOHI3bE00?oc=5\" target=\"_blank\">OpenAI considers pausing IPO pursuit until 2027: report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha report says OpenAI is considering pausing its IPO pursuit until 2027.\n\n\u5185\u5bb9:\n\u636e Seeking Alpha \u62a5\u9053\uff0cOpenAI \u6b63\u8003\u8651\u5c06 IPO \u8ba1\u5212\u63a8\u8fdf\u81f3 2027 \u5e74\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; delaying its IPO signals it doesn't want public-market scrutiny of its burn rate and cash needs yet. A weak or postponed listing removes a key funding and validation milestone the bull case relies on.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\uff1b\u63a8\u8fdf IPO \u8bf4\u660e\u5b83\u6682\u65f6\u4e0d\u613f\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u70e7\u94b1\u901f\u5ea6\u548c\u8d44\u91d1\u7f3a\u53e3\u3002\u4e0a\u5e02\u75b2\u8f6f\u6216\u63a8\u8fdf\uff0c\u610f\u5473\u7740\u591a\u5934\u903b\u8f91\u6240\u4f9d\u8d56\u7684\u5173\u952e\u878d\u8d44\u4e0e\u80cc\u4e66\u91cc\u7a0b\u7891\u88ab\u62bd\u8d70\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1436,
-      "ts": 1782423898,
-      "ts_str": "2026-06-25 21:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI eyes IPO delay to next year - Latest news from Azerbaijan",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 21:22:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFNUptcDlqbFBTMEN1NGRvU2JQbTRCSXdGU0JsX1kzVG9rb3NXVVh2c1g4aUZuOW8zNmlja2NiSC1mbmtWelM1Yk9rZmRyU3FHVWpqSjRnUnIxOXRSUG9SaWJTdjkxZw?oc=5\n\nOpenAI eyes IPO delay to next year - Latest news from Azerbaijan\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFNUptcDlqbFBTMEN1NGRvU2JQbTRCSXdGU0JsX1kzVG9rb3NXVVh2c1g4aUZuOW8zNmlja2NiSC1mbmtWelM1Yk9rZmRyU3FHVWpqSjRnUnIxOXRSUG9SaWJTdjkxZw?oc=5\" target=\"_blank\">OpenAI eyes IPO delay to next year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latest news from Azerbaijan</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item headlined \"OpenAI eyes IPO delay to next year\" surfaced in the C3 feed.\n\n\u5185\u5bb9:\nGoogle News RSS \u51fa\u73b0\u4e00\u6761\u6807\u9898\u4e3a \"OpenAI eyes IPO delay to next year\" \u7684\u65b0\u95fb\uff0c\u88ab C3 \u6293\u53d6\u3002\n\nWhy it matters:\nAn IPO slip signals the market window for the most prominent AI pure-play is tightening, or that OpenAI's financials aren't yet ready for public scrutiny. Delayed liquidity for the sector's flagship name is a soft stress signal for the AI-capex funding cycle.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740\u8fd9\u5bb6\u6700\u5177\u4ee3\u8868\u6027\u7684 AI \u7eaf\u6807\u7684\u7684\u4e0a\u5e02\u7a97\u53e3\u6b63\u5728\u6536\u7d27\uff0c\u6216\u8005 OpenAI \u7684\u8d22\u52a1\u72b6\u51b5\u8fd8\u4e0d\u8db3\u4ee5\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u3002\u884c\u4e1a\u65d7\u8230\u516c\u53f8\u7684\u6d41\u52a8\u6027\u5151\u73b0\u88ab\u63a8\u540e\uff0c\u662f AI capex \u878d\u8d44\u5468\u671f\u7684\u4e00\u4e2a\u6e29\u548c\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
