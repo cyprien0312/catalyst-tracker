@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782586925,
-  "generated_at_str": "2026-06-27 19:02:05 UTC",
-  "last_event_ts": 1782585856,
+  "generated_at": 1782587107,
+  "generated_at_str": "2026-06-27 19:05:07 UTC",
+  "last_event_ts": 1782587106,
   "tables": {
     "alerts_dedup": {
-      "count": 1636,
-      "last_ts": 1782585856,
-      "last_str": "2026-06-27 18:44:16 UTC"
+      "count": 1638,
+      "last_ts": 1782587106,
+      "last_str": "2026-06-27 19:05:06 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-27 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1116,
-      "last_ts": 1782585302,
-      "last_str": "2026-06-27 18:35:02 UTC"
+      "count": 1118,
+      "last_ts": 1782587102,
+      "last_str": "2026-06-27 19:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1320,
-      "last_ts": 1782585303,
-      "last_str": "2026-06-27 18:35:03 UTC"
+      "count": 1322,
+      "last_ts": 1782587105,
+      "last_str": "2026-06-27 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 850,
-      "last_ts": 1782585302,
-      "last_str": "2026-06-27 18:35:02 UTC"
+      "count": 854,
+      "last_ts": 1782587104,
+      "last_str": "2026-06-27 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1043,
-      "last_ts": 1782585305,
-      "last_str": "2026-06-27 18:35:05 UTC"
+      "count": 1044,
+      "last_ts": 1782587106,
+      "last_str": "2026-06-27 19:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12108,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1644,
+      "ts": 1782587106,
+      "ts_str": "2026-06-27 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 16:09:29 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\n\nMemory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\" target=\"_blank\">Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging memory prices are hitting Apple, with Tim Cook raising prices 20%.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u51b2\u51fb Apple\uff0cTim Cook \u5c06\u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) price spikes are a downstream symptom of AI-infrastructure demand crowding out consumer supply. When the cost pass-through reaches a consumer giant like Apple, the AI-capex boom is no longer contained to data centers \u2014 it's inflating the broader hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u66b4\u6da8\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u8513\u5ef6\u5230 Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u65f6\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\uff0c\u800c\u662f\u5f00\u59cb\u63a8\u9ad8\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u6210\u672c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1645,
+      "ts": 1782587106,
+      "ts_str": "2026-06-27 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 16:09:29 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\n\nMemory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\" target=\"_blank\">Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging memory prices are hitting Apple, with Tim Cook raising prices 20%.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u51b2\u51fb Apple\uff0cTim Cook \u5c06\u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) price spikes are a downstream symptom of AI-infrastructure demand crowding out consumer supply. When the cost pass-through reaches a consumer giant like Apple, the AI-capex boom is no longer contained to data centers \u2014 it's inflating the broader hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u66b4\u6da8\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u8513\u5ef6\u5230 Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u65f6\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\uff0c\u800c\u662f\u5f00\u59cb\u63a8\u9ad8\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1643,
       "ts": 1782585856,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Mulls Delaying IPO Until 2027: Report - Investor's Business Daily",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 22:28:00 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxNMEg5ek85WmpVWUk4REtQSmdoSEU5ekdNQ3MtRzlWUnVXYWZsS0xrbEFiSHc0RER6b0JyMnZvOTJZN1pHTmpnSjVCVGRyaEJsMFczOWlqY3hrZWlpRHFzUEpDeXNTdUJhSW92ZTAtQXU0cGdzM002aXAwbHdhMjk0eDlXLUlfc3BtNHVsQ2phWkNUR0RFSXdJeFJRYVZvdw?oc=5\n\nOpenAI Mulls Delaying IPO Until 2027: Report - Investor's Business Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNMEg5ek85WmpVWUk4REtQSmdoSEU5ekdNQ3MtRzlWUnVXYWZsS0xrbEFiSHc0RER6b0JyMnZvOTJZN1pHTmpnSjVCVGRyaEJsMFczOWlqY3hrZWlpRHFzUEpDeXNTdUJhSW92ZTAtQXU0cGdzM002aXAwbHdhMjk0eDlXLUlfc3BtNHVsQ2phWkNUR0RFSXdJeFJRYVZvdw?oc=5\" target=\"_blank\">OpenAI Mulls Delaying IPO Until 2027: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investor's Business Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports OpenAI is mulling delaying its IPO until 2027 (Investor's Business Daily).\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff08\u6d88\u606f\u6765\u6e90 Investor's Business Daily\uff09\u3002\n\nWhy it matters:\nAn IPO is the cleanest exit for OpenAI's investors and the cleanest mark-to-market for the whole AI-capex stack. Pushing it out signals the company doesn't think public markets would underwrite its valuation yet \u2014 a soft tell that private funding still has to carry the buildout, and that the bubble's biggest name is in no hurry to face daily price discovery.\n\n\u5f71\u54cd:\nIPO \u662f OpenAI \u6295\u8d44\u8005\u6700\u5e72\u51c0\u7684\u9000\u51fa\u901a\u9053\uff0c\u4e5f\u662f\u5bf9\u6574\u4e2a AI capex \u677f\u5757\u6700\u5e72\u51c0\u7684\u5e02\u573a\u5b9a\u4ef7\u3002\u63a8\u8fdf\u4e0a\u5e02\u610f\u5473\u7740\u516c\u53f8\u8ba4\u4e3a\u516c\u5f00\u5e02\u573a\u76ee\u524d\u8fd8\u4e0d\u613f\u4e3a\u5176\u4f30\u503c\u4e70\u5355\u2014\u2014\u8fd9\u6697\u793a\u8fd9\u8f6e\u57fa\u5efa\u6269\u5f20\u4ecd\u8981\u9760\u79c1\u52df\u8d44\u91d1\u786c\u6491\uff0c\u800c\u6ce1\u6cab\u91cc\u6700\u5927\u7684\u540d\u5b57\u4e5f\u5e76\u4e0d\u6025\u4e8e\u63a5\u53d7\u6bcf\u65e5\u7684\u4ef7\u683c\u68c0\u9a8c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1445,
-      "ts": 1782426554,
-      "ts_str": "2026-06-25 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.23% (+51bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-06-24\nCurrent:  2.23%\n90d low:  1.72%\nMove:     +51bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real yield (REAL10) spiked to 2.23% on 2026-06-24, up 0.51 points from its trailing low of 1.72%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387 (REAL10) \u5728 2026-06-24 \u8df3\u5347\u81f3 2.23%\uff0c\u8f83\u6b64\u524d\u4f4e\u70b9 1.72% \u4e0a\u5347\u4e86 0.51 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nHigher real yields raise the discount rate on long-duration AI-capex bets, where payback is years out. A 51bp jump compresses the present value of future data-center returns and tightens financing for debt-funded buildouts \u2014 direct pressure on the bubble.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u62ac\u5347\u4e86\u5bf9\u957f\u4e45\u671f AI capex \u62bc\u6ce8\u7684\u8d34\u73b0\u7387\uff0c\u800c\u8fd9\u7c7b\u6295\u8d44\u7684\u56de\u672c\u5468\u671f\u672c\u5c31\u8981\u597d\u51e0\u5e74\u300251 \u4e2a\u57fa\u70b9\u7684\u8df3\u5347\u538b\u7f29\u4e86\u672a\u6765\u6570\u636e\u4e2d\u5fc3\u6536\u76ca\u7684\u73b0\u503c\uff0c\u4e5f\u6536\u7d27\u4e86\u9760\u4e3e\u503a\u6269\u5f20\u7684\u878d\u8d44\u6761\u4ef6\u2014\u2014\u5bf9\u6ce1\u6cab\u6784\u6210\u76f4\u63a5\u538b\u529b\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 1441,
-      "ts": 1782425691,
-      "ts_str": "2026-06-25 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI May Delay Its IPO To 2027, Report Says - Forbes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 22:10:48 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmM2alI4UkwtRGpPdF9uT0dfaWF2WmN2SEdQa184QUpHNDk3SXk2WjJzSm5MMXQ3Mjk4Y3BXd3N3NThCM1d6NlczbTQtVmtlaHExd0FtWVRzdkRKM0xadWNsOVdyWlV6TWZBNXdXVHphVFNHM0MxXzhBekhNTFFPNjlkaVF1MV9PNkRodzdCakV4OC00ZXY5S3N1eC00LXVUQVNRbTZRaXgxMUZEVUptYkR5eWlyMDB5c2JkcXFTTXJMMFdhX3c?oc=5\n\nOpenAI May Delay Its IPO To 2027, Report Says - Forbes\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmM2alI4UkwtRGpPdF9uT0dfaWF2WmN2SEdQa184QUpHNDk3SXk2WjJzSm5MMXQ3Mjk4Y3BXd3N3NThCM1d6NlczbTQtVmtlaHExd0FtWVRzdkRKM0xadWNsOVdyWlV6TWZBNXdXVHphVFNHM0MxXzhBekhNTFFPNjlkaVF1MV9PNkRodzdCakV4OC00ZXY5S3N1eC00LXVUQVNRbTZRaXgxMUZEVUptYkR5eWlyMDB5c2JkcXFTTXJMMFdhX3c?oc=5\" target=\"_blank\">OpenAI May Delay Its IPO To 2027, Report Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Forbes report says OpenAI may delay its IPO to 2027.\n\n\u5185\u5bb9:\nForbes \u62a5\u9053\u79f0\uff0cOpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA pushed-out IPO timeline signals OpenAI is in no rush to face public-market scrutiny of its cash burn and capex commitments \u2014 or can't yet show numbers that would survive it. It keeps the single largest AI-capex driver funded by private rounds rather than disciplined public markets, prolonging the bubble's runway.\n\n\u5f71\u54cd:\nIPO \u65f6\u95f4\u8868\u540e\u79fb\u8bf4\u660e OpenAI \u5e76\u4e0d\u6025\u4e8e\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u73b0\u91d1\u6d88\u8017\u548c\u8d44\u672c\u5f00\u652f\u627f\u8bfa\u7684\u5ba1\u89c6\u2014\u2014\u6216\u8005\u8fd8\u62ff\u4e0d\u51fa\u7ecf\u5f97\u8d77\u5ba1\u89c6\u7684\u8d22\u52a1\u6570\u636e\u3002\u8fd9\u8ba9\u8fd9\u4e2a\u6700\u5927\u7684 AI capex \u63a8\u624b\u7ee7\u7eed\u9760\u79c1\u52df\u878d\u8d44\u8f93\u8840\uff0c\u800c\u975e\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u7eaa\u5f8b\u7ea6\u675f\uff0c\u7b49\u4e8e\u5ef6\u957f\u4e86\u6ce1\u6cab\u7684\u7eed\u547d\u65f6\u95f4\u3002\n",
       "emailed": false
     }
   ],
