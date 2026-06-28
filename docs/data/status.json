@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782682863,
-  "generated_at_str": "2026-06-28 21:41:03 UTC",
-  "last_event_ts": 1782682505,
+  "generated_at": 1782683085,
+  "generated_at_str": "2026-06-28 21:44:45 UTC",
+  "last_event_ts": 1782683084,
   "tables": {
     "alerts_dedup": {
-      "count": 1679,
-      "last_ts": 1782675315,
-      "last_str": "2026-06-28 19:35:15 UTC"
+      "count": 1682,
+      "last_ts": 1782683084,
+      "last_str": "2026-06-28 21:44:44 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-28 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12324,
-      "last_ts": 1782681243,
-      "last_str": "2026-06-28 21:14:03 UTC"
+      "count": 12329,
+      "last_ts": 1782683042,
+      "last_str": "2026-06-28 21:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1687,
+      "ts": 1782683084,
+      "ts_str": "2026-06-28 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Nikkei 225 Weekly Review: Japan's Benchmark Plunges 4.15% as SoftBank Loses 13% on OpenAI IPO Delay - BBN Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 20:03:31 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWo5OEZkeGNwRWFwUVl1WjFtT0pKd2pqVEVvcGJxalQ5UDZMeUtzNHlIMllJYTZ3dU1OdXlGY19IVEdqTFBqUDVCenBCTTNnSXR0cWhqRzFUbXFGM0JXUW41cU01VTNmYVhvdlRnRXY3bzZhOGhuY3AzSkNnWmZQVi1vcWZyUVBpbUM0RmxORDd5V0tNWTZBNzV6a05YZEJsOXZSZlhDMzZNRkNYZEFtcFV6UnpvWVBOcjNueXdfY21oTmZ3UVFQaWF5TzBTTl93eGc?oc=5\n\nNikkei 225 Weekly Review: Japan's Benchmark Plunges 4.15% as SoftBank Loses 13% on OpenAI IPO Delay - BBN Times\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWo5OEZkeGNwRWFwUVl1WjFtT0pKd2pqVEVvcGJxalQ5UDZMeUtzNHlIMllJYTZ3dU1OdXlGY19IVEdqTFBqUDVCenBCTTNnSXR0cWhqRzFUbXFGM0JXUW41cU01VTNmYVhvdlRnRXY3bzZhOGhuY3AzSkNnWmZQVi1vcWZyUVBpbUM0RmxORDd5V0tNWTZBNzV6a05YZEJsOXZSZlhDMzZNRkNYZEFtcFV6UnpvWVBOcjNueXdfY21oTmZ3UVFQaWF5TzBTTl93eGc?oc=5\" target=\"_blank\">Nikkei 225 Weekly Review: Japan's Benchmark Plunges 4.15% as SoftBank Loses 13% on OpenAI IPO Delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBN Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline via the C3 feed: the Nikkei 225 fell 4.15% in a week as SoftBank dropped 13% on news of an OpenAI IPO delay.\n\n\u5185\u5bb9:\nC3 \u4fe1\u53f7\u6e90\u6355\u83b7\u7684 Google News \u5934\u6761\uff1a\u56e0 OpenAI IPO \u63a8\u8fdf\u7684\u6d88\u606f\uff0cNikkei 225 \u4e00\u5468\u4e0b\u8dcc 4.15%\uff0cSoftBank \u5355\u5468\u91cd\u632b 13%\u3002\n\nWhy it matters:\nSoftBank is the most levered public proxy for the OpenAI/AI-capex trade, so a 13% single-name drop on an IPO slip shows the market repricing AI exposure faster than the index. An OpenAI IPO delay removes a key liquidity event the whole private-AI funding chain was counting on \u2014 bearish for the bubble-sustaining capital cycle.\n\n\u5f71\u54cd:\nSoftBank \u662f\u516c\u5f00\u5e02\u573a\u4e0a\u5bf9 OpenAI\uff0fAI capex \u62bc\u6ce8\u6760\u6746\u6700\u9ad8\u7684\u4ee3\u7406\u6807\u7684\uff0c\u5355\u53ea\u80a1\u7968\u56e0 IPO \u5ef6\u671f\u8dcc 13%\u3001\u8fdc\u8d85\u6307\u6570\u8dcc\u5e45\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u52a0\u901f\u91cd\u65b0\u5b9a\u4ef7 AI \u655e\u53e3\u3002OpenAI IPO \u63a8\u8fdf\u62bd\u8d70\u4e86\u6574\u6761\u79c1\u52df AI \u878d\u8d44\u94fe\u6240\u4f9d\u8d56\u7684\u5173\u952e\u6d41\u52a8\u6027\u9000\u51fa\u4e8b\u4ef6\u2014\u2014\u5bf9\u652f\u6491\u6ce1\u6cab\u7684\u8d44\u672c\u5faa\u73af\u662f\u5229\u7a7a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1688,
+      "ts": 1782683084,
+      "ts_str": "2026-06-28 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] S&P 500 Weekly Review: US Benchmark Slides Nearly 2% as AI Spending Doubts and OpenAI IPO Delay Report Trigger Worst Tec",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 19:39:03 GMT\nLink:      https://news.google.com/rss/articles/CBMihwJBVV95cUxOUXhwZm9ZVVBhdjhZSU9Yc1RSTXNCTmswakk1VVQ5aTVKaXBmUDNha05ZLW45R0NMZzhucFgxLXBQTC1MOVo3LVJYUWhqOUNENDZnSVlMcVVHTTFBVVRqYkxITjhtRUZfbHdsQkZ6VER0dndWdHloTEUzVkNHYWdtTlZ5U0hJOXRmQnFxbUloMnB0N0pJOHNmV1lSUVJlalgyZVB4YTdqRU1RRWF6RDQ2WG12UWc0UFE0bjBoLUo0VE9TYWh0TE5uOXZ5SFBfVGJHR2JZU05QNVdCTV9kOWk0bGs0ZzRXQV9zYWhieU1xRXVBUmNvTE5IQU1fYzROZWV6cWtYbFEzOA?oc=5\n\nS&P 500 Weekly Review: US Benchmark Slides Nearly 2% as AI Spending Doubts and OpenAI IPO Delay Report Trigger Worst Tech Sell-Off Since Spring - BBN Times\n\n<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxOUXhwZm9ZVVBhdjhZSU9Yc1RSTXNCTmswakk1VVQ5aTVKaXBmUDNha05ZLW45R0NMZzhucFgxLXBQTC1MOVo3LVJYUWhqOUNENDZnSVlMcVVHTTFBVVRqYkxITjhtRUZfbHdsQkZ6VER0dndWdHloTEUzVkNHYWdtTlZ5U0hJOXRmQnFxbUloMnB0N0pJOHNmV1lSUVJlalgyZVB4YTdqRU1RRWF6RDQ2WG12UWc0UFE0bjBoLUo0VE9TYWh0TE5uOXZ5SFBfVGJHR2JZU05QNVdCTV9kOWk0bGs0ZzRXQV9zYWhieU1xRXVBUmNvTE5IQU1fYzROZWV6cWtYbFEzOA?oc=5\" target=\"_blank\">S&amp;P 500 Weekly Review: US Benchmark Slides Nearly 2% as AI Spending Doubts and OpenAI IPO Delay Report Trigger Worst Tech Sell-Off Since Spring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBN Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports the S&P 500 fell nearly 2% on the week \u2014 its worst tech sell-off since spring \u2014 driven by AI-spending doubts and a report that the OpenAI IPO is delayed.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u5934\u6761\u79f0\uff0cS&P 500 \u672c\u5468\u4e0b\u8dcc\u8fd1 2%\uff0c\u4e3a spring \u4ee5\u6765\u6700\u4e25\u91cd\u7684\u79d1\u6280\u80a1\u629b\u552e\uff0c\u5bfc\u706b\u7d22\u662f\u5e02\u573a\u5bf9 AI \u652f\u51fa\u7684\u8d28\u7591\u4ee5\u53ca OpenAI IPO \u63a8\u8fdf\u7684\u62a5\u9053\u3002\n\nWhy it matters:\nTwo of the bull case's load-bearing assumptions are wobbling at once: that AI capex pays back, and that a marquee OpenAI listing will validate private-market marks. A broad-index drawdown tied specifically to those doubts is the market starting to price the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u591a\u5934\u903b\u8f91\u4e2d\u4e24\u4e2a\u6700\u5173\u952e\u7684\u652f\u67f1\u540c\u65f6\u677e\u52a8\uff1aAI capex \u80fd\u56de\u672c\uff0c\u4ee5\u53ca OpenAI \u7684\u6807\u5fd7\u6027\u4e0a\u5e02\u80fd\u4e3a\u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u80cc\u4e66\u3002\u5927\u76d8\u6307\u6570\u56e0\u8fd9\u4e9b\u8d28\u7591\u800c\u56de\u8c03\uff0c\u610f\u5473\u7740\u5e02\u573a\u5f00\u59cb\u4e3a\u6ce1\u6cab\u627f\u538b\u7684\u903b\u8f91\u5b9a\u4ef7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1689,
+      "ts": 1782683084,
+      "ts_str": "2026-06-28 21:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Nasdaq Weekly Review: Tech-Heavy Index Tumbles 4.6% in Worst Week Since Spring as OpenAI IPO Delay and AI Spending Doubt",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 19:52:05 GMT\nLink:      https://news.google.com/rss/articles/CBMihAJBVV95cUxON2lzajVKeDRRN0ladVptZzJUV1FycWpGUjZwSFRBZGF2MmxhdmJfLW9WMllXaUlFckFJcnN1Yy1TXzdGNS1UTVIyYWtmUjcycDVxNDNFQUVtTXlMY0xkakc1STNWTGVVaEltUHBjUzNKVnh3Zy1WbFpMMGIwRGZ1YkpwRVM3czU4aVlVSnZ5RVBld3J0MS1VbjhpcTBWa05PN0t1TkVPckJGbG50WENHVEQ1TTg5MVF2UW02U1FGMnV5Rk1TZVRaenQ2elIzXzJiNUZNTkNNaVd4OG1OaE9pYjNEbDBNMEZGZjJuVjN4aEZ0Uk9uMjVmblhad0lPZVBvV3pkag?oc=5\n\nNasdaq Weekly Review: Tech-Heavy Index Tumbles 4.6% in Worst Week Since Spring as OpenAI IPO Delay and AI Spending Doubts Hammer Chip Stocks - BBN Times\n\n<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxON2lzajVKeDRRN0ladVptZzJUV1FycWpGUjZwSFRBZGF2MmxhdmJfLW9WMllXaUlFckFJcnN1Yy1TXzdGNS1UTVIyYWtmUjcycDVxNDNFQUVtTXlMY0xkakc1STNWTGVVaEltUHBjUzNKVnh3Zy1WbFpMMGIwRGZ1YkpwRVM3czU4aVlVSnZ5RVBld3J0MS1VbjhpcTBWa05PN0t1TkVPckJGbG50WENHVEQ1TTg5MVF2UW02U1FGMnV5Rk1TZVRaenQ2elIzXzJiNUZNTkNNaVd4OG1OaE9pYjNEbDBNMEZGZjJuVjN4aEZ0Uk9uMjVmblhad0lPZVBvV3pkag?oc=5\" target=\"_blank\">Nasdaq Weekly Review: Tech-Heavy Index Tumbles 4.6% in Worst Week Since Spring as OpenAI IPO Delay and AI Spending Doubts Hammer Chip Stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBN Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google-News RSS item (BBN Times) reports the Nasdaq fell 4.6% \u2014 its worst week since spring \u2014 as an OpenAI IPO delay and doubts about AI spending hit chip stocks.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee (BBN Times) \u62a5\u9053 Nasdaq \u5355\u5468\u4e0b\u8dcc 4.6%\u2014\u2014\u4e3a\u4eca\u6625\u4ee5\u6765\u6700\u5dee\u4e00\u5468\u2014\u2014\u8d77\u56e0\u662f OpenAI IPO \u63a8\u8fdf\u4ee5\u53ca\u5bf9 AI \u652f\u51fa\u7684\u8d28\u7591\u6253\u538b\u4e86\u82af\u7247\u80a1\u3002\n\nWhy it matters:\nTwo of the thesis's pressure points show up in one headline: the OpenAI funding/liquidity event slipping, and the market repricing AI-capex on doubt rather than data. A 4.6% tech-led drop concentrated in chips is the equity market starting to question payback, not just individual names.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u6807\u9898\u540c\u65f6\u89e6\u53ca\u8be5\u8bba\u70b9\u7684\u4e24\u4e2a\u538b\u529b\u70b9\uff1aOpenAI \u7684\u878d\u8d44/\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u63a8\u8fdf\uff0c\u4ee5\u53ca\u5e02\u573a\u5f00\u59cb\u57fa\u4e8e\u8d28\u7591\uff08\u800c\u975e\u786c\u6570\u636e\uff09\u91cd\u65b0\u7ed9 AI capex \u5b9a\u4ef7\u30024.6% \u7684\u79d1\u6280\u80a1\u9886\u8dcc\u3001\u4e14\u96c6\u4e2d\u5728\u82af\u7247\u80a1\uff0c\u8bf4\u660e\u80a1\u7968\u5e02\u573a\u5df2\u7ecf\u5728\u8d28\u7591\u56de\u672c\u903b\u8f91\uff0c\u800c\u4e0d\u53ea\u662f\u4e2a\u522b\u516c\u53f8\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1686,
       "ts": 1782675315,
@@ -2239,36 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple hikes prices as memory chip costs skyrocket - Reuters",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:17:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcWMtLWRVNlJjVkpBekRsOU5UdkYzUVllRW1jQnlwamNTSE9Bdm8xS1cwekZRMXQzVEh3NjZPUFk4cFEtTkFldmlNM044Wlp4YXhCRkRIdXo2SGNyNTF4bS01ejdoR1E?oc=5\n\nApple hikes prices as memory chip costs skyrocket - Reuters\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XcWMtLWRVNlJjVkpBekRsOU5UdkYzUVllRW1jQnlwamNTSE9Bdm8xS1cwekZRMXQzVEh3NjZPUFk4cFEtTkFldmlNM044Wlp4YXhCRkRIdXo2SGNyNTF4bS01ejdoR1E?oc=5\" target=\"_blank\">Apple hikes prices as memory chip costs skyrocket</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters reports Apple is raising product prices as memory chip costs skyrocket.\n\n\u5185\u5bb9:\n\u636e Reuters \u62a5\u9053\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\u800c\u4e0a\u8c03\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) pricing is being squeezed by AI datacenter demand hoarding HBM and DRAM supply. When that cost passes through to consumer hardware like Apple's, it confirms the AI-capex buildout is creating real component scarcity and inflation outside the datacenter \u2014 a sign the spend is straining the broader supply chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6324\u538b\u2014\u2014HBM \u548c DRAM \u4f9b\u7ed9\u88ab\u5927\u91cf\u56e4\u79ef\u3002\u5f53\u8fd9\u90e8\u5206\u6210\u672c\u4f20\u5bfc\u5230 Apple \u8fd9\u7c7b\u6d88\u8d39\u786c\u4ef6\u4e0a\uff0c\u5c31\u8bc1\u5b9e AI capex \u6269\u5f20\u6b63\u5728\u6570\u636e\u4e2d\u5fc3\u4e4b\u5916\u5236\u9020\u771f\u5b9e\u7684\u96f6\u90e8\u4ef6\u77ed\u7f3a\u548c\u6da8\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u5df2\u7ecf\u5f00\u59cb\u6324\u538b\u66f4\u5e7f\u6cdb\u7684\u4f9b\u5e94\u94fe\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1489,
-      "ts": 1782461139,
-      "ts_str": "2026-06-26 08:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple hikes MacBook, iPad prices by 20-42% amid memory chip shortage - YourStory.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:25:52 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxQalBqc19TWEY1ZDdtejZlOHlvWFRxa25aN1BBUmcxcnZTbWhtX2RFVWxZZXRMUS0zZzl2M2ZuMGhpUFBVX1BRcVFxYzZKdldYLVp2UmVlTmRqYkFEWnVvQXlQc1paX1ZOQWkwbTd2bGd6c1paemF5TkdtbVNiSlh2QWZ2a2xpdUFtTzFBaU9LVjV1QTFJcjJ6SDhmRHVidw?oc=5\n\nApple hikes MacBook, iPad prices by 20-42% amid memory chip shortage - YourStory.com\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQalBqc19TWEY1ZDdtejZlOHlvWFRxa25aN1BBUmcxcnZTbWhtX2RFVWxZZXRMUS0zZzl2M2ZuMGhpUFBVX1BRcVFxYzZKdldYLVp2UmVlTmRqYkFEWnVvQXlQc1paX1ZOQWkwbTd2bGd6c1paemF5TkdtbVNiSlh2QWZ2a2xpdUFtTzFBaU9LVjV1QTFJcjJ6SDhmRHVidw?oc=5\" target=\"_blank\">Apple hikes MacBook, iPad prices by 20-42% amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YourStory.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising MacBook and iPad prices by 20-42% because of a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06 MacBook \u548c iPad \u4ef7\u683c\u4e0a\u8c03 20-42%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being bid away from consumer hardware to feed AI-server demand, and the squeeze is now large enough to force visible end-product price hikes. Confirms AI-capex is crowding out the rest of the supply chain \u2014 a real-economy spillover of the buildout.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u6b63\u88ab\u4ece\u6d88\u8d39\u7ea7\u786c\u4ef6\u62bd\u8d70\u4ee5\u6ee1\u8db3 AI \u670d\u52a1\u5668\u9700\u6c42\uff0c\u6324\u538b\u7a0b\u5ea6\u5df2\u5927\u5230\u8feb\u4f7f\u7ec8\u7aef\u4ea7\u54c1\u516c\u5f00\u6da8\u4ef7\u3002\u8fd9\u5370\u8bc1\u4e86 AI capex \u6b63\u5728\u6324\u5360\u4f9b\u5e94\u94fe\u5176\u4f59\u73af\u8282\u2014\u2014\u662f\u8fd9\u8f6e\u5efa\u8bbe\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u5b9e\u8bc1\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1490,
-      "ts": 1782461139,
-      "ts_str": "2026-06-26 08:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple shares fall 6% after price hike due memory chip shortages - Lapaas Voice",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:35:21 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPNXppRkNYeFNHcjhVcExlOW5SODY2QmVZNGYtVGFxaExabTI2aENGckEyUDhXU3FBOVE3Q2JYWXptY0I4TW51TDFJTWZZS0lfZVJIN3MxeUsteXd4c2ZsTUxyaHBOMVUybDRtQTRfTHNKQzMyUWtRQXhmdkZhRGpnbEdoZzFGbThrUnlGVWVkSmJSQQ?oc=5\n\nApple shares fall 6% after price hike due memory chip shortages - Lapaas Voice\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPNXppRkNYeFNHcjhVcExlOW5SODY2QmVZNGYtVGFxaExabTI2aENGckEyUDhXU3FBOVE3Q2JYWXptY0I4TW51TDFJTWZZS0lfZVJIN3MxeUsteXd4c2ZsTUxyaHBOMVUybDRtQTRfTHNKQzMyUWtRQXhmdkZhRGpnbEdoZzFGbThrUnlGVWVkSmJSQQ?oc=5\" target=\"_blank\">Apple shares fall 6% after price hike due memory chip shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lapaas Voice</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple (AAPL) shares fell 6% after raising prices, with the hike attributed to memory chip shortages.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u663e\u793a\uff0cApple (AAPL) \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u540e\uff0c\u80a1\u4ef7\u4e0b\u8dcc 6%\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being absorbed by AI datacenter buildout, and the shortage is now bleeding into consumer hardware pricing. When an AI-capex supply squeeze forces a non-AI giant like Apple to raise prices and take a stock hit, it shows the spend cycle is distorting the broader hardware market \u2014 a second-order bubble-stress signal.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u77ed\u7f3a\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f15\u53d1\u7684\u4f9b\u7ed9\u7d27\u5f20\u8feb\u4f7f Apple \u8fd9\u79cd\u975e AI \u5de8\u5934\u6da8\u4ef7\u5e76\u56e0\u6b64\u627f\u53d7\u80a1\u4ef7\u4e0b\u8dcc\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u5468\u671f\u6b63\u5728\u626d\u66f2\u6574\u4e2a\u786c\u4ef6\u5e02\u573a\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u4e8c\u9636\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1486,
-      "ts": 1782459865,
-      "ts_str": "2026-06-26 07:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI postpones GPT-5.6 and IPO: why? - Techzine Global",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:21:52 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGlfaG5lb0N4Sl9nMUZxdld3U2xENkNCNE43WVdZWFY4N2NLaVh1RDE2UjlRb3E0NmV2RHl3T2t0c3NzaXBGX0dDR1hnZTlWUm51NkVhSm0tNklrOE1kcldTaWwyRmNtbjgzRFZZcTJoOUhlSkNuZ2NiQk9SZVJfZWYwbjVFbEs5TW5jWk9sWQ?oc=5\n\nOpenAI postpones GPT-5.6 and IPO: why? - Techzine Global\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGlfaG5lb0N4Sl9nMUZxdld3U2xENkNCNE43WVdZWFY4N2NLaVh1RDE2UjlRb3E0NmV2RHl3T2t0c3NzaXBGX0dDR1hnZTlWUm51NkVhSm0tNklrOE1kcldTaWwyRmNtbjgzRFZZcTJoOUhlSkNuZ2NiQk9SZVJfZWYwbjVFbEs5TW5jWk9sWQ?oc=5\" target=\"_blank\">OpenAI postpones GPT-5.6 and IPO: why?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Techzine Global</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
