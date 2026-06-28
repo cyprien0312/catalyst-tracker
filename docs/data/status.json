@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782673862,
-  "generated_at_str": "2026-06-28 19:11:02 UTC",
-  "last_event_ts": 1782673685,
+  "generated_at": 1782674081,
+  "generated_at_str": "2026-06-28 19:14:41 UTC",
+  "last_event_ts": 1782674079,
   "tables": {
     "alerts_dedup": {
-      "count": 1675,
-      "last_ts": 1782670456,
-      "last_str": "2026-06-28 18:14:16 UTC"
+      "count": 1678,
+      "last_ts": 1782674079,
+      "last_str": "2026-06-28 19:14:39 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-28 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12302,
-      "last_ts": 1782672242,
-      "last_str": "2026-06-28 18:44:02 UTC"
+      "count": 12308,
+      "last_ts": 1782674042,
+      "last_str": "2026-06-28 19:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1683,
+      "ts": 1782674079,
+      "ts_str": "2026-06-28 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 18:02:17 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlBadnctSEVBejhqVHozanlCd3QzRk04YzF6RTlmNlF2NmJMYlpLRDRqb0hFemhKZGN0U182WjFmQVJnaUs3NTAtaTdOelR5TXhyQVBNU3JWc05wcXRfblJZYllMMURzX1BOelczMTFPd21pSWgzOEoyQUNtZEphSEc3bDgtWXJr?oc=5\n\nOpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlBadnctSEVBejhqVHozanlCd3QzRk04YzF6RTlmNlF2NmJMYlpLRDRqb0hFemhKZGN0U182WjFmQVJnaUs3NTAtaTdOelR5TXhyQVBNU3JWc05wcXRfblJZYllMMURzX1BOelczMTFPd21pSWgzOEoyQUNtZEphSEc3bDgtWXJr?oc=5\" target=\"_blank\">OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is considering delaying its IPO, citing SpaceX's stock volatility as a major reason.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u6b63\u8003\u8651\u63a8\u8fdf\u5176 IPO\uff0c\u5e76\u628a SpaceX \u80a1\u4ef7\u7684\u5267\u70c8\u6ce2\u52a8\u5217\u4e3a\u4e3b\u8981\u539f\u56e0\u3002\n\nWhy it matters:\nAn IPO delay signals OpenAI doubts public markets will price it as richly as private rounds \u2014 a crack in the AI valuation story. Pointing to SpaceX's volatility as the cause admits that even marquee private names now face skittish demand, which is bearish for the late-stage AI funding pipeline.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u8bf4\u660e OpenAI \u62c5\u5fc3\u516c\u5f00\u5e02\u573a\u7ed9\u4e0d\u51fa\u79c1\u52df\u8f6e\u90a3\u6837\u7684\u9ad8\u4f30\u503c\uff0c\u662f AI \u4f30\u503c\u53d9\u4e8b\u51fa\u73b0\u88c2\u7f1d\u7684\u4fe1\u53f7\u3002\u628a\u539f\u56e0\u5f52\u5230 SpaceX \u7684\u6ce2\u52a8\u4e0a\uff0c\u7b49\u4e8e\u627f\u8ba4\u8fde\u660e\u661f\u79c1\u8425\u516c\u53f8\u73b0\u5728\u90fd\u9762\u4e34\u9700\u6c42\u4e0d\u7a33\uff0c\u5bf9\u540e\u671f AI \u878d\u8d44\u94fe\u6761\u662f\u5229\u7a7a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1684,
+      "ts": 1782674079,
+      "ts_str": "2026-06-28 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Morgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 07:31:38 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVVKMmNQbXBiVk9RVk8tNzdTQmo3Umd5clJnMU1HLXg2cTBtdVFMU2dvWVhyak1RaWdJTTQzcUxYZlNGNzhoQTZVOXQ3Ym5rdDBCOWgycU92ZHdpTlAtZThnRVFSWWt1RHJrM0p2UUN0Q2xhS0VsbjR0Mkx6dG1MMVozRlJCbEVmVFNWdHppVFF3bVE3ZlNWc014d0EtTGJvSVVXU1loakd1UnEtZHhKRG1vT01wRG9wa3dhZkZMZHE?oc=5\n\nMorgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVVKMmNQbXBiVk9RVk8tNzdTQmo3Umd5clJnMU1HLXg2cTBtdVFMU2dvWVhyak1RaWdJTTQzcUxYZlNGNzhoQTZVOXQ3Ym5rdDBCOWgycU92ZHdpTlAtZThnRVFSWWt1RHJrM0p2UUN0Q2xhS0VsbjR0Mkx6dG1MMVozRlJCbEVmVFNWdHppVFF3bVE3ZlNWc014d0EtTGJvSVVXU1loakd1UnEtZHhKRG1vT01wRG9wa3dhZkZMZHE?oc=5\" target=\"_blank\">Morgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley and Goldman Sachs shares fell on reports of a possible delay to OpenAI's IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u53ef\u80fd\u63a8\u8fdf\uff0cMorgan Stanley \u4e0e Goldman Sachs \u80a1\u4ef7\u5e94\u58f0\u4e0b\u8dcc\u3002\n\nWhy it matters:\nBank stocks are now trading as a proxy for the AI-IPO pipeline \u2014 the underwriting fees and deal flow are priced in. A wobble on OpenAI's listing timing hitting MS/GS shows how much of the financial complex is leaning on a single AI flotation actually happening.\n\n\u5f71\u54cd:\n\u94f6\u884c\u80a1\u5982\u4eca\u6210\u4e86 AI IPO \u7ba1\u9053\u7684\u4ee3\u7406\u6807\u7684\u2014\u2014\u627f\u9500\u8d39\u548c\u4ea4\u6613\u6d41\u6c34\u5df2\u88ab\u8ba1\u5165\u4f30\u503c\u3002OpenAI \u4e0a\u5e02\u65f6\u95f4\u4e00\u6709\u52a8\u6447\u5c31\u51b2\u51fb MS/GS \u80a1\u4ef7\uff0c\u8bf4\u660e\u6574\u4e2a\u91d1\u878d\u4f53\u7cfb\u6709\u591a\u5927\u7a0b\u5ea6\u62bc\u6ce8\u5728\u8fd9\u4e00\u6869 AI \u4e0a\u5e02\u80fd\u5426\u771f\u6b63\u843d\u5730\u4e0a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1685,
+      "ts": 1782674079,
+      "ts_str": "2026-06-28 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Is the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors - Stocks Down Under",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 19:00:21 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE02REtBcjI5WlpZTW9SNHdqZzVkdm1KN3licldhOUtWLUNOclREYkZ3SVN2YmVNTENKSkF4WDZhZDVjbHNsbVlmUUp4bWFNaUlxMVBveHhRcEV6X3RYRmNmcFgzMDJOU19fMERpd2ZXcnJIY3VmWXluVFVLbw?oc=5\n\nIs the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors - Stocks Down Under\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE02REtBcjI5WlpZTW9SNHdqZzVkdm1KN3licldhOUtWLUNOclREYkZ3SVN2YmVNTENKSkF4WDZhZDVjbHNsbVlmUUp4bWFNaUlxMVBveHhRcEV6X3RYRmNmcFgzMDJOU19fMERpd2ZXcnJIY3VmWXluVFVLbw?oc=5\" target=\"_blank\">Is the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocks Down Under</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Stocks Down Under headline asks \"Is the AI IPO Boom Cooling?\" and frames OpenAI's delay as a warning for ASX tech investors.\n\n\u5185\u5bb9:\nStocks Down Under \u7684\u4e00\u5219\u6807\u9898\u53d1\u95ee\"AI IPO \u70ed\u6f6e\u662f\u5426\u6b63\u5728\u964d\u6e29?\",\u5e76\u628a OpenAI \u7684\u63a8\u8fdf\u89e3\u8bfb\u4e3a\u5bf9 ASX \u79d1\u6280\u80a1\u6295\u8d44\u8005\u7684\u8b66\u793a\u3002\n\nWhy it matters:\nMedia reframing of an OpenAI timeline slip as a sector-wide \"is the boom cooling\" question is the kind of sentiment shift that precedes repricing \u2014 narrative momentum is what holds richly-valued AI names up, and coverage turning skeptical is an early crack.\n\n\u5f71\u54cd:\n\u5a92\u4f53\u628a OpenAI \u65f6\u95f4\u8868\u7684\u63a8\u8fdf\u4e0a\u5347\u4e3a\u6574\u4e2a\u677f\u5757\"\u70ed\u6f6e\u662f\u5426\u964d\u6e29\"\u7684\u7591\u95ee,\u6b63\u662f\u5f15\u53d1\u91cd\u65b0\u5b9a\u4ef7\u524d\u7684\u60c5\u7eea\u8f6c\u5411\u2014\u2014\u652f\u6491\u9ad8\u4f30\u503c AI \u6807\u7684\u7684\u662f\u53d9\u4e8b\u52a8\u80fd,\u800c\u62a5\u9053\u53e3\u98ce\u8f6c\u5411\u6000\u7591,\u5c31\u662f\u6700\u65e9\u7684\u88c2\u7f1d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1682,
       "ts": 1782670456,
@@ -2239,36 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SoftBank shares slip over 12% on OpenAI IPO delay concerns - Nikkei Asia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 03:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9YRjFnbDViMElsa25oNnZvZ25FRlFnY3dZc0dtZE5VcnpJSTdhaG5SdzdtdUh1bEtMRnlVUUI4Z1ZNWExCWk84SFNSOTlqZ1ljZkpWOGMzaXprR1Rob250QmJxZ0pXaVhkb3h5RHVhUGExLWlGVnBGdDkzMFh3NV8tNFVJU04yeU10cjFRX00td1NjQWRYS1VMRjdGbVk?oc=5\n\nSoftBank shares slip over 12% on OpenAI IPO delay concerns - Nikkei Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9YRjFnbDViMElsa25oNnZvZ25FRlFnY3dZc0dtZE5VcnpJSTdhaG5SdzdtdUh1bEtMRnlVUUI4Z1ZNWExCWk84SFNSOTlqZ1ljZkpWOGMzaXprR1Rob250QmJxZ0pXaVhkb3h5RHVhUGExLWlGVnBGdDkzMFh3NV8tNFVJU04yeU10cjFRX00td1NjQWRYS1VMRjdGbVk?oc=5\" target=\"_blank\">SoftBank shares slip over 12% on OpenAI IPO delay concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank (9984) shares fell more than 12% on reports of a delay to OpenAI's IPO, per Nikkei Asia.\n\n\u5185\u5bb9:\n\u636e Nikkei Asia \u62a5\u9053\uff0c\u56e0 OpenAI IPO \u63a8\u8fdf\u7684\u62c5\u5fe7\uff0cSoftBank (9984) \u80a1\u4ef7\u4e0b\u8dcc\u8d85\u8fc7 12%\u3002\n\nWhy it matters:\nSoftBank is one of the most leveraged public proxies for the OpenAI/AI-capex trade. A 12% single-name drop on IPO-timing concerns shows the market repricing the cash-out path for AI infrastructure bets \u2014 when the exit slips, the financing chain behind the buildout gets questioned.\n\n\u5f71\u54cd:\nSoftBank \u662f\u62bc\u6ce8 OpenAI / AI capex \u4e3b\u9898\u4e2d\u6760\u6746\u6700\u9ad8\u7684\u4e0a\u5e02\u4ee3\u7406\u6807\u7684\u4e4b\u4e00\u3002\u5355\u4e00\u6807\u7684\u56e0 IPO \u65f6\u70b9\u62c5\u5fe7\u5c31\u5927\u8dcc 12%\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u91cd\u65b0\u5b9a\u4ef7 AI \u57fa\u5efa\u62bc\u6ce8\u7684\u5957\u73b0\u9000\u51fa\u8def\u5f84\u2014\u2014\u4e00\u65e6\u9000\u51fa\u65f6\u70b9\u63a8\u8fdf\uff0c\u6574\u4e2a\u5efa\u8bbe\u80cc\u540e\u7684\u878d\u8d44\u94fe\u6761\u5c31\u4f1a\u88ab\u6253\u4e0a\u95ee\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1484,
-      "ts": 1782459331,
-      "ts_str": "2026-06-26 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Baird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com UK",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 09:58:13 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT1YtbVdNVWlJQ3hvNmYyUzl6VElPQTYwNXR0VWNPdlRnc2lkSXFJUHh5b1U4aTZrZFJxckk0UU8yMUg1ZEZ3dXluYTIzZUtTX05nbm5vWnVfRlZYUFROd29aeTdvTWFhVm1SYUU2cHJBMzh6LUNleURRODdtNkczemw4c2RPZDdkTTIwT1paRnFqeG5iQmFYc1htQks1c2dsREVlZE9yRy0xdHZPMncwMDBnTjlkYXU3bVd6UjhLaDV0bzNWaVlyUExQOWRSeDU4?oc=5\n\nBaird raises Micron stock price target to $1,280 on DRAM outlook - Investing.com UK\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT1YtbVdNVWlJQ3hvNmYyUzl6VElPQTYwNXR0VWNPdlRnc2lkSXFJUHh5b1U4aTZrZFJxckk0UU8yMUg1ZEZ3dXluYTIzZUtTX05nbm5vWnVfRlZYUFROd29aeTdvTWFhVm1SYUU2cHJBMzh6LUNleURRODdtNkczemw4c2RPZDdkTTIwT1paRnFqeG5iQmFYc1htQks1c2dsREVlZE9yRy0xdHZPMncwMDBnTjlkYXU3bVd6UjhLaDV0bzNWaVlyUExQOWRSeDU4?oc=5\" target=\"_blank\">Baird raises Micron stock price target to $1,280 on DRAM outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Baird raised its Micron (MU) stock price target to $1,280, citing the DRAM outlook.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0 Baird \u5c06 Micron (MU) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $1,280\uff0c\u7406\u7531\u662f DRAM \u524d\u666f\u770b\u597d\u3002\n\nWhy it matters:\nSell-side targets racing higher on memory pricing is the kind of momentum-chasing that marks an AI-hardware melt-up. DRAM/HBM pricing power is real today, but extrapolating it into four-figure price targets is exactly the late-cycle optimism the tracker watches for.\n\n\u5f71\u54cd:\n\u5356\u65b9\u76ee\u6807\u4ef7\u968f\u5185\u5b58\u6da8\u4ef7\u4e00\u8def\u98d9\u5347\uff0c\u6b63\u662f AI \u786c\u4ef6\u884c\u60c5\u8fc7\u70ed\u3001\u8ffd\u6da8\u6740\u7ea2\u773c\u7684\u5178\u578b\u8ff9\u8c61\u3002DRAM/HBM \u5f53\u4e0b\u7684\u5b9a\u4ef7\u80fd\u529b\u786e\u5b9e\u5b58\u5728\uff0c\u4f46\u628a\u5b83\u5916\u63a8\u5230\u56db\u4f4d\u6570\u7684\u76ee\u6807\u4ef7\uff0c\u6070\u6070\u662f\u8fd9\u4e2a\u8ffd\u8e2a\u5668\u8981\u8b66\u60d5\u7684\u5468\u671f\u665a\u671f\u4e50\u89c2\u60c5\u7eea\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1485,
-      "ts": 1782459331,
-      "ts_str": "2026-06-26 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple hikes MacBook, iPad prices by 20-42% amid memory chip shortage - Dailyhunt",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:19:07 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ1d1R0ZSUHM4cHhIcGUzOThZOUJjdjRzbVZKWGpCeFZEZGNKdExuV1E5bDV1NEM0WUcyQmNkZFNMZS1CSXpGbU5LUjRLc1pYb1JPc2dlU1Z4RW43d3lCS3N4ZnE0bmtjaTMyNGZWek5TdERFcUw5TDlxYVZGV3dJdDBBWXRFN2pxM1UzSWJYZWdyamhhTUo0cTdvNWtHTFMxZ01JZDFWdEYwZTVQX2JsOWRUYy1JTktGajRaTUN2anZwdlIxM0pPb1g2cVJwTmVqQ29WV2RsUGo5dmlEbDNSSGIyY29wamc?oc=5\n\nApple hikes MacBook, iPad prices by 20-42% amid memory chip shortage - Dailyhunt\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZ1d1R0ZSUHM4cHhIcGUzOThZOUJjdjRzbVZKWGpCeFZEZGNKdExuV1E5bDV1NEM0WUcyQmNkZFNMZS1CSXpGbU5LUjRLc1pYb1JPc2dlU1Z4RW43d3lCS3N4ZnE0bmtjaTMyNGZWek5TdERFcUw5TDlxYVZGV3dJdDBBWXRFN2pxM1UzSWJYZWdyamhhTUo0cTdvNWtHTFMxZ01JZDFWdEYwZTVQX2JsOWRUYy1JTktGajRaTUN2anZwdlIxM0pPb1g2cVJwTmVqQ29WV2RsUGo5dmlEbDNSSGIyY29wamc?oc=5\" target=\"_blank\">Apple hikes MacBook, iPad prices by 20-42% amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dailyhunt</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising MacBook and iPad prices by 20-42%, attributing the hike to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Apple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0c\u5c06 MacBook \u4e0e iPad \u4ef7\u683c\u4e0a\u8c03 20-42%\u3002\n\nWhy it matters:\nMemory pricing is the cleanest read-through on AI-capex crowding out the rest of the supply chain: hyperscaler HBM/DRAM demand for AI accelerators is draining wafer capacity and pricing consumer electronics out. When the cost shows up in MacBook and iPad sticker prices, the squeeze has reached the demand side and is broad enough to be passed through to end consumers.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u662f\u89c2\u5bdf AI capex \u6324\u5360\u5176\u4f59\u4f9b\u5e94\u94fe\u6700\u6e05\u6670\u7684\u6307\u6807\uff1a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5bf9 AI \u52a0\u901f\u5668\u7684 HBM/DRAM \u9700\u6c42\u6b63\u5728\u541e\u566c\u6676\u5706\u4ea7\u80fd\uff0c\u628a\u6d88\u8d39\u7535\u5b50\u6324\u51fa\u5e02\u573a\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u5230 MacBook \u4e0e iPad \u7684\u6807\u4ef7\u4e0a\uff0c\u8bf4\u660e\u8fd9\u79cd\u6324\u538b\u5df2\u7ecf\u8513\u5ef6\u5230\u9700\u6c42\u7aef\uff0c\u5e76\u4e14\u8303\u56f4\u5927\u5230\u8981\u8f6c\u5ac1\u7ed9\u7ec8\u7aef\u6d88\u8d39\u8005\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1483,
-      "ts": 1782458057,
-      "ts_str": "2026-06-26 07:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] US stock futures fall as report on OpenAI IPO delay spooks tech - Investing.com Canada",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 06:39:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmZWdW9FZE0wVU85VmxzaWEyRWEzejRCY0xNc29KOGRKVUVWMWppdExvaHFEMTFhdU9EWlpQTGVxSzVCMjFDeldyVjY0czdLWmVGUFJkWGgwNFpCMmVOaWpPZEJyYjdwaXRpRmZaeldRWWdHMFZEa3drTTQzRWVEazUyMVpfX3J0Q2RXY1ppV0pBR0hWakJfdlUxd0gyb2xWWVByTjN2eGh1emIyZWRraWNNYUlXMDhCcnJvNVZvNjlyWEk?oc=5\n\nUS stock futures fall as report on OpenAI IPO delay spooks tech - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmZWdW9FZE0wVU85VmxzaWEyRWEzejRCY0xNc29KOGRKVUVWMWppdExvaHFEMTFhdU9EWlpQTGVxSzVCMjFDeldyVjY0czdLWmVGUFJkWGgwNFpCMmVOaWpPZEJyYjdwaXRpRmZaeldRWWdHMFZEa3drTTQzRWVEazUyMVpfX3J0Q2RXY1ppV0pBR0hWakJfdlUxd0gyb2xWWVByTjN2eGh1emIyZWRraWNNYUlXMDhCcnJvNVZvNjlyWEk?oc=5\" target=\"_blank\">US stock futures fall as report on OpenAI IPO delay spooks tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUS stock futures fell on a report that OpenAI's IPO has been delayed, with the headline naming the delay as the trigger that 'spooked tech.'\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u88ab\u63a8\u8fdf\uff0c\u7f8e\u80a1\u80a1\u6307\u671f\u8d27\u4e0b\u8dcc\uff0c\u65b0\u95fb\u6807\u9898\u76f4\u63a5\u5c06\u8fd9\u4e00\u63a8\u8fdf\u5217\u4e3a\u4ee4\u79d1\u6280\u80a1\u627f\u538b\u7684\u5bfc\u706b\u7d22\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex chain; a slipped IPO signals weaker access to public funding and dents the exit narrative investors are using to justify hyperscaler and neocloud spend. Equity futures pricing the news as a tech-wide negative shows how concentrated the bubble's sentiment is on a single private name.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u6761 AI capex \u94fe\u6761\u7684\u9700\u6c42\u951a\uff1bIPO \u63a8\u8fdf\u610f\u5473\u7740\u5176\u83b7\u53d6\u516c\u5f00\u5e02\u573a\u8d44\u91d1\u7684\u6e20\u9053\u6536\u7a84\uff0c\u4e5f\u524a\u5f31\u4e86\u6295\u8d44\u8005\u7528\u6765\u7ed9\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u8fa9\u62a4\u7684\u9000\u51fa\u903b\u8f91\u3002\u671f\u8d27\u628a\u8fd9\u6761\u6d88\u606f\u5f53\u4f5c\u6574\u4e2a\u79d1\u6280\u677f\u5757\u7684\u5229\u7a7a\u6765\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u6ce1\u6cab\u7684\u60c5\u7eea\u9ad8\u5ea6\u96c6\u4e2d\u5728 OpenAI \u8fd9\u4e00\u5bb6\u672a\u4e0a\u5e02\u516c\u53f8\u8eab\u4e0a\u3002\n",
       "emailed": false
     }
   ],
