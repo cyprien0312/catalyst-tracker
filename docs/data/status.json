@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782606724,
-  "generated_at_str": "2026-06-28 00:32:04 UTC",
-  "last_event_ts": 1782605643,
+  "generated_at": 1782606915,
+  "generated_at_str": "2026-06-28 00:35:15 UTC",
+  "last_event_ts": 1782606915,
   "tables": {
     "alerts_dedup": {
-      "count": 1646,
-      "last_ts": 1782605115,
-      "last_str": "2026-06-28 00:05:15 UTC"
+      "count": 1647,
+      "last_ts": 1782606915,
+      "last_str": "2026-06-28 00:35:15 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-27 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1127,
-      "last_ts": 1782605102,
-      "last_str": "2026-06-28 00:05:02 UTC"
+      "count": 1130,
+      "last_ts": 1782606901,
+      "last_str": "2026-06-28 00:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1335,
-      "last_ts": 1782605104,
-      "last_str": "2026-06-28 00:05:04 UTC"
+      "count": 1336,
+      "last_ts": 1782606903,
+      "last_str": "2026-06-28 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 866,
-      "last_ts": 1782605103,
-      "last_str": "2026-06-28 00:05:03 UTC"
+      "count": 868,
+      "last_ts": 1782606902,
+      "last_str": "2026-06-28 00:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1066,
-      "last_ts": 1782605104,
-      "last_str": "2026-06-28 00:05:04 UTC"
+      "count": 1069,
+      "last_ts": 1782606904,
+      "last_str": "2026-06-28 00:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12147,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1654,
+      "ts": 1782606915,
+      "ts_str": "2026-06-28 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple increases prices for Macs and iPads, blaming a shortage of memory chips - Messenger-Inquirer",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 05:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT3VYWmU5Qk44UzFxUG4zRmR3QWp3bmlNNGxJZTEzRXlIN2FucnYzcVg1UEpZVllIYW9nZkFNaUgzYkd5S1RMenc1TFFPX3Jyem5NUU80V0FYT25JN2lCUU5JUkFGNnpKcHVROWlrZUVDZ05rLWdpWkZEd3EwNnFVdmsyajBuWEozYkFMeDhsUHhjZkRPdjYwTGdoWXA4RTNsMWpKNE85YmFUbjdBVF9sNWlUX01uYVVUekVrLTRfakx0aVVxUl92VU9MTFNobXVka19adkhBdlpfQm9QQm4xNmpaSV95bnhVdWZ5d3RJZ1VOVGxvQU1fem8wX2VxSXBvRTJRanZlOXQyWm8?oc=5\n\nApple increases prices for Macs and iPads, blaming a shortage of memory chips - Messenger-Inquirer\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOT3VYWmU5Qk44UzFxUG4zRmR3QWp3bmlNNGxJZTEzRXlIN2FucnYzcVg1UEpZVllIYW9nZkFNaUgzYkd5S1RMenc1TFFPX3Jyem5NUU80V0FYT25JN2lCUU5JUkFGNnpKcHVROWlrZUVDZ05rLWdpWkZEd3EwNnFVdmsyajBuWEozYkFMeDhsUHhjZkRPdjYwTGdoWXA4RTNsMWpKNE85YmFUbjdBVF9sNWlUX01uYVVUekVrLTRfakx0aVVxUl92VU9MTFNobXVka19adkhBdlpfQm9QQm4xNmpaSV95bnhVdWZ5d3RJZ1VOVGxvQU1fem8wX2VxSXBvRTJRanZlOXQyWm8?oc=5\" target=\"_blank\">Apple increases prices for Macs and iPads, blaming a shortage of memory chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Messenger-Inquirer</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised prices on Macs and iPads, explicitly blaming a shortage of memory chips.\n\n\u5185\u5bb9:\nApple \u4e0a\u8c03 Macs \u4e0e iPads \u552e\u4ef7\uff0c\u5e76\u660e\u786e\u5c06\u539f\u56e0\u5f52\u548e\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory (DRAM/HBM/NAND) is being absorbed by AI datacenter buildout, and the squeeze is now reaching consumer hardware pricing. When AI-capex demand starts driving sticker prices for ordinary devices, the supply stress has spread beyond the datacenter into the broader economy.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u3002\u5f53 AI capex \u9700\u6c42\u5f00\u59cb\u63a8\u9ad8\u666e\u901a\u8bbe\u5907\u7684\u6807\u4ef7\uff0c\u8bf4\u660e\u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u6ea2\u51fa\u6570\u636e\u4e2d\u5fc3\u3001\u8513\u5ef6\u5230\u66f4\u5e7f\u6cdb\u7684\u7ecf\u6d4e\u5c42\u9762\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1653,
       "ts": 1782605115,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Weighs Delay of IPO as Tech Stock Volatility Rattles Advisers - PYMNTS.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 00:59:48 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQTF5b2hhdmNkUzN4Vndxc21mVTVBQ0pYQ3V1MXdGaHNlTVlZRmVVckNjZFV1WXBQempaaURVRlJ2ZWVEWG9ael9JREJnalRVVHAzXzM0OThuQUJlUlNzV1BTLXFUWXYzdXZNdHBJWXFlS2lIeGpPeVJDVWxtYU1lbWt1ZEhTdXdaQzBscGNKdUtNbWVaN0ZTVUU0azhIWFZiQ1FVM1ZSaHBmdHQtdkVDb3V1T185cmlBSVdCOFBLTTBRZ2s?oc=5\n\nOpenAI Weighs Delay of IPO as Tech Stock Volatility Rattles Advisers - PYMNTS.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQTF5b2hhdmNkUzN4Vndxc21mVTVBQ0pYQ3V1MXdGaHNlTVlZRmVVckNjZFV1WXBQempaaURVRlJ2ZWVEWG9ael9JREJnalRVVHAzXzM0OThuQUJlUlNzV1BTLXFUWXYzdXZNdHBJWXFlS2lIeGpPeVJDVWxtYU1lbWt1ZEhTdXdaQzBscGNKdUtNbWVaN0ZTVUU0azhIWFZiQ1FVM1ZSaHBmdHQtdkVDb3V1T185cmlBSVdCOFBLTTBRZ2s?oc=5\" target=\"_blank\">OpenAI Weighs Delay of IPO as Tech Stock Volatility Rattles Advisers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PYMNTS.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA PYMNTS.com headline reports OpenAI is weighing a delay of its IPO as tech-stock volatility rattles its advisers.\n\n\u5185\u5bb9:\nPYMNTS.com \u62a5\u9053\u79f0\uff0c\u7531\u4e8e\u79d1\u6280\u80a1\u6ce2\u52a8\u4ee4\u987e\u95ee\u4eec\u4e0d\u5b89\uff0cOpenAI \u6b63\u5728\u8003\u8651\u63a8\u8fdf IPO\u3002\n\nWhy it matters:\nOpenAI is the anchor tenant of the entire AI-capex buildout; if it pulls back from a public listing because markets are shaky, it signals the funding window for AI infrastructure is tightening. A delayed IPO removes a key liquidity event the whole ecosystem is counting on to recycle capital.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u6838\u5fc3\u627f\u79df\u65b9\uff1b\u5982\u679c\u5b83\u56e0\u4e3a\u5e02\u573a\u52a8\u8361\u800c\u5bf9\u516c\u5f00\u4e0a\u5e02\u9000\u7f29\uff0c\u8bf4\u660e AI \u57fa\u7840\u8bbe\u65bd\u7684\u878d\u8d44\u7a97\u53e3\u6b63\u5728\u6536\u7d27\u3002\u63a8\u8fdf IPO \u62bd\u8d70\u4e86\u6574\u4e2a\u751f\u6001\u7cfb\u7edf\u6307\u671b\u7528\u6765\u56de\u6536\u8d44\u672c\u7684\u4e00\u4e2a\u5173\u952e\u6d41\u52a8\u6027\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1454,
-      "ts": 1782434116,
-      "ts_str": "2026-06-26 00:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple raises iPad and Mac prices following months of RAM and SSD shortages - KitGuru",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 17:00:30 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxONS1XYkNRVnlhcjFxYzFYalBRakprbTBINjNENXptR1czQ3dYUWFkalhnWUQ0XzdPOHM2aUF6eElhVjUxb2FhVEtQbVpfd2NfUS1qQTd5dmpEcTZCSUVRWFRHd29Kdi1OWUk4Q294YldXb3RJVGE5QkVRNm1IcjNldDFvdTZaYXdocElqWDVxSGNRT1BiaEp0WHRBR3E1am5FcHdEcnlJWFlmeGY4VzZxNGlnZ2RPa0tmd291UnNPZHREeV9aaTZSakhhUXNzTUFEQzkw?oc=5\n\nApple raises iPad and Mac prices following months of RAM and SSD shortages - KitGuru\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxONS1XYkNRVnlhcjFxYzFYalBRakprbTBINjNENXptR1czQ3dYUWFkalhnWUQ0XzdPOHM2aUF6eElhVjUxb2FhVEtQbVpfd2NfUS1qQTd5dmpEcTZCSUVRWFRHd29Kdi1OWUk4Q294YldXb3RJVGE5QkVRNm1IcjNldDFvdTZaYXdocElqWDVxSGNRT1BiaEp0WHRBR3E1am5FcHdEcnlJWFlmeGY4VzZxNGlnZ2RPa0tmd291UnNPZHREeV9aaTZSakhhUXNzTUFEQzkw?oc=5\" target=\"_blank\">Apple raises iPad and Mac prices following months of RAM and SSD shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KitGuru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised iPad and Mac prices after months of RAM and SSD shortages, per a KitGuru report.\n\n\u5185\u5bb9:\n\u636e KitGuru \u62a5\u9053\uff0c\u5728\u7ecf\u5386\u6570\u6708\u7684 RAM \u4e0e SSD \u77ed\u7f3a\u540e\uff0cApple \u4e0a\u8c03\u4e86 iPad \u4e0e Mac \u7684\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory and storage shortages are flowing through to consumer hardware pricing \u2014 a sign AI-datacenter demand is crowding out supply for the rest of the market. When a vendor with Apple's buying power has to pass through component costs, the DRAM/NAND squeeze is real and broad, not a niche server-side story.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4e0e\u5b58\u50a8\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4f59\u5e02\u573a\u7684\u4f9b\u7ed9\u3002\u8fde Apple \u8fd9\u79cd\u91c7\u8d2d\u8bae\u4ef7\u80fd\u529b\u7684\u5382\u5546\u90fd\u4e0d\u5f97\u4e0d\u5411\u4e0b\u6e38\u8f6c\u5ac1\u5143\u4ef6\u6210\u672c\uff0c\u610f\u5473\u7740 DRAM/NAND \u7684\u7d27\u5f20\u662f\u771f\u5b9e\u800c\u5e7f\u6cdb\u7684\uff0c\u800c\u4e0d\u53ea\u662f\u670d\u52a1\u5668\u7aef\u7684\u5c40\u90e8\u73b0\u8c61\u3002\n",
       "emailed": false
     }
   ],
