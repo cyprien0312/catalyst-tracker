@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782621124,
-  "generated_at_str": "2026-06-28 04:32:04 UTC",
-  "last_event_ts": 1782620043,
+  "generated_at": 1782621317,
+  "generated_at_str": "2026-06-28 04:35:17 UTC",
+  "last_event_ts": 1782621316,
   "tables": {
     "alerts_dedup": {
-      "count": 1653,
-      "last_ts": 1782619505,
-      "last_str": "2026-06-28 04:05:05 UTC"
+      "count": 1654,
+      "last_ts": 1782621316,
+      "last_str": "2026-06-28 04:35:16 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-28 02:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1136,
-      "last_ts": 1782619502,
-      "last_str": "2026-06-28 04:05:02 UTC"
+      "count": 1137,
+      "last_ts": 1782621302,
+      "last_str": "2026-06-28 04:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1347,
-      "last_ts": 1782619504,
-      "last_str": "2026-06-28 04:05:04 UTC"
+      "count": 1348,
+      "last_ts": 1782621304,
+      "last_str": "2026-06-28 04:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 878,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1661,
+      "ts": 1782621316,
+      "ts_str": "2026-06-28 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple hikes its prices, blames AI memory chip shortage - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 09:33:07 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRk1ITGVuUGJlaktUSlJYUVVTZHg0NnE3QS1ER3JocENSeVh0cm5weU1NbUpwVk1rd25zbm5CVkZUTTNTX3piN0hvcHo5MmhwYTBNM1NvamFtbFg3NnJTQThwTngwQldwbWQ3RkpZRDZEUTFEeFluQU5CUmlsRXFpdEFzbE4ybWhYdHBpRWwwLVJJQTEzYjNZY0dRbWJuMWVoR2RpdHNYbURyY1k?oc=5\n\nApple hikes its prices, blames AI memory chip shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRk1ITGVuUGJlaktUSlJYUVVTZHg0NnE3QS1ER3JocENSeVh0cm5weU1NbUpwVk1rd25zbm5CVkZUTTNTX3piN0hvcHo5MmhwYTBNM1NvamFtbFg3NnJTQThwTngwQldwbWQ3RkpZRDZEUTFEeFluQU5CUmlsRXFpdEFzbE4ybWhYdHBpRWwwLVJJQTEzYjNZY0dRbWJuMWVoR2RpdHNYbURyY1k?oc=5\" target=\"_blank\">Apple hikes its prices, blames AI memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is hiking product prices and blaming an AI memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u663e\u793a Apple \u4e0a\u8c03\u4ea7\u54c1\u552e\u4ef7\uff0c\u5e76\u5c06\u539f\u56e0\u5f52\u548e\u4e8e AI \u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI datacenter buildout is absorbing so much DRAM/HBM supply that memory prices are spiking into the consumer-device channel. When AI capex starts visibly raising the cost of unrelated hardware, the spend is large enough to distort the broader components market \u2014 a sign of stress, not healthy demand.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u5927\u91cf\u541e\u566c DRAM/HBM \u4f9b\u5e94\uff0c\u5bfc\u81f4\u5185\u5b58\u6da8\u4ef7\u5e76\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u9886\u57df\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u62ac\u9ad8\u65e0\u5173\u786c\u4ef6\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u8fd9\u7b14\u652f\u51fa\u5df2\u7ecf\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u6574\u4e2a\u5143\u5668\u4ef6\u5e02\u573a\u2014\u2014\u8fd9\u662f\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u5065\u5eb7\u9700\u6c42\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1660,
       "ts": 1782619505,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Pushes Reportedly IPO To Next Year As SpaceX's Rough Post-Listing Performance Comes In Focus - Benzinga",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 02:26:27 GMT\nLink:      https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY0daX2gzRGRzS0V6MjNNMWJJWjFka2drZklZbVpqZDQzUjA0R1E0WUtDZ0ZkVHhmX2lSMVEyZEFpX3hlV1NTQUxVUHNwa19QZmZpWEhFYTdkLW8zTlMxTmFCdEVabnhqdlRicktkYnhTQm9lenZvUWphdTJHOF9qeDdMYXNSNEtQMkx5amlRd0pYeENrcjNWS2RHcWV5NXgzUUhQMzM3X1c0WHplSzNoQlh4T05ucmpxVmZEQkhpd0VNRUJmSko5anNWQ0JJNWFSZXBDMkhTYnctZ3d3cFBYcQ?oc=5\n\nOpenAI Pushes Reportedly IPO To Next Year As SpaceX's Rough Post-Listing Performance Comes In Focus - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY0daX2gzRGRzS0V6MjNNMWJJWjFka2drZklZbVpqZDQzUjA0R1E0WUtDZ0ZkVHhmX2lSMVEyZEFpX3hlV1NTQUxVUHNwa19QZmZpWEhFYTdkLW8zTlMxTmFCdEVabnhqdlRicktkYnhTQm9lenZvUWphdTJHOF9qeDdMYXNSNEtQMkx5amlRd0pYeENrcjNWS2RHcWV5NXgzUUhQMzM3X1c0WHplSzNoQlh4T05ucmpxVmZEQkhpd0VNRUJmSko5anNWQ0JJNWFSZXBDMkhTYnctZ3d3cFBYcQ?oc=5\" target=\"_blank\">OpenAI Pushes Reportedly IPO To Next Year As SpaceX's Rough Post-Listing Performance Comes In Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Benzinga headline reports OpenAI is reportedly pushing its IPO to next year, with SpaceX's weak post-listing performance cited as context.\n\n\u5185\u5bb9:\nBenzinga \u7684\u4e00\u5219\u6807\u9898\u62a5\u9053\u79f0\uff0cOpenAI \u636e\u4f20\u5c06 IPO \u63a8\u8fdf\u5230\u660e\u5e74\uff0c\u5e76\u4ee5 SpaceX \u4e0a\u5e02\u540e\u75b2\u8f6f\u7684\u8868\u73b0\u4f5c\u4e3a\u5bf9\u7167\u80cc\u666f\u3002\n\nWhy it matters:\nA delayed listing keeps OpenAI's true financials and burn rate out of public view, and a slip suggests the window for selling AI exposure into public markets is narrowing. If the marquee AI name can't or won't list, it undercuts the late-cycle 'cash out the bubble' liquidity event the sector is counting on.\n\n\u5f71\u54cd:\n\u63a8\u8fdf\u4e0a\u5e02\u610f\u5473\u7740 OpenAI \u771f\u5b9e\u7684\u8d22\u52a1\u72b6\u51b5\u548c\u70e7\u94b1\u901f\u5ea6\u7ee7\u7eed\u4e0d\u5bf9\u516c\u4f17\u62ab\u9732\uff0c\u800c\u63a8\u8fdf\u672c\u8eab\u6697\u793a\u5411\u516c\u5f00\u5e02\u573a\u515c\u552e AI \u655e\u53e3\u7684\u7a97\u53e3\u6b63\u5728\u6536\u7a84\u3002\u5982\u679c\u8fde\u6700\u5177\u4ee3\u8868\u6027\u7684 AI \u516c\u53f8\u90fd\u65e0\u6cd5\u6216\u4e0d\u613f\u4e0a\u5e02\uff0c\u5c31\u52a8\u6447\u4e86\u6574\u4e2a\u677f\u5757\u6240\u6307\u671b\u7684\u90a3\u573a\u5468\u671f\u665a\u671f'\u5957\u73b0\u79bb\u573a'\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1461,
-      "ts": 1782441319,
-      "ts_str": "2026-06-26 02:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple, Microsoft hike prices over memory chip supply strains - CBC",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 02:18:34 GMT\nLink:      https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQnV2T0NibHdjVlpzZjlLQ1ZzLWo2Z1I4VnJmdmJjMHdnQjY3MGtfNk1abnVkWTJSUEY3YzZRbnkzb1AwbW1RcXdzaG5GaUpyRXNuTlZPTE5GQQ?oc=5\n\nApple, Microsoft hike prices over memory chip supply strains - CBC\n\n<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CQnV2T0NibHdjVlpzZjlLQ1ZzLWo2Z1I4VnJmdmJjMHdnQjY3MGtfNk1abnVkWTJSUEY3YzZRbnkzb1AwbW1RcXdzaG5GaUpyRXNuTlZPTE5GQQ?oc=5\" target=\"_blank\">Apple, Microsoft hike prices over memory chip supply strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via CBC): \"Apple, Microsoft hike prices over memory chip supply strains.\" Two of the largest tech buyers are raising end-product prices, citing tight memory chip supply.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u6765\u6e90 CBC\uff09\uff1a\u300cApple\u3001Microsoft \u56e0\u5185\u5b58\u82af\u7247\u4f9b\u5e94\u7d27\u5f20\u800c\u4e0a\u8c03\u4ef7\u683c\u3002\u300d\u4e24\u5bb6\u6700\u5927\u7684\u79d1\u6280\u91c7\u8d2d\u5546\u4ee5\u5185\u5b58\u82af\u7247\u4f9b\u5e94\u5403\u7d27\u4e3a\u7531\uff0c\u63d0\u9ad8\u4e86\u7ec8\u7aef\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nAI datacenter buildouts are hoovering up HBM and DRAM capacity, and the squeeze is now leaking into consumer hardware pricing at Apple and Microsoft. Memory-cost pass-through is an early, visible sign that AI-capex demand is distorting the broader supply chain \u2014 and a margin/demand risk if buyers balk at the higher prices.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u5927\u91cf\u541e\u566c HBM \u548c DRAM \u4ea7\u80fd\uff0c\u8fd9\u79cd\u7d27\u7f3a\u5982\u4eca\u5df2\u4f20\u5bfc\u5230 Apple \u548c Microsoft \u7684\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5185\u5b58\u6210\u672c\u5411\u7ec8\u7aef\u8f6c\u5ac1\uff0c\u662f AI capex \u9700\u6c42\u626d\u66f2\u6574\u4e2a\u4f9b\u5e94\u94fe\u7684\u65e9\u671f\u3001\u53ef\u89c1\u4fe1\u53f7\u2014\u2014\u5982\u679c\u6d88\u8d39\u8005\u62b5\u89e6\u6da8\u4ef7\uff0c\u8fd8\u4f1a\u5e26\u6765\u5229\u6da6\u7387\u4e0e\u9700\u6c42\u7aef\u7684\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
