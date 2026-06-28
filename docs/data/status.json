@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782639663,
-  "generated_at_str": "2026-06-28 09:41:03 UTC",
-  "last_event_ts": 1782639305,
+  "generated_at": 1782639859,
+  "generated_at_str": "2026-06-28 09:44:19 UTC",
+  "last_event_ts": 1782639856,
   "tables": {
     "alerts_dedup": {
-      "count": 1664,
-      "last_ts": 1782634461,
-      "last_str": "2026-06-28 08:14:21 UTC"
+      "count": 1665,
+      "last_ts": 1782639856,
+      "last_str": "2026-06-28 09:44:16 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2394,
-      "last_ts": 1782627243,
-      "last_str": "2026-06-28 06:14:03 UTC"
+      "count": 2395,
+      "last_ts": 1782639844,
+      "last_str": "2026-06-28 09:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 502,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-28 09:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12229,
-      "last_ts": 1782638043,
-      "last_str": "2026-06-28 09:14:03 UTC"
+      "count": 12232,
+      "last_ts": 1782639842,
+      "last_str": "2026-06-28 09:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1672,
+      "ts": 1782639856,
+      "ts_str": "2026-06-28 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] It is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion. - Bi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 08:06:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNNIBY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNA?oc=5\n\nIt is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion. - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNNIBY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNA?oc=5\" target=\"_blank\">It is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 1671,
       "ts": 1782634461,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SoftBank shares slipped over 12% on concerns of OpenAI IPO delay - Nikkei Asia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 03:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxQaE81cDFyWUFKcEpGZFZlZ3EzemYxQ2J4NEx3S1hid3kzeFFoU1dhdTdFUVd0UE05QXUtVnNtaTFUeVU4dnVobWFjaG10TGF0bDhZZEtIa0ZGNm5KV2pHVTdyYWR6Vlpud1FOY0xMdm8xTWN2Z04wTlBjblBHVjYwV0FKV0JpX0g1X1RUc1U3b25feHUtUUhfc085UWkzTWdiSVpxZWlWQQ?oc=5\n\nSoftBank shares slipped over 12% on concerns of OpenAI IPO delay - Nikkei Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQaE81cDFyWUFKcEpGZFZlZ3EzemYxQ2J4NEx3S1hid3kzeFFoU1dhdTdFUVd0UE05QXUtVnNtaTFUeVU4dnVobWFjaG10TGF0bDhZZEtIa0ZGNm5KV2pHVTdyYWR6Vlpud1FOY0xMdm8xTWN2Z04wTlBjblBHVjYwV0FKV0JpX0g1X1RUc1U3b25feHUtUUhfc085UWkzTWdiSVpxZWlWQQ?oc=5\" target=\"_blank\">SoftBank shares slipped over 12% on concerns of OpenAI IPO delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank shares fell more than 12% on a Nikkei Asia report tying the drop to fears that OpenAI's IPO will be delayed.\n\n\u5185\u5bb9:\n\u636e Nikkei Asia \u62a5\u9053\uff0cSoftBank \u80a1\u4ef7\u4e0b\u8dcc\u8d85\u8fc7 12%\uff0c\u539f\u56e0\u662f\u5e02\u573a\u62c5\u5fe7 OpenAI \u7684 IPO \u5c06\u88ab\u63a8\u8fdf\u3002\n\nWhy it matters:\nSoftBank is one of the most levered public proxies for the OpenAI/AI-capex trade, so a 12% single-name move on IPO-timing worries shows the market repricing how soon \u2014 and whether \u2014 that spend converts to a cash-out. An IPO delay pushes back the exit that justifies the funding round and the capex it underwrites.\n\n\u5f71\u54cd:\nSoftBank \u662f\u62bc\u6ce8 OpenAI / AI capex \u884c\u60c5\u4e2d\u6760\u6746\u6700\u9ad8\u7684\u516c\u5f00\u5e02\u573a\u6807\u7684\u4e4b\u4e00\uff0c\u5355\u65e5\u56e0 IPO \u65f6\u70b9\u62c5\u5fe7\u5c31\u8dcc 12%\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u91cd\u65b0\u5b9a\u4ef7\u8fd9\u4e9b\u652f\u51fa\u4f55\u65f6\u3001\u4ee5\u53ca\u80fd\u5426\u5151\u73b0\u4e3a\u73b0\u91d1\u56de\u62a5\u3002IPO \u63a8\u8fdf\u610f\u5473\u7740\u652f\u6491\u672c\u8f6e\u878d\u8d44\u53ca\u5176\u6240\u6491\u8d77\u7684\u8d44\u672c\u5f00\u652f\u7684\u9000\u51fa\u901a\u9053\u88ab\u5f80\u540e\u63a8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1473,
-      "ts": 1782447270,
-      "ts_str": "2026-06-26 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Holds Back GPT-5.6 Rollout, Could Hold off IPO Until Next Year - CXOToday.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 02:42:58 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjdOTXZVYnNlSHNPbHloaUFkeXA4a0Y5aWVJSWVfUjlzNGdKNW9OMEtvT3g5QmtzZnMydlkySzVGTlpVa0JPUDBJM3VaNzBFaXRlRnk1bHhBM0pPV0wteHhxSkJFUDlzZFdnb1ljdk1rRnhhbkNUcW04SWNER2ktQTIxTk9senIzYkd6OWdRS0xoZng5Q0NscQ?oc=5\n\nOpenAI Holds Back GPT-5.6 Rollout, Could Hold off IPO Until Next Year - CXOToday.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjdOTXZVYnNlSHNPbHloaUFkeXA4a0Y5aWVJSWVfUjlzNGdKNW9OMEtvT3g5QmtzZnMydlkySzVGTlpVa0JPUDBJM3VaNzBFaXRlRnk1bHhBM0pPV0wteHhxSkJFUDlzZFdnb1ljdk1rRnhhbkNUcW04SWNER2ktQTIxTk9senIzYkd6OWdRS0xoZng5Q0NscQ?oc=5\" target=\"_blank\">OpenAI Holds Back GPT-5.6 Rollout, Could Hold off IPO Until Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CXOToday.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is holding back its GPT-5.6 rollout and may delay its IPO until next year.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u79f0 OpenAI \u6b63\u5728\u63a8\u8fdf GPT-5.6 \u7684\u53d1\u5e03\uff0c\u5e76\u53ef\u80fd\u5c06 IPO \u5ef6\u540e\u81f3\u660e\u5e74\u3002\n\nWhy it matters:\nPausing both the flagship model launch and the IPO timeline suggests the capability jump isn't ready and OpenAI is in no rush to face public-market scrutiny of its burn rate. For the AI-capex thesis, a slipping frontier-model cadence and a deferred IPO weaken the growth story that justifies hyperscaler spending.\n\n\u5f71\u54cd:\n\u540c\u65f6\u63a8\u8fdf\u65d7\u8230\u6a21\u578b\u53d1\u5e03\u548c IPO \u65f6\u95f4\u8868\uff0c\u8bf4\u660e\u8fd9\u6b21\u80fd\u529b\u8dc3\u5347\u5c1a\u672a\u5c31\u7eea\uff0c\u800c\u4e14 OpenAI \u4e5f\u4e0d\u6025\u4e8e\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u70e7\u94b1\u901f\u5ea6\u3002\u5bf9 AI capex \u903b\u8f91\u800c\u8a00\uff0c\u524d\u6cbf\u6a21\u578b\u8fed\u4ee3\u8282\u594f\u653e\u7f13\u52a0\u4e0a IPO \u5ef6\u540e\uff0c\u524a\u5f31\u4e86\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6301\u7eed\u6295\u5165\u7684\u589e\u957f\u53d9\u4e8b\u3002\n",
       "emailed": false
     }
   ],
