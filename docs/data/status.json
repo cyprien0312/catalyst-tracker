@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782748927,
-  "generated_at_str": "2026-06-29 16:02:07 UTC",
-  "last_event_ts": 1782747844,
+  "generated_at": 1782749116,
+  "generated_at_str": "2026-06-29 16:05:16 UTC",
+  "last_event_ts": 1782749116,
   "tables": {
     "alerts_dedup": {
-      "count": 1728,
-      "last_ts": 1782746058,
-      "last_str": "2026-06-29 15:14:18 UTC"
+      "count": 1730,
+      "last_ts": 1782749116,
+      "last_str": "2026-06-29 16:05:16 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-29 12:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1276,
-      "last_ts": 1782747302,
-      "last_str": "2026-06-29 15:35:02 UTC"
+      "count": 1282,
+      "last_ts": 1782749102,
+      "last_str": "2026-06-29 16:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1463,
-      "last_ts": 1782747304,
-      "last_str": "2026-06-29 15:35:04 UTC"
+      "count": 1466,
+      "last_ts": 1782749104,
+      "last_str": "2026-06-29 16:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 968,
-      "last_ts": 1782747303,
-      "last_str": "2026-06-29 15:35:03 UTC"
+      "count": 969,
+      "last_ts": 1782749103,
+      "last_str": "2026-06-29 16:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1173,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1736,
+      "ts": 1782749116,
+      "ts_str": "2026-06-29 16:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials cost; a 700% DRAM jump means HBM/DRAM scarcity is pricing through to system builders, squeezing hyperscaler capex economics and signaling supply-side stress in the AI buildout. Litigation also raises the odds of price-fixing scrutiny that could whipsaw supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u7684\u6838\u5fc3\u90e8\u5206\uff1bDRAM \u4ef7\u683c\u4e0a\u6da8 700% \u610f\u5473\u7740 HBM/DRAM \u77ed\u7f3a\u6b63\u4f20\u5bfc\u5230\u7cfb\u7edf\u5382\u5546\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u662f AI \u57fa\u5efa\u4f9b\u7ed9\u7aef\u7d27\u5f20\u7684\u4fe1\u53f7\u3002\u8bc9\u8bbc\u8fd8\u63d0\u9ad8\u4e86\u4ef7\u683c\u64cd\u7eb5\u5ba1\u67e5\u7684\u6982\u7387\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u6270\u52a8\u4f9b\u7ed9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1737,
+      "ts": 1782749116,
+      "ts_str": "2026-06-29 16:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials cost; a 700% DRAM jump means HBM/DRAM scarcity is pricing through to system builders, squeezing hyperscaler capex economics and signaling supply-side stress in the AI buildout. Litigation also raises the odds of price-fixing scrutiny that could whipsaw supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u7684\u6838\u5fc3\u90e8\u5206\uff1bDRAM \u4ef7\u683c\u4e0a\u6da8 700% \u610f\u5473\u7740 HBM/DRAM \u77ed\u7f3a\u6b63\u4f20\u5bfc\u5230\u7cfb\u7edf\u5382\u5546\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u662f AI \u57fa\u5efa\u4f9b\u7ed9\u7aef\u7d27\u5f20\u7684\u4fe1\u53f7\u3002\u8bc9\u8bbc\u8fd8\u63d0\u9ad8\u4e86\u4ef7\u683c\u64cd\u7eb5\u5ba1\u67e5\u7684\u6982\u7387\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u6270\u52a8\u4f9b\u7ed9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1735,
       "ts": 1782746058,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:13:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\n\nSK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\" target=\"_blank\">SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via KuCoin): \"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\" \u2014 SK Hynix beat Q2 estimates on rising DRAM and NAND prices.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u6765\u81ea KuCoin\uff09\uff1a\"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\"\u2014\u2014SK Hynix \u4e8c\u5b63\u5ea6\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u53d7 DRAM \u4e0e NAND \u4ef7\u683c\u4e0a\u6da8\u63a8\u52a8\u3002\n\nWhy it matters:\nSK Hynix is the lead HBM supplier for AI accelerators; rising DRAM/NAND prices and an earnings beat signal memory demand still running hot, which keeps AI-server bill-of-materials costs climbing and feeds the capex-inflation side of the bubble-stress thesis.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5668 HBM \u7684\u4e3b\u529b\u4f9b\u5e94\u5546\uff1bDRAM/NAND \u6da8\u4ef7\u52a0\u4e0a\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u8bf4\u660e\u5b58\u50a8\u9700\u6c42\u4f9d\u7136\u706b\u70ed\uff0c\u4f1a\u6301\u7eed\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5f3a\u5316\u4e86 bubble-stress \u8bba\u70b9\u4e2d\u8d44\u672c\u5f00\u652f\u901a\u80c0\u7684\u90a3\u4e00\u9762\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1538,
-      "ts": 1782480917,
-      "ts_str": "2026-06-26 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 07:13:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\n\nSK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDJ4NG1vek9mcjVjYmtKMHp6Qzl2ZWx2bWZLaDhDM2E2cTc1MVp4a0Y1OENQMUxhNXZnSFpBR05sMkE4SWNUa09HVzVkSmV2Yi1ZcmF1QTZyZU5RSFoxb0dyWENGX3B0RS11YnRFeV9aaG1RUjBCSVAyNWFWZ1M2TGVkZ09zYTBpY0Y4cHBFeXozS2RVa01jR0ZGYUNvX2ZGNGdmZ043UHI2QQ?oc=5\" target=\"_blank\">SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline (via KuCoin): \"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\" \u2014 SK Hynix beat Q2 estimates on rising DRAM and NAND prices.\n\n\u5185\u5bb9:\nGoogle News \u5934\u6761\uff08\u6765\u81ea KuCoin\uff09\uff1a\"SK Hynix Q2 Earnings Exceed Expectations Amid DRAM and NAND Price Increases\"\u2014\u2014SK Hynix \u4e8c\u5b63\u5ea6\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u53d7 DRAM \u4e0e NAND \u4ef7\u683c\u4e0a\u6da8\u63a8\u52a8\u3002\n\nWhy it matters:\nSK Hynix is the lead HBM supplier for AI accelerators; rising DRAM/NAND prices and an earnings beat signal memory demand still running hot, which keeps AI-server bill-of-materials costs climbing and feeds the capex-inflation side of the bubble-stress thesis.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5668 HBM \u7684\u4e3b\u529b\u4f9b\u5e94\u5546\uff1bDRAM/NAND \u6da8\u4ef7\u52a0\u4e0a\u4e1a\u7ee9\u8d85\u9884\u671f\uff0c\u8bf4\u660e\u5b58\u50a8\u9700\u6c42\u4f9d\u7136\u706b\u70ed\uff0c\u4f1a\u6301\u7eed\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5f3a\u5316\u4e86 bubble-stress \u8bba\u70b9\u4e2d\u8d44\u672c\u5f00\u652f\u901a\u80c0\u7684\u90a3\u4e00\u9762\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1535,
-      "ts": 1782479670,
-      "ts_str": "2026-06-26 13:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Altman won't go public for less than $1 trillion, so OpenAI's IPO may slip to 2027 - the-decoder.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:46:29 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVTU0xWYTNwVjBqQm1wbXdpU1lSVVNLdnR0bnBqSG42UmNmUFRnb2RSYWFLOHVEWFgzNkF4ME1PQktZa0YtSkhER0s0RDFqOWw3YU9hVWFTZkJYdWN2eWRlNkctQkM2dE9QVldVaUxhYnBQcF9lSDRYWjlTZ0dUcHB1X3JYNUNvczN5ckg4SFpXOW1sRnNpdy1PTUhtV1llYjRtaVp3?oc=5\n\nAltman won't go public for less than $1 trillion, so OpenAI's IPO may slip to 2027 - the-decoder.com\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXVTU0xWYTNwVjBqQm1wbXdpU1lSVVNLdnR0bnBqSG42UmNmUFRnb2RSYWFLOHVEWFgzNkF4ME1PQktZa0YtSkhER0s0RDFqOWw3YU9hVWFTZkJYdWN2eWRlNkctQkM2dE9QVldVaUxhYnBQcF9lSDRYWjlTZ0dUcHB1X3JYNUNvczN5ckg4SFpXOW1sRnNpdy1PTUhtV1llYjRtaVp3?oc=5\" target=\"_blank\">Altman won't go public for less than $1 trillion, so OpenAI's IPO may slip to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">the-decoder.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA the-decoder.com headline says Sam Altman won't take OpenAI public at a valuation below $1 trillion, so the IPO may slip to 2027.\n\n\u5185\u5bb9:\nthe-decoder.com \u7684\u62a5\u9053\u79f0\uff0cSam Altman \u4e0d\u4f1a\u4ee5\u4f4e\u4e8e $1 trillion \u7684\u4f30\u503c\u8ba9 OpenAI \u4e0a\u5e02\uff0c\u56e0\u6b64\u5176 IPO \u53ef\u80fd\u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA $1T floor and a delayed listing keep OpenAI's true financials off public markets, where capex burn and funding needs would face scrutiny. Tying the IPO to a trillion-dollar mark signals the private round needs ever-larger valuations to stay funded \u2014 a late-cycle dependence on the next bigger check.\n\n\u5f71\u54cd:\n$1 trillion \u7684\u4f30\u503c\u5e95\u7ebf\u52a0\u4e0a\u63a8\u8fdf\u4e0a\u5e02\uff0c\u8ba9 OpenAI \u7684\u771f\u5b9e\u8d22\u52a1\u72b6\u51b5\u7ee7\u7eed\u907f\u5f00\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u2014\u2014\u5426\u5219\u5176\u8d44\u672c\u5f00\u652f\u70e7\u94b1\u548c\u878d\u8d44\u7f3a\u53e3\u90fd\u4f1a\u88ab\u653e\u5230\u53f0\u9762\u4e0a\u3002\u628a IPO \u4e0e\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u6302\u94a9\uff0c\u8bf4\u660e\u8fd9\u5bb6\u516c\u53f8\u8d8a\u6765\u8d8a\u4f9d\u8d56\u4e00\u8f6e\u6bd4\u4e00\u8f6e\u66f4\u5927\u7684\u79c1\u52df\u878d\u8d44\u624d\u80fd\u7ef4\u6301\u8fd0\u8f6c\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
