@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782756124,
-  "generated_at_str": "2026-06-29 18:02:04 UTC",
-  "last_event_ts": 1782755043,
+  "generated_at": 1782756319,
+  "generated_at_str": "2026-06-29 18:05:19 UTC",
+  "last_event_ts": 1782756318,
   "tables": {
     "alerts_dedup": {
-      "count": 1733,
-      "last_ts": 1782753256,
-      "last_str": "2026-06-29 17:14:16 UTC"
+      "count": 1735,
+      "last_ts": 1782756318,
+      "last_str": "2026-06-29 18:05:18 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-29 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1296,
-      "last_ts": 1782754503,
-      "last_str": "2026-06-29 17:35:03 UTC"
+      "count": 1297,
+      "last_ts": 1782756302,
+      "last_str": "2026-06-29 18:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1475,
-      "last_ts": 1782754505,
-      "last_str": "2026-06-29 17:35:05 UTC"
+      "count": 1477,
+      "last_ts": 1782756304,
+      "last_str": "2026-06-29 18:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 974,
-      "last_ts": 1782754504,
-      "last_str": "2026-06-29 17:35:04 UTC"
+      "count": 979,
+      "last_ts": 1782756303,
+      "last_str": "2026-06-29 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1177,
-      "last_ts": 1782754506,
-      "last_str": "2026-06-29 17:35:06 UTC"
+      "count": 1178,
+      "last_ts": 1782756305,
+      "last_str": "2026-06-29 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12572,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1741,
+      "ts": 1782756318,
+      "ts_str": "2026-06-29 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM demand makes Apple raise prices - Sourceability",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 17:56:14 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\n\nHBM demand makes Apple raise prices - Sourceability\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\" target=\"_blank\">HBM demand makes Apple raise prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sourceability</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging HBM (high-bandwidth memory) demand \u2014 driven by AI accelerators \u2014 is forcing Apple to raise prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cAI \u52a0\u901f\u5668\u9a71\u52a8\u7684 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u9700\u6c42\u6fc0\u589e\uff0c\u6b63\u8feb\u4f7f Apple \u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI memory demand is now crowding out the consumer supply chain: HBM production is eating fab capacity and pushing DRAM prices up enough to hit non-AI products. When AI capex starts inflating the cost base of unrelated consumer electronics, the spend has reached a scale that strains the whole memory market.\n\n\u5f71\u54cd:\nAI \u5185\u5b58\u9700\u6c42\u5f00\u59cb\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u5e94\u94fe\uff1aHBM \u751f\u4ea7\u541e\u566c\u6676\u5706\u4ea7\u80fd\uff0c\u628a DRAM \u4ef7\u683c\u63a8\u9ad8\u5230\u8db3\u4ee5\u6ce2\u53ca\u975e AI \u4ea7\u54c1\u3002\u5f53 AI capex \u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u7684\u6210\u672c\u7ed3\u6784\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u7684\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u62c9\u7d27\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1742,
+      "ts": 1782756318,
+      "ts_str": "2026-06-29 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM demand makes Apple raise prices - Sourceability",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 17:56:14 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\n\nHBM demand makes Apple raise prices - Sourceability\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\" target=\"_blank\">HBM demand makes Apple raise prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sourceability</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging HBM (high-bandwidth memory) demand \u2014 driven by AI accelerators \u2014 is forcing Apple to raise prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cAI \u52a0\u901f\u5668\u9a71\u52a8\u7684 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u9700\u6c42\u6fc0\u589e\uff0c\u6b63\u8feb\u4f7f Apple \u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI memory demand is now crowding out the consumer supply chain: HBM production is eating fab capacity and pushing DRAM prices up enough to hit non-AI products. When AI capex starts inflating the cost base of unrelated consumer electronics, the spend has reached a scale that strains the whole memory market.\n\n\u5f71\u54cd:\nAI \u5185\u5b58\u9700\u6c42\u5f00\u59cb\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u5e94\u94fe\uff1aHBM \u751f\u4ea7\u541e\u566c\u6676\u5706\u4ea7\u80fd\uff0c\u628a DRAM \u4ef7\u683c\u63a8\u9ad8\u5230\u8db3\u4ee5\u6ce2\u53ca\u975e AI \u4ea7\u54c1\u3002\u5f53 AI capex \u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u7684\u6210\u672c\u7ed3\u6784\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u7684\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u62c9\u7d27\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1740,
       "ts": 1782753256,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Stock market today: Dow, S&P 500, Nasdaq slide as report of OpenAI IPO delay rattles techs - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 13:32:25 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOXzdydllMRl9ySjRxX3IwWHVVdkcyRngyTXFoMVFibXVzTnNjOFJqODJJbHByaFRfR0EtMzlkOFp2c0poZk9zbDA3YWNTRDRSS3h3R2tfN2lzUlNFakIyTWplWlVsQzR1M0FVRm84bVdzT3JncmxBTTMtUWJTZHIycENRNGl2bHJWVUMtcmZtQTJ1MktaZXRZTFA3MjNObjR3bmFsWnN5RFl5VDliaXNEc3BZRERsWFk4MXh4UWN4NU1PSTdmb2xmX0s2SHhvaU03TGFjWlhxQQ?oc=5\n\nStock market today: Dow, S&P 500, Nasdaq slide as report of OpenAI IPO delay rattles techs - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOXzdydllMRl9ySjRxX3IwWHVVdkcyRngyTXFoMVFibXVzTnNjOFJqODJJbHByaFRfR0EtMzlkOFp2c0poZk9zbDA3YWNTRDRSS3h3R2tfN2lzUlNFakIyTWplWlVsQzR1M0FVRm84bVdzT3JncmxBTTMtUWJTZHIycENRNGl2bHJWVUMtcmZtQTJ1MktaZXRZTFA3MjNObjR3bmFsWnN5RFl5VDliaXNEc3BZRERsWFk4MXh4UWN4NU1PSTdmb2xmX0s2SHhvaU03TGFjWlhxQQ?oc=5\" target=\"_blank\">Stock market today: Dow, S&amp;P 500, Nasdaq slide as report of OpenAI IPO delay rattles techs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report that OpenAI is delaying its IPO sent the Dow, S&P 500, and Nasdaq lower, per Yahoo Finance.\n\n\u5185\u5bb9:\n\u636e Yahoo Finance \u62a5\u9053\uff0c\u6709\u6d88\u606f\u79f0 OpenAI \u63a8\u8fdf IPO\uff0c\u5bfc\u81f4 Dow\u3001S&P 500\u3001Nasdaq \u5168\u7ebf\u4e0b\u632b\u3002\n\nWhy it matters:\nOpenAI is the anchor demand signal for the entire AI-capex buildout; a pushed-out IPO removes a key liquidity and validation event and signals the market is repricing AI-infrastructure risk. Broad indices selling on the headline shows how concentrated equity risk has become around a single private company's trajectory.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u5468\u671f\u7684\u6838\u5fc3\u9700\u6c42\u951a\uff1bIPO \u63a8\u8fdf\u610f\u5473\u7740\u4e00\u4e2a\u5173\u952e\u7684\u6d41\u52a8\u6027\u4e0e\u4ef7\u503c\u9a8c\u8bc1\u4e8b\u4ef6\u88ab\u5ef6\u540e\uff0c\u4e5f\u8868\u660e\u5e02\u573a\u6b63\u5728\u91cd\u65b0\u5b9a\u4ef7 AI \u57fa\u7840\u8bbe\u65bd\u98ce\u9669\u3002\u5927\u76d8\u56e0\u8fd9\u6761\u65b0\u95fb\u5c31\u96c6\u4f53\u4e0b\u8dcc\uff0c\u8bf4\u660e\u80a1\u5e02\u98ce\u9669\u5df2\u9ad8\u5ea6\u96c6\u4e2d\u5728\u8fd9\u4e00\u5bb6\u79c1\u6709\u516c\u53f8\u7684\u8d70\u5411\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1540,
-      "ts": 1782481505,
-      "ts_str": "2026-06-26 13:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Tech stocks live: Tech sells off as OpenAI weighs delaying IPO until 2027 - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:02:22 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUhvcmxKaklGYUV0aGNxaU5Xdmh0WWhGUXM3OGU2Tm51RjhjWXNId19YZER2YnVRUFdOZHVNNUhua1RiRUVwVzdRdzkyQ1ZnUkJXckdsN3lZYnF4ZGlLMTV3a1A4TjdEbzZOMnJCTV9qZXkzY2lzLVRmSkxlakV5ZG1ZMDRxLThpMVNyakZVUFZEbGluOUdfRUlJT0QyQzNhTmxFYlYtMDNJRGlJcTNHOXp3bGRTcVZkT1VxZ0RoSFp2elIySkNPNg?oc=5\n\nTech stocks live: Tech sells off as OpenAI weighs delaying IPO until 2027 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOUhvcmxKaklGYUV0aGNxaU5Xdmh0WWhGUXM3OGU2Tm51RjhjWXNId19YZER2YnVRUFdOZHVNNUhua1RiRUVwVzdRdzkyQ1ZnUkJXckdsN3lZYnF4ZGlLMTV3a1A4TjdEbzZOMnJCTV9qZXkzY2lzLVRmSkxlakV5ZG1ZMDRxLThpMVNyakZVUFZEbGluOUdfRUlJT0QyQzNhTmxFYlYtMDNJRGlJcTNHOXp3bGRTcVZkT1VxZ0RoSFp2elIySkNPNg?oc=5\" target=\"_blank\">Tech stocks live: Tech sells off as OpenAI weighs delaying IPO until 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports tech stocks selling off as OpenAI weighs delaying its IPO until 2027.\n\n\u5185\u5bb9:\nYahoo Finance \u62a5\u9053\u79d1\u6280\u80a1\u4e0b\u632b\uff0c\u56e0 OpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; pushing its IPO out signals it doesn't want public-market scrutiny of its burn rate yet. A delay starves the bull case of its biggest liquidity event and hints the numbers aren't ready to defend.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\uff0c\u63a8\u8fdf IPO \u8bf4\u660e\u5b83\u8fd8\u4e0d\u60f3\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u70e7\u94b1\u901f\u5ea6\u3002\u63a8\u8fdf\u610f\u5473\u7740\u591a\u5934\u903b\u8f91\u5931\u53bb\u6700\u5927\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u4e5f\u6697\u793a\u5176\u8d22\u52a1\u6570\u636e\u8fd8\u4e0d\u8db3\u4ee5\u7ecf\u53d7\u68c0\u9a8c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1541,
-      "ts": 1782481505,
-      "ts_str": "2026-06-26 13:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Rocks Stock Futures With Threatened IPO Pushback - Schaeffer's Investment Research",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 13:20:55 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXIzRUhiN21wS1JIYlQxOTVDX3BwUUpNWXljM1Y5Smt2VVdaTEczY0JHWW9WVjM1ZF9OdG9oV254VjQ0aU1Sc1F5eFBWY0o1VjNmVGFNMnhmYV9sU0RVM1kwNDJrTzlIZUJZZUp3bk1UemJwbDNIWU5UZEdXOFZhWTBGaFc4RVJGRXBVdFF0N1VpeW15SmxIeVNBZEN5SVNCZVFyUGx6NHVJREhoZDhsQ1lnRVVocWs?oc=5\n\nOpenAI Rocks Stock Futures With Threatened IPO Pushback - Schaeffer's Investment Research\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQSXIzRUhiN21wS1JIYlQxOTVDX3BwUUpNWXljM1Y5Smt2VVdaTEczY0JHWW9WVjM1ZF9OdG9oV254VjQ0aU1Sc1F5eFBWY0o1VjNmVGFNMnhmYV9sU0RVM1kwNDJrTzlIZUJZZUp3bk1UemJwbDNIWU5UZEdXOFZhWTBGaFc4RVJGRXBVdFF0N1VpeW15SmxIeVNBZEN5SVNCZVFyUGx6NHVJREhoZDhsQ1lnRVVocWs?oc=5\" target=\"_blank\">OpenAI Rocks Stock Futures With Threatened IPO Pushback</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Schaeffer's Investment Research</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Schaeffer's Investment Research headline reports OpenAI rattled stock futures by threatening to push back its IPO timeline.\n\n\u5185\u5bb9:\nSchaeffer's Investment Research \u7684\u6807\u9898\u79f0\uff0cOpenAI \u5a01\u80c1\u63a8\u8fdf\u5176 IPO \u65f6\u95f4\u8868\uff0c\u4ee4\u80a1\u6307\u671f\u8d27\u627f\u538b\u3002\n\nWhy it matters:\nOpenAI is the demand anchor of the entire AI-capex buildout; any delay or wobble in its path to public markets signals the funding story that underwrites hyperscaler and neocloud spending is less certain. Market reacting to IPO timing alone shows how leveraged sentiment is to this single name.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u94fe\u6761\u7684\u9700\u6c42\u951a\uff1b\u5176\u4e0a\u5e02\u8def\u5f84\u7684\u4efb\u4f55\u5ef6\u8fdf\u6216\u52a8\u6447\uff0c\u90fd\u610f\u5473\u7740\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e0e neocloud \u652f\u51fa\u7684\u878d\u8d44\u903b\u8f91\u53d8\u5f97\u4e0d\u786e\u5b9a\u3002\u5e02\u573a\u4ec5\u56e0 IPO \u65f6\u70b9\u5c31\u5267\u70c8\u53cd\u5e94\uff0c\u8bf4\u660e\u6574\u4f53\u60c5\u7eea\u8fc7\u5ea6\u62bc\u6ce8\u5728\u8fd9\u4e00\u53ea\u6807\u7684\u4e0a\u3002\n",
       "emailed": false
     }
   ],
