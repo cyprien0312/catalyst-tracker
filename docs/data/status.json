@@ -1,17 +1,17 @@
 {
-  "generated_at": 1782771975,
-  "generated_at_str": "2026-06-29 22:26:15 UTC",
-  "last_event_ts": 1782771257,
+  "generated_at": 1782772168,
+  "generated_at_str": "2026-06-29 22:29:28 UTC",
+  "last_event_ts": 1782772167,
   "tables": {
     "alerts_dedup": {
-      "count": 1748,
-      "last_ts": 1782771257,
-      "last_str": "2026-06-29 22:14:17 UTC"
+      "count": 1750,
+      "last_ts": 1782772167,
+      "last_str": "2026-06-29 22:29:27 UTC"
     },
     "c10_signals": {
-      "count": 3,
-      "last_ts": 1782512942,
-      "last_str": "2026-06-26 22:29:02 UTC"
+      "count": 5,
+      "last_ts": 1782772154,
+      "last_str": "2026-06-29 22:29:14 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1756,
+      "ts": 1782772167,
+      "ts_str": "2026-06-29 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] Broad USD Index rising: 120.9 (+2.6% off 90d-low)",
+      "body": "Series:   USD (DTWEXBGS)\nDate:     2026-06-26\nCurrent:  120.9\n90d low:  117.8\nMove:     +2.6% off 90d-low (fire \u2265 +2.5%)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe broad U.S. dollar index rose to 120.887 on 2026-06-26, up 2.647 from its trailing-90-day low of 117.769.\n\n\u5185\u5bb9:\n\u5e7f\u4e49\u7f8e\u5143\u6307\u6570\u5728 2026-06-26 \u5347\u81f3 120.887\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 117.769 \u4e0a\u6da8 2.647\u3002\n\nWhy it matters:\nA surging dollar tightens global financial conditions and drains liquidity from risk assets \u2014 the exact backdrop that breaks levered, cash-burning AI-infrastructure plays. Dollar strength also raises the cost of dollar-funded capex and debt service for non-US neoclouds, pressuring the weakest links first.\n\n\u5f71\u54cd:\n\u7f8e\u5143\u8d70\u5f3a\u4f1a\u6536\u7d27\u5168\u7403\u91d1\u878d\u6761\u4ef6\u3001\u62bd\u8d70\u98ce\u9669\u8d44\u4ea7\u7684\u6d41\u52a8\u6027\u2014\u2014\u8fd9\u6b63\u662f\u51fb\u57ae\u9ad8\u6760\u6746\u3001\u70e7\u73b0\u91d1\u7684 AI \u57fa\u7840\u8bbe\u65bd\u6807\u7684\u7684\u5178\u578b\u73af\u5883\u3002\u7f8e\u5143\u5f3a\u52bf\u8fd8\u4f1a\u63a8\u9ad8\u975e\u7f8e neocloud \u4ee5\u7f8e\u5143\u8ba1\u4ef7\u7684\u8d44\u672c\u5f00\u652f\u548c\u507f\u503a\u6210\u672c\uff0c\u6700\u8106\u5f31\u7684\u73af\u8282\u6700\u5148\u627f\u538b\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 1757,
+      "ts": 1782772167,
+      "ts_str": "2026-06-29 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.18% (+46bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-06-26\nCurrent:  2.18%\n90d low:  1.72%\nMove:     +46bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.18% on 2026-06-26, up 0.46 points from its trailing-90-day low of 1.72%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387 (TIPS) \u5728 2026-06-26 \u5347\u81f3 2.18%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.72% \u4e0a\u884c 0.46 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nHigher real yields raise the discount rate on long-duration AI-capex bets, whose payoff is years out \u2014 exactly the cash flows hit hardest when money stops being free. A real-yield spike also tightens financial conditions broadly, pressuring the leveraged neocloud and data-center buildout that assumes cheap funding.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u4f1a\u62ac\u5347\u957f\u4e45\u671f AI capex \u62bc\u6ce8\u7684\u8d34\u73b0\u7387\uff0c\u800c\u8fd9\u4e9b\u9879\u76ee\u7684\u56de\u62a5\u8981\u7b49\u6570\u5e74\u624d\u5151\u73b0\uff0c\u6b63\u662f\u8d44\u91d1\u4e0d\u518d\u514d\u8d39\u65f6\u6700\u53d7\u51b2\u51fb\u7684\u73b0\u91d1\u6d41\u3002\u5b9e\u9645\u6536\u76ca\u7387\u8df3\u5347\u8fd8\u4f1a\u5168\u9762\u6536\u7d27\u91d1\u878d\u6761\u4ef6\uff0c\u6324\u538b\u4f9d\u8d56\u5ec9\u4ef7\u878d\u8d44\u7684 neocloud \u548c\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1755,
       "ts": 1782771257,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut - Bloomberg.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:40:01 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQWElOY3h3dWVKcDlYclJTN3B3WURnbThHX2NPTUFrdmJKeS03Y1duU0VMekw1SjBUUlFVVS1EbFlEWTdKakxyTmFRSWwtYmxVb0VMYjhrSjJPbUQ4eUxoTURidEt6TkloWW9vc3JIekR4TmdtTlUwUTBINHc4U2JJcVlIb1Q4Q3BJQ1hnYVg0ZEZHZGFNWWNSaWRDVXNaR2hjU0pDLUluT1FjY0xoSm01Zlhrak0?oc=5\n\nOpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQWElOY3h3dWVKcDlYclJTN3B3WURnbThHX2NPTUFrdmJKeS03Y1duU0VMekw1SjBUUlFVVS1EbFlEWTdKakxyTmFRSWwtYmxVb0VMYjhrSjJPbUQ4eUxoTURidEt6TkloWW9vc3JIekR4TmdtTlUwUTBINHc4U2JJcVlIb1Q4Q3BJQ1hnYVg0ZEZHZGFNWWNSaWRDVXNaR2hjU0pDLUluT1FjY0xoSm01Zlhrak0?oc=5\" target=\"_blank\">OpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg headline says OpenAI is weighing a 2027 IPO, expected to follow Anthropic's public debut.\n\n\u5185\u5bb9:\nBloomberg \u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u8003\u8651\u4e8e 2027 \u5e74 IPO\uff0c\u9884\u8ba1\u5c06\u7d27\u968f Anthropic \u7684\u516c\u5f00\u4e0a\u5e02\u4e4b\u540e\u3002\n\nWhy it matters:\nBoth leading AI labs eyeing public listings signals insiders want to monetize private valuations while the capex narrative still commands a premium. An IPO timeline is a liquidity event \u2014 it lets early backers and employees sell, which often marks the late stage of a private-funding cycle rather than the early one.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u90fd\u5728\u7b79\u5212\u4e0a\u5e02\uff0c\u8bf4\u660e\u5185\u90e8\u4eba\u5e0c\u671b\u8d81 capex \u53d9\u4e8b\u4ecd\u4eab\u6709\u6ea2\u4ef7\u65f6\u628a\u79c1\u52df\u4f30\u503c\u53d8\u73b0\u3002IPO \u65f6\u95f4\u8868\u672c\u8eab\u5c31\u662f\u4e00\u6b21\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5b83\u8ba9\u65e9\u671f\u6295\u8d44\u4eba\u548c\u5458\u5de5\u5f97\u4ee5\u5957\u73b0\uff0c\u8fd9\u901a\u5e38\u6807\u5fd7\u7740\u79c1\u52df\u878d\u8d44\u5468\u671f\u8fdb\u5165\u665a\u671f\uff0c\u800c\u975e\u65e9\u671f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1557,
-      "ts": 1782486957,
-      "ts_str": "2026-06-26 15:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO Delay: A Symptom Of A Tech Bubble? (Private:OPENAI) - Seeking Alpha",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:56:14 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxQYVhLRFJrNE1GNmFjUHZwLUZxV3E3cGZ4ODJwejJkcjZYcUcwNXhfSEUtNDU4Tm1FYUNYTnVjSUFjODlqbUF2OUd0V0FJNU12dGdBS0YzQmtjV3lQclVTNDN2c1BYODE0WEM4VXBIZ2ZfaWRDa3M1a3JnbXotWks1d0xyMUtWS3hsblZxeA?oc=5\n\nOpenAI IPO Delay: A Symptom Of A Tech Bubble? (Private:OPENAI) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQYVhLRFJrNE1GNmFjUHZwLUZxV3E3cGZ4ODJwejJkcjZYcUcwNXhfSEUtNDU4Tm1FYUNYTnVjSUFjODlqbUF2OUd0V0FJNU12dGdBS0YzQmtjV3lQclVTNDN2c1BYODE0WEM4VXBIZ2ZfaWRDa3M1a3JnbXotWks1d0xyMUtWS3hsblZxeA?oc=5\" target=\"_blank\">OpenAI IPO Delay: A Symptom Of A Tech Bubble? (Private:OPENAI)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha article asks whether OpenAI's IPO delay is a symptom of a tech bubble (Private:OPENAI).\n\n\u5185\u5bb9:\n\u4e00\u7bc7 Seeking Alpha \u6587\u7ae0\u53d1\u95ee\uff1aOpenAI \u63a8\u8fdf IPO \u662f\u5426\u662f\u79d1\u6280\u6ce1\u6cab\u7684\u5f81\u5146 (Private:OPENAI)\u3002\n\nWhy it matters:\nOpenAI is the anchor tenant of the AI-capex buildout \u2014 hyperscaler and neocloud spend is justified by OpenAI demand. Commentary framing an IPO delay as bubble evidence signals the narrative is starting to crack, even if no hard financials have moved yet.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u6838\u5fc3\u9700\u6c42\u6765\u6e90\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684\u652f\u51fa\u90fd\u9760 OpenAI \u7684\u9700\u6c42\u6765\u652f\u6491\u3002\u628a\u63a8\u8fdf IPO \u89e3\u8bfb\u4e3a\u6ce1\u6cab\u8bc1\u636e\u7684\u8bc4\u8bba\uff0c\u8bf4\u660e\u5373\u4fbf\u786c\u6570\u636e\u5c1a\u672a\u53d8\u5316\uff0c\u5e02\u573a\u53d9\u4e8b\u5df2\u7ecf\u5f00\u59cb\u51fa\u73b0\u88c2\u75d5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1558,
-      "ts": 1782486957,
-      "ts_str": "2026-06-26 15:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI \u039d\u03bf\u03c4 On IPO Timeline Yet, Hasn't Begun 'Testing-Waters' Meetings With Investors - CNBC - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:07:35 GMT\nLink:      https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ1dLWkhLdURCa0w4YUliVXFTU0d0ZGV5VmNnYVEwWnhZSGdhcWk3MHo0Yml4WFJMRHkzd3lRYXhoNXVESWVfZHNhT1pwVUpSOGJCLUo3a1RueGVyWi1Od0xKV3JiY19sZlRSMVdvLXpZUTYtYm9DSWc5YnVpUzhZX2ZHUGZUelc4N2dBX04walZNTDViS0VnbGRhWERTUnRZeUNrc1NxVFFpMUVyUS1zcV9pb2JsTmtkaVRpbGR3YmZCNTdsWmdHS1ZWcnU3WVJwUGlsTnF4QlVpOXU4bzJlSmtWd0oyajMz?oc=5\n\nOpenAI \u039d\u03bf\u03c4 On IPO Timeline Yet, Hasn't Begun 'Testing-Waters' Meetings With Investors - CNBC - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ1dLWkhLdURCa0w4YUliVXFTU0d0ZGV5VmNnYVEwWnhZSGdhcWk3MHo0Yml4WFJMRHkzd3lRYXhoNXVESWVfZHNhT1pwVUpSOGJCLUo3a1RueGVyWi1Od0xKV3JiY19sZlRSMVdvLXpZUTYtYm9DSWc5YnVpUzhZX2ZHUGZUelc4N2dBX04walZNTDViS0VnbGRhWERTUnRZeUNrc1NxVFFpMUVyUS1zcV9pb2JsTmtkaVRpbGR3YmZCNTdsWmdHS1ZWcnU3WVJwUGlsTnF4QlVpOXU4bzJlSmtWd0oyajMz?oc=5\" target=\"_blank\">OpenAI \u039d\u03bf\u03c4 On IPO Timeline Yet, Hasn't Begun 'Testing-Waters' Meetings With Investors - CNBC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC report (via TradingView) says OpenAI is not on an IPO timeline yet and has not begun 'testing-waters' meetings with investors.\n\n\u5185\u5bb9:\nCNBC\uff08\u7ecf TradingView \u8f6c\u8f7d\uff09\u62a5\u9053\u79f0\uff0cOpenAI \u76ee\u524d\u5c1a\u672a\u8fdb\u5165 IPO \u65f6\u95f4\u8868\uff0c\u4e5f\u8fd8\u6ca1\u6709\u5f00\u59cb\u4e0e\u6295\u8d44\u8005\u8fdb\u884c 'testing-waters'\uff08\u8bd5\u63a2\u6027\uff09\u4f1a\u8bae\u3002\n\nWhy it matters:\nAn OpenAI IPO is the most likely cash-out / mark-to-market event for the private AI-capex bubble. No IPO timeline and no testing-the-waters meetings means the largest pure-play AI bet stays private and unpriced by public markets \u2014 delaying the moment public investors can repudiate the valuation. A signpost on IPO readiness, not yet a stress event.\n\n\u5f71\u54cd:\nOpenAI \u4e0a\u5e02\u662f\u79c1\u52df AI capex \u6ce1\u6cab\u6700\u53ef\u80fd\u7684\u5151\u73b0\uff0f\u91cd\u65b0\u5b9a\u4ef7\u8282\u70b9\u3002\u6ca1\u6709 IPO \u65f6\u95f4\u8868\u3001\u6ca1\u6709 testing-waters \u4f1a\u8bae\uff0c\u610f\u5473\u7740\u8fd9\u4e2a\u6700\u5927\u7684\u7eaf AI \u6807\u7684\u7ee7\u7eed\u7559\u5728\u79c1\u52df\u5e02\u573a\u3001\u4e0d\u88ab\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\uff0c\u4e5f\u5c31\u63a8\u8fdf\u4e86\u516c\u4f17\u6295\u8d44\u8005\u5426\u5b9a\u5176\u4f30\u503c\u7684\u65f6\u523b\u3002\u8fd9\u662f\u5173\u4e8e IPO \u8fdb\u5ea6\u7684\u8def\u6807\uff0c\u8fd8\u4e0d\u662f\u538b\u529b\u4e8b\u4ef6\u672c\u8eab\u3002\n",
       "emailed": false
     }
   ],
