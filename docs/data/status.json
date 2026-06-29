@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782714726,
-  "generated_at_str": "2026-06-29 06:32:06 UTC",
-  "last_event_ts": 1782713674,
+  "generated_at": 1782714918,
+  "generated_at_str": "2026-06-29 06:35:18 UTC",
+  "last_event_ts": 1782714917,
   "tables": {
     "alerts_dedup": {
-      "count": 1696,
-      "last_ts": 1782713674,
-      "last_str": "2026-06-29 06:14:34 UTC"
+      "count": 1697,
+      "last_ts": 1782714917,
+      "last_str": "2026-06-29 06:35:17 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-29 05:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1216,
-      "last_ts": 1782713102,
-      "last_str": "2026-06-29 06:05:02 UTC"
+      "count": 1217,
+      "last_ts": 1782714903,
+      "last_str": "2026-06-29 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1397,
-      "last_ts": 1782713103,
-      "last_str": "2026-06-29 06:05:03 UTC"
+      "count": 1398,
+      "last_ts": 1782714905,
+      "last_str": "2026-06-29 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 936,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-29 05:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1138,
-      "last_ts": 1782713104,
-      "last_str": "2026-06-29 06:05:04 UTC"
+      "count": 1139,
+      "last_ts": 1782714905,
+      "last_str": "2026-06-29 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12416,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1704,
+      "ts": 1782714917,
+      "ts_str": "2026-06-29 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Samsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes - News9live",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:18:08 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTUdfV1ljVmUwSUQzLVBfdktxN3hieFdzMEk3ZmhzY0FaNm1UUEQxcVFMUnJ3WEp3ZnFUSDV4RC1Ma09DMnpBVmE4Q3JxVVZiZ0dKaTctWExGZnZhLVhjem82QjNyYWlVLVJ2RVROamo4RkxIR1YwQVJGc2pNeWNQZ3FDb1FENkxoeUlqbHFieFlRU3pXRVVoQi1WMExXcVNtS28zV2lRZjFnVlZXVDFKTXZIMHV2c04tUUlJWEJpbTRLM1FaOHVCWGVNbGJBNmcxMWNONmNrNnrSAd4BQVVfeXFMT2tMWUp0WHl6T01OdVNYQWg2T0h5VHNxM201YTNvMUMycmYtRXdSR09yd3lKQjZIYUFGN09OYVhOU3NVWkdOUUlEc3BZVkJNWnM5Y0JJUUxJU1YtWWo2Yld2VmdlMUltbTNLZUpBbjZqNnI0N3pUSDVobk5DeUxyWnlrUnlWVjVzNXBhWUJrUlRwODBxNFowRDBteVREM3YxaDNMdDNiTGdOa3VQaFh0emxab0pZZndNMWtFN1hYRE1rZlRjeFRKdlI5TUxkMm50QWZiRFY0Y2YzeFNHLV9R?oc=5\n\nSamsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes - News9live\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTUdfV1ljVmUwSUQzLVBfdktxN3hieFdzMEk3ZmhzY0FaNm1UUEQxcVFMUnJ3WEp3ZnFUSDV4RC1Ma09DMnpBVmE4Q3JxVVZiZ0dKaTctWExGZnZhLVhjem82QjNyYWlVLVJ2RVROamo4RkxIR1YwQVJGc2pNeWNQZ3FDb1FENkxoeUlqbHFieFlRU3pXRVVoQi1WMExXcVNtS28zV2lRZjFnVlZXVDFKTXZIMHV2c04tUUlJWEJpbTRLM1FaOHVCWGVNbGJBNmcxMWNONmNrNnrSAd4BQVVfeXFMT2tMWUp0WHl6T01OdVNYQWg2T0h5VHNxM201YTNvMUMycmYtRXdSR09yd3lKQjZIYUFGN09OYVhOU3NVWkdOUUlEc3BZVkJNWnM5Y0JJUUxJU1YtWWo2Yld2VmdlMUltbTNLZUpBbjZqNnI0N3pUSDVobk5DeUxyWnlrUnlWVjVzNXBhWUJrUlRwODBxNFowRDBteVREM3YxaDNMdDNiTGdOa3VQaFh0emxab0pZZndNMWtFN1hYRE1rZlRjeFRKdlI5TUxkMm50QWZiRFY0Y2YzeFNHLV9R?oc=5\" target=\"_blank\">Samsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News9live</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA lawsuit was filed against Samsung, Micron, and SK Hynix alleging they coordinated DRAM supply cuts and price hikes.\n\n\u5185\u5bb9:\nSamsung\u3001Micron\u3001SK Hynix \u88ab\u8d77\u8bc9\uff0c\u6307\u63a7\u4e09\u5bb6\u5408\u8c0b\u524a\u51cf DRAM \u4f9b\u5e94\u5e76\u62ac\u9ad8\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/HBM is the supply bottleneck for AI accelerators \u2014 if the three memory makers are deliberately restricting supply to push prices up, it confirms memory has flipped from glut to scarcity. Higher memory prices feed straight into AI server bill-of-materials, raising hyperscaler capex per unit and squeezing the payback math.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7684\u4f9b\u5e94\u74f6\u9888\u3002\u5982\u679c\u4e09\u5927\u5185\u5b58\u5382\u5546\u5728\u523b\u610f\u6536\u7f29\u4f9b\u7ed9\u4ee5\u63a8\u9ad8\u4ef7\u683c\uff0c\u5c31\u8bf4\u660e\u5185\u5b58\u5df2\u7ecf\u4ece\u8fc7\u5269\u7ffb\u8f6c\u5230\u7d27\u7f3a\u3002\u5185\u5b58\u6da8\u4ef7\u4f1a\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u62ac\u5347\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5355\u4f4d\u8d44\u672c\u5f00\u652f\uff0c\u8fdb\u4e00\u6b65\u6324\u538b\u56de\u672c\u7a7a\u95f4\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1702,
       "ts": 1782713674,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple Raises Mac and iPad Prices Citing Memory Chip Shortage - Akses.co.id",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 08:34:19 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzAyLTZ0QlI1dUJKRjVsdGVIc29wVE9mMUFQRmJsdzJmQ0J2R2R1N01NNXhyS2QxUm45Q2tRVVNOXzFvWlAxcDJLN1lFaDJRZ1AyRHVaUGFEUEI5eWlkdHQ1aUZkYmpqNXNsR0xnZHpmR1BIckNDcEZweTdoUEl6Y25PdUtacndWTkZETVpDVTM?oc=5\n\nApple Raises Mac and iPad Prices Citing Memory Chip Shortage - Akses.co.id\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzAyLTZ0QlI1dUJKRjVsdGVIc29wVE9mMUFQRmJsdzJmQ0J2R2R1N01NNXhyS2QxUm45Q2tRVVNOXzFvWlAxcDJLN1lFaDJRZ1AyRHVaUGFEUEI5eWlkdHQ1aUZkYmpqNXNsR0xnZHpmR1BIckNDcEZweTdoUEl6Y25PdUtacndWTkZETVpDVTM?oc=5\" target=\"_blank\">Apple Raises Mac and iPad Prices Citing Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Akses.co.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn AI-infrastructure bubble-stress alert flagged a Google News headline: \"Apple Raises Mac and iPad Prices Citing Memory Chip Shortage\" (Akses.co.id). Apple is lifting Mac and iPad prices and explicitly blaming a memory chip shortage.\n\n\u5185\u5bb9:\nAI \u57fa\u7840\u8bbe\u65bd\u6ce1\u6cab\u538b\u529b\u76d1\u6d4b\u6355\u6349\u5230\u4e00\u6761 Google News \u5934\u6761\uff1a\"Apple Raises Mac and iPad Prices Citing Memory Chip Shortage\"(\u6765\u6e90 Akses.co.id)\u3002Apple \u6b63\u5728\u4e0a\u8c03 Mac \u548c iPad \u552e\u4ef7,\u5e76\u660e\u786e\u5c06\u539f\u56e0\u5f52\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, and the squeeze is now spilling into consumer hardware pricing \u2014 a sign AI capex is tightening the broader supply chain. When a buyer as large as Apple has to raise prices over memory scarcity, it confirms demand is outrunning supply across the whole chip stack, not just AI accelerators.\n\n\u5f71\u54cd:\n\u5185\u5b58(DRAM/HBM)\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\ufffd\u200b\u200b\u6d88\u8017,\u8fd9\u79cd\u6324\u538b\u5982\u4eca\u5df2\u8513\u5ef6\u5230\u6d88\u8d39\u786c\u4ef6\u5b9a\u4ef7\u2014\u2014\u8bf4\u660e AI capex \u6b63\u5728\u6536\u7d27\u6574\u6761\u4f9b\u5e94\u94fe\u3002\u5f53 Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u4e0d\u5f97\u4e0d\u56e0\u5185\u5b58\u77ed\u7f3a\u800c\u6da8\u4ef7,\u5c31\u8bc1\u5b9e\u4e86\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4f9b\u7ed9,\u800c\u4e14\u7d27\u5f20\u7684\u4e0d\u53ea\u662f AI \u52a0\u901f\u5668,\u800c\u662f\u6574\u4e2a\u82af\u7247\u6808\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1506,
-      "ts": 1782468342,
-      "ts_str": "2026-06-26 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] MacBook Air M5 Price Hiked as Apple Raises Prices Amid Memory Chip Shortage - LatestLY",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 09:44:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTFidXgwaDAxQ1k5RVpERFJZRXhjMWdORDdxMHd3MWJ3WkRxZkVZbjJoRTFmSFFBY2NfeVNUWnFwZXQzWkg5eXd5THZ4eXRrbGFsMzR0Mi1rbDkxbTZFTGw2TEFtalphUnVOYnEtOVk4N0VaMTRYUl8tc1ZwRVVRRjdkM2o1cDMzZ29TY1BCamt2MFhoQk0tQUdlelpmUUlYeXFlTnBRaGlJVTVWbC02dFFmT3ByQjZBdXVOQkhMbHBBdw?oc=5\n\nMacBook Air M5 Price Hiked as Apple Raises Prices Amid Memory Chip Shortage - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTFidXgwaDAxQ1k5RVpERFJZRXhjMWdORDdxMHd3MWJ3WkRxZkVZbjJoRTFmSFFBY2NfeVNUWnFwZXQzWkg5eXd5THZ4eXRrbGFsMzR0Mi1rbDkxbTZFTGw2TEFtalphUnVOYnEtOVk4N0VaMTRYUl8tc1ZwRVVRRjdkM2o1cDMzZ29TY1BCamt2MFhoQk0tQUdlelpmUUlYeXFlTnBRaGlJVTVWbC02dFFmT3ByQjZBdXVOQkhMbHBBdw?oc=5\" target=\"_blank\">MacBook Air M5 Price Hiked as Apple Raises Prices Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn Apple news headline reports the MacBook Air M5 price was hiked as Apple raises prices amid a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u82f9\u679c\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3001\u82f9\u679c\u4e0a\u8c03\u552e\u4ef7\uff0cMacBook Air M5 \u4ef7\u683c\u88ab\u4e0a\u8c03\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, draining supply and pricing for consumer hardware. When the AI-capex squeeze on memory starts raising the price of mainstream consumer devices, the cost of the buildout is leaking into the real economy \u2014 a sign the spend is large enough to distort end markets.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u4f9b\u7ed9\u4e0e\u4ef7\u683c\u3002\u5f53 AI capex \u5bf9\u5185\u5b58\u7684\u6324\u538b\u5f00\u59cb\u62ac\u9ad8\u4e3b\u6d41\u6d88\u8d39\u8bbe\u5907\u7684\u552e\u4ef7\u65f6\uff0c\u8bf4\u660e\u5efa\u8bbe\u6210\u672c\u6b63\u5728\u5916\u6ea2\u5230\u5b9e\u4f53\u7ecf\u6d4e\u2014\u2014\u652f\u51fa\u89c4\u6a21\u5df2\u5927\u5230\u8db3\u4ee5\u626d\u66f2\u7ec8\u7aef\u5e02\u573a\u3002\n",
       "emailed": false
     }
   ],
