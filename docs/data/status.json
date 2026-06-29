@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782768724,
-  "generated_at_str": "2026-06-29 21:32:04 UTC",
-  "last_event_ts": 1782767642,
+  "generated_at": 1782768917,
+  "generated_at_str": "2026-06-29 21:35:17 UTC",
+  "last_event_ts": 1782768916,
   "tables": {
     "alerts_dedup": {
-      "count": 1745,
-      "last_ts": 1782765869,
-      "last_str": "2026-06-29 20:44:29 UTC"
+      "count": 1747,
+      "last_ts": 1782768916,
+      "last_str": "2026-06-29 21:35:16 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-29 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1310,
-      "last_ts": 1782767102,
-      "last_str": "2026-06-29 21:05:02 UTC"
+      "count": 1311,
+      "last_ts": 1782768902,
+      "last_str": "2026-06-29 21:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1488,
-      "last_ts": 1782767104,
-      "last_str": "2026-06-29 21:05:04 UTC"
+      "count": 1489,
+      "last_ts": 1782768903,
+      "last_str": "2026-06-29 21:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 984,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-29 20:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1184,
-      "last_ts": 1782765306,
-      "last_str": "2026-06-29 20:35:06 UTC"
+      "count": 1185,
+      "last_ts": 1782768905,
+      "last_str": "2026-06-29 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12617,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1753,
+      "ts": 1782768916,
+      "ts_str": "2026-06-29 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:35 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% DRAM price spike. C6 flags DRAM/HBM pricing stress.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0c\u5185\u5b58\u82af\u7247\u5927\u5382\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u9762\u4e34\u8bc9\u8bbc\u3002C6 \u76d1\u6d4b\u7684\u6b63\u662f DRAM/HBM \u4ef7\u683c\u538b\u529b\u3002\n\nWhy it matters:\nDRAM and HBM are the supply bottleneck for AI accelerators \u2014 a 700% spike means memory cost is exploding and being passed into GPU/server bills of materials. Litigation over the spike signals the move is large enough to look like collusion or a structural shortage, both of which raise AI-capex unit costs and squeeze the payback math.\n\n\u5f71\u54cd:\nDRAM \u548c HBM \u662f AI \u52a0\u901f\u5668\u7684\u4f9b\u7ed9\u74f6\u9888\u2014\u2014\u66b4\u6da8 700% \u610f\u5473\u7740\u5185\u5b58\u6210\u672c\u5931\u63a7\uff0c\u5e76\u76f4\u63a5\u4f20\u5bfc\u8fdb GPU \u548c\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\u56f4\u7ed5\u8fd9\u6b21\u66b4\u6da8\u7684\u8bc9\u8bbc\u8bf4\u660e\u6da8\u5e45\u5927\u5230\u770b\u8d77\u6765\u50cf\u5408\u8c0b\u6216\u7ed3\u6784\u6027\u77ed\u7f3a\uff0c\u4e24\u8005\u90fd\u4f1a\u62ac\u9ad8 AI capex \u7684\u5355\u4f4d\u6210\u672c\uff0c\u538b\u7f29\u56de\u672c\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1754,
+      "ts": 1782768916,
+      "ts_str": "2026-06-29 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:35 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% DRAM price spike. C6 flags DRAM/HBM pricing stress.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0c\u5185\u5b58\u82af\u7247\u5927\u5382\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u9762\u4e34\u8bc9\u8bbc\u3002C6 \u76d1\u6d4b\u7684\u6b63\u662f DRAM/HBM \u4ef7\u683c\u538b\u529b\u3002\n\nWhy it matters:\nDRAM and HBM are the supply bottleneck for AI accelerators \u2014 a 700% spike means memory cost is exploding and being passed into GPU/server bills of materials. Litigation over the spike signals the move is large enough to look like collusion or a structural shortage, both of which raise AI-capex unit costs and squeeze the payback math.\n\n\u5f71\u54cd:\nDRAM \u548c HBM \u662f AI \u52a0\u901f\u5668\u7684\u4f9b\u7ed9\u74f6\u9888\u2014\u2014\u66b4\u6da8 700% \u610f\u5473\u7740\u5185\u5b58\u6210\u672c\u5931\u63a7\uff0c\u5e76\u76f4\u63a5\u4f20\u5bfc\u8fdb GPU \u548c\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\u56f4\u7ed5\u8fd9\u6b21\u66b4\u6da8\u7684\u8bc9\u8bbc\u8bf4\u660e\u6da8\u5e45\u5927\u5230\u770b\u8d77\u6765\u50cf\u5408\u8c0b\u6216\u7ed3\u6784\u6027\u77ed\u7f3a\uff0c\u4e24\u8005\u90fd\u4f1a\u62ac\u9ad8 AI capex \u7684\u5355\u4f4d\u6210\u672c\uff0c\u538b\u7f29\u56de\u672c\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1751,
       "ts": 1782765869,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:01:08 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQZWJmeEdDZTNqd1B2Rml5dm9BUXFaYnotMzNPZzJWNmU1VVlqTnpNTzlIUVpPSkhLeEFwRWl5c3RKNmlfRk5JMFFuT3pDTTZxTm5peVNDWUpWQmtxc21oazBYaUx6SG5EZ3hHUnhKSEd3dzVSNF8wZ3hYUHNpQXJlWlNLak5kX2dyY3Bnb1lTQmxKSWk3S0hQajFxU1BsNG1Wcl9WOWNuRmJidG55Y1Vua3ZmUmY?oc=5\n\nNvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQZWJmeEdDZTNqd1B2Rml5dm9BUXFaYnotMzNPZzJWNmU1VVlqTnpNTzlIUVpPSkhLeEFwRWl5c3RKNmlfRk5JMFFuT3pDTTZxTm5peVNDWUpWQmtxc21oazBYaUx6SG5EZ3hHUnhKSEd3dzVSNF8wZ3hYUHNpQXJlWlNLak5kX2dyY3Bnb1lTQmxKSWk3S0hQajFxU1BsNG1Wcl9WOWNuRmJidG55Y1Vua3ZmUmY?oc=5\" target=\"_blank\">Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 1560,
-      "ts": 1782486957,
-      "ts_str": "2026-06-26 15:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SoftBank stock falls 12% on OpenAI IPO delay concerns - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:47:24 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBlWVBaNG11ZEhVTGdyQXNJdi1wTTVCRWxwV1d1SHdNbnB6Z1NqTEdXNWNTNVliRXZsUExaTWRlaW8zREhjWmVtbTJqNjZaQkppaS11ZnBBMmlqaTFaR1FZaVpOMklBVHFGR3F5SWY5WWdoaHFvZFE?oc=5\n\nSoftBank stock falls 12% on OpenAI IPO delay concerns - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBlWVBaNG11ZEhVTGdyQXNJdi1wTTVCRWxwV1d1SHdNbnB6Z1NqTEdXNWNTNVliRXZsUExaTWRlaW8zREhjWmVtbTJqNjZaQkppaS11ZnBBMmlqaTFaR1FZaVpOMklBVHFGR3F5SWY5WWdoaHFvZFE?oc=5\" target=\"_blank\">SoftBank stock falls 12% on OpenAI IPO delay concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline via RSS: \"SoftBank stock falls 12% on OpenAI IPO delay concerns\" (Crypto Briefing). SoftBank shares dropped 12% on worries that an OpenAI IPO is being pushed back.\n\n\u5185\u5bb9:\n\u6765\u81ea Google News RSS \u7684\u6807\u9898\uff1a\"SoftBank stock falls 12% on OpenAI IPO delay concerns\"\uff08Crypto Briefing\uff09\u3002\u53d7 OpenAI IPO \u53ef\u80fd\u63a8\u8fdf\u7684\u62c5\u5fe7\u62d6\u7d2f\uff0cSoftBank \u80a1\u4ef7\u4e0b\u8dcc 12%\u3002\n\nWhy it matters:\nSoftBank is one of the most leveraged public proxies for the OpenAI/AI-capex trade. A 12% single-name drop on IPO-delay fears shows the market repricing the timeline for AI bets to pay off \u2014 exactly the kind of confidence crack the bubble-stress thesis watches for.\n\n\u5f71\u54cd:\nSoftBank \u662f\u516c\u5f00\u5e02\u573a\u4e0a\u62bc\u6ce8 OpenAI / AI capex \u4e3b\u9898\u6760\u6746\u6700\u9ad8\u7684\u4ee3\u7406\u6807\u7684\u4e4b\u4e00\u3002\u5355\u53ea\u80a1\u7968\u56e0 IPO \u63a8\u8fdf\u62c5\u5fe7\u5355\u65e5\u4e0b\u8dcc 12%\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u91cd\u65b0\u5b9a\u4ef7 AI \u6295\u8d44\u7684\u56de\u62a5\u65f6\u95f4\u8868\u2014\u2014\u8fd9\u6b63\u662f\u6ce1\u6cab\u538b\u529b\u903b\u8f91\u8981\u76ef\u7684\u4fe1\u5fc3\u88c2\u7f1d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1561,
-      "ts": 1782486957,
-      "ts_str": "2026-06-26 15:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut",
-      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Fri, 26 Jun 2026 14:40:01 GMT\nLink:      https://www.bloomberg.com/news/articles/2026-06-26/openai-weighs-ipo-in-2027-after-expected-anthropic-public-debut\n\nOpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut\n\nOpenAI is considering an initial public offering as soon as in 2027, according to people familiar with the matter, a timeline that would potentially see it go public after its artificial intelligence rival Anthropic PBC.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is weighing an IPO as soon as 2027, a timeline that would put it public after rival Anthropic PBC's expected debut.\n\n\u5185\u5bb9:\n\u636e\u77e5\u60c5\u4eba\u58eb\u900f\u9732\uff0cOpenAI \u6b63\u8003\u8651\u6700\u65e9\u4e8e 2027 \u5e74 IPO\uff0c\u8fd9\u4e00\u65f6\u95f4\u8868\u53ef\u80fd\u4f7f\u5176\u5728\u7ade\u4e89\u5bf9\u624b Anthropic PBC \u9884\u671f\u4e0a\u5e02\u4e4b\u540e\u624d\u516c\u5f00\u4e0a\u5e02\u3002\n\nWhy it matters:\nAn IPO target signals the company wants to monetize its valuation and broaden its funding base beyond private capital \u2014 a tell that the private money funding the AI-capex buildout is getting harder to tap. Going public also forces quarterly disclosure of burn and margins, which the bull case has so far run on without.\n\n\u5f71\u54cd:\n\u8bbe\u5b9a IPO \u76ee\u6807\u610f\u5473\u7740\u516c\u53f8\u60f3\u8981\u53d8\u73b0\u4f30\u503c\u3001\u628a\u878d\u8d44\u6e20\u9053\u6269\u5c55\u5230\u79c1\u52df\u8d44\u672c\u4e4b\u5916\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u4fe1\u53f7\uff1a\u652f\u6491 AI capex \u6269\u5f20\u7684\u79c1\u52df\u8d44\u91d1\u6b63\u53d8\u5f97\u8d8a\u6765\u8d8a\u96be\u62ff\u3002\u4e0a\u5e02\u8fd8\u4f1a\u8feb\u4f7f\u5176\u6309\u5b63\u5ea6\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u548c\u5229\u6da6\u7387\uff0c\u800c\u591a\u5934\u53d9\u4e8b\u6b64\u524d\u4e00\u76f4\u65e0\u9700\u9762\u5bf9\u8fd9\u4e9b\u6570\u636e\u3002\n",
       "emailed": false
     }
   ],
