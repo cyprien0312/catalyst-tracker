@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782752527,
-  "generated_at_str": "2026-06-29 17:02:07 UTC",
-  "last_event_ts": 1782751460,
+  "generated_at": 1782752718,
+  "generated_at_str": "2026-06-29 17:05:18 UTC",
+  "last_event_ts": 1782752718,
   "tables": {
     "alerts_dedup": {
-      "count": 1731,
-      "last_ts": 1782751460,
-      "last_str": "2026-06-29 16:44:20 UTC"
+      "count": 1732,
+      "last_ts": 1782752718,
+      "last_str": "2026-06-29 17:05:18 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-29 16:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1285,
-      "last_ts": 1782750902,
-      "last_str": "2026-06-29 16:35:02 UTC"
+      "count": 1291,
+      "last_ts": 1782752703,
+      "last_str": "2026-06-29 17:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1467,
-      "last_ts": 1782750903,
-      "last_str": "2026-06-29 16:35:03 UTC"
+      "count": 1474,
+      "last_ts": 1782752705,
+      "last_str": "2026-06-29 17:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 970,
-      "last_ts": 1782750903,
-      "last_str": "2026-06-29 16:35:03 UTC"
+      "count": 972,
+      "last_ts": 1782752704,
+      "last_str": "2026-06-29 17:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1175,
-      "last_ts": 1782750904,
-      "last_str": "2026-06-29 16:35:04 UTC"
+      "count": 1176,
+      "last_ts": 1782752706,
+      "last_str": "2026-06-29 17:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12560,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1739,
+      "ts": 1782752718,
+      "ts_str": "2026-06-29 17:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike - Sammy Fans",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 14:12:49 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3YxNHppV3JlZUtGQUhHcXdqaWRMWkVCV25WVjhxTTNtZkZxSGlJZWpDblRlRFRRbkx6Y3Z1Zkl6LU00YWcweGxSbF9RWnU3TEFtZlNTZ3lBMG5haTl0MTk4ajdPTDVFdzRvb3ppZ1NmbVB6Y3dvcWFSd1NDRFZacC0zQ1BqT3pxYjJyc2kzWmM1Um04aGfSAZsBQVVfeXFMTjRmOUFEQUhFOHQ0eU11b1NBUVhPUjdlMEVWT0N6TWEwdW1QVXJ0YUJ2T0hKWUlIZHlNOFQ4Vk11SFduUUdVNDNKaHI4R0tucjFtUllCWXB5YjhlcmdPUVhRMmFiZDJyU0tCazBZWGlyTXdad0xENzNhTF8tTG1Na2hCS1pXam53dnFLcHNQekgxSzJ2MDBoTnI4Y3c?oc=5\n\nSamsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike - Sammy Fans\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3YxNHppV3JlZUtGQUhHcXdqaWRMWkVCV25WVjhxTTNtZkZxSGlJZWpDblRlRFRRbkx6Y3Z1Zkl6LU00YWcweGxSbF9RWnU3TEFtZlNTZ3lBMG5haTl0MTk4ajdPTDVFdzRvb3ppZ1NmbVB6Y3dvcWFSd1NDRFZacC0zQ1BqT3pxYjJyc2kzWmM1Um04aGfSAZsBQVVfeXFMTjRmOUFEQUhFOHQ0eU11b1NBUVhPUjdlMEVWT0N6TWEwdW1QVXJ0YUJ2T0hKWUlIZHlNOFQ4Vk11SFduUUdVNDNKaHI4R0tucjFtUllCWXB5YjhlcmdPUVhRMmFiZDJyU0tCazBZWGlyTXdad0xENzNhTF8tTG1Na2hCS1pXam53dnFLcHNQekgxSzJ2MDBoTnI4Y3c?oc=5\" target=\"_blank\">Samsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sammy Fans</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA US lawsuit accuses Samsung, SK hynix and Micron of conspiring over a DRAM shortage and a 7x price hike.\n\n\u5185\u5bb9:\n\u7f8e\u56fd\u4e00\u8d77\u8bc9\u8bbc\u6307\u63a7 Samsung\u3001SK hynix \u548c Micron \u5728 DRAM \u77ed\u7f3a\u53ca 7 \u500d\u6da8\u4ef7\u4e0a\u5408\u8c0b\u3002\n\nWhy it matters:\nDRAM and HBM are core AI-server bill-of-materials; a 7x memory price spike inflates GPU-system build costs and squeezes hyperscaler capex efficiency. A collusion suit also signals the supply tightness is extreme enough to draw legal and regulatory scrutiny \u2014 a late-cycle stress marker for the AI hardware supply chain.\n\n\u5f71\u54cd:\nDRAM \u4e0e HBM \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff0c\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 7 \u500d\u4f1a\u62ac\u9ad8 GPU \u6574\u673a\u7684\u5efa\u9020\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\u3002\u96c6\u4f53\u8bc9\u8bbc\u672c\u8eab\u4e5f\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u5df2\u6781\u7aef\u5230\u62db\u81f4\u6cd5\u5f8b\u4e0e\u76d1\u7ba1\u5173\u6ce8\u2014\u2014\u662f AI \u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u5468\u671f\u665a\u671f\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1738,
       "ts": 1782751460,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SoftBank Plunges 13% As OpenAI IPO Delay Concerns Shake Investors - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:46:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMnNvT2hPUjJTVlV4WVJBSnFEeU9lNFczX1VKRV9NLXR5a2ZOa1ZoQVFDUDRZTWZQbzVIMjlhcEdPZVhLUFdza28zSzUyLXRvSFg3bnJid1lod1pLLTFjZHlOaUdzVGh4dTFwbm83YnA0RUZaOVI4Smh1MURsb1lHQ3lkNGxoQllEcXR4cFBoeHgyMWFSR1k5R1N1clRMb0RKdlp6Rzl1ZkJGYnl6dy0wTU9od0RITzFhN0FxVXhtN1lzdw?oc=5\n\nSoftBank Plunges 13% As OpenAI IPO Delay Concerns Shake Investors - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMnNvT2hPUjJTVlV4WVJBSnFEeU9lNFczX1VKRV9NLXR5a2ZOa1ZoQVFDUDRZTWZQbzVIMjlhcEdPZVhLUFdza28zSzUyLXRvSFg3bnJid1lod1pLLTFjZHlOaUdzVGh4dTFwbm83YnA0RUZaOVI4Smh1MURsb1lHQ3lkNGxoQllEcXR4cFBoeHgyMWFSR1k5R1N1clRMb0RKdlp6Rzl1ZkJGYnl6dy0wTU9od0RITzFhN0FxVXhtN1lzdw?oc=5\" target=\"_blank\">SoftBank Plunges 13% As OpenAI IPO Delay Concerns Shake Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TradingView headline reports SoftBank (SoftBank Group) fell 13% as worries over a delay to OpenAI's IPO rattled investors.\n\n\u5185\u5bb9:\nTradingView \u6807\u9898\u663e\u793a\uff0c\u56e0\u5e02\u573a\u62c5\u5fe7 OpenAI IPO \u5ef6\u8fdf\uff0cSoftBank\uff08\u8f6f\u94f6\u96c6\u56e2\uff09\u5355\u65e5\u66b4\u8dcc 13%\u3002\n\nWhy it matters:\nSoftBank is one of OpenAI's largest backers, so a 13% single-day drop on IPO-delay fears shows public-market patience with the AI buildout is thinning. An IPO slip removes a key exit/funding milestone the capex thesis is leaning on, and the sharp sell-off signals investors will punish any timeline slippage in the OpenAI complex.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u662f OpenAI \u6700\u5927\u7684\u652f\u6301\u8005\u4e4b\u4e00\uff0c\u5355\u65e5\u4e0b\u8dcc 13% \u8868\u660e\u516c\u5f00\u5e02\u573a\u5bf9 AI \u5927\u89c4\u6a21\u6295\u5165\u7684\u8010\u5fc3\u6b63\u5728\u53d8\u8584\u3002IPO \u63a8\u8fdf\u610f\u5473\u7740\u8d44\u672c\u5f00\u652f\u903b\u8f91\u6240\u4f9d\u8d56\u7684\u4e00\u4e2a\u5173\u952e\u9000\u51fa\u4e0e\u878d\u8d44\u8282\u70b9\u88ab\u62bd\u8d70\uff0c\u800c\u8fd9\u79cd\u5267\u70c8\u629b\u552e\u8bf4\u660e\uff0c\u53ea\u8981 OpenAI \u4f53\u7cfb\u7684\u65f6\u95f4\u8868\u4e00\u62d6\u5ef6\uff0c\u6295\u8d44\u8005\u5c31\u4f1a\u7acb\u523b\u7528\u811a\u6295\u7968\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1543,
-      "ts": 1782481505,
-      "ts_str": "2026-06-26 13:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI may delay IPO to 2027 as it sticks to $1 trillion valuation: Report - Indiatimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 11:46:16 GMT\nLink:      https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYkJVNnVVWGJmTkRiT05mLWt6VEpkbkhmb0NQRjFNUzdzaXg1ZDRERUM2aVFoR1hTNlJZTk82UUJ2TC1tSnFqSkNfR1kxeU9hSS1XVjREV3ZOb2xEMjBOOWQ4Tnd6QTZYNkYwaUJOX1NLSGJCMUJsOTBYNzdCQnVncHFkVVdVYUpHRm4xQ0VfOVdoQnBMUnotbHBxMDdpZnBySjdRcjJvQUpTdUNyY3BTemROSjVLdVJjRFRTUkpqRVVOSmJ4ZnpBSlpYRHRfLXRLbkhGWHNvSDR3LWluVy12b9IB4AFBVV95cUxNYkJVNnVVWGJmTkRiT05mLWt6VEpkbkhmb0NQRjFNUzdzaXg1ZDRERUM2aVFoR1hTNlJZTk82UUJ2TC1tSnFqSkNfR1kxeU9hSS1XVjREV3ZOb2xEMjBOOWQ4Tnd6QTZYNkYwaUJOX1NLSGJCMUJsOTBYNzdCQnVncHFkVVdVYUpHRm4xQ0VfOVdoQnBMUnotbHBxMDdpZnBySjdRcjJvQUpTdUNyY3BTemROSjVLdVJjRFRTUkpqRVVOSmJ4ZnpBSlpYRHRfLXRLbkhGWHNvSDR3LWluVy12bw?oc=5\n\nOpenAI may delay IPO to 2027 as it sticks to $1 trillion valuation: Report - Indiatimes\n\n<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYkJVNnVVWGJmTkRiT05mLWt6VEpkbkhmb0NQRjFNUzdzaXg1ZDRERUM2aVFoR1hTNlJZTk82UUJ2TC1tSnFqSkNfR1kxeU9hSS1XVjREV3ZOb2xEMjBOOWQ4Tnd6QTZYNkYwaUJOX1NLSGJCMUJsOTBYNzdCQnVncHFkVVdVYUpHRm4xQ0VfOVdoQnBMUnotbHBxMDdpZnBySjdRcjJvQUpTdUNyY3BTemROSjVLdVJjRFRTUkpqRVVOSmJ4ZnpBSlpYRHRfLXRLbkhGWHNvSDR3LWluVy12b9IB4AFBVV95cUxNYkJVNnVVWGJmTkRiT05mLWt6VEpkbkhmb0NQRjFNUzdzaXg1ZDRERUM2aVFoR1hTNlJZTk82UUJ2TC1tSnFqSkNfR1kxeU9hSS1XVjREV3ZOb2xEMjBOOWQ4Tnd6QTZYNkYwaUJOX1NLSGJCMUJsOTBYNzdCQnVncHFkVVdVYUpHRm4xQ0VfOVdoQnBMUnotbHBxMDdpZnBySjdRcjJvQUpTdUNyY3BTemROSjVLdVJjRFRTUkpqRVVOSmJ4ZnpBSlpYRHRfLXRLbkhGWHNvSDR3LWluVy12bw?oc=5\" target=\"_blank\">OpenAI may delay IPO to 2027 as it sticks to $1 trillion valuation: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Indiatimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI may delay its IPO to 2027 while holding to a $1 trillion valuation target.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cOpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u540c\u65f6\u575a\u6301 $1 trillion \u7684\u4f30\u503c\u76ee\u6807\u3002\n\nWhy it matters:\nPushing the IPO out while pinning a $1T valuation signals the private round can't yet support a public-market test of that price. A delay keeps OpenAI dependent on private capital and circular vendor financing for longer, which is the core funding-fragility risk in the AI-capex bubble thesis.\n\n\u5f71\u54cd:\n\u5728\u575a\u5b88 $1 trillion \u4f30\u503c\u7684\u540c\u65f6\u63a8\u8fdf IPO\uff0c\u8bf4\u660e\u79c1\u52df\u8f6e\u8fd8\u6491\u4e0d\u8d77\u516c\u5f00\u5e02\u573a\u5bf9\u8fd9\u4e2a\u4ef7\u683c\u7684\u68c0\u9a8c\u3002\u63a8\u8fdf\u610f\u5473\u7740 OpenAI \u8981\u66f4\u957f\u65f6\u95f4\u4f9d\u8d56\u79c1\u52df\u8d44\u672c\u548c\u5faa\u73af\u5f0f\u7684\u4f9b\u5e94\u5546\u878d\u8d44\uff0c\u800c\u8fd9\u6b63\u662f AI capex \u6ce1\u6cab\u8bba\u91cc\u6700\u6838\u5fc3\u7684\u878d\u8d44\u8106\u5f31\u6027\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
