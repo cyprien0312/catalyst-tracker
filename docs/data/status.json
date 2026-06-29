@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782763326,
-  "generated_at_str": "2026-06-29 20:02:06 UTC",
-  "last_event_ts": 1782762243,
+  "generated_at": 1782763519,
+  "generated_at_str": "2026-06-29 20:05:19 UTC",
+  "last_event_ts": 1782763518,
   "tables": {
     "alerts_dedup": {
-      "count": 1741,
-      "last_ts": 1782761706,
-      "last_str": "2026-06-29 19:35:06 UTC"
+      "count": 1743,
+      "last_ts": 1782763518,
+      "last_str": "2026-06-29 20:05:18 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -59,19 +59,19 @@
       "last_str": "2026-06-29 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1303,
-      "last_ts": 1782761702,
-      "last_str": "2026-06-29 19:35:02 UTC"
+      "count": 1306,
+      "last_ts": 1782763502,
+      "last_str": "2026-06-29 20:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1483,
-      "last_ts": 1782759906,
-      "last_str": "2026-06-29 19:05:06 UTC"
+      "count": 1484,
+      "last_ts": 1782763503,
+      "last_str": "2026-06-29 20:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 982,
-      "last_ts": 1782761704,
-      "last_str": "2026-06-29 19:35:04 UTC"
+      "count": 983,
+      "last_ts": 1782763503,
+      "last_str": "2026-06-29 20:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1183,
@@ -271,6 +271,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1749,
+      "ts": 1782763518,
+      "ts_str": "2026-06-29 20:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:15:02 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\n\nMemory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50% - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\" target=\"_blank\">Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 memory-price headline flagged that DRAM/NAND prices keep climbing \u2014 Lenovo says low prices won't return before 2028, and Wall Street expects Q3 could spike 50%.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u5185\u5b58\u4ef7\u683c\u65b0\u95fb\u663e\u793a DRAM/NAND \u4ef7\u683c\u6301\u7eed\u4e0a\u6da8\u2014\u2014Lenovo \u79f0\u4f4e\u4ef7\u5728 2028 \u5e74\u524d\u4e0d\u4f1a\u56de\u5f52\uff0cWall Street \u9884\u8ba1 Q3 \u53ef\u80fd\u98d9\u5347 50%\u3002\n\nWhy it matters:\nMemory is a core input for AI servers; a sustained surge with no relief until 2028 pushes up the bill-of-materials for every GPU box and data-center buildout. Rising hardware cost squeezes hyperscaler capex-payback math and is another stress signal on the AI-infrastructure thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u5143\u4ef6\uff1b\u8fd9\u79cd\u5230 2028 \u5e74\u90fd\u4e0d\u4f1a\u7f13\u89e3\u7684\u6301\u7eed\u6da8\u4ef7\uff0c\u4f1a\u63a8\u9ad8\u6bcf\u53f0 GPU \u673a\u5668\u548c\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u7684\u7269\u6599\u6210\u672c\u3002\u786c\u4ef6\u6210\u672c\u4e0a\u5347\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u6d4b\u7b97\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u903b\u8f91\u4e0a\u7684\u53c8\u4e00\u4e2a\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1750,
+      "ts": 1782763518,
+      "ts_str": "2026-06-29 20:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:15:02 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\n\nMemory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50% - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\" target=\"_blank\">Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 memory-price headline flagged that DRAM/NAND prices keep climbing \u2014 Lenovo says low prices won't return before 2028, and Wall Street expects Q3 could spike 50%.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u5185\u5b58\u4ef7\u683c\u65b0\u95fb\u663e\u793a DRAM/NAND \u4ef7\u683c\u6301\u7eed\u4e0a\u6da8\u2014\u2014Lenovo \u79f0\u4f4e\u4ef7\u5728 2028 \u5e74\u524d\u4e0d\u4f1a\u56de\u5f52\uff0cWall Street \u9884\u8ba1 Q3 \u53ef\u80fd\u98d9\u5347 50%\u3002\n\nWhy it matters:\nMemory is a core input for AI servers; a sustained surge with no relief until 2028 pushes up the bill-of-materials for every GPU box and data-center buildout. Rising hardware cost squeezes hyperscaler capex-payback math and is another stress signal on the AI-infrastructure thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u5143\u4ef6\uff1b\u8fd9\u79cd\u5230 2028 \u5e74\u90fd\u4e0d\u4f1a\u7f13\u89e3\u7684\u6301\u7eed\u6da8\u4ef7\uff0c\u4f1a\u63a8\u9ad8\u6bcf\u53f0 GPU \u673a\u5668\u548c\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u7684\u7269\u6599\u6210\u672c\u3002\u786c\u4ef6\u6210\u672c\u4e0a\u5347\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u6d4b\u7b97\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u903b\u8f91\u4e0a\u7684\u53c8\u4e00\u4e2a\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1748,
       "ts": 1782761706,
@@ -2249,26 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s IPO Delay Could Be the Biggest Warning Yet for AI Investors - 24/7 Wall St.",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:13:29 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxQVV9USUFSYTdTd0RvSVdvOE1wWnA2blpiNVFJTTJfdDUzNVRSRVVtZG4weFlrbFhuVGNMZDk3Vm9DLXdUdTdkM2REcWpscmpRNk10MmpPZ1MzNWppTEdLYlh1UmdBdmZoMmFLeURXU1dUWDJkV2FoeHdYRFFZM0VsaUhXdXRMTWhQanFBU2w5M2lIYTV2dEdTWVNqOWtlUWwxUi1zcGYyTWUyRUMydDkzMw?oc=5\n\nOpenAI\u2019s IPO Delay Could Be the Biggest Warning Yet for AI Investors - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQVV9USUFSYTdTd0RvSVdvOE1wWnA2blpiNVFJTTJfdDUzNVRSRVVtZG4weFlrbFhuVGNMZDk3Vm9DLXdUdTdkM2REcWpscmpRNk10MmpPZ1MzNWppTEdLYlh1UmdBdmZoMmFLeURXU1dUWDJkV2FoeHdYRFFZM0VsaUhXdXRMTWhQanFBU2w5M2lIYTV2dEdTWVNqOWtlUWwxUi1zcGYyTWUyRUMydDkzMw?oc=5\" target=\"_blank\">OpenAI\u2019s IPO Delay Could Be the Biggest Warning Yet for AI Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item from 24/7 Wall St. headlined \"OpenAI's IPO Delay Could Be the Biggest Warning Yet for AI Investors\" surfaced in the C3 feed.\n\n\u5185\u5bb9:\nGoogle News RSS \u4e2d\u51fa\u73b0\u4e00\u6761\u6765\u81ea 24/7 Wall St. \u7684\u62a5\u9053\uff0c\u6807\u9898\u4e3a\u300aOpenAI's IPO Delay Could Be the Biggest Warning Yet for AI Investors\u300b\uff08OpenAI \u63a8\u8fdf IPO \u53ef\u80fd\u662f\u8fc4\u4eca\u5bf9 AI \u6295\u8d44\u8005\u6700\u5927\u7684\u8b66\u544a\uff09\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a stalled IPO suggests it can't get public-market pricing it wants, hinting that private valuations are stretched and outside capital is hesitating. If the sector's flagship name delays raising, it pressures the funding chain that hyperscaler and neocloud spend depends on.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\u3002IPO \u88ab\u63a8\u8fdf\u610f\u5473\u7740\u5b83\u62ff\u4e0d\u5230\u60f3\u8981\u7684\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\uff0c\u6697\u793a\u79c1\u52df\u4f30\u503c\u5df2\u88ab\u62c9\u5f97\u8fc7\u9ad8\u3001\u5916\u90e8\u8d44\u91d1\u5f00\u59cb\u72b9\u8c6b\u3002\u5982\u679c\u8fd9\u4e2a\u65d7\u8230\u516c\u53f8\u90fd\u63a8\u8fdf\u878d\u8d44\uff0c\u4f1a\u5bf9\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u6574\u6761\u8d44\u91d1\u94fe\u6784\u6210\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1548,
-      "ts": 1782485108,
-      "ts_str": "2026-06-26 14:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Stock market today: S&P 500, Nasdaq futures slide as OpenAI IPO delay report rattles techs - Yahoo Finance Australia",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 10:52:38 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR29iaUFpVXhsNDhlcXVCdHFkQ2NFS3FJYWY2RHg1VUVuaFVleEhhMG0tWFdfckNRVnphbmhWaWZqXzVoWnN5Tm1fT3pKY1o0WHhLRVdzb2VGZWtlUm4zVnpnaDNkaG9DVnl1a3ZNVVNqTnJoUFhPSHJuMXNRWVpJQTM0OGE5aHpOdFI3blZzRFptcnJrVWxYRklnZi1IcDY0cFJ1WElMVzh5WWwxaFFxaGhjbkFjSGd6UkhlQVhEaG1HSjJMWUFQemgzTUZ6YVBsUHc?oc=5\n\nStock market today: S&P 500, Nasdaq futures slide as OpenAI IPO delay report rattles techs - Yahoo Finance Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQR29iaUFpVXhsNDhlcXVCdHFkQ2NFS3FJYWY2RHg1VUVuaFVleEhhMG0tWFdfckNRVnphbmhWaWZqXzVoWnN5Tm1fT3pKY1o0WHhLRVdzb2VGZWtlUm4zVnpnaDNkaG9DVnl1a3ZNVVNqTnJoUFhPSHJuMXNRWVpJQTM0OGE5aHpOdFI3blZzRFptcnJrVWxYRklnZi1IcDY0cFJ1WElMVzh5WWwxaFFxaGhjbkFjSGd6UkhlQVhEaG1HSjJMWUFQemgzTUZ6YVBsUHc?oc=5\" target=\"_blank\">Stock market today: S&amp;P 500, Nasdaq futures slide as OpenAI IPO delay report rattles techs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports S&P 500 and Nasdaq futures sliding after a report that OpenAI's IPO is being delayed.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5728 OpenAI IPO \u63a8\u8fdf\u7684\u6d88\u606f\u4f20\u51fa\u540e\uff0cS&P 500 \u4e0e Nasdaq \u671f\u8d27\u4e0b\u632b\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex chain; any wobble in its path to public markets \u2014 and the funding that an IPO implies \u2014 directly threatens the revenue assumptions underwriting hyperscaler and neocloud spend. The market moving on an IPO-delay rumor shows how tightly sentiment is now coupled to OpenAI's financing timeline.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u6761 AI capex \u94fe\u6761\u7684\u9700\u6c42\u951a\uff1b\u5b83\u901a\u5f80\u516c\u5f00\u5e02\u573a\u7684\u8def\u5f84\u2014\u2014\u4ee5\u53ca IPO \u6240\u9690\u542b\u7684\u878d\u8d44\u80fd\u529b\u2014\u2014\u4e00\u65e6\u52a8\u6447\uff0c\u5c31\u4f1a\u76f4\u63a5\u5a01\u80c1\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u6536\u5165\u5047\u8bbe\u3002\u5e02\u573a\u4ec5\u56e0\u4e00\u5219 IPO \u63a8\u8fdf\u4f20\u95fb\u5c31\u4e0b\u8dcc\uff0c\u8bf4\u660e\u60c5\u7eea\u5df2\u4e0e OpenAI \u7684\u878d\u8d44\u65f6\u95f4\u8868\u9ad8\u5ea6\u7ed1\u5b9a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1549,
-      "ts": 1782485108,
-      "ts_str": "2026-06-26 14:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Tech stocks fall globally as report of OpenAI IPO delay deepens AI fears - qz.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 11:35:09 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE9IOHNlMnZwYjRuSVdDR0pIT3Itai1fSkQ0TzN5Vi1pLVNQRlVwdWpoTEM3QURUaGRsRGpQNFdZMktDZnZOekotbjlXOVRKOTItNjFXeWVyY2lXbnUzdG92bGd1bjVpbHkwcF85N1RUT3ZDTDA?oc=5\n\nTech stocks fall globally as report of OpenAI IPO delay deepens AI fears - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9IOHNlMnZwYjRuSVdDR0pIT3Itai1fSkQ0TzN5Vi1pLVNQRlVwdWpoTEM3QURUaGRsRGpQNFdZMktDZnZOekotbjlXOVRKOTItNjFXeWVyY2lXbnUzdG92bGd1bjVpbHkwcF85N1RUT3ZDTDA?oc=5\" target=\"_blank\">Tech stocks fall globally as report of OpenAI IPO delay deepens AI fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline aggregated by the C3 feed reports global tech stocks falling as a story about an OpenAI IPO delay deepens AI fears (qz.com).\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u805a\u5408\u7684\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\uff1a\u5168\u7403\u79d1\u6280\u80a1\u4e0b\u8dcc\uff0c\u56e0\u4e00\u5219\u5173\u4e8e OpenAI IPO \u63a8\u8fdf\u7684\u62a5\u9053\u52a0\u6df1\u4e86\u5e02\u573a\u5bf9 AI \u7684\u62c5\u5fe7\uff08qz.com\uff09\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; any signal that its public-market debut is slipping feeds doubt about the revenue that is supposed to pay back hyperscaler spending. A broad tech selloff pinned to that single headline shows how thin the narrative support has become.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\uff0c\u4efb\u4f55\u5173\u4e8e\u5176\u4e0a\u5e02\u8fdb\u7a0b\u63a8\u8fdf\u7684\u4fe1\u53f7\u90fd\u4f1a\u8ba9\u4eba\u8d28\u7591\u2014\u2014\u90a3\u4e9b\u672c\u5e94\u7528\u6765\u507f\u8fd8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u652f\u51fa\u7684\u6536\u5165\u5230\u5e95\u5728\u54ea\u3002\u4e00\u6761\u5934\u6761\u5c31\u80fd\u5f15\u53d1\u79d1\u6280\u80a1\u5168\u9762\u629b\u552e\uff0c\u8bf4\u660e\u652f\u6491\u8fd9\u5957\u53d9\u4e8b\u7684\u57fa\u7840\u5df2\u7ecf\u76f8\u5f53\u8106\u5f31\u3002\n",
       "emailed": false
     }
   ],
