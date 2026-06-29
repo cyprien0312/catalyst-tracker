@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782704464,
-  "generated_at_str": "2026-06-29 03:41:04 UTC",
-  "last_event_ts": 1782704104,
+  "generated_at": 1782704661,
+  "generated_at_str": "2026-06-29 03:44:21 UTC",
+  "last_event_ts": 1782704658,
   "tables": {
     "alerts_dedup": {
-      "count": 1692,
-      "last_ts": 1782699256,
-      "last_str": "2026-06-29 02:14:16 UTC"
+      "count": 1693,
+      "last_ts": 1782704658,
+      "last_str": "2026-06-29 03:44:18 UTC"
     },
     "c10_signals": {
       "count": 3,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2410,
-      "last_ts": 1782702843,
-      "last_str": "2026-06-29 03:14:03 UTC"
+      "count": 2411,
+      "last_ts": 1782704643,
+      "last_str": "2026-06-29 03:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 509,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-29 03:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12388,
-      "last_ts": 1782702842,
-      "last_str": "2026-06-29 03:14:02 UTC"
+      "count": 12395,
+      "last_ts": 1782704642,
+      "last_str": "2026-06-29 03:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1700,
+      "ts": 1782704658,
+      "ts_str": "2026-06-29 03:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI IPO Delay to 2027? What\u2019s Confirmed, What Changed, and What Isn\u2019t - EBC Financial Group",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 03:07:00 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTFBWbGtCZWE2Z01CSVZiUVhZOURJSDk4Z3hvaVdBYWFhU2FmZW8xdTFWWjhDYy13YjlGNEpwV29XbHQxS09uLXMwcmFjd3NQNVM4MVpZTzItZGliSThoSUtFWnQtcHR6WEpZdjcwTA?oc=5\n\nOpenAI IPO Delay to 2027? What\u2019s Confirmed, What Changed, and What Isn\u2019t - EBC Financial Group\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBWbGtCZWE2Z01CSVZiUVhZOURJSDk4Z3hvaVdBYWFhU2FmZW8xdTFWWjhDYy13YjlGNEpwV29XbHQxS09uLXMwcmFjd3NQNVM4MVpZTzItZGliSThoSUtFWnQtcHR6WEpZdjcwTA?oc=5\" target=\"_blank\">OpenAI IPO Delay to 2027? What\u2019s Confirmed, What Changed, and What Isn\u2019t</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EBC Financial Group</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 news-feed item flagged a headline asking whether OpenAI's IPO is being delayed to 2027 (EBC Financial Group: \"OpenAI IPO Delay to 2027? What's Confirmed, What Changed, and What Isn't\"). The piece is framed as unconfirmed \u2014 it separates what is confirmed from what isn't.\n\n\u5185\u5bb9:\n\u4e00\u6761 C3 \u65b0\u95fb\u6d41\u6761\u76ee\u6807\u8bb0\u4e86\u4e00\u5219\u6807\u9898\uff0c\u8d28\u7591 OpenAI \u7684 IPO \u662f\u5426\u88ab\u63a8\u8fdf\u5230 2027 \u5e74\uff08EBC Financial Group\uff1a\"OpenAI IPO Delay to 2027? What's Confirmed, What Changed, and What Isn't\"\uff09\u3002\u6587\u7ae0\u672c\u8eab\u5b9a\u6027\u4e3a\u672a\u7ecf\u8bc1\u5b9e\uff0c\u628a\u5df2\u786e\u8ba4\u4e0e\u672a\u786e\u8ba4\u7684\u90e8\u5206\u533a\u5206\u5f00\u6765\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; a slipping IPO timeline signals the public-market exit and the fresh capital it would raise are further away. That tightens the funding runway for the spend cycle and is a soft bubble-stress tell, even though the report is unconfirmed.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u65f6\u95f4\u8868\u540e\u79fb\u610f\u5473\u7740\u516c\u5f00\u5e02\u573a\u9000\u51fa\u4ee5\u53ca\u7531\u6b64\u52df\u96c6\u7684\u65b0\u8d44\u91d1\u88ab\u63a8\u5f97\u66f4\u8fdc\u3002\u8fd9\u4f1a\u6536\u7d27\u652f\u51fa\u5468\u671f\u7684\u8d44\u91d1\u8dd1\u9053\uff0c\u5373\u4fbf\u62a5\u9053\u672a\u7ecf\u8bc1\u5b9e\uff0c\u4e5f\u662f\u4e00\u4e2a\u6e29\u548c\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1699,
       "ts": 1782699256,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] AM Need to Know: OpenAI considers IPO delay, Apple raises hardware prices & more (SPX:) - Seeking Alpha",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 09:21:37 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxORkowZlBkZmVPSE5ZZS1neVFTRFhFUDg2LWRwMTlpUnV0OWExVExmSk9mdk1VUlFEX3VjeGI1OHVXeUpadm9HVUM5WVY2N2dXam9CY0NZX0F4d0lLOXR4MW9icDFqcGxfZU1Id2NWNzBGLVpUNy1GLUFPTXMxaWw0akROZFJaZEM0ZnpzOWE0cWx0NGJsY05QZkp4WFdYSzJJQTQwdFhxVHk2cHdBSTJOTl9mbmc?oc=5\n\nAM Need to Know: OpenAI considers IPO delay, Apple raises hardware prices & more (SPX:) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxORkowZlBkZmVPSE5ZZS1neVFTRFhFUDg2LWRwMTlpUnV0OWExVExmSk9mdk1VUlFEX3VjeGI1OHVXeUpadm9HVUM5WVY2N2dXam9CY0NZX0F4d0lLOXR4MW9icDFqcGxfZU1Id2NWNzBGLVpUNy1GLUFPTXMxaWw0akROZFJaZEM0ZnpzOWE0cWx0NGJsY05QZkp4WFdYSzJJQTQwdFhxVHk2cHdBSTJOTl9mbmc?oc=5\" target=\"_blank\">AM Need to Know: OpenAI considers IPO delay, Apple raises hardware prices & more (SPX:)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha headline reports OpenAI is considering delaying its IPO, alongside Apple raising hardware prices.\n\n\u5185\u5bb9:\nSeeking Alpha \u7684\u4e00\u6761\u6807\u9898\u62a5\u9053 OpenAI \u6b63\u8003\u8651\u63a8\u8fdf IPO\uff0c\u540c\u65f6 Apple \u4e0a\u8c03\u786c\u4ef6\u4ef7\u683c\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; an IPO delay signals it doesn't want public-market scrutiny of its burn rate and unit economics right now. If the marquee name can't or won't go public into strength, it weakens the exit story underwriting every neocloud and hyperscaler bet.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u63a8\u8fdf IPO \u610f\u5473\u7740\u5b83\u6b64\u523b\u4e0d\u613f\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u3002\u5982\u679c\u8fde\u8fd9\u4e2a\u6807\u6746\u516c\u53f8\u90fd\u65e0\u6cd5\u6216\u4e0d\u613f\u5728\u884c\u60c5\u5f3a\u52bf\u65f6\u4e0a\u5e02\uff0c\u5c31\u524a\u5f31\u4e86\u652f\u6491\u6240\u6709 neocloud \u548c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u62bc\u6ce8\u7684\u9000\u51fa\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1503,
-      "ts": 1782467095,
-      "ts_str": "2026-06-26 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI may delay IPO until next year: NYT - Reuters",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 03:33:54 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTFB0eklJY3VVeUg1Tm93UDlHTHN4dmZxVy1wd2lVUTEzZS02ZFpTTUozRWc0UDFpNElqd1BOVjNEQlNiMTVVWVFqVTBjbzVuUUU3OHhLS0tCTkcwNHdod1ZSVlE5OVZxdzZVS3pEbnhZclM3TmNWbm9Wb3VNam8?oc=5\n\nOpenAI may delay IPO until next year: NYT - Reuters\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFB0eklJY3VVeUg1Tm93UDlHTHN4dmZxVy1wd2lVUTEzZS02ZFpTTUozRWc0UDFpNElqd1BOVjNEQlNiMTVVWVFqVTBjbzVuUUU3OHhLS0tCTkcwNHdod1ZSVlE5OVZxdzZVS3pEbnhZclM3TmNWbm9Wb3VNam8?oc=5\" target=\"_blank\">OpenAI may delay IPO until next year: NYT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News (via Reuters/NYT) reports OpenAI may delay its IPO until next year.\n\n\u5185\u5bb9:\n\u636e Google News\uff08\u63f4\u5f15 Reuters/NYT\uff09\u62a5\u9053\uff0cOpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u5230\u660e\u5e74\u3002\n\nWhy it matters:\nA pushed-back OpenAI IPO removes the marquee liquidity event the AI-capex trade is leaning on, and signals the company isn't ready to expose its economics to public-market scrutiny. Delaying access to public equity also narrows OpenAI's funding options just as its compute commitments balloon \u2014 a stress point for the whole buildout.\n\n\u5f71\u54cd:\nOpenAI \u7684 IPO \u662f\u6574\u4e2a AI capex \u4ea4\u6613\u6240\u62bc\u6ce8\u7684\u6807\u5fd7\u6027\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u63a8\u8fdf\u610f\u5473\u7740\u8fd9\u4e2a\u50ac\u5316\u5242\u843d\u7a7a\uff0c\u4e5f\u8bf4\u660e\u516c\u53f8\u8fd8\u4e0d\u613f\u628a\u81ea\u8eab\u7684\u8d22\u52a1\u72b6\u51b5\u644a\u5728\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u4e4b\u4e0b\u3002\u5728\u7b97\u529b\u627f\u8bfa\u6025\u5267\u81a8\u80c0\u4e4b\u9645\u63a8\u8fdf\u516c\u5f00\u80a1\u6743\u878d\u8d44\uff0c\u7b49\u4e8e\u6536\u7a84\u4e86 OpenAI \u7684\u8d44\u91d1\u6765\u6e90\u2014\u2014\u5bf9\u6574\u4e2a\u57fa\u5efa\u6269\u5f20\u662f\u4e2a\u538b\u529b\u70b9\u3002\n",
       "emailed": false
     }
   ],
