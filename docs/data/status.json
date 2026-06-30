@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782840724,
-  "generated_at_str": "2026-06-30 17:32:04 UTC",
-  "last_event_ts": 1782839645,
+  "generated_at": 1782840925,
+  "generated_at_str": "2026-06-30 17:35:25 UTC",
+  "last_event_ts": 1782840925,
   "tables": {
     "alerts_dedup": {
-      "count": 1787,
-      "last_ts": 1782837315,
-      "last_str": "2026-06-30 16:35:15 UTC"
+      "count": 1792,
+      "last_ts": 1782840925,
+      "last_str": "2026-06-30 17:35:25 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-30 17:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1377,
-      "last_ts": 1782839103,
-      "last_str": "2026-06-30 17:05:03 UTC"
+      "count": 1378,
+      "last_ts": 1782840907,
+      "last_str": "2026-06-30 17:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1550,
-      "last_ts": 1782839104,
-      "last_str": "2026-06-30 17:05:04 UTC"
+      "count": 1555,
+      "last_ts": 1782840909,
+      "last_str": "2026-06-30 17:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1028,
-      "last_ts": 1782839103,
-      "last_str": "2026-06-30 17:05:03 UTC"
+      "count": 1030,
+      "last_ts": 1782840908,
+      "last_str": "2026-06-30 17:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1248,
-      "last_ts": 1782839104,
-      "last_str": "2026-06-30 17:05:04 UTC"
+      "count": 1249,
+      "last_ts": 1782840911,
+      "last_str": "2026-06-30 17:35:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12765,
@@ -271,6 +271,56 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1795,
+      "ts": 1782840925,
+      "ts_str": "2026-06-30 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] What the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:05:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\n\nWhat the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\" target=\"_blank\">What the AI-Driven Memory Chip Shortage Means for Buyers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Z2Data</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Z2Data, \"What the AI-Driven Memory Chip Shortage Means for Buyers\") pairs a memory term with a shortage signal, indicating AI demand is now driving a broad memory-chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff08Z2Data\uff0c\u300aWhat the AI-Driven Memory Chip Shortage Means for Buyers\u300b\uff09\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\"\u77ed\u7f3a\"\u4fe1\u53f7\u914d\u5bf9\uff0c\u8868\u660e AI \u9700\u6c42\u6b63\u5728\u5f15\u53d1\u5927\u8303\u56f4\u7684\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory shortages mean DRAM/NAND/HBM pricing power is shifting to suppliers and away from the hyperscalers buying AI gear. Rising memory costs lift the bill of materials for every AI server, squeezing the capex-payback math that the bubble thesis is built on.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u77ed\u7f3a\u610f\u5473\u7740 DRAM/NAND/HBM \u7684\u5b9a\u4ef7\u6743\u8f6c\u5411\u4f9b\u5e94\u5546\uff0c\u800c\u975e\u91c7\u8d2d AI \u8bbe\u5907\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u6ce1\u6cab\u8bba\u6240\u4f9d\u8d56\u7684 capex \u56de\u672c\u6d4b\u7b97\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1796,
+      "ts": 1782840925,
+      "ts_str": "2026-06-30 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028 - BigGo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 03:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9YN1FHU05qQTh6dEVocnFoTng1aktHY2dTQ080bVpVUFNzNW9oS1hXcmtWSmN4UEloWVp5X3d0RVNIR2FzTjg1bE5ZSV9yX2xHN08yQmN1QzlmVDg3ZXlrMUlKV2QwT0Q3a1hvS2NaazNGWXIteEE?oc=5\n\nMemory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028 - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9YN1FHU05qQTh6dEVocnFoTng1aktHY2dTQ080bVpVUFNzNW9oS1hXcmtWSmN4UEloWVp5X3d0RVNIR2FzTjg1bE5ZSV9yX2xHN08yQmN1QzlmVDg3ZXlrMUlKV2QwT0Q3a1hvS2NaazNGWXIteEE?oc=5\" target=\"_blank\">Memory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports memory chip prices are set to surge up to 50% in Q3, with Jefferies seeing a supply crunch running through 2028.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u82af\u7247\u4ef7\u683c Q3 \u5c06\u4e0a\u6da8\u6700\u9ad8\u8fbe 50%\uff0cJefferies \u9884\u8ba1\u4f9b\u5e94\u7d27\u5f20\u5c06\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nMemory is a core AI-server input; HBM/DRAM allocation to AI accelerators is draining commodity supply. A 50% price spike plus a multi-year crunch raises bill-of-materials cost for every AI buildout and signals demand outrunning supply \u2014 capacity stress, not yet demand destruction.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff0cHBM/DRAM \u5927\u91cf\u88ab\u5206\u914d\u7ed9 AI \u52a0\u901f\u5668\uff0c\u6b63\u5728\u62bd\u5e72\u901a\u7528\u5185\u5b58\u4f9b\u7ed9\u300250% \u7684\u6da8\u4ef7\u52a0\u4e0a\u6301\u7eed\u6570\u5e74\u7684\u7d27\u7f3a\uff0c\u4f1a\u63a8\u9ad8\u6bcf\u4e00\u4e2a AI \u57fa\u5efa\u9879\u76ee\u7684\u7269\u6599\u6210\u672c\uff0c\u53cd\u6620\u7684\u662f\u9700\u6c42\u8dd1\u8d62\u4f9b\u7ed9\u2014\u2014\u662f\u4ea7\u80fd\u7d27\u5f20\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u5d29\u584c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1797,
+      "ts": 1782840925,
+      "ts_str": "2026-06-30 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] What the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:05:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\n\nWhat the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\" target=\"_blank\">What the AI-Driven Memory Chip Shortage Means for Buyers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Z2Data</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Z2Data, \"What the AI-Driven Memory Chip Shortage Means for Buyers\") pairs a memory term with a shortage signal, indicating AI demand is now driving a broad memory-chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff08Z2Data\uff0c\u300aWhat the AI-Driven Memory Chip Shortage Means for Buyers\u300b\uff09\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\"\u77ed\u7f3a\"\u4fe1\u53f7\u914d\u5bf9\uff0c\u8868\u660e AI \u9700\u6c42\u6b63\u5728\u5f15\u53d1\u5927\u8303\u56f4\u7684\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory shortages mean DRAM/NAND/HBM pricing power is shifting to suppliers and away from the hyperscalers buying AI gear. Rising memory costs lift the bill of materials for every AI server, squeezing the capex-payback math that the bubble thesis is built on.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u77ed\u7f3a\u610f\u5473\u7740 DRAM/NAND/HBM \u7684\u5b9a\u4ef7\u6743\u8f6c\u5411\u4f9b\u5e94\u5546\uff0c\u800c\u975e\u91c7\u8d2d AI \u8bbe\u5907\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u6ce1\u6cab\u8bba\u6240\u4f9d\u8d56\u7684 capex \u56de\u672c\u6d4b\u7b97\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1798,
+      "ts": 1782840925,
+      "ts_str": "2026-06-30 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] What the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:05:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\n\nWhat the AI-Driven Memory Chip Shortage Means for Buyers - Z2Data\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NX2ZTYTQ3U09OS2VzMkozZTlvbVE0NE1ZQndYRHllV0I2ckJyLUk0Y0FtdzFsS3h2VzVYYVZqUUpmeU1JTzJHTm8tLWhTTmt2bmVjUDJ3cjl6MldBZzRkX1BaUQ?oc=5\" target=\"_blank\">What the AI-Driven Memory Chip Shortage Means for Buyers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Z2Data</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Z2Data, \"What the AI-Driven Memory Chip Shortage Means for Buyers\") pairs a memory term with a shortage signal, indicating AI demand is now driving a broad memory-chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff08Z2Data\uff0c\u300aWhat the AI-Driven Memory Chip Shortage Means for Buyers\u300b\uff09\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\"\u77ed\u7f3a\"\u4fe1\u53f7\u914d\u5bf9\uff0c\u8868\u660e AI \u9700\u6c42\u6b63\u5728\u5f15\u53d1\u5927\u8303\u56f4\u7684\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory shortages mean DRAM/NAND/HBM pricing power is shifting to suppliers and away from the hyperscalers buying AI gear. Rising memory costs lift the bill of materials for every AI server, squeezing the capex-payback math that the bubble thesis is built on.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u77ed\u7f3a\u610f\u5473\u7740 DRAM/NAND/HBM \u7684\u5b9a\u4ef7\u6743\u8f6c\u5411\u4f9b\u5e94\u5546\uff0c\u800c\u975e\u91c7\u8d2d AI \u8bbe\u5907\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u6ce1\u6cab\u8bba\u6240\u4f9d\u8d56\u7684 capex \u56de\u672c\u6d4b\u7b97\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1799,
+      "ts": 1782840925,
+      "ts_str": "2026-06-30 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Titans Face Antitrust Lawsuit Over 697% RAM Price Surge - streamlinefeed.co.ke",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 10:20:18 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGE3RU1kVkd2NUNxeHYtMmNhX1BZMmY2MUJRN1FtdUhHa19BNjQ5VE5xZm1PZjZnYVY3R3lTbndJdElLZTBBc2dVamRwODBNWFc4LTZwZG02WHVRSF91c01Bd2djMWR6TjR2SXkzUkhRMEVZTlBkcHZtRFNWRjcyeUw2QnBNUE9ma1pMRmtRRXBmc3pSUWIxOU1XZjlSOE95eXBaRXdMRTRPblh0?oc=5\n\nMemory Chip Titans Face Antitrust Lawsuit Over 697% RAM Price Surge - streamlinefeed.co.ke\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNZGE3RU1kVkd2NUNxeHYtMmNhX1BZMmY2MUJRN1FtdUhHa19BNjQ5VE5xZm1PZjZnYVY3R3lTbndJdElLZTBBc2dVamRwODBNWFc4LTZwZG02WHVRSF91c01Bd2djMWR6TjR2SXkzUkhRMEVZTlBkcHZtRFNWRjcyeUw2QnBNUE9ma1pMRmtRRXBmc3pSUWIxOU1XZjlSOE95eXBaRXdMRTRPblh0?oc=5\" target=\"_blank\">Memory Chip Titans Face Antitrust Lawsuit Over 697% RAM Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged a memory-chip antitrust lawsuit over a \"697% RAM Price Surge,\" naming DRAM makers as defendants.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 \"697% RAM Price Surge\"(\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 697%)\u9762\u4e34\u53cd\u5784\u65ad\u8bc9\u8bbc,DRAM \u5382\u5546\u88ab\u5217\u4e3a\u88ab\u544a\u3002\n\nWhy it matters:\nA near-7x RAM price spike means memory supply is the binding constraint on AI server buildouts, pushing component costs up and squeezing hyperscaler/neocloud capex margins. Memory price stress is a leading symptom of overheated AI-infrastructure demand.\n\n\u5f71\u54cd:\nRAM \u4ef7\u683c\u8fd1 7 \u500d\u7684\u66b4\u6da8\u610f\u5473\u7740\u5185\u5b58\u4f9b\u7ed9\u5df2\u6210\u4e3a AI \u670d\u52a1\u5668\u6269\u5efa\u7684\u74f6\u9888,\u63a8\u9ad8\u96f6\u90e8\u4ef6\u6210\u672c\u5e76\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e0e neocloud \u7684 capex \u5229\u6da6\u7387\u3002\u5185\u5b58\u4ef7\u683c\u7d27\u5f20\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u8fc7\u70ed\u7684\u5148\u884c\u75c7\u72b6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1794,
       "ts": 1782837315,
@@ -2219,56 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:25:14 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMtIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\n\nOpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMtIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\" target=\"_blank\">OpenAI weighs IPO in 2027 after expected Anthropic public debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mercury News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Mercury News headline reports OpenAI is weighing an IPO in 2027, following an expected Anthropic public debut.\n\n\u5185\u5bb9:\nMercury News \u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u5728\u8003\u8651\u4e8e 2027 \u5e74 IPO\uff0c\u65f6\u95f4\u5b89\u6392\u5728\u9884\u671f\u7684 Anthropic \u4e0a\u5e02\u4e4b\u540e\u3002\n\nWhy it matters:\nBoth leading AI labs eyeing public listings signals insiders want to monetize and distribute risk to public markets near a peak \u2014 the classic late-cycle move to cash out before the AI-capex bill comes due. Watch whether the 2027 timing slips or accelerates as a read on private-funding stress.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u90fd\u8c0b\u6c42\u4e0a\u5e02\uff0c\u8bf4\u660e\u5185\u90e8\u4eba\u5e0c\u671b\u5957\u73b0\u5e76\u628a\u98ce\u9669\u8f6c\u5ac1\u7ed9\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u52a8\u4f5c\uff1a\u5728 AI capex \u8d26\u5355\u5230\u671f\u524d\u5148\u884c\u5151\u73b0\u3002\u9700\u5173\u6ce8 2027 \u8fd9\u4e2a\u65f6\u95f4\u70b9\u662f\u63a8\u8fdf\u8fd8\u662f\u63d0\u524d\uff0c\u5b83\u80fd\u53cd\u6620\u79c1\u52df\u878d\u8d44\u7aef\u7684\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1596,
-      "ts": 1782497710,
-      "ts_str": "2026-06-26 18:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:25:14 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5ySEIwcElwUHltV0ZQckMwSU9yU0RSckZWQk5NOG9pWkRVNlZRa01Wc1UyNHhqMDVBZDItWmRBdzdiT21XVmx5Zmt0blYwSVpfN0JWcTZsSW80WVJmeHZtdHZrRmUwallkaW9lcWdmakdTQlJLQUF6U1dnONIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\n\nOpenAI weighs IPO in 2027 after expected Anthropic public debut - The Mercury News\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5ySEIwcElwUHltV0ZQckMwSU9yU0RSckZWQk5NOG9pWkRVNlZRa01Wc1UyNHhqMDVBZDItWmRBdzdiT21XVmx5Zmt0blYwSVpfN0JWcTZsSW80WVJmeHZtdHZrRmUwallkaW9lcWdmakdTQlJLQUF6U1dnONIBgAFBVV95cUxObk9GX1RWTENFUVA2LTBlN244X0wtaDJsR0tvMm1wUGJBbVFITHIzcVBfT3h4dFBtZEFENnlBV3FuQTJLaURZV2czUlJwemJscWhWN254bnpSWUNvNlN5eS1YZnphcW5BaUs5MW5KdEpKaWNiT0tqVUJWUGJCUVZrMg?oc=5\" target=\"_blank\">OpenAI weighs IPO in 2027 after expected Anthropic public debut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mercury News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Mercury News story reports OpenAI is weighing a 2027 IPO, expected to follow Anthropic's public debut.\n\n\u5185\u5bb9:\nMercury News \u62a5\u9053\uff0cOpenAI \u6b63\u5728\u6743\u8861 2027 \u5e74 IPO\uff0c\u9884\u8ba1\u5c06\u7d27\u968f Anthropic \u4e0a\u5e02\u4e4b\u540e\u3002\n\nWhy it matters:\nIPO chatter signals insiders looking to monetize private valuations into public liquidity near a cycle peak \u2014 the classic late-stage move to offload AI-infrastructure risk onto public markets. Both labs going public would mark the transition from private hype funding to public-market scrutiny of actual capex returns.\n\n\u5f71\u54cd:\nIPO \u4f20\u95fb\u610f\u5473\u7740\u5185\u90e8\u4eba\u58eb\u60f3\u5728\u5468\u671f\u9ad8\u70b9\u628a\u79c1\u52df\u4f30\u503c\u53d8\u73b0\u4e3a\u516c\u5f00\u5e02\u573a\u6d41\u52a8\u6027\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u665a\u5468\u671f\u52a8\u4f5c\uff0c\u628a AI \u57fa\u7840\u8bbe\u65bd\u98ce\u9669\u7529\u7ed9\u516c\u4f17\u6295\u8d44\u8005\u3002\u4e24\u5bb6\u5b9e\u9a8c\u5ba4\u90fd\u4e0a\u5e02\uff0c\u6807\u5fd7\u7740\u4ece\u79c1\u52df\u7092\u4f5c\u878d\u8d44\u8f6c\u5411\u516c\u5f00\u5e02\u573a\u5bf9\u771f\u5b9e capex \u56de\u62a5\u7684\u5ba1\u89c6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1597,
-      "ts": 1782497710,
-      "ts_str": "2026-06-26 18:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI considers delaying its IPO until next year, report says - CBS News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 13:31:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3ZqTUwwaWhHRW5vN2FadjFwYWg4UGhWRXM5Wkl2LTFYZm1GUWM2RXNlLWoxUmZSOFlMblBkYTktaHFYNnF0ZmRTZzdyZ0tpV1NTYjM5cno0N2F0NUJNU0o2M29IN3RTUVkxZ1pzeUNuN1N0VE1acDA2MzBrVkdhNFp0NG9kVzdmQVFwRThuR2txQ1FRVS1V?oc=5\n\nOpenAI considers delaying its IPO until next year, report says - CBS News\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3ZqTUwwaWhHRW5vN2FadjFwYWg4UGhWRXM5Wkl2LTFYZm1GUWM2RXNlLWoxUmZSOFlMblBkYTktaHFYNnF0ZmRTZzdyZ0tpV1NTYjM5cno0N2F0NUJNU0o2M29IN3RTUVkxZ1pzeUNuN1N0VE1acDA2MzBrVkdhNFp0NG9kVzdmQVFwRThuR2txQ1FRVS1V?oc=5\" target=\"_blank\">OpenAI considers delaying its IPO until next year, report says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CBS News report says OpenAI is considering delaying its IPO until next year. This is a C3 OpenAI-watch headline, not a confirmed filing.\n\n\u5185\u5bb9:\n\u636e CBS News \u62a5\u9053\uff0cOpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230\u660e\u5e74\u3002\u8fd9\u5c5e\u4e8e C3 \u7684 OpenAI \u52a8\u5411\u65b0\u95fb\uff0c\u5e76\u975e\u5df2\u786e\u8ba4\u7684\u6b63\u5f0f\u6587\u4ef6\u3002\n\nWhy it matters:\nOpenAI is the demand anchor underwriting the AI-capex buildout; a slipping IPO timeline signals it isn't confident it can command the valuation it wants right now. A delayed listing also pushes back the public-market liquidity event that funds further compute commitments \u2014 a soft stress signal for the bubble thesis.\n\n\u5f71\u54cd:\nOpenAI \u662f\u652f\u6491\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1b\u63a8\u8fdf IPO \u8bf4\u660e\u5b83\u5f53\u524d\u5bf9\u80fd\u5426\u62ff\u5230\u7406\u60f3\u4f30\u503c\u6ca1\u6709\u628a\u63e1\u3002\u540c\u65f6\uff0c\u4e0a\u5e02\u5ef6\u540e\u4e5f\u610f\u5473\u7740\u4e3a\u540e\u7eed\u7b97\u529b\u627f\u8bfa\u63d0\u4f9b\u8d44\u91d1\u7684\u516c\u5f00\u5e02\u573a\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u63a8\u540e\u2014\u2014\u5bf9\u6ce1\u6cab\u8bba\u662f\u4e00\u4e2a\u6e29\u548c\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1598,
-      "ts": 1782497710,
-      "ts_str": "2026-06-26 18:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Pushes Its IPO to 2027 - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:24:05 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTQyaGVkR0ljWldFS3VtbFR3d2N1ZUdaS3pSalBzOTFSdHJLT1ZWbWVGMFhveXctTkYwV2FkcEFGbUY5a1Z0dFNDQkEzaHZ5RmRSeDVMWFh4eG81T3loVDlyb1lvRkpLMkw0b2FrR3hNQ1JkZU13SExvQkwtaVVCMVZfaVlucjl4TThVUFdQYUd6TXM?oc=5\n\nOpenAI Pushes Its IPO to 2027 - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTQyaGVkR0ljWldFS3VtbFR3d2N1ZUdaS3pSalBzOTFSdHJLT1ZWbWVGMFhveXctTkYwV2FkcEFGbUY5a1Z0dFNDQkEzaHZ5RmRSeDVMWFh4eG81T3loVDlyb1lvRkpLMkw0b2FrR3hNQ1JkZU13SExvQkwtaVVCMVZfaVlucjl4TThVUFdQYUd6TXM?oc=5\" target=\"_blank\">OpenAI Pushes Its IPO to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 1599,
-      "ts": 1782497710,
-      "ts_str": "2026-06-26 18:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Weighs IPO in 2027 | Bloomberg Tech 6/26/2026",
-      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Fri, 26 Jun 2026 17:36:23 GMT\nLink:      https://www.bloomberg.com/news/videos/2026-06-26/bloomberg-tech-6-26-2026-video\n\nOpenAI Weighs IPO in 2027 | Bloomberg Tech 6/26/2026\n\nBloomberg\u2019s Ed Ludlow breaks down OpenAI's decision to potentially hold off on an IPO until next year - sending shares of SoftBank falling. Plus, global tech stocks drop after Apple hikes hardware price due to a memory crunch, and SpaceX's $25 billion bond sale is off to a rocky start. (Source: Bloomberg)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBloomberg Tech (6/26/2026) reports OpenAI may delay its IPO until 2027, which sent SoftBank shares falling. The same segment notes global tech stocks dropping after Apple hiked hardware prices on a memory crunch, and a rocky start to SpaceX's $25B bond sale.\n\n\u5185\u5bb9:\nBloomberg Tech\uff082026/6/26\uff09\u62a5\u9053 OpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u6d88\u606f\u5bfc\u81f4 SoftBank \u80a1\u4ef7\u4e0b\u8dcc\u3002\u540c\u4e00\u8282\u76ee\u8fd8\u63d0\u5230\u5168\u7403\u79d1\u6280\u80a1\u56e0 Apple \u5728\u5185\u5b58\u7d27\u7f3a\u4e0b\u4e0a\u8c03\u786c\u4ef6\u4ef7\u683c\u800c\u8d70\u4f4e\uff0c\u4ee5\u53ca SpaceX 250 \u4ebf\u7f8e\u5143\u503a\u5238\u53d1\u884c\u5f00\u5c40\u4e0d\u987a\u3002\n\nWhy it matters:\nAn IPO that keeps slipping signals OpenAI isn't ready to face public-market scrutiny of its cash burn, and SoftBank's drop shows how levered the AI-infra complex is to that single outcome. The memory-crunch price hike and the strained SpaceX bond sale point to the same stress \u2014 capital and components for the buildout are getting scarcer and pricier.\n\n\u5f71\u54cd:\nIPO \u4e00\u518d\u63a8\u8fdf\uff0c\u8bf4\u660e OpenAI \u8fd8\u6ca1\u51c6\u5907\u597d\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u73b0\u91d1\u6d88\u8017\uff0c\u800c SoftBank \u5e94\u58f0\u4e0b\u8dcc\u5219\u66b4\u9732\u51fa\u6574\u4e2a AI \u57fa\u7840\u8bbe\u65bd\u677f\u5757\u5bf9\u8fd9\u4e00\u5355\u4e00\u7ed3\u679c\u7684\u9ad8\u5ea6\u6760\u6746\u655e\u53e3\u3002\u5185\u5b58\u7d27\u7f3a\u5bfc\u81f4\u7684\u6da8\u4ef7\u548c SpaceX \u503a\u5238\u53d1\u884c\u53d7\u963b\u6307\u5411\u540c\u4e00\u79cd\u538b\u529b\u2014\u2014\u8fd9\u8f6e\u5efa\u8bbe\u6240\u9700\u7684\u8d44\u91d1\u548c\u96f6\u90e8\u4ef6\u6b63\u53d8\u5f97\u66f4\u7a00\u7f3a\u3001\u66f4\u6602\u8d35\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1587,
-      "ts": 1782495959,
-      "ts_str": "2026-06-26 17:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Pushes Its IPO to 2027 - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:24:05 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFgyZmFzNWVnVXNjLTFhMkJDTjF6aG5fWG1JYThHMzZyN01ZeG1PLWxRMF93NzJwNEJ5N05waWRVVzBFbEhXaURSTVo3dEdpYXlBVFMycmVHSDc1dEV0VHNzU0JfWFZJY3RoWDhOb0dTMGVKVkFwT2JmVVg0X2JNTWJxOVE1OFNiZXVzdnlEZw?oc=5\n\nOpenAI Pushes Its IPO to 2027 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFgyZmFzNWVnVXNjLTFhMkJDTjF6aG5fWG1JYThHMzZyN01ZeG1PLWxRMF93NzJwNEJ5N05waWRVVzBFbEhXaURSTVo3dEdpYXlBVFMycmVHSDc1dEV0VHNzU0JfWFZJY3RoWDhOb0dTMGVKVkFwT2JmVVg0X2JNTWJxOVE1OFNiZXVzdnlEZw?oc=5\" target=\"_blank\">OpenAI Pushes Its IPO to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports that OpenAI has pushed its IPO to 2027.\n\n\u5185\u5bb9:\nYahoo Finance \u62a5\u9053\u79f0\uff0cOpenAI \u5df2\u5c06\u5176 IPO \u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nOpenAI is the demand anchor of the AI-capex buildout; a slipped IPO delays the public-market cash-raise it needs to fund compute commitments and signals the listing window isn't ready. A later IPO means more quarters of private funding to backstop spending \u2014 and less external validation of the valuations the whole capex chain is priced against.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\uff1bIPO \u63a8\u8fdf\u610f\u5473\u7740\u5b83\u4e3a\u5151\u73b0\u7b97\u529b\u627f\u8bfa\u6240\u9700\u7684\u516c\u5f00\u5e02\u573a\u878d\u8d44\u88ab\u5ef6\u540e\uff0c\u4e5f\u8bf4\u660e\u4e0a\u5e02\u7a97\u53e3\u5c1a\u672a\u6210\u719f\u3002\u66f4\u665a\u7684 IPO \u4ee3\u8868\u8fd8\u8981\u9760\u66f4\u591a\u5b63\u5ea6\u7684\u79c1\u52df\u8d44\u91d1\u6765\u6491\u4f4f\u652f\u51fa\uff0c\u6574\u6761 capex \u94fe\u6240\u4f9d\u8d56\u7684\u4f30\u503c\u4e5f\u56e0\u6b64\u7f3a\u5c11\u5916\u90e8\u9a8c\u8bc1\u3002\n",
       "emailed": false
     }
   ],
