@@ -1,0 +1,40 @@
+name: Deploy docs to Pages
+
+# Deploys the docs/ dashboard to GitHub Pages on a schedule instead of on every
+# state commit. The local cron pushes state + dashboard updates every few minutes;
+# deploying on each push raced concurrent deployments and produced spurious
+# "Deployment cancelled" failures. A serialized, scheduled deploy avoids that.
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch:           # allow manual deploys
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one Pages deployment at a time. Do NOT cancel an in-progress deploy;
+# superseded *queued* runs are cancelled cleanly (no failure email).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload docs artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
