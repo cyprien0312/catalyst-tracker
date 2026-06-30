@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782777725,
-  "generated_at_str": "2026-06-30 00:02:05 UTC",
-  "last_event_ts": 1782776643,
+  "generated_at": 1782777916,
+  "generated_at_str": "2026-06-30 00:05:16 UTC",
+  "last_event_ts": 1782777915,
   "tables": {
     "alerts_dedup": {
-      "count": 1751,
-      "last_ts": 1782774863,
-      "last_str": "2026-06-29 23:14:23 UTC"
+      "count": 1752,
+      "last_ts": 1782777915,
+      "last_str": "2026-06-30 00:05:15 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,9 +59,9 @@
       "last_str": "2026-06-29 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1315,
-      "last_ts": 1782776102,
-      "last_str": "2026-06-29 23:35:02 UTC"
+      "count": 1317,
+      "last_ts": 1782777902,
+      "last_str": "2026-06-30 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1491,
@@ -69,9 +69,9 @@
       "last_str": "2026-06-29 23:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 987,
-      "last_ts": 1782774303,
-      "last_str": "2026-06-29 23:05:03 UTC"
+      "count": 991,
+      "last_ts": 1782777903,
+      "last_str": "2026-06-30 00:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1189,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1759,
+      "ts": 1782777915,
+      "ts_str": "2026-06-30 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Consumer DRAM Shortages Extend to DDR2 Products - EE Times Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 23:45:07 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE00eUtUS1ZTTkFjWHl2ZWF5YUtyaENQOVNYbDNuWHhucV9GWlRNbW95b2JxSURGSlBlNld6M3NHckRheENyYzYxUExiMTdtQkRFVEExbVNROE9fTGcxd3pfYWdBZ3gxSGNoMGhoWDlxczhmb1F1VWNRTDg5MDQ?oc=5\n\nConsumer DRAM Shortages Extend to DDR2 Products - EE Times Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE00eUtUS1ZTTkFjWHl2ZWF5YUtyaENQOVNYbDNuWHhucV9GWlRNbW95b2JxSURGSlBlNld6M3NHckRheENyYzYxUExiMTdtQkRFVEExbVNROE9fTGcxd3pfYWdBZ3gxSGNoMGhoWDlxczhmb1F1VWNRTDg5MDQ?oc=5\" target=\"_blank\">Consumer DRAM Shortages Extend to DDR2 Products</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EE Times Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA trade-press headline reports that consumer DRAM shortages have now extended to older DDR2 products (EE Times Asia).\n\n\u5185\u5bb9:\n\u884c\u4e1a\u5a92\u4f53 EE Times Asia \u62a5\u9053\uff0c\u6d88\u8d39\u7ea7 DRAM \u77ed\u7f3a\u5df2\u8513\u5ef6\u81f3\u66f4\u8001\u7684 DDR2 \u4ea7\u54c1\u3002\n\nWhy it matters:\nDRAM tightness spreading to legacy DDR2 means the squeeze is no longer confined to leading-edge AI/HBM memory \u2014 supply is being pulled across the entire stack. Broadening memory shortages and the price surges they drive feed directly into AI-infrastructure cost inflation and bubble-stress.\n\n\u5f71\u54cd:\nDRAM \u7d27\u5f20\u8513\u5ef6\u5230\u4f20\u7edf\u7684 DDR2\uff0c\u8bf4\u660e\u8fd9\u8f6e\u77ed\u7f3a\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u524d\u6cbf\u7684 AI/HBM \u5185\u5b58\uff0c\u4f9b\u7ed9\u538b\u529b\u6b63\u88ab\u62c9\u5411\u6574\u4e2a\u4ea7\u54c1\u7ebf\u3002\u5185\u5b58\u77ed\u7f3a\u9762\u6269\u5927\u53ca\u5176\u63a8\u52a8\u7684\u6da8\u4ef7\uff0c\u4f1a\u76f4\u63a5\u4f20\u5bfc\u4e3a AI \u57fa\u7840\u8bbe\u65bd\u7684\u6210\u672c\u4e0a\u6da8\uff0c\u52a0\u5267\u6ce1\u6cab\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1758,
       "ts": 1782774863,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] AI trade hits a wall amid report that OpenAI will delay IPO until 2027 - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:06:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxNQVVNcDhmUlhXZmo4LUFxRldndzdVRlBCajBTS2NwUEwxYzFNbjFZSkpUNWs5aFU2eGs4a2FNSk1ET1pfeXZjVmhybldPTlBsdVY2X3NSM245QkxtLThqZVZaVTRMX3ZQem5Vc3o3c3VsX0czU2J6Z19PRy11cXYxT2h0SkoyNDVSSHo0TGNZUFEtaGZDbjNBSVM3NkM4eHdpT2Q0MzlCM1ExNXhQZmhPenZCU0JJbmZHMWo2OTlkZkhkSGRNVWhCQURB?oc=5\n\nAI trade hits a wall amid report that OpenAI will delay IPO until 2027 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNQVVNcDhmUlhXZmo4LUFxRldndzdVRlBCajBTS2NwUEwxYzFNbjFZSkpUNWs5aFU2eGs4a2FNSk1ET1pfeXZjVmhybldPTlBsdVY2X3NSM245QkxtLThqZVZaVTRMX3ZQem5Vc3o3c3VsX0czU2J6Z19PRy11cXYxT2h0SkoyNDVSSHo0TGNZUFEtaGZDbjNBSVM3NkM4eHdpT2Q0MzlCM1ExNXhQZmhPenZCU0JJbmZHMWo2OTlkZkhkSGRNVWhCQURB?oc=5\" target=\"_blank\">AI trade hits a wall amid report that OpenAI will delay IPO until 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline reports the AI trade \"hits a wall\" on a report that OpenAI will delay its IPO until 2027.\n\n\u5185\u5bb9:\nYahoo Finance \u62a5\u9053\u79f0\uff0cAI \u4ea4\u6613\u56e0\u4e00\u5219 OpenAI \u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\u7684\u6d88\u606f\u800c\"\u649e\u5899\"\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout. A slipped IPO timeline signals the company isn't ready to face public-market scrutiny of its burn rate, and the market reaction shows sentiment is now fragile to any crack in the OpenAI growth story.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u5468\u671f\u7684\u9700\u6c42\u951a\u3002IPO \u65f6\u95f4\u8868\u63a8\u8fdf\u610f\u5473\u7740\u516c\u53f8\u5c1a\u672a\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u70e7\u94b1\u901f\u5ea6\u7684\u5ba1\u89c6\uff0c\u800c\u5e02\u573a\u7684\u53cd\u5e94\u8bf4\u660e\uff0c\u53ea\u8981 OpenAI \u589e\u957f\u6545\u4e8b\u51fa\u73b0\u4efb\u4f55\u88c2\u7f1d\uff0c\u60c5\u7eea\u73b0\u5728\u90fd\u4f1a\u53d8\u5f97\u8106\u5f31\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1555,
-      "ts": 1782486957,
-      "ts_str": "2026-06-26 15:15 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI is reportedly delaying its IPO: Here's what you need to know - CNBC",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 14:24:53 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxPYnR1ZUZMcDRiLWJBaU9URnAweG5zUnQxX3QxM1BrT1dCdnphNzd6Wm5IOUdQNTdsRjJlN1BxOGpoTHdCYkJfU1BGcWpPU2U3ZWFpRFJJY3dlcWplYmc0WV9xeFN6WDNDSFduSkF0NjJrTkdMM2tHT0h1SlZFa0JwMUhNWkY0Unc?oc=5\n\nOpenAI is reportedly delaying its IPO: Here's what you need to know - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPYnR1ZUZMcDRiLWJBaU9URnAweG5zUnQxX3QxM1BrT1dCdnphNzd6Wm5IOUdQNTdsRjJlN1BxOGpoTHdCYkJfU1BGcWpPU2U3ZWFpRFJJY3dlcWplYmc0WV9xeFN6WDNDSFduSkF0NjJrTkdMM2tHT0h1SlZFa0JwMUhNWkY0Unc?oc=5\" target=\"_blank\">OpenAI is reportedly delaying its IPO: Here's what you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC headline reports OpenAI is delaying its IPO. No new financial detail accompanies the report \u2014 it is a reported delay, not a filing.\n\n\u5185\u5bb9:\nCNBC \u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u63a8\u8fdf\u5176 IPO\u3002\u62a5\u9053\u6ca1\u6709\u9644\u5e26\u65b0\u7684\u8d22\u52a1\u7ec6\u8282\u2014\u2014\u8fd9\u53ea\u662f\u4f20\u95fb\u4e2d\u7684\u63a8\u8fdf\uff0c\u800c\u975e\u6b63\u5f0f\u6587\u4ef6\u62ab\u9732\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a pushed-out IPO removes a near-term liquidity event and signals the company isn't ready to face public-market scrutiny of its losses and funding needs. A private OpenAI keeps the sector's largest spender opaque, delaying the market's repricing of the capex thesis.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u5ef6\u540e\u610f\u5473\u7740\u5931\u53bb\u4e00\u4e2a\u8fd1\u671f\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u4e5f\u6697\u793a\u516c\u53f8\u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u4e8f\u635f\u548c\u878d\u8d44\u7f3a\u53e3\u7684\u5ba1\u89c6\u3002OpenAI \u7ee7\u7eed\u4fdd\u6301\u79c1\u6709\u72b6\u6001\uff0c\u8ba9\u8fd9\u4e2a\u884c\u4e1a\u6700\u5927\u7684\u652f\u51fa\u65b9\u7ef4\u6301\u4e0d\u900f\u660e\uff0c\u4ece\u800c\u63a8\u8fdf\u4e86\u5e02\u573a\u5bf9 capex \u903b\u8f91\u7684\u91cd\u65b0\u5b9a\u4ef7\u3002\n",
       "emailed": false
     }
   ],
