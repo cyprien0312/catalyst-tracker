@@ -20,6 +20,7 @@ import time
 from pathlib import Path
 from typing import Any
 
+from lib import knowledge
 from lib.explanations import Explanation
 from lib.log import get_logger
 from lib.state import DEFAULT_DB
@@ -123,11 +124,15 @@ def _build_prompt(
     ticker: str | None,
     snippet: str | None,
     numbers: dict[str, Any] | None,
+    facts: str | None = None,
 ) -> str:
     parts: list[str] = [_SYSTEM_PROMPT, "", "Examples:"]
     for ex_in, ex_out in _FEWSHOT:
         parts.append(f"Input: {json.dumps(ex_in, ensure_ascii=False)}")
         parts.append(f"Output: {json.dumps(ex_out, ensure_ascii=False)}")
+        parts.append("")
+    if facts:
+        parts.append(facts)
         parts.append("")
     user_input = {
         "catalyst": catalyst,
@@ -147,24 +152,26 @@ def _cache_key(
     ticker: str | None,
     snippet: str | None,
     numbers: dict[str, Any] | None,
+    facts: str | None = None,
 ) -> str:
     snippet_digest = hashlib.sha256(
         (snippet or "")[:_SNIPPET_LIMIT].encode("utf-8")
     ).hexdigest()
-    payload = json.dumps(
-        {
-            "v": _PROMPT_VERSION,
-            "m": _model_tag(),
-            "c": catalyst.upper(),
-            "k": signal_kind,
-            "t": ticker,
-            "s": snippet_digest,
-            "n": numbers,
-        },
-        sort_keys=True,
-        ensure_ascii=False,
-    )
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    payload: dict[str, Any] = {
+        "v": _PROMPT_VERSION,
+        "m": _model_tag(),
+        "c": catalyst.upper(),
+        "k": signal_kind,
+        "t": ticker,
+        "s": snippet_digest,
+        "n": numbers,
+    }
+    # Only perturb the key when facts are actually injected, so the no-knowledge
+    # path stays byte-for-byte identical to the pre-knowledge cache namespace.
+    if facts:
+        payload["f"] = hashlib.sha256(facts.encode("utf-8")).hexdigest()
+    payload_json = json.dumps(payload, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(payload_json.encode("utf-8")).hexdigest()
 
 
 def _open_cache(db_path: Path) -> sqlite3.Connection:
@@ -303,7 +310,8 @@ def summarize_explanation(
         )
         return None
     db = Path(db_path)
-    key = _cache_key(catalyst, signal_kind, ticker, snippet, numbers)
+    facts = knowledge.facts_for_prompt(catalyst=catalyst, ticker=ticker)
+    key = _cache_key(catalyst, signal_kind, ticker, snippet, numbers, facts)
     cached = _cache_get(db, key)
     if cached is not None:
         what, why = cached.get("what"), cached.get("why")
@@ -328,7 +336,7 @@ def summarize_explanation(
             catalyst, signal_kind, ticker,
         )
         return None
-    prompt = _build_prompt(catalyst, signal_kind, ticker, snippet, numbers)
+    prompt = _build_prompt(catalyst, signal_kind, ticker, snippet, numbers, facts)
     raw = _call_claude_cli(prompt)
     if raw is None:
         _log.info(

@@ -27,7 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from lib.config import HYPERSCALERS, NEOCLOUDS
 from lib.email_send import send_email
-from lib import llm
+from lib import knowledge, llm
 from lib.state import State
 from scripts import regime_signal
 
@@ -405,6 +405,10 @@ def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict
     fallback = _analytical_focus(rows)
     try:
         prompt = _FOCUS_PROMPT.replace("__STATE__", _state_summary(rows, notable))
+        # Inject the full cross-signal ai-infra corpus (the FOCUS is cross-signal).
+        facts = knowledge.facts_for_prompt(limit=20)
+        if facts:
+            prompt = f"{prompt}\n\n{facts}"
         raw = llm.freeform(prompt)
     except Exception:
         raw = None
