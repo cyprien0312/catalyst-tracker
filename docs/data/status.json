@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782846124,
-  "generated_at_str": "2026-06-30 19:02:04 UTC",
-  "last_event_ts": 1782845064,
+  "generated_at": 1782846320,
+  "generated_at_str": "2026-06-30 19:05:20 UTC",
+  "last_event_ts": 1782846319,
   "tables": {
     "alerts_dedup": {
-      "count": 1794,
-      "last_ts": 1782845064,
-      "last_str": "2026-06-30 18:44:24 UTC"
+      "count": 1797,
+      "last_ts": 1782846319,
+      "last_str": "2026-06-30 19:05:19 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-30 17:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1381,
-      "last_ts": 1782844506,
-      "last_str": "2026-06-30 18:35:06 UTC"
+      "count": 1382,
+      "last_ts": 1782846303,
+      "last_str": "2026-06-30 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1560,
-      "last_ts": 1782844508,
-      "last_str": "2026-06-30 18:35:08 UTC"
+      "count": 1561,
+      "last_ts": 1782846304,
+      "last_str": "2026-06-30 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1032,
-      "last_ts": 1782844507,
-      "last_str": "2026-06-30 18:35:07 UTC"
+      "count": 1035,
+      "last_ts": 1782846303,
+      "last_str": "2026-06-30 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1251,
-      "last_ts": 1782844508,
-      "last_str": "2026-06-30 18:35:08 UTC"
+      "count": 1254,
+      "last_ts": 1782846305,
+      "last_str": "2026-06-30 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12783,
@@ -271,6 +271,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1802,
+      "ts": 1782846319,
+      "ts_str": "2026-06-30 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 18:30:46 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\n\nDRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\" target=\"_blank\">DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports DRAM and NAND prices surged up to 98% in a single quarter, with the source warning conditions are about to worsen.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 DRAM \u4e0e NAND \u4ef7\u683c\u5728\u5355\u4e2a\u5b63\u5ea6\u5185\u6700\u9ad8\u66b4\u6da8 98%\uff0c\u5e76\u8b66\u544a\u60c5\u51b5\u8fd8\u5c06\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nMemory is the bottleneck input for AI servers \u2014 HBM/DRAM/NAND demand from datacenter buildout is colliding with tight supply. A ~98% quarterly spike feeds straight into hyperscaler capex and erodes the unit economics of every AI box, adding cost-side stress to the bubble thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\u2014\u2014\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5e26\u6765\u7684 HBM/DRAM/NAND \u9700\u6c42\u6b63\u649e\u4e0a\u7d27\u5f20\u7684\u4f9b\u7ed9\u3002\u5355\u5b63\u7ea6 98% \u7684\u6da8\u5e45\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u4fb5\u8680\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5355\u4f4d\u7ecf\u6d4e\u6027\uff0c\u7ed9\u6ce1\u6cab\u8bba\u52a0\u4e0a\u6210\u672c\u7aef\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1803,
+      "ts": 1782846319,
+      "ts_str": "2026-06-30 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 18:30:46 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\n\nDRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\" target=\"_blank\">DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports DRAM and NAND prices surged up to 98% in a single quarter, with the source warning conditions are about to worsen.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 DRAM \u4e0e NAND \u4ef7\u683c\u5728\u5355\u4e2a\u5b63\u5ea6\u5185\u6700\u9ad8\u66b4\u6da8 98%\uff0c\u5e76\u8b66\u544a\u60c5\u51b5\u8fd8\u5c06\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nMemory is the bottleneck input for AI servers \u2014 HBM/DRAM/NAND demand from datacenter buildout is colliding with tight supply. A ~98% quarterly spike feeds straight into hyperscaler capex and erodes the unit economics of every AI box, adding cost-side stress to the bubble thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\u2014\u2014\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5e26\u6765\u7684 HBM/DRAM/NAND \u9700\u6c42\u6b63\u649e\u4e0a\u7d27\u5f20\u7684\u4f9b\u7ed9\u3002\u5355\u5b63\u7ea6 98% \u7684\u6da8\u5e45\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u4fb5\u8680\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5355\u4f4d\u7ecf\u6d4e\u6027\uff0c\u7ed9\u6ce1\u6cab\u8bba\u52a0\u4e0a\u6210\u672c\u7aef\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1804,
+      "ts": 1782846319,
+      "ts_str": "2026-06-30 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 18:30:46 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\n\nDRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1rb1lXUDl6VlNZeURqcUgyMFFZdXJCSXNnaGJnUFplNE5EZ2lkRDM1REp1SHV6c1lzNzlvWlBhVG9XNnFuWFBNdGp2ckR3WmdpWFY3eGJIX002TXRjQUhTRTFLMmxBQzNsclhjYg?oc=5\" target=\"_blank\">DRAM and NAND prices surge up to 98% in a single quarter, and it\u2019s about to get worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports DRAM and NAND prices surged up to 98% in a single quarter, with the source warning conditions are about to worsen.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 DRAM \u4e0e NAND \u4ef7\u683c\u5728\u5355\u4e2a\u5b63\u5ea6\u5185\u6700\u9ad8\u66b4\u6da8 98%\uff0c\u5e76\u8b66\u544a\u60c5\u51b5\u8fd8\u5c06\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nMemory is the bottleneck input for AI servers \u2014 HBM/DRAM/NAND demand from datacenter buildout is colliding with tight supply. A ~98% quarterly spike feeds straight into hyperscaler capex and erodes the unit economics of every AI box, adding cost-side stress to the bubble thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\u2014\u2014\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5e26\u6765\u7684 HBM/DRAM/NAND \u9700\u6c42\u6b63\u649e\u4e0a\u7d27\u5f20\u7684\u4f9b\u7ed9\u3002\u5355\u5b63\u7ea6 98% \u7684\u6da8\u5e45\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u4fb5\u8680\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5355\u4f4d\u7ecf\u6d4e\u6027\uff0c\u7ed9\u6ce1\u6cab\u8bba\u52a0\u4e0a\u6210\u672c\u7aef\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1801,
       "ts": 1782845064,
@@ -2239,36 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting? - The Motley Fool",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 19:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNRmhJb2hQOW9BejljTWFPTXJwLXhaU3N2Q2Z1d2Q3SWpjZzQ3YjF2RS02dnR0VXR6Umo3azZnQlI1Q1haMk5UMW40THFrY1BscDJBdVN5MkhTX0NjaENsR255Q3kzM1cyc0o4WG8wYnR4OG9OQ29NR2NHNVd5ODhNdGtQUlRRZUdKaG5yZUptbERDdFFVRDNfTg?oc=5\n\nOpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting? - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNRmhJb2hQOW9BejljTWFPTXJwLXhaU3N2Q2Z1d2Q3SWpjZzQ3YjF2RS02dnR0VXR6Umo3azZnQlI1Q1haMk5UMW40THFrY1BscDJBdVN5MkhTX0NjaENsR255Q3kzM1cyc0o4WG8wYnR4OG9OQ29NR2NHNVd5ODhNdGtQUlRRZUdKaG5yZUptbERDdFFVRDNfTg?oc=5\" target=\"_blank\">OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool headline says OpenAI has signaled it might delay its IPO, and AI stocks are falling on the news, asking whether the bubble is bursting.\n\n\u5185\u5bb9:\nThe Motley Fool \u6807\u9898\u79f0 OpenAI \u5df2\u6697\u793a\u53ef\u80fd\u63a8\u8fdf\u5176 IPO\uff0cAI \u80a1\u7968\u5e94\u58f0\u4e0b\u8dcc\uff0c\u5e76\u53d1\u95ee\u6ce1\u6cab\u662f\u5426\u6b63\u5728\u7834\u88c2\u3002\n\nWhy it matters:\nA delayed OpenAI IPO removes the marquee liquidity event the AI trade is leaning on and hints the company isn't confident in public-market pricing right now. If the sector's flagship name pulls back from raising capital, it pressures the whole AI-capex financing chain that depends on continued risk appetite.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u610f\u5473\u7740\u5e02\u573a\u6b63\u7fd8\u9996\u4ee5\u76fc\u7684\u6807\u5fd7\u6027\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u62bd\u8d70\uff0c\u4e5f\u6697\u793a OpenAI \u5f53\u4e0b\u5bf9\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\u7f3a\u4e4f\u4fe1\u5fc3\u3002\u5982\u679c\u8fd9\u4e2a\u677f\u5757\u7684\u65d7\u8230\u516c\u53f8\u90fd\u5728\u878d\u8d44\u4e0a\u8e29\u5239\u8f66\uff0c\u6574\u6761\u4f9d\u8d56\u6301\u7eed\u98ce\u9669\u504f\u597d\u7684 AI capex \u878d\u8d44\u94fe\u90fd\u4f1a\u627f\u538b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1601,
-      "ts": 1782500742,
-      "ts_str": "2026-06-26 19:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years - TechInsights",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:28:40 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5\n\nWhy the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years - TechInsights\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5\" target=\"_blank\">Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechInsights</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TechInsights piece argues the AI-driven memory shortage could keep DRAM and NAND prices elevated for years.\n\n\u5185\u5bb9:\nTechInsights \u7684\u4e00\u7bc7\u6587\u7ae0\u6307\u51fa\uff0cAI \u9a71\u52a8\u7684\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u53ef\u80fd\u8ba9 DRAM \u548c NAND \u4ef7\u683c\u5728\u6570\u5e74\u5185\u7ef4\u6301\u9ad8\u4f4d\u3002\n\nWhy it matters:\nDRAM/NAND are core AI-server bill-of-materials; a multi-year price floor raises hyperscaler and neocloud capex per GPU and squeezes margins downstream. Sustained memory inflation is a cost-side stress that compounds the AI-capex-payback problem.\n\n\u5f71\u54cd:\nDRAM/NAND \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff1b\u4ef7\u683c\u591a\u5e74\u7ef4\u6301\u9ad8\u4f4d\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u6bcf\u5757 GPU \u7684\u8d44\u672c\u5f00\u652f\uff0c\u5e76\u6324\u538b\u4e0b\u6e38\u5229\u6da6\u3002\u5b58\u50a8\u4ef7\u683c\u7684\u6301\u7eed\u901a\u80c0\u662f\u4e00\u79cd\u6210\u672c\u7aef\u538b\u529b\uff0c\u4f1a\u52a0\u5267 AI capex \u56de\u672c\u7684\u96be\u9898\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1602,
-      "ts": 1782500742,
-      "ts_str": "2026-06-26 19:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - KSL News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 20:50:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOFZPWjNSb1N4N25fSzVJcjZJdmFnUVBYcDhVQVNiTFhqdmU2d202WENHZHN4Wk02LVhsaW5tSG5Ed08zUlRQV25lNnNfdEFtazBGbnJ6a0hNX2ZqTmswdmhRejlqY0JyWUpWOVBFNndzRU03QUF0bERQLW16VDBnOWV0dTF1TEhVTXAtdFk3WEp2SzhXdHJzWkFMcHlCd0NBUVBpQ01CandjTVN3Z3k5dWZlUUZCZXI5?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - KSL News\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOFZPWjNSb1N4N25fSzVJcjZJdmFnUVBYcDhVQVNiTFhqdmU2d202WENHZHN4Wk02LVhsaW5tSG5Ed08zUlRQV25lNnNfdEFtazBGbnJ6a0hNX2ZqTmswdmhRejlqY0JyWUpWOVBFNndzRU03QUF0bERQLW16VDBnOWV0dTF1TEhVTXAtdFk3WEp2SzhXdHJzWkFMcHlCd0NBUVBpQ01CandjTVN3Z3k5dWZlUUZCZXI5?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA KSL News headline reports Apple is hiking the prices of MacBooks and iPads, citing the memory chip shortage.\n\n\u5185\u5bb9:\nKSL News \u62a5\u9053\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u4e0a\u8c03 MacBook \u548c iPad \u7684\u4ef7\u683c\u3002\n\nWhy it matters:\nAI-server demand is draining DRAM/NAND supply, and the cost is now reaching consumer hardware \u2014 when a vendor with Apple's buying power and margins has to pass memory costs to customers, the squeeze is broad, not niche. Memory pricing bleeding into end products is direct evidence the AI-capex buildout is straining the wider supply chain.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u6b63\u5728\u62bd\u5e72 DRAM/NAND \u4f9b\u5e94\uff0c\u6210\u672c\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u5f53\u8fde Apple \u8fd9\u79cd\u91c7\u8d2d\u91cf\u548c\u5229\u6da6\u7387\u7684\u5382\u5546\u90fd\u4e0d\u5f97\u4e0d\u628a\u5185\u5b58\u6da8\u4ef7\u8f6c\u5ac1\u7ed9\u5ba2\u6237\u65f6\uff0c\u8bf4\u660e\u6324\u538b\u662f\u5168\u9762\u6027\u7684\uff0c\u800c\u975e\u5c40\u90e8\u3002\u5185\u5b58\u6da8\u4ef7\u6e17\u900f\u5230\u7ec8\u7aef\u4ea7\u54c1\uff0c\u662f AI capex \u6269\u5f20\u6b63\u5728\u62c9\u7d27\u6574\u4e2a\u4f9b\u5e94\u94fe\u7684\u76f4\u63a5\u8bc1\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1603,
-      "ts": 1782500742,
-      "ts_str": "2026-06-26 19:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple increases prices for Macs and iPads, blaming a shortage of memory chips - Daily Press",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 25 Jun 2026 19:34:07 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeXFhbHV1ZXV1Z0FVYklVWElVbTc1cktmUDgxa2Rrb1FwM21xVHRzNm9sMGZMbjVwaFJNajFHYXQ1TE1IS0ttXzdHamhKa2tZZjNqRVk3NEVWR0REUXFuSm1PMVVBSzdDX3JQNQ?oc=5\n\nApple increases prices for Macs and iPads, blaming a shortage of memory chips - Daily Press\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1MeXFhbHV1ZXV1Z0FVYklVWElVbTc1cktmUDgxa2Rrb1FwM21xVHRzNm9sMGZMbjVwaFJNajFHYXQ1TE1IS0ttXzdHamhKa2tZZjNqRVk3NEVWR0REUXFuSm1PMVVBSzdDX3JQNQ?oc=5\" target=\"_blank\">Apple increases prices for Macs and iPads, blaming a shortage of memory chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Press</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised prices on Macs and iPads, blaming a shortage of memory chips.\n\n\u5185\u5bb9:\nApple \u4e0a\u8c03\u4e86 Mac \u548c iPad \u7684\u552e\u4ef7\uff0c\u7406\u7531\u662f\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI datacenter buildouts are absorbing so much DRAM/HBM supply that the shortage is now reaching consumer hardware and forcing price hikes at Apple. When AI-capex demand starts visibly raising costs and squeezing margins in adjacent end-markets, it confirms the buildout is straining the physical supply chain \u2014 a bubble-stress signal.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u5927\u91cf\u541e\u566c DRAM/HBM \u4f9b\u7ed9\uff0c\u77ed\u7f3a\u5df2\u7ecf\u8513\u5ef6\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\uff0c\u903c\u5f97 Apple \u6da8\u4ef7\u3002\u5f53 AI capex \u9700\u6c42\u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u6210\u672c\u3001\u6324\u538b\u76f8\u90bb\u7ec8\u7aef\u5e02\u573a\u7684\u5229\u6da6\u65f6\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5efa\u8bbe\u5df2\u7ecf\u5728\u62c9\u626f\u5b9e\u4f53\u4f9b\u5e94\u94fe\u2014\u2014\u662f\u4e00\u4e2a\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
