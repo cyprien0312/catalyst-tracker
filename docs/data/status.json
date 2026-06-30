@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782833527,
-  "generated_at_str": "2026-06-30 15:32:07 UTC",
-  "last_event_ts": 1782832499,
+  "generated_at": 1782833721,
+  "generated_at_str": "2026-06-30 15:35:21 UTC",
+  "last_event_ts": 1782833721,
   "tables": {
     "alerts_dedup": {
-      "count": 1783,
-      "last_ts": 1782832499,
-      "last_str": "2026-06-30 15:14:59 UTC"
+      "count": 1784,
+      "last_ts": 1782833721,
+      "last_str": "2026-06-30 15:35:21 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-30 12:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1370,
-      "last_ts": 1782831903,
-      "last_str": "2026-06-30 15:05:03 UTC"
+      "count": 1372,
+      "last_ts": 1782833707,
+      "last_str": "2026-06-30 15:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1537,
-      "last_ts": 1782831905,
-      "last_str": "2026-06-30 15:05:05 UTC"
+      "count": 1540,
+      "last_ts": 1782833709,
+      "last_str": "2026-06-30 15:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1023,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-30 15:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1239,
-      "last_ts": 1782831907,
-      "last_str": "2026-06-30 15:05:07 UTC"
+      "count": 1241,
+      "last_ts": 1782833710,
+      "last_str": "2026-06-30 15:35:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12748,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1791,
+      "ts": 1782833721,
+      "ts_str": "2026-06-30 15:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028 - BigGo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 03:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9YN1FHU05qQTh6dEVocnFoTng1aktHY2dTQ080bVpVUFNzNW9oS1hXcmtWSmN4UEloWVp5X3d0RVNIR2FzTjg1bE5ZSV9yX2xHN08yQmN1QzlmVDg3ZXlrMUlKV2QwT0Q3a1hvS2NaazNGWXIteEE?oc=5\n\nMemory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028 - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9YN1FHU05qQTh6dEVocnFoTng1aktHY2dTQ080bVpVUFNzNW9oS1hXcmtWSmN4UEloWVp5X3d0RVNIR2FzTjg1bE5ZSV9yX2xHN08yQmN1QzlmVDg3ZXlrMUlKV2QwT0Q3a1hvS2NaazNGWXIteEE?oc=5\" target=\"_blank\">Memory Chip Prices Set to Surge Up to 50% in Q3; Jefferies Sees Supply Crunch Through 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports memory chip prices are set to surge up to 50% in Q3, with Jefferies seeing a supply crunch running through 2028.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u82af\u7247\u4ef7\u683c Q3 \u5c06\u4e0a\u6da8\u6700\u9ad8\u8fbe 50%\uff0cJefferies \u9884\u8ba1\u4f9b\u5e94\u7d27\u5f20\u5c06\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nMemory is a core AI-server input; HBM/DRAM allocation to AI accelerators is draining commodity supply. A 50% price spike plus a multi-year crunch raises bill-of-materials cost for every AI buildout and signals demand outrunning supply \u2014 capacity stress, not yet demand destruction.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff0cHBM/DRAM \u5927\u91cf\u88ab\u5206\u914d\u7ed9 AI \u52a0\u901f\u5668\uff0c\u6b63\u5728\u62bd\u5e72\u901a\u7528\u5185\u5b58\u4f9b\u7ed9\u300250% \u7684\u6da8\u4ef7\u52a0\u4e0a\u6301\u7eed\u6570\u5e74\u7684\u7d27\u7f3a\uff0c\u4f1a\u63a8\u9ad8\u6bcf\u4e00\u4e2a AI \u57fa\u5efa\u9879\u76ee\u7684\u7269\u6599\u6210\u672c\uff0c\u53cd\u6620\u7684\u662f\u9700\u6c42\u8dd1\u8d62\u4f9b\u7ed9\u2014\u2014\u662f\u4ea7\u80fd\u7d27\u5f20\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u5d29\u584c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1787,
       "ts": 1782832499,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] VIDEO: Our Take on the Latest OpenAI IPO News - TheStreet Pro",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNd0hxM0g1aW5Dd25Bd1htWmVaR0xYVFNGeDFHNmMwbHBzYTlpZU9TZEM2QTUzRnRzaEZKNk9mdnh6TFJIMTNDNTNhd05YRmstMkVhVUxlWndrRUFSWXBGenhBdlZUQW1raU1VNWlJazRNMFkwel81ZWd3enR6SUQ5VFhYQ2lpMXpadWc4RGF3SkJGUnVheEZTRUFPRUR0dEtyeVE?oc=5\n\nVIDEO: Our Take on the Latest OpenAI IPO News - TheStreet Pro\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNd0hxM0g1aW5Dd25Bd1htWmVaR0xYVFNGeDFHNmMwbHBzYTlpZU9TZEM2QTUzRnRzaEZKNk9mdnh6TFJIMTNDNTNhd05YRmstMkVhVUxlWndrRUFSWXBGenhBdlZUQW1raU1VNWlJazRNMFkwel81ZWd3enR6SUQ5VFhYQ2lpMXpadWc4RGF3SkJGUnVheEZTRUFPRUR0dEtyeVE?oc=5\" target=\"_blank\">VIDEO: Our Take on the Latest OpenAI IPO News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheStreet Pro</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TheStreet Pro video segment, \"Our Take on the Latest OpenAI IPO News,\" surfaced in the C3 OpenAI news feed, signaling active media discussion of an OpenAI IPO.\n\n\u5185\u5bb9:\nTheStreet Pro \u7684\u4e00\u6bb5\u89c6\u9891\u300aOur Take on the Latest OpenAI IPO News\u300b\u51fa\u73b0\u5728 C3 OpenAI \u65b0\u95fb\u6d41\u4e2d\uff0c\u8868\u660e\u5a92\u4f53\u6b63\u5728\u5bc6\u96c6\u8ba8\u8bba OpenAI \u7684 IPO\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the clearest cash-out signal of the AI-capex cycle: pulling forward an exit while private valuations are peak suggests insiders want public-market liquidity before the spend has proven its payback. Rising IPO chatter is a late-cycle tell.\n\n\u5f71\u54cd:\nOpenAI IPO \u5c06\u662f AI capex \u5468\u671f\u4e2d\u6700\u660e\u786e\u7684\u5957\u73b0\u4fe1\u53f7\uff1a\u5728\u79c1\u52df\u4f30\u503c\u89c1\u9876\u65f6\u62a2\u7740\u5b89\u6392\u9000\u51fa\uff0c\u610f\u5473\u7740\u5185\u90e8\u4eba\u60f3\u5728\u652f\u51fa\u5c1a\u672a\u8bc1\u660e\u80fd\u56de\u672c\u4e4b\u524d\u5148\u62ff\u5230\u516c\u5f00\u5e02\u573a\u7684\u6d41\u52a8\u6027\u3002IPO \u8bdd\u9898\u5347\u6e29\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u5f81\u5146\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1591,
-      "ts": 1782495959,
-      "ts_str": "2026-06-26 17:45 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s IPO is up in the air. Did SpaceX take all the oxygen? - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 17:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYUh5RUlrTUwtcWd0SlRoaUI5U1g2aFNYN0RWSnFiVEJUWnpiUl9UanlvLW1HUWk5bHBvNFlrZV9rcWRNQmFHWEpWdF9aM2ZsckpONl9mSEcwa04zbTdSNVh2VlBpT24tZGtJM0RJMm5lUnUxYUl4ZU5LZHFwdlhVc2VfSU01YlRwZ3ZjdWp5RUxVWWRIMHVmTUFpSC1ySHNVNmtlbXBjamF3OHpVbFhLRDk0b1lfbVJZVHVieUo4WGRhTWVteHA2RmZiSEZCcVVFd3N1ejJCcw?oc=5\n\nOpenAI\u2019s IPO is up in the air. Did SpaceX take all the oxygen? - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYUh5RUlrTUwtcWd0SlRoaUI5U1g2aFNYN0RWSnFiVEJUWnpiUl9UanlvLW1HUWk5bHBvNFlrZV9rcWRNQmFHWEpWdF9aM2ZsckpONl9mSEcwa04zbTdSNVh2VlBpT24tZGtJM0RJMm5lUnUxYUl4ZU5LZHFwdlhVc2VfSU01YlRwZ3ZjdWp5RUxVWWRIMHVmTUFpSC1ySHNVNmtlbXBjamF3OHpVbFhLRDk0b1lfbVJZVHVieUo4WGRhTWVteHA2RmZiSEZCcVVFd3N1ejJCcw?oc=5\" target=\"_blank\">OpenAI\u2019s IPO is up in the air. Did SpaceX take all the oxygen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item surfaced for C3: \"OpenAI's IPO is up in the air. Did SpaceX take all the oxygen?\" (MSN), questioning whether OpenAI's path to a public listing has stalled.\n\n\u5185\u5bb9:\nC3 \u6293\u5230\u4e00\u6761 Google News\uff1a\"OpenAI's IPO is up in the air. Did SpaceX take all the oxygen?\"\uff08MSN\uff09\uff0c\u8d28\u7591 OpenAI \u7684\u4e0a\u5e02\u8fdb\u7a0b\u662f\u5426\u5df2\u7ecf\u6401\u6d45\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; doubt about its IPO timing signals the market may be cooling on the marquee name funding the spend. A delayed or uncertain listing makes it harder to raise the capital that backstops the GPU and data-center commitments.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff0c\u5e02\u573a\u5bf9\u5176 IPO \u65f6\u70b9\u7684\u6000\u7591\u8bf4\u660e\u8d44\u91d1\u9762\u53ef\u80fd\u6b63\u5728\u5bf9\u8fd9\u4e2a\u6807\u5fd7\u6027\u540d\u5b57\u964d\u6e29\u3002\u4e0a\u5e02\u4e00\u65e6\u5ef6\u8fdf\u6216\u4e0d\u786e\u5b9a\uff0c\u5c31\u66f4\u96be\u7b79\u5230\u652f\u6491 GPU \u548c\u6570\u636e\u4e2d\u5fc3\u627f\u8bfa\u7684\u8d44\u672c\u3002\n",
       "emailed": false
     }
   ],
