@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782829924,
-  "generated_at_str": "2026-06-30 14:32:04 UTC",
-  "last_event_ts": 1782828844,
+  "generated_at": 1782830126,
+  "generated_at_str": "2026-06-30 14:35:26 UTC",
+  "last_event_ts": 1782830122,
   "tables": {
     "alerts_dedup": {
-      "count": 1774,
-      "last_ts": 1782828321,
-      "last_str": "2026-06-30 14:05:21 UTC"
+      "count": 1775,
+      "last_ts": 1782830122,
+      "last_str": "2026-06-30 14:35:22 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,14 +59,14 @@
       "last_str": "2026-06-30 12:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1362,
-      "last_ts": 1782828302,
-      "last_str": "2026-06-30 14:05:02 UTC"
+      "count": 1364,
+      "last_ts": 1782830102,
+      "last_str": "2026-06-30 14:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1527,
-      "last_ts": 1782828304,
-      "last_str": "2026-06-30 14:05:04 UTC"
+      "count": 1528,
+      "last_ts": 1782830103,
+      "last_str": "2026-06-30 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1021,
@@ -74,9 +74,9 @@
       "last_str": "2026-06-30 14:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1233,
-      "last_ts": 1782828306,
-      "last_str": "2026-06-30 14:05:06 UTC"
+      "count": 1238,
+      "last_ts": 1782830104,
+      "last_str": "2026-06-30 14:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12732,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1782,
+      "ts": 1782830122,
+      "ts_str": "2026-06-30 14:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Flat trading for Apple stock as hardware price hikes after memory chip shortage emerge - Traders Union",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:08:47 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVA1MGRXeEdjTjFSclVCRi1YT0wtXzEwYk1FY0dNczNhRDVYWGtNQXB6SGhKbnB0VnFQajlmMXp5cEhWeExWUG5ONWZTaVNLSHRTZUdsVGhpZEFVZ3RwMjREb1ktcnFzVmlOTUlEODhGUW9hZHNFT2lpTHNyNXV4UjFnQ0hLbnM0TUJaSmRaaWpDbV9rd0dnX2Fn?oc=5\n\nFlat trading for Apple stock as hardware price hikes after memory chip shortage emerge - Traders Union\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVA1MGRXeEdjTjFSclVCRi1YT0wtXzEwYk1FY0dNczNhRDVYWGtNQXB6SGhKbnB0VnFQajlmMXp5cEhWeExWUG5ONWZTaVNLSHRTZUdsVGhpZEFVZ3RwMjREb1ktcnFzVmlOTUlEODhGUW9hZHNFT2lpTHNyNXV4UjFnQ0hLbnM0TUJaSmRaaWpDbV9rd0dnX2Fn?oc=5\" target=\"_blank\">Flat trading for Apple stock as hardware price hikes after memory chip shortage emerge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Traders Union</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged Apple hardware price hikes following an emerging memory chip shortage (\"hardware price hikes after memory chip shortage emerge\"), pairing a memory term with a shortage token.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u6307\u51fa\uff0c\u5728\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6d6e\u73b0\u540e\uff0cApple \u786c\u4ef6\u51fa\u73b0\u6da8\u4ef7\uff08\"hardware price hikes after memory chip shortage emerge\"\uff09\uff0c\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u914d\u5bf9\u89e6\u53d1\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) tightening is the supply-side tell that AI-datacenter demand is crowding out consumer hardware \u2014 when shortages start lifting device prices, it confirms the capex build-out is straining the components stack, not just GPUs. Rising memory costs squeeze hyperscaler buildout margins and signal the cycle is running hot.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u8d8b\u7d27\u662f\u4f9b\u7ed9\u7aef\u7684\u4fe1\u53f7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u5f53\u77ed\u7f3a\u5f00\u59cb\u63a8\u9ad8\u7ec8\u7aef\u8bbe\u5907\u4ef7\u683c\uff0c\u5c31\u5370\u8bc1\u4e86\u8fd9\u8f6e\u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u6b63\u5728\u62c9\u7d27\u6574\u4e2a\u5143\u5668\u4ef6\u4f9b\u5e94\u94fe\uff0c\u800c\u4e0d\u53ea\u662f GPU\u3002\u5185\u5b58\u6210\u672c\u4e0a\u6da8\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5efa\u8bbe\u5229\u6da6\uff0c\u4e5f\u8868\u660e\u8fd9\u8f6e\u5468\u671f\u6b63\u5728\u8fc7\u70ed\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1781,
       "ts": 1782828321,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO Reportedly Delayed To 2027: 'There's No Rational Argument' For $1 Trillion Valuation, Says Gary Marcus - Benz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:51:22 GMT\nLink:      https://news.google.com/rss/articles/CBMihAJBVV95cUxOaVFscnp3Y0N4ZFNYc3VDSkFIY1cwMVNGOHFaVjJmcDktVWx5cTAwRmRidVlSSERqaU9QcEVuaWZUNk9oaldQVVJ6S0tPZHI0dDNqMG1SNmNVdlA3dEJ5dllEZVFVM1BMZ3NvLTdBV3RLT1NHcmpRX3B5WTN6MTVQcE9pR01GQS1XY1RjalVYMS02ejdIbXIxYktnQ1UyT2JPbmo5NHp3eXZVWlc3ako0elJRWDgwZmc4eFg4T3lQV0pDbGNjN3lJNUFvb0JzRVRha2hyY0xrSzdleVZmQXhONlBiNlBPTlZuSmZSZFpvbnF1dUZud182cnZSNkIyV283X3NHYw?oc=5\n\nOpenAI IPO Reportedly Delayed To 2027: 'There's No Rational Argument' For $1 Trillion Valuation, Says Gary Marcus - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxOaVFscnp3Y0N4ZFNYc3VDSkFIY1cwMVNGOHFaVjJmcDktVWx5cTAwRmRidVlSSERqaU9QcEVuaWZUNk9oaldQVVJ6S0tPZHI0dDNqMG1SNmNVdlA3dEJ5dllEZVFVM1BMZ3NvLTdBV3RLT1NHcmpRX3B5WTN6MTVQcE9pR01GQS1XY1RjalVYMS02ejdIbXIxYktnQ1UyT2JPbmo5NHp3eXZVWlc3ako0elJRWDgwZmc4eFg4T3lQV0pDbGNjN3lJNUFvb0JzRVRha2hyY0xrSzdleVZmQXhONlBiNlBPTlZuSmZSZFpvbnF1dUZud182cnZSNkIyV283X3NHYw?oc=5\" target=\"_blank\">OpenAI IPO Reportedly Delayed To 2027: 'There's No Rational Argument' For $1 Trillion Valuation, Says Gary Marcus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI's IPO has reportedly been pushed to 2027, with AI critic Gary Marcus saying there is \"no rational argument\" for a $1 trillion valuation.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u7684 IPO \u636e\u4f20\u88ab\u63a8\u8fdf\u5230 2027 \u5e74\uff0cAI \u6279\u8bc4\u8005 Gary Marcus \u79f0\u5bf9 $1 trillion \u4f30\u503c\"\u6ca1\u6709\u4efb\u4f55\u5408\u7406\u8bba\u636e\"\u3002\n\nWhy it matters:\nAn IPO delay removes the nearest forcing event for a public market repricing of the largest private AI bet, and pushes the day of liquidity/validation further out. Prominent public skepticism of the $1T mark signals the valuation narrative is fraying \u2014 relevant to whether AI-capex returns can support the headline numbers.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740\u5bf9\u8fd9\u7b14\u6700\u5927\u7684\u79c1\u4eba AI \u62bc\u6ce8\u8fdb\u884c\u516c\u5f00\u5e02\u573a\u91cd\u65b0\u5b9a\u4ef7\u7684\u6700\u8fd1\u89e6\u53d1\u4e8b\u4ef6\u88ab\u79fb\u9664\uff0c\u5957\u73b0\u4e0e\u4ef7\u503c\u9a8c\u8bc1\u7684\u65f6\u70b9\u88ab\u8fdb\u4e00\u6b65\u63a8\u540e\u3002\u77e5\u540d\u4eba\u58eb\u516c\u5f00\u8d28\u7591 $1T \u4f30\u503c\uff0c\u8bf4\u660e\u8fd9\u5957\u4f30\u503c\u53d9\u4e8b\u6b63\u5728\u677e\u52a8\u2014\u2014\u8fd9\u5173\u7cfb\u5230 AI capex \u7684\u56de\u62a5\u7a76\u7adf\u80fd\u5426\u6491\u8d77\u8fd9\u4e9b\u5934\u6761\u6570\u5b57\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1582,
-      "ts": 1782493518,
-      "ts_str": "2026-06-26 17:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:00:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x30gHKAUFVX3lxTE9LeDE0UkNjTXNrekYyeGI0dFZQWnowZGN0V0FYNzdHZEg5ankxM3dxRWFVTlpyZll6ZktPbDBpaHFXVEVXMGhfZkZQQmRJWjE4WEZ6NjhoY01udlltNU40RXNUaE1fWVRSaWFMVVJYcXVJRGtxdHdVRkJQNnhWS1IyUWFNWHgzdnpBZnAxc0hGNjhnemsxOW5IUWd1VS1faTdMak5vTC1tM1MtcHIwVzh6MW1WMERJX1QtQjJ0NG1ub2RPdjJ1c0pLTHc?oc=5\n\nApple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3gxNFJDY01za3pGMnhiNHRWUFp6MGRjdFdBWDc3R2RIOWp5MTN3cUVhVU5acmZZemZLT2wwaWhxV1RFVzBoX2ZGUEJkSVoxOFhGejY4aGNNbnZZbTVONEVzVGhNX1lUUmlhTFVSWHF1SURrcXR3VUZCUDZ4VktSMlFhTVh4M3Z6QWZwMXNIRjY4Z3prMTluSFFndVUtX2k3TGpOb0wtbTNTLXByMFc4ejFtVjBESV9ULUIydDRtbm9kT3YydXNKS0x30gHKAUFVX3lxTE9LeDE0UkNjTXNrekYyeGI0dFZQWnowZGN0V0FYNzdHZEg5ankxM3dxRWFVTlpyZll6ZktPbDBpaHFXVEVXMGhfZkZQQmRJWjE4WEZ6NjhoY01udlltNU40RXNUaE1fWVRSaWFMVVJYcXVJRGtxdHdVRkJQNnhWS1IyUWFNWHgzdnpBZnAxc0hGNjhnemsxOW5IUWd1VS1faTdMak5vTC1tM1MtcHIwVzh6MW1WMERJX1QtQjJ0NG1ub2RPdjJ1c0pLTHc?oc=5\" target=\"_blank\">Apple's Mac and iPad Price Hike Explained: Why the AI Memory Chip Costs More</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising Mac and iPad prices, attributing the hike specifically to more expensive AI memory chips.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 Apple \u6b63\u5728\u4e0a\u8c03 Mac \u548c iPad \u4ef7\u683c\uff0c\u5e76\u660e\u786e\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e\u66f4\u8d35\u7684 AI \u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nAI datacenter demand is bidding up HBM/DRAM supply, and the cost is now bleeding into consumer hardware pricing. When AI-capex spillover starts raising prices for unrelated end products, it signals memory supply is tight enough to ripple through the whole electronics chain \u2014 a sign the buildout is straining real-world component markets.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u62ac\u9ad8 HBM/DRAM \u7684\u4f9b\u5e94\u4ef7\u683c\uff0c\u5982\u4eca\u8fd9\u4e00\u6210\u672c\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u7684\u5916\u6ea2\u6548\u5e94\u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u4ef7\u683c\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u5230\u8db3\u4ee5\u6ce2\u53ca\u6574\u6761\u7535\u5b50\u4ea7\u4e1a\u94fe\u2014\u2014\u8fd9\u662f\u57fa\u5efa\u72c2\u6f6e\u6b63\u5728\u6324\u538b\u73b0\u5b9e\u96f6\u90e8\u4ef6\u5e02\u573a\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
