@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782813724,
-  "generated_at_str": "2026-06-30 10:02:04 UTC",
-  "last_event_ts": 1782812645,
+  "generated_at": 1782813924,
+  "generated_at_str": "2026-06-30 10:05:24 UTC",
+  "last_event_ts": 1782813918,
   "tables": {
     "alerts_dedup": {
-      "count": 1769,
-      "last_ts": 1782806716,
-      "last_str": "2026-06-30 08:05:16 UTC"
+      "count": 1770,
+      "last_ts": 1782813918,
+      "last_str": "2026-06-30 10:05:18 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,24 +59,24 @@
       "last_str": "2026-06-30 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1347,
-      "last_ts": 1782812102,
-      "last_str": "2026-06-30 09:35:02 UTC"
+      "count": 1349,
+      "last_ts": 1782813902,
+      "last_str": "2026-06-30 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1512,
-      "last_ts": 1782812104,
-      "last_str": "2026-06-30 09:35:04 UTC"
+      "count": 1515,
+      "last_ts": 1782813904,
+      "last_str": "2026-06-30 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1011,
-      "last_ts": 1782810303,
-      "last_str": "2026-06-30 09:05:03 UTC"
+      "count": 1012,
+      "last_ts": 1782813903,
+      "last_str": "2026-06-30 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1216,
-      "last_ts": 1782812104,
-      "last_str": "2026-06-30 09:35:04 UTC"
+      "count": 1219,
+      "last_ts": 1782813905,
+      "last_str": "2026-06-30 10:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12693,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1777,
+      "ts": 1782813918,
+      "ts_str": "2026-06-30 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Framework cuts laptop SSD prices but warns of looming CPU hikes - MSN",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 12:35:05 GMT\nLink:      https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTFVudlRkRVhFX1BYcG10amROSEJTRllGWDdaX181MktOVHNUcVpyWVFWOF9obUhJSFZodENRVEZBdUhNQXpkRVR0Y0lwZmxQdmZvOGxCZlRHcmpLaEQ2U3ZKOW1VUW5PSUhITWZXa3hHWEs3bGl6bzN2M2VaY1dFeDhvZk1hNnZGWFdxVVFid0xFc1dMeVBYbGVnYzN0aVU0Q3Mwa1JmWUZlMTB3ODE3QUNHRk9fT0xtTmlWU29TTF96Ti15YmVFeGdfQ1EwS2FhaTF6aVk1OUxtMlBpeVFtSWU4RWkwNy1UcTE2dzREYTZGcnhEZUM1Uw?oc=5\n\nFramework cuts laptop SSD prices but warns of looming CPU hikes - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTFVudlRkRVhFX1BYcG10amROSEJTRllGWDdaX181MktOVHNUcVpyWVFWOF9obUhJSFZodENRVEZBdUhNQXpkRVR0Y0lwZmxQdmZvOGxCZlRHcmpLaEQ2U3ZKOW1VUW5PSUhITWZXa3hHWEs3bGl6bzN2M2VaY1dFeDhvZk1hNnZGWFdxVVFid0xFc1dMeVBYbGVnYzN0aVU0Q3Mwa1JmWUZlMTB3ODE3QUNHRk9fT0xtTmlWU29TTF96Ti15YmVFeGdfQ1EwS2FhaTF6aVk1OUxtMlBpeVFtSWU4RWkwNy1UcTE2dzREYTZGcnhEZUM1Uw?oc=5\" target=\"_blank\">Framework cuts laptop SSD prices but warns of looming CPU hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Framework headline reports laptop SSD (NAND) prices being cut while warning of looming CPU price hikes.\n\n\u5185\u5bb9:\nFramework \u7684\u65b0\u95fb\u6807\u9898\u663e\u793a\u7b14\u8bb0\u672c SSD\uff08NAND\uff09\u4ef7\u683c\u88ab\u4e0b\u8c03\uff0c\u540c\u65f6\u8b66\u544a CPU \u4ef7\u683c\u5373\u5c06\u4e0a\u6da8\u3002\n\nWhy it matters:\nFalling NAND prices point to softening demand or oversupply in storage even as the broader AI-capex narrative assumes tight, rising memory pricing. A reversal in SSD prices is an early tell that the memory-stress cycle may be turning \u2014 bearish for the assumption that AI demand keeps all silicon scarce.\n\n\u5f71\u54cd:\nNAND \u4ef7\u683c\u4e0b\u8dcc\u6307\u5411\u5b58\u50a8\u7aef\u9700\u6c42\u8f6c\u5f31\u6216\u4f9b\u7ed9\u8fc7\u5269\uff0c\u800c AI capex \u53d9\u4e8b\u9ed8\u8ba4\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u3001\u4ef7\u683c\u6301\u7eed\u4e0a\u884c\u3002SSD \u4ef7\u683c\u7684\u53cd\u8f6c\u662f\u5185\u5b58\u7d27\u5f20\u5468\u671f\u53ef\u80fd\u89c1\u9876\u7684\u65e9\u671f\u4fe1\u53f7\u2014\u2014\u5bf9\u201cAI \u9700\u6c42\u8ba9\u6240\u6709\u82af\u7247\u6301\u7eed\u77ed\u7f3a\u201d\u7684\u5047\u8bbe\u6784\u6210\u5229\u7a7a\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1776,
       "ts": 1782806716,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say - CNBC",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:32:25 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE13OU9kQU9NcWpDYTV6Y3d1blJXa1ZiZkFxM1ZSUUlONi1taHNJLUxlMWpkNXJpd1AySUxxaHlIeklTNXllZHh3U1hSNHpFRGdCMFVLclVKTUVjbG9henhDX0pvZEdiMTVXbG1OSVU4TWFCVGZtWUE?oc=5\n\nOpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE13OU9kQU9NcWpDYTV6Y3d1blJXa1ZiZkFxM1ZSUUlONi1taHNJLUxlMWpkNXJpd1AySUxxaHlIeklTNXllZHh3U1hSNHpFRGdCMFVLclVKTUVjbG9henhDX0pvZEdiMTVXbG1OSVU4TWFCVGZtWUE?oc=5\" target=\"_blank\">OpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCNBC reports OpenAI has not yet held pre-IPO investor meetings or set an IPO timeline, citing sources.\n\n\u5185\u5bb9:\nCNBC \u63f4\u5f15\u6d88\u606f\u4eba\u58eb\u62a5\u9053\uff0cOpenAI \u5c1a\u672a\u53ec\u5f00 IPO \u524d\u7684\u6295\u8d44\u8005\u4f1a\u8bae\uff0c\u4e5f\u672a\u786e\u5b9a\u4e0a\u5e02\u65f6\u95f4\u8868\u3002\n\nWhy it matters:\nTempers the loudest near-term IPO speculation around OpenAI, the anchor of the AI-capex story. An OpenAI listing is widely treated as the liquidity event that would let private AI valuations mark up the public market \u2014 pushing its timing out keeps that catalyst, and the capital it would unlock, further away.\n\n\u5f71\u54cd:\n\u8fd9\u7ed9\u56f4\u7ed5 OpenAI \u6700\u70ed\u7684\u8fd1\u671f IPO \u9884\u671f\u964d\u4e86\u6e29\uff0c\u800c OpenAI \u662f\u6574\u4e2a AI capex \u6545\u4e8b\u7684\u6838\u5fc3\u3002\u5e02\u573a\u666e\u904d\u628a OpenAI \u4e0a\u5e02\u89c6\u4e3a\u80fd\u8ba9\u4e00\u7ea7\u5e02\u573a AI \u4f30\u503c\u5411\u4e8c\u7ea7\u5e02\u573a\u4f20\u5bfc\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u65f6\u95f4\u8868\u540e\u79fb\uff0c\u610f\u5473\u7740\u8fd9\u4e2a\u50ac\u5316\u5242\u4ee5\u53ca\u5b83\u5c06\u91ca\u653e\u7684\u8d44\u91d1\u90fd\u88ab\u63a8\u5f97\u66f4\u8fdc\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1571,
-      "ts": 1782490577,
-      "ts_str": "2026-06-26 16:16 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO delay sends AI tokens crashing - thestreet.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:41:11 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUR3T25IektWSTljR3JwYWxYNGhySWNYSE9SVkhMakg2NU14VG5kYjJZdHE5Rk95R01JZzJWTVlEZUtKYUhXZ19JZkhadmtvcnJjZFJaWXJkRVNIOS1hV0xPWDNObGJUbC1JbnA5UDZKNi1Nc1Vpb3gyLTVPQzNvT0lXQjFlcmIxbnc?oc=5\n\nOpenAI IPO delay sends AI tokens crashing - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOVUR3T25IektWSTljR3JwYWxYNGhySWNYSE9SVkhMakg2NU14VG5kYjJZdHE5Rk95R01JZzJWTVlEZUtKYUhXZ19JZkhadmtvcnJjZFJaWXJkRVNIOS1hV0xPWDNObGJUbC1JbnA5UDZKNi1Nc1Vpb3gyLTVPQzNvT0lXQjFlcmIxbnc?oc=5\" target=\"_blank\">OpenAI IPO delay sends AI tokens crashing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flagged by C3: \"OpenAI IPO delay sends AI tokens crashing\" (thestreet.com). OpenAI's IPO is being pushed back, and crypto AI tokens sold off in response.\n\n\u5185\u5bb9:\nC3 \u6355\u6349\u5230\u4e00\u6761 Google News \u6807\u9898\uff1a\"OpenAI IPO delay sends AI tokens crashing\"\uff08thestreet.com\uff09\u3002OpenAI \u7684 IPO \u88ab\u63a8\u8fdf\uff0c\u52a0\u5bc6\u5e02\u573a\u7684 AI \u6982\u5ff5\u4ee3\u5e01\u968f\u4e4b\u5927\u8dcc\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; any delay to its public-market debut removes a key liquidity event the chip/datacenter supply chain is counting on. A sharp sympathy crash in AI tokens shows how reflexive and sentiment-driven the AI trade has become \u2014 the kind of fragile positioning that unwinds fast under stress.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u94fe\u6761\u7684\u9700\u6c42\u951a\uff1b\u5176\u4e0a\u5e02\u63a8\u8fdf\u610f\u5473\u7740\u82af\u7247\u4e0e\u6570\u636e\u4e2d\u5fc3\u4f9b\u5e94\u94fe\u6240\u671f\u5f85\u7684\u4e00\u4e2a\u5173\u952e\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u5ef6\u540e\u3002AI \u4ee3\u5e01\u7684\u8fde\u5e26\u66b4\u8dcc\u8bf4\u660e\u8fd9\u6ce2 AI \u4ea4\u6613\u5df2\u7ecf\u9ad8\u5ea6\u4f9d\u8d56\u60c5\u7eea\u548c\u53cd\u8eab\u6027\u2014\u2014\u8fd9\u79cd\u8106\u5f31\u7684\u4ed3\u4f4d\u7ed3\u6784\u5728\u538b\u529b\u4e0b\u4f1a\u8fc5\u901f\u74e6\u89e3\u3002\n",
       "emailed": false
     }
   ],
