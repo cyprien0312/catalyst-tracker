@@ -1,17 +1,17 @@
 {
-  "generated_at": 1782858385,
-  "generated_at_str": "2026-06-30 22:26:25 UTC",
-  "last_event_ts": 1782857659,
+  "generated_at": 1782858554,
+  "generated_at_str": "2026-06-30 22:29:14 UTC",
+  "last_event_ts": 1782858554,
   "tables": {
     "alerts_dedup": {
-      "count": 1805,
-      "last_ts": 1782857659,
-      "last_str": "2026-06-30 22:14:19 UTC"
+      "count": 1806,
+      "last_ts": 1782858554,
+      "last_str": "2026-06-30 22:29:14 UTC"
     },
     "c10_signals": {
-      "count": 5,
-      "last_ts": 1782772154,
-      "last_str": "2026-06-29 22:29:14 UTC"
+      "count": 6,
+      "last_ts": 1782858542,
+      "last_str": "2026-06-30 22:29:02 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1813,
+      "ts": 1782858554,
+      "ts_str": "2026-06-30 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.16% (+44bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-06-29\nCurrent:  2.16%\n90d low:  1.72%\nMove:     +44bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.16%, up 0.44 pp from its trailing-90-day low of 1.72% (as of 2026-06-29).\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5347\u81f3 2.16%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.72% \u4e0a\u5347 0.44 \u4e2a\u767e\u5206\u70b9\uff08\u622a\u81f3 2026-06-29\uff09\u3002\n\nWhy it matters:\nHigher real yields raise the discount rate on long-duration AI-capex bets, where payback is years out \u2014 the present value of those future cash flows falls hardest. A real-yield spike also tightens financial conditions and competes with risk assets for capital, squeezing the most speculative end of the AI trade.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u62ac\u5347\u4e86\u957f\u4e45\u671f AI capex \u62bc\u6ce8\u7684\u8d34\u73b0\u7387\u2014\u2014\u8fd9\u7c7b\u6295\u8d44\u56de\u672c\u8981\u7b49\u6570\u5e74\uff0c\u672a\u6765\u73b0\u91d1\u6d41\u7684\u73b0\u503c\u8dcc\u5f97\u6700\u72e0\u3002\u5b9e\u9645\u6536\u76ca\u7387\u98d9\u5347\u8fd8\u4f1a\u6536\u7d27\u91d1\u878d\u6761\u4ef6\uff0c\u4e0e\u98ce\u9669\u8d44\u4ea7\u4e89\u593a\u8d44\u91d1\uff0c\u6324\u538b AI \u4ea4\u6613\u4e2d\u6700\u5177\u6295\u673a\u6027\u7684\u90e8\u5206\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1812,
       "ts": 1782857659,
@@ -2260,16 +2270,6 @@
       "subject": "[C3-MED] Daily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees - The Business Journals",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 20:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlZNU2Y1dW8yZlFoNTVtWmFDQV9Qd0RzYW9keDFnb1l0c2ZYdHdGallRdVVWbER5VGM2enFlMGhjMTFjejNRODZYa2k3NzZQREs0SmZ3aFJ5WG0zMVdwcUdMOENtVzNaQVdOSHNWOHRFVlBIOGlyTVdDR19LeUhkMjNtdHpQTkpkSkliTDRORHgwT2tZOThmUkE2OTZlWnBCbXphdTJrUGxJSzJWQ1JBc1VB?oc=5\n\nDaily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees - The Business Journals\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlZNU2Y1dW8yZlFoNTVtWmFDQV9Qd0RzYW9keDFnb1l0c2ZYdHdGallRdVVWbER5VGM2enFlMGhjMTFjejNRODZYa2k3NzZQREs0SmZ3aFJ5WG0zMVdwcUdMOENtVzNaQVdOSHNWOHRFVlBIOGlyTVdDR19LeUhkMjNtdHpQTkpkSkliTDRORHgwT2tZOThmUkE2OTZlWnBCbXphdTJrUGxJSzJWQ1JBc1VB?oc=5\" target=\"_blank\">Daily Digest: OpenAI may delay IPO plans, California bill would limit HOA fees</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced under C3 (OpenAI watch): \"Daily Digest: OpenAI may delay IPO plans\" from The Business Journals. The headline bundles OpenAI's possible IPO delay with an unrelated California HOA-fee bill.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u8fdb\u5165 C3\uff08OpenAI \u76d1\u63a7\uff09\uff1aThe Business Journals \u7684\u300cDaily Digest: OpenAI may delay IPO plans\u300d\u3002\u8be5\u6807\u9898\u628a OpenAI \u53ef\u80fd\u63a8\u8fdf IPO \u4e0e\u4e00\u9879\u65e0\u5173\u7684\u52a0\u5dde HOA \u6536\u8d39\u6cd5\u6848\u6346\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nAn IPO is the cleanest exit and liquidity event for OpenAI's backers and the most direct public-market read on the AI-capex thesis. Signs of a delay suggest the company doesn't like the price it would fetch or the scrutiny it would face \u2014 a soft tell that the private bubble isn't ready to be marked-to-market.\n\n\u5f71\u54cd:\nIPO \u662f OpenAI \u6295\u8d44\u4eba\u6700\u5e72\u51c0\u7684\u9000\u51fa\u548c\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u4e5f\u662f\u516c\u5f00\u5e02\u573a\u5bf9 AI capex \u903b\u8f91\u6700\u76f4\u63a5\u7684\u5b9a\u4ef7\u3002\u63a8\u8fdf IPO \u7684\u8ff9\u8c61\u610f\u5473\u7740\u516c\u53f8\u4e0d\u6ee1\u610f\u5f53\u524d\u80fd\u62ff\u5230\u7684\u4f30\u503c\u3001\u6216\u4e0d\u613f\u63a5\u53d7\u4e0a\u5e02\u540e\u7684\u5ba1\u89c6\u2014\u2014\u8fd9\u662f\u79c1\u52df\u6ce1\u6cab\u8fd8\u4e0d\u6562\u88ab\u516c\u5f00\u5e02\u573a\u91cd\u65b0\u5b9a\u4ef7\u7684\u5fae\u5f31\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 1613,
-      "ts": 1782506132,
-      "ts_str": "2026-06-26 20:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Framework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices - Notebookcheck",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 20:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPam9qWE5NZldtOS1NbmFjX1JrUVU1ZzNaQ0hiSUpKRWRROW0tejJhbE5SbGlRUjZ2c01ONy1zV2tNLWtYZlk0Mjd2MDhuYmpNdVg2Q3lMbHMxN3dseV9GeXppTXJIWUt4VGtmTmlZS01KVlVXNTZPdnJIS0RXU0JTdVAtMkJhbTZEWmVpZ3VVc2JxUkpqcDBRXzEtMUM1ZU9oQzVkZWpFaXdlOGJPeVdWd290cFF4VEV5b1N4OFh3?oc=5\n\nFramework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPam9qWE5NZldtOS1NbmFjX1JrUVU1ZzNaQ0hiSUpKRWRROW0tejJhbE5SbGlRUjZ2c01ONy1zV2tNLWtYZlk0Mjd2MDhuYmpNdVg2Q3lMbHMxN3dseV9GeXppTXJIWUt4VGtmTmlZS01KVlVXNTZPdnJIS0RXU0JTdVAtMkJhbTZEWmVpZ3VVc2JxUkpqcDBRXzEtMUM1ZU9oQzVkZWpFaXdlOGJPeVdWd290cFF4VEV5b1N4OFh3?oc=5\" target=\"_blank\">Framework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA consumer headline about Framework Laptop 13 Pro buyers getting a free SSD upgrade as the company lowers prices.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6d88\u8d39\u7ea7\u65b0\u95fb\u6807\u9898\uff1aFramework Laptop 13 Pro \u7684\u4e70\u5bb6\u5728\u516c\u53f8\u964d\u4ef7\u65f6\u83b7\u5f97\u514d\u8d39 SSD \u5347\u7ea7\u3002\n\nWhy it matters:\nThis is consumer-laptop pricing noise, not an AI-infrastructure stress signal \u2014 Framework is a small PC maker and a free SSD promo has no bearing on hyperscaler AI capex or bubble stress. Treat as a false-positive match on the C6 price-reversal keyword filter.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6d88\u8d39\u7ea7\u7b14\u8bb0\u672c\u7684\u964d\u4ef7\u566a\u97f3\uff0c\u4e0d\u662f AI \u57fa\u7840\u8bbe\u65bd\u538b\u529b\u4fe1\u53f7\u2014\u2014Framework \u662f\u5c0f\u578b PC \u5382\u5546\uff0c\u514d\u8d39 SSD \u4fc3\u9500\u4e0e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 AI capex \u6216\u6ce1\u6cab\u538b\u529b\u6beb\u65e0\u5173\u7cfb\u3002\u5e94\u89c6\u4e3a C6 \u4ef7\u683c\u53cd\u8f6c\u5173\u952e\u8bcd\u8fc7\u6ee4\u5668\u7684\u8bef\u62a5\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [

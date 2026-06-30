@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-06-30 22:26:25 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-06-30 22:29:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -136,6 +136,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="1813" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.16% (+44bp off 90d-low)</span>
+    <span class="meta">2026-06-30 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-06-29
+Current:  2.16%
+90d low:  1.72%
+Move:     +44bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield rose to 2.16%, up 0.44 pp from its trailing-90-day low of 1.72% (as of 2026-06-29).
+
+内容:
+10 年期实际收益率（TIPS）升至 2.16%，较过去 90 天低点 1.72% 上升 0.44 个百分点（截至 2026-06-29）。
+
+Why it matters:
+Higher real yields raise the discount rate on long-duration AI-capex bets, where payback is years out — the present value of those future cash flows falls hardest. A real-yield spike also tightens financial conditions and competes with risk assets for capital, squeezing the most speculative end of the AI trade.
+
+影响:
+实际收益率走高抬升了长久期 AI capex 押注的贴现率——这类投资回本要等数年，未来现金流的现值跌得最狠。实际收益率飙升还会收紧金融条件，与风险资产争夺资金，挤压 AI 交易中最具投机性的部分。
+</pre>
+  <button class="mark-read" type="button" data-id="1813">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="1812" data-catalyst="C3" data-severity="MED">
   <summary>
@@ -6478,49 +6507,17 @@ IPO 是 OpenAI 投资人最干净的退出和流动性事件，也是公开市�
   <button class="mark-read" type="button" data-id="1615">mark read</button>
 </details>
 
-<details class="alert sev-HIGH" data-id="1613" data-catalyst="C6" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C6</code>
-    <span class="subj">[C6-HIGH] Framework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices - Notebookcheck</span>
-    <span class="meta">2026-06-26 20:35 UTC</span>
-  </summary>
-  <pre>Severity:  HIGH
-Feed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Fri, 26 Jun 2026 20:15:00 GMT
-Link:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPam9qWE5NZldtOS1NbmFjX1JrUVU1ZzNaQ0hiSUpKRWRROW0tejJhbE5SbGlRUjZ2c01ONy1zV2tNLWtYZlk0Mjd2MDhuYmpNdVg2Q3lMbHMxN3dseV9GeXppTXJIWUt4VGtmTmlZS01KVlVXNTZPdnJIS0RXU0JTdVAtMkJhbTZEWmVpZ3VVc2JxUkpqcDBRXzEtMUM1ZU9oQzVkZWpFaXdlOGJPeVdWd290cFF4VEV5b1N4OFh3?oc=5
-
-Framework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices - Notebookcheck
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMivgFBVV95cUxPam9qWE5NZldtOS1NbmFjX1JrUVU1ZzNaQ0hiSUpKRWRROW0tejJhbE5SbGlRUjZ2c01ONy1zV2tNLWtYZlk0Mjd2MDhuYmpNdVg2Q3lMbHMxN3dseV9GeXppTXJIWUt4VGtmTmlZS01KVlVXNTZPdnJIS0RXU0JTdVAtMkJhbTZEWmVpZ3VVc2JxUkpqcDBRXzEtMUM1ZU9oQzVkZWpFaXdlOGJPeVdWd290cFF4VEV5b1N4OFh3?oc=5&#34; target=&#34;_blank&#34;&gt;Framework Laptop 13 Pro buyers get free SSD upgrade as company lowers prices&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Notebookcheck&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A consumer headline about Framework Laptop 13 Pro buyers getting a free SSD upgrade as the company lowers prices.
-
-内容:
-一条消费级新闻标题：Framework Laptop 13 Pro 的买家在公司降价时获得免费 SSD 升级。
-
-Why it matters:
-This is consumer-laptop pricing noise, not an AI-infrastructure stress signal — Framework is a small PC maker and a free SSD promo has no bearing on hyperscaler AI capex or bubble stress. Treat as a false-positive match on the C6 price-reversal keyword filter.
-
-影响:
-这是消费级笔记本的降价噪音，不是 AI 基础设施压力信号——Framework 是小型 PC 厂商，免费 SSD 促销与超大规模厂商的 AI capex 或泡沫压力毫无关系。应视为 C6 价格反转关键词过滤器的误报。
-</pre>
-  <button class="mark-read" type="button" data-id="1613">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>1805</td>
-<td>2026-06-30 22:14:19 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>1806</td>
+<td>2026-06-30 22:29:14 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>5</td>
-<td>2026-06-29 22:29:14 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>6</td>
+<td>2026-06-30 22:29:02 UTC</td></tr>
 
 <tr><td><code>c1_filings</code></td><td>105</td>
 <td>2026-06-22 20:32:03 UTC</td></tr>
