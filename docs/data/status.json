@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782823265,
-  "generated_at_str": "2026-06-30 12:41:05 UTC",
-  "last_event_ts": 1782822907,
+  "generated_at": 1782823465,
+  "generated_at_str": "2026-06-30 12:44:25 UTC",
+  "last_event_ts": 1782823465,
   "tables": {
     "alerts_dedup": {
-      "count": 1772,
-      "last_ts": 1782819859,
-      "last_str": "2026-06-30 11:44:19 UTC"
+      "count": 1773,
+      "last_ts": 1782823465,
+      "last_str": "2026-06-30 12:44:25 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2489,
-      "last_ts": 1782821643,
-      "last_str": "2026-06-30 12:14:03 UTC"
+      "count": 2491,
+      "last_ts": 1782823444,
+      "last_str": "2026-06-30 12:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 520,
@@ -79,9 +79,9 @@
       "last_str": "2026-06-30 12:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12714,
-      "last_ts": 1782821643,
-      "last_str": "2026-06-30 12:14:03 UTC"
+      "count": 12720,
+      "last_ts": 1782823443,
+      "last_str": "2026-06-30 12:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1780,
+      "ts": 1782823465,
+      "ts_str": "2026-06-30 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] The AI Gold Rush Continues: OpenAI IPO, SpaceX & China's Surprise Rise Calendario Lecce (8Dn0Ba9KzR) - Mshale",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 11:11:41 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjNlhUdTlDU0VZcVgxTXktaVpxZm1NT08zcDMwZURmSlpjUjIwRXRDSGR6bmxOSHI4X3pLUjFHTGZ5SmFVSl91NVFFZGNIa0hsTTVHblczbjlra2M?oc=5\n\nThe AI Gold Rush Continues: OpenAI IPO, SpaceX & China's Surprise Rise Calendario Lecce (8Dn0Ba9KzR) - Mshale\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjNlhUdTlDU0VZcVgxTXktaVpxZm1NT08zcDMwZURmSlpjUjIwRXRDSGR6bmxOSHI4X3pLUjFHTGZ5SmFVSl91NVFFZGNIa0hsTTVHblczbjlra2M?oc=5\" target=\"_blank\">The AI Gold Rush Continues: OpenAI IPO, SpaceX & China's Surprise Rise Calendario Lecce (8Dn0Ba9KzR)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mshale</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nC3 matched an OpenAI keyword in a syndicated news item \u2014 \"The AI Gold Rush Continues: OpenAI IPO, SpaceX & China's Surprise Rise\" (Mshale). It's a keyword hit, not a filing or a burn-rate metric.\n\n\u5185\u5bb9:\nC3 \u5728\u4e00\u6761\u8f6c\u8f7d\u65b0\u95fb\u91cc\u5339\u914d\u5230\u4e86 OpenAI \u5173\u952e\u8bcd\u2014\u2014\u300aThe AI Gold Rush Continues: OpenAI IPO, SpaceX & China's Surprise Rise\u300b\uff08\u6765\u6e90 Mshale\uff09\u3002\u8fd9\u53ea\u662f\u5173\u952e\u8bcd\u547d\u4e2d\uff0c\u5e76\u975e SEC \u6587\u4ef6\u6216\u70e7\u94b1\u7387\u6307\u6807\u3002\n\nWhy it matters:\nMED severity means this is news-flow noise (an \"OpenAI IPO\" headline from a low-signal aggregator), not the >25% QoQ burn-rate jump that would trigger HIGH. Rising chatter about an OpenAI IPO matters only as sentiment froth \u2014 the bubble-stress thesis cares about cash burn and funding strain, neither of which this item evidences.\n\n\u5f71\u54cd:\nMED \u7ea7\u522b\u610f\u5473\u7740\u8fd9\u5c5e\u4e8e\u65b0\u95fb\u6d41\u566a\u97f3\uff08\u6765\u81ea\u4f4e\u4fe1\u53f7\u805a\u5408\u7ad9\u7684\u4e00\u6761\"OpenAI IPO\"\u6807\u9898\uff09\uff0c\u800c\u975e\u4f1a\u89e6\u53d1 HIGH \u7684\u70e7\u94b1\u7387\u73af\u6bd4\u589e\u957f >25%\u3002\u56f4\u7ed5 OpenAI IPO \u7684\u8ba8\u8bba\u5347\u6e29\u53ea\u662f\u60c5\u7eea\u6ce1\u6cab\uff0c\u5bf9 bubble-stress \u903b\u8f91\u800c\u8a00\uff0c\u771f\u6b63\u91cd\u8981\u7684\u662f\u73b0\u91d1\u6d88\u8017\u548c\u878d\u8d44\u538b\u529b\uff0c\u800c\u8fd9\u6761\u65b0\u95fb\u4e24\u8005\u90fd\u6ca1\u6709\u4f53\u73b0\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1779,
       "ts": 1782819859,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Files for IPO But Warns 'May Be a While' Before Trading - The Tech Buzz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxOVW54SWRGQW1ad3l5ZENOS0RoSFkxYUhKdURsQW9mRlhDM3pmVkZCcnhsLXpMTUVPd283bHBzUG5lX3lMR1BDNkFOY1dZemwyaDVLNlhka2xVY3N3RF9zQnN4SzRTcnRBejFidzVqUzI3OVdnb2hIRThRTy1EbURGb1REZzQxc2RoUFM3Wlp5RXFaWEt5OU9VLQ?oc=5\n\nOpenAI Files for IPO But Warns 'May Be a While' Before Trading - The Tech Buzz\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOVW54SWRGQW1ad3l5ZENOS0RoSFkxYUhKdURsQW9mRlhDM3pmVkZCcnhsLXpMTUVPd283bHBzUG5lX3lMR1BDNkFOY1dZemwyaDVLNlhka2xVY3N3RF9zQnN4SzRTcnRBejFidzVqUzI3OVdnb2hIRThRTy1EbURGb1REZzQxc2RoUFM3Wlp5RXFaWEt5OU9VLQ?oc=5\" target=\"_blank\">OpenAI Files for IPO But Warns 'May Be a While' Before Trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tech Buzz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline via The Tech Buzz: \"OpenAI Files for IPO But Warns 'May Be a While' Before Trading.\" OpenAI has filed for an IPO but signaled trading is not imminent.\n\n\u5185\u5bb9:\nGoogle News\uff08\u6765\u6e90 The Tech Buzz\uff09\u6807\u9898\uff1a\"OpenAI Files for IPO But Warns 'May Be a While' Before Trading\"\u3002OpenAI \u5df2\u63d0\u4ea4 IPO \u7533\u8bf7\uff0c\u4f46\u63d0\u793a\u8ddd\u79bb\u6b63\u5f0f\u4ea4\u6613\"\u8fd8\u9700\u4e00\u6bb5\u65f6\u95f4\"\u3002\n\nWhy it matters:\nAn OpenAI IPO filing is the clearest sign the AI-capex cycle is reaching for public-market capital \u2014 private and SoftBank-style funding is no longer enough to sustain the spend. Tapping retail/public liquidity is a late-cycle tell; the 'may be a while' hedge suggests the timing or valuation isn't ready to face public scrutiny.\n\n\u5f71\u54cd:\nOpenAI \u63d0\u4ea4 IPO \u7533\u8bf7\uff0c\u662f AI capex \u5468\u671f\u5f00\u59cb\u5411\u516c\u5f00\u5e02\u573a\u8981\u8d44\u91d1\u7684\u6700\u660e\u786e\u4fe1\u53f7\u2014\u2014\u79c1\u52df\u548c SoftBank \u5f0f\u7684\u6ce8\u8d44\u5df2\u4e0d\u8db3\u4ee5\u652f\u6491\u8fd9\u79cd\u70e7\u94b1\u901f\u5ea6\u3002\u52a8\u7528\u96f6\u552e/\u516c\u5f00\u5e02\u573a\u6d41\u52a8\u6027\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u8ff9\u8c61\uff1b\u800c\"\u8fd8\u9700\u4e00\u6bb5\u65f6\u95f4\"\u7684\u63aa\u8f9e\uff0c\u6697\u793a\u5176\u4f30\u503c\u6216\u65f6\u70b9\u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1581,
-      "ts": 1782492271,
-      "ts_str": "2026-06-26 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Pushes Its IPO to 2027 - GuruFocus",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 16:31:15 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE5lcHJKMXVMSnY2dlF5VC1EM2lXNVB4cG1iUkNGMmlUa2c0OTBHMmFNQURpSUd2aWM5V1JtVy1LcTN2MzZJN2hybjFhWlNzOXo1VEZHTV80YUhDRmc4eklDdXFrTjU3aThPOFQ3SkpzZU9RS3RKYzVz?oc=5\n\nOpenAI Pushes Its IPO to 2027 - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5lcHJKMXVMSnY2dlF5VC1EM2lXNVB4cG1iUkNGMmlUa2c0OTBHMmFNQURpSUd2aWM5V1JtVy1LcTN2MzZJN2hybjFhWlNzOXo1VEZHTV80YUhDRmc4eklDdXFrTjU3aThPOFQ3SkpzZU9RS3RKYzVz?oc=5\" target=\"_blank\">OpenAI Pushes Its IPO to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA GuruFocus headline reports OpenAI has pushed its IPO timeline out to 2027.\n\n\u5185\u5bb9:\nGuruFocus \u7684\u6807\u9898\u62a5\u9053\u79f0 OpenAI \u5df2\u5c06\u5176 IPO \u65f6\u95f4\u8868\u63a8\u8fdf\u81f3 2027 \u5e74\u3002\n\nWhy it matters:\nAn IPO delay signals OpenAI isn't ready to face public-market scrutiny of its cash burn and unit economics \u2014 the entity anchoring the AI-capex spending chain stays private and unaccountable longer. Pushing the date out is a tell that the financials aren't a story the company wants priced by the market yet.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u8bf4\u660e OpenAI \u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u73b0\u91d1\u6d88\u8017\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u7684\u5ba1\u89c6\u2014\u2014\u8fd9\u5bb6\u4f4d\u4e8e AI capex \u652f\u51fa\u94fe\u6761\u6838\u5fc3\u7684\u516c\u53f8\u5c06\u66f4\u957f\u65f6\u95f4\u4fdd\u6301\u79c1\u6709\u3001\u4e0d\u53d7\u95ee\u8d23\u3002\u628a\u4e0a\u5e02\u65f6\u95f4\u5f80\u540e\u63a8\u672c\u8eab\u5c31\u662f\u4e00\u4e2a\u4fe1\u53f7\uff1a\u516c\u53f8\u8fd8\u4e0d\u5e0c\u671b\u8ba9\u5e02\u573a\u7ed9\u5b83\u7684\u8d22\u52a1\u72b6\u51b5\u5b9a\u4ef7\u3002\n",
       "emailed": false
     }
   ],
