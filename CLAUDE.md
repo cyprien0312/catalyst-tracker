@@ -54,6 +54,7 @@ bin/send_daily_report.sh                                        # cron wrapper (
 # fetch+verify: pull live readings (FRED/CoinGecko/EIA) through a plausibility gate, write live-* notes
 .venv/bin/python -m scripts.fetch_knowledge --dry-run  # fetch + verify, write nothing
 .venv/bin/python -m scripts.fetch_knowledge            # refresh live readings
+bin/refresh_knowledge.sh                               # cron wrapper (08:45 daily): sync + fetch; read-only vs repo
 
 # Smoke tests before prod changes
 .venv/bin/python scripts/llm_smoke.py     # verifies `claude` CLI envelope still matches lib/llm.py parsing
