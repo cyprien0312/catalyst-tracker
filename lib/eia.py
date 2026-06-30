@@ -38,11 +38,15 @@ def series(series_id: str, length: int = 30) -> list[dict]:
 
 
 def henry_hub_strip() -> list[float]:
-    """Front-month + futures contracts 2..12 (in USD/MMBtu). Returns [] if no key."""
+    """Henry Hub NYMEX futures contracts 1..4 (in USD/MMBtu). Returns [] if no key.
+
+    EIA only publishes the first four contract series (NG.RNGC1..4.D); RNGC5+ 404,
+    so this is a ~4-month strip, not a full 12-month one.
+    """
     out: list[float] = []
     if not _key():
         return out
-    for n in range(1, 13):
+    for n in range(1, 5):
         rows = series(f"NG.RNGC{n}.D", length=1)
         if not rows:
             continue

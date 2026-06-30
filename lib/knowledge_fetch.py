@@ -222,10 +222,10 @@ def henry_hub(fetch=henry_hub_strip) -> Reading | None:
         return None
     return Reading(
         slug="live-henry-hub-strip",
-        topic=f"Henry Hub 12-month gas strip avg = ${avg:.2f}/MMBtu",
-        claim=f"The Henry Hub front-month+12 futures strip averages ${avg:.2f}/MMBtu. "
-              f"C5 fires when this 12-month strip average is >=$5.00.",
-        quote=f"EIA Henry Hub strip ({len(strip)} contracts), avg ${avg:.2f}/MMBtu",
+        topic=f"Henry Hub futures strip avg = ${avg:.2f}/MMBtu ({len(strip)} NYMEX contracts, EIA)",
+        claim=f"The Henry Hub natural-gas futures strip (EIA contracts 1-{len(strip)}) averages "
+              f"${avg:.2f}/MMBtu. C5 watches this strip average against a $5.00 trigger.",
+        quote=f"EIA Henry Hub futures strip ({len(strip)} contracts), avg ${avg:.2f}/MMBtu",
         source=_EIA_NG,
         tags=["ai-infra", "live", "c5"],
     )
