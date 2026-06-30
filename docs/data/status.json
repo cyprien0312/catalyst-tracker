@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782792127,
-  "generated_at_str": "2026-06-30 04:02:07 UTC",
-  "last_event_ts": 1782791043,
+  "generated_at": 1782792317,
+  "generated_at_str": "2026-06-30 04:05:17 UTC",
+  "last_event_ts": 1782792316,
   "tables": {
     "alerts_dedup": {
-      "count": 1759,
-      "last_ts": 1782788714,
-      "last_str": "2026-06-30 03:05:14 UTC"
+      "count": 1760,
+      "last_ts": 1782792316,
+      "last_str": "2026-06-30 04:05:16 UTC"
     },
     "c10_signals": {
       "count": 5,
@@ -59,9 +59,9 @@
       "last_str": "2026-06-30 00:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1324,
-      "last_ts": 1782790503,
-      "last_str": "2026-06-30 03:35:03 UTC"
+      "count": 1327,
+      "last_ts": 1782792302,
+      "last_str": "2026-06-30 04:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1496,
@@ -69,14 +69,14 @@
       "last_str": "2026-06-30 03:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 997,
-      "last_ts": 1782790504,
-      "last_str": "2026-06-30 03:35:04 UTC"
+      "count": 999,
+      "last_ts": 1782792303,
+      "last_str": "2026-06-30 04:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1198,
-      "last_ts": 1782788705,
-      "last_str": "2026-06-30 03:05:05 UTC"
+      "count": 1199,
+      "last_ts": 1782792304,
+      "last_str": "2026-06-30 04:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12653,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1767,
+      "ts": 1782792316,
+      "ts_str": "2026-06-30 04:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM price surge tests South Korean memory makers' HBM4 push - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 02:49:49 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNcHp5WjBuUTQ1VmphNWgzU3ZacC0yeTE3bzlmNmNtcUdPaEkwR3J6cmQ2YnZQTlZldVdHdjMzMi12WW1MbDJ1WXdybG83OFdTZkFUN0VET29kREpKY0ZSRnl2TTl6blpsdmI4dHhfX1U3alhweXhNLTRXTDFZc0tyXzhyODVkRjZrSDdlODBnUQ?oc=5\n\nDRAM price surge tests South Korean memory makers' HBM4 push - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNcHp5WjBuUTQ1VmphNWgzU3ZacC0yeTE3bzlmNmNtcUdPaEkwR3J6cmQ2YnZQTlZldVdHdjMzMi12WW1MbDJ1WXdybG83OFdTZkFUN0VET29kREpKY0ZSRnl2TTl6blpsdmI4dHhfX1U3alhweXhNLTRXTDFZc0tyXzhyODVkRjZrSDdlODBnUQ?oc=5\" target=\"_blank\">DRAM price surge tests South Korean memory makers' HBM4 push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News/digitimes headline: \"DRAM price surge tests South Korean memory makers' HBM4 push\" \u2014 spot DRAM prices are spiking as Samsung and SK Hynix shift capacity toward HBM4.\n\n\u5185\u5bb9:\nGoogle News/digitimes \u6807\u9898\uff1a\"DRAM price surge tests South Korean memory makers' HBM4 push\"\u2014\u2014\u97e9\u56fd\u5b58\u50a8\u5382\u5546(Samsung\u3001SK Hynix)\u628a\u4ea7\u80fd\u8f6c\u5411 HBM4\uff0c\u5bfc\u81f4\u73b0\u8d27 DRAM \u4ef7\u683c\u98d9\u5347\u3002\n\nWhy it matters:\nHBM for AI accelerators is cannibalizing commodity DRAM supply, so a price surge here is a direct read on AI-capex demand pulling memory tight. Rising DRAM cost feeds straight into server and GPU bill-of-materials, squeezing hyperscaler hardware margins and confirming the supply chain is running hot.\n\n\u5f71\u54cd:\n\u9762\u5411 AI \u52a0\u901f\u5668\u7684 HBM \u6b63\u5728\u6324\u5360\u901a\u7528 DRAM \u4ea7\u80fd\uff0c\u56e0\u6b64 DRAM \u6da8\u4ef7\u76f4\u63a5\u53cd\u6620 AI capex \u9700\u6c42\u628a\u5b58\u50a8\u5e02\u573a\u62c9\u7d27\u3002DRAM \u6210\u672c\u4e0a\u5347\u4f1a\u4f20\u5bfc\u5230\u670d\u52a1\u5668\u548c GPU \u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u786c\u4ef6\u5229\u6da6\uff0c\u4e5f\u5370\u8bc1\u4f9b\u5e94\u94fe\u6b63\u5904\u4e8e\u8fc7\u70ed\u72b6\u6001\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1765,
       "ts": 1782788714,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple And Microsoft Raise Prices Due To Memory Chip Costs - Baystreet.ca",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 13:51:00 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTFBnQUY5dGgwaUVidkxCaEZudXZ0bzA0N1E2LVdjM0VGM2dUQ0tDbnVkZF9kR3ZXWGVvcVYyRjNEeV9HbGs2emlWVExlZDlEckM2c2RPY09zMmROSUFJWmU3LVRYZ00xVTBjVFlESVhyUERzd29FRTJV0gF8QVVfeXFMT0g2NGdIamtLQzFKQlhzNzJTa3ZkZ2tyQTVoX05UdEtEaUtla20wMm9oODJ3VkJBQ1Nfd19XcUdyUDZSUEpKT1RkdUlmTExoNlpwMk5ZM2s3eHQzdHJNSUxkbW0wMWtSYkhkOGVNR1BEazNyV0VSUzc2Qk1YQw?oc=5\n\nApple And Microsoft Raise Prices Due To Memory Chip Costs - Baystreet.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBnQUY5dGgwaUVidkxCaEZudXZ0bzA0N1E2LVdjM0VGM2dUQ0tDbnVkZF9kR3ZXWGVvcVYyRjNEeV9HbGs2emlWVExlZDlEckM2c2RPY09zMmROSUFJWmU3LVRYZ00xVTBjVFlESVhyUERzd29FRTJV0gF8QVVfeXFMT0g2NGdIamtLQzFKQlhzNzJTa3ZkZ2tyQTVoX05UdEtEaUtla20wMm9oODJ3VkJBQ1Nfd19XcUdyUDZSUEpKT1RkdUlmTExoNlpwMk5ZM2s3eHQzdHJNSUxkbW0wMWtSYkhkOGVNR1BEazNyV0VSUzc2Qk1YQw?oc=5\" target=\"_blank\">Apple And Microsoft Raise Prices Due To Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baystreet.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple and Microsoft are raising product prices, citing higher memory chip costs.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053 Apple \u548c Microsoft \u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u5347\u800c\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is being absorbed by AI datacenter buildout, tightening supply and pushing DRAM/NAND prices up. When the cost reaches consumer devices from the largest buyers, it confirms AI-capex demand is squeezing the broader memory market \u2014 a real-economy spillover of the infrastructure spend.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u541e\u6389\uff0c\u4f9b\u7ed9\u6536\u7d27\u3001DRAM/NAND \u4ef7\u683c\u8d70\u9ad8\u3002\u5f53\u8fde\u6700\u5927\u4e70\u5bb6\u7684\u6d88\u8d39\u7ea7\u8bbe\u5907\u90fd\u8981\u56e0\u6b64\u6da8\u4ef7\u65f6\uff0c\u8bf4\u660e AI capex \u9700\u6c42\u5df2\u7ecf\u5728\u6324\u538b\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u2014\u2014\u8fd9\u662f\u57fa\u5efa\u652f\u51fa\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u5b9e\u8bc1\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1569,
-      "ts": 1782489932,
-      "ts_str": "2026-06-26 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple and Microsoft Raise Prices as AI Memory Chip Shortage Reaches Consumers - The Eastern Herald",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:35:43 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNdUpoZmExc0NlbjFEMkpjWXpGMEJvVVZFa1pkS0ZHZ1VvUDhsdWhoRklaUEQ1NHlYSGJrSWgyUGFVQmtuZkdiZ1duQWFLY3RqZWFTM1h2MmlZc0tDS1pzTUc5R2FNaEVPSXozZVdWTkR4QUdNQ0ZOWWFtNHQwUk1rSGQxYU5CZmxCNzl6eFE4cWYwQQ?oc=5\n\nApple and Microsoft Raise Prices as AI Memory Chip Shortage Reaches Consumers - The Eastern Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNdUpoZmExc0NlbjFEMkpjWXpGMEJvVVZFa1pkS0ZHZ1VvUDhsdWhoRklaUEQ1NHlYSGJrSWgyUGFVQmtuZkdiZ1duQWFLY3RqZWFTM1h2MmlZc0tDS1pzTUc5R2FNaEVPSXozZVdWTkR4QUdNQ0ZOWWFtNHQwUk1rSGQxYU5CZmxCNzl6eFE4cWYwQQ?oc=5\" target=\"_blank\">Apple and Microsoft Raise Prices as AI Memory Chip Shortage Reaches Consumers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Eastern Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadline: \"Apple and Microsoft Raise Prices as AI Memory Chip Shortage Reaches Consumers\" (The Eastern Herald). AI-driven demand for memory chips has tightened supply enough that Apple and Microsoft are passing higher costs to end customers.\n\n\u5185\u5bb9:\n\u6807\u9898\uff1a\"Apple and Microsoft Raise Prices as AI Memory Chip Shortage Reaches Consumers\"\uff08The Eastern Herald\uff09\u3002AI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u9700\u6c42\u5df2\u4f7f\u4f9b\u7ed9\u7d27\u5f20\u5230 Apple \u548c Microsoft \u628a\u4e0a\u6da8\u7684\u6210\u672c\u8f6c\u5ac1\u7ed9\u7ec8\u7aef\u6d88\u8d39\u8005\u3002\n\nWhy it matters:\nWhen an AI-capex memory squeeze shows up in consumer device prices, the cost pressure has leaked out of the data center and into the broader economy. It signals that AI infrastructure buildout is now crowding out conventional electronics supply \u2014 a real-world, demand-pull strain rather than a paper one.\n\n\u5f71\u54cd:\n\u5f53 AI capex \u5f15\u53d1\u7684\u5185\u5b58\u77ed\u7f3a\u5f00\u59cb\u4f53\u73b0\u5728\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\u7684\u552e\u4ef7\u4e0a\uff0c\u8bf4\u660e\u6210\u672c\u538b\u529b\u5df2\u7ecf\u4ece\u6570\u636e\u4e2d\u5fc3\u5916\u6ea2\u5230\u66f4\u5e7f\u6cdb\u7684\u7ecf\u6d4e\u4e2d\u3002\u8fd9\u8868\u660e AI \u57fa\u5efa\u6269\u5f20\u6b63\u5728\u6324\u5360\u5e38\u89c4\u7535\u5b50\u4ea7\u54c1\u7684\u4f9b\u7ed9\u2014\u2014\u8fd9\u662f\u771f\u5b9e\u7684\u9700\u6c42\u62c9\u52a8\u578b\u7d27\u5f20\uff0c\u800c\u975e\u8d26\u9762\u4e0a\u7684\u7d27\u5f20\u3002\n",
       "emailed": false
     }
   ],
