@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782901924,
-  "generated_at_str": "2026-07-01 10:32:04 UTC",
-  "last_event_ts": 1782900848,
+  "generated_at": 1782902117,
+  "generated_at_str": "2026-07-01 10:35:17 UTC",
+  "last_event_ts": 1782902116,
   "tables": {
     "alerts_dedup": {
-      "count": 1820,
-      "last_ts": 1782898518,
-      "last_str": "2026-07-01 09:35:18 UTC"
+      "count": 1821,
+      "last_ts": 1782902116,
+      "last_str": "2026-07-01 10:35:16 UTC"
     },
     "c10_signals": {
       "count": 6,
@@ -64,19 +64,19 @@
       "last_str": "2026-07-01 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1602,
-      "last_ts": 1782900305,
-      "last_str": "2026-07-01 10:05:05 UTC"
+      "count": 1605,
+      "last_ts": 1782902103,
+      "last_str": "2026-07-01 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1073,
-      "last_ts": 1782900303,
-      "last_str": "2026-07-01 10:05:03 UTC"
+      "count": 1074,
+      "last_ts": 1782902103,
+      "last_str": "2026-07-01 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1281,
-      "last_ts": 1782900306,
-      "last_str": "2026-07-01 10:05:06 UTC"
+      "count": 1284,
+      "last_ts": 1782902104,
+      "last_str": "2026-07-01 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12931,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1828,
+      "ts": 1782902116,
+      "ts_str": "2026-07-01 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple (AAPL) and Micron Trade Blame Over Memory Chip Crisis Driving Product Price Surge - MoneyCheck",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 09:08:04 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxOX19VX09aLVdELTFabVJPTzJtb2RmMHBlUTNGTTBhNVowV2FEclp5S3ZUbG4tRl9VWE8wRjlPV1J6bXIyTU4wOTBkOHN3bmVQZUVrVW53bG5HU1phYkY0aElwVmRtNFBsMmVwNi03UnZKaXcwSzN3dWZCSEdfZFlha0wzZ21GQkR3VlZUQ0hwVU0tR0hPMWFlUS1CSUtsUGJiMjNaSkU1Zll6T201SUE?oc=5\n\nApple (AAPL) and Micron Trade Blame Over Memory Chip Crisis Driving Product Price Surge - MoneyCheck\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOX19VX09aLVdELTFabVJPTzJtb2RmMHBlUTNGTTBhNVowV2FEclp5S3ZUbG4tRl9VWE8wRjlPV1J6bXIyTU4wOTBkOHN3bmVQZUVrVW53bG5HU1phYkY0aElwVmRtNFBsMmVwNi03UnZKaXcwSzN3dWZCSEdfZFlha0wzZ21GQkR3VlZUQ0hwVU0tR0hPMWFlUS1CSUtsUGJiMjNaSkU1Zll6T201SUE?oc=5\" target=\"_blank\">Apple (AAPL) and Micron Trade Blame Over Memory Chip Crisis Driving Product Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MoneyCheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item headlined \"Apple (AAPL) and Micron Trade Blame Over Memory Chip Crisis Driving Product Price Surge\" (MoneyCheck) paired a memory term with a shortage/price-surge tier token, tripping C6.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff0c\u6807\u9898\u4e3a \"Apple (AAPL) and Micron Trade Blame Over Memory Chip Crisis Driving Product Price Surge\"\uff08\u6765\u6e90 MoneyCheck\uff09\uff0c\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a/\u6da8\u4ef7\u6863\u4f4d\u8bcd\u5e76\u5217\uff0c\u89e6\u53d1\u4e86 C6\u3002\n\nWhy it matters:\nAAPL and Micron publicly fighting over who bears the cost of a memory chip crisis signals DRAM/NAND supply is tight enough to push finished-product prices up. Memory price stress is an early upstream tell that AI-buildout demand is straining the component supply chain \u2014 a bubble-stress input.\n\n\u5f71\u54cd:\nAAPL \u4e0e Micron \u516c\u5f00\u4e92\u76f8\u63a8\u5378\u5185\u5b58\u82af\u7247\u5371\u673a\u7684\u6210\u672c\u8d23\u4efb\uff0c\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u5df2\u7d27\u5f20\u5230\u8db3\u4ee5\u63a8\u9ad8\u7ec8\u7aef\u4ea7\u54c1\u4ef7\u683c\u3002\u5185\u5b58\u4ef7\u683c\u538b\u529b\u662f\u4e0a\u6e38\u7684\u65e9\u671f\u4fe1\u53f7\u2014\u2014\u53cd\u6620 AI \u5efa\u8bbe\u9700\u6c42\u6b63\u5728\u6324\u538b\u96f6\u90e8\u4ef6\u4f9b\u5e94\u94fe\uff0c\u662f bubble-stress \u7684\u4e00\u4e2a\u8f93\u5165\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1827,
       "ts": 1782898518,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] AI: Blip 2.0++ extends, OpenAI IPO now 2027?, 'RAMAgeddon' reaches Apple, & More. AI-RTZ #1130 - AI: Reset to Zero",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 05:02:31 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVhDcUFtc3k0UDY2T0FuYk9uSEQwRjlhNzBveUI3R1pIT3FoZTRRVlNwWU1kYTZ1Mkt5UTRSdEhwRURzNzhtWlg0aGdLQUNRR1k0UmVaRktKM0hzcU1KLUVjcDNsdUtSNG1JamtYQnZtNFBVNzFhSHJ5NFIzU3RJeE1TWng?oc=5\n\nAI: Blip 2.0++ extends, OpenAI IPO now 2027?, 'RAMAgeddon' reaches Apple, & More. AI-RTZ #1130 - AI: Reset to Zero\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVhDcUFtc3k0UDY2T0FuYk9uSEQwRjlhNzBveUI3R1pIT3FoZTRRVlNwWU1kYTZ1Mkt5UTRSdEhwRURzNzhtWlg0aGdLQUNRR1k0UmVaRktKM0hzcU1KLUVjcDNsdUtSNG1JamtYQnZtNFBVNzFhSHJ5NFIzU3RJeE1TWng?oc=5\" target=\"_blank\">AI: Blip 2.0++ extends, OpenAI IPO now 2027?, 'RAMAgeddon' reaches Apple, & More. AI-RTZ #1130</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI: Reset to Zero</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 'AI: Reset to Zero' newsletter item (AI-RTZ #1130) flags that an OpenAI IPO is now being pushed to 2027 and that the 'RAMAgeddon' memory-shortage has reached Apple.\n\n\u5185\u5bb9:\n\u4e00\u5219 'AI: Reset to Zero' \u7b80\u62a5\uff08AI-RTZ #1130\uff09\u6307\u51fa\uff0cOpenAI \u7684 IPO \u73b0\u5728\u88ab\u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u4e14 'RAMAgeddon' \u5185\u5b58\u77ed\u7f3a\u5df2\u8513\u5ef6\u5230 Apple\u3002\n\nWhy it matters:\nA slipping OpenAI IPO timeline signals the marquee AI company isn't ready to face public-market scrutiny on its economics, while a spreading RAM shortage points to hardware supply stress feeding through the AI buildout. Both are friction in the AI-capex story.\n\n\u5f71\u54cd:\nOpenAI IPO \u65f6\u95f4\u8868\u7684\u63a8\u8fdf\uff0c\u8bf4\u660e\u8fd9\u5bb6\u5934\u90e8 AI \u516c\u53f8\u8fd8\u6ca1\u51c6\u5907\u597d\u8ba9\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u5176\u76c8\u5229\u6a21\u5f0f\uff1b\u800c RAM \u77ed\u7f3a\u7684\u6269\u6563\u5219\u6307\u5411\u786c\u4ef6\u4f9b\u5e94\u7d27\u5f20\u6b63\u5728\u4f20\u5bfc\u5230\u6574\u4e2a AI \u5efa\u8bbe\u94fe\u6761\u3002\u4e24\u8005\u90fd\u662f AI capex \u53d9\u4e8b\u4e2d\u7684\u963b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1627,
-      "ts": 1782534932,
-      "ts_str": "2026-06-27 04:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple Is Hiking The Prices Of Macbooks And Ipads Due To The Memory Chip Shortage - The Seattle Medium",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 15:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CVkZqTmphcGhlclhrR0VySFJSWlJXZGVxeEQwVXBLRWs2cU91YUQzS19YeU1uRW9hcXk3V2RHMWhwY1k0MXJocVVjM0pOLW5SdXpqZDF0ZjV6Q3A0cEhTVllFdw?oc=5\n\nApple Is Hiking The Prices Of Macbooks And Ipads Due To The Memory Chip Shortage - The Seattle Medium\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CVkZqTmphcGhlclhrR0VySFJSWlJXZGVxeEQwVXBLRWs2cU91YUQzS19YeU1uRW9hcXk3V2RHMWhwY1k0MXJocVVjM0pOLW5SdXpqZDF0ZjV6Q3A0cEhTVllFdw?oc=5\" target=\"_blank\">Apple Is Hiking The Prices Of Macbooks And Ipads Due To The Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Seattle Medium</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports Apple is raising prices on MacBooks and iPads, attributing the hike directly to the memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0cApple \u6b63\u5728\u4e0a\u8c03 MacBook \u548c iPad \u7684\u552e\u4ef7\uff0c\u5e76\u76f4\u63a5\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI datacenter buildout is absorbing DRAM/HBM supply, and the squeeze is now spilling into consumer hardware pricing. When AI capex starts visibly raising costs for unrelated end-products, it signals the memory shortage is broad and acute \u2014 a real-economy symptom of the infrastructure spend, not just a datacenter line item.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u541e\u566c DRAM/HBM \u4f9b\u7ed9\uff0c\u8fd9\u79cd\u6324\u538b\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u7684\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u660e\u663e\u63a8\u9ad8\u4e0e\u4e4b\u65e0\u5173\u7684\u7ec8\u7aef\u4ea7\u54c1\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u65e2\u5e7f\u6cdb\u53c8\u4e25\u91cd\u2014\u2014\u8fd9\u662f\u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u7684\u5b9e\u4f53\u7ecf\u6d4e\u75c7\u72b6\uff0c\u800c\u4e0d\u53ea\u662f\u6570\u636e\u4e2d\u5fc3\u7684\u4e00\u9879\u5f00\u652f\u3002\n",
       "emailed": false
     }
   ],
