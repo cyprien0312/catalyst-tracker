@@ -1,17 +1,17 @@
 {
-  "generated_at": 1782944782,
-  "generated_at_str": "2026-07-01 22:26:22 UTC",
-  "last_event_ts": 1782944043,
+  "generated_at": 1782944955,
+  "generated_at_str": "2026-07-01 22:29:15 UTC",
+  "last_event_ts": 1782944954,
   "tables": {
     "alerts_dedup": {
-      "count": 1833,
-      "last_ts": 1782938118,
-      "last_str": "2026-07-01 20:35:18 UTC"
+      "count": 1834,
+      "last_ts": 1782944954,
+      "last_str": "2026-07-01 22:29:14 UTC"
     },
     "c10_signals": {
-      "count": 6,
-      "last_ts": 1782858542,
-      "last_str": "2026-06-30 22:29:02 UTC"
+      "count": 7,
+      "last_ts": 1782944941,
+      "last_str": "2026-07-01 22:29:01 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1841,
+      "ts": 1782944954,
+      "ts_str": "2026-07-01 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.20% (+48bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-06-30\nCurrent:  2.20%\n90d low:  1.72%\nMove:     +48bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year Treasury real (TIPS) yield rose to 2.2% on 2026-06-30, up 0.48pp from its trailing-90-day low of 1.72%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u7f8e\u56fd\u56fd\u503a\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5728 2026-06-30 \u5347\u81f3 2.2%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.72% \u4e0a\u884c 0.48pp\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex bets; a sharp rise compresses the present value of profits that are still years out and tightens financial conditions. A move this size off the recent low is a liquidity-drain signal that pressures the most speculative, cash-burning parts of the AI trade first.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u662f\u957f\u4e45\u671f AI \u8d44\u672c\u5f00\u652f\u62bc\u6ce8\u7684\u8d34\u73b0\u7387\uff1b\u5feb\u901f\u4e0a\u884c\u4f1a\u538b\u4f4e\u90a3\u4e9b\u76c8\u5229\u4ecd\u5728\u6570\u5e74\u4e4b\u540e\u624d\u5151\u73b0\u7684\u9879\u76ee\u7684\u73b0\u503c\uff0c\u5e76\u6536\u7d27\u91d1\u878d\u6761\u4ef6\u3002\u8fd9\u79cd\u5e45\u5ea6\u7684\u4e0a\u884c\u662f\u6d41\u52a8\u6027\u62bd\u79bb\u4fe1\u53f7\uff0c\u6700\u5148\u51b2\u51fb AI \u4ea4\u6613\u4e2d\u6700\u6295\u673a\u3001\u6700\u70e7\u94b1\u7684\u90e8\u5206\u3002\n",
+      "emailed": true
+    },
     {
       "id": 1840,
       "ts": 1782938118,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 16:09:29 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\n\nMemory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\" target=\"_blank\">Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging memory prices are hitting Apple, with Tim Cook raising prices 20%.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u51b2\u51fb Apple\uff0cTim Cook \u5c06\u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) price spikes are a downstream symptom of AI-infrastructure demand crowding out consumer supply. When the cost pass-through reaches a consumer giant like Apple, the AI-capex boom is no longer contained to data centers \u2014 it's inflating the broader hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u66b4\u6da8\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u8513\u5ef6\u5230 Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u65f6\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\uff0c\u800c\u662f\u5f00\u59cb\u63a8\u9ad8\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1641,
-      "ts": 1782584058,
-      "ts_str": "2026-06-27 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO May Be Postponed to Next Year, Goldman Sachs and Morgan Stanley Shares Dip - NAI500",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 05:28:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa0tXajdHUXhmSjhLMzR3SVVxOHdXd0llZmxoY0UxN3p1Wk9JcnAxZlBoTC1mUy1RYVJqcVpyUmtTdlVKV1JZYWRFLVVRS0tnU1l3dzNNUkFERER6dHVuajYwTjZtT1VfcmpsVFVOYlNYZGhVMjRvMWZJaDI1YkJuS2RGeDJhVEFzWGM4R0N1M3dzRlN4QWdSRzdPVWlMS1pQVkJNLUFneVFSWXVLM0JPYldmMGltNUFm?oc=5\n\nOpenAI IPO May Be Postponed to Next Year, Goldman Sachs and Morgan Stanley Shares Dip - NAI500\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa0tXajdHUXhmSjhLMzR3SVVxOHdXd0llZmxoY0UxN3p1Wk9JcnAxZlBoTC1mUy1RYVJqcVpyUmtTdlVKV1JZYWRFLVVRS0tnU1l3dzNNUkFERER6dHVuajYwTjZtT1VfcmpsVFVOYlNYZGhVMjRvMWZJaDI1YkJuS2RGeDJhVEFzWGM4R0N1M3dzRlN4QWdSRzdPVWlMS1pQVkJNLUFneVFSWXVLM0JPYldmMGltNUFm?oc=5\" target=\"_blank\">OpenAI IPO May Be Postponed to Next Year, Goldman Sachs and Morgan Stanley Shares Dip</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NAI500</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI's IPO may be postponed to next year, with Goldman Sachs and Morgan Stanley shares dipping on the news (via NAI500).\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u79f0 OpenAI \u7684 IPO \u53ef\u80fd\u63a8\u8fdf\u5230\u660e\u5e74\uff0cGoldman Sachs \u548c Morgan Stanley \u80a1\u4ef7\u5e94\u58f0\u4e0b\u8dcc\uff08\u6765\u6e90 NAI500\uff09\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a slipping IPO timeline signals the market window for cashing out the AI trade is narrowing and that even the flagship name isn't ready to face public-market scrutiny. A delayed liquidity event keeps capital locked in private rounds rather than validating valuations publicly \u2014 bearish for the bubble-sustaining narrative.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u65f6\u95f4\u8868\u63a8\u8fdf\u610f\u5473\u7740\u5151\u73b0 AI \u4ea4\u6613\u7684\u5e02\u573a\u7a97\u53e3\u6b63\u5728\u6536\u7a84\uff0c\u8fde\u65d7\u8230\u516c\u53f8\u90fd\u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u68c0\u9a8c\u3002\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u63a8\u8fdf\u4f1a\u8ba9\u8d44\u672c\u7ee7\u7eed\u9501\u5728\u79c1\u52df\u8f6e\u91cc\uff0c\u800c\u65e0\u6cd5\u901a\u8fc7\u516c\u5f00\u5e02\u573a\u9a8c\u8bc1\u4f30\u503c\u2014\u2014\u5bf9\u652f\u6491\u6ce1\u6cab\u7684\u53d9\u4e8b\u662f\u5229\u7a7a\u3002\n",
       "emailed": false
     }
   ],
