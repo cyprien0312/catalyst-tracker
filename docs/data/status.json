@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782915062,
-  "generated_at_str": "2026-07-01 14:11:02 UTC",
-  "last_event_ts": 1782914705,
+  "generated_at": 1782915263,
+  "generated_at_str": "2026-07-01 14:14:23 UTC",
+  "last_event_ts": 1782915261,
   "tables": {
     "alerts_dedup": {
-      "count": 1826,
-      "last_ts": 1782913477,
-      "last_str": "2026-07-01 13:44:37 UTC"
+      "count": 1827,
+      "last_ts": 1782915261,
+      "last_str": "2026-07-01 14:14:21 UTC"
     },
     "c10_signals": {
       "count": 6,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2554,
-      "last_ts": 1782913444,
-      "last_str": "2026-07-01 13:44:04 UTC"
+      "count": 2555,
+      "last_ts": 1782915243,
+      "last_str": "2026-07-01 14:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 528,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-01 14:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12952,
-      "last_ts": 1782913443,
-      "last_str": "2026-07-01 13:44:03 UTC"
+      "count": 12956,
+      "last_ts": 1782915242,
+      "last_str": "2026-07-01 14:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1834,
+      "ts": 1782915261,
+      "ts_str": "2026-07-01 14:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Lime IPO: Amuse bouche before the trillion dollar listings of Anthropic and OpenAI - Yahoo! Finance Canada",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 13:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQNzJlUW9aX2xFc1JDRFNDSTZsQkVnY1IyMGRrNmRCdXpabS10N0kyei1KTGhaRFVfZXo4S3ZUeF95NUNGNUNIMzdjdFFoT28zZE9UMXRuYmpVN1duSjVHUlZpRWc1cGFGZUxDWjE2aldaVm00ZXBLczhtTGR3WDdvbzU5V24tQQ?oc=5\n\nLime IPO: Amuse bouche before the trillion dollar listings of Anthropic and OpenAI - Yahoo! Finance Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQNzJlUW9aX2xFc1JDRFNDSTZsQkVnY1IyMGRrNmRCdXpabS10N0kyei1KTGhaRFVfZXo4S3ZUeF95NUNGNUNIMzdjdFFoT28zZE9UMXRuYmpVN1duSjVHUlZpRWc1cGFGZUxDWjE2aldaVm00ZXBLczhtTGR3WDdvbzU5V24tQQ?oc=5\" target=\"_blank\">Lime IPO: Amuse bouche before the trillion dollar listings of Anthropic and OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 keyword match fired on a Yahoo! Finance headline: \"Lime IPO: Amuse bouche before the trillion dollar listings of Anthropic and OpenAI.\" No burn-rate metric was extracted, so this is a MED news hit, not a HIGH financial signal.\n\n\u5185\u5bb9:\n\u4e00\u6761 Yahoo! Finance \u5934\u6761\u89e6\u53d1\u4e86 C3 \u5173\u952e\u8bcd\u5339\u914d\uff1a\"Lime IPO\uff1aAnthropic \u548c OpenAI \u4e07\u4ebf\u7f8e\u5143\u4e0a\u5e02\u524d\u7684\u5f00\u80c3\u5c0f\u83dc\"\u3002\u7cfb\u7edf\u672a\u63d0\u53d6\u5230\u70e7\u94b1\u7387\u6307\u6807\uff0c\u56e0\u6b64\u8fd9\u662f\u4e00\u6761 MED \u65b0\u95fb\u547d\u4e2d\uff0c\u800c\u975e HIGH \u7ea7\u8d22\u52a1\u4fe1\u53f7\u3002\n\nWhy it matters:\nFraming a scooter IPO as the appetiser for \"trillion dollar\" OpenAI/Anthropic listings is exactly the late-cycle euphoria the tracker watches for \u2014 the market is pre-pricing private AI labs at trillion-dollar tags before any public financials exist. Narrative, not numbers, but it feeds the bubble-stress thesis around OpenAI's funding needs.\n\n\u5f71\u54cd:\n\u628a\u4e00\u5bb6\u6ed1\u677f\u8f66\u516c\u53f8\u7684 IPO \u8bf4\u6210\u662f OpenAI/Anthropic \"\u4e07\u4ebf\u7f8e\u5143\"\u4e0a\u5e02\u7684\u5f00\u80c3\u83dc\uff0c\u6b63\u662f\u672c\u8ffd\u8e2a\u5668\u7d27\u76ef\u7684\u5468\u671f\u665a\u671f\u72c2\u70ed\u2014\u2014\u5e02\u573a\u5728\u8fd9\u4e9b\u79c1\u8425 AI \u5b9e\u9a8c\u5ba4\u8fd8\u6ca1\u6709\u4efb\u4f55\u516c\u5f00\u8d22\u62a5\u524d\uff0c\u5c31\u5df2\u7ecf\u6309\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u9884\u5148\u5b9a\u4ef7\u3002\u8fd9\u662f\u53d9\u4e8b\u800c\u975e\u6570\u5b57\uff0c\u4f46\u5b83\u5370\u8bc1\u4e86\u56f4\u7ed5 OpenAI \u878d\u8d44\u7f3a\u53e3\u7684\u6ce1\u6cab\u538b\u529b\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1832,
       "ts": 1782913477,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple MacBook iPad Price Hike 2026: Why Memory Chips Cost 42% More & How It Affects You - TechnoSports Media Group",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 26 Jun 2026 12:52:48 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE5IMDZDOWZNSkVWY2ZhWVMtWFNucUtDSVFBa2ZwVDVteWZIc0dHSzVzYzlwTkdKYW1PalBTYUlUbEN3Y0RoVFNyMUhTdUdBMDYzanlicHE4NTllTGNCTnJ3anY0SlBYWGVmSWtsZDJUTQ?oc=5\n\nApple MacBook iPad Price Hike 2026: Why Memory Chips Cost 42% More & How It Affects You - TechnoSports Media Group\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5IMDZDOWZNSkVWY2ZhWVMtWFNucUtDSVFBa2ZwVDVteWZIc0dHSzVzYzlwTkdKYW1PalBTYUlUbEN3Y0RoVFNyMUhTdUdBMDYzanlicHE4NTllTGNCTnJ3anY0SlBYWGVmSWtsZDJUTQ?oc=5\" target=\"_blank\">Apple MacBook iPad Price Hike 2026: Why Memory Chips Cost 42% More & How It Affects You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechnoSports Media Group</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising MacBook and iPad prices in 2026 because memory chips now cost 42% more.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Apple \u5c06\u5728 2026 \u5e74\u4e0a\u8c03 MacBook \u548c iPad \u552e\u4ef7\uff0c\u539f\u56e0\u662f\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u4e86 42%\u3002\n\nWhy it matters:\nAI datacenter buildout is hoovering up HBM and DRAM supply, and the 42% memory-chip jump is now bleeding into consumer hardware pricing. When AI capex starts inflating the cost of unrelated end products, it signals the supply squeeze is broad, not contained \u2014 a second-order stress marker for the buildout.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u62a2\u5360 HBM \u548c DRAM \u4f9b\u7ed9\uff0c42% \u7684\u5185\u5b58\u82af\u7247\u6da8\u4ef7\u5982\u4eca\u5df2\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\u5b9a\u4ef7\u4e0a\u3002\u5f53 AI capex \u5f00\u59cb\u63a8\u9ad8\u65e0\u5173\u7ec8\u7aef\u4ea7\u54c1\u7684\u6210\u672c\u65f6\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u662f\u5168\u9762\u6027\u7684\u3001\u800c\u975e\u5c40\u90e8\u53ef\u63a7\u7684\u2014\u2014\u8fd9\u662f\u5efa\u8bbe\u5468\u671f\u7684\u4e8c\u9636\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1634,
-      "ts": 1782549856,
-      "ts_str": "2026-06-27 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 06:31:55 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxOTmwxS2RMQjdoZTQ5UmRmS2VPcnpJTEVtV0hGdDZZamRzOTJYQ05WdjFhNUduNGJSQjlnMllSUWJlM2R0Y2h6TVVCOEM4NEVxWkRYODhjQWc2OUhyUG9UYzg2TU9yUkF4OENuLWwyQ2VUd2pfZTdTZ1k4WU9uWUlwSy01N0o0X3c?oc=5\n\nOpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOTmwxS2RMQjdoZTQ5UmRmS2VPcnpJTEVtV0hGdDZZamRzOTJYQ05WdjFhNUduNGJSQjlnMllSUWJlM2R0Y2h6TVVCOEM4NEVxWkRYODhjQWc2OUhyUG9UYzg2TU9yUkF4OENuLWwyQ2VUd2pfZTdTZ1k4WU9uWUlwSy01N0o0X3c?oc=5\" target=\"_blank\">OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is considering delaying its IPO, citing SpaceX's stock volatility as a key reason.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 OpenAI \u6b63\u8003\u8651\u63a8\u8fdf IPO\uff0c\u5e76\u5c06 SpaceX \u7684\u80a1\u4ef7\u6ce2\u52a8\u5217\u4e3a\u4e3b\u8981\u539f\u56e0\u4e4b\u4e00\u3002\n\nWhy it matters:\nA pushed-out IPO timeline signals the smart money sees a worse window ahead \u2014 if the most-hyped AI name won't test public markets, late-stage private valuations are at risk of repricing down, and the exit liquidity that funds the whole AI-capex buildout gets tighter.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u8bf4\u660e\u5185\u90e8\u4eba\u58eb\u9884\u5224\u524d\u65b9\u7a97\u53e3\u66f4\u5dee\u2014\u2014\u5982\u679c\u8fde\u6700\u53d7\u8ffd\u6367\u7684 AI \u516c\u53f8\u90fd\u4e0d\u613f\u53bb\u516c\u5f00\u5e02\u573a\u8bd5\u6c34\uff0c\u540e\u671f\u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u5c31\u9762\u4e34\u5411\u4e0b\u91cd\u5b9a\u4ef7\u7684\u98ce\u9669\uff0c\u800c\u652f\u6491\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9000\u51fa\u6d41\u52a8\u6027\u4e5f\u4f1a\u968f\u4e4b\u6536\u7d27\u3002\n",
       "emailed": false
     }
   ],
