@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782948728,
-  "generated_at_str": "2026-07-01 23:32:08 UTC",
-  "last_event_ts": 1782947642,
+  "generated_at": 1782948917,
+  "generated_at_str": "2026-07-01 23:35:17 UTC",
+  "last_event_ts": 1782948916,
   "tables": {
     "alerts_dedup": {
-      "count": 1834,
-      "last_ts": 1782944954,
-      "last_str": "2026-07-01 22:29:14 UTC"
+      "count": 1835,
+      "last_ts": 1782948916,
+      "last_str": "2026-07-01 23:35:16 UTC"
     },
     "c10_signals": {
       "count": 7,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-01 21:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1646,
-      "last_ts": 1782943503,
-      "last_str": "2026-07-01 22:05:03 UTC"
+      "count": 1648,
+      "last_ts": 1782948904,
+      "last_str": "2026-07-01 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1110,
-      "last_ts": 1782947103,
-      "last_str": "2026-07-01 23:05:03 UTC"
+      "count": 1112,
+      "last_ts": 1782948903,
+      "last_str": "2026-07-01 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1320,
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1842,
+      "ts": 1782948916,
+      "ts_str": "2026-07-01 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 20:13:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\n\nMicron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\" target=\"_blank\">Micron Blames Apple for Memory Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced: \"Micron Blames Apple for Memory Price Surge\" (\uc870\uc120\uc77c\ubcf4). Micron (MU) is publicly attributing a jump in memory prices to Apple demand.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u51fa\u73b0\uff1a\"Micron Blames Apple for Memory Price Surge\"\uff08\uc870\uc120\uc77c\ubcf4\uff09\u3002Micron (MU) \u516c\u5f00\u5c06\u5b58\u50a8\u5668\u4ef7\u683c\u4e0a\u6da8\u5f52\u56e0\u4e8e Apple \u7684\u9700\u6c42\u3002\n\nWhy it matters:\nA named DRAM/NAND supplier confirming a price surge is a supply-tightness / oversupply-inversion signal \u2014 memory pricing power is a leading indicator of the AI-infra capex cycle. Rising memory prices lift the bill-of-materials for AI servers (HBM/DRAM), squeezing hyperscaler capex economics and pointing to demand outrunning supply.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u70b9\u540d\u7684 DRAM/NAND \u4f9b\u5e94\u5546\u786e\u8ba4\u4ef7\u683c\u4e0a\u6da8\uff0c\u662f\u4f9b\u7ed9\u6536\u7d27\u3001\u4f9b\u9700\u53cd\u8f6c\u7684\u4fe1\u53f7\u2014\u2014\u5b58\u50a8\u5668\u5b9a\u4ef7\u6743\u662f AI \u57fa\u7840\u8bbe\u65bd capex \u5468\u671f\u7684\u9886\u5148\u6307\u6807\u3002\u5b58\u50a8\u5668\u6da8\u4ef7\u4f1a\u62ac\u9ad8 AI \u670d\u52a1\u5668\uff08HBM/DRAM\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1841,
       "ts": 1782944954,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Stock market posts weekly losses as tech sell-off deepens over OpenAI IPO delay - eciks.org",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 11:03:59 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTFBja1NEbGl3Y3pZcXAtblRYdkRVeERVdDV4YzVXeUxaSXl0QWZFM1ppWGdjdDJ3XzZEMXNadW1tUGNhbzFmUWhuaFNlRWItM2FQMVZPZVJkQU5lenVNeVdfS1pXdjVPckRWZTFEV3JSTFN3bm5oanAzYXJ3?oc=5\n\nStock market posts weekly losses as tech sell-off deepens over OpenAI IPO delay - eciks.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBja1NEbGl3Y3pZcXAtblRYdkRVeERVdDV4YzVXeUxaSXl0QWZFM1ppWGdjdDJ3XzZEMXNadW1tUGNhbzFmUWhuaFNlRWItM2FQMVZPZVJkQU5lenVNeVdfS1pXdjVPckRWZTFEV3JSTFN3bm5oanAzYXJ3?oc=5\" target=\"_blank\">Stock market posts weekly losses as tech sell-off deepens over OpenAI IPO delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eciks.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline flagged by C3's RSS scan reports the broad market posting weekly losses as a tech sell-off deepened, attributing it to a delay in OpenAI's IPO.\n\n\u5185\u5bb9:\nC3 \u7684 RSS \u626b\u63cf\u6355\u6349\u5230\u4e00\u6761\u65b0\u95fb\u6807\u9898\uff0c\u79f0\u5927\u76d8\u5f55\u5f97\u5468\u5ea6\u4e0b\u8dcc\u3001\u79d1\u6280\u80a1\u629b\u552e\u52a0\u5267\uff0c\u5e76\u5c06\u539f\u56e0\u5f52\u4e8e OpenAI IPO \u63a8\u8fdf\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the AI-capex buildout; headlines tying a tech-wide sell-off to an OpenAI IPO delay show the market starting to price the buildout's keystone slipping. Sentiment-stage signal, not hard data \u2014 but it's the kind of narrative crack that precedes repricing.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u6269\u5f20\u7684\u9700\u6c42\u652f\u67f1\uff0c\u628a\u79d1\u6280\u80a1\u5168\u9762\u629b\u552e\u4e0e OpenAI IPO \u63a8\u8fdf\u6302\u94a9\u7684\u6807\u9898\uff0c\u8bf4\u660e\u5e02\u573a\u5f00\u59cb\u4e3a\u8fd9\u5757\u57fa\u77f3\u7684\u52a8\u6447\u5b9a\u4ef7\u3002\u8fd9\u5c5e\u4e8e\u60c5\u7eea\u9636\u6bb5\u7684\u4fe1\u53f7\uff0c\u4e0d\u662f\u786c\u6570\u636e\uff0c\u4f46\u6b63\u662f\u8fd9\u7c7b\u53d9\u4e8b\u88c2\u7f1d\u5f80\u5f80\u5148\u4e8e\u771f\u6b63\u7684\u91cd\u65b0\u5b9a\u4ef7\u51fa\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1642,
-      "ts": 1782585315,
-      "ts_str": "2026-06-27 18:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 16:09:29 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\n\nMemory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNml6ekZscENaRThFRVBtd28wWlVmY0ZNeEpVbFBhNmV6TXBVWXJ0T2g0TW82NDBsdnBTd3dGRl8xdEY0VDJkNVlpQWtvMFlCWUpwR2JXLVZqOTJNejliWFdqSTNnT3hhQnU5Z2hfZ3J4Y0xWcG5wUnVpRGl1dERXUHJhWQ?oc=5\" target=\"_blank\">Memory Price Tsunami Swamps Apple as Tim Cook Hikes Prices 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging memory prices are hitting Apple, with Tim Cook raising prices 20%.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u51b2\u51fb Apple\uff0cTim Cook \u5c06\u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) price spikes are a downstream symptom of AI-infrastructure demand crowding out consumer supply. When the cost pass-through reaches a consumer giant like Apple, the AI-capex boom is no longer contained to data centers \u2014 it's inflating the broader hardware chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u66b4\u6da8\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u7ed9\u7684\u4e0b\u6e38\u75c7\u72b6\u3002\u5f53\u6210\u672c\u4f20\u5bfc\u8513\u5ef6\u5230 Apple \u8fd9\u6837\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u65f6\uff0c\u8bf4\u660e AI capex \u70ed\u6f6e\u5df2\u4e0d\u518d\u5c40\u9650\u4e8e\u6570\u636e\u4e2d\u5fc3\uff0c\u800c\u662f\u5f00\u59cb\u63a8\u9ad8\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u6210\u672c\u3002\n",
       "emailed": false
     }
   ],
