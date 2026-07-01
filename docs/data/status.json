@@ -1,7 +1,7 @@
 {
-  "generated_at": 1782930947,
-  "generated_at_str": "2026-07-01 18:35:47 UTC",
-  "last_event_ts": 1782930917,
+  "generated_at": 1782931086,
+  "generated_at_str": "2026-07-01 18:38:06 UTC",
+  "last_event_ts": 1782931084,
   "tables": {
     "alerts_dedup": {
       "count": 1830,
@@ -25,8 +25,8 @@
     },
     "c2_price_check": {
       "count": 4,
-      "last_ts": 1782907683,
-      "last_str": "2026-07-01 12:08:03 UTC"
+      "last_ts": 1782931084,
+      "last_str": "2026-07-01 18:38:04 UTC"
     },
     "c3_msft_filings": {
       "count": 20,
@@ -2314,5 +2314,54 @@
       "name": "Liquidity Tightening (USD / Real Yields)"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 30276.35,
+      "date": "2026-06-30",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.012532370534170889
+    },
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 15,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 20,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 15,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
