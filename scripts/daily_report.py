@@ -18,6 +18,7 @@ import argparse
 import datetime as dt
 import html
 import json
+import os
 import sys
 import time
 from dataclasses import dataclass, field
@@ -377,14 +378,17 @@ def _analytical_focus(rows: list[Row]) -> dict:
 
     if firing:
         pick = firing[0]  # highest priority firing (rows are priority-ordered)
-        detail = "; ".join(pick.lines)
+        # lines[0] goes in the title; the body carries only the remaining lines
+        # so the two don't read as a duplicated sentence in the email.
+        rest = "; ".join(pick.lines[1:])
+        detail = f"{rest}. " if rest else ""
         en_a, zh_a = _ANALYSIS.get(pick.id, ("", ""))
         also = [r.id for r in firing[1:]]
         also_en = f" Also firing: {', '.join(also)}." if also else ""
         also_zh = f" 另在响：{', '.join(also)}。" if also else ""
         title = f"{pick.id} {pick.name} firing — {pick.lines[0]}"
-        en = f"{detail}. {en_a}{also_en}{'' if pick.id=='C7' else c7_cross}"
-        zh = f"{detail}。{zh_a}{also_zh}{'' if pick.id=='C7' else c7_cross_zh}"
+        en = f"{detail}{en_a}{also_en}{'' if pick.id=='C7' else c7_cross}"
+        zh = f"{detail}{zh_a}{also_zh}{'' if pick.id=='C7' else c7_cross_zh}"
     elif watch:
         pick = watch[0]
         en_a, zh_a = _ANALYSIS.get(pick.id, ("", ""))
@@ -395,8 +399,18 @@ def _analytical_focus(rows: list[Row]) -> dict:
         en_a, zh_a = _ANALYSIS["C7"]
         title = "All quiet — fuses cold"
         en = f"All ten signals quiet.{c7_cross} {en_a}"
-        zh = f"九个信号全部平静。{c7_cross_zh}{zh_a}"
+        zh = f"十个信号全部平静。{c7_cross_zh}{zh_a}"
     return {"title": title[:70], "en": en.strip(), "zh": zh.strip()}
+
+
+def _focus_timeout() -> int:
+    """Seconds allowed for the FOCUS LLM call. The Opus call on the full
+    cross-signal prompt takes ~30s, so the blanket CATALYST_LLM_TIMEOUT
+    (tuned for the shorter per-alert calls) is too tight here."""
+    try:
+        return int(os.environ.get("CATALYST_FOCUS_TIMEOUT", "120"))
+    except ValueError:
+        return 120
 
 
 def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict:
@@ -409,10 +423,12 @@ def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict
         facts = knowledge.facts_for_prompt(limit=20)
         if facts:
             prompt = f"{prompt}\n\n{facts}"
-        raw = llm.freeform(prompt)
+        raw = llm.freeform(prompt, timeout=_focus_timeout())
     except Exception:
         raw = None
-    return (_parse_focus(raw) if raw else None) or fallback
+    focus = _parse_focus(raw) if raw else None
+    print(f"focus source={'llm' if focus else 'fallback'}")
+    return focus or fallback
 
 
 # ---------- rendering ----------

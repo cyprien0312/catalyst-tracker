@@ -217,31 +217,62 @@ def _cache_put(db_path: Path, key: str, value: dict[str, str]) -> None:
         pass  # cache failures must not break the caller
 
 
-def _call_claude_cli(prompt: str) -> str | None:
-    """Run `claude -p ... --output-format json` and return the inner result string."""
+def _call_claude_cli(prompt: str, timeout: int | None = None) -> str | None:
+    """Run `claude -p ... --output-format json` and return the inner result string.
+
+    Every failure path logs an `llm.cli_error reason=...` line so silent
+    fallbacks are diagnosable from the cron logs. `timeout` overrides the
+    CATALYST_LLM_TIMEOUT env default for this call only.
+    """
     binary = _claude_bin()
     if binary is None:
         return None
+    effective_timeout = timeout if timeout is not None else _timeout()
+    started = time.monotonic()
     try:
         proc = subprocess.run(
             [binary, "-p", prompt, "--model", _model(), "--output-format", "json"],
             capture_output=True,
             text=True,
-            timeout=_timeout(),
+            timeout=effective_timeout,
             check=False,
         )
-    except (subprocess.TimeoutExpired, OSError):
+    except subprocess.TimeoutExpired:
+        _log.warning(
+            "llm.cli_error reason=timeout timeout_s=%d model=%s",
+            effective_timeout, _model(),
+        )
         return None
+    except OSError as exc:
+        _log.warning("llm.cli_error reason=os_error err=%s", exc)
+        return None
+    elapsed = time.monotonic() - started
     if proc.returncode != 0 or not proc.stdout:
+        _log.warning(
+            "llm.cli_error reason=bad_exit rc=%d elapsed_s=%.1f stderr=%s",
+            proc.returncode, elapsed, (proc.stderr or "")[:300],
+        )
         return None
     try:
         envelope = json.loads(proc.stdout)
     except json.JSONDecodeError:
+        _log.warning(
+            "llm.cli_error reason=envelope_not_json elapsed_s=%.1f head=%s",
+            elapsed, proc.stdout[:200],
+        )
         return None
     if envelope.get("is_error") or envelope.get("subtype") != "success":
+        _log.warning(
+            "llm.cli_error reason=api_error elapsed_s=%.1f subtype=%s result=%s",
+            elapsed, envelope.get("subtype"), str(envelope.get("result"))[:300],
+        )
         return None
     result = envelope.get("result")
-    return result if isinstance(result, str) else None
+    if not isinstance(result, str):
+        _log.warning("llm.cli_error reason=result_not_str elapsed_s=%.1f", elapsed)
+        return None
+    _log.info("llm.cli_ok elapsed_s=%.1f model=%s", elapsed, _model())
+    return result
 
 
 def freeform(prompt: str, *, timeout: int | None = None) -> str | None:
@@ -249,13 +280,16 @@ def freeform(prompt: str, *, timeout: int | None = None) -> str | None:
 
     Returns None if the LLM layer is disabled, the CLI is missing, or the call
     fails — callers must provide their own fallback. Used by the daily digest
-    to generate the FOCUS analysis. Honours CATALYST_LLM_TIMEOUT (or override).
+    to generate the FOCUS analysis. `timeout` (seconds) overrides the
+    CATALYST_LLM_TIMEOUT env default for this call only.
     """
-    if not _is_enabled() or _claude_bin() is None:
+    if not _is_enabled():
+        _log.info("llm.freeform.skip reason=disabled")
         return None
-    if timeout is not None:
-        os.environ.setdefault("CATALYST_LLM_TIMEOUT", str(timeout))
-    return _call_claude_cli(prompt)
+    if _claude_bin() is None:
+        _log.info("llm.freeform.skip reason=cli_missing")
+        return None
+    return _call_claude_cli(prompt, timeout=timeout)
 
 
 def _parse_result(raw: str) -> Explanation | None:
