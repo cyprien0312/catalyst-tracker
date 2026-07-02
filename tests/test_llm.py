@@ -136,6 +136,31 @@ def test_parse_tolerates_code_fence(monkeypatch, tmp_db, enable_llm):
     assert "OpenAI" in out.what
 
 
+def test_parse_tolerates_unescaped_quote_in_zh_field(monkeypatch, tmp_db, enable_llm):
+    # Sonnet occasionally uses a literal `"` as a Chinese quotation mark
+    # inside why_zh, which breaks strict json.loads with no recovery.
+    broken = (
+        '{"what": "OpenAI hit a CRITICAL keyword in MSFT 10-K.",'
+        ' "why": "Linchpin AI customer for MSFT and NVDA — any distress cascades.",'
+        ' "what_zh": "OpenAI 触及 MSFT 10-K 中的关键词。",'
+        ' "why_zh": "这是"关键客户"场景，任何困境都会传导。"}'
+    )
+
+    def fake_run(cmd, **kwargs):
+        env = json.dumps({
+            "type": "result", "subtype": "success", "is_error": False,
+            "result": broken,
+        })
+        return subprocess.CompletedProcess(cmd, 0, stdout=env, stderr="")
+
+    monkeypatch.setattr(llm.subprocess, "run", fake_run)
+    monkeypatch.setattr(llm, "_claude_bin", lambda: "/usr/bin/fake-claude")
+    out = llm.summarize_explanation("C3", "CRITICAL", db_path=tmp_db)
+    assert isinstance(out, Explanation)
+    assert "OpenAI" in out.what
+    assert out.why_zh == '这是"关键客户"场景，任何困境都会传导。'
+
+
 def test_cache_key_distinguishes_long_snippets_with_same_prefix(enable_llm):
     prefix = "A" * 600
     snip_a = prefix + "TAIL_A"

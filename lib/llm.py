@@ -13,6 +13,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import shutil
 import sqlite3
 import subprocess
@@ -292,6 +293,29 @@ def freeform(prompt: str, *, timeout: int | None = None) -> str | None:
     return _call_claude_cli(prompt, timeout=timeout)
 
 
+def lenient_json_fields(text: str, keys: list[str]) -> dict[str, str | None]:
+    """Best-effort extraction of a flat {"k1": "v1", "k2": "v2", ...} object
+    whose string values may contain unescaped double quotes.
+
+    Models (Sonnet in particular) occasionally use a straight `"` as a
+    Chinese quotation mark inside a JSON string value instead of escaping it
+    or using a curly quote, which breaks json.loads with no recovery. Given
+    the keys in their expected literal order, greedily match each value up
+    to the next `"<next_key>":` boundary (or the closing `}` for the last
+    key) — the embedded quote just becomes part of the captured group.
+    """
+    out: dict[str, str | None] = {}
+    for i, key in enumerate(keys):
+        next_key = keys[i + 1] if i + 1 < len(keys) else None
+        if next_key:
+            pattern = rf'"{key}"\s*:\s*"(.*)"\s*,\s*"{next_key}"\s*:'
+        else:
+            pattern = rf'"{key}"\s*:\s*"(.*)"\s*\}}\s*\Z'
+        m = re.search(pattern, text, re.DOTALL)
+        out[key] = m.group(1) if m else None
+    return out
+
+
 def _parse_result(raw: str) -> Explanation | None:
     """Extract the {what, why, what_zh, why_zh} JSON object from a model response.
 
@@ -304,10 +328,11 @@ def _parse_result(raw: str) -> Explanation | None:
     end = text.rfind("}")
     if start == -1 or end == -1 or end <= start:
         return None
+    sub = text[start : end + 1]
     try:
-        obj = json.loads(text[start : end + 1])
+        obj = json.loads(sub)
     except json.JSONDecodeError:
-        return None
+        obj = lenient_json_fields(sub, ["what", "why", "what_zh", "why_zh"])
     what = obj.get("what")
     why = obj.get("why")
     if not isinstance(what, str) or not isinstance(why, str):

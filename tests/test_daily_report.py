@@ -38,6 +38,17 @@ def test_parse_focus_rejects_short_or_missing():
     assert dr._parse_focus("no json here") is None
 
 
+def test_parse_focus_tolerates_unescaped_quote_in_zh():
+    # Sonnet occasionally emits a literal `"` as a Chinese quotation mark
+    # inside the zh value, which breaks strict json.loads.
+    raw = ('```json\n{"title": "t", "en": "this is a sufficiently long english sentence", '
+           '"zh": "这是"资本开支"场景"}\n```')
+    got = dr._parse_focus(raw)
+    assert got is not None
+    assert got["title"] == "t"
+    assert got["zh"] == '这是"资本开支"场景'
+
+
 def test_analytical_focus_picks_highest_priority_firing():
     rows = _full({"C4": dr.FIRING, "C8": dr.FIRING})
     f = dr._analytical_focus(rows)

@@ -331,10 +331,14 @@ def _parse_focus(raw: str) -> dict | None:
     start, end = raw.find("{"), raw.rfind("}")
     if start == -1 or end <= start:
         return None
+    sub = raw[start:end + 1]
     try:
-        obj = json.loads(raw[start:end + 1])
+        obj = json.loads(sub)
     except json.JSONDecodeError:
-        return None
+        # Tolerate an unescaped `"` inside a value (Sonnet occasionally uses
+        # a straight quote as a Chinese quotation mark, which breaks strict
+        # JSON parsing with no recovery otherwise).
+        obj = llm.lenient_json_fields(sub, ["title", "en", "zh"])
     title, en = obj.get("title"), obj.get("en")
     if not isinstance(title, str) or not isinstance(en, str) or len(en) < 20:
         return None
