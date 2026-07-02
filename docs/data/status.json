@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783006327,
-  "generated_at_str": "2026-07-02 15:32:07 UTC",
-  "last_event_ts": 1783005245,
+  "generated_at": 1783006520,
+  "generated_at_str": "2026-07-02 15:35:20 UTC",
+  "last_event_ts": 1783006515,
   "tables": {
     "alerts_dedup": {
-      "count": 1870,
-      "last_ts": 1783004715,
-      "last_str": "2026-07-02 15:05:15 UTC"
+      "count": 1871,
+      "last_ts": 1783006515,
+      "last_str": "2026-07-02 15:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-02 15:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1490,
-      "last_ts": 1783004702,
-      "last_str": "2026-07-02 15:05:02 UTC"
+      "count": 1493,
+      "last_ts": 1783006502,
+      "last_str": "2026-07-02 15:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1711,
-      "last_ts": 1783004704,
-      "last_str": "2026-07-02 15:05:04 UTC"
+      "count": 1713,
+      "last_ts": 1783006504,
+      "last_str": "2026-07-02 15:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1143,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-02 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1367,
-      "last_ts": 1783004705,
-      "last_str": "2026-07-02 15:05:05 UTC"
+      "count": 1371,
+      "last_ts": 1783006505,
+      "last_str": "2026-07-02 15:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13315,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1878,
+      "ts": 1783006515,
+      "ts_str": "2026-07-02 15:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] After memory chips, Chinese phone makers to see price hike in display - Huawei Central",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 13:05:11 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQcS1tVWJfaERfUGIyb0xob0FwS3ZwRV82bm1nb3lNVTgxcVlEdFNiSkVTQkU1cHc4Q2dUM1BOMmFKLTBmY3licmpRMkNvY2NZdnZjbzdWcFViSFlwTDA3REZYQlJIUG0zX0RJMDd2NV9SQ0RVbUJtYXpacTlGbDBNNHQ1RFN3TGtTeVNaclJqd0poNmg2SUJfMHFOR3VVS3NTcG5rMWlB0gGmAUFVX3lxTFBxLW1VYl9oRF9QYjJvTGhvQXBLdnBFXzZubWdveU1VODFxWUR0U2JKRVNCRTVwdzhDZ1QzUE4yYUotMGZjeWJyalEyQ29jY1l2dmNvN1ZwVWJIWXBMMDdERlhCUkhQbTNfREkwN3Y1X1JDRFVtQm1helpxOUZsME00dDVEU3dMa1N5U1pyUmp3Smg2aDZJQl8wcU5HdVVLc1NwbmsxaUE?oc=5\n\nAfter memory chips, Chinese phone makers to see price hike in display - Huawei Central\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQcS1tVWJfaERfUGIyb0xob0FwS3ZwRV82bm1nb3lNVTgxcVlEdFNiSkVTQkU1cHc4Q2dUM1BOMmFKLTBmY3licmpRMkNvY2NZdnZjbzdWcFViSFlwTDA3REZYQlJIUG0zX0RJMDd2NV9SQ0RVbUJtYXpacTlGbDBNNHQ1RFN3TGtTeVNaclJqd0poNmg2SUJfMHFOR3VVS3NTcG5rMWlB0gGmAUFVX3lxTFBxLW1VYl9oRF9QYjJvTGhvQXBLdnBFXzZubWdveU1VODFxWUR0U2JKRVNCRTVwdzhDZ1QzUE4yYUotMGZjeWJyalEyQ29jY1l2dmNvN1ZwVWJIWXBMMDdERlhCUkhQbTNfREkwN3Y1X1JDRFVtQm1helpxOUZsME00dDVEU3dMa1N5U1pyUmp3Smg2aDZJQl8wcU5HdVVLc1NwbmsxaUE?oc=5\" target=\"_blank\">After memory chips, Chinese phone makers to see price hike in display</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Huawei Central</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS aggregation headline reports Chinese phone makers face display price hikes following memory-chip cost increases, with no ticker or figures in the item.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u805a\u5408\u6807\u9898\u79f0\uff0c\u7ee7\u5185\u5b58\u82af\u7247\u6da8\u4ef7\u540e\uff0c\u4e2d\u56fd\u624b\u673a\u5382\u5546\u4e5f\u5c06\u9762\u4e34\u663e\u793a\u5c4f\u6da8\u4ef7\uff0c\u62a5\u9053\u4e2d\u672a\u63d0\u53ca\u5177\u4f53\u516c\u53f8\u4ee3\u7801\u6216\u6570\u5b57\u3002\n\nWhy it matters:\nConfirms memory-price pressure (DRAM/NAND) is propagating downstream into other component categories like displays, which points to a broader supply-constrained pricing cycle rather than an isolated memory-market event \u2014 reinforces the AI-buildout-driven component shortage thesis.\n\n\u5f71\u54cd:\n\u8fd9\u8868\u660e\u5185\u5b58\uff08DRAM/NAND\uff09\u6da8\u4ef7\u538b\u529b\u6b63\u5728\u5411\u663e\u793a\u5c4f\u7b49\u5176\u4ed6\u96f6\u90e8\u4ef6\u54c1\u7c7b\u4f20\u5bfc\uff0c\u8bf4\u660e\u8fd9\u53ef\u80fd\u662f\u66f4\u5e7f\u6cdb\u7684\u4f9b\u5e94\u53d7\u9650\u6da8\u4ef7\u5468\u671f\uff0c\u800c\u975e\u5b64\u7acb\u7684\u5185\u5b58\u5e02\u573a\u4e8b\u4ef6\u2014\u2014\u8fdb\u4e00\u6b65\u4f50\u8bc1 AI \u5efa\u8bbe\u5e26\u52a8\u96f6\u90e8\u4ef6\u77ed\u7f3a\u7684\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1877,
       "ts": 1783004715,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting? - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 14:18:24 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVZHZzNCLTR4Y3BiRkhWSWxHdVFkYW5SN0R5TEZ4b0EybVNreXBzRElZY1lrYU5jOUJtQkZZTjM3c3JzUFlNc0VpWkxlYmVmZnh3TE5Yam9yajkzRWw4aTc3cUo5dVkwWmhVMnREUmRPbGxjamZDNmFpcmtOZFpOT0Vn?oc=5\n\nOpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting? - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQYVZHZzNCLTR4Y3BiRkhWSWxHdVFkYW5SN0R5TEZ4b0EybVNreXBzRElZY1lrYU5jOUJtQkZZTjM3c3JzUFlNc0VpWkxlYmVmZnh3TE5Yam9yajkzRWw4aTc3cUo5dVkwWmhVMnREUmRPbGxjamZDNmFpcmtOZFpOT0Vn?oc=5\" target=\"_blank\">OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline (via AOL.com) reports \"OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting?\" \u2014 framing a possible OpenAI IPO delay alongside a broad sell-off in AI stocks.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\uff08\u7ecf AOL.com\uff09\u62a5\u9053\uff1a\"OpenAI Just Signaled It Might Delay Its IPO. AI Stocks Are Tumbling. Is the Bubble Bursting?\"\u2014\u2014\u628a OpenAI \u53ef\u80fd\u63a8\u8fdf IPO \u4e0e AI \u80a1\u7968\u7684\u666e\u904d\u4e0b\u8dcc\u653e\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; any hint it is pulling back from a public listing reads as the marginal buyer losing confidence in its own valuation. Headlines explicitly pairing an IPO delay with falling AI stocks and the word \"bubble\" mark a shift in market narrative from euphoria to doubt.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\uff1b\u4efb\u4f55\u5b83\u8981\u63a8\u8fdf\u4e0a\u5e02\u7684\u8ff9\u8c61\uff0c\u90fd\u4f1a\u88ab\u89e3\u8bfb\u4e3a\u8fde\u5b83\u81ea\u5df1\u90fd\u5bf9\u5176\u4f30\u503c\u5931\u53bb\u4fe1\u5fc3\u3002\u5934\u6761\u76f4\u63a5\u628a\u63a8\u8fdf IPO\u3001AI \u80a1\u7968\u4e0b\u8dcc\u548c\"\u6ce1\u6cab\"\u8fd9\u4e2a\u8bcd\u6346\u5728\u4e00\u8d77\uff0c\u6807\u5fd7\u7740\u5e02\u573a\u53d9\u4e8b\u4ece\u72c2\u70ed\u8f6c\u5411\u6000\u7591\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1679,
-      "ts": 1782661470,
-      "ts_str": "2026-06-28 15:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO timeline slips? 2027 listing now in play amid market jitters, says report - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 13:48:48 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbkhzLXpSN1NnWHp3Y0RTRktmMF9zQ1hYNXcwNlFEVkNycHJ3YzJ0TU5RT2hXZVFOMVJwTTF4a29HbjNmcVhoY01pRkRYNzRpUzZEelZDXzFMalBqNXF2UEZUaTNfQ250aUp3alNXTWJ0X3VJaVdhTmQwa0hBWG41SG1VVWw5RER5NlJHeUtZV0JQUG5KSVlDcnVGT0JsaXlaYlhqYV9DNW9sUjBxZkRhVnpjRmRlR3ZueEtNNUN2eUJwVDVIUWYwVkUyVmprUlRoMWlVYTkzcldValBYUHlKRzU4dTFEd0x4WjlmUkdVTllQVWF6?oc=5\n\nOpenAI IPO timeline slips? 2027 listing now in play amid market jitters, says report - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbkhzLXpSN1NnWHp3Y0RTRktmMF9zQ1hYNXcwNlFEVkNycHJ3YzJ0TU5RT2hXZVFOMVJwTTF4a29HbjNmcVhoY01pRkRYNzRpUzZEelZDXzFMalBqNXF2UEZUaTNfQ250aUp3alNXTWJ0X3VJaVdhTmQwa0hBWG41SG1VVWw5RER5NlJHeUtZV0JQUG5KSVlDcnVGT0JsaXlaYlhqYV9DNW9sUjBxZkRhVnpjRmRlR3ZueEtNNUN2eUJwVDVIUWYwVkUyVmprUlRoMWlVYTkzcldValBYUHlKRzU4dTFEd0x4WjlmUkdVTllQVWF6?oc=5\" target=\"_blank\">OpenAI IPO timeline slips? 2027 listing now in play amid market jitters, says report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report (via MSN) says OpenAI's IPO timeline may slip, with a 2027 listing now in play amid market jitters.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u62a5\u9053\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u79f0 OpenAI \u7684 IPO \u65f6\u95f4\u8868\u53ef\u80fd\u63a8\u8fdf\uff0c\u5728\u5e02\u573a\u6ce2\u52a8\u4e4b\u4e0b\uff0c2027 \u5e74\u624d\u4e0a\u5e02\u7684\u53ef\u80fd\u6027\u6b63\u5728\u6d6e\u73b0\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; a pushed-out IPO signals the funding window is tightening and that public-market appetite for the story is cooling. A delayed listing also defers the cash injection OpenAI needs to honour its compute commitments to Microsoft, Oracle and the neoclouds.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u63a8\u8fdf\u610f\u5473\u7740\u878d\u8d44\u7a97\u53e3\u6b63\u5728\u6536\u7d27\uff0c\u516c\u5f00\u5e02\u573a\u5bf9\u8fd9\u4e2a\u6545\u4e8b\u7684\u80c3\u53e3\u4e5f\u5728\u964d\u6e29\u3002\u4e0a\u5e02\u5ef6\u540e\u8fd8\u4f1a\u63a8\u8fdf OpenAI \u5151\u73b0\u5176\u5bf9 Microsoft\u3001Oracle \u53ca\u5404\u5bb6 neocloud \u7b97\u529b\u627f\u8bfa\u6240\u9700\u7684\u73b0\u91d1\u6ce8\u5165\u3002\n",
       "emailed": false
     }
   ],
