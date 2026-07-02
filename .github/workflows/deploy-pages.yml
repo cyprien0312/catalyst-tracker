@@ -34,20 +34,24 @@ jobs:
         with:
           enablement: true   # creates the site as build_type: workflow if Pages is not yet enabled
       # configure-pages only *creates* a site; it never converts an existing
-      # legacy (deploy-from-branch) site. While build_type is "legacy", every
-      # cron state push triggers the built-in "pages build and deployment"
-      # workflow, and concurrent runs race and fail. Force build_type here so
-      # only this serialized workflow deploys.
-      - name: Force Pages source to GitHub Actions
+      # legacy (deploy-from-branch) site, and neither GITHUB_TOKEN nor the
+      # repo's fine-grained PAT is allowed to PUT /pages (403). While
+      # build_type is "legacy", every cron state push triggers the built-in
+      # "pages build and deployment" workflow and concurrent runs race and
+      # fail. The switch must be flipped once by hand: repo Settings → Pages
+      # → Build and deployment → Source → "GitHub Actions". This step only
+      # warns while that hasn't happened.
+      - name: Check Pages source is GitHub Actions
         run: |
-          http_code=$(curl -s -o /tmp/pages_resp.json -w '%{http_code}' -X PUT \
+          build_type=$(curl -s \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
             "https://api.github.com/repos/${{ github.repository }}/pages" \
-            -d '{"build_type":"workflow"}')
-          echo "PUT /pages -> $http_code"
-          cat /tmp/pages_resp.json
-          test "$http_code" = "204"
+            | jq -r '.build_type // "unknown"')
+          echo "Pages build_type: $build_type"
+          if [ "$build_type" = "legacy" ]; then
+            echo "::warning::Pages source is still 'deploy from branch'; the built-in pages workflow races cron pushes and fails intermittently. Flip Settings → Pages → Source to 'GitHub Actions'."
+          fi
       - name: Upload docs artifact
         uses: actions/upload-pages-artifact@v3
         with:
