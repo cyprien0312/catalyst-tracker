@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783010467,
-  "generated_at_str": "2026-07-02 16:41:07 UTC",
-  "last_event_ts": 1783010105,
+  "generated_at": 1783010669,
+  "generated_at_str": "2026-07-02 16:44:29 UTC",
+  "last_event_ts": 1783010668,
   "tables": {
     "alerts_dedup": {
-      "count": 1875,
-      "last_ts": 1783010105,
-      "last_str": "2026-07-02 16:35:05 UTC"
+      "count": 1877,
+      "last_ts": 1783010668,
+      "last_str": "2026-07-02 16:44:28 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2626,
-      "last_ts": 1783007049,
-      "last_str": "2026-07-02 15:44:09 UTC"
+      "count": 2627,
+      "last_ts": 1783010644,
+      "last_str": "2026-07-02 16:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 539,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-02 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13335,
-      "last_ts": 1783008842,
-      "last_str": "2026-07-02 16:14:02 UTC"
+      "count": 13343,
+      "last_ts": 1783010642,
+      "last_str": "2026-07-02 16:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1883,
+      "ts": 1783010668,
+      "ts_str": "2026-07-02 16:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:05:47 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\n\nIs OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance piece flags conflicting media narratives about whether OpenAI's IPO process is troubled, with no OpenAI-specific financial figures cited.\n\n\u5185\u5bb9:\nYahoo Finance \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u5a92\u4f53\u5bf9 OpenAI IPO \u8fdb\u7a0b\u662f\u5426\u9677\u5165\u6df7\u4e71\u8bf4\u6cd5\u4e0d\u4e00\uff0c\u62a5\u9053\u672a\u7ed9\u51fa OpenAI \u5177\u4f53\u8d22\u52a1\u6570\u5b57\u3002\n\nWhy it matters:\nThis is background noise, not a burn-rate or filing signal \u2014 it doesn't move C3's HIGH trigger, but persistent IPO-readiness disagreement in the press is itself a soft indicator of funding/governance strain worth watching.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u76d1\u7ba1\u6587\u4ef6\u7c7b\u4fe1\u53f7\uff0c\u4e0d\u4f1a\u89e6\u53d1 C3 \u7684 HIGH \u9608\u503c\uff1b\u4f46\u5a92\u4f53\u5bf9\u5176 IPO \u51c6\u5907\u60c5\u51b5\u6301\u7eed\u5b58\u5728\u5206\u6b67\uff0c\u672c\u8eab\u4e5f\u662f\u503c\u5f97\u5173\u6ce8\u7684\u878d\u8d44/\u6cbb\u7406\u538b\u529b\u8f6f\u6307\u6807\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1884,
+      "ts": 1783010668,
+      "ts_str": "2026-07-02 16:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI discusses 5% government stake ahead of planned IPO - The American Bazaar",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:34:04 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxPajBWM2ltdExld0VESXdPbFJrTzB3R1pGUWZLRFNfbHNpMjhvaGxUMTZnUFpMcDE2MVVvNFNJajhCYzBkU01YckdoQmdGUFhKeTN1YXpGZWxQX0lfb2hqeC1PMXBFeWlCU1UybFo0LWlWVmlMcUlRQlRuMzZiWVFTckZYV0dUT21TUm1CTGpnYlNqa19kbXJ5R0VMYzEzaFotajhQSXVzeHU3U2NW?oc=5\n\nOpenAI discusses 5% government stake ahead of planned IPO - The American Bazaar\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPajBWM2ltdExld0VESXdPbFJrTzB3R1pGUWZLRFNfbHNpMjhvaGxUMTZnUFpMcDE2MVVvNFNJajhCYzBkU01YckdoQmdGUFhKeTN1YXpGZWxQX0lfb2hqeC1PMXBFeWlCU1UybFo0LWlWVmlMcUlRQlRuMzZiWVFTckZYV0dUT21TUm1CTGpnYlNqa19kbXJ5R0VMYzEzaFotajhQSXVzeHU3U2NW?oc=5\" target=\"_blank\">OpenAI discusses 5% government stake ahead of planned IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The American Bazaar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is discussing giving the U.S. government a 5% stake ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u5728\u7b79\u5212 IPO \u4e4b\u9645\uff0c\u6b63\u8ba8\u8bba\u5411\u7f8e\u56fd\u653f\u5e9c\u8ba9\u6e21 5% \u7684\u80a1\u6743\u3002\n\nWhy it matters:\nAn IPO track signals OpenAI needs a durable capital structure to keep funding compute buildout \u2014 a government equity stake would be an unusual financing/political entanglement that raises questions about how sustainable the current burn rate is without extraordinary backers.\n\n\u5f71\u54cd:\n\u8d70\u5411 IPO \u610f\u5473\u7740 OpenAI \u9700\u8981\u66f4\u7a33\u5b9a\u7684\u8d44\u672c\u7ed3\u6784\u6765\u652f\u6491\u7b97\u529b\u5f00\u652f\uff1b\u653f\u5e9c\u5165\u80a1\u8fd9\u79cd\u4e0d\u5bfb\u5e38\u7684\u878d\u8d44/\u653f\u6cbb\u5b89\u6392\uff0c\u4e5f\u4ece\u4fa7\u9762\u8bf4\u660e\u5f53\u524d\u7684\u70e7\u94b1\u901f\u5ea6\u5982\u679c\u6ca1\u6709\u7279\u6b8a\u80cc\u666f\u7684\u8d44\u91d1\u65b9\u652f\u6301\u53ef\u80fd\u96be\u4ee5\u4e3a\u7ee7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1882,
       "ts": 1783010105,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 18:02:17 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlBadnctSEVBejhqVHozanlCd3QzRk04YzF6RTlmNlF2NmJMYlpLRDRqb0hFemhKZGN0U182WjFmQVJnaUs3NTAtaTdOelR5TXhyQVBNU3JWc05wcXRfblJZYllMMURzX1BOelczMTFPd21pSWgzOEoyQUNtZEphSEc3bDgtWXJr?oc=5\n\nOpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZlBadnctSEVBejhqVHozanlCd3QzRk04YzF6RTlmNlF2NmJMYlpLRDRqb0hFemhKZGN0U182WjFmQVJnaUs3NTAtaTdOelR5TXhyQVBNU3JWc05wcXRfblJZYllMMURzX1BOelczMTFPd21pSWgzOEoyQUNtZEphSEc3bDgtWXJr?oc=5\" target=\"_blank\">OpenAI Considers Delaying Its IPO\u2014And SpaceX's Volatility Is a Big Reason Why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is considering delaying its IPO, citing SpaceX's stock volatility as a major reason.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053 OpenAI \u6b63\u8003\u8651\u63a8\u8fdf\u5176 IPO\uff0c\u5e76\u628a SpaceX \u80a1\u4ef7\u7684\u5267\u70c8\u6ce2\u52a8\u5217\u4e3a\u4e3b\u8981\u539f\u56e0\u3002\n\nWhy it matters:\nAn IPO delay signals OpenAI doubts public markets will price it as richly as private rounds \u2014 a crack in the AI valuation story. Pointing to SpaceX's volatility as the cause admits that even marquee private names now face skittish demand, which is bearish for the late-stage AI funding pipeline.\n\n\u5f71\u54cd:\n\u63a8\u8fdf IPO \u8bf4\u660e OpenAI \u62c5\u5fc3\u516c\u5f00\u5e02\u573a\u7ed9\u4e0d\u51fa\u79c1\u52df\u8f6e\u90a3\u6837\u7684\u9ad8\u4f30\u503c\uff0c\u662f AI \u4f30\u503c\u53d9\u4e8b\u51fa\u73b0\u88c2\u7f1d\u7684\u4fe1\u53f7\u3002\u628a\u539f\u56e0\u5f52\u5230 SpaceX \u7684\u6ce2\u52a8\u4e0a\uff0c\u7b49\u4e8e\u627f\u8ba4\u8fde\u660e\u661f\u79c1\u8425\u516c\u53f8\u73b0\u5728\u90fd\u9762\u4e34\u9700\u6c42\u4e0d\u7a33\uff0c\u5bf9\u540e\u671f AI \u878d\u8d44\u94fe\u6761\u662f\u5229\u7a7a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1684,
-      "ts": 1782674079,
-      "ts_str": "2026-06-28 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Morgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 07:31:38 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVVKMmNQbXBiVk9RVk8tNzdTQmo3Umd5clJnMU1HLXg2cTBtdVFMU2dvWVhyak1RaWdJTTQzcUxYZlNGNzhoQTZVOXQ3Ym5rdDBCOWgycU92ZHdpTlAtZThnRVFSWWt1RHJrM0p2UUN0Q2xhS0VsbjR0Mkx6dG1MMVozRlJCbEVmVFNWdHppVFF3bVE3ZlNWc014d0EtTGJvSVVXU1loakd1UnEtZHhKRG1vT01wRG9wa3dhZkZMZHE?oc=5\n\nMorgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVVKMmNQbXBiVk9RVk8tNzdTQmo3Umd5clJnMU1HLXg2cTBtdVFMU2dvWVhyak1RaWdJTTQzcUxYZlNGNzhoQTZVOXQ3Ym5rdDBCOWgycU92ZHdpTlAtZThnRVFSWWt1RHJrM0p2UUN0Q2xhS0VsbjR0Mkx6dG1MMVozRlJCbEVmVFNWdHppVFF3bVE3ZlNWc014d0EtTGJvSVVXU1loakd1UnEtZHhKRG1vT01wRG9wa3dhZkZMZHE?oc=5\" target=\"_blank\">Morgan Stanley, Goldman Sachs stocks drop on possible OpenAI IPO delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley and Goldman Sachs shares fell on reports of a possible delay to OpenAI's IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u53ef\u80fd\u63a8\u8fdf\uff0cMorgan Stanley \u4e0e Goldman Sachs \u80a1\u4ef7\u5e94\u58f0\u4e0b\u8dcc\u3002\n\nWhy it matters:\nBank stocks are now trading as a proxy for the AI-IPO pipeline \u2014 the underwriting fees and deal flow are priced in. A wobble on OpenAI's listing timing hitting MS/GS shows how much of the financial complex is leaning on a single AI flotation actually happening.\n\n\u5f71\u54cd:\n\u94f6\u884c\u80a1\u5982\u4eca\u6210\u4e86 AI IPO \u7ba1\u9053\u7684\u4ee3\u7406\u6807\u7684\u2014\u2014\u627f\u9500\u8d39\u548c\u4ea4\u6613\u6d41\u6c34\u5df2\u88ab\u8ba1\u5165\u4f30\u503c\u3002OpenAI \u4e0a\u5e02\u65f6\u95f4\u4e00\u6709\u52a8\u6447\u5c31\u51b2\u51fb MS/GS \u80a1\u4ef7\uff0c\u8bf4\u660e\u6574\u4e2a\u91d1\u878d\u4f53\u7cfb\u6709\u591a\u5927\u7a0b\u5ea6\u62bc\u6ce8\u5728\u8fd9\u4e00\u6869 AI \u4e0a\u5e02\u80fd\u5426\u771f\u6b63\u843d\u5730\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1685,
-      "ts": 1782674079,
-      "ts_str": "2026-06-28 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Is the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors - Stocks Down Under",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 19:00:21 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE02REtBcjI5WlpZTW9SNHdqZzVkdm1KN3licldhOUtWLUNOclREYkZ3SVN2YmVNTENKSkF4WDZhZDVjbHNsbVlmUUp4bWFNaUlxMVBveHhRcEV6X3RYRmNmcFgzMDJOU19fMERpd2ZXcnJIY3VmWXluVFVLbw?oc=5\n\nIs the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors - Stocks Down Under\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE02REtBcjI5WlpZTW9SNHdqZzVkdm1KN3licldhOUtWLUNOclREYkZ3SVN2YmVNTENKSkF4WDZhZDVjbHNsbVlmUUp4bWFNaUlxMVBveHhRcEV6X3RYRmNmcFgzMDJOU19fMERpd2ZXcnJIY3VmWXluVFVLbw?oc=5\" target=\"_blank\">Is the AI IPO Boom Cooling? What OpenAI\u2019s Delay Means for ASX Tech Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocks Down Under</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Stocks Down Under headline asks \"Is the AI IPO Boom Cooling?\" and frames OpenAI's delay as a warning for ASX tech investors.\n\n\u5185\u5bb9:\nStocks Down Under \u7684\u4e00\u5219\u6807\u9898\u53d1\u95ee\"AI IPO \u70ed\u6f6e\u662f\u5426\u6b63\u5728\u964d\u6e29?\",\u5e76\u628a OpenAI \u7684\u63a8\u8fdf\u89e3\u8bfb\u4e3a\u5bf9 ASX \u79d1\u6280\u80a1\u6295\u8d44\u8005\u7684\u8b66\u793a\u3002\n\nWhy it matters:\nMedia reframing of an OpenAI timeline slip as a sector-wide \"is the boom cooling\" question is the kind of sentiment shift that precedes repricing \u2014 narrative momentum is what holds richly-valued AI names up, and coverage turning skeptical is an early crack.\n\n\u5f71\u54cd:\n\u5a92\u4f53\u628a OpenAI \u65f6\u95f4\u8868\u7684\u63a8\u8fdf\u4e0a\u5347\u4e3a\u6574\u4e2a\u677f\u5757\"\u70ed\u6f6e\u662f\u5426\u964d\u6e29\"\u7684\u7591\u95ee,\u6b63\u662f\u5f15\u53d1\u91cd\u65b0\u5b9a\u4ef7\u524d\u7684\u60c5\u7eea\u8f6c\u5411\u2014\u2014\u652f\u6491\u9ad8\u4f30\u503c AI \u6807\u7684\u7684\u662f\u53d9\u4e8b\u52a8\u80fd,\u800c\u62a5\u9053\u53e3\u98ce\u8f6c\u5411\u6000\u7591,\u5c31\u662f\u6700\u65e9\u7684\u88c2\u7f1d\u3002\n",
       "emailed": false
     }
   ],
