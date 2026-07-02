@@ -32,7 +32,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
-          enablement: true   # switch Pages source to GitHub Actions (build_type: workflow)
+          enablement: true   # creates the site as build_type: workflow if Pages is not yet enabled
+      # configure-pages only *creates* a site; it never converts an existing
+      # legacy (deploy-from-branch) site. While build_type is "legacy", every
+      # cron state push triggers the built-in "pages build and deployment"
+      # workflow, and concurrent runs race and fail. Force build_type here so
+      # only this serialized workflow deploys.
+      - name: Force Pages source to GitHub Actions
+        run: |
+          curl -sf -X PUT \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages" \
+            -d '{"build_type":"workflow"}'
       - name: Upload docs artifact
         uses: actions/upload-pages-artifact@v3
         with:
