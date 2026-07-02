@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782960062,
-  "generated_at_str": "2026-07-02 02:41:02 UTC",
-  "last_event_ts": 1782959704,
+  "generated_at": 1782960257,
+  "generated_at_str": "2026-07-02 02:44:17 UTC",
+  "last_event_ts": 1782960253,
   "tables": {
     "alerts_dedup": {
-      "count": 1841,
-      "last_ts": 1782954877,
-      "last_str": "2026-07-02 01:14:37 UTC"
+      "count": 1842,
+      "last_ts": 1782960253,
+      "last_str": "2026-07-02 02:44:13 UTC"
     },
     "c10_signals": {
       "count": 7,
@@ -49,9 +49,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2587,
-      "last_ts": 1782958443,
-      "last_str": "2026-07-02 02:14:03 UTC"
+      "count": 2589,
+      "last_ts": 1782960243,
+      "last_str": "2026-07-02 02:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 534,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-02 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13069,
-      "last_ts": 1782958442,
-      "last_str": "2026-07-02 02:14:02 UTC"
+      "count": 13071,
+      "last_ts": 1782960242,
+      "last_str": "2026-07-02 02:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -271,6 +271,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1849,
+      "ts": 1782960253,
+      "ts_str": "2026-07-02 02:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Historical Data for OpenAI (Tessera Pre-IPO) in USD - CryptoRank",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 22:56:41 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVnFQMGlYTmNWb1Y2dUJsQmJMM2VWT3UzZ182MTlOU2plWi1ubkg3bFVhbzZZSXRBcFA3cWFzNEQxdXY0UGM5dG5FTlFFOHk1RHJBYWJUXzNNR1Z3eU1CQWhWbFljY2lLbV9oLThlQUptdTky?oc=5\n\nHistorical Data for OpenAI (Tessera Pre-IPO) in USD - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE4xVnFQMGlYTmNWb1Y2dUJsQmJMM2VWT3UzZ182MTlOU2plWi1ubkg3bFVhbzZZSXRBcFA3cWFzNEQxdXY0UGM5dG5FTlFFOHk1RHJBYWJUXzNNR1Z3eU1CQWhWbFljY2lLbV9oLThlQUptdTky?oc=5\" target=\"_blank\">Historical Data for OpenAI (Tessera Pre-IPO) in USD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CryptoRank article titled 'Historical Data for OpenAI (Tessera Pre-IPO)' appeared in the C3 news scan, containing no burn-rate figures, tickers, or filing content.\n\n\u5185\u5bb9:\nC3 \u65b0\u95fb\u626b\u63cf\u6293\u53d6\u5230\u4e00\u7bc7 CryptoRank \u6587\u7ae0\uff0c\u6807\u9898\u4e3a 'Historical Data for OpenAI (Tessera Pre-IPO)'\uff0c\u5185\u5bb9\u4e0d\u542b\u4efb\u4f55 burn rate \u6570\u5b57\u3001ticker \u6216 SEC \u6587\u4ef6\u4fe1\u606f\u3002\n\nWhy it matters:\nThis is a pre-IPO/secondary-market pricing data page, not a disclosure about OpenAI's spend or burn rate \u2014 it doesn't bear on the C3 thesis and looks like a keyword false-positive rather than a real stress signal.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u4e2a pre-IPO/\u4e8c\u7ea7\u5e02\u573a\u5b9a\u4ef7\u6570\u636e\u9875\u9762\uff0c\u5e76\u975e\u5173\u4e8e OpenAI \u652f\u51fa\u6216\u70e7\u94b1\u901f\u5ea6\u7684\u771f\u5b9e\u62ab\u9732\uff0c\u4e0e C3 \u7684\u8bba\u70b9\u65e0\u5173\uff0c\u66f4\u50cf\u662f\u5173\u952e\u8bcd\u8bef\u547d\u4e2d\u800c\u975e\u771f\u6b63\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1847,
       "ts": 1782954877,
@@ -2259,16 +2269,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI and Anthropic may file IPO prospectuses soon after SpaceX\u2019s historic filing - Crypto Briefing",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 21:06:34 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE82SDBCZWRVWFNRR1llWDFIVXVYRXVBamhMb0phaHp1ZTZQb2hFSXlUM3BNYk1rTnBORTVPeWg3ZlkzQVhBcHVubS1keGgySzVkZDN0eDhHNVVsSl92OTZYTnJ6ai1uRS1SM1A3VndMUWE?oc=5\n\nOpenAI and Anthropic may file IPO prospectuses soon after SpaceX\u2019s historic filing - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE82SDBCZWRVWFNRR1llWDFIVXVYRXVBamhMb0phaHp1ZTZQb2hFSXlUM3BNYk1rTnBORTVPeWg3ZlkzQVhBcHVubS1keGgySzVkZDN0eDhHNVVsSl92OTZYTnJ6ai1uRS1SM1A3VndMUWE?oc=5\" target=\"_blank\">OpenAI and Anthropic may file IPO prospectuses soon after SpaceX\u2019s historic filing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline flagged that OpenAI and Anthropic may file IPO prospectuses soon, following SpaceX's recent filing.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u7ee7 SpaceX \u8fd1\u671f\u9012\u4ea4\u62db\u80a1\u4e66\u540e\uff0cOpenAI \u4e0e Anthropic \u53ef\u80fd\u5f88\u5feb\u4e5f\u4f1a\u9012\u4ea4 IPO \u62db\u80a1\u4e66\u3002\n\nWhy it matters:\nPrivate AI leaders rushing to IPO is a classic top-of-cycle tell \u2014 insiders monetize into public-market demand before the capex-payback story is proven. Late-stage IPO clustering often marks the peak of a funding bubble.\n\n\u5f71\u54cd:\n\u9876\u7ea7\u79c1\u8425 AI \u516c\u53f8\u624e\u5806\u51b2\u523a IPO \u662f\u5178\u578b\u7684\u5468\u671f\u9876\u90e8\u4fe1\u53f7\u2014\u2014\u5728 AI capex \u56de\u672c\u903b\u8f91\u5c1a\u672a\u88ab\u9a8c\u8bc1\u4e4b\u524d\uff0c\u5185\u90e8\u4eba\u8d81\u516c\u5f00\u5e02\u573a\u9700\u6c42\u65fa\u76db\u5957\u73b0\u79bb\u573a\u3002\u540e\u671f IPO \u96c6\u4e2d\u51fa\u73b0\u5f80\u5f80\u6807\u5fd7\u7740\u878d\u8d44\u6ce1\u6cab\u89c1\u9876\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1649,
-      "ts": 1782596117,
-      "ts_str": "2026-06-27 21:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage - Scripps News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 20:04:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWVBweXhCMnJYdjNYb2VvaUgyT0lCU0RfVHdrVm13QTZoS0VHNVE3ZnQ1clNmUWJaMEMtMVBnRTNScWhJNnpBQUJHVHZlZFB3Y2JxVWxJamlPZzduQjVOcGRLbWVZSWRocjdOdlE4TkFVb2NfbWxfWkFUcGd3SVRhbUZ2bFdCZEFJbmtYSHF2bnNhaHJkcjJ1c1ExdHRLV1h4cFEtWHVPX1dOaXdfRkVLUkZMc3lSRFFSbWU0S2MyZWlGMlE?oc=5\n\nApple is hiking the prices of MacBooks and iPads due to the memory chip shortage - Scripps News\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWVBweXhCMnJYdjNYb2VvaUgyT0lCU0RfVHdrVm13QTZoS0VHNVE3ZnQ1clNmUWJaMEMtMVBnRTNScWhJNnpBQUJHVHZlZFB3Y2JxVWxJamlPZzduQjVOcGRLbWVZSWRocjdOdlE4TkFVb2NfbWxfWkFUcGd3SVRhbUZ2bFdCZEFJbmtYSHF2bnNhaHJkcjJ1c1ExdHRLV1h4cFEtWHVPX1dOaXdfRkVLUkZMc3lSRFFSbWU0S2MyZWlGMlE?oc=5\" target=\"_blank\">Apple is hiking the prices of MacBooks and iPads due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scripps News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Apple is raising prices on MacBooks and iPads, citing the memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u4e0a\u8c03 MacBook \u548c iPad \u7684\u552e\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) is being absorbed by AI datacenter buildout, squeezing supply for consumer devices. When the cost of the AI-capex boom starts showing up as higher consumer hardware prices, it signals the spend is large enough to distort the broader chip market \u2014 a real-economy spillover from the AI-infrastructure cycle.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u6b63\u88ab AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5927\u91cf\u5438\u8d70\uff0c\u6324\u538b\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u7ed9\u3002\u5f53 AI capex \u70ed\u6f6e\u7684\u6210\u672c\u5f00\u59cb\u4ee5\u6d88\u8d39\u786c\u4ef6\u6da8\u4ef7\u7684\u5f62\u5f0f\u663e\u73b0\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u89c4\u6a21\u5df2\u5927\u5230\u80fd\u626d\u66f2\u6574\u4e2a\u82af\u7247\u5e02\u573a\u2014\u2014\u8fd9\u662f AI \u57fa\u5efa\u5468\u671f\u5411\u5b9e\u4f53\u7ecf\u6d4e\u5916\u6ea2\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
