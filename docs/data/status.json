@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782988324,
-  "generated_at_str": "2026-07-02 10:32:04 UTC",
-  "last_event_ts": 1782987242,
+  "generated_at": 1782988514,
+  "generated_at_str": "2026-07-02 10:35:14 UTC",
+  "last_event_ts": 1782988513,
   "tables": {
     "alerts_dedup": {
-      "count": 1857,
-      "last_ts": 1782986718,
-      "last_str": "2026-07-02 10:05:18 UTC"
+      "count": 1858,
+      "last_ts": 1782988513,
+      "last_str": "2026-07-02 10:35:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,19 +69,19 @@
       "last_str": "2026-07-02 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1693,
-      "last_ts": 1782986704,
-      "last_str": "2026-07-02 10:05:04 UTC"
+      "count": 1697,
+      "last_ts": 1782988504,
+      "last_str": "2026-07-02 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1132,
-      "last_ts": 1782986704,
-      "last_str": "2026-07-02 10:05:04 UTC"
+      "count": 1133,
+      "last_ts": 1782988502,
+      "last_str": "2026-07-02 10:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1346,
-      "last_ts": 1782986705,
-      "last_str": "2026-07-02 10:05:05 UTC"
+      "count": 1348,
+      "last_ts": 1782988504,
+      "last_str": "2026-07-02 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13219,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1865,
+      "ts": 1782988513,
+      "ts_str": "2026-07-02 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - CNA",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 09:31:52 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjVHNEJEN0ZkU01lRGJoSnM1X3M4TUN0aHkzb0JMTzhZT3E2eU95c1VPQWl6SmxrYl9mRy1DNnV4ektoMC1peU5hYmpNczl1LTBGVXRxcXhoTXNHbGt2MWVyR1ZVbmZya3V3eC14SkVJNHdYMGRYaUczbzNfNmVjTENDdGsyc3lmdlhwNEhrSFY0YXBqWkswU09hWWNCYVlhRXlfY1VCVXQydw?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - CNA\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjVHNEJEN0ZkU01lRGJoSnM1X3M4TUN0aHkzb0JMTzhZT3E2eU95c1VPQWl6SmxrYl9mRy1DNnV4ektoMC1peU5hYmpNczl1LTBGVXRxcXhoTXNHbGt2MWVyR1ZVbmZya3V3eC14SkVJNHdYMGRYaUczbzNfNmVjTENDdGsyc3lmdlhwNEhrSFY0YXBqWkswU09hWWNCYVlhRXlfY1VCVXQydw?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNA</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports UK retailer Currys warning that a memory chip shortage will push up prices.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u62a5\u9053\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8b66\u544a\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u63a8\u9ad8\u4ef7\u683c\u3002\n\nWhy it matters:\nA retail-level DRAM/NAND shortage confirms the memory-supply squeeze is reaching consumers, not just hyperscalers \u2014 it corroborates AI-driven demand (HBM for accelerators) crowding out commodity memory supply, a tell that AI capex is now distorting adjacent markets.\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u7684 DRAM/NAND \u77ed\u7f3a\u4fe1\u53f7\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u8005\u5c42\u9762\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3002\u8fd9\u5370\u8bc1\u4e86 AI \u9700\u6c42\uff08\u52a0\u901f\u5361\u7528 HBM\uff09\u6b63\u5728\u6324\u5360\u666e\u901a\u5185\u5b58\u4f9b\u7ed9\uff0c\u662f AI capex \u5f00\u59cb\u626d\u66f2\u76f8\u90bb\u5e02\u573a\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1864,
       "ts": 1782986718,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Why OpenAI\u2019s Delayed IPO Filing May Have Just Been the Death Knell for AI Stocks in 2026 - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 12:45:01 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxPSG5zZ0VMX2VHUDI0c1lQMkdJUzY5TGw4SktROTJZR284M2R3d1VlNXlIalZ2bEZvVDlfTjNkNTA5WG1KREJsVlZfVmdiSElJUWozREpyY2p0V09nakp0bVlORzlYdTcyN2NzNUFCUkcxM0lTazVtZG52eDhrdFI5b3R3cElGTVBEdnF0REZDakdzV2JzdG1oSDBn?oc=5\n\nWhy OpenAI\u2019s Delayed IPO Filing May Have Just Been the Death Knell for AI Stocks in 2026 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPSG5zZ0VMX2VHUDI0c1lQMkdJUzY5TGw4SktROTJZR284M2R3d1VlNXlIalZ2bEZvVDlfTjNkNTA5WG1KREJsVlZfVmdiSElJUWozREpyY2p0V09nakp0bVlORzlYdTcyN2NzNUFCUkcxM0lTazVtZG52eDhrdFI5b3R3cElGTVBEdnF0REZDakdzV2JzdG1oSDBn?oc=5\" target=\"_blank\">Why OpenAI\u2019s Delayed IPO Filing May Have Just Been the Death Knell for AI Stocks in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance headline argues OpenAI's delayed IPO filing \"May Have Just Been the Death Knell for AI Stocks in 2026.\"\n\n\u5185\u5bb9:\nYahoo Finance \u7684\u4e00\u5219\u6807\u9898\u79f0\uff0cOpenAI \u63a8\u8fdf IPO \u7533\u62a5\"\u53ef\u80fd\u6b63\u662f 2026 \u5e74 AI \u80a1\u7684\u4e27\u949f\"\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex chain; a stalled IPO signals it can't yet show public-market-ready financials, which questions whether the spending that hyperscalers justify by OpenAI demand will ever be paid back. Media framing this as a top is itself a sentiment-cycle marker.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u6761 AI capex \u94fe\u6761\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u5361\u4f4f\u610f\u5473\u7740\u5b83\u8fd8\u62ff\u4e0d\u51fa\u80fd\u4e0a\u516c\u5f00\u5e02\u573a\u7684\u8d22\u52a1\u6570\u636e\uff0c\u8ba9\u5e02\u573a\u8d28\u7591\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4ee5 OpenAI \u9700\u6c42\u4e3a\u7531\u7684\u652f\u51fa\u7a76\u7adf\u80fd\u5426\u56de\u672c\u3002\u5a92\u4f53\u628a\u8fd9\u4ef6\u4e8b\u6e32\u67d3\u6210\u9876\u90e8\u4fe1\u53f7\uff0c\u672c\u8eab\u5c31\u662f\u60c5\u7eea\u5468\u671f\u89c1\u9876\u7684\u6807\u5fd7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1665,
-      "ts": 1782627257,
-      "ts_str": "2026-06-28 06:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They G",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 03:28:13 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5BYXFHcVZpT1MzeVF6MDh3RXZ2dmRoR0NlMjZ5ZEcya0Z5NnM0OVhwU0JBVUtnSGJTdmdSMHRta3VUOGIyM0ttTUdQSVluWWhyMFNGenNiOHowdnptaU1TRk80V3c1aGpEYmU0b0txQTZ4Nkk1dkl4cFNqQQ?oc=5\n\nSpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They Go Public. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5BYXFHcVZpT1MzeVF6MDh3RXZ2dmRoR0NlMjZ5ZEcya0Z5NnM0OVhwU0JBVUtnSGJTdmdSMHRta3VUOGIyM0ttTUdQSVluWWhyMFNGenNiOHowdnptaU1TRk80V3c1aGpEYmU0b0txQTZ4Nkk1dkl4cFNqQQ?oc=5\" target=\"_blank\">SpaceX Just Had the Biggest IPO in History. Here's What It Tells Investors About Buying Anthropic and OpenAI When They Go Public.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (via AOL.com) headlines SpaceX's record IPO and frames it as a read-through for buying Anthropic and OpenAI when they eventually go public.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS\uff08\u6765\u6e90 AOL.com\uff09\u4ee5 SpaceX \u53f2\u4e0a\u6700\u5927 IPO \u4e3a\u6807\u9898\uff0c\u5e76\u5c06\u5176\u89e3\u8bfb\u4e3a\u6295\u8d44\u8005\u672a\u6765\u4e70\u5165 Anthropic \u548c OpenAI \u4e0a\u5e02\u65f6\u7684\u53c2\u8003\u4fe1\u53f7\u3002\n\nWhy it matters:\nCommentary pivoting from a blockbuster IPO straight to 'how to buy OpenAI/Anthropic' is froth \u2014 it signals retail demand to own private AI names near peak hype, the kind of late-cycle FOMO that tends to cluster around tops rather than bottoms.\n\n\u5f71\u54cd:\n\u4ece\u4e00\u6869\u8f70\u52a8\u7684 IPO \u76f4\u63a5\u8df3\u5230\u300c\u8be5\u600e\u4e48\u4e70 OpenAI/Anthropic\u300d\u7684\u8bc4\u8bba\u672c\u8eab\u5c31\u662f\u6ce1\u6cab\u8ff9\u8c61\uff0c\u53cd\u6620\u51fa\u6563\u6237\u5728\u7092\u4f5c\u9ad8\u70b9\u9644\u8fd1\u6025\u4e8e\u6301\u6709\u79c1\u52df AI \u6807\u7684\u2014\u2014\u8fd9\u79cd\u5468\u671f\u665a\u671f\u7684 FOMO \u60c5\u7eea\u5f80\u5f80\u805a\u96c6\u5728\u9876\u90e8\u800c\u975e\u5e95\u90e8\u3002\n",
       "emailed": false
     }
   ],
