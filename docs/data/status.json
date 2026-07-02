@@ -1,6 +1,6 @@
 {
-  "generated_at": 1782964578,
-  "generated_at_str": "2026-07-02 03:56:18 UTC",
+  "generated_at": 1782964933,
+  "generated_at_str": "2026-07-02 04:02:13 UTC",
   "last_event_ts": 1782963844,
   "tables": {
     "alerts_dedup": {
@@ -2322,6 +2322,7 @@
       "ath_date": "2026-06-02",
       "drawdown": -0.02777081987958474
     },
+    "spx": null,
     "regime": "A",
     "fuses": [],
     "rungs": [
@@ -2334,7 +2335,7 @@
       },
       {
         "thresh": -0.1,
-        "pct": 15,
+        "pct": 10,
         "label": "dip 1",
         "level": 27594.54,
         "triggered": false
@@ -2348,7 +2349,7 @@
       },
       {
         "thresh": -0.2,
-        "pct": 20,
+        "pct": 25,
         "label": "dip 3",
         "level": 24528.48,
         "triggered": false
@@ -2358,7 +2359,7 @@
     "reserve": 40,
     "next_rung": {
       "thresh": -0.1,
-      "pct": 15,
+      "pct": 10,
       "label": "dip 1",
       "level": 27594.54
     },
