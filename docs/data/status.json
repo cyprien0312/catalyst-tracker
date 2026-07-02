@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782996062,
-  "generated_at_str": "2026-07-02 12:41:02 UTC",
-  "last_event_ts": 1782995705,
+  "generated_at": 1782996269,
+  "generated_at_str": "2026-07-02 12:44:29 UTC",
+  "last_event_ts": 1782996265,
   "tables": {
     "alerts_dedup": {
-      "count": 1863,
-      "last_ts": 1782994459,
-      "last_str": "2026-07-02 12:14:19 UTC"
+      "count": 1865,
+      "last_ts": 1782996265,
+      "last_str": "2026-07-02 12:44:25 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2614,
-      "last_ts": 1782990844,
-      "last_str": "2026-07-02 11:14:04 UTC"
+      "count": 2616,
+      "last_ts": 1782996244,
+      "last_str": "2026-07-02 12:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 537,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-02 12:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13256,
-      "last_ts": 1782994442,
-      "last_str": "2026-07-02 12:14:02 UTC"
+      "count": 13268,
+      "last_ts": 1782996243,
+      "last_str": "2026-07-02 12:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1871,
+      "ts": 1782996265,
+      "ts_str": "2026-07-02 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SoftBank offers to guarantee $10B loan as OpenAI\u2019s IPO delay rattles lenders: report - Tech Funding News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 12:35:08 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE0tX2pXOEEybnlNU3EzSVJNT2R5TDFKOFMxNWM3NU9idHVWZnYzbS15ZGZMdHpfWHg0MndLcTE1X0VUTTkxSFNvb19LLWUxeFctT2ZHa3VIQ2tUT2VRcHAyZm5mOUdOa0w3cDVlR1YxdjdNWEFWaXhYY3Bn?oc=5\n\nSoftBank offers to guarantee $10B loan as OpenAI\u2019s IPO delay rattles lenders: report - Tech Funding News\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE0tX2pXOEEybnlNU3EzSVJNT2R5TDFKOFMxNWM3NU9idHVWZnYzbS15ZGZMdHpfWHg0MndLcTE1X0VUTTkxSFNvb19LLWUxeFctT2ZHa3VIQ2tUT2VRcHAyZm5mOUdOa0w3cDVlR1YxdjdNWEFWaXhYY3Bn?oc=5\" target=\"_blank\">SoftBank offers to guarantee $10B loan as OpenAI\u2019s IPO delay rattles lenders: report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Funding News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is offering to guarantee a $10B loan after OpenAI's IPO delay unsettled lenders, per a report.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u56e0 OpenAI IPO \u5ef6\u671f\u4ee4\u653e\u8d37\u65b9\u611f\u5230\u4e0d\u5b89\uff0cSoftBank \u63d0\u51fa\u4e3a\u4e00\u7b14 $10B \u8d37\u6b3e\u63d0\u4f9b\u62c5\u4fdd\u3002\n\nWhy it matters:\nA backstop from SoftBank signals lenders are getting nervous about OpenAI's credit standing without an IPO exit in sight \u2014 a funding-fragility tell for the AI-capex chain that runs through OpenAI's compute commitments.\n\n\u5f71\u54cd:\nSoftBank \u51fa\u9762\u515c\u5e95\u8bf4\u660e\u5728\u6ca1\u6709 IPO \u9000\u51fa\u9884\u671f\u7684\u60c5\u51b5\u4e0b\uff0c\u653e\u8d37\u65b9\u5bf9 OpenAI \u7684\u4fe1\u7528\u72b6\u51b5\u5f00\u59cb\u62c5\u5fe7\u2014\u2014\u8fd9\u662f AI capex \u94fe\u6761\u4e2d\u4f9d\u8d56 OpenAI \u7b97\u529b\u627f\u8bfa\u7684\u878d\u8d44\u8106\u5f31\u6027\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1872,
+      "ts": 1782996265,
+      "ts_str": "2026-07-02 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Discusses Giving US Government 5% Stake Ahead of IPO - bloomingbit",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 12:18:58 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZTHAzQTJIcTA0aEVkdGJrUFpGZmJHbHJsLXZfQXZsb0dScVcwU1ltdDBQbktqcHNpZGhJRE4yeldmTjJIV3ZjZE9YeXRubVNqdXVzUA?oc=5\n\nOpenAI Discusses Giving US Government 5% Stake Ahead of IPO - bloomingbit\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZTHAzQTJIcTA0aEVkdGJrUFpGZmJHbHJsLXZfQXZsb0dScVcwU1ltdDBQbktqcHNpZGhJRE4yeldmTjJIV3ZjZE9YeXRubVNqdXVzUA?oc=5\" target=\"_blank\">OpenAI Discusses Giving US Government 5% Stake Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomingbit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews reports say OpenAI is discussing giving the US government a 5% stake ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u8ba8\u8bba\u5728 IPO \u524d\u5411\u7f8e\u56fd\u653f\u5e9c\u8ba9\u6e21 5% \u7684\u80a1\u6743\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the first hard market test of AI-lab valuations and could trigger a wave of capital seeking exit liquidity from private AI stakes, while a government stake signals the state now has a direct financial interest in the AI-capex buildout continuing.\n\n\u5f71\u54cd:\nOpenAI IPO \u5c06\u662f AI \u5b9e\u9a8c\u5ba4\u4f30\u503c\u7b2c\u4e00\u6b21\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u68c0\u9a8c\uff0c\u53ef\u80fd\u5f15\u53d1\u5927\u91cf\u79c1\u52df AI \u80a1\u6743\u5bfb\u6c42\u9000\u51fa\u6d41\u52a8\u6027\uff1b\u653f\u5e9c\u6301\u80a1\u5219\u610f\u5473\u7740\u56fd\u5bb6\u5728 AI capex \u6301\u7eed\u6269\u5f20\u4e0a\u6709\u4e86\u76f4\u63a5\u7684\u8d22\u52a1\u5229\u76ca\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1870,
       "ts": 1782994459,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple Lobbies US to Approve Chinese Memory Chip Purchases Amid Supply Crunch - bloomingbit",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 07:08:57 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyS1lEVXlXWWFNVW02dl9zWG5nRlpobHFGYTV1NkVfdFJ4MXBGUHkxeU9BWVZvRFpuNnhnOXZlQzNLVTI4cjRxN2xhanNEWHRkdEdsNQ?oc=5\n\nApple Lobbies US to Approve Chinese Memory Chip Purchases Amid Supply Crunch - bloomingbit\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyS1lEVXlXWWFNVW02dl9zWG5nRlpobHFGYTV1NkVfdFJ4MXBGUHkxeU9BWVZvRFpuNnhnOXZlQzNLVTI4cjRxN2xhanNEWHRkdEdsNQ?oc=5\" target=\"_blank\">Apple Lobbies US to Approve Chinese Memory Chip Purchases Amid Supply Crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomingbit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports \"Apple Lobbies US to Approve Chinese Memory Chip Purchases Amid Supply Crunch\" (via bloomingbit), indicating Apple is pressing US regulators to clear purchases of Chinese memory chips because of a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053\u300cApple Lobbies US to Approve Chinese Memory Chip Purchases Amid Supply Crunch\u300d\uff08\u6765\u6e90 bloomingbit\uff09\uff0c\u663e\u793a Apple \u6b63\u56e0\u4f9b\u5e94\u77ed\u7f3a\u800c\u6e38\u8bf4\u7f8e\u56fd\u76d1\u7ba1\u673a\u6784\uff0c\u8bf7\u6c42\u6279\u51c6\u91c7\u8d2d\u4e2d\u56fd\u4ea7\u7684\u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nApple lobbying for Chinese memory supply signals that the memory crunch is tight enough to override geopolitical risk. AI buildout is soaking up HBM and DRAM capacity, squeezing supply for everyone else \u2014 a hard-data sign that AI-capex demand is straining the memory market.\n\n\u5f71\u54cd:\nApple \u4e3a\u83b7\u53d6\u4e2d\u56fd\u5185\u5b58\u4f9b\u5e94\u800c\u6e38\u8bf4\uff0c\u8bf4\u660e\u5185\u5b58\u7d27\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u8ba9\u5b83\u613f\u610f\u5192\u5730\u7f18\u653f\u6cbb\u98ce\u9669\u3002AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u6b63\u5728\u541e\u566c HBM \u548c DRAM \u4ea7\u80fd\uff0c\u6324\u538b\u5176\u4ed6\u6240\u6709\u4eba\u7684\u4f9b\u5e94\u2014\u2014\u8fd9\u662f AI capex \u9700\u6c42\u6b63\u5728\u62c9\u7d27\u5185\u5b58\u5e02\u573a\u7684\u786c\u6570\u636e\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1672,
-      "ts": 1782639856,
-      "ts_str": "2026-06-28 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] It is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion. - Bi",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 08:06:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNNIBY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNA?oc=5\n\nIt is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion. - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNNIBY0FVX3lxTE1jc01QU29DZmNHdmh1NGdYTFAyS0JXMzhNVjlfUjVNTERIQzZoMlhSVzNYOWdReFdGNkpLRnBhMDFZYlkzcVllRWlKTUF6eWV3Q2xabGY1bmZKQktULVZISXZnNA?oc=5\" target=\"_blank\">It is reported that OpenAI may postpone its IPO until 2027, while Anthropic's valuation has risen to $96.5 billion.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 1671,
-      "ts": 1782634461,
-      "ts_str": "2026-06-28 08:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI may delay IPO to 2027 amid financial stabilization efforts - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 06:06:03 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxOSG5lTHZIcXZDdE1TVGpUMnJkeU1jcE81ajhYOERiTjMtbkRjM2FsQWVNaTNGdGxhQ3JDT0VFZVkxVXdsZHBtWG9FQzZENUpndG9RRFdwU0RhTUtENzJ4dkQyeVg4UzV5emlpMUFGcGMwN1NIX1poUFJqd2pudkFLUGdoaWdWU0hoMzQ2UTZnSU1tS2IzVEtMeA?oc=5\n\nOpenAI may delay IPO to 2027 amid financial stabilization efforts - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOSG5lTHZIcXZDdE1TVGpUMnJkeU1jcE81ajhYOERiTjMtbkRjM2FsQWVNaTNGdGxhQ3JDT0VFZVkxVXdsZHBtWG9FQzZENUpndG9RRFdwU0RhTUtENzJ4dkQyeVg4UzV5emlpMUFGcGMwN1NIX1poUFJqd2pudkFLUGdoaWdWU0hoMzQ2UTZnSU1tS2IzVEtMeA?oc=5\" target=\"_blank\">OpenAI may delay IPO to 2027 amid financial stabilization efforts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Crypto Briefing headline reports OpenAI may delay its IPO to 2027 amid \"financial stabilization efforts.\"\n\n\u5185\u5bb9:\nCrypto Briefing \u62a5\u9053\u79f0\uff0cOpenAI \u53ef\u80fd\u56e0\"\u8d22\u52a1\u7a33\u5b9a\"\u5de5\u4f5c\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA pushed-back IPO signals OpenAI doesn't yet have the financials to face public-market scrutiny \u2014 the AI-capex spending is outrunning a clean revenue/margin story. As the anchor tenant funding the buildout (Microsoft, Oracle, neocloud commitments), a delay here questions the demand pillar the whole infrastructure thesis rests on.\n\n\u5f71\u54cd:\nIPO \u5ef6\u540e\u8bf4\u660e OpenAI \u7684\u8d22\u52a1\u72b6\u51b5\u8fd8\u6491\u4e0d\u8d77\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u2014\u2014AI capex \u7684\u652f\u51fa\u8282\u594f\u8dd1\u8d62\u4e86\u5e72\u51c0\u7684\u6536\u5165/\u5229\u6da6\u6545\u4e8b\u3002\u4f5c\u4e3a\u6574\u4e2a\u57fa\u5efa\u72c2\u6f6e\u7684\u6838\u5fc3\u9700\u6c42\u65b9\uff08\u5fae\u8f6f\u3001Oracle\u3001neocloud \u7684\u627f\u8bfa\u90fd\u62bc\u5728\u5b83\u8eab\u4e0a\uff09\uff0c\u5b83\u63a8\u8fdf\u4e0a\u5e02\u76f4\u63a5\u52a8\u6447\u4e86\u6574\u4e2a\u57fa\u5efa\u903b\u8f91\u8d56\u4ee5\u6210\u7acb\u7684\u9700\u6c42\u652f\u67f1\u3002\n",
       "emailed": false
     }
   ],
