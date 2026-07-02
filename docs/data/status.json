@@ -1,12 +1,12 @@
 {
-  "generated_at": 1782970864,
-  "generated_at_str": "2026-07-02 05:41:04 UTC",
-  "last_event_ts": 1782970504,
+  "generated_at": 1782971050,
+  "generated_at_str": "2026-07-02 05:44:10 UTC",
+  "last_event_ts": 1782971047,
   "tables": {
     "alerts_dedup": {
-      "count": 1844,
-      "last_ts": 1782962063,
-      "last_str": "2026-07-02 03:14:23 UTC"
+      "count": 1845,
+      "last_ts": 1782971047,
+      "last_str": "2026-07-02 05:44:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2598,
-      "last_ts": 1782969244,
-      "last_str": "2026-07-02 05:14:04 UTC"
+      "count": 2600,
+      "last_ts": 1782971043,
+      "last_str": "2026-07-02 05:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 534,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-02 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13103,
-      "last_ts": 1782969243,
-      "last_str": "2026-07-02 05:14:03 UTC"
+      "count": 13115,
+      "last_ts": 1782971042,
+      "last_str": "2026-07-02 05:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1852,
+      "ts": 1782971047,
+      "ts_str": "2026-07-02 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI proposes US government stake in $852B company ahead of IPO - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 04:54:18 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxNRm91V2t6d0NZcThmNzlyWkZrYnFlU1ZpSDBVWVBhbGF6Z2x5Zlg0WWdfVVEzS1NHTHE1aWU1X0pBb3dxTzlqRWtSNm5nczBNYVMyQV80LWxuSzlxMHhUVV9iY1B5dVF0dzVnU1lVVmQtd0x3SU45OWpfRzRLbUpIMjEtZXVCUW1UUzFNUmFZTWdFRlo5SVZ3?oc=5\n\nOpenAI proposes US government stake in $852B company ahead of IPO - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNRm91V2t6d0NZcThmNzlyWkZrYnFlU1ZpSDBVWVBhbGF6Z2x5Zlg0WWdfVVEzS1NHTHE1aWU1X0pBb3dxTzlqRWtSNm5nczBNYVMyQV80LWxuSzlxMHhUVV9iY1B5dVF0dzVnU1lVVmQtd0x3SU45OWpfRzRLbUpIMjEtZXVCUW1UUzFNUmFZTWdFRlo5SVZ3?oc=5\" target=\"_blank\">OpenAI proposes US government stake in $852B company ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 1850,
       "ts": 1782962063,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 12:29:05 GMT\nLink:      https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTW95UnRZdTdTS19KWWlSY2hteXh2MHFZeXJBenl6b1lrZFdreFIzQzFkeWNab2RRTlNIbFdfVXZ3SjVYUmZ0X2hDMXJVWW9rRnBwNXRYMVZBZ1pEOWUyT29WcUV4R2I2SENWVlpHSDJyYkhjRGhKNDNHRkxfLUg5UmxuRTctYWNjek1xZDRCUW5wV1dxUHh0SFE4WkdMMG9hdHU4SVRWX25icktQT0Vvd2drSkNxQm13UGhVRzduNk1zaW9fbXdOdlBodnlhQXo4bmFjTkowbDFUVUUtcnhDV2hTR2ZiZWhtdEFqQ0JaeVp1aGJRMTBn?oc=5\n\nSanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTW95UnRZdTdTS19KWWlSY2hteXh2MHFZeXJBenl6b1lrZFdreFIzQzFkeWNab2RRTlNIbFdfVXZ3SjVYUmZ0X2hDMXJVWW9rRnBwNXRYMVZBZ1pEOWUyT29WcUV4R2I2SENWVlpHSDJyYkhjRGhKNDNHRkxfLUg5UmxuRTctYWNjek1xZDRCUW5wV1dxUHh0SFE4WkdMMG9hdHU4SVRWX25icktQT0Vvd2drSkNxQm13UGhVRzduNk1zaW9fbXdOdlBodnlhQXo4bmFjTkowbDFUVUUtcnhDV2hTR2ZiZWhtdEFqQ0JaeVp1aGJRMTBn?oc=5\" target=\"_blank\">SanDisk\u2019s 8TB PS5 SSD launches at nearly $3,000 amid shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SanDisk 8TB PS5 SSD launched at nearly $3,000 amid NAND flash shortages, per an MSN headline.\n\n\u5185\u5bb9:\n\u636e MSN \u6807\u9898\uff0cSanDisk \u4e00\u6b3e 8TB PS5 SSD \u5728 NAND \u95ea\u5b58\u77ed\u7f3a\u80cc\u666f\u4e0b\u4ee5\u8fd1 $3,000 \u7684\u4ef7\u683c\u4e0a\u5e02\u3002\n\nWhy it matters:\nConsumer storage prices spiking signals that AI datacenter buildouts are draining the NAND/DRAM supply chain. When hyperscaler memory demand starts pricing retail buyers out of the market, it's evidence the AI-capex cycle is straining physical component supply \u2014 an inflation channel that pressures everyone's hardware costs.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7\u5b58\u50a8\u4ef7\u683c\u66b4\u6da8\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u62bd\u5e72 NAND/DRAM \u4f9b\u5e94\u94fe\u3002\u5f53\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5185\u5b58\u9700\u6c42\u5f00\u59cb\u628a\u96f6\u552e\u4e70\u5bb6\u6324\u51fa\u5e02\u573a\uff0c\u5c31\u8bc1\u660e AI capex \u5468\u671f\u5df2\u7ecf\u5728\u6324\u538b\u5b9e\u4f53\u5143\u5668\u4ef6\u4f9b\u7ed9\u2014\u2014\u8fd9\u662f\u4e00\u6761\u4f1a\u63a8\u9ad8\u6240\u6709\u4eba\u786c\u4ef6\u6210\u672c\u7684\u901a\u80c0\u4f20\u5bfc\u6e20\u9053\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1652,
-      "ts": 1782602055,
-      "ts_str": "2026-06-27 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] US stocks fall as report of OpenAI IPO delay causes jitters - Indiatimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 27 Jun 2026 08:04:45 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxNS29CcEVkMURRMVNaZ0JBUFhtamczWXZBdDE0MndVWEN2Nzk2MDFuOXBEZ2lNRWwyTmZ5U3laVGZ0TGk4b0l5SjlYbGtidmlXOUJhbFQ3ZFNpdjhZQktsUURVYVdDTU1UUUdCeHVxY0w0d29aZUJzNUxSdUlqSmh6R0MtbGllbFQ1TXN0TGlmOWxSM0prVFNVWVpPSmNtNmpwdlRZbWJ0elU0R3J1YnlRMzFJM1BVOVA4b0FpTmtvdkxORG1fdnhuVDFDMFpkZw?oc=5\n\nUS stocks fall as report of OpenAI IPO delay causes jitters - Indiatimes\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNS29CcEVkMURRMVNaZ0JBUFhtamczWXZBdDE0MndVWEN2Nzk2MDFuOXBEZ2lNRWwyTmZ5U3laVGZ0TGk4b0l5SjlYbGtidmlXOUJhbFQ3ZFNpdjhZQktsUURVYVdDTU1UUUdCeHVxY0w0d29aZUJzNUxSdUlqSmh6R0MtbGllbFQ1TXN0TGlmOWxSM0prVFNVWVpPSmNtNmpwdlRZbWJ0elU0R3J1YnlRMzFJM1BVOVA4b0FpTmtvdkxORG1fdnhuVDFDMFpkZw?oc=5\" target=\"_blank\">US stocks fall as report of OpenAI IPO delay causes jitters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Indiatimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report that OpenAI is delaying its IPO sent US stocks lower, per an Indiatimes/Google News item headlined \"US stocks fall as report of OpenAI IPO delay causes jitters.\"\n\n\u5185\u5bb9:\n\u636e Indiatimes/Google News \u62a5\u9053\uff08\u6807\u9898\u4e3a\"US stocks fall as report of OpenAI IPO delay causes jitters\"\uff09\uff0c\u6709\u5173 OpenAI \u63a8\u8fdf IPO \u7684\u6d88\u606f\u4ee4\u7f8e\u80a1\u4e0b\u8dcc\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; signs its public-market debut is slipping suggests its financing path is less certain than assumed. The market reacting to an IPO delay shows how tightly index-level risk is now tied to a single private company's funding story.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u7684\u9700\u6c42\u951a\uff0c\u5176\u4e0a\u5e02\u8fdb\u7a0b\u51fa\u73b0\u63a8\u8fdf\u8ff9\u8c61\uff0c\u8bf4\u660e\u5b83\u7684\u878d\u8d44\u8def\u5f84\u5e76\u4e0d\u50cf\u5e02\u573a\u5047\u8bbe\u7684\u90a3\u4e48\u786e\u5b9a\u3002\u5e02\u573a\u4f1a\u56e0\u4e3a\u4e00\u6b21 IPO \u63a8\u8fdf\u800c\u6ce2\u52a8\uff0c\u6070\u6070\u663e\u793a\u51fa\u6307\u6570\u7ea7\u98ce\u9669\u5982\u4eca\u5df2\u4e0e\u4e00\u5bb6\u79c1\u8425\u516c\u53f8\u7684\u878d\u8d44\u6545\u4e8b\u9ad8\u5ea6\u7ed1\u5b9a\u3002\n",
       "emailed": false
     }
   ],
