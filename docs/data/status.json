@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783063924,
-  "generated_at_str": "2026-07-03 07:32:04 UTC",
-  "last_event_ts": 1783062842,
+  "generated_at": 1783064114,
+  "generated_at_str": "2026-07-03 07:35:14 UTC",
+  "last_event_ts": 1783064113,
   "tables": {
     "alerts_dedup": {
-      "count": 1899,
-      "last_ts": 1783060530,
-      "last_str": "2026-07-03 06:35:30 UTC"
+      "count": 1900,
+      "last_ts": 1783064113,
+      "last_str": "2026-07-03 07:35:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,19 +64,19 @@
       "last_str": "2026-07-03 03:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1532,
-      "last_ts": 1783062301,
-      "last_str": "2026-07-03 07:05:01 UTC"
+      "count": 1533,
+      "last_ts": 1783064102,
+      "last_str": "2026-07-03 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1750,
-      "last_ts": 1783062303,
-      "last_str": "2026-07-03 07:05:03 UTC"
+      "count": 1751,
+      "last_ts": 1783064103,
+      "last_str": "2026-07-03 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1182,
-      "last_ts": 1783062302,
-      "last_str": "2026-07-03 07:05:02 UTC"
+      "count": 1183,
+      "last_ts": 1783064102,
+      "last_str": "2026-07-03 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1400,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1907,
+      "ts": 1783064113,
+      "ts_str": "2026-07-03 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Eyes More DRAM Price Hikes Amid Supply Crunch - SammyGuru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:09:28 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE1VRHB5QS0zdnBTT1lmeDB6Yy1DU2xQWVg3S0Z3NEljbDkydlNUQTN2QWltMlI0dXZMeXVqMGZXRGlxTWI5a3l4V1NLT3dmLWpJdUFORHRvdGl2Z3BTbVR3MTVCQy1oRGY1OUlqbHY4VU9FQQ?oc=5\n\nSamsung Eyes More DRAM Price Hikes Amid Supply Crunch - SammyGuru\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1VRHB5QS0zdnBTT1lmeDB6Yy1DU2xQWVg3S0Z3NEljbDkydlNUQTN2QWltMlI0dXZMeXVqMGZXRGlxTWI5a3l4V1NLT3dmLWpJdUFORHRvdGl2Z3BTbVR3MTVCQy1oRGY1OUlqbHY4VU9FQQ?oc=5\" target=\"_blank\">Samsung Eyes More DRAM Price Hikes Amid Supply Crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SammyGuru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Samsung is planning further DRAM price hikes due to a supply crunch.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Samsung \u56e0\u4f9b\u5e94\u7d27\u5f20\u8ba1\u5212\u8fdb\u4e00\u6b65\u4e0a\u8c03 DRAM \u4ef7\u683c\u3002\n\nWhy it matters:\nRising memory prices push up hyperscaler capex per unit of compute (HBM/DRAM are a growing share of AI server BOM cost) while signaling constrained supply \u2014 a classic input-cost squeeze that erodes AI infrastructure margins from the hardware side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff08HBM/DRAM \u5728 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u4e2d\u5360\u6bd4\u8d8a\u6765\u8d8a\u9ad8\uff09\uff0c\u540c\u65f6\u8868\u660e\u4f9b\u7ed9\u53d7\u9650\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u786c\u4ef6\u7aef\u6295\u5165\u6210\u672c\u6324\u538b\u4fe1\u53f7\uff0c\u4f1a\u4fb5\u8680 AI \u57fa\u7840\u8bbe\u65bd\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1905,
       "ts": 1783060530,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Analysts predict another massive memory price increase in Q3 2026, and another in Q4 - TweakTown",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:37:06 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxPVS1IOXNTWHBNS1NwSnZwQnE3bDhaOV9lSGFpR2trdDh6dVpJZC1TYWJnQXBzdWFhRUd6OVpSUFFBYnlCdDY5VWJMLVRpWWp1NVJDaDc2UmthY0dCV3gtQnoxMjBWeUFQSDRfY09NRUx6UTdlT1d3Rmd6TnVDV296YnBWSHpfb2Z6VE0yUDU2d3ZPMmduUEloakM2MzB4YVh1N0FiR0hhQkJ5Z0c5VjN0XzY3ZjVwVER2RWkzQTZ4SmJNTE5RTWxpdEdpUk4?oc=5\n\nAnalysts predict another massive memory price increase in Q3 2026, and another in Q4 - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPVS1IOXNTWHBNS1NwSnZwQnE3bDhaOV9lSGFpR2trdDh6dVpJZC1TYWJnQXBzdWFhRUd6OVpSUFFBYnlCdDY5VWJMLVRpWWp1NVJDaDc2UmthY0dCV3gtQnoxMjBWeUFQSDRfY09NRUx6UTdlT1d3Rmd6TnVDV296YnBWSHpfb2Z6VE0yUDU2d3ZPMmduUEloakM2MzB4YVh1N0FiR0hhQkJ5Z0c5VjN0XzY3ZjVwVER2RWkzQTZ4SmJNTE5RTWxpdEdpUk4?oc=5\" target=\"_blank\">Analysts predict another massive memory price increase in Q3 2026, and another in Q4</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TweakTown headline reports analysts predicting another massive memory price increase in Q3 2026, with a further hike expected in Q4.\n\n\u5185\u5bb9:\nTweakTown \u7684\u62a5\u9053\u5f15\u7528\u5206\u6790\u5e08\u9884\u6d4b\uff1a\u5185\u5b58\u4ef7\u683c\u5c06\u5728 Q3 2026 \u518d\u6b21\u5927\u5e45\u4e0a\u6da8\uff0c\u5e76\u5728 Q4 \u8fdb\u4e00\u6b65\u4e0a\u8c03\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) is a core AI-buildout input \u2014 sustained price surges signal demand outrunning supply as hyperscalers and GPU vendors hoard capacity. Rising memory costs squeeze AI hardware margins and confirm the capex arms race is still bidding up the supply chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u662f AI \u57fa\u5efa\u7684\u6838\u5fc3\u7269\u6599\uff0c\u6301\u7eed\u6da8\u4ef7\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u4f9b\u7ed9\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c GPU \u5382\u5546\u5728\u56e4\u79ef\u4ea7\u80fd\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u6324\u538b AI \u786c\u4ef6\u5229\u6da6\uff0c\u4e5f\u5370\u8bc1\u8fd9\u573a\u8d44\u672c\u5f00\u652f\u519b\u5907\u7ade\u8d5b\u4ecd\u5728\u62ac\u9ad8\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u4ef7\u683c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1705,
-      "ts": 1782715479,
-      "ts_str": "2026-06-29 06:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO: Everything You Need to Know - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:39:53 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYWZQOERQQkZaTklhUEd4V1pMczNqdm9QM3M1WExYdFJyR0Y4Rzlxdjg3NEtqR0ljaUNEczRRZF9BTWg1QkJFVURzWlRFYUVhZUN3ODVJQzJTYjNjT1JfcWpVX3pieWJxcVNxWl93V0lmd05VWS1mM2Q4ZHR1Z2N0MnQ4NTdRQjlibXo0?oc=5\n\nOpenAI IPO: Everything You Need to Know - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYWZQOERQQkZaTklhUEd4V1pMczNqdm9QM3M1WExYdFJyR0Y4Rzlxdjg3NEtqR0ljaUNEczRRZF9BTWg1QkJFVURzWlRFYUVhZUN3ODVJQzJTYjNjT1JfcWpVX3pieWJxcVNxWl93V0lmd05VWS1mM2Q4ZHR1Z2N0MnQ4NTdRQjlibXo0?oc=5\" target=\"_blank\">OpenAI IPO: Everything You Need to Know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced an Investing.com explainer headlined \"OpenAI IPO: Everything You Need to Know.\"\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u63a8\u9001\u4e86 Investing.com \u7684\u89e3\u8bfb\u6587\u7ae0\uff0c\u6807\u9898\u4e3a\u300aOpenAI IPO: Everything You Need to Know\u300b\u3002\n\nWhy it matters:\nRising IPO chatter around OpenAI is a late-cycle marker \u2014 it signals insiders preparing to monetize at peak narrative, and a public listing would force disclosure of the loss-making economics propping up the AI-capex boom.\n\n\u5f71\u54cd:\n\u56f4\u7ed5 OpenAI \u7684 IPO \u8ba8\u8bba\u5347\u6e29\u662f\u5468\u671f\u665a\u671f\u7684\u6807\u5fd7\u2014\u2014\u5b83\u6697\u793a\u5185\u90e8\u4eba\u58eb\u6b63\u51c6\u5907\u5728\u53d9\u4e8b\u9876\u70b9\u5957\u73b0\uff0c\u800c\u4e00\u65e6\u516c\u5f00\u4e0a\u5e02\uff0c\u5c31\u5fc5\u987b\u62ab\u9732\u652f\u6491\u8fd9\u8f6e AI capex \u70ed\u6f6e\u80cc\u540e\u90a3\u5957\u4e8f\u635f\u7684\u8d22\u52a1\u5b9e\u51b5\u3002\n",
       "emailed": false
     }
   ],
