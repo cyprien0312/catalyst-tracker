@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783107130,
-  "generated_at_str": "2026-07-03 19:32:10 UTC",
-  "last_event_ts": 1783106043,
+  "generated_at": 1783107307,
+  "generated_at_str": "2026-07-03 19:35:07 UTC",
+  "last_event_ts": 1783107306,
   "tables": {
     "alerts_dedup": {
-      "count": 1935,
-      "last_ts": 1783105515,
-      "last_str": "2026-07-03 19:05:15 UTC"
+      "count": 1936,
+      "last_ts": 1783107306,
+      "last_str": "2026-07-03 19:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-03 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1577,
-      "last_ts": 1783100107,
-      "last_str": "2026-07-03 17:35:07 UTC"
+      "count": 1578,
+      "last_ts": 1783107303,
+      "last_str": "2026-07-03 19:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1807,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-03 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1215,
-      "last_ts": 1783105502,
-      "last_str": "2026-07-03 19:05:02 UTC"
+      "count": 1222,
+      "last_ts": 1783107304,
+      "last_str": "2026-07-03 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1436,
-      "last_ts": 1783105504,
-      "last_str": "2026-07-03 19:05:04 UTC"
+      "count": 1438,
+      "last_ts": 1783107306,
+      "last_str": "2026-07-03 19:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13522,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1943,
+      "ts": 1783107306,
+      "ts_str": "2026-07-03 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung, Micron, SK Hynix sued over DRAM price-fixing triggering a \u2018RAMpocalypse\u2019 as memory prices soar - Notebookcheck",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 13:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekRKT05BQm16UVV1UlhxODVfZ3RKSmtLNkpraGdhQXVaeThZMC16anVMOHRreEp6VzBLMmFqTUQ4TnF5Z3BNVkpieEcyay1DT2xNQVRzNHByVWVybGlyRk01VmdrakR2ZXlaaU1wYXJ0YkM0X09JcGZqcGhEV25hQUNFV0U2cnRNYUR2TkRPSEZINlFzUEVEZmdCNmpidTdDR3dmNWR0NXNzUEx4Znd3ZG4zVkkxdkZoQldpTlNaX0VJTVNaa04wVnlnN1BUc2pGMHNQbXItVGt6c3ln?oc=5\n\nSamsung, Micron, SK Hynix sued over DRAM price-fixing triggering a \u2018RAMpocalypse\u2019 as memory prices soar - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekRKT05BQm16UVV1UlhxODVfZ3RKSmtLNkpraGdhQXVaeThZMC16anVMOHRreEp6VzBLMmFqTUQ4TnF5Z3BNVkpieEcyay1DT2xNQVRzNHByVWVybGlyRk01VmdrakR2ZXlaaU1wYXJ0YkM0X09JcGZqcGhEV25hQUNFV0U2cnRNYUR2TkRPSEZINlFzUEVEZmdCNmpidTdDR3dmNWR0NXNzUEx4Znd3ZG4zVkkxdkZoQldpTlNaX0VJTVNaa04wVnlnN1BUc2pGMHNQbXItVGt6c3ln?oc=5\" target=\"_blank\">Samsung, Micron, SK Hynix sued over DRAM price-fixing triggering a \u2018RAMpocalypse\u2019 as memory prices soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Notebookcheck aggregation reports Samsung, Micron, and SK Hynix face a lawsuit over DRAM price-fixing amid what it calls a 'RAMpocalypse' of surging memory prices.\n\n\u5185\u5bb9:\n\u636e Notebookcheck \u6c47\u603b\u62a5\u9053\uff0cSamsung\u3001Micron\u3001SK Hynix \u4e09\u5bb6\u516c\u53f8\u56e0 DRAM \u4ef7\u683c\u64cd\u7eb5\u88ab\u8d77\u8bc9\uff0c\u540c\u65f6\u5185\u5b58\u4ef7\u683c\u66b4\u6da8\uff0c\u88ab\u79f0\u4e3a 'RAMpocalypse'\u3002\n\nWhy it matters:\nCoordinated DRAM/NAND price spikes plus antitrust exposure across all three major suppliers signal memory is now a capacity-constrained bottleneck for AI hardware, not just a GPU story \u2014 rising input costs squeeze hyperscaler margins on server builds.\n\n\u5f71\u54cd:\n\u4e09\u5927\u5185\u5b58\u5382\u5546\u540c\u65f6\u51fa\u73b0\u4ef7\u683c\u534f\u540c\u4e0a\u6da8\u5e76\u9762\u4e34\u53cd\u5784\u65ad\u8bc9\u8bbc\uff0c\u8bf4\u660e\u5185\u5b58\u5df2\u6210\u4e3a AI \u786c\u4ef6\u7684\u4ea7\u80fd\u74f6\u9888\uff0c\u800c\u4e0d\u53ea\u662f GPU \u7aef\u7684\u95ee\u9898\u2014\u2014\u4e0a\u6e38\u6210\u672c\u4e0a\u5347\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u670d\u52a1\u5668\u5efa\u8bbe\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1942,
       "ts": 1783105515,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Why the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 16:54:52 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE1zZVFGd2pCaEhPU3YwOHo2ODh6czYwQkdWbEdrejFxZkEyVnhIWUZJSUN0S0F6b2xfRHdadHdMblI3ZmxFd0w2RFR0eEViSlhLQi1JTjVYZktRc0pvZndtSGlyVDdrRWZPY3JUV19tUGNVLVZOOWFTemN0MWxQQdIBfkFVX3lxTE1zZVFGd2pCaEhPU3YwOHo2ODh6czYwQkdWbEdrejFxZkEyVnhIWUZJSUN0S0F6b2xfRHdadHdMblI3ZmxFd0w2RFR0eEViSlhLQi1JTjVYZktRc0pvZndtSGlyVDdrRWZPY3JUV19tUGNVLVZOOWFTemN0MWxQQQ?oc=5\n\nWhy the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1zZVFGd2pCaEhPU3YwOHo2ODh6czYwQkdWbEdrejFxZkEyVnhIWUZJSUN0S0F6b2xfRHdadHdMblI3ZmxFd0w2RFR0eEViSlhLQi1JTjVYZktRc0pvZndtSGlyVDdrRWZPY3JUV19tUGNVLVZOOWFTemN0MWxQQdIBfkFVX3lxTE1zZVFGd2pCaEhPU3YwOHo2ODh6czYwQkdWbEdrejFxZkEyVnhIWUZJSUN0S0F6b2xfRHdadHdMblI3ZmxFd0w2RFR0eEViSlhLQi1JTjVYZktRc0pvZndtSGlyVDdrRWZPY3JUV19tUGNVLVZOOWFTemN0MWxQQQ?oc=5\" target=\"_blank\">Why the OpenAI IPO Delay is a Red Flag for the AI Bubble</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baystreet.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item headlined \"Why the OpenAI IPO Delay is a Red Flag for the AI Bubble\" (Baystreet.ca) surfaced in the C3 OpenAI feed scan.\n\n\u5185\u5bb9:\nC3 OpenAI \u4fe1\u6e90\u626b\u63cf\u6355\u83b7\u5230\u4e00\u6761 Google News RSS\uff1a\u6807\u9898\u4e3a\u300aWhy the OpenAI IPO Delay is a Red Flag for the AI Bubble\u300b\uff08\u6765\u6e90 Baystreet.ca\uff09\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout \u2014 its compute commitments underwrite Oracle, the neoclouds, and hyperscaler spend. A delayed or stalled IPO removes the equity-raise path for funding those commitments and signals the public market won't yet validate the valuation, which is the kind of financing-side crack the bubble-stress thesis watches for.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\u2014\u2014\u5b83\u7684\u7b97\u529b\u627f\u8bfa\u6491\u8d77\u4e86 Oracle\u3001neocloud \u548c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u652f\u51fa\u3002IPO \u63a8\u8fdf\u6216\u6401\u6d45\u610f\u5473\u7740\u5151\u73b0\u8fd9\u4e9b\u627f\u8bfa\u7684\u80a1\u6743\u878d\u8d44\u8def\u5f84\u88ab\u5835\u4f4f\uff0c\u4e5f\u8bf4\u660e\u516c\u5f00\u5e02\u573a\u6682\u65f6\u4e0d\u8ba4\u53ef\u5176\u4f30\u503c\uff0c\u800c\u8fd9\u6b63\u662f bubble-stress \u903b\u8f91\u91cd\u70b9\u76ef\u9632\u7684\u878d\u8d44\u7aef\u88c2\u7f1d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1743,
-      "ts": 1782756867,
-      "ts_str": "2026-06-29 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Why the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 14:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE5UREpobjJtOFA3YWRhemVPMXRiZm1LUm5EdXhvMFJXWnpDblN6d1dqeXNGbE9PMjZIaFJlX1UtN1VlOEFqdTh0RlRYY2JCSVh4alY3YTRNT3BiMmJYZHBJQzZZWTJNcC0yb2pKVDZxUXUzbUlZX1Nr0gF8QVVfeXFMUHdZRnNnblJ4VHlWbm4yQ3RqZVlOXzVYbXYwaG5SS3ZSUjhULWNBNndsRy00MlpqT19fQnd1c0gzMGpPOFIyejFBc1pYRmFNRzNBWExRdzk2Uy1hdF9mMjhEUl9EdVNIXzdRcnpDT2s1RzBhUzRPd1lPRUk3MA?oc=5\n\nWhy the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5UREpobjJtOFA3YWRhemVPMXRiZm1LUm5EdXhvMFJXWnpDblN6d1dqeXNGbE9PMjZIaFJlX1UtN1VlOEFqdTh0RlRYY2JCSVh4alY3YTRNT3BiMmJYZHBJQzZZWTJNcC0yb2pKVDZxUXUzbUlZX1Nr0gF8QVVfeXFMUHdZRnNnblJ4VHlWbm4yQ3RqZVlOXzVYbXYwaG5SS3ZSUjhULWNBNndsRy00MlpqT19fQnd1c0gzMGpPOFIyejFBc1pYRmFNRzNBWExRdzk2Uy1hdF9mMjhEUl9EdVNIXzdRcnpDT2s1RzBhUzRPd1lPRUk3MA?oc=5\" target=\"_blank\">Why the OpenAI IPO Delay is a Red Flag for the AI Bubble</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baystreet.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flagged by the C3 OpenAI watch reads \"Why the OpenAI IPO Delay is a Red Flag for the AI Bubble\" (Baystreet.ca), tying a stalled OpenAI public listing to bubble risk.\n\n\u5185\u5bb9:\nC3 OpenAI \u76d1\u63a7\u6355\u6349\u5230\u4e00\u6761 Google News \u6807\u9898\u300aWhy the OpenAI IPO Delay is a Red Flag for the AI Bubble\u300b\uff08\u6765\u6e90 Baystreet.ca\uff09\uff0c\u5c06 OpenAI \u63a8\u8fdf\u4e0a\u5e02\u4e0e AI \u6ce1\u6cab\u98ce\u9669\u8054\u7cfb\u8d77\u6765\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the entire AI-capex buildout; a delayed or shaky path to public markets signals the funding that backstops hyperscaler and neocloud spending may be harder to raise. A widely-circulated \"red flag\" framing marks sentiment turning on the sector's keystone name.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\uff1b\u5176\u4e0a\u5e02\u8def\u5f84\u88ab\u63a8\u8fdf\u6216\u53d8\u5f97\u4e0d\u7a33\uff0c\u610f\u5473\u7740\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u8d44\u91d1\u53ef\u80fd\u66f4\u96be\u7b79\u96c6\u3002\u8fd9\u79cd\u88ab\u5e7f\u6cdb\u4f20\u64ad\u7684\u300c\u7ea2\u65d7\u300d\u8bba\u8c03\uff0c\u6807\u5fd7\u7740\u5e02\u573a\u60c5\u7eea\u6b63\u5728\u8fd9\u4e2a\u6838\u5fc3\u6807\u7684\u4e0a\u8f6c\u5411\u3002\n",
       "emailed": false
     }
   ],
