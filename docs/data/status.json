@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783074724,
-  "generated_at_str": "2026-07-03 10:32:04 UTC",
-  "last_event_ts": 1783073644,
+  "generated_at": 1783074918,
+  "generated_at_str": "2026-07-03 10:35:18 UTC",
+  "last_event_ts": 1783074918,
   "tables": {
     "alerts_dedup": {
-      "count": 1909,
-      "last_ts": 1783070056,
-      "last_str": "2026-07-03 09:14:16 UTC"
+      "count": 1910,
+      "last_ts": 1783074918,
+      "last_str": "2026-07-03 10:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-03 10:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1543,
-      "last_ts": 1783073102,
-      "last_str": "2026-07-03 10:05:02 UTC"
+      "count": 1546,
+      "last_ts": 1783074902,
+      "last_str": "2026-07-03 10:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1764,
-      "last_ts": 1783073103,
-      "last_str": "2026-07-03 10:05:03 UTC"
+      "count": 1765,
+      "last_ts": 1783074904,
+      "last_str": "2026-07-03 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1195,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-03 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1404,
-      "last_ts": 1783071305,
-      "last_str": "2026-07-03 09:35:05 UTC"
+      "count": 1405,
+      "last_ts": 1783074905,
+      "last_str": "2026-07-03 10:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13455,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1917,
+      "ts": 1783074918,
+      "ts_str": "2026-07-03 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung seeks DRAM price hike in Q3 - Tech in Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE4tTHk4dXdGLWZLaUlJcDltbFZEZWQ5MWZIRXFKNlYzMHNORXZoSE4zUzZHbWdYZ1pFRTVqUk0zLTJGOS1mMmotbXNQYlM3b0tacjdwMWwwd0hYaHZIOERQTXczQ25tdlZXOUh1RTdkd0NxZw?oc=5\n\nSamsung seeks DRAM price hike in Q3 - Tech in Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE4tTHk4dXdGLWZLaUlJcDltbFZEZWQ5MWZIRXFKNlYzMHNORXZoSE4zUzZHbWdYZ1pFRTVqUk0zLTJGOS1mMmotbXNQYlM3b0tacjdwMWwwd0hYaHZIOERQTXczQ25tdlZXOUh1RTdkd0NxZw?oc=5\" target=\"_blank\">Samsung seeks DRAM price hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech in Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is seeking a DRAM price increase for Q3.\n\n\u5185\u5bb9:\n\u4e09\u661f\u6b63\u5bfb\u6c42\u5728\u7b2c\u4e09\u5b63\u5ea6\u4e0a\u8c03 DRAM \u4ef7\u683c\u3002\n\nWhy it matters:\nRising DRAM prices raise the input cost of AI server memory (HBM/DRAM), squeezing hyperscaler capex efficiency and signaling supply tightness rather than oversupply \u2014 a mild bullish tell for memory suppliers but a cost headwind for AI-infra buyers.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7\u4f1a\u63a8\u9ad8 AI \u670d\u52a1\u5668\u5185\u5b58\uff08HBM/DRAM\uff09\u7684\u91c7\u8d2d\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\uff0c\u540c\u65f6\u4e5f\u8bf4\u660e\u4f9b\u5e94\u504f\u7d27\u800c\u975e\u8fc7\u5269\u2014\u2014\u5bf9\u5b58\u50a8\u4f9b\u5e94\u5546\u662f\u5229\u597d\uff0c\u4f46\u5bf9 AI \u57fa\u7840\u8bbe\u65bd\u91c7\u8d2d\u65b9\u662f\u6210\u672c\u7aef\u7684\u9006\u98ce\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1916,
       "ts": 1783070056,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's Cannes Gambit: The $2.4 Billion Ad Bet Before the IPO - Open Magazine",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 08:18:15 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPckphOElWd0JfbWlJWXFYZ3VhSDFxZGY3UkF6SHlvbnAyV3hEeUJxMnFxakN3cjQyaWNpaGxRSU81bzR0Wjgwd3dYWWp0UWNpY1BCUExYUFQtSXVwZXFvOTNMVFdQTzB6dWM2SnBKMklrMlBDemw4M1BwaElpMzJGVWN0ZHBabFJTdjcxYV9kS1ZsVG5BQldkYWFYTEgzeFpfSWZDbnFGOEhjZzBIVlAwaE4zb0dhU2VDUXlYQ0t3?oc=5\n\nOpenAI's Cannes Gambit: The $2.4 Billion Ad Bet Before the IPO - Open Magazine\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPckphOElWd0JfbWlJWXFYZ3VhSDFxZGY3UkF6SHlvbnAyV3hEeUJxMnFxakN3cjQyaWNpaGxRSU81bzR0Wjgwd3dYWWp0UWNpY1BCUExYUFQtSXVwZXFvOTNMVFdQTzB6dWM2SnBKMklrMlBDemw4M1BwaElpMzJGVWN0ZHBabFJTdjcxYV9kS1ZsVG5BQldkYWFYTEgzeFpfSWZDbnFGOEhjZzBIVlAwaE4zb0dhU2VDUXlYQ0t3?oc=5\" target=\"_blank\">OpenAI's Cannes Gambit: The $2.4 Billion Ad Bet Before the IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Open Magazine</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is making a $2.4 billion advertising bet at Cannes ahead of its IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0cOpenAI \u5728 IPO \u524d\u4e8e Cannes \u6295\u4e0b $2.4 Billion \u7684\u5e7f\u544a\u62bc\u6ce8\u3002\n\nWhy it matters:\nA $2.4B ad spend before profitability signals OpenAI is prioritizing growth and IPO optics over capital discipline \u2014 pouring money into demand generation while its compute costs remain enormous. Heavy pre-IPO marketing on a cash-burning AI company is a late-cycle, hype-driven spending pattern.\n\n\u5f71\u54cd:\n\u5728\u5c1a\u672a\u76c8\u5229\u524d\u7838\u4e0b $2.4B \u5e7f\u544a\u8d39\uff0c\u8bf4\u660e OpenAI \u628a\u589e\u957f\u548c IPO \u4f30\u503c\u8868\u73b0\u653e\u5728\u8d44\u672c\u7eaa\u5f8b\u4e4b\u4e0a\u2014\u2014\u5728\u7b97\u529b\u6210\u672c\u4ecd\u7136\u5de8\u5927\u7684\u60c5\u51b5\u4e0b\u5927\u4e3e\u70e7\u94b1\u505a\u9700\u6c42\u62c9\u52a8\u3002\u4e00\u5bb6\u6301\u7eed\u70e7\u94b1\u7684 AI \u516c\u53f8\u5728 IPO \u524d\u91cd\u91d1\u8425\u9500\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u3001\u9760\u7092\u4f5c\u9a71\u52a8\u7684\u652f\u51fa\u6a21\u5f0f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1717,
-      "ts": 1782724484,
-      "ts_str": "2026-06-29 09:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] STARTRADER launches pre-IPO trading products for OpenAI and Anthropic - FXStreet",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 08:44:35 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FmSERKb2kzQVBOVXZRZHlfUDhqQnNYOHZHRVhTUzVTYnc0Qi1uQlgtQS03SHhFMm16VHRNMHFQcUxuanN6Y3pqR29YMUUydVBUT1RqZFVZMHh5YktQNUVOaFR4MWNDOHdIMGZHM19WY1B0ZVkteFE4VnNGN1ZIb0pjc216dHN1LVdmZ3BBdWk0UkF0ZzdwazNNRlBsQUxBVjd4cjJoTjhOa0pVY01jbDZlMGwtODlEMU5DWjRqOA?oc=5\n\nSTARTRADER launches pre-IPO trading products for OpenAI and Anthropic - FXStreet\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FmSERKb2kzQVBOVXZRZHlfUDhqQnNYOHZHRVhTUzVTYnc0Qi1uQlgtQS03SHhFMm16VHRNMHFQcUxuanN6Y3pqR29YMUUydVBUT1RqZFVZMHh5YktQNUVOaFR4MWNDOHdIMGZHM19WY1B0ZVkteFE4VnNGN1ZIb0pjc216dHN1LVdmZ3BBdWk0UkF0ZzdwazNNRlBsQUxBVjd4cjJoTjhOa0pVY01jbDZlMGwtODlEMU5DWjRqOA?oc=5\" target=\"_blank\">STARTRADER launches pre-IPO trading products for OpenAI and Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXStreet</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSTARTRADER, a retail brokerage, launched pre-IPO trading products giving clients synthetic exposure to OpenAI and Anthropic before either company has gone public.\n\n\u5185\u5bb9:\n\u96f6\u552e\u7ecf\u7eaa\u5546 STARTRADER \u63a8\u51fa pre-IPO \u4ea4\u6613\u4ea7\u54c1\uff0c\u8ba9\u5ba2\u6237\u5728 OpenAI \u548c Anthropic \u4e0a\u5e02\u4e4b\u524d\u5c31\u80fd\u83b7\u5f97\u5bf9\u8fd9\u4e24\u5bb6\u516c\u53f8\u7684\u5408\u6210\u655e\u53e3\u3002\n\nWhy it matters:\nPackaging unlisted AI labs into retail-tradable products is a late-cycle demand signal \u2014 the appetite for AI exposure has outrun the supply of actual public equity, so intermediaries are manufacturing synthetic access. This is the kind of retail-distribution froth that tends to cluster near tops.\n\n\u5f71\u54cd:\n\u628a\u5c1a\u672a\u4e0a\u5e02\u7684 AI \u516c\u53f8\u5305\u88c5\u6210\u96f6\u552e\u53ef\u4ea4\u6613\u4ea7\u54c1\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u9700\u6c42\u4fe1\u53f7\u2014\u2014\u5e02\u573a\u5bf9 AI \u655e\u53e3\u7684\u80c3\u53e3\u5df2\u7ecf\u8d85\u8fc7\u4e86\u771f\u5b9e\u516c\u5f00\u80a1\u7968\u7684\u4f9b\u7ed9\uff0c\u4e8e\u662f\u4e2d\u4ecb\u5f00\u59cb\u5236\u9020\u5408\u6210\u5f0f\u7684\u6295\u8d44\u6e20\u9053\u3002\u8fd9\u79cd\u9762\u5411\u6563\u6237\u7684\u5206\u9500\u72c2\u70ed\u5f80\u5f80\u51fa\u73b0\u5728\u9876\u90e8\u9644\u8fd1\u3002\n",
       "emailed": false
     }
   ],
