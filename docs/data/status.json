@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783096332,
-  "generated_at_str": "2026-07-03 16:32:12 UTC",
-  "last_event_ts": 1783095242,
+  "generated_at": 1783096507,
+  "generated_at_str": "2026-07-03 16:35:07 UTC",
+  "last_event_ts": 1783096506,
   "tables": {
     "alerts_dedup": {
-      "count": 1928,
-      "last_ts": 1783093454,
-      "last_str": "2026-07-03 15:44:14 UTC"
+      "count": 1929,
+      "last_ts": 1783096506,
+      "last_str": "2026-07-03 16:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-03 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1573,
-      "last_ts": 1783094702,
-      "last_str": "2026-07-03 16:05:02 UTC"
+      "count": 1574,
+      "last_ts": 1783096503,
+      "last_str": "2026-07-03 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1789,
-      "last_ts": 1783094704,
-      "last_str": "2026-07-03 16:05:04 UTC"
+      "count": 1795,
+      "last_ts": 1783096505,
+      "last_str": "2026-07-03 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1209,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1936,
+      "ts": 1783096506,
+      "ts_str": "2026-07-03 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Eyes More DRAM Price Hikes Amid Supply Crunch - SammyGuru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:09:28 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE1VRHB5QS0zdnBTT1lmeDB6Yy1DU2xQWVg3S0Z3NEljbDkydlNUQTN2QWltMlI0dXZMeXVqMGZXRGlxTWI5a3l4V1NLT3dmLWpJdUFORHRvdGl2Z3BTbVR3MTVCQy1oRGY1OUlqbHY4VU9FQQ?oc=5\n\nSamsung Eyes More DRAM Price Hikes Amid Supply Crunch - SammyGuru\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1VRHB5QS0zdnBTT1lmeDB6Yy1DU2xQWVg3S0Z3NEljbDkydlNUQTN2QWltMlI0dXZMeXVqMGZXRGlxTWI5a3l4V1NLT3dmLWpJdUFORHRvdGl2Z3BTbVR3MTVCQy1oRGY1OUlqbHY4VU9FQQ?oc=5\" target=\"_blank\">Samsung Eyes More DRAM Price Hikes Amid Supply Crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SammyGuru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Samsung is planning further DRAM price hikes due to a supply crunch.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Samsung \u56e0\u4f9b\u5e94\u7d27\u5f20\u8ba1\u5212\u8fdb\u4e00\u6b65\u4e0a\u8c03 DRAM \u4ef7\u683c\u3002\n\nWhy it matters:\nRising memory prices push up hyperscaler capex per unit of compute (HBM/DRAM are a growing share of AI server BOM cost) while signaling constrained supply \u2014 a classic input-cost squeeze that erodes AI infrastructure margins from the hardware side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff08HBM/DRAM \u5728 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u4e2d\u5360\u6bd4\u8d8a\u6765\u8d8a\u9ad8\uff09\uff0c\u540c\u65f6\u8868\u660e\u4f9b\u7ed9\u53d7\u9650\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u786c\u4ef6\u7aef\u6295\u5165\u6210\u672c\u6324\u538b\u4fe1\u53f7\uff0c\u4f1a\u4fb5\u8680 AI \u57fa\u7840\u8bbe\u65bd\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1935,
       "ts": 1783093454,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials cost; a 700% DRAM jump means HBM/DRAM scarcity is pricing through to system builders, squeezing hyperscaler capex economics and signaling supply-side stress in the AI buildout. Litigation also raises the odds of price-fixing scrutiny that could whipsaw supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u7684\u6838\u5fc3\u90e8\u5206\uff1bDRAM \u4ef7\u683c\u4e0a\u6da8 700% \u610f\u5473\u7740 HBM/DRAM \u77ed\u7f3a\u6b63\u4f20\u5bfc\u5230\u7cfb\u7edf\u5382\u5546\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u662f AI \u57fa\u5efa\u4f9b\u7ed9\u7aef\u7d27\u5f20\u7684\u4fe1\u53f7\u3002\u8bc9\u8bbc\u8fd8\u63d0\u9ad8\u4e86\u4ef7\u683c\u64cd\u7eb5\u5ba1\u67e5\u7684\u6982\u7387\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u6270\u52a8\u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1737,
-      "ts": 1782749116,
-      "ts_str": "2026-06-29 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials cost; a 700% DRAM jump means HBM/DRAM scarcity is pricing through to system builders, squeezing hyperscaler capex economics and signaling supply-side stress in the AI buildout. Litigation also raises the odds of price-fixing scrutiny that could whipsaw supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u7684\u6838\u5fc3\u90e8\u5206\uff1bDRAM \u4ef7\u683c\u4e0a\u6da8 700% \u610f\u5473\u7740 HBM/DRAM \u77ed\u7f3a\u6b63\u4f20\u5bfc\u5230\u7cfb\u7edf\u5382\u5546\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u662f AI \u57fa\u5efa\u4f9b\u7ed9\u7aef\u7d27\u5f20\u7684\u4fe1\u53f7\u3002\u8bc9\u8bbc\u8fd8\u63d0\u9ad8\u4e86\u4ef7\u683c\u64cd\u7eb5\u5ba1\u67e5\u7684\u6982\u7387\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u6270\u52a8\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
