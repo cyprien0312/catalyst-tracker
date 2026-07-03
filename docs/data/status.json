@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783060329,
-  "generated_at_str": "2026-07-03 06:32:09 UTC",
-  "last_event_ts": 1783059242,
+  "generated_at": 1783060530,
+  "generated_at_str": "2026-07-03 06:35:30 UTC",
+  "last_event_ts": 1783060530,
   "tables": {
     "alerts_dedup": {
-      "count": 1897,
-      "last_ts": 1783058720,
-      "last_str": "2026-07-03 06:05:20 UTC"
+      "count": 1899,
+      "last_ts": 1783060530,
+      "last_str": "2026-07-03 06:35:30 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,14 +69,14 @@
       "last_str": "2026-07-03 06:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1747,
-      "last_ts": 1783058708,
-      "last_str": "2026-07-03 06:05:08 UTC"
+      "count": 1749,
+      "last_ts": 1783060509,
+      "last_str": "2026-07-03 06:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1177,
-      "last_ts": 1783058707,
-      "last_str": "2026-07-03 06:05:07 UTC"
+      "count": 1181,
+      "last_ts": 1783060508,
+      "last_str": "2026-07-03 06:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1399,
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1905,
+      "ts": 1783060530,
+      "ts_str": "2026-07-03 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UK's Currys says memory chip shortage will mean price rises - marketscreener.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 06:46:39 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmR2Z19UWUFYMEp6Y1ZBQnZiY0ZGQTE0Y3pCSDh0d0k3ckJKbmpFakVXT1R0RlNyXzdJeXhibHFHUGlWekc0STJONVN6QzR5a01rdmF6Q1Fkb2pWWF9KM0dIRVlCdEI3aWowbWlBeExFNm5xak1FaGdBZTFKaXBIRy1ZSkMwY3lXNUlZUUdxNzhrUHFUUmllR0NtbE40MzZtZ3Z1VlpIVWFuUi1kNThLbTVn?oc=5\n\nUK's Currys says memory chip shortage will mean price rises - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmR2Z19UWUFYMEp6Y1ZBQnZiY0ZGQTE0Y3pCSDh0d0k3ckJKbmpFakVXT1R0RlNyXzdJeXhibHFHUGlWekc0STJONVN6QzR5a01rdmF6Q1Fkb2pWWF9KM0dIRVlCdEI3aWowbWlBeExFNm5xak1FaGdBZTFKaXBIRy1ZSkMwY3lXNUlZUUdxNzhrUHFUUmllR0NtbE40MzZtZ3Z1VlpIVWFuUi1kNThLbTVn?oc=5\" target=\"_blank\">UK's Currys says memory chip shortage will mean price rises</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Currys memory-chip shortage article reports DRAM/NAND supply tightness feeding through to UK retail price rises.\n\n\u5185\u5bb9:\nCurrys\uff08\u82f1\u56fd\u96f6\u552e\u5546\uff09\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u5c06\u5bfc\u81f4\u4ea7\u54c1\u6da8\u4ef7\u3002\n\nWhy it matters:\nShortage-driven price rises at the retail layer confirm the memory squeeze is propagating downstream from datacenter/HBM demand, tightening supply for consumer and enterprise buyers alike \u2014 consistent with the AI-capex thesis of memory being the current bottleneck component.\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u56e0\u77ed\u7f3a\u800c\u6da8\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5185\u5b58\u7d27\u5f20\u5df2\u7ecf\u4ece\u6570\u636e\u4e2d\u5fc3/HBM\u9700\u6c42\u5411\u4e0b\u6e38\u6d88\u8d39\u4e0e\u4f01\u4e1a\u91c7\u8d2d\u8513\u5ef6\u2014\u2014\u5370\u8bc1\u4e86\u5185\u5b58\u662f\u5f53\u524d AI capex \u5468\u671f\u4e2d\u7684\u74f6\u9888\u73af\u8282\u8fd9\u4e00\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1906,
+      "ts": 1783060530,
+      "ts_str": "2026-07-03 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 06:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxNOUtMNTFrMkZob0pqOUtOY1hQMy14elB5OHZsNXVLVkN0N1NtVTFYOTBITjA2MUNENzBYUVM0Z0x5NHRfTENIbnhKR1RfMS1mMV85MXFBZFp1N084LXZ5enhKU1preVV0elhFN2haTkI4OTM4czY3SzFZTk5XdXNkX292akhTSF9oSXFHNGxETDNMZ05KLWJKSXA5YTJ6eUpJSzEwdzJfZERzWUZXaXU1ckpOaVJkVll1dVBoMVNIZ3hpWGlyTjZF?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNOUtMNTFrMkZob0pqOUtOY1hQMy14elB5OHZsNXVLVkN0N1NtVTFYOTBITjA2MUNENzBYUVM0Z0x5NHRfTENIbnhKR1RfMS1mMV85MXFBZFp1N084LXZ5enhKU1preVV0elhFN2haTkI4OTM4czY3SzFZTk5XdXNkX292akhTSF9oSXFHNGxETDNMZ05KLWJKSXA5YTJ6eUpJSzEwdzJfZERzWUZXaXU1ckpOaVJkVll1dVBoMVNIZ3hpWGlyTjZF?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCurrys (UK retailer) warned that a memory-chip shortage will raise prices, citing DRAM/NAND supply constraints.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8b66\u544a\uff0c\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u5c06\u63a8\u9ad8\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nRetail-level price pass-through confirms the memory shortage has moved from spot/wholesale markets into consumer pricing, corroborating tight DRAM/NAND/HBM supply that AI datacenter buildout is competing for \u2014 a demand-crowding signal that feeds the memory/storage-stress thesis (C6).\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u4ef7\u683c\u4e0a\u6da8\u786e\u8ba4\u5185\u5b58\u77ed\u7f3a\u5df2\u4ece\u6279\u53d1/\u73b0\u8d27\u5e02\u573a\u4f20\u5bfc\u81f3\u6d88\u8d39\u7aef\uff0c\u5370\u8bc1\u4e86 DRAM/NAND/HBM \u4f9b\u5e94\u7d27\u5f20\u2014\u2014\u8fd9\u6b63\u662f AI \u6570\u636e\u4e2d\u5fc3\u5927\u4e3e\u91c7\u8d2d\u5185\u5b58\u6240\u6324\u5360\u7684\u4ea7\u80fd\uff0c\u5c5e\u4e8e\u5185\u5b58/\u5b58\u50a8\u538b\u529b\uff08C6\uff09\u4e3b\u9898\u7684\u9700\u6c42\u6324\u51fa\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1904,
       "ts": 1783058720,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO: Everything You Need to Know - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:39:53 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYWZQOERQQkZaTklhUEd4V1pMczNqdm9QM3M1WExYdFJyR0Y4Rzlxdjg3NEtqR0ljaUNEczRRZF9BTWg1QkJFVURzWlRFYUVhZUN3ODVJQzJTYjNjT1JfcWpVX3pieWJxcVNxWl93V0lmd05VWS1mM2Q4ZHR1Z2N0MnQ4NTdRQjlibXo0?oc=5\n\nOpenAI IPO: Everything You Need to Know - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYWZQOERQQkZaTklhUEd4V1pMczNqdm9QM3M1WExYdFJyR0Y4Rzlxdjg3NEtqR0ljaUNEczRRZF9BTWg1QkJFVURzWlRFYUVhZUN3ODVJQzJTYjNjT1JfcWpVX3pieWJxcVNxWl93V0lmd05VWS1mM2Q4ZHR1Z2N0MnQ4NTdRQjlibXo0?oc=5\" target=\"_blank\">OpenAI IPO: Everything You Need to Know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced an Investing.com explainer headlined \"OpenAI IPO: Everything You Need to Know.\"\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u63a8\u9001\u4e86 Investing.com \u7684\u89e3\u8bfb\u6587\u7ae0\uff0c\u6807\u9898\u4e3a\u300aOpenAI IPO: Everything You Need to Know\u300b\u3002\n\nWhy it matters:\nRising IPO chatter around OpenAI is a late-cycle marker \u2014 it signals insiders preparing to monetize at peak narrative, and a public listing would force disclosure of the loss-making economics propping up the AI-capex boom.\n\n\u5f71\u54cd:\n\u56f4\u7ed5 OpenAI \u7684 IPO \u8ba8\u8bba\u5347\u6e29\u662f\u5468\u671f\u665a\u671f\u7684\u6807\u5fd7\u2014\u2014\u5b83\u6697\u793a\u5185\u90e8\u4eba\u58eb\u6b63\u51c6\u5907\u5728\u53d9\u4e8b\u9876\u70b9\u5957\u73b0\uff0c\u800c\u4e00\u65e6\u516c\u5f00\u4e0a\u5e02\uff0c\u5c31\u5fc5\u987b\u62ab\u9732\u652f\u6491\u8fd9\u8f6e AI capex \u70ed\u6f6e\u80cc\u540e\u90a3\u5957\u4e8f\u635f\u7684\u8d22\u52a1\u5b9e\u51b5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1706,
-      "ts": 1782715479,
-      "ts_str": "2026-06-29 06:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SoftBank hits one-month low as OpenAI IPO uncertainty weighs on AI bet - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:23:33 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxNOGM0b0VvcjloaS1fTzNuMGItNFU4Z1FWYnNoZVVuYnVFdlNhLW85UGt2dkZncVl6a2tKeG9Kd3lMdGJyOXB4R25vM0QwS2pNOTdXQW0xWV90LTRsNjc0MHZTZnA0eWx0YmZQVkJWMXVqWjJhS2Y3bTM1MjJiWFVSZlE5eHZzcFlNeHA2OVp5MnFqYUNpVDc5QWxMWm1BeXk0UUdYM1Flc0dBZGV1ajhTQktUU3pJa1Nyb1JrbUlTWDNib2hv?oc=5\n\nSoftBank hits one-month low as OpenAI IPO uncertainty weighs on AI bet - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNOGM0b0VvcjloaS1fTzNuMGItNFU4Z1FWYnNoZVVuYnVFdlNhLW85UGt2dkZncVl6a2tKeG9Kd3lMdGJyOXB4R25vM0QwS2pNOTdXQW0xWV90LTRsNjc0MHZTZnA0eWx0YmZQVkJWMXVqWjJhS2Y3bTM1MjJiWFVSZlE5eHZzcFlNeHA2OVp5MnFqYUNpVDc5QWxMWm1BeXk0UUdYM1Flc0dBZGV1ajhTQktUU3pJa1Nyb1JrbUlTWDNib2hv?oc=5\" target=\"_blank\">SoftBank hits one-month low as OpenAI IPO uncertainty weighs on AI bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flagged SoftBank hitting a one-month low as uncertainty over an OpenAI IPO weighs on its AI bet.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u6307\u51fa\uff0cSoftBank \u80a1\u4ef7\u8dcc\u81f3\u4e00\u4e2a\u6708\u4f4e\u70b9\uff0c\u56e0 OpenAI IPO \u7684\u4e0d\u786e\u5b9a\u6027\u62d6\u7d2f\u4e86\u5176 AI \u62bc\u6ce8\u3002\n\nWhy it matters:\nSoftBank is one of the most levered public proxies for the OpenAI/AI-capex trade. The market pricing in IPO uncertainty is an early sign that the exit story underwriting these mega-investments is being questioned \u2014 a sentiment crack ahead of any hard-data deterioration.\n\n\u5f71\u54cd:\nSoftBank \u662f\u516c\u5f00\u5e02\u573a\u4e0a\u5bf9 OpenAI\uff0fAI capex \u4ea4\u6613\u6760\u6746\u6700\u9ad8\u7684\u4ee3\u7406\u6807\u7684\u4e4b\u4e00\u3002\u5e02\u573a\u5f00\u59cb\u4e3a IPO \u4e0d\u786e\u5b9a\u6027\u5b9a\u4ef7\uff0c\u610f\u5473\u7740\u652f\u6491\u8fd9\u4e9b\u5de8\u989d\u6295\u8d44\u7684\u9000\u51fa\u53d9\u4e8b\u6b63\u53d7\u5230\u8d28\u7591\u2014\u2014\u8fd9\u662f\u65e9\u4e8e\u786c\u6570\u636e\u6076\u5316\u4e4b\u524d\u51fa\u73b0\u7684\u60c5\u7eea\u88c2\u7f1d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1707,
-      "ts": 1782715479,
-      "ts_str": "2026-06-29 06:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Sam Altman reverses AI job loss prediction ahead of IPO push - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 28 Jun 2026 20:43:34 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gJBVV95cUxPazk3bjl3TW1ObVFHTHRkN1Z1NW5CUXEzSXRsc0d2NWJIMWJWUGtpelE2XzZOZjlfTTIwbExTQXhYN2hYRmRQYUJOR2FvaVA0WXRLVzB2d2dvZ1A2Uk84OU15MmtNdkJNV3hwVWtfdGZqRkw1QTZhR0RGNzE2THRkeWtKZ3g4dTE5b2lWdTNjaHNzbXlubWE5TURoTm1fSkpPdWhvYXBQZFVySER3S05ObU9ESEVEanhuT21wM0VRWUVpREpGbG5iS1pnTzM2bkJCU25uZlBTbl82SHl1ZFctS1ROQWh0UUoxM3NKMlZzX0dnMzBEUWJLa0IyeVBTbnpMUDJVTmx5NVFRcmFNczdIVGNSYTNNSGpsMXNERnhoQklobEI1Y3FydnFkTEp1c05aT2puMmJwWUhWek5RcEVmTC1FaGJ4cE5sWlVld3VzOHpKaHBfZUc0aWtrdHpvUQ?oc=5\n\nSam Altman reverses AI job loss prediction ahead of IPO push - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gJBVV95cUxPazk3bjl3TW1ObVFHTHRkN1Z1NW5CUXEzSXRsc0d2NWJIMWJWUGtpelE2XzZOZjlfTTIwbExTQXhYN2hYRmRQYUJOR2FvaVA0WXRLVzB2d2dvZ1A2Uk84OU15MmtNdkJNV3hwVWtfdGZqRkw1QTZhR0RGNzE2THRkeWtKZ3g4dTE5b2lWdTNjaHNzbXlubWE5TURoTm1fSkpPdWhvYXBQZFVySER3S05ObU9ESEVEanhuT21wM0VRWUVpREpGbG5iS1pnTzM2bkJCU25uZlBTbl82SHl1ZFctS1ROQWh0UUoxM3NKMlZzX0dnMzBEUWJLa0IyeVBTbnpMUDJVTmx5NVFRcmFNczdIVGNSYTNNSGpsMXNERnhoQklobEI1Y3FydnFkTEp1c05aT2puMmJwWUhWek5RcEVmTC1FaGJ4cE5sWlVld3VzOHpKaHBfZUc0aWtrdHpvUQ?oc=5\" target=\"_blank\">Sam Altman reverses AI job loss prediction ahead of IPO push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Sam Altman reversed his earlier prediction of AI-driven job losses just as OpenAI pushes toward an IPO.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u79f0 Sam Altman \u5728 OpenAI \u63a8\u8fdb IPO \u4e4b\u9645\uff0c\u63a8\u7ffb\u4e86\u4ed6\u6b64\u524d\u5173\u4e8e AI \u5bfc\u81f4\u5931\u4e1a\u7684\u9884\u6d4b\u3002\n\nWhy it matters:\nWalking back the job-displacement claim right before an IPO signals narrative management to protect the deal, not new evidence. It's a tell that capital-raising pressure is now shaping the AI story \u2014 a soft bubble-stress marker for the C3 OpenAI thread.\n\n\u5f71\u54cd:\n\u5728 IPO \u524d\u5915\u6536\u56de\u5931\u4e1a\u8a00\u8bba\uff0c\u53cd\u6620\u7684\u662f\u4e3a\u4fdd\u62a4\u4ea4\u6613\u800c\u8fdb\u884c\u7684\u53d9\u4e8b\u7ba1\u7406\uff0c\u800c\u975e\u6709\u4e86\u65b0\u8bc1\u636e\u3002\u8fd9\u8bf4\u660e\u878d\u8d44\u538b\u529b\u6b63\u5728\u5851\u9020 AI \u6545\u4e8b\uff0c\u662f C3 OpenAI \u7ebf\u7d22\u4e0a\u4e00\u4e2a\u6e29\u548c\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
