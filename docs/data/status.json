@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783101725,
-  "generated_at_str": "2026-07-03 18:02:05 UTC",
-  "last_event_ts": 1783100110,
+  "generated_at": 1783101925,
+  "generated_at_str": "2026-07-03 18:05:25 UTC",
+  "last_event_ts": 1783101924,
   "tables": {
     "alerts_dedup": {
-      "count": 1931,
-      "last_ts": 1783098853,
-      "last_str": "2026-07-03 17:14:13 UTC"
+      "count": 1933,
+      "last_ts": 1783101924,
+      "last_str": "2026-07-03 18:05:24 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-03 17:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1798,
-      "last_ts": 1783100109,
-      "last_str": "2026-07-03 17:35:09 UTC"
+      "count": 1806,
+      "last_ts": 1783101905,
+      "last_str": "2026-07-03 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1213,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-03 17:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1431,
-      "last_ts": 1783100110,
-      "last_str": "2026-07-03 17:35:10 UTC"
+      "count": 1433,
+      "last_ts": 1783101906,
+      "last_str": "2026-07-03 18:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13515,
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1939,
+      "ts": 1783101924,
+      "ts_str": "2026-07-03 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - ET Manufacturing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:22:49 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc3k1a0ppTWhkYm1SRjQtblB5TERsRmRWT2ZJSmpLQThVb3U3c203Smt5dHVKT0JJeUFjZkU0NlhxMjVtYWYzRG9ScDVWcVNudTZ1WEU2WDZ5M1hsOTdaQ0hDUEktbGRVYkJDcDVqblozd3RaWmxPdHFuZllLcl9adTBaZkFpV3dzaFhPS3JSV3JSRnVraU10WWxpNERST3ZRRkwxbmdtb3VkQ3pKd3NBWHhpMUV3WG5kb3lMbEt4enJtRlJRZnpQTTlkR0E0dXRr0gHQAUFVX3lxTE1zeTVrSmlNaGRibVJGNC1uUHlMRGxGZFZPZklKaktBOFVvdTdzbTdKa3l0dUpPQkl5QWNmRTQ2WHEyNW1hZjNEb1JwNVZxU251NnVYRTZYNnkzWGw5N1pDSENQSS1sZFViQkNwNWpuWjN3dFpabE90cW5mWUtyX1p1MFpmQWlXd3NoWE9LclJXclJGdWtpTXRZbGk0RFJPdlFGTDFuZ21vdWRDekp3c0FYeGkxRXdYbmRveUxsS3h6cm1GUlFmelBNOWRHQTR1dGs?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - ET Manufacturing\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc3k1a0ppTWhkYm1SRjQtblB5TERsRmRWT2ZJSmpLQThVb3U3c203Smt5dHVKT0JJeUFjZkU0NlhxMjVtYWYzRG9ScDVWcVNudTZ1WEU2WDZ5M1hsOTdaQ0hDUEktbGRVYkJDcDVqblozd3RaWmxPdHFuZllLcl9adTBaZkFpV3dzaFhPS3JSV3JSRnVraU10WWxpNERST3ZRRkwxbmdtb3VkQ3pKd3NBWHhpMUV3WG5kb3lMbEt4enJtRlJRZnpQTTlkR0E0dXRr0gHQAUFVX3lxTE1zeTVrSmlNaGRibVJGNC1uUHlMRGxGZFZPZklKaktBOFVvdTdzbTdKa3l0dUpPQkl5QWNmRTQ2WHEyNW1hZjNEb1JwNVZxU251NnVYRTZYNnkzWGw5N1pDSENQSS1sZFViQkNwNWpuWjN3dFpabE90cW5mWUtyX1p1MFpmQWlXd3NoWE9LclJXclJGdWtpTXRZbGk0RFJPdlFGTDFuZ21vdWRDekp3c0FYeGkxRXdYbmRveUxsS3h6cm1GUlFmelBNOWRHQTR1dGs?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ET Manufacturing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK retailer, Currys, warned that a memory chip shortage will push consumer product prices up.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8b66\u544a\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u63a8\u9ad8\u6d88\u8d39\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nRetail-level price pass-through confirms the DRAM/NAND supply squeeze is hitting end demand, not just component buyers \u2014 a sign the memory shortage (driven by AI-datacenter HBM/DRAM absorption) is now visible outside the tech supply chain and could dent consumer spending.\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u51fa\u73b0\u4ef7\u683c\u4f20\u5bfc\uff0c\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\uff08\u7531 AI \u6570\u636e\u4e2d\u5fc3\u5bf9 HBM/DRAM \u7684\u5438\u7eb3\u9a71\u52a8\uff09\u5df2\u7ecf\u8513\u5ef6\u5230\u7ec8\u7aef\u6d88\u8d39\u5e02\u573a\uff0c\u800c\u4e0d\u4ec5\u662f\u5143\u4ef6\u91c7\u8d2d\u7aef\uff0c\u8fd9\u53ef\u80fd\u4f1a\u6253\u51fb\u6d88\u8d39\u8005\u652f\u51fa\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1940,
+      "ts": 1783101924,
+      "ts_str": "2026-07-03 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Digital Transformation - UK's Currys warns memory chip shortage will push up prices - Business Reporter",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 19:52:25 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxOY0tmdk1YSHNZM2NqSm01dGl1aFhObXdNZmtEcEZkYlQ5Y2M0NnVVR1V2TXhsUjVFOWZFTWx3Mm5yUDJpV0hJa0tTZVZ2bHdPdVI0UlBWNkpDUjlpdnBLM1RGcTV3NDlnR1Jmb2h4cjFaU3hVTlBaT2c0ZFlxbjlULTRCR2dZeDBUVm9xX19VWUVaRGxsTndBR0dhQXJYaV9hbG94a0Y0bVZRUUkzWkpZZjNKNjE5czFPSWhzOF9nRQ?oc=5\n\nDigital Transformation - UK's Currys warns memory chip shortage will push up prices - Business Reporter\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOY0tmdk1YSHNZM2NqSm01dGl1aFhObXdNZmtEcEZkYlQ5Y2M0NnVVR1V2TXhsUjVFOWZFTWx3Mm5yUDJpV0hJa0tTZVZ2bHdPdVI0UlBWNkpDUjlpdnBLM1RGcTV3NDlnR1Jmb2h4cjFaU3hVTlBaT2c0ZFlxbjlULTRCR2dZeDBUVm9xX19VWUVaRGxsTndBR0dhQXJYaV9hbG94a0Y0bVZRUUkzWkpZZjNKNjE5czFPSWhzOF9nRQ?oc=5\" target=\"_blank\">Digital Transformation - UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Reporter</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK retailer (Currys) publicly warned that a memory-chip shortage will drive up prices, per a Business Reporter piece.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u96f6\u552e\u5546 Currys \u516c\u5f00\u8b66\u544a\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u63a8\u9ad8\u4ef7\u683c\uff08\u6e90\u81ea Business Reporter \u62a5\u9053\uff09\u3002\n\nWhy it matters:\nRetail-facing DRAM/NAND price signals like this corroborate upstream supply tightness feeding into AI server BOM costs \u2014 a downstream confirmation of the memory-stress thesis rather than a new primary source.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u96f6\u552e\u7aef\u7684 DRAM/NAND \u6da8\u4ef7\u4fe1\u53f7\u5370\u8bc1\u4e86\u4e0a\u6e38\u4f9b\u7ed9\u7d27\u5f20\u6b63\u5728\u4f20\u5bfc\u81f3 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\uff0c\u5c5e\u4e8e\u5bf9\u5185\u5b58\u627f\u538b\u903b\u8f91\u7684\u4e0b\u6e38\u4f50\u8bc1\uff0c\u800c\u975e\u65b0\u7684\u4e00\u624b\u4fe1\u606f\u6e90\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1938,
       "ts": 1783098853,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM demand makes Apple raise prices - Sourceability",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 17:56:14 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\n\nHBM demand makes Apple raise prices - Sourceability\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxONnVqLWdsUHREWG43b0JaTEpFR19EUFVDakcxUUZSYXg0c3JqYXlWOWUyeFFfRmpMcmo0d1BaSHhxcTBYbEFUSThtbGFDazFILUpoUjl0WFRnWUtzNmR6dzNxWUtEUTA3eTFxTHZHb1JfR2VlQXVkVWJvRVZMYWtGRzVLZ1FQZXRLS21YN3lxc1JLM3c?oc=5\" target=\"_blank\">HBM demand makes Apple raise prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sourceability</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that surging HBM (high-bandwidth memory) demand \u2014 driven by AI accelerators \u2014 is forcing Apple to raise prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cAI \u52a0\u901f\u5668\u9a71\u52a8\u7684 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u9700\u6c42\u6fc0\u589e\uff0c\u6b63\u8feb\u4f7f Apple \u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nAI memory demand is now crowding out the consumer supply chain: HBM production is eating fab capacity and pushing DRAM prices up enough to hit non-AI products. When AI capex starts inflating the cost base of unrelated consumer electronics, the spend has reached a scale that strains the whole memory market.\n\n\u5f71\u54cd:\nAI \u5185\u5b58\u9700\u6c42\u5f00\u59cb\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u5e94\u94fe\uff1aHBM \u751f\u4ea7\u541e\u566c\u6676\u5706\u4ea7\u80fd\uff0c\u628a DRAM \u4ef7\u683c\u63a8\u9ad8\u5230\u8db3\u4ee5\u6ce2\u53ca\u975e AI \u4ea7\u54c1\u3002\u5f53 AI capex \u5f00\u59cb\u62ac\u9ad8\u65e0\u5173\u6d88\u8d39\u7535\u5b50\u7684\u6210\u672c\u7ed3\u6784\uff0c\u8bf4\u660e\u8fd9\u8f6e\u652f\u51fa\u7684\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u62c9\u7d27\u6574\u4e2a\u5185\u5b58\u5e02\u573a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1740,
-      "ts": 1782753256,
-      "ts_str": "2026-06-29 17:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Why the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 14:55:21 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTFB3WUZzZ25SeFR5Vm5uMkN0amVZTl81WG12MGhuUkt2UlI4VC1jQTZ3bEctNDJaak9fX0J3dXNIMzBqTzhSMnoxQXNaWEZhTUczQVhMUXc5NlMtYXRfZjI4RFJfRHVTSF83UXJ6Q09rNUcwYVM0T3dZT0VJNzDSAXxBVV95cUxQd1lGc2duUnhUeVZubjJDdGplWU5fNVhtdjBoblJLdlJSOFQtY0E2d2xHLTQyWmpPX19Cd3VzSDMwak84UjJ6MUFzWlhGYU1HM0FYTFF3OTZTLWF0X2YyOERSX0R1U0hfN1FyekNPazVHMGFTNE93WU9FSTcw?oc=5\n\nWhy the OpenAI IPO Delay is a Red Flag for the AI Bubble - Baystreet.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFB3WUZzZ25SeFR5Vm5uMkN0amVZTl81WG12MGhuUkt2UlI4VC1jQTZ3bEctNDJaak9fX0J3dXNIMzBqTzhSMnoxQXNaWEZhTUczQVhMUXc5NlMtYXRfZjI4RFJfRHVTSF83UXJ6Q09rNUcwYVM0T3dZT0VJNzDSAXxBVV95cUxQd1lGc2duUnhUeVZubjJDdGplWU5fNVhtdjBoblJLdlJSOFQtY0E2d2xHLTQyWmpPX19Cd3VzSDMwak84UjJ6MUFzWlhGYU1HM0FYTFF3OTZTLWF0X2YyOERSX0R1U0hfN1FyekNPazVHMGFTNE93WU9FSTcw?oc=5\" target=\"_blank\">Why the OpenAI IPO Delay is a Red Flag for the AI Bubble</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baystreet.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Baystreet.ca headline flagged OpenAI's IPO delay as a red flag for the AI bubble, surfacing via Google News RSS in the C3 OpenAI feed.\n\n\u5185\u5bb9:\nBaystreet.ca \u7684\u4e00\u5219\u6807\u9898\u628a OpenAI \u7684 IPO \u5ef6\u8fdf\u79f0\u4e3a AI \u6ce1\u6cab\u7684\u5371\u9669\u4fe1\u53f7\uff0c\u8be5\u65b0\u95fb\u7ecf Google News RSS \u8fdb\u5165 C3 OpenAI \u4fe1\u606f\u6d41\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; a stalled IPO signals public markets won't underwrite its losses at the hoped-for valuation. If the marquee name can't go public on schedule, it pressures the funding chain that hyperscaler and neocloud spend is leaning on.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u9700\u6c42\u951a\u70b9\uff1bIPO \u53d7\u963b\u610f\u5473\u7740\u516c\u5f00\u5e02\u573a\u4e0d\u613f\u6309\u5176\u671f\u671b\u7684\u4f30\u503c\u4e3a\u5176\u4e8f\u635f\u4e70\u5355\u3002\u5982\u679c\u8fd9\u4e2a\u6807\u6746\u516c\u53f8\u90fd\u65e0\u6cd5\u5982\u671f\u4e0a\u5e02\uff0c\u5c31\u4f1a\u7ed9\u652f\u6491\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u652f\u51fa\u7684\u6574\u6761\u878d\u8d44\u94fe\u6761\u5e26\u6765\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1739,
-      "ts": 1782752718,
-      "ts_str": "2026-06-29 17:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike - Sammy Fans",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 14:12:49 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3YxNHppV3JlZUtGQUhHcXdqaWRMWkVCV25WVjhxTTNtZkZxSGlJZWpDblRlRFRRbkx6Y3Z1Zkl6LU00YWcweGxSbF9RWnU3TEFtZlNTZ3lBMG5haTl0MTk4ajdPTDVFdzRvb3ppZ1NmbVB6Y3dvcWFSd1NDRFZacC0zQ1BqT3pxYjJyc2kzWmM1Um04aGfSAZsBQVVfeXFMTjRmOUFEQUhFOHQ0eU11b1NBUVhPUjdlMEVWT0N6TWEwdW1QVXJ0YUJ2T0hKWUlIZHlNOFQ4Vk11SFduUUdVNDNKaHI4R0tucjFtUllCWXB5YjhlcmdPUVhRMmFiZDJyU0tCazBZWGlyTXdad0xENzNhTF8tTG1Na2hCS1pXam53dnFLcHNQekgxSzJ2MDBoTnI4Y3c?oc=5\n\nSamsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike - Sammy Fans\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNZ3YxNHppV3JlZUtGQUhHcXdqaWRMWkVCV25WVjhxTTNtZkZxSGlJZWpDblRlRFRRbkx6Y3Z1Zkl6LU00YWcweGxSbF9RWnU3TEFtZlNTZ3lBMG5haTl0MTk4ajdPTDVFdzRvb3ppZ1NmbVB6Y3dvcWFSd1NDRFZacC0zQ1BqT3pxYjJyc2kzWmM1Um04aGfSAZsBQVVfeXFMTjRmOUFEQUhFOHQ0eU11b1NBUVhPUjdlMEVWT0N6TWEwdW1QVXJ0YUJ2T0hKWUlIZHlNOFQ4Vk11SFduUUdVNDNKaHI4R0tucjFtUllCWXB5YjhlcmdPUVhRMmFiZDJyU0tCazBZWGlyTXdad0xENzNhTF8tTG1Na2hCS1pXam53dnFLcHNQekgxSzJ2MDBoTnI4Y3c?oc=5\" target=\"_blank\">Samsung, SK hynix and Micron sued in the US over DRAM shortage and 7x price hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sammy Fans</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA US lawsuit accuses Samsung, SK hynix and Micron of conspiring over a DRAM shortage and a 7x price hike.\n\n\u5185\u5bb9:\n\u7f8e\u56fd\u4e00\u8d77\u8bc9\u8bbc\u6307\u63a7 Samsung\u3001SK hynix \u548c Micron \u5728 DRAM \u77ed\u7f3a\u53ca 7 \u500d\u6da8\u4ef7\u4e0a\u5408\u8c0b\u3002\n\nWhy it matters:\nDRAM and HBM are core AI-server bill-of-materials; a 7x memory price spike inflates GPU-system build costs and squeezes hyperscaler capex efficiency. A collusion suit also signals the supply tightness is extreme enough to draw legal and regulatory scrutiny \u2014 a late-cycle stress marker for the AI hardware supply chain.\n\n\u5f71\u54cd:\nDRAM \u4e0e HBM \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u7269\u6599\uff0c\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 7 \u500d\u4f1a\u62ac\u9ad8 GPU \u6574\u673a\u7684\u5efa\u9020\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\u3002\u96c6\u4f53\u8bc9\u8bbc\u672c\u8eab\u4e5f\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u5df2\u6781\u7aef\u5230\u62db\u81f4\u6cd5\u5f8b\u4e0e\u76d1\u7ba1\u5173\u6ce8\u2014\u2014\u662f AI \u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u5468\u671f\u665a\u671f\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
