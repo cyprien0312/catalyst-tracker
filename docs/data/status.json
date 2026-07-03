@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783119723,
-  "generated_at_str": "2026-07-03 23:02:03 UTC",
-  "last_event_ts": 1783118643,
+  "generated_at": 1783119918,
+  "generated_at_str": "2026-07-03 23:05:18 UTC",
+  "last_event_ts": 1783119918,
   "tables": {
     "alerts_dedup": {
-      "count": 1940,
-      "last_ts": 1783113253,
-      "last_str": "2026-07-03 21:14:13 UTC"
+      "count": 1941,
+      "last_ts": 1783119918,
+      "last_str": "2026-07-03 23:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-03 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1812,
-      "last_ts": 1783116304,
-      "last_str": "2026-07-03 22:05:04 UTC"
+      "count": 1814,
+      "last_ts": 1783119908,
+      "last_str": "2026-07-03 23:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1228,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1948,
+      "ts": 1783119918,
+      "ts_str": "2026-07-03 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Memory Chip Shortage Drives Up Electronic Prices - HarianBasis.co",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 12:12:21 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE5lMUdGaGlPUDhNUHJKSXlnS1hIS1poeFlyQ3VFbFB5M1JUbUZvaW5ycDM3UjRKZUo0WWxRaGVpRGJTaDJBZjBZTm5PVVI3OXpOaGRCQlpBVF9uNXZCSUdkRl80OFdNWXNlblJ6TG1ITkFGUQ?oc=5\n\nGlobal Memory Chip Shortage Drives Up Electronic Prices - HarianBasis.co\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5lMUdGaGlPUDhNUHJKSXlnS1hIS1poeFlyQ3VFbFB5M1JUbUZvaW5ycDM3UjRKZUo0WWxRaGVpRGJTaDJBZjBZTm5PVVI3OXpOaGRCQlpBVF9uNXZCSUdkRl80OFdNWXNlblJ6TG1ITkFGUQ?oc=5\" target=\"_blank\">Global Memory Chip Shortage Drives Up Electronic Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HarianBasis.co</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports a global memory chip shortage pushing up electronics prices, with no ticker or specific figures given.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u7535\u5b50\u4ea7\u54c1\u4ef7\u683c\uff0c\u672a\u7ed9\u51fa\u5177\u4f53ticker\u6216\u6570\u5b57\u3002\n\nWhy it matters:\nConfirms the memory/storage supply squeeze feeding into AI server bill-of-materials costs \u2014 rising DRAM/NAND prices compress hyperscaler capex efficiency and add another cost-side pressure to the AI-infra spend cycle.\n\n\u5f71\u54cd:\n\u8fd9\u5370\u8bc1\u4e86\u5185\u5b58/\u5b58\u50a8\u4f9b\u5e94\u7d27\u5f20\u6b63\u4f20\u5bfc\u81f3AI\u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u2014\u2014DRAM/NAND\u4ef7\u683c\u4e0a\u6da8\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\uff0c\u7ed9AI\u57fa\u5efa\u652f\u51fa\u5468\u671f\u518d\u6dfb\u4e00\u5c42\u6210\u672c\u7aef\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1947,
       "ts": 1783113253,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 06:15:02 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\n\nMemory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50% - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE80eWx0bUJDMmQtZFhDTU1ZMmhvczdLUnAtMlVmMUJyVm5EZ3lDSXNlSjZZVnN2TjU4cnRNb0JBU0kwcVRmZ1hVYTl6RHhBVGczTXlGWXdHeDBXMDM0MjBodDhyXzlWVUxFeUJYMmxVX3haMTBHdFE?oc=5\" target=\"_blank\">Memory Price Surge Unstoppable! Lenovo Says Low Prices Won't Return Before 2028, Wall Street Predicts Q3 Could Spike 50%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C6 memory-price headline flagged that DRAM/NAND prices keep climbing \u2014 Lenovo says low prices won't return before 2028, and Wall Street expects Q3 could spike 50%.\n\n\u5185\u5bb9:\n\u4e00\u6761 C6 \u5185\u5b58\u4ef7\u683c\u65b0\u95fb\u663e\u793a DRAM/NAND \u4ef7\u683c\u6301\u7eed\u4e0a\u6da8\u2014\u2014Lenovo \u79f0\u4f4e\u4ef7\u5728 2028 \u5e74\u524d\u4e0d\u4f1a\u56de\u5f52\uff0cWall Street \u9884\u8ba1 Q3 \u53ef\u80fd\u98d9\u5347 50%\u3002\n\nWhy it matters:\nMemory is a core input for AI servers; a sustained surge with no relief until 2028 pushes up the bill-of-materials for every GPU box and data-center buildout. Rising hardware cost squeezes hyperscaler capex-payback math and is another stress signal on the AI-infrastructure thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u5143\u4ef6\uff1b\u8fd9\u79cd\u5230 2028 \u5e74\u90fd\u4e0d\u4f1a\u7f13\u89e3\u7684\u6301\u7eed\u6da8\u4ef7\uff0c\u4f1a\u63a8\u9ad8\u6bcf\u53f0 GPU \u673a\u5668\u548c\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u7684\u7269\u6599\u6210\u672c\u3002\u786c\u4ef6\u6210\u672c\u4e0a\u5347\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u6d4b\u7b97\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u903b\u8f91\u4e0a\u7684\u53c8\u4e00\u4e2a\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1748,
-      "ts": 1782761706,
-      "ts_str": "2026-06-29 19:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Bitget",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 16:56:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QZ1Z6OEtxbHBQeU0tOHc5WnAzM1ZSUE5JY1FvOXJXbXN6Vk1TT1RaUHFMcVZ1QmRfdENRLWx0NWFqWUhqOWZVRmVIcVpZWFRoMjNwN2twSkkxR2FIS2xjX1kwWdIBY0FVX3lxTE9QZ1Z6OEtxbHBQeU0tOHc5WnAzM1ZSUE5JY1FvOXJXbXN6Vk1TT1RaUHFMcVZ1QmRfdENRLWx0NWFqWUhqOWZVRmVIcVpZWFRoMjNwN2twSkkxR2FIS2xjX1kwWQ?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QZ1Z6OEtxbHBQeU0tOHc5WnAzM1ZSUE5JY1FvOXJXbXN6Vk1TT1RaUHFMcVZ1QmRfdENRLWx0NWFqWUhqOWZVRmVIcVpZWFRoMjNwN2twSkkxR2FIS2xjX1kwWdIBY0FVX3lxTE9QZ1Z6OEtxbHBQeU0tOHc5WnAzM1ZSUE5JY1FvOXJXbXN6Vk1TT1RaUHFMcVZ1QmRfdENRLWx0NWFqWUhqOWZVRmVIcVpZWFRoMjNwN2twSkkxR2FIS2xjX1kwWQ?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports memory-chip makers are being sued over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\u5927\u5382\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nDRAM is a core input for AI servers; a 700% price jump signals acute memory shortage driven by AI buildout. Litigation over the spike points to supply stress severe enough to draw legal and regulatory scrutiny \u2014 a cost-side pressure on the AI-capex bill.\n\n\u5f71\u54cd:\nDRAM \u662f AI \u670d\u52a1\u5668\u7684\u6838\u5fc3\u5143\u4ef6\uff0c\u4ef7\u683c\u66b4\u6da8 700% \u53cd\u6620\u51fa\u7531 AI \u6269\u5efa\u9a71\u52a8\u7684\u4e25\u91cd\u5185\u5b58\u77ed\u7f3a\u3002\u56f4\u7ed5\u8fd9\u8f6e\u6da8\u4ef7\u7684\u8bc9\u8bbc\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u5df2\u4e25\u91cd\u5230\u5f15\u6765\u6cd5\u5f8b\u548c\u76d1\u7ba1\u5173\u6ce8\u2014\u2014\u8fd9\u662f AI capex \u8d26\u5355\u4e0a\u7684\u6210\u672c\u7aef\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
