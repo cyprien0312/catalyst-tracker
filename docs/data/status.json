@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783098124,
-  "generated_at_str": "2026-07-03 17:02:04 UTC",
-  "last_event_ts": 1783097044,
+  "generated_at": 1783098313,
+  "generated_at_str": "2026-07-03 17:05:13 UTC",
+  "last_event_ts": 1783098313,
   "tables": {
     "alerts_dedup": {
-      "count": 1929,
-      "last_ts": 1783096506,
-      "last_str": "2026-07-03 16:35:06 UTC"
+      "count": 1930,
+      "last_ts": 1783098313,
+      "last_str": "2026-07-03 17:05:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-03 15:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1574,
-      "last_ts": 1783096503,
-      "last_str": "2026-07-03 16:35:03 UTC"
+      "count": 1576,
+      "last_ts": 1783098302,
+      "last_str": "2026-07-03 17:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1795,
-      "last_ts": 1783096505,
-      "last_str": "2026-07-03 16:35:05 UTC"
+      "count": 1796,
+      "last_ts": 1783098303,
+      "last_str": "2026-07-03 17:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1209,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1937,
+      "ts": 1783098313,
+      "ts_str": "2026-07-03 17:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM prices continue to rise Samsung plans to raise prices by another 20%. - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 15:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNRV83TDR5elRFSGxZTi1yajMxQjlkRXlWT0pVb2xNeEdXNERlNmpVaDU4ZUNTS0pHM1hSQjlNTjY4TDAwS3ZDYmtBNGJzM1AtV2l0WXVuTVQzZnB0czd5VlJqcGRyV2dqd21BZklaaW95N081N2h4dm5pTmRUQ3ZjdE9WMWQ?oc=5\n\nDRAM prices continue to rise Samsung plans to raise prices by another 20%. - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNRV83TDR5elRFSGxZTi1yajMxQjlkRXlWT0pVb2xNeEdXNERlNmpVaDU4ZUNTS0pHM1hSQjlNTjY4TDAwS3ZDYmtBNGJzM1AtV2l0WXVuTVQzZnB0czd5VlJqcGRyV2dqd21BZklaaW95N081N2h4dm5pTmRUQ3ZjdE9WMWQ?oc=5\" target=\"_blank\">DRAM prices continue to rise Samsung plans to raise prices by another 20%.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports Samsung is raising DRAM prices by another 20%, on top of an already rising DRAM price trend.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u6d88\u606f\u79f0\uff0c\u4e09\u661f\u8ba1\u5212\u5c06 DRAM \u4ef7\u683c\u5728\u5df2\u4e0a\u6da8\u7684\u57fa\u7840\u4e0a\u518d\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory-price surges pass straight through into AI-server BOM cost, squeezing hyperscaler capex efficiency and adding another input-cost tailwind to the bubble-stress thesis alongside GPU and power constraints.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\uff0c\u4e0e GPU\u3001\u7535\u529b\u7b49\u74f6\u9888\u4e00\u8d77\u52a0\u91cd\u6ce1\u6cab\u538b\u529b\u7684\u53d9\u4e8b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1936,
       "ts": 1783096506,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Is OpenAI\u2019s IPO Delay a Warning for AI Investors? - MarketBeat",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 16:21:50 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVV0cFFHaE9XdXA0OXZOaVV5RTFwU3huaEJ3U2J6RERPanlBWmo2OGF3TEtrNWpwME0wazdPekZfaktXNnExUkNWUTB5RFVZbnBuR0phR09McUxvUmpJYWIwQjVhZE92Q2dfRnpjM01FRXpaSTNWekJxSXJDdF9sanhhUFlLVHA4NmVZWFFjTQ?oc=5\n\nIs OpenAI\u2019s IPO Delay a Warning for AI Investors? - MarketBeat\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVV0cFFHaE9XdXA0OXZOaVV5RTFwU3huaEJ3U2J6RERPanlBWmo2OGF3TEtrNWpwME0wazdPekZfaktXNnExUkNWUTB5RFVZbnBuR0phR09McUxvUmpJYWIwQjVhZE92Q2dfRnpjM01FRXpaSTNWekJxSXJDdF9sanhhUFlLVHA4NmVZWFFjTQ?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO Delay a Warning for AI Investors?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketBeat</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA MarketBeat headline surfaced in the C3 feed asks \"Is OpenAI's IPO Delay a Warning for AI Investors?\" \u2014 flagging that OpenAI's path to a public listing is being pushed back.\n\n\u5185\u5bb9:\nC3 \u4fe1\u606f\u6d41\u4e2d\u51fa\u73b0\u4e00\u6761 MarketBeat \u6807\u9898\u2014\u2014\"Is OpenAI's IPO Delay a Warning for AI Investors?\"\u2014\u2014\u6307\u51fa OpenAI \u7684\u4e0a\u5e02\u8fdb\u7a0b\u6b63\u5728\u88ab\u63a8\u8fdf\u3002\n\nWhy it matters:\nOpenAI is the demand anchor for the whole AI-capex buildout; a delayed IPO removes a public-market funding channel and signals the company isn't ready to expose its economics to public scrutiny. Slower access to capital at the apex of the AI stack tightens financing for everyone downstream.\n\n\u5f71\u54cd:\nOpenAI \u662f\u6574\u4e2a AI capex \u5efa\u8bbe\u5468\u671f\u7684\u9700\u6c42\u951a\u70b9\uff1b\u63a8\u8fdf IPO \u7b49\u4e8e\u5173\u95ed\u4e86\u4e00\u6761\u516c\u5f00\u5e02\u573a\u878d\u8d44\u901a\u9053\uff0c\u4e5f\u6697\u793a\u5176\u5c1a\u672a\u51c6\u5907\u597d\u628a\u81ea\u8eab\u7ecf\u6d4e\u6a21\u578b\u644a\u5230\u516c\u4f17\u5ba1\u89c6\u4e4b\u4e0b\u3002AI \u6280\u672f\u6808\u9876\u7aef\u83b7\u53d6\u8d44\u91d1\u7684\u901f\u5ea6\u653e\u6162\uff0c\u4f1a\u6536\u7d27\u4e0b\u6e38\u6240\u6709\u73af\u8282\u7684\u878d\u8d44\u6761\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1736,
-      "ts": 1782749116,
-      "ts_str": "2026-06-29 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE53bncwMWlDU0phYnhtNjJPNjUwX0hyZkFaRVBidHVIX1l3MHoxcmVmNXU3Ml90YlBmamViTlVnb2diWEtNS3hTSXZoUTR0SVQ3dnlYcVZFdDVvYVZJemRZLWhXQ2Zfb3FxUTdCcFdvclJzbHc?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% spike in DRAM prices.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u62a5\u9053\uff0c\u5185\u5b58\u82af\u7247\u5de8\u5934\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u800c\u9762\u4e34\u8bc9\u8bbc\u3002\n\nWhy it matters:\nMemory is a core AI-server bill-of-materials cost; a 700% DRAM jump means HBM/DRAM scarcity is pricing through to system builders, squeezing hyperscaler capex economics and signaling supply-side stress in the AI buildout. Litigation also raises the odds of price-fixing scrutiny that could whipsaw supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u7684\u6838\u5fc3\u90e8\u5206\uff1bDRAM \u4ef7\u683c\u4e0a\u6da8 700% \u610f\u5473\u7740 HBM/DRAM \u77ed\u7f3a\u6b63\u4f20\u5bfc\u5230\u7cfb\u7edf\u5382\u5546\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u662f AI \u57fa\u5efa\u4f9b\u7ed9\u7aef\u7d27\u5f20\u7684\u4fe1\u53f7\u3002\u8bc9\u8bbc\u8fd8\u63d0\u9ad8\u4e86\u4ef7\u683c\u64cd\u7eb5\u5ba1\u67e5\u7684\u6982\u7387\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u6270\u52a8\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
