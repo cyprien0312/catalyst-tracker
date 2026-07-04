@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783153929,
-  "generated_at_str": "2026-07-04 08:32:09 UTC",
-  "last_event_ts": 1783152843,
+  "generated_at": 1783154126,
+  "generated_at_str": "2026-07-04 08:35:26 UTC",
+  "last_event_ts": 1783154123,
   "tables": {
     "alerts_dedup": {
-      "count": 1958,
-      "last_ts": 1783152347,
-      "last_str": "2026-07-04 08:05:47 UTC"
+      "count": 1960,
+      "last_ts": 1783154123,
+      "last_str": "2026-07-04 08:35:23 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,19 +64,19 @@
       "last_str": "2026-07-04 02:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1601,
-      "last_ts": 1783152307,
-      "last_str": "2026-07-04 08:05:07 UTC"
+      "count": 1604,
+      "last_ts": 1783154102,
+      "last_str": "2026-07-04 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1834,
-      "last_ts": 1783152308,
-      "last_str": "2026-07-04 08:05:08 UTC"
+      "count": 1838,
+      "last_ts": 1783154103,
+      "last_str": "2026-07-04 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1239,
-      "last_ts": 1783152308,
-      "last_str": "2026-07-04 08:05:08 UTC"
+      "count": 1241,
+      "last_ts": 1783154103,
+      "last_str": "2026-07-04 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1455,
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1966,
+      "ts": 1783154123,
+      "ts_str": "2026-07-04 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\n\nMedia: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\" target=\"_blank\">Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ixbt.games</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung has reportedly raised memory (DRAM/NAND) prices again, per media reports, with PCs and smartphones cited as downstream products under pressure.\n\n\u5185\u5bb9:\n\u636e\u5a92\u4f53\u62a5\u9053\uff0cSamsung \u518d\u6b21\u4e0a\u8c03\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\uff0cPC \u548c\u667a\u80fd\u624b\u673a\u7b49\u4e0b\u6e38\u4ea7\u54c1\u88ab\u6307\u5c06\u627f\u538b\u3002\n\nWhy it matters:\nRising memory prices are the mirror image of the oversupply/order-cancellation signals C6 also watches \u2014 here it points to tight supply, likely from memory capacity being diverted to HBM for AI accelerators. Squeezes margins for consumer-device makers and is a tell that AI demand is crowding out commodity memory supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4e0e C6 \u76d1\u6d4b\u7684\u53e6\u4e00\u7c7b\u4fe1\u53f7\uff08\u4f9b\u8fc7\u4e8e\u6c42/\u8ba2\u5355\u53d6\u6d88\uff09\u6b63\u597d\u76f8\u53cd\uff0c\u8fd9\u91cc\u6307\u5411\u7684\u662f\u4f9b\u7ed9\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f\u5185\u5b58\u4ea7\u80fd\u88ab\u632a\u53bb\u751f\u4ea7 AI \u52a0\u901f\u5668\u7528\u7684 HBM\u3002\u8fd9\u4f1a\u6324\u538b\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5229\u6da6\uff0c\u4e5f\u8bf4\u660e AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u4f20\u7edf\u5185\u5b58\u7684\u5546\u54c1\u5316\u4f9b\u7ed9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1967,
+      "ts": 1783154123,
+      "ts_str": "2026-07-04 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027 - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 04:57:09 GMT\nLink:      https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVXd1ZzdiZzR3anUtWnBqaWY0akVDQlFycHd0M1lLNGF0a00xd0w5TXNZNmhVWnprM1BYU1JWbkpDTXRkM2dPM0VXNjEyZGtHNnRoeUhCbDVhUjJDUm8tU3NtSmNxblczTEoyU2szdGlqZklNV1RjZldtaEozR2hxZ2ZsUnBzcFVDN2RZMC1FRUlTVlBGNmhGMVllOWZKc0N1aXFqa0JUNy1lcFFvQTRjN3Z1a2tIWkhEUC16NVR2MlNHM21Ua0xCeVoyM3VHS0hLZlRFc0NZS2JZMWhBQ0VLdkNCYm9OLVAwMU1XUWNLd2J2bE1XMkpLallDNA?oc=5\n\nMicron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027 - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVXd1ZzdiZzR3anUtWnBqaWY0akVDQlFycHd0M1lLNGF0a00xd0w5TXNZNmhVWnprM1BYU1JWbkpDTXRkM2dPM0VXNjEyZGtHNnRoeUhCbDVhUjJDUm8tU3NtSmNxblczTEoyU2szdGlqZklNV1RjZldtaEozR2hxZ2ZsUnBzcFVDN2RZMC1FRUlTVlBGNmhGMVllOWZKc0N1aXFqa0JUNy1lcFFvQTRjN3Z1a2tIWkhEUC16NVR2MlNHM21Ua0xCeVoyM3VHS0hLZlRFc0NZS2JZMWhBQ0VLdkNCYm9OLVAwMU1XUWNLd2J2bE1XMkpLallDNA?oc=5\" target=\"_blank\">Micron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron CEO Sanjay Mehrotra told CNBC's Jim Cramer that the current memory chip shortage will persist beyond 2027.\n\n\u5185\u5bb9:\nMicron CEO Sanjay Mehrotra \u5728\u63a5\u53d7 Jim Cramer \u91c7\u8bbf\u65f6\u8868\u793a\uff0c\u5f53\u524d\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\u4ee5\u540e\u3002\n\nWhy it matters:\nA multi-year shortage call from the leading DRAM/NAND supplier signals structural, not cyclical, tightness \u2014 AI accelerators and HBM are absorbing capacity that would otherwise ease general memory pricing, keeping input costs elevated for every downstream AI-infra buyer.\n\n\u5f71\u54cd:\n\u884c\u4e1a\u9f99\u5934\u7ed9\u51fa\u8de8\u8d8a\u591a\u5e74\u7684\u77ed\u7f3a\u9884\u671f\uff0c\u8bf4\u660e\u8fd9\u4e0d\u662f\u5468\u671f\u6027\u7d27\u5f20\uff0c\u800c\u662f\u7ed3\u6784\u6027\u7684\u2014\u2014AI \u52a0\u901f\u5361\u548c HBM \u5360\u7528\u4e86\u672c\u8be5\u7f13\u89e3\u901a\u7528\u5185\u5b58\u4ef7\u683c\u7684\u4ea7\u80fd\uff0c\u5bfc\u81f4\u4e0b\u6e38\u6240\u6709 AI \u57fa\u7840\u8bbe\u65bd\u4e70\u5bb6\u7684\u6210\u672c\u6301\u7eed\u7ef4\u6301\u9ad8\u4f4d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1961,
       "ts": 1783152347,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] STARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic - Yahoo Finance Singapore",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 03:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0R4TFVoTVRPWDJTM0VsSlE0N3hvS3FtYjZUMjIzUGhfeFR4bFI4c0phNC1LUERqOGdEWlhoOHIyUnMzMjNOZjBMQ0RzNHhNUE5HZVVRRG9WNnNJMWpJSWZYUUJtLUNXVy1EUUk1ZEZub2FYaXg2X0N4N0d3c3NBSkFiT2hpQWMzRF83ZQ?oc=5\n\nSTARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic - Yahoo Finance Singapore\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0R4TFVoTVRPWDJTM0VsSlE0N3hvS3FtYjZUMjIzUGhfeFR4bFI4c0phNC1LUERqOGdEWlhoOHIyUnMzMjNOZjBMQ0RzNHhNUE5HZVVRRG9WNnNJMWpJSWZYUUJtLUNXVy1EUUk1ZEZub2FYaXg2X0N4N0d3c3NBSkFiT2hpQWMzRF83ZQ?oc=5\" target=\"_blank\">STARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Singapore</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item picked up by C3: STARTRADER launched pre-IPO trading products for OpenAI and Anthropic, per Yahoo Finance Singapore. This is a MED keyword hit, not a filing or a burn-rate metric.\n\n\u5185\u5bb9:\nC3 \u6293\u53d6\u5230\u4e00\u6761 Google News RSS\uff1aSTARTRADER \u63a8\u51fa\u9488\u5bf9 OpenAI \u548c Anthropic \u7684 Pre-IPO \u4ea4\u6613\u4ea7\u54c1\uff0c\u6765\u6e90\u4e3a Yahoo Finance Singapore\u3002\u8fd9\u662f\u4e00\u6761 MED \u7ea7\u5173\u952e\u8bcd\u547d\u4e2d\uff0c\u5e76\u975e SEC \u6587\u4ef6\uff0c\u4e5f\u6ca1\u6709 burn-rate \u6307\u6807\u3002\n\nWhy it matters:\nRetail-facing pre-IPO derivatives on still-private AI labs are a late-cycle demand signal \u2014 they let the public chase OpenAI/Anthropic exposure before any IPO, the kind of speculative product that proliferates near a top. Not hard financial stress, but evidence the hype is broadening into structured retail bets.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u3001\u9488\u5bf9\u4ecd\u672a\u4e0a\u5e02\u7684 AI \u5b9e\u9a8c\u5ba4\u7684 Pre-IPO \u884d\u751f\u54c1\uff0c\u662f\u5468\u671f\u665a\u671f\u7684\u9700\u6c42\u4fe1\u53f7\u2014\u2014\u5b83\u8ba9\u516c\u4f17\u80fd\u5728 IPO \u4e4b\u524d\u5c31\u8ffd\u9010 OpenAI/Anthropic \u655e\u53e3\uff0c\u8fd9\u7c7b\u6295\u673a\u4ea7\u54c1\u5f80\u5f80\u5728\u89c1\u9876\u524d\u5927\u91cf\u6d8c\u73b0\u3002\u5b83\u4e0d\u662f\u786c\u6027\u7684\u8d22\u52a1\u538b\u529b\uff0c\u4f46\u8bf4\u660e\u7092\u4f5c\u6b63\u5728\u5411\u6563\u6237\u7684\u7ed3\u6784\u5316\u62bc\u6ce8\u6269\u6563\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1767,
-      "ts": 1782792316,
-      "ts_str": "2026-06-30 04:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM price surge tests South Korean memory makers' HBM4 push - digitimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 02:49:49 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNcHp5WjBuUTQ1VmphNWgzU3ZacC0yeTE3bzlmNmNtcUdPaEkwR3J6cmQ2YnZQTlZldVdHdjMzMi12WW1MbDJ1WXdybG83OFdTZkFUN0VET29kREpKY0ZSRnl2TTl6blpsdmI4dHhfX1U3alhweXhNLTRXTDFZc0tyXzhyODVkRjZrSDdlODBnUQ?oc=5\n\nDRAM price surge tests South Korean memory makers' HBM4 push - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNcHp5WjBuUTQ1VmphNWgzU3ZacC0yeTE3bzlmNmNtcUdPaEkwR3J6cmQ2YnZQTlZldVdHdjMzMi12WW1MbDJ1WXdybG83OFdTZkFUN0VET29kREpKY0ZSRnl2TTl6blpsdmI4dHhfX1U3alhweXhNLTRXTDFZc0tyXzhyODVkRjZrSDdlODBnUQ?oc=5\" target=\"_blank\">DRAM price surge tests South Korean memory makers' HBM4 push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News/digitimes headline: \"DRAM price surge tests South Korean memory makers' HBM4 push\" \u2014 spot DRAM prices are spiking as Samsung and SK Hynix shift capacity toward HBM4.\n\n\u5185\u5bb9:\nGoogle News/digitimes \u6807\u9898\uff1a\"DRAM price surge tests South Korean memory makers' HBM4 push\"\u2014\u2014\u97e9\u56fd\u5b58\u50a8\u5382\u5546(Samsung\u3001SK Hynix)\u628a\u4ea7\u80fd\u8f6c\u5411 HBM4\uff0c\u5bfc\u81f4\u73b0\u8d27 DRAM \u4ef7\u683c\u98d9\u5347\u3002\n\nWhy it matters:\nHBM for AI accelerators is cannibalizing commodity DRAM supply, so a price surge here is a direct read on AI-capex demand pulling memory tight. Rising DRAM cost feeds straight into server and GPU bill-of-materials, squeezing hyperscaler hardware margins and confirming the supply chain is running hot.\n\n\u5f71\u54cd:\n\u9762\u5411 AI \u52a0\u901f\u5668\u7684 HBM \u6b63\u5728\u6324\u5360\u901a\u7528 DRAM \u4ea7\u80fd\uff0c\u56e0\u6b64 DRAM \u6da8\u4ef7\u76f4\u63a5\u53cd\u6620 AI capex \u9700\u6c42\u628a\u5b58\u50a8\u5e02\u573a\u62c9\u7d27\u3002DRAM \u6210\u672c\u4e0a\u5347\u4f1a\u4f20\u5bfc\u5230\u670d\u52a1\u5668\u548c GPU \u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u786c\u4ef6\u5229\u6da6\uff0c\u4e5f\u5370\u8bc1\u4f9b\u5e94\u94fe\u6b63\u5904\u4e8e\u8fc7\u70ed\u72b6\u6001\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1765,
-      "ts": 1782788714,
-      "ts_str": "2026-06-30 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Goldman Sachs June DRAM Survey: Significantly Raises HBM Price Forecast for 2027 - \u5bcc\u9014\u725b\u725b",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 02:57:11 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVlENWVtdXRROFRTb3ZjR0lYMmJ3bzZ3MEVYUzVRM3FXM19KeTZzVlV4RHQyUTdkOVNFSFBQdXBJUkNIZkhZTWFUOGZCQnc4WmJsenJidWNHVlVLbk1lNUtKTWdBR29XNnJ4YXNHX3U0MmhkdDd1VGpKQnFQSmRIdl9TaFJUc1ZuV1EwR0JOeWJlRXJIZWs0Z0dPNGhpdXlTdXVXUGZVQ1hiWHpsYkVLbw?oc=5\n\nGoldman Sachs June DRAM Survey: Significantly Raises HBM Price Forecast for 2027 - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVlENWVtdXRROFRTb3ZjR0lYMmJ3bzZ3MEVYUzVRM3FXM19KeTZzVlV4RHQyUTdkOVNFSFBQdXBJUkNIZkhZTWFUOGZCQnc4WmJsenJidWNHVlVLbk1lNUtKTWdBR29XNnJ4YXNHX3U0MmhkdDd1VGpKQnFQSmRIdl9TaFJUc1ZuV1EwR0JOeWJlRXJIZWs0Z0dPNGhpdXlTdXVXUGZVQ1hiWHpsYkVLbw?oc=5\" target=\"_blank\">Goldman Sachs June DRAM Survey: Significantly Raises HBM Price Forecast for 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoldman Sachs's June DRAM survey significantly raised its HBM price forecast for 2027.\n\n\u5185\u5bb9:\nGoldman Sachs \u516d\u6708 DRAM \u8c03\u7814\u5927\u5e45\u4e0a\u8c03\u4e86 2027 \u5e74\u7684 HBM \u4ef7\u683c\u9884\u6d4b\u3002\n\nWhy it matters:\nHBM is the memory bottleneck for AI accelerators; sustained upward price revisions out to 2027 signal that AI-capex demand is still outrunning supply rather than peaking. It also pushes up the bill-of-materials for GPUs, squeezing the payback math on AI infrastructure spend.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u7684\u5185\u5b58\u74f6\u9888\uff0c\u4ef7\u683c\u9884\u6d4b\u4e00\u8def\u4e0a\u8c03\u81f3 2027 \u5e74\uff0c\u8bf4\u660e AI capex \u9700\u6c42\u4ecd\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3001\u800c\u975e\u89c1\u9876\u3002\u8fd9\u540c\u65f6\u62ac\u9ad8\u4e86 GPU \u7684\u7269\u6599\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u6324\u538b AI \u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u7684\u56de\u672c\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
