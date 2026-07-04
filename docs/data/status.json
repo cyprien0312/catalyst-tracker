@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783170129,
-  "generated_at_str": "2026-07-04 13:02:09 UTC",
-  "last_event_ts": 1783169042,
+  "generated_at": 1783170306,
+  "generated_at_str": "2026-07-04 13:05:06 UTC",
+  "last_event_ts": 1783170305,
   "tables": {
     "alerts_dedup": {
-      "count": 1978,
-      "last_ts": 1783166725,
-      "last_str": "2026-07-04 12:05:25 UTC"
+      "count": 1979,
+      "last_ts": 1783170305,
+      "last_str": "2026-07-04 13:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,19 +69,19 @@
       "last_str": "2026-07-04 12:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1861,
-      "last_ts": 1783168504,
-      "last_str": "2026-07-04 12:35:04 UTC"
+      "count": 1865,
+      "last_ts": 1783170304,
+      "last_str": "2026-07-04 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1248,
-      "last_ts": 1783168503,
-      "last_str": "2026-07-04 12:35:03 UTC"
+      "count": 1251,
+      "last_ts": 1783170303,
+      "last_str": "2026-07-04 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1467,
-      "last_ts": 1783168505,
-      "last_str": "2026-07-04 12:35:05 UTC"
+      "count": 1472,
+      "last_ts": 1783170305,
+      "last_str": "2026-07-04 13:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13634,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1986,
+      "ts": 1783170305,
+      "ts_str": "2026-07-04 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 06:52:53 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\n\nSamsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\" target=\"_blank\">Samsung reportedly plans 20% DRAM price hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3, per The Korea Herald.\n\n\u5185\u5bb9:\n\u636e\u300a\u97e9\u56fd\u5148\u9a71\u62a5\u300b\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA sharp DRAM price increase signals tight memory supply, likely driven by AI accelerator/HBM demand crowding out conventional DRAM capacity \u2014 a cost pressure that ripples through every hyperscaler's server bill of materials.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f AI \u52a0\u901f\u5668/HBM \u9700\u6c42\u6324\u5360\u4e86\u4f20\u7edf DRAM \u4ea7\u80fd\u2014\u2014\u8fd9\u79cd\u6210\u672c\u538b\u529b\u4f1a\u4f20\u5bfc\u5230\u6bcf\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1982,
       "ts": 1783166725,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Pre-IPO stock (Republic) Price | preOPAI Price Today, Live Chart, USD converter, Market Capitalization - CryptoRa",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 07:48:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzU3VQMFZNMjI2RFRiYnRfdEoyQTRTZllOTE5talU1OTBfUUNJTXNqeUNwNWwtVTdnTkhfZFQ2TTJqQU16dUg0bEcyYk5BcGZFTnVMXzlKUm5MRGVHNjhBRjNVNVlNRFdy?oc=5\n\nOpenAI Pre-IPO stock (Republic) Price | preOPAI Price Today, Live Chart, USD converter, Market Capitalization - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzU3VQMFZNMjI2RFRiYnRfdEoyQTRTZllOTE5talU1OTBfUUNJTXNqeUNwNWwtVTdnTkhfZFQ2TTJqQU16dUg0bEcyYk5BcGZFTnVMXzlKUm5MRGVHNjhBRjNVNVlNRFdy?oc=5\" target=\"_blank\">OpenAI Pre-IPO stock (Republic) Price | preOPAI Price Today, Live Chart, USD converter, Market Capitalization</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nC3 matched an OpenAI-keyword news item: a CryptoRank page tracking the price of OpenAI pre-IPO stock (Republic's \"preOPAI\" token) \u2014 a live quote/market-cap chart for secondary OpenAI equity exposure.\n\n\u5185\u5bb9:\nC3 \u547d\u4e2d\u4e00\u6761\u542b OpenAI \u5173\u952e\u8bcd\u7684\u65b0\u95fb\uff1aCryptoRank \u4e0a\u4e00\u4e2a\u8ffd\u8e2a OpenAI pre-IPO \u80a1\u7968\u4ef7\u683c\u7684\u9875\u9762\uff08Republic \u7684 \"preOPAI\" \u4ee3\u5e01\uff09\u2014\u2014\u4e00\u4e2a\u9488\u5bf9 OpenAI \u4e8c\u7ea7\u80a1\u6743\u655e\u53e3\u7684\u5b9e\u65f6\u62a5\u4ef7\u4e0e\u5e02\u503c\u56fe\u8868\u3002\n\nWhy it matters:\nLow-signal: it's a price-tracker page, not a filing or burn-rate disclosure, so it doesn't move the AI-capex thesis on its own. But the existence of a liquid retail-facing market for OpenAI pre-IPO shares is itself a froth marker \u2014 secondary speculation on a still-private, cash-burning leader is the kind of late-cycle behavior the tracker watches for.\n\n\u5f71\u54cd:\n\u4fe1\u53f7\u8f83\u5f31\uff1a\u8fd9\u53ea\u662f\u4e2a\u4ef7\u683c\u8ffd\u8e2a\u9875\u9762\uff0c\u4e0d\u662f\u8d22\u62a5\u6216\u70e7\u94b1\u7387\u62ab\u9732\uff0c\u672c\u8eab\u4e0d\u8db3\u4ee5\u64bc\u52a8 AI capex \u903b\u8f91\u3002\u4f46 OpenAI pre-IPO \u80a1\u4efd\u51fa\u73b0\u4e00\u4e2a\u9762\u5411\u6563\u6237\u7684\u6d3b\u8dc3\u4ea4\u6613\u5e02\u573a\uff0c\u672c\u8eab\u5c31\u662f\u6ce1\u6cab\u8ff9\u8c61\u2014\u2014\u5bf9\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u3001\u6301\u7eed\u70e7\u94b1\u7684\u9f99\u5934\u8fdb\u884c\u4e8c\u7ea7\u6295\u673a\uff0c\u6b63\u662f\u8be5\u8ffd\u8e2a\u5668\u5173\u6ce8\u7684\u5468\u671f\u665a\u671f\u884c\u4e3a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1783,
-      "ts": 1782831945,
-      "ts_str": "2026-06-30 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\n\nThree Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\" target=\"_blank\">Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GamingBolt</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports the three biggest RAM makers are being sued for price-fixing DRAM, which the headline says is causing a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u663e\u793a\uff0c\u4e09\u5927 RAM \u5382\u5546\u56e0\u64cd\u7eb5 DRAM \u4ef7\u683c\u88ab\u8d77\u8bc9\uff0c\u6807\u9898\u79f0\u6b64\u4e3e\u6b63\u9020\u6210\u4f9b\u5e94\u77ed\u7f3a\u3002\n\nWhy it matters:\nDRAM/HBM is the gating input for AI accelerator builds. Coordinated pricing plus an outright shortage means memory cost and availability \u2014 not GPU supply \u2014 becomes the constraint on hyperscaler capex, and the litigation flags pricing as artificially elevated, a stress point for the buildout economics.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7ec4\u88c5\u7684\u5173\u952e\u74f6\u9888\u8f93\u5165\u3002\u4ef7\u683c\u4e32\u901a\u53e0\u52a0\u5b9e\u9645\u77ed\u7f3a\uff0c\u610f\u5473\u7740\u5236\u7ea6\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u7684\u4e0d\u518d\u662f GPU \u4f9b\u7ed9\uff0c\u800c\u662f\u5185\u5b58\u7684\u6210\u672c\u4e0e\u53ef\u5f97\u6027\uff1b\u540c\u65f6\u8fd9\u573a\u8bc9\u8bbc\u63ed\u793a\u4ef7\u683c\u88ab\u4eba\u4e3a\u62ac\u9ad8\uff0c\u5bf9\u6574\u4e2a\u5efa\u8bbe\u5468\u671f\u7684\u7ecf\u6d4e\u6027\u6784\u6210\u538b\u529b\u70b9\u3002\n",
       "emailed": false
     }
   ],
