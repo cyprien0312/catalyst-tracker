@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783157530,
-  "generated_at_str": "2026-07-04 09:32:10 UTC",
-  "last_event_ts": 1783156456,
+  "generated_at": 1783157715,
+  "generated_at_str": "2026-07-04 09:35:15 UTC",
+  "last_event_ts": 1783157715,
   "tables": {
     "alerts_dedup": {
-      "count": 1962,
-      "last_ts": 1783156456,
-      "last_str": "2026-07-04 09:14:16 UTC"
+      "count": 1963,
+      "last_ts": 1783157715,
+      "last_str": "2026-07-04 09:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-04 02:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1604,
-      "last_ts": 1783154102,
-      "last_str": "2026-07-04 08:35:02 UTC"
+      "count": 1605,
+      "last_ts": 1783157702,
+      "last_str": "2026-07-04 09:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1838,
-      "last_ts": 1783154103,
-      "last_str": "2026-07-04 08:35:03 UTC"
+      "count": 1843,
+      "last_ts": 1783157704,
+      "last_str": "2026-07-04 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1241,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1970,
+      "ts": 1783157715,
+      "ts_str": "2026-07-04 09:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Chip industry group warns US government against interventionist approach to memory chip shortage - Data Center Dynamics",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 12:37:43 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZEh0SC1EZS04QUdWdjBNWGxjOVpJMTZJRmNMY2pJeDFpWFNjVkpfV0ZuM3lRVC1Ld2pJMGQzTXBJVEN4N25MaTNCSmVIMDV5X05adlp5dF9IQnNmMFNsLWRZT3J4bXRacFRjZkF0YWV0cEE1RERoZURmeno3TWx1Q0x5Q2dJM0xKV1JMWmdSM1IwWEdsWUI0WndYdDhaZE9Zb0RyX2ZZTWU5bDNNSk5zQzdrLXdaYUtIVVc0OXRJNVNWalZ5QUhxY3lBcHBOQWxaWHc3SDNZaw?oc=5\n\nChip industry group warns US government against interventionist approach to memory chip shortage - Data Center Dynamics\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZEh0SC1EZS04QUdWdjBNWGxjOVpJMTZJRmNMY2pJeDFpWFNjVkpfV0ZuM3lRVC1Ld2pJMGQzTXBJVEN4N25MaTNCSmVIMDV5X05adlp5dF9IQnNmMFNsLWRZT3J4bXRacFRjZkF0YWV0cEE1RERoZURmeno3TWx1Q0x5Q2dJM0xKV1JMWmdSM1IwWEdsWUI0WndYdDhaZE9Zb0RyX2ZZTWU5bDNNSk5zQzdrLXdaYUtIVVc0OXRJNVNWalZ5QUhxY3lBcHBOQWxaWHc3SDNZaw?oc=5\" target=\"_blank\">Chip industry group warns US government against interventionist approach to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Data Center Dynamics</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA chip industry trade group publicly urged the US government not to intervene in the memory chip shortage, per a Data Center Dynamics report.\n\n\u5185\u5bb9:\n\u82af\u7247\u884c\u4e1a\u534f\u4f1a\u516c\u5f00\u547c\u5401\u7f8e\u56fd\u653f\u5e9c\u4e0d\u8981\u5e72\u9884\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u95ee\u9898\uff0c\u636e Data Center Dynamics \u62a5\u9053\u3002\n\nWhy it matters:\nIndustry lobbying against intervention signals the shortage is severe enough to draw policy attention \u2014 a supply-constrained memory market raises input costs for every AI server buildout and squeezes hyperscaler margins further.\n\n\u5f71\u54cd:\n\u884c\u4e1a\u6e38\u8bf4\u53cd\u5bf9\u653f\u5e9c\u5e72\u9884\uff0c\u8bf4\u660e\u77ed\u7f3a\u5df2\u4e25\u91cd\u5230\u5f15\u8d77\u653f\u7b56\u5c42\u5173\u6ce8\u2014\u2014\u5185\u5b58\u5e02\u573a\u4f9b\u5e94\u53d7\u9650\u4f1a\u63a8\u9ad8\u6bcf\u4e00\u6b21 AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1969,
       "ts": 1783156456,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] STARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic - bastillepost.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 03:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGdtLS1LbmwyU3NCek9CMGdYT0ZSWFZRUmhyZUF6TlpMcVRiNGNaU1U5QkVaeTk2WUlBb21ZeWFuNE9NSEJQVE5ldklpRW1OS1QyQjItQ0pGcnpWcWs5enlsektoa2FWQ2pBYUI1LW1MSUZmQThBU1RCdElqcTRLMmZNdEhsajlKZC1oWGprMWR1b2FuLTEwdnVwZVlnLWJiWUcyd09ZRW5sSkh3eTRlUV9KRlAyOEJPUWM5Rk0ySFo?oc=5\n\nSTARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic - bastillepost.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGdtLS1LbmwyU3NCek9CMGdYT0ZSWFZRUmhyZUF6TlpMcVRiNGNaU1U5QkVaeTk2WUlBb21ZeWFuNE9NSEJQVE5ldklpRW1OS1QyQjItQ0pGcnpWcWs5enlsektoa2FWQ2pBYUI1LW1MSUZmQThBU1RCdElqcTRLMmZNdEhsajlKZC1oWGprMWR1b2FuLTEwdnVwZVlnLWJiWUcyd09ZRW5sSkh3eTRlUV9KRlAyOEJPUWM5Rk0ySFo?oc=5\" target=\"_blank\">STARTRADER Launches Pre-IPO Trading Products for OpenAI and Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bastillepost.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSTARTRADER, a retail brokerage, launched pre-IPO trading products giving customers price exposure to OpenAI and Anthropic shares.\n\n\u5185\u5bb9:\n\u96f6\u552e\u7ecf\u7eaa\u5546 STARTRADER \u63a8\u51fa Pre-IPO \u4ea4\u6613\u4ea7\u54c1\uff0c\u8ba9\u5ba2\u6237\u62bc\u6ce8\u5c1a\u672a\u4e0a\u5e02\u7684 OpenAI \u548c Anthropic \u80a1\u4ef7\u3002\n\nWhy it matters:\nRetail-facing pre-IPO products on still-private AI labs are a late-cycle demand signal \u2014 they manufacture speculative access where no public float exists. The appearance of synthetic OpenAI exposure marketed to retail is the kind of froth that shows up near a top, not a bottom.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u672a\u4e0a\u5e02 AI \u5b9e\u9a8c\u5ba4 Pre-IPO \u4ea7\u54c1\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u9700\u6c42\u4fe1\u53f7\u2014\u2014\u5728\u6ca1\u6709\u516c\u5f00\u6d41\u901a\u80a1\u7684\u60c5\u51b5\u4e0b\u786c\u9020\u51fa\u6295\u673a\u655e\u53e3\u3002\u628a\u5408\u6210\u7684 OpenAI \u655e\u53e3\u5305\u88c5\u597d\u5356\u7ed9\u6563\u6237\uff0c\u8fd9\u79cd\u6ce1\u6cab\u901a\u5e38\u51fa\u73b0\u5728\u9876\u90e8\u9644\u8fd1\uff0c\u800c\u4e0d\u662f\u5e95\u90e8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1770,
-      "ts": 1782795918,
-      "ts_str": "2026-06-30 05:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple raises prices as AI-driven memory chip costs surge: Why MacBooks and iPads are getting more expensive - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 11:20:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiswJBVV95cUxNbTFlZVlfakRESTJWQ0lKUVMzVW96SVk2U3V6TmhsdDBrRE42Z0pVTnktX2x1OVhqS2RJUnE3X011d3lGMGRjMExtRlV4RkZyZTJGRkpPWlEyMVhnNXFyZ3MtX2tBemZ1UTJwRlpmRTNYU0EyTGI2RXVJT0w2NldBRFRPcklBQ3FzMGZKNWwtUExJSjNseGtrTVpfTFl1U3JmYThtWWV5TW9yLWctdmVGRW52dWkyOU1hNHFHRlR6Um9TaTRxS1RZcndBN0xNZWI2cFB3UkttS0E4a1NQUWFvZU9Rb25HQ1B2SVppQVVpX0luVWI2d0h2QzlINkdYQzlabFE1eHBKd3hzM3pYa0x4UkF3VmJqT3N4Snd5Q0p0OGZfOG13YlFUQ1Z2UDNLTkRrZnhB?oc=5\n\nApple raises prices as AI-driven memory chip costs surge: Why MacBooks and iPads are getting more expensive - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiswJBVV95cUxNbTFlZVlfakRESTJWQ0lKUVMzVW96SVk2U3V6TmhsdDBrRE42Z0pVTnktX2x1OVhqS2RJUnE3X011d3lGMGRjMExtRlV4RkZyZTJGRkpPWlEyMVhnNXFyZ3MtX2tBemZ1UTJwRlpmRTNYU0EyTGI2RXVJT0w2NldBRFRPcklBQ3FzMGZKNWwtUExJSjNseGtrTVpfTFl1U3JmYThtWWV5TW9yLWctdmVGRW52dWkyOU1hNHFHRlR6Um9TaTRxS1RZcndBN0xNZWI2cFB3UkttS0E4a1NQUWFvZU9Rb25HQ1B2SVppQVVpX0luVWI2d0h2QzlINkdYQzlabFE1eHBKd3hzM3pYa0x4UkF3VmJqT3N4Snd5Q0p0OGZfOG13YlFUQ1Z2UDNLTkRrZnhB?oc=5\" target=\"_blank\">Apple raises prices as AI-driven memory chip costs surge: Why MacBooks and iPads are getting more expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple is raising prices on MacBooks and iPads, attributing the increase to surging AI-driven memory chip costs.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053 Apple \u4e0a\u8c03 MacBook \u548c iPad \u4ef7\u683c\uff0c\u5e76\u5c06\u6da8\u4ef7\u5f52\u56e0\u4e8e AI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\u3002\n\nWhy it matters:\nMemory price pass-through to consumer hardware confirms the DRAM/NAND squeeze has moved from spot pricing into end-product costs \u2014 AI buildouts are absorbing supply fast enough to inflate prices for everyone else. Signals a tightening cycle that pressures margins across the device chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u786c\u4ef6\uff0c\u8bf4\u660e DRAM/NAND \u7684\u4f9b\u7ed9\u7d27\u5f20\u5df2\u7ecf\u4ece\u73b0\u8d27\u4ef7\u683c\u8513\u5ef6\u5230\u7ec8\u7aef\u4ea7\u54c1\u6210\u672c\u2014\u2014AI \u57fa\u5efa\u6b63\u5728\u4ee5\u8db3\u591f\u5feb\u7684\u901f\u5ea6\u541e\u566c\u4ea7\u80fd\uff0c\u628a\u4ef7\u683c\u62ac\u9ad8\u5230\u6324\u538b\u5176\u4ed6\u6240\u6709\u4e70\u5bb6\u3002\u8fd9\u9884\u793a\u7740\u4e00\u4e2a\u6536\u7d27\u5468\u671f\uff0c\u4f1a\u5bf9\u6574\u6761\u8bbe\u5907\u94fe\u7684\u5229\u6da6\u7387\u5f62\u6210\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
