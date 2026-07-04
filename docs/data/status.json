@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783166524,
-  "generated_at_str": "2026-07-04 12:02:04 UTC",
-  "last_event_ts": 1783165442,
+  "generated_at": 1783166725,
+  "generated_at_str": "2026-07-04 12:05:25 UTC",
+  "last_event_ts": 1783166725,
   "tables": {
     "alerts_dedup": {
-      "count": 1974,
-      "last_ts": 1783164913,
-      "last_str": "2026-07-04 11:35:13 UTC"
+      "count": 1978,
+      "last_ts": 1783166725,
+      "last_str": "2026-07-04 12:05:25 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-04 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1611,
-      "last_ts": 1783164901,
-      "last_str": "2026-07-04 11:35:01 UTC"
+      "count": 1613,
+      "last_ts": 1783166703,
+      "last_str": "2026-07-04 12:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1852,
-      "last_ts": 1783164903,
-      "last_str": "2026-07-04 11:35:03 UTC"
+      "count": 1856,
+      "last_ts": 1783166704,
+      "last_str": "2026-07-04 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1244,
-      "last_ts": 1783164902,
-      "last_str": "2026-07-04 11:35:02 UTC"
+      "count": 1245,
+      "last_ts": 1783166703,
+      "last_str": "2026-07-04 12:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1462,
-      "last_ts": 1783164904,
-      "last_str": "2026-07-04 11:35:04 UTC"
+      "count": 1463,
+      "last_ts": 1783166705,
+      "last_str": "2026-07-04 12:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13622,
@@ -276,6 +276,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1982,
+      "ts": 1783166725,
+      "ts_str": "2026-07-04 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices clim",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:47:34 GMT\nLink:      https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\n\nMemory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026 - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\" target=\"_blank\">Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Tom's Hardware headline reports consumer memory demand cooling on affordability limits, but AI-driven demand keeps DRAM and NAND prices rising through Q3 2026.\n\n\u5185\u5bb9:\nTom's Hardware \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u6d88\u8d39\u7ea7\u5185\u5b58\u9700\u6c42\u56e0\u53ef\u8d1f\u62c5\u6027\u89c1\u9876\u800c\u964d\u6e29\uff0c\u4f46 AI \u9a71\u52a8\u7684\u9700\u6c42\u4ecd\u5728\u63a8\u52a8 DRAM \u548c NAND \u4ef7\u683c\u4e0a\u6da8\uff0c\u9884\u8ba1\u6301\u7eed\u5230 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u3002\n\nWhy it matters:\nPersistent DRAM/NAND price strength despite softening consumer demand signals that AI-side buying (HBM, server memory) is now the marginal price-setter \u2014 a sign the memory supply chain is tightening around AI capex rather than broad consumer electronics.\n\n\u5f71\u54cd:\n\u5c3d\u7ba1\u6d88\u8d39\u7aef\u9700\u6c42\u8d70\u5f31\uff0cDRAM \u548c NAND \u4ef7\u683c\u4f9d\u7136\u575a\u633a\uff0c\u8bf4\u660e AI \u4fa7\u7684\u91c7\u8d2d(HBM\u3001\u670d\u52a1\u5668\u5185\u5b58)\u5df2\u7ecf\u6210\u4e3a\u4ef7\u683c\u7684\u8fb9\u9645\u51b3\u5b9a\u56e0\u7d20\u2014\u2014\u8fd9\u8868\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u7d27\u5f20\u6b63\u56f4\u7ed5 AI capex \u5c55\u5f00\uff0c\u800c\u975e\u5e7f\u4e49\u6d88\u8d39\u7535\u5b50\u9700\u6c42\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1983,
+      "ts": 1783166725,
+      "ts_str": "2026-07-04 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Pushes for China DRAM Access as Samsung Prices Spike and Supply Tightens - Qoo10.co.id",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:47:52 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNRnB5VlVGVXJRdG5TeUd4OXlyQkVwLWhremFka1BJSEx4bHkwcUFyYnJ0b0pzR1pWdl83clExNEhyVmlXMlJTcmdUUkoxWENqNmh0T2tOU1ctcE9Ic2VoS3dPWUkybDFHRkhOcTBWQVBDM0liQmw2N2xzeFUwT3E0a2pRbGVmTWJ5STY3ZG1fRksyQdIBmgFBVV95cUxQT0o2cFVTT0hLWUYwZVlER3ZKNnp5TmJ1UjdUN1hTdkZ3cFpqTlRnaDRqT3YwOWpkM2FCWVg3OHJOSGRDVGhKVGVoTlJGWXFDOWRXOEF1a2txTmdMbnNPM3VualNKS3BQRXN5Wld3WWpwcWQtSS13NW4tWlZ0SmtPSy0talk0YVRhbnlLZ3hhek16U1MxSDNYUnl3?oc=5\n\nApple Pushes for China DRAM Access as Samsung Prices Spike and Supply Tightens - Qoo10.co.id\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNRnB5VlVGVXJRdG5TeUd4OXlyQkVwLWhremFka1BJSEx4bHkwcUFyYnJ0b0pzR1pWdl83clExNEhyVmlXMlJTcmdUUkoxWENqNmh0T2tOU1ctcE9Ic2VoS3dPWUkybDFHRkhOcTBWQVBDM0liQmw2N2xzeFUwT3E0a2pRbGVmTWJ5STY3ZG1fRksyQdIBmgFBVV95cUxQT0o2cFVTT0hLWUYwZVlER3ZKNnp5TmJ1UjdUN1hTdkZ3cFpqTlRnaDRqT3YwOWpkM2FCWVg3OHJOSGRDVGhKVGVoTlJGWXFDOWRXOEF1a2txTmdMbnNPM3VualNKS3BQRXN5Wld3WWpwcWQtSS13NW4tWlZ0SmtPSy0talk0YVRhbnlLZ3hhek16U1MxSDNYUnl3?oc=5\" target=\"_blank\">Apple Pushes for China DRAM Access as Samsung Prices Spike and Supply Tightens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Qoo10.co.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple pushing for China DRAM access as Samsung's DRAM prices spike and supply tightens.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0\uff0c\u968f\u7740\u4e09\u661f DRAM \u4ef7\u683c\u98d9\u5347\u3001\u4f9b\u5e94\u8d8b\u7d27\uff0cApple \u6b63\u5728\u4e89\u53d6\u83b7\u5f97\u4e2d\u56fd\u7684 DRAM \u4f9b\u5e94\u6e20\u9053\u3002\n\nWhy it matters:\nTight DRAM/HBM supply and price spikes raise the bill-of-materials for AI servers and squeeze margins across the hyperscaler build-out; a scramble by Apple for access signals the shortage is broad enough to hit even non-AI buyers.\n\n\u5f71\u54cd:\nDRAM/HBM \u4f9b\u5e94\u8d8b\u7d27\u3001\u4ef7\u683c\u98d9\u5347\u4f1a\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u5e76\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7a7a\u95f4\uff1b\u8fde Apple \u8fd9\u6837\u7684\u975e AI \u4e70\u5bb6\u90fd\u8981\u62a2\u8d27\uff0c\u8bf4\u660e\u77ed\u7f3a\u5df2\u7ecf\u6ce2\u53ca\u8303\u56f4\u5f88\u5e7f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1984,
+      "ts": 1783166725,
+      "ts_str": "2026-07-04 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices clim",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:47:34 GMT\nLink:      https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\n\nMemory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026 - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\" target=\"_blank\">Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Tom's Hardware headline reports consumer memory demand cooling on affordability limits, but AI-driven demand keeps DRAM and NAND prices rising through Q3 2026.\n\n\u5185\u5bb9:\nTom's Hardware \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u6d88\u8d39\u7ea7\u5185\u5b58\u9700\u6c42\u56e0\u53ef\u8d1f\u62c5\u6027\u89c1\u9876\u800c\u964d\u6e29\uff0c\u4f46 AI \u9a71\u52a8\u7684\u9700\u6c42\u4ecd\u5728\u63a8\u52a8 DRAM \u548c NAND \u4ef7\u683c\u4e0a\u6da8\uff0c\u9884\u8ba1\u6301\u7eed\u5230 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u3002\n\nWhy it matters:\nPersistent DRAM/NAND price strength despite softening consumer demand signals that AI-side buying (HBM, server memory) is now the marginal price-setter \u2014 a sign the memory supply chain is tightening around AI capex rather than broad consumer electronics.\n\n\u5f71\u54cd:\n\u5c3d\u7ba1\u6d88\u8d39\u7aef\u9700\u6c42\u8d70\u5f31\uff0cDRAM \u548c NAND \u4ef7\u683c\u4f9d\u7136\u575a\u633a\uff0c\u8bf4\u660e AI \u4fa7\u7684\u91c7\u8d2d(HBM\u3001\u670d\u52a1\u5668\u5185\u5b58)\u5df2\u7ecf\u6210\u4e3a\u4ef7\u683c\u7684\u8fb9\u9645\u51b3\u5b9a\u56e0\u7d20\u2014\u2014\u8fd9\u8868\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u7d27\u5f20\u6b63\u56f4\u7ed5 AI capex \u5c55\u5f00\uff0c\u800c\u975e\u5e7f\u4e49\u6d88\u8d39\u7535\u5b50\u9700\u6c42\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 1985,
+      "ts": 1783166725,
+      "ts_str": "2026-07-04 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 06:52:53 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\n\nSamsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\" target=\"_blank\">Samsung reportedly plans 20% DRAM price hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3, per The Korea Herald.\n\n\u5185\u5bb9:\n\u636e\u300a\u97e9\u56fd\u5148\u9a71\u62a5\u300b\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA sharp DRAM price increase signals tight memory supply, likely driven by AI accelerator/HBM demand crowding out conventional DRAM capacity \u2014 a cost pressure that ripples through every hyperscaler's server bill of materials.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f AI \u52a0\u901f\u5668/HBM \u9700\u6c42\u6324\u5360\u4e86\u4f20\u7edf DRAM \u4ea7\u80fd\u2014\u2014\u8fd9\u79cd\u6210\u672c\u538b\u529b\u4f1a\u4f20\u5bfc\u5230\u6bcf\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1981,
       "ts": 1783164913,
@@ -2234,46 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\n\nThree Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\" target=\"_blank\">Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GamingBolt</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports the three biggest RAM makers are being sued for price-fixing DRAM, which the headline says is causing a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u663e\u793a\uff0c\u4e09\u5927 RAM \u5382\u5546\u56e0\u64cd\u7eb5 DRAM \u4ef7\u683c\u88ab\u8d77\u8bc9\uff0c\u6807\u9898\u79f0\u6b64\u4e3e\u6b63\u9020\u6210\u4f9b\u5e94\u77ed\u7f3a\u3002\n\nWhy it matters:\nDRAM/HBM is the gating input for AI accelerator builds. Coordinated pricing plus an outright shortage means memory cost and availability \u2014 not GPU supply \u2014 becomes the constraint on hyperscaler capex, and the litigation flags pricing as artificially elevated, a stress point for the buildout economics.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7ec4\u88c5\u7684\u5173\u952e\u74f6\u9888\u8f93\u5165\u3002\u4ef7\u683c\u4e32\u901a\u53e0\u52a0\u5b9e\u9645\u77ed\u7f3a\uff0c\u610f\u5473\u7740\u5236\u7ea6\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u7684\u4e0d\u518d\u662f GPU \u4f9b\u7ed9\uff0c\u800c\u662f\u5185\u5b58\u7684\u6210\u672c\u4e0e\u53ef\u5f97\u6027\uff1b\u540c\u65f6\u8fd9\u573a\u8bc9\u8bbc\u63ed\u793a\u4ef7\u683c\u88ab\u4eba\u4e3a\u62ac\u9ad8\uff0c\u5bf9\u6574\u4e2a\u5efa\u8bbe\u5468\u671f\u7684\u7ecf\u6d4e\u6027\u6784\u6210\u538b\u529b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1784,
-      "ts": 1782831945,
-      "ts_str": "2026-06-30 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM makers accused of price fixing and memory shortages - GameGPU",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 11:01:20 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXlNV0xBRXV2NkNuQzFYLUZ2TGNZS0plTnh4aUdhMnozQ24yQUtWZ2FxQ2NsV1lYdEI3UTFFSGRuMThxMmVXSEV2X2pYcGhBNFJVMHJ2SFlHWVpPR0pZUTdLTzFaMld3T1paOFppUEsxT0FJZmdkMlNXNGNTSERjanlZNWR1U0p2MTNHS0ppdFBrWmZXNG12dC1qM1Ffd3lXUG1WSnNR?oc=5\n\nDRAM makers accused of price fixing and memory shortages - GameGPU\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQaXlNV0xBRXV2NkNuQzFYLUZ2TGNZS0plTnh4aUdhMnozQ24yQUtWZ2FxQ2NsV1lYdEI3UTFFSGRuMThxMmVXSEV2X2pYcGhBNFJVMHJ2SFlHWVpPR0pZUTdLTzFaMld3T1paOFppUEsxT0FJZmdkMlNXNGNTSERjanlZNWR1U0p2MTNHS0ppdFBrWmZXNG12dC1qM1Ffd3lXUG1WSnNR?oc=5\" target=\"_blank\">DRAM makers accused of price fixing and memory shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GameGPU</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged by C6 reports DRAM makers being accused of price fixing alongside memory shortages (headline: \"DRAM makers accused of price fixing and memory shortages\", GameGPU).\n\n\u5185\u5bb9:\nC6 \u6355\u83b7\u7684\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053 DRAM \u5382\u5546\u88ab\u6307\u63a7\u64cd\u7eb5\u4ef7\u683c\u5e76\u4f34\u968f\u5185\u5b58\u77ed\u7f3a\uff08\u6807\u9898\uff1a\"DRAM makers accused of price fixing and memory shortages\"\uff0c\u6765\u6e90 GameGPU\uff09\u3002\n\nWhy it matters:\nDRAM/NAND price stress is a leading cost input for AI server buildouts \u2014 tightening supply or coordinated pricing raises the bill of materials for every hyperscaler GPU node. Memory shortages this late in the capex cycle mean the spend gets more expensive just as payback is already in question.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u538b\u529b\u662f AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u524d\u7f6e\u6210\u672c\u8f93\u5165\u2014\u2014\u4f9b\u7ed9\u6536\u7d27\u6216\u5408\u8c0b\u5b9a\u4ef7\u4f1a\u62ac\u9ad8\u6bcf\u4e2a\u8d85\u5927\u89c4\u6a21\u5382\u5546 GPU \u8282\u70b9\u7684\u7269\u6599\u6210\u672c\u3002\u5728 capex \u5468\u671f\u5df2\u7ecf\u504f\u665a\u7684\u5f53\u4e0b\u51fa\u73b0\u5185\u5b58\u77ed\u7f3a\uff0c\u610f\u5473\u7740\u652f\u51fa\u5728\u56de\u672c\u903b\u8f91\u672c\u5c31\u5b58\u7591\u65f6\u53d8\u5f97\u66f4\u8d35\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1785,
-      "ts": 1782831945,
-      "ts_str": "2026-06-30 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\n\nThree Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage - GamingBolt\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZm9PS0tfUkNOVUtfT0pTTnVRSmVsWXVHUW5lX2VxOExKVk1WUFEyanlCUGVrWDBrWkNCdnh2SGxZZlZVcXo3TW03aEM2S0RyZU9aVjhKSGlxSHRpLVlDRWZZYUJIMU1Kck9TVEprYXlNaFN1RE1uTXN5NkxnUTJwaDlTeTJzdWEtMFNOTldxTU9rWU10SUtzUTVnWFB0REU?oc=5\" target=\"_blank\">Three Biggest RAM Makers Sued for Price-Fixing DRAM, Causing Supply Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GamingBolt</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports the three biggest RAM makers are being sued for price-fixing DRAM, which the headline says is causing a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u663e\u793a\uff0c\u4e09\u5927 RAM \u5382\u5546\u56e0\u64cd\u7eb5 DRAM \u4ef7\u683c\u88ab\u8d77\u8bc9\uff0c\u6807\u9898\u79f0\u6b64\u4e3e\u6b63\u9020\u6210\u4f9b\u5e94\u77ed\u7f3a\u3002\n\nWhy it matters:\nDRAM/HBM is the gating input for AI accelerator builds. Coordinated pricing plus an outright shortage means memory cost and availability \u2014 not GPU supply \u2014 becomes the constraint on hyperscaler capex, and the litigation flags pricing as artificially elevated, a stress point for the buildout economics.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7ec4\u88c5\u7684\u5173\u952e\u74f6\u9888\u8f93\u5165\u3002\u4ef7\u683c\u4e32\u901a\u53e0\u52a0\u5b9e\u9645\u77ed\u7f3a\uff0c\u610f\u5473\u7740\u5236\u7ea6\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u7684\u4e0d\u518d\u662f GPU \u4f9b\u7ed9\uff0c\u800c\u662f\u5185\u5b58\u7684\u6210\u672c\u4e0e\u53ef\u5f97\u6027\uff1b\u540c\u65f6\u8fd9\u573a\u8bc9\u8bbc\u63ed\u793a\u4ef7\u683c\u88ab\u4eba\u4e3a\u62ac\u9ad8\uff0c\u5bf9\u6574\u4e2a\u5efa\u8bbe\u5468\u671f\u7684\u7ecf\u6d4e\u6027\u6784\u6210\u538b\u529b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1786,
-      "ts": 1782831945,
-      "ts_str": "2026-06-30 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Tim Cook and Elon Musk call memory chip shortage unprecedented - NewsBytes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 08:43:38 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPWEFNUUROZjZkRC11c3lmS0xHaGtJUnZkOGFySFRTN3BOY1RhM19YendXMV9NZE5qdDlGUWExMlItX000VWVVU2dMdzdjU2Z4MnF3eGc4d3JPWFc2Xzd0SlRuU0lJUzlKN09OclZySFp3d25oaHZub05GNUhkTENIUDl2Wm4wZFNhX19PRTBKdUZWaUpQcVVocmFrNnhRWXdkRVB5TzVMTThiNzlKNXFN?oc=5\n\nTim Cook and Elon Musk call memory chip shortage unprecedented - NewsBytes\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPWEFNUUROZjZkRC11c3lmS0xHaGtJUnZkOGFySFRTN3BOY1RhM19YendXMV9NZE5qdDlGUWExMlItX000VWVVU2dMdzdjU2Z4MnF3eGc4d3JPWFc2Xzd0SlRuU0lJUzlKN09OclZySFp3d25oaHZub05GNUhkTENIUDl2Wm4wZFNhX19PRTBKdUZWaUpQcVVocmFrNnhRWXdkRVB5TzVMTThiNzlKNXFN?oc=5\" target=\"_blank\">Tim Cook and Elon Musk call memory chip shortage unprecedented</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsBytes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced: \"Tim Cook and Elon Musk call memory chip shortage unprecedented\" (NewsBytes), pairing memory chips with a shortage signal.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u6d6e\u73b0\uff1a\"Tim Cook and Elon Musk call memory chip shortage unprecedented\"\uff08NewsBytes\uff09\uff0c\u5c06\u5185\u5b58\u82af\u7247\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u914d\u5bf9\u3002\n\nWhy it matters:\nTwo of the largest hardware buyers publicly flagging an unprecedented memory shortage points to DRAM/NAND/HBM demand outrunning supply \u2014 AI-server build-out is now bidding memory away from phones and cars. Tightening memory pricing raises hyperscaler capex per rack and squeezes everyone downstream, a stress symptom of the AI-infra spend cycle.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u6700\u5927\u7684\u786c\u4ef6\u91c7\u8d2d\u65b9\u516c\u5f00\u8868\u793a\u5185\u5b58\u77ed\u7f3a\u8fbe\u5230\"\u524d\u6240\u672a\u6709\"\u7684\u7a0b\u5ea6\uff0c\u8bf4\u660e DRAM/NAND/HBM \u7684\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u4f9b\u7ed9\u2014\u2014AI \u670d\u52a1\u5668\u6269\u5efa\u6b63\u5728\u628a\u5185\u5b58\u4ece\u624b\u673a\u548c\u6c7d\u8f66\u90a3\u91cc\u62a2\u8d70\u3002\u5185\u5b58\u4ef7\u683c\u6536\u7d27\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u673a\u67b6\u7684\u8d44\u672c\u5f00\u652f\uff0c\u5e76\u6324\u538b\u6574\u4e2a\u4e0b\u6e38\uff0c\u662f AI \u57fa\u5efa\u652f\u51fa\u5468\u671f\u7684\u4e00\u4e2a\u538b\u529b\u5f81\u5146\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1782,
-      "ts": 1782830122,
-      "ts_str": "2026-06-30 14:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Flat trading for Apple stock as hardware price hikes after memory chip shortage emerge - Traders Union",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:08:47 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVA1MGRXeEdjTjFSclVCRi1YT0wtXzEwYk1FY0dNczNhRDVYWGtNQXB6SGhKbnB0VnFQajlmMXp5cEhWeExWUG5ONWZTaVNLSHRTZUdsVGhpZEFVZ3RwMjREb1ktcnFzVmlOTUlEODhGUW9hZHNFT2lpTHNyNXV4UjFnQ0hLbnM0TUJaSmRaaWpDbV9rd0dnX2Fn?oc=5\n\nFlat trading for Apple stock as hardware price hikes after memory chip shortage emerge - Traders Union\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQaVA1MGRXeEdjTjFSclVCRi1YT0wtXzEwYk1FY0dNczNhRDVYWGtNQXB6SGhKbnB0VnFQajlmMXp5cEhWeExWUG5ONWZTaVNLSHRTZUdsVGhpZEFVZ3RwMjREb1ktcnFzVmlOTUlEODhGUW9hZHNFT2lpTHNyNXV4UjFnQ0hLbnM0TUJaSmRaaWpDbV9rd0dnX2Fn?oc=5\" target=\"_blank\">Flat trading for Apple stock as hardware price hikes after memory chip shortage emerge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Traders Union</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged Apple hardware price hikes following an emerging memory chip shortage (\"hardware price hikes after memory chip shortage emerge\"), pairing a memory term with a shortage token.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u6307\u51fa\uff0c\u5728\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6d6e\u73b0\u540e\uff0cApple \u786c\u4ef6\u51fa\u73b0\u6da8\u4ef7\uff08\"hardware price hikes after memory chip shortage emerge\"\uff09\uff0c\u5c06\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u914d\u5bf9\u89e6\u53d1\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) tightening is the supply-side tell that AI-datacenter demand is crowding out consumer hardware \u2014 when shortages start lifting device prices, it confirms the capex build-out is straining the components stack, not just GPUs. Rising memory costs squeeze hyperscaler buildout margins and signal the cycle is running hot.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u8d8b\u7d27\u662f\u4f9b\u7ed9\u7aef\u7684\u4fe1\u53f7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7ea7\u786c\u4ef6\u2014\u2014\u5f53\u77ed\u7f3a\u5f00\u59cb\u63a8\u9ad8\u7ec8\u7aef\u8bbe\u5907\u4ef7\u683c\uff0c\u5c31\u5370\u8bc1\u4e86\u8fd9\u8f6e\u8d44\u672c\u5f00\u652f\u5efa\u8bbe\u6b63\u5728\u62c9\u7d27\u6574\u4e2a\u5143\u5668\u4ef6\u4f9b\u5e94\u94fe\uff0c\u800c\u4e0d\u53ea\u662f GPU\u3002\u5185\u5b58\u6210\u672c\u4e0a\u6da8\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5efa\u8bbe\u5229\u6da6\uff0c\u4e5f\u8868\u660e\u8fd9\u8f6e\u5468\u671f\u6b63\u5728\u8fc7\u70ed\u3002\n",
       "emailed": false
     }
   ],
