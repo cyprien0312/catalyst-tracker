@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783175526,
-  "generated_at_str": "2026-07-04 14:32:06 UTC",
-  "last_event_ts": 1783174443,
+  "generated_at": 1783175704,
+  "generated_at_str": "2026-07-04 14:35:04 UTC",
+  "last_event_ts": 1783175704,
   "tables": {
     "alerts_dedup": {
-      "count": 1981,
-      "last_ts": 1783173915,
-      "last_str": "2026-07-04 14:05:15 UTC"
+      "count": 1982,
+      "last_ts": 1783175704,
+      "last_str": "2026-07-04 14:35:04 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-04 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1616,
-      "last_ts": 1783172102,
-      "last_str": "2026-07-04 13:35:02 UTC"
+      "count": 1617,
+      "last_ts": 1783175701,
+      "last_str": "2026-07-04 14:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1871,
-      "last_ts": 1783173904,
-      "last_str": "2026-07-04 14:05:04 UTC"
+      "count": 1878,
+      "last_ts": 1783175703,
+      "last_str": "2026-07-04 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1254,
-      "last_ts": 1783173904,
-      "last_str": "2026-07-04 14:05:04 UTC"
+      "count": 1255,
+      "last_ts": 1783175702,
+      "last_str": "2026-07-04 14:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1475,
-      "last_ts": 1783173905,
-      "last_str": "2026-07-04 14:05:05 UTC"
+      "count": 1477,
+      "last_ts": 1783175704,
+      "last_str": "2026-07-04 14:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13646,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1989,
+      "ts": 1783175704,
+      "ts_str": "2026-07-04 14:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices clim",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:47:34 GMT\nLink:      https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\n\nMemory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026 - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\" target=\"_blank\">Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Tom's Hardware headline reports consumer memory demand cooling on affordability limits, but AI-driven demand keeps DRAM and NAND prices rising through Q3 2026.\n\n\u5185\u5bb9:\nTom's Hardware \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u6d88\u8d39\u7ea7\u5185\u5b58\u9700\u6c42\u56e0\u53ef\u8d1f\u62c5\u6027\u89c1\u9876\u800c\u964d\u6e29\uff0c\u4f46 AI \u9a71\u52a8\u7684\u9700\u6c42\u4ecd\u5728\u63a8\u52a8 DRAM \u548c NAND \u4ef7\u683c\u4e0a\u6da8\uff0c\u9884\u8ba1\u6301\u7eed\u5230 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u3002\n\nWhy it matters:\nPersistent DRAM/NAND price strength despite softening consumer demand signals that AI-side buying (HBM, server memory) is now the marginal price-setter \u2014 a sign the memory supply chain is tightening around AI capex rather than broad consumer electronics.\n\n\u5f71\u54cd:\n\u5c3d\u7ba1\u6d88\u8d39\u7aef\u9700\u6c42\u8d70\u5f31\uff0cDRAM \u548c NAND \u4ef7\u683c\u4f9d\u7136\u575a\u633a\uff0c\u8bf4\u660e AI \u4fa7\u7684\u91c7\u8d2d(HBM\u3001\u670d\u52a1\u5668\u5185\u5b58)\u5df2\u7ecf\u6210\u4e3a\u4ef7\u683c\u7684\u8fb9\u9645\u51b3\u5b9a\u56e0\u7d20\u2014\u2014\u8fd9\u8868\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u7d27\u5f20\u6b63\u56f4\u7ed5 AI capex \u5c55\u5f00\uff0c\u800c\u975e\u5e7f\u4e49\u6d88\u8d39\u7535\u5b50\u9700\u6c42\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1988,
       "ts": 1783173915,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Could Delay Its IPO Until 2027. What That Means for Microsoft Stock. - Barchart.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 13:00:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaDFhWF9kV0ZIaWU3RXNYOW93TjE3cVo4S1cwWi1xZWdWSklYcThSblNuWUtvc1JON2RDelR5TjRlRTgyRmhINE5XT3lLVjdlclNHdzlLa2U0OGJGN2Y5YUFhS1BoOWZtYUs2dFdpVU9md0R5QTNvSngyYTVFWGxNcEZQQzNfRGJJd29mR3NFY1BzVHpZNVE1SnZuN0s5RmN4QzFXcjhZT29hSnVBVEJGMXUxU3kxc1ky?oc=5\n\nOpenAI Could Delay Its IPO Until 2027. What That Means for Microsoft Stock. - Barchart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaDFhWF9kV0ZIaWU3RXNYOW93TjE3cVo4S1cwWi1xZWdWSklYcThSblNuWUtvc1JON2RDelR5TjRlRTgyRmhINE5XT3lLVjdlclNHdzlLa2U0OGJGN2Y5YUFhS1BoOWZtYUs2dFdpVU9md0R5QTNvSngyYTVFWGxNcEZQQzNfRGJJd29mR3NFY1BzVHpZNVE1SnZuN0s5RmN4QzFXcjhZT29hSnVBVEJGMXUxU3kxc1ky?oc=5\" target=\"_blank\">OpenAI Could Delay Its IPO Until 2027. What That Means for Microsoft Stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barchart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Barchart.com headline surfaced reporting that OpenAI could delay its IPO until 2027, framed around what that means for Microsoft (MSFT) stock.\n\n\u5185\u5bb9:\nBarchart.com \u51fa\u73b0\u4e00\u5219\u62a5\u9053\uff0c\u79f0 OpenAI \u53ef\u80fd\u5c06 IPO \u63a8\u8fdf\u81f3 2027 \u5e74\uff0c\u5e76\u5206\u6790\u8fd9\u5bf9 Microsoft (MSFT) \u80a1\u7968\u610f\u5473\u7740\u4ec0\u4e48\u3002\n\nWhy it matters:\nAn IPO pushed to 2027 signals OpenAI is not ready to face public-market scrutiny of its burn rate and path to profit \u2014 it keeps the largest AI-capex driver funded privately and opaque. It also extends MSFT's exposure as the primary backstop, a key node in the AI-capex bubble-stress chain.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u5230 2027 \u5e74\u8bf4\u660e OpenAI \u8fd8\u6ca1\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u70e7\u94b1\u901f\u5ea6\u548c\u76c8\u5229\u8def\u5f84\u7684\u5ba1\u89c6\uff0c\u8fd9\u8ba9\u6700\u5927\u7684 AI capex \u63a8\u52a8\u65b9\u7ee7\u7eed\u9760\u79c1\u52df\u8d44\u91d1\u7ef4\u6301\u3001\u4fdd\u6301\u4e0d\u900f\u660e\u3002\u8fd9\u540c\u65f6\u5ef6\u957f\u4e86 MSFT \u4f5c\u4e3a\u4e3b\u8981\u515c\u5e95\u65b9\u7684\u98ce\u9669\u655e\u53e3\uff0c\u800c\u5b83\u6b63\u662f AI capex \u6ce1\u6cab\u538b\u529b\u94fe\u6761\u4e0a\u7684\u5173\u952e\u4e00\u73af\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1788,
-      "ts": 1782832499,
-      "ts_str": "2026-06-30 15:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] AI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private) - Seeking Alpha",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:54:11 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWk1T0tjV2Y3ckNpS1VSa25PNGV0REZvX0NmVmtDaFk4d05GcXAxU1NKMFhvMXpoZnp0b2FBazZQM05GMnVJZnJDc2h2ZW1DY0NnREtHa1dXZzZqSmx1R0RnZm1QYzhTa0tKZWhoVVl4bXM5bVFZTE9TZ1c3OUNWeURTZEJNWGY1LVgxSk41dE94QkJWWDZTVkZUcHRreTdWY1BpNm1uMGJXdkUtWk9N?oc=5\n\nAI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWk1T0tjV2Y3ckNpS1VSa25PNGV0REZvX0NmVmtDaFk4d05GcXAxU1NKMFhvMXpoZnp0b2FBazZQM05GMnVJZnJDc2h2ZW1DY0NnREtHa1dXZzZqSmx1R0RnZm1QYzhTa0tKZWhoVVl4bXM5bVFZTE9TZ1c3OUNWeURTZEJNWGY1LVgxSk41dE94QkJWWDZTVkZUcHRreTdWY1BpNm1uMGJXdkUtWk9N?oc=5\" target=\"_blank\">AI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha headline carrying the OPENAI:Private tag surfaced in C3's feed: Wells Fargo arguing that AI IPO delays are bullish for markets.\n\n\u5185\u5bb9:\n\u4e00\u6761\u5e26 OPENAI:Private \u6807\u7b7e\u7684 Seeking Alpha \u6807\u9898\u8fdb\u5165 C3 \u4fe1\u53f7\u6d41\uff1aWells Fargo \u79f0 AI IPO \u63a8\u8fdf\u5bf9\u5e02\u573a\u662f\u5229\u597d\u3002\n\nWhy it matters:\nThis is a sentiment/keyword hit, not a hard burn-rate metric \u2014 note the framing, since 'delays are bullish' is the kind of rationalization that shows up when private AI names can't or won't test public-market pricing. Watch for it to recur alongside actual OpenAI funding or burn data.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u60c5\u7eea/\u5173\u952e\u8bcd\u89e6\u53d1\uff0c\u4e0d\u662f\u786c\u6027\u7684\u70e7\u94b1\u7387\u6570\u636e\u2014\u2014\u4f46\u8981\u7559\u610f\u8fd9\u79cd\u53d9\u4e8b\uff0c\u56e0\u4e3a\u300c\u63a8\u8fdf\u4e0a\u5e02\u53cd\u800c\u5229\u597d\u300d\u5f80\u5f80\u662f\u79c1\u6709 AI \u516c\u53f8\u65e0\u6cd5\u6216\u4e0d\u613f\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\u65f6\u7684\u4e00\u79cd\u5408\u7406\u5316\u8bf4\u8f9e\u3002\u540e\u7eed\u8981\u770b\u5b83\u662f\u5426\u4e0e OpenAI \u771f\u5b9e\u7684\u878d\u8d44\u6216\u70e7\u94b1\u6570\u636e\u540c\u65f6\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
