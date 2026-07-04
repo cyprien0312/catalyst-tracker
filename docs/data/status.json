@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783131062,
-  "generated_at_str": "2026-07-04 02:11:02 UTC",
-  "last_event_ts": 1783130704,
+  "generated_at": 1783131261,
+  "generated_at_str": "2026-07-04 02:14:21 UTC",
+  "last_event_ts": 1783131258,
   "tables": {
     "alerts_dedup": {
-      "count": 1945,
-      "last_ts": 1783125314,
-      "last_str": "2026-07-04 00:35:14 UTC"
+      "count": 1946,
+      "last_ts": 1783131258,
+      "last_str": "2026-07-04 02:14:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -59,9 +59,9 @@
       "last_str": "2026-07-03 16:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 551,
-      "last_ts": 1783115044,
-      "last_str": "2026-07-03 21:44:04 UTC"
+      "count": 552,
+      "last_ts": 1783131249,
+      "last_str": "2026-07-04 02:14:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1585,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-04 01:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13554,
-      "last_ts": 1783129442,
-      "last_str": "2026-07-04 01:44:02 UTC"
+      "count": 13556,
+      "last_ts": 1783131242,
+      "last_str": "2026-07-04 02:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1953,
+      "ts": 1783131258,
+      "ts_str": "2026-07-04 02:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI & Anthropic IPO: What's Confirmed, What's Still Speculation - The Globe and Mail",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 13:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVcwOVJ5U3pvcDlyWGJLWElvZEdwaEptZThlNXJpeExCNDB6MTZkODRHeks3TVNUOVZYal83R3NnUzZMOHBaSUpFUHliQUpicHV6ZGdPajFxbEVhUzA1aldfQkk0MzViczU3aU9PWUxDM3IyQ25xOGU4cGZBSEZ6LXZiM2kxbFFFN0FoaUFKOFNfLTZjT3Z1dENIRlc2YUFpb2FIOWNlMnU5X1p0VnhfekV3ZzFEeUxxVURVdnp3b29MNEc3V25mRE1DR1E3SlcwbnJMcjhrOGV3cXkycU5CRXpn?oc=5\n\nOpenAI & Anthropic IPO: What's Confirmed, What's Still Speculation - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTVcwOVJ5U3pvcDlyWGJLWElvZEdwaEptZThlNXJpeExCNDB6MTZkODRHeks3TVNUOVZYal83R3NnUzZMOHBaSUpFUHliQUpicHV6ZGdPajFxbEVhUzA1aldfQkk0MzViczU3aU9PWUxDM3IyQ25xOGU4cGZBSEZ6LXZiM2kxbFFFN0FoaUFKOFNfLTZjT3Z1dENIRlc2YUFpb2FIOWNlMnU5X1p0VnhfekV3ZzFEeUxxVURVdnp3b29MNEc3V25mRE1DR1E3SlcwbnJMcjhrOGV3cXkycU5CRXpn?oc=5\" target=\"_blank\">OpenAI & Anthropic IPO: What's Confirmed, What's Still Speculation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Globe and Mail piece discusses IPO speculation for OpenAI and Anthropic, distinguishing confirmed facts from rumor.\n\n\u5185\u5bb9:\n\u300a\u73af\u7403\u90ae\u62a5\u300b\u4e00\u7bc7\u62a5\u9053\u8ba8\u8bba\u4e86 OpenAI \u4e0e Anthropic \u7684 IPO \u731c\u6d4b\uff0c\u533a\u5206\u4e86\u5df2\u786e\u8ba4\u4fe1\u606f\u4e0e\u4f20\u95fb\u3002\n\nWhy it matters:\nIPO chatter itself isn't a burn-rate signal, but it reflects mounting pressure on OpenAI to access public capital markets \u2014 consistent with the C3 thesis that private funding alone can't keep pace with compute spend.\n\n\u5f71\u54cd:\nIPO \u4f20\u95fb\u672c\u8eab\u4e0d\u662f\u70e7\u94b1\u901f\u5ea6\u4fe1\u53f7\uff0c\u4f46\u5b83\u53cd\u6620\u51fa OpenAI \u6b63\u627f\u53d7\u8d8a\u6765\u8d8a\u5927\u7684\u538b\u529b\uff0c\u9700\u8981\u501f\u52a9\u516c\u5f00\u8d44\u672c\u5e02\u573a\u878d\u8d44\u2014\u2014\u8fd9\u4e0e C3 \u8bba\u70b9\u4e00\u81f4\uff1a\u4ec5\u9760\u79c1\u52df\u878d\u8d44\u5df2\u8ddf\u4e0d\u4e0a\u7b97\u529b\u652f\u51fa\u7684\u6b65\u4f10\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1951,
       "ts": 1783125314,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:35 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% DRAM price spike. C6 flags DRAM/HBM pricing stress.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0c\u5185\u5b58\u82af\u7247\u5927\u5382\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u9762\u4e34\u8bc9\u8bbc\u3002C6 \u76d1\u6d4b\u7684\u6b63\u662f DRAM/HBM \u4ef7\u683c\u538b\u529b\u3002\n\nWhy it matters:\nDRAM and HBM are the supply bottleneck for AI accelerators \u2014 a 700% spike means memory cost is exploding and being passed into GPU/server bills of materials. Litigation over the spike signals the move is large enough to look like collusion or a structural shortage, both of which raise AI-capex unit costs and squeeze the payback math.\n\n\u5f71\u54cd:\nDRAM \u548c HBM \u662f AI \u52a0\u901f\u5668\u7684\u4f9b\u7ed9\u74f6\u9888\u2014\u2014\u66b4\u6da8 700% \u610f\u5473\u7740\u5185\u5b58\u6210\u672c\u5931\u63a7\uff0c\u5e76\u76f4\u63a5\u4f20\u5bfc\u8fdb GPU \u548c\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\u56f4\u7ed5\u8fd9\u6b21\u66b4\u6da8\u7684\u8bc9\u8bbc\u8bf4\u660e\u6da8\u5e45\u5927\u5230\u770b\u8d77\u6765\u50cf\u5408\u8c0b\u6216\u7ed3\u6784\u6027\u77ed\u7f3a\uff0c\u4e24\u8005\u90fd\u4f1a\u62ac\u9ad8 AI capex \u7684\u5355\u4f4d\u6210\u672c\uff0c\u538b\u7f29\u56de\u672c\u7a7a\u95f4\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1754,
-      "ts": 1782768916,
-      "ts_str": "2026-06-29 21:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 29 Jun 2026 15:58:35 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\n\nMemory Chip Giants Face Lawsuit Over 700% DRAM Price Spike - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOR2x2OEFYdk4zbFlGcUExUFRSVmdaWDlheFZNNzhyeGJLNDRrZzlLUVp0eVl2ZWVzek5pMEU4dmpLakRaZE9CQV9kU3d1RWNrSmFwZG5yV21DTWRHbm5BY0l1WEpsOUtCVGUxcm1nb2hkanFMQ0RIWktWeWx6N2ZFemFhN1cxeld6YThnM2pEVWZvaFRZMnlv?oc=5\" target=\"_blank\">Memory Chip Giants Face Lawsuit Over 700% DRAM Price Spike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory-chip makers face a lawsuit over a 700% DRAM price spike. C6 flags DRAM/HBM pricing stress.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0c\u5185\u5b58\u82af\u7247\u5927\u5382\u56e0 DRAM \u4ef7\u683c\u66b4\u6da8 700% \u9762\u4e34\u8bc9\u8bbc\u3002C6 \u76d1\u6d4b\u7684\u6b63\u662f DRAM/HBM \u4ef7\u683c\u538b\u529b\u3002\n\nWhy it matters:\nDRAM and HBM are the supply bottleneck for AI accelerators \u2014 a 700% spike means memory cost is exploding and being passed into GPU/server bills of materials. Litigation over the spike signals the move is large enough to look like collusion or a structural shortage, both of which raise AI-capex unit costs and squeeze the payback math.\n\n\u5f71\u54cd:\nDRAM \u548c HBM \u662f AI \u52a0\u901f\u5668\u7684\u4f9b\u7ed9\u74f6\u9888\u2014\u2014\u66b4\u6da8 700% \u610f\u5473\u7740\u5185\u5b58\u6210\u672c\u5931\u63a7\uff0c\u5e76\u76f4\u63a5\u4f20\u5bfc\u8fdb GPU \u548c\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\u56f4\u7ed5\u8fd9\u6b21\u66b4\u6da8\u7684\u8bc9\u8bbc\u8bf4\u660e\u6da8\u5e45\u5927\u5230\u770b\u8d77\u6765\u50cf\u5408\u8c0b\u6216\u7ed3\u6784\u6027\u77ed\u7f3a\uff0c\u4e24\u8005\u90fd\u4f1a\u62ac\u9ad8 AI capex \u7684\u5355\u4f4d\u6210\u672c\uff0c\u538b\u7f29\u56de\u672c\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
