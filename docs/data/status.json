@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783173726,
-  "generated_at_str": "2026-07-04 14:02:06 UTC",
-  "last_event_ts": 1783172643,
+  "generated_at": 1783173915,
+  "generated_at_str": "2026-07-04 14:05:15 UTC",
+  "last_event_ts": 1783173915,
   "tables": {
     "alerts_dedup": {
-      "count": 1980,
-      "last_ts": 1783172118,
-      "last_str": "2026-07-04 13:35:18 UTC"
+      "count": 1981,
+      "last_ts": 1783173915,
+      "last_str": "2026-07-04 14:05:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,19 +69,19 @@
       "last_str": "2026-07-04 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1869,
-      "last_ts": 1783172104,
-      "last_str": "2026-07-04 13:35:04 UTC"
+      "count": 1871,
+      "last_ts": 1783173904,
+      "last_str": "2026-07-04 14:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1252,
-      "last_ts": 1783172103,
-      "last_str": "2026-07-04 13:35:03 UTC"
+      "count": 1254,
+      "last_ts": 1783173904,
+      "last_str": "2026-07-04 14:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1473,
-      "last_ts": 1783172105,
-      "last_str": "2026-07-04 13:35:05 UTC"
+      "count": 1475,
+      "last_ts": 1783173905,
+      "last_str": "2026-07-04 14:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13642,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 1988,
+      "ts": 1783173915,
+      "ts_str": "2026-07-04 14:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Business News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3 - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:50:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1VYNHZKdXFPSzFWZjJBRm5reUFLTjNVYWlkWGxhcF95bXNOU3BwNWZRR1VPWVdHNTdtaGRmN0pBWUdRUUFoNkNoTWRaZmtpWkhkbmFWWV9GR28xMHRpNFpXS2pwR1hobTNCSUhUak53TDQ4X2M4V0ZqUHc0cktiWkdWRXhMLWZtek5DNnYzZDBwQWNQY3h1alZPWTMtX2NhNHdyVW1EZS1ucEZIRmRZZmxnWdIBuAFBVV95cUxQdmxYVnBZTnhkN2ZxZ1BHLURCVFB5SEJvdDNTLUNTOWZhX1ljOG5NWTNSa0hzV1dEeV9jY3VSdTZEMnRwZlRYUC1wanhVMWljbl9USjZmdmJYWE41dnRUbC1VTmN4bF9jVjZBcmRuU0JfcGdsV1VIZmNHZHdPUGs5RTkxOUw2bzBvRjFIZUtoX0ZYZVJpUllXOGxadnQwTGlwbXNRQnRINjlPX1RGdHhvUnRaUlBiY3k5?oc=5\n\nBusiness News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3 - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNV1VYNHZKdXFPSzFWZjJBRm5reUFLTjNVYWlkWGxhcF95bXNOU3BwNWZRR1VPWVdHNTdtaGRmN0pBWUdRUUFoNkNoTWRaZmtpWkhkbmFWWV9GR28xMHRpNFpXS2pwR1hobTNCSUhUak53TDQ4X2M4V0ZqUHc0cktiWkdWRXhMLWZtek5DNnYzZDBwQWNQY3h1alZPWTMtX2NhNHdyVW1EZS1ucEZIRmRZZmxnWdIBuAFBVV95cUxQdmxYVnBZTnhkN2ZxZ1BHLURCVFB5SEJvdDNTLUNTOWZhX1ljOG5NWTNSa0hzV1dEeV9jY3VSdTZEMnRwZlRYUC1wanhVMWljbl9USjZmdmJYWE41dnRUbC1VTmN4bF9jVjZBcmRuU0JfcGdsV1VIZmNHZHdPUGs5RTkxOUw2bzBvRjFIZUtoX0ZYZVJpUllXOGxadnQwTGlwbXNRQnRINjlPX1RGdHhvUnRaUlBiY3k5?oc=5\" target=\"_blank\">Business News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA double-digit DRAM hike signals memory is now a supply-constrained input to AI servers, not a commodity tailwind \u2014 raises hyperscaler capex costs and adds a second cost-pressure vector alongside HBM alongside GPU scarcity.\n\n\u5f71\u54cd:\n\u4e24\u4f4d\u6570\u7684 DRAM \u6da8\u4ef7\u8bf4\u660e\u5185\u5b58\u5df2\u7ecf\u6210\u4e3a AI \u670d\u52a1\u5668\u7684\u4f9b\u7ed9\u74f6\u9888\uff0c\u800c\u4e0d\u518d\u662f\u5546\u54c1\u5316\u7684\u987a\u98ce\u56e0\u7d20\uff0c\u8fd9\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u4e0e HBM\u3001GPU \u7a00\u7f3a\u4e00\u8d77\u6784\u6210\u65b0\u7684\u6210\u672c\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 1987,
       "ts": 1783172118,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] AI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private) - Seeking Alpha",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:54:11 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWk1T0tjV2Y3ckNpS1VSa25PNGV0REZvX0NmVmtDaFk4d05GcXAxU1NKMFhvMXpoZnp0b2FBazZQM05GMnVJZnJDc2h2ZW1DY0NnREtHa1dXZzZqSmx1R0RnZm1QYzhTa0tKZWhoVVl4bXM5bVFZTE9TZ1c3OUNWeURTZEJNWGY1LVgxSk41dE94QkJWWDZTVkZUcHRreTdWY1BpNm1uMGJXdkUtWk9N?oc=5\n\nAI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWk1T0tjV2Y3ckNpS1VSa25PNGV0REZvX0NmVmtDaFk4d05GcXAxU1NKMFhvMXpoZnp0b2FBazZQM05GMnVJZnJDc2h2ZW1DY0NnREtHa1dXZzZqSmx1R0RnZm1QYzhTa0tKZWhoVVl4bXM5bVFZTE9TZ1c3OUNWeURTZEJNWGY1LVgxSk41dE94QkJWWDZTVkZUcHRreTdWY1BpNm1uMGJXdkUtWk9N?oc=5\" target=\"_blank\">AI IPO delays are bullish for the markets \u2013 Wells Fargo (OPENAI:Private)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha headline carrying the OPENAI:Private tag surfaced in C3's feed: Wells Fargo arguing that AI IPO delays are bullish for markets.\n\n\u5185\u5bb9:\n\u4e00\u6761\u5e26 OPENAI:Private \u6807\u7b7e\u7684 Seeking Alpha \u6807\u9898\u8fdb\u5165 C3 \u4fe1\u53f7\u6d41\uff1aWells Fargo \u79f0 AI IPO \u63a8\u8fdf\u5bf9\u5e02\u573a\u662f\u5229\u597d\u3002\n\nWhy it matters:\nThis is a sentiment/keyword hit, not a hard burn-rate metric \u2014 note the framing, since 'delays are bullish' is the kind of rationalization that shows up when private AI names can't or won't test public-market pricing. Watch for it to recur alongside actual OpenAI funding or burn data.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u60c5\u7eea/\u5173\u952e\u8bcd\u89e6\u53d1\uff0c\u4e0d\u662f\u786c\u6027\u7684\u70e7\u94b1\u7387\u6570\u636e\u2014\u2014\u4f46\u8981\u7559\u610f\u8fd9\u79cd\u53d9\u4e8b\uff0c\u56e0\u4e3a\u300c\u63a8\u8fdf\u4e0a\u5e02\u53cd\u800c\u5229\u597d\u300d\u5f80\u5f80\u662f\u79c1\u6709 AI \u516c\u53f8\u65e0\u6cd5\u6216\u4e0d\u613f\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\u65f6\u7684\u4e00\u79cd\u5408\u7406\u5316\u8bf4\u8f9e\u3002\u540e\u7eed\u8981\u770b\u5b83\u662f\u5426\u4e0e OpenAI \u771f\u5b9e\u7684\u878d\u8d44\u6216\u70e7\u94b1\u6570\u636e\u540c\u65f6\u51fa\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1789,
-      "ts": 1782832499,
-      "ts_str": "2026-06-30 15:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s Sarah Friar backs $8.5m raise for Irish co-founded AI real-estate platform - Business Post",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 14:44:08 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxPX1BSYmNjOU1QeGNPTXRwWHJKMFp6d0NxVnRPQVlRYzJneEVTTGw5RnhNZUhuV1NrQS1iblRkdjJFTl90SGhIWXhwdjNsYUpaVi13aWlDWUlya2s3VHVNR1RaVmFISGUtNVAyZTV5emZCS2xmRnhnM2ZCVThVbHVQOThJa1c5VE1LYU9lSFRKX1VUTzNBdDBOc0VaVTYxZURxdTRKTkM3VF8yOXFFUGgyYTJ3ZnVVUQ?oc=5\n\nOpenAI\u2019s Sarah Friar backs $8.5m raise for Irish co-founded AI real-estate platform - Business Post\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPX1BSYmNjOU1QeGNPTXRwWHJKMFp6d0NxVnRPQVlRYzJneEVTTGw5RnhNZUhuV1NrQS1iblRkdjJFTl90SGhIWXhwdjNsYUpaVi13aWlDWUlya2s3VHVNR1RaVmFISGUtNVAyZTV5emZCS2xmRnhnM2ZCVThVbHVQOThJa1c5VE1LYU9lSFRKX1VUTzNBdDBOc0VaVTYxZURxdTRKTkM3VF8yOXFFUGgyYTJ3ZnVVUQ?oc=5\" target=\"_blank\">OpenAI\u2019s Sarah Friar backs $8.5m raise for Irish co-founded AI real-estate platform</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Post</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline tripped the C3 OpenAI filter: OpenAI CFO Sarah Friar is backing an $8.5m raise for an Irish-cofounded AI real-estate platform.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\u89e6\u53d1\u4e86 C3 \u7684 OpenAI \u5173\u952e\u8bcd\u8fc7\u6ee4\u5668\uff1aOpenAI CFO Sarah Friar \u652f\u6301\u4e00\u5bb6\u7231\u5c14\u5170\u8054\u5408\u521b\u529e\u7684 AI \u623f\u5730\u4ea7\u5e73\u53f0 $8.5m \u7684\u878d\u8d44\u3002\n\nWhy it matters:\nThis is noise, not stress \u2014 a personal/angel investment by an OpenAI executive, with no bearing on OpenAI's own burn rate or funding. It does not corroborate the C3 thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u566a\u97f3\u800c\u975e\u538b\u529b\u4fe1\u53f7\u2014\u2014\u53ea\u662f OpenAI \u9ad8\u7ba1\u7684\u4e2a\u4eba/\u5929\u4f7f\u6295\u8d44\uff0c\u4e0e OpenAI \u81ea\u8eab\u7684\u70e7\u94b1\u901f\u5ea6\u6216\u878d\u8d44\u72b6\u51b5\u65e0\u5173\uff0c\u65e0\u6cd5\u4f50\u8bc1 C3 \u7684\u903b\u8f91\u3002\n",
       "emailed": false
     }
   ],
