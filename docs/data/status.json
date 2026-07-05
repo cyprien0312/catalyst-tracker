@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783261929,
-  "generated_at_str": "2026-07-05 14:32:09 UTC",
-  "last_event_ts": 1783260873,
+  "generated_at": 1783262122,
+  "generated_at_str": "2026-07-05 14:35:22 UTC",
+  "last_event_ts": 1783262121,
   "tables": {
     "alerts_dedup": {
-      "count": 2037,
-      "last_ts": 1783260873,
-      "last_str": "2026-07-05 14:14:33 UTC"
+      "count": 2038,
+      "last_ts": 1783262121,
+      "last_str": "2026-07-05 14:35:21 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-05 11:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1664,
-      "last_ts": 1783260302,
-      "last_str": "2026-07-05 14:05:02 UTC"
+      "count": 1665,
+      "last_ts": 1783262102,
+      "last_str": "2026-07-05 14:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1968,
-      "last_ts": 1783258504,
-      "last_str": "2026-07-05 13:35:04 UTC"
+      "count": 1969,
+      "last_ts": 1783262105,
+      "last_str": "2026-07-05 14:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1299,
-      "last_ts": 1783260302,
-      "last_str": "2026-07-05 14:05:02 UTC"
+      "count": 1304,
+      "last_ts": 1783262103,
+      "last_str": "2026-07-05 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1522,
-      "last_ts": 1783260304,
-      "last_str": "2026-07-05 14:05:04 UTC"
+      "count": 1527,
+      "last_ts": 1783262106,
+      "last_str": "2026-07-05 14:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13790,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2045,
+      "ts": 1783262121,
+      "ts_str": "2026-07-05 14:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge begins to cool as consumers hit affordability limit - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 16:32:30 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AJBVV95cUxNeFhRUHU5ZVlPUnAzYnlYWmRpRm50aTZ3N1FLLW56czVIb2R6M2MzbTlZVW5BNDg1Y0I2NWxCZ0NCUHhiSkl3T2RCTUJjQ0d0N3pINW91VmhwZGt2bVgwWTVXUUhaYlJaelFPMnFTc1NqdW14cEc3QkJHQXNZVGI0ZDJyQjZBQUlsZWVPYmNsOXhITEVGb0RvdUVFZWNwVU9mNU03V1JjSnpWOG95bFluNDVOWnlLTWxTeEtlOG5scTk3WGtJdGM3bXNmazlHeVVrMDRYUmxDczNRLWF4Zk1jY2g3T2VocEthZUZOQUo4YUhGMlpYYm9WcTFkemJZVVlVaDA4SGM0R1d6Mm5IcUJhdlhoQ3J6ZER3aWRoeGhmSjFPWWMya3V6aWRqR0s5T2dtN0NSczdwREZ1bm5tcnlNNldpNDQxeFNuZzlVTUdWMVpsTXNhbldGQg?oc=5\n\nMemory price surge begins to cool as consumers hit affordability limit - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AJBVV95cUxNeFhRUHU5ZVlPUnAzYnlYWmRpRm50aTZ3N1FLLW56czVIb2R6M2MzbTlZVW5BNDg1Y0I2NWxCZ0NCUHhiSkl3T2RCTUJjQ0d0N3pINW91VmhwZGt2bVgwWTVXUUhaYlJaelFPMnFTc1NqdW14cEc3QkJHQXNZVGI0ZDJyQjZBQUlsZWVPYmNsOXhITEVGb0RvdUVFZWNwVU9mNU03V1JjSnpWOG95bFluNDVOWnlLTWxTeEtlOG5scTk3WGtJdGM3bXNmazlHeVVrMDRYUmxDczNRLWF4Zk1jY2g3T2VocEthZUZOQUo4YUhGMlpYYm9WcTFkemJZVVlVaDA4SGM0R1d6Mm5IcUJhdlhoQ3J6ZER3aWRoeGhmSjFPWWMya3V6aWRqR0s5T2dtN0NSczdwREZ1bm5tcnlNNldpNDQxeFNuZzlVTUdWMVpsTXNhbldGQg?oc=5\" target=\"_blank\">Memory price surge begins to cool as consumers hit affordability limit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA memory-market news item reports that the recent DRAM/NAND price surge is beginning to cool as consumer affordability limits are reached.\n\n\u5185\u5bb9:\n\u4e00\u5219\u5185\u5b58\u5e02\u573a\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u8fd1\u671f\u7684 DRAM/NAND \u4ef7\u683c\u4e0a\u6da8\u5f00\u59cb\u964d\u6e29\uff0c\u6d88\u8d39\u8005\u5df2\u89e6\u53ca\u53ef\u627f\u53d7\u4ef7\u683c\u7684\u4e0a\u9650\u3002\n\nWhy it matters:\nA cooling of memory prices signals demand-side pushback against the AI-driven memory shortage, suggesting the HBM/DRAM supply squeeze feeding hyperscaler capex may be easing rather than intensifying \u2014 a mild negative for the 'memory scarcity as AI-capex constraint' leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u964d\u6e29\u8bf4\u660e\u9700\u6c42\u7aef\u5bf9 AI \u9a71\u52a8\u7684\u5185\u5b58\u77ed\u7f3a\u4ea7\u751f\u4e86\u62b5\u89e6\uff0c\u6697\u793a\u63a8\u52a8\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u7684 HBM/DRAM \u4f9b\u7ed9\u7d27\u5f20\u53ef\u80fd\u6b63\u5728\u7f13\u89e3\u800c\u975e\u52a0\u5267\u2014\u2014\u8fd9\u5bf9 AI \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u4e2d\u7684\u201c\u5185\u5b58\u7a00\u7f3a\u5236\u7ea6 capex\u201d\u4e00\u73af\u662f\u8f7b\u5fae\u5229\u7a7a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2042,
       "ts": 1783260873,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 20:13:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\n\nMicron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\" target=\"_blank\">Micron Blames Apple for Memory Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced: \"Micron Blames Apple for Memory Price Surge\" (\uc870\uc120\uc77c\ubcf4). Micron (MU) is publicly attributing a jump in memory prices to Apple demand.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u51fa\u73b0\uff1a\"Micron Blames Apple for Memory Price Surge\"\uff08\uc870\uc120\uc77c\ubcf4\uff09\u3002Micron (MU) \u516c\u5f00\u5c06\u5b58\u50a8\u5668\u4ef7\u683c\u4e0a\u6da8\u5f52\u56e0\u4e8e Apple \u7684\u9700\u6c42\u3002\n\nWhy it matters:\nA named DRAM/NAND supplier confirming a price surge is a supply-tightness / oversupply-inversion signal \u2014 memory pricing power is a leading indicator of the AI-infra capex cycle. Rising memory prices lift the bill-of-materials for AI servers (HBM/DRAM), squeezing hyperscaler capex economics and pointing to demand outrunning supply.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u70b9\u540d\u7684 DRAM/NAND \u4f9b\u5e94\u5546\u786e\u8ba4\u4ef7\u683c\u4e0a\u6da8\uff0c\u662f\u4f9b\u7ed9\u6536\u7d27\u3001\u4f9b\u9700\u53cd\u8f6c\u7684\u4fe1\u53f7\u2014\u2014\u5b58\u50a8\u5668\u5b9a\u4ef7\u6743\u662f AI \u57fa\u7840\u8bbe\u65bd capex \u5468\u671f\u7684\u9886\u5148\u6307\u6807\u3002\u5b58\u50a8\u5668\u6da8\u4ef7\u4f1a\u62ac\u9ad8 AI \u670d\u52a1\u5668\uff08HBM/DRAM\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1844,
-      "ts": 1782951279,
-      "ts_str": "2026-07-02 00:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OPENAI IPO Price, OPENAI IPO Price, Live Charts, and Marketcap - Coinbase",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 23:36:22 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxPd2NKTXUzUDVPd2x4eU5EZmFpWmtqeDBacW95YVhwdGw5M0tjTE5DMEFROWFpVVNmMVBDY3hTdnNEa0NBSy02ZUFtSEdmXzd3X3VaLVkta0pHRWlwWDZBMlQ3eUZIMVgtT2l3VzBhZ3lkOXNKUXhINzBJZnNvdHFvNFJPY3BiVWVyaWZkMFlGOGhnV0NxU3pOdHE2LXU1cWds?oc=5\n\nOPENAI IPO Price, OPENAI IPO Price, Live Charts, and Marketcap - Coinbase\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPd2NKTXUzUDVPd2x4eU5EZmFpWmtqeDBacW95YVhwdGw5M0tjTE5DMEFROWFpVVNmMVBDY3hTdnNEa0NBSy02ZUFtSEdmXzd3X3VaLVkta0pHRWlwWDZBMlQ3eUZIMVgtT2l3VzBhZ3lkOXNKUXhINzBJZnNvdHFvNFJPY3BiVWVyaWZkMFlGOGhnV0NxU3pOdHE2LXU1cWds?oc=5\" target=\"_blank\">OPENAI IPO Price, OPENAI IPO Price, Live Charts, and Marketcap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinbase</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nC3 fired a MED alert on an OpenAI keyword match in a Google News RSS item headlined \"OPENAI IPO Price, Live Charts, and Marketcap\" from Coinbase. No burn-rate metric was extracted; this is a keyword hit, not a filing or a financial disclosure.\n\n\u5185\u5bb9:\nC3 \u56e0\u4e00\u6761 Google News RSS \u65b0\u95fb\u547d\u4e2d OpenAI \u5173\u952e\u8bcd\u800c\u89e6\u53d1 MED \u544a\u8b66\uff0c\u6807\u9898\u4e3a Coinbase \u7684 \"OPENAI IPO Price, Live Charts, and Marketcap\"\u3002\u672a\u63d0\u53d6\u5230\u4efb\u4f55\u70e7\u94b1\u7387\u6307\u6807\uff0c\u8fd9\u53ea\u662f\u5173\u952e\u8bcd\u5339\u914d\uff0c\u5e76\u975e SEC \u6587\u4ef6\u6216\u8d22\u52a1\u62ab\u9732\u3002\n\nWhy it matters:\nThis is almost certainly a false positive \u2014 the item points to a Coinbase crypto-token/marketcap page riding the OpenAI name, not a genuine OpenAI funding or burn-rate signal. It carries no bubble-stress information; only a HIGH C3 (a >25% QoQ jump in extracted burn rate) would be thesis-relevant.\n\n\u5f71\u54cd:\n\u8fd9\u51e0\u4e4e\u53ef\u4ee5\u786e\u5b9a\u662f\u8bef\u62a5\u2014\u2014\u8be5\u6761\u76ee\u6307\u5411 Coinbase \u4e00\u4e2a\u8e6d OpenAI \u540d\u53f7\u7684\u52a0\u5bc6\u4ee3\u5e01/\u5e02\u503c\u9875\u9762\uff0c\u800c\u975e\u771f\u5b9e\u7684 OpenAI \u878d\u8d44\u6216\u70e7\u94b1\u7387\u4fe1\u53f7\u3002\u5b83\u4e0d\u542b\u4efb\u4f55\u6ce1\u6cab\u538b\u529b\u4fe1\u606f\uff1b\u53ea\u6709 HIGH \u7ea7 C3\uff08\u63d0\u53d6\u5230\u7684\u70e7\u94b1\u7387\u73af\u6bd4\u4e0a\u5347 >25%\uff09\u624d\u4e0e\u6838\u5fc3\u903b\u8f91\u76f8\u5173\u3002\n",
       "emailed": false
     }
   ],
