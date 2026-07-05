@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783260124,
-  "generated_at_str": "2026-07-05 14:02:04 UTC",
-  "last_event_ts": 1783259067,
+  "generated_at": 1783260310,
+  "generated_at_str": "2026-07-05 14:05:10 UTC",
+  "last_event_ts": 1783260304,
   "tables": {
     "alerts_dedup": {
-      "count": 2033,
-      "last_ts": 1783259067,
-      "last_str": "2026-07-05 13:44:27 UTC"
+      "count": 2034,
+      "last_ts": 1783260304,
+      "last_str": "2026-07-05 14:05:04 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-05 11:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1663,
-      "last_ts": 1783258502,
-      "last_str": "2026-07-05 13:35:02 UTC"
+      "count": 1664,
+      "last_ts": 1783260302,
+      "last_str": "2026-07-05 14:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1968,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-05 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1298,
-      "last_ts": 1783258503,
-      "last_str": "2026-07-05 13:35:03 UTC"
+      "count": 1299,
+      "last_ts": 1783260302,
+      "last_str": "2026-07-05 14:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1521,
-      "last_ts": 1783256705,
-      "last_str": "2026-07-05 13:05:05 UTC"
+      "count": 1522,
+      "last_ts": 1783260304,
+      "last_str": "2026-07-05 14:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13785,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2041,
+      "ts": 1783260304,
+      "ts_str": "2026-07-05 14:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Long - Standing Suffering from DRAM Shortage - 36 Kr",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 03:32:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\n\nGlobal Long - Standing Suffering from DRAM Shortage - 36 Kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\" target=\"_blank\">Global Long - Standing Suffering from DRAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36 Kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 36Kr RSS item reports a persistent global DRAM shortage.\n\n\u5185\u5bb9:\n36\u6c2a\u7684\u4e00\u7bc7\u62a5\u9053\u79f0\u5168\u7403 DRAM \u957f\u671f\u77ed\u7f3a\u3002\n\nWhy it matters:\nTight DRAM supply raises memory costs for AI accelerators and servers, squeezing hyperscaler margins and adding another input-cost pressure point to the AI-capex thesis.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5361\u548c\u670d\u52a1\u5668\u7684\u5185\u5b58\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u4e3a AI capex \u903b\u8f91\u518d\u6dfb\u4e00\u4e2a\u6210\u672c\u7aef\u7684\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2039,
       "ts": 1783259067,
@@ -2265,16 +2275,6 @@
       "subject": "[C6-MED] Micron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 20:13:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\n\nMicron Blames Apple for Memory Price Surge - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVR1RXpLZ3lTNmNDTmE4OTEzQktoZXplRVZwZWwySXZJWXhZY2JrX3JrS3d1WjFsTDZlUjFIN2VSMVYxaGdUZ1U2cEg3UVBqVlZQR3NTTWxtV3Y0RzQ4MENhVmtuSllhODRqVmdtRW1QaFYzWnpwb0VJYWh4a0l2eGZ2QnF6Wk92?oc=5\" target=\"_blank\">Micron Blames Apple for Memory Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced: \"Micron Blames Apple for Memory Price Surge\" (\uc870\uc120\uc77c\ubcf4). Micron (MU) is publicly attributing a jump in memory prices to Apple demand.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u51fa\u73b0\uff1a\"Micron Blames Apple for Memory Price Surge\"\uff08\uc870\uc120\uc77c\ubcf4\uff09\u3002Micron (MU) \u516c\u5f00\u5c06\u5b58\u50a8\u5668\u4ef7\u683c\u4e0a\u6da8\u5f52\u56e0\u4e8e Apple \u7684\u9700\u6c42\u3002\n\nWhy it matters:\nA named DRAM/NAND supplier confirming a price surge is a supply-tightness / oversupply-inversion signal \u2014 memory pricing power is a leading indicator of the AI-infra capex cycle. Rising memory prices lift the bill-of-materials for AI servers (HBM/DRAM), squeezing hyperscaler capex economics and pointing to demand outrunning supply.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u70b9\u540d\u7684 DRAM/NAND \u4f9b\u5e94\u5546\u786e\u8ba4\u4ef7\u683c\u4e0a\u6da8\uff0c\u662f\u4f9b\u7ed9\u6536\u7d27\u3001\u4f9b\u9700\u53cd\u8f6c\u7684\u4fe1\u53f7\u2014\u2014\u5b58\u50a8\u5668\u5b9a\u4ef7\u6743\u662f AI \u57fa\u7840\u8bbe\u65bd capex \u5468\u671f\u7684\u9886\u5148\u6307\u6807\u3002\u5b58\u50a8\u5668\u6da8\u4ef7\u4f1a\u62ac\u9ad8 AI \u670d\u52a1\u5668\uff08HBM/DRAM\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u7ecf\u6d4e\u6027\uff0c\u8bf4\u660e\u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u4f9b\u7ed9\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 1841,
-      "ts": 1782944954,
-      "ts_str": "2026-07-01 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.20% (+48bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-06-30\nCurrent:  2.20%\n90d low:  1.72%\nMove:     +48bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year Treasury real (TIPS) yield rose to 2.2% on 2026-06-30, up 0.48pp from its trailing-90-day low of 1.72%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u7f8e\u56fd\u56fd\u503a\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5728 2026-06-30 \u5347\u81f3 2.2%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.72% \u4e0a\u884c 0.48pp\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex bets; a sharp rise compresses the present value of profits that are still years out and tightens financial conditions. A move this size off the recent low is a liquidity-drain signal that pressures the most speculative, cash-burning parts of the AI trade first.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u662f\u957f\u4e45\u671f AI \u8d44\u672c\u5f00\u652f\u62bc\u6ce8\u7684\u8d34\u73b0\u7387\uff1b\u5feb\u901f\u4e0a\u884c\u4f1a\u538b\u4f4e\u90a3\u4e9b\u76c8\u5229\u4ecd\u5728\u6570\u5e74\u4e4b\u540e\u624d\u5151\u73b0\u7684\u9879\u76ee\u7684\u73b0\u503c\uff0c\u5e76\u6536\u7d27\u91d1\u878d\u6761\u4ef6\u3002\u8fd9\u79cd\u5e45\u5ea6\u7684\u4e0a\u884c\u662f\u6d41\u52a8\u6027\u62bd\u79bb\u4fe1\u53f7\uff0c\u6700\u5148\u51b2\u51fb AI \u4ea4\u6613\u4e2d\u6700\u6295\u673a\u3001\u6700\u70e7\u94b1\u7684\u90e8\u5206\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
