@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783215125,
-  "generated_at_str": "2026-07-05 01:32:05 UTC",
-  "last_event_ts": 1783214045,
+  "generated_at": 1783215306,
+  "generated_at_str": "2026-07-05 01:35:06 UTC",
+  "last_event_ts": 1783215306,
   "tables": {
     "alerts_dedup": {
-      "count": 2001,
-      "last_ts": 1783210464,
-      "last_str": "2026-07-05 00:14:24 UTC"
+      "count": 2002,
+      "last_ts": 1783215306,
+      "last_str": "2026-07-05 01:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-05 01:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1909,
-      "last_ts": 1783213504,
-      "last_str": "2026-07-05 01:05:04 UTC"
+      "count": 1912,
+      "last_ts": 1783215305,
+      "last_str": "2026-07-05 01:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1281,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-05 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1507,
-      "last_ts": 1783213504,
-      "last_str": "2026-07-05 01:05:04 UTC"
+      "count": 1508,
+      "last_ts": 1783215306,
+      "last_str": "2026-07-05 01:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13728,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2009,
+      "ts": 1783215306,
+      "ts_str": "2026-07-05 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Business News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3 - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:50:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdmxYVnBZTnhkN2ZxZ1BHLURCVFB5SEJvdDNTLUNTOWZhX1ljOG5NWTNSa0hzV1dEeV9jY3VSdTZEMnRwZlRYUC1wanhVMWljbl9USjZmdmJYWE41dnRUbC1VTmN4bF9jVjZBcmRuU0JfcGdsV1VIZmNHZHdPUGs5RTkxOUw2bzBvRjFIZUtoX0ZYZVJpUllXOGxadnQwTGlwbXNRQnRINjlPX1RGdHhvUnRaUlBiY3k50gG4AUFVX3lxTFB2bFhWcFlOeGQ3ZnFnUEctREJUUHlIQm90M1MtQ1M5ZmFfWWM4bk1ZM1JrSHNXV0R5X2NjdVJ1NkQydHBmVFhQLXBqeFUxaWNuX1RKNmZ2YlhYTjV2dFRsLVVOY3hsX2NWNkFyZG5TQl9wZ2xXVUhmY0dkd09QazlFOTE5TDZvMG9GMUhlS2hfRlhlUmlSWVc4bFp2dDBMaXBtc1FCdEg2OU9fVEZ0eG9SdFpSUGJjeTk?oc=5\n\nBusiness News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3 - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdmxYVnBZTnhkN2ZxZ1BHLURCVFB5SEJvdDNTLUNTOWZhX1ljOG5NWTNSa0hzV1dEeV9jY3VSdTZEMnRwZlRYUC1wanhVMWljbl9USjZmdmJYWE41dnRUbC1VTmN4bF9jVjZBcmRuU0JfcGdsV1VIZmNHZHdPUGs5RTkxOUw2bzBvRjFIZUtoX0ZYZVJpUllXOGxadnQwTGlwbXNRQnRINjlPX1RGdHhvUnRaUlBiY3k50gG4AUFVX3lxTFB2bFhWcFlOeGQ3ZnFnUEctREJUUHlIQm90M1MtQ1M5ZmFfWWM4bk1ZM1JrSHNXV0R5X2NjdVJ1NkQydHBmVFhQLXBqeFUxaWNuX1RKNmZ2YlhYTjV2dFRsLVVOY3hsX2NWNkFyZG5TQl9wZ2xXVUhmY0dkd09QazlFOTE5TDZvMG9GMUhlS2hfRlhlUmlSWVc4bFp2dDBMaXBtc1FCdEg2OU9fVEZ0eG9SdFpSUGJjeTk?oc=5\" target=\"_blank\">Business News | Samsung Reportedly Plans 20% DRAM Price Hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA sharp memory-price surge signals tight DRAM supply, likely driven by HBM allocation for AI accelerators crowding out conventional DRAM capacity. Rising input costs pressure margins across the AI-server supply chain and are a classic late-cycle overheating tell.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u610f\u5473\u7740 DRAM \u4f9b\u7ed9\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f AI \u52a0\u901f\u5668\u5bf9 HBM \u4ea7\u80fd\u7684\u6324\u5360\u4f20\u5bfc\u5230\u4e86\u666e\u901a DRAM\u3002\u4e0a\u6e38\u6210\u672c\u4e0a\u5347\u4f1a\u538b\u7f29\u6574\u4e2a AI \u670d\u52a1\u5668\u4f9b\u5e94\u94fe\u7684\u5229\u6da6\u7387\uff0c\u662f\u5468\u671f\u8fc7\u70ed\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2007,
       "ts": 1783210464,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 21:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2FTdy00ZHpZVkx5bWFVTU1wbjNiMDB0WVBOWkRvVlliYXNqcnh1LVJTYWJCMWVqZk9JaUxwYnpJdmpRQ3pYbUY3dm1RWGJDTVFrVzBDWTVLX2FPZ0w4Y0MtSU8tZG5iZ1EzcU1hSzNOX0Ixb0VMc2ZUSE5JamhKTUJMdi01RTNEeEdsU3FsVU5QVm5OZTZBeENqeXRXbDhBTjJB0gGoAUFVX3lxTE85ODR3S05VTE42b0dFSi1DblJZdDlyWnhadzd2Yk5GaGlXck9IaVpab0J5WkN6N2x3T0E1LXhtLVdoaVpMM0taUXNEZVBzRVpxdjNPeTJzZzctSlpiX0N1T0NfN2RMemw4aGtYdUtGU0ZWaEQ3WmRmV3c1d1M2cDVPeTNtREw2OHMzNmFVeUJDbURVZk9lcFJTdFVOeUtUeEJUeE02QjUzVw?oc=5\n\nHBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2FTdy00ZHpZVkx5bWFVTU1wbjNiMDB0WVBOWkRvVlliYXNqcnh1LVJTYWJCMWVqZk9JaUxwYnpJdmpRQ3pYbUY3dm1RWGJDTVFrVzBDWTVLX2FPZ0w4Y0MtSU8tZG5iZ1EzcU1hSzNOX0Ixb0VMc2ZUSE5JamhKTUJMdi01RTNEeEdsU3FsVU5QVm5OZTZBeENqeXRXbDhBTjJB0gGoAUFVX3lxTE85ODR3S05VTE42b0dFSi1DblJZdDlyWnhadzd2Yk5GaGlXck9IaVpab0J5WkN6N2x3T0E1LXhtLVdoaVpMM0taUXNEZVBzRVpxdjNPeTJzZzctSlpiX0N1T0NfN2RMemw4aGtYdUtGU0ZWaEQ3WmRmV3c1d1M2cDVPeTNtREw2OHMzNmFVeUJDbURVZk9lcFJTdFVOeUtUeEJUeE02QjUzVw?oc=5\" target=\"_blank\">HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports HBM shortages are pushing AMD to launch its first memory-on-package SoC, the Versal Gen 2.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cHBM \u77ed\u7f3a\u6b63\u4fc3\u4f7f AMD \u63a8\u51fa\u5176\u9996\u6b3e\u5185\u5b58\u5c01\u88c5\u4e00\u4f53\u5316 SoC\u2014\u2014Versal Gen 2\u3002\n\nWhy it matters:\nHBM is the critical bottleneck part for AI accelerators. A named shortage severe enough to redesign products around tighter board footprint is a supply-stress signal \u2014 demand is outrunning HBM capacity, the classic squeeze point in the AI-capex buildout.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u5173\u952e\u7684\u74f6\u9888\u90e8\u4ef6\u3002\u77ed\u7f3a\u4e25\u91cd\u5230\u8981\u91cd\u65b0\u8bbe\u8ba1\u4ea7\u54c1\u3001\u538b\u7f29\u677f\u7ea7\u5360\u7528\u9762\u79ef\uff0c\u8fd9\u662f\u4f9b\u7ed9\u7d27\u5f20\u7684\u4fe1\u53f7\u2014\u2014\u9700\u6c42\u6b63\u5728\u8dd1\u8d62 HBM \u4ea7\u80fd\uff0c\u800c\u8fd9\u6b63\u662f AI capex \u5efa\u8bbe\u5468\u671f\u91cc\u6700\u5178\u578b\u7684\u6324\u538b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1809,
-      "ts": 1782855317,
-      "ts_str": "2026-06-30 21:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple eyes China\u2019s CXMT for RAM chips as Samsung DRAM prices soar - Gizmochina",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 20:37:54 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQc0ZDR3l6QnA2UlZTM0VONjN2WU1tcWRXTUtDUnBoLTczV21oSnAwd2VySFZKZlJvOHBSUUM1enFWMlRKd3lJdm84MGJ1WHRvSUJWenhSWW95cFg3bWowZ2w3cVNaLUVDa204d1ZUWHF6c0xhS044bzNIZjU1UUNBbktDaVFkS2c2RVVSOFp2RGtUQ3NhZGFSMVd2cDEzZ19rTGFDUTV3?oc=5\n\nApple eyes China\u2019s CXMT for RAM chips as Samsung DRAM prices soar - Gizmochina\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQc0ZDR3l6QnA2UlZTM0VONjN2WU1tcWRXTUtDUnBoLTczV21oSnAwd2VySFZKZlJvOHBSUUM1enFWMlRKd3lJdm84MGJ1WHRvSUJWenhSWW95cFg3bWowZ2w3cVNaLUVDa204d1ZUWHF6c0xhS044bzNIZjU1UUNBbktDaVFkS2c2RVVSOFp2RGtUQ3NhZGFSMVd2cDEzZ19rTGFDUTV3?oc=5\" target=\"_blank\">Apple eyes China\u2019s CXMT for RAM chips as Samsung DRAM prices soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmochina</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item headlined \"Apple eyes China's CXMT for RAM chips as Samsung DRAM prices soar\" paired a memory term (DRAM/RAM) with surging prices. Apple is reportedly turning to China's CXMT for RAM as Samsung DRAM prices climb sharply.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u6807\u9898\u4e3a\u300cApple eyes China's CXMT for RAM chips as Samsung DRAM prices soar\u300d\uff0c\u5c06\u5185\u5b58\u5173\u952e\u8bcd\uff08DRAM/RAM\uff09\u4e0e\u4ef7\u683c\u98d9\u5347\u914d\u5728\u4e00\u8d77\u3002\u636e\u62a5\u9053\uff0c\u968f\u7740 Samsung DRAM \u4ef7\u683c\u5927\u6da8\uff0cApple \u6b63\u8f6c\u5411\u4e2d\u56fd\u5382\u5546 CXMT \u91c7\u8d2d RAM\u3002\n\nWhy it matters:\nSpiking DRAM prices signal memory supply tightening against AI-server demand \u2014 a cost input for the entire hyperscaler buildout. A buyer as large as Apple seeking a Chinese alternative supplier confirms the squeeze is real, not vendor spin, and feeds straight into AI-capex inflation.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u98d9\u5347\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5728 AI \u670d\u52a1\u5668\u9700\u6c42\u9762\u524d\u6301\u7eed\u6536\u7d27\uff0c\u800c\u5185\u5b58\u662f\u6574\u4e2a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6269\u5efa\u7684\u6210\u672c\u9879\u3002\u8fde Apple \u8fd9\u79cd\u4f53\u91cf\u7684\u4e70\u5bb6\u90fd\u5f00\u59cb\u5bfb\u627e\u4e2d\u56fd\u66ff\u4ee3\u4f9b\u5e94\u5546\uff0c\u8bc1\u660e\u8fd9\u6b21\u6324\u538b\u662f\u771f\u5b9e\u7684\u3001\u4e0d\u662f\u4f9b\u5e94\u5546\u7684\u7092\u4f5c\uff0c\u5e76\u76f4\u63a5\u63a8\u9ad8 AI capex \u6210\u672c\u3002\n",
       "emailed": false
     }
   ],
