@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783240867,
-  "generated_at_str": "2026-07-05 08:41:07 UTC",
-  "last_event_ts": 1783240505,
+  "generated_at": 1783241060,
+  "generated_at_str": "2026-07-05 08:44:20 UTC",
+  "last_event_ts": 1783241054,
   "tables": {
     "alerts_dedup": {
-      "count": 2017,
-      "last_ts": 1783235114,
-      "last_str": "2026-07-05 07:05:14 UTC"
+      "count": 2018,
+      "last_ts": 1783241054,
+      "last_str": "2026-07-05 08:44:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2675,
-      "last_ts": 1783214045,
-      "last_str": "2026-07-05 01:14:05 UTC"
+      "count": 2676,
+      "last_ts": 1783241043,
+      "last_str": "2026-07-05 08:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 553,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-05 08:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13755,
-      "last_ts": 1783237442,
-      "last_str": "2026-07-05 07:44:02 UTC"
+      "count": 13756,
+      "last_ts": 1783241042,
+      "last_str": "2026-07-05 08:44:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2025,
+      "ts": 1783241054,
+      "ts_str": "2026-07-05 08:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] AI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027 - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 05:11:40 GMT\nLink:      https://news.google.com/rss/articles/CBMinwRBVV95cUxOcXVESzdQek5HZHNWU3c3SVVadUpFU1FaZUlTSG12N1ZPM1F2NENZMXl4dVFmdXpEeXAtN0djbVk1cHgweHhHOFZzQmJISHNYNU9wd1VlamhhQWxHaEdJZTRFT0RuRnRoZXRKNC1kemlXdTY4WXRtdkxqekdzU0JocDlfelVyT0k4NUI3SlFDMm01RWphel80TS1WNUhOeGVsWTF0cGRWUl9qSTZ3WHlFLUhpekZNcGpIdUJwRld0NWxxOW9XbWhvVlUzN3J5VVBTaEF0SFd5N3FoaXZqVlpfdV85SUt6MDUybGgtb2I3U3V3QTlISW9BMk5uU0xnblNRZk5DWEMtdXNJQ3BEQlVQMmVCVFp1SmlKc3hPMTV0NXN4TzBkUWtXdzk4NDJodDBhXzluWm8teVhpekJXc28yWHVGUmxsSkczenFXSlpNUEh4MjI0NTFIT01QdXFOekZzdUpudy1FMlRaZVkyRFNwYkloZG40eTAwR2dLRmxtZ0FMclJEY2t2WWlYVTZOdm1wV1phRHFKbGNRajN3eW1EQXBaeUdzZ2hjNi1uV1hCQm1HenE4bU43RTZFVWxXT0o0Z1VBV3NCcDlCNVJOOWxEd0VzODRfbktqTUNrVEctbzZrcHNIOHd0UjN2QmJvMlJ3U29TaldPZlZFSUJpckt6Ym1nS094cWVqXzBWc2YtdTI2T1k4MUN6dmltcVRXRUk?oc=5\n\nAI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027 - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMinwRBVV95cUxOcXVESzdQek5HZHNWU3c3SVVadUpFU1FaZUlTSG12N1ZPM1F2NENZMXl4dVFmdXpEeXAtN0djbVk1cHgweHhHOFZzQmJISHNYNU9wd1VlamhhQWxHaEdJZTRFT0RuRnRoZXRKNC1kemlXdTY4WXRtdkxqekdzU0JocDlfelVyT0k4NUI3SlFDMm01RWphel80TS1WNUhOeGVsWTF0cGRWUl9qSTZ3WHlFLUhpekZNcGpIdUJwRld0NWxxOW9XbWhvVlUzN3J5VVBTaEF0SFd5N3FoaXZqVlpfdV85SUt6MDUybGgtb2I3U3V3QTlISW9BMk5uU0xnblNRZk5DWEMtdXNJQ3BEQlVQMmVCVFp1SmlKc3hPMTV0NXN4TzBkUWtXdzk4NDJodDBhXzluWm8teVhpekJXc28yWHVGUmxsSkczenFXSlpNUEh4MjI0NTFIT01QdXFOekZzdUpudy1FMlRaZVkyRFNwYkloZG40eTAwR2dLRmxtZ0FMclJEY2t2WWlYVTZOdm1wV1phRHFKbGNRajN3eW1EQXBaeUdzZ2hjNi1uV1hCQm1HenE4bU43RTZFVWxXT0o0Z1VBV3NCcDlCNVJOOWxEd0VzODRfbktqTUNrVEctbzZrcHNIOHd0UjN2QmJvMlJ3U29TaldPZlZFSUJpckt6Ym1nS094cWVqXzBWc2YtdTI2T1k4MUN6dmltcVRXRUk?oc=5\" target=\"_blank\">AI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say OpenAI is considering delaying its IPO to 2027, triggering a broad dip in AI memory and chip stocks.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u8003\u8651\u5c06 IPO \u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u6d88\u606f\u4f20\u51fa\u540e\u5168\u7403 AI \u5185\u5b58\u548c\u82af\u7247\u80a1\u540c\u6b65\u4e0b\u8dcc\u3002\n\nWhy it matters:\nAn IPO delay suggests OpenAI (or its bankers) see weaker near-term public-market conditions or financials than earlier assumed, and markets are already pricing spillover risk into the AI supply chain \u2014 a sign the capex-fueled rally is more fragile than sentiment implies.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740 OpenAI\uff08\u6216\u5176\u627f\u9500\u5546\uff09\u5224\u65ad\u8fd1\u671f\u516c\u5f00\u5e02\u573a\u73af\u5883\u6216\u8d22\u52a1\u8868\u73b0\u4e0d\u5982\u6b64\u524d\u9884\u671f\uff0c\u800c\u5e02\u573a\u5df2\u7ecf\u5728\u4e3a AI \u4ea7\u4e1a\u94fe\u7684\u8fde\u9501\u53cd\u5e94\u5b9a\u4ef7\u2014\u2014\u8fd9\u8bf4\u660e\u7531\u8d44\u672c\u5f00\u652f\u9a71\u52a8\u7684\u8fd9\u8f6e\u4e0a\u6da8\u6bd4\u5e02\u573a\u60c5\u7eea\u8868\u73b0\u7684\u66f4\u8106\u5f31\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2020,
       "ts": 1783235114,
@@ -2265,16 +2275,6 @@
       "subject": "[C6-MED] Tim Cook Blames Memory Chip Supplier for Price Hikes, Micron Points to Apple\u2019s Demand - Short-Term Outlook - dars.gov.et",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 12:39:07 GMT\nLink:      https://news.google.com/rss/articles/CBMi4gFBVV95cUxNekp3R19nV18yUklPcFAwcndNRXlOZU9TTDd4SHVLLUE3WFpNMHhTSExCV0ZLazVSYWFLQUREbHoyTnBYTG9jZmNvS2t2M29KYnBmVXhRMXA3S0JBb2xTNHRhajh0VzdWYXlzaUQ0WG5ITGhZMTBydzFUUTZ0U296QjZVU1B5VDhHZUI3MXBQb21rOXhyUXZYbGtNVnNfdTBxZ2QwN0VrUkdfYUpXTDgzeWloMS1veks5LUxkclVCdC1wSVBvM3RpSVNPN00tRHdUcE42aXpSX2Jud0J3cndVU2h3?oc=5\n\nTim Cook Blames Memory Chip Supplier for Price Hikes, Micron Points to Apple\u2019s Demand - Short-Term Outlook - dars.gov.et\n\n<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNekp3R19nV18yUklPcFAwcndNRXlOZU9TTDd4SHVLLUE3WFpNMHhTSExCV0ZLazVSYWFLQUREbHoyTnBYTG9jZmNvS2t2M29KYnBmVXhRMXA3S0JBb2xTNHRhajh0VzdWYXlzaUQ0WG5ITGhZMTBydzFUUTZ0U296QjZVU1B5VDhHZUI3MXBQb21rOXhyUXZYbGtNVnNfdTBxZ2QwN0VrUkdfYUpXTDgzeWloMS1veks5LUxkclVCdC1wSVBvM3RpSVNPN00tRHdUcE42aXpSX2Jud0J3cndVU2h3?oc=5\" target=\"_blank\">Tim Cook Blames Memory Chip Supplier for Price Hikes, Micron Points to Apple\u2019s Demand - Short-Term Outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dars.gov.et</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item headlined \"Tim Cook Blames Memory Chip Supplier for Price Hikes, Micron Points to Apple's Demand\" tripped C6 \u2014 a memory term (memory chip) paired with a price-stress token within 120 chars.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff0c\u6807\u9898\u4e3a\u300aTim Cook Blames Memory Chip Supplier for Price Hikes, Micron Points to Apple's Demand\u300b\uff0c\u89e6\u53d1\u4e86 C6\u2014\u2014\u5728 120 \u5b57\u7b26\u5185\u540c\u65f6\u51fa\u73b0\u5185\u5b58\u672f\u8bed\uff08memory chip\uff09\u4e0e\u4ef7\u683c\u538b\u529b\u8bcd\u3002\n\nWhy it matters:\nApple publicly pinning product price hikes on memory costs, with Micron pointing back at AI-driven demand, is a sign DRAM/NAND pricing stress is now leaking from data-center buyers into consumer hardware. It shows AI-capex demand is bidding memory away from everyone else \u2014 a bubble-stress tell that the supply squeeze is real, not a headline.\n\n\u5f71\u54cd:\nApple \u516c\u5f00\u628a\u4ea7\u54c1\u6da8\u4ef7\u5f52\u548e\u4e8e\u5185\u5b58\u6210\u672c\uff0c\u800c Micron \u53cd\u6307\u662f AI \u9700\u6c42\u6240\u81f4\uff0c\u8bf4\u660e DRAM/NAND \u7684\u4ef7\u683c\u538b\u529b\u6b63\u4ece\u6570\u636e\u4e2d\u5fc3\u4e70\u5bb6\u5916\u6ea2\u5230\u6d88\u8d39\u786c\u4ef6\u3002\u8fd9\u8868\u660e AI capex \u9700\u6c42\u6b63\u628a\u5185\u5b58\u4ece\u5176\u4ed6\u6240\u6709\u4eba\u624b\u91cc\u62a2\u8d70\u2014\u2014\u662f\u4f9b\u7ed9\u6324\u538b\u771f\u5b9e\u5b58\u5728\u3001\u800c\u975e\u53ea\u662f\u6807\u9898\u515a\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 1824,
-      "ts": 1782894929,
-      "ts_str": "2026-07-01 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Samsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes - MSN",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 01 Jul 2026 05:25:50 GMT\nLink:      https://news.google.com/rss/articles/CBMi-wFBVV95cUxOV1BEMFRsbmJ3VWxQS2UwV29VVlQtYjFiS0c4RDZvSGpnczZqSUhkWWp3MENyeDloU0V4djREVm9EU0gwck5wc3lseHJ5TWpmb2FDcEFlaG9SLTgtdUlEOEV0b19sV0pjYUJPbkk4S2RPNFpGaW1zcy1LNTRXS3NRZXQ0SUR6T19kRHRmeVRmd2JyQzlOdjMtcWR6Y05GOGdIRlBGaHNuS0xiWFlBUzFoRmczc0dKajU2MVJEcmFlU1VmRGNac3k5NkhqTUdWbkpaVDVHYUlma2dydzA0Q0pyWFhWYzBhTDdtM0pIQmNycVVMSUluNUMxT2llTQ?oc=5\n\nSamsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOV1BEMFRsbmJ3VWxQS2UwV29VVlQtYjFiS0c4RDZvSGpnczZqSUhkWWp3MENyeDloU0V4djREVm9EU0gwck5wc3lseHJ5TWpmb2FDcEFlaG9SLTgtdUlEOEV0b19sV0pjYUJPbkk4S2RPNFpGaW1zcy1LNTRXS3NRZXQ0SUR6T19kRHRmeVRmd2JyQzlOdjMtcWR6Y05GOGdIRlBGaHNuS0xiWFlBUzFoRmczc0dKajU2MVJEcmFlU1VmRGNac3k5NkhqTUdWbkpaVDVHYUlma2dydzA0Q0pyWFhWYzBhTDdtM0pIQmNycVVMSUluNUMxT2llTQ?oc=5\" target=\"_blank\">Samsung, Micron, SK Hynix hit with lawsuit over alleged DRAM supply cuts and price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA lawsuit accuses Samsung, Micron, and SK Hynix of coordinating DRAM supply cuts and price hikes.\n\n\u5185\u5bb9:\n\u4e00\u8d77\u8bc9\u8bbc\u6307\u63a7 Samsung\u3001Micron\u3001SK Hynix \u5408\u8c0b\u524a\u51cf DRAM \u4f9b\u5e94\u5e76\u62ac\u9ad8\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/HBM is the gating input for AI accelerators. Alleged collusion on supply cuts and price hikes signals a tight, pricing-power memory market \u2014 rising HBM costs squeeze AI-buildout margins, and if the cuts unwind into oversupply the reversal hits the memory makers hard. Either way it's a stress point in the AI-capex supply chain.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7684\u5173\u952e\u74f6\u9888\u8f93\u5165\u3002\u88ab\u6307\u63a7\u5408\u8c0b\u51cf\u4ea7\u3001\u62ac\u4ef7\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u4f9b\u5e94\u7d27\u5f20\u3001\u8bae\u4ef7\u80fd\u529b\u5f3a\u2014\u2014HBM \u6210\u672c\u4e0a\u5347\u4f1a\u6324\u538b AI \u57fa\u5efa\u7684\u5229\u6da6\u7387\uff1b\u800c\u4e00\u65e6\u51cf\u4ea7\u9006\u8f6c\u4e3a\u4f9b\u5e94\u8fc7\u5269\uff0c\u53cd\u8f6c\u4f1a\u91cd\u521b\u5185\u5b58\u5382\u5546\u3002\u65e0\u8bba\u54ea\u79cd\u60c5\u51b5\uff0c\u90fd\u662f AI capex \u4f9b\u5e94\u94fe\u4e0a\u7684\u4e00\u4e2a\u538b\u529b\u70b9\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
