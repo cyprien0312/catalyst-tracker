@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783227724,
-  "generated_at_str": "2026-07-05 05:02:04 UTC",
-  "last_event_ts": 1783226643,
+  "generated_at": 1783227924,
+  "generated_at_str": "2026-07-05 05:05:24 UTC",
+  "last_event_ts": 1783227918,
   "tables": {
     "alerts_dedup": {
-      "count": 2006,
-      "last_ts": 1783226114,
-      "last_str": "2026-07-05 04:35:14 UTC"
+      "count": 2007,
+      "last_ts": 1783227918,
+      "last_str": "2026-07-05 05:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-05 03:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1932,
-      "last_ts": 1783226104,
-      "last_str": "2026-07-05 04:35:04 UTC"
+      "count": 1933,
+      "last_ts": 1783227910,
+      "last_str": "2026-07-05 05:05:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1285,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2014,
+      "ts": 1783227918,
+      "ts_str": "2026-07-05 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Long - Standing Suffering from DRAM Shortage - 36 Kr",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 03:32:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\n\nGlobal Long - Standing Suffering from DRAM Shortage - 36 Kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\" target=\"_blank\">Global Long - Standing Suffering from DRAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36 Kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 36Kr RSS item reports a persistent global DRAM shortage.\n\n\u5185\u5bb9:\n36\u6c2a\u7684\u4e00\u7bc7\u62a5\u9053\u79f0\u5168\u7403 DRAM \u957f\u671f\u77ed\u7f3a\u3002\n\nWhy it matters:\nTight DRAM supply raises memory costs for AI accelerators and servers, squeezing hyperscaler margins and adding another input-cost pressure point to the AI-capex thesis.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5361\u548c\u670d\u52a1\u5668\u7684\u5185\u5b58\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u4e3a AI capex \u903b\u8f91\u518d\u6dfb\u4e00\u4e2a\u6210\u672c\u7aef\u7684\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2013,
       "ts": 1783226114,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 21:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTg0d0tOVUxONm9HRUotQ25SWXQ5clp4Wnc3dmJORmhpV3JPSGlaWm9CeVpDejdsd09BNS14bS1XaGlaTDNLWlFzRGVQc0VacXYzT3kyc2c3LUpaYl9DdU9DXzdkTHpsOGhrWHVLRlNGVmhEN1pkZld3NXdTNnA1T3kzbURMNjhzMzZhVXlCQ21EVWZPZXBSU3RVTnlLVHhCVHhNNkI1M1fSAagBQVVfeXFMTzk4NHdLTlVMTjZvR0VKLUNuUll0OXJaeFp3N3ZiTkZoaVdyT0hpWlpvQnlaQ3o3bHdPQTUteG0tV2hpWkwzS1pRc0RlUHNFWnF2M095MnNnNy1KWmJfQ3VPQ183ZEx6bDhoa1h1S0ZTRlZoRDdaZGZXdzV3UzZwNU95M21ETDY4czM2YVV5QkNtRFVmT2VwUlN0VU55S1R4QlR4TTZCNTNX?oc=5\n\nHBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTg0d0tOVUxONm9HRUotQ25SWXQ5clp4Wnc3dmJORmhpV3JPSGlaWm9CeVpDejdsd09BNS14bS1XaGlaTDNLWlFzRGVQc0VacXYzT3kyc2c3LUpaYl9DdU9DXzdkTHpsOGhrWHVLRlNGVmhEN1pkZld3NXdTNnA1T3kzbURMNjhzMzZhVXlCQ21EVWZPZXBSU3RVTnlLVHhCVHhNNkI1M1fSAagBQVVfeXFMTzk4NHdLTlVMTjZvR0VKLUNuUll0OXJaeFp3N3ZiTkZoaVdyT0hpWlpvQnlaQ3o3bHdPQTUteG0tV2hpWkwzS1pRc0RlUHNFWnF2M095MnNnNy1KWmJfQ3VPQ183ZEx6bDhoa1h1S0ZTRlZoRDdaZGZXdzV3UzZwNU95M21ETDY4czM2YVV5QkNtRFVmT2VwUlN0VU55S1R4QlR4TTZCNTNX?oc=5\" target=\"_blank\">HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item paired an HBM memory term with a shortage token: \"HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC\" (Versal Gen 2), via Wccftech.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u628a HBM \u5185\u5b58\u672f\u8bed\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u914d\u5bf9\uff1a\"HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC\"\uff08Versal Gen 2\uff09\uff0c\u6765\u6e90 Wccftech\u3002\n\nWhy it matters:\nHBM is the scarce bottleneck component for AI accelerators. A vendor redesigning silicon around HBM scarcity confirms supply is tight enough to force architectural workarounds \u2014 a sign AI-capex demand is outrunning memory supply, which feeds cost inflation and supply-chain stress in the buildout.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u7d27\u7f3a\u7684\u74f6\u9888\u90e8\u4ef6\u3002\u5382\u5546\u4e3a\u5e94\u5bf9 HBM \u77ed\u7f3a\u800c\u91cd\u65b0\u8bbe\u8ba1\u82af\u7247\uff0c\u8bf4\u660e\u4f9b\u5e94\u5df2\u7d27\u5f20\u5230\u8981\u9760\u6539\u67b6\u6784\u6765\u7ed5\u5f00\u2014\u2014\u8fd9\u8868\u660e AI capex \u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u5185\u5b58\u4f9b\u7ed9\uff0c\u4f1a\u63a8\u9ad8\u6210\u672c\u5e76\u52a0\u5267\u5efa\u8bbe\u73af\u8282\u7684\u4f9b\u5e94\u94fe\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1814,
-      "ts": 1782861264,
-      "ts_str": "2026-06-30 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s $1 trillion ambition could delay its IPO - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 08:20:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxPangtaFFZRHJDVG96LUlCUGFWT0loWWRyMEs1MElYWko3ZThJREJ6UmtMWmU5Z21aR1Y0NzRXR3pRVXFOMUZRc1BEdF84OTJQVDlhOHJxWEM2MEhvMHN4eTJ4YnRlbUVJNTNYUjJCLUJUaFNhMkdSSm85RnVmQ2xJYUxn?oc=5\n\nOpenAI\u2019s $1 trillion ambition could delay its IPO - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPangtaFFZRHJDVG96LUlCUGFWT0loWWRyMEs1MElYWko3ZThJREJ6UmtMWmU5Z21aR1Y0NzRXR3pRVXFOMUZRc1BEdF84OTJQVDlhOHJxWEM2MEhvMHN4eTJ4YnRlbUVJNTNYUjJCLUJUaFNhMkdSSm85RnVmQ2xJYUxn?oc=5\" target=\"_blank\">OpenAI\u2019s $1 trillion ambition could delay its IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline (\"OpenAI's $1 trillion ambition could delay its IPO\", AOL.com) tripped the C3 OpenAI-stress keyword filter \u2014 coverage tying OpenAI's ~$1T spending/buildout plans to a pushed-back IPO timeline.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u5934\u6761\uff08\"OpenAI's $1 trillion ambition could delay its IPO\"\uff0c\u6765\u6e90 AOL.com\uff09\u89e6\u53d1\u4e86 C3 \u7684 OpenAI \u538b\u529b\u5173\u952e\u8bcd\u8fc7\u6ee4\u2014\u2014\u62a5\u9053\u5c06 OpenAI \u7ea6 $1T \u7684\u652f\u51fa/\u5efa\u8bbe\u8ba1\u5212\u4e0e\u88ab\u63a8\u8fdf\u7684 IPO \u65f6\u95f4\u8868\u8054\u7cfb\u8d77\u6765\u3002\n\nWhy it matters:\nAn IPO is the cleanest path to fund a $1T capex ambition from public markets; delaying it means that spend leans longer on private rounds, debt, and circular vendor financing. The framing \u2014 ambition so large it postpones the cash-raising event \u2014 is exactly the funding-stress tell C3 watches for in the AI-capex thesis.\n\n\u5f71\u54cd:\nIPO \u662f\u4ece\u516c\u5f00\u5e02\u573a\u4e3a $1T \u8d44\u672c\u5f00\u652f\u91ce\u5fc3\u878d\u8d44\u7684\u6700\u76f4\u63a5\u9014\u5f84\uff0c\u63a8\u8fdf IPO \u610f\u5473\u7740\u8fd9\u7b14\u652f\u51fa\u8981\u66f4\u4e45\u5730\u4f9d\u8d56\u79c1\u52df\u8f6e\u3001\u4e3e\u503a\u548c\u4f9b\u5e94\u5546\u4e4b\u95f4\u7684\u5faa\u73af\u878d\u8d44\u3002\"\u91ce\u5fc3\u5927\u5230\u8981\u63a8\u8fdf\u878d\u8d44\u4e8b\u4ef6\"\u8fd9\u79cd\u53d9\u4e8b\uff0c\u6b63\u662f C3 \u5728 AI capex \u903b\u8f91\u4e2d\u76ef\u9632\u7684\u878d\u8d44\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
