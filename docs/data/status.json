@@ -1,7 +1,7 @@
 {
-  "generated_at": 1783209729,
-  "generated_at_str": "2026-07-05 00:02:09 UTC",
-  "last_event_ts": 1783208666,
+  "generated_at": 1783209906,
+  "generated_at_str": "2026-07-05 00:05:06 UTC",
+  "last_event_ts": 1783209905,
   "tables": {
     "alerts_dedup": {
       "count": 1999,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-04 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1503,
-      "last_ts": 1783208104,
-      "last_str": "2026-07-04 23:35:04 UTC"
+      "count": 1504,
+      "last_ts": 1783209905,
+      "last_str": "2026-07-05 00:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13717,
@@ -2319,5 +2319,55 @@
       "name": "Liquidity Tightening (USD / Real Yields)"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 29329.21,
+      "date": "2026-07-02",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.0434234816017951
+    },
+    "spx": null,
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 10,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
