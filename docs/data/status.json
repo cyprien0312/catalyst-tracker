@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783289463,
-  "generated_at_str": "2026-07-05 22:11:03 UTC",
-  "last_event_ts": 1783289114,
+  "generated_at": 1783289654,
+  "generated_at_str": "2026-07-05 22:14:14 UTC",
+  "last_event_ts": 1783289654,
   "tables": {
     "alerts_dedup": {
-      "count": 2059,
-      "last_ts": 1783289114,
-      "last_str": "2026-07-05 22:05:14 UTC"
+      "count": 2060,
+      "last_ts": 1783289654,
+      "last_str": "2026-07-05 22:14:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2681,
-      "last_ts": 1783277044,
-      "last_str": "2026-07-05 18:44:04 UTC"
+      "count": 2683,
+      "last_ts": 1783289642,
+      "last_str": "2026-07-05 22:14:02 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 556,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-05 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 13831,
-      "last_ts": 1783287842,
-      "last_str": "2026-07-05 21:44:02 UTC"
+      "count": 13836,
+      "last_ts": 1783289642,
+      "last_str": "2026-07-05 22:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2067,
+      "ts": 1783289654,
+      "ts_str": "2026-07-05 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Sam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX? -",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 14:33:46 GMT\nLink:      https://news.google.com/rss/articles/CBMiswNBVV95cUxOWGx4OXZoeFl0eGVQTDVQN3BmUFlEU1VKdDM1RWtMckRScVRhekE3VW5wOXRvRnVRbjhVbnJOVnROWkI3QzJDSy1xMEhOX29WU3lGT2c2QnZONjdtWHRSZENVdXFQYWZDRUhRVkdneGFKUUt3Y0REeFZyU2sxLUNmYklmcWxDRVVKX0VReE9mSE5ROTZFdnIzR0NSa1ZzTm4tODNzR1ZRWnVHcnVnWlZRRGdrMEdLVlFnVHpXMEZGMnRHaW5YYnZGYWdOUnUwN29xSG5TcVFxTVpLZ1RoeTBwTnR1RU4yaFNwZFVnSF85RkF1U1ZlU2hOWTJpcHk3eDZTc2RGZUJxN2VlcktSVWlXaERpYWdSNGVLSE5jblA0bG4xdl9KaGxOelN1YmIyOVFzaTRQd1lzU1ZyS1c5VGxtVnM2NHVqem1pRHRvV3IzQTctek5haEdCYkVuQmFUY2J2NXlIeUlBNVotb1A1R0pqS1VEVmUwUHNzUWNyXzhwaWlKcDl4MW1hTDRidjJQNWhaOGk1S2pONVU3U1lEejRuTGZkbkRFWV9rbVNDRWlfX01xQkk?oc=5\n\nSam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX? - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiswNBVV95cUxOWGx4OXZoeFl0eGVQTDVQN3BmUFlEU1VKdDM1RWtMckRScVRhekE3VW5wOXRvRnVRbjhVbnJOVnROWkI3QzJDSy1xMEhOX29WU3lGT2c2QnZONjdtWHRSZENVdXFQYWZDRUhRVkdneGFKUUt3Y0REeFZyU2sxLUNmYklmcWxDRVVKX0VReE9mSE5ROTZFdnIzR0NSa1ZzTm4tODNzR1ZRWnVHcnVnWlZRRGdrMEdLVlFnVHpXMEZGMnRHaW5YYnZGYWdOUnUwN29xSG5TcVFxTVpLZ1RoeTBwTnR1RU4yaFNwZFVnSF85RkF1U1ZlU2hOWTJpcHk3eDZTc2RGZUJxN2VlcktSVWlXaERpYWdSNGVLSE5jblA0bG4xdl9KaGxOelN1YmIyOVFzaTRQd1lzU1ZyS1c5VGxtVnM2NHVqem1pRHRvV3IzQTctek5haEdCYkVuQmFUY2J2NXlIeUlBNVotb1A1R0pqS1VEVmUwUHNzUWNyXzhwaWlKcDl4MW1hTDRidjJQNWhaOGk1S2pONVU3U1lEejRuTGZkbkRFWV9rbVNDRWlfX01xQkk?oc=5\" target=\"_blank\">Sam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said any OpenAI IPO valuation below $1 trillion would be a \"nonstarter.\"\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a\uff0cOpenAI IPO \u4f30\u503c\u82e5\u4f4e\u4e8e 1 \u4e07\u4ebf\u7f8e\u5143\u5c06\u662f\u300c\u4e0d\u53ef\u63a5\u53d7\u7684\u300d\uff08nonstarter\uff09\u3002\n\nWhy it matters:\nAnchoring a $1T+ floor before any IPO filing signals OpenAI expects private-market froth to carry into public markets \u2014 a valuation this size implicitly bakes in years of AI-capex-fueled revenue growth that hasn't materialized yet, raising the stakes if the burn-rate or usage numbers disappoint.\n\n\u5f71\u54cd:\n\u5728\u5c1a\u672a\u63d0\u4ea4 IPO \u6587\u4ef6\u524d\u5c31\u951a\u5b9a 1 \u4e07\u4ebf\u7f8e\u5143\u4ee5\u4e0a\u7684\u4f30\u503c\u5e95\u7ebf\uff0c\u8bf4\u660e OpenAI \u9884\u671f\u79c1\u52df\u5e02\u573a\u7684\u6ce1\u6cab\u60c5\u7eea\u4f1a\u5ef6\u7eed\u5230\u516c\u5f00\u5e02\u573a\u2014\u2014\u8fd9\u6837\u7684\u4f30\u503c\u9690\u542b\u4e86\u5bf9\u672a\u6765\u591a\u5e74 AI capex \u9a71\u52a8\u6536\u5165\u589e\u957f\u7684\u5047\u8bbe\uff0c\u4e00\u65e6\u70e7\u94b1\u901f\u5ea6\u6216\u4f7f\u7528\u91cf\u6570\u636e\u4e0d\u53ca\u9884\u671f\uff0c\u98ce\u9669\u655e\u53e3\u4f1a\u66f4\u5927\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2063,
       "ts": 1783289114,
@@ -2265,16 +2275,6 @@
       "subject": "[C6-MED] UK\u2019s Currys warns memory chip shortage will push up prices - 93.3 The Drive",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 10:04:04 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxNdjJra1ZHaXlNVHVoUEhFblJOTnRwNlBsQ3RNUWo0UFhucHk5b0hKM1V3VGkwV2JCV2gzVF9Odkx1MUE0NGx6S0tBakNZb0o4VmU0RVFuWUs4UV9STXlmUFhpWE96V3V2b2xqUzM0R2Z4MGlJQWFZa05tb1dwdW96TlBoRnFqRlBhTjNHak1EVm91Zk1XQ1UxbGRUcUFPQQ?oc=5\n\nUK\u2019s Currys warns memory chip shortage will push up prices - 93.3 The Drive\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNdjJra1ZHaXlNVHVoUEhFblJOTnRwNlBsQ3RNUWo0UFhucHk5b0hKM1V3VGkwV2JCV2gzVF9Odkx1MUE0NGx6S0tBakNZb0o4VmU0RVFuWUs4UV9STXlmUFhpWE96V3V2b2xqUzM0R2Z4MGlJQWFZa05tb1dwdW96TlBoRnFqRlBhTjNHak1EVm91Zk1XQ1UxbGRUcUFPQQ?oc=5\" target=\"_blank\">UK\u2019s Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">93.3 The Drive</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports UK retailer Currys warning that a memory chip shortage will push prices up.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8b66\u544a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u63a8\u9ad8\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/NAND price spikes flow straight into hyperscaler capex \u2014 GPU servers need huge memory bundles, so a shortage tightens AI infrastructure economics and squeezes margins for buildouts already running thin.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u4e0a\u6da8\u4f1a\u76f4\u63a5\u4f20\u5bfc\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u2014\u2014GPU \u670d\u52a1\u5668\u9700\u8981\u5927\u91cf\u5185\u5b58\u914d\u7f6e\uff0c\u4f9b\u5e94\u77ed\u7f3a\u4f1a\u6536\u7d27 AI \u57fa\u7840\u8bbe\u65bd\u7684\u6210\u672c\u7ed3\u6784\uff0c\u538b\u7f29\u672c\u5df2\u5355\u8584\u7684\u5efa\u8bbe\u5229\u6da6\u7a7a\u95f4\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 1867,
-      "ts": 1782992131,
-      "ts_str": "2026-07-02 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Save $521 on this 4K-capable RTX 5070 gaming PC from CyberPowerPC, now just $1,349 \u2014 huge price drop for budget-friendly",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 11:06:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wJBVV95cUxPV3dZTFZJSjYxalhVSEpZXzhkZF9DMFEwaU5BZUV5Q1hsbm03ZVRWalVVS016eUM2MkhmclVQWVgtVkRfVlZSRklEZDVrTHpMMEJ0dnFHQlZNTG9HS0tPUi15SThtSkltN3A1RERVZ0l1SXBhZHZuaUt4ZXJBVUZLQ2tPYkVBNG5iY2NZb1B4SjBLS0hyV0JHNmV5dExNOGl0bjRRVGpUUlh4TkJmMktNS3pBMFhGaUc3MmZaNWU4d3hRVUVOTW9Xa09fVzNOcjJ4ZUtqOWlUWU5IX3pqNFp6emFjaWtHZmR5Q1Q1WXhnUGRLWHVoM2RxQjVDOUpTSmYwRUZ1Y2kwT0FHWTQ4TG1PRDNJZTQ1ci1JNTlnUkNJTXVlUTlIMkpQUnRvRWFabi0yVHk3YjJ6S0JvVmdpMEtJUVRTLVBSUlkzcE1kdDhDTXFaYjRLRl9kUjJQWQ?oc=5\n\nSave $521 on this 4K-capable RTX 5070 gaming PC from CyberPowerPC, now just $1,349 \u2014 huge price drop for budget-friendly rig with impressive Intel Core Ultra 250KF CPU, 16GB DDR5, and 1TB SSD - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wJBVV95cUxPV3dZTFZJSjYxalhVSEpZXzhkZF9DMFEwaU5BZUV5Q1hsbm03ZVRWalVVS016eUM2MkhmclVQWVgtVkRfVlZSRklEZDVrTHpMMEJ0dnFHQlZNTG9HS0tPUi15SThtSkltN3A1RERVZ0l1SXBhZHZuaUt4ZXJBVUZLQ2tPYkVBNG5iY2NZb1B4SjBLS0hyV0JHNmV5dExNOGl0bjRRVGpUUlh4TkJmMktNS3pBMFhGaUc3MmZaNWU4d3hRVUVOTW9Xa09fVzNOcjJ4ZUtqOWlUWU5IX3pqNFp6emFjaWtHZmR5Q1Q1WXhnUGRLWHVoM2RxQjVDOUpTSmYwRUZ1Y2kwT0FHWTQ4TG1PRDNJZTQ1ci1JNTlnUkNJTXVlUTlIMkpQUnRvRWFabi0yVHk3YjJ6S0JvVmdpMEtJUVRTLVBSUlkzcE1kdDhDTXFaYjRLRl9kUjJQWQ?oc=5\" target=\"_blank\">Save $521 on this 4K-capable RTX 5070 gaming PC from CyberPowerPC, now just $1,349 \u2014 huge price drop for budget-friendly rig with impressive Intel Core Ultra 250KF CPU, 16GB DDR5, and 1TB SSD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA price-drop RSS item about a $1,349 CyberPowerPC RTX 5070 gaming rig with 16GB DDR5 tripped the C6 memory-price keyword filter, pairing 'DDR5' with a discount/price-drop token.\n\n\u5185\u5bb9:\n\u4e00\u6761\u5173\u4e8e CyberPowerPC RTX 5070 \u6e38\u620f\u4e3b\u673a\uff0816GB DDR5\uff0c\u552e\u4ef7 $1,349\uff09\u964d\u4ef7\u4fc3\u9500\u7684 RSS \u65b0\u95fb\uff0c\u56e0 'DDR5' \u4e0e\u964d\u4ef7\u5b57\u6837\u540c\u65f6\u51fa\u73b0\u800c\u89e6\u53d1\u4e86 C6 \u5185\u5b58\u4ef7\u683c\u5173\u952e\u8bcd\u8fc7\u6ee4\u5668\u3002\n\nWhy it matters:\nThis is a retail GPU-bundle promo, not a component-market oversupply or cancellation signal \u2014 the DDR5 mention is incidental to the CPU/RAM spec list, not a memory-price move. Noise, not a genuine C6 bubble-stress tell.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u6761\u96f6\u552e GPU \u6574\u673a\u4fc3\u9500\u65b0\u95fb\uff0c\u5e76\u975e\u5185\u5b58\u7ec4\u4ef6\u5e02\u573a\u7684\u4f9b\u8fc7\u4e8e\u6c42\u6216\u8ba2\u5355\u53d6\u6d88\u4fe1\u53f7\u2014\u2014DDR5 \u53ea\u662f\u914d\u7f6e\u6e05\u5355\u91cc\u987a\u5e26\u63d0\u5230\u7684\u89c4\u683c\uff0c\u5e76\u975e\u5185\u5b58\u4ef7\u683c\u672c\u8eab\u7684\u53d8\u52a8\u3002\u5c5e\u4e8e\u566a\u58f0\uff0c\u4e0d\u662f\u771f\u6b63\u7684 C6 \u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
