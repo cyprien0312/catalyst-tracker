@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783229524,
-  "generated_at_str": "2026-07-05 05:32:04 UTC",
-  "last_event_ts": 1783228442,
+  "generated_at": 1783229719,
+  "generated_at_str": "2026-07-05 05:35:19 UTC",
+  "last_event_ts": 1783229719,
   "tables": {
     "alerts_dedup": {
-      "count": 2007,
-      "last_ts": 1783227918,
-      "last_str": "2026-07-05 05:05:18 UTC"
+      "count": 2010,
+      "last_ts": 1783229719,
+      "last_str": "2026-07-05 05:35:19 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-04 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1637,
-      "last_ts": 1783222502,
-      "last_str": "2026-07-05 03:35:02 UTC"
+      "count": 1639,
+      "last_ts": 1783229701,
+      "last_str": "2026-07-05 05:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1933,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-05 05:05:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1285,
-      "last_ts": 1783226103,
-      "last_str": "2026-07-05 04:35:03 UTC"
+      "count": 1286,
+      "last_ts": 1783229702,
+      "last_str": "2026-07-05 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1508,
@@ -276,6 +276,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2015,
+      "ts": 1783229719,
+      "ts_str": "2026-07-05 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Long - Standing Suffering from DRAM Shortage - 36 Kr",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 03:32:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\n\nGlobal Long - Standing Suffering from DRAM Shortage - 36 Kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\" target=\"_blank\">Global Long - Standing Suffering from DRAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36 Kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 36Kr RSS item reports a persistent global DRAM shortage.\n\n\u5185\u5bb9:\n36\u6c2a\u7684\u4e00\u7bc7\u62a5\u9053\u79f0\u5168\u7403 DRAM \u957f\u671f\u77ed\u7f3a\u3002\n\nWhy it matters:\nTight DRAM supply raises memory costs for AI accelerators and servers, squeezing hyperscaler margins and adding another input-cost pressure point to the AI-capex thesis.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5361\u548c\u670d\u52a1\u5668\u7684\u5185\u5b58\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u4e3a AI capex \u903b\u8f91\u518d\u6dfb\u4e00\u4e2a\u6210\u672c\u7aef\u7684\u538b\u529b\u70b9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2016,
+      "ts": 1783229719,
+      "ts_str": "2026-07-05 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement Wa",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 05:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9wMGVKeVdlWlhZZE8tSi13VnhRbnJIaVk5M3FpdzQ1RlJMS2NaZHVTX250amtEckQ0SmZ1SHE1UWtrTUM2dnpvUGZkY0VsV1ZsdEtIZHlmU1NCa1g4OEtvNkM0WTIzMDRWcTN2UWo3bTRaOEw5X1E?oc=5\n\nDRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement War - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9wMGVKeVdlWlhZZE8tSi13VnhRbnJIaVk5M3FpdzQ1RlJMS2NaZHVTX250amtEckQ0SmZ1SHE1UWtrTUM2dnpvUGZkY0VsV1ZsdEtIZHlmU1NCa1g4OEtvNkM0WTIzMDRWcTN2UWo3bTRaOEw5X1E?oc=5\" target=\"_blank\">DRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDRAM prices have surged fivefold, triggering an industry-wide scramble as AMD, Apple, Marvell, and SanDisk pursue memory-replacement strategies.\n\n\u5185\u5bb9:\nDRAM \u4ef7\u683c\u5df2\u98d9\u5347\u4e94\u500d\uff0c\u5f15\u53d1 AMD\u3001Apple\u3001Marvell \u548c SanDisk \u4e89\u76f8\u5bfb\u6c42\u5185\u5b58\u66ff\u4ee3\u65b9\u6848\u7684\u884c\u4e1a\u8fde\u9501\u53cd\u5e94\u3002\n\nWhy it matters:\nA 5x DRAM price spike signals severe memory supply-demand imbalance, likely driven by HBM allocation to AI accelerators crowding out commodity DRAM capacity. Rising memory costs directly inflate the bill-of-materials for every AI server, compounding capex pressure across the hyperscaler build-out.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u66b4\u6da8 5 \u500d\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u9700\u5df2\u4e25\u91cd\u5931\u8861\uff0c\u5f88\u53ef\u80fd\u662f HBM \u4ea7\u80fd\u88ab\u5927\u91cf\u5206\u914d\u7ed9 AI \u52a0\u901f\u5668\uff0c\u6324\u5360\u4e86\u666e\u901a DRAM \u7684\u4ea7\u80fd\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u52a0\u91cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5728\u8d44\u672c\u5f00\u652f\u4e0a\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2017,
+      "ts": 1783229719,
+      "ts_str": "2026-07-05 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement Wa",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 05:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9wMGVKeVdlWlhZZE8tSi13VnhRbnJIaVk5M3FpdzQ1RlJMS2NaZHVTX250amtEckQ0SmZ1SHE1UWtrTUM2dnpvUGZkY0VsV1ZsdEtIZHlmU1NCa1g4OEtvNkM0WTIzMDRWcTN2UWo3bTRaOEw5X1E?oc=5\n\nDRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement War - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9wMGVKeVdlWlhZZE8tSi13VnhRbnJIaVk5M3FpdzQ1RlJMS2NaZHVTX250amtEckQ0SmZ1SHE1UWtrTUM2dnpvUGZkY0VsV1ZsdEtIZHlmU1NCa1g4OEtvNkM0WTIzMDRWcTN2UWo3bTRaOEw5X1E?oc=5\" target=\"_blank\">DRAM Prices Surge Fivefold, Forcing an Industry Reckoning: AMD, Apple, Marvell, and SanDisk Wage a Memory Replacement War</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDRAM prices have surged fivefold, triggering an industry-wide scramble as AMD, Apple, Marvell, and SanDisk pursue memory-replacement strategies.\n\n\u5185\u5bb9:\nDRAM \u4ef7\u683c\u5df2\u98d9\u5347\u4e94\u500d\uff0c\u5f15\u53d1 AMD\u3001Apple\u3001Marvell \u548c SanDisk \u4e89\u76f8\u5bfb\u6c42\u5185\u5b58\u66ff\u4ee3\u65b9\u6848\u7684\u884c\u4e1a\u8fde\u9501\u53cd\u5e94\u3002\n\nWhy it matters:\nA 5x DRAM price spike signals severe memory supply-demand imbalance, likely driven by HBM allocation to AI accelerators crowding out commodity DRAM capacity. Rising memory costs directly inflate the bill-of-materials for every AI server, compounding capex pressure across the hyperscaler build-out.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u66b4\u6da8 5 \u500d\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u9700\u5df2\u4e25\u91cd\u5931\u8861\uff0c\u5f88\u53ef\u80fd\u662f HBM \u4ea7\u80fd\u88ab\u5927\u91cf\u5206\u914d\u7ed9 AI \u52a0\u901f\u5668\uff0c\u6324\u5360\u4e86\u666e\u901a DRAM \u7684\u4ea7\u80fd\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u52a0\u91cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5728\u8d44\u672c\u5f00\u652f\u4e0a\u7684\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2014,
       "ts": 1783227918,
@@ -2244,36 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Pre-IPO stock (Republic) Price History and Historical Data - CoinMarketCap",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 22:45:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWFI1aURpdk0tNjVYSWhZVHpMb3FsSTA5YmdEY2FLREZoRGtGMUtnbmJnTEZlSEsyeDhOUUxVdzNxUEY4bHU1X3R4bEdDandUbkFxcFBrVjVuTnpvMFJId21qQndlTXpNNTRXTjVvczZKT2c4TW9hUS1MQ1JIemJic0N6cE5wQ1dZZTNv?oc=5\n\nOpenAI Pre-IPO stock (Republic) Price History and Historical Data - CoinMarketCap\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWFI1aURpdk0tNjVYSWhZVHpMb3FsSTA5YmdEY2FLREZoRGtGMUtnbmJnTEZlSEsyeDhOUUxVdzNxUEY4bHU1X3R4bEdDandUbkFxcFBrVjVuTnpvMFJId21qQndlTXpNNTRXTjVvczZKT2c4TW9hUS1MQ1JIemJic0N6cE5wQ1dZZTNv?oc=5\" target=\"_blank\">OpenAI Pre-IPO stock (Republic) Price History and Historical Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinMarketCap</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 keyword match fired on a Google News item: \"OpenAI Pre-IPO stock (Republic) Price History and Historical Data\" from CoinMarketCap, tracking the price of OpenAI pre-IPO shares sold via the Republic platform.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6761\u76ee\u89e6\u53d1\u4e86 C3 \u5173\u952e\u8bcd\u5339\u914d\uff1aCoinMarketCap \u7684\u300aOpenAI Pre-IPO stock (Republic) Price History and Historical Data\u300b\uff0c\u8ffd\u8e2a\u901a\u8fc7 Republic \u5e73\u53f0\u4ea4\u6613\u7684 OpenAI Pre-IPO \u80a1\u4efd\u4ef7\u683c\u3002\n\nWhy it matters:\nRetail-facing secondary markets quoting a live price for OpenAI pre-IPO stock signal late-cycle froth \u2014 speculative access to a still-private, cash-burning AI lab. The appearance of price-history pages is a sentiment marker, not a fundamentals event, so this is MED-grade background noise rather than a stress signal.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\u4e8c\u7ea7\u5e02\u573a\u4e3a OpenAI Pre-IPO \u80a1\u7968\u6302\u51fa\u5b9e\u65f6\u62a5\u4ef7\uff0c\u662f\u5468\u671f\u665a\u671f\u6295\u673a\u60c5\u7eea\u7684\u4fe1\u53f7\u2014\u2014\u4e00\u4e2a\u4ecd\u5728\u70e7\u94b1\u3001\u5c1a\u672a\u4e0a\u5e02\u7684 AI \u516c\u53f8\u88ab\u5305\u88c5\u6210\u53ef\u4f9b\u6563\u6237\u7092\u4f5c\u7684\u6807\u7684\u3002\u8fd9\u7c7b\u4ef7\u683c\u5386\u53f2\u9875\u9762\u5c5e\u4e8e\u60c5\u7eea\u6307\u6807\u800c\u975e\u57fa\u672c\u9762\u4e8b\u4ef6\uff0c\u6240\u4ee5\u53ea\u662f MED \u7ea7\u522b\u7684\u80cc\u666f\u566a\u97f3\uff0c\u800c\u975e\u771f\u6b63\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1815,
-      "ts": 1782862543,
-      "ts_str": "2026-06-30 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] What the 700% DRAM Price Spike Means for Your Next PC Build - Geeky Gadgets",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 23:16:40 GMT\nLink:      https://news.google.com/rss/articles/CBMibkFVX3lxTE5UVk9sdUQ1WWR1VTZDbVdkT251NUFzbjljSlJyRlJrMTJaZFc2Ti1tQjZJeXpJTy1lUTFHU3NLMlQyQ0djaVlPR3Jha1E0ZWFBWHVCNTBzeG11UUhsZmxSY0ZULVFtQldMajQ4VUhB?oc=5\n\nWhat the 700% DRAM Price Spike Means for Your Next PC Build - Geeky Gadgets\n\n<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5UVk9sdUQ1WWR1VTZDbVdkT251NUFzbjljSlJyRlJrMTJaZFc2Ti1tQjZJeXpJTy1lUTFHU3NLMlQyQ0djaVlPR3Jha1E0ZWFBWHVCNTBzeG11UUhsZmxSY0ZULVFtQldMajQ4VUhB?oc=5\" target=\"_blank\">What the 700% DRAM Price Spike Means for Your Next PC Build</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Geeky Gadgets</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Geeky Gadgets headline flags a 700% DRAM price spike and what it means for building a new PC.\n\n\u5185\u5bb9:\nGeeky Gadgets \u7684\u6807\u9898\u6307\u51fa DRAM \u4ef7\u683c\u66b4\u6da8 700%\uff0c\u5e76\u89e3\u8bfb\u8fd9\u5bf9\u7ec4\u88c5\u65b0 PC \u7684\u5f71\u54cd\u3002\n\nWhy it matters:\nA 700% jump in DRAM is a severe memory-supply stress signal \u2014 it shows AI-datacenter HBM/DDR5 demand is crowding out the consumer/commodity memory market. Sustained spikes like this raise the bill of materials for every AI server and compress hyperscaler capex efficiency, a classic late-cycle bubble-stress tell.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c 700% \u7684\u6da8\u5e45\u662f\u4e25\u91cd\u7684\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u4fe1\u53f7\uff0c\u8bf4\u660e AI \u6570\u636e\u4e2d\u5fc3\u5bf9 HBM/DDR5 \u7684\u9700\u6c42\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7ea7\u4e0e\u5546\u54c1\u5185\u5b58\u5e02\u573a\u3002\u8fd9\u79cd\u6301\u7eed\u66b4\u6da8\u4f1a\u62ac\u9ad8\u6bcf\u4e00\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3001\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1816,
-      "ts": 1782862543,
-      "ts_str": "2026-06-30 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron CEO Blames Price Wars for Memory Chip Shortage - The Tech Buzz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 23:17:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxPMThzeXZXN2ZseUxCMHNTOFVtN0EzTmMzZG13ZDE2ZkpJaXhWNVRCNHE5Q0ZjU2F6YU1vSGpHRTg4dVRxcl9WcWlySTRCbC1HRElRQ0Izc004VFU1dlo2U2hoOTJ2bDVXM1RTVUNaSEVnOTlrNlF4TUtUOUl0QUZJbFQ4R2RyWHpFdGF2NmhWaw?oc=5\n\nMicron CEO Blames Price Wars for Memory Chip Shortage - The Tech Buzz\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPMThzeXZXN2ZseUxCMHNTOFVtN0EzTmMzZG13ZDE2ZkpJaXhWNVRCNHE5Q0ZjU2F6YU1vSGpHRTg4dVRxcl9WcWlySTRCbC1HRElRQ0Izc004VFU1dlo2U2hoOTJ2bDVXM1RTVUNaSEVnOTlrNlF4TUtUOUl0QUZJbFQ4R2RyWHpFdGF2NmhWaw?oc=5\" target=\"_blank\">Micron CEO Blames Price Wars for Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tech Buzz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced: \"Micron CEO Blames Price Wars for Memory Chip Shortage\" (The Tech Buzz), pairing a memory term with a shortage signal.\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u5230\u4e00\u6761 The Tech Buzz \u7684\u6807\u9898\uff1a\u300cMicron CEO Blames Price Wars for Memory Chip Shortage\u300d\uff08\u7f8e\u5149 CEO \u5c06\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5f52\u548e\u4e8e\u4ef7\u683c\u6218\uff09\uff0c\u5185\u5b58\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u540c\u65f6\u51fa\u73b0\u3002\n\nWhy it matters:\nMemory pricing stress is a leading indicator for the AI-capex cycle \u2014 HBM/DRAM is a gating input for GPU buildouts. A CEO publicly tying price wars to a shortage signals a supply-demand dislocation that can either inflate AI hardware costs or expose oversupply once the buildout slows. Watch whether \"shortage\" turns into cancellation/oversupply headlines.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u538b\u529b\u662f AI capex \u5468\u671f\u7684\u9886\u5148\u6307\u6807\u2014\u2014HBM/DRAM \u662f GPU \u6269\u4ea7\u7684\u5361\u8116\u5b50\u73af\u8282\u3002CEO \u516c\u5f00\u628a\u4ef7\u683c\u6218\u548c\u77ed\u7f3a\u6302\u94a9\uff0c\u610f\u5473\u7740\u4f9b\u9700\u51fa\u73b0\u9519\u4f4d\uff1a\u65e2\u53ef\u80fd\u63a8\u9ad8 AI \u786c\u4ef6\u6210\u672c\uff0c\u4e5f\u53ef\u80fd\u5728\u6269\u4ea7\u653e\u7f13\u540e\u66b4\u9732\u4ea7\u80fd\u8fc7\u5269\u3002\u9700\u5173\u6ce8\u300c\u77ed\u7f3a\u300d\u662f\u5426\u4f1a\u8f6c\u4e3a\u8ba2\u5355\u53d6\u6d88\u6216\u4f9b\u8fc7\u4e8e\u6c42\u7684\u6807\u9898\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1817,
-      "ts": 1782862543,
-      "ts_str": "2026-06-30 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 30 Jun 2026 21:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTg0d0tOVUxONm9HRUotQ25SWXQ5clp4Wnc3dmJORmhpV3JPSGlaWm9CeVpDejdsd09BNS14bS1XaGlaTDNLWlFzRGVQc0VacXYzT3kyc2c3LUpaYl9DdU9DXzdkTHpsOGhrWHVLRlNGVmhEN1pkZld3NXdTNnA1T3kzbURMNjhzMzZhVXlCQ21EVWZPZXBSU3RVTnlLVHhCVHhNNkI1M1fSAagBQVVfeXFMTzk4NHdLTlVMTjZvR0VKLUNuUll0OXJaeFp3N3ZiTkZoaVdyT0hpWlpvQnlaQ3o3bHdPQTUteG0tV2hpWkwzS1pRc0RlUHNFWnF2M095MnNnNy1KWmJfQ3VPQ183ZEx6bDhoa1h1S0ZTRlZoRDdaZGZXdzV3UzZwNU95M21ETDY4czM2YVV5QkNtRFVmT2VwUlN0VU55S1R4QlR4TTZCNTNX?oc=5\n\nHBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTg0d0tOVUxONm9HRUotQ25SWXQ5clp4Wnc3dmJORmhpV3JPSGlaWm9CeVpDejdsd09BNS14bS1XaGlaTDNLWlFzRGVQc0VacXYzT3kyc2c3LUpaYl9DdU9DXzdkTHpsOGhrWHVLRlNGVmhEN1pkZld3NXdTNnA1T3kzbURMNjhzMzZhVXlCQ21EVWZPZXBSU3RVTnlLVHhCVHhNNkI1M1fSAagBQVVfeXFMTzk4NHdLTlVMTjZvR0VKLUNuUll0OXJaeFp3N3ZiTkZoaVdyT0hpWlpvQnlaQ3o3bHdPQTUteG0tV2hpWkwzS1pRc0RlUHNFWnF2M095MnNnNy1KWmJfQ3VPQ183ZEx6bDhoa1h1S0ZTRlZoRDdaZGZXdzV3UzZwNU95M21ETDY4czM2YVV5QkNtRFVmT2VwUlN0VU55S1R4QlR4TTZCNTNX?oc=5\" target=\"_blank\">HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC, Meet Versal Gen 2 With 60% Less Board Footprint, 10x Compute & PCIe6 Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item paired an HBM memory term with a shortage token: \"HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC\" (Versal Gen 2), via Wccftech.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u628a HBM \u5185\u5b58\u672f\u8bed\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u914d\u5bf9\uff1a\"HBM Shortages Push AMD To Roll Out Its First Memory On-Package SoC\"\uff08Versal Gen 2\uff09\uff0c\u6765\u6e90 Wccftech\u3002\n\nWhy it matters:\nHBM is the scarce bottleneck component for AI accelerators. A vendor redesigning silicon around HBM scarcity confirms supply is tight enough to force architectural workarounds \u2014 a sign AI-capex demand is outrunning memory supply, which feeds cost inflation and supply-chain stress in the buildout.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u6700\u7d27\u7f3a\u7684\u74f6\u9888\u90e8\u4ef6\u3002\u5382\u5546\u4e3a\u5e94\u5bf9 HBM \u77ed\u7f3a\u800c\u91cd\u65b0\u8bbe\u8ba1\u82af\u7247\uff0c\u8bf4\u660e\u4f9b\u5e94\u5df2\u7d27\u5f20\u5230\u8981\u9760\u6539\u67b6\u6784\u6765\u7ed5\u5f00\u2014\u2014\u8fd9\u8868\u660e AI capex \u9700\u6c42\u6b63\u5728\u8dd1\u8d62\u5185\u5b58\u4f9b\u7ed9\uff0c\u4f1a\u63a8\u9ad8\u6210\u672c\u5e76\u52a0\u5267\u5efa\u8bbe\u73af\u8282\u7684\u4f9b\u5e94\u94fe\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
