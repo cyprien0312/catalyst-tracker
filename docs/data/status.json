@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783360926,
-  "generated_at_str": "2026-07-06 18:02:06 UTC",
-  "last_event_ts": 1783359843,
+  "generated_at": 1783361123,
+  "generated_at_str": "2026-07-06 18:05:23 UTC",
+  "last_event_ts": 1783361123,
   "tables": {
     "alerts_dedup": {
-      "count": 2113,
-      "last_ts": 1783357539,
-      "last_str": "2026-07-06 17:05:39 UTC"
+      "count": 2115,
+      "last_ts": 1783361123,
+      "last_str": "2026-07-06 18:05:23 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-06 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1756,
-      "last_ts": 1783359302,
-      "last_str": "2026-07-06 17:35:02 UTC"
+      "count": 1759,
+      "last_ts": 1783361102,
+      "last_str": "2026-07-06 18:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2108,
-      "last_ts": 1783357504,
-      "last_str": "2026-07-06 17:05:04 UTC"
+      "count": 2110,
+      "last_ts": 1783361104,
+      "last_str": "2026-07-06 18:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1377,
-      "last_ts": 1783359303,
-      "last_str": "2026-07-06 17:35:03 UTC"
+      "count": 1378,
+      "last_ts": 1783361103,
+      "last_str": "2026-07-06 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1594,
-      "last_ts": 1783359305,
-      "last_str": "2026-07-06 17:35:05 UTC"
+      "count": 1595,
+      "last_ts": 1783361105,
+      "last_str": "2026-07-06 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 13987,
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2121,
+      "ts": 1783361123,
+      "ts_str": "2026-07-06 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Bank of America's Latest Analysis: After Three Major Bearish Shocks, the Memory Price Hike Cycle Is Far from \"Peaking\" -",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 10:53:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OYjJ4OEVVeEZwZFozWHdnZzh5ZjdpRVhmUllGVGo5TVI4RWhTSnRkQTJTR28wZnVFMngwZTBkLWo4cnFwcU5vc0s0bVRidU95?oc=5\n\nBank of America's Latest Analysis: After Three Major Bearish Shocks, the Memory Price Hike Cycle Is Far from \"Peaking\" - odaily.news\n\n<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OYjJ4OEVVeEZwZFozWHdnZzh5ZjdpRVhmUllGVGo5TVI4RWhTSnRkQTJTR28wZnVFMngwZTBkLWo4cnFwcU5vc0s0bVRidU95?oc=5\" target=\"_blank\">Bank of America's Latest Analysis: After Three Major Bearish Shocks, the Memory Price Hike Cycle Is Far from \"Peaking\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">odaily.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBank of America says the memory-chip price-hike cycle is 'far from peaking' despite three recent bearish shocks.\n\n\u5185\u5bb9:\n\u7f8e\u94f6\u6700\u65b0\u5206\u6790\u79f0\uff0c\u5c3d\u7ba1\u8fd1\u671f\u51fa\u73b0\u4e09\u6b21\u5229\u7a7a\u51b2\u51fb\uff0c\u5185\u5b58\u82af\u7247\u6da8\u4ef7\u5468\u671f\u4ecd\"\u8fdc\u672a\u89c1\u9876\"\u3002\n\nWhy it matters:\nA memory-price surge signal (DRAM/NAND/HBM) rising instead of cracking means AI-server bill-of-materials costs keep climbing, squeezing hyperscaler capex efficiency further and pushing against, not toward, the bubble-deflation thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\uff08DRAM/NAND/HBM\uff09\u7ee7\u7eed\u4e0a\u6da8\u800c\u975e\u56de\u843d\uff0c\u610f\u5473\u7740 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u6301\u7eed\u6500\u5347\uff0c\u8fdb\u4e00\u6b65\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\uff0c\u8fd9\u4e0e\"\u6ce1\u6cab\u89c1\u9876\u56de\u843d\"\u7684\u5224\u65ad\u65b9\u5411\u76f8\u53cd\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2122,
+      "ts": 1783361123,
+      "ts_str": "2026-07-06 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung\u2019s DRAM price hike may drive further smartphone cost surge - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 14:41:06 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxOay1VWFp1QnJiRWs3Tlo5d05FaWxyRDhuVnQ2SThBZ0RXc05wMUFXWFNpcWRUeUh1ZkVTTmtQbmoxemwyY0NDRkdaZkZ5TFg5eERESE9XVFVzMEZYb2NSeFhZSkFJQXpkZFE0eENzWTE5WEZTbEd3YTlLYzM5em1aZ0M0ZWoyZEFyYmZVWXZZX0lVYkZKbGNVRmxzaEFpREFLRkQta0lyaXZManNCWHRn?oc=5\n\nSamsung\u2019s DRAM price hike may drive further smartphone cost surge - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOay1VWFp1QnJiRWs3Tlo5d05FaWxyRDhuVnQ2SThBZ0RXc05wMUFXWFNpcWRUeUh1ZkVTTmtQbmoxemwyY0NDRkdaZkZ5TFg5eERESE9XVFVzMEZYb2NSeFhZSkFJQXpkZFE0eENzWTE5WEZTbEd3YTlLYzM5em1aZ0M0ZWoyZEFyYmZVWXZZX0lVYkZKbGNVRmxzaEFpREFLRkQta0lyaXZManNCWHRn?oc=5\" target=\"_blank\">Samsung\u2019s DRAM price hike may drive further smartphone cost surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Samsung is raising DRAM prices, which is expected to push up smartphone production costs.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\u4e09\u661f\u6b63\u5728\u4e0a\u8c03 DRAM \u4ef7\u683c\uff0c\u9884\u8ba1\u5c06\u63a8\u9ad8\u667a\u80fd\u624b\u673a\u7684\u751f\u4ea7\u6210\u672c\u3002\n\nWhy it matters:\nRising memory prices signal tight DRAM/NAND supply, likely from fabs reallocating capacity toward HBM for AI accelerators \u2014 a sign AI infrastructure demand is squeezing out consumer-electronics supply chains, a classic bubble-stress spillover.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e DRAM/NAND \u4f9b\u7ed9\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f\u6676\u5706\u5382\u628a\u4ea7\u80fd\u4ece\u6d88\u8d39\u7535\u5b50\u8f6c\u5411 AI \u52a0\u901f\u5668\u6240\u9700\u7684 HBM\u3002\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u6324\u5360\u6d88\u8d39\u7535\u5b50\u4f9b\u5e94\u94fe\u7684\u5178\u578b\u4fe1\u53f7\uff0c\u5c5e\u4e8e\u6ce1\u6cab\u538b\u529b\u7684\u5916\u6ea2\u8868\u73b0\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2119,
       "ts": 1783357539,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Electronics Pushes Up to 20% Q3 DRAM Price Hike, Defying 'Meta Shock' - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 04:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE4teWZnVzhrRXJ1cUc1M2ZTRmxvOHhGdFVUWDJlcHY5Sl84OXF5c2xFbE1OVGJNSWFhV2JCb19jTDBMVE5ydUVfcERwVnZ6bVdwUVR3Q2Z1Z3FnZXZwLUNtaU1iU2pKeVVxOGhpU1FKU24yV0xwbGc?oc=5\n\nSamsung Electronics Pushes Up to 20% Q3 DRAM Price Hike, Defying 'Meta Shock' - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE4teWZnVzhrRXJ1cUc1M2ZTRmxvOHhGdFVUWDJlcHY5Sl84OXF5c2xFbE1OVGJNSWFhV2JCb19jTDBMVE5ydUVfcERwVnZ6bVdwUVR3Q2Z1Z3FnZXZwLUNtaU1iU2pKeVVxOGhpU1FKU24yV0xwbGc?oc=5\" target=\"_blank\">Samsung Electronics Pushes Up to 20% Q3 DRAM Price Hike, Defying 'Meta Shock'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung raised Q3 DRAM contract prices by up to 20%, pushing through the hike despite the earlier 'Meta Shock' demand-cut scare.\n\n\u5185\u5bb9:\n\u4e09\u661f\u7535\u5b50\u5c06\u7b2c\u4e09\u5b63\u5ea6 DRAM \u5408\u7ea6\u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\uff0c\u65e0\u89c6\u6b64\u524d 'Meta Shock' \u5f15\u53d1\u7684\u9700\u6c42\u62c5\u5fe7\uff0c\u575a\u6301\u6da8\u4ef7\u3002\n\nWhy it matters:\nA leading memory supplier holding firm on price increases signals tight DRAM/HBM supply feeding AI accelerators \u2014 this is the C6 stress tell for hyperscaler capex, since rising memory costs compress margins on AI infrastructure builds.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u4e3b\u8981\u5b58\u50a8\u82af\u7247\u4f9b\u5e94\u5546\uff0c\u4e09\u661f\u9876\u4f4f\u538b\u529b\u6da8\u4ef7\uff0c\u610f\u5473\u7740\u9762\u5411 AI \u52a0\u901f\u5668\u7684 DRAM/HBM \u4f9b\u5e94\u4ecd\u7136\u7d27\u5f20\u2014\u2014\u8fd9\u6b63\u662f C6 \u4fe1\u53f7\u6240\u5173\u6ce8\u7684\u538b\u529b\u70b9\uff0c\u56e0\u4e3a\u5b58\u50a8\u6210\u672c\u4e0a\u5347\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1922,
-      "ts": 1783082655,
-      "ts_str": "2026-07-03 12:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] OpenAI in talks to give US government 5% stake, say reports; Starling to cut 130 roles in AI-driven restructuring - TheB",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 10:12:01 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE84UlJZbHMtemZuWklSRm5sZVNocUJHWGpfcEhVZkJaZzd4RGlHOWRDVk5WbEQwS0JZVENGb0F4RTJvQWxIa1JCNE5XVmZkeEVPb0pIU1VzZmVySlVaTGFkY2lTRWtLVTVkbUNFX3h2TzQzSmJZTDg0VjNR?oc=5\n\nOpenAI in talks to give US government 5% stake, say reports; Starling to cut 130 roles in AI-driven restructuring - TheBanker.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE84UlJZbHMtemZuWklSRm5sZVNocUJHWGpfcEhVZkJaZzd4RGlHOWRDVk5WbEQwS0JZVENGb0F4RTJvQWxIa1JCNE5XVmZkeEVPb0pIU1VzZmVySlVaTGFkY2lTRWtLVTVkbUNFX3h2TzQzSmJZTDg0VjNR?oc=5\" target=\"_blank\">OpenAI in talks to give US government 5% stake, say reports; Starling to cut 130 roles in AI-driven restructuring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheBanker.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks to give the US government a 5% equity stake.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u6b63\u5728\u4e0e\u7f8e\u56fd\u653f\u5e9c\u5546\u8c08\uff0c\u62df\u8ba9\u653f\u5e9c\u6301\u6709\u5176 5% \u7684\u80a1\u6743\u3002\n\nWhy it matters:\nA government-stake structure is often a precursor to (or substitute for) direct state backing when a company's capital needs exceed private-market appetite \u2014 a red flag that OpenAI's compute/capex burn is outrunning normal financing options.\n\n\u5f71\u54cd:\n\u5f53\u79c1\u4eba\u5e02\u573a\u878d\u8d44\u5df2\u96be\u4ee5\u8986\u76d6\u8d44\u672c\u9700\u6c42\u65f6\uff0c\u653f\u5e9c\u6301\u80a1\u8fd9\u7c7b\u5b89\u6392\u5f80\u5f80\u662f\u56fd\u5bb6\u515c\u5e95\u7684\u524d\u5146\u6216\u66ff\u4ee3\u65b9\u6848\u2014\u2014\u8fd9\u662f OpenAI \u7b97\u529b/\u8d44\u672c\u5f00\u652f\u70e7\u94b1\u901f\u5ea6\u5df2\u8d85\u51fa\u5e38\u89c4\u878d\u8d44\u6e20\u9053\u627f\u53d7\u529b\u7684\u5371\u9669\u4fe1\u53f7\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 1919,
-      "ts": 1783078536,
-      "ts_str": "2026-07-03 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung\u2019s DRAM price hike move is new challenge amid memory shortage - Huawei Central",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:37:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXFVM0dldU5ueVIxVkVnMEI5N29KSHJQNUVxU0x4OHFpVkxTSjJISU1teTA4MEZMeXhVcnRxemh2bFFsb3g3UXhOU2ZRVHpBNjRQYzV1aEl3MFJ5cURCcnJOdGl0S090emo5a25tYjNPM1VLZnJJWllydXFnSmRoVzlXZG1ZRFBZ0gGIAUFVX3lxTE91cVUzR2V1Tm55UjFWRWcwQjk3b0pIclA1RXFTTHg4cWlWTFNKMkhJTW15MDgwRkx5eFVydHF6aHZsUWxveDdReE5TZlFUekE2NFBjNXVoSXcwUnlxREJyck50aXRLT3R6ajlrbm1iM08zVUtmcklaWXJ1cWdKZGhXOVdkbVlEUFk?oc=5\n\nSamsung\u2019s DRAM price hike move is new challenge amid memory shortage - Huawei Central\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdXFVM0dldU5ueVIxVkVnMEI5N29KSHJQNUVxU0x4OHFpVkxTSjJISU1teTA4MEZMeXhVcnRxemh2bFFsb3g3UXhOU2ZRVHpBNjRQYzV1aEl3MFJ5cURCcnJOdGl0S090emo5a25tYjNPM1VLZnJJWllydXFnSmRoVzlXZG1ZRFBZ0gGIAUFVX3lxTE91cVUzR2V1Tm55UjFWRWcwQjk3b0pIclA1RXFTTHg4cWlWTFNKMkhJTW15MDgwRkx5eFVydHF6aHZsUWxveDdReE5TZlFUekE2NFBjNXVoSXcwUnlxREJyck50aXRLT3R6ajlrbm1iM08zVUtmcklaWXJ1cWdKZGhXOVdkbVlEUFk?oc=5\" target=\"_blank\">Samsung\u2019s DRAM price hike move is new challenge amid memory shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Huawei Central</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Huawei Central/Google News RSS item reports Samsung is raising DRAM prices, framed as a response to a memory shortage \u2014 no specific ticker, price delta, or volume figure given.\n\n\u5185\u5bb9:\nHuawei Central/\u8c37\u6b4c\u65b0\u95fb\u7684\u4e00\u6761 RSS \u62a5\u9053\u79f0\uff0cSamsung \u6b63\u5728\u4e0a\u8c03 DRAM \u4ef7\u683c\uff0c\u7406\u7531\u662f\u5185\u5b58\u77ed\u7f3a\u2014\u2014\u62a5\u9053\u672a\u7ed9\u51fa\u5177\u4f53\u578b\u53f7\u3001\u6da8\u4ef7\u5e45\u5ea6\u6216\u51fa\u8d27\u91cf\u6570\u5b57\u3002\n\nWhy it matters:\nDRAM/HBM tightness raises hyperscaler input costs for AI servers and is consistent with capacity being bid away by AI demand; but this is an unquantified trade-press headline, not a filed number, so treat it as a directional data point for the memory-stress thesis rather than a confirmed metric.\n\n\u5f71\u54cd:\nDRAM/HBM \u4f9b\u5e94\u8d8b\u7d27\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u91c7\u8d2d AI \u670d\u52a1\u5668\u7684\u6210\u672c\uff0c\u4e5f\u7b26\u5408\u4ea7\u80fd\u88ab AI \u9700\u6c42\u62a2\u5360\u7684\u903b\u8f91\uff1b\u4f46\u8fd9\u53ea\u662f\u4e00\u6761\u672a\u91cf\u5316\u7684\u884c\u4e1a\u5a92\u4f53\u62a5\u9053\uff0c\u4e0d\u662f\u6709\u636e\u53ef\u67e5\u7684\u5177\u4f53\u6570\u5b57,\u53ea\u80fd\u4f5c\u4e3a\u5185\u5b58\u7d27\u5f20\u53d9\u4e8b\u7684\u65b9\u5411\u6027\u4fe1\u53f7,\u4e0d\u5b9c\u5f53\u4f5c\u786e\u51ff\u6307\u6807\u3002\n",
       "emailed": false
     }
   ],
