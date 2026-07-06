@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783344724,
-  "generated_at_str": "2026-07-06 13:32:04 UTC",
-  "last_event_ts": 1783343644,
+  "generated_at": 1783344915,
+  "generated_at_str": "2026-07-06 13:35:15 UTC",
+  "last_event_ts": 1783344914,
   "tables": {
     "alerts_dedup": {
-      "count": 2102,
-      "last_ts": 1783343125,
-      "last_str": "2026-07-06 13:05:25 UTC"
+      "count": 2103,
+      "last_ts": 1783344914,
+      "last_str": "2026-07-06 13:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-06 13:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1743,
-      "last_ts": 1783343107,
-      "last_str": "2026-07-06 13:05:07 UTC"
+      "count": 1744,
+      "last_ts": 1783344902,
+      "last_str": "2026-07-06 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2084,
-      "last_ts": 1783343109,
-      "last_str": "2026-07-06 13:05:09 UTC"
+      "count": 2088,
+      "last_ts": 1783344905,
+      "last_str": "2026-07-06 13:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1366,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2110,
+      "ts": 1783344914,
+      "ts_str": "2026-07-06 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] A $12 billion electronics retailer says price increases are coming due to the memory chip shortage - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 11:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLXlEU3I2X1loWFZ4N3ZiU0ZlRzI2UFdyOW1HVEJEQzNyMjNlUU15VC1nS09vSVBjRzRSVUZsZ1FWM2J0S3ZxS1ZPNFE4eG5OSlFVaFNGTTIzaGM1QTlsWFEwbWFQODY2bkZQM3FrQndCTU4tN3NobHRJMHcwdmFodmVuVjduY01WSkt5Ry1xVkFhUjB5QW5ramxKUHdVcmlkWUpicDRwMXZKaVZCejMwdWlHSEg3X3hRcFV4cDlEVF9yX3Y3LUk0TEJXa3JFbjFCVm5fRThQb3FBWS02Ri1IdQ?oc=5\n\nA $12 billion electronics retailer says price increases are coming due to the memory chip shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLXlEU3I2X1loWFZ4N3ZiU0ZlRzI2UFdyOW1HVEJEQzNyMjNlUU15VC1nS09vSVBjRzRSVUZsZ1FWM2J0S3ZxS1ZPNFE4eG5OSlFVaFNGTTIzaGM1QTlsWFEwbWFQODY2bkZQM3FrQndCTU4tN3NobHRJMHcwdmFodmVuVjduY01WSkt5Ry1xVkFhUjB5QW5ramxKUHdVcmlkWUpicDRwMXZKaVZCejMwdWlHSEg3X3hRcFV4cDlEVF9yX3Y3LUk0TEJXa3JFbjFCVm5fRThQb3FBWS02Ri1IdQ?oc=5\" target=\"_blank\">A $12 billion electronics retailer says price increases are coming due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA $12B electronics retailer (unnamed) says it is raising prices due to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5bb6\u8425\u6536 $12B \u7684\u7535\u5b50\u4ea7\u54c1\u96f6\u552e\u5546\u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u4e0a\u8c03\u4ef7\u683c\u3002\n\nWhy it matters:\nRetail-level price pass-through confirms the DRAM/NAND/HBM supply crunch is reaching end consumers, not just hyperscaler procurement \u2014 a sign the memory shortage is broad enough to squeeze margins across the supply chain, not a narrow allocation issue.\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u7684\u6da8\u4ef7\u4f20\u5bfc\u8bf4\u660e DRAM/NAND/HBM \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u5f71\u54cd\u5230\u7ec8\u7aef\u6d88\u8d39\u8005\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u91c7\u8d2d\u5c42\u9762\u2014\u2014\u8868\u660e\u5185\u5b58\u77ed\u7f3a\u7684\u8303\u56f4\u5df2\u7ecf\u5927\u5230\u6324\u538b\u6574\u4e2a\u4f9b\u5e94\u94fe\u7684\u5229\u6da6\u7387\uff0c\u800c\u4e0d\u662f\u5c40\u90e8\u7684\u914d\u989d\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2109,
       "ts": 1783343125,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Currys Flags Higher Smartphone, Laptop Prices Amid Memory Chip Shortage - Electronics For You BUSINESS",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 07:35:49 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc1hrdnVCZ0t2SExUX1kwNjdyb0l2Mlk0ZW80SWkxYkVCVGs4aEg3Z0N2bFZHLVd3R3ZXWGVQU3ZoTUpZMFBOMXhHRVVCdU1ZeU5KUVh2a2Z5dHdrSndnSXRXM2Q0bURHemt2QnV1bGxCS1FjYnVoUENRbGxSSk5TRlRjb2xiVzA0a2R3ajkxNkpyQjEwWDJlcDBhTFAzcHJOTThWdnF2dXBKU0pnU2RqRTkybXN0b3VpMHBZ?oc=5\n\nCurrys Flags Higher Smartphone, Laptop Prices Amid Memory Chip Shortage - Electronics For You BUSINESS\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc1hrdnVCZ0t2SExUX1kwNjdyb0l2Mlk0ZW80SWkxYkVCVGs4aEg3Z0N2bFZHLVd3R3ZXWGVQU3ZoTUpZMFBOMXhHRVVCdU1ZeU5KUVh2a2Z5dHdrSndnSXRXM2Q0bURHemt2QnV1bGxCS1FjYnVoUENRbGxSSk5TRlRjb2xiVzA0a2R3ajkxNkpyQjEwWDJlcDBhTFAzcHJOTThWdnF2dXBKU0pnU2RqRTkybXN0b3VpMHBZ?oc=5\" target=\"_blank\">Currys Flags Higher Smartphone, Laptop Prices Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electronics For You BUSINESS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK retailer (Currys) says it's raising smartphone and laptop prices, citing a memory chip shortage.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8868\u793a\uff0c\u53d7\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5f71\u54cd\uff0c\u5c06\u4e0a\u8c03\u667a\u80fd\u624b\u673a\u548c\u7b14\u8bb0\u672c\u7535\u8111\u552e\u4ef7\u3002\n\nWhy it matters:\nDRAM/NAND scarcity is bleeding into end-consumer device pricing, confirming the memory-supply squeeze is broad enough to hit retail, not just datacenter buyers \u2014 reinforces the C6 memory-stress thesis that hyperscaler AI demand is crowding out commodity chip supply.\n\n\u5f71\u54cd:\nDRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u6ce2\u53ca\u96f6\u552e\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u6570\u636e\u4e2d\u5fc3\u91c7\u8d2d\u65b9\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u5927\u5b97\u82af\u7247\u4f9b\u5e94\u8fd9\u4e00 C6 \u4fe1\u53f7\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1911,
-      "ts": 1783065934,
-      "ts_str": "2026-07-03 08:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - ET Telecom",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 03:02:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMzhsRGFRWWRPMzYtT2RzMTAwM2xxWVI4OGxuTzlhQ0VWc2V1RzZPZXppMWl6U3ZjNkFfM1htNERGSnVfUjNrRmRrTE5vS1RKTXk4Y1VzQ21VOEcxS1ZqN0pGR25MSzROMFkxaUUtbVpRY1NiOEZNbFMyZWJGV3NEQlNWUHVQSlFBS3JSVWhlZWxYY2xJWFBHdFlPVDRVTjltOWh4a29SN1JoZXBweE5POFdtc29GOXBsOVAyOG4wVVRsT0E2OUJjZlZJcGh3Z3NURkZVd0MzbUhURkppOFE?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - ET Telecom\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMzhsRGFRWWRPMzYtT2RzMTAwM2xxWVI4OGxuTzlhQ0VWc2V1RzZPZXppMWl6U3ZjNkFfM1htNERGSnVfUjNrRmRrTE5vS1RKTXk4Y1VzQ21VOEcxS1ZqN0pGR25MSzROMFkxaUUtbVpRY1NiOEZNbFMyZWJGV3NEQlNWUHVQSlFBS3JSVWhlZWxYY2xJWFBHdFlPVDRVTjltOWh4a29SN1JoZXBweE5POFdtc29GOXBsOVAyOG4wVVRsT0E2OUJjZlZJcGh3Z3NURkZVd0MzbUhURkppOFE?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ET Telecom</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK retailer (Currys) warned that a memory-chip shortage will force it to raise prices on affected products.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u96f6\u552e\u5546 Currys \u8b66\u544a\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u8feb\u4f7f\u5176\u4e0a\u8c03\u76f8\u5173\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nConsumer-facing price pass-through confirms the DRAM/NAND supply squeeze is now hitting downstream margins, not just component buyers \u2014 a sign the memory shortage feeding AI-server demand is tight enough to ripple into ordinary electronics retail.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7aef\u96f6\u552e\u5546\u5f00\u59cb\u8f6c\u5ac1\u6da8\u4ef7\uff0c\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u4e0d\u53ea\u5f71\u54cd\u5143\u5668\u4ef6\u91c7\u8d2d\u65b9\uff0c\u800c\u662f\u4f20\u5bfc\u5230\u4e86\u666e\u901a\u7535\u5b50\u4ea7\u54c1\u96f6\u552e\u7aef\u2014\u2014\u53cd\u6620\u51fa\u652f\u6491 AI \u670d\u52a1\u5668\u9700\u6c42\u7684\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u8db3\u591f\u4e25\u91cd\u3002\n",
       "emailed": false
     }
   ],
