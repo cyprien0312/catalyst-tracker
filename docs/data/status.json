@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783364526,
-  "generated_at_str": "2026-07-06 19:02:06 UTC",
-  "last_event_ts": 1783363458,
+  "generated_at": 1783364721,
+  "generated_at_str": "2026-07-06 19:05:21 UTC",
+  "last_event_ts": 1783364716,
   "tables": {
     "alerts_dedup": {
-      "count": 2116,
-      "last_ts": 1783363458,
-      "last_str": "2026-07-06 18:44:18 UTC"
+      "count": 2117,
+      "last_ts": 1783364716,
+      "last_str": "2026-07-06 19:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-06 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1759,
-      "last_ts": 1783361102,
-      "last_str": "2026-07-06 18:05:02 UTC"
+      "count": 1760,
+      "last_ts": 1783364702,
+      "last_str": "2026-07-06 19:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2111,
-      "last_ts": 1783362904,
-      "last_str": "2026-07-06 18:35:04 UTC"
+      "count": 2112,
+      "last_ts": 1783364705,
+      "last_str": "2026-07-06 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1380,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2124,
+      "ts": 1783364716,
+      "ts_str": "2026-07-06 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Pushes for Another DRAM Price Hike as AI Demand Tightens Supply - dealntech.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 18:50:39 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkpHMjVsSURYY3JVZThVdXpXODItbWgwRi10YnN0WnlBa1RVd2hiNVJBY1NOMFc5RlM2eVdib1l3Z0pHd3dHcVFlQkFGekZPaFFDbDBoSmlfbTRMd25pZF92aTZ0QjFRcGhjSjFHNFBYV0NHV1pFTkthOUwxY3NUOW8tdFRjQkhSRldOZDl4VjdJajgzcVcwUUliMGJOSTg?oc=5\n\nSamsung Pushes for Another DRAM Price Hike as AI Demand Tightens Supply - dealntech.com\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkpHMjVsSURYY3JVZThVdXpXODItbWgwRi10YnN0WnlBa1RVd2hiNVJBY1NOMFc5RlM2eVdib1l3Z0pHd3dHcVFlQkFGekZPaFFDbDBoSmlfbTRMd25pZF92aTZ0QjFRcGhjSjFHNFBYV0NHV1pFTkthOUwxY3NUOW8tdFRjQkhSRldOZDl4VjdJajgzcVcwUUliMGJOSTg?oc=5\" target=\"_blank\">Samsung Pushes for Another DRAM Price Hike as AI Demand Tightens Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dealntech.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is pushing for another DRAM price hike, citing tightening supply from AI demand.\n\n\u5185\u5bb9:\n\u4e09\u661f\u6b63\u5728\u63a8\u52a8\u65b0\u4e00\u8f6e DRAM \u6da8\u4ef7\uff0c\u7406\u7531\u662f AI \u9700\u6c42\u6b63\u5728\u6536\u7d27\u4f9b\u5e94\u3002\n\nWhy it matters:\nRising memory prices raise the input cost of every AI server (DRAM/HBM are a growing share of BOM), squeezing margins for buyers and signaling a supply-constrained memory market feeding the capex boom. It's a cost-side pressure point on the AI-infrastructure build-out, not a demand-side crack.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff08DRAM/HBM \u5728 BOM \u4e2d\u5360\u6bd4\u8d8a\u6765\u8d8a\u9ad8\uff09\uff0c\u6324\u538b\u91c7\u8d2d\u65b9\u5229\u6da6\uff0c\u4e5f\u8bf4\u660e\u5f53\u524d\u5185\u5b58\u4f9b\u5e94\u504f\u7d27\u3001\u6b63\u88ab AI \u5efa\u8bbe\u9700\u6c42\u63a8\u7740\u8d70\u3002\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u6269\u5f20\u4e2d\u6210\u672c\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u7aef\u51fa\u73b0\u88c2\u7f1d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2123,
       "ts": 1783363458,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] [News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 10:50:21 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\n\n[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\" target=\"_blank\">[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports Samsung is pushing for up to 20% DRAM price increases for Q3 2026, with LPDDR mobile memory hikes potentially exceeding 20%.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u9053\u79f0\uff0cSamsung \u6b63\u5bfb\u6c42\u5c06 2026 \u5e74 3 \u5b63\u5ea6 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\uff0cLPDDR \u79fb\u52a8\u5185\u5b58\u6da8\u5e45\u53ef\u80fd\u8d85\u8fc7 20%\u3002\n\nWhy it matters:\nA double-digit memory price surge on the largest DRAM supplier signals tightening AI-driven HBM/DRAM allocation is spilling into general memory pricing \u2014 squeezes margins for downstream hardware buyers and is a classic late-cycle input-cost stress tell.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u6700\u5927 DRAM \u4f9b\u5e94\u5546\uff0c\u4e24\u4f4d\u6570\u7684\u5185\u5b58\u6da8\u4ef7\u610f\u5473\u7740 AI \u9a71\u52a8\u7684 HBM/DRAM \u4ea7\u80fd\u6324\u5360\u6b63\u5728\u5916\u6ea2\u81f3\u901a\u7528\u5185\u5b58\u4ef7\u683c\uff0c\u538b\u7f29\u4e0b\u6e38\u786c\u4ef6\u5382\u5546\u5229\u6da6\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6210\u672c\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1923,
-      "ts": 1783083925,
-      "ts_str": "2026-07-03 13:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] [News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 10:50:21 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\n\n[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\" target=\"_blank\">[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports Samsung is pushing for up to 20% DRAM price increases for Q3 2026, with LPDDR mobile memory hikes potentially exceeding 20%.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u9053\u79f0\uff0cSamsung \u6b63\u5bfb\u6c42\u5c06 2026 \u5e74 3 \u5b63\u5ea6 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\uff0cLPDDR \u79fb\u52a8\u5185\u5b58\u6da8\u5e45\u53ef\u80fd\u8d85\u8fc7 20%\u3002\n\nWhy it matters:\nA double-digit memory price surge on the largest DRAM supplier signals tightening AI-driven HBM/DRAM allocation is spilling into general memory pricing \u2014 squeezes margins for downstream hardware buyers and is a classic late-cycle input-cost stress tell.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u6700\u5927 DRAM \u4f9b\u5e94\u5546\uff0c\u4e24\u4f4d\u6570\u7684\u5185\u5b58\u6da8\u4ef7\u610f\u5473\u7740 AI \u9a71\u52a8\u7684 HBM/DRAM \u4ea7\u80fd\u6324\u5360\u6b63\u5728\u5916\u6ea2\u81f3\u901a\u7528\u5185\u5b58\u4ef7\u683c\uff0c\u538b\u7f29\u4e0b\u6e38\u786c\u4ef6\u5382\u5546\u5229\u6da6\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6210\u672c\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
