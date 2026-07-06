@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783366862,
-  "generated_at_str": "2026-07-06 19:41:02 UTC",
-  "last_event_ts": 1783366511,
+  "generated_at": 1783367072,
+  "generated_at_str": "2026-07-06 19:44:32 UTC",
+  "last_event_ts": 1783367069,
   "tables": {
     "alerts_dedup": {
-      "count": 2117,
-      "last_ts": 1783364716,
-      "last_str": "2026-07-06 19:05:16 UTC"
+      "count": 2119,
+      "last_ts": 1783367069,
+      "last_str": "2026-07-06 19:44:29 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2733,
-      "last_ts": 1783363448,
-      "last_str": "2026-07-06 18:44:08 UTC"
+      "count": 2734,
+      "last_ts": 1783367044,
+      "last_str": "2026-07-06 19:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 562,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-06 19:35:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 14000,
-      "last_ts": 1783365247,
-      "last_str": "2026-07-06 19:14:07 UTC"
+      "count": 14006,
+      "last_ts": 1783367043,
+      "last_str": "2026-07-06 19:44:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2125,
+      "ts": 1783367069,
+      "ts_str": "2026-07-06 19:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Hedge fund run by ex-OpenAI researcher bets on SK Hynix\u2019s US IPO - Financial Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 18:08:25 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQNnlMdzBCc0NQOFlyNG52T04xc2E0bnNMVjE1RjZFR3Bpd1YtODVtU1F4MV9KYlFSUEZhbHE1QTdoVjFaXzFRelpxcnNsWkpFQXRxdVVyaC1pZ0hzSUpJSVIwNHVxaXFGZDEyUVRUZjVPaUd6ZGpCMExUVFQ3bmRJWElxeUs?oc=5\n\nHedge fund run by ex-OpenAI researcher bets on SK Hynix\u2019s US IPO - Financial Times\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQNnlMdzBCc0NQOFlyNG52T04xc2E0bnNMVjE1RjZFR3Bpd1YtODVtU1F4MV9KYlFSUEZhbHE1QTdoVjFaXzFRelpxcnNsWkpFQXRxdVVyaC1pZ0hzSUpJSVIwNHVxaXFGZDEyUVRUZjVPaUd6ZGpCMExUVFQ3bmRJWElxeUs?oc=5\" target=\"_blank\">Hedge fund run by ex-OpenAI researcher bets on SK Hynix\u2019s US IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA hedge fund led by a former OpenAI researcher is reportedly taking a position tied to SK Hynix's US IPO, per Financial Times.\n\n\u5185\u5bb9:\n\u636e\u82f1\u56fd\u300a\u91d1\u878d\u65f6\u62a5\u300b\u62a5\u9053\uff0c\u4e00\u4f4d\u524d OpenAI \u7814\u7a76\u5458\u521b\u7acb\u7684\u5bf9\u51b2\u57fa\u91d1\u6b63\u62bc\u6ce8 SK Hynix \u5728\u7f8e IPO \u7684\u76f8\u5173\u5934\u5bf8\u3002\n\nWhy it matters:\nSK Hynix is a core HBM supplier for AI accelerators, so ex-insider capital rotating into its IPO reads as a bet on continued memory-driven AI capex rather than a direct OpenAI stress signal \u2014 this is background noise for the C3 thesis, not a burn-rate data point.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5361 HBM \u5185\u5b58\u7684\u6838\u5fc3\u4f9b\u5e94\u5546\uff0c\u524d OpenAI \u5185\u90e8\u4eba\u58eb\u7684\u8d44\u91d1\u8f6c\u5411\u5176 IPO\uff0c\u66f4\u50cf\u662f\u5bf9\u5185\u5b58\u9a71\u52a8\u578b AI capex \u6301\u7eed\u6027\u7684\u62bc\u6ce8\uff0c\u800c\u975e\u76f4\u63a5\u53cd\u6620 OpenAI \u7684\u8d44\u91d1\u6d88\u8017\u538b\u529b\u2014\u2014\u5bf9 C3 \u4e3b\u9898\u800c\u8a00\u53ea\u662f\u80cc\u666f\u566a\u97f3\uff0c\u5e76\u975e\u70e7\u94b1\u7387\u6570\u636e\u70b9\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2126,
+      "ts": 1783367069,
+      "ts_str": "2026-07-06 19:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 12:06:09 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE9yY1A2VWg0RS16MUhHaUVHMF9ZS0hYRFlZTHFjbW5FWThCZUpCMTlfRlpEcWNtODdjWHhwT0wtY1lLOEpfdl9mSXVJX1FEb3ZhaVkyTkluSm84dnVsV09iTHJrYUdVTXY3T190bllKUU9acDA1M2NR?oc=5\n\nIs OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9yY1A2VWg0RS16MUhHaUVHMF9ZS0hYRFlZTHFjbW5FWThCZUpCMTlfRlpEcWNtODdjWHhwT0wtY1lLOEpfdl9mSXVJX1FEb3ZhaVkyTkluSm84dnVsV09iTHJrYUdVTXY3T190bllKUU9acDA1M2NR?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMedia coverage is debating whether OpenAI's rumored IPO plans are troubled or just noise, per AOL.com aggregation of two reporters' disagreement.\n\n\u5185\u5bb9:\n\u636e AOL.com \u6c47\u603b\u7684\u62a5\u9053\uff0c\u4e24\u540d\u8bb0\u8005\u5bf9 OpenAI \u4f20\u95fb\u4e2d\u7684 IPO \u8ba1\u5212\u662f\u5426\u9677\u5165\u56f0\u5883\u610f\u89c1\u4e0d\u4e00\u3002\n\nWhy it matters:\nAn IPO signals OpenAI needs to convert investor hype into a liquidity event and public-market scrutiny of its burn rate \u2014 conflicting reporter takes suggest the story is still speculative, not confirmed guidance from the company.\n\n\u5f71\u54cd:\nIPO \u610f\u5473\u7740 OpenAI \u9700\u8981\u628a\u6295\u8d44\u8005\u7684\u70ed\u60c5\u5151\u73b0\u4e3a\u5b9e\u9645\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u5e76\u8ba9\u70e7\u94b1\u901f\u5ea6\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\uff1b\u4e24\u4f4d\u8bb0\u8005\u8bf4\u6cd5\u76f8\u5de6\uff0c\u8bf4\u660e\u8fd9\u4ecd\u662f\u5c1a\u672a\u88ab\u516c\u53f8\u8bc1\u5b9e\u7684\u4f20\u95fb\uff0c\u800c\u975e\u786e\u5b9a\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2124,
       "ts": 1783364716,
@@ -2254,26 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Plans Another 20% Memory Price Hike in Q3 2026 - PhoneWorld",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 11:58:34 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxPOG9QTWRIM1c4MXBZX3hxcGFSOExOeWJkZjlmdDU1dkZwWU9weWpUdFhrOVpaR0ZVcjlMTkM5ck1vV3BRVWJZYUhFblhaNzBkeUx5X3ZxdDAycWF6UFAtWFFCbm9SLXVfaEMtTHpSaTBqeUVhQ2loZERZSW9wOEFtX29xdG9rb1YtY2hacw?oc=5\n\nSamsung Plans Another 20% Memory Price Hike in Q3 2026 - PhoneWorld\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPOG9QTWRIM1c4MXBZX3hxcGFSOExOeWJkZjlmdDU1dkZwWU9weWpUdFhrOVpaR0ZVcjlMTkM5ck1vV3BRVWJZYUhFblhaNzBkeUx5X3ZxdDAycWF6UFAtWFFCbm9SLXVfaEMtTHpSaTBqeUVhQ2loZERZSW9wOEFtX29xdG9rb1YtY2hacw?oc=5\" target=\"_blank\">Samsung Plans Another 20% Memory Price Hike in Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PhoneWorld</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is planning another 20% memory price hike for Q3 2026, per PhoneWorld.\n\n\u5185\u5bb9:\n\u636e PhoneWorld \u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u518d\u6b21\u4e0a\u8c03\u5185\u5b58\u4ef7\u683c 20%\u3002\n\nWhy it matters:\nA second consecutive Samsung DRAM/NAND hike within the same catalyst window confirms sustained memory supply tightness driven by HBM allocation to AI accelerators \u2014 rising input costs squeeze margins for anyone building AI servers and reinforce the memory-shortage leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u540c\u4e00\u5468\u671f\u5185\u4e09\u661f\u8fde\u7eed\u7b2c\u4e8c\u6b21\u4e0a\u8c03 DRAM/NAND \u4ef7\u683c\uff0c\u8bc1\u5b9e\u4e86\u56e0 HBM \u88ab\u5927\u91cf\u5206\u914d\u7ed9 AI \u52a0\u901f\u5668\u800c\u5bfc\u81f4\u7684\u5185\u5b58\u4f9b\u5e94\u6301\u7eed\u7d27\u5f20\u2014\u2014\u4e0a\u6da8\u7684\u539f\u6750\u6599\u6210\u672c\u4f1a\u538b\u7f29\u6240\u6709 AI \u670d\u52a1\u5668\u5236\u9020\u5546\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4e5f\u5f3a\u5316\u4e86\u6ce1\u6cab\u538b\u529b\u8bba\u4e2d\"\u5185\u5b58\u77ed\u7f3a\"\u8fd9\u6761\u7ebf\u7d22\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1928,
-      "ts": 1783085734,
-      "ts_str": "2026-07-03 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung Sets Another 20% Price Hike Target After DRAM Rises for Two Quarters. AI Crowding Out Capacity Triggers Chain Re",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 13:27:21 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxONjYySGh2UHhlWFdvbVdSaXNpa056MWxzRE1lMGN0ZzhBWHM2TVRXaUNVUUc5dmpjNThLYl8tRkQ3Vnd2blM1MGw3WUt4bTVRbTBDLVQwMUNNVmVpZVd4cXh6VDE2MlRDQnh2RDNWajVFM21Kb3NOZk1vbUZGT1piOEdpNTYyb0hIOTg4ZjlnYnVpeGlDdjFHa093RFFDbHVFdXNYR08zclhsUWd6bjgtaEQ0SHZxWnR5OEVDckt2NFZYampLWUVNOVJlT2sydw?oc=5\n\nSamsung Sets Another 20% Price Hike Target After DRAM Rises for Two Quarters. AI Crowding Out Capacity Triggers Chain Reaction, Will Storage Giants Launch a New Round of Price Increases? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxONjYySGh2UHhlWFdvbVdSaXNpa056MWxzRE1lMGN0ZzhBWHM2TVRXaUNVUUc5dmpjNThLYl8tRkQ3Vnd2blM1MGw3WUt4bTVRbTBDLVQwMUNNVmVpZVd4cXh6VDE2MlRDQnh2RDNWajVFM21Kb3NOZk1vbUZGT1piOEdpNTYyb0hIOTg4ZjlnYnVpeGlDdjFHa093RFFDbHVFdXNYR08zclhsUWd6bjgtaEQ0SHZxWnR5OEVDckt2NFZYampLWUVNOVJlT2sydw?oc=5\" target=\"_blank\">Samsung Sets Another 20% Price Hike Target After DRAM Rises for Two Quarters. AI Crowding Out Capacity Triggers Chain Reaction, Will Storage Giants Launch a New Round of Price Increases?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is targeting another 20% DRAM price hike after two consecutive quarters of rising prices, as AI demand crowds out available capacity.\n\n\u5185\u5bb9:\n\u4e09\u661f\u5728 DRAM \u4ef7\u683c\u8fde\u7eed\u4e24\u4e2a\u5b63\u5ea6\u4e0a\u6da8\u540e\uff0c\u518d\u6b21\u5c06\u6da8\u4ef7\u76ee\u6807\u5b9a\u4e3a 20%\uff0c\u539f\u56e0\u662f AI \u9700\u6c42\u6324\u5360\u4e86\u53ef\u7528\u4ea7\u80fd\u3002\n\nWhy it matters:\nMemory is a shared input cost across every AI-infra buildout \u2014 sustained DRAM inflation squeezes hyperscaler margins and signals the supply chain is now capacity-constrained by AI demand, a classic late-cycle bottleneck.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f\u6240\u6709 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u5171\u540c\u6210\u672c\u9879\u2014\u2014DRAM \u4ef7\u683c\u6301\u7eed\u4e0a\u6da8\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u4e5f\u8bf4\u660e\u4f9b\u5e94\u94fe\u5df2\u7ecf\u88ab AI \u9700\u6c42\u6324\u5230\u4ea7\u80fd\u74f6\u9888\uff0c\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1929,
-      "ts": 1783085734,
-      "ts_str": "2026-07-03 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] [News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 03 Jul 2026 10:50:21 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\n\n[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20% - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPR2JQSWU2bzlJNVZlYVpZSHdpeVdzNTZFMzNVSFQtYUVpcE9SbjNNWWp3SE9jUFZVbWlPWG9kOW1EX0tYMWxfMkNCdFpSQUxLOEt1cVdhN2xPZ0lrdDVvZXdNMjVYTGZCSk1haU1ITVo0ajUzX2FQUE0yNUZMMmZTUjhVQm9ZcFc2Nm1EWk14bWFPWkY5VnhsS2J6c3pyUVdmNVRNaUlvUGJfNFFORFhqWndnU1BsY21wOVRYeFNrbE5GekU2OVpxZHhHUTc5QQ?oc=5\" target=\"_blank\">[News] Samsung Reportedly Seeks Up to 20% 3Q26 DRAM Price Increase; LPDDR Hikes May Exceed 20%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports Samsung is pushing for up to 20% DRAM price increases for Q3 2026, with LPDDR mobile memory hikes potentially exceeding 20%.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u9053\u79f0\uff0cSamsung \u6b63\u5bfb\u6c42\u5c06 2026 \u5e74 3 \u5b63\u5ea6 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\uff0cLPDDR \u79fb\u52a8\u5185\u5b58\u6da8\u5e45\u53ef\u80fd\u8d85\u8fc7 20%\u3002\n\nWhy it matters:\nA double-digit memory price surge on the largest DRAM supplier signals tightening AI-driven HBM/DRAM allocation is spilling into general memory pricing \u2014 squeezes margins for downstream hardware buyers and is a classic late-cycle input-cost stress tell.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u6700\u5927 DRAM \u4f9b\u5e94\u5546\uff0c\u4e24\u4f4d\u6570\u7684\u5185\u5b58\u6da8\u4ef7\u610f\u5473\u7740 AI \u9a71\u52a8\u7684 HBM/DRAM \u4ea7\u80fd\u6324\u5360\u6b63\u5728\u5916\u6ea2\u81f3\u901a\u7528\u5185\u5b58\u4ef7\u683c\uff0c\u538b\u7f29\u4e0b\u6e38\u786c\u4ef6\u5382\u5546\u5229\u6da6\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u6210\u672c\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
