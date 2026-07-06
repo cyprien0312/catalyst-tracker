@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783308724,
-  "generated_at_str": "2026-07-06 03:32:04 UTC",
-  "last_event_ts": 1783307654,
+  "generated_at": 1783308945,
+  "generated_at_str": "2026-07-06 03:35:45 UTC",
+  "last_event_ts": 1783308945,
   "tables": {
     "alerts_dedup": {
-      "count": 2072,
-      "last_ts": 1783307654,
-      "last_str": "2026-07-06 03:14:14 UTC"
+      "count": 2076,
+      "last_ts": 1783308945,
+      "last_str": "2026-07-06 03:35:45 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,19 +64,19 @@
       "last_str": "2026-07-06 02:14:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1706,
-      "last_ts": 1783307102,
-      "last_str": "2026-07-06 03:05:02 UTC"
+      "count": 1710,
+      "last_ts": 1783308907,
+      "last_str": "2026-07-06 03:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2028,
-      "last_ts": 1783307103,
-      "last_str": "2026-07-06 03:05:03 UTC"
+      "count": 2031,
+      "last_ts": 1783308909,
+      "last_str": "2026-07-06 03:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1336,
-      "last_ts": 1783303506,
-      "last_str": "2026-07-06 02:05:06 UTC"
+      "count": 1338,
+      "last_ts": 1783308908,
+      "last_str": "2026-07-06 03:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1556,
@@ -276,6 +276,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2080,
+      "ts": 1783308945,
+      "ts_str": "2026-07-06 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung said to seek up to 20% DRAM price hike as AI demand tightens supply - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 03:08:34 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDRwck02Y05JM3VSZUVMc2FVUzMzTE92aU9OXzVVN01LeXNzRmFnaHFSNmlteFdGYTFuM2p1YkJIdW95Zy04ZXZnM1Nzblhhb3NhTGRBdFhIak9YT0dIZUM4bGtSVnlmZmRFclNnNUZaQXAtX0ItMjVBcnFzZk1EVDNCbzlhVkhF?oc=5\n\nSamsung said to seek up to 20% DRAM price hike as AI demand tightens supply - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDRwck02Y05JM3VSZUVMc2FVUzMzTE92aU9OXzVVN01LeXNzRmFnaHFSNmlteFdGYTFuM2p1YkJIdW95Zy04ZXZnM1Nzblhhb3NhTGRBdFhIak9YT0dIZUM4bGtSVnlmZmRFclNnNUZaQXAtX0ItMjVBcnFzZk1EVDNCbzlhVkhF?oc=5\" target=\"_blank\">Samsung said to seek up to 20% DRAM price hike as AI demand tightens supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly seeking a DRAM price hike of up to 20% as AI demand tightens memory supply.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u6b63\u5bfb\u6c42\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\uff0c\u539f\u56e0\u662f AI \u9700\u6c42\u6b63\u5728\u6536\u7d27\u5185\u5b58\u4f9b\u5e94\u3002\n\nWhy it matters:\nA hike of this size signals memory has become a binding constraint on AI hardware supply chains, not just GPUs \u2014 rising DRAM costs squeeze hyperscaler margins and raise the bar for AI capex to pay back. It's also a tell that memory makers are re-allocating capacity toward AI-linked demand, tightening supply for everyone else.\n\n\u5f71\u54cd:\n\u5982\u6b64\u5927\u5e45\u7684\u6da8\u4ef7\u610f\u5473\u7740\u5185\u5b58\u5df2\u7ecf\u6210\u4e3a AI \u786c\u4ef6\u4f9b\u5e94\u94fe\u7684\u74f6\u9888\uff0c\u800c\u4e0d\u4ec5\u4ec5\u662f GPU \u77ed\u7f3a\u3002DRAM \u6210\u672c\u4e0a\u5347\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\uff0c\u4e5f\u63d0\u9ad8\u4e86 AI capex \u56de\u672c\u7684\u95e8\u69db\u3002\u8fd9\u4e5f\u8bf4\u660e\u5185\u5b58\u5382\u5546\u6b63\u628a\u4ea7\u80fd\u5411 AI \u76f8\u5173\u9700\u6c42\u503e\u659c\uff0c\u4ece\u800c\u6536\u7d27\u4e86\u5176\u4ed6\u9886\u57df\u7684\u4f9b\u5e94\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2081,
+      "ts": 1783308945,
+      "ts_str": "2026-07-06 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 03:32:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung, SK hynix, and Micron were sued over alleged DRAM price fixing, coinciding with a reported expected 20% Samsung price hike.\n\n\u5185\u5bb9:\nSamsung\u3001SK hynix \u548c Micron \u88ab\u8d77\u8bc9\u6d89\u5acc\u64cd\u7eb5 DRAM \u4ef7\u683c\uff0c\u540c\u65f6\u6709\u62a5\u9053\u79f0 Samsung \u9884\u8ba1\u5c06\u63d0\u4ef7 20%\u3002\n\nWhy it matters:\nA 20% DRAM hike raises input costs across the AI server supply chain (HBM/DRAM feed GPU systems), and the price-fixing suit signals the memory market is tight enough to draw antitrust scrutiny \u2014 consistent with the memory-shortage side of the AI-capex bubble-stress thesis.\n\n\u5f71\u54cd:\nDRAM \u63d0\u4ef7 20% \u4f1a\u63a8\u9ad8\u6574\u4e2a AI \u670d\u52a1\u5668\u4f9b\u5e94\u94fe\u7684\u6210\u672c\uff08HBM/DRAM \u662f GPU \u7cfb\u7edf\u7684\u5173\u952e\u8f93\u5165\uff09\uff0c\u800c\u4ef7\u683c\u64cd\u7eb5\u8bc9\u8bbc\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7d27\u5f20\u5230\u5f15\u53d1\u53cd\u5784\u65ad\u5173\u6ce8\u2014\u2014\u8fd9\u4e0e AI capex \u6ce1\u6cab\u538b\u529b\u8bba\u4e2d\u7684\u5185\u5b58\u77ed\u7f3a\u4fe1\u53f7\u4e00\u81f4\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2082,
+      "ts": 1783308945,
+      "ts_str": "2026-07-06 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Morgan Stanley: NAND Supply Crunch to Persist Through 2027, Macronix Named Top Pick with NT$220 Target - finance.biggo.c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 21:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9KMnQ2YmE0d2tFSXhHV0FLbmI1TUh0UXd0LWVXMzdVZlFOV09RelNta0phM0t1WU9rcFBITE1NQ3hiM1A3MG8zdFR6UElfUThiLS13RnRtME4zWEtrWGFpWXZtY1J2TjFwVldBOThQcklET3E1X2c?oc=5\n\nMorgan Stanley: NAND Supply Crunch to Persist Through 2027, Macronix Named Top Pick with NT$220 Target - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9KMnQ2YmE0d2tFSXhHV0FLbmI1TUh0UXd0LWVXMzdVZlFOV09RelNta0phM0t1WU9rcFBITE1NQ3hiM1A3MG8zdFR6UElfUThiLS13RnRtME4zWEtrWGFpWXZtY1J2TjFwVldBOThQcklET3E1X2c?oc=5\" target=\"_blank\">Morgan Stanley: NAND Supply Crunch to Persist Through 2027, Macronix Named Top Pick with NT$220 Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley forecasts the NAND supply crunch will persist through 2027 and named Macronix a top pick with a NT$220 price target.\n\n\u5185\u5bb9:\n\u6469\u6839\u58eb\u4e39\u5229\u9884\u6d4b NAND \u4f9b\u5e94\u7d27\u5f20\u5c06\u6301\u7eed\u5230 2027 \u5e74\uff0c\u5e76\u5c06 Macronix\uff08\u65fa\u5b8f\uff09\u5217\u4e3a\u9996\u9009\u80a1\uff0c\u76ee\u6807\u4ef7 NT$220\u3002\n\nWhy it matters:\nA multi-year NAND shortage signals memory prices staying elevated, squeezing margins for anyone building AI storage/inference infrastructure and reinforcing the memory-price-stress leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u591a\u5e74\u671f\u7684 NAND \u77ed\u7f3a\u610f\u5473\u7740\u5185\u5b58\u4ef7\u683c\u5c06\u6301\u7eed\u7ef4\u6301\u9ad8\u4f4d\uff0c\u6324\u538b\u6240\u6709\u6784\u5efa AI \u5b58\u50a8/\u63a8\u7406\u57fa\u7840\u8bbe\u65bd\u76f8\u5173\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86\u6ce1\u6cab\u538b\u529b\u8bba\u4e2d\u5185\u5b58\u4ef7\u683c\u627f\u538b\u8fd9\u4e00\u73af\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2083,
+      "ts": 1783308945,
+      "ts_str": "2026-07-06 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 03:32:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung, SK hynix, and Micron were sued over alleged DRAM price fixing, coinciding with a reported expected 20% Samsung price hike.\n\n\u5185\u5bb9:\nSamsung\u3001SK hynix \u548c Micron \u88ab\u8d77\u8bc9\u6d89\u5acc\u64cd\u7eb5 DRAM \u4ef7\u683c\uff0c\u540c\u65f6\u6709\u62a5\u9053\u79f0 Samsung \u9884\u8ba1\u5c06\u63d0\u4ef7 20%\u3002\n\nWhy it matters:\nA 20% DRAM hike raises input costs across the AI server supply chain (HBM/DRAM feed GPU systems), and the price-fixing suit signals the memory market is tight enough to draw antitrust scrutiny \u2014 consistent with the memory-shortage side of the AI-capex bubble-stress thesis.\n\n\u5f71\u54cd:\nDRAM \u63d0\u4ef7 20% \u4f1a\u63a8\u9ad8\u6574\u4e2a AI \u670d\u52a1\u5668\u4f9b\u5e94\u94fe\u7684\u6210\u672c\uff08HBM/DRAM \u662f GPU \u7cfb\u7edf\u7684\u5173\u952e\u8f93\u5165\uff09\uff0c\u800c\u4ef7\u683c\u64cd\u7eb5\u8bc9\u8bbc\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7d27\u5f20\u5230\u5f15\u53d1\u53cd\u5784\u65ad\u5173\u6ce8\u2014\u2014\u8fd9\u4e0e AI capex \u6ce1\u6cab\u538b\u529b\u8bba\u4e2d\u7684\u5185\u5b58\u77ed\u7f3a\u4fe1\u53f7\u4e00\u81f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2079,
       "ts": 1783307654,
@@ -2234,46 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:05:47 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\n\nIs OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance piece flags conflicting media narratives about whether OpenAI's IPO process is troubled, with no OpenAI-specific financial figures cited.\n\n\u5185\u5bb9:\nYahoo Finance \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u5a92\u4f53\u5bf9 OpenAI IPO \u8fdb\u7a0b\u662f\u5426\u9677\u5165\u6df7\u4e71\u8bf4\u6cd5\u4e0d\u4e00\uff0c\u62a5\u9053\u672a\u7ed9\u51fa OpenAI \u5177\u4f53\u8d22\u52a1\u6570\u5b57\u3002\n\nWhy it matters:\nThis is background noise, not a burn-rate or filing signal \u2014 it doesn't move C3's HIGH trigger, but persistent IPO-readiness disagreement in the press is itself a soft indicator of funding/governance strain worth watching.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u76d1\u7ba1\u6587\u4ef6\u7c7b\u4fe1\u53f7\uff0c\u4e0d\u4f1a\u89e6\u53d1 C3 \u7684 HIGH \u9608\u503c\uff1b\u4f46\u5a92\u4f53\u5bf9\u5176 IPO \u51c6\u5907\u60c5\u51b5\u6301\u7eed\u5b58\u5728\u5206\u6b67\uff0c\u672c\u8eab\u4e5f\u662f\u503c\u5f97\u5173\u6ce8\u7684\u878d\u8d44/\u6cbb\u7406\u538b\u529b\u8f6f\u6307\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1884,
-      "ts": 1783010668,
-      "ts_str": "2026-07-02 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI discusses 5% government stake ahead of planned IPO - The American Bazaar",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:34:04 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxPajBWM2ltdExld0VESXdPbFJrTzB3R1pGUWZLRFNfbHNpMjhvaGxUMTZnUFpMcDE2MVVvNFNJajhCYzBkU01YckdoQmdGUFhKeTN1YXpGZWxQX0lfb2hqeC1PMXBFeWlCU1UybFo0LWlWVmlMcUlRQlRuMzZiWVFTckZYV0dUT21TUm1CTGpnYlNqa19kbXJ5R0VMYzEzaFotajhQSXVzeHU3U2NW?oc=5\n\nOpenAI discusses 5% government stake ahead of planned IPO - The American Bazaar\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPajBWM2ltdExld0VESXdPbFJrTzB3R1pGUWZLRFNfbHNpMjhvaGxUMTZnUFpMcDE2MVVvNFNJajhCYzBkU01YckdoQmdGUFhKeTN1YXpGZWxQX0lfb2hqeC1PMXBFeWlCU1UybFo0LWlWVmlMcUlRQlRuMzZiWVFTckZYV0dUT21TUm1CTGpnYlNqa19kbXJ5R0VMYzEzaFotajhQSXVzeHU3U2NW?oc=5\" target=\"_blank\">OpenAI discusses 5% government stake ahead of planned IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The American Bazaar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is discussing giving the U.S. government a 5% stake ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cOpenAI \u5728\u7b79\u5212 IPO \u4e4b\u9645\uff0c\u6b63\u8ba8\u8bba\u5411\u7f8e\u56fd\u653f\u5e9c\u8ba9\u6e21 5% \u7684\u80a1\u6743\u3002\n\nWhy it matters:\nAn IPO track signals OpenAI needs a durable capital structure to keep funding compute buildout \u2014 a government equity stake would be an unusual financing/political entanglement that raises questions about how sustainable the current burn rate is without extraordinary backers.\n\n\u5f71\u54cd:\n\u8d70\u5411 IPO \u610f\u5473\u7740 OpenAI \u9700\u8981\u66f4\u7a33\u5b9a\u7684\u8d44\u672c\u7ed3\u6784\u6765\u652f\u6491\u7b97\u529b\u5f00\u652f\uff1b\u653f\u5e9c\u5165\u80a1\u8fd9\u79cd\u4e0d\u5bfb\u5e38\u7684\u878d\u8d44/\u653f\u6cbb\u5b89\u6392\uff0c\u4e5f\u4ece\u4fa7\u9762\u8bf4\u660e\u5f53\u524d\u7684\u70e7\u94b1\u901f\u5ea6\u5982\u679c\u6ca1\u6709\u7279\u6b8a\u80cc\u666f\u7684\u8d44\u91d1\u65b9\u652f\u6301\u53ef\u80fd\u96be\u4ee5\u4e3a\u7ee7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1882,
-      "ts": 1783010105,
-      "ts_str": "2026-07-02 16:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Beijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 14:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1OY0VlaWhqd0xzNGdrTWtMSEtvOUJFLU02N2RjYkIyRURLWEJ1VFVSWTVXeV84djBLQ0ZNY2VFWGROSWt4bU9pc3NqbEZYdUVEcGFwNTdVa3hNUTIyQ2YwNjlFY0ZUbjhoYUZpQ01VZVV6V29HOWc?oc=5\n\nBeijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1OY0VlaWhqd0xzNGdrTWtMSEtvOUJFLU02N2RjYkIyRURLWEJ1VFVSWTVXeV84djBLQ0ZNY2VFWGROSWt4bU9pc3NqbEZYdUVEcGFwNTdVa3hNUTIyQ2YwNjlFY0ZUbjhoYUZpQ01VZVV6V29HOWc?oc=5\" target=\"_blank\">Beijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Beijing Ingenic is signaling continued memory chip price hikes as global DRAM spot prices hit a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053\u79f0\uff0c\u5317\u4eac Ingenic\uff08\u541b\u6b63\uff09\u6301\u7eed\u91ca\u653e\u5185\u5b58\u82af\u7247\u6da8\u4ef7\u4fe1\u53f7\uff0c\u540c\u65f6\u5168\u7403 DRAM \u73b0\u8d27\u4ef7\u683c\u521b\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nRising DRAM spot prices raise input costs for AI server/GPU builds and tighten memory supply industry-wide \u2014 a squeeze that compounds AI-capex cost pressure rather than relieving it, and fits the C6 memory-stress pattern even though this is a price-surge, not a cancellation.\n\n\u5f71\u54cd:\nDRAM \u73b0\u8d27\u4ef7\u683c\u8d70\u9ad8\u4f1a\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u5236\u9020\u7684\u7269\u6599\u6210\u672c\uff0c\u5e76\u6536\u7d27\u5168\u884c\u4e1a\u7684\u5185\u5b58\u4f9b\u7ed9\u2014\u2014\u8fd9\u4f1a\u52a0\u5267\u800c\u975e\u7f13\u89e3 AI capex \u7684\u6210\u672c\u538b\u529b\uff1b\u867d\u7136\u672c\u6761\u662f\u6da8\u4ef7\u800c\u975e\u780d\u5355\u4fe1\u53f7\uff0c\u4f46\u540c\u6837\u7b26\u5408 C6 \u5185\u5b58\u627f\u538b\u7684\u6a21\u5f0f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1880,
-      "ts": 1783008864,
-      "ts_str": "2026-07-02 16:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - 24/7 Wall St.",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:05:47 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDBwRGVacnVDRmljczZ3WTlMdFZwV0FZVm1Yd0ZkTFZ2NmNtZmRkV2JZR2RZcGdYRFZiUzlVVVhUMzZVelBRUW9NMTFrb0p2dXo4TDNRclZqd2VRelJjSFBrVnd6SHA4MTdLQ1Z1ZVFlUTE5UzdJX2RxM001SDU5V2dJdk9ydTRvR01Mb3Y1akVPUV82bnRTQXVTT3NILWJyaTg4cTg5UjlqTC04LV9wQ0xDXzQ?oc=5\n\nIs OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDBwRGVacnVDRmljczZ3WTlMdFZwV0FZVm1Yd0ZkTFZ2NmNtZmRkV2JZR2RZcGdYRFZiUzlVVVhUMzZVelBRUW9NMTFrb0p2dXo4TDNRclZqd2VRelJjSFBrVnd6SHA4MTdLQ1Z1ZVFlUTE5UzdJX2RxM001SDU5V2dJdk9ydTRvR01Mb3Y1akVPUV82bnRTQXVTT3NILWJyaTg4cTg5UjlqTC04LV9wQ0xDXzQ?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA media roundup ('24/7 Wall St.') on whether OpenAI's IPO plans are chaotic or overhyped noise triggered a MED-severity C3 keyword match, with no OpenAI ticker, burn-rate number, or filing data attached.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u5a92\u4f53\u7efc\u8ff0\u6587\u7ae0\uff0824/7 Wall St.\uff09\u8ba8\u8bba OpenAI \u7684 IPO \u8ba1\u5212\u5230\u5e95\u662f\u4e00\u56e2\u7cdf\u8fd8\u662f\u53ea\u662f\u5a92\u4f53\u7092\u4f5c\u566a\u97f3\uff0c\u89e6\u53d1\u4e86 C3 \u7684 MED \u7ea7\u5173\u952e\u8bcd\u5339\u914d\uff0c\u4f46\u6ca1\u6709\u9644\u5e26 OpenAI \u7684 ticker\u3001\u70e7\u94b1\u7387\u6570\u5b57\u6216\u4efb\u4f55\u76d1\u7ba1\u6587\u4ef6\u6570\u636e\u3002\n\nWhy it matters:\nThis is speculative press chatter, not a filing or hard metric \u2014 the bubble-stress thesis needs burn-rate or SEC signals to escalate, so treat this as background noise rather than a confirmed stress point.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5a92\u4f53\u5c42\u9762\u7684\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u5e76\u975e\u76d1\u7ba1\u6587\u4ef6\u6216\u786c\u6570\u636e\u6307\u6807\u2014\u2014\u6ce1\u6cab\u538b\u529b\u5224\u65ad\u9700\u8981\u70e7\u94b1\u7387\u6216 SEC \u5c42\u9762\u7684\u4fe1\u53f7\u624d\u80fd\u5347\u7ea7\uff0c\u56e0\u6b64\u8fd9\u6761\u5e94\u89c6\u4e3a\u80cc\u666f\u566a\u97f3\uff0c\u800c\u975e\u786e\u8ba4\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1881,
-      "ts": 1783008864,
-      "ts_str": "2026-07-02 16:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI offers 5% equity to US government ahead of potential 2027 IPO - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 11:38:57 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXlpSXloSkRQOERnUmdGeHl6ZWVhVXFva1FFb21SVFRyQ0VLdHJQTjVZNDUtWnZtZlZUdGI2bnFHeDdINjFVS0lac3FZTnF6Q2paUmdPWDNndTJTNjVlTXUyQWZoRFMyamxHcGt1TEtjNEh1ekF1bVNOYUxIeTZwZDY1ai1yZm81QlNUVjJnZmNmLXRsT0VxcHpySQ?oc=5\n\nOpenAI offers 5% equity to US government ahead of potential 2027 IPO - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXlpSXloSkRQOERnUmdGeHl6ZWVhVXFva1FFb21SVFRyQ0VLdHJQTjVZNDUtWnZtZlZUdGI2bnFHeDdINjFVS0lac3FZTnF6Q2paUmdPWDNndTJTNjVlTXUyQWZoRFMyamxHcGt1TEtjNEh1ekF1bVNOYUxIeTZwZDY1ai1yZm81QlNUVjJnZmNmLXRsT0VxcHpySQ?oc=5\" target=\"_blank\">OpenAI offers 5% equity to US government ahead of potential 2027 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly offering the US government a 5% equity stake ahead of a potential 2027 IPO.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u6b63\u5411\u7f8e\u56fd\u653f\u5e9c\u63d0\u4f9b 5% \u7684\u80a1\u6743\uff0c\u4e3a 2027 \u5e74\u53ef\u80fd\u7684 IPO \u505a\u94fa\u57ab\u3002\n\nWhy it matters:\nA government equity stake and a firm IPO timeline signal OpenAI is moving toward external capital and public-market scrutiny rather than pure private mega-rounds \u2014 relevant to how sustainable the current AI-capex spending cycle is once outside investors demand visibility into burn rate.\n\n\u5f71\u54cd:\n\u653f\u5e9c\u6301\u80a1\u52a0\u4e0a\u660e\u786e\u7684 IPO \u65f6\u95f4\u8868\uff0c\u610f\u5473\u7740 OpenAI \u6b63\u4ece\u7eaf\u79c1\u52df\u878d\u8d44\u8f6c\u5411\u5f15\u5165\u5916\u90e8\u8d44\u672c\u548c\u516c\u5f00\u5e02\u573a\u76d1\u7763\u3002\u8fd9\u5bf9\u5224\u65ad\u5f53\u524d AI capex \u652f\u51fa\u5468\u671f\u80fd\u5426\u6301\u7eed\u5f88\u91cd\u8981\uff0c\u56e0\u4e3a\u5916\u90e8\u6295\u8d44\u8005\u4f1a\u8981\u6c42\u66f4\u6e05\u6670\u5730\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u3002\n",
       "emailed": false
     }
   ],
