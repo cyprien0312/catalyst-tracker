@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783314124,
-  "generated_at_str": "2026-07-06 05:02:04 UTC",
-  "last_event_ts": 1783313047,
+  "generated_at": 1783314327,
+  "generated_at_str": "2026-07-06 05:05:27 UTC",
+  "last_event_ts": 1783314320,
   "tables": {
     "alerts_dedup": {
-      "count": 2076,
-      "last_ts": 1783308945,
-      "last_str": "2026-07-06 03:35:45 UTC"
+      "count": 2077,
+      "last_ts": 1783314320,
+      "last_str": "2026-07-06 05:05:20 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,19 +64,19 @@
       "last_str": "2026-07-06 02:14:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1711,
-      "last_ts": 1783312502,
-      "last_str": "2026-07-06 04:35:02 UTC"
+      "count": 1714,
+      "last_ts": 1783314302,
+      "last_str": "2026-07-06 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2038,
-      "last_ts": 1783312504,
-      "last_str": "2026-07-06 04:35:04 UTC"
+      "count": 2041,
+      "last_ts": 1783314304,
+      "last_str": "2026-07-06 05:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1339,
-      "last_ts": 1783310708,
-      "last_str": "2026-07-06 04:05:08 UTC"
+      "count": 1342,
+      "last_ts": 1783314303,
+      "last_str": "2026-07-06 05:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1556,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2084,
+      "ts": 1783314320,
+      "ts_str": "2026-07-06 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Q3 DRAM Price Increases to Slow to 13-18% on Consumer Cost Burden - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 04:47:21 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmNucWFtNFRwMHdqeTk3NG1SdlA2Wk1Rby1Tc2JXMTdBaUpiRGZ0WGpYbkpXVlZhcTM4aTR1WE1oUnItb0ZhaXNPN1ZiNmdWaEUxcVczSElKMTdiR3d2Z010QmxCRlhmTENKS3pGQm0yY0Z6T1ZzVThkZHgweE02TmViS1FhdEJ3TDVJMmJLNGlSR2kzWmV4NA?oc=5\n\nQ3 DRAM Price Increases to Slow to 13-18% on Consumer Cost Burden - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmNucWFtNFRwMHdqeTk3NG1SdlA2Wk1Rby1Tc2JXMTdBaUpiRGZ0WGpYbkpXVlZhcTM4aTR1WE1oUnItb0ZhaXNPN1ZiNmdWaEUxcVczSElKMTdiR3d2Z010QmxCRlhmTENKS3pGQm0yY0Z6T1ZzVThkZHgweE02TmViS1FhdEJ3TDVJMmJLNGlSR2kzWmV4NA?oc=5\" target=\"_blank\">Q3 DRAM Price Increases to Slow to 13-18% on Consumer Cost Burden</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seoul Economic Daily report says Q3 DRAM price increases are decelerating to a 13-18% pace, down from the prior quarter's steeper hikes, as consumer buyers push back on cost.\n\n\u5185\u5bb9:\n\u300a\u9996\u5c14\u7ecf\u6d4e\u65e5\u62a5\u300b\u62a5\u9053\u79f0\uff0c\u7b2c\u4e09\u5b63\u5ea6 DRAM \u6da8\u4ef7\u901f\u5ea6\u6b63\u5728\u653e\u7f13\u81f3 13-18%\uff0c\u4f4e\u4e8e\u4e0a\u4e00\u5b63\u5ea6\u7684\u6da8\u5e45\uff0c\u539f\u56e0\u662f\u6d88\u8d39\u7aef\u4e70\u5bb6\u5bf9\u6210\u672c\u538b\u529b\u7684\u62b5\u5236\u3002\n\nWhy it matters:\nMemory pricing has been one of the clearest AI-capex pass-through costs; a slowing hike rate signals demand-side resistance is starting to cap what suppliers can charge, an early crack in the memory-shortage narrative rather than a reversal.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4e00\u76f4\u662f AI capex \u6700\u76f4\u63a5\u7684\u4f20\u5bfc\u6210\u672c\u4e4b\u4e00\uff1b\u6da8\u4ef7\u8282\u594f\u653e\u7f13\u8bf4\u660e\u9700\u6c42\u7aef\u5df2\u7ecf\u5f00\u59cb\u51fa\u73b0\u62b5\u5236\u3001\u9650\u5236\u4e86\u4f9b\u5e94\u5546\u7684\u5b9a\u4ef7\u7a7a\u95f4\uff0c\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u53d9\u4e8b\u51fa\u73b0\u7684\u65e9\u671f\u88c2\u75d5\uff0c\u8fd8\u8c08\u4e0d\u4e0a\u9006\u8f6c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2080,
       "ts": 1783308945,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Beijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 14:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1OY0VlaWhqd0xzNGdrTWtMSEtvOUJFLU02N2RjYkIyRURLWEJ1VFVSWTVXeV84djBLQ0ZNY2VFWGROSWt4bU9pc3NqbEZYdUVEcGFwNTdVa3hNUTIyQ2YwNjlFY0ZUbjhoYUZpQ01VZVV6V29HOWc?oc=5\n\nBeijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1OY0VlaWhqd0xzNGdrTWtMSEtvOUJFLU02N2RjYkIyRURLWEJ1VFVSWTVXeV84djBLQ0ZNY2VFWGROSWt4bU9pc3NqbEZYdUVEcGFwNTdVa3hNUTIyQ2YwNjlFY0ZUbjhoYUZpQ01VZVV6V29HOWc?oc=5\" target=\"_blank\">Beijing Ingenic Signals Continued Memory Chip Price Hikes as Global DRAM Spot Prices Hit Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Beijing Ingenic is signaling continued memory chip price hikes as global DRAM spot prices hit a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053\u79f0\uff0c\u5317\u4eac Ingenic\uff08\u541b\u6b63\uff09\u6301\u7eed\u91ca\u653e\u5185\u5b58\u82af\u7247\u6da8\u4ef7\u4fe1\u53f7\uff0c\u540c\u65f6\u5168\u7403 DRAM \u73b0\u8d27\u4ef7\u683c\u521b\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nRising DRAM spot prices raise input costs for AI server/GPU builds and tighten memory supply industry-wide \u2014 a squeeze that compounds AI-capex cost pressure rather than relieving it, and fits the C6 memory-stress pattern even though this is a price-surge, not a cancellation.\n\n\u5f71\u54cd:\nDRAM \u73b0\u8d27\u4ef7\u683c\u8d70\u9ad8\u4f1a\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u5236\u9020\u7684\u7269\u6599\u6210\u672c\uff0c\u5e76\u6536\u7d27\u5168\u884c\u4e1a\u7684\u5185\u5b58\u4f9b\u7ed9\u2014\u2014\u8fd9\u4f1a\u52a0\u5267\u800c\u975e\u7f13\u89e3 AI capex \u7684\u6210\u672c\u538b\u529b\uff1b\u867d\u7136\u672c\u6761\u662f\u6da8\u4ef7\u800c\u975e\u780d\u5355\u4fe1\u53f7\uff0c\u4f46\u540c\u6837\u7b26\u5408 C6 \u5185\u5b58\u627f\u538b\u7684\u6a21\u5f0f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1883,
-      "ts": 1783010668,
-      "ts_str": "2026-07-02 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 02 Jul 2026 16:05:47 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\n\nIs OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNTDhzeU91dS1ya3lTRnZ0OTBIMnVuT0hQR3BOaHhNNTY0NVZNY0ExR1pZQnVTRDlwNEMwbEN1bzJaanRKNmlLZnJDZHpHVWhHemdjU25fZXRaVTNtbjExQ3ZkUzN6SkNLZmlOcHktekdsQ2gyM0dYMk04Y0J4bnJPYUx5Q3BKWndLYlppX19LdnJYQQ?oc=5\" target=\"_blank\">Is OpenAI\u2019s IPO a Hot Mess or Just Media Noise? Two Reporters Can\u2019t Agree</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Finance piece flags conflicting media narratives about whether OpenAI's IPO process is troubled, with no OpenAI-specific financial figures cited.\n\n\u5185\u5bb9:\nYahoo Finance \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u5a92\u4f53\u5bf9 OpenAI IPO \u8fdb\u7a0b\u662f\u5426\u9677\u5165\u6df7\u4e71\u8bf4\u6cd5\u4e0d\u4e00\uff0c\u62a5\u9053\u672a\u7ed9\u51fa OpenAI \u5177\u4f53\u8d22\u52a1\u6570\u5b57\u3002\n\nWhy it matters:\nThis is background noise, not a burn-rate or filing signal \u2014 it doesn't move C3's HIGH trigger, but persistent IPO-readiness disagreement in the press is itself a soft indicator of funding/governance strain worth watching.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u76d1\u7ba1\u6587\u4ef6\u7c7b\u4fe1\u53f7\uff0c\u4e0d\u4f1a\u89e6\u53d1 C3 \u7684 HIGH \u9608\u503c\uff1b\u4f46\u5a92\u4f53\u5bf9\u5176 IPO \u51c6\u5907\u60c5\u51b5\u6301\u7eed\u5b58\u5728\u5206\u6b67\uff0c\u672c\u8eab\u4e5f\u662f\u503c\u5f97\u5173\u6ce8\u7684\u878d\u8d44/\u6cbb\u7406\u538b\u529b\u8f6f\u6307\u6807\u3002\n",
       "emailed": false
     }
   ],
