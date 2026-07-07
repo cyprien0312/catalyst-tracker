@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783467124,
-  "generated_at_str": "2026-07-07 23:32:04 UTC",
-  "last_event_ts": 1783466043,
+  "generated_at": 1783467313,
+  "generated_at_str": "2026-07-07 23:35:13 UTC",
+  "last_event_ts": 1783467312,
   "tables": {
     "alerts_dedup": {
-      "count": 2159,
-      "last_ts": 1783463382,
-      "last_str": "2026-07-07 22:29:42 UTC"
+      "count": 2160,
+      "last_ts": 1783467312,
+      "last_str": "2026-07-07 23:35:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-07 21:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1828,
-      "last_ts": 1783465502,
-      "last_str": "2026-07-07 23:05:02 UTC"
+      "count": 1830,
+      "last_ts": 1783467301,
+      "last_str": "2026-07-07 23:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2184,
-      "last_ts": 1783465503,
-      "last_str": "2026-07-07 23:05:03 UTC"
+      "count": 2186,
+      "last_ts": 1783467302,
+      "last_str": "2026-07-07 23:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1439,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2167,
+      "ts": 1783467312,
+      "ts_str": "2026-07-07 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Morgan Stanley Insights: Raises memory price forecasts, but near-term momentum may weaken - \u5bcc\u9014\u725b\u725b",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 06:34:00 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3hoNGI1Um1WX2Voa0hiZnNWblhFNDFOWVc0b0ZMSWlwTThsLTVMQk1pQ1puaUQ0YlFyWFNjX3VJckpHLUd3aU1mZHJQQVVpcXlpampQRmpQUjZzZEpRcldqUDVGdDVJS0JuNG5QcEp3MjVlLXI3LUU2ek1yTnN5VXR6UkFrWGJaYjh5dmZfQnhkcndqeXFoc0dpZGNwZ0w3MmphTVhDcFpQWHcz?oc=5\n\nMorgan Stanley Insights: Raises memory price forecasts, but near-term momentum may weaken - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNN3hoNGI1Um1WX2Voa0hiZnNWblhFNDFOWVc0b0ZMSWlwTThsLTVMQk1pQ1puaUQ0YlFyWFNjX3VJckpHLUd3aU1mZHJQQVVpcXlpampQRmpQUjZzZEpRcldqUDVGdDVJS0JuNG5QcEp3MjVlLXI3LUU2ek1yTnN5VXR6UkFrWGJaYjh5dmZfQnhkcndqeXFoc0dpZGNwZ0w3MmphTVhDcFpQWHcz?oc=5\" target=\"_blank\">Morgan Stanley Insights: Raises memory price forecasts, but near-term momentum may weaken</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline from Morgan Stanley raises memory price forecasts but flags weakening near-term momentum, with no ticker or numeric detail specified.\n\n\u5185\u5bb9:\nMorgan Stanley \u7684\u4e00\u5219 RSS \u6807\u9898\u4e0a\u8c03\u4e86\u5185\u5b58\u4ef7\u683c\u9884\u6d4b\uff0c\u4f46\u540c\u65f6\u8b66\u544a\u8fd1\u671f\u4e0a\u6da8\u52a8\u80fd\u53ef\u80fd\u51cf\u5f31\uff0c\u672a\u7ed9\u51fa\u5177\u4f53 ticker \u6216\u6570\u5b57\u7ec6\u8282\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) pricing is a direct input cost for AI accelerators; a forecast raise paired with a momentum warning signals the memory-supply tightness underpinning AI capex could be peaking, an early tell for margin compression across the hyperscaler build-out chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u662f AI \u52a0\u901f\u5361\u7684\u76f4\u63a5\u6210\u672c\u9879\uff1b\u4ef7\u683c\u9884\u6d4b\u4e0a\u8c03\u5374\u4f34\u968f\u52a8\u80fd\u51cf\u5f31\u7684\u8b66\u544a\uff0c\u6697\u793a\u652f\u6491 AI capex \u7684\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u53ef\u80fd\u5df2\u63a5\u8fd1\u9876\u70b9\uff0c\u8fd9\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa\u8bbe\u94fe\u6761\u5229\u6da6\u7387\u627f\u538b\u7684\u65e9\u671f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2166,
       "ts": 1783463382,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities - KuCoin",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 05:22:44 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHJ3c29nUFpJVjhTY0RoUFZ4QkRVU3JXbzJvNHhnc25JMGp1TFRNVmFla09xLVhIcXRMcXBuOVB2YmJrWk40SWZaajJqNG5tRTVDX2p5MklZSWJURXAzZE1zX28tN2V6cVRJczVWRlBqYlcwbUxITVIyQUV0NkhLVE1VS2JEMFE5Y19oRDJSVGd3dVN2REw5ZUFFcmdfWWdEUHdMbUI5T3RldjY1?oc=5\n\nOpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHJ3c29nUFpJVjhTY0RoUFZ4QkRVU3JXbzJvNHhnc25JMGp1TFRNVmFla09xLVhIcXRMcXBuOVB2YmJrWk40SWZaajJqNG5tRTVDX2p5MklZSWJURXAzZE1zX28tN2V6cVRJczVWRlBqYlcwbUxITVIyQUV0NkhLVE1VS2JEMFE5Y19oRDJSVGd3dVN2REw5ZUFFcmdfWWdEUHdMbUI5T3RldjY1?oc=5\" target=\"_blank\">OpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews aggregators report OpenAI has filed for an IPO, per a KuCoin-sourced item picked up by Google News RSS.\n\n\u5185\u5bb9:\n\u591a\u5bb6\u65b0\u95fb\u805a\u5408\u5e73\u53f0\uff08\u7ecf KuCoin \u8f6c\u8f7d\u3001Google News RSS \u6293\u53d6\uff09\u62a5\u9053 OpenAI \u5df2\u63d0\u4ea4 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the single biggest AI-capex liquidity event yet \u2014 it forces public-market scrutiny of burn rate and unit economics that private funding rounds have avoided, and a weak reception would be a hard signal against the AI-capex thesis.\n\n\u5f71\u54cd:\nOpenAI \u82e5\u771f\u7684 IPO\uff0c\u5c06\u662f\u8fc4\u4eca\u4e3a\u6b62 AI capex \u9886\u57df\u6700\u5927\u7684\u4e00\u6b21\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5b83\u4f1a\u628a\u6b64\u524d\u79c1\u52df\u8f6e\u878d\u8d44\u5f97\u4ee5\u56de\u907f\u7684\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u76f4\u63a5\u66b4\u9732\u5728\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u4e4b\u4e0b\uff0c\u82e5\u5e02\u573a\u53cd\u5e94\u51b7\u6de1\uff0c\u5c06\u662f\u5bf9 AI capex \u53d9\u4e8b\u7684\u4e00\u6b21\u6709\u529b\u5229\u7a7a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1966,
-      "ts": 1783154123,
-      "ts_str": "2026-07-04 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\n\nMedia: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\" target=\"_blank\">Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ixbt.games</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung has reportedly raised memory (DRAM/NAND) prices again, per media reports, with PCs and smartphones cited as downstream products under pressure.\n\n\u5185\u5bb9:\n\u636e\u5a92\u4f53\u62a5\u9053\uff0cSamsung \u518d\u6b21\u4e0a\u8c03\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\uff0cPC \u548c\u667a\u80fd\u624b\u673a\u7b49\u4e0b\u6e38\u4ea7\u54c1\u88ab\u6307\u5c06\u627f\u538b\u3002\n\nWhy it matters:\nRising memory prices are the mirror image of the oversupply/order-cancellation signals C6 also watches \u2014 here it points to tight supply, likely from memory capacity being diverted to HBM for AI accelerators. Squeezes margins for consumer-device makers and is a tell that AI demand is crowding out commodity memory supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4e0e C6 \u76d1\u6d4b\u7684\u53e6\u4e00\u7c7b\u4fe1\u53f7\uff08\u4f9b\u8fc7\u4e8e\u6c42/\u8ba2\u5355\u53d6\u6d88\uff09\u6b63\u597d\u76f8\u53cd\uff0c\u8fd9\u91cc\u6307\u5411\u7684\u662f\u4f9b\u7ed9\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f\u5185\u5b58\u4ea7\u80fd\u88ab\u632a\u53bb\u751f\u4ea7 AI \u52a0\u901f\u5668\u7528\u7684 HBM\u3002\u8fd9\u4f1a\u6324\u538b\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5229\u6da6\uff0c\u4e5f\u8bf4\u660e AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u4f20\u7edf\u5185\u5b58\u7684\u5546\u54c1\u5316\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],
