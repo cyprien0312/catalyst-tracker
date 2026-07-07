@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783463182,
-  "generated_at_str": "2026-07-07 22:26:22 UTC",
-  "last_event_ts": 1783462442,
+  "generated_at": 1783463383,
+  "generated_at_str": "2026-07-07 22:29:43 UTC",
+  "last_event_ts": 1783463382,
   "tables": {
     "alerts_dedup": {
-      "count": 2158,
-      "last_ts": 1783448056,
-      "last_str": "2026-07-07 18:14:16 UTC"
+      "count": 2159,
+      "last_ts": 1783463382,
+      "last_str": "2026-07-07 22:29:42 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 9,
-      "last_ts": 1783376942,
-      "last_str": "2026-07-06 22:29:02 UTC"
+      "count": 10,
+      "last_ts": 1783463342,
+      "last_str": "2026-07-07 22:29:02 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2166,
+      "ts": 1783463382,
+      "ts_str": "2026-07-07 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.24% (+52bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-06\nCurrent:  2.24%\n90d low:  1.72%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield jumped to 2.24% on 2026-07-06, up 0.52pp from its trailing 90-day low of 1.72%.\n\n\u5185\u5bb9:\n10\u5e74\u671fTIPS\u5b9e\u9645\u6536\u76ca\u7387\u57282026-07-06\u5347\u81f32.24%\uff0c\u8f83\u8fc7\u53bb90\u5929\u4f4e\u70b91.72%\u4e0a\u5347\u4e860.52\u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 a fast spike like this pressures the same high-multiple, capex-heavy names the bubble-stress thesis is watching, and pairs with a stronger dollar as a tightening signal.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u5feb\u901f\u4e0a\u5347\u4f1a\u63d0\u9ad8\u5bf9AI\u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u91d1\u878d\u73af\u5883\u2014\u2014\u8fd9\u7c7b\u6025\u901f\u98d9\u5347\u4f1a\u7ed9\u9ad8\u4f30\u503c\u3001\u91cd\u8d44\u672c\u5f00\u652f\u7684\u516c\u53f8\u5e26\u6765\u538b\u529b\uff0c\u4e5f\u5f80\u5f80\u4e0e\u7f8e\u5143\u8d70\u5f3a\u4e00\u8d77\u6784\u6210\u6536\u7d27\u4fe1\u53f7\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2165,
       "ts": 1783448056,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:21:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\n\nMedia: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat - ixbt.games\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajJHUkZsQlVHd19vaksyNGMxbzYwb25WQWx6d3VKS0JZbHFIeHJIOXRiN0RuZW96d2w0d2FzbTBPWVU1U0cwMENOMmtROTRxQTZRc2hlWVBPbEphZm16Y3hIbFRlVlgySUxWV2hjM0FKMENFWi1KWlRuRGdKWFd0SWFWazdra1FnTzctT3ZVWEJwU1VHUnN6NDNUR29tWEpDQVVyNGpseVptamNudUVGYkgxLUFTNnU0c1U00gHAAUFVX3lxTE9oMkcyTXhHMHBTRnVRZmxWeUNKVEJ1Q0FhOThKY25uSFM3dGN2VkpjdVNoU3FhQ3pyc3NyNElKMGFPRHlPeDJqNVpLR0hyZUM4UGlvSWpxRFFCLVB2eHlKWHNOaW9ISmFVY2FHajA5RksxOG9vRDk5NkxFcWdwTDZFc1o3X3R3TG5nS1RYV095NnE4OUM3Z083TEN4eE1BUHFuX2VEekRKRFN3c3JlcC1xWWpmLVBxUUotYWVyeUNlZQ?oc=5\" target=\"_blank\">Media: Samsung Raises Memory Prices Again - PCs and Smartphones Under Threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ixbt.games</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung has reportedly raised memory (DRAM/NAND) prices again, per media reports, with PCs and smartphones cited as downstream products under pressure.\n\n\u5185\u5bb9:\n\u636e\u5a92\u4f53\u62a5\u9053\uff0cSamsung \u518d\u6b21\u4e0a\u8c03\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\uff0cPC \u548c\u667a\u80fd\u624b\u673a\u7b49\u4e0b\u6e38\u4ea7\u54c1\u88ab\u6307\u5c06\u627f\u538b\u3002\n\nWhy it matters:\nRising memory prices are the mirror image of the oversupply/order-cancellation signals C6 also watches \u2014 here it points to tight supply, likely from memory capacity being diverted to HBM for AI accelerators. Squeezes margins for consumer-device makers and is a tell that AI demand is crowding out commodity memory supply.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4e0e C6 \u76d1\u6d4b\u7684\u53e6\u4e00\u7c7b\u4fe1\u53f7\uff08\u4f9b\u8fc7\u4e8e\u6c42/\u8ba2\u5355\u53d6\u6d88\uff09\u6b63\u597d\u76f8\u53cd\uff0c\u8fd9\u91cc\u6307\u5411\u7684\u662f\u4f9b\u7ed9\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f\u5185\u5b58\u4ea7\u80fd\u88ab\u632a\u53bb\u751f\u4ea7 AI \u52a0\u901f\u5668\u7528\u7684 HBM\u3002\u8fd9\u4f1a\u6324\u538b\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5229\u6da6\uff0c\u4e5f\u8bf4\u660e AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u4f20\u7edf\u5185\u5b58\u7684\u5546\u54c1\u5316\u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1967,
-      "ts": 1783154123,
-      "ts_str": "2026-07-04 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027 - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 04:57:09 GMT\nLink:      https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVXd1ZzdiZzR3anUtWnBqaWY0akVDQlFycHd0M1lLNGF0a00xd0w5TXNZNmhVWnprM1BYU1JWbkpDTXRkM2dPM0VXNjEyZGtHNnRoeUhCbDVhUjJDUm8tU3NtSmNxblczTEoyU2szdGlqZklNV1RjZldtaEozR2hxZ2ZsUnBzcFVDN2RZMC1FRUlTVlBGNmhGMVllOWZKc0N1aXFqa0JUNy1lcFFvQTRjN3Z1a2tIWkhEUC16NVR2MlNHM21Ua0xCeVoyM3VHS0hLZlRFc0NZS2JZMWhBQ0VLdkNCYm9OLVAwMU1XUWNLd2J2bE1XMkpLallDNA?oc=5\n\nMicron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027 - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVXd1ZzdiZzR3anUtWnBqaWY0akVDQlFycHd0M1lLNGF0a00xd0w5TXNZNmhVWnprM1BYU1JWbkpDTXRkM2dPM0VXNjEyZGtHNnRoeUhCbDVhUjJDUm8tU3NtSmNxblczTEoyU2szdGlqZklNV1RjZldtaEozR2hxZ2ZsUnBzcFVDN2RZMC1FRUlTVlBGNmhGMVllOWZKc0N1aXFqa0JUNy1lcFFvQTRjN3Z1a2tIWkhEUC16NVR2MlNHM21Ua0xCeVoyM3VHS0hLZlRFc0NZS2JZMWhBQ0VLdkNCYm9OLVAwMU1XUWNLd2J2bE1XMkpLallDNA?oc=5\" target=\"_blank\">Micron CEO Sanjay Mehrotra tells Jim Cramer memory chip shortage will persist beyond 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron CEO Sanjay Mehrotra told CNBC's Jim Cramer that the current memory chip shortage will persist beyond 2027.\n\n\u5185\u5bb9:\nMicron CEO Sanjay Mehrotra \u5728\u63a5\u53d7 Jim Cramer \u91c7\u8bbf\u65f6\u8868\u793a\uff0c\u5f53\u524d\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\u4ee5\u540e\u3002\n\nWhy it matters:\nA multi-year shortage call from the leading DRAM/NAND supplier signals structural, not cyclical, tightness \u2014 AI accelerators and HBM are absorbing capacity that would otherwise ease general memory pricing, keeping input costs elevated for every downstream AI-infra buyer.\n\n\u5f71\u54cd:\n\u884c\u4e1a\u9f99\u5934\u7ed9\u51fa\u8de8\u8d8a\u591a\u5e74\u7684\u77ed\u7f3a\u9884\u671f\uff0c\u8bf4\u660e\u8fd9\u4e0d\u662f\u5468\u671f\u6027\u7d27\u5f20\uff0c\u800c\u662f\u7ed3\u6784\u6027\u7684\u2014\u2014AI \u52a0\u901f\u5361\u548c HBM \u5360\u7528\u4e86\u672c\u8be5\u7f13\u89e3\u901a\u7528\u5185\u5b58\u4ef7\u683c\u7684\u4ea7\u80fd\uff0c\u5bfc\u81f4\u4e0b\u6e38\u6240\u6709 AI \u57fa\u7840\u8bbe\u65bd\u4e70\u5bb6\u7684\u6210\u672c\u6301\u7eed\u7ef4\u6301\u9ad8\u4f4d\u3002\n",
       "emailed": false
     }
   ],
