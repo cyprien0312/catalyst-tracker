@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783492325,
-  "generated_at_str": "2026-07-08 06:32:05 UTC",
-  "last_event_ts": 1783491247,
+  "generated_at": 1783492508,
+  "generated_at_str": "2026-07-08 06:35:08 UTC",
+  "last_event_ts": 1783492507,
   "tables": {
     "alerts_dedup": {
-      "count": 2167,
-      "last_ts": 1783488906,
-      "last_str": "2026-07-08 05:35:06 UTC"
+      "count": 2168,
+      "last_ts": 1783492507,
+      "last_str": "2026-07-08 06:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-08 04:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1854,
-      "last_ts": 1783490701,
-      "last_str": "2026-07-08 06:05:01 UTC"
+      "count": 1856,
+      "last_ts": 1783492502,
+      "last_str": "2026-07-08 06:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2224,
-      "last_ts": 1783490703,
-      "last_str": "2026-07-08 06:05:03 UTC"
+      "count": 2226,
+      "last_ts": 1783492504,
+      "last_str": "2026-07-08 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1472,
-      "last_ts": 1783490702,
-      "last_str": "2026-07-08 06:05:02 UTC"
+      "count": 1475,
+      "last_ts": 1783492503,
+      "last_str": "2026-07-08 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1681,
-      "last_ts": 1783490704,
-      "last_str": "2026-07-08 06:05:04 UTC"
+      "count": 1683,
+      "last_ts": 1783492505,
+      "last_str": "2026-07-08 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14334,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2175,
+      "ts": 1783492507,
+      "ts_str": "2026-07-08 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 04:35:23 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2174,
       "ts": 1783488906,
@@ -2265,16 +2275,6 @@
       "subject": "[C3-CRITICAL] Meta Admits AI Restructuring Fell Short as Zuckerberg Bets on Next-Generation Models to Close Gap With OpenAI - Tekedia",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 06:42:57 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWpOa3ZzTEd6MlVvd2N3cnNkTnlaeXBSYzJXUjlwb280UENEWVVjMEVYVXVVX3BiNDRmc3ZWendkc3BrLURvVHVOUVpCc1JoYTc5UWIxcmVXY2xMdXhVcWhxMXN2WmFhcUc3R3hVenBfUFAxN2MyaXJrd0ZDb0RYb0VpcWgxU0VPQUtucmlmTndWODRfeFlVOTlyZHZGbDNCUEdpMUk5elcyR0RWUEtxd1hleUdzSnJrM3BUSFM5eW1KSng5LXF0SFJ3cjlyRkU?oc=5\n\nMeta Admits AI Restructuring Fell Short as Zuckerberg Bets on Next-Generation Models to Close Gap With OpenAI - Tekedia\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOVWpOa3ZzTEd6MlVvd2N3cnNkTnlaeXBSYzJXUjlwb280UENEWVVjMEVYVXVVX3BiNDRmc3ZWendkc3BrLURvVHVOUVpCc1JoYTc5UWIxcmVXY2xMdXhVcWhxMXN2WmFhcUc3R3hVenBfUFAxN2MyaXJrd0ZDb0RYb0VpcWgxU0VPQUtucmlmTndWODRfeFlVOTlyZHZGbDNCUEdpMUk5elcyR0RWUEtxd1hleUdzSnJrM3BUSFM5eW1KSng5LXF0SFJ3cjlyRkU?oc=5\" target=\"_blank\">Meta Admits AI Restructuring Fell Short as Zuckerberg Bets on Next-Generation Models to Close Gap With OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tekedia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMeta publicly admitted its AI reorganization has not closed the capability gap with OpenAI, and is now betting on next-generation models instead.\n\n\u5185\u5bb9:\nMeta \u516c\u5f00\u627f\u8ba4\u5176 AI \u91cd\u7ec4\u672a\u80fd\u7f29\u5c0f\u4e0e OpenAI \u7684\u80fd\u529b\u5dee\u8ddd\uff0c\u73b0\u5728\u5bc4\u671b\u4e8e\u4e0b\u4e00\u4ee3\u6a21\u578b\u6765\u8ffd\u8d76\u3002\n\nWhy it matters:\nA hyperscaler conceding it's losing the AI race despite heavy restructuring and spend signals wasted capex and competitive pressure to spend even more just to catch up \u2014 a double negative for the capex-payback thesis.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u627f\u8ba4\uff0c\u5c3d\u7ba1\u8fdb\u884c\u4e86\u5927\u89c4\u6a21\u91cd\u7ec4\u548c\u652f\u51fa\uff0cAI \u7ade\u8d5b\u4ecd\u5904\u4e8e\u843d\u540e\u4f4d\u7f6e\uff0c\u8fd9\u610f\u5473\u7740\u6b64\u524d\u7684\u8d44\u672c\u5f00\u652f\u6548\u679c\u4e0d\u4f73\uff0c\u4e14\u4e3a\u4e86\u8ffd\u8d76\u8fd8\u9700\u8981\u6295\u5165\u66f4\u591a\u2014\u2014\u5bf9 AI capex \u56de\u672c\u903b\u8f91\u662f\u53cc\u91cd\u5229\u7a7a\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 1975,
-      "ts": 1783160055,
-      "ts_str": "2026-07-04 10:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] How to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money] - \uc544\uc2dc\uc544\uacbd\uc81c",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:53:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9QMU1hU3lwaXFDb3ZISnBsOGp2UGtzNmd4Q05admNCNHJMbzZYNmlXSURtZzRsc3duNzNFSEVSeHJzd1ZPY3pKV1ZnSkpNb19HSWlVYmpMRDVkNmhpOW9POTlzcFBRLXlSMkE1ZGQtRGFteGVJNkpNWkxsUmU?oc=5\n\nHow to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money] - \uc544\uc2dc\uc544\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9QMU1hU3lwaXFDb3ZISnBsOGp2UGtzNmd4Q05admNCNHJMbzZYNmlXSURtZzRsc3duNzNFSEVSeHJzd1ZPY3pKV1ZnSkpNb19HSWlVYmpMRDVkNmhpOW9POTlzcFBRLXlSMkE1ZGQtRGFteGVJNkpNWkxsUmU?oc=5\" target=\"_blank\">How to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc544\uc2dc\uc544\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean financial outlet (\uc544\uc2dc\uc544\uacbd\uc81c) ran a weekend piece on how retail investors can gain exposure to pre-IPO Anthropic and OpenAI shares.\n\n\u5185\u5bb9:\n\u97e9\u56fd\u8d22\u7ecf\u5a92\u4f53\u4e9a\u6d32\u7ecf\u6d4e\uff08\uc544\uc2dc\uc544\uacbd\uc81c\uff09\u53d1\u5e03\u5468\u672b\u6587\u7ae0\uff0c\u4ecb\u7ecd\u6563\u6237\u6295\u8d44\u8005\u5982\u4f55\u53c2\u4e0e Anthropic \u548c OpenAI \u7684 Pre-IPO \u80a1\u4efd\u3002\n\nWhy it matters:\nRetail-facing 'how to buy pre-IPO OpenAI/Anthropic' coverage signals late-cycle retail FOMO reaching private AI labs \u2014 a sentiment indicator, not a fundamental one, but it fits the pattern of speculative interest broadening just as capex-funding stress builds elsewhere in the thesis.\n\n\u5f71\u54cd:\n\u9762\u5411\u6563\u6237\u7684\"\u5982\u4f55\u8d2d\u4e70 OpenAI/Anthropic \u672a\u4e0a\u5e02\u80a1\u4efd\"\u62a5\u9053\uff0c\u8bf4\u660e\u6563\u6237\u7684 FOMO \u60c5\u7eea\u5df2\u7ecf\u8513\u5ef6\u5230\u79c1\u52df AI \u5b9e\u9a8c\u5ba4\u2014\u2014\u8fd9\u662f\u60c5\u7eea\u6307\u6807\u800c\u975e\u57fa\u672c\u9762\u6307\u6807\uff0c\u4f46\u5b83\u4e0e\u5176\u4ed6\u4fe1\u53f7\u663e\u793a\u7684\u878d\u8d44\u538b\u529b\u5f62\u6210\u547c\u5e94\uff0c\u7b26\u5408\u6295\u673a\u70ed\u5ea6\u5728\u5468\u671f\u665a\u671f\u6269\u6563\u7684\u6a21\u5f0f\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
