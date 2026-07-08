@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783486927,
-  "generated_at_str": "2026-07-08 05:02:07 UTC",
-  "last_event_ts": 1783485843,
+  "generated_at": 1783487120,
+  "generated_at_str": "2026-07-08 05:05:20 UTC",
+  "last_event_ts": 1783487119,
   "tables": {
     "alerts_dedup": {
-      "count": 2165,
-      "last_ts": 1783482262,
-      "last_str": "2026-07-08 03:44:22 UTC"
+      "count": 2166,
+      "last_ts": 1783487119,
+      "last_str": "2026-07-08 05:05:19 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,24 +64,24 @@
       "last_str": "2026-07-08 04:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1848,
-      "last_ts": 1783485302,
-      "last_str": "2026-07-08 04:35:02 UTC"
+      "count": 1850,
+      "last_ts": 1783487107,
+      "last_str": "2026-07-08 05:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2212,
-      "last_ts": 1783485303,
-      "last_str": "2026-07-08 04:35:03 UTC"
+      "count": 2218,
+      "last_ts": 1783487109,
+      "last_str": "2026-07-08 05:05:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1463,
-      "last_ts": 1783485303,
-      "last_str": "2026-07-08 04:35:03 UTC"
+      "count": 1464,
+      "last_ts": 1783487108,
+      "last_str": "2026-07-08 05:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1679,
-      "last_ts": 1783483505,
-      "last_str": "2026-07-08 04:05:05 UTC"
+      "count": 1680,
+      "last_ts": 1783487110,
+      "last_str": "2026-07-08 05:05:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14304,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2173,
+      "ts": 1783487119,
+      "ts_str": "2026-07-08 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung plans to raise DRAM prices by 20% in Q3: report - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 23:41:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcTZDdGlYNnc1TUVMbjd5TFNTOVoza3BKYTE0SExsdnBXNjZIRFRJU3lUajJvdzdJQmxjVlppbjlsX1BSb2tUNlhWN0lRNGFLOFFjRHJ2eWhTLVV2VXltdGhCOENqSGptcmJZNXN1ZTBvejhYRnd4emowMEZxSmR1dy1Pa3dFNGlBaHYwQ2Y2Q2R4MFlKcDJZNVdCWS1KeDU5dlczaUljNUZ3S1FsRnZGVVZfUFBRRUFzMHRXVVlvTG16VF9GQURpeUhGOHJicHczXzNMekRzZkFGVTB0SnpQYVZPd1VoMjN3VWN6Z2xiTDlCS0NHckJ2aUdUOXAybmhreTAydWw1RWJaM1JKRHMzM0F1d2ZQdUxuTUQtUjlDZDNJYmJrM3RTYzV1VVJTSGViT1VUVFNSaHhfN09BeDFiWlh3?oc=5\n\nSamsung plans to raise DRAM prices by 20% in Q3: report - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcTZDdGlYNnc1TUVMbjd5TFNTOVoza3BKYTE0SExsdnBXNjZIRFRJU3lUajJvdzdJQmxjVlppbjlsX1BSb2tUNlhWN0lRNGFLOFFjRHJ2eWhTLVV2VXltdGhCOENqSGptcmJZNXN1ZTBvejhYRnd4emowMEZxSmR1dy1Pa3dFNGlBaHYwQ2Y2Q2R4MFlKcDJZNVdCWS1KeDU5dlczaUljNUZ3S1FsRnZGVVZfUFBRRUFzMHRXVVlvTG16VF9GQURpeUhGOHJicHczXzNMekRzZkFGVTB0SnpQYVZPd1VoMjN3VWN6Z2xiTDlCS0NHckJ2aUdUOXAybmhreTAydWw1RWJaM1JKRHMzM0F1d2ZQdUxuTUQtUjlDZDNJYmJrM3RTYzV1VVJTSGViT1VUVFNSaHhfN09BeDFiWlh3?oc=5\" target=\"_blank\">Samsung plans to raise DRAM prices by 20% in Q3: report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports Samsung plans to raise DRAM prices by 20% in Q3.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u62a5\u9053\u79f0\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory pricing power reversing to the upside after a prolonged glut signals tightening AI-server component supply (HBM/DRAM capacity is being reallocated to AI parts), raising build costs for hyperscalers and squeezing GPU-server margins further up the stack.\n\n\u5f71\u54cd:\n\u5728\u7ecf\u5386\u957f\u671f\u4f9b\u8fc7\u4e8e\u6c42\u540e\u5185\u5b58\u5b9a\u4ef7\u6743\u8f6c\u5411\u4e0a\u884c\uff0c\u6697\u793a AI \u670d\u52a1\u5668\u6240\u9700\u7684\u5b58\u50a8\u4ea7\u80fd\uff08HBM/DRAM\uff09\u6b63\u88ab\u4f18\u5148\u8c03\u914d\u7ed9 AI \u82af\u7247\uff0c\u8fd9\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u5e76\u8fdb\u4e00\u6b65\u538b\u7f29 GPU \u670d\u52a1\u5668\u4e0a\u6e38\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2172,
       "ts": 1783482262,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung said to seek up to 20% DRAM price hike in third quarter - Aju Press",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:44:51 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0b9IBV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0bw?oc=5\n\nSamsung said to seek up to 20% DRAM price hike in third quarter - Aju Press\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0b9IBV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0bw?oc=5\" target=\"_blank\">Samsung said to seek up to 20% DRAM price hike in third quarter</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aju Press</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly seeking a DRAM price hike of up to 20% for Q3.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u6b63\u5bfb\u6c42\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\u3002\n\nWhy it matters:\nA sharp DRAM price hike signals tightening memory supply, likely tied to HBM capacity being diverted to AI accelerators \u2014 squeezing margins for downstream server/device makers and adding to broader AI-hardware cost inflation.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u8c03\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u6b63\u5728\u6536\u7d27\uff0c\u5f88\u53ef\u80fd\u4e0e HBM \u4ea7\u80fd\u88ab\u6324\u5360\u7528\u4e8e AI \u52a0\u901f\u5668\u6709\u5173\u2014\u2014\u8fd9\u4f1a\u538b\u7f29\u4e0b\u6e38\u670d\u52a1\u5668/\u8bbe\u5907\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u5e76\u52a0\u5267\u6574\u4f53 AI \u786c\u4ef6\u7684\u6210\u672c\u901a\u80c0\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1973,
-      "ts": 1783159519,
-      "ts_str": "2026-07-04 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung said to seek up to 20% DRAM price hike in third quarter - Aju Press",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:44:51 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0b9IBV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0bw?oc=5\n\nSamsung said to seek up to 20% DRAM price hike in third quarter - Aju Press\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0b9IBV0FVX3lxTE8tblVSQVY5bTdBRE9uYUpJYWJieVhUYlJJR3V1NUowOUo5WUlNNHBWVWJWZmlDTDVYN29LY0dJRWNST2hnUFdHSkJmOWxwb2tjXzNvR2t0bw?oc=5\" target=\"_blank\">Samsung said to seek up to 20% DRAM price hike in third quarter</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aju Press</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly seeking a DRAM price hike of up to 20% for Q3.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u6b63\u5bfb\u6c42\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\u3002\n\nWhy it matters:\nA sharp DRAM price hike signals tightening memory supply, likely tied to HBM capacity being diverted to AI accelerators \u2014 squeezing margins for downstream server/device makers and adding to broader AI-hardware cost inflation.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u8c03\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u6b63\u5728\u6536\u7d27\uff0c\u5f88\u53ef\u80fd\u4e0e HBM \u4ea7\u80fd\u88ab\u6324\u5360\u7528\u4e8e AI \u52a0\u901f\u5668\u6709\u5173\u2014\u2014\u8fd9\u4f1a\u538b\u7f29\u4e0b\u6e38\u670d\u52a1\u5668/\u8bbe\u5907\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u5e76\u52a0\u5267\u6574\u4f53 AI \u786c\u4ef6\u7684\u6210\u672c\u901a\u80c0\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
