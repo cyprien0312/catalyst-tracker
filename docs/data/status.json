@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783468929,
-  "generated_at_str": "2026-07-08 00:02:09 UTC",
-  "last_event_ts": 1783467843,
+  "generated_at": 1783469115,
+  "generated_at_str": "2026-07-08 00:05:15 UTC",
+  "last_event_ts": 1783469114,
   "tables": {
     "alerts_dedup": {
-      "count": 2160,
-      "last_ts": 1783467312,
-      "last_str": "2026-07-07 23:35:12 UTC"
+      "count": 2161,
+      "last_ts": 1783469114,
+      "last_str": "2026-07-08 00:05:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-07 21:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1830,
-      "last_ts": 1783467301,
-      "last_str": "2026-07-07 23:35:01 UTC"
+      "count": 1834,
+      "last_ts": 1783469102,
+      "last_str": "2026-07-08 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2186,
-      "last_ts": 1783467302,
-      "last_str": "2026-07-07 23:35:02 UTC"
+      "count": 2190,
+      "last_ts": 1783469104,
+      "last_str": "2026-07-08 00:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1439,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2168,
+      "ts": 1783469114,
+      "ts_str": "2026-07-08 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Electronics: Preliminary Figures Slightly Soft; We Expect Memory Price Hikes to Taper - Morningstar",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 09:50:18 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWNqOGE0c18xUTcxUlJsaUl4RFRZWHlIYUhTc1BDekhTZmhVblhldkxLdzZ4T3lzQXJFcnlRN1lQSk0zVDNCYmRrbXZqZXYwMXR2azNhVm1oZl9oX0w2b0U2NFNFOF9uUUVnMzI2M2dTai1qcEtqd2V1cGg2UFhieTRHOEtoeU85cnhWUlVrenRBZ3ZZVzNiYmJBdEo4MWhWS1JkMS1QeTltOXdxMG9KTmMzUC1vdWZnMUNaV3RmU2FsMXBZUlM0enVNbkM?oc=5\n\nSamsung Electronics: Preliminary Figures Slightly Soft; We Expect Memory Price Hikes to Taper - Morningstar\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQLWNqOGE0c18xUTcxUlJsaUl4RFRZWHlIYUhTc1BDekhTZmhVblhldkxLdzZ4T3lzQXJFcnlRN1lQSk0zVDNCYmRrbXZqZXYwMXR2azNhVm1oZl9oX0w2b0U2NFNFOF9uUUVnMzI2M2dTai1qcEtqd2V1cGg2UFhieTRHOEtoeU85cnhWUlVrenRBZ3ZZVzNiYmJBdEo4MWhWS1JkMS1QeTltOXdxMG9KTmMzUC1vdWZnMUNaV3RmU2FsMXBZUlM0enVNbkM?oc=5\" target=\"_blank\">Samsung Electronics: Preliminary Figures Slightly Soft; We Expect Memory Price Hikes to Taper</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morningstar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorningstar flags Samsung's preliminary results as slightly soft even as it expects memory price hikes to taper off going forward.\n\n\u5185\u5bb9:\nMorningstar \u6307\u51fa\uff0cSamsung Electronics \u7684\u521d\u6b65\u4e1a\u7ee9\u7565\u663e\u75b2\u8f6f\uff0c\u540c\u65f6\u9884\u8ba1\u5185\u5b58\u4ef7\u683c\u6da8\u52bf\u5c06\u8d8b\u7f13\u3002\n\nWhy it matters:\nA tapering price cycle right as DRAM/NAND has been the hottest input for AI accelerators and servers is an early oversupply/demand-softening tell, not yet a hard order-cancellation signal but worth watching alongside HBM allocation trends.\n\n\u5f71\u54cd:\n\u5728 DRAM/NAND \u4f5c\u4e3a AI \u52a0\u901f\u5668\u548c\u670d\u52a1\u5668\u6700\u7d27\u4fcf\u7684\u539f\u6750\u6599\u4e4b\u9645\uff0c\u4ef7\u683c\u6da8\u52bf\u5f00\u59cb\u8d8b\u7f13\u662f\u4f9b\u9700\u8f6c\u5f31\u7684\u65e9\u671f\u4fe1\u53f7\uff0c\u867d\u7136\u8fd8\u4e0d\u6784\u6210\u786c\u6027\u7684\u8ba2\u5355\u53d6\u6d88\u8bc1\u636e\uff0c\u4f46\u503c\u5f97\u7ed3\u5408 HBM \u5206\u914d\u60c5\u51b5\u6301\u7eed\u5173\u6ce8\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2167,
       "ts": 1783467312,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] How to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money] - \uc544\uc2dc\uc544\uacbd\uc81c",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:53:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTFBRZ2lxRXZ3Qko1a2xFTFpMeF9qdC1XME1BSXJXeTJ0NFF1YUMxcmhyN2dRTXN6aFZxOFRkalR0SVFHS2tzUW1QOF8zSUlESzI4VjFwYTBKSEFJUUhWSmo4bnE5aXRNZk44dHhhQ096VTgtdmtHeW5uM2xB?oc=5\n\nHow to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money] - \uc544\uc2dc\uc544\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBRZ2lxRXZ3Qko1a2xFTFpMeF9qdC1XME1BSXJXeTJ0NFF1YUMxcmhyN2dRTXN6aFZxOFRkalR0SVFHS2tzUW1QOF8zSUlESzI4VjFwYTBKSEFJUUhWSmo4bnE5aXRNZk44dHhhQ096VTgtdmtHeW5uM2xB?oc=5\" target=\"_blank\">How to Hold Pre-IPO Anthropic and OpenAI Shares [Weekend Money]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc544\uc2dc\uc544\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean financial-media piece ('Weekend Money') discusses how retail investors can hold pre-IPO shares of Anthropic and OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u97e9\u56fd\u8d22\u7ecf\u5a92\u4f53\u6587\u7ae0\uff08\u300aWeekend Money\u300b\uff09\u4ecb\u7ecd\u6563\u6237\u6295\u8d44\u8005\u5982\u4f55\u6301\u6709 Anthropic \u548c OpenAI \u7684\u672a\u4e0a\u5e02\uff08pre-IPO\uff09\u80a1\u4efd\u3002\n\nWhy it matters:\nMainstream retail-investing coverage of unlisted AI-lab equity signals speculative retail demand reaching assets with no public market or disclosure \u2014 a hallmark of late-cycle froth around the AI-capex theme, though this headline alone carries no operational or financial signal about OpenAI's burn rate.\n\n\u5f71\u54cd:\n\u4e3b\u6d41\u8d22\u7ecf\u5a92\u4f53\u5f00\u59cb\u6559\u6563\u6237\u5982\u4f55\u6301\u6709\u6ca1\u6709\u516c\u5f00\u5e02\u573a\u3001\u4e5f\u6ca1\u6709\u4fe1\u606f\u62ab\u9732\u7684 AI \u5b9e\u9a8c\u5ba4\u80a1\u6743\uff0c\u8fd9\u662f\u6295\u673a\u6027\u6563\u6237\u9700\u6c42\u8513\u5ef6\u5230\u9ad8\u98ce\u9669\u8d44\u4ea7\u7684\u5178\u578b\u665a\u5468\u671f\u8ff9\u8c61\uff1b\u4e0d\u8fc7\u8fd9\u6761\u65b0\u95fb\u672c\u8eab\u5e76\u4e0d\u5305\u542b\u5173\u4e8e OpenAI \u70e7\u94b1\u901f\u5ea6\u7684\u5b9e\u8d28\u6027\u8d22\u52a1\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1968,
-      "ts": 1783154654,
-      "ts_str": "2026-07-04 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities - KuCoin",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 05:22:44 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHJ3c29nUFpJVjhTY0RoUFZ4QkRVU3JXbzJvNHhnc25JMGp1TFRNVmFla09xLVhIcXRMcXBuOVB2YmJrWk40SWZaajJqNG5tRTVDX2p5MklZSWJURXAzZE1zX28tN2V6cVRJczVWRlBqYlcwbUxITVIyQUV0NkhLVE1VS2JEMFE5Y19oRDJSVGd3dVN2REw5ZUFFcmdfWWdEUHdMbUI5T3RldjY1?oc=5\n\nOpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNOHJ3c29nUFpJVjhTY0RoUFZ4QkRVU3JXbzJvNHhnc25JMGp1TFRNVmFla09xLVhIcXRMcXBuOVB2YmJrWk40SWZaajJqNG5tRTVDX2p5MklZSWJURXAzZE1zX28tN2V6cVRJczVWRlBqYlcwbUxITVIyQUV0NkhLVE1VS2JEMFE5Y19oRDJSVGd3dVN2REw5ZUFFcmdfWWdEUHdMbUI5T3RldjY1?oc=5\" target=\"_blank\">OpenAI Files for IPO; Crypto Market Watches AI-Driven Investment Opportunities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews aggregators report OpenAI has filed for an IPO, per a KuCoin-sourced item picked up by Google News RSS.\n\n\u5185\u5bb9:\n\u591a\u5bb6\u65b0\u95fb\u805a\u5408\u5e73\u53f0\uff08\u7ecf KuCoin \u8f6c\u8f7d\u3001Google News RSS \u6293\u53d6\uff09\u62a5\u9053 OpenAI \u5df2\u63d0\u4ea4 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nAn OpenAI IPO would be the single biggest AI-capex liquidity event yet \u2014 it forces public-market scrutiny of burn rate and unit economics that private funding rounds have avoided, and a weak reception would be a hard signal against the AI-capex thesis.\n\n\u5f71\u54cd:\nOpenAI \u82e5\u771f\u7684 IPO\uff0c\u5c06\u662f\u8fc4\u4eca\u4e3a\u6b62 AI capex \u9886\u57df\u6700\u5927\u7684\u4e00\u6b21\u6d41\u52a8\u6027\u4e8b\u4ef6\u2014\u2014\u5b83\u4f1a\u628a\u6b64\u524d\u79c1\u52df\u8f6e\u878d\u8d44\u5f97\u4ee5\u56de\u907f\u7684\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u76f4\u63a5\u66b4\u9732\u5728\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\u4e4b\u4e0b\uff0c\u82e5\u5e02\u573a\u53cd\u5e94\u51b7\u6de1\uff0c\u5c06\u662f\u5bf9 AI capex \u53d9\u4e8b\u7684\u4e00\u6b21\u6709\u529b\u5229\u7a7a\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
