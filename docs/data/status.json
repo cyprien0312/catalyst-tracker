@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783549600,
-  "generated_at_str": "2026-07-08 22:26:40 UTC",
-  "last_event_ts": 1783548857,
+  "generated_at": 1783549756,
+  "generated_at_str": "2026-07-08 22:29:16 UTC",
+  "last_event_ts": 1783549755,
   "tables": {
     "alerts_dedup": {
-      "count": 2191,
-      "last_ts": 1783548857,
-      "last_str": "2026-07-08 22:14:17 UTC"
+      "count": 2192,
+      "last_ts": 1783549755,
+      "last_str": "2026-07-08 22:29:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 10,
-      "last_ts": 1783463342,
-      "last_str": "2026-07-07 22:29:02 UTC"
+      "count": 11,
+      "last_ts": 1783549744,
+      "last_str": "2026-07-08 22:29:04 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2199,
+      "ts": 1783549755,
+      "ts_str": "2026-07-08 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.30% (+58bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-07\nCurrent:  2.30%\n90d low:  1.72%\nMove:     +58bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield jumped to 2.30% on 2026-07-07, up 0.58pp from its trailing-90-day low of 1.72%, crossing C10's 2x escalation trigger.\n\n\u5185\u5bb9:\n10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5728 2026-07-07 \u5347\u81f3 2.30%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.72% \u4e0a\u5347\u4e86 0.58 \u4e2a\u767e\u5206\u70b9\uff0c\u89e6\u53d1\u4e86 C10 \u7684 2 \u500d\u5347\u7ea7\u9608\u503c\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 this is the kind of move that historically precedes de-rating of high-multiple growth names, including hyperscalers funding the buildout.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8 AI capex \u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u91d1\u878d\u6761\u4ef6\u2014\u2014\u5386\u53f2\u4e0a\u8fd9\u7c7b\u8d70\u52bf\u5f80\u5f80\u662f\u9ad8\u4f30\u503c\u6210\u957f\u80a1\uff08\u5305\u62ec\u4e3a\u7b97\u529b\u5efa\u8bbe\u878d\u8d44\u7684\u5927\u578b\u79d1\u6280\u516c\u53f8\uff09\u4f30\u503c\u56de\u8c03\u7684\u524d\u5146\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2198,
       "ts": 1783548857,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 22:19:36 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE15aVJpVzVrbVczZTNiSG8wN0lwTW9LTndYMGJaT1liVlBVZlFXZUlkOWZZOS1pMzBZU1RFdHBTNVkzaEM1UkhxeHFtYkE3WU44TDBiNXktdzdCM0tOdjZXTkNBM2pnejV4eWpLRmljRENkQVgyVXBuQUYtaHYzZw?oc=5\n\nChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE15aVJpVzVrbVczZTNiSG8wN0lwTW9LTndYMGJaT1liVlBVZlFXZUlkOWZZOS1pMzBZU1RFdHBTNVkzaEM1UkhxeHFtYkE3WU44TDBiNXktdzdCM0tOdjZXTkNBM2pnejV4eWpLRmljRENkQVgyVXBuQUYtaHYzZw?oc=5\" target=\"_blank\">ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news aggregator headline speculates OpenAI is heading toward a $1 trillion IPO, framing Microsoft as the biggest beneficiary.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u805a\u5408\u6807\u9898\u731c\u6d4b OpenAI \u6b63\u671d\u7740\u4e07\u4ebf\u7f8e\u5143 IPO \u4f30\u503c\u8fc8\u8fdb\uff0c\u5e76\u79f0 Microsoft \u5c06\u662f\u6700\u5927\u53d7\u76ca\u65b9\u3002\n\nWhy it matters:\nA trillion-dollar IPO valuation talk for OpenAI raises the bar for what the market needs to believe about future AI revenue to justify current infrastructure spend; it's speculative press, not a filing or disclosed metric, so it doesn't itself confirm burn-rate stress.\n\n\u5f71\u54cd:\n\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7684 IPO \u4f20\u95fb\u8fdb\u4e00\u6b65\u62ac\u9ad8\u4e86\u5e02\u573a\u5bf9\u672a\u6765 AI \u6536\u5165\u7684\u9884\u671f\u95e8\u69db\uff0c\u624d\u80fd\u6491\u5f97\u8d77\u5f53\u524d\u7684\u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u89c4\u6a21\uff1b\u4f46\u8fd9\u53ea\u662f\u5a92\u4f53\u63a8\u6d4b\uff0c\u5e76\u975e\u6587\u4ef6\u62ab\u9732\u6216\u5b9e\u9645\u6307\u6807\uff0c\u672c\u8eab\u4e0d\u8db3\u4ee5\u8bc1\u5b9e\u70e7\u94b1\u901f\u5ea6\u7684\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1999,
-      "ts": 1783203255,
-      "ts_str": "2026-07-04 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - The Motley Fool",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 21:53:32 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNSmxZMmpWUjhSY1RQcnJNV2U2NXFrZkNFd1hWN2VwbURRRVhHOE5uM0ZWanJTNFlDcDRkSUNUNl95TnFsdlc5c2c0MTl6VWdqZkdBVjZfR0hNclJtQWxuRzFmQUFpcmZSRVVQRm9idzY3NXNUUVJULWVmMXRDc3IxMmdFZkI2SVNvZWZmMmQ1eEZUd3JwOHF3Vw?oc=5\n\nChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNSmxZMmpWUjhSY1RQcnJNV2U2NXFrZkNFd1hWN2VwbURRRVhHOE5uM0ZWanJTNFlDcDRkSUNUNl95TnFsdlc5c2c0MTl6VWdqZkdBVjZfR0hNclJtQWxuRzFmQUFpcmZSRVVQRm9idzY3NXNUUVJULWVmMXRDc3IxMmdFZkI2SVNvZWZmMmQ1eEZUd3JwOHF3Vw?oc=5\" target=\"_blank\">ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool piece reports OpenAI is headed toward a $1 trillion IPO, framing Microsoft as the biggest beneficiary.\n\n\u5185\u5bb9:\nMotley Fool \u4e00\u7bc7\u62a5\u9053\u79f0 OpenAI \u6b63\u671d\u7740\u4e07\u4ebf\u7f8e\u5143 IPO \u8fc8\u8fdb\uff0c\u5e76\u8ba4\u4e3a Microsoft \u662f\u6700\u5927\u53d7\u76ca\u65b9\u3002\n\nWhy it matters:\nA trillion-dollar IPO valuation would mark peak froth for the AI capex cycle \u2014 it prices OpenAI (and by extension Microsoft's stake) on future compute demand that still has to be paid for, not on current profitability.\n\n\u5f71\u54cd:\n\u4e07\u4ebf\u7f8e\u5143\u7ea7\u522b\u7684 IPO \u4f30\u503c\u53ef\u80fd\u6807\u5fd7\u7740\u8fd9\u8f6e AI capex \u5468\u671f\u7684\u60c5\u7eea\u9876\u70b9\u2014\u2014\u5b83\u662f\u5728\u4e3a\u5c1a\u672a\u5151\u73b0\u7684\u672a\u6765\u7b97\u529b\u9700\u6c42\u5b9a\u4ef7\uff0c\u800c\u4e0d\u662f\u57fa\u4e8e\u5f53\u524d\u7684\u76c8\u5229\u80fd\u529b\uff0c\u5fae\u8f6f\u4f5c\u4e3a\u4e3b\u8981\u80a1\u4e1c\u4e5f\u4f1a\u88ab\u540c\u6837\u7684\u9884\u671f\u7ed1\u5b9a\u3002\n",
       "emailed": false
     }
   ],
