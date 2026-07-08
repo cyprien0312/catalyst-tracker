@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783515726,
-  "generated_at_str": "2026-07-08 13:02:06 UTC",
-  "last_event_ts": 1783514643,
+  "generated_at": 1783515917,
+  "generated_at_str": "2026-07-08 13:05:17 UTC",
+  "last_event_ts": 1783515916,
   "tables": {
     "alerts_dedup": {
-      "count": 2172,
-      "last_ts": 1783512861,
-      "last_str": "2026-07-08 12:14:21 UTC"
+      "count": 2175,
+      "last_ts": 1783515916,
+      "last_str": "2026-07-08 13:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-08 12:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1881,
-      "last_ts": 1783514107,
-      "last_str": "2026-07-08 12:35:07 UTC"
+      "count": 1885,
+      "last_ts": 1783515902,
+      "last_str": "2026-07-08 13:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2246,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-08 12:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1495,
-      "last_ts": 1783514108,
-      "last_str": "2026-07-08 12:35:08 UTC"
+      "count": 1499,
+      "last_ts": 1783515903,
+      "last_str": "2026-07-08 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1699,
-      "last_ts": 1783512306,
-      "last_str": "2026-07-08 12:05:06 UTC"
+      "count": 1706,
+      "last_ts": 1783515905,
+      "last_str": "2026-07-08 13:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14439,
@@ -276,6 +276,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2180,
+      "ts": 1783515916,
+      "ts_str": "2026-07-08 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 13:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\n\nMemory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\" target=\"_blank\">Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports memory-market prices surging with legacy DRAM supply deficits projected to persist for two years, per Technetbook.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u62a5\u9053\u79f0\u5185\u5b58\u5e02\u573a\u4ef7\u683c\u98d9\u5347\uff0cTechnetbook \u63f4\u5f15\u6d88\u606f\u6307\u51fa\u4f20\u7edf DRAM \u4f9b\u5e94\u7f3a\u53e3\u9884\u8ba1\u5c06\u6301\u7eed\u4e24\u5e74\u3002\n\nWhy it matters:\nTight DRAM/legacy memory supply raises input costs for GPU/accelerator BOMs and server builds, squeezing hyperscaler capex efficiency just as spend is already stretched \u2014 a supply-side amplifier on the AI-capex bubble-stress thesis, not a demand-side one.\n\n\u5f71\u54cd:\n\u4f20\u7edf DRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 GPU/\u52a0\u901f\u5361\u53ca\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u672c\u5f00\u652f\u5df2\u7ecf\u7d27\u7ef7\u7684\u60c5\u51b5\u4e0b\u8fdb\u4e00\u6b65\u6324\u538b\u6548\u7387\uff0c\u5c5e\u4e8e\u4ece\u4f9b\u7ed9\u7aef\u653e\u5927 AI capex \u6ce1\u6cab\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u7aef\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2181,
+      "ts": 1783515916,
+      "ts_str": "2026-07-08 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 13:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\n\nMemory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\" target=\"_blank\">Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports memory-market prices surging with legacy DRAM supply deficits projected to persist for two years, per Technetbook.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u62a5\u9053\u79f0\u5185\u5b58\u5e02\u573a\u4ef7\u683c\u98d9\u5347\uff0cTechnetbook \u63f4\u5f15\u6d88\u606f\u6307\u51fa\u4f20\u7edf DRAM \u4f9b\u5e94\u7f3a\u53e3\u9884\u8ba1\u5c06\u6301\u7eed\u4e24\u5e74\u3002\n\nWhy it matters:\nTight DRAM/legacy memory supply raises input costs for GPU/accelerator BOMs and server builds, squeezing hyperscaler capex efficiency just as spend is already stretched \u2014 a supply-side amplifier on the AI-capex bubble-stress thesis, not a demand-side one.\n\n\u5f71\u54cd:\n\u4f20\u7edf DRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 GPU/\u52a0\u901f\u5361\u53ca\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u672c\u5f00\u652f\u5df2\u7ecf\u7d27\u7ef7\u7684\u60c5\u51b5\u4e0b\u8fdb\u4e00\u6b65\u6324\u538b\u6548\u7387\uff0c\u5c5e\u4e8e\u4ece\u4f9b\u7ed9\u7aef\u653e\u5927 AI capex \u6ce1\u6cab\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u7aef\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2182,
+      "ts": 1783515916,
+      "ts_str": "2026-07-08 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 13:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\n\nMemory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZTJsMUFNbGJNTVhXdUJzbExtTUFOVGs1VkFxMW5BQk9Pb004X1V1NUFrSE8zdzZiYXhVVlRDMHM5NTRSUWlaeGs1bU1GRDItSUhCczZnbmF5TGtyamNBQ2lta1FkMnUzOEJuSGQ0dThndGI4S1Voc0VJZ2x3Q2F2eTJwLUE?oc=5\" target=\"_blank\">Memory Market Prices Surge as Legacy DRAM Supply Deficit Projected to Last Two Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports memory-market prices surging with legacy DRAM supply deficits projected to persist for two years, per Technetbook.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u62a5\u9053\u79f0\u5185\u5b58\u5e02\u573a\u4ef7\u683c\u98d9\u5347\uff0cTechnetbook \u63f4\u5f15\u6d88\u606f\u6307\u51fa\u4f20\u7edf DRAM \u4f9b\u5e94\u7f3a\u53e3\u9884\u8ba1\u5c06\u6301\u7eed\u4e24\u5e74\u3002\n\nWhy it matters:\nTight DRAM/legacy memory supply raises input costs for GPU/accelerator BOMs and server builds, squeezing hyperscaler capex efficiency just as spend is already stretched \u2014 a supply-side amplifier on the AI-capex bubble-stress thesis, not a demand-side one.\n\n\u5f71\u54cd:\n\u4f20\u7edf DRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 GPU/\u52a0\u901f\u5361\u53ca\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u672c\u5f00\u652f\u5df2\u7ecf\u7d27\u7ef7\u7684\u60c5\u51b5\u4e0b\u8fdb\u4e00\u6b65\u6324\u538b\u6548\u7387\uff0c\u5c5e\u4e8e\u4ece\u4f9b\u7ed9\u7aef\u653e\u5927 AI capex \u6ce1\u6cab\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u7aef\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2179,
       "ts": 1783512861,
@@ -2244,36 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices clim",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 11:47:34 GMT\nLink:      https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\n\nMemory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026 - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxPbjB0NlFYY1g3X3pkX1FWd0xJcjJJMUVuQlBZb01XQXhxUUoxVGZscDFVenZsQ2Uwa0UtRWgyVzVaTUthUnFsRkhGc3VWV2pjRDFTVDNZUlFUVDFkLTdzZnZrVDMxcG9UMVl6T1NiQ0N2d1VWbjYxakpVY2RKS1dWNldnTzVTWmpvMUxpamxTTUZQYmg1Y0lLd3paZXc3ZkhiczVydTFUNHdOS3ZRZVdFeEpVckJ1RVQ5RWowVGNrUHFoR0E1V21rRWpLdTdyUnJwLWVaeFg0WmxLRUI3UFJzUmI1VDZOVzExbEp6SzRrM0c2cV95eUsxS0VkQUNZa2dyZ0NYN01rNXYwdVNEbE82NzM2WQ?oc=5\" target=\"_blank\">Memory price surge begins to cool as consumers hit affordability limit \u2014 AI demand still keeps DRAM and NAND prices climbing through Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Tom's Hardware headline reports consumer memory demand cooling on affordability limits, but AI-driven demand keeps DRAM and NAND prices rising through Q3 2026.\n\n\u5185\u5bb9:\nTom's Hardware \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u6d88\u8d39\u7ea7\u5185\u5b58\u9700\u6c42\u56e0\u53ef\u8d1f\u62c5\u6027\u89c1\u9876\u800c\u964d\u6e29\uff0c\u4f46 AI \u9a71\u52a8\u7684\u9700\u6c42\u4ecd\u5728\u63a8\u52a8 DRAM \u548c NAND \u4ef7\u683c\u4e0a\u6da8\uff0c\u9884\u8ba1\u6301\u7eed\u5230 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u3002\n\nWhy it matters:\nPersistent DRAM/NAND price strength despite softening consumer demand signals that AI-side buying (HBM, server memory) is now the marginal price-setter \u2014 a sign the memory supply chain is tightening around AI capex rather than broad consumer electronics.\n\n\u5f71\u54cd:\n\u5c3d\u7ba1\u6d88\u8d39\u7aef\u9700\u6c42\u8d70\u5f31\uff0cDRAM \u548c NAND \u4ef7\u683c\u4f9d\u7136\u575a\u633a\uff0c\u8bf4\u660e AI \u4fa7\u7684\u91c7\u8d2d(HBM\u3001\u670d\u52a1\u5668\u5185\u5b58)\u5df2\u7ecf\u6210\u4e3a\u4ef7\u683c\u7684\u8fb9\u9645\u51b3\u5b9a\u56e0\u7d20\u2014\u2014\u8fd9\u8868\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u7d27\u5f20\u6b63\u56f4\u7ed5 AI capex \u5c55\u5f00\uff0c\u800c\u975e\u5e7f\u4e49\u6d88\u8d39\u7535\u5b50\u9700\u6c42\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1985,
-      "ts": 1783166725,
-      "ts_str": "2026-07-04 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 06:52:53 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\n\nSamsung reportedly plans 20% DRAM price hike in Q3 - The Korea Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mUkNpR25TWHJybkxPSkxSdnpiSnVYWEVicGxvLWV0dWJBTUR5WVRrRjdHN2RjY2l2aDlVQlFqUzJ0Mi05REc0TFJZcnBVWUZTY0VlY184SQ?oc=5\" target=\"_blank\">Samsung reportedly plans 20% DRAM price hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3, per The Korea Herald.\n\n\u5185\u5bb9:\n\u636e\u300a\u97e9\u56fd\u5148\u9a71\u62a5\u300b\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA sharp DRAM price increase signals tight memory supply, likely driven by AI accelerator/HBM demand crowding out conventional DRAM capacity \u2014 a cost pressure that ripples through every hyperscaler's server bill of materials.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f AI \u52a0\u901f\u5668/HBM \u9700\u6c42\u6324\u5360\u4e86\u4f20\u7edf DRAM \u4ea7\u80fd\u2014\u2014\u8fd9\u79cd\u6210\u672c\u538b\u529b\u4f1a\u4f20\u5bfc\u5230\u6bcf\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1981,
-      "ts": 1783164913,
-      "ts_str": "2026-07-04 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung pushes 20% DRAM price hike in Q3 amid Korea-led supply squeeze - CHOSUNBIZ - Chosunbiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 07:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3anlJMXpTT2Q3cDNKX3pIa1RKNFZRdlgxOFBSdmVkc3QwbUFVT1J1VzltZV91bUNmZTBidmhYMEVFdmRmeXEwbDhtVGU4alhXZDNtS0lCdFd5VWJfdzZlZENVUW9OMnFvbDh5WWcycC13YkhfOFBUaHlrYmZxeTMwci04Z04tTFhQRUxB0gGOAUFVX3lxTE9QNXdqeUkxelNPZDdwM0pfekhrVEo0VlF2WDE4UFJ2ZWRzdDBtQVVPUnVXOW1lX3VtQ2ZlMGJ2aFgwRUV2ZGZ5cTBsOG1UZThqWFdkM21LSUJ0V3lVYl93NmVkQ1VRb04ycW9sOHlZZzJwLXdiSF84UFRoeWtiZnF5MzByLThnTi1MWFBFTEE?oc=5\n\nSamsung pushes 20% DRAM price hike in Q3 amid Korea-led supply squeeze - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPUDV3anlJMXpTT2Q3cDNKX3pIa1RKNFZRdlgxOFBSdmVkc3QwbUFVT1J1VzltZV91bUNmZTBidmhYMEVFdmRmeXEwbDhtVGU4alhXZDNtS0lCdFd5VWJfdzZlZENVUW9OMnFvbDh5WWcycC13YkhfOFBUaHlrYmZxeTMwci04Z04tTFhQRUxB0gGOAUFVX3lxTE9QNXdqeUkxelNPZDdwM0pfekhrVEo0VlF2WDE4UFJ2ZWRzdDBtQVVPUnVXOW1lX3VtQ2ZlMGJ2aFgwRUV2ZGZ5cTBsOG1UZThqWFdkM21LSUJ0V3lVYl93NmVkQ1VRb04ycW9sOHlZZzJwLXdiSF84UFRoeWtiZnF5MzByLThnTi1MWFBFTEE?oc=5\" target=\"_blank\">Samsung pushes 20% DRAM price hike in Q3 amid Korea-led supply squeeze - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is pushing a 20% DRAM price hike for Q3, driven by a Korea-led supply squeeze.\n\n\u5185\u5bb9:\n\u4e09\u661f\u5c06\u5728\u7b2c\u4e09\u5b63\u5ea6\u63a8\u52a8 DRAM \u4ef7\u683c\u4e0a\u6da8 20%\uff0c\u539f\u56e0\u662f\u97e9\u56fd\u4e3b\u5bfc\u7684\u4f9b\u5e94\u7d27\u5f20\u3002\n\nWhy it matters:\nA 20% DRAM hike signals tight memory supply feeding directly into AI server bill-of-materials costs, raising the cost of every future GPU/accelerator build and squeezing hyperscaler capex efficiency further.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7 20% \u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u5403\u7d27\uff0c\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u4e00\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u4fb5\u8680\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\uff0c\u5c5e\u4e8e AI \u57fa\u7840\u8bbe\u65bd\u6210\u672c\u7aef\u7684\u5229\u7a7a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 1978,
-      "ts": 1783163125,
-      "ts_str": "2026-07-04 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung said to seek up to 20% DRAM price hike in third quarter - Aju Press",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 08:44:51 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOeFdUY2d1VWp1R1JnbkhEYmd1dWZPaHVrNHRZcnBCOGRYbWhhQXNiSEVmT0JqYk9CN3NRMDM1Yk5pZ1ZLdU9PdGJhTHZ4aGIwQmdsTzliNVpxNTjSAVdBVV95cUxPLW5VUkFWOW03QURPbmFKSWFiYnlYVGJSSUd1dTVKMDlKOVlJTTRwVlViVmZpQ0w1WDdvS2NHSUVjUk9oZ1BXR0pCZjlscG9rY18zb0drdG8?oc=5\n\nSamsung said to seek up to 20% DRAM price hike in third quarter - Aju Press\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOeFdUY2d1VWp1R1JnbkhEYmd1dWZPaHVrNHRZcnBCOGRYbWhhQXNiSEVmT0JqYk9CN3NRMDM1Yk5pZ1ZLdU9PdGJhTHZ4aGIwQmdsTzliNVpxNTjSAVdBVV95cUxPLW5VUkFWOW03QURPbmFKSWFiYnlYVGJSSUd1dTVKMDlKOVlJTTRwVlViVmZpQ0w1WDdvS2NHSUVjUk9oZ1BXR0pCZjlscG9rY18zb0drdG8?oc=5\" target=\"_blank\">Samsung said to seek up to 20% DRAM price hike in third quarter</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aju Press</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly seeking up to a 20% DRAM price hike for Q3, per Aju Press.\n\n\u5185\u5bb9:\n\u636e Aju Press \u62a5\u9053\uff0c\u4e09\u661f\u6b63\u5bfb\u6c42\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03\u6700\u591a 20%\u3002\n\nWhy it matters:\nSharp memory-price surges raise input costs for GPU/accelerator boards (HBM stacks and DRAM are a growing share of BOM), squeezing hyperscaler capex efficiency just as AI-infra spend is already under margin scrutiny.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u4f1a\u63a8\u9ad8 GPU/\u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff08HBM \u548c DRAM \u5728 BOM \u4e2d\u5360\u6bd4\u6301\u7eed\u4e0a\u5347\uff09\uff0c\u5728 AI \u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u672c\u5df2\u9762\u4e34\u5229\u6da6\u7387\u5ba1\u89c6\u7684\u80cc\u666f\u4e0b\u8fdb\u4e00\u6b65\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u6548\u7387\u3002\n",
       "emailed": false
     }
   ],
