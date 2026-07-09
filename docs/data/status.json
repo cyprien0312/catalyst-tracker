@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783635067,
-  "generated_at_str": "2026-07-09 22:11:07 UTC",
-  "last_event_ts": 1783633444,
+  "generated_at": 1783635255,
+  "generated_at_str": "2026-07-09 22:14:15 UTC",
+  "last_event_ts": 1783635255,
   "tables": {
     "alerts_dedup": {
-      "count": 2221,
-      "last_ts": 1783631113,
-      "last_str": "2026-07-09 21:05:13 UTC"
+      "count": 2222,
+      "last_ts": 1783635255,
+      "last_str": "2026-07-09 22:14:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2927,
-      "last_ts": 1783633443,
-      "last_str": "2026-07-09 21:44:03 UTC"
+      "count": 2928,
+      "last_ts": 1783635244,
+      "last_str": "2026-07-09 22:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 590,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-09 21:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 14904,
-      "last_ts": 1783633442,
-      "last_str": "2026-07-09 21:44:02 UTC"
+      "count": 14913,
+      "last_ts": 1783635243,
+      "last_str": "2026-07-09 22:14:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2229,
+      "ts": 1783635255,
+      "ts_str": "2026-07-09 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Unveils GPT-5.6 Sol, Boosting AI Efficiency Amid IPO Spec - GuruFocus",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 22:07:11 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1oxMVY1WXVCUWZlTVU0Q0RxRk9fNzhOWnBuQTdTVFhkTWtSRHNQX3h0bm1WQW9aUWZsZEJQUzlPYmlwbkVJSjJqSy1jenRQU1d4YzVVVlBLblJaVDVRcm5rN090dnFTb21kejlFdFlsOHJjN1UtaVE1dTZETzNmQ01WQkY4Sl9XYS1aM3ZHTmtaUVlDdTcxRHd5ZHh2Q2U4Z0F1VHhnQ2FKMms?oc=5\n\nOpenAI Unveils GPT-5.6 Sol, Boosting AI Efficiency Amid IPO Spec - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1oxMVY1WXVCUWZlTVU0Q0RxRk9fNzhOWnBuQTdTVFhkTWtSRHNQX3h0bm1WQW9aUWZsZEJQUzlPYmlwbkVJSjJqSy1jenRQU1d4YzVVVlBLblJaVDVRcm5rN090dnFTb21kejlFdFlsOHJjN1UtaVE1dTZETzNmQ01WQkY4Sl9XYS1aM3ZHTmtaUVlDdTcxRHd5ZHh2Q2U4Z0F1VHhnQ2FKMms?oc=5\" target=\"_blank\">OpenAI Unveils GPT-5.6 Sol, Boosting AI Efficiency Amid IPO Spec</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News/GuruFocus surfaced a headline about OpenAI unveiling \"GPT-5.6 Sol\" and referencing IPO speculation, but no filing, burn-rate figure, or verified detail accompanies it.\n\n\u5185\u5bb9:\nGoogle News/GuruFocus \u51fa\u73b0\u4e00\u6761\u6807\u9898\uff0c\u79f0 OpenAI \u53d1\u5e03\u4e86 \"GPT-5.6 Sol\"\uff0c\u5e76\u63d0\u53ca IPO \u4f20\u95fb\uff0c\u4f46\u672a\u9644\u5e26\u4efb\u4f55 filing\u3001\u70e7\u94b1\u7387\u6570\u636e\u6216\u53ef\u6838\u5b9e\u7684\u7ec6\u8282\u3002\n\nWhy it matters:\nThis is a MED-severity keyword hit, not a quantified signal \u2014 C3 only escalates to HIGH when an extracted burn-rate metric rises >25% QoQ. An IPO-speculation headline with no financials attached is noise until a real filing or number surfaces.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f C3 \u7684 MED \u7ea7\u5173\u952e\u8bcd\u547d\u4e2d\uff0c\u4e0d\u662f\u91cf\u5316\u4fe1\u53f7\u2014\u2014C3 \u53ea\u6709\u5728\u63d0\u53d6\u5230\u7684\u70e7\u94b1\u7387\u73af\u6bd4\u4e0a\u5347\u8d85\u8fc7 25% \u65f6\u624d\u4f1a\u5347\u7ea7\u4e3a HIGH\u3002\u4e00\u6761\u6ca1\u6709\u8d22\u52a1\u6570\u636e\u652f\u6491\u7684 IPO \u4f20\u95fb\u6807\u9898\uff0c\u5728\u6709\u771f\u6b63 filing \u6216\u6570\u5b57\u51fa\u73b0\u4e4b\u524d\u53ea\u80fd\u7b97\u566a\u97f3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2228,
       "ts": 1783631113,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] AI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027 - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 00:32:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi6ANBVV95cUxON3VCcm5iNktUREw4MHdpZ2t3cm1wal9JaFBvWUJFRjRKbUMyNWMtWkRZZ0JZZEs4MXBCeTJ1WUt3dU5LQVFsSFlKcnNOOW4tSncxNGswMlVTQVFTX0FKVnRocElnZ1JmS3M3ZEZfQ2VxdDFPNTRrbDVvNFFtWU91Nk5SS182dTY0ZGRNY2Rnb1d3d1hoVm9ydFZvVEdkOWs1c25xUS1nYmRqYnY3Y0tBUDhGYWU2R3ZXUnhNQ1pJcGJWbkswWEY2cU5LWVplbWFtZm1taVBBZWwyZ3g0MWlrYWt3M0pCclYzTHZmc0d0VktDOXFsTXdRRXV3WjlkUHk4N2xFSzNrelZVRkY4WkNnMjZEWnlhYmxqV05ST09PVEl1cU1MU19FYjJ6SUdjOFVPd2pDWlBCT3Zqb0V0MVNIRHlQNUtLb3NNSnVPZmFtY0NSZ0hYUHNwVGRHMjA1ZThNYVc5ZnJJVVVsN2RiTXV1UDFKc2txX3BRTUs0ODk4VVNQa3dleGZUeUdYY212NU42UFczM3JRNHJ2U3NuM29EYjVnSFpPclVsb2ZvVFltZlVPZWJUeC1GVnVSTHlDTDZYUDlvUlk5Q1k0T3BIdW1BMjlBMlVJNW1qNzNWdE51RXlZVF9pMlhzaA?oc=5\n\nAI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027 - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi6ANBVV95cUxON3VCcm5iNktUREw4MHdpZ2t3cm1wal9JaFBvWUJFRjRKbUMyNWMtWkRZZ0JZZEs4MXBCeTJ1WUt3dU5LQVFsSFlKcnNOOW4tSncxNGswMlVTQVFTX0FKVnRocElnZ1JmS3M3ZEZfQ2VxdDFPNTRrbDVvNFFtWU91Nk5SS182dTY0ZGRNY2Rnb1d3d1hoVm9ydFZvVEdkOWs1c25xUS1nYmRqYnY3Y0tBUDhGYWU2R3ZXUnhNQ1pJcGJWbkswWEY2cU5LWVplbWFtZm1taVBBZWwyZ3g0MWlrYWt3M0pCclYzTHZmc0d0VktDOXFsTXdRRXV3WjlkUHk4N2xFSzNrelZVRkY4WkNnMjZEWnlhYmxqV05ST09PVEl1cU1MU19FYjJ6SUdjOFVPd2pDWlBCT3Zqb0V0MVNIRHlQNUtLb3NNSnVPZmFtY0NSZ0hYUHNwVGRHMjA1ZThNYVc5ZnJJVVVsN2RiTXV1UDFKc2txX3BRTUs0ODk4VVNQa3dleGZUeUdYY212NU42UFczM3JRNHJ2U3NuM29EYjVnSFpPclVsb2ZvVFltZlVPZWJUeC1GVnVSTHlDTDZYUDlvUlk5Q1k0T3BIdW1BMjlBMlVJNW1qNzNWdE51RXlZVF9pMlhzaA?oc=5\" target=\"_blank\">AI memory, chip stocks dip as global peers slump after report OpenAI mulling IPO delay to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews reports say OpenAI is considering delaying a planned IPO to 2027, coinciding with a broader dip in AI memory and chip stocks.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u8003\u8651\u5c06\u539f\u8ba1\u5212\u7684 IPO \u63a8\u8fdf\u81f3 2027 \u5e74\uff0c\u540c\u671f AI \u5185\u5b58\u548c\u82af\u7247\u80a1\u666e\u904d\u4e0b\u8dcc\u3002\n\nWhy it matters:\nA slipped IPO timeline suggests OpenAI (and its backers) see less favorable conditions for a near-term listing \u2014 reduced confidence in current valuations or investor appetite. Since OpenAI's spending underwrites a large share of AI-infrastructure demand, any sign of funding-timeline stress feeds directly into the bubble-stress thesis.\n\n\u5f71\u54cd:\nIPO \u65f6\u95f4\u8868\u63a8\u8fdf\u610f\u5473\u7740 OpenAI \u53ca\u5176\u80cc\u540e\u8d44\u65b9\u5bf9\u8fd1\u671f\u4e0a\u5e02\u7684\u6761\u4ef6\u4fe1\u5fc3\u4e0d\u8db3\u2014\u2014\u53ef\u80fd\u662f\u5bf9\u5f53\u524d\u4f30\u503c\u6216\u6295\u8d44\u8005\u9700\u6c42\u4e0d\u770b\u597d\u3002\u7531\u4e8e OpenAI \u7684\u652f\u51fa\u662f AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u7684\u91cd\u8981\u652f\u6491\uff0c\u878d\u8d44\u65f6\u95f4\u7ebf\u4e0a\u51fa\u73b0\u7684\u4efb\u4f55\u538b\u529b\u4fe1\u53f7\u90fd\u76f4\u63a5\u5370\u8bc1\u4e86\u6ce1\u6cab\u627f\u538b\u7684\u5224\u65ad\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2032,
-      "ts": 1783244692,
-      "ts_str": "2026-07-05 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] ChatGPT-maker OpenAI is headed for a $1 trillion IPO. The biggest winner could be Microsoft stock. - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 01:43:43 GMT\nLink:      https://news.google.com/rss/articles/CBMi-gJBVV95cUxORlg2b3g2aEYtNklQb2JTRnlLQmVBS0lBRXhCSGMyeER1dkFldGc3SjAxRXZ3T3VwMDBFNnNneE9kajUxZFRMVzNuamJXWGhzWVROYkFfaGtlYUlaeGpIVUVPN1FwM3pyVWNsVVB3c29Hd2hOWFM3TzZud0RUamM5eDJmakpWTk9CYzZsOFRvUGNHakpoOGpsbHF0SERjbG52aGkzM0FuNGZTUmk3bjY5cjVsUmpUQ2hGNHIwZGZadmJuSGZOLVZ2OGRjenUxQWU3WlVvcTlodDhYUFlXb05JeFhZRXc1cm9WaTdrR3JrLVVsa3BIUUpSUzhPY2JfMUplLXpTRjdNejVHN09SSUtuV3QyelMzRkJUaEJfemRCX3FfbnVwYmZ2NW1iUjdEcmtZU2d2ckVIeEMwdVByMjhfS2ROQmZsNVBrMnJqbUpKRVJaSWJBQTkxUFhCOE44WXF2aUdmM3MzRUFhaURLeUk2ZFVZTDhfZ3ZkaXc?oc=5\n\nChatGPT-maker OpenAI is headed for a $1 trillion IPO. The biggest winner could be Microsoft stock. - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi-gJBVV95cUxORlg2b3g2aEYtNklQb2JTRnlLQmVBS0lBRXhCSGMyeER1dkFldGc3SjAxRXZ3T3VwMDBFNnNneE9kajUxZFRMVzNuamJXWGhzWVROYkFfaGtlYUlaeGpIVUVPN1FwM3pyVWNsVVB3c29Hd2hOWFM3TzZud0RUamM5eDJmakpWTk9CYzZsOFRvUGNHakpoOGpsbHF0SERjbG52aGkzM0FuNGZTUmk3bjY5cjVsUmpUQ2hGNHIwZGZadmJuSGZOLVZ2OGRjenUxQWU3WlVvcTlodDhYUFlXb05JeFhZRXc1cm9WaTdrR3JrLVVsa3BIUUpSUzhPY2JfMUplLXpTRjdNejVHN09SSUtuV3QyelMzRkJUaEJfemRCX3FfbnVwYmZ2NW1iUjdEcmtZU2d2ckVIeEMwdVByMjhfS2ROQmZsNVBrMnJqbUpKRVJaSWJBQTkxUFhCOE44WXF2aUdmM3MzRUFhaURLeUk2ZFVZTDhfZ3ZkaXc?oc=5\" target=\"_blank\">ChatGPT-maker OpenAI is headed for a $1 trillion IPO. The biggest winner could be Microsoft stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI is heading toward a $1 trillion IPO, framing Microsoft as the largest beneficiary.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u6b63\u671d\u7740\u4e00\u4e07\u4ebf\u7f8e\u5143\u7684 IPO \u4f30\u503c\u8fc8\u8fdb\uff0c\u5e76\u8ba4\u4e3a Microsoft \u5c06\u662f\u6700\u5927\u53d7\u76ca\u8005\u3002\n\nWhy it matters:\nA trillion-dollar IPO valuation for a still-unprofitable, capex-hungry lab would be a landmark test of the market's willingness to price AI infrastructure spend as durable value rather than burn; it also ties OpenAI's fate more tightly to Microsoft's stock, amplifying spillover risk if the OpenAI thesis cracks.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u5728\u70e7\u94b1\u3001\u5c1a\u672a\u76c8\u5229\u7684\u5b9e\u9a8c\u5ba4\u82e5\u80fd\u62ff\u5230\u4e07\u4ebf\u7f8e\u5143\u7ea7 IPO \u4f30\u503c\uff0c\u5c06\u662f\u5e02\u573a\u662f\u5426\u613f\u610f\u628a AI \u57fa\u7840\u8bbe\u65bd\u652f\u51fa\u5f53\u4f5c\u6301\u4e45\u4ef7\u503c\uff08\u800c\u975e\u7eaf\u70e7\u94b1\uff09\u6765\u5b9a\u4ef7\u7684\u6807\u5fd7\u6027\u68c0\u9a8c\uff1b\u8fd9\u4e5f\u8ba9 OpenAI \u7684\u547d\u8fd0\u4e0e Microsoft \u80a1\u4ef7\u6346\u7ed1\u5f97\u66f4\u7d27\uff0c\u4e00\u65e6 OpenAI \u7684\u53d9\u4e8b\u51fa\u95ee\u9898\uff0c\u6ea2\u51fa\u98ce\u9669\u4f1a\u88ab\u653e\u5927\u3002\n",
       "emailed": false
     }
   ],
