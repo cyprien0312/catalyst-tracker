@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783582323,
-  "generated_at_str": "2026-07-09 07:32:03 UTC",
-  "last_event_ts": 1783581244,
+  "generated_at": 1783582515,
+  "generated_at_str": "2026-07-09 07:35:15 UTC",
+  "last_event_ts": 1783582514,
   "tables": {
     "alerts_dedup": {
-      "count": 2194,
-      "last_ts": 1783559662,
-      "last_str": "2026-07-09 01:14:22 UTC"
+      "count": 2195,
+      "last_ts": 1783582514,
+      "last_str": "2026-07-09 07:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-09 07:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1922,
-      "last_ts": 1783580702,
-      "last_str": "2026-07-09 07:05:02 UTC"
+      "count": 1923,
+      "last_ts": 1783582502,
+      "last_str": "2026-07-09 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2317,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-09 07:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1554,
-      "last_ts": 1783580703,
-      "last_str": "2026-07-09 07:05:03 UTC"
+      "count": 1555,
+      "last_ts": 1783582503,
+      "last_str": "2026-07-09 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1748,
-      "last_ts": 1783578904,
-      "last_str": "2026-07-09 06:35:04 UTC"
+      "count": 1749,
+      "last_ts": 1783582505,
+      "last_str": "2026-07-09 07:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14656,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2202,
+      "ts": 1783582514,
+      "ts_str": "2026-07-09 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Long-Term Agreements Cap Price Increases; Server DRAM Contract Prices Expected to Rise 13-18% QoQ in 3Q26, Says TrendFor",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 05:52:53 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE1lR21ZNTFodkdzWndCQWFIazg3X0dOSUw0ZkVSU1Rjc2I2WTAxMk9VUFlxdnk3TEVmaDFFclhpZlN5MEQ3SmNPOHo1S3EtdmVhSmFJc0lXX0FFeF9Xd2VLeDNObmttalpxVWgzWVRmTFo?oc=5\n\nLong-Term Agreements Cap Price Increases; Server DRAM Contract Prices Expected to Rise 13-18% QoQ in 3Q26, Says TrendForce - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1lR21ZNTFodkdzWndCQWFIazg3X0dOSUw0ZkVSU1Rjc2I2WTAxMk9VUFlxdnk3TEVmaDFFclhpZlN5MEQ3SmNPOHo1S3EtdmVhSmFJc0lXX0FFeF9Xd2VLeDNObmttalpxVWgzWVRmTFo?oc=5\" target=\"_blank\">Long-Term Agreements Cap Price Increases; Server DRAM Contract Prices Expected to Rise 13-18% QoQ in 3Q26, Says TrendForce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports server DRAM contract prices are expected to rise 13-18% QoQ in Q3 2026, with long-term agreements capping the increase.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u544a\u79f0\uff0c\u670d\u52a1\u5668 DRAM \u5408\u7ea6\u4ef7\u9884\u8ba1\u5728 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u73af\u6bd4\u4e0a\u6da8 13-18%\uff0c\u957f\u671f\u534f\u8bae\u4e3a\u6da8\u5e45\u8bbe\u4e86\u4e0a\u9650\u3002\n\nWhy it matters:\nA double-digit QoQ jump in server DRAM pricing confirms C6 memory-stress: hyperscalers face rising input costs on top of GPU capex, squeezing margins or forcing further capex discipline. Tight memory supply also constrains how fast new AI server capacity can actually ship.\n\n\u5f71\u54cd:\n\u670d\u52a1\u5668 DRAM \u4ef7\u683c\u73af\u6bd4\u4e24\u4f4d\u6570\u4e0a\u6da8\u5370\u8bc1\u4e86 C6 \u5185\u5b58\u538b\u529b\u4fe1\u53f7\uff1a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5728 GPU \u8d44\u672c\u5f00\u652f\u4e4b\u5916\u8fd8\u8981\u627f\u53d7\u4e0a\u6da8\u7684\u786c\u4ef6\u6210\u672c\uff0c\u538b\u7f29\u5229\u6da6\u7a7a\u95f4\u6216\u8feb\u4f7f\u5176\u5728\u8d44\u672c\u5f00\u652f\u4e0a\u66f4\u52a0\u514b\u5236\u3002\u5185\u5b58\u4f9b\u7ed9\u8d8b\u7d27\u4e5f\u4f1a\u9650\u5236\u65b0\u589e AI \u670d\u52a1\u5668\u4ea7\u80fd\u7684\u5b9e\u9645\u51fa\u8d27\u901f\u5ea6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2201,
       "ts": 1783559662,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Electronics to raise DRAM prices about 20% in Q3, customers notified - \ud5e4\ub7f4\ub4dc\uacbd\uc81c",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 06:54:32 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjcHNuTlMwdnpTS2h0RnJaaWFqOUM0TE5lX3pwWDItcTFZOUhhZ0o2ZGhKekpBdmM1RnhLYUczdXY1MFU0TmdxUm9fWWFDdDAxQldsSjZzOA?oc=5\n\nSamsung Electronics to raise DRAM prices about 20% in Q3, customers notified - \ud5e4\ub7f4\ub4dc\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjcHNuTlMwdnpTS2h0RnJaaWFqOUM0TE5lX3pwWDItcTFZOUhhZ0o2ZGhKekpBdmM1RnhLYUczdXY1MFU0TmdxUm9fWWFDdDAxQldsSjZzOA?oc=5\" target=\"_blank\">Samsung Electronics to raise DRAM prices about 20% in Q3, customers notified</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ud5e4\ub7f4\ub4dc\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is raising DRAM prices roughly 20% for Q3, notifying customers directly.\n\n\u5185\u5bb9:\n\u4e09\u661f\u7535\u5b50\u5c06\u4e8e\u7b2c\u4e09\u5b63\u5ea6\u628a DRAM \u4ef7\u683c\u4e0a\u8c03\u7ea6 20%\uff0c\u5e76\u5df2\u76f4\u63a5\u901a\u77e5\u5ba2\u6237\u3002\n\nWhy it matters:\nA sharp DRAM price hike signals tight memory supply amid AI-driven demand \u2014 cost pressure flows straight into hyperscaler capex and could squeeze margins on non-AI compute, a classic tell that the memory supply chain is buckling under AI infrastructure buildout.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u8bf4\u660e\u5728 AI \u9700\u6c42\u62c9\u52a8\u4e0b\u5185\u5b58\u4f9b\u5e94\u5df2\u7ecf\u5403\u7d27\uff0c\u6210\u672c\u538b\u529b\u4f1a\u76f4\u63a5\u4f20\u5bfc\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u5e76\u53ef\u80fd\u6324\u538b\u975e AI \u7b97\u529b\u4e1a\u52a1\u7684\u5229\u6da6\u7387\u2014\u2014\u8fd9\u662f\u5185\u5b58\u4f9b\u5e94\u94fe\u5728 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u538b\u529b\u4e0b\u5f00\u59cb\u627f\u538b\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2004,
-      "ts": 1783206313,
-      "ts_str": "2026-07-04 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Computer and Smartphone Prices to Rise: Samsung Raises DRAM Memory Prices by 20 Percent - Zamin.uz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 20:23:26 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNy1mYmhYdFNsZG5HNHlvNHRpWW40QWFZcFBtU1d2OVprWUZnaWFWYWhxQlk4a3Bnd2I4MVp4a0dBTmFBTzRLSnFMOTNYMktZUXl4UGxWWXFVdUZaa0kyNjRRcF81aS1qanVRVFVDWlMyOFVLUnA3dC1HY2dhT3F6cmlOS21kclpfa3NkY1dTVmFXclN4SUpmcXM4a3B0MHR3VHhiUXpuTm5IejY2OUcwRTJkb0s3RDU4MGhfMUhjVHN2WlBhbTF0LQ?oc=5\n\nComputer and Smartphone Prices to Rise: Samsung Raises DRAM Memory Prices by 20 Percent - Zamin.uz\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNy1mYmhYdFNsZG5HNHlvNHRpWW40QWFZcFBtU1d2OVprWUZnaWFWYWhxQlk4a3Bnd2I4MVp4a0dBTmFBTzRLSnFMOTNYMktZUXl4UGxWWXFVdUZaa0kyNjRRcF81aS1qanVRVFVDWlMyOFVLUnA3dC1HY2dhT3F6cmlOS21kclpfa3NkY1dTVmFXclN4SUpmcXM4a3B0MHR3VHhiUXpuTm5IejY2OUcwRTJkb0s3RDU4MGhfMUhjVHN2WlBhbTF0LQ?oc=5\" target=\"_blank\">Computer and Smartphone Prices to Rise: Samsung Raises DRAM Memory Prices by 20 Percent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Zamin.uz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung raised DRAM memory prices by 20%, which is expected to push up computer and smartphone prices.\n\n\u5185\u5bb9:\n\u4e09\u661f\u5c06 DRAM \u5185\u5b58\u4ef7\u683c\u4e0a\u8c03 20%\uff0c\u9884\u8ba1\u5c06\u63a8\u9ad8\u7535\u8111\u548c\u667a\u80fd\u624b\u673a\u7684\u4ef7\u683c\u3002\n\nWhy it matters:\nA 20% DRAM price hike signals AI-driven demand (HBM for GPUs) is squeezing consumer memory supply \u2014 a hard-data confirmation of the memory/storage stress thesis, and a cost pressure that ripples into every device maker's margins.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u4e0a\u6da8 20% \u8868\u660e AI \u9a71\u52a8\u7684\u9700\u6c42\uff08\u7528\u4e8e GPU \u7684 HBM\uff09\u6b63\u5728\u6324\u538b\u6d88\u8d39\u7ea7\u5185\u5b58\u4f9b\u5e94\uff0c\u662f\u5185\u5b58/\u5b58\u50a8\u538b\u529b\u4e3b\u9898\u7684\u5b9e\u9524\u6570\u636e\u786e\u8ba4\uff0c\u540c\u65f6\u8fd9\u4e00\u6210\u672c\u538b\u529b\u4e5f\u4f1a\u4f20\u5bfc\u5230\u6240\u6709\u8bbe\u5907\u5382\u5546\u7684\u5229\u6da6\u7387\u4e0a\u3002\n",
       "emailed": false
     }
   ],
