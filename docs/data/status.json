@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783649462,
-  "generated_at_str": "2026-07-10 02:11:02 UTC",
-  "last_event_ts": 1783649106,
+  "generated_at": 1783649647,
+  "generated_at_str": "2026-07-10 02:14:07 UTC",
+  "last_event_ts": 1783649646,
   "tables": {
     "alerts_dedup": {
-      "count": 2226,
-      "last_ts": 1783647304,
-      "last_str": "2026-07-10 01:35:04 UTC"
+      "count": 2227,
+      "last_ts": 1783649646,
+      "last_str": "2026-07-10 02:14:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -59,9 +59,9 @@
       "last_str": "2026-07-10 00:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 591,
-      "last_ts": 1783638843,
-      "last_str": "2026-07-09 23:14:03 UTC"
+      "count": 592,
+      "last_ts": 1783649643,
+      "last_str": "2026-07-10 02:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1977,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-10 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 14959,
-      "last_ts": 1783647846,
-      "last_str": "2026-07-10 01:44:06 UTC"
+      "count": 14966,
+      "last_ts": 1783649642,
+      "last_str": "2026-07-10 02:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2234,
+      "ts": 1783649646,
+      "ts_str": "2026-07-10 02:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s No. 2 executive plans to step down ahead of IPO - Crypto Briefing",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 23:17:14 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE9TTU5mMFpWOVpTcXVhZ2NiVkdiOTl6YTd0WlBoT3h2WGxjX0lqVm9BNTk3bEMzQ0xTUmFCQzVTcVEzbWlpdW1fRDFxMWVlaEJHQWFyS1M5S2V1NVdRTm1CMEFBVzR0M1BVR2owQjZqNmx2QQ?oc=5\n\nOpenAI\u2019s No. 2 executive plans to step down ahead of IPO - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9TTU5mMFpWOVpTcXVhZ2NiVkdiOTl6YTd0WlBoT3h2WGxjX0lqVm9BNTk3bEMzQ0xTUmFCQzVTcVEzbWlpdW1fRDFxMWVlaEJHQWFyS1M5S2V1NVdRTm1CMEFBVzR0M1BVR2owQjZqNmx2QQ?oc=5\" target=\"_blank\">OpenAI\u2019s No. 2 executive plans to step down ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 2233,
       "ts": 1783647304,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung reportedly plans 20% DRAM price hike in Q3 - Big News Network.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 14:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxORVVFa3k4V3BSMFFEcUVRZmZocnZuOGl0UVVmQ1YtTEVRQWF1NkN5aGZ5OERRQVc4azJiWG01QnBkSFBVamV1eHMxeFNhYWVZeENWUVZpR0VsVnNGZ05DeEtKT29jOVFnM3phWndYeTcyS3c3SDVScmVqLWZTNUZGNEItcGtHc2VNREhSR01lemFHMEZHSWd5T1VIUQ?oc=5\n\nSamsung reportedly plans 20% DRAM price hike in Q3 - Big News Network.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxORVVFa3k4V3BSMFFEcUVRZmZocnZuOGl0UVVmQ1YtTEVRQWF1NkN5aGZ5OERRQVc4azJiWG01QnBkSFBVamV1eHMxeFNhYWVZeENWUVZpR0VsVnNGZ05DeEtKT29jOVFnM3phWndYeTcyS3c3SDVScmVqLWZTNUZGNEItcGtHc2VNREhSR01lemFHMEZHSWd5T1VIUQ?oc=5\" target=\"_blank\">Samsung reportedly plans 20% DRAM price hike in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Big News Network.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung is reportedly planning a 20% DRAM price hike for Q3.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nA sharp DRAM price hike signals tight memory supply, likely driven by HBM allocation for AI accelerators crowding out commodity DRAM capacity \u2014 a cost tailwind for memory makers but a margin headwind for anyone buying memory into AI systems, and a sign the memory market is tightening rather than oversupplied.\n\n\u5f71\u54cd:\nDRAM \u5927\u5e45\u6da8\u4ef7\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u8d8b\u7d27\uff0c\u5f88\u53ef\u80fd\u662f AI \u52a0\u901f\u5668\u5bf9 HBM \u7684\u9700\u6c42\u6324\u5360\u4e86\u901a\u7528 DRAM \u4ea7\u80fd\u2014\u2014\u8fd9\u5bf9\u5185\u5b58\u5382\u5546\u662f\u6210\u672c\u5229\u597d\uff0c\u4f46\u5bf9\u91c7\u8d2d\u5185\u5b58\u642d\u5efa AI \u7cfb\u7edf\u7684\u5382\u5546\u662f\u5229\u6da6\u538b\u529b\uff0c\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u6b63\u5728\u6536\u7d27\u800c\u975e\u8fc7\u5269\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2034,
-      "ts": 1783251853,
-      "ts_str": "2026-07-05 11:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Microsoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO - AD HOC NEWS",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 11:13:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDN2d0hHNC1zS3RkRnEtZjBwLXpfX3dHRmszZktlcE54MzZEbENmdW53SjlPSFZQcjFnZTFZS1NtQVV5cGdFWTZJTW1mSEJuRjdRLS1EV0R4cEJjUG9yT0hGcUEyVG9GWm5fQXN1YVJuMTgtMWZ4NkY4ZTNhU0IwZ2hjYWNRcm40NFlIWEtKWXAwUnVfUk1ST2xBMmxUYkZpSVBmaXk3UWRLbElrOHE2LWlyNDJnallGaGg2YUZYU2ZtbXhRQzVoLXB3?oc=5\n\nMicrosoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDN2d0hHNC1zS3RkRnEtZjBwLXpfX3dHRmszZktlcE54MzZEbENmdW53SjlPSFZQcjFnZTFZS1NtQVV5cGdFWTZJTW1mSEJuRjdRLS1EV0R4cEJjUG9yT0hGcUEyVG9GWm5fQXN1YVJuMTgtMWZ4NkY4ZTNhU0IwZ2hjYWNRcm40NFlIWEtKWXAwUnVfUk1ST2xBMmxUYkZpSVBmaXk3UWRLbElrOHE2LWlyNDJnallGaGg2YUZYU2ZtbXhRQzVoLXB3?oc=5\" target=\"_blank\">Microsoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports Microsoft's $270B stake in OpenAI is now contingent on OpenAI completing a trillion-dollar IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u5fae\u8f6f\u6301\u6709\u7684\u4ef7\u503c 2700 \u4ebf\u7f8e\u5143\u7684 OpenAI \u80a1\u4efd\uff0c\u5176\u4ef7\u503c\u5151\u73b0\u5982\u4eca\u53d6\u51b3\u4e8e OpenAI \u80fd\u5426\u5b8c\u6210\u4e00\u6b21\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7684 IPO\u3002\n\nWhy it matters:\nTying a hyperscaler's return on its AI bet to a single mega-IPO outcome concentrates risk \u2014 if the IPO slips or prices below that bar, Microsoft's marked value and the broader OpenAI-ecosystem valuation story take the hit.\n\n\u5f71\u54cd:\n\u628a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5728 AI \u4e0a\u7684\u56de\u62a5\u62bc\u5728\u5355\u4e00\u7684\u8d85\u7ea7 IPO \u7ed3\u679c\u4e0a\uff0c\u98ce\u9669\u9ad8\u5ea6\u96c6\u4e2d\u2014\u2014\u4e00\u65e6 IPO \u63a8\u8fdf\u6216\u5b9a\u4ef7\u4f4e\u4e8e\u8fd9\u4e2a\u95e8\u69db\uff0c\u5fae\u8f6f\u7684\u4f30\u503c\u548c\u6574\u4e2a OpenAI \u751f\u6001\u7684\u4f30\u503c\u53d9\u4e8b\u90fd\u4f1a\u53d7\u51b2\u51fb\u3002\n",
       "emailed": false
     }
   ],
