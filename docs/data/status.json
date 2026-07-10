@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783721463,
-  "generated_at_str": "2026-07-10 22:11:03 UTC",
-  "last_event_ts": 1783721103,
+  "generated_at": 1783721658,
+  "generated_at_str": "2026-07-10 22:14:18 UTC",
+  "last_event_ts": 1783721655,
   "tables": {
     "alerts_dedup": {
-      "count": 2248,
-      "last_ts": 1783716255,
-      "last_str": "2026-07-10 20:44:15 UTC"
+      "count": 2249,
+      "last_ts": 1783721655,
+      "last_str": "2026-07-10 22:14:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-06-25 21:17:14 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 2986,
-      "last_ts": 1783718045,
-      "last_str": "2026-07-10 21:14:05 UTC"
+      "count": 2987,
+      "last_ts": 1783721644,
+      "last_str": "2026-07-10 22:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 602,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-10 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 15229,
-      "last_ts": 1783719843,
-      "last_str": "2026-07-10 21:44:03 UTC"
+      "count": 15248,
+      "last_ts": 1783721642,
+      "last_str": "2026-07-10 22:14:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2256,
+      "ts": 1783721655,
+      "ts_str": "2026-07-10 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Executive steps down ahead of anticipated IPO - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 10 Jul 2026 20:11:16 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQanBmUWdFTHpQa3VTY0w5SE1yeFpUb2NMM2E1X19JNTFDRzd3SnFudlVuRkFIcUZuS1JpdEpmeFNYWWIwMDRITkpyaEJKNl96TFhhbnpvWUVpQ2lSOHhuTV9BeEtEZk82UWNrQkJwTG5sVnYwWlliaTltWno2RFB3X005aVBpb0VzQkh6Ukx1U09XUm9BRlVHcTJQbGlhM2Ew?oc=5\n\nOpenAI Executive steps down ahead of anticipated IPO - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQanBmUWdFTHpQa3VTY0w5SE1yeFpUb2NMM2E1X19JNTFDRzd3SnFudlVuRkFIcUZuS1JpdEpmeFNYWWIwMDRITkpyaEJKNl96TFhhbnpvWUVpQ2lSOHhuTV9BeEtEZk82UWNrQkJwTG5sVnYwWlliaTltWno2RFB3X005aVBpb0VzQkh6Ukx1U09XUm9BRlVHcTJQbGlhM2Ew?oc=5\" target=\"_blank\">OpenAI Executive steps down ahead of anticipated IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn OpenAI executive is departing ahead of an anticipated IPO, per a Yahoo Finance-syndicated report.\n\n\u5185\u5bb9:\n\u636e Yahoo Finance \u8f6c\u8f7d\u62a5\u9053\uff0cOpenAI \u4e00\u540d\u9ad8\u7ba1\u5728\u9884\u671f IPO \u4e4b\u524d\u79bb\u804c\u3002\n\nWhy it matters:\nPre-IPO C-suite exits can signal internal friction over governance, burn rate, or valuation expectations right when scrutiny of OpenAI's finances is peaking \u2014 worth tracking alongside the C3 burn-rate trigger, but a single departure headline alone doesn't confirm financial stress.\n\n\u5f71\u54cd:\n\u5728\u5916\u754c\u5bf9 OpenAI \u8d22\u52a1\u72b6\u51b5\u7684\u5ba1\u89c6\u65e5\u76ca\u52a0\u5267\u4e4b\u9645\uff0cIPO \u524d\u5915\u7684\u9ad8\u7ba1\u79bb\u804c\u53ef\u80fd\u6697\u793a\u5185\u90e8\u5728\u6cbb\u7406\u3001\u70e7\u94b1\u901f\u5ea6\u6216\u4f30\u503c\u9884\u671f\u4e0a\u5b58\u5728\u5206\u6b67,\u503c\u5f97\u4e0e C3 \u7684\u70e7\u94b1\u7387\u89e6\u53d1\u6307\u6807\u4e00\u8d77\u5173\u6ce8,\u4f46\u4ec5\u51ed\u4e00\u5219\u79bb\u804c\u6d88\u606f\u5c1a\u4e0d\u80fd\u8bc1\u5b9e\u5b58\u5728\u8d22\u52a1\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2255,
       "ts": 1783716255,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - The Globe and Mail",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 04 Jul 2026 22:29:05 GMT\nLink:      https://news.google.com/rss/articles/CBMihAJBVV95cUxOOTAxMlhINUdiWU5yWjNyUDl5aGFiOHJhQUktZG9LZEQyaDdvb3d6RTU0UHZrazNfQUtaS3RuS290NE90ak1kcFZYelJtVUNTR2xWWWNnRFRLRUZMMDNqNnI2YmNQQTg2SDVvSXcxQ0ZMMzM3czFWOG82c0dYZ095MW1zdmlhVFFnLTJodDlUdHFHaHhFeWhmM0ZDS2c3QmN5UnJjM2dmaGpvU0plLWFSbmVWWVZoWU1mWi0yZ2w0aTdTalJBOWxBbWRqNWZ1V0cxaVQteGxzSTVfWEdKS2tHNVpUN2d3M3R1VlNHeDFYd1NteDZSTHhpeDhta1d6S1BteDVrTg?oc=5\n\nChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxOOTAxMlhINUdiWU5yWjNyUDl5aGFiOHJhQUktZG9LZEQyaDdvb3d6RTU0UHZrazNfQUtaS3RuS290NE90ak1kcFZYelJtVUNTR2xWWWNnRFRLRUZMMDNqNnI2YmNQQTg2SDVvSXcxQ0ZMMzM3czFWOG82c0dYZ095MW1zdmlhVFFnLTJodDlUdHFHaHhFeWhmM0ZDS2c3QmN5UnJjM2dmaGpvU0plLWFSbmVWWVZoWU1mWi0yZ2w0aTdTalJBOWxBbWRqNWZ1V0cxaVQteGxzSTVfWEdKS2tHNVpUN2d3M3R1VlNHeDFYd1NteDZSTHhpeDhta1d6S1BteDVrTg?oc=5\" target=\"_blank\">ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports OpenAI is heading toward a $1 trillion IPO, with Microsoft flagged as the biggest beneficiary of that outcome.\n\n\u5185\u5bb9:\n\u5a92\u4f53\u62a5\u9053\u79f0 OpenAI \u6b63\u671d\u7740 1 \u4e07\u4ebf\u7f8e\u5143 IPO \u8fc8\u8fdb\uff0cMicrosoft \u88ab\u8ba4\u4e3a\u662f\u6700\u5927\u53d7\u76ca\u65b9\u3002\n\nWhy it matters:\nA trillion-dollar OpenAI valuation would validate the entire AI-capex thesis if it holds, but it also raises the stakes of any OpenAI stumble \u2014 a wobble in the IPO narrative or burn rate would hit Microsoft's stock and the broader AI trade simultaneously.\n\n\u5f71\u54cd:\n\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u4e00\u65e6\u6210\u7acb\u4f1a\u4e3a\u6574\u4e2a AI capex \u53d9\u4e8b\u80cc\u4e66\uff0c\u4f46\u4e5f\u628a\u98ce\u9669\u96c6\u4e2d\u5316\u4e86\u2014\u2014\u4e00\u65e6 OpenAI \u7684 IPO \u53d9\u4e8b\u6216\u70e7\u94b1\u901f\u5ea6\u51fa\u73b0\u6ce2\u52a8\uff0cMicrosoft \u80a1\u4ef7\u548c\u6574\u4e2a AI \u4ea4\u6613\u90fd\u4f1a\u540c\u65f6\u53d7\u51b2\u51fb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2056,
-      "ts": 1783271654,
-      "ts_str": "2026-07-05 17:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's IPO Filing, Deployment Company, and Government Stake Offer Reveal a Single Ruthless Strategy - FourWeekMBA",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 14:22:41 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE1VMHZLLUhvZExOVlRWT3FleE1tUE5hY1RfWkRnb0tyM3BscmtBcDVhbXFKcFVGOTJpR2U5d2lfM1hTQnZfVFgzZUh6Y0M5aUlweU1sSmNIS3NySEdvR2NoWFRHaGpoODNiYnJuUjVPYkpFWDNMZFJ4YU9LYzBnUU0?oc=5\n\nOpenAI's IPO Filing, Deployment Company, and Government Stake Offer Reveal a Single Ruthless Strategy - FourWeekMBA\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1VMHZLLUhvZExOVlRWT3FleE1tUE5hY1RfWkRnb0tyM3BscmtBcDVhbXFKcFVGOTJpR2U5d2lfM1hTQnZfVFgzZUh6Y0M5aUlweU1sSmNIS3NySEdvR2NoWFRHaGpoODNiYnJuUjVPYkpFWDNMZFJ4YU9LYzBnUU0?oc=5\" target=\"_blank\">OpenAI's IPO Filing, Deployment Company, and Government Stake Offer Reveal a Single Ruthless Strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FourWeekMBA</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA commentary piece flags that OpenAI's IPO filing, its \"deployment company\" structure, and a government stake offer together point to one strategy.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u8bc4\u8bba\u6307\u51fa\uff0cOpenAI \u7684 IPO \u7533\u8bf7\u3001\u5176\u201c\u90e8\u7f72\u516c\u53f8\u201d\u67b6\u6784\uff0c\u4ee5\u53ca\u5411\u653f\u5e9c\u63d0\u4f9b\u80a1\u6743\u7684\u63d0\u8bae\uff0c\u5171\u540c\u6307\u5411\u540c\u4e00\u4e2a\u7b56\u7565\u3002\n\nWhy it matters:\nAn IPO filing plus a government-stake offer signals OpenAI may be seeking state-backed capital or guarantees to sustain its compute buildout \u2014 a sign the pure-private-capital funding model for frontier AI is straining.\n\n\u5f71\u54cd:\nIPO \u7533\u8bf7\u53e0\u52a0\u5411\u653f\u5e9c\u63d0\u4f9b\u80a1\u6743\uff0c\u610f\u5473\u7740 OpenAI \u53ef\u80fd\u5728\u5bfb\u6c42\u56fd\u5bb6\u80cc\u4e66\u7684\u8d44\u672c\u6216\u62c5\u4fdd\u6765\u7ef4\u6301\u5176\u7b97\u529b\u6269\u5f20\u2014\u2014\u8fd9\u662f\u7eaf\u79c1\u4eba\u8d44\u672c\u6a21\u5f0f\u5df2\u96be\u4ee5\u652f\u6491\u524d\u6cbf AI \u6295\u5165\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
