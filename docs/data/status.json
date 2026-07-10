@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783647127,
-  "generated_at_str": "2026-07-10 01:32:07 UTC",
-  "last_event_ts": 1783646059,
+  "generated_at": 1783647305,
+  "generated_at_str": "2026-07-10 01:35:05 UTC",
+  "last_event_ts": 1783647304,
   "tables": {
     "alerts_dedup": {
-      "count": 2225,
-      "last_ts": 1783646059,
-      "last_str": "2026-07-10 01:14:19 UTC"
+      "count": 2226,
+      "last_ts": 1783647304,
+      "last_str": "2026-07-10 01:35:04 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,14 +69,14 @@
       "last_str": "2026-07-10 01:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2383,
-      "last_ts": 1783645503,
-      "last_str": "2026-07-10 01:05:03 UTC"
+      "count": 2385,
+      "last_ts": 1783647304,
+      "last_str": "2026-07-10 01:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1619,
-      "last_ts": 1783643703,
-      "last_str": "2026-07-10 00:35:03 UTC"
+      "count": 1620,
+      "last_ts": 1783647303,
+      "last_str": "2026-07-10 01:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1820,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2233,
+      "ts": 1783647304,
+      "ts_str": "2026-07-10 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Powerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandem",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 08:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5oeUNkQndJVHd1Zy1iWERZdDI1eml0MnlvNjJQY0thOWxqaEFrc2Jza1NJaTQxSGhKdWpKbXJfek1YM2NCTG9RSGxicjlGWVM0bmpMSmNxUTFZcko2YnRsQmkzZGl2QXB0LUlkcHQtN0NPV184U3c?oc=5\n\nPowerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandemic Era - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5oeUNkQndJVHd1Zy1iWERZdDI1eml0MnlvNjJQY0thOWxqaEFrc2Jza1NJaTQxSGhKdWpKbXJfek1YM2NCTG9RSGxicjlGWVM0bmpMSmNxUTFZcko2YnRsQmkzZGl2QXB0LUlkcHQtN0NPV184U3c?oc=5\" target=\"_blank\">Powerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandemic Era</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports Powerchip's June revenue hit a 47-month high of NT$6.47B, with its president saying memory price hikes are more intense than during the pandemic era.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u65b0\u95fb\u62a5\u9053\u79f0\uff0cPowerchip\uff08\u529b\u6676\uff096 \u6708\u8425\u6536\u521b 47 \u4e2a\u6708\u65b0\u9ad8\uff0c\u8fbe NT$6.47 \u4ebf\uff0c\u5176\u603b\u88c1\u8868\u793a\u672c\u8f6e\u5b58\u50a8\u5668\u6da8\u4ef7\u529b\u5ea6\u8d85\u8fc7\u75ab\u60c5\u65f6\u671f\u3002\n\nWhy it matters:\nA NAND/DRAM supplier flagging price hikes exceeding the 2021 pandemic surge signals a sharp memory-market tightening \u2014 likely driven by HBM allocation for AI accelerators squeezing legacy DRAM/NAND supply. Rising input costs for memory raise hyperscaler capex per unit of compute, compounding the AI-infra cost-inflation thesis.\n\n\u5f71\u54cd:\n\u4e00\u5bb6 NAND/DRAM \u4f9b\u5e94\u5546\u79f0\u672c\u8f6e\u6da8\u4ef7\u529b\u5ea6\u8d85\u8fc7 2021 \u5e74\u75ab\u60c5\u9ad8\u5cf0\uff0c\u8bf4\u660e\u5b58\u50a8\u5668\u5e02\u573a\u6b63\u5728\u6025\u5267\u6536\u7d27\u2014\u2014\u5f88\u53ef\u80fd\u662f HBM \u4e3a AI \u52a0\u901f\u5668\u5360\u7528\u4ea7\u80fd\uff0c\u6324\u538b\u4e86\u4f20\u7edf DRAM/NAND \u7684\u4f9b\u7ed9\u3002\u5b58\u50a8\u5668\u6210\u672c\u4e0a\u5347\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff0c\u52a0\u5267 AI \u57fa\u5efa\u6210\u672c\u81a8\u80c0\u7684\u53d9\u4e8b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2232,
       "ts": 1783646059,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Microsoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO - AD HOC NEWS",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 11:13:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDN2d0hHNC1zS3RkRnEtZjBwLXpfX3dHRmszZktlcE54MzZEbENmdW53SjlPSFZQcjFnZTFZS1NtQVV5cGdFWTZJTW1mSEJuRjdRLS1EV0R4cEJjUG9yT0hGcUEyVG9GWm5fQXN1YVJuMTgtMWZ4NkY4ZTNhU0IwZ2hjYWNRcm40NFlIWEtKWXAwUnVfUk1ST2xBMmxUYkZpSVBmaXk3UWRLbElrOHE2LWlyNDJnallGaGg2YUZYU2ZtbXhRQzVoLXB3?oc=5\n\nMicrosoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNZDN2d0hHNC1zS3RkRnEtZjBwLXpfX3dHRmszZktlcE54MzZEbENmdW53SjlPSFZQcjFnZTFZS1NtQVV5cGdFWTZJTW1mSEJuRjdRLS1EV0R4cEJjUG9yT0hGcUEyVG9GWm5fQXN1YVJuMTgtMWZ4NkY4ZTNhU0IwZ2hjYWNRcm40NFlIWEtKWXAwUnVfUk1ST2xBMmxUYkZpSVBmaXk3UWRLbElrOHE2LWlyNDJnallGaGg2YUZYU2ZtbXhRQzVoLXB3?oc=5\" target=\"_blank\">Microsoft's $270 Billion OpenAI Windfall Hinges on a Trillion-Dollar IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports Microsoft's $270B stake in OpenAI is now contingent on OpenAI completing a trillion-dollar IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u5fae\u8f6f\u6301\u6709\u7684\u4ef7\u503c 2700 \u4ebf\u7f8e\u5143\u7684 OpenAI \u80a1\u4efd\uff0c\u5176\u4ef7\u503c\u5151\u73b0\u5982\u4eca\u53d6\u51b3\u4e8e OpenAI \u80fd\u5426\u5b8c\u6210\u4e00\u6b21\u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7684 IPO\u3002\n\nWhy it matters:\nTying a hyperscaler's return on its AI bet to a single mega-IPO outcome concentrates risk \u2014 if the IPO slips or prices below that bar, Microsoft's marked value and the broader OpenAI-ecosystem valuation story take the hit.\n\n\u5f71\u54cd:\n\u628a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5728 AI \u4e0a\u7684\u56de\u62a5\u62bc\u5728\u5355\u4e00\u7684\u8d85\u7ea7 IPO \u7ed3\u679c\u4e0a\uff0c\u98ce\u9669\u9ad8\u5ea6\u96c6\u4e2d\u2014\u2014\u4e00\u65e6 IPO \u63a8\u8fdf\u6216\u5b9a\u4ef7\u4f4e\u4e8e\u8fd9\u4e2a\u95e8\u69db\uff0c\u5fae\u8f6f\u7684\u4f30\u503c\u548c\u6574\u4e2a OpenAI \u751f\u6001\u7684\u4f30\u503c\u53d9\u4e8b\u90fd\u4f1a\u53d7\u51b2\u51fb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2033,
-      "ts": 1783248255,
-      "ts_str": "2026-07-05 10:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Sam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX? -",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 10:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMingJBVV95cUxOYkpWSUE1bVhMZ2lTTVdpeC1QY1pCVTFwZjNfbUZ2SldqTUdWeS1PWkhfbDV3cEhPb0VsQmVua2ExTllzMXV6Vm53X0hKUnh2WlFMZ1EwZG5UREtOeElYZ0tWS0xGSENjV2FDXzNxLURTMVJNREpWa2tFbmp4NU96aEFqbTFvNE5VaXNQM1pUbEw3clZDTXNfa2tORjk0RFR3SFZ6X0oyS2VYWHZPOU92Yk1QdUozQnRURVlOX3JQdTdOc3lMdXFJYmNNWF9RY19FZVpWWGpOQnlQYklNSlk3UjV6aFZPNnRhWm5JLTdHTUhMb2xtMEVCU0I0RS13T0hiN0FUU2FRYlJBNzVzX25TQVhtRHhVUk9DQVplcGRR?oc=5\n\nSam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX? - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMingJBVV95cUxOYkpWSUE1bVhMZ2lTTVdpeC1QY1pCVTFwZjNfbUZ2SldqTUdWeS1PWkhfbDV3cEhPb0VsQmVua2ExTllzMXV6Vm53X0hKUnh2WlFMZ1EwZG5UREtOeElYZ0tWS0xGSENjV2FDXzNxLURTMVJNREpWa2tFbmp4NU96aEFqbTFvNE5VaXNQM1pUbEw3clZDTXNfa2tORjk0RFR3SFZ6X0oyS2VYWHZPOU92Yk1QdUozQnRURVlOX3JQdTdOc3lMdXFJYmNNWF9RY19FZVpWWGpOQnlQYklNSlk3UjV6aFZPNnRhWm5JLTdHTUhMb2xtMEVCU0I0RS13T0hiN0FUU2FRYlJBNzVzX25TQVhtRHhVUk9DQVplcGRR?oc=5\" target=\"_blank\">Sam Altman called any OpenAI IPO valuation below $1 trillion a \"nonstarter.\" Should investors prefer OpenAI or SpaceX?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said any OpenAI IPO valuation below $1 trillion would be a \"nonstarter,\" per reporting comparing an OpenAI vs. SpaceX investment case.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSam Altman \u8868\u793a\uff0c\u82e5 OpenAI \u7684 IPO \u4f30\u503c\u4f4e\u4e8e 1 \u4e07\u4ebf\u7f8e\u5143\uff0c\u5c06\u662f\u4e2a\u300c\u4e0d\u53ef\u63a5\u53d7\u7684\u300d\uff08nonstarter\uff09\u65b9\u6848\uff0c\u8be5\u62a5\u9053\u5c06 OpenAI \u4e0e SpaceX \u7684\u6295\u8d44\u4ef7\u503c\u8fdb\u884c\u4e86\u5bf9\u6bd4\u3002\n\nWhy it matters:\nA trillion-dollar floor signals OpenAI leadership is anchoring expectations at a valuation far beyond current private marks, raising the bar for any future raise or listing and adding pressure on the burn-rate math this catalyst tracks.\n\n\u5f71\u54cd:\n\u5c06\u4f30\u503c\u4e0b\u9650\u951a\u5b9a\u5728\u4e07\u4ebf\u7f8e\u5143\u7ea7\u522b\uff0c\u8bf4\u660e OpenAI \u7ba1\u7406\u5c42\u7684\u9884\u671f\u5df2\u7ecf\u8fdc\u8d85\u5f53\u524d\u79c1\u52df\u5e02\u573a\u7684\u5b9a\u4ef7\uff0c\u8fd9\u4f1a\u62c9\u9ad8\u672a\u6765\u4efb\u4f55\u878d\u8d44\u6216\u4e0a\u5e02\u7684\u95e8\u69db\uff0c\u4e5f\u52a0\u91cd\u4e86\u8fd9\u4e00\u50ac\u5316\u5242\u6240\u8ddf\u8e2a\u7684\u70e7\u94b1\u901f\u5ea6\u6307\u6807\u627f\u53d7\u7684\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
