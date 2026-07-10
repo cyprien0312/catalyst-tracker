@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783645327,
-  "generated_at_str": "2026-07-10 01:02:07 UTC",
-  "last_event_ts": 1783644242,
+  "generated_at": 1783645519,
+  "generated_at_str": "2026-07-10 01:05:19 UTC",
+  "last_event_ts": 1783645518,
   "tables": {
     "alerts_dedup": {
-      "count": 2223,
-      "last_ts": 1783636151,
-      "last_str": "2026-07-09 22:29:11 UTC"
+      "count": 2224,
+      "last_ts": 1783645518,
+      "last_str": "2026-07-10 01:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-09 23:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1975,
-      "last_ts": 1783640107,
-      "last_str": "2026-07-09 23:35:07 UTC"
+      "count": 1976,
+      "last_ts": 1783645501,
+      "last_str": "2026-07-10 01:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2382,
-      "last_ts": 1783640109,
-      "last_str": "2026-07-09 23:35:09 UTC"
+      "count": 2383,
+      "last_ts": 1783645503,
+      "last_str": "2026-07-10 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1619,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-10 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1819,
-      "last_ts": 1783640109,
-      "last_str": "2026-07-09 23:35:09 UTC"
+      "count": 1820,
+      "last_ts": 1783645503,
+      "last_str": "2026-07-10 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14951,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2231,
+      "ts": 1783645518,
+      "ts_str": "2026-07-10 01:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Powerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandem",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 08:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5oeUNkQndJVHd1Zy1iWERZdDI1eml0MnlvNjJQY0thOWxqaEFrc2Jza1NJaTQxSGhKdWpKbXJfek1YM2NCTG9RSGxicjlGWVM0bmpMSmNxUTFZcko2YnRsQmkzZGl2QXB0LUlkcHQtN0NPV184U3c?oc=5\n\nPowerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandemic Era - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5oeUNkQndJVHd1Zy1iWERZdDI1eml0MnlvNjJQY0thOWxqaEFrc2Jza1NJaTQxSGhKdWpKbXJfek1YM2NCTG9RSGxicjlGWVM0bmpMSmNxUTFZcko2YnRsQmkzZGl2QXB0LUlkcHQtN0NPV184U3c?oc=5\" target=\"_blank\">Powerchip June Revenue Hits NT$6.47 Billion, a 47-Month High; President Says Memory Price Hikes More Intense Than Pandemic Era</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports Powerchip's June revenue hit a 47-month high of NT$6.47B, with its president saying memory price hikes are more intense than during the pandemic era.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u65b0\u95fb\u62a5\u9053\u79f0\uff0cPowerchip\uff08\u529b\u6676\uff096 \u6708\u8425\u6536\u521b 47 \u4e2a\u6708\u65b0\u9ad8\uff0c\u8fbe NT$6.47 \u4ebf\uff0c\u5176\u603b\u88c1\u8868\u793a\u672c\u8f6e\u5b58\u50a8\u5668\u6da8\u4ef7\u529b\u5ea6\u8d85\u8fc7\u75ab\u60c5\u65f6\u671f\u3002\n\nWhy it matters:\nA NAND/DRAM supplier flagging price hikes exceeding the 2021 pandemic surge signals a sharp memory-market tightening \u2014 likely driven by HBM allocation for AI accelerators squeezing legacy DRAM/NAND supply. Rising input costs for memory raise hyperscaler capex per unit of compute, compounding the AI-infra cost-inflation thesis.\n\n\u5f71\u54cd:\n\u4e00\u5bb6 NAND/DRAM \u4f9b\u5e94\u5546\u79f0\u672c\u8f6e\u6da8\u4ef7\u529b\u5ea6\u8d85\u8fc7 2021 \u5e74\u75ab\u60c5\u9ad8\u5cf0\uff0c\u8bf4\u660e\u5b58\u50a8\u5668\u5e02\u573a\u6b63\u5728\u6025\u5267\u6536\u7d27\u2014\u2014\u5f88\u53ef\u80fd\u662f HBM \u4e3a AI \u52a0\u901f\u5668\u5360\u7528\u4ea7\u80fd\uff0c\u6324\u538b\u4e86\u4f20\u7edf DRAM/NAND \u7684\u4f9b\u7ed9\u3002\u5b58\u50a8\u5668\u6210\u672c\u4e0a\u5347\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff0c\u52a0\u5267 AI \u57fa\u5efa\u6210\u672c\u81a8\u80c0\u7684\u53d9\u4e8b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2230,
       "ts": 1783636151,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Sam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX? -",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 09:29:31 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxQdV9pMlVET0JKTHdRRGN3VUVMSy1KZGQyMnRVWGR2eUpONTVmcjd0dHZGcVRTREtQZ3ppalY0V3ZLaVlBaGZoQ3VsRU5rRktFblBGbFV3UkpNdmhiR2NneTJKWTNJWUlYMkNjdlRnZ0VEOHV0c05ETUh1d09EY2hqM2FXTHZEdWRZUjhlREhfNFgxTVdJX1VHMQ?oc=5\n\nSam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX? - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQdV9pMlVET0JKTHdRRGN3VUVMSy1KZGQyMnRVWGR2eUpONTVmcjd0dHZGcVRTREtQZ3ppalY0V3ZLaVlBaGZoQ3VsRU5rRktFblBGbFV3UkpNdmhiR2NneTJKWTNJWUlYMkNjdlRnZ0VEOHV0c05ETUh1d09EY2hqM2FXTHZEdWRZUjhlREhfNFgxTVdJX1VHMQ?oc=5\" target=\"_blank\">Sam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman reportedly called any OpenAI IPO valuation below $1 trillion a \"nonstarter,\" per a Motley Fool piece comparing OpenAI and SpaceX as investments.\n\n\u5185\u5bb9:\n\u636e The Motley Fool \u62a5\u9053\uff0cSam Altman \u8868\u793a OpenAI \u82e5 IPO\uff0c\u4f30\u503c\u4f4e\u4e8e 1 \u4e07\u4ebf\u7f8e\u5143\u5c31\u662f\u300c\u4e0d\u53ef\u63a5\u53d7\u7684\u300d\uff08nonstarter\uff09\uff0c\u6587\u7ae0\u5e76\u5c06 OpenAI \u4e0e SpaceX \u4f5c\u4e3a\u6295\u8d44\u6807\u7684\u8fdb\u884c\u5bf9\u6bd4\u3002\n\nWhy it matters:\nA trillion-dollar-plus IPO floor signals OpenAI's leadership is anchoring public-market expectations to private-market froth well before any listing \u2014 the kind of valuation talk that inflates the AI-capex bubble narrative rather than reflecting demonstrated cash-flow support.\n\n\u5f71\u54cd:\n\u628a IPO \u4f30\u503c\u4e0b\u9650\u951a\u5b9a\u5728\u4e07\u4ebf\u7f8e\u5143\u4ee5\u4e0a\uff0c\u8bf4\u660e OpenAI \u7ba1\u7406\u5c42\u6b63\u5728\u628a\u79c1\u52df\u5e02\u573a\u7684\u9ad8\u4f30\u503c\u9884\u671f\u63d0\u524d\u5e26\u5165\u516c\u5f00\u5e02\u573a\u8206\u8bba\uff0c\u800c\u8fd9\u7c7b\u4f30\u503c\u8bdd\u672f\u6070\u6070\u662f\u5728\u7f3a\u4e4f\u73b0\u91d1\u6d41\u652f\u6491\u7684\u60c5\u51b5\u4e0b\u7ee7\u7eed\u5439\u5927 AI capex \u6ce1\u6cab\u53d9\u4e8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2030,
-      "ts": 1783244692,
-      "ts_str": "2026-07-05 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Sam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX? -",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 09:42:42 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE8wVG9JLU5zTnVDWjhMbldPSUhJU1V3STVBU2RPVy1QTkpJR2R3N2xWaTEzUHJfbWYxcURtTVROd0pWOFYxalNyZlhkdmlNVTA1cV82OXF1THpWa0tvU2dqemZDUC1RYVl5MDVEeWc1T20zTHpmUWZjaTFzS0g?oc=5\n\nSam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX? - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE8wVG9JLU5zTnVDWjhMbldPSUhJU1V3STVBU2RPVy1QTkpJR2R3N2xWaTEzUHJfbWYxcURtTVROd0pWOFYxalNyZlhkdmlNVTA1cV82OXF1THpWa0tvU2dqemZDUC1RYVl5MDVEeWc1T20zTHpmUWZjaTFzS0g?oc=5\" target=\"_blank\">Sam Altman Called Any OpenAI IPO Valuation Below $1 Trillion a \"Nonstarter.\" Should Investors Prefer OpenAI or SpaceX?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said any OpenAI IPO valuation below $1 trillion would be a \"nonstarter,\" per a report comparing OpenAI and SpaceX as investment options.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a\uff0cOpenAI IPO \u4f30\u503c\u82e5\u4f4e\u4e8e 1 \u4e07\u4ebf\u7f8e\u5143\u5c06\u662f\u4e2a\u300c\u4e0d\u53ef\u63a5\u53d7\u7684\u4e0b\u9650\u300d\uff0c\u6b64\u8bf4\u6cd5\u51fa\u81ea\u4e00\u7bc7\u6bd4\u8f83 OpenAI \u4e0e SpaceX \u6295\u8d44\u4ef7\u503c\u7684\u62a5\u9053\u3002\n\nWhy it matters:\nA trillion-dollar floor before any IPO has priced signals management is anchoring expectations at levels that assume the AI-capex buildout keeps paying off; it raises the bar for what would count as a disappointing debut and adds to the pile of pre-IPO valuation chatter this tracker treats as a soft signal, not hard data.\n\n\u5f71\u54cd:\n\u5728 IPO \u5b9a\u4ef7\u4e4b\u524d\u5c31\u628a\u5e95\u7ebf\u8bbe\u5728\u4e07\u4ebf\u7f8e\u5143\uff0c\u8bf4\u660e\u7ba1\u7406\u5c42\u7684\u9884\u671f\u951a\u5b9a\u5728\u300cAI \u8d44\u672c\u5f00\u652f\u6301\u7eed\u5151\u73b0\u56de\u62a5\u300d\u7684\u5047\u8bbe\u4e0a\uff0c\u4e5f\u62c9\u9ad8\u4e86\u672a\u6765 IPO \u82e5\u8868\u73b0\u4e0d\u53ca\u9884\u671f\u7684\u5224\u65ad\u95e8\u69db\uff1b\u8fd9\u5c5e\u4e8e\u672c\u8ffd\u8e2a\u5668\u5f52\u7c7b\u4e3a\u8f6f\u4fe1\u53f7\u7684\u4f30\u503c\u4f20\u95fb\uff0c\u800c\u975e\u786c\u6570\u636e\u3002\n",
       "emailed": false
     }
   ],
