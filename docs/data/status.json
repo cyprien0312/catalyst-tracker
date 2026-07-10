@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783659728,
-  "generated_at_str": "2026-07-10 05:02:08 UTC",
-  "last_event_ts": 1783658650,
+  "generated_at": 1783659915,
+  "generated_at_str": "2026-07-10 05:05:15 UTC",
+  "last_event_ts": 1783659914,
   "tables": {
     "alerts_dedup": {
-      "count": 2232,
-      "last_ts": 1783656314,
-      "last_str": "2026-07-10 04:05:14 UTC"
+      "count": 2233,
+      "last_ts": 1783659914,
+      "last_str": "2026-07-10 05:05:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-10 04:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1981,
-      "last_ts": 1783656307,
-      "last_str": "2026-07-10 04:05:07 UTC"
+      "count": 1982,
+      "last_ts": 1783659902,
+      "last_str": "2026-07-10 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2401,
-      "last_ts": 1783656308,
-      "last_str": "2026-07-10 04:05:08 UTC"
+      "count": 2402,
+      "last_ts": 1783659904,
+      "last_str": "2026-07-10 05:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1625,
@@ -276,6 +276,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2240,
+      "ts": 1783659914,
+      "ts_str": "2026-07-10 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] GigaDevice's 1H26 profit surges 1,099% on memory chip shortage, higher prices - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 10 Jul 2026 03:19:23 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxORTd2WkJUaURpR2g0NHRNUjBVTUF3WFRMa3hMbWJtX2U5YXZoQ2JxTVVaYWpDMlhEWGJtUzhFMkpKUjB6T2pBZGNoMGh6YU93TzRsekF1U1JYTGVQZFRsRUVYZTdSVERTbUlNSjRoZFdOWEg2ZFhTdk8wVmpoTVFaa3ZZdk4wekxBdzlUUjBQOTZYa0FCY2txeA?oc=5\n\nGigaDevice's 1H26 profit surges 1,099% on memory chip shortage, higher prices - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxORTd2WkJUaURpR2g0NHRNUjBVTUF3WFRMa3hMbWJtX2U5YXZoQ2JxTVVaYWpDMlhEWGJtUzhFMkpKUjB6T2pBZGNoMGh6YU93TzRsekF1U1JYTGVQZFRsRUVYZTdSVERTbUlNSjRoZFdOWEg2ZFhTdk8wVmpoTVFaa3ZZdk4wekxBdzlUUjBQOTZYa0FCY2txeA?oc=5\" target=\"_blank\">GigaDevice's 1H26 profit surges 1,099% on memory chip shortage, higher prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGigaDevice's H1 2026 profit surged 1,099% year-over-year, driven by a memory chip shortage and higher prices.\n\n\u5185\u5bb9:\nGigaDevice\uff08\u5146\u6613\u521b\u65b0\uff092026\u5e74\u4e0a\u534a\u5e74\u5229\u6da6\u540c\u6bd4\u66b4\u6da81,099%\uff0c\u539f\u56e0\u662f\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u548c\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nA memory-chip supplier posting an 11x profit jump on shortage-driven pricing confirms C6's core signal: DRAM/NAND capacity is tight enough to distort margins across the AI hardware supply chain. Rising memory costs squeeze GPU/server BOM economics and add another input-cost pressure point to the AI-capex payback thesis.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5185\u5b58\u82af\u7247\u4f9b\u5e94\u5546\u5229\u6da6\u66b4\u6da811\u500d\uff0c\u4e14\u5b8c\u5168\u7531\u77ed\u7f3a\u9a71\u52a8\u7684\u6da8\u4ef7\u652f\u6491\uff0c\u5370\u8bc1\u4e86C6\u4fe1\u53f7\u7684\u6838\u5fc3\u903b\u8f91\uff1aDRAM/NAND\u4ea7\u80fd\u7d27\u5f20\u5230\u8db3\u4ee5\u626d\u66f2\u884c\u4e1a\u5229\u6da6\u7ed3\u6784\u3002\u5185\u5b58\u6210\u672c\u4e0a\u5347\u4f1a\u6324\u538bGPU/\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u4e3aAI capex\u56de\u672c\u903b\u8f91\u518d\u6dfb\u4e00\u91cd\u6210\u672c\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2238,
       "ts": 1783656314,
@@ -2264,16 +2274,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Global Long - Standing Suffering from DRAM Shortage - 36 Kr",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 03:32:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\n\nGlobal Long - Standing Suffering from DRAM Shortage - 36 Kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CYnJHNC0tb2NaaG55ZG9uQmVuRDUyUHl4ai1RQ0x1czNlVGlBRE0tVl9CSlFLcHktckFVaTZ1SXh3QmtQcS1sWmN3OFhLT3p2TnRV?oc=5\" target=\"_blank\">Global Long - Standing Suffering from DRAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36 Kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA 36Kr RSS item reports a persistent global DRAM shortage.\n\n\u5185\u5bb9:\n36\u6c2a\u7684\u4e00\u7bc7\u62a5\u9053\u79f0\u5168\u7403 DRAM \u957f\u671f\u77ed\u7f3a\u3002\n\nWhy it matters:\nTight DRAM supply raises memory costs for AI accelerators and servers, squeezing hyperscaler margins and adding another input-cost pressure point to the AI-capex thesis.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5361\u548c\u670d\u52a1\u5668\u7684\u5185\u5b58\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u4e3a AI capex \u903b\u8f91\u518d\u6dfb\u4e00\u4e2a\u6210\u672c\u7aef\u7684\u538b\u529b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2039,
-      "ts": 1783259067,
-      "ts_str": "2026-07-05 13:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] How to Get Exposure to OpenAI Before Its IPO - The Globe and Mail",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 05 Jul 2026 12:30:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxQa3I3dE1haDFmSWtnZWdaQ01MOGdwWFdXTmYwdXpYUFAtRU5iVUQxMmV0azA4UTNXNldNdS1KZ1ROWXRzYmVPQ29yUVVlVmp4T3VDWjZSNllRX0J1UGt5cVZxTGJNejFUN0ZzUUxGd2xPOERFQ1kzUGhaSE5fSDdodkdBTGpteFI3Ujl5d1g5YXlpYXgwNEdrSVl5Y3F6SjV1VUlfSFFlVDJOczlxNzFhRWhvY2g4TFhIUEZncE9pNHZNN1ZNZDdoUnhR?oc=5\n\nHow to Get Exposure to OpenAI Before Its IPO - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQa3I3dE1haDFmSWtnZWdaQ01MOGdwWFdXTmYwdXpYUFAtRU5iVUQxMmV0azA4UTNXNldNdS1KZ1ROWXRzYmVPQ29yUVVlVmp4T3VDWjZSNllRX0J1UGt5cVZxTGJNejFUN0ZzUUxGd2xPOERFQ1kzUGhaSE5fSDdodkdBTGpteFI3Ujl5d1g5YXlpYXgwNEdrSVl5Y3F6SjV1VUlfSFFlVDJOczlxNzFhRWhvY2g4TFhIUEZncE9pNHZNN1ZNZDdoUnhR?oc=5\" target=\"_blank\">How to Get Exposure to OpenAI Before Its IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Globe and Mail piece is pitching retail ways to get pre-IPO exposure to OpenAI, surfaced as an OpenAI-keyword news hit under C3.\n\n\u5185\u5bb9:\n\u300a\u73af\u7403\u90ae\u62a5\u300b\u4e00\u7bc7\u6587\u7ae0\u5728\u63a8\u4ecb\u666e\u901a\u6295\u8d44\u8005\u5728 OpenAI IPO \u524d\u83b7\u5f97\u6295\u8d44\u655e\u53e3\u7684\u65b9\u5f0f\uff0c\u4f5c\u4e3a\u542b OpenAI \u5173\u952e\u8bcd\u7684\u65b0\u95fb\u547d\u4e2d\u88ab C3 \u6355\u83b7\u3002\n\nWhy it matters:\nPre-IPO access marketing is a late-cycle retail-hype signal \u2014 it shows up when private valuations are rich enough that intermediaries start packaging exposure for outside investors, not when the underlying business fundamentals demand attention.\n\n\u5f71\u54cd:\n\u5305\u88c5 IPO \u524d\u6295\u8d44\u655e\u53e3\u8fd9\u79cd\u8425\u9500\u884c\u4e3a\uff0c\u901a\u5e38\u662f\u5468\u671f\u540e\u671f\u6563\u6237\u7092\u4f5c\u7684\u4fe1\u53f7\u2014\u2014\u5f80\u5f80\u51fa\u73b0\u5728\u79c1\u52df\u4f30\u503c\u5df2\u7ecf\u504f\u9ad8\u3001\u4e2d\u4ecb\u5f00\u59cb\u628a\u655e\u53e3\u6253\u5305\u5356\u7ed9\u573a\u5916\u6295\u8d44\u8005\u7684\u9636\u6bb5\uff0c\u800c\u4e0d\u662f\u7531\u57fa\u672c\u9762\u9a71\u52a8\u3002\n",
       "emailed": false
     }
   ],
