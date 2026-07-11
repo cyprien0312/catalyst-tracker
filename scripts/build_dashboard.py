@@ -32,6 +32,7 @@ CATALYSTS = [
     ("C8", "Macro Triggers"),
     ("C9", "Crypto Cycle Top"),
     ("C10", "Liquidity Tightening (USD / Real Yields)"),
+    ("C11", "SpaceX IPO Unlock / Passive Flows"),
 ]
 
 

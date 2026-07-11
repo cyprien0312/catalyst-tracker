@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for ten "AI infrastructure bubble-stress" signals (C1–C10) and emails alerts via Gmail SMTP.
+`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for eleven "AI infrastructure bubble-stress" signals (C1–C11) and emails alerts via Gmail SMTP.
+
+C11 (SpaceX IPO unlock / passive flows) is the single-name index-mechanics specimen: a deterministic lock-up tranche calendar (⚠️ dates estimated from the S-1-derived schedule — earnings-linked tranches shift; hardcoded in `UNLOCK_SCHEDULE`), Google News RSS with a proximity classifier (mission-coverage noise guard), and a daily ETF-holdings diff from issuer CSVs (default ARKQ; extend via `C11_ETF_CSVS="FUND=url,..."`). ETF leg stores baselines silently on first run (same transition semantics as C4/C5); emails floored to HIGH via `CATALYST_EMAIL_MIN_SEVERITY`.
 
 C7 (credit spreads), C8 (CPI + core PCE) and C10 (broad-USD index + 10y real yield) pull from FRED's **keyless** `fredgraph.csv` export (`lib.fred.series_csv`) — no `FRED_API_KEY` needed. C9 uses the keyless CoinGecko public API (`lib.crypto`). All degrade to `[]` on fetch failure. C7/C8/C9/C10 compute their signals in-memory from the fetched series (transition logic doesn't depend on stored prior rows), so a fresh DB is NOT silent for them — unlike C4/C5. C10 mirrors C7's structure exactly (per-series config, trailing-90 low transition, MED→HIGH at 2× trigger). State lives in SQLite (`state/tracker.sqlite`); the dashboard is static HTML in `docs/` published to GitHub Pages.
 
@@ -31,6 +33,7 @@ python3.11 -m venv .venv
 .venv/bin/python -m catalysts.c8_macro       --dry-run  # CPI + core PCE
 .venv/bin/python -m catalysts.c9_crypto      --dry-run
 .venv/bin/python -m catalysts.c10_liquidity  --dry-run  # broad USD + 10y real yield
+.venv/bin/python -m catalysts.c11_spacex     --dry-run  # SPCX unlock calendar + news + ETF holdings diff
 
 # Verbosity
 LOG_LEVEL=DEBUG .venv/bin/python -m catalysts.c3_openai --dry-run
@@ -40,9 +43,12 @@ LOG_LEVEL=DEBUG .venv/bin/python -m catalysts.c3_openai --dry-run
 .venv/bin/python scripts/daily_report.py --html-out /tmp/d.html  # dump HTML
 bin/send_daily_report.sh                                        # cron wrapper (sources env)
 
-# U100/NDX buy-plan signal (regime + drawdown ladder, keyed off the C7/C2 fuses)
+# NDX buy-plan signal (regime + drawdown ladder, keyed off the C7/C2 fuses)
 .venv/bin/python scripts/regime_signal.py          # print the plan
 .venv/bin/python scripts/regime_signal.py --json   # machine-readable
+
+# Rung/regime-flip alerter (hourly cron at :53 via bin/check_rungs.sh)
+.venv/bin/python scripts/rung_alert.py --dry-run   # print would-be alerts, no email/state
 
 # Dashboard rebuild (writes docs/index.html, docs/thresholds.html, docs/data/status.json)
 .venv/bin/python scripts/build_dashboard.py
@@ -118,7 +124,9 @@ After `python -m catalysts.<module>` and `scripts/build_dashboard.py`, the wrapp
 
 A once-a-day heartbeat email (cron 09:00 local), separate from the per-alert path. Priority-ordered (C7→C2→C4→C1→C8→C6→C3→C5→C9, grouped fuses→hard-data→background→lagging). Numeric gauges (C7/C8/C9) are **re-fetched live** each run so the digest is current regardless of cron timing; C4 reads the latest `c4_xbrl` snapshot; event-driven catalysts roll up the `alerts` table (7-day window). The **FOCUS** note is written by `llm.freeform` (Opus) with a rule-based `_analytical_focus` fallback that bakes in per-signal cross-references (e.g. Oracle = Leopold's short / CDS +310% / the C7-repricing tell). Multipart email (HTML + plain-text); no dedup — sends every day. The wrapper sources `~/.catalyst.env` but does **not** commit/push (read-only against state). Pure helpers are unit-tested in `tests/test_daily_report.py` (loaded via importlib since the script lives in `scripts/`).
 
-The digest also embeds a **BUY PLAN** card (`scripts/regime_signal.py`) just under FOCUS: a drawdown ladder for accumulating **ASX:U100** (Global X US 100 ETF — tracks Nasdaq-100). `lib/index_quote.py` pulls the live NDX level + all-time high via the keyless FRED `NASDAQ100` series and computes drawdown-from-ATH. The plan has two regimes, and **only the C7/C2 fuses flip between them** (all other signals are thermometers): **Regime A** (no fuse FIRING) = shallow ladder, max 60% deployed / 40% reserve, "buy speed"; **Regime B** (C7 credit OR C2 neocloud FIRING) = freeze the fast ladder, deep ladder for a multi-quarter bust, last rung needs a manual stabilisation check (C7 stops widening, or 4-6wk no new 20d-low). Ladder rungs live in `REGIME_A_LADDER`/`REGIME_B_LADDER` in `scripts/regime_signal.py`. The card degrades to absent if the index fetch fails (wrapped in try/except in `build()`). Tested in `tests/test_regime_signal.py`. The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
+The digest also embeds a **BUY PLAN** card (`scripts/regime_signal.py`) just under FOCUS: a drawdown ladder for accumulating the **whole ETF portfolio** (IVV/BGBL core + satellites — NDX is the *trigger*, being the highest-beta AI tell, not the instrument). `lib/index_quote.py` pulls live NDX + SPX levels and ATHs via the keyless FRED `NASDAQ100`/`SP500` series; SPX renders as a reference line only (IVV/BGBL draws down shallower — NDX -20% ≈ SPX -13..-15%). The plan has two regimes, and **only the C7/C2 fuses flip between them** (all other signals are thermometers): **Regime A** (no fuse FIRING) = deep-heavy ladder (0%:10 / -10%:10 / -15%:15 / -20%:25), max 60% deployed / 40% reserve, "buy speed"; **Regime B** (C7 credit OR C2 neocloud FIRING) = freeze the fast ladder, deep ladder for a multi-quarter bust, last rung needs a manual stabilisation check (C7 stops widening, or 4-6wk no new 20d-low). Ladder rungs live in `REGIME_A_LADDER`/`REGIME_B_LADDER` in `scripts/regime_signal.py`. The card degrades to absent if the index fetch fails (wrapped in try/except in `build()`). Tested in `tests/test_regime_signal.py`.
+
+**Rung/regime-flip alerter** (`scripts/rung_alert.py`, hourly cron at :53 via `bin/check_rungs.sh`): emails within the hour when NDX crosses a ladder rung (HIGH) or the A/B regime flips (A→B CRITICAL, B→A MED), instead of waiting for the 09:00 digest. A rung alerts **once per drawdown episode** — the idempotency key includes the ATH date (`seen` namespace `buyplan_rungs`), and the ATH only moves while no rung is triggered, so a recovery to a new high re-arms the ladder; the 0% starter rung never alerts. Last-known regime lives in `seen` namespace `buyplan_regime` (first run records it silently). Alerts flow through `lib/notify.send_alert` under tag `buyplan`, so they land in the `alerts` table/dashboard like any catalyst. The wrapper writes only `state/tracker.sqlite` and does not commit — the :30-cadence catalyst runs sweep the state change into git. Tested in `tests/test_rung_alert.py`. The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
 
 ### LLM explanation path
 

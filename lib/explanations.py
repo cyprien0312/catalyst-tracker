@@ -338,6 +338,52 @@ _C10 = {
     ),
 }
 
+# ---------- C11 — SpaceX IPO unlock / passive flows ----------
+_C11 = {
+    "C11_UNLOCK_UPCOMING": Explanation(
+        what="A SpaceX (SPCX) lock-up tranche is estimated to expire within the "
+             "next week, releasing a block of insider shares into the float.",
+        why="SPCX floated ~4% of its shares and was fast-tracked into the "
+            "Nasdaq-100, so index funds were forced to buy into a tiny float. "
+            "Each unlock expands supply against that fixed passive bid; the "
+            "large tranches (Q3'26 earnings ≈13亿, Day-366 Musk tranche ≈64亿) "
+            "are the live test of whether index plumbing can absorb mega-IPO "
+            "distribution — the same mechanics an OpenAI/Anthropic listing "
+            "would face. Earnings-linked dates are estimates; confirm on EDGAR.",
+    ),
+    "C11_INSIDER_SUPPLY": Explanation(
+        what="News pairs SpaceX with secondary-offering / insider-dump / "
+             "lock-up-waiver language: incremental supply is hitting now.",
+        why="A waived or accelerated lock-up means distribution ahead of "
+            "schedule — insiders prioritising exit over price. For the "
+            "AI-complex thesis this is the single-name canary for how late-cycle "
+            "mega-cap supply gets absorbed (or not).",
+    ),
+    "C11_UNLOCK_NEWS": Explanation(
+        what="News pairs SpaceX with unlock / share-sale / dilution language.",
+        why="Confirms the unlock calendar is becoming the market narrative. "
+            "Watch whether coverage shifts from 'index inclusion demand' to "
+            "'supply overhang' — that rotation historically marks the top of "
+            "index-inclusion pops.",
+    ),
+    "C11_INDEX_FLOW": Explanation(
+        what="News pairs SpaceX with index-inclusion / passive-flow / "
+             "price-target language.",
+        why="Passive-flow hype is the demand side of the trade. On its own it "
+            "is late-cycle froth confirmation: forced buying with a known "
+            "supply wave behind it is exactly the setup this tracker exists "
+            "to time.",
+    ),
+    "C11_ETF_FLOW": Explanation(
+        what="An ETF that holds SPCX changed its position materially "
+             "(≥20% share-count swing, or dropped the name entirely).",
+        why="Issuer holdings CSVs are a daily, free proxy for the Bloomberg "
+            "ownership screen. Active cuts while lock-ups roll off signal smart "
+            "money front-running the supply wave; passive adds show the index "
+            "bid still absorbing. Direction matters more than size.",
+    ),
+}
+
 # Composite registry: catalyst → signal_kind → Explanation
 _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C1": _C1,
@@ -350,6 +396,7 @@ _REGISTRY: dict[str, dict[str, Explanation]] = {
     "C8": _C8,
     "C9": _C9,
     "C10": _C10,
+    "C11": _C11,
 }
 
 

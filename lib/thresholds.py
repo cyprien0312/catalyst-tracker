@@ -159,11 +159,32 @@ C10_THRESHOLDS = [
               "Absolute restrictive level"),
 ]
 
+# C11 — SpaceX IPO unlock / passive flows.
+from catalysts import c11_spacex  # noqa: E402
+C11_THRESHOLDS = [
+    Threshold("C11", "Unlock tranche lead time",
+              f"≤ {c11_spacex.LEAD_DAYS} days out", "MED",
+              "HIGH ≥8亿, CRITICAL ≥30亿 single-tranche release; "
+              "earnings-linked dates are estimates"),
+    Threshold("C11", "Insider-supply news tokens",
+              "secondary offering / insider dump / Musk sells / lock-up waived",
+              "CRITICAL", f"within {c11_spacex.PROXIMITY_WINDOW} chars of a SpaceX mention"),
+    Threshold("C11", "Unlock news tokens",
+              "lock-up expiry / unlock / share sale / dilution / float expansion",
+              "HIGH"),
+    Threshold("C11", "Index/passive-flow news tokens",
+              "Nasdaq-100 / index inclusion / passive buying / price target",
+              "MED"),
+    Threshold("C11", "ETF position swing",
+              f"|Δshares| ≥ {c11_spacex.ETF_SWING_PCT:.0f}% day-over-day", "MED",
+              "HIGH on cuts and on position exits; MED on adds"),
+]
+
 
 def all_thresholds() -> list[Threshold]:
     return [
         *C1_THRESHOLDS, *C2_THRESHOLDS, *C3_THRESHOLDS,
         *C4_THRESHOLDS, *C5_THRESHOLDS, *C6_THRESHOLDS,
         *C7_THRESHOLDS, *C8_THRESHOLDS, *C9_THRESHOLDS,
-        *C10_THRESHOLDS,
+        *C10_THRESHOLDS, *C11_THRESHOLDS,
     ]

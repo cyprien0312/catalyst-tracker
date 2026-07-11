@@ -5,7 +5,7 @@ from pathlib import Path
 _ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_ROOT))
 
-from lib.index_quote import ndx_drawdown
+from lib.index_quote import ndx_drawdown, spx_drawdown
 
 _spec = importlib.util.spec_from_file_location(
     "regime_signal", _ROOT / "scripts" / "regime_signal.py")
@@ -30,6 +30,18 @@ def test_ndx_drawdown_none_on_empty():
     assert ndx_drawdown(fetch=lambda _id: [("d", 1.0)]) is None
 
 
+def test_spx_drawdown_uses_sp500_series():
+    seen_ids = []
+
+    def fetch(series_id):
+        seen_ids.append(series_id)
+        return [("2026-01-01", 5000.0), ("2026-02-01", 4500.0)]
+
+    got = spx_drawdown(fetch=fetch)
+    assert seen_ids == ["SP500"]
+    assert abs(got["drawdown"] - (-0.10)) < 1e-9
+
+
 # ---------- regime selection ----------
 
 def _ndx(dd, ath=30000.0):
@@ -48,9 +60,15 @@ def test_regime_a_when_no_fuse():
 
 def test_regime_a_ladder_accumulates_with_drawdown():
     plan = rs.build_plan(_ndx(-0.17), fuse_lit=False, fuses=[])
-    # starter(10) + dip1(15) + dip2(15) triggered at -17%, dip3 not yet
-    assert plan["cumulative_target"] == 40
+    # deep-heavy ladder: starter(10) + dip1(10) + dip2(15) at -17%, dip3 not yet
+    assert plan["cumulative_target"] == 35
     assert plan["next_rung"]["thresh"] == -0.20
+
+
+def test_regime_a_full_ladder_deploys_60():
+    plan = rs.build_plan(_ndx(-0.25), fuse_lit=False, fuses=[])
+    assert plan["cumulative_target"] == 60
+    assert plan["reserve"] == 40
 
 
 def test_fuse_flips_to_regime_b():
@@ -79,6 +97,21 @@ def test_build_plan_none_when_no_quote():
 def test_render_text_contains_levels_and_regime():
     out = rs.render_text(rs.build_plan(_ndx(-0.03), False, []))
     assert "BUY PLAN" in out and "Regime A" in out and "NDX" in out
+    assert "SPX" not in out  # no reference line when spx is absent
+
+
+def _spx(dd, ath=6000.0):
+    return {"current": ath * (1 + dd), "date": "2026-06-17",
+            "ath": ath, "ath_date": "2026-06-01", "drawdown": dd}
+
+
+def test_render_includes_spx_reference_line():
+    plan = rs.build_plan(_ndx(-0.12), False, [], spx=_spx(-0.08))
+    assert plan["spx"]["drawdown"] == -0.08
+    text = rs.render_text(plan)
+    assert "SPX 5,520" in text and "-8.0%" in text
+    card = rs.render_html_card(plan)
+    assert "SPX 5,520" in card and "IVV/BGBL" in card
 
 
 def test_render_html_card_empty_when_none():
