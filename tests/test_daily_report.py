@@ -70,6 +70,39 @@ def test_analytical_focus_all_quiet():
     assert "quiet" in f["en"].lower()
 
 
+def test_focus_history_roundtrip(tmp_path):
+    from lib.state import State
+    state = State("daily_report", db_path=tmp_path / "t.sqlite")
+    assert dr._recent_focus_titles(state) == []
+    dr._record_focus(state, "2026-07-12", "ORCL burns $30B FCF")
+    dr._record_focus(state, "2026-07-13", "C10 real yield crosses 2.4%")
+    got = dr._recent_focus_titles(state)
+    # newest first, rendered as "date: title"
+    assert got[0] == "2026-07-13: C10 real yield crosses 2.4%"
+    assert got[1] == "2026-07-12: ORCL burns $30B FCF"
+
+
+def test_generate_focus_injects_history_into_prompt(monkeypatch):
+    captured = {}
+
+    def fake_freeform(prompt, *, timeout=None):
+        captured["prompt"] = prompt
+        return '{"title":"t","en":"this is a sufficiently long english sentence","zh":"中文"}'
+
+    monkeypatch.setattr(dr.llm, "freeform", fake_freeform)
+    monkeypatch.setattr(dr.knowledge, "facts_for_prompt", lambda **kw: "")
+    rows = _full({"C4": dr.FIRING})
+    focus = dr.generate_focus(rows, [], history=["2026-07-12: ORCL burns $30B FCF"])
+    assert focus["title"] == "t"
+    assert "2026-07-12: ORCL burns $30B FCF" in captured["prompt"]
+    assert "Do NOT retell" in captured["prompt"]
+
+    # no history → placeholder, not a stray __HISTORY__ token
+    dr.generate_focus(rows, [], history=None)
+    assert "__HISTORY__" not in captured["prompt"]
+    assert "(none)" in captured["prompt"]
+
+
 def test_render_html_contains_focus_and_badges():
     rows = _full({"C4": dr.FIRING})
     counts = {dr.FIRING: 1, dr.WATCH: 0, dr.QUIET: 8}

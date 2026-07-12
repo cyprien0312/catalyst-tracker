@@ -311,11 +311,40 @@ _FOCUS_PROMPT = (
     "The ten signals, priority-ordered (fuses first): C7 credit spreads, C2 neocloud distress, "
     "C4 hyperscaler capex/OCF, C1 GPU depreciation, C8 CPI/PCE/Fed, C10 USD & real-yield liquidity, "
     "C6 memory prices, C3 OpenAI, C5 grid, C9 BTC cycle.\nToday's readings:\n__STATE__\n\n"
-    "Write the daily FOCUS note: pick the SINGLE most important thing today, explain it specifically "
-    "(cite the exact numbers), connect it across signals, and say what would confirm or escalate it. "
-    "Direct, no hedging, no filler, no marketing. Reader is bilingual.\n"
+    "Recent FOCUS titles, newest first (the reader has already seen these):\n__HISTORY__\n\n"
+    "Write the daily FOCUS note: pick the SINGLE most important thing today. Do NOT retell the "
+    "angle of a recent title — if the readings are materially unchanged, lead with what CHANGED "
+    "since the last note (cite the delta, however small) or take a signal/cross-connection the "
+    "recent titles have not covered; re-lead the same story only if it actually moved today. "
+    "Explain it specifically (cite the exact numbers), connect it across signals, and say what "
+    "would confirm or escalate it. Direct, no hedging, no filler, no marketing. Reader is bilingual.\n"
     "Output ONLY a JSON object: {\"title\": \"<=70 chars\", \"en\": \"2-4 sentences\", \"zh\": \"2-4 句中文\"}."
 )
+
+# FOCUS-title history (repeat guard): the LLM has no memory across daily runs,
+# so without this it re-picks the same standing story every day the state is
+# flat. Titles live in the shared `seen` table under this namespace, keyed
+# "YYYY-MM-DD|title".
+FOCUS_HISTORY_TABLE = "focus_history"
+FOCUS_HISTORY_LIMIT = 5
+
+
+def _recent_focus_titles(state: State, limit: int = FOCUS_HISTORY_LIMIT) -> list[str]:
+    """Last `limit` recorded FOCUS titles as "YYYY-MM-DD: title", newest first."""
+    with state.connection() as c:
+        rows = c.execute(
+            "SELECT key FROM seen WHERE table_name=? ORDER BY ts DESC, key DESC LIMIT ?",
+            (FOCUS_HISTORY_TABLE, limit),
+        ).fetchall()
+    out = []
+    for (key,) in rows:
+        date, _, title = key.partition("|")
+        out.append(f"{date}: {title}")
+    return out
+
+
+def _record_focus(state: State, today: str, title: str) -> None:
+    state.mark_seen(FOCUS_HISTORY_TABLE, f"{today}|{title[:120]}")
 
 
 def _state_summary(rows: list[Row], notable: list[tuple[str, str, str]]) -> str:
@@ -417,12 +446,17 @@ def _focus_timeout() -> int:
         return 120
 
 
-def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]]) -> dict:
+def generate_focus(rows: list[Row], notable: list[tuple[str, str, str]],
+                   history: list[str] | None = None) -> dict:
     """LLM-written FOCUS when the claude CLI is available; otherwise a
-    rule-based analytical read that bakes in the standing cross-signal thesis."""
+    rule-based analytical read that bakes in the standing cross-signal thesis.
+    `history` is recent FOCUS titles (newest first) so the model doesn't
+    re-lead yesterday's angle when the state is flat."""
     fallback = _analytical_focus(rows)
     try:
-        prompt = _FOCUS_PROMPT.replace("__STATE__", _state_summary(rows, notable))
+        prompt = (_FOCUS_PROMPT
+                  .replace("__STATE__", _state_summary(rows, notable))
+                  .replace("__HISTORY__", "\n".join(history) if history else "(none)"))
         # Inject the full cross-signal ai-infra corpus (the FOCUS is cross-signal).
         facts = knowledge.facts_for_prompt(limit=20)
         if facts:
@@ -546,11 +580,13 @@ def render_html(rows: list[Row], counts: dict, notable, focus: dict, today: str,
 
 # ---------- compose + send ----------
 
-def build() -> tuple[str, str, str]:
+def build(record_focus: bool = True) -> tuple[str, str, str]:
     state = State("daily_report")
     today = dt.date.today().isoformat()
     rows, counts, notable = gather(state)
-    focus = generate_focus(rows, notable)
+    focus = generate_focus(rows, notable, history=_recent_focus_titles(state))
+    if record_focus:
+        _record_focus(state, today, focus["title"])
     try:
         plan = regime_signal.plan_from_rows(rows)
     except Exception:
@@ -570,7 +606,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--dry-run", action="store_true", help="print text body to stdout")
     p.add_argument("--html-out", metavar="PATH", help="also write the HTML body to a file")
     args = p.parse_args(argv)
-    subject, text, html_body = build()
+    subject, text, html_body = build(record_focus=not args.dry_run)
     if args.html_out:
         Path(args.html_out).write_text(html_body)
     if args.dry_run:
