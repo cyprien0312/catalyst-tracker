@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783944124,
-  "generated_at_str": "2026-07-13 12:02:04 UTC",
-  "last_event_ts": 1783943222,
+  "generated_at": 1783944318,
+  "generated_at_str": "2026-07-13 12:05:18 UTC",
+  "last_event_ts": 1783944317,
   "tables": {
     "alerts_dedup": {
-      "count": 2328,
-      "last_ts": 1783939634,
-      "last_str": "2026-07-13 10:47:14 UTC"
+      "count": 2329,
+      "last_ts": 1783944317,
+      "last_str": "2026-07-13 12:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-13 09:44:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2246,
-      "last_ts": 1783942503,
-      "last_str": "2026-07-13 11:35:03 UTC"
+      "count": 2249,
+      "last_ts": 1783944305,
+      "last_str": "2026-07-13 12:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2689,
-      "last_ts": 1783942505,
-      "last_str": "2026-07-13 11:35:05 UTC"
+      "count": 2695,
+      "last_ts": 1783944307,
+      "last_str": "2026-07-13 12:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1834,
-      "last_ts": 1783942504,
-      "last_str": "2026-07-13 11:35:04 UTC"
+      "count": 1835,
+      "last_ts": 1783944306,
+      "last_str": "2026-07-13 12:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2002,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2336,
+      "ts": 1783944317,
+      "ts_str": "2026-07-13 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage Drives Up Prices for Consumer Goods - The Japan News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 11:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1vQ1VqRTNwd0FWSi1HRG1vWGlFSDMxMDZRVWk0VE9kUHJLaUNrcUhJdEpwbVB2cTkycndYcEEtZm9sQ1VOR1Njdk5KSEhVeUtUOVVZbFRWS2tuSlpCa2VzZVJrN1h1clBqNG1oR19oRUxpX2ZXS2c?oc=5\n\nMemory Chip Shortage Drives Up Prices for Consumer Goods - The Japan News\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1vQ1VqRTNwd0FWSi1HRG1vWGlFSDMxMDZRVWk0VE9kUHJLaUNrcUhJdEpwbVB2cTkycndYcEEtZm9sQ1VOR1Njdk5KSEhVeUtUOVVZbFRWS2tuSlpCa2VzZVJrN1h1clBqNG1oR19oRUxpX2ZXS2c?oc=5\" target=\"_blank\">Memory Chip Shortage Drives Up Prices for Consumer Goods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Japan News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Japan News article reports memory chip shortages are pushing up prices for consumer goods.\n\n\u5185\u5bb9:\n\u300a\u8bfb\u5356\u65b0\u95fb\u300b\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6d88\u8d39\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nConfirms tightening DRAM/NAND supply is now visible in downstream consumer pricing, not just enterprise/hyperscaler procurement \u2014 consistent with the memory-constrained-buildout thesis where AI demand crowds out other memory buyers, but this is a single secondary-market news item, not a hyperscaler-side data point.\n\n\u5f71\u54cd:\n\u8fd9\u8868\u660e DRAM/NAND \u4f9b\u5e94\u8d8b\u7d27\u7684\u5f71\u54cd\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u54c1\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u800c\u4e0d\u53ea\u662f\u4f01\u4e1a/\u8d85\u5927\u89c4\u6a21\u5382\u5546\u91c7\u8d2d\u7aef\u2014\u2014\u4e0e AI \u9700\u6c42\u6324\u5360\u5185\u5b58\u4f9b\u5e94\u7684\u8bba\u70b9\u76f8\u7b26\uff0c\u4f46\u8fd9\u53ea\u662f\u4e00\u6761\u4e8c\u7ea7\u5e02\u573a\u65b0\u95fb\uff0c\u5e76\u975e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4fa7\u7684\u76f4\u63a5\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2335,
       "ts": 1783939634,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Institutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 00:09:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycGQ2MnU5UlVfZzU4Z0UzUzJ6U2RqbzBsbFZhcVFWN1FoX2Vma3R1bXVnM010dWtMVFI5OXlxc2o0MjJabnFyRlBsNTFyOG8yS1lQbXBEbHFZOXlGZnc5YUFKb9IBY0FVX3lxTFAycGQ2MnU5UlVfZzU4Z0UzUzJ6U2RqbzBsbFZhcVFWN1FoX2Vma3R1bXVnM010dWtMVFI5OXlxc2o0MjJabnFyRlBsNTFyOG8yS1lQbXBEbHFZOXlGZnc5YUFKbw?oc=5\n\nInstitutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth of SK Hynix shares in the Nasdaq IPO. - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFAycGQ2MnU5UlVfZzU4Z0UzUzJ6U2RqbzBsbFZhcVFWN1FoX2Vma3R1bXVnM010dWtMVFI5OXlxc2o0MjJabnFyRlBsNTFyOG8yS1lQbXBEbHFZOXlGZnc5YUFKb9IBY0FVX3lxTFAycGQ2MnU5UlVfZzU4Z0UzUzJ6U2RqbzBsbFZhcVFWN1FoX2Vma3R1bXVnM010dWtMVFI5OXlxc2o0MjJabnFyRlBsNTFyOG8yS1lQbXBEbHFZOXlGZnc5YUFKbw?oc=5\" target=\"_blank\">Institutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth of SK Hynix shares in the Nasdaq IPO.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nFunds run by former OpenAI researchers plan to subscribe to roughly $7B of SK Hynix shares in its Nasdaq IPO.\n\n\u5185\u5bb9:\n\u7531\u524d OpenAI \u7814\u7a76\u4eba\u5458\u7ba1\u7406\u7684\u57fa\u91d1\u8ba1\u5212\u8ba4\u8d2d SK Hynix \u7eb3\u65af\u8fbe\u514b IPO \u4e2d\u7ea6 $7B \u7684\u80a1\u4efd\u3002\n\nWhy it matters:\nSK Hynix is a core HBM supplier for AI accelerators, so this is AI-insider capital betting on continued memory demand rather than a stress signal itself \u2014 worth tracking as a sentiment/liquidity indicator alongside the C3 burn-rate thesis, not as direct evidence of OpenAI distress.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u52a0\u901f\u5361\u7684\u6838\u5fc3 HBM \u4f9b\u5e94\u5546\uff0c\u8fd9\u66f4\u50cf\u662f AI \u5708\u5185\u8d44\u672c\u62bc\u6ce8\u5b58\u50a8\u9700\u6c42\u6301\u7eed\u589e\u957f\u7684\u4fe1\u53f7\uff0c\u800c\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u672c\u8eab\u2014\u2014\u53ef\u4ee5\u4f5c\u4e3a\u60c5\u7eea/\u6d41\u52a8\u6027\u6307\u6807\u4e0e C3 \u7684\u8d44\u91d1\u6d88\u8017\u8bba\u70b9\u4e00\u8d77\u8ffd\u8e2a\uff0c\u4f46\u5e76\u4e0d\u76f4\u63a5\u8bc1\u660e OpenAI \u51fa\u73b0\u56f0\u5883\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2136,
-      "ts": 1783388656,
-      "ts_str": "2026-07-07 01:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Institutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 06 Jul 2026 16:06:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OZGZacTFPRkVqdzdrNjNaZXVEOWg2Ri1PX05COVY4M1g1akUwNmpPM2VHajBBU3JWSHlBbnk5cnNNMkw4eVh6MU9yaXFYRERLbUxSemRmR3ljblFEUFHSAWNBVV95cUxQMnBkNjJ1OVJVX2c1OGdFM1MyelNkam8wbGxWYXFRVjdRaF9lZmt0dW11ZzNNdHVrTFRSOTl5cXNqNDIyWm5xckZQbDUxcjhvMktZUG1wRGxxWTl5RmZ3OWFBSm8?oc=5\n\nInstitutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth of SK Hynix shares in the Nasdaq IPO. - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OZGZacTFPRkVqdzdrNjNaZXVEOWg2Ri1PX05COVY4M1g1akUwNmpPM2VHajBBU3JWSHlBbnk5cnNNMkw4eVh6MU9yaXFYRERLbUxSemRmR3ljblFEUFHSAWNBVV95cUxQMnBkNjJ1OVJVX2c1OGdFM1MyelNkam8wbGxWYXFRVjdRaF9lZmt0dW11ZzNNdHVrTFRSOTl5cXNqNDIyWm5xckZQbDUxcjhvMktZUG1wRGxxWTl5RmZ3OWFBSm8?oc=5\" target=\"_blank\">Institutions including funds managed by former OpenAI researchers intend to subscribe for approximately $7 billion worth of SK Hynix shares in the Nasdaq IPO.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nInstitutions including funds run by former OpenAI researchers plan to subscribe for roughly $7B of SK Hynix shares in its Nasdaq IPO.\n\n\u5185\u5bb9:\n\u5305\u62ec\u524d OpenAI \u7814\u7a76\u5458\u7ba1\u7406\u7684\u57fa\u91d1\u5728\u5185\u7684\u673a\u6784\uff0c\u8ba1\u5212\u8ba4\u8d2d SK Hynix \u7eb3\u65af\u8fbe\u514b IPO \u4e2d\u7ea6 70 \u4ebf\u7f8e\u5143\u7684\u80a1\u4efd\u3002\n\nWhy it matters:\nSK Hynix is a core HBM memory supplier to the AI-chip buildout, so this is capital from AI-adjacent insiders flowing into upstream hardware supply rather than a stress signal on OpenAI itself \u2014 a proxy bet on continued AI capex rather than evidence of strain.\n\n\u5f71\u54cd:\nSK Hynix \u662f AI \u82af\u7247\u4f9b\u5e94\u94fe\u4e2d\u6838\u5fc3\u7684 HBM \u5185\u5b58\u4f9b\u5e94\u5546\uff0c\u8fd9\u7b14\u8d44\u91d1\u6765\u81ea AI \u76f8\u5173\u7684\u5708\u5185\u4eba\u58eb\uff0c\u6295\u5411\u7684\u662f\u4e0a\u6e38\u786c\u4ef6\u4f9b\u5e94\u800c\u975e OpenAI \u672c\u8eab\u2014\u2014\u8fd9\u66f4\u50cf\u662f\u5bf9 AI capex \u6301\u7eed\u6027\u7684\u62bc\u6ce8\uff0c\u800c\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
