@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783981578,
-  "generated_at_str": "2026-07-13 22:26:18 UTC",
-  "last_event_ts": 1783980841,
+  "generated_at": 1783981752,
+  "generated_at_str": "2026-07-13 22:29:12 UTC",
+  "last_event_ts": 1783981752,
   "tables": {
     "alerts_dedup": {
-      "count": 2342,
-      "last_ts": 1783978515,
-      "last_str": "2026-07-13 21:35:15 UTC"
+      "count": 2343,
+      "last_ts": 1783981752,
+      "last_str": "2026-07-13 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 13,
-      "last_ts": 1783722542,
-      "last_str": "2026-07-10 22:29:02 UTC"
+      "count": 14,
+      "last_ts": 1783981742,
+      "last_str": "2026-07-13 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 1,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2350,
+      "ts": 1783981752,
+      "ts_str": "2026-07-13 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.32% (+54bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-10\nCurrent:  2.32%\n90d low:  1.78%\nMove:     +54bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.32% from a trailing-90-day low of 1.78%, a 0.54pp jump as of 2026-07-10.\n\n\u5185\u5bb9:\n10\u5e74\u671f\u5b9e\u9645\u5229\u7387(TIPS)\u4ece\u8fc7\u53bb90\u5929\u4f4e\u70b91.78%\u5347\u81f32.32%\uff0c\u622a\u81f32026-07-10\u4e0a\u6da80.54\u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex bets \u2014 a sharp rise this size repriced growth/duration assets across the board and directly raises hyperscalers' cost of debt-funded capex. Crossing 2x the C10 trigger threshold escalates this from a MED to a HIGH liquidity-stress signal.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u662fAI\u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u62bc\u6ce8\u7684\u8d34\u73b0\u7387\u2014\u2014\u5982\u6b64\u5927\u5e45\u5ea6\u7684\u5feb\u901f\u4e0a\u5347\u4f1a\u91cd\u65b0\u7ed9\u6210\u957f\u578b/\u957f\u4e45\u671f\u8d44\u4ea7\u5b9a\u4ef7\uff0c\u5e76\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u4e3e\u503a\u652f\u6491capex\u7684\u878d\u8d44\u6210\u672c\u3002\u89e6\u53caC10\u9608\u503c\u76842\u500d\uff0c\u4fe1\u53f7\u7ea7\u522b\u4eceMED\u5347\u81f3HIGH\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2349,
       "ts": 1783978515,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Powerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027 - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 10:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxQYTdSNGpvZThBUnhXaEg3WnJBdXZ6cWV6dEw2MDNXZnVPY01EV2lHWDhxRUpOUW02OTg2X1RSNlFzTm9tUmxLSnpwazlKZzlTQkFaYTBfUk44WXZBWUcxWXNUa3Y2Uy1PUzFhLXBuNjVEV214VWZJVmhRVkw2VnFVMlV1VEpMMnMzSVlUYXVsX1g3QzJWeFZqTkQ1UWZxRkI1SXc?oc=5\n\nPowerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYTdSNGpvZThBUnhXaEg3WnJBdXZ6cWV6dEw2MDNXZnVPY01EV2lHWDhxRUpOUW02OTg2X1RSNlFzTm9tUmxLSnpwazlKZzlTQkFaYTBfUk44WXZBWUcxWXNUa3Y2Uy1PUzFhLXBuNjVEV214VWZJVmhRVkw2VnFVMlV1VEpMMnMzSVlUYXVsX1g3QzJWeFZqTkQ1UWZxRkI1SXc?oc=5\" target=\"_blank\">Powerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item flagged that Powerlaw Corp. (Nasdaq: PWRL), which holds an OpenAI stake, is circulating reports that OpenAI's IPO has been pushed back to 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6307\u51fa\uff0c\u6301\u6709 OpenAI \u80a1\u6743\u7684 Powerlaw Corp.\uff08Nasdaq: PWRL\uff09\u62ab\u9732\u7684\u6d88\u606f\u663e\u793a\uff0cOpenAI \u7684 IPO \u5df2\u63a8\u8fdf\u81f3 2027 \u5e74\u3002\n\nWhy it matters:\nA slipping IPO timeline signals OpenAI isn't yet ready for public-market scrutiny of its financials \u2014 consistent with the burn-rate stress this catalyst tracks, and it removes a liquidity event investors were counting on to validate the AI-capex spending cycle.\n\n\u5f71\u54cd:\nIPO \u65f6\u95f4\u8868\u63a8\u8fdf\u610f\u5473\u7740 OpenAI \u5c1a\u672a\u51c6\u5907\u597d\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u5176\u8d22\u52a1\u72b6\u51b5\u7684\u5ba1\u89c6\uff0c\u8fd9\u4e0e\u672c\u9879\u76d1\u6d4b\u7684\u70e7\u94b1\u538b\u529b\u4fe1\u53f7\u76f8\u7b26\uff0c\u4e5f\u610f\u5473\u7740\u6295\u8d44\u8005\u539f\u672c\u671f\u5f85\u7528\u6765\u9a8c\u8bc1 AI capex \u652f\u51fa\u5468\u671f\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u5ef6\u540e\u4e86\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2149,
-      "ts": 1783419269,
-      "ts_str": "2026-07-07 10:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Powerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027 - Business Wire",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 10:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWm04cDloYThJRjc3dU9mZjU5Mk1qeFYwVzlXUG5uZ1dQdHJ6Y3k5YlcwczAtSWRrbnFuNk1FS1JUQWZWMFZjV2hub2t4WVdvR3praXhtOUVTb2JPWHIyS0xSWEFfNXFQTUZXejF1SEJJNDRTWGZFOVJodi1LUjJmeTl2SEN1WXZtaXNZOGtsTF9lVmNJLVNfT2VPSVlHaHpaMlpITnZ0ODFRYmFxbEJoNlk2VXA0aHdqTkV3ZHc5NTZMZUcxd0l2MlNYWkdwS1NCTDA0MHp6eUxEQi1WdzZQT0REaE1vQQ?oc=5\n\nPowerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027 - Business Wire\n\n<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWm04cDloYThJRjc3dU9mZjU5Mk1qeFYwVzlXUG5uZ1dQdHJ6Y3k5YlcwczAtSWRrbnFuNk1FS1JUQWZWMFZjV2hub2t4WVdvR3praXhtOUVTb2JPWHIyS0xSWEFfNXFQTUZXejF1SEJJNDRTWGZFOVJodi1LUjJmeTl2SEN1WXZtaXNZOGtsTF9lVmNJLVNfT2VPSVlHaHpaMlpITnZ0ODFRYmFxbEJoNlk2VXA0aHdqTkV3ZHc5NTZMZUcxd0l2MlNYWkdwS1NCTDA0MHp6eUxEQi1WdzZQT0REaE1vQQ?oc=5\" target=\"_blank\">Powerlaw Corp. (Nasdaq: PWRL) Highlights OpenAI Holding as Reports Suggest IPO Delayed Until 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Wire</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Business Wire item reports that Powerlaw Corp. (Nasdaq: PWRL) is highlighting its OpenAI holding, amid reports that OpenAI's IPO has been delayed until 2027.\n\n\u5185\u5bb9:\nBusiness Wire \u62a5\u9053\u79f0\uff0cPowerlaw Corp.\uff08\u7eb3\u65af\u8fbe\u514b\u4ee3\u7801\uff1aPWRL\uff09\u6b63\u5728\u5ba3\u4f20\u5176\u6301\u6709\u7684 OpenAI \u80a1\u6743\uff0c\u540c\u65f6\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u5c06\u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA delayed OpenAI IPO removes a near-term liquidity/mark-to-market event for OpenAI's cap table and its holders, and signals OpenAI isn't rushing toward public-market discipline on burn rate \u2014 consistent with the C3 thesis that OpenAI's spend keeps outrunning conventional exit timelines.\n\n\u5f71\u54cd:\nOpenAI IPO \u63a8\u8fdf\u610f\u5473\u7740\u5176\u80a1\u6743\u7ed3\u6784\u8fd1\u671f\u7f3a\u5c11\u4e00\u6b21\u6d41\u52a8\u6027/\u4f30\u503c\u91cd\u5b9a\u4ef7\u7684\u4e8b\u4ef6\uff0c\u4e5f\u8bf4\u660e OpenAI \u5e76\u672a\u6025\u4e8e\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5bf9\u70e7\u94b1\u901f\u5ea6\u7684\u7ea6\u675f\u2014\u2014\u8fd9\u4e0e C3 \u7684\u8bba\u70b9\u4e00\u81f4\uff0c\u5373 OpenAI \u7684\u652f\u51fa\u8282\u594f\u6301\u7eed\u8dd1\u8d62\u5e38\u89c4\u7684\u9000\u51fa\u65f6\u95f4\u8868\u3002\n",
       "emailed": false
     }
   ],
