@@ -1,12 +1,12 @@
 {
-  "generated_at": 1783963924,
-  "generated_at_str": "2026-07-13 17:32:04 UTC",
-  "last_event_ts": 1783962848,
+  "generated_at": 1783964114,
+  "generated_at_str": "2026-07-13 17:35:14 UTC",
+  "last_event_ts": 1783964114,
   "tables": {
     "alerts_dedup": {
-      "count": 2337,
-      "last_ts": 1783961236,
-      "last_str": "2026-07-13 16:47:16 UTC"
+      "count": 2338,
+      "last_ts": 1783964114,
+      "last_str": "2026-07-13 17:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-13 13:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2275,
-      "last_ts": 1783962303,
-      "last_str": "2026-07-13 17:05:03 UTC"
+      "count": 2281,
+      "last_ts": 1783964101,
+      "last_str": "2026-07-13 17:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2717,
@@ -84,14 +84,14 @@
       "last_str": "2026-07-13 17:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1847,
-      "last_ts": 1783960504,
-      "last_str": "2026-07-13 16:35:04 UTC"
+      "count": 1848,
+      "last_ts": 1783964102,
+      "last_str": "2026-07-13 17:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2030,
-      "last_ts": 1783962306,
-      "last_str": "2026-07-13 17:05:06 UTC"
+      "count": 2033,
+      "last_ts": 1783964104,
+      "last_str": "2026-07-13 17:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 15949,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2345,
+      "ts": 1783964114,
+      "ts_str": "2026-07-13 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron. - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 04:57:47 GMT\nLink:      https://news.google.com/rss/articles/CBMi5AJBVV95cUxNSlVlYkZUa01TSk4zaC1QU201T2FDX1BWSy1RZTdUN2oxdHZDQUJ4dzBTNm9IZzNmMDFsMGlXbEVwSGRMRXJsRlJHejNOWmxXWGFZWk5EV1FvZzB5d2ctMksteUZ1TWtSNFhMODBxN0g3eEFGZEpVOGtVSVlWeHR0R0p4SThBUGtfSm45cmNBMW91bHQwd0E5bDdPQW5VNmJqeFcyZ2FZQjFsSUFxTUo0alVKc2IzQy1UWEhBT1pnMTUwT25rTVQyTE5JZVA2OERLRWlSUEozby1ZbGtHRVVuSHR4Z1ZsTzVfZjBiSnM3SXJiNktiTVltZkdfbjBIZVdybWdrV0p5U3c5TXNzaXpKZ1JkZ2pCOGpKX3FRcm1iV1hyak1PT09zdlJTWGVJa1JpRFNBQ2FBa0cyNDZmX3B4cmFLTERhWkFlUWxtQlFpRVJNV3F5dFVnTXk2bU81SzZQTm5jaQ?oc=5\n\nSamsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron. - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi5AJBVV95cUxNSlVlYkZUa01TSk4zaC1QU201T2FDX1BWSy1RZTdUN2oxdHZDQUJ4dzBTNm9IZzNmMDFsMGlXbEVwSGRMRXJsRlJHejNOWmxXWGFZWk5EV1FvZzB5d2ctMksteUZ1TWtSNFhMODBxN0g3eEFGZEpVOGtVSVlWeHR0R0p4SThBUGtfSm45cmNBMW91bHQwd0E5bDdPQW5VNmJqeFcyZ2FZQjFsSUFxTUo0alVKc2IzQy1UWEhBT1pnMTUwT25rTVQyTE5JZVA2OERLRWlSUEozby1ZbGtHRVVuSHR4Z1ZsTzVfZjBiSnM3SXJiNktiTVltZkdfbjBIZVdybWdrV0p5U3c5TXNzaXpKZ1JkZ2pCOGpKX3FRcm1iV1hyak1PT09zdlJTWGVJa1JpRFNBQ2FBa0cyNDZmX3B4cmFLTERhWkFlUWxtQlFpRVJNV3F5dFVnTXk2bU81SzZQTm5jaQ?oc=5\" target=\"_blank\">Samsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News item reports Samsung plans to raise DRAM prices roughly 20% in Q3, with implications for rival Micron.\n\n\u5185\u5bb9:\n\u8c37\u6b4c\u65b0\u95fb\u62a5\u9053\u79f0\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03\u7ea6 20%\uff0c\u5e76\u6ce2\u53ca\u7ade\u4e89\u5bf9\u624b\u7f8e\u5149 (Micron)\u3002\n\nWhy it matters:\nA DRAM price surge with a supply/demand-tier signal is a direct C6 memory-stress trigger \u2014 it points to memory/HBM capacity being squeezed by AI-server demand, tightening a key input cost for hyperscaler capex and feeding the AI-infra bubble-stress thesis.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u5927\u5e45\u4e0a\u6da8\u5c5e\u4e8e\u5178\u578b\u7684 C6 \u5185\u5b58\u627f\u538b\u4fe1\u53f7\uff0c\u6697\u793a AI \u670d\u52a1\u5668\u9700\u6c42\u6b63\u5728\u6324\u538b\u5185\u5b58/HBM \u4ea7\u80fd\uff0c\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u672c\u5f00\u652f\u7684\u5173\u952e\u6210\u672c\u9879\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1 AI \u57fa\u7840\u8bbe\u65bd\u6ce1\u6cab\u627f\u538b\u7684\u8bba\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2344,
       "ts": 1783961236,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] ADATA Chairman Warns DRAM Prices Jump 30% and NAND 40% in Q3 2026 as AI Starves Consumer Supply - Wccftech",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 09:30:02 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmx1UV85dHBndDdfT2JxYW9VNkxYeDFKNWVJNjNER0V0OExLLW8wamd1anlLRTYyYzVabkdlZkk4Sk5uajNheEMwY3l3WmMxQlFBdjlWeHFpYzJTUFBkLVFUTmw4OEdYU2pjVWNtTXJSOVlpYkI3SHdmY29uQkZPZDRSZUJMa2JEYUhuVk5mWdIBlAFBVV95cUxPQ0pIamdtU3ZqeGFmODF3YllYZVRoUFpkREF6aE9fTkYwWnFpYjl2TXV2QTNjQ2hHTnczSG94QWRFUjR6TGVOSlRDalU4MUlZM19aRHJoVE5Ta3BMRTA1dmlDYTdCT0lXZ25lYmsyV0VEaktPelhlME91TXo3bzVRZ0p2eGpFT0h1anBIWVN6alkxUXBN?oc=5\n\nADATA Chairman Warns DRAM Prices Jump 30% and NAND 40% in Q3 2026 as AI Starves Consumer Supply - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmx1UV85dHBndDdfT2JxYW9VNkxYeDFKNWVJNjNER0V0OExLLW8wamd1anlLRTYyYzVabkdlZkk4Sk5uajNheEMwY3l3WmMxQlFBdjlWeHFpYzJTUFBkLVFUTmw4OEdYU2pjVWNtTXJSOVlpYkI3SHdmY29uQkZPZDRSZUJMa2JEYUhuVk5mWdIBlAFBVV95cUxPQ0pIamdtU3ZqeGFmODF3YllYZVRoUFpkREF6aE9fTkYwWnFpYjl2TXV2QTNjQ2hHTnczSG94QWRFUjR6TGVOSlRDalU4MUlZM19aRHJoVE5Ta3BMRTA1dmlDYTdCT0lXZ25lYmsyV0VEaktPelhlME91TXo3bzVRZ0p2eGpFT0h1anBIWVN6alkxUXBN?oc=5\" target=\"_blank\">ADATA Chairman Warns DRAM Prices Jump 30% and NAND 40% in Q3 2026 as AI Starves Consumer Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nADATA's chairman warned that DRAM prices will jump 30% and NAND 40% in Q3 2026, as AI datacenter demand is starving consumer-market supply.\n\n\u5185\u5bb9:\nADATA \u8463\u4e8b\u957f\u8b66\u544a\uff0cDRAM \u4ef7\u683c\u5c06\u5728 2026 \u5e74\u7b2c\u4e09\u5b63\u5ea6\u4e0a\u6da8 30%\uff0cNAND \u4e0a\u6da8 40%\uff0c\u539f\u56e0\u662f AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7ea7\u4f9b\u5e94\u3002\n\nWhy it matters:\nMemory is a hard input cost for AI servers, so a supply squeeze this sharp signals the AI buildout is now bidding away capacity from the broader electronics market \u2014 a sign the infrastructure race is straining upstream supply chains, not just capital budgets.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u786c\u6027\u6210\u672c\u9879\uff0c\u8fd9\u4e48\u5267\u70c8\u7684\u4f9b\u5e94\u7d27\u5f20\u610f\u5473\u7740 AI \u5efa\u8bbe\u6f6e\u6b63\u5728\u4ece\u6574\u4e2a\u7535\u5b50\u4ea7\u4e1a\u62a2\u5360\u4ea7\u80fd\u2014\u2014\u8bf4\u660e\u57fa\u7840\u8bbe\u65bd\u7ade\u8d5b\u7684\u538b\u529b\u5df2\u7ecf\u8513\u5ef6\u5230\u4e0a\u6e38\u4f9b\u5e94\u94fe\uff0c\u800c\u4e0d\u53ea\u662f\u8d44\u672c\u9884\u7b97\u5c42\u9762\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2144,
-      "ts": 1783413865,
-      "ts_str": "2026-07-07 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] The $3.8 Trillion AI Mega IPO Wave of 2026: SpaceX, OpenAI & Anthropic Investment Guide - Intellectia AI",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 08:26:30 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE1uVFg1d3NMaXJZSmFLSmtpMTd3ZlRLdU5vZHVXWFFBbzdseGh4ckFPcXd0c1M2VjZINjhBdEdwQlBDQm5hUG5LbEFUdFExdUtqUTI2R0RNd2FsLVV3NTlqNWdkajNTQ3NVWHZsTGV2Q0VuVkJkb2kxRExsQ1BmUQ?oc=5\n\nThe $3.8 Trillion AI Mega IPO Wave of 2026: SpaceX, OpenAI & Anthropic Investment Guide - Intellectia AI\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1uVFg1d3NMaXJZSmFLSmtpMTd3ZlRLdU5vZHVXWFFBbzdseGh4ckFPcXd0c1M2VjZINjhBdEdwQlBDQm5hUG5LbEFUdFExdUtqUTI2R0RNd2FsLVV3NTlqNWdkajNTQ3NVWHZsTGV2Q0VuVkJkb2kxRExsQ1BmUQ?oc=5\" target=\"_blank\">The $3.8 Trillion AI Mega IPO Wave of 2026: SpaceX, OpenAI & Anthropic Investment Guide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intellectia AI</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news aggregator piece speculates about a $3.8 trillion 2026 AI mega-IPO wave covering SpaceX, OpenAI, and Anthropic \u2014 no filing, no verified financials, just a headline-level forecast.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u805a\u5408\u6587\u7ae0\u63a8\u6d4b 2026 \u5e74\u5c06\u51fa\u73b0 3.8 \u4e07\u4ebf\u7f8e\u5143\u89c4\u6a21\u7684 AI \u5de8\u578b IPO \u6d6a\u6f6e\uff0c\u6d89\u53ca SpaceX\u3001OpenAI \u548c Anthropic\u2014\u2014\u6ca1\u6709\u4efb\u4f55 SEC \u6587\u4ef6\uff0c\u4e5f\u6ca1\u6709\u7ecf\u6838\u5b9e\u7684\u8d22\u52a1\u6570\u636e\uff0c\u53ea\u662f\u6807\u9898\u515a\u5f0f\u7684\u9884\u6d4b\u3002\n\nWhy it matters:\nThis is speculative commentary, not a disclosed metric \u2014 it doesn't confirm or move the OpenAI burn-rate signal C3 actually tracks. Flagged only because it's OpenAI-adjacent keyword noise; treat as background chatter, not a bubble-stress data point.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u5e76\u975e\u5df2\u62ab\u9732\u7684\u6307\u6807\uff0c\u65e0\u6cd5\u8bc1\u5b9e\u6216\u5f71\u54cd C3 \u5b9e\u9645\u8ffd\u8e2a\u7684 OpenAI \u70e7\u94b1\u901f\u5ea6\u4fe1\u53f7\u3002\u4e4b\u6240\u4ee5\u88ab\u6807\u8bb0\uff0c\u53ea\u662f\u56e0\u4e3a\u5b83\u542b\u6709 OpenAI \u76f8\u5173\u5173\u952e\u8bcd\uff0c\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u6784\u6210 bubble-stress \u7684\u5b9e\u8d28\u6570\u636e\u70b9\u3002\n",
       "emailed": false
     }
   ],
