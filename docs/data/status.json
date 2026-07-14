@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784063654,
-  "generated_at_str": "2026-07-14 21:14:14 UTC",
-  "last_event_ts": 1784063653,
+  "generated_at": 1784063830,
+  "generated_at_str": "2026-07-14 21:17:10 UTC",
+  "last_event_ts": 1784063830,
   "tables": {
     "alerts_dedup": {
-      "count": 2378,
-      "last_ts": 1784063653,
-      "last_str": "2026-07-14 21:14:13 UTC"
+      "count": 2379,
+      "last_ts": 1784063830,
+      "last_str": "2026-07-14 21:17:10 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -54,9 +54,9 @@
       "last_str": "2026-05-29 15:56:14 UTC"
     },
     "c8_signals": {
-      "count": 6,
-      "last_ts": 1782422234,
-      "last_str": "2026-06-25 21:17:14 UTC"
+      "count": 7,
+      "last_ts": 1784063822,
+      "last_str": "2026-07-14 21:17:02 UTC"
     },
     "focus_history": {
       "count": 6,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2386,
+      "ts": 1784063830,
+      "ts_str": "2026-07-14 21:17 UTC",
+      "catalyst": "C8",
+      "severity": "MED",
+      "subject": "[C8-MED] CPI YoY 3.7% (\u2265 3.5%) \u2014 Fed cuts blocked",
+      "body": "Metric:   CPI YoY\nMonth:    2026-06-01\nYoY:      3.73%\nThreshold: 3.5%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCPI rose 3.73% YoY in June 2026, crossing the 3.5% hot-CPI trigger.\n\n\u5185\u5bb9:\n2026\u5e746\u6708CPI\u540c\u6bd4\u4e0a\u6da83.73%\uff0c\u7a81\u78343.5%\u7684\"CPI\u8fc7\u70ed\"\u89e6\u53d1\u9608\u503c\u3002\n\nWhy it matters:\nSticky above-target inflation keeps the Fed from cutting into an AI-capex-fueled boom, raising real financing costs right when hyperscaler debt/capex spend is at its most stretched.\n\n\u5f71\u54cd:\n\u901a\u80c0\u987d\u56fa\u5730\u9ad8\u4e8e\u76ee\u6807\u6c34\u5e73\uff0c\u4f7f\u7f8e\u8054\u50a8\u96be\u4ee5\u5728AI\u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u4e2d\u964d\u606f\uff0c\u800c\u8fd9\u6070\u6070\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u503a\u52a1\u548c\u8d44\u672c\u652f\u51fa\u6700\u7d27\u7ef7\u7684\u65f6\u5019\uff0c\u878d\u8d44\u5b9e\u9645\u6210\u672c\u56e0\u6b64\u4e0a\u5347\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2385,
       "ts": 1784063653,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Bank of America extends credit to OpenAI ahead of planned IPO - Bloomberg - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 15:03:52 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxPdXgtdWIzSVBaSUJWT2RfNjNrMlhqcFZrNTgtMlhWSy1nc3hYTXdRSXJQTTFVQ3BOaE5TUHJRWElPd25oR2hNTkMzTk5lSGdFZnprQkhGRnpXUHVFMHN3WmRSWWZyQkY4ZVVPaERSNkFuWjdpT2xndWdvTjdMcVo0dFdhVVRtak9CekQ2RzAwWGR5V1ZhS0VCVUROaFVESnN5eFo0bkdkQkdxT2g2SHhUMDVHdWtSc0NWSHpLNURXODBrUkFDSHl4V1ptZ2pkUms?oc=5\n\nBank of America extends credit to OpenAI ahead of planned IPO - Bloomberg - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPdXgtdWIzSVBaSUJWT2RfNjNrMlhqcFZrNTgtMlhWSy1nc3hYTXdRSXJQTTFVQ3BOaE5TUHJRWElPd25oR2hNTkMzTk5lSGdFZnprQkhGRnpXUHVFMHN3WmRSWWZyQkY4ZVVPaERSNkFuWjdpT2xndWdvTjdMcVo0dFdhVVRtak9CekQ2RzAwWGR5V1ZhS0VCVUROaFVESnN5eFo0bkdkQkdxT2g2SHhUMDVHdWtSc0NWSHpLNURXODBrUkFDSHl4V1ptZ2pkUms?oc=5\" target=\"_blank\">Bank of America extends credit to OpenAI ahead of planned IPO - Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBloomberg (via Investing.com) reports Bank of America has extended a credit facility to OpenAI ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u636e Bloomberg\uff08\u7ecf Investing.com \u8f6c\u8f7d\uff09\u62a5\u9053\uff0cBank of America \u5df2\u5411\u4ecd\u5904\u4e8e IPO \u7b79\u5907\u9636\u6bb5\u7684 OpenAI \u63d0\u4f9b\u4fe1\u8d37\u652f\u6301\u3002\n\nWhy it matters:\nA bank underwriting credit to a still-private, cash-burning AI lab \u2014 with an IPO explicitly floated as the exit \u2014 signals financing is shifting from equity/compute-partner subsidy toward leveraged debt. That raises the stakes if OpenAI's burn rate keeps climbing, since debt service adds a hard floor under the burn-rate thesis.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u94f6\u884c\u5411\u4ecd\u672a\u4e0a\u5e02\u3001\u6301\u7eed\u70e7\u94b1\u7684 AI \u5b9e\u9a8c\u5ba4\u63d0\u4f9b\u4fe1\u8d37\uff0c\u4e14\u660e\u786e\u4ee5 IPO \u4f5c\u4e3a\u9000\u51fa\u8def\u5f84\uff0c\u8bf4\u660e\u5176\u878d\u8d44\u65b9\u5f0f\u6b63\u4ece\u80a1\u6743/\u7b97\u529b\u4f19\u4f34\u8865\u8d34\u8f6c\u5411\u6760\u6746\u503a\u52a1\u3002\u5982\u679c OpenAI \u7684\u70e7\u94b1\u901f\u5ea6\u7ee7\u7eed\u4e0a\u5347\uff0c\u8fd8\u672c\u4ed8\u606f\u538b\u529b\u4f1a\u6210\u4e3a\u70e7\u94b1\u7387\u8bba\u70b9\u4e4b\u4e0b\u65b0\u589e\u7684\u786c\u7ea6\u675f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2186,
-      "ts": 1783523657,
-      "ts_str": "2026-07-08 15:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Bank of America extends credit to OpenAI ahead of planned IPO - Bloomberg - Investing.com Nigeria",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 15:08:13 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxQN01IN0JiNlp1Z1Uzb0F6b2JiMWpwUC1ONXlGT3hIM2wyWWVSajB1cUp0Wl9sc3k1XzI0VXRneW1FbGtzQk9ieWE3ZTlOUjVFS1AwUmhRRFN1bWZheXZpN0FpMHhHX0lFcVlqLWp0dTJTaXlXWVF6cmVaWUxOaDVqdUVZRm9KNTRzYmJmLS1KeS11VEZnNzlnMUttTXFzM3dkYWhiWVgwdjlyV0V4dUlKcFZlTHduUkdLTHMxRlB0YmNLbTAwYUd5Zm9jaXJPdw?oc=5\n\nBank of America extends credit to OpenAI ahead of planned IPO - Bloomberg - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQN01IN0JiNlp1Z1Uzb0F6b2JiMWpwUC1ONXlGT3hIM2wyWWVSajB1cUp0Wl9sc3k1XzI0VXRneW1FbGtzQk9ieWE3ZTlOUjVFS1AwUmhRRFN1bWZheXZpN0FpMHhHX0lFcVlqLWp0dTJTaXlXWVF6cmVaWUxOaDVqdUVZRm9KNTRzYmJmLS1KeS11VEZnNzlnMUttTXFzM3dkYWhiWVgwdjlyV0V4dUlKcFZlTHduUkdLTHMxRlB0YmNLbTAwYUd5Zm9jaXJPdw?oc=5\" target=\"_blank\">Bank of America extends credit to OpenAI ahead of planned IPO - Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBloomberg reports Bank of America is extending credit to OpenAI ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u5f6d\u535a\u793e\u62a5\u9053\uff0c\u7f8e\u56fd\u94f6\u884c\uff08Bank of America\uff09\u5728 OpenAI \u8ba1\u5212 IPO \u4e4b\u524d\u5411\u5176\u63d0\u4f9b\u4fe1\u8d37\u3002\n\nWhy it matters:\nA bank underwriting credit to a still-private, cash-burning lab signals lenders are betting on the IPO to make them whole \u2014 the same pattern of credit chasing AI-capex hype that C7 tracks in spreads. It also nudges OpenAI's balance sheet toward more debt just as C3's burn-rate trigger watches for stress.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u94f6\u884c\u613f\u610f\u7ed9\u5c1a\u672a\u4e0a\u5e02\u3001\u4ecd\u5728\u70e7\u94b1\u7684\u5b9e\u9a8c\u5ba4\u653e\u8d37\uff0c\u8bf4\u660e\u653e\u8d37\u65b9\u662f\u5728\u8d4c IPO \u80fd\u8ba9\u81ea\u5df1\u5168\u8eab\u800c\u9000\u2014\u2014\u8fd9\u4e0e C7 \u8ffd\u8e2a\u7684\u4fe1\u7528\u5229\u5dee\u4e2d\u300c\u8d44\u91d1\u8ffd\u9010 AI capex \u7092\u4f5c\u300d\u7684\u6a21\u5f0f\u5982\u51fa\u4e00\u8f99\u3002\u8fd9\u4e5f\u8ba9 OpenAI \u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u5728 C3 \u76d1\u63a7\u7684\u70e7\u94b1\u901f\u5ea6\u6307\u6807\u4e4b\u5916\uff0c\u591a\u80cc\u4e0a\u4e86\u4e00\u5c42\u503a\u52a1\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
