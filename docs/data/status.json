@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784012533,
-  "generated_at_str": "2026-07-14 07:02:13 UTC",
-  "last_event_ts": 1784011634,
+  "generated_at": 1784012714,
+  "generated_at_str": "2026-07-14 07:05:14 UTC",
+  "last_event_ts": 1784012713,
   "tables": {
     "alerts_dedup": {
-      "count": 2352,
-      "last_ts": 1784011634,
-      "last_str": "2026-07-14 06:47:14 UTC"
+      "count": 2353,
+      "last_ts": 1784012713,
+      "last_str": "2026-07-14 07:05:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,14 +79,14 @@
       "last_str": "2026-07-14 06:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2740,
-      "last_ts": 1784010904,
-      "last_str": "2026-07-14 06:35:04 UTC"
+      "count": 2741,
+      "last_ts": 1784012704,
+      "last_str": "2026-07-14 07:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1873,
-      "last_ts": 1784009102,
-      "last_str": "2026-07-14 06:05:02 UTC"
+      "count": 1874,
+      "last_ts": 1784012703,
+      "last_str": "2026-07-14 07:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2057,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2360,
+      "ts": 1784012713,
+      "ts_str": "2026-07-14 07:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Shift to advanced 3D NAND triggers MLC NAND supply crunch - Communications Today",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 09:38:04 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxPVF9GMUc0aGlnamJZN0ZjZEFhVXBlcXM4cEp6QjR1TFg0Yzk2aTc2WlRhSmI0ckRvOFluMEJZQ0pOQmRoTDBlc240WE9fSWV5aFgyTTZQUm82U185N3ZMamluMEVxeFk1MnNJNVQyN3JvcDdnSkpyOW44eHNkQlZFVXktanAzbmIyem5YU1hRMnlxdzVqLUUxWHBUeFg?oc=5\n\nShift to advanced 3D NAND triggers MLC NAND supply crunch - Communications Today\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPVF9GMUc0aGlnamJZN0ZjZEFhVXBlcXM4cEp6QjR1TFg0Yzk2aTc2WlRhSmI0ckRvOFluMEJZQ0pOQmRoTDBlc240WE9fSWV5aFgyTTZQUm82U185N3ZMamluMEVxeFk1MnNJNVQyN3JvcDdnSkpyOW44eHNkQlZFVXktanAzbmIyem5YU1hRMnlxdzVqLUUxWHBUeFg?oc=5\" target=\"_blank\">Shift to advanced 3D NAND triggers MLC NAND supply crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Communications Today</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Communications Today article reports that the industry shift to advanced 3D NAND is triggering a supply crunch specifically in MLC NAND.\n\n\u5185\u5bb9:\nCommunications Today \u62a5\u9053\u79f0\uff0c\u884c\u4e1a\u5411\u5148\u8fdb 3D NAND \u8f6c\u578b\u6b63\u5728\u5f15\u53d1 MLC NAND \u7684\u4f9b\u5e94\u7d27\u7f3a\u3002\n\nWhy it matters:\nA capacity squeeze on a legacy NAND tier as fabs reallocate to advanced 3D processes signals tightening memory supply broadly \u2014 consistent with the C6 thesis that AI-driven HBM/DRAM demand is crowding out other memory segments and pushing prices up across the board.\n\n\u5f71\u54cd:\n\u968f\u7740\u6676\u5706\u5382\u4ea7\u80fd\u5411\u5148\u8fdb 3D \u5de5\u827a\u8f6c\u79fb\uff0c\u4f20\u7edf MLC NAND \u51fa\u73b0\u4f9b\u7ed9\u7d27\u5f20\uff0c\u8fd9\u5370\u8bc1\u4e86 C6 \u7684\u903b\u8f91\uff1aAI \u9a71\u52a8\u7684 HBM/DRAM \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u5b58\u50a8\u5668\u7ec6\u5206\u5e02\u573a\u7684\u4ea7\u80fd\uff0c\u63a8\u9ad8\u6574\u4f53\u5b58\u50a8\u4ef7\u683c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2359,
       "ts": 1784011634,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI files confidential IPO paperwork, may delay until 2027 By Investing.com - Investing.com UK",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 10:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxOX2x3dlB1QnBIejJHUzJ0R1FuSV9rWjNuSHpEVVYyNU53SmlZR21SUzU4SEFkUFV1V2UwQkcwZVpDamJiSWotOFJYeDF4WUxBMlNoN0lkMGtFenJ6MHRvd3NaLTFZcXBXZ0tIaWs1TTRfS3RNbWsyUER6bVpNSXlCbVlsbHNxdEhOLVVCUzRDbGhqbFcwb3JIQS1FWlhPekl3WnVQaVNuNU1kTUNTbDB6bmdlZEsxMmhFa0ZIcDd3?oc=5\n\nOpenAI files confidential IPO paperwork, may delay until 2027 By Investing.com - Investing.com UK\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOX2x3dlB1QnBIejJHUzJ0R1FuSV9rWjNuSHpEVVYyNU53SmlZR21SUzU4SEFkUFV1V2UwQkcwZVpDamJiSWotOFJYeDF4WUxBMlNoN0lkMGtFenJ6MHRvd3NaLTFZcXBXZ0tIaWs1TTRfS3RNbWsyUER6bVpNSXlCbVlsbHNxdEhOLVVCUzRDbGhqbFcwb3JIQS1FWlhPekl3WnVQaVNuNU1kTUNTbDB6bmdlZEsxMmhFa0ZIcDd3?oc=5\" target=\"_blank\">OpenAI files confidential IPO paperwork, may delay until 2027 By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI has filed confidential IPO paperwork with regulators, though the offering itself may not happen until 2027.\n\n\u5185\u5bb9:\nOpenAI \u5df2\u5411\u76d1\u7ba1\u673a\u6784\u63d0\u4ea4\u4fdd\u5bc6 IPO \u7533\u8bf7\u6587\u4ef6\uff0c\u4f46\u6b63\u5f0f\u4e0a\u5e02\u53ef\u80fd\u8981\u7b49\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA confidential filing this early signals OpenAI is preparing an exit path for investors well before profitability is proven \u2014 a red flag if the AI-capex thesis depends on OpenAI's revenue growth outrunning its burn rate rather than on tapping public markets to plug the gap.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u65e9\u5c31\u63d0\u4ea4\u4fdd\u5bc6\u7533\u8bf7\uff0c\u8bf4\u660e OpenAI \u5728\u76c8\u5229\u5c1a\u672a\u5f97\u5230\u9a8c\u8bc1\u4e4b\u524d\uff0c\u5c31\u5728\u4e3a\u6295\u8d44\u8005\u94fa\u8bbe\u9000\u51fa\u901a\u9053\u2014\u2014\u5982\u679c AI capex \u53d9\u4e8b\u7684\u524d\u63d0\u662f OpenAI \u7684\u6536\u5165\u589e\u957f\u8981\u8dd1\u8d62\u70e7\u94b1\u901f\u5ea6\uff0c\u800c\u4e0d\u662f\u9760\u4e0a\u5e02\u878d\u8d44\u6765\u586b\u7a9f\u7abf\uff0c\u8fd9\u5c31\u662f\u4e00\u4e2a\u8b66\u793a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2160,
-      "ts": 1783433655,
-      "ts_str": "2026-07-07 14:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 08:23:27 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE01Y3RRbWhTT3l6VDYtSzVHdmZxekpuYjQ1eGlLREFvcDByaVhBZFdyTG9vTTAtLTlBSUR3ZlYyVk1Bem1mTkdVQzR4cjltRWN3THFJblJyOUh1ZERuc204d2VJWk94NHpQUXQ2OEt1LWdXUV9YQ0xfeEFsbFY?oc=5\n\nOpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE01Y3RRbWhTT3l6VDYtSzVHdmZxekpuYjQ1eGlLREFvcDByaVhBZFdyTG9vTTAtLTlBSUR3ZlYyVk1Bem1mTkdVQzR4cjltRWN3THFJblJyOUh1ZERuc204d2VJWk94NHpQUXQ2OEt1LWdXUV9YQ0xfeEFsbFY?oc=5\" target=\"_blank\">OpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item on OpenAI pre-IPO stock (Republic's preOPAI token) technical analysis surfaced in the RSS scan; no burn-rate or filing data was extracted.\n\n\u5185\u5bb9:\nRSS \u626b\u63cf\u547d\u4e2d\u4e00\u7bc7\u5173\u4e8e OpenAI \u672a\u4e0a\u5e02\u80a1\u7968\uff08Republic \u7684 preOPAI \u4ee3\u5e01\uff09\u6280\u672f\u5206\u6790\u7684\u65b0\u95fb\uff0c\u672a\u63d0\u53d6\u5230\u4efb\u4f55 burn rate \u6216\u8d22\u62a5\u6570\u636e\u3002\n\nWhy it matters:\nThis is a routine keyword hit, not a substantive capex or burn-rate signal \u2014 the pre-IPO synthetic-equity market around OpenAI is itself a symptom of speculative demand for exposure to the AI-capex story, but this article carries no new fact for the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u6b21\u5e38\u89c4\u5173\u952e\u8bcd\u547d\u4e2d\uff0c\u4e0d\u6784\u6210\u5b9e\u8d28\u6027\u7684\u8d44\u672c\u5f00\u652f\u6216\u70e7\u94b1\u901f\u5ea6\u4fe1\u53f7\u2014\u2014\u4e0d\u8fc7 OpenAI \u672a\u4e0a\u5e02\u80a1\u6743\u7684\u6295\u673a\u6027\u884d\u751f\u5e02\u573a\u672c\u8eab\uff0c\u5c31\u662f\u5e02\u573a\u5bf9 AI capex \u53d9\u4e8b\u8fc7\u5ea6\u6e34\u6c42\u655e\u53e3\u7684\u4e00\u4e2a\u75c7\u72b6\uff0c\u8fd9\u7bc7\u6587\u7ae0\u672c\u8eab\u6ca1\u6709\u63d0\u4f9b\u65b0\u4e8b\u5b9e\u3002\n",
       "emailed": false
     }
   ],
