@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784044925,
-  "generated_at_str": "2026-07-14 16:02:05 UTC",
-  "last_event_ts": 1784044023,
+  "generated_at": 1784045117,
+  "generated_at_str": "2026-07-14 16:05:17 UTC",
+  "last_event_ts": 1784045116,
   "tables": {
     "alerts_dedup": {
-      "count": 2366,
-      "last_ts": 1784042068,
-      "last_str": "2026-07-14 15:14:28 UTC"
+      "count": 2367,
+      "last_ts": 1784045116,
+      "last_str": "2026-07-14 16:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -84,14 +84,14 @@
       "last_str": "2026-07-14 15:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 1895,
-      "last_ts": 1784043304,
-      "last_str": "2026-07-14 15:35:04 UTC"
+      "count": 1896,
+      "last_ts": 1784045103,
+      "last_str": "2026-07-14 16:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2080,
-      "last_ts": 1784043306,
-      "last_str": "2026-07-14 15:35:06 UTC"
+      "count": 2087,
+      "last_ts": 1784045106,
+      "last_str": "2026-07-14 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 16146,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2374,
+      "ts": 1784045116,
+      "ts_str": "2026-07-14 16:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tested: How Samsung's 990 SSD might be held back by AI-related shortages - PCWorld",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 16:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9uU2JybzM1VFVtZFh5YXdIM0IxbFBVY0g1dHZmRWU5Z0dmUXpKeTFhOVJSRG5JX3hYZ2RaVGkxaTRhcTdEV281Q1BZWTE3c0pzR1J5NE83UWFGQzFTaUJlUWdiOVU2TkNuZi1pbFRjSVZmWGRUNGc?oc=5\n\nTested: How Samsung's 990 SSD might be held back by AI-related shortages - PCWorld\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9uU2JybzM1VFVtZFh5YXdIM0IxbFBVY0g1dHZmRWU5Z0dmUXpKeTFhOVJSRG5JX3hYZ2RaVGkxaTRhcTdEV281Q1BZWTE3c0pzR1J5NE83UWFGQzFTaUJlUWdiOVU2TkNuZi1pbFRjSVZmWGRUNGc?oc=5\" target=\"_blank\">Tested: How Samsung's 990 SSD might be held back by AI-related shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PCWorld</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA PCWorld article reports Samsung's 990 SSD supply may be constrained by AI-driven memory shortages.\n\n\u5185\u5bb9:\nPCWorld \u6587\u7ae0\u62a5\u9053\uff0cSamsung 990 SSD \u7684\u4f9b\u5e94\u53ef\u80fd\u53d7\u5230 AI \u76f8\u5173\u5185\u5b58\u77ed\u7f3a\u7684\u5236\u7ea6\u3002\n\nWhy it matters:\nSignals NAND/SSD-tier stress spilling from enterprise AI buildout into consumer components, corroborating the memory-supply-tightness leg of the AI-capex thesis \u2014 but this is a single consumer-product report, not a hard supply/pricing datapoint.\n\n\u5f71\u54cd:\n\u8fd9\u8868\u660e AI \u5efa\u8bbe\u5e26\u6765\u7684\u5185\u5b58\u7d27\u5f20\u5df2\u7ecf\u4ece\u4f01\u4e1a\u7ea7\u5e02\u573a\u8513\u5ef6\u5230\u6d88\u8d39\u7ea7\u4ea7\u54c1\uff0c\u5370\u8bc1\u4e86 AI capex \u53d9\u4e8b\u4e2d\"\u5185\u5b58\u4f9b\u7ed9\u5403\u7d27\"\u8fd9\u4e00\u73af\u8282\u2014\u2014\u4e0d\u8fc7\u8fd9\u53ea\u662f\u5355\u7bc7\u6d88\u8d39\u7ea7\u4ea7\u54c1\u62a5\u9053\uff0c\u5e76\u975e\u786c\u6027\u7684\u4f9b\u7ed9\u6216\u4ef7\u683c\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2372,
       "ts": 1784042068,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 04:35:23 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2174,
-      "ts": 1783488906,
-      "ts_str": "2026-07-08 05:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung plans to raise DRAM prices by 20% in Q3: report - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 23:41:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcTZDdGlYNnc1TUVMbjd5TFNTOVoza3BKYTE0SExsdnBXNjZIRFRJU3lUajJvdzdJQmxjVlppbjlsX1BSb2tUNlhWN0lRNGFLOFFjRHJ2eWhTLVV2VXltdGhCOENqSGptcmJZNXN1ZTBvejhYRnd4emowMEZxSmR1dy1Pa3dFNGlBaHYwQ2Y2Q2R4MFlKcDJZNVdCWS1KeDU5dlczaUljNUZ3S1FsRnZGVVZfUFBRRUFzMHRXVVlvTG16VF9GQURpeUhGOHJicHczXzNMekRzZkFGVTB0SnpQYVZPd1VoMjN3VWN6Z2xiTDlCS0NHckJ2aUdUOXAybmhreTAydWw1RWJaM1JKRHMzM0F1d2ZQdUxuTUQtUjlDZDNJYmJrM3RTYzV1VVJTSGViT1VUVFNSaHhfN09BeDFiWlh3?oc=5\n\nSamsung plans to raise DRAM prices by 20% in Q3: report - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcTZDdGlYNnc1TUVMbjd5TFNTOVoza3BKYTE0SExsdnBXNjZIRFRJU3lUajJvdzdJQmxjVlppbjlsX1BSb2tUNlhWN0lRNGFLOFFjRHJ2eWhTLVV2VXltdGhCOENqSGptcmJZNXN1ZTBvejhYRnd4emowMEZxSmR1dy1Pa3dFNGlBaHYwQ2Y2Q2R4MFlKcDJZNVdCWS1KeDU5dlczaUljNUZ3S1FsRnZGVVZfUFBRRUFzMHRXVVlvTG16VF9GQURpeUhGOHJicHczXzNMekRzZkFGVTB0SnpQYVZPd1VoMjN3VWN6Z2xiTDlCS0NHckJ2aUdUOXAybmhreTAydWw1RWJaM1JKRHMzM0F1d2ZQdUxuTUQtUjlDZDNJYmJrM3RTYzV1VVJTSGViT1VUVFNSaHhfN09BeDFiWlh3?oc=5\" target=\"_blank\">Samsung plans to raise DRAM prices by 20% in Q3: report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports Samsung plans to raise DRAM prices by 20% in Q3.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u62a5\u9053\u79f0\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nMemory pricing power reversing to the upside after a prolonged glut signals tightening AI-server component supply (HBM/DRAM capacity is being reallocated to AI parts), raising build costs for hyperscalers and squeezing GPU-server margins further up the stack.\n\n\u5f71\u54cd:\n\u5728\u7ecf\u5386\u957f\u671f\u4f9b\u8fc7\u4e8e\u6c42\u540e\u5185\u5b58\u5b9a\u4ef7\u6743\u8f6c\u5411\u4e0a\u884c\uff0c\u6697\u793a AI \u670d\u52a1\u5668\u6240\u9700\u7684\u5b58\u50a8\u4ea7\u80fd\uff08HBM/DRAM\uff09\u6b63\u88ab\u4f18\u5148\u8c03\u914d\u7ed9 AI \u82af\u7247\uff0c\u8fd9\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u5e76\u8fdb\u4e00\u6b65\u538b\u7f29 GPU \u670d\u52a1\u5668\u4e0a\u6e38\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
