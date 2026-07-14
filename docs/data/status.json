@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784045462,
-  "generated_at_str": "2026-07-14 16:11:02 UTC",
-  "last_event_ts": 1784045116,
+  "generated_at": 1784045667,
+  "generated_at_str": "2026-07-14 16:14:27 UTC",
+  "last_event_ts": 1784045664,
   "tables": {
     "alerts_dedup": {
-      "count": 2367,
-      "last_ts": 1784045116,
-      "last_str": "2026-07-14 16:05:16 UTC"
+      "count": 2369,
+      "last_ts": 1784045664,
+      "last_str": "2026-07-14 16:14:24 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-14 15:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 619,
-      "last_ts": 1784036644,
-      "last_str": "2026-07-14 13:44:04 UTC"
+      "count": 620,
+      "last_ts": 1784045645,
+      "last_str": "2026-07-14 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2339,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-14 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 16146,
-      "last_ts": 1784043843,
-      "last_str": "2026-07-14 15:44:03 UTC"
+      "count": 16149,
+      "last_ts": 1784045643,
+      "last_str": "2026-07-14 16:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 677,
@@ -291,6 +291,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2375,
+      "ts": 1784045664,
+      "ts_str": "2026-07-14 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s Growing Challenges Narrow Its IPO Window - WSJ",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 16:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPM1hqeTlCYlhLdXVENm1wQkhuZXZtQW5LNlRaWWVKN1VPVEFlSm1wZVEtVmEtTlpkcXpmbHBVbkNLRG41LXcyTkhDa21DS3RlZHdQZVZYX3gxck5KV3FwbmNHc2tGQ3lCSzgyYVVVdzV3cGlRVEVyZWRBbkgxcHFQMFU1NGlnN212d1duMWR3?oc=5\n\nOpenAI\u2019s Growing Challenges Narrow Its IPO Window - WSJ\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPM1hqeTlCYlhLdXVENm1wQkhuZXZtQW5LNlRaWWVKN1VPVEFlSm1wZVEtVmEtTlpkcXpmbHBVbkNLRG41LXcyTkhDa21DS3RlZHdQZVZYX3gxck5KV3FwbmNHc2tGQ3lCSzgyYVVVdzV3cGlRVEVyZWRBbkgxcHFQMFU1NGlnN212d1duMWR3?oc=5\" target=\"_blank\">OpenAI\u2019s Growing Challenges Narrow Its IPO Window</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA WSJ article via Google News reports OpenAI's problems are shrinking its window to IPO.\n\n\u5185\u5bb9:\nWSJ \u901a\u8fc7 Google News \u8f6c\u8f7d\u7684\u4e00\u7bc7\u6587\u7ae0\u79f0\uff0cOpenAI \u9762\u4e34\u7684\u95ee\u9898\u6b63\u5728\u6536\u7a84\u5176 IPO \u7a97\u53e3\u3002\n\nWhy it matters:\nA narrowing IPO window suggests weakening investor appetite or deteriorating fundamentals at the largest single demand source for AI compute \u2014 a stress signal for the capex-funding chain even though this is a news headline, not a hard financial disclosure.\n\n\u5f71\u54cd:\nIPO \u7a97\u53e3\u6536\u7a84\u610f\u5473\u7740\u6295\u8d44\u8005\u70ed\u60c5\u51cf\u5f31\u6216\u57fa\u672c\u9762\u6076\u5316\uff0c\u800c OpenAI \u662f AI \u7b97\u529b\u9700\u6c42\u7aef\u6700\u5927\u7684\u5355\u4e00\u6765\u6e90\u2014\u2014\u5c3d\u7ba1\u8fd9\u53ea\u662f\u65b0\u95fb\u62a5\u9053\u800c\u975e\u786c\u6027\u8d22\u52a1\u62ab\u9732\uff0c\u4f46\u4ecd\u662f capex \u8d44\u91d1\u94fe\u4e0a\u7684\u4e00\u4e2a\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2376,
+      "ts": 1784045664,
+      "ts_str": "2026-07-14 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s Growing Challenges Narrow Its IPO Window",
+      "body": "Severity:  MED\nFeed:      https://feeds.content.dowjones.io/public/rss/RSSWSJD\nPublished: Tue, 14 Jul 2026 16:00:00 GMT\nLink:      https://www.wsj.com/tech/ai/openais-growing-challenges-narrow-its-ipo-window-8ad8f734?mod=rss_Technology\n\nOpenAI\u2019s Growing Challenges Narrow Its IPO Window\n\nPlus, Apple\u2019s legal sparring, and Wall Street\u2019s problem with AI drug discovery.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg headline flags that OpenAI's mounting operational challenges are narrowing its IPO window, alongside unrelated Apple legal and AI-drug-discovery items.\n\n\u5185\u5bb9:\n\u5f6d\u535a\u793e\u6807\u9898\u6307\u51fa\uff0cOpenAI \u65e5\u76ca\u52a0\u5267\u7684\u8fd0\u8425\u6311\u6218\u6b63\u5728\u6536\u7a84\u5176 IPO \u7a97\u53e3\uff0c\u540c\u7248\u9762\u8fd8\u63d0\u5230 Apple \u7684\u6cd5\u5f8b\u7ea0\u7eb7\u548c AI \u836f\u7269\u7814\u53d1\u9886\u57df\u7684\u95ee\u9898\uff08\u4e0e\u672c\u6761\u65e0\u76f4\u63a5\u5173\u8054\uff09\u3002\n\nWhy it matters:\nA shrinking IPO window for OpenAI is a proxy for deteriorating investor appetite for AI-pure-play equity \u2014 if the largest AI lab can't credibly go public, it signals the capital markets are pricing in more risk on the whole AI-capex chain, not just OpenAI's own burn rate.\n\n\u5f71\u54cd:\nOpenAI \u7684 IPO \u7a97\u53e3\u6536\u7a84\uff0c\u662f\u6295\u8d44\u8005\u5bf9 AI \u7eaf\u6982\u5ff5\u80a1\u98ce\u9669\u504f\u597d\u4e0b\u964d\u7684\u4ee3\u7406\u6307\u6807\u2014\u2014\u5982\u679c\u8fde\u6700\u5927\u7684 AI \u5b9e\u9a8c\u5ba4\u90fd\u96be\u4ee5\u987a\u5229\u4e0a\u5e02\uff0c\u8bf4\u660e\u8d44\u672c\u5e02\u573a\u6b63\u5728\u4e3a\u6574\u6761 AI capex \u94fe\u6761\u8ba1\u5165\u66f4\u591a\u98ce\u9669\uff0c\u800c\u4e0d\u53ea\u662f OpenAI \u81ea\u8eab\u7684\u70e7\u94b1\u901f\u5ea6\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2374,
       "ts": 1784045116,
@@ -2269,26 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI GPT-5.6 Gets U.S. Commerce Nod for Broad Launch, Pre-IPO Perps Set to Explode? - CoinGape",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 09:48:35 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxQU2xPTi1uWGMwR0lqelByUlhaWWdMcUlaM2dyQ0RoU0k2c2xvRGtmOGdVbUVSX0hKUG84RHNhN2dkOXNxaHZxWXJoOFF2eG4wWWtZdENXRUxzRHJGeFVfWkg4Y2h4cFBiZDVYNkFwWU5TQzRWQVJZNzZldy1vNGNzT09RV3ZrQnJCcVZlYWcteUpONXZuWEVrbko4OW9GREk0eWdGWTFWcw?oc=5\n\nOpenAI GPT-5.6 Gets U.S. Commerce Nod for Broad Launch, Pre-IPO Perps Set to Explode? - CoinGape\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQU2xPTi1uWGMwR0lqelByUlhaWWdMcUlaM2dyQ0RoU0k2c2xvRGtmOGdVbUVSX0hKUG84RHNhN2dkOXNxaHZxWXJoOFF2eG4wWWtZdENXRUxzRHJGeFVfWkg4Y2h4cFBiZDVYNkFwWU5TQzRWQVJZNzZldy1vNGNzT09RV3ZrQnJCcVZlYWcteUpONXZuWEVrbko4OW9GREk0eWdGWTFWcw?oc=5\" target=\"_blank\">OpenAI GPT-5.6 Gets U.S. Commerce Nod for Broad Launch, Pre-IPO Perps Set to Explode?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGape</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports OpenAI's GPT-5.6 received U.S. Commerce Department approval for broad launch, alongside speculation about pre-IPO perpetual futures activity.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u79f0\uff0cOpenAI \u7684 GPT-5.6 \u83b7\u5f97\u7f8e\u56fd\u5546\u52a1\u90e8\u6279\u51c6\u5e7f\u6cdb\u4e0a\u7ebf\uff0c\u540c\u65f6\u5e02\u573a\u731c\u6d4b pre-IPO \u6c38\u7eed\u5408\u7ea6\uff08perps\uff09\u4ea4\u6613\u53ef\u80fd\u7206\u53d1\u3002\n\nWhy it matters:\nRegulatory clearance for a wider GPT-5.6 rollout signals continued OpenAI product expansion, but the pre-IPO perps angle points to speculative retail positioning around an OpenAI listing \u2014 a frothy financing signal worth tracking under the C3 burn-rate/valuation thesis, though this item alone carries no burn-rate metric and only warrants LOG/MED.\n\n\u5f71\u54cd:\nGPT-5.6 \u83b7\u6279\u6269\u5927\u53d1\u5e03\u8bf4\u660e OpenAI \u4ea7\u54c1\u4ecd\u5728\u6269\u5f20\uff0c\u4f46 pre-IPO \u6c38\u7eed\u5408\u7ea6\u7684\u7092\u4f5c\u89d2\u5ea6\u6307\u5411\u56f4\u7ed5 OpenAI \u4e0a\u5e02\u9884\u671f\u7684\u6563\u6237\u6295\u673a\u4ed3\u4f4d\u2014\u2014\u8fd9\u662f\u503c\u5f97\u5728 C3 \u70e7\u94b1\u7387/\u4f30\u503c\u53d9\u4e8b\u4e0b\u5173\u6ce8\u7684\u8fc7\u70ed\u878d\u8d44\u4fe1\u53f7\uff0c\u4e0d\u8fc7\u8fd9\u6761\u6d88\u606f\u672c\u8eab\u6ca1\u6709\u5177\u4f53\u7684\u70e7\u94b1\u7387\u6570\u5b57\uff0c\u53ea\u591f LOG/MED \u7ea7\u522b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2176,
-      "ts": 1783493047,
-      "ts_str": "2026-07-08 06:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's Altman won't accept anything under a $1 trillion IPO valuation - Cyber Daily",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 06:17:38 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmlBMnZhWWswRTh2bDhUNjI1bV9MdWpHUkpZNzdOTVkzNGRpT0lJZGJPOWdiS0djWW9fLXlfdXROMGZYN0Z2ampteVdXOTVGRkE5WlJsTlJfWTJUTWg3Tkl1ZVBMNTBicFItTEtqcDNuWHFVclg1VHMwUmhZUVZXTlF1RmMwblNMRDNMTk5tMUxhcXBQampyM3ZZNy1YX0Ffd3B6eUZFS1d0R3FCN2N2bUhud2hFSGZVWmw0Rm1EZ1U?oc=5\n\nOpenAI's Altman won't accept anything under a $1 trillion IPO valuation - Cyber Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmlBMnZhWWswRTh2bDhUNjI1bV9MdWpHUkpZNzdOTVkzNGRpT0lJZGJPOWdiS0djWW9fLXlfdXROMGZYN0Z2ampteVdXOTVGRkE5WlJsTlJfWTJUTWg3Tkl1ZVBMNTBicFItTEtqcDNuWHFVclg1VHMwUmhZUVZXTlF1RmMwblNMRDNMTk5tMUxhcXBQampyM3ZZNy1YX0Ffd3B6eUZFS1d0R3FCN2N2bUhud2hFSGZVWmw0Rm1EZ1U?oc=5\" target=\"_blank\">OpenAI's Altman won't accept anything under a $1 trillion IPO valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cyber Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2175,
-      "ts": 1783492507,
-      "ts_str": "2026-07-08 06:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] UK's Currys warns memory chip shortage will push up prices - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 08 Jul 2026 04:35:23 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\n\nUK's Currys warns memory chip shortage will push up prices - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9NUU5hQ19EQjN3ZU4wWk5xdEtmV25VYjgxYVVJaVJISXJ4dGlKR2ZNRUx3XzNaZS1sSnFTRGhNck91ak13TzFUYlp3RVprZF9xeDg3clRNV2dtMW4zZHRaMDBrM2ZQOEw0THpPRlJBRFVSdlhlSl9iLVpkc1A?oc=5\" target=\"_blank\">UK's Currys warns memory chip shortage will push up prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
