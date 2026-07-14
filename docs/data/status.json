@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784011452,
-  "generated_at_str": "2026-07-14 06:44:12 UTC",
-  "last_event_ts": 1784011449,
+  "generated_at": 1784011635,
+  "generated_at_str": "2026-07-14 06:47:15 UTC",
+  "last_event_ts": 1784011634,
   "tables": {
     "alerts_dedup": {
-      "count": 2351,
-      "last_ts": 1784009114,
-      "last_str": "2026-07-14 06:05:14 UTC"
+      "count": 2352,
+      "last_ts": 1784011634,
+      "last_str": "2026-07-14 06:47:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -19,9 +19,9 @@
       "last_str": "2026-07-13 22:29:02 UTC"
     },
     "c11_etf_diff": {
-      "count": 1,
-      "last_ts": 1783925242,
-      "last_str": "2026-07-13 06:47:22 UTC"
+      "count": 2,
+      "last_ts": 1784011634,
+      "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c1_filings": {
       "count": 105,
@@ -99,9 +99,9 @@
       "last_str": "2026-07-14 06:44:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 612,
-      "last_ts": 1784008022,
-      "last_str": "2026-07-14 05:47:02 UTC"
+      "count": 618,
+      "last_ts": 1784011622,
+      "last_str": "2026-07-14 06:47:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2359,
+      "ts": 1784011634,
+      "ts_str": "2026-07-14 06:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] ARKQ SPCX position cut 32.5%",
+      "body": "Severity: HIGH\nFund:     ARKQ\nChange:   cut 32.5% (1,272,499 \u2192 858,450 shares)\nWeight:   5.86% \u2192 6.00%\nDates:    2026-07-13 \u2192 2026-07-14\n\nSource: issuer daily holdings CSV.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX's tracked ETF holdings dropped from 1,272,499 shares to 858,450 shares \u2014 a 32.5% reduction.\n\n\u5185\u5bb9:\nSPCX \u5728\u88ab\u8ddf\u8e2a\u7684 ETF \u6301\u4ed3\u4ece 1,272,499 \u80a1\u964d\u81f3 858,450 \u80a1\uff0c\u964d\u5e45\u8fbe 32.5%\u3002\n\nWhy it matters:\nA sharp single-day cut in passive ETF holdings this size points to index rebalancing or forced selling rather than organic flow, and for a name still working through post-IPO lock-up unlocks it raises the odds that supply is outrunning demand \u2014 a leading indicator for unlock-driven price pressure.\n\n\u5f71\u54cd:\n\u5355\u65e5 ETF \u88ab\u52a8\u6301\u4ed3\u51fa\u73b0\u5982\u6b64\u5927\u5e45\u524a\u51cf\uff0c\u66f4\u50cf\u662f\u6307\u6570\u518d\u5e73\u8861\u6216\u88ab\u52a8\u629b\u552e\uff0c\u800c\u975e\u81ea\u7136\u8d44\u91d1\u6d41\u52a8\uff1b\u5bf9\u4e8e\u4e00\u53ea\u4ecd\u5904\u5728 IPO \u89e3\u9501\u671f\u7684\u80a1\u7968\u6765\u8bf4\uff0c\u8fd9\u610f\u5473\u7740\u629b\u538b\u53ef\u80fd\u6b63\u5728\u8dd1\u8d62\u9700\u6c42\uff0c\u662f\u89e3\u9501\u5f15\u53d1\u4ef7\u683c\u627f\u538b\u7684\u9886\u5148\u4fe1\u53f7\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2358,
       "ts": 1784009114,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 08:23:27 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE01Y3RRbWhTT3l6VDYtSzVHdmZxekpuYjQ1eGlLREFvcDByaVhBZFdyTG9vTTAtLTlBSUR3ZlYyVk1Bem1mTkdVQzR4cjltRWN3THFJblJyOUh1ZERuc204d2VJWk94NHpQUXQ2OEt1LWdXUV9YQ0xfeEFsbFY?oc=5\n\nOpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE01Y3RRbWhTT3l6VDYtSzVHdmZxekpuYjQ1eGlLREFvcDByaVhBZFdyTG9vTTAtLTlBSUR3ZlYyVk1Bem1mTkdVQzR4cjltRWN3THFJblJyOUh1ZERuc204d2VJWk94NHpQUXQ2OEt1LWdXUV9YQ0xfeEFsbFY?oc=5\" target=\"_blank\">OpenAI Pre-IPO stock (Republic) (preOPAI) Technical Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item on OpenAI pre-IPO stock (Republic's preOPAI token) technical analysis surfaced in the RSS scan; no burn-rate or filing data was extracted.\n\n\u5185\u5bb9:\nRSS \u626b\u63cf\u547d\u4e2d\u4e00\u7bc7\u5173\u4e8e OpenAI \u672a\u4e0a\u5e02\u80a1\u7968\uff08Republic \u7684 preOPAI \u4ee3\u5e01\uff09\u6280\u672f\u5206\u6790\u7684\u65b0\u95fb\uff0c\u672a\u63d0\u53d6\u5230\u4efb\u4f55 burn rate \u6216\u8d22\u62a5\u6570\u636e\u3002\n\nWhy it matters:\nThis is a routine keyword hit, not a substantive capex or burn-rate signal \u2014 the pre-IPO synthetic-equity market around OpenAI is itself a symptom of speculative demand for exposure to the AI-capex story, but this article carries no new fact for the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u6b21\u5e38\u89c4\u5173\u952e\u8bcd\u547d\u4e2d\uff0c\u4e0d\u6784\u6210\u5b9e\u8d28\u6027\u7684\u8d44\u672c\u5f00\u652f\u6216\u70e7\u94b1\u901f\u5ea6\u4fe1\u53f7\u2014\u2014\u4e0d\u8fc7 OpenAI \u672a\u4e0a\u5e02\u80a1\u6743\u7684\u6295\u673a\u6027\u884d\u751f\u5e02\u573a\u672c\u8eab\uff0c\u5c31\u662f\u5e02\u573a\u5bf9 AI capex \u53d9\u4e8b\u8fc7\u5ea6\u6e34\u6c42\u655e\u53e3\u7684\u4e00\u4e2a\u75c7\u72b6\uff0c\u8fd9\u7bc7\u6587\u7ae0\u672c\u8eab\u6ca1\u6709\u63d0\u4f9b\u65b0\u4e8b\u5b9e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2158,
-      "ts": 1783433117,
-      "ts_str": "2026-07-07 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead - Tech Times",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 13:39:16 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxOZEJ0UHFjaFFfMThNMTFaNFlYbTZkOXQ3OGtBTzF2YWNnMDd6U1ZBYzJZX0JIVHB2NkZwREJuLThYcjdKYVhqMWhrQVRZWG1Oam9KeGo3T25vbVpuYUE2U3pfWG1aTE11cU1wMlBxX1VSNXBaTTNfZzRsNkQwbmo1V01qUEtNOGEtUVh3bDdITkN5SklOUU5uNW5tZWhhTzJ0NzdwVmk5aDZFUDBEa3h4OWV1bE00R3h5akJNYmdqdFZDUTM4ZGVYSXI0LWE?oc=5\n\nSK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead - Tech Times\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOZEJ0UHFjaFFfMThNMTFaNFlYbTZkOXQ3OGtBTzF2YWNnMDd6U1ZBYzJZX0JIVHB2NkZwREJuLThYcjdKYVhqMWhrQVRZWG1Oam9KeGo3T25vbVpuYUE2U3pfWG1aTE11cU1wMlBxX1VSNXBaTTNfZzRsNkQwbmo1V01qUEtNOGEtUVh3bDdITkN5SklOUU5uNW5tZWhhTzJ0NzdwVmk5aDZFUDBEa3h4OWV1bE00R3h5akJNYmdqdFZDUTM4ZGVYSXI0LWE?oc=5\" target=\"_blank\">SK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix is raising a record $28B via a Nasdaq listing, framed around locking in its HBM lead amid an HBM shortage.\n\n\u5185\u5bb9:\nSK Hynix \u501f\u52a9 HBM \u77ed\u7f3a\u5e26\u6765\u7684\u9886\u5148\u5730\u4f4d\uff0c\u5728\u7eb3\u65af\u8fbe\u514b\u8fdb\u884c\u521b\u7eaa\u5f55\u7684 $28B \u4e0a\u5e02\u878d\u8d44\u3002\n\nWhy it matters:\nA memory maker tapping public equity markets at record size on the back of an HBM shortage signals memory supply is now a binding constraint on AI accelerator output, not just GPUs \u2014 tightening the whole hardware stack and raising the capex bill for anyone building AI infrastructure.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5b58\u50a8\u82af\u7247\u5382\u5546\u501f HBM \u77ed\u7f3a\u4e4b\u52bf\u4ee5\u521b\u7eaa\u5f55\u89c4\u6a21\u5728\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u8bf4\u660e\u5b58\u50a8\u5df2\u7ecf\u548c GPU \u4e00\u6837\u6210\u4e3a AI \u52a0\u901f\u5668\u4ea7\u80fd\u7684\u786c\u7ea6\u675f\uff0c\u8fd9\u4f1a\u6536\u7d27\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\uff0c\u5e76\u63a8\u9ad8\u6240\u6709 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u8005\u7684\u8d44\u672c\u5f00\u652f\u3002\n",
       "emailed": false
     }
   ],
