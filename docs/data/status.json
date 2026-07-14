@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784005324,
-  "generated_at_str": "2026-07-14 05:02:04 UTC",
-  "last_event_ts": 1784004422,
+  "generated_at": 1784005514,
+  "generated_at_str": "2026-07-14 05:05:14 UTC",
+  "last_event_ts": 1784005513,
   "tables": {
     "alerts_dedup": {
-      "count": 2349,
-      "last_ts": 1783996515,
-      "last_str": "2026-07-14 02:35:15 UTC"
+      "count": 2350,
+      "last_ts": 1784005513,
+      "last_str": "2026-07-14 05:05:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-14 02:14:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2310,
-      "last_ts": 1784001902,
-      "last_str": "2026-07-14 04:05:02 UTC"
+      "count": 2311,
+      "last_ts": 1784005502,
+      "last_str": "2026-07-14 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2738,
-      "last_ts": 1784000103,
-      "last_str": "2026-07-14 03:35:03 UTC"
+      "count": 2739,
+      "last_ts": 1784005503,
+      "last_str": "2026-07-14 05:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1869,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2357,
+      "ts": 1784005513,
+      "ts_str": "2026-07-14 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Manufacturer Price Increases 13 percent on Wall Street - Metro State University",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 05:02:41 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSFJVeGI0S1VuQ3ZPZjdIRHJRSXp2bTR0LVhwdlNrMkRyMUdIWnRlcFRXcXhleC1NdVd2T3VUZHZ6OUFRTXJIT2xWR2dTMlh0aFktSUNqTW1tNVU1MUhMbFUyMjVnZkZRdnBISkpZVEthSkp3Y25LNnE5dWx1UEh4M1VQeENCWFRWRTlpQS1XT2R3a1ptX1lERlZMdFpyY3VSdjlqMkFkT19TZw?oc=5\n\nMemory Chip Manufacturer Price Increases 13 percent on Wall Street - Metro State University\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSFJVeGI0S1VuQ3ZPZjdIRHJRSXp2bTR0LVhwdlNrMkRyMUdIWnRlcFRXcXhleC1NdVd2T3VUZHZ6OUFRTXJIT2xWR2dTMlh0aFktSUNqTW1tNVU1MUhMbFUyMjVnZkZRdnBISkpZVEthSkp3Y25LNnE5dWx1UEh4M1VQeENCWFRWRTlpQS1XT2R3a1ptX1lERlZMdFpyY3VSdjlqMkFkT19TZw?oc=5\" target=\"_blank\">Memory Chip Manufacturer Price Increases 13 percent on Wall Street</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro State University</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item, sourced from a low-credibility outlet, claims a memory chip manufacturer raised prices 13% on Wall Street, but names no ticker or specific product line.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\uff08\u6765\u6e90\u53ef\u4fe1\u5ea6\u8f83\u4f4e\uff09\u58f0\u79f0\u67d0\u5185\u5b58\u82af\u7247\u5236\u9020\u5546\u5728\u534e\u5c14\u8857\u7684\u80a1\u4ef7\u4e0a\u6da8 13%\uff0c\u4f46\u672a\u7ed9\u51fa\u5177\u4f53 ticker \u6216\u4ea7\u54c1\u7ebf\u4fe1\u606f\u3002\n\nWhy it matters:\nConsistent with the ongoing DRAM/NAND/HBM tightness thesis that AI accelerator demand is squeezing memory supply, but the vague sourcing and lack of ticker/detail means this is weak, unconfirmed evidence rather than a hard data point.\n\n\u5f71\u54cd:\n\u8fd9\u4e0e\u5f53\u524d AI \u52a0\u901f\u5668\u9700\u6c42\u6324\u538b DRAM/NAND/HBM \u4f9b\u7ed9\u3001\u63a8\u9ad8\u5185\u5b58\u4ef7\u683c\u7684\u6301\u7eed\u8bba\u70b9\u76f8\u7b26\uff0c\u4f46\u7531\u4e8e\u6d88\u606f\u6765\u6e90\u6a21\u7cca\u3001\u7f3a\u4e4f ticker \u548c\u7ec6\u8282\uff0c\u8fd9\u53ea\u80fd\u7b97\u662f\u8f83\u5f31\u3001\u672a\u7ecf\u8bc1\u5b9e\u7684\u4fe1\u53f7\uff0c\u800c\u975e\u786c\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2356,
       "ts": 1783996515,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead - Tech Times",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 13:39:16 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxOZEJ0UHFjaFFfMThNMTFaNFlYbTZkOXQ3OGtBTzF2YWNnMDd6U1ZBYzJZX0JIVHB2NkZwREJuLThYcjdKYVhqMWhrQVRZWG1Oam9KeGo3T25vbVpuYUE2U3pfWG1aTE11cU1wMlBxX1VSNXBaTTNfZzRsNkQwbmo1V01qUEtNOGEtUVh3bDdITkN5SklOUU5uNW5tZWhhTzJ0NzdwVmk5aDZFUDBEa3h4OWV1bE00R3h5akJNYmdqdFZDUTM4ZGVYSXI0LWE?oc=5\n\nSK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead - Tech Times\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOZEJ0UHFjaFFfMThNMTFaNFlYbTZkOXQ3OGtBTzF2YWNnMDd6U1ZBYzJZX0JIVHB2NkZwREJuLThYcjdKYVhqMWhrQVRZWG1Oam9KeGo3T25vbVpuYUE2U3pfWG1aTE11cU1wMlBxX1VSNXBaTTNfZzRsNkQwbmo1V01qUEtNOGEtUVh3bDdITkN5SklOUU5uNW5tZWhhTzJ0NzdwVmk5aDZFUDBEa3h4OWV1bE00R3h5akJNYmdqdFZDUTM4ZGVYSXI0LWE?oc=5\" target=\"_blank\">SK Hynix Launches Record $28B Nasdaq Listing as HBM Shortage Locks In AI Memory Lead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix is raising a record $28B via a Nasdaq listing, framed around locking in its HBM lead amid an HBM shortage.\n\n\u5185\u5bb9:\nSK Hynix \u501f\u52a9 HBM \u77ed\u7f3a\u5e26\u6765\u7684\u9886\u5148\u5730\u4f4d\uff0c\u5728\u7eb3\u65af\u8fbe\u514b\u8fdb\u884c\u521b\u7eaa\u5f55\u7684 $28B \u4e0a\u5e02\u878d\u8d44\u3002\n\nWhy it matters:\nA memory maker tapping public equity markets at record size on the back of an HBM shortage signals memory supply is now a binding constraint on AI accelerator output, not just GPUs \u2014 tightening the whole hardware stack and raising the capex bill for anyone building AI infrastructure.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5b58\u50a8\u82af\u7247\u5382\u5546\u501f HBM \u77ed\u7f3a\u4e4b\u52bf\u4ee5\u521b\u7eaa\u5f55\u89c4\u6a21\u5728\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u8bf4\u660e\u5b58\u50a8\u5df2\u7ecf\u548c GPU \u4e00\u6837\u6210\u4e3a AI \u52a0\u901f\u5668\u4ea7\u80fd\u7684\u786c\u7ea6\u675f\uff0c\u8fd9\u4f1a\u6536\u7d27\u6574\u4e2a\u786c\u4ef6\u4f9b\u5e94\u94fe\uff0c\u5e76\u63a8\u9ad8\u6240\u6709 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u8005\u7684\u8d44\u672c\u5f00\u652f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2157,
-      "ts": 1783431854,
-      "ts_str": "2026-07-07 13:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI files confidential IPO paperwork, may delay until 2027 - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 07 Jul 2026 10:59:11 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcGNEVXY5NWJSMHdRWFFtQmw1cUxZYXBPZWJKSk9tZ1Jkalh0VmEtRUk0T0Z5WDh4X0pvblhUdnQyZkJJWHFjcWNEQXF6ZGxEdWxEemhJZGNQVHZvQmVSeXI1cWx2bkRYT1FwMGlNR01XaE45Q2FyaEh0N3NUV2llM0JZUXFpaVVWSWdzQnZSajljaTNvMzlGY2J2VV9IendCYnJ0SnZxVlFlZWpXUjg2bmVuU05mLVJB?oc=5\n\nOpenAI files confidential IPO paperwork, may delay until 2027 - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcGNEVXY5NWJSMHdRWFFtQmw1cUxZYXBPZWJKSk9tZ1Jkalh0VmEtRUk0T0Z5WDh4X0pvblhUdnQyZkJJWHFjcWNEQXF6ZGxEdWxEemhJZGNQVHZvQmVSeXI1cWx2bkRYT1FwMGlNR01XaE45Q2FyaEh0N3NUV2llM0JZUXFpaVVWSWdzQnZSajljaTNvMzlGY2J2VV9IendCYnJ0SnZxVlFlZWpXUjg2bmVuU05mLVJB?oc=5\" target=\"_blank\">OpenAI files confidential IPO paperwork, may delay until 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI has confidentially filed IPO paperwork, but the listing itself may be delayed until 2027.\n\n\u5185\u5bb9:\nOpenAI \u5df2\u79d8\u5bc6\u63d0\u4ea4 IPO \u7533\u62a5\u6587\u4ef6\uff0c\u4f46\u5b9e\u9645\u4e0a\u5e02\u53ef\u80fd\u63a8\u8fdf\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA confidential filing this early signals OpenAI is preparing exit/liquidity infrastructure well ahead of an actual float, while the 2027 slip suggests management doesn't see current conditions (or its own financials) as ready for public-market scrutiny yet \u2014 worth tracking against burn-rate and revenue disclosures as they surface.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u65e9\u5c31\u79d8\u5bc6\u7533\u62a5\uff0c\u8bf4\u660e OpenAI \u5728\u6b63\u5f0f\u4e0a\u5e02\u524d\u5f88\u4e45\u5c31\u5df2\u7ecf\u5f00\u59cb\u642d\u5efa\u9000\u51fa/\u6d41\u52a8\u6027\u6846\u67b6\uff1b\u800c 2027 \u5e74\u7684\u63a8\u8fdf\u5219\u6697\u793a\u7ba1\u7406\u5c42\u8ba4\u4e3a\u5f53\u524d\u7684\u5e02\u573a\u73af\u5883\uff08\u6216\u81ea\u8eab\u8d22\u52a1\u72b6\u51b5\uff09\u8fd8\u4e0d\u8db3\u4ee5\u627f\u53d7\u516c\u5f00\u5e02\u573a\u7684\u5ba1\u89c6\uff0c\u503c\u5f97\u6301\u7eed\u5173\u6ce8\u540e\u7eed\u62ab\u9732\u7684\u70e7\u94b1\u7387\u548c\u8425\u6536\u6570\u636e\u3002\n",
       "emailed": false
     }
   ],
