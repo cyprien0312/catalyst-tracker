@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784154389,
-  "generated_at_str": "2026-07-15 22:26:29 UTC",
-  "last_event_ts": 1784153643,
+  "generated_at": 1784154552,
+  "generated_at_str": "2026-07-15 22:29:12 UTC",
+  "last_event_ts": 1784154552,
   "tables": {
     "alerts_dedup": {
-      "count": 2418,
-      "last_ts": 1784146454,
-      "last_str": "2026-07-15 20:14:14 UTC"
+      "count": 2419,
+      "last_ts": 1784154552,
+      "last_str": "2026-07-15 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 15,
-      "last_ts": 1784068143,
-      "last_str": "2026-07-14 22:29:03 UTC"
+      "count": 16,
+      "last_ts": 1784154541,
+      "last_str": "2026-07-15 22:29:01 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2426,
+      "ts": 1784154552,
+      "ts_str": "2026-07-15 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.33% (+55bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-14\nCurrent:  2.33%\n90d low:  1.78%\nMove:     +55bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield jumped to 2.33pp on 2026-07-14, up 0.55pp from its trailing-90-day low of 1.78pp, tripping C10's real-yield-spike threshold.\n\n\u5185\u5bb9:\n10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5728 2026-07-14 \u5347\u81f3 2.33pp\uff0c\u8f83\u8fc7\u53bb90\u5929\u4f4e\u70b9 1.78pp \u4e0a\u5347\u4e86 0.55pp\uff0c\u89e6\u53d1\u4e86 C10 \u7684\u5b9e\u9645\u6536\u76ca\u7387\u98d9\u5347\u9608\u503c\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to long-duration growth cash flows, which is exactly the profile of AI-capex names priced on distant payback. A move this size compounds with a stronger dollar to tighten financial conditions right when hyperscalers are funding capex with debt.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8\u5bf9\u4e45\u671f\u957f\u7684\u6210\u957f\u578b\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u800c\u8fd9\u6b63\u662f\u9760\u8fdc\u671f\u56de\u62a5\u652f\u6491\u4f30\u503c\u7684 AI capex \u7c7b\u80a1\u7968\u7684\u8f6f\u808b\u3002\u53e0\u52a0\u8d70\u5f3a\u7684\u7f8e\u5143\uff0c\u91d1\u878d\u6761\u4ef6\u6b63\u5728\u6536\u7d27\uff0c\u504f\u504f\u6b64\u65f6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8fd8\u5728\u9760\u4e3e\u503a\u652f\u6491\u8d44\u672c\u5f00\u652f\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2425,
       "ts": 1784146454,
@@ -2280,16 +2290,6 @@
       "subject": "[C3-MED] OpenAI and Anthropic IPO fortunes could buy 29% of San Francisco homes - Stock Titan",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 17:12:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxNYk5sOGZVYjFxZUNuaUtwNk9rT1pEaC15Vi1PVDhnTXVCUWIzUDViOC0wQzRlTlg3Zjc3SUhBcTlrUGZySkNBLXNUZDY5a0pYc2RCX0s4eEhUODI0Q1pwamlENUV1ZDJycmwyb3NUeGFMeWZ0cU1LUlo4Zm5ISEktRmktM3NnZU84bWg0dHhsWExqbVlXbVpabUFmeWZaUXlCa3NnMXU3ekxTWGppWkdiT21IWGJvdU1KYW5PUEpn?oc=5\n\nOpenAI and Anthropic IPO fortunes could buy 29% of San Francisco homes - Stock Titan\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNYk5sOGZVYjFxZUNuaUtwNk9rT1pEaC15Vi1PVDhnTXVCUWIzUDViOC0wQzRlTlg3Zjc3SUhBcTlrUGZySkNBLXNUZDY5a0pYc2RCX0s4eEhUODI0Q1pwamlENUV1ZDJycmwyb3NUeGFMeWZ0cU1LUlo4Zm5ISEktRmktM3NnZU84bWg0dHhsWExqbVlXbVpabUFmeWZaUXlCa3NnMXU3ekxTWGppWkdiT21IWGJvdU1KYW5PUEpn?oc=5\" target=\"_blank\">OpenAI and Anthropic IPO fortunes could buy 29% of San Francisco homes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stock Titan</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item mentions OpenAI and Anthropic IPO paper fortunes could hypothetically buy 29% of San Francisco homes \u2014 no filing, financials, or burn-rate metric involved.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cOpenAI \u548c Anthropic \u7684 IPO \u8d26\u9762\u8d22\u5bcc\u7406\u8bba\u4e0a\u53ef\u4ee5\u4e70\u4e0b\u65e7\u91d1\u5c71 29% \u7684\u623f\u4ea7\u2014\u2014\u4e0d\u6d89\u53ca\u4efb\u4f55 SEC \u6587\u4ef6\u3001\u8d22\u52a1\u6570\u636e\u6216 burn-rate \u6307\u6807\u3002\n\nWhy it matters:\nThis is a valuation/wealth-effect news blurb, not the burn-rate signal C3 is designed to catch; it's tagged MED as background keyword noise rather than a HIGH-confidence stress indicator, and shouldn't be read as evidence of deteriorating OpenAI fundamentals.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u6761\u5173\u4e8e\u4f30\u503c/\u8d22\u5bcc\u6548\u5e94\u7684\u65b0\u95fb\u566a\u97f3\uff0c\u5e76\u975e C3 \u771f\u6b63\u8981\u6355\u6349\u7684 burn-rate \u4fe1\u53f7\uff0c\u56e0\u6b64\u88ab\u6807\u8bb0\u4e3a MED \u7ea7\u522b\u7684\u80cc\u666f\u5173\u952e\u8bcd\u63d0\u793a\uff0c\u800c\u975e\u9ad8\u7f6e\u4fe1\u5ea6\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u5e94\u88ab\u89e3\u8bfb\u4e3a OpenAI \u57fa\u672c\u9762\u6076\u5316\u7684\u8bc1\u636e\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2226,
-      "ts": 1783625724,
-      "ts_str": "2026-07-09 19:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Hefty SanDisk 4TB NVMe SSD dips to lower price in much-needed drop - PC Guide",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 09 Jul 2026 18:41:51 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxPUEtBRlhOZVVWSkRabVdBY3NOZ1VqUmdkNC1QUTJZcE1LQjRCbDZyVmlRS19CaVUxTWdBVldyYTRMb0EzT1BjUXBXYTJsWTExVVdjdUN5amxKeGVJVmk5NjRlLUVaWWxQS3llc08yY2xJVjNzWWV3MklvVVh4NmRFTEZESzJWT0RuSWhSRkt2cno0ZTRsVzhTRko4S2t0UQ?oc=5\n\nHefty SanDisk 4TB NVMe SSD dips to lower price in much-needed drop - PC Guide\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPUEtBRlhOZVVWSkRabVdBY3NOZ1VqUmdkNC1QUTJZcE1LQjRCbDZyVmlRS19CaVUxTWdBVldyYTRMb0EzT1BjUXBXYTJsWTExVVdjdUN5amxKeGVJVmk5NjRlLUVaWWxQS3llc08yY2xJVjNzWWV3MklvVVh4NmRFTEZESzJWT0RuSWhSRkt2cno0ZTRsVzhTRko4S2t0UQ?oc=5\" target=\"_blank\">Hefty SanDisk 4TB NVMe SSD dips to lower price in much-needed drop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PC Guide</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline flags a SanDisk 4TB NVMe SSD price drop, described as \"much-needed.\"\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u65b0\u95fb\u6807\u9898\u63d0\u5230 SanDisk 4TB NVMe SSD \u964d\u4ef7\uff0c\u79f0\u4e3a\u201c\u6025\u9700\u7684\u201d\u964d\u4ef7\u3002\n\nWhy it matters:\nA consumer-storage price cut on its own is weak evidence, but paired with the framing of relief from high prices it hints at NAND/SSD oversupply easing \u2014 worth tracking alongside other C6 memory-price signals rather than acting on in isolation.\n\n\u5f71\u54cd:\n\u5355\u7eaf\u7684\u6d88\u8d39\u7ea7\u5b58\u50a8\u964d\u4ef7\u8bc1\u636e\u529b\u8f83\u5f31\uff0c\u4f46\u914d\u5408\u201c\u6025\u9700\u7f13\u89e3\u9ad8\u4ef7\u201d\u7684\u63aa\u8f9e\uff0c\u6697\u793a NAND/SSD \u4f9b\u7ed9\u8fc7\u5269\u6b63\u5728\u7f13\u89e3\u2014\u2014\u503c\u5f97\u4e0e\u5176\u4ed6 C6 \u5b58\u50a8\u4ef7\u683c\u4fe1\u53f7\u4e00\u5e76\u8ddf\u8e2a\uff0c\u800c\u975e\u5355\u72ec\u636e\u6b64\u4e0b\u7ed3\u8bba\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
