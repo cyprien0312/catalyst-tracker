@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784268124,
-  "generated_at_str": "2026-07-17 06:02:04 UTC",
-  "last_event_ts": 1784267223,
+  "generated_at": 1784268317,
+  "generated_at_str": "2026-07-17 06:05:17 UTC",
+  "last_event_ts": 1784268316,
   "tables": {
     "alerts_dedup": {
-      "count": 2445,
-      "last_ts": 1784261115,
-      "last_str": "2026-07-17 04:05:15 UTC"
+      "count": 2446,
+      "last_ts": 1784268316,
+      "last_str": "2026-07-17 06:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-17 05:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2498,
-      "last_ts": 1784262902,
-      "last_str": "2026-07-17 04:35:02 UTC"
+      "count": 2499,
+      "last_ts": 1784268302,
+      "last_str": "2026-07-17 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2937,
-      "last_ts": 1784266504,
-      "last_str": "2026-07-17 05:35:04 UTC"
+      "count": 2940,
+      "last_ts": 1784268305,
+      "last_str": "2026-07-17 06:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2042,
-      "last_ts": 1784266503,
-      "last_str": "2026-07-17 05:35:03 UTC"
+      "count": 2043,
+      "last_ts": 1784268303,
+      "last_str": "2026-07-17 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2239,
-      "last_ts": 1784266505,
-      "last_str": "2026-07-17 05:35:05 UTC"
+      "count": 2241,
+      "last_ts": 1784268306,
+      "last_str": "2026-07-17 06:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 16739,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2453,
+      "ts": 1784268316,
+      "ts_str": "2026-07-17 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple to raise prices due to memory chip costs - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 21:38:38 GMT\nLink:      https://news.google.com/rss/articles/CBMizgJBVV95cUxPUm5DckJFS2tXX3Y4X0o3WGE3TEhhVEFld3psR1dPNEZGTC1fUWxLZ3plcGFxcXM2UkFFVU5YOVlRM050ODRuOWVxMjg0Y2lza0JPTWE4VjVCLUhoejNMMVZtaFp1dDdDQ2pQa0huUjJodWxyeTN1SkhSdlBtWENhNWt2a3BKMlJZN0NCaDEyY2lSZnAwc3NrT2htWEVVdzlaa042Q0dfTHJQajB4ZTZsRTlTZ3hMQzNBN3Y5cEZlbUl2aF80bjhHUmk4bi1TRUlsVXFUOHU2U3hyb055RkNKVVNYSkpBWE9tVHJEZkZvQ2p3M0xQYzJKMllZa0ZSMFB6ODJETkcyS0lIakU4amRaUGJxNzhMdzdsOUdXV0ZGMzVOWUVUYVB4enkzZzJxY1dCNl94QnRrcjJTUEcyVU1IN3NJMzJxUlB0bDdLMmRR?oc=5\n\nApple to raise prices due to memory chip costs - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizgJBVV95cUxPUm5DckJFS2tXX3Y4X0o3WGE3TEhhVEFld3psR1dPNEZGTC1fUWxLZ3plcGFxcXM2UkFFVU5YOVlRM050ODRuOWVxMjg0Y2lza0JPTWE4VjVCLUhoejNMMVZtaFp1dDdDQ2pQa0huUjJodWxyeTN1SkhSdlBtWENhNWt2a3BKMlJZN0NCaDEyY2lSZnAwc3NrT2htWEVVdzlaa042Q0dfTHJQajB4ZTZsRTlTZ3hMQzNBN3Y5cEZlbUl2aF80bjhHUmk4bi1TRUlsVXFUOHU2U3hyb055RkNKVVNYSkpBWE9tVHJEZkZvQ2p3M0xQYzJKMllZa0ZSMFB6ODJETkcyS0lIakU4amRaUGJxNzhMdzdsOUdXV0ZGMzVOWUVUYVB4enkzZzJxY1dCNl94QnRrcjJTUEcyVU1IN3NJMzJxUlB0bDdLMmRR?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News/MSN item reports Apple is raising prices due to memory chip costs, with no ticker or numeric detail attached.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News/MSN \u62a5\u9053\u79f0 Apple \u5c06\u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u800c\u63d0\u4ef7\uff0c\u672a\u9644\u5e26\u5177\u4f53 ticker \u6216\u6570\u5b57\u7ec6\u8282\u3002\n\nWhy it matters:\nConsumer-facing OEMs passing through DRAM/NAND cost increases is downstream confirmation that memory pricing pressure is real and severe enough to hit retail, not just component-level BOM math \u2014 consistent with the AI-driven HBM/DRAM demand squeeze feeding into broader memory shortage risk.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u5382\u5546\u5f00\u59cb\u5411\u7ec8\u7aef\u8f6c\u5ac1 DRAM/NAND \u6210\u672c\u4e0a\u6da8\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u4e25\u91cd\u5230\u5f71\u54cd\u96f6\u552e\u5b9a\u4ef7\uff0c\u800c\u4e0d\u53ea\u662f\u505c\u7559\u5728\u7269\u6599\u6210\u672c\u5c42\u9762\u2014\u2014\u8fd9\u4e0e AI \u9a71\u52a8\u7684 HBM/DRAM \u9700\u6c42\u6324\u538b\u5f15\u53d1\u66f4\u5e7f\u6cdb\u5185\u5b58\u77ed\u7f3a\u98ce\u9669\u7684\u903b\u8f91\u76f8\u7b26\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2452,
       "ts": 1784261115,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Executive steps down ahead of anticipated IPO - Yahoo! Finance Canada",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 10 Jul 2026 20:11:16 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxONjlNcnVwZkliZWxwcWZITk11ZzRJQVNMSzRyRDJST2pfc01iTWVJSi1yOFhoa1Jrd0hfZTRFYjM0cDhmWGJMeVQ3UGxyWXd3RndKYlV4RzVPUGFCWm9ZZXQ4UGZUNDFldmZqWUM2UXdaQllKbU9TS2xSbnIydndvdzI4NDExOFRoRV9rNWtqU3l6TFFPeHlFNUQwOVZyd283czlMaw?oc=5\n\nOpenAI Executive steps down ahead of anticipated IPO - Yahoo! Finance Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxONjlNcnVwZkliZWxwcWZITk11ZzRJQVNMSzRyRDJST2pfc01iTWVJSi1yOFhoa1Jrd0hfZTRFYjM0cDhmWGJMeVQ3UGxyWXd3RndKYlV4RzVPUGFCWm9ZZXQ4UGZUNDFldmZqWUM2UXdaQllKbU9TS2xSbnIydndvdzI4NDExOFRoRV9rNWtqU3l6TFFPeHlFNUQwOVZyd283czlMaw?oc=5\" target=\"_blank\">OpenAI Executive steps down ahead of anticipated IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS hit surfaced an OpenAI executive stepping down ahead of an anticipated IPO.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u663e\u793a\uff0cOpenAI \u4e00\u540d\u9ad8\u7ba1\u5728\u9884\u671f IPO \u4e4b\u524d\u79bb\u804c\u3002\n\nWhy it matters:\nLeadership churn just before an IPO push is a governance-stability tell for the company at the center of the AI-capex demand chain \u2014 worth watching, but a single departure headline alone isn't a burn-rate or financial-stress signal.\n\n\u5f71\u54cd:\n\u5728\u7b79\u5907 IPO \u7684\u5173\u952e\u8282\u70b9\u51fa\u73b0\u9ad8\u7ba1\u79bb\u804c\uff0c\u662f\u5bf9\u8fd9\u5bb6\u5904\u4e8e AI capex \u9700\u6c42\u94fe\u6838\u5fc3\u516c\u53f8\u6cbb\u7406\u7a33\u5b9a\u6027\u7684\u4e00\u4e2a\u8b66\u793a\u4fe1\u53f7\uff1b\u4f46\u4ec5\u51ed\u4e00\u6761\u4eba\u4e8b\u53d8\u52a8\u65b0\u95fb\uff0c\u8fd8\u4e0d\u6784\u6210\u70e7\u94b1\u901f\u5ea6\u6216\u8d22\u52a1\u538b\u529b\u5c42\u9762\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2253,
-      "ts": 1783712654,
-      "ts_str": "2026-07-10 19:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO - CNBC",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 10 Jul 2026 19:12:46 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0Nra1JBT1NMMEZvZjFHeEptY1p1cFJGQVVBTDJtUkJHUWtHVEVBczVRdW5McXpFdDhpZGdNa0QzeWl1SEozRXBXUU5URkJNXzNXY2RtMnhoZVV2YWhOZzZ2SmQ3cjhVOEpqQ01ueWR0cFJ1NnFUV3BZT3ZkRWFReTB0RjMyV2NCUUVSYzV3R1pSRXN2bEk1Vk1GLUVPYnZ4YUtWRnRHb2cwd9IBrwFBVV95cUxPUXRFUU1NdGFnQlEtWEozX19DZmdiTDduZjRQYnhWLVZSMkJ1cUgtcGtoWFp3WTBXOVBNeWlKYkhCc3F6NXJkYU5UMktyNldZM0U4MVVJc0tkR1hIWXN3cDNyc29zNVpNQ2w3UUgyMm92dE5WSWpxeUNESGhKQkZYbTNaYTJFYTNLSWg3YjFIcHNFZWdtVUE1TWl1RWpNSzRseTQ1TWpiZ09JZjNxV3FF?oc=5\n\nOpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0Nra1JBT1NMMEZvZjFHeEptY1p1cFJGQVVBTDJtUkJHUWtHVEVBczVRdW5McXpFdDhpZGdNa0QzeWl1SEozRXBXUU5URkJNXzNXY2RtMnhoZVV2YWhOZzZ2SmQ3cjhVOEpqQ01ueWR0cFJ1NnFUV3BZT3ZkRWFReTB0RjMyV2NCUUVSYzV3R1pSRXN2bEk1Vk1GLUVPYnZ4YUtWRnRHb2cwd9IBrwFBVV95cUxPUXRFUU1NdGFnQlEtWEozX19DZmdiTDduZjRQYnhWLVZSMkJ1cUgtcGtoWFp3WTBXOVBNeWlKYkhCc3F6NXJkYU5UMktyNldZM0U4MVVJc0tkR1hIWXN3cDNyc29zNVpNQ2w3UUgyMm92dE5WSWpxeUNESGhKQkZYbTNaYTJFYTNLSWg3YjFIcHNFZWdtVUE1TWl1RWpNSzRseTQ1TWpiZ09JZjNxV3FF?oc=5\" target=\"_blank\">OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is consolidating operational power under co-founder Greg Brockman ahead of a prospective IPO, per CNBC.\n\n\u5185\u5bb9:\n\u636e CNBC \u62a5\u9053\uff0cOpenAI \u6b63\u5728\u4e3a\u6f5c\u5728\u7684 IPO \u505a\u51c6\u5907\uff0c\u6743\u529b\u6b63\u5411\u8054\u5408\u521b\u59cb\u4eba Greg Brockman \u96c6\u4e2d\u3002\n\nWhy it matters:\nIPO prep signals OpenAI is moving toward tapping public markets for capital \u2014 a leadership consolidation this close to an IPO push often precedes disclosures on burn rate and revenue that the C3 signal is designed to catch. Watch the next filing/news cycle for the burn-rate metric.\n\n\u5f71\u54cd:\n\u4e34\u8fd1 IPO \u7684\u6743\u529b\u96c6\u4e2d\u5f80\u5f80\u4f34\u968f\u7740\u5bf9\u5916\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u548c\u6536\u5165\u6570\u636e\uff0c\u8fd9\u6b63\u662f C3 \u4fe1\u53f7\u8981\u6355\u6349\u7684\u5185\u5bb9\uff0c\u9700\u5173\u6ce8\u540e\u7eed\u8d22\u62a5\u6216\u65b0\u95fb\u4e2d\u7684\u70e7\u94b1\u6307\u6807\u53d8\u5316\u3002\n",
       "emailed": false
     }
   ],
