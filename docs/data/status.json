@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784327180,
-  "generated_at_str": "2026-07-17 22:26:20 UTC",
-  "last_event_ts": 1784326442,
+  "generated_at": 1784327353,
+  "generated_at_str": "2026-07-17 22:29:13 UTC",
+  "last_event_ts": 1784327352,
   "tables": {
     "alerts_dedup": {
-      "count": 2463,
-      "last_ts": 1784325913,
-      "last_str": "2026-07-17 22:05:13 UTC"
+      "count": 2464,
+      "last_ts": 1784327352,
+      "last_str": "2026-07-17 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 17,
-      "last_ts": 1784240942,
-      "last_str": "2026-07-16 22:29:02 UTC"
+      "count": 18,
+      "last_ts": 1784327341,
+      "last_str": "2026-07-17 22:29:01 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2471,
+      "ts": 1784327352,
+      "ts_str": "2026-07-17 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.35% (+53bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-16\nCurrent:  2.35%\n90d low:  1.82%\nMove:     +53bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe C10 real-yield gauge crossed its threshold: the 10-year TIPS real yield hit 2.35pp on 2026-07-16, up 0.53pp from its trailing-90-day low of 1.82pp.\n\n\u5185\u5bb9:\nC10 \u5b9e\u9645\u6536\u76ca\u7387\u4fe1\u53f7\u89e6\u53d1\u9608\u503c\uff1a\u622a\u81f3 2026-07-16\uff0c10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5347\u81f3 2.35pp\uff0c\u8f83\u8fc7\u53bb90\u5929\u4f4e\u70b9 1.82pp \u4e0a\u5347\u4e86 0.53pp\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 a fast 0.53pp move off the recent low is the kind of tightening shock that historically pressures the most speculative, cash-burning names first.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8\u5bf9 AI capex \u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u5e76\u6574\u4f53\u6536\u7d27\u91d1\u878d\u73af\u5883\u2014\u2014\u8fd1\u671f\u4f4e\u70b9\u4ee5\u6765 0.53pp \u7684\u5feb\u901f\u4e0a\u884c\uff0c\u6b63\u662f\u5386\u53f2\u4e0a\u6700\u5148\u51b2\u51fb\u9ad8\u4f30\u503c\u3001\u73b0\u91d1\u6d41\u5403\u7d27\u6807\u7684\u7684\u90a3\u79cd\u6536\u7d27\u51b2\u51fb\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2470,
       "ts": 1784325913,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 11 Jul 2026 18:47:56 GMT\nLink:      https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOWpTcTVHSUJQR3FORnVzT29aamxad2l4UUM0QkZkQVV6SkhjZDRtWWZjZnRJRVl3bjBXQ1Zfa09pYjM1ZGNlNmYweTZlY3VlWm5SME9lcVk1b0FNa0pwd3FWNkw4dWRBSzhkRW1CY2R2WFk2VDBFQ091UktQWTBuYmJoRXJHUzgxUjVLN1VrX1FsbWlhbUhHZl9HRXdOckhPQVZIMk1CUzYzN212ZWU3QllSMUNzLWd4Q21rN2xrdHRhNG9jVlJNNVpsUU50TFRZbVZrMU5rZk9PZw?oc=5\n\nSpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOWpTcTVHSUJQR3FORnVzT29aamxad2l4UUM0QkZkQVV6SkhjZDRtWWZjZnRJRVl3bjBXQ1Zfa09pYjM1ZGNlNmYweTZlY3VlWm5SME9lcVk1b0FNa0pwd3FWNkw4dWRBSzhkRW1CY2R2WFk2VDBFQ091UktQWTBuYmJoRXJHUzgxUjVLN1VrX1FsbWlhbUhHZl9HRXdOckhPQVZIMk1CUzYzN212ZWU3QllSMUNzLWd4Q21rN2xrdHRhNG9jVlJNNVpsUU50TFRZbVZrMU5rZk9PZw?oc=5\" target=\"_blank\">SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq-100 inclusion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares closed at $148, below their debut price, sliding for a second straight day right after joining the Nasdaq-100.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u6536\u4e8e $148\uff0c\u4f4e\u4e8e\u4e0a\u5e02\u9996\u65e5\u4ef7\u683c\uff0c\u5728\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u540e\u8fde\u7eed\u7b2c\u4e8c\u5929\u4e0b\u8dcc\u3002\n\nWhy it matters:\nA post-inclusion slide below the debut price suggests index-tracking demand couldn't absorb the float \u2014 a warning sign for the passive-flow support this catalyst is designed to detect. If forced buying from index funds can't hold the price up, the unlock-driven supply overhang thesis strengthens.\n\n\u5f71\u54cd:\n\u7eb3\u5165\u6307\u6570\u540e\u80a1\u4ef7\u8dcc\u7834\u9996\u65e5\u53d1\u884c\u4ef7\uff0c\u8bf4\u660e\u88ab\u52a8\u8ddf\u8e2a\u578b\u6307\u6570\u57fa\u91d1\u7684\u4e70\u76d8\u672a\u80fd\u5438\u7eb3\u6d41\u901a\u76d8\u2014\u2014\u8fd9\u5bf9\u672c\u50ac\u5316\u5242\u60f3\u76d1\u6d4b\u7684\u88ab\u52a8\u8d44\u91d1\u652f\u6491\u903b\u8f91\u662f\u4e00\u4e2a\u8b66\u793a\u4fe1\u53f7\u3002\u5982\u679c\u6307\u6570\u57fa\u91d1\u7684\u5f3a\u5236\u4e70\u5165\u90fd\u6491\u4e0d\u4f4f\u80a1\u4ef7\uff0c\u89e3\u7981\u5e26\u6765\u7684\u4f9b\u7ed9\u8fc7\u5269\u98ce\u9669\u8bba\u636e\u5c31\u66f4\u7ad9\u5f97\u4f4f\u811a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2271,
-      "ts": 1783799234,
-      "ts_str": "2026-07-11 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX stock ends first month below debut price despite Nasdaq-100 entry - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 10 Jul 2026 20:20:31 GMT\nLink:      https://news.google.com/rss/articles/CBMihAJBVV95cUxOdEtQdkM1UlBQb3ZzR0dWRmdRUFJ6UDc4bnZrYUNXc1ZQSUtBb2FyX1ptZDc3VHJsaDhYdE9BN25tTFdkYXlIRklyZTZ2SVdZMFpCS0p1Q2VhTXhrUWZUYnNHMUhBX0EweFdtWURuQVZ3bWtSd09OUDV1b0dBTTZIRzV5aHNSbzNFQ3c0T0dKUzlYam9jYTViTHRfclh3U3VZS3A4WUt2Rk9mNU1iMi0yc0VWVHFUYXBlRGt1anY4SXpRb1ptVnRPVXA4MlpYa19hMlkxNmZMVmlBa0MtZEgwcXB1aDctYU9uYWcxVUlMTGdFcUEwYk0zV2dCVHBPSEdoeWRiSQ?oc=5\n\nSpaceX stock ends first month below debut price despite Nasdaq-100 entry - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxOdEtQdkM1UlBQb3ZzR0dWRmdRUFJ6UDc4bnZrYUNXc1ZQSUtBb2FyX1ptZDc3VHJsaDhYdE9BN25tTFdkYXlIRklyZTZ2SVdZMFpCS0p1Q2VhTXhrUWZUYnNHMUhBX0EweFdtWURuQVZ3bWtSd09OUDV1b0dBTTZIRzV5aHNSbzNFQ3c0T0dKUzlYam9jYTViTHRfclh3U3VZS3A4WUt2Rk9mNU1iMi0yc0VWVHFUYXBlRGt1anY4SXpRb1ptVnRPVXA4MlpYa19hMlkxNmZMVmlBa0MtZEgwcXB1aDctYU9uYWcxVUlMTGdFcUEwYk0zV2dCVHBPSEdoeWRiSQ?oc=5\" target=\"_blank\">SpaceX stock ends first month below debut price despite Nasdaq-100 entry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports SpaceX's stock closed its first month of trading below its debut price, despite joining the Nasdaq-100.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0\uff0c\u5c3d\u7ba1 SpaceX \u5df2\u88ab\u7eb3\u5165 Nasdaq-100\uff0c\u5176\u80a1\u4ef7\u5728\u4e0a\u5e02\u9996\u6708\u672b\u4ecd\u4f4e\u4e8e\u53d1\u884c\u4ef7\u3002\n\nWhy it matters:\nNasdaq-100 inclusion forces passive index funds to buy SPCX regardless of price action, but the stock trading below its debut level shows that mechanical index-flow demand isn't offsetting weak underlying sentiment \u2014 a warning sign for the thesis that passive flows alone can prop up an AI-adjacent single name.\n\n\u5f71\u54cd:\n\u88ab\u7eb3\u5165 Nasdaq-100 \u610f\u5473\u7740\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u5fc5\u987b\u673a\u68b0\u6027\u4e70\u5165 SPCX\uff0c\u4f46\u80a1\u4ef7\u8dcc\u7834\u53d1\u884c\u4ef7\u8bf4\u660e\u8fd9\u79cd\u88ab\u52a8\u8d44\u91d1\u6d41\u5e76\u672a\u80fd\u62b5\u6d88\u5e02\u573a\u5bf9\u8be5\u80a1\u7684\u75b2\u5f31\u60c5\u7eea\u2014\u2014\u8fd9\u5bf9\"\u88ab\u52a8\u8d44\u91d1\u6d41\u8db3\u4ee5\u6491\u4f4f AI \u76f8\u5173\u4e2a\u80a1\"\u7684\u8bba\u70b9\u662f\u4e00\u4e2a\u8b66\u793a\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
