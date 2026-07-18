@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784347327,
-  "generated_at_str": "2026-07-18 04:02:07 UTC",
-  "last_event_ts": 1784346423,
+  "generated_at": 1784347505,
+  "generated_at_str": "2026-07-18 04:05:05 UTC",
+  "last_event_ts": 1784347505,
   "tables": {
     "alerts_dedup": {
-      "count": 2465,
-      "last_ts": 1784332032,
-      "last_str": "2026-07-17 23:47:12 UTC"
+      "count": 2466,
+      "last_ts": 1784347505,
+      "last_str": "2026-07-18 04:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-18 01:14:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2572,
-      "last_ts": 1784342102,
-      "last_str": "2026-07-18 02:35:02 UTC"
+      "count": 2577,
+      "last_ts": 1784347502,
+      "last_str": "2026-07-18 04:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3019,
-      "last_ts": 1784345703,
-      "last_str": "2026-07-18 03:35:03 UTC"
+      "count": 3023,
+      "last_ts": 1784347503,
+      "last_str": "2026-07-18 04:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2096,
-      "last_ts": 1784345702,
-      "last_str": "2026-07-18 03:35:02 UTC"
+      "count": 2097,
+      "last_ts": 1784347502,
+      "last_str": "2026-07-18 04:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2304,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2473,
+      "ts": 1784347505,
+      "ts_str": "2026-07-18 04:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 12:45:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\n\nOnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\" target=\"_blank\">OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA LatestLY article headline asks whether OnePlus is exiting the US and Europe due to a memory price hike.\n\n\u5185\u5bb9:\nLatestLY \u4e00\u7bc7\u6587\u7ae0\u6807\u9898\u8d28\u7591 OnePlus \u9000\u51fa\u7f8e\u56fd\u548c\u6b27\u6d32\u5e02\u573a\u662f\u5426\u56e0\u4e3a\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRSS coverage tying a consumer-electronics business decision to DRAM/NAND cost increases signals memory pricing is now hitting device-maker economics, not just hyperscaler bills of materials \u2014 a broadening of the C6 memory/storage stress thesis beyond datacenter buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5e02\u573a\u51b3\u7b56\u88ab\u5a92\u4f53\u4e0e DRAM/NAND \u6da8\u4ef7\u6302\u94a9\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u8bbe\u5907\u5382\u5546\u7684\u6210\u672c\u7ed3\u6784\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u6570\u636e\u4e2d\u5fc3\u91c7\u8d2d\u7aef\u2014\u2014\u8fd9\u662f C6 \u5185\u5b58/\u5b58\u50a8\u538b\u529b\u53d9\u4e8b\u6269\u6563\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2472,
       "ts": 1784332032,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Joins the Nasdaq-100 Today. History Says the Stock Will Do This Next. - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 11 Jul 2026 13:33:07 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE5jdmM2TWV1WkJfZXZKS1RiUy1nRXp4czNxck9STFdWMjlHZGZqa01hTXhvYmI4Y3dWTWl1V0RBOFN1TVlUVGlEel9sZnNOdEx6SFFyMXQzb3k0Z19FZG45U1hLV1lBQVMweG9IUWtjS1laTDQtU2Y1RWhiT3lXdw?oc=5\n\nSpaceX Joins the Nasdaq-100 Today. History Says the Stock Will Do This Next. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5jdmM2TWV1WkJfZXZKS1RiUy1nRXp4czNxck9STFdWMjlHZGZqa01hTXhvYmI4Y3dWTWl1V0RBOFN1TVlUVGlEel9sZnNOdEx6SFFyMXQzb3k0Z19FZG45U1hLV1lBQVMweG9IUWtjS1laTDQtU2Y1RWhiT3lXdw?oc=5\" target=\"_blank\">SpaceX Joins the Nasdaq-100 Today. History Says the Stock Will Do This Next.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced a wire story headlined \"SpaceX Joins the Nasdaq-100 Today. History Says the Stock Will Do This Next.\"\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u53d6\u5230\u4e00\u7bc7\u62a5\u9053\uff0c\u6807\u9898\u4e3a\"SpaceX Joins the Nasdaq-100 Today. History Says the Stock Will Do This Next.\"\uff08SpaceX \u4eca\u65e5\u52a0\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u5386\u53f2\u7ecf\u9a8c\u663e\u793a\u80a1\u4ef7\u63a5\u4e0b\u6765\u4f1a\u8fd9\u6837\u8d70\uff09\u3002\n\nWhy it matters:\nSpaceX's addition to the Nasdaq-100 forces passive index funds to buy shares regardless of valuation \u2014 mechanical, price-insensitive demand rather than a fundamentals signal, and a template for how AI-linked names can get index-flow support that masks underlying stress.\n\n\u5f71\u54cd:\nSpaceX \u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u540e\uff0c\u88ab\u52a8\u8ddf\u8e2a\u8be5\u6307\u6570\u7684\u57fa\u91d1\u5fc5\u987b\u4e70\u5165\u5176\u80a1\u7968\uff0c\u65e0\u8bba\u4f30\u503c\u9ad8\u4f4e\u2014\u2014\u8fd9\u662f\u673a\u68b0\u6027\u3001\u5bf9\u4ef7\u683c\u4e0d\u654f\u611f\u7684\u8d44\u91d1\u6d41\u5165\uff0c\u800c\u975e\u57fa\u672c\u9762\u4fe1\u53f7\uff0c\u4e5f\u662f AI \u76f8\u5173\u6807\u7684\u53ef\u80fd\u9760\u6307\u6570\u8d44\u91d1\u6d41\u63a9\u76d6\u5e95\u5c42\u538b\u529b\u7684\u4e00\u4e2a\u8303\u4f8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2273,
-      "ts": 1783805714,
-      "ts_str": "2026-07-11 21:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Goldman Sachs Raises Applied Materials Price Target to $645 on Strong DRAM Demand - sekbernews.id",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 11 Jul 2026 13:55:20 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE9oVVFwR280bGwtaHhnX0xvY0lKd2oxRDNRdXpHZ0c1TDlZclZPd05fYjlMT3dYdG5PYk9FQk00ZkJ3ZmpscFRvbkFfZkF3N0FWeVJvSnVITHNFLUpkQ2VWcGx1S29vSnpPMU1ybTN3d2p6bWhwOU4xcmlRNS1vbUk?oc=5\n\nGoldman Sachs Raises Applied Materials Price Target to $645 on Strong DRAM Demand - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9oVVFwR280bGwtaHhnX0xvY0lKd2oxRDNRdXpHZ0c1TDlZclZPd05fYjlMT3dYdG5PYk9FQk00ZkJ3ZmpscFRvbkFfZkF3N0FWeVJvSnVITHNFLUpkQ2VWcGx1S29vSnpPMU1ybTN3d2p6bWhwOU4xcmlRNS1vbUk?oc=5\" target=\"_blank\">Goldman Sachs Raises Applied Materials Price Target to $645 on Strong DRAM Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoldman Sachs raised its price target on Applied Materials to $645, citing strong DRAM demand.\n\n\u5185\u5bb9:\n\u9ad8\u76db\u56e0 DRAM \u9700\u6c42\u5f3a\u52b2\uff0c\u5c06\u5e94\u7528\u6750\u6599 (Applied Materials) \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $645\u3002\n\nWhy it matters:\nAn analyst price-target hike on 'strong DRAM demand' is the bullish mirror of the C6 shortage/oversupply signal \u2014 it corroborates tightening memory supply feeding the AI-buildout narrative rather than the bust case, so treat it as a demand-side data point, not confirmation of stress.\n\n\u5f71\u54cd:\n\u5206\u6790\u5e08\u56e0\u201cDRAM \u9700\u6c42\u5f3a\u52b2\u201d\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u662f C6 \u77ed\u7f3a/\u8fc7\u5269\u4fe1\u53f7\u7684\u4e50\u89c2\u9762\u2014\u2014\u5b83\u5370\u8bc1\u7684\u662f\u5185\u5b58\u4f9b\u5e94\u8d8b\u7d27\u652f\u6491 AI \u57fa\u5efa\u53d9\u4e8b\uff0c\u800c\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u8bc1\u636e\uff0c\u5e94\u89c6\u4e3a\u9700\u6c42\u7aef\u6570\u636e\u70b9\uff0c\u800c\u975e\u538b\u529b\u786e\u8ba4\u3002\n",
       "emailed": false
     }
   ],
