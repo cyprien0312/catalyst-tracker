@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784378462,
-  "generated_at_str": "2026-07-18 12:41:02 UTC",
-  "last_event_ts": 1784378285,
+  "generated_at": 1784378658,
+  "generated_at_str": "2026-07-18 12:44:18 UTC",
+  "last_event_ts": 1784378657,
   "tables": {
     "alerts_dedup": {
-      "count": 2474,
-      "last_ts": 1784371633,
-      "last_str": "2026-07-18 10:47:13 UTC"
+      "count": 2475,
+      "last_ts": 1784378657,
+      "last_str": "2026-07-18 12:44:17 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-18 12:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 16963,
-      "last_ts": 1784376842,
-      "last_str": "2026-07-18 12:14:02 UTC"
+      "count": 16965,
+      "last_ts": 1784378642,
+      "last_str": "2026-07-18 12:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1458,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2482,
+      "ts": 1784378657,
+      "ts_str": "2026-07-18 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] Friday Footnotes: OpenAI CFO Says Don't Sweat Token Costs; Seems Everyone and Their Manager Is Polishing Up Resumes | 7.",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 21:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeGdhc1BZQ0xWYXdsYUlBNE9vTDlkdjZJMzhwVWR6eWYxczcydXk4c3hmeFZBdzZuSFpSR0VjZWoxempYVTNvbUJjc1FSSkEyNnBXZ19FN2F3Vnk0OGYtdUZ2V0cwd0szRk9FN0RRd1MyMTBGazhUeFZTRUpUVWU3RVRqT1VqMFhFclVGVFJuZzhtaUJ3MVVUb09OWkd4M0hndF80Zm50cVY0X0xQX1ZDTjI4TVVLcmI2M2t1UGlLTkw1ODRHU1hHYWVpUnduTGhUdi1ZUHlmemM5WVpWelNIOVQwcUM?oc=5\n\nFriday Footnotes: OpenAI CFO Says Don't Sweat Token Costs; Seems Everyone and Their Manager Is Polishing Up Resumes | 7.17.26 - Going Concern\n\n<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeGdhc1BZQ0xWYXdsYUlBNE9vTDlkdjZJMzhwVWR6eWYxczcydXk4c3hmeFZBdzZuSFpSR0VjZWoxempYVTNvbUJjc1FSSkEyNnBXZ19FN2F3Vnk0OGYtdUZ2V0cwd0szRk9FN0RRd1MyMTBGazhUeFZTRUpUVWU3RVRqT1VqMFhFclVGVFJuZzhtaUJ3MVVUb09OWkd4M0hndF80Zm50cVY0X0xQX1ZDTjI4TVVLcmI2M2t1UGlLTkw1ODRHU1hHYWVpUnduTGhUdi1ZUHlmemM5WVpWelNIOVQwcUM?oc=5\" target=\"_blank\">Friday Footnotes: OpenAI CFO Says Don't Sweat Token Costs; Seems Everyone and Their Manager Is Polishing Up Resumes | 7.17.26</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Going Concern</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Going Concern roundup blurb reports OpenAI's CFO downplaying concerns over token costs, amid commentary that industry staff are updating r\u00e9sum\u00e9s.\n\n\u5185\u5bb9:\nGoing Concern \u7684\u4e00\u7bc7\u8d44\u8baf\u6c47\u603b\u63d0\u5230 OpenAI CFO \u6de1\u5316\u5916\u754c\u5bf9 token \u6210\u672c\u7684\u62c5\u5fe7\uff0c\u540c\u65f6\u63d0\u53ca\u4e1a\u5185\u4eba\u58eb\u6b63\u5728\u66f4\u65b0\u7b80\u5386\u7684\u8c03\u4f83\u3002\n\nWhy it matters:\nThis is aggregator-blog noise, not a filing or hard financial disclosure \u2014 no burn-rate figure is given, so it shouldn't independently justify a CRITICAL severity under the C3 spec, which keys off a >25% QoQ burn-rate jump. The 'don't sweat token costs' framing paired with r\u00e9sum\u00e9 chatter suggests reputational/cost-narrative management rather than confirmed financial stress.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u5c5e\u4e8e\u8d44\u8baf\u535a\u5ba2\u7684\u6742\u8baf\u6c47\u603b,\u5e76\u975e SEC \u6587\u4ef6\u6216\u786c\u6027\u8d22\u52a1\u62ab\u9732,\u4e5f\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53\u7684\u70e7\u94b1\u7387\u6570\u5b57,\u6309\u7167 C3 \u89c4\u5219\u672c\u5e94\u4ee5 burn-rate \u73af\u6bd4\u6da8\u5e45\u8d85\u8fc7 25% \u624d\u89e6\u53d1 CRITICAL,\u8fd9\u6761\u672c\u8eab\u4e0d\u8db3\u4ee5\u72ec\u7acb\u652f\u6491\u8be5\u4e25\u91cd\u7ea7\u522b\u3002CFO'\u4e0d\u7528\u62c5\u5fc3 token \u6210\u672c'\u7684\u8868\u6001,\u642d\u914d\u7b80\u5386\u66f4\u65b0\u7684\u8c03\u4f83,\u66f4\u50cf\u662f\u5728\u7ba1\u7406\u6210\u672c\u53d9\u4e8b\u548c\u8206\u8bba\u89c2\u611f,\u800c\u975e\u786e\u8ba4\u7684\u8d22\u52a1\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2481,
       "ts": 1784371633,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Here are price forecasts for SpaceX stock after its Nasdaq 100 inclusion - The Twelfth Magpie",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 11 Jul 2026 07:54:12 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxPRS1raFpGdmkwWENtTFZwNjBjTHdvSkwtbGNPcG9jS0VMWDlNbXByc1NKcEpYQzJ2WHIxX0pZM19WUno3YVY2XzlkblRaUWFRSS1jTGgwNjN0WE1sWndRQWo2bEs0bGhXd3VUcjJTNzhVZ25UUTB2SUtSa0xtakNpNDB6UGgzR2JOR3BuTFpRaWo3a3lYX2xveEd3TTNTVThIZFE3OGtOZXRuX3ltLTdaOHBuMFQ?oc=5\n\nHere are price forecasts for SpaceX stock after its Nasdaq 100 inclusion - The Twelfth Magpie\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPRS1raFpGdmkwWENtTFZwNjBjTHdvSkwtbGNPcG9jS0VMWDlNbXByc1NKcEpYQzJ2WHIxX0pZM19WUno3YVY2XzlkblRaUWFRSS1jTGgwNjN0WE1sWndRQWo2bEs0bGhXd3VUcjJTNzhVZ25UUTB2SUtSa0xtakNpNDB6UGgzR2JOR3BuTFpRaWo3a3lYX2xveEd3TTNTVThIZFE3OGtOZXRuX3ltLTdaOHBuMFQ?oc=5\" target=\"_blank\">Here are price forecasts for SpaceX stock after its Nasdaq 100 inclusion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Twelfth Magpie</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News coverage flagged post-Nasdaq-100-inclusion price forecasts for SpaceX stock, sourced from a low-tier blog (\"The Twelfth Magpie\").\n\n\u5185\u5bb9:\nGoogle News \u51fa\u73b0\u4e00\u7bc7\u5173\u4e8e SpaceX \u80a1\u7968\u7eb3\u5165 Nasdaq 100 \u540e\u4ef7\u683c\u9884\u6d4b\u7684\u62a5\u9053\uff0c\u6765\u6e90\u662f\u4f4e\u6743\u91cd\u535a\u5ba2\uff08\"The Twelfth Magpie\"\uff09\u3002\n\nWhy it matters:\nThis is generic speculative price-target chatter, not a primary filing or holdings disclosure \u2014 it doesn't confirm any actual index-flow mechanics and shouldn't be treated as a real signal for the C11 unlock/passive-flow thesis.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u6cdb\u6cdb\u7684\u80a1\u4ef7\u9884\u6d4b\u7c7b\u566a\u97f3\uff0c\u5e76\u975e\u4e00\u624b\u6587\u4ef6\u6216\u6301\u4ed3\u62ab\u9732\uff0c\u65e0\u6cd5\u8bc1\u5b9e\u4efb\u4f55\u5b9e\u9645\u7684\u6307\u6570\u8d44\u91d1\u6d41\u673a\u5236\uff0c\u4e0d\u5e94\u88ab\u5f53\u4f5c C11 \u89e3\u7981/\u88ab\u52a8\u8d44\u91d1\u6d41\u4e3b\u7ebf\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2282,
-      "ts": 1783818313,
-      "ts_str": "2026-07-12 01:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] A $12 billion electronics retailer says price increases are coming due to the memory chip shortage - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 11 Jul 2026 08:15:37 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxONVJ3NDhXU3NzdjlzdWpKMlJzTEtiTThtWTRCNnNRRzYzalBqS2E1NUg4N2c4dGdZazRKd1JPRzRTSVBrNEN2YWRoSTQyemdadU9sOUw4dkN5clBVYmRERy1RaUFSSEQyQUFzYWw4ekVVeWdUTWRmbFdLWlBUX0RpUU9UUHp3ZU0?oc=5\n\nA $12 billion electronics retailer says price increases are coming due to the memory chip shortage - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxONVJ3NDhXU3NzdjlzdWpKMlJzTEtiTThtWTRCNnNRRzYzalBqS2E1NUg4N2c4dGdZazRKd1JPRzRTSVBrNEN2YWRoSTQyemdadU9sOUw4dkN5clBVYmRERy1RaUFSSEQyQUFzYWw4ekVVeWdUTWRmbFdLWlBUX0RpUU9UUHp3ZU0?oc=5\" target=\"_blank\">A $12 billion electronics retailer says price increases are coming due to the memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA retailer describing itself as $12 billion in revenue says it will raise prices, blaming a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5bb6\u81ea\u79f0\u8425\u6536 120 \u4ebf\u7f8e\u5143\u7684\u7535\u5b50\u4ea7\u54c1\u96f6\u552e\u5546\u8868\u793a\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0c\u5373\u5c06\u4e0a\u8c03\u4ef7\u683c\u3002\n\nWhy it matters:\nRetail-level price pass-through means DRAM/NAND cost increases have moved past component buyers and into consumer pricing \u2014 a sign the memory shortage is broad and durable enough to hit margins down the supply chain, not just a component-market blip.\n\n\u5f71\u54cd:\n\u96f6\u552e\u7aef\u5df2\u7ecf\u5f00\u59cb\u8f6c\u5ac1 DRAM/NAND \u6210\u672c\u4e0a\u6da8\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u5f71\u54cd\u6d88\u8d39\u7aef\u5b9a\u4ef7\uff0c\u800c\u4e0d\u4ec5\u4ec5\u662f\u96f6\u90e8\u4ef6\u91c7\u8d2d\u5c42\u9762\u7684\u77ed\u671f\u6ce2\u52a8\u3002\n",
       "emailed": false
     }
   ],
