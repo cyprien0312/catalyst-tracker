@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784515263,
-  "generated_at_str": "2026-07-20 02:41:03 UTC",
-  "last_event_ts": 1784514904,
+  "generated_at": 1784515461,
+  "generated_at_str": "2026-07-20 02:44:21 UTC",
+  "last_event_ts": 1784515460,
   "tables": {
     "alerts_dedup": {
-      "count": 2489,
-      "last_ts": 1784504116,
-      "last_str": "2026-07-19 23:35:16 UTC"
+      "count": 2490,
+      "last_ts": 1784515460,
+      "last_str": "2026-07-20 02:44:20 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-20 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 17239,
-      "last_ts": 1784513642,
-      "last_str": "2026-07-20 02:14:02 UTC"
+      "count": 17244,
+      "last_ts": 1784515448,
+      "last_str": "2026-07-20 02:44:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1696,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2497,
+      "ts": 1784515460,
+      "ts_str": "2026-07-20 02:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes - The Times of",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 02:23:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwJBVV95cUxObG1xQnFJeldYeGJjM0VEYlRuVndhQ0h1MlU5amZGa1ltRlJzMlQya2loN2Z3Y05fY256R2htcTNfWFZPTXVGcGg0a2k5MHJkU2JyU3hidGRITHd6eWJRVndnSzc2aVVSenZlQkl3U2ZCaWlRN3J1UTdWTHNCRXlrUW1hVjRsRXlNajhrMVNpNERaUHhQdThibE5Mc2p1d1c3WlRTczktc09YTnlEdi04Sk16UjRFeFlSS1NCd2phZFFUbEFtZ3dfX19QQmNEcE9VUkR1TjRXUVFmMWdFV2VkWlg3cjBwdTljNlpTZmp4ZF9KSGUxR1RQUW1PcDQ2WUZnNUJrU2drRmRxMnFxdkJxazBTMlJGdERXMzlSa0R0Z2VYb1R2UVJsR0VLVmQtbEdWRE15THpUb3lrYzjSAcACQVVfeXFMTXk2VEEyZ3YycmtoNUl4dFZVajhHckJpRndxbUl2Y0wybFV0a2FQckFkb2RkWXFOT3JUZTNCakZucGR3anNxZGJJSXNkY2xvalVFMmZoMmFhaDBiaXBiZ2xQeTFlVThVdjE0QTNEZDM0YjJENlY4X1RiRDNmczVsNi15NGlKUExtLW85NjhBTXhqZTlqWDFNY2NEaW1SYlh6UVJ3V2F0eDRWcTR2cFItNjlQT2RkUTItU1V3VFhfbWQ4d2o0Yzg1Rk5rUmYtZlAzRW1fSDZVeFpYYk9XTnR0WVhJSDB2aC1PRkpwZ3Z5QkpPdmRrM3E2OG9xdjF0LWI3QTNydndaTFBWM2VicHpaVkRQNGJ1YlVZR0F0NEs1bC11emNnb1Y4UzZsRnQ3WWwwVDFfZVpQSlg0c1M0M2g2Vm4?oc=5\n\nOpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes - The Times of India\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwJBVV95cUxObG1xQnFJeldYeGJjM0VEYlRuVndhQ0h1MlU5amZGa1ltRlJzMlQya2loN2Z3Y05fY256R2htcTNfWFZPTXVGcGg0a2k5MHJkU2JyU3hidGRITHd6eWJRVndnSzc2aVVSenZlQkl3U2ZCaWlRN3J1UTdWTHNCRXlrUW1hVjRsRXlNajhrMVNpNERaUHhQdThibE5Mc2p1d1c3WlRTczktc09YTnlEdi04Sk16UjRFeFlSS1NCd2phZFFUbEFtZ3dfX19QQmNEcE9VUkR1TjRXUVFmMWdFV2VkWlg3cjBwdTljNlpTZmp4ZF9KSGUxR1RQUW1PcDQ2WUZnNUJrU2drRmRxMnFxdkJxazBTMlJGdERXMzlSa0R0Z2VYb1R2UVJsR0VLVmQtbEdWRE15THpUb3lrYzjSAcACQVVfeXFMTXk2VEEyZ3YycmtoNUl4dFZVajhHckJpRndxbUl2Y0wybFV0a2FQckFkb2RkWXFOT3JUZTNCakZucGR3anNxZGJJSXNkY2xvalVFMmZoMmFhaDBiaXBiZ2xQeTFlVThVdjE0QTNEZDM0YjJENlY4X1RiRDNmczVsNi15NGlKUExtLW85NjhBTXhqZTlqWDFNY2NEaW1SYlh6UVJ3V2F0eDRWcTR2cFItNjlQT2RkUTItU1V3VFhfbWQ4d2o0Yzg1Rk5rUmYtZlAzRW1fSDZVeFpYYk9XTnR0WVhJSDB2aC1PRkpwZ3Z5QkpPdmRrM3E2OG9xdjF0LWI3QTNydndaTFBWM2VicHpaVkRQNGJ1YlVZR0F0NEs1bC11emNnb1Y4UzZsRnQ3WWwwVDFfZVpQSlg0c1M0M2g2Vm4?oc=5\" target=\"_blank\">OpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI CFO Sarah Friar is quoted telling companies not to default to the cheapest AI option even as they question the ROI of their AI spending.\n\n\u5185\u5bb9:\nOpenAI \u9996\u5e2d\u8d22\u52a1\u5b98 Sarah Friar \u8868\u793a\uff0c\u5373\u4fbf\u4f01\u4e1a\u5f00\u59cb\u8d28\u7591\u5176 AI \u6295\u8d44\u56de\u62a5\uff0c\u4e5f\u4e0d\u5e94\u8be5\u9ed8\u8ba4\u9009\u62e9\u6700\u4fbf\u5b9c\u7684\u65b9\u6848\u3002\n\nWhy it matters:\nThis is OpenAI's own CFO publicly acknowledging that customers are pushing back on AI investment returns \u2014 a demand-side crack in the capex bull case, coming directly from the vendor most dependent on that demand continuing to grow.\n\n\u5f71\u54cd:\n\u8fd9\u662f OpenAI \u81ea\u5df1\u7684 CFO \u516c\u5f00\u627f\u8ba4\u5ba2\u6237\u5728\u8d28\u7591 AI \u6295\u8d44\u56de\u62a5\u2014\u2014\u8fd9\u662f\u9700\u6c42\u7aef\u51fa\u73b0\u88c2\u7f1d\u7684\u4fe1\u53f7\uff0c\u800c\u4e14\u662f\u6765\u81ea\u6700\u4f9d\u8d56\u8fd9\u79cd\u9700\u6c42\u6301\u7eed\u589e\u957f\u7684\u4f9b\u5e94\u5546\u672c\u4eba\u4e4b\u53e3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2496,
       "ts": 1784504116,
@@ -2280,16 +2290,6 @@
       "subject": "[C11-HIGH] SpaceX faces volatile path as insider share sales loom - MSN",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 05:36:13 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdm9qb1RWQXlDZ0xyYU1WRy1yVDRrekt0SFlsNjBKZmluSzcxVjNkTlVZdkFrQUZ6VFdjNjN6SUxsLTJxMnphS0xLNVd1cW4zaXZGSG9UV0lOQkxjSW1zZEZYbWVLX3ZEQnFmLUNsb3JoZ21JT1RXNENCM21VellkeW5WZzI3eklheXJxZUFYWF9EZzB1VW9FVkJlU3VnVTU1ZFY4Rm1rQmJxRmJaVzVYNU9tQ3lnNjQxaWstMjZ1Ti1UUGc3MHpPd1RiZ05wY0VCR2Rrb0lMMmhRZzlfUDRyNlJ5OENmTWh3RVlITw?oc=5\n\nSpaceX faces volatile path as insider share sales loom - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdm9qb1RWQXlDZ0xyYU1WRy1yVDRrekt0SFlsNjBKZmluSzcxVjNkTlVZdkFrQUZ6VFdjNjN6SUxsLTJxMnphS0xLNVd1cW4zaXZGSG9UV0lOQkxjSW1zZEZYbWVLX3ZEQnFmLUNsb3JoZ21JT1RXNENCM21VellkeW5WZzI3eklheXJxZUFYWF9EZzB1VW9FVkJlU3VnVTU1ZFY4Rm1rQmJxRmJaVzVYNU9tQ3lnNjQxaWstMjZ1Ti1UUGc3MHpPd1RiZ05wY0VCR2Rrb0lMMmhRZzlfUDRyNlJ5OENmTWh3RVlITw?oc=5\" target=\"_blank\">SpaceX faces volatile path as insider share sales loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX-related news coverage flagged insider share sales as a source of near-term price volatility, ahead of scheduled unlock activity.\n\n\u5185\u5bb9:\n\u6709\u5173 SpaceX \u7684\u65b0\u95fb\u62a5\u9053\u63d0\u5230\uff0c\u5185\u90e8\u4eba\u58eb\u80a1\u7968\u629b\u552e\u53ef\u80fd\u5728\u89e3\u7981\u524d\u5e26\u6765\u77ed\u671f\u4ef7\u683c\u6ce2\u52a8\u3002\n\nWhy it matters:\nInsider selling pressure around unlock windows is exactly the passive-flow/index-mechanics dynamic C11 tracks \u2014 it signals supply hitting the market independent of fundamentals, a leading indicator for the broader private-AI-valuation unwind thesis.\n\n\u5f71\u54cd:\n\u89e3\u7981\u7a97\u53e3\u524d\u540e\u7684\u5185\u90e8\u4eba\u629b\u552e\u538b\u529b\uff0c\u6b63\u662f C11 \u8ffd\u8e2a\u7684\u88ab\u52a8\u8d44\u91d1/\u6307\u6570\u673a\u5236\u7c7b\u4fe1\u53f7\u2014\u2014\u5b83\u8868\u660e\u4f9b\u7ed9\u6b63\u72ec\u7acb\u4e8e\u57fa\u672c\u9762\u6d8c\u5165\u5e02\u573a\uff0c\u662f\u79c1\u52df AI \u4f30\u503c\u9000\u6f6e\u8fd9\u4e00\u66f4\u5927\u53d9\u4e8b\u7684\u9886\u5148\u6307\u6807\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2299,
-      "ts": 1783860452,
-      "ts_str": "2026-07-12 12:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX snags Street-high $300 price target at MS as firm enters Nasdaq 100 - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 10:05:25 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE1ka3NidkFkRGZpdkMwaE9aTkFtWmFFVnRmdEQzSDZtQzhHQ0N3QndOaXdUOWJFcGRRcU93anJSZzZCd0g0ZWhGREY2YVU3MVp1N0NBU1JtZkV1dWFOTlR0dmprSFpFMVpCNXpoazlpRHQ5TUdkeG9Tb2J5aTU?oc=5\n\nSpaceX snags Street-high $300 price target at MS as firm enters Nasdaq 100 - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1ka3NidkFkRGZpdkMwaE9aTkFtWmFFVnRmdEQzSDZtQzhHQ0N3QndOaXdUOWJFcGRRcU93anJSZzZCd0g0ZWhGREY2YVU3MVp1N0NBU1JtZkV1dWFOTlR0dmprSFpFMVpCNXpoazlpRHQ5TUdkeG9Tb2J5aTU?oc=5\" target=\"_blank\">SpaceX snags Street-high $300 price target at MS as firm enters Nasdaq 100</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports SpaceX received a Street-high $300 price target from Morgan Stanley as the firm models Nasdaq 100 index entry.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0c\u6469\u6839\u58eb\u4e39\u5229\u7ed9\u4e88 SpaceX \u8857\u5934\u6700\u9ad8\u76ee\u6807\u4ef7 $300\uff0c\u7406\u7531\u662f\u8be5\u884c\u9884\u8ba1\u5176\u5c06\u8fdb\u5165 Nasdaq 100 \u6307\u6570\u3002\n\nWhy it matters:\nPassive-flow demand from index inclusion (Nasdaq 100) would add mechanical buying independent of fundamentals, reinforcing valuation support for a private company whose IPO/unlock mechanics are central to the C11 bubble-stress thesis.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u8d44\u91d1\u56e0\u6307\u6570\u7eb3\u5165\uff08Nasdaq 100\uff09\u5e26\u6765\u7684\u673a\u68b0\u6027\u4e70\u76d8\u4f1a\u72ec\u7acb\u4e8e\u57fa\u672c\u9762\u4e4b\u5916\uff0c\u4e3a\u8fd9\u5bb6\u79c1\u8425\u516c\u53f8\u7684\u4f30\u503c\u63d0\u4f9b\u652f\u6491\uff0c\u800c\u5176 IPO/\u89e3\u7981\u673a\u5236\u6b63\u662f C11 \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u7684\u6838\u5fc3\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
