@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784559726,
-  "generated_at_str": "2026-07-20 15:02:06 UTC",
-  "last_event_ts": 1784558823,
+  "generated_at": 1784559921,
+  "generated_at_str": "2026-07-20 15:05:21 UTC",
+  "last_event_ts": 1784559921,
   "tables": {
     "alerts_dedup": {
-      "count": 2513,
-      "last_ts": 1784558132,
-      "last_str": "2026-07-20 14:35:32 UTC"
+      "count": 2514,
+      "last_ts": 1784559921,
+      "last_str": "2026-07-20 15:05:21 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-20 13:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2716,
-      "last_ts": 1784558102,
-      "last_str": "2026-07-20 14:35:02 UTC"
+      "count": 2721,
+      "last_ts": 1784559903,
+      "last_str": "2026-07-20 15:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3238,
-      "last_ts": 1784558105,
-      "last_str": "2026-07-20 14:35:05 UTC"
+      "count": 3243,
+      "last_ts": 1784559904,
+      "last_str": "2026-07-20 15:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2219,
-      "last_ts": 1784558103,
-      "last_str": "2026-07-20 14:35:03 UTC"
+      "count": 2221,
+      "last_ts": 1784559904,
+      "last_str": "2026-07-20 15:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2420,
-      "last_ts": 1784558106,
-      "last_str": "2026-07-20 14:35:06 UTC"
+      "count": 2425,
+      "last_ts": 1784559906,
+      "last_str": "2026-07-20 15:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17377,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2521,
+      "ts": 1784559921,
+      "ts_str": "2026-07-20 15:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] ADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040 - Wccftech",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 14:35:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxQenk0U3RqQTJHX3g0UzZiNmFOTkM0NUk3NW81N3VTRnNORGpFY0RLNmZLVmdFc3RRajJWaHBtbnRkbm5NZGJJNUhaU29fMnVNNHd2Mmc4TjdkNlp3alpFVDltdExZVVNVZFlsUWh3Tng1WmVfbVlRWlNfcktFRFNfU0tPZm4xVDNqVVFLcURKQ3hZS2NwemNLQVdoM3pNUWpERHdDcG54ZFg4N09ocHUxQ2F0TzB5SEJjM1HSAb8BQVVfeXFMT3dDel9XNGVXcUN2SUxkM1l5Q3ZPbkw1ck8wajJEaWdmQTBsam5ldVZETk9JOVNCbnNJLTRPbW8zakxqNWYyMjFycVpzMWFnVFR2SU1UX1gtZGlFeDE4SU9TQVNHWk8yOWhuMlcwR056ZldtNGdReFhRb0tyYzZ6dU8zMFlSN3BzV1VlYklPdGxxdW42RW56V09OWnFUaVVGMGdGNWdBU2RJdV9yVzBYZzQweWtqLWtTc2p3MGJHd1U?oc=5\n\nADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQenk0U3RqQTJHX3g0UzZiNmFOTkM0NUk3NW81N3VTRnNORGpFY0RLNmZLVmdFc3RRajJWaHBtbnRkbm5NZGJJNUhaU29fMnVNNHd2Mmc4TjdkNlp3alpFVDltdExZVVNVZFlsUWh3Tng1WmVfbVlRWlNfcktFRFNfU0tPZm4xVDNqVVFLcURKQ3hZS2NwemNLQVdoM3pNUWpERHdDcG54ZFg4N09ocHUxQ2F0TzB5SEJjM1HSAb8BQVVfeXFMT3dDel9XNGVXcUN2SUxkM1l5Q3ZPbkw1ck8wajJEaWdmQTBsam5ldVZETk9JOVNCbnNJLTRPbW8zakxqNWYyMjFycVpzMWFnVFR2SU1UX1gtZGlFeDE4SU9TQVNHWk8yOWhuMlcwR056ZldtNGdReFhRb0tyYzZ6dU8zMFlSN3BzV1VlYklPdGxxdW42RW56V09OWnFUaVVGMGdGNWdBU2RJdV9yVzBYZzQweWtqLWtTc2p3MGJHd1U?oc=5\" target=\"_blank\">ADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Wccftech report cites ADATA's chairman warning that the DRAM shortage will last another 10 years, with the claim that AI-bubble discussion can wait until 2040.\n\n\u5185\u5bb9:\nWccftech \u62a5\u9053\u79f0 ADATA \u8463\u4e8b\u957f\u8b66\u544a DRAM \u7f3a\u8d27\u5c06\u6301\u7eed\u672a\u6765 10 \u5e74\uff0c\u5e76\u79f0 AI \u6ce1\u6cab\u7684\u8ba8\u8bba\u53ef\u4ee5\u7b49\u5230 2040 \u5e74\u518d\u8bf4\u3002\n\nWhy it matters:\nA vendor executive publicly framing a decade-long memory shortage supports the AI-capex demand story, but the extreme framing (2040) reads as promotional rather than a verified supply data point \u2014 treat as sentiment, not confirmation, until paired with actual DRAM/NAND pricing or contract-order data.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u5546\u9ad8\u7ba1\u516c\u5f00\u5ba3\u79f0\u5341\u5e74\u7ea7\u522b\u7684\u5185\u5b58\u77ed\u7f3a\uff0c\u67d0\u79cd\u7a0b\u5ea6\u4e0a\u652f\u6491\u4e86 AI capex \u9700\u6c42\u53d9\u4e8b\uff0c\u4f46 2040 \u8fd9\u79cd\u6781\u7aef\u8868\u8ff0\u66f4\u50cf\u8425\u9500\u8bdd\u672f\u800c\u975e\u786e\u51ff\u7684\u4f9b\u7ed9\u6570\u636e\uff0c\u5728\u6ca1\u6709\u5b9e\u9645 DRAM/NAND \u4ef7\u683c\u6216\u8ba2\u5355\u6570\u636e\u4f50\u8bc1\u524d\uff0c\u5e94\u89c6\u4e3a\u60c5\u7eea\u9762\u4fe1\u53f7\u800c\u975e\u786e\u8ba4\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2520,
       "ts": 1784558132,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung\u2019s Repair Costs Rise as Memory Chip Prices Surge - SammyGuru",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 05:59:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxPSkJnVDAzMWxRRGJrWDBnaGl3ckNieDAwRE9EVGE2ZHI0d21VVHNXMTNwRWxXTFRWV0VtUFJrSDFuOEktSTdiM3lxb3AtR0V0cUY1ZXRLeGdUOHJPWXdvYWJHOERheDFIY3g1SUFpZXZPSFhWVTIyU19xNlRpTTJZazhB?oc=5\n\nSamsung\u2019s Repair Costs Rise as Memory Chip Prices Surge - SammyGuru\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPSkJnVDAzMWxRRGJrWDBnaGl3ckNieDAwRE9EVGE2ZHI0d21VVHNXMTNwRWxXTFRWV0VtUFJrSDFuOEktSTdiM3lxb3AtR0V0cUY1ZXRLeGdUOHJPWXdvYWJHOERheDFIY3g1SUFpZXZPSFhWVTIyU19xNlRpTTJZazhB?oc=5\" target=\"_blank\">Samsung\u2019s Repair Costs Rise as Memory Chip Prices Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SammyGuru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline says Samsung's device repair costs are climbing as memory chip (DRAM/NAND) prices surge \u2014 a supply-side price spike, not a demand cancellation.\n\n\u5185\u5bb9:\n\u4e00\u5219 RSS \u65b0\u95fb\u6807\u9898\u79f0\uff0c\u968f\u7740\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u4ef7\u683c\u4e0a\u6da8\uff0c\u4e09\u661f\u7684\u8bbe\u5907\u7ef4\u4fee\u6210\u672c\u6b63\u5728\u4e0a\u5347\u2014\u2014\u8fd9\u662f\u4f9b\u7ed9\u7aef\u7684\u4ef7\u683c\u98d9\u5347\uff0c\u800c\u975e\u9700\u6c42\u7aef\u7684\u8ba2\u5355\u53d6\u6d88\u3002\n\nWhy it matters:\nRising memory prices squeeze margins on the consumer/device side, but for the AI-capex thesis they signal tight DRAM/HBM supply \u2014 the same constraint that raises hyperscaler server bill-of-materials costs and can slow AI server shipments if allocation gets rationed toward AI customers.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u538b\u7f29\u6d88\u8d39\u7535\u5b50/\u8bbe\u5907\u7aef\u7684\u5229\u6da6\u7387\uff0c\u4f46\u4ece AI capex \u903b\u8f91\u770b\uff0c\u8fd9\u53cd\u6620 DRAM/HBM \u4f9b\u7ed9\u8d8b\u7d27\u2014\u2014\u540c\u6837\u7684\u7d27\u5f20\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u82e5\u4ea7\u80fd\u88ab\u4f18\u5148\u5206\u914d\u7ed9 AI \u5ba2\u6237\uff0c\u8fd8\u53ef\u80fd\u62d6\u6162 AI \u670d\u52a1\u5668\u7684\u51fa\u8d27\u8282\u594f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2321,
-      "ts": 1783921634,
-      "ts_str": "2026-07-13 05:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX added to Nasdaq-100 and could trigger $4.3B in forced passive buying - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 02:31:25 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxOVXRpQ1pXV1Y1cnc0RU9PUVZNV2tTYktsVElhdVVWLXNockQwZGc4ODNObWV1bi1jOVFLOWRwUUlZaTJzVmxUbnVEVW5qWkxvMnhHWXRBOFdTRXZxN3lNLVZlNHF1dDVsQTJselljNWZlVGNsUG5XOEZwYTkxWDRfdlZoN0RlYmJnblhrUnppM0FLNkJiSldJQnBnbmZCWDdqcXUtcjFFbG92REF6dWNsWFBKUGU0QTlxcF9CUUI2RWJ1cWJoMjR6Si12R3lKZVE?oc=5\n\nSpaceX added to Nasdaq-100 and could trigger $4.3B in forced passive buying - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOVXRpQ1pXV1Y1cnc0RU9PUVZNV2tTYktsVElhdVVWLXNockQwZGc4ODNObWV1bi1jOVFLOWRwUUlZaTJzVmxUbnVEVW5qWkxvMnhHWXRBOFdTRXZxN3lNLVZlNHF1dDVsQTJselljNWZlVGNsUG5XOEZwYTkxWDRfdlZoN0RlYmJnblhrUnppM0FLNkJiSldJQnBnbmZCWDdqcXUtcjFFbG92REF6dWNsWFBKUGU0QTlxcF9CUUI2RWJ1cWJoMjR6Si12R3lKZVE?oc=5\" target=\"_blank\">SpaceX added to Nasdaq-100 and could trigger $4.3B in forced passive buying</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's addition to the Nasdaq-100 could trigger $4.3B of forced passive buying, per news reports.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSpaceX \u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u53ef\u80fd\u89e6\u53d1 $4.3B \u7684\u88ab\u52a8\u578b\u5f3a\u5236\u4e70\u76d8\u3002\n\nWhy it matters:\nThis is index-mechanics-driven demand, not fundamentals \u2014 passive funds tracking NDX must buy regardless of price, temporarily masking or amplifying valuation signals for AI-infra names in the same index. It also confirms the C11 thesis: SpaceX's IPO/index inclusion path can move markets independent of AI capex reality.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6307\u6570\u673a\u5236\u9a71\u52a8\u7684\u9700\u6c42\uff0c\u800c\u975e\u57fa\u672c\u9762\u9a71\u52a8\u2014\u2014\u8ffd\u8e2a NDX \u7684\u88ab\u52a8\u57fa\u91d1\u5fc5\u987b\u65e0\u89c6\u4ef7\u683c\u5f3a\u5236\u4e70\u5165\uff0c\u77ed\u671f\u5185\u4f1a\u63a9\u76d6\u6216\u653e\u5927\u540c\u4e00\u6307\u6570\u5185 AI \u57fa\u7840\u8bbe\u65bd\u80a1\u7968\u7684\u4f30\u503c\u4fe1\u53f7\u3002\u8fd9\u4e5f\u5370\u8bc1\u4e86 C11 \u7684\u6838\u5fc3\u903b\u8f91\uff1aSpaceX \u7684 IPO/\u6307\u6570\u7eb3\u5165\u8def\u5f84\u53ef\u4ee5\u72ec\u7acb\u4e8e AI capex \u7684\u771f\u5b9e\u60c5\u51b5\u6765\u64ac\u52a8\u5e02\u573a\u3002\n",
       "emailed": false
     }
   ],
