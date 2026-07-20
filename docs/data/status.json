@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784589065,
-  "generated_at_str": "2026-07-20 23:11:05 UTC",
-  "last_event_ts": 1784588889,
+  "generated_at": 1784589247,
+  "generated_at_str": "2026-07-20 23:14:07 UTC",
+  "last_event_ts": 1784589247,
   "tables": {
     "alerts_dedup": {
-      "count": 2523,
-      "last_ts": 1784586546,
-      "last_str": "2026-07-20 22:29:06 UTC"
+      "count": 2524,
+      "last_ts": 1784589247,
+      "last_str": "2026-07-20 23:14:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-20 23:00:04 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3208,
-      "last_ts": 1784585644,
-      "last_str": "2026-07-20 22:14:04 UTC"
+      "count": 3209,
+      "last_ts": 1784589245,
+      "last_str": "2026-07-20 23:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 680,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-20 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 17452,
-      "last_ts": 1784587442,
-      "last_str": "2026-07-20 22:44:02 UTC"
+      "count": 17454,
+      "last_ts": 1784589243,
+      "last_str": "2026-07-20 23:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 1891,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2531,
+      "ts": 1784589247,
+      "ts_str": "2026-07-20 23:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Japan's Nikkei ends 4% lower as SoftBank tanks on OpenAI IPO delay report - The Economic Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 21:27:47 GMT\nLink:      https://news.google.com/rss/articles/CBMi4gFBVV95cUxOY0d6VzYwejc3RjJuOThhUlpVYmZwRlh2Y3FhejZ5Q3BRbzZXSHlZOXNsblUtZ01TX1hWT0kzTkF0WFNudzUxanRIeVVKWW1mZlpOX0tKU3NsUjA1ajFuNi1aeVd3cGc2TU54SWtSVVRWMHdxYUt3RWdDcEJtRTd6RWxtRkcwb0phZnBYdzRzenljS2gxYmtiRng4MENTdEZTaGhIeENaa3I4Vm5XNldWZl85aGwyZkhrSjliMGhBaEFrV0tyWUJqcURrVXFPVnFrQ013aVlOSWFOZi16UVV4SzV30gHnAUFVX3lxTFB4Ym90T29CdXZkeC1ubzhIbVVsa0ludG11VmFVTmNXSHp0MUt6MWFtOTUyRDdWQ2l1YklWOFREVnI0VkRnX19ISjY3QWI3N3JaWTl5QzVGdlREcWlGWmN1eXdYWWhENGhhNFM2NGFlbklvY1VYM3E3c1A3bE45Y2szWk5qRDNPY3pJT1R5Wl9BY29aMnZSbmJwUVh4dl9DLU5lM0laaFVIbHowUXF3R1VJMDhuQ19JbGI0eV9IOEkxWkxucVgtUkIwUHNIMDkwTzZEWExEZTFTMWtLaUFfb2YtOG10cEREWQ?oc=5\n\nJapan's Nikkei ends 4% lower as SoftBank tanks on OpenAI IPO delay report - The Economic Times\n\n<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOY0d6VzYwejc3RjJuOThhUlpVYmZwRlh2Y3FhejZ5Q3BRbzZXSHlZOXNsblUtZ01TX1hWT0kzTkF0WFNudzUxanRIeVVKWW1mZlpOX0tKU3NsUjA1ajFuNi1aeVd3cGc2TU54SWtSVVRWMHdxYUt3RWdDcEJtRTd6RWxtRkcwb0phZnBYdzRzenljS2gxYmtiRng4MENTdEZTaGhIeENaa3I4Vm5XNldWZl85aGwyZkhrSjliMGhBaEFrV0tyWUJqcURrVXFPVnFrQ013aVlOSWFOZi16UVV4SzV30gHnAUFVX3lxTFB4Ym90T29CdXZkeC1ubzhIbVVsa0ludG11VmFVTmNXSHp0MUt6MWFtOTUyRDdWQ2l1YklWOFREVnI0VkRnX19ISjY3QWI3N3JaWTl5QzVGdlREcWlGWmN1eXdYWWhENGhhNFM2NGFlbklvY1VYM3E3c1A3bE45Y2szWk5qRDNPY3pJT1R5Wl9BY29aMnZSbmJwUVh4dl9DLU5lM0laaFVIbHowUXF3R1VJMDhuQ19JbGI0eV9IOEkxWkxucVgtUkIwUHNIMDkwTzZEWExEZTFTMWtLaUFfb2YtOG10cEREWQ?oc=5\" target=\"_blank\">Japan's Nikkei ends 4% lower as SoftBank tanks on OpenAI IPO delay report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economic Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 2530,
       "ts": 1784586546,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple cuts iPhone 17 output amid worsening DRAM shortage - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 10:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMiogJBVV95cUxNVkZYdEFvUF9wMnNjdmhCVkI4Q1A4c2Y3RVN3dTNvVlVBbmJlZG5DN1dPQ3RvMjFxYm10Q3B6VE1hbzJlYjRjZzRLOEcxel9XQmVYVkdXd0NLZWxndHRPSzBqNmJnSmhCMFNPMlZXV0NzUmRQU0IyVVhJMFdYNHY2U05CdzBEZVJoSGZnQ2cycF9Jc2dCblNIdjd5U09xTFFNVV9vWE1pYVByX1hrSThST1FuSE5Cak1MOU1VTEhVRzhab3VZQ0VscGFfaU8yTFZNQnRubC04d2E3NU1MR2JnTHdUUnFqcjFNamczVE9IVWhVZFVqNTJaejF4eW1wU2t2eTJOZHZoUndYZnc1TUJ2X2RrRlV2WmZvTlBJY19xcWphZw?oc=5\n\nApple cuts iPhone 17 output amid worsening DRAM shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxNVkZYdEFvUF9wMnNjdmhCVkI4Q1A4c2Y3RVN3dTNvVlVBbmJlZG5DN1dPQ3RvMjFxYm10Q3B6VE1hbzJlYjRjZzRLOEcxel9XQmVYVkdXd0NLZWxndHRPSzBqNmJnSmhCMFNPMlZXV0NzUmRQU0IyVVhJMFdYNHY2U05CdzBEZVJoSGZnQ2cycF9Jc2dCblNIdjd5U09xTFFNVV9vWE1pYVByX1hrSThST1FuSE5Cak1MOU1VTEhVRzhab3VZQ0VscGFfaU8yTFZNQnRubC04d2E3NU1MR2JnTHdUUnFqcjFNamczVE9IVWhVZFVqNTJaejF4eW1wU2t2eTJOZHZoUndYZnc1TUJ2X2RrRlV2WmZvTlBJY19xcWphZw?oc=5\" target=\"_blank\">Apple cuts iPhone 17 output amid worsening DRAM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is cutting iPhone 17 production due to a worsening DRAM shortage.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cApple \u56e0 DRAM \u77ed\u7f3a\u52a0\u5267\u800c\u524a\u51cf iPhone 17 \u4ea7\u91cf\u3002\n\nWhy it matters:\nDRAM allocation is being pulled from consumer electronics toward AI datacenter memory demand, and that shortage is now visibly disrupting non-AI end markets \u2014 a sign memory supply is a binding constraint on the broader AI buildout, not just a hyperscaler cost line.\n\n\u5f71\u54cd:\nDRAM \u4ea7\u80fd\u6b63\u88ab\u4ece\u6d88\u8d39\u7535\u5b50\u8f6c\u5411 AI \u6570\u636e\u4e2d\u5fc3\u5185\u5b58\u9700\u6c42\uff0c\u5982\u4eca\u8fd9\u79cd\u77ed\u7f3a\u5df2\u7ecf\u660e\u663e\u51b2\u51fb\u5230\u975e AI \u7ec8\u7aef\u5e02\u573a\u2014\u2014\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5df2\u6210\u4e3a\u6574\u4e2a AI \u57fa\u5efa\u6269\u5f20\u7684\u786c\u7ea6\u675f\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u6210\u672c\u9879\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2330,
-      "ts": 1783928124,
-      "ts_str": "2026-07-13 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple cuts iPhone 17 output amid worsening DRAM shortage - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 11:15:52 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSS1uUmxYN3dITnRDTDFwa01WXzJOc3pYOFVYRm80bGFYTkJxQkRZMXdKTVdrUzJHV0t1Q2E3Vmg3dE1PT09kR0ZTVnNWQldtUjBQQTgtdkxyQjlja19vMm1uc2JsZnVhRGx6eVNqeFVDMmpsOGRKY2hEMy1YMkNVMGVMQTFfVDZQQ0p0MnE1R1RGZk5ycFN4REdZZ0NEZkQ2Mm5mQWhrN1pMZ1EtRVFWZnFSZFk1cmppUFBLWkRKMnN6c3VWUFdXQzRtY3VyVWNuMGpRYm9tai1ONXRudWFR?oc=5\n\nApple cuts iPhone 17 output amid worsening DRAM shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSS1uUmxYN3dITnRDTDFwa01WXzJOc3pYOFVYRm80bGFYTkJxQkRZMXdKTVdrUzJHV0t1Q2E3Vmg3dE1PT09kR0ZTVnNWQldtUjBQQTgtdkxyQjlja19vMm1uc2JsZnVhRGx6eVNqeFVDMmpsOGRKY2hEMy1YMkNVMGVMQTFfVDZQQ0p0MnE1R1RGZk5ycFN4REdZZ0NEZkQ2Mm5mQWhrN1pMZ1EtRVFWZnFSZFk1cmppUFBLWkRKMnN6c3VWUFdXQzRtY3VyVWNuMGpRYm9tai1ONXRudWFR?oc=5\" target=\"_blank\">Apple cuts iPhone 17 output amid worsening DRAM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple is cutting iPhone 17 production output because of a worsening DRAM shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0c\u7531\u4e8e DRAM \u77ed\u7f3a\u6301\u7eed\u6076\u5316\uff0cApple \u6b63\u5728\u524a\u51cf iPhone 17 \u7684\u4ea7\u91cf\u3002\n\nWhy it matters:\nDRAM demand from AI accelerators (HBM) is crowding out commodity DRAM supply, forcing a consumer-electronics giant to cut output \u2014 direct evidence the AI-capex buildout is now bottlenecking and repricing the broader memory market, not just staying contained to hyperscaler balance sheets.\n\n\u5f71\u54cd:\nAI \u52a0\u901f\u5668\uff08HBM\uff09\u5bf9 DRAM \u7684\u9700\u6c42\u6b63\u5728\u6324\u5360\u901a\u7528 DRAM \u4f9b\u5e94\uff0c\u903c\u5f97\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u524a\u51cf\u4ea7\u91cf\u2014\u2014\u8fd9\u662f AI capex \u6269\u5f20\u5df2\u7ecf\u5f00\u59cb\u9020\u6210\u5185\u5b58\u5e02\u573a\u6574\u4f53\u77ed\u7f3a\u548c\u91cd\u65b0\u5b9a\u4ef7\u7684\u76f4\u63a5\u8bc1\u636e\uff0c\u800c\u4e0d\u518d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u4ea7\u8d1f\u503a\u8868\u5185\u90e8\u7684\u4e8b\u3002\n",
       "emailed": false
     }
   ],
