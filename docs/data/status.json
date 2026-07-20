@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784586414,
-  "generated_at_str": "2026-07-20 22:26:54 UTC",
-  "last_event_ts": 1784585644,
+  "generated_at": 1784586547,
+  "generated_at_str": "2026-07-20 22:29:07 UTC",
+  "last_event_ts": 1784586546,
   "tables": {
     "alerts_dedup": {
-      "count": 2522,
-      "last_ts": 1784579713,
-      "last_str": "2026-07-20 20:35:13 UTC"
+      "count": 2523,
+      "last_ts": 1784586546,
+      "last_str": "2026-07-20 22:29:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 18,
-      "last_ts": 1784327341,
-      "last_str": "2026-07-17 22:29:01 UTC"
+      "count": 19,
+      "last_ts": 1784586543,
+      "last_str": "2026-07-20 22:29:03 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2530,
+      "ts": 1784586546,
+      "ts_str": "2026-07-20 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.31% (+48bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-17\nCurrent:  2.31%\n90d low:  1.83%\nMove:     +48bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
+      "emailed": true
+    },
     {
       "id": 2529,
       "ts": 1784579713,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple cuts iPhone 17 output amid worsening DRAM shortage - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 11:15:52 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSS1uUmxYN3dITnRDTDFwa01WXzJOc3pYOFVYRm80bGFYTkJxQkRZMXdKTVdrUzJHV0t1Q2E3Vmg3dE1PT09kR0ZTVnNWQldtUjBQQTgtdkxyQjlja19vMm1uc2JsZnVhRGx6eVNqeFVDMmpsOGRKY2hEMy1YMkNVMGVMQTFfVDZQQ0p0MnE1R1RGZk5ycFN4REdZZ0NEZkQ2Mm5mQWhrN1pMZ1EtRVFWZnFSZFk1cmppUFBLWkRKMnN6c3VWUFdXQzRtY3VyVWNuMGpRYm9tai1ONXRudWFR?oc=5\n\nApple cuts iPhone 17 output amid worsening DRAM shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSS1uUmxYN3dITnRDTDFwa01WXzJOc3pYOFVYRm80bGFYTkJxQkRZMXdKTVdrUzJHV0t1Q2E3Vmg3dE1PT09kR0ZTVnNWQldtUjBQQTgtdkxyQjlja19vMm1uc2JsZnVhRGx6eVNqeFVDMmpsOGRKY2hEMy1YMkNVMGVMQTFfVDZQQ0p0MnE1R1RGZk5ycFN4REdZZ0NEZkQ2Mm5mQWhrN1pMZ1EtRVFWZnFSZFk1cmppUFBLWkRKMnN6c3VWUFdXQzRtY3VyVWNuMGpRYm9tai1ONXRudWFR?oc=5\" target=\"_blank\">Apple cuts iPhone 17 output amid worsening DRAM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple is cutting iPhone 17 production output because of a worsening DRAM shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0c\u7531\u4e8e DRAM \u77ed\u7f3a\u6301\u7eed\u6076\u5316\uff0cApple \u6b63\u5728\u524a\u51cf iPhone 17 \u7684\u4ea7\u91cf\u3002\n\nWhy it matters:\nDRAM demand from AI accelerators (HBM) is crowding out commodity DRAM supply, forcing a consumer-electronics giant to cut output \u2014 direct evidence the AI-capex buildout is now bottlenecking and repricing the broader memory market, not just staying contained to hyperscaler balance sheets.\n\n\u5f71\u54cd:\nAI \u52a0\u901f\u5668\uff08HBM\uff09\u5bf9 DRAM \u7684\u9700\u6c42\u6b63\u5728\u6324\u5360\u901a\u7528 DRAM \u4f9b\u5e94\uff0c\u903c\u5f97\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u524a\u51cf\u4ea7\u91cf\u2014\u2014\u8fd9\u662f AI capex \u6269\u5f20\u5df2\u7ecf\u5f00\u59cb\u9020\u6210\u5185\u5b58\u5e02\u573a\u6574\u4f53\u77ed\u7f3a\u548c\u91cd\u65b0\u5b9a\u4ef7\u7684\u76f4\u63a5\u8bc1\u636e\uff0c\u800c\u4e0d\u518d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8d44\u4ea7\u8d1f\u503a\u8868\u5185\u90e8\u7684\u4e8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2331,
-      "ts": 1783928124,
-      "ts_str": "2026-07-13 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Global Market: SK Hynix warns of historic memory chip shortage by 2027 as AI demand soars - The Economic Times",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 05:29:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRGV1WUVtLVlQQ3dyMFlMR1hOcGdDZUtpdnBnTllFRVlYLXY4R2JicUI0MmZhNnNkMnpWWjFkRUluZnM3dWtyUEp1TWVkMFZhTUJ5b2xxSFdjYzVCNVp2X1NWQURlWVZRN1BqY2JoRW5jVklSSXJrZjdTUkV4UnpraEZmWERmUW9oY19xVG5XZHdkRGlSVEk3cWYtNHkyTHpwNHNNUldFaHhhaG1LYUwzTUpySUpVWEVnX0d3Y0ZpdGlBbS03TXdiVUV6WVMxdW0zSzN2TGk3ak1tcVV4YlNmN0ZTWEc1T1RLM1FJN0ZJRUs4aE1RZTROdFllcU9Id9IB_gFBVV95cUxQRGV1WUVtLVlQQ3dyMFlMR1hOcGdDZUtpdnBnTllFRVlYLXY4R2JicUI0MmZhNnNkMnpWWjFkRUluZnM3dWtyUEp1TWVkMFZhTUJ5b2xxSFdjYzVCNVp2X1NWQURlWVZRN1BqY2JoRW5jVklSSXJrZjdTUkV4UnpraEZmWERmUW9oY19xVG5XZHdkRGlSVEk3cWYtNHkyTHpwNHNNUldFaHhhaG1LYUwzTUpySUpVWEVnX0d3Y0ZpdGlBbS03TXdiVUV6WVMxdW0zSzN2TGk3ak1tcVV4YlNmN0ZTWEc1T1RLM1FJN0ZJRUs4aE1RZTROdFllcU9Idw?oc=5\n\nGlobal Market: SK Hynix warns of historic memory chip shortage by 2027 as AI demand soars - The Economic Times\n\n<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRGV1WUVtLVlQQ3dyMFlMR1hOcGdDZUtpdnBnTllFRVlYLXY4R2JicUI0MmZhNnNkMnpWWjFkRUluZnM3dWtyUEp1TWVkMFZhTUJ5b2xxSFdjYzVCNVp2X1NWQURlWVZRN1BqY2JoRW5jVklSSXJrZjdTUkV4UnpraEZmWERmUW9oY19xVG5XZHdkRGlSVEk3cWYtNHkyTHpwNHNNUldFaHhhaG1LYUwzTUpySUpVWEVnX0d3Y0ZpdGlBbS03TXdiVUV6WVMxdW0zSzN2TGk3ak1tcVV4YlNmN0ZTWEc1T1RLM1FJN0ZJRUs4aE1RZTROdFllcU9Id9IB_gFBVV95cUxQRGV1WUVtLVlQQ3dyMFlMR1hOcGdDZUtpdnBnTllFRVlYLXY4R2JicUI0MmZhNnNkMnpWWjFkRUluZnM3dWtyUEp1TWVkMFZhTUJ5b2xxSFdjYzVCNVp2X1NWQURlWVZRN1BqY2JoRW5jVklSSXJrZjdTUkV4UnpraEZmWERmUW9oY19xVG5XZHdkRGlSVEk3cWYtNHkyTHpwNHNNUldFaHhhaG1LYUwzTUpySUpVWEVnX0d3Y0ZpdGlBbS03TXdiVUV6WVMxdW0zSzN2TGk3ak1tcVV4YlNmN0ZTWEc1T1RLM1FJN0ZJRUs4aE1RZTROdFllcU9Idw?oc=5\" target=\"_blank\">Global Market: SK Hynix warns of historic memory chip shortage by 2027 as AI demand soars</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economic Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix warned that AI demand could push memory chips into a historic shortage by 2027.\n\n\u5185\u5bb9:\nSK Hynix \u8b66\u544a\u79f0\uff0cAI \u9700\u6c42\u53ef\u80fd\u5bfc\u81f4\u5185\u5b58\u82af\u7247\u5728 2027 \u5e74\u524d\u51fa\u73b0\u5386\u53f2\u6027\u77ed\u7f3a\u3002\n\nWhy it matters:\nThis is the inverse of the C6 glut/cancellation signal \u2014 a supply-tightening tell rather than oversupply \u2014 meaning memory/HBM stays a bottleneck (and pricing power) for AI infrastructure buildout rather than a crack in demand.\n\n\u5f71\u54cd:\n\u8fd9\u4e0e C6 \u901a\u5e38\u8ffd\u8e2a\u7684\u8fc7\u5269/\u780d\u5355\u4fe1\u53f7\u65b9\u5411\u76f8\u53cd\u2014\u2014\u662f\u4f9b\u5e94\u8d8b\u7d27\u7684\u4fe1\u53f7\u800c\u975e\u9700\u6c42\u8d70\u5f31\u7684\u8ff9\u8c61\uff0c\u610f\u5473\u7740\u5185\u5b58/HBM \u5728 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u4e2d\u4ecd\u662f\u74f6\u9888\uff08\u5e76\u4fdd\u6709\u5b9a\u4ef7\u6743\uff09\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u7aef\u51fa\u73b0\u88c2\u75d5\u3002\n",
       "emailed": false
     }
   ],
