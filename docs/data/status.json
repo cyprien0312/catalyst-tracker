@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784640724,
-  "generated_at_str": "2026-07-21 13:32:04 UTC",
-  "last_event_ts": 1784639645,
+  "generated_at": 1784640913,
+  "generated_at_str": "2026-07-21 13:35:13 UTC",
+  "last_event_ts": 1784640907,
   "tables": {
     "alerts_dedup": {
-      "count": 2546,
-      "last_ts": 1784639110,
-      "last_str": "2026-07-21 13:05:10 UTC"
+      "count": 2547,
+      "last_ts": 1784640907,
+      "last_str": "2026-07-21 13:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-21 13:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2780,
-      "last_ts": 1784639103,
-      "last_str": "2026-07-21 13:05:03 UTC"
+      "count": 2784,
+      "last_ts": 1784640902,
+      "last_str": "2026-07-21 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3304,
-      "last_ts": 1784639105,
-      "last_str": "2026-07-21 13:05:05 UTC"
+      "count": 3307,
+      "last_ts": 1784640905,
+      "last_str": "2026-07-21 13:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2263,
@@ -89,9 +89,9 @@
       "last_str": "2026-07-21 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2485,
-      "last_ts": 1784639106,
-      "last_str": "2026-07-21 13:05:06 UTC"
+      "count": 2486,
+      "last_ts": 1784640906,
+      "last_str": "2026-07-21 13:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17540,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2554,
+      "ts": 1784640907,
+      "ts_str": "2026-07-21 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 06:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQMHEybUVZYWI0c0s2ZjUwVWlLYlowbFBSYTNrSE4xd19YVzBPeURIUTRwekRaM3h2SHo1NmQ0VHBSRk1KYm9FRkc2bkU0c1ZYdFJrM0stdy1PSVdhYjVBaXR0WkVLMWFIQTJCQmNJTm54ZThpRlZzNmZwMmI2bVZMckphTjVJRkdaRVhiUFVMdGw3Uzh4b3c2eWRzOTnSAaIBQVVfeXFMT0NDenFsY0lWWE8tYlJrT1dlanV2azNUOVE5NjZDbG9HVU1PMk00SFJpZ3BQZEdUR0h1VFEzNG9DS2VWLUhZSVFRSjBHaGxieW5LYjJVaENiT215OURpNTlxb1VvUjk1RnlhakJUVlpEOV9lTHV0RTYzYXhwSlVYTEs5c2g0UDM0VWRhUlhsM0h1dzNSQVU4Um5ZZDcxZ29XcnRB?oc=5\n\nDRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQMHEybUVZYWI0c0s2ZjUwVWlLYlowbFBSYTNrSE4xd19YVzBPeURIUTRwekRaM3h2SHo1NmQ0VHBSRk1KYm9FRkc2bkU0c1ZYdFJrM0stdy1PSVdhYjVBaXR0WkVLMWFIQTJCQmNJTm54ZThpRlZzNmZwMmI2bVZMckphTjVJRkdaRVhiUFVMdGw3Uzh4b3c2eWRzOTnSAaIBQVVfeXFMT0NDenFsY0lWWE8tYlJrT1dlanV2azNUOVE5NjZDbG9HVU1PMk00SFJpZ3BQZEdUR0h1VFEzNG9DS2VWLUhZSVFRSjBHaGxieW5LYjJVaENiT215OURpNTlxb1VvUjk1RnlhakJUVlpEOV9lTHV0RTYzYXhwSlVYTEs5c2g0UDM0VWRhUlhsM0h1dzNSQVU4Um5ZZDcxZ29XcnRB?oc=5\" target=\"_blank\">DRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2551,
       "ts": 1784639110,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory chip shortage drives up prices for consumer goods in Japan - Asia News Network",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 01:33:50 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQTzF1eHNVZllLWFotMVBELTBQcmdrY3Rld0N6ODEwU1dMN1lsNzVETVRjamk4QWJ1Ri1Xc25CS09jY3lNWXA4d0RXemYzVjg5d01Qb3hGZE1tdTd2LXE5QWtmSThhSHpTZ205Z3QxSzZ0ZWdVNXJMWGFOQ052UFRrVEZzV2NVaVUyS0pZS3Boa3ZhSlpsTmc?oc=5\n\nMemory chip shortage drives up prices for consumer goods in Japan - Asia News Network\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQTzF1eHNVZllLWFotMVBELTBQcmdrY3Rld0N6ODEwU1dMN1lsNzVETVRjamk4QWJ1Ri1Xc25CS09jY3lNWXA4d0RXemYzVjg5d01Qb3hGZE1tdTd2LXE5QWtmSThhSHpTZ205Z3QxSzZ0ZWdVNXJMWGFOQ052UFRrVEZzV2NVaVUyS0pZS3Boa3ZhSlpsTmc?oc=5\" target=\"_blank\">Memory chip shortage drives up prices for consumer goods in Japan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asia News Network</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports a memory-chip shortage pushing up consumer-goods prices in Japan, with no specific ticker or numeric figure attached.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u63a8\u9ad8\u65e5\u672c\u6d88\u8d39\u54c1\u4ef7\u683c\uff0c\u672a\u63d0\u53ca\u5177\u4f53 ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nConfirms DRAM/NAND tightness is broad enough to hit downstream consumer pricing, not just AI-server BOM costs \u2014 a sign the memory-supply squeeze feeding AI-infrastructure capex costs is intensifying rather than easing.\n\n\u5f71\u54cd:\n\u8fd9\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u5916\u6ea2\u5230\u4e0b\u6e38\u6d88\u8d39\u54c1\u5b9a\u4ef7\uff0c\u800c\u4e0d\u4ec5\u4ec5\u662f AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u2014\u2014\u8868\u660e\u652f\u6491 AI \u57fa\u7840\u8bbe\u65bd capex \u7684\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u6b63\u5728\u52a0\u5267\u800c\u975e\u7f13\u89e3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2353,
-      "ts": 1783987515,
-      "ts_str": "2026-07-14 00:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung, Vivo, Poco hike prices amid memory chip crunch - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 10:52:36 GMT\nLink:      https://news.google.com/rss/articles/CBMi6wFBVV95cUxNalVva2ViS05iYzYza3F1a0ZZZEJvYXNMT0hmQWx4eDdIbV9DMFVQZnlGTDQxQklrajdLOFZTMEpWcno3YzlGVVFFbmY0T1hiT1J3U2F3cndTR1U2SXFMQmNrdExqS0N2bmdKdHFSSGhEVWRIb255OUNib19hbUpLbkgyY3NRb0tna2xrMkUwN2pDVzhkcVJfRTVpV0JQaVhqS0o2X1RqaFVYTTFfcnV3UE1fTExRa3NQazNPeUE0TUV4dy0yY0gwNWZLY2NBcmNKWVhRcTFEa0lGS0RpOTN6eFItek93ci1oWkhZ?oc=5\n\nSamsung, Vivo, Poco hike prices amid memory chip crunch - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNalVva2ViS05iYzYza3F1a0ZZZEJvYXNMT0hmQWx4eDdIbV9DMFVQZnlGTDQxQklrajdLOFZTMEpWcno3YzlGVVFFbmY0T1hiT1J3U2F3cndTR1U2SXFMQmNrdExqS0N2bmdKdHFSSGhEVWRIb255OUNib19hbUpLbkgyY3NRb0tna2xrMkUwN2pDVzhkcVJfRTVpV0JQaVhqS0o2X1RqaFVYTTFfcnV3UE1fTExRa3NQazNPeUE0TUV4dy0yY0gwNWZLY2NBcmNKWVhRcTFEa0lGS0RpOTN6eFItek93ci1oWkhZ?oc=5\" target=\"_blank\">Samsung, Vivo, Poco hike prices amid memory chip crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item titled \"Samsung, Vivo, Poco hike prices amid memory chip crunch\" (via MSN) reports device makers raising retail prices in response to a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\uff08\u7ecf MSN \u8f6c\u8f7d\uff09\u6807\u9898\u4e3a\u300cSamsung, Vivo, Poco hike prices amid memory chip crunch\u300d\uff0c\u79f0\u56e0\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\uff0c\u591a\u5bb6\u7ec8\u7aef\u5382\u5546\u4e0a\u8c03\u96f6\u552e\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) is a bottleneck input for AI servers; a supply crunch pushing retail phone prices up signals demand is outstripping fab capacity broadly, not just for HBM. That tightness raises hyperscaler bill-of-materials costs and can squeeze AI-capex margins if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u662f AI \u670d\u52a1\u5668\u7684\u5173\u952e\u74f6\u9888\u539f\u6750\u6599\uff0c\u8fde\u624b\u673a\u96f6\u552e\u4ef7\u90fd\u88ab\u4e0a\u8c03\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u5df2\u7ecf\u8513\u5ef6\u5230\u6574\u4e2a\u5b58\u50a8\u94fe\u6761\uff0c\u4e0d\u53ea\u662f HBM\u3002\u8fd9\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u7269\u6599\u6210\u672c\uff0c\u82e5\u6301\u7eed\u4e0b\u53bb\u5c06\u6324\u538b AI capex \u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
