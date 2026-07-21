@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784620926,
-  "generated_at_str": "2026-07-21 08:02:06 UTC",
-  "last_event_ts": 1784620023,
+  "generated_at": 1784621107,
+  "generated_at_str": "2026-07-21 08:05:07 UTC",
+  "last_event_ts": 1784621106,
   "tables": {
     "alerts_dedup": {
-      "count": 2531,
-      "last_ts": 1784617506,
-      "last_str": "2026-07-21 07:05:06 UTC"
+      "count": 2532,
+      "last_ts": 1784621106,
+      "last_str": "2026-07-21 08:05:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-21 07:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3290,
-      "last_ts": 1784617503,
-      "last_str": "2026-07-21 07:05:03 UTC"
+      "count": 3291,
+      "last_ts": 1784621104,
+      "last_str": "2026-07-21 08:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2247,
@@ -89,9 +89,9 @@
       "last_str": "2026-07-21 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2466,
-      "last_ts": 1784619305,
-      "last_str": "2026-07-21 07:35:05 UTC"
+      "count": 2467,
+      "last_ts": 1784621105,
+      "last_str": "2026-07-21 08:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17501,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2539,
+      "ts": 1784621106,
+      "ts_str": "2026-07-21 08:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Morgan Stanley: Memory Chip Stock Pullback Is a 'Buying Opportunity' \u2014 Supply Shortage to Persist Through 2028 - finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 01:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9QSVJyYUM2UDRfV0QxZ0xtbloxeHFialpkck9lcTJDU0pLbkpRamJGN2ZEVEZqanUwM1BRT0FjYWt4ZjJaTmxza3pZekQxdGVCVnpWWkxsZWVocVRrM1kxU01NR3JPTk1SQ3VXUTRFN044U1JueWc?oc=5\n\nMorgan Stanley: Memory Chip Stock Pullback Is a 'Buying Opportunity' \u2014 Supply Shortage to Persist Through 2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9QSVJyYUM2UDRfV0QxZ0xtbloxeHFialpkck9lcTJDU0pLbkpRamJGN2ZEVEZqanUwM1BRT0FjYWt4ZjJaTmxza3pZekQxdGVCVnpWWkxsZWVocVRrM1kxU01NR3JPTk1SQ3VXUTRFN044U1JueWc?oc=5\" target=\"_blank\">Morgan Stanley: Memory Chip Stock Pullback Is a 'Buying Opportunity' \u2014 Supply Shortage to Persist Through 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2537,
       "ts": 1784617506,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Why Micron is doubling down while the HBM shortage persists - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 16:22:47 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOUd6TllNYXVVNjlJV2s2enRJNXN4bnVUZGlnV3Ffd05oRDFqbC1OeHFrNm56YkdadUY3eWhNWmFpenU1NHFmRUF3M2szZ25vQ2NxT3pXdmxHdll6N2tBd2lYcS1HRUVDZ3JhSUxhZUhkVEx6UlFoREpEYWdCclJWUkNOZGU5RWtCZDRXZlpnV0xxOUNkSnZRRGNzRmhmZzJ4aHRpekFSc2tnS1h0V2xaeTJhTXRfeXhsZjVDd1JXMDNEcUp2clgxTmlLTjFpRFE1RUxWSUdR?oc=5\n\nWhy Micron is doubling down while the HBM shortage persists - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOUd6TllNYXVVNjlJV2s2enRJNXN4bnVUZGlnV3Ffd05oRDFqbC1OeHFrNm56YkdadUY3eWhNWmFpenU1NHFmRUF3M2szZ25vQ2NxT3pXdmxHdll6N2tBd2lYcS1HRUVDZ3JhSUxhZUhkVEx6UlFoREpEYWdCclJWUkNOZGU5RWtCZDRXZlpnV0xxOUNkSnZRRGNzRmhmZzJ4aHRpekFSc2tnS1h0V2xaeTJhTXRfeXhsZjVDd1JXMDNEcUp2clgxTmlLTjFpRFE1RUxWSUdR?oc=5\" target=\"_blank\">Why Micron is doubling down while the HBM shortage persists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item pairs Micron with 'HBM shortage', reporting the company is expanding capacity while high-bandwidth-memory supply stays tight.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u62a5\u9053\u5c06 Micron \u4e0e 'HBM shortage'\uff08HBM \u77ed\u7f3a\uff09\u5e76\u5217\uff0c\u79f0\u8be5\u516c\u53f8\u5728 HBM \u4f9b\u5e94\u6301\u7eed\u7d27\u5f20\u7684\u60c5\u51b5\u4e0b\u4ecd\u5728\u6269\u5927\u4ea7\u80fd\u3002\n\nWhy it matters:\nPersistent HBM shortage is a bottleneck signal, not a demand signal \u2014 it means memory supply, not GPU/accelerator supply, is the binding constraint on AI compute buildout, and it keeps a key input cost elevated for hyperscaler capex.\n\n\u5f71\u54cd:\nHBM \u77ed\u7f3a\u6301\u7eed\u5b58\u5728\u662f\u4e00\u4e2a\u4f9b\u7ed9\u74f6\u9888\u4fe1\u53f7\u800c\u975e\u9700\u6c42\u4fe1\u53f7\u2014\u2014\u8bf4\u660e\u5236\u7ea6 AI \u7b97\u529b\u6269\u5f20\u7684\u662f\u5185\u5b58\u4f9b\u5e94\u800c\u975e GPU/\u52a0\u901f\u5361\u4f9b\u5e94\uff0c\u540c\u65f6\u4e5f\u610f\u5473\u7740\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u4e2d\u7684\u8fd9\u9879\u5173\u952e\u8f93\u5165\u6210\u672c\u5c06\u7ef4\u6301\u9ad8\u4f4d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2339,
-      "ts": 1783958716,
-      "ts_str": "2026-07-13 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Why Micron Is Doubling Down While the HBM Shortage Persists - MarketBeat",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 15:52:16 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQaFNGSldGYm1zM0taWk5OMi1OdHpDb200QnBqbmJPdzJQQXZ1b3JvNXVIMEFYU3Rha0ladWRqR1BGQ0FlMWZnZFlKbzE4Ni12d1ByNWFxSU80ZzI5b25pNEMzZXg1eGJFMmVoMXdsUG5qSjVqSjRvWEVyZnJZdEpKR3FQOWxVZWNkMWU0UmpOeHhsYnJqUjNFYV9BbkIxSzZN?oc=5\n\nWhy Micron Is Doubling Down While the HBM Shortage Persists - MarketBeat\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQaFNGSldGYm1zM0taWk5OMi1OdHpDb200QnBqbmJPdzJQQXZ1b3JvNXVIMEFYU3Rha0ladWRqR1BGQ0FlMWZnZFlKbzE4Ni12d1ByNWFxSU80ZzI5b25pNEMzZXg1eGJFMmVoMXdsUG5qSjVqSjRvWEVyZnJZdEpKR3FQOWxVZWNkMWU0UmpOeHhsYnJqUjNFYV9BbkIxSzZN?oc=5\" target=\"_blank\">Why Micron Is Doubling Down While the HBM Shortage Persists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketBeat</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA MarketBeat article reports Micron is expanding investment even as the HBM (high-bandwidth memory) shortage continues.\n\n\u5185\u5bb9:\nMarketBeat \u62a5\u9053\u79f0\uff0c\u5c3d\u7ba1 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u77ed\u7f3a\u6301\u7eed\u5b58\u5728\uff0cMicron \u4ecd\u5728\u52a0\u5927\u6295\u8d44\u529b\u5ea6\u3002\n\nWhy it matters:\nPersistent HBM shortage plus a supplier doubling down on capex signals memory is a binding constraint on AI accelerator supply, not a transient blip \u2014 supports the bull case for memory names but also flags a bottleneck risk for the broader AI-buildout timeline.\n\n\u5f71\u54cd:\nHBM \u77ed\u7f3a\u6301\u7eed\uff0c\u4e14\u4f9b\u5e94\u5546\u4ecd\u5728\u52a0\u7801\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u5df2\u6210\u4e3a AI \u52a0\u901f\u5361\u4f9b\u5e94\u7684\u786c\u7ea6\u675f\uff0c\u800c\u975e\u77ed\u671f\u6ce2\u52a8\u2014\u2014\u8fd9\u5bf9\u5185\u5b58\u80a1\u662f\u5229\u597d\uff0c\u4f46\u4e5f\u63d0\u793a\u6574\u4e2a AI \u5efa\u8bbe\u8fdb\u7a0b\u5b58\u5728\u74f6\u9888\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
