@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784595724,
-  "generated_at_str": "2026-07-21 01:02:04 UTC",
-  "last_event_ts": 1784594822,
+  "generated_at": 1784595906,
+  "generated_at_str": "2026-07-21 01:05:06 UTC",
+  "last_event_ts": 1784595905,
   "tables": {
     "alerts_dedup": {
-      "count": 2524,
-      "last_ts": 1784589247,
-      "last_str": "2026-07-20 23:14:07 UTC"
+      "count": 2525,
+      "last_ts": 1784595905,
+      "last_str": "2026-07-21 01:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-20 20:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2735,
-      "last_ts": 1784594101,
-      "last_str": "2026-07-21 00:35:01 UTC"
+      "count": 2736,
+      "last_ts": 1784595902,
+      "last_str": "2026-07-21 01:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3270,
-      "last_ts": 1784594103,
-      "last_str": "2026-07-21 00:35:03 UTC"
+      "count": 3272,
+      "last_ts": 1784595904,
+      "last_str": "2026-07-21 01:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2237,
-      "last_ts": 1784594102,
-      "last_str": "2026-07-21 00:35:02 UTC"
+      "count": 2238,
+      "last_ts": 1784595903,
+      "last_str": "2026-07-21 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2460,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2532,
+      "ts": 1784595905,
+      "ts_str": "2026-07-21 01:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] ADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040 - Wccftech",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 14:35:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxQenk0U3RqQTJHX3g0UzZiNmFOTkM0NUk3NW81N3VTRnNORGpFY0RLNmZLVmdFc3RRajJWaHBtbnRkbm5NZGJJNUhaU29fMnVNNHd2Mmc4TjdkNlp3alpFVDltdExZVVNVZFlsUWh3Tng1WmVfbVlRWlNfcktFRFNfU0tPZm4xVDNqVVFLcURKQ3hZS2NwemNLQVdoM3pNUWpERHdDcG54ZFg4N09ocHUxQ2F0TzB5SEJjM1HSAb8BQVVfeXFMT3dDel9XNGVXcUN2SUxkM1l5Q3ZPbkw1ck8wajJEaWdmQTBsam5ldVZETk9JOVNCbnNJLTRPbW8zakxqNWYyMjFycVpzMWFnVFR2SU1UX1gtZGlFeDE4SU9TQVNHWk8yOWhuMlcwR056ZldtNGdReFhRb0tyYzZ6dU8zMFlSN3BzV1VlYklPdGxxdW42RW56V09OWnFUaVVGMGdGNWdBU2RJdV9yVzBYZzQweWtqLWtTc2p3MGJHd1U?oc=5\n\nADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQenk0U3RqQTJHX3g0UzZiNmFOTkM0NUk3NW81N3VTRnNORGpFY0RLNmZLVmdFc3RRajJWaHBtbnRkbm5NZGJJNUhaU29fMnVNNHd2Mmc4TjdkNlp3alpFVDltdExZVVNVZFlsUWh3Tng1WmVfbVlRWlNfcktFRFNfU0tPZm4xVDNqVVFLcURKQ3hZS2NwemNLQVdoM3pNUWpERHdDcG54ZFg4N09ocHUxQ2F0TzB5SEJjM1HSAb8BQVVfeXFMT3dDel9XNGVXcUN2SUxkM1l5Q3ZPbkw1ck8wajJEaWdmQTBsam5ldVZETk9JOVNCbnNJLTRPbW8zakxqNWYyMjFycVpzMWFnVFR2SU1UX1gtZGlFeDE4SU9TQVNHWk8yOWhuMlcwR056ZldtNGdReFhRb0tyYzZ6dU8zMFlSN3BzV1VlYklPdGxxdW42RW56V09OWnFUaVVGMGdGNWdBU2RJdV9yVzBYZzQweWtqLWtTc2p3MGJHd1U?oc=5\" target=\"_blank\">ADATA Chairman Warns DRAM Shortage Will Last Another 10 Years, Says AI Bubble Talk Can Wait Until 2040</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Wccftech report cites ADATA's chairman warning that the DRAM shortage will last another 10 years, with the claim that AI-bubble discussion can wait until 2040.\n\n\u5185\u5bb9:\nWccftech \u62a5\u9053\u79f0 ADATA \u8463\u4e8b\u957f\u8b66\u544a DRAM \u7f3a\u8d27\u5c06\u6301\u7eed\u672a\u6765 10 \u5e74\uff0c\u5e76\u79f0 AI \u6ce1\u6cab\u7684\u8ba8\u8bba\u53ef\u4ee5\u7b49\u5230 2040 \u5e74\u518d\u8bf4\u3002\n\nWhy it matters:\nA vendor executive publicly framing a decade-long memory shortage supports the AI-capex demand story, but the extreme framing (2040) reads as promotional rather than a verified supply data point \u2014 treat as sentiment, not confirmation, until paired with actual DRAM/NAND pricing or contract-order data.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u5546\u9ad8\u7ba1\u516c\u5f00\u5ba3\u79f0\u5341\u5e74\u7ea7\u522b\u7684\u5185\u5b58\u77ed\u7f3a\uff0c\u67d0\u79cd\u7a0b\u5ea6\u4e0a\u652f\u6491\u4e86 AI capex \u9700\u6c42\u53d9\u4e8b\uff0c\u4f46 2040 \u8fd9\u79cd\u6781\u7aef\u8868\u8ff0\u66f4\u50cf\u8425\u9500\u8bdd\u672f\u800c\u975e\u786e\u51ff\u7684\u4f9b\u7ed9\u6570\u636e\uff0c\u5728\u6ca1\u6709\u5b9e\u9645 DRAM/NAND \u4ef7\u683c\u6216\u8ba2\u5355\u6570\u636e\u4f50\u8bc1\u524d\uff0c\u5e94\u89c6\u4e3a\u60c5\u7eea\u9762\u4fe1\u53f7\u800c\u975e\u786e\u8ba4\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2531,
       "ts": 1784589247,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Citi, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup - Stocktwits",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 08:05:31 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVTV6X2FEbkUwSmM5VldPRndBVy1GMWwxcGY5Vll3RmpsUVcwc1dwRkU1c3dKc3owcTlHZ1dWcDVJV1pjSkZjVEIyTWRqc0NWZTcxQXNyRnNPSlZRaE5RTGlMOW9mOXlob1ExdVJJMXp2Sjl1U1ZFSHRsekNVaGtvdXZiZVBFVC15cUh2YTg4SHE3R0NQVmtSVWljRHlkS2N2LWZOb1BIWTl4TFU2bHl3WFlIYjc0dUltOUszbllYdEY2QUxKWnJaSE4taFg2VHVRV2VyaVpYSGd3MEhJQ2lR?oc=5\n\nCiti, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVTV6X2FEbkUwSmM5VldPRndBVy1GMWwxcGY5Vll3RmpsUVcwc1dwRkU1c3dKc3owcTlHZ1dWcDVJV1pjSkZjVEIyTWRqc0NWZTcxQXNyRnNPSlZRaE5RTGlMOW9mOXlob1ExdVJJMXp2Sjl1U1ZFSHRsekNVaGtvdXZiZVBFVC15cUh2YTg4SHE3R0NQVmtSVWljRHlkS2N2LWZOb1BIWTl4TFU2bHl3WFlIYjc0dUltOUszbllYdEY2QUxKWnJaSE4taFg2VHVRV2VyaVpYSGd3MEhJQ2lR?oc=5\" target=\"_blank\">Citi, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMedia outlets report Citi and JPMorgan are in talks to join the bank lineup for OpenAI's IPO.\n\n\u5185\u5bb9:\n\u6709\u5a92\u4f53\u62a5\u9053\u79f0\uff0cCiti \u548c JPM \u6b63\u5728\u6d3d\u8c08\u52a0\u5165 OpenAI IPO \u7684\u627f\u9500\u94f6\u884c\u56e2\u3002\n\nWhy it matters:\nIPO-prep bank lineups signal OpenAI is moving toward a real liquidity event, which will force disclosure of burn-rate and revenue detail currently opaque to outsiders \u2014 a key input for the C3 stress thesis. This is talks-stage news, not a filing, so treat as directional confirmation rather than a hard data point.\n\n\u5f71\u54cd:\nIPO \u627f\u9500\u56e2\u7684\u7ec4\u5efa\u610f\u5473\u7740 OpenAI \u6b63\u5728\u8d70\u5411\u771f\u6b63\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff0c\u5c4a\u65f6\u76ee\u524d\u5916\u754c\u770b\u4e0d\u5230\u7684\u70e7\u94b1\u901f\u5ea6\u548c\u6536\u5165\u7ec6\u8282\u5c06\u88ab\u8feb\u62ab\u9732\u2014\u2014\u8fd9\u6b63\u662f C3 \u538b\u529b\u8bba\u70b9\u9700\u8981\u7684\u5173\u952e\u8f93\u5165\u3002\u4e0d\u8fc7\u8fd9\u53ea\u662f\u6d3d\u8c08\u9636\u6bb5\u7684\u6d88\u606f\uff0c\u4e0d\u662f\u6b63\u5f0f\u6587\u4ef6\uff0c\u5e94\u89c6\u4e3a\u65b9\u5411\u6027\u786e\u8ba4\u800c\u975e\u786c\u6570\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2332,
-      "ts": 1783931719,
-      "ts_str": "2026-07-13 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple cuts iPhone 17 output amid worsening DRAM shortage - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 12 Jul 2026 10:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMiogJBVV95cUxNVkZYdEFvUF9wMnNjdmhCVkI4Q1A4c2Y3RVN3dTNvVlVBbmJlZG5DN1dPQ3RvMjFxYm10Q3B6VE1hbzJlYjRjZzRLOEcxel9XQmVYVkdXd0NLZWxndHRPSzBqNmJnSmhCMFNPMlZXV0NzUmRQU0IyVVhJMFdYNHY2U05CdzBEZVJoSGZnQ2cycF9Jc2dCblNIdjd5U09xTFFNVV9vWE1pYVByX1hrSThST1FuSE5Cak1MOU1VTEhVRzhab3VZQ0VscGFfaU8yTFZNQnRubC04d2E3NU1MR2JnTHdUUnFqcjFNamczVE9IVWhVZFVqNTJaejF4eW1wU2t2eTJOZHZoUndYZnc1TUJ2X2RrRlV2WmZvTlBJY19xcWphZw?oc=5\n\nApple cuts iPhone 17 output amid worsening DRAM shortage - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxNVkZYdEFvUF9wMnNjdmhCVkI4Q1A4c2Y3RVN3dTNvVlVBbmJlZG5DN1dPQ3RvMjFxYm10Q3B6VE1hbzJlYjRjZzRLOEcxel9XQmVYVkdXd0NLZWxndHRPSzBqNmJnSmhCMFNPMlZXV0NzUmRQU0IyVVhJMFdYNHY2U05CdzBEZVJoSGZnQ2cycF9Jc2dCblNIdjd5U09xTFFNVV9vWE1pYVByX1hrSThST1FuSE5Cak1MOU1VTEhVRzhab3VZQ0VscGFfaU8yTFZNQnRubC04d2E3NU1MR2JnTHdUUnFqcjFNamczVE9IVWhVZFVqNTJaejF4eW1wU2t2eTJOZHZoUndYZnc1TUJ2X2RrRlV2WmZvTlBJY19xcWphZw?oc=5\" target=\"_blank\">Apple cuts iPhone 17 output amid worsening DRAM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is cutting iPhone 17 production due to a worsening DRAM shortage.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0cApple \u56e0 DRAM \u77ed\u7f3a\u52a0\u5267\u800c\u524a\u51cf iPhone 17 \u4ea7\u91cf\u3002\n\nWhy it matters:\nDRAM allocation is being pulled from consumer electronics toward AI datacenter memory demand, and that shortage is now visibly disrupting non-AI end markets \u2014 a sign memory supply is a binding constraint on the broader AI buildout, not just a hyperscaler cost line.\n\n\u5f71\u54cd:\nDRAM \u4ea7\u80fd\u6b63\u88ab\u4ece\u6d88\u8d39\u7535\u5b50\u8f6c\u5411 AI \u6570\u636e\u4e2d\u5fc3\u5185\u5b58\u9700\u6c42\uff0c\u5982\u4eca\u8fd9\u79cd\u77ed\u7f3a\u5df2\u7ecf\u660e\u663e\u51b2\u51fb\u5230\u975e AI \u7ec8\u7aef\u5e02\u573a\u2014\u2014\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5df2\u6210\u4e3a\u6574\u4e2a AI \u57fa\u5efa\u6269\u5f20\u7684\u786c\u7ea6\u675f\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u6210\u672c\u9879\u3002\n",
       "emailed": false
     }
   ],
