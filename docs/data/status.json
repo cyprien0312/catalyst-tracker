@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784672783,
-  "generated_at_str": "2026-07-21 22:26:23 UTC",
-  "last_event_ts": 1784672045,
+  "generated_at": 1784672946,
+  "generated_at_str": "2026-07-21 22:29:06 UTC",
+  "last_event_ts": 1784672945,
   "tables": {
     "alerts_dedup": {
-      "count": 2577,
-      "last_ts": 1784671507,
-      "last_str": "2026-07-21 22:05:07 UTC"
+      "count": 2578,
+      "last_ts": 1784672945,
+      "last_str": "2026-07-21 22:29:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-02 04:53:03 UTC"
     },
     "c10_signals": {
-      "count": 19,
-      "last_ts": 1784586543,
-      "last_str": "2026-07-20 22:29:03 UTC"
+      "count": 20,
+      "last_ts": 1784672944,
+      "last_str": "2026-07-21 22:29:04 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2585,
+      "ts": 1784672945,
+      "ts_str": "2026-07-21 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.35% (+52bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-20\nCurrent:  2.35%\n90d low:  1.83%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
+      "emailed": true
+    },
     {
       "id": 2583,
       "ts": 1784671507,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C8-MED] CPI YoY 3.7% (\u2265 3.5%) \u2014 Fed cuts blocked",
       "body": "Metric:   CPI YoY\nMonth:    2026-06-01\nYoY:      3.73%\nThreshold: 3.5%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCPI rose 3.73% YoY in June 2026, crossing the 3.5% hot-CPI trigger.\n\n\u5185\u5bb9:\n2026\u5e746\u6708CPI\u540c\u6bd4\u4e0a\u6da83.73%\uff0c\u7a81\u78343.5%\u7684\"CPI\u8fc7\u70ed\"\u89e6\u53d1\u9608\u503c\u3002\n\nWhy it matters:\nSticky above-target inflation keeps the Fed from cutting into an AI-capex-fueled boom, raising real financing costs right when hyperscaler debt/capex spend is at its most stretched.\n\n\u5f71\u54cd:\n\u901a\u80c0\u987d\u56fa\u5730\u9ad8\u4e8e\u76ee\u6807\u6c34\u5e73\uff0c\u4f7f\u7f8e\u8054\u50a8\u96be\u4ee5\u5728AI\u8d44\u672c\u5f00\u652f\u70ed\u6f6e\u4e2d\u964d\u606f\uff0c\u800c\u8fd9\u6070\u6070\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u503a\u52a1\u548c\u8d44\u672c\u652f\u51fa\u6700\u7d27\u7ef7\u7684\u65f6\u5019\uff0c\u878d\u8d44\u5b9e\u9645\u6210\u672c\u56e0\u6b64\u4e0a\u5347\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2385,
-      "ts": 1784063653,
-      "ts_str": "2026-07-14 21:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] DeepSeek plots $71B IPO to challenge OpenAI in global AI race - Crypto News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 21:11:56 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TkJRLTI0YThrZ1FIc3VtZXBvWHpSbVdoVThhR1kzVE5hN3NmMnlmSzVEd2FraEYtRm9oSVVsWFVici0yWThNdG96cldhTFBPSXVNYkI0Qy1BV3pxNFlXWEFONlNEdGxBakdESEVNSDJrOTNGZFJkVmhyZ2ZXYUk?oc=5\n\nDeepSeek plots $71B IPO to challenge OpenAI in global AI race - Crypto News\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TkJRLTI0YThrZ1FIc3VtZXBvWHpSbVdoVThhR1kzVE5hN3NmMnlmSzVEd2FraEYtRm9oSVVsWFVici0yWThNdG96cldhTFBPSXVNYkI0Qy1BV3pxNFlXWEFONlNEdGxBakdESEVNSDJrOTNGZFJkVmhyZ2ZXYUk?oc=5\" target=\"_blank\">DeepSeek plots $71B IPO to challenge OpenAI in global AI race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports DeepSeek is planning a $71B IPO to challenge OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0 DeepSeek \u6b63\u8ba1\u5212\u4ee5 $71B \u4f30\u503c IPO\uff0c\u610f\u5728\u6311\u6218 OpenAI\u3002\n\nWhy it matters:\nThis is competitive-landscape noise, not a direct OpenAI burn-rate or filing signal \u2014 it flags rising competitive pressure on OpenAI's pricing/spend but doesn't itself confirm the C3 burn-rate trigger.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u7ade\u4e89\u683c\u5c40\u5c42\u9762\u7684\u566a\u97f3\uff0c\u4e0d\u662f OpenAI \u76f4\u63a5\u7684\u8d44\u91d1\u6d88\u8017\u6216\u76d1\u7ba1\u6587\u4ef6\u4fe1\u53f7\u2014\u2014\u5b83\u63d0\u793a OpenAI \u9762\u4e34\u7684\u7ade\u4e89\u4e0e\u5b9a\u4ef7\u538b\u529b\u5728\u4e0a\u5347\uff0c\u4f46\u672c\u8eab\u5e76\u4e0d\u6784\u6210 C3 \u7684\u8d44\u91d1\u6d88\u8017\u7387\u89e6\u53d1\u6761\u4ef6\u3002\n",
       "emailed": false
     }
   ],
