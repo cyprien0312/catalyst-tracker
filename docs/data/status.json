@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784655124,
-  "generated_at_str": "2026-07-21 17:32:04 UTC",
-  "last_event_ts": 1784654048,
+  "generated_at": 1784655309,
+  "generated_at_str": "2026-07-21 17:35:09 UTC",
+  "last_event_ts": 1784655309,
   "tables": {
     "alerts_dedup": {
-      "count": 2555,
-      "last_ts": 1784652425,
-      "last_str": "2026-07-21 16:47:05 UTC"
+      "count": 2557,
+      "last_ts": 1784655309,
+      "last_str": "2026-07-21 17:35:09 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-21 16:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2804,
-      "last_ts": 1784653508,
-      "last_str": "2026-07-21 17:05:08 UTC"
+      "count": 2805,
+      "last_ts": 1784655303,
+      "last_str": "2026-07-21 17:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3321,
@@ -84,14 +84,14 @@
       "last_str": "2026-07-21 17:05:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2275,
-      "last_ts": 1784653509,
-      "last_str": "2026-07-21 17:05:09 UTC"
+      "count": 2276,
+      "last_ts": 1784655304,
+      "last_str": "2026-07-21 17:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2501,
-      "last_ts": 1784653511,
-      "last_str": "2026-07-21 17:05:11 UTC"
+      "count": 2505,
+      "last_ts": 1784655307,
+      "last_str": "2026-07-21 17:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17605,
@@ -291,6 +291,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2563,
+      "ts": 1784655309,
+      "ts_str": "2026-07-21 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 17:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\n\nNAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\" target=\"_blank\">NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2564,
+      "ts": 1784655309,
+      "ts_str": "2026-07-21 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 17:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\n\nNAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\" target=\"_blank\">NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2562,
       "ts": 1784652425,
@@ -2269,26 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Reclaims No. 1 Global Smartphone Spot From Apple Amid AI-Driven Memory Chip Shortage Crisis - International Busi",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 12:21:11 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMGJPNzRwZkYxU1E1MUtncGg2bjkzQl9NUTVidUhlb0JZRExjZDFBSmQ5MnhXdExncHhpblY1RndRNjgxcjNCcksxRWdiQVVZWDhGLXhlaEdSdGJKRjBEMGhEN1R2SkplQ01SZllIdjF1SXd2QVE3Ykx4d2I0dzR1cWsxVUd2enZFblFN?oc=5\n\nSamsung Reclaims No. 1 Global Smartphone Spot From Apple Amid AI-Driven Memory Chip Shortage Crisis - International Business Times Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMGJPNzRwZkYxU1E1MUtncGg2bjkzQl9NUTVidUhlb0JZRExjZDFBSmQ5MnhXdExncHhpblY1RndRNjgxcjNCcksxRWdiQVVZWDhGLXhlaEdSdGJKRjBEMGhEN1R2SkplQ01SZllIdjF1SXd2QVE3Ykx4d2I0dzR1cWsxVUd2enZFblFN?oc=5\" target=\"_blank\">Samsung Reclaims No. 1 Global Smartphone Spot From Apple Amid AI-Driven Memory Chip Shortage Crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item pairs Samsung's return to the No. 1 global smartphone spot with an \"AI-driven memory chip shortage crisis\" in its headline, indicating memory pricing/supply stress is now showing up in mainstream consumer-electronics coverage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u5c06\u4e09\u661f\u91cd\u593a\u5168\u7403\u667a\u80fd\u624b\u673a\u9500\u91cf\u7b2c\u4e00\u7684\u65b0\u95fb\u4e0e\"AI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5371\u673a\"\u5e76\u5217\u5728\u6807\u9898\u4e2d\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c/\u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u5f00\u59cb\u5f71\u54cd\u4e3b\u6d41\u6d88\u8d39\u7535\u5b50\u9886\u57df\u7684\u62a5\u9053\u3002\n\nWhy it matters:\nDRAM/NAND tightness driven by AI datacenter demand is starting to bleed into consumer device pricing and competitive positioning \u2014 a sign the memory shortage is broad enough to reshape non-AI markets, which raises input-cost risk for every hyperscaler still scaling AI infrastructure.\n\n\u5f71\u54cd:\n\u7531 AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u63a8\u52a8\u7684 DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u5f00\u59cb\u6ce2\u53ca\u6d88\u8d39\u7535\u5b50\u7684\u5b9a\u4ef7\u548c\u7ade\u4e89\u683c\u5c40\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5185\u5b58\u77ed\u7f3a\u7684\u5f71\u54cd\u8303\u56f4\u5df2\u7ecf\u5927\u5230\u91cd\u5851\u975e AI \u5e02\u573a\u2014\u2014\u8fd9\u5bf9\u6240\u6709\u4ecd\u5728\u6269\u5f20 AI \u57fa\u7840\u8bbe\u65bd\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u800c\u8a00\uff0c\u610f\u5473\u7740\u8f93\u5165\u6210\u672c\u98ce\u9669\u4e0a\u5347\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2364,
-      "ts": 1784033233,
-      "ts_str": "2026-07-14 12:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] How to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 12:11:29 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE91V2N0RHU1U3lQS2Y2RENOdXRHd0Q3LVBpUGdQZnVVcUl0UDBRWTI2OFJUdkNwSHJCUVp4YUlrSG9HMjJBZmFGRHFJUlRTU2dpbXQ0QWsxNVFUc2FMV0lldk13RE85dlh2WEFQQlB4UlRYN2cyTUU2YVJUMW0?oc=5\n\nHow to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Company at $10.5 Trillion - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE91V2N0RHU1U3lQS2Y2RENOdXRHd0Q3LVBpUGdQZnVVcUl0UDBRWTI2OFJUdkNwSHJCUVp4YUlrSG9HMjJBZmFGRHFJUlRTU2dpbXQ0QWsxNVFUc2FMV0lldk13RE85dlh2WEFQQlB4UlRYN2cyTUU2YVJUMW0?oc=5\" target=\"_blank\">How to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Company at $10.5 Trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nRaymond James set an $800 price target on SpaceX, implying a $10.5T valuation for Elon Musk's company.\n\n\u5185\u5bb9:\nRaymond James \u5bf9 SpaceX \u7ed9\u51fa $800 \u76ee\u6807\u4ef7\uff0c\u9690\u542b\u57c3\u9686\u00b7\u9a6c\u65af\u514b\u516c\u53f8\u4f30\u503c\u8fbe $10.5T\u3002\n\nWhy it matters:\nA private-market price target that size is itself a bubble marker \u2014 it's being cited as a textbook example of stretched valuations tied to the AI/space infrastructure buildout, not a hard SEC or flow event.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u91cf\u7ea7\u7684\u4e00\u7ea7\u5e02\u573a\u76ee\u6807\u4ef7\u672c\u8eab\u5c31\u662f\u6ce1\u6cab\u4fe1\u53f7\u2014\u2014\u6587\u7ae0\u628a\u5b83\u5f53\u4f5c AI/\u592a\u7a7a\u57fa\u7840\u8bbe\u65bd\u70ed\u6f6e\u4e0b\u4f30\u503c\u8fc7\u5ea6\u62c9\u4f38\u7684\u6559\u79d1\u4e66\u6848\u4f8b\u6765\u5f15\u7528,\u800c\u4e0d\u662f\u4e00\u6b21\u5b9e\u8d28\u6027\u7684 SEC \u62ab\u9732\u6216\u8d44\u91d1\u6d41\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2363,
-      "ts": 1784029632,
-      "ts_str": "2026-07-14 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] How to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 11:39:07 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPNl9qWVNKWDJaWF94M1NWYXVORUpoUlpKdnB1WEJhUkdOMWs2d0I1NHNrQU5jNWFsakpMbEpaOFFjRkRQSXZzV21ValJkU0xKdXpsd2JlNGxpZXRTcHM4N3ZEM2p2X2tzaUhJS1lkZEhqemlOY1VBZkZYVGVQaHFjZVNaNVhCcDFJVV9QR2gyaVdQTHdQbGE3WQ?oc=5\n\nHow to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Company at $10.5 Trillion - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPNl9qWVNKWDJaWF94M1NWYXVORUpoUlpKdnB1WEJhUkdOMWs2d0I1NHNrQU5jNWFsakpMbEpaOFFjRkRQSXZzV21ValJkU0xKdXpsd2JlNGxpZXRTcHM4N3ZEM2p2X2tzaUhJS1lkZEhqemlOY1VBZkZYVGVQaHFjZVNaNVhCcDFJVV9QR2gyaVdQTHdQbGE3WQ?oc=5\" target=\"_blank\">How to Spot a Stock Market Bubble 101: Raymond James Just Placed an $800 Price Target on SpaceX, Valuing Elon Musk's Company at $10.5 Trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool article covering Raymond James's $800 price target on SpaceX implies a ~$10.5 trillion valuation for Elon Musk's company.\n\n\u5185\u5bb9:\nMotley Fool \u4e00\u7bc7\u6587\u7ae0\u62a5\u9053\uff0cRaymond James \u7ed9 SpaceX \u5b9a\u51fa $800 \u76ee\u6807\u4ef7\uff0c\u9690\u542b Elon Musk \u516c\u53f8\u4f30\u503c\u7ea6 $10.5 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nA private valuation this large feeds directly into the SPCX unlock-calendar thesis: bigger implied marks raise the stakes on lock-up tranches and any eventual public listing, and analyst target inflation of this size is itself a bubble-froth tell.\n\n\u5f71\u54cd:\n\u5982\u6b64\u5de8\u5927\u7684\u79c1\u52df\u4f30\u503c\u76f4\u63a5\u653e\u5927\u4e86 SPCX \u89e3\u7981\u65e5\u5386\u8fd9\u6761\u4e3b\u7ebf\u7684\u8d4c\u6ce8\u2014\u2014\u4f30\u503c\u8d8a\u9ad8\uff0c\u672a\u6765\u89e3\u7981\u6279\u6b21\u548c\u6f5c\u5728\u4e0a\u5e02\u7684\u5f71\u54cd\u5c31\u8d8a\u5927\uff1b\u800c\u5206\u6790\u5e08\u7ed9\u51fa\u8fd9\u79cd\u89c4\u6a21\u7684\u76ee\u6807\u4ef7\u672c\u8eab\u4e5f\u662f\u6ce1\u6cab\u8fc7\u70ed\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
