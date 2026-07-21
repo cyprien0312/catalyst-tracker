@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784671332,
-  "generated_at_str": "2026-07-21 22:02:12 UTC",
-  "last_event_ts": 1784670425,
+  "generated_at": 1784671508,
+  "generated_at_str": "2026-07-21 22:05:08 UTC",
+  "last_event_ts": 1784671507,
   "tables": {
     "alerts_dedup": {
-      "count": 2575,
-      "last_ts": 1784670425,
-      "last_str": "2026-07-21 21:47:05 UTC"
+      "count": 2577,
+      "last_ts": 1784671507,
+      "last_str": "2026-07-21 22:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-21 20:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2817,
-      "last_ts": 1784669702,
-      "last_str": "2026-07-21 21:35:02 UTC"
+      "count": 2818,
+      "last_ts": 1784671502,
+      "last_str": "2026-07-21 22:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3332,
-      "last_ts": 1784669704,
-      "last_str": "2026-07-21 21:35:04 UTC"
+      "count": 3333,
+      "last_ts": 1784671504,
+      "last_str": "2026-07-21 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2285,
-      "last_ts": 1784666103,
-      "last_str": "2026-07-21 20:35:03 UTC"
+      "count": 2286,
+      "last_ts": 1784671503,
+      "last_str": "2026-07-21 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2516,
@@ -291,6 +291,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2583,
+      "ts": 1784671507,
+      "ts_str": "2026-07-21 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash shortages are expected to end in 2027, per new report - TweakTown",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 21:45:09 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhPZ290bGFKQUxQTGxRZFZ3cEJMMzl2Z21LNnpYeXF2VEpHOGluUGotcFVGMWVOTVBzYjl4VkFZLVh1UG1sajFaczBHczlKSTN0TTlCQzhJZXFNQzJPNzB1Tzg3bmNOQWl6UzdWaXJwQkVFZEFHLWlsRWtaQ09WQXZPZVF0SWpKSWxJbDE3amQyMWdldy03enJrSWtGQ0RFSmR3WUhGcHVLcjQ3NG1HOVdR?oc=5\n\nNAND Flash shortages are expected to end in 2027, per new report - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhPZ290bGFKQUxQTGxRZFZ3cEJMMzl2Z21LNnpYeXF2VEpHOGluUGotcFVGMWVOTVBzYjl4VkFZLVh1UG1sajFaczBHczlKSTN0TTlCQzhJZXFNQzJPNzB1Tzg3bmNOQWl6UzdWaXJwQkVFZEFHLWlsRWtaQ09WQXZPZVF0SWpKSWxJbDE3amQyMWdldy03enJrSWtGQ0RFSmR3WUhGcHVLcjQ3NG1HOVdR?oc=5\" target=\"_blank\">NAND Flash shortages are expected to end in 2027, per new report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2584,
+      "ts": 1784671507,
+      "ts_str": "2026-07-21 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash shortages are expected to end in 2027, per new report - TweakTown",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 21:45:09 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhPZ290bGFKQUxQTGxRZFZ3cEJMMzl2Z21LNnpYeXF2VEpHOGluUGotcFVGMWVOTVBzYjl4VkFZLVh1UG1sajFaczBHczlKSTN0TTlCQzhJZXFNQzJPNzB1Tzg3bmNOQWl6UzdWaXJwQkVFZEFHLWlsRWtaQ09WQXZPZVF0SWpKSWxJbDE3amQyMWdldy03enJrSWtGQ0RFSmR3WUhGcHVLcjQ3NG1HOVdR?oc=5\n\nNAND Flash shortages are expected to end in 2027, per new report - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQVzhPZ290bGFKQUxQTGxRZFZ3cEJMMzl2Z21LNnpYeXF2VEpHOGluUGotcFVGMWVOTVBzYjl4VkFZLVh1UG1sajFaczBHczlKSTN0TTlCQzhJZXFNQzJPNzB1Tzg3bmNOQWl6UzdWaXJwQkVFZEFHLWlsRWtaQ09WQXZPZVF0SWpKSWxJbDE3amQyMWdldy03enJrSWtGQ0RFSmR3WUhGcHVLcjQ3NG1HOVdR?oc=5\" target=\"_blank\">NAND Flash shortages are expected to end in 2027, per new report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2582,
       "ts": 1784670425,
@@ -2269,26 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] DeepSeek plots $71B IPO to challenge OpenAI in global AI race - Crypto News",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 21:11:56 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TkJRLTI0YThrZ1FIc3VtZXBvWHpSbVdoVThhR1kzVE5hN3NmMnlmSzVEd2FraEYtRm9oSVVsWFVici0yWThNdG96cldhTFBPSXVNYkI0Qy1BV3pxNFlXWEFONlNEdGxBakdESEVNSDJrOTNGZFJkVmhyZ2ZXYUk?oc=5\n\nDeepSeek plots $71B IPO to challenge OpenAI in global AI race - Crypto News\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFB4TkJRLTI0YThrZ1FIc3VtZXBvWHpSbVdoVThhR1kzVE5hN3NmMnlmSzVEd2FraEYtRm9oSVVsWFVici0yWThNdG96cldhTFBPSXVNYkI0Qy1BV3pxNFlXWEFONlNEdGxBakdESEVNSDJrOTNGZFJkVmhyZ2ZXYUk?oc=5\" target=\"_blank\">DeepSeek plots $71B IPO to challenge OpenAI in global AI race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports DeepSeek is planning a $71B IPO to challenge OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0 DeepSeek \u6b63\u8ba1\u5212\u4ee5 $71B \u4f30\u503c IPO\uff0c\u610f\u5728\u6311\u6218 OpenAI\u3002\n\nWhy it matters:\nThis is competitive-landscape noise, not a direct OpenAI burn-rate or filing signal \u2014 it flags rising competitive pressure on OpenAI's pricing/spend but doesn't itself confirm the C3 burn-rate trigger.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u7ade\u4e89\u683c\u5c40\u5c42\u9762\u7684\u566a\u97f3\uff0c\u4e0d\u662f OpenAI \u76f4\u63a5\u7684\u8d44\u91d1\u6d88\u8017\u6216\u76d1\u7ba1\u6587\u4ef6\u4fe1\u53f7\u2014\u2014\u5b83\u63d0\u793a OpenAI \u9762\u4e34\u7684\u7ade\u4e89\u4e0e\u5b9a\u4ef7\u538b\u529b\u5728\u4e0a\u5347\uff0c\u4f46\u672c\u8eab\u5e76\u4e0d\u6784\u6210 C3 \u7684\u8d44\u91d1\u6d88\u8017\u7387\u89e6\u53d1\u6761\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2384,
-      "ts": 1784062033,
-      "ts_str": "2026-07-14 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next - The Globe and Mail",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 17:33:30 GMT\nLink:      https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbGFGWEw3SjNaazZ4MUFzY0h1cHNrcGhudWpFT1h3bmtWU1NORnMyaUFsZl92MEcwTnVRSHJneGxNUlFMX2VwOUUwOHlHSjlXS19jandJMzE4aXlGRC1DX3FTZ2FDLU9maEo5ZjQxZlM1U3k5QURxUlpRRkFwVHFFY292QjZOaWIxOUl0Tm1BMDdaZUZJMFFZZ1ZhREpNTkFpQUY3MW5zMVpIVUJ2eUxvTmhNNXZvRE1DS2lsOUw5d1Zkc0gxUHRuUHlDbnZrU0pvcDkwWEsySGtsRmJOd2VBMmVDUFdSRTZPd28weXBNbEV6YTA?oc=5\n\nSpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbGFGWEw3SjNaazZ4MUFzY0h1cHNrcGhudWpFT1h3bmtWU1NORnMyaUFsZl92MEcwTnVRSHJneGxNUlFMX2VwOUUwOHlHSjlXS19jandJMzE4aXlGRC1DX3FTZ2FDLU9maEo5ZjQxZlM1U3k5QURxUlpRRkFwVHFFY292QjZOaWIxOUl0Tm1BMDdaZUZJMFFZZ1ZhREpNTkFpQUY3MW5zMVpIVUJ2eUxvTmhNNXZvRE1DS2lsOUw5d1Zkc0gxUHRuUHlDbnZrU0pvcDkwWEsySGtsRmJOd2VBMmVDUFdSRTZPd28weXBNbEV6YTA?oc=5\" target=\"_blank\">SpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's Nasdaq-100 inclusion is drawing news coverage tying it to historical index-add stock patterns.\n\n\u5185\u5bb9:\nSpaceX \u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u4e00\u4e8b\u6b63\u5f15\u53d1\u5a92\u4f53\u62a5\u9053\uff0c\u5c06\u5176\u4e0e\u5386\u53f2\u4e0a\u6307\u6570\u7eb3\u5165\u540e\u7684\u80a1\u4ef7\u89c4\u5f8b\u76f8\u7c7b\u6bd4\u3002\n\nWhy it matters:\nIndex inclusion forces passive Nasdaq-100 trackers to buy SPCX shares mechanically, adding price support independent of fundamentals \u2014 the kind of index-mechanics flow the C11 signal is built to watch as unlock tranches vest.\n\n\u5f71\u54cd:\n\u6307\u6570\u7eb3\u5165\u4f1a\u8feb\u4f7f\u8ffd\u8e2a\u7eb3\u65af\u8fbe\u514b100\u7684\u88ab\u52a8\u57fa\u91d1\u673a\u68b0\u6027\u4e70\u5165 SPCX \u80a1\u7968\uff0c\u5f62\u6210\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u7684\u4ef7\u683c\u652f\u6491\u2014\u2014\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u5728\u89e3\u7981\u6279\u6b21\u9646\u7eed\u5230\u671f\u671f\u95f4\u9700\u8981\u91cd\u70b9\u5173\u6ce8\u7684\u6307\u6570\u673a\u5236\u578b\u8d44\u91d1\u6d41\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2383,
-      "ts": 1784061853,
-      "ts_str": "2026-07-14 20:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s growing challenges narrow its IPO window - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 18:13:25 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0JtalpQOFFCamdYSVZ0cVBwMDRMbG51N0hESmRsZ2MzOC1sS3NySm5idS1DclJXWmlXNVNpVDRzMG9vZ3o4NWFGNUVKZ0Fvc2pvNlRfSDM0Y1FmcUoxdE8zTzFUYWhuUmE3aGp5a0gwYzhiS2hRcmkwMmJCMjlnejRKeEtOUkstektrQnVHTzhVcmx2Qkd2RVlGYllSY1lJYVFIckFR?oc=5\n\nOpenAI\u2019s growing challenges narrow its IPO window - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0JtalpQOFFCamdYSVZ0cVBwMDRMbG51N0hESmRsZ2MzOC1sS3NySm5idS1DclJXWmlXNVNpVDRzMG9vZ3o4NWFGNUVKZ0Fvc2pvNlRfSDM0Y1FmcUoxdE8zTzFUYWhuUmE3aGp5a0gwYzhiS2hRcmkwMmJCMjlnejRKeEtOUkstektrQnVHTzhVcmx2Qkd2RVlGYllSY1lJYVFIckFR?oc=5\" target=\"_blank\">OpenAI\u2019s growing challenges narrow its IPO window</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News/MSN item reports OpenAI's growing challenges are narrowing its IPO window, with no ticker, numbers, or extracted metric attached.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News/MSN \u62a5\u9053\u79f0 OpenAI \u9762\u4e34\u7684\u6311\u6218\u6b63\u5728\u6536\u7a84\u5176 IPO \u7a97\u53e3\uff0c\u672a\u9644\u5e26 ticker\u3001\u5177\u4f53\u6570\u5b57\u6216\u63d0\u53d6\u7684\u6307\u6807\u3002\n\nWhy it matters:\nFeeds the C3 OpenAI-stress signal at MED severity \u2014 narrative-level headline risk rather than a filed burn-rate figure, but a shrinking IPO window for the largest private AI capex anchor is itself a bubble-stress tell worth tracking.\n\n\u5f71\u54cd:\n\u8be5\u6d88\u606f\u89e6\u53d1\u4e86 C3 OpenAI \u538b\u529b\u4fe1\u53f7\uff0c\u7ea7\u522b\u4e3a MED\u2014\u2014\u8fd9\u5c5e\u4e8e\u53d9\u4e8b\u5c42\u9762\u7684\u6807\u9898\u98ce\u9669\uff0c\u800c\u975e\u5df2\u62ab\u9732\u7684\u70e7\u94b1\u7387\u6570\u636e\uff0c\u4f46\u4f5c\u4e3a\u6700\u5927\u7684\u79c1\u8425 AI capex \u652f\u67f1\uff0c\u5176 IPO \u7a97\u53e3\u6536\u7a84\u672c\u8eab\u5c31\u662f\u503c\u5f97\u5173\u6ce8\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
