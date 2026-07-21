@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784635329,
-  "generated_at_str": "2026-07-21 12:02:09 UTC",
-  "last_event_ts": 1784634426,
+  "generated_at": 1784635511,
+  "generated_at_str": "2026-07-21 12:05:11 UTC",
+  "last_event_ts": 1784635507,
   "tables": {
     "alerts_dedup": {
-      "count": 2540,
-      "last_ts": 1784634426,
-      "last_str": "2026-07-21 11:47:06 UTC"
+      "count": 2542,
+      "last_ts": 1784635507,
+      "last_str": "2026-07-21 12:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-21 10:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2772,
-      "last_ts": 1784633707,
-      "last_str": "2026-07-21 11:35:07 UTC"
+      "count": 2774,
+      "last_ts": 1784635502,
+      "last_str": "2026-07-21 12:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3298,
-      "last_ts": 1784633710,
-      "last_str": "2026-07-21 11:35:10 UTC"
+      "count": 3300,
+      "last_ts": 1784635504,
+      "last_str": "2026-07-21 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2258,
-      "last_ts": 1784633709,
-      "last_str": "2026-07-21 11:35:09 UTC"
+      "count": 2260,
+      "last_ts": 1784635503,
+      "last_str": "2026-07-21 12:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2479,
-      "last_ts": 1784633711,
-      "last_str": "2026-07-21 11:35:11 UTC"
+      "count": 2480,
+      "last_ts": 1784635505,
+      "last_str": "2026-07-21 12:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17524,
@@ -291,6 +291,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2548,
+      "ts": 1784635507,
+      "ts_str": "2026-07-21 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman - Tech4Gamers",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 07:42:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWJTd1VTZF85Tl8tdkdBVmtTVXJGVDItTnFQczZONDluUGhRU3VmWUpKQWpQX3NqdVNkV0dKbll2U2dyMEthRUIyRUd4bV9YWXlIZGhYN1BGZ3I1UVJZaTRYUWRUdU45M2QxMi1vdE5lWjVFV0x5RC1EcGxzbWRkbFlR?oc=5\n\nDRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman - Tech4Gamers\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWJTd1VTZF85Tl8tdkdBVmtTVXJGVDItTnFQczZONDluUGhRU3VmWUpKQWpQX3NqdVNkV0dKbll2U2dyMEthRUIyRUd4bV9YWXlIZGhYN1BGZ3I1UVJZaTRYUWRUdU45M2QxMi1vdE5lWjVFV0x5RC1EcGxzbWRkbFlR?oc=5\" target=\"_blank\">DRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech4Gamers</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2549,
+      "ts": 1784635507,
+      "ts_str": "2026-07-21 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Report: NAND Flash Shortages to Finally End in 2027 - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 09:44:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFVNSnFYUXhqdHZkc3VLREJ6YS1TODhTOFJJYlcwcHZUNHR4UkE2UTZpRHJBVk5XeW9zWWR3aGZiMnBVbExLX3VoSmFXWmc0WGNacEJlS29UYk9OUWRObldoVUpDdFRmRGJqcl9CMmZHRHNLclZtZjF3VWRfRHN0V1pSSGNZajIzUUowMjhfalBMY1dnNW81UjI3TWVSNWZZWG9z?oc=5\n\nReport: NAND Flash Shortages to Finally End in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFVNSnFYUXhqdHZkc3VLREJ6YS1TODhTOFJJYlcwcHZUNHR4UkE2UTZpRHJBVk5XeW9zWWR3aGZiMnBVbExLX3VoSmFXWmc0WGNacEJlS29UYk9OUWRObldoVUpDdFRmRGJqcl9CMmZHRHNLclZtZjF3VWRfRHN0V1pSSGNZajIzUUowMjhfalBMY1dnNW81UjI3TWVSNWZZWG9z?oc=5\" target=\"_blank\">Report: NAND Flash Shortages to Finally End in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2546,
       "ts": 1784634426,
@@ -2270,26 +2290,6 @@
       "subject": "[C10-MED] 10y Real Yield rising: 2.32% (+54bp off 90d-low)",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-10\nCurrent:  2.32%\n90d low:  1.78%\nMove:     +54bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.32% from a trailing-90-day low of 1.78%, a 0.54pp jump as of 2026-07-10.\n\n\u5185\u5bb9:\n10\u5e74\u671f\u5b9e\u9645\u5229\u7387(TIPS)\u4ece\u8fc7\u53bb90\u5929\u4f4e\u70b91.78%\u5347\u81f32.32%\uff0c\u622a\u81f32026-07-10\u4e0a\u6da80.54\u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex bets \u2014 a sharp rise this size repriced growth/duration assets across the board and directly raises hyperscalers' cost of debt-funded capex. Crossing 2x the C10 trigger threshold escalates this from a MED to a HIGH liquidity-stress signal.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u662fAI\u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u62bc\u6ce8\u7684\u8d34\u73b0\u7387\u2014\u2014\u5982\u6b64\u5927\u5e45\u5ea6\u7684\u5feb\u901f\u4e0a\u5347\u4f1a\u91cd\u65b0\u7ed9\u6210\u957f\u578b/\u957f\u4e45\u671f\u8d44\u4ea7\u5b9a\u4ef7\uff0c\u5e76\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u4e3e\u503a\u652f\u6491capex\u7684\u878d\u8d44\u6210\u672c\u3002\u89e6\u53caC10\u9608\u503c\u76842\u500d\uff0c\u4fe1\u53f7\u7ea7\u522b\u4eceMED\u5347\u81f3HIGH\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2349,
-      "ts": 1783978515,
-      "ts_str": "2026-07-13 21:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron. - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 04:26:58 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxNSUxkSDNGYVdOdDBzM2FhUjZraG5TRGpqTnEzWkh6WXhEaDlVZGRLUlVKSFlIN0x2cFlEclNkbVFoNndsZ201RndORTZtd215NDFQQWY1UVdZVnAxd2pkR3JKRGVnejJwemFUUU04aGxENWRyYzh0NktaWEkyZE90X1VhRnNIXzhyME84aFlWNnUzc0RldU5XYkRjNnVmZ1pPN2ppVmJhcE5tSjBta0tEOUNRR0t2aHBvWDkxcF9md2ZhZ2NRdEF1bnZJOEc3UQ?oc=5\n\nSamsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron. - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNSUxkSDNGYVdOdDBzM2FhUjZraG5TRGpqTnEzWkh6WXhEaDlVZGRLUlVKSFlIN0x2cFlEclNkbVFoNndsZ201RndORTZtd215NDFQQWY1UVdZVnAxd2pkR3JKRGVnejJwemFUUU04aGxENWRyYzh0NktaWEkyZE90X1VhRnNIXzhyME84aFlWNnUzc0RldU5XYkRjNnVmZ1pPN2ppVmJhcE5tSjBta0tEOUNRR0t2aHBvWDkxcF9md2ZhZ2NRdEF1bnZJOEc3UQ?oc=5\" target=\"_blank\">Samsung plans to raise DRAM prices by 20% in Q3. What that means for rival Micron.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Samsung plans to raise DRAM prices by 20% in Q3, framed as a threat to Micron.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u4e09\u661f\u8ba1\u5212\u5728\u7b2c\u4e09\u5b63\u5ea6\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\uff0c\u62a5\u9053\u5c06\u5176\u89c6\u4e3a\u5bf9 Micron \u7684\u51b2\u51fb\u3002\n\nWhy it matters:\nA double-digit DRAM price hike signals tight memory supply feeding straight into AI server/GPU bill-of-materials costs \u2014 the opposite of the oversupply/cancellation pattern C6 also watches, but still evidence memory is a binding constraint on the AI-capex build-out, not a slack resource.\n\n\u5f71\u54cd:\n\u4e24\u4f4d\u6570\u7684 DRAM \u6da8\u4ef7\u610f\u5473\u7740\u5185\u5b58\u4f9b\u5e94\u5403\u7d27\uff0c\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u7684\u7269\u6599\u6210\u672c\u2014\u2014\u8fd9\u4e0e C6 \u540c\u65f6\u76d1\u6d4b\u7684\u4f9b\u8fc7\u4e8e\u6c42/\u8ba2\u5355\u53d6\u6d88\u6a21\u5f0f\u76f8\u53cd\uff0c\u4f46\u540c\u6837\u8bf4\u660e\u5185\u5b58\u6b63\u6210\u4e3a AI \u8d44\u672c\u5f00\u652f\u6269\u5f20\u7684\u786c\u7ea6\u675f\uff0c\u800c\u975e\u5bcc\u4f59\u8d44\u6e90\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2348,
-      "ts": 1783974914,
-      "ts_str": "2026-07-13 20:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] US-Iran Conflict Escalates, Oil Prices Surge; Asian Memory Chip Stocks Plunge, South Korea's Kospi Crashes 9% - finance.",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 14:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1xeWFaLU9ZNHJFOV9mRWt0NHNHWnZlU0tWeERtNFMtNDJQYzY2bDJJNlRKbEJfbktiT1gzQ0JIMF8yMG5jQjBJd0JfbndSNnpmbWVXZFVQVjNRNEt1dHFQT0tfN29Ca3JOM0JBQXM3dF9rbWVEdWc?oc=5\n\nUS-Iran Conflict Escalates, Oil Prices Surge; Asian Memory Chip Stocks Plunge, South Korea's Kospi Crashes 9% - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1xeWFaLU9ZNHJFOV9mRWt0NHNHWnZlU0tWeERtNFMtNDJQYzY2bDJJNlRKbEJfbktiT1gzQ0JIMF8yMG5jQjBJd0JfbndSNnpmbWVXZFVQVjNRNEt1dHFQT0tfN29Ca3JOM0JBQXM3dF9rbWVEdWc?oc=5\" target=\"_blank\">US-Iran Conflict Escalates, Oil Prices Surge; Asian Memory Chip Stocks Plunge, South Korea's Kospi Crashes 9%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item links the Israel-Iran conflict and oil-price spike to a plunge in Asian memory-chip stocks and a 9% crash in South Korea's Kospi.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c\u4ee5\u8272\u5217-\u4f0a\u6717\u51b2\u7a81\u5347\u7ea7\u63a8\u9ad8\u6cb9\u4ef7\uff0c\u5bfc\u81f4\u4e9a\u6d32\u5b58\u50a8\u82af\u7247\u80a1\u66b4\u8dcc\uff0c\u97e9\u56fd Kospi \u6307\u6570\u66b4\u8dcc 9%\u3002\n\nWhy it matters:\nGeopolitical/oil shock, not a fab or demand-side event, is driving the memory selloff \u2014 this is macro contagion tripping the C6 price-stress trigger rather than a genuine DRAM/NAND supply-demand signal, so it's weak evidence for the AI-capex bubble-stress thesis on its own.\n\n\u5f71\u54cd:\n\u8fd9\u6b21\u5b58\u50a8\u82af\u7247\u629b\u552e\u662f\u7531\u5730\u7f18\u653f\u6cbb\u4e0e\u6cb9\u4ef7\u51b2\u51fb\u5f15\u53d1\u7684\u5b8f\u89c2\u4f20\u5bfc\uff0c\u800c\u975e\u6676\u5706\u4ea7\u80fd\u6216\u4f9b\u9700\u9762\u4e8b\u4ef6\u2014\u2014\u867d\u7136\u89e6\u53d1\u4e86 C6 \u4ef7\u683c\u538b\u529b\u4fe1\u53f7\uff0c\u4f46\u4f5c\u4e3a AI capex \u6ce1\u6cab\u538b\u529b\u8bba\u7684\u8bc1\u636e\u672c\u8eab\u8f83\u5f31\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
