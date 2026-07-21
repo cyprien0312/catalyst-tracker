@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784611927,
-  "generated_at_str": "2026-07-21 05:32:07 UTC",
-  "last_event_ts": 1784610847,
+  "generated_at": 1784612106,
+  "generated_at_str": "2026-07-21 05:35:06 UTC",
+  "last_event_ts": 1784612105,
   "tables": {
     "alerts_dedup": {
-      "count": 2528,
-      "last_ts": 1784608507,
-      "last_str": "2026-07-21 04:35:07 UTC"
+      "count": 2529,
+      "last_ts": 1784612105,
+      "last_str": "2026-07-21 05:35:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-21 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2741,
-      "last_ts": 1784610302,
-      "last_str": "2026-07-21 05:05:02 UTC"
+      "count": 2743,
+      "last_ts": 1784612102,
+      "last_str": "2026-07-21 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3283,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-21 05:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2244,
-      "last_ts": 1784610303,
-      "last_str": "2026-07-21 05:05:03 UTC"
+      "count": 2245,
+      "last_ts": 1784612102,
+      "last_str": "2026-07-21 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2463,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2536,
+      "ts": 1784612105,
+      "ts_str": "2026-07-21 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR5 RAM Prices Surge 4.5-Fold in a Year; Morgan Stanley Sees Another 25%+ Jump in Q3 - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 02:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5zeE5FRkRrRDJaV3hEcE84elBsSnZod1pEU1JPb1BRVk4xdlZYTlFrLUhkZ2cyT1ZweWpySzhESjc5aEZYcXRPVy12N2hzOEdnMTRMTlRQall0SFlvdVBuLWhfZWNkU3YzRHZoY0xWWFJxZFIzRVE?oc=5\n\nDDR5 RAM Prices Surge 4.5-Fold in a Year; Morgan Stanley Sees Another 25%+ Jump in Q3 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5zeE5FRkRrRDJaV3hEcE84elBsSnZod1pEU1JPb1BRVk4xdlZYTlFrLUhkZ2cyT1ZweWpySzhESjc5aEZYcXRPVy12N2hzOEdnMTRMTlRQall0SFlvdVBuLWhfZWNkU3YzRHZoY0xWWFJxZFIzRVE?oc=5\" target=\"_blank\">DDR5 RAM Prices Surge 4.5-Fold in a Year; Morgan Stanley Sees Another 25%+ Jump in Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2533,
       "ts": 1784608507,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK Hynix Warns of Worst AI Memory Chip Shortage by 2027 - HOKANEWS.COM",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 12:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxONERDR2RTZWlodGdkQlNsVDhuUmdlMmdZVzdLdlFEdC1TMkR2bXRlM256S095ejhINThmVTZJVHo0Z05FTzlqT2RTTjk3RUhVb3N0SzJkR2NoOURzb2NleGQzTFluQ0ktNlNQWW1sMVBhYmprd2FnTlVmNnNmRUJDZ0dR?oc=5\n\nSK Hynix Warns of Worst AI Memory Chip Shortage by 2027 - HOKANEWS.COM\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxONERDR2RTZWlodGdkQlNsVDhuUmdlMmdZVzdLdlFEdC1TMkR2bXRlM256S095ejhINThmVTZJVHo0Z05FTzlqT2RTTjk3RUhVb3N0SzJkR2NoOURzb2NleGQzTFluQ0ktNlNQWW1sMVBhYmprd2FnTlVmNnNmRUJDZ0dR?oc=5\" target=\"_blank\">SK Hynix Warns of Worst AI Memory Chip Shortage by 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HOKANEWS.COM</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix warned that the AI memory chip shortage will be the worst on record through 2027, per HOKANEWS.\n\n\u5185\u5bb9:\nSK Hynix \u8b66\u544a\u79f0\uff0cAI \u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u5728 2027 \u5e74\u524d\u8fbe\u5230\u6709\u8bb0\u5f55\u4ee5\u6765\u6700\u4e25\u91cd\u7684\u7a0b\u5ea6\uff0c\u6d88\u606f\u6765\u81ea HOKANEWS\u3002\n\nWhy it matters:\nHBM/DRAM supply is a hard bottleneck under every AI accelerator; a multi-year shortage caps GPU system shipments and pushes up hyperscaler capex costs even as chip fabs can't be spun up fast enough to relieve it \u2014 reinforcing that the AI buildout is supply-constrained, not just demand-constrained.\n\n\u5f71\u54cd:\nHBM/DRAM \u4f9b\u5e94\u662f\u6240\u6709 AI \u52a0\u901f\u5361\u7684\u786c\u74f6\u9888\uff0c\u957f\u8fbe\u6570\u5e74\u7684\u77ed\u7f3a\u4f1a\u9650\u5236 GPU \u6574\u673a\u51fa\u8d27\u91cf\uff0c\u5e76\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u652f\u51fa\u6210\u672c\uff0c\u800c\u6676\u5706\u4ea7\u80fd\u53c8\u65e0\u6cd5\u5feb\u901f\u6269\u5f20\u6765\u7f13\u89e3\u2014\u2014\u8fd9\u8bf4\u660e AI \u57fa\u5efa\u6269\u5f20\u6b63\u53d7\u5230\u4f9b\u7ed9\u7aef\u800c\u975e\u4ec5\u4ec5\u9700\u6c42\u7aef\u7684\u5236\u7ea6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2336,
-      "ts": 1783944317,
-      "ts_str": "2026-07-13 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Shortage Drives Up Prices for Consumer Goods - The Japan News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 13 Jul 2026 11:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1vQ1VqRTNwd0FWSi1HRG1vWGlFSDMxMDZRVWk0VE9kUHJLaUNrcUhJdEpwbVB2cTkycndYcEEtZm9sQ1VOR1Njdk5KSEhVeUtUOVVZbFRWS2tuSlpCa2VzZVJrN1h1clBqNG1oR19oRUxpX2ZXS2c?oc=5\n\nMemory Chip Shortage Drives Up Prices for Consumer Goods - The Japan News\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1vQ1VqRTNwd0FWSi1HRG1vWGlFSDMxMDZRVWk0VE9kUHJLaUNrcUhJdEpwbVB2cTkycndYcEEtZm9sQ1VOR1Njdk5KSEhVeUtUOVVZbFRWS2tuSlpCa2VzZVJrN1h1clBqNG1oR19oRUxpX2ZXS2c?oc=5\" target=\"_blank\">Memory Chip Shortage Drives Up Prices for Consumer Goods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Japan News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Japan News article reports memory chip shortages are pushing up prices for consumer goods.\n\n\u5185\u5bb9:\n\u300a\u8bfb\u5356\u65b0\u95fb\u300b\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6d88\u8d39\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nConfirms tightening DRAM/NAND supply is now visible in downstream consumer pricing, not just enterprise/hyperscaler procurement \u2014 consistent with the memory-constrained-buildout thesis where AI demand crowds out other memory buyers, but this is a single secondary-market news item, not a hyperscaler-side data point.\n\n\u5f71\u54cd:\n\u8fd9\u8868\u660e DRAM/NAND \u4f9b\u5e94\u8d8b\u7d27\u7684\u5f71\u54cd\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u54c1\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u800c\u4e0d\u53ea\u662f\u4f01\u4e1a/\u8d85\u5927\u89c4\u6a21\u5382\u5546\u91c7\u8d2d\u7aef\u2014\u2014\u4e0e AI \u9700\u6c42\u6324\u5360\u5185\u5b58\u4f9b\u5e94\u7684\u8bba\u70b9\u76f8\u7b26\uff0c\u4f46\u8fd9\u53ea\u662f\u4e00\u6761\u4e8c\u7ea7\u5e02\u573a\u65b0\u95fb\uff0c\u5e76\u975e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4fa7\u7684\u76f4\u63a5\u6570\u636e\u3002\n",
       "emailed": false
     }
   ],
