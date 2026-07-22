@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784759529,
-  "generated_at_str": "2026-07-22 22:32:09 UTC",
-  "last_event_ts": 1784759343,
+  "generated_at": 1784759706,
+  "generated_at_str": "2026-07-22 22:35:06 UTC",
+  "last_event_ts": 1784759705,
   "tables": {
     "alerts_dedup": {
-      "count": 2640,
-      "last_ts": 1784759343,
-      "last_str": "2026-07-22 22:29:03 UTC"
+      "count": 2641,
+      "last_ts": 1784759705,
+      "last_str": "2026-07-22 22:35:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-22 21:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2884,
-      "last_ts": 1784757902,
-      "last_str": "2026-07-22 22:05:02 UTC"
+      "count": 2887,
+      "last_ts": 1784759701,
+      "last_str": "2026-07-22 22:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3396,
-      "last_ts": 1784757905,
-      "last_str": "2026-07-22 22:05:05 UTC"
+      "count": 3398,
+      "last_ts": 1784759703,
+      "last_str": "2026-07-22 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2331,
-      "last_ts": 1784757903,
-      "last_str": "2026-07-22 22:05:03 UTC"
+      "count": 2333,
+      "last_ts": 1784759702,
+      "last_str": "2026-07-22 22:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2584,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2648,
+      "ts": 1784759705,
+      "ts_str": "2026-07-22 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:34:45 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB0gG7AUFVX3lxTE5QQ3U5UGNhSllybUZPWHNkejIzbHRCTHRKMUF2ZkYycjZZSzIzSUl3U1lhdzZYTENFTUhjODAwaXlJbGpUbldoZkREUE9HbE05N1U2b2dFUjlQNWZITjNyVEhrWDlyc25rdUFRZEExZGVoTFZxYXE0TUhuZUR1bnlvNWxCRHBsTUtJVEIwWlZNeEJXTklnWWxlemNYOENxSEozdlhhTnhVMEFUMjRjNzB5TVZ2RFFCX0xIWkE?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB0gG7AUFVX3lxTE5QQ3U5UGNhSllybUZPWHNkejIzbHRCTHRKMUF2ZkYycjZZSzIzSUl3U1lhdzZYTENFTUhjODAwaXlJbGpUbldoZkREUE9HbE05N1U2b2dFUjlQNWZITjNyVEhrWDlyc25rdUFRZEExZGVoTFZxYXE0TUhuZUR1bnlvNWxCRHBsTUtJVEIwWlZNeEJXTklnWWxlemNYOENxSEozdlhhTnhVMEFUMjRjNzB5TVZ2RFFCX0xIWkE?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2647,
       "ts": 1784759343,
@@ -2279,16 +2289,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX stock slump deepens ahead of lockup expiry - MSN",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 18:21:11 GMT\nLink:      https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNmp5SXMxRkd1Zm1sQTFBUnFqb2s4NnBrbXJjdmR0d3ZpX1p3dl9wZ2NWYkQwaUl6aGVjdlFpOHdaVmsxeDJVbDN1QVVmR1kyMk9XSk9fa0VPRGt6Mm5GRUV6aXVlV0pic0NJOXctc1Ixclg0Yjg2dVdKMmZlMHJiV3JrZFA3N2MtWVB5MF91OFF2LUlYTWU4cTBKMkdTeWxRVzVuVVlaQXNFemVrNmlMdlZDSWFoajJ6ZFF1V1ZfbU9rbnlTQ2s4Uzd5NWtGS2xWQ0R1VFBYQWMtaHBOYVVleU1WcENIUQ?oc=5\n\nSpaceX stock slump deepens ahead of lockup expiry - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNmp5SXMxRkd1Zm1sQTFBUnFqb2s4NnBrbXJjdmR0d3ZpX1p3dl9wZ2NWYkQwaUl6aGVjdlFpOHdaVmsxeDJVbDN1QVVmR1kyMk9XSk9fa0VPRGt6Mm5GRUV6aXVlV0pic0NJOXctc1Ixclg0Yjg2dVdKMmZlMHJiV3JrZFA3N2MtWVB5MF91OFF2LUlYTWU4cTBKMkdTeWxRVzVuVVlaQXNFemVrNmlMdlZDSWFoajJ6ZFF1V1ZfbU9rbnlTQ2s4Uzd5NWtGS2xWQ0R1VFBYQWMtaHBOYVVleU1WcENIUQ?oc=5\" target=\"_blank\">SpaceX stock slump deepens ahead of lockup expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item ('SpaceX stock slump deepens ahead of lockup expiry', MSN) flags mounting pre-unlock selling pressure on SpaceX private stock ahead of its lock-up expiry.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\uff08'SpaceX stock slump deepens ahead of lockup expiry'\uff0c\u6765\u6e90 MSN\uff09\u663e\u793a\uff0c\u5728 SpaceX \u79c1\u52df\u80a1\u4efd\u89e3\u7981\u524d\uff0c\u629b\u552e\u538b\u529b\u6b63\u5728\u52a0\u5927\uff0c\u80a1\u4ef7\u6301\u7eed\u8d70\u5f31\u3002\n\nWhy it matters:\nWeakening secondary-market pricing right before a major insider unlock is a leading indicator of supply overhang hitting the tape \u2014 relevant to the C11 thesis that SpaceX's IPO/unlock mechanics could pressure AI-infra-adjacent valuations once shares become liquid.\n\n\u5f71\u54cd:\n\u5728\u91cd\u5927\u5185\u90e8\u4eba\u89e3\u7981\u524d\uff0c\u4e8c\u7ea7\u5e02\u573a\u5b9a\u4ef7\u8d70\u5f31\u662f\u4f9b\u7ed9\u8fc7\u5269\u5373\u5c06\u51b2\u51fb\u5e02\u573a\u7684\u9886\u5148\u4fe1\u53f7\uff0c\u8fd9\u4e0e C11 \u7684\u8bba\u70b9\u76f8\u5173\u2014\u2014SpaceX \u7684 IPO/\u89e3\u7981\u673a\u5236\u4e00\u65e6\u80a1\u4efd\u53d8\u5f97\u53ef\u6d41\u901a\uff0c\u53ef\u80fd\u4f1a\u5bf9 AI \u57fa\u7840\u8bbe\u65bd\u76f8\u5173\u4f30\u503c\u9020\u6210\u538b\u529b\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2448,
-      "ts": 1784240954,
-      "ts_str": "2026-07-16 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.32% (+54bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-15\nCurrent:  2.32%\n90d low:  1.78%\nMove:     +54bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe C10 broad-USD/real-yield gauge fired REAL_YIELD_SPIKE: the 10-year TIPS real yield jumped from a trailing-90-day low of 1.78% to 2.32% as of 2026-07-15, a 0.54pp rise.\n\n\u5185\u5bb9:\nC10 \u5e7f\u4e49\u7f8e\u5143/\u5b9e\u9645\u6536\u76ca\u7387\u6307\u6807\u89e6\u53d1\u4e86 REAL_YIELD_SPIKE \u4fe1\u53f7\uff1a\u622a\u81f3 2026-07-15\uff0c10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u4ece\u8fc7\u53bb90\u5929\u4f4e\u70b9 1.78% \u8df3\u5347\u81f3 2.32%\uff0c\u6da8\u5e45 0.54 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to hyperscalers' long-dated AI-capex payoffs, directly compressing the valuation multiples that justify current spending. It's also a tightening-financial-conditions signal that makes debt-funded capex (see C4 FCF trends) more expensive right when it's already growing.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u957f\u671f AI capex \u56de\u62a5\u7684\u8d34\u73b0\u7387\uff0c\u76f4\u63a5\u538b\u7f29\u652f\u6491\u5f53\u524d\u652f\u51fa\u903b\u8f91\u7684\u4f30\u503c\u500d\u6570\u3002\u8fd9\u4e5f\u662f\u91d1\u878d\u6761\u4ef6\u6536\u7d27\u7684\u4fe1\u53f7\uff0c\u610f\u5473\u7740\u672c\u5c31\u5728\u589e\u957f\u7684\u4e3e\u503a\u5f0f\u8d44\u672c\u5f00\u652f\uff08\u53c2\u89c1 C4 \u7684\u81ea\u7531\u73b0\u91d1\u6d41\u8d8b\u52bf\uff09\u6210\u672c\u4f1a\u8fdb\u4e00\u6b65\u4e0a\u5347\u3002\n",
       "emailed": true
     }
   ],
