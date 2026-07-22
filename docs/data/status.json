@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784725862,
-  "generated_at_str": "2026-07-22 13:11:02 UTC",
-  "last_event_ts": 1784725689,
+  "generated_at": 1784726048,
+  "generated_at_str": "2026-07-22 13:14:08 UTC",
+  "last_event_ts": 1784726047,
   "tables": {
     "alerts_dedup": {
-      "count": 2616,
-      "last_ts": 1784725513,
-      "last_str": "2026-07-22 13:05:13 UTC"
+      "count": 2617,
+      "last_ts": 1784726047,
+      "last_str": "2026-07-22 13:14:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,14 +64,14 @@
       "last_str": "2026-07-21 23:00:06 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3254,
-      "last_ts": 1784722445,
-      "last_str": "2026-07-22 12:14:05 UTC"
+      "count": 3257,
+      "last_ts": 1784726045,
+      "last_str": "2026-07-22 13:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 695,
-      "last_ts": 1784724246,
-      "last_str": "2026-07-22 12:44:06 UTC"
+      "count": 697,
+      "last_ts": 1784726045,
+      "last_str": "2026-07-22 13:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2860,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-22 13:05:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 17986,
-      "last_ts": 1784724243,
-      "last_str": "2026-07-22 12:44:03 UTC"
+      "count": 18000,
+      "last_ts": 1784726043,
+      "last_str": "2026-07-22 13:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2142,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2624,
+      "ts": 1784726047,
+      "ts_str": "2026-07-22 13:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI adds Nubank and BNY CEOs to board ahead of IPO - qz.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 12:49:20 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE53MGtWNDFLdGZsbVhBM1NWdEJmWC1NdDNXUWFyWTZfQWMtVHIxSFFJVnNMVGNodjItcjdBdVhqNFkyNmd3VWtBcENSUWk2Z2QtV1U1blNUWU83OVhwclhZSlprb0JtVmZiMVF1Vk8tZw?oc=5\n\nOpenAI adds Nubank and BNY CEOs to board ahead of IPO - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE53MGtWNDFLdGZsbVhBM1NWdEJmWC1NdDNXUWFyWTZfQWMtVHIxSFFJVnNMVGNodjItcjdBdVhqNFkyNmd3VWtBcENSUWk2Z2QtV1U1blNUWU83OVhwclhZSlprb0JtVmZiMVF1Vk8tZw?oc=5\" target=\"_blank\">OpenAI adds Nubank and BNY CEOs to board ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 2622,
       "ts": 1784725513,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Anthropic eyes October IPO, may list before OpenAI and DeepSeek - Crypto Briefing",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 19:52:19 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkVGOVVJeUdKeFVCUktMaFVib2ZfazVZTWFrZl9UdHRnek9PYnFGMWZyV3ZobWtYNEVqNGhWbmk1U2VnV3BmelRrUFdfS0FNblUwVmVhQWdINXdiYzIxOC1qVGloR3BIQUpnY0p5NE5hTVZrVEpETlVtUHFHMngxMFR1djZsZU9BMEFxMEVuNGtmOFRT?oc=5\n\nAnthropic eyes October IPO, may list before OpenAI and DeepSeek - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPNkVGOVVJeUdKeFVCUktMaFVib2ZfazVZTWFrZl9UdHRnek9PYnFGMWZyV3ZobWtYNEVqNGhWbmk1U2VnV3BmelRrUFdfS0FNblUwVmVhQWdINXdiYzIxOC1qVGloR3BIQUpnY0p5NE5hTVZrVEpETlVtUHFHMngxMFR1djZsZU9BMEFxMEVuNGtmOFRT?oc=5\" target=\"_blank\">Anthropic eyes October IPO, may list before OpenAI and DeepSeek</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Crypto Briefing article reports Anthropic is eyeing an October IPO and may list before OpenAI and DeepSeek.\n\n\u5185\u5bb9:\nCrypto Briefing \u62a5\u9053\u79f0 Anthropic \u6b63\u8003\u8651 10 \u6708 IPO\uff0c\u53ef\u80fd\u62a2\u5728 OpenAI \u548c DeepSeek \u4e4b\u524d\u4e0a\u5e02\u3002\n\nWhy it matters:\nAn Anthropic IPO race narrative pulls capital and attention toward frontier-lab valuations independent of underlying burn-rate fundamentals \u2014 it's sentiment/flow noise for the C3 OpenAI-stress thesis, not a burn-rate signal, so it stays MED.\n\n\u5f71\u54cd:\nAnthropic IPO \u62a2\u8dd1\u7684\u53d9\u4e8b\u4f1a\u628a\u8d44\u91d1\u548c\u5173\u6ce8\u5ea6\u5438\u5411\u524d\u6cbf\u5b9e\u9a8c\u5ba4\u7684\u4f30\u503c\uff0c\u800c\u4e0e\u70e7\u94b1\u7387\u57fa\u672c\u9762\u65e0\u5173\u2014\u2014\u8fd9\u5c5e\u4e8e\u60c5\u7eea\u9762/\u8d44\u91d1\u6d41\u566a\u97f3\uff0c\u5e76\u975e C3 \u70e7\u94b1\u7387\u4fe1\u53f7\u672c\u8eab\uff0c\u56e0\u6b64\u4ec5\u6807\u8bb0\u4e3a MED\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2424,
-      "ts": 1784144834,
-      "ts_str": "2026-07-15 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Needham raises SpaceX stock price target to $250 on AI, Starship By Investing.com - Investing.com South Africa",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 11:12:28 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnpHV0ZhWVV1WVlkQ21UZE1FcXM0blRNeTEwMTluaTJ0ZW9acV9yaUptTWJOVm1iczNOYWg3RmxRQXVEYW5WdEk0d0M0V0RFSFJobUNwZWhOVG5YWHRDV1JZMHdjTU1tX2pIOXBvdm1sMEFfa1N4NmFWQnhYckdiR3pFOVpDa1B3RWE0TG9oVUxEWF9BaHp0WTMybWlBTXA4TllhUE11RFVYQ0htMlowR3BJQlRFN1BoRnkyLU5Cc2U?oc=5\n\nNeedham raises SpaceX stock price target to $250 on AI, Starship By Investing.com - Investing.com South Africa\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbnpHV0ZhWVV1WVlkQ21UZE1FcXM0blRNeTEwMTluaTJ0ZW9acV9yaUptTWJOVm1iczNOYWg3RmxRQXVEYW5WdEk0d0M0V0RFSFJobUNwZWhOVG5YWHRDV1JZMHdjTU1tX2pIOXBvdm1sMEFfa1N4NmFWQnhYckdiR3pFOVpDa1B3RWE0TG9oVUxEWF9BaHp0WTMybWlBTXA4TllhUE11RFVYQ0htMlowR3BJQlRFN1BoRnkyLU5Cc2U?oc=5\" target=\"_blank\">Needham raises SpaceX stock price target to $250 on AI, Starship By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Needham raised its SpaceX price target to $250, citing AI and Starship.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cNeedham \u5c06 SpaceX \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $250\uff0c\u7406\u7531\u662f AI \u548c Starship \u4e1a\u52a1\u3002\n\nWhy it matters:\nRising analyst valuations ahead of an IPO/liquidity event inflate the mark used for lock-up unlock sizing and index-inclusion flow estimates \u2014 this is sentiment/valuation noise, not a filing or hard data point, so it should be weighted lightly against the unlock calendar and ETF-holdings legs.\n\n\u5f71\u54cd:\nIPO / \u6d41\u52a8\u6027\u4e8b\u4ef6\u524d\u5206\u6790\u5e08\u4f30\u503c\u4e0a\u8c03\uff0c\u4f1a\u63a8\u9ad8\u89e3\u7981\u89c4\u6a21\u548c\u6307\u6570\u7eb3\u5165\u88ab\u52a8\u8d44\u91d1\u6d41\u4f30\u7b97\u6240\u53c2\u8003\u7684\u57fa\u51c6\u4ef7\u3002\u8fd9\u5c5e\u4e8e\u60c5\u7eea\u9762/\u4f30\u503c\u9762\u7684\u566a\u97f3\uff0c\u800c\u975e\u6587\u4ef6\u62ab\u9732\u6216\u786c\u6570\u636e\uff0c\u5728\u89e3\u7981\u65e5\u5386\u548c ETF \u6301\u4ed3\u4e24\u6761\u817f\u7684\u6743\u91cd\u4e2d\u5e94\u9002\u5f53\u964d\u4f4e\u3002\n",
       "emailed": false
     }
   ],
