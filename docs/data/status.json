@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784757728,
-  "generated_at_str": "2026-07-22 22:02:08 UTC",
-  "last_event_ts": 1784756830,
+  "generated_at": 1784757907,
+  "generated_at_str": "2026-07-22 22:05:07 UTC",
+  "last_event_ts": 1784757906,
   "tables": {
     "alerts_dedup": {
-      "count": 2638,
-      "last_ts": 1784756830,
-      "last_str": "2026-07-22 21:47:10 UTC"
+      "count": 2639,
+      "last_ts": 1784757906,
+      "last_str": "2026-07-22 22:05:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,19 +74,19 @@
       "last_str": "2026-07-22 21:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2883,
-      "last_ts": 1784756102,
-      "last_str": "2026-07-22 21:35:02 UTC"
+      "count": 2884,
+      "last_ts": 1784757902,
+      "last_str": "2026-07-22 22:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3395,
-      "last_ts": 1784756104,
-      "last_str": "2026-07-22 21:35:04 UTC"
+      "count": 3396,
+      "last_ts": 1784757905,
+      "last_str": "2026-07-22 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2330,
-      "last_ts": 1784756103,
-      "last_str": "2026-07-22 21:35:03 UTC"
+      "count": 2331,
+      "last_ts": 1784757903,
+      "last_str": "2026-07-22 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2584,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2646,
+      "ts": 1784757906,
+      "ts_str": "2026-07-22 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2645,
       "ts": 1784756830,
@@ -2279,16 +2289,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX\u2019s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock? - International Business Times",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 20:39:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxOMlVNYXh3bE9qOGs2UXJPTlcxbjZianJ4TVBKdHNYMUZyMnRQemFjNVpSUkRmbHZqSWN3U2pxUHhkTks1VlJlaGRWZG13MnhCeDN5bWVXaC1QUUY2UER5YmNvb093YjROeXZPTDR1OEc0N0c2V2JETzU4N3loaS1PazFWam9hVm50cFE?oc=5\n\nSpaceX\u2019s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock? - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOMlVNYXh3bE9qOGs2UXJPTlcxbjZianJ4TVBKdHNYMUZyMnRQemFjNVpSUkRmbHZqSWN3U2pxUHhkTks1VlJlaGRWZG13MnhCeDN5bWVXaC1QUUY2UER5YmNvb093YjROeXZPTDR1OEc0N0c2V2JETzU4N3loaS1PazFWam9hVm50cFE?oc=5\" target=\"_blank\">SpaceX\u2019s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline asks whether SpaceX shares can survive an upcoming multi-billion-share unlock, ahead of the scheduled lock-up expiration.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u6807\u9898\u63d0\u51fa\u7591\u95ee\uff1a\u5728\u5373\u5c06\u5230\u6765\u7684\u6570\u5341\u4ebf\u80a1\u89e3\u9501\u524d\uff0cSpaceX \u80a1\u4ef7\u80fd\u5426\u625b\u4f4f\u51b2\u51fb\u3002\n\nWhy it matters:\nMedia coverage of the unlock signals the market is pricing in supply risk \u2014 a large tranche of previously restricted shares becoming sellable increases downward pressure on valuation and tests demand for the AI-capex-adjacent name.\n\n\u5f71\u54cd:\n\u5a92\u4f53\u5f00\u59cb\u5173\u6ce8\u89e3\u9501\u4e8b\u4ef6\uff0c\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u5728\u4e3a\u4f9b\u7ed9\u98ce\u9669\u5b9a\u4ef7\u2014\u2014\u5927\u91cf\u6b64\u524d\u53d7\u9650\u80a1\u7968\u4e00\u65e6\u53ef\u4ee5\u81ea\u7531\u629b\u552e\uff0c\u5c06\u5bf9\u4f30\u503c\u5f62\u6210\u4e0b\u884c\u538b\u529b\uff0c\u4e5f\u662f\u5bf9\u8fd9\u53ea\u4e0e AI capex \u76f8\u5173\u6807\u7684\u9700\u6c42\u7aef\u7684\u4e00\u6b21\u8003\u9a8c\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2446,
-      "ts": 1784227637,
-      "ts_str": "2026-07-16 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX selloff an ominous sign as lockup expiry looms - Classic Rock 103.5 WIMZ",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 08:58:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxNT3dLVm1MU1ZjMGhITTBKZHBUUXdjYXdaZ2g5Y0NWN29zUVNNeXNid0dNQmlfYWpld3VzSFhfb19mZ0l4QWxmaUFHLUoxVHE3QWFOdXdOeTEzUkozZkFMRUFJRW01VmtvQzJZeGZjck1tQ1hTWlU2MjM4eW1PNnZzOUFNeFBaeGlPUWc?oc=5\n\nSpaceX selloff an ominous sign as lockup expiry looms - Classic Rock 103.5 WIMZ\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNT3dLVm1MU1ZjMGhITTBKZHBUUXdjYXdaZ2g5Y0NWN29zUVNNeXNid0dNQmlfYWpld3VzSFhfb19mZ0l4QWxmaUFHLUoxVHE3QWFOdXdOeTEzUkozZkFMRUFJRW01VmtvQzJZeGZjck1tQ1hTWlU2MjM4eW1PNnZzOUFNeFBaeGlPUWc?oc=5\" target=\"_blank\">SpaceX selloff an ominous sign as lockup expiry looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Classic Rock 103.5 WIMZ</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged a story about SpaceX insider selloff activity as its lock-up expiry approaches, sourced from a small regional radio-station outlet (Classic Rock 103.5 WIMZ).\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u62a5\u9053\u79f0\uff0c\u5728 SpaceX \u89e3\u7981\u4e34\u8fd1\u4e4b\u9645\u51fa\u73b0\u5185\u90e8\u4eba\u629b\u552e\u52a8\u5411\uff0c\u6d88\u606f\u6765\u6e90\u662f\u4e00\u5bb6\u5c0f\u578b\u5730\u65b9\u7535\u53f0\u5a92\u4f53\uff08Classic Rock 103.5 WIMZ\uff09\u3002\n\nWhy it matters:\nPre-unlock selling chatter from a low-authority outlet is weak evidence on its own, but it's exactly the kind of noise the C11 proximity classifier is designed to flag ahead of confirmed unlock-tranche dates \u2014 worth tracking, not acting on yet.\n\n\u5f71\u54cd:\n\u6765\u81ea\u4f4e\u6743\u5a01\u5a92\u4f53\u7684\u89e3\u7981\u524d\u629b\u552e\u4f20\u95fb\u672c\u8eab\u8bc1\u636e\u529b\u8f83\u5f31\uff0c\u4f46\u8fd9\u6b63\u662f C11 \u90bb\u8fd1\u5ea6\u5206\u7c7b\u5668\u8981\u63d0\u524d\u6355\u6349\u3001\u5728\u786e\u8ba4\u89e3\u7981\u6279\u6b21\u65e5\u671f\u4e4b\u524d\u8fdb\u884c\u6807\u8bb0\u7684\u4fe1\u53f7\u7c7b\u578b\u2014\u2014\u503c\u5f97\u5173\u6ce8\uff0c\u4f46\u8fd8\u4e0d\u8db3\u4ee5\u636e\u6b64\u884c\u52a8\u3002\n",
       "emailed": true
     }
   ],
