@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784709131,
-  "generated_at_str": "2026-07-22 08:32:11 UTC",
-  "last_event_ts": 1784708052,
+  "generated_at": 1784709313,
+  "generated_at_str": "2026-07-22 08:35:13 UTC",
+  "last_event_ts": 1784709312,
   "tables": {
     "alerts_dedup": {
-      "count": 2602,
-      "last_ts": 1784708052,
-      "last_str": "2026-07-22 08:14:12 UTC"
+      "count": 2603,
+      "last_ts": 1784709312,
+      "last_str": "2026-07-22 08:35:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-22 02:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2837,
-      "last_ts": 1784707507,
-      "last_str": "2026-07-22 08:05:07 UTC"
+      "count": 2838,
+      "last_ts": 1784709307,
+      "last_str": "2026-07-22 08:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3353,
-      "last_ts": 1784705705,
-      "last_str": "2026-07-22 07:35:05 UTC"
+      "count": 3356,
+      "last_ts": 1784709310,
+      "last_str": "2026-07-22 08:35:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2301,
-      "last_ts": 1784707508,
-      "last_str": "2026-07-22 08:05:08 UTC"
+      "count": 2302,
+      "last_ts": 1784709309,
+      "last_str": "2026-07-22 08:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2537,
-      "last_ts": 1784707509,
-      "last_str": "2026-07-22 08:05:09 UTC"
+      "count": 2538,
+      "last_ts": 1784709311,
+      "last_str": "2026-07-22 08:35:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17876,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2610,
+      "ts": 1784709312,
+      "ts_str": "2026-07-22 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiZEFVX3lxTE44dDgyUmZPWF82Vm00TUwxZzhvQ2s4amtIUEtzTzhlYXpSTElnMW1oTlZrd2xZRHZIai12QnNIMEs1aFBCb2ttVzdpQjVTa1U3WkpDc08wcldwM3h5cVQwNVFqVlY?oc=5\n\nNAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE44dDgyUmZPWF82Vm00TUwxZzhvQ2s4amtIUEtzTzhlYXpSTElnMW1oTlZrd2xZRHZIai12QnNIMEs1aFBCb2ttVzdpQjVTa1U3WkpDc08wcldwM3h5cVQwNVFqVlY?oc=5\" target=\"_blank\">NAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2609,
       "ts": 1784708052,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Needham raises SpaceX stock price target to $250 on AI, Starship - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 11:05:09 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0pBYmlRSVo5QjBLMFJzWlpsZUJOOUxpaXVZaGpPVzlhV2M5SXBncHRaaXR5Y0w3OVVGdnZETWV2dmsyZDBvS3otZmhWNHZuSG9PZ1FRRXdvbUg4WmllQXBESTRNTzdhb0NNMm5nWmN6Q2hEZWZ5bFZQM2ZIeU5LcmhhYVZCT2VEMHlfRVdTSGx2QlRmYkpSUGpXM0xCRmdKc1F3WXNxVXZCTHlGU0ttcHNncjJiVFM5VEhSSWdTdw?oc=5\n\nNeedham raises SpaceX stock price target to $250 on AI, Starship - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0pBYmlRSVo5QjBLMFJzWlpsZUJOOUxpaXVZaGpPVzlhV2M5SXBncHRaaXR5Y0w3OVVGdnZETWV2dmsyZDBvS3otZmhWNHZuSG9PZ1FRRXdvbUg4WmllQXBESTRNTzdhb0NNMm5nWmN6Q2hEZWZ5bFZQM2ZIeU5LcmhhYVZCT2VEMHlfRVdTSGx2QlRmYkpSUGpXM0xCRmdKc1F3WXNxVXZCTHlGU0ttcHNncjJiVFM5VEhSSWdTdw?oc=5\" target=\"_blank\">Needham raises SpaceX stock price target to $250 on AI, Starship</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Needham raised its SpaceX stock price target to $250, citing AI and Starship.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cNeedham \u5c06 SpaceX \u80a1\u7968\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $250\uff0c\u7406\u7531\u662f AI \u548c Starship \u4e1a\u52a1\u3002\n\nWhy it matters:\nRising analyst price targets on SpaceX ahead of its IPO/lock-up unlock inflate the valuation baseline passive index flows will be priced against \u2014 this is noise unless it triggers a re-rating that changes unlock-tranche economics.\n\n\u5f71\u54cd:\n\u5728 SpaceX IPO / \u89e3\u7981\u524d\uff0c\u5206\u6790\u5e08\u4e0a\u8c03\u76ee\u6807\u4ef7\u4f1a\u62ac\u9ad8\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u5b9a\u4ef7\u7684\u4f30\u503c\u57fa\u51c6\u2014\u2014\u9664\u975e\u8fd9\u4e00\u6d88\u606f\u771f\u6b63\u5f15\u53d1\u91cd\u65b0\u4f30\u503c\u3001\u6539\u53d8\u89e3\u7981\u5206\u6279\u7684\u7ecf\u6d4e\u6027\uff0c\u5426\u5219\u53ea\u662f\u566a\u97f3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2410,
-      "ts": 1784112433,
-      "ts_str": "2026-07-15 10:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Needham raises SpaceX stock price target to $250 on AI, Starship - Investing.com Canada",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 10:38:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX2lPM1Z0UmRNWGU3T2hScDl1M25SRDJpb0VsOVpqVnhGNGdzY3FMMkZobzZPZmt3YjBqZllWQ05mVDZuS0NKcmluZGllS05Lb1lWM213cy0xSkZNUkk1NVQ3aEo0aXZDYW42Y2w3a1poajdvSGRyWndXZV9aT2tLU3NJb01mVlVDZnlqUWdGTVlqTFE1eExBQXNnUGFXSVdfU3N6amM3Z0ZkN2NCSnl2RVJSS0h5UERrQmVqSDVJZ2k?oc=5\n\nNeedham raises SpaceX stock price target to $250 on AI, Starship - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX2lPM1Z0UmRNWGU3T2hScDl1M25SRDJpb0VsOVpqVnhGNGdzY3FMMkZobzZPZmt3YjBqZllWQ05mVDZuS0NKcmluZGllS05Lb1lWM213cy0xSkZNUkk1NVQ3aEo0aXZDYW42Y2w3a1poajdvSGRyWndXZV9aT2tLU3NJb01mVlVDZnlqUWdGTVlqTFE1eExBQXNnUGFXSVdfU3N6amM3Z0ZkN2NCSnl2RVJSS0h5UERrQmVqSDVJZ2k?oc=5\" target=\"_blank\">Needham raises SpaceX stock price target to $250 on AI, Starship</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Needham raised its SpaceX price target to $250, citing AI and Starship.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u663e\u793a\uff0cNeedham \u5c06 SpaceX \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $250\uff0c\u7406\u7531\u662f AI \u4e0e Starship \u4e1a\u52a1\u3002\n\nWhy it matters:\nRising sell-side price targets ahead of an IPO/unlock event build valuation momentum that inflates the base against which the lock-up unlock schedule and passive-flow mechanics play out \u2014 bullish sentiment now raises the stakes if the fundamentals later disappoint.\n\n\u5f71\u54cd:\n\u5728 IPO/\u89e3\u7981\u4e8b\u4ef6\u524d\uff0c\u5356\u65b9\u76ee\u6807\u4ef7\u4e0a\u8c03\u4f1a\u63a8\u9ad8\u4f30\u503c\u60c5\u7eea\u57fa\u7840\uff0c\u8fd9\u4f1a\u653e\u5927\u540e\u7eed\u89e3\u7981\u65f6\u95f4\u8868\u4e0e\u88ab\u52a8\u8d44\u91d1\u6d41\u673a\u5236\u7684\u5f71\u54cd\u2014\u2014\u5982\u679c\u57fa\u672c\u9762\u4e4b\u540e\u4e0d\u53ca\u9884\u671f\uff0c\u5f53\u524d\u7684\u4e50\u89c2\u60c5\u7eea\u53cd\u800c\u4f1a\u52a0\u5927\u56de\u8c03\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
