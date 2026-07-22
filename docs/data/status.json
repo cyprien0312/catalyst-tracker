@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784684462,
-  "generated_at_str": "2026-07-22 01:41:02 UTC",
-  "last_event_ts": 1784684105,
+  "generated_at": 1784684648,
+  "generated_at_str": "2026-07-22 01:44:08 UTC",
+  "last_event_ts": 1784684647,
   "tables": {
     "alerts_dedup": {
-      "count": 2582,
-      "last_ts": 1784682305,
-      "last_str": "2026-07-22 01:05:05 UTC"
+      "count": 2583,
+      "last_ts": 1784684647,
+      "last_str": "2026-07-22 01:44:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -64,9 +64,9 @@
       "last_str": "2026-07-21 23:00:06 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3241,
-      "last_ts": 1784675650,
-      "last_str": "2026-07-21 23:14:10 UTC"
+      "count": 3242,
+      "last_ts": 1784684644,
+      "last_str": "2026-07-22 01:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 691,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-22 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 17724,
-      "last_ts": 1784682842,
-      "last_str": "2026-07-22 01:14:02 UTC"
+      "count": 17737,
+      "last_ts": 1784684643,
+      "last_str": "2026-07-22 01:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2079,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2590,
+      "ts": 1784684647,
+      "ts_str": "2026-07-22 01:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI adds finance leaders to board as IPO nears - MSN",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:55:21 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVpaT0hnbTFvc05EdlUxS1UySW9qWG01VkFrU21fbHpramhZN295WWJHbGhfWkN6cHFBS3MwQmtGN3NsX2kwc294YzlhT1pKMEtnMVNZVGZ3N2tndEFMNHVtYzFsMm5CVk1NZjZvX2hsaE11bVVRRTBTMXFvbVFsc3VSTndFS3pNMHFMczUtTVluRmljbXhTLUs5Y2hsQkpfcVUwazRhVlhGV0c3ckVfTTRzZk1Yb09GOVZFLU45VnZJU0E5THJTYmFqUTZaVmZscHJxWWp3?oc=5\n\nOpenAI adds finance leaders to board as IPO nears - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVpaT0hnbTFvc05EdlUxS1UySW9qWG01VkFrU21fbHpramhZN295WWJHbGhfWkN6cHFBS3MwQmtGN3NsX2kwc294YzlhT1pKMEtnMVNZVGZ3N2tndEFMNHVtYzFsMm5CVk1NZjZvX2hsaE11bVVRRTBTMXFvbVFsc3VSTndFS3pNMHFMczUtTVluRmljbXhTLUs5Y2hsQkpfcVUwazRhVlhGV0c3ckVfTTRzZk1Yb09GOVZFLU45VnZJU0E5THJTYmFqUTZaVmZscHJxWWp3?oc=5\" target=\"_blank\">OpenAI adds finance leaders to board as IPO nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 2589,
       "ts": 1784682305,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track? - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 20:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxOWkFkMVhadktDbVpqVDJienBCR01vOHRQWEtQcjRoRlJiQTlGa2hPejM3QkNrZlR4VUdFVlVRR2RmakhNRi1YbnBJUUtRZk5NTnZ4V2lTLUladmdTdkR5bjQxdnVDdmtZY0tyM240aXJkdkNOSUpISWNOZ0VyM0w4TVBCTVJNWk8tdDlDVzI1ZDJnVG92cWpSU3VB?oc=5\n\nSpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track? - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOWkFkMVhadktDbVpqVDJienBCR01vOHRQWEtQcjRoRlJiQTlGa2hPejM3QkNrZlR4VUdFVlVRR2RmakhNRi1YbnBJUUtRZk5NTnZ4V2lTLUladmdTdkR5bjQxdnVDdmtZY0tyM240aXJkdkNOSUpISWNOZ0VyM0w4TVBCTVJNWk8tdDlDVzI1ZDJnVG92cWpSU3VB?oc=5\" target=\"_blank\">SpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS returned coverage of SpaceX joining the Nasdaq-100, framed as a risk to the index's trackability.\n\n\u5185\u5bb9:\nGoogle \u65b0\u95fb RSS \u6293\u53d6\u5230\u4e00\u7bc7\u62a5\u9053\uff0c\u4e3b\u9898\u662f SpaceX \u52a0\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u5e76\u8d28\u7591\u8be5\u6307\u6570\u662f\u5426\u5df2\u53d8\u5f97\u96be\u4ee5\u8ffd\u8e2a\u3002\n\nWhy it matters:\nSpaceX's inclusion forces passive Nasdaq-100 funds to hold a private, illiquid, hard-to-value name \u2014 a structural stress point distinct from operating fundamentals, and a preview of the index-mechanics risk this catalyst tracks around the unlock calendar.\n\n\u5f71\u54cd:\nSpaceX \u88ab\u7eb3\u5165\u540e\uff0c\u88ab\u52a8\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b100\u7684\u57fa\u91d1\u88ab\u8feb\u6301\u6709\u4e00\u5bb6\u79c1\u6709\u3001\u6d41\u52a8\u6027\u5dee\u3001\u4f30\u503c\u56f0\u96be\u7684\u516c\u53f8\u80a1\u4efd\u2014\u2014\u8fd9\u662f\u533a\u522b\u4e8e\u57fa\u672c\u9762\u7684\u7ed3\u6784\u6027\u98ce\u9669\u70b9\uff0c\u4e5f\u9884\u793a\u4e86\u672c\u50ac\u5316\u5242\u5173\u6ce8\u7684\u89e3\u9501\u65e5\u5386\u5468\u8fb9\u7684\u6307\u6570\u673a\u5236\u98ce\u9669\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2391,
-      "ts": 1784069243,
-      "ts_str": "2026-07-14 22:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track? - The Motley Fool",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 14 Jul 2026 20:48:25 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNeklSRXlTMlo4ckZrX0xrREp0ZmFFT2NGbGhKOVpaYjdncVkwZlVSY2tjRjJOaE04UFpZbk9qek1UUUdNVWRad2VjQUhqX0xxU0dUX092RG13ZW0xNnZtQ1VWelRUN0dTRGYtMG54amlzWXlhczY3bElRclZ6RHM0bzhkN0s5NldNMHE1cVNuVnV4anRzbkcyeA?oc=5\n\nSpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track? - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNeklSRXlTMlo4ckZrX0xrREp0ZmFFT2NGbGhKOVpaYjdncVkwZlVSY2tjRjJOaE04UFpZbk9qek1UUUdNVWRad2VjQUhqX0xxU0dUX092RG13ZW0xNnZtQ1VWelRUN0dTRGYtMG54amlzWXlhczY3bElRclZ6RHM0bzhkN0s5NldNMHE1cVNuVnV4anRzbkcyeA?oc=5\" target=\"_blank\">SpaceX Joins the Nasdaq-100. Has the Index Become Too Risky to Track?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Motley Fool article discusses SpaceX joining the Nasdaq-100 and asks whether the index has become too risky to track.\n\n\u5185\u5bb9:\nMotley Fool \u4e00\u7bc7\u6587\u7ae0\u8ba8\u8bba SpaceX \u52a0\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u5e76\u8d28\u7591\u8be5\u6307\u6570\u662f\u5426\u5df2\u53d8\u5f97\u96be\u4ee5\u8ffd\u8e2a\u3001\u98ce\u9669\u8fc7\u9ad8\u3002\n\nWhy it matters:\nSpaceX's inclusion pulls a private, opaque-valuation company into a passively-tracked benchmark, forcing index funds to hold it at whatever price the private market sets \u2014 a mechanical flow event, not a fundamentals signal, but one that concentrates AI-adjacent risk inside index products.\n\n\u5f71\u54cd:\nSpaceX \u4f5c\u4e3a\u4e00\u5bb6\u4f30\u503c\u4e0d\u900f\u660e\u7684\u79c1\u6709\u516c\u53f8\u88ab\u7eb3\u5165\u88ab\u52a8\u8ddf\u8e2a\u7684\u57fa\u51c6\u6307\u6570\uff0c\u8feb\u4f7f\u6307\u6570\u57fa\u91d1\u6309\u79c1\u52df\u5e02\u573a\u5b9a\u7684\u4ef7\u683c\u6301\u6709\u5b83\u2014\u2014\u8fd9\u662f\u4e00\u6b21\u673a\u68b0\u6027\u7684\u8d44\u91d1\u6d41\u4e8b\u4ef6\uff0c\u800c\u975e\u57fa\u672c\u9762\u4fe1\u53f7\uff0c\u4f46\u5b83\u628a\u4e0e AI \u76f8\u5173\u7684\u98ce\u9669\u96c6\u4e2d\u8fdb\u4e86\u6307\u6570\u4ea7\u54c1\u91cc\u3002\n",
       "emailed": false
     }
   ],
