@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784710926,
-  "generated_at_str": "2026-07-22 09:02:06 UTC",
-  "last_event_ts": 1784710022,
+  "generated_at": 1784711108,
+  "generated_at_str": "2026-07-22 09:05:08 UTC",
+  "last_event_ts": 1784711107,
   "tables": {
     "alerts_dedup": {
-      "count": 2603,
-      "last_ts": 1784709312,
-      "last_str": "2026-07-22 08:35:12 UTC"
+      "count": 2604,
+      "last_ts": 1784711107,
+      "last_str": "2026-07-22 09:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-22 08:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2838,
-      "last_ts": 1784709307,
-      "last_str": "2026-07-22 08:35:07 UTC"
+      "count": 2845,
+      "last_ts": 1784711102,
+      "last_str": "2026-07-22 09:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3356,
@@ -84,14 +84,14 @@
       "last_str": "2026-07-22 08:35:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2302,
-      "last_ts": 1784709309,
-      "last_str": "2026-07-22 08:35:09 UTC"
+      "count": 2303,
+      "last_ts": 1784711103,
+      "last_str": "2026-07-22 09:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2538,
-      "last_ts": 1784709311,
-      "last_str": "2026-07-22 08:35:11 UTC"
+      "count": 2541,
+      "last_ts": 1784711106,
+      "last_str": "2026-07-22 09:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17890,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2611,
+      "ts": 1784711107,
+      "ts_str": "2026-07-22 09:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 17:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\n\nNAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\" target=\"_blank\">NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2610,
       "ts": 1784709312,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next - AOL.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 02:19:13 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9DRk9ncmFjYnlEQUh5cnUwLWxQLVpKeXI5NnpXMmJEeFVRMWhiSlhjbDd2aWk0Qk5iNWJaZG5TMTlRYXc1Qy0yUDZsallrNDJfUHB6ZG9HMnJaU2Y5dkFLT0RPRkM2ZFpuSVpFQ3E1a1pUYm9INnY1NXQ2M1Y?oc=5\n\nSpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9DRk9ncmFjYnlEQUh5cnUwLWxQLVpKeXI5NnpXMmJEeFVRMWhiSlhjbDd2aWk0Qk5iNWJaZG5TMTlRYXc1Qy0yUDZsallrNDJfUHB6ZG9HMnJaU2Y5dkFLT0RPRkM2ZFpuSVpFQ3E1a1pUYm9INnY1NXQ2M1Y?oc=5\" target=\"_blank\">SpaceX Is Now a Member of the Nasdaq-100: Here's What History Says Happens Next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged that SpaceX has become a member of the Nasdaq-100 index.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u79f0 SpaceX \u5df2\u6210\u4e3a Nasdaq-100 \u6307\u6570\u6210\u5206\u80a1\u3002\n\nWhy it matters:\nIndex inclusion forces passive Nasdaq-100 trackers to buy SpaceX shares regardless of valuation, adding a mechanical demand tailwind unrelated to fundamentals \u2014 the same passive-flow dynamic that has inflated other mega-cap AI-infra names.\n\n\u5f71\u54cd:\n\u88ab\u7eb3\u5165\u6307\u6570\u610f\u5473\u7740\u8ddf\u8e2a Nasdaq-100 \u7684\u88ab\u52a8\u578b\u57fa\u91d1\u5fc5\u987b\u4e70\u5165 SpaceX \u80a1\u7968\uff0c\u65e0\u8bba\u5176\u4f30\u503c\u9ad8\u4f4e\uff0c\u8fd9\u4f1a\u5e26\u6765\u4e00\u80a1\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u7684\u673a\u68b0\u6027\u4e70\u76d8\u2014\u2014\u4e0e\u5176\u4ed6\u5927\u578b AI \u57fa\u7840\u8bbe\u65bd\u9f99\u5934\u80a1\u6b64\u524d\u88ab\u52a8\u8d44\u91d1\u63a8\u9ad8\u80a1\u4ef7\u7684\u903b\u8f91\u5982\u51fa\u4e00\u8f99\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2411,
-      "ts": 1784116037,
-      "ts_str": "2026-07-15 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Needham raises SpaceX stock price target to $250 on AI, Starship - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 11:05:09 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0pBYmlRSVo5QjBLMFJzWlpsZUJOOUxpaXVZaGpPVzlhV2M5SXBncHRaaXR5Y0w3OVVGdnZETWV2dmsyZDBvS3otZmhWNHZuSG9PZ1FRRXdvbUg4WmllQXBESTRNTzdhb0NNMm5nWmN6Q2hEZWZ5bFZQM2ZIeU5LcmhhYVZCT2VEMHlfRVdTSGx2QlRmYkpSUGpXM0xCRmdKc1F3WXNxVXZCTHlGU0ttcHNncjJiVFM5VEhSSWdTdw?oc=5\n\nNeedham raises SpaceX stock price target to $250 on AI, Starship - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNc0pBYmlRSVo5QjBLMFJzWlpsZUJOOUxpaXVZaGpPVzlhV2M5SXBncHRaaXR5Y0w3OVVGdnZETWV2dmsyZDBvS3otZmhWNHZuSG9PZ1FRRXdvbUg4WmllQXBESTRNTzdhb0NNMm5nWmN6Q2hEZWZ5bFZQM2ZIeU5LcmhhYVZCT2VEMHlfRVdTSGx2QlRmYkpSUGpXM0xCRmdKc1F3WXNxVXZCTHlGU0ttcHNncjJiVFM5VEhSSWdTdw?oc=5\" target=\"_blank\">Needham raises SpaceX stock price target to $250 on AI, Starship</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Needham raised its SpaceX stock price target to $250, citing AI and Starship.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cNeedham \u5c06 SpaceX \u80a1\u7968\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $250\uff0c\u7406\u7531\u662f AI \u548c Starship \u4e1a\u52a1\u3002\n\nWhy it matters:\nRising analyst price targets on SpaceX ahead of its IPO/lock-up unlock inflate the valuation baseline passive index flows will be priced against \u2014 this is noise unless it triggers a re-rating that changes unlock-tranche economics.\n\n\u5f71\u54cd:\n\u5728 SpaceX IPO / \u89e3\u7981\u524d\uff0c\u5206\u6790\u5e08\u4e0a\u8c03\u76ee\u6807\u4ef7\u4f1a\u62ac\u9ad8\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u5b9a\u4ef7\u7684\u4f30\u503c\u57fa\u51c6\u2014\u2014\u9664\u975e\u8fd9\u4e00\u6d88\u606f\u771f\u6b63\u5f15\u53d1\u91cd\u65b0\u4f30\u503c\u3001\u6539\u53d8\u89e3\u7981\u5206\u6279\u7684\u7ecf\u6d4e\u6027\uff0c\u5426\u5219\u53ea\u662f\u566a\u97f3\u3002\n",
       "emailed": false
     }
   ],
