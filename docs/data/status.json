@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784698325,
-  "generated_at_str": "2026-07-22 05:32:05 UTC",
-  "last_event_ts": 1784697242,
+  "generated_at": 1784698507,
+  "generated_at_str": "2026-07-22 05:35:07 UTC",
+  "last_event_ts": 1784698506,
   "tables": {
     "alerts_dedup": {
-      "count": 2593,
-      "last_ts": 1784696705,
-      "last_str": "2026-07-22 05:05:05 UTC"
+      "count": 2595,
+      "last_ts": 1784698506,
+      "last_str": "2026-07-22 05:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-22 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3346,
-      "last_ts": 1784694903,
-      "last_str": "2026-07-22 04:35:03 UTC"
+      "count": 3347,
+      "last_ts": 1784698503,
+      "last_str": "2026-07-22 05:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2295,
-      "last_ts": 1784696702,
-      "last_str": "2026-07-22 05:05:02 UTC"
+      "count": 2296,
+      "last_ts": 1784698502,
+      "last_str": "2026-07-22 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2528,
-      "last_ts": 1784694904,
-      "last_str": "2026-07-22 04:35:04 UTC"
+      "count": 2531,
+      "last_ts": 1784698504,
+      "last_str": "2026-07-22 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17811,
@@ -291,6 +291,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2601,
+      "ts": 1784698506,
+      "ts_str": "2026-07-22 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] WD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites - Shane the Gamer",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 05:08:40 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQM0RBUW5ESHpNZ3FQUTJzaE1BdE1pcFZfZTJrQjNQQUNyMEJkX043V0t5TTNiLWZKYW9YWm1KRlZjXzgybWgzcnZSRURmTG5PcU5nNDlhWWswbzJNVlBNV091SFpSbzVpZm5EdjFSUWNSeVFjcFh1QllRUWJObElJNF9WNGc1MlVxaXJPLS1kVUo2aWpER0N3QjhMaUZ3RFpjaDg5WXF2RzlEenFmLWtldWlrWTg?oc=5\n\nWD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites - Shane the Gamer\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQM0RBUW5ESHpNZ3FQUTJzaE1BdE1pcFZfZTJrQjNQQUNyMEJkX043V0t5TTNiLWZKYW9YWm1KRlZjXzgybWgzcnZSRURmTG5PcU5nNDlhWWswbzJNVlBNV091SFpSbzVpZm5EdjFSUWNSeVFjcFh1QllRUWJObElJNF9WNGc1MlVxaXJPLS1kVUo2aWpER0N3QjhMaUZ3RFpjaDg5WXF2RzlEenFmLWtldWlrWTg?oc=5\" target=\"_blank\">WD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shane the Gamer</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2602,
+      "ts": 1784698506,
+      "ts_str": "2026-07-22 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] WD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites - Shane the Gamer",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 05:08:40 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQM0RBUW5ESHpNZ3FQUTJzaE1BdE1pcFZfZTJrQjNQQUNyMEJkX043V0t5TTNiLWZKYW9YWm1KRlZjXzgybWgzcnZSRURmTG5PcU5nNDlhWWswbzJNVlBNV091SFpSbzVpZm5EdjFSUWNSeVFjcFh1QllRUWJObElJNF9WNGc1MlVxaXJPLS1kVUo2aWpER0N3QjhMaUZ3RFpjaDg5WXF2RzlEenFmLWtldWlrWTg?oc=5\n\nWD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites - Shane the Gamer\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQM0RBUW5ESHpNZ3FQUTJzaE1BdE1pcFZfZTJrQjNQQUNyMEJkX043V0t5TTNiLWZKYW9YWm1KRlZjXzgybWgzcnZSRURmTG5PcU5nNDlhWWswbzJNVlBNV091SFpSbzVpZm5EdjFSUWNSeVFjcFh1QllRUWJObElJNF9WNGc1MlVxaXJPLS1kVUo2aWpER0N3QjhMaUZ3RFpjaDg5WXF2RzlEenFmLWtldWlrWTg?oc=5\" target=\"_blank\">WD_BLACK SN8100 4TB Gen5 SSD Sits at $699.99 on Amazon as NAND Shortage Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shane the Gamer</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2600,
       "ts": 1784696705,
@@ -2269,26 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] AI Memory Shortage Drives Enterprise SSD Prices Up 80% - Astute Group",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 07:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ1dUV2dsV25HZENlS0l1UGRmeGdUbFZvOERaUFQ4eU4xdDQ0bFhmWFJoLW1PMHlMRkMxR2xua2JaSkU3Z1ItdmNmSjllME45NGhNY3FhTkpIWFVoNUJNT1BhN0ZOck9QcjNQOXU5UGFHLWNBX1NXOHg3d0V2djlzTGJpMFpHX1dpLURIbGtEQWRIV1liVkFjaUNVQWtEd2xXZFdkUnlKQQ?oc=5\n\nAI Memory Shortage Drives Enterprise SSD Prices Up 80% - Astute Group\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ1dUV2dsV25HZENlS0l1UGRmeGdUbFZvOERaUFQ4eU4xdDQ0bFhmWFJoLW1PMHlMRkMxR2xua2JaSkU3Z1ItdmNmSjllME45NGhNY3FhTkpIWFVoNUJNT1BhN0ZOck9QcjNQOXU5UGFHLWNBX1NXOHg3d0V2djlzTGJpMFpHX1dpLURIbGtEQWRIV1liVkFjaUNVQWtEd2xXZFdkUnlKQQ?oc=5\" target=\"_blank\">AI Memory Shortage Drives Enterprise SSD Prices Up 80%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Astute Group</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item (Astute Group) reports enterprise SSD prices up 80%, attributed to an AI-driven memory shortage.\n\n\u5185\u5bb9:\nGoogle News RSS \u7684\u4e00\u7bc7\u62a5\u9053\uff08\u6765\u6e90 Astute Group\uff09\u79f0\uff0c\u53d7 AI \u5f15\u53d1\u7684\u5185\u5b58\u77ed\u7f3a\u5f71\u54cd\uff0c\u4f01\u4e1a\u7ea7 SSD \u4ef7\u683c\u4e0a\u6da8\u4e86 80%\u3002\n\nWhy it matters:\nRising SSD/NAND prices flow straight into hyperscaler capex as bill-of-materials inflation, and a shortage narrative signals memory supply is tightening under AI-driven demand \u2014 a cost-side stress point for the capex-payback thesis.\n\n\u5f71\u54cd:\nSSD/NAND \u6da8\u4ef7\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u77ed\u7f3a\u53d9\u4e8b\u4e5f\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u6b63\u88ab AI \u9700\u6c42\u6301\u7eed\u6324\u538b\u2014\u2014\u8fd9\u662f AI capex \u56de\u672c\u903b\u8f91\u4e2d\u7684\u6210\u672c\u7aef\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2402,
-      "ts": 1784098032,
-      "ts_str": "2026-07-15 06:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Joined the Nasdaq 100 Index Today\u2014Here\u2019s Why That Matters to Stock Investors - AOL.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 04:59:04 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE11UWhwMkp6RE94dHRHMEs5U2ROZkhMNXdtNjJNNDZHMGQzV3FFVnFZWHNtd3JTOVNrVW5fV3hoQkhOS3J3M0Q3Sl9SVTFJREI5YnhDV1BUMnlobWNlWnBBbGtOYkRia08waFRTQkxHV3VVelM2WlRPTGtiZWU?oc=5\n\nSpaceX Joined the Nasdaq 100 Index Today\u2014Here\u2019s Why That Matters to Stock Investors - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE11UWhwMkp6RE94dHRHMEs5U2ROZkhMNXdtNjJNNDZHMGQzV3FFVnFZWHNtd3JTOVNrVW5fV3hoQkhOS3J3M0Q3Sl9SVTFJREI5YnhDV1BUMnlobWNlWnBBbGtOYkRia08waFRTQkxHV3VVelM2WlRPTGtiZWU?oc=5\" target=\"_blank\">SpaceX Joined the Nasdaq 100 Index Today\u2014Here\u2019s Why That Matters to Stock Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX joined the Nasdaq 100 index today, per news coverage.\n\n\u5185\u5bb9:\n\u636e\u65b0\u95fb\u62a5\u9053\uff0cSpaceX \u4eca\u65e5\u6b63\u5f0f\u7eb3\u5165 Nasdaq 100 \u6307\u6570\u3002\n\nWhy it matters:\nIndex inclusion forces passive Nasdaq-100 trackers to buy shares mechanically regardless of valuation, adding a non-fundamental demand floor right as SpaceX's IPO lock-up unlocks loom \u2014 a mechanical flow event, not a business signal, but relevant to the unlock/passive-flow thesis.\n\n\u5f71\u54cd:\n\u6307\u6570\u7eb3\u5165\u4f1a\u8feb\u4f7f\u8ffd\u8e2a Nasdaq 100 \u7684\u88ab\u52a8\u57fa\u91d1\u673a\u68b0\u6027\u4e70\u5165\u8be5\u80a1\uff0c\u65e0\u8bba\u4f30\u503c\u9ad8\u4f4e\uff0c\u8fd9\u5728 SpaceX IPO \u9501\u5b9a\u671f\u5373\u5c06\u89e3\u7981\u4e4b\u9645\u5f62\u6210\u4e86\u4e00\u4e2a\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u7684\u989d\u5916\u4e70\u76d8\u652f\u6491\u2014\u2014\u8fd9\u662f\u673a\u68b0\u6027\u7684\u8d44\u91d1\u6d41\u4e8b\u4ef6\uff0c\u800c\u975e\u4e1a\u52a1\u4fe1\u53f7\uff0c\u4f46\u4e0e\u89e3\u7981/\u88ab\u52a8\u8d44\u91d1\u6d41\u7684\u8bba\u70b9\u76f8\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2400,
-      "ts": 1784093720,
-      "ts_str": "2026-07-15 05:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 05:12:21 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\n\nGlobal Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\" target=\"_blank\">Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV Profit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flags smartphone sales falling amid a deepening DRAM/NAND supply crunch, per NDTV Profit.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6761\u76ee\uff08NDTV Profit\uff09\u663e\u793a\uff0c\u968f\u7740 DRAM\u3001NAND \u4f9b\u5e94\u77ed\u7f3a\u52a0\u5267\uff0c\u667a\u80fd\u624b\u673a\u9500\u91cf\u6b63\u5728\u4e0b\u6ed1\u3002\n\nWhy it matters:\nMemory chip scarcity is spreading beyond AI servers into consumer devices, confirming HBM/DRAM capacity is being reallocated wholesale to AI infrastructure at the expense of other markets \u2014 a real supply-side constraint, not just a pricing story, and a sign the AI-capex buildout is now visibly cannibalizing adjacent industries.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u4ece AI \u670d\u52a1\u5668\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\u9886\u57df\uff0c\u8bf4\u660e HBM/DRAM \u4ea7\u80fd\u6b63\u88ab\u6574\u4f53\u632a\u7528\u7ed9 AI \u57fa\u7840\u8bbe\u65bd\uff0c\u727a\u7272\u4e86\u5176\u4ed6\u5e02\u573a\u7684\u4f9b\u5e94\u3002\u8fd9\u4e0d\u53ea\u662f\u6da8\u4ef7\u53d9\u4e8b\uff0c\u800c\u662f\u771f\u5b9e\u7684\u4f9b\u7ed9\u4fa7\u7ea6\u675f\u2014\u2014\u8868\u660e AI capex \u6269\u5f20\u5df2\u7ecf\u5f00\u59cb\u660e\u663e\u6324\u5360\u76f8\u90bb\u4ea7\u4e1a\u7684\u8d44\u6e90\u3002\n",
       "emailed": false
     }
   ],
