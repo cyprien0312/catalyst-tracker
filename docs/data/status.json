@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784696524,
-  "generated_at_str": "2026-07-22 05:02:04 UTC",
-  "last_event_ts": 1784695626,
+  "generated_at": 1784696705,
+  "generated_at_str": "2026-07-22 05:05:05 UTC",
+  "last_event_ts": 1784696705,
   "tables": {
     "alerts_dedup": {
-      "count": 2592,
-      "last_ts": 1784695626,
-      "last_str": "2026-07-22 04:47:06 UTC"
+      "count": 2593,
+      "last_ts": 1784696705,
+      "last_str": "2026-07-22 05:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,9 +74,9 @@
       "last_str": "2026-07-22 02:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2827,
-      "last_ts": 1784694902,
-      "last_str": "2026-07-22 04:35:02 UTC"
+      "count": 2829,
+      "last_ts": 1784696702,
+      "last_str": "2026-07-22 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3346,
@@ -84,9 +84,9 @@
       "last_str": "2026-07-22 04:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2294,
-      "last_ts": 1784693103,
-      "last_str": "2026-07-22 04:05:03 UTC"
+      "count": 2295,
+      "last_ts": 1784696702,
+      "last_str": "2026-07-22 05:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2528,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2600,
+      "ts": 1784696705,
+      "ts_str": "2026-07-22 05:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND Flash Shortages to Persist Through Next Year; Supply-Demand Gap May Ease by Second Half of 2027, Research Firm Says",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 22:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE8yLUNDaUFucmpCWVVCN2UwZFVJNWZIWnNrb0puVUhZbEI0QXdLQVA5aG1zdTdQRGh3N1g1LUpRRWM5QzI5b00zMzNsWTVsTW94QVduMkRpZG52NHJjMmQ1R1pyaEJDUXQ0SG5rUUlaVEJZLWs3ZXc?oc=5\n\nNAND Flash Shortages to Persist Through Next Year; Supply-Demand Gap May Ease by Second Half of 2027, Research Firm Says - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE8yLUNDaUFucmpCWVVCN2UwZFVJNWZIWnNrb0puVUhZbEI0QXdLQVA5aG1zdTdQRGh3N1g1LUpRRWM5QzI5b00zMzNsWTVsTW94QVduMkRpZG52NHJjMmQ1R1pyaEJDUXQ0SG5rUUlaVEJZLWs3ZXc?oc=5\" target=\"_blank\">NAND Flash Shortages to Persist Through Next Year; Supply-Demand Gap May Ease by Second Half of 2027, Research Firm Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2598,
       "ts": 1784695626,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 05:12:21 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\n\nGlobal Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\" target=\"_blank\">Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV Profit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flags smartphone sales falling amid a deepening DRAM/NAND supply crunch, per NDTV Profit.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6761\u76ee\uff08NDTV Profit\uff09\u663e\u793a\uff0c\u968f\u7740 DRAM\u3001NAND \u4f9b\u5e94\u77ed\u7f3a\u52a0\u5267\uff0c\u667a\u80fd\u624b\u673a\u9500\u91cf\u6b63\u5728\u4e0b\u6ed1\u3002\n\nWhy it matters:\nMemory chip scarcity is spreading beyond AI servers into consumer devices, confirming HBM/DRAM capacity is being reallocated wholesale to AI infrastructure at the expense of other markets \u2014 a real supply-side constraint, not just a pricing story, and a sign the AI-capex buildout is now visibly cannibalizing adjacent industries.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u4ece AI \u670d\u52a1\u5668\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\u9886\u57df\uff0c\u8bf4\u660e HBM/DRAM \u4ea7\u80fd\u6b63\u88ab\u6574\u4f53\u632a\u7528\u7ed9 AI \u57fa\u7840\u8bbe\u65bd\uff0c\u727a\u7272\u4e86\u5176\u4ed6\u5e02\u573a\u7684\u4f9b\u5e94\u3002\u8fd9\u4e0d\u53ea\u662f\u6da8\u4ef7\u53d9\u4e8b\uff0c\u800c\u662f\u771f\u5b9e\u7684\u4f9b\u7ed9\u4fa7\u7ea6\u675f\u2014\u2014\u8868\u660e AI capex \u6269\u5f20\u5df2\u7ecf\u5f00\u59cb\u660e\u663e\u6324\u5360\u76f8\u90bb\u4ea7\u4e1a\u7684\u8d44\u6e90\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2401,
-      "ts": 1784093720,
-      "ts_str": "2026-07-15 05:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 05:12:21 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\n\nGlobal Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFN2dC1uQnZZU2hjdHY1Y0xNM3lOUUVacnBUU1BodVk4U1ItVURUMnoxSVdpWkhBVlp0VjdJMGhndFRyTFU2VWJuSzduUGtRUUszamU2VTFxQlBxNl9JZHNLZkgwS25XUExQUUJpcTBZMzVDMEg2UnlDNGplRk90cmN3QkdXUk9wTTNfUU5oUmpMdU5LaEJhS0VIQWo4cDRrdjZkNlhvYkFQSHlFbFZR0gG3AUFVX3lxTE5aalZtTEpJbXB5S293bF9NWXduSG0zZ3p3X1pMa1JkYmR1d0lhakZUS0JfZGk5S3ZaTWp4TG92T2NhY1pfSmhMUE01SFVfTlBlVmRUN05YUHNHQ2M1NXhSVWJaaUNTc3h5UVJUZFYxeDFQQzhyMkxsM2NqcVZqZ2FCZFBNR3d5V2FGVllLRFc5UjAzZV93WGVCV2JUTHZQcG4tdFdMTjUtc1hmSFlSMTlPRkhzT1JWbw?oc=5\" target=\"_blank\">Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV Profit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flags smartphone sales falling amid a deepening DRAM/NAND supply crunch, per NDTV Profit.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6761\u76ee\uff08NDTV Profit\uff09\u663e\u793a\uff0c\u968f\u7740 DRAM\u3001NAND \u4f9b\u5e94\u77ed\u7f3a\u52a0\u5267\uff0c\u667a\u80fd\u624b\u673a\u9500\u91cf\u6b63\u5728\u4e0b\u6ed1\u3002\n\nWhy it matters:\nMemory chip scarcity is spreading beyond AI servers into consumer devices, confirming HBM/DRAM capacity is being reallocated wholesale to AI infrastructure at the expense of other markets \u2014 a real supply-side constraint, not just a pricing story, and a sign the AI-capex buildout is now visibly cannibalizing adjacent industries.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u4ece AI \u670d\u52a1\u5668\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\u9886\u57df\uff0c\u8bf4\u660e HBM/DRAM \u4ea7\u80fd\u6b63\u88ab\u6574\u4f53\u632a\u7528\u7ed9 AI \u57fa\u7840\u8bbe\u65bd\uff0c\u727a\u7272\u4e86\u5176\u4ed6\u5e02\u573a\u7684\u4f9b\u5e94\u3002\u8fd9\u4e0d\u53ea\u662f\u6da8\u4ef7\u53d9\u4e8b\uff0c\u800c\u662f\u771f\u5b9e\u7684\u4f9b\u7ed9\u4fa7\u7ea6\u675f\u2014\u2014\u8868\u660e AI capex \u6269\u5f20\u5df2\u7ecf\u5f00\u59cb\u660e\u663e\u6324\u5360\u76f8\u90bb\u4ea7\u4e1a\u7684\u8d44\u6e90\u3002\n",
       "emailed": false
     }
   ],
