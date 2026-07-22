@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784721727,
-  "generated_at_str": "2026-07-22 12:02:07 UTC",
-  "last_event_ts": 1784720827,
+  "generated_at": 1784721907,
+  "generated_at_str": "2026-07-22 12:05:07 UTC",
+  "last_event_ts": 1784721906,
   "tables": {
     "alerts_dedup": {
-      "count": 2612,
-      "last_ts": 1784720827,
-      "last_str": "2026-07-22 11:47:07 UTC"
+      "count": 2613,
+      "last_ts": 1784721906,
+      "last_str": "2026-07-22 12:05:06 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-22 09:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2852,
-      "last_ts": 1784720102,
-      "last_str": "2026-07-22 11:35:02 UTC"
+      "count": 2854,
+      "last_ts": 1784721902,
+      "last_str": "2026-07-22 12:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3361,
-      "last_ts": 1784720103,
-      "last_str": "2026-07-22 11:35:03 UTC"
+      "count": 3364,
+      "last_ts": 1784721904,
+      "last_str": "2026-07-22 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2304,
-      "last_ts": 1784712905,
-      "last_str": "2026-07-22 09:35:05 UTC"
+      "count": 2306,
+      "last_ts": 1784721903,
+      "last_str": "2026-07-22 12:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2545,
-      "last_ts": 1784716506,
-      "last_str": "2026-07-22 10:35:06 UTC"
+      "count": 2547,
+      "last_ts": 1784721905,
+      "last_str": "2026-07-22 12:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17965,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2620,
+      "ts": 1784721906,
+      "ts_str": "2026-07-22 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Oppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026 - AndroidPure",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 11:06:43 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRUJyRDBpZkd1b0Jqa3lUYkk4UVBBSi1mLU0wYmtaN0hjWXJJcUVENEQ5Yzl2akZEdFhHNk1uSmM3eHMwRU9qZ1RFTVVheHlzaUhNeUFjVkQ2VEN5MG5kRUt3QTFSeVpHdVBEdm5SWVFNeWoyUm9tVQ?oc=5\n\nOppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026 - AndroidPure\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRUJyRDBpZkd1b0Jqa3lUYkk4UVBBSi1mLU0wYmtaN0hjWXJJcUVENEQ5Yzl2akZEdFhHNk1uSmM3eHMwRU9qZ1RFTVVheHlzaUhNeUFjVkQ2VEN5MG5kRUt3QTFSeVpHdVBEdm5SWVFNeWoyUm9tVQ?oc=5\" target=\"_blank\">Oppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AndroidPure</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2619,
       "ts": 1784720827,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Anthropic races OpenAI to public markets with October IPO - The Tech Buzz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 17:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXpYQ29URWczckE3M19DWEltTDV4cThGWGhnRzFCQXFlUTRJWmYzMlh5dDRrY2RGYjFET00wZFR6ak1jZndaRWhoTzRsRzBlNElNaXhhQTZTY01EOFUtQUNPY2FkU0Q1eVBmQXVpYk84NVFCbkFFNGJjVnRxN2ZpUy1jMjVvMUVoZUdEQmZCSWJUeUN5?oc=5\n\nAnthropic races OpenAI to public markets with October IPO - The Tech Buzz\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXpYQ29URWczckE3M19DWEltTDV4cThGWGhnRzFCQXFlUTRJWmYzMlh5dDRrY2RGYjFET00wZFR6ak1jZndaRWhoTzRsRzBlNElNaXhhQTZTY01EOFUtQUNPY2FkU0Q1eVBmQXVpYk84NVFCbkFFNGJjVnRxN2ZpUy1jMjVvMUVoZUdEQmZCSWJUeUN5?oc=5\" target=\"_blank\">Anthropic races OpenAI to public markets with October IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tech Buzz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Anthropic is racing OpenAI toward public markets with an IPO targeted for October.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cAnthropic \u6b63\u4e0e OpenAI \u7ade\u901f\u51b2\u523a\u516c\u5f00\u5e02\u573a\uff0c\u76ee\u6807\u662f 10 \u6708\u5b8c\u6210 IPO\u3002\n\nWhy it matters:\nOpenAI-adjacent IPO chatter signals investors want liquidity/exit paths from the AI labs, which raises the bar on burn-rate scrutiny once public filings start \u2014 feeds the C3 OpenAI-stress thesis even though this specific item is about Anthropic, not a burn-rate metric.\n\n\u5f71\u54cd:\nOpenAI \u76f8\u5173\u7684 IPO \u4f20\u95fb\u610f\u5473\u7740\u6295\u8d44\u8005\u60f3\u8981\u4e3a AI \u5b9e\u9a8c\u5ba4\u627e\u5230\u6d41\u52a8\u6027\u548c\u9000\u51fa\u901a\u9053\uff0c\u4e00\u65e6\u516c\u5f00\u62ab\u9732\u5f00\u59cb\uff0c\u5e02\u573a\u5bf9\u70e7\u94b1\u901f\u5ea6\u7684\u5ba1\u89c6\u4f1a\u66f4\u4e25\u683c\u2014\u2014\u867d\u7136\u8fd9\u6761\u6d88\u606f\u8bf4\u7684\u662f Anthropic \u800c\u975e\u5177\u4f53\u7684\u70e7\u94b1\u6307\u6807\uff0c\u4f46\u4ecd\u547c\u5e94 C3 \u7684 OpenAI \u538b\u529b\u4e3b\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2421,
-      "ts": 1784139264,
-      "ts_str": "2026-07-15 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic Prepares for Potential IPO, Outpacing OpenAI - GuruFocus",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 16:53:35 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTJacVFwWENtQzVDNkRZYkltSWFEaGZrQTYyRHZ3SzRZRk9uR2k1eWlRQ3kxMnY5RmFhemQxbG9Yem5XdlpRN2VFamdiM0lHTXNUQnlJQk5yYi1nMTNyWk1VaEtMZ1VOSUZrWlpuT3lZdkE3S3RuT2tCdUJTMDVHNWRwMm5DV2hfaWNtQ2tUR0pJODB6R0R3?oc=5\n\nAnthropic Prepares for Potential IPO, Outpacing OpenAI - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTJacVFwWENtQzVDNkRZYkltSWFEaGZrQTYyRHZ3SzRZRk9uR2k1eWlRQ3kxMnY5RmFhemQxbG9Yem5XdlpRN2VFamdiM0lHTXNUQnlJQk5yYi1nMTNyWk1VaEtMZ1VOSUZrWlpuT3lZdkE3S3RuT2tCdUJTMDVHNWRwMm5DV2hfaWNtQ2tUR0pJODB6R0R3?oc=5\" target=\"_blank\">Anthropic Prepares for Potential IPO, Outpacing OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports Anthropic is preparing for a potential IPO, framed as \"outpacing OpenAI.\"\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u65b0\u95fb\u79f0 Anthropic \u6b63\u5728\u7b79\u5907\u6f5c\u5728\u7684 IPO\uff0c\u6807\u9898\u79f0\u5176\"\u8d85\u8d8a OpenAI\"\u3002\n\nWhy it matters:\nThis is peer-competitor coverage, not an OpenAI-specific burn-rate or filing signal, so it stays at MED under C3's classifier \u2014 but Anthropic IPO chatter matters for the thesis because it signals the frontier labs are starting to look at public capital markets to fund AI capex, which raises the stakes if sentiment turns.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5173\u4e8e\u540c\u884c\u7ade\u4e89\u5bf9\u624b\u7684\u62a5\u9053\uff0c\u4e0d\u662f OpenAI \u672c\u8eab\u7684\u8d44\u91d1\u6d88\u8017\u6216\u62ab\u9732\u4fe1\u53f7\uff0c\u56e0\u6b64\u5728 C3 \u5206\u7c7b\u5668\u4e0b\u4ecd\u5c5e MED \u7ea7\u522b\uff1b\u4f46 Anthropic \u7b79\u5907 IPO \u7684\u6d88\u606f\u503c\u5f97\u5173\u6ce8\uff0c\u56e0\u4e3a\u5b83\u6697\u793a\u524d\u6cbf\u5b9e\u9a8c\u5ba4\u5f00\u59cb\u8f6c\u5411\u516c\u5f00\u8d44\u672c\u5e02\u573a\u4e3a AI \u8d44\u672c\u5f00\u652f\u878d\u8d44\uff0c\u4e00\u65e6\u5e02\u573a\u60c5\u7eea\u8f6c\u5411\uff0c\u98ce\u9669\u655e\u53e3\u4f1a\u66f4\u5927\u3002\n",
       "emailed": false
     }
   ],
