@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784705527,
-  "generated_at_str": "2026-07-22 07:32:07 UTC",
-  "last_event_ts": 1784704443,
+  "generated_at": 1784705708,
+  "generated_at_str": "2026-07-22 07:35:08 UTC",
+  "last_event_ts": 1784705707,
   "tables": {
     "alerts_dedup": {
-      "count": 2599,
-      "last_ts": 1784702826,
-      "last_str": "2026-07-22 06:47:06 UTC"
+      "count": 2600,
+      "last_ts": 1784705707,
+      "last_str": "2026-07-22 07:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-22 02:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2834,
-      "last_ts": 1784703902,
-      "last_str": "2026-07-22 07:05:02 UTC"
+      "count": 2835,
+      "last_ts": 1784705702,
+      "last_str": "2026-07-22 07:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3351,
-      "last_ts": 1784703904,
-      "last_str": "2026-07-22 07:05:04 UTC"
+      "count": 3353,
+      "last_ts": 1784705705,
+      "last_str": "2026-07-22 07:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2299,
-      "last_ts": 1784703903,
-      "last_str": "2026-07-22 07:05:03 UTC"
+      "count": 2300,
+      "last_ts": 1784705703,
+      "last_str": "2026-07-22 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2534,
-      "last_ts": 1784703905,
-      "last_str": "2026-07-22 07:05:05 UTC"
+      "count": 2535,
+      "last_ts": 1784705706,
+      "last_str": "2026-07-22 07:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 17849,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2607,
+      "ts": 1784705707,
+      "ts_str": "2026-07-22 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR5 Prices Surge 7% in July, Reaching New Highs - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 08:50:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUkxyeUtocVk3bk1ieUNOT3c0Tm9GMDl1RWllYS1TLTl6a0dGR2dHOE9OaGd0eWhJanlnOHZYMm83OHVvMlMzeXVYWUgweFhVUUJ2TGZZNlJKUGtQMU4ydmdNRGo3a3JyejZHdk9lWWJianpmOTJlSE5LWHB1eWUxU2F0ckJMYS100gGOAUFVX3lxTFAxRHJzZFhQRHVHR1FmTlpuRVJnbEJZWG9lWkV3RmE1ay1WRnQ3U2xUNDBwRnVKcFNaTFI1NjF5OTRLWDlQb3RLb1pabllyUlBtNWFXM2ltby03ZFNqV0dlUWoyTGtoTjhNdjNfT0xXXzRTNnkxRWd2c055b293Y1dReHRyR2VMQzFMRkhiaVE?oc=5\n\nDDR5 Prices Surge 7% in July, Reaching New Highs - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUkxyeUtocVk3bk1ieUNOT3c0Tm9GMDl1RWllYS1TLTl6a0dGR2dHOE9OaGd0eWhJanlnOHZYMm83OHVvMlMzeXVYWUgweFhVUUJ2TGZZNlJKUGtQMU4ydmdNRGo3a3JyejZHdk9lWWJianpmOTJlSE5LWHB1eWUxU2F0ckJMYS100gGOAUFVX3lxTFAxRHJzZFhQRHVHR1FmTlpuRVJnbEJZWG9lWkV3RmE1ay1WRnQ3U2xUNDBwRnVKcFNaTFI1NjF5OTRLWDlQb3RLb1pabllyUlBtNWFXM2ltby03ZFNqV0dlUWoyTGtoTjhNdjNfT0xXXzRTNnkxRWd2c055b293Y1dReHRyR2VMQzFMRkhiaVE?oc=5\" target=\"_blank\">DDR5 Prices Surge 7% in July, Reaching New Highs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2606,
       "ts": 1784702826,
@@ -2279,16 +2289,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Powerchip to Hike DRAM Foundry Prices by 45% in July; Chairman Frank Huang Signals Dividend Resumption Next Year - finan",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 02:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9hd0pFSjMtblJFZ053Y3ZsemNVbDhYb2lGVGk3YXRuSlBIcjJ0cXJlZ3FwT3lzSGx5YU9SMFAzeXNuVENTUGY1MTh6NTFaYVVxSjFpbW16LTUtN2hpSncyd3NybzFhTXZZRnVHN2M1NU5YMDJxVUE?oc=5\n\nPowerchip to Hike DRAM Foundry Prices by 45% in July; Chairman Frank Huang Signals Dividend Resumption Next Year - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9hd0pFSjMtblJFZ053Y3ZsemNVbDhYb2lGVGk3YXRuSlBIcjJ0cXJlZ3FwT3lzSGx5YU9SMFAzeXNuVENTUGY1MTh6NTFaYVVxSjFpbW16LTUtN2hpSncyd3NybzFhTXZZRnVHN2M1NU5YMDJxVUE?oc=5\" target=\"_blank\">Powerchip to Hike DRAM Foundry Prices by 45% in July; Chairman Frank Huang Signals Dividend Resumption Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPowerchip announced a 45% DRAM foundry price hike for July, with chairman Frank Huang signaling a dividend resumption next year.\n\n\u5185\u5bb9:\nPowerchip \u5ba3\u5e03 7 \u6708 DRAM \u4ee3\u5de5\u4ef7\u683c\u4e0a\u8c03 45%\uff0c\u8463\u4e8b\u957f\u9ec4\u5d07\u4ec1\u540c\u65f6\u91ca\u653e\u660e\u5e74\u6062\u590d\u6d3e\u606f\u7684\u4fe1\u53f7\u3002\n\nWhy it matters:\nA 45% memory-price jump directly raises the bill of materials for every AI server build, squeezing hyperscaler capex efficiency and compressing GPU-system margins. The dividend-resumption signal confirms Powerchip sees the pricing power as durable, not a one-off spike.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 45% \u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\u548c GPU \u7cfb\u7edf\u7684\u5229\u6da6\u7a7a\u95f4\u3002\u6062\u590d\u6d3e\u606f\u7684\u8868\u6001\u8bf4\u660e Powerchip \u8ba4\u4e3a\u8fd9\u8f6e\u6da8\u4ef7\u662f\u53ef\u6301\u7eed\u7684\uff0c\u800c\u4e0d\u662f\u77ed\u671f\u6ce2\u52a8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2406,
-      "ts": 1784104514,
-      "ts_str": "2026-07-15 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 15 Jul 2026 03:30:50 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmpWbUxKSW1weUtvd2xfTVl3bkhtM2d6d19aTGtSZGJkdXdJYWpGVEtCX2RpOUt2Wk1qeExvdk9jYWNaX0poTFBNNUhVX05QZVZkVDdOWFBzR0NjNTV4UlViWmlDU3N4eVFSVGRWMXgxUEM4cjJMbDNjanFWamdhQmRQTUd3eVdhRlZZS0RXOVIwM2Vfd1hlQldiVEx2UHBuLXRXTE41LXNYZkhZUjE5T0ZIc09SVm_SAbcBQVVfeXFMTlpqVm1MSkltcHlLb3dsX01Zd25IbTNnendfWkxrUmRiZHV3SWFqRlRLQl9kaTlLdlpNanhMb3ZPY2FjWl9KaExQTTVIVV9OUGVWZFQ3TlhQc0dDYzU1eFJVYlppQ1NzeHlRUlRkVjF4MVBDOHIyTGwzY2pxVmpnYUJkUE1Hd3lXYUZWWUtEVzlSMDNlX3dYZUJXYlRMdlBwbi10V0xONS1zWGZIWVIxOU9GSHNPUlZv?oc=5\n\nGlobal Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens - NDTV Profit\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmpWbUxKSW1weUtvd2xfTVl3bkhtM2d6d19aTGtSZGJkdXdJYWpGVEtCX2RpOUt2Wk1qeExvdk9jYWNaX0poTFBNNUhVX05QZVZkVDdOWFBzR0NjNTV4UlViWmlDU3N4eVFSVGRWMXgxUEM4cjJMbDNjanFWamdhQmRQTUd3eVdhRlZZS0RXOVIwM2Vfd1hlQldiVEx2UHBuLXRXTE41LXNYZkhZUjE5T0ZIc09SVm_SAbcBQVVfeXFMTlpqVm1MSkltcHlLb3dsX01Zd25IbTNnendfWkxrUmRiZHV3SWFqRlRLQl9kaTlLdlpNanhMb3ZPY2FjWl9KaExQTTVIVV9OUGVWZFQ3TlhQc0dDYzU1eFJVYlppQ1NzeHlRUlRkVjF4MVBDOHIyTGwzY2pxVmpnYUJkUE1Hd3lXYUZWWUtEVzlSMDNlX3dYZUJXYlRMdlBwbi10V0xONS1zWGZIWVIxOU9GSHNPUlZv?oc=5\" target=\"_blank\">Global Smartphone Sales Tumble As DRAM, NAND Supply Crunch Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV Profit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports smartphone sales declining as DRAM and NAND supply tightens, citing a deepening memory-chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0\uff0c\u968f\u7740 DRAM \u548c NAND \u4f9b\u5e94\u8d8b\u7d27\u3001\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u52a0\u5267\uff0c\u5168\u7403\u667a\u80fd\u624b\u673a\u9500\u91cf\u4e0b\u6ed1\u3002\n\nWhy it matters:\nAI-driven HBM/DRAM capacity allocation is squeezing supply for other device categories, pushing up memory costs and rippling into consumer hardware margins \u2014 a sign the AI-capex boom is crowding out adjacent markets rather than existing alongside them.\n\n\u5f71\u54cd:\nAI \u9a71\u52a8\u7684 HBM/DRAM \u4ea7\u80fd\u88ab\u5927\u91cf\u5360\u7528\uff0c\u6324\u538b\u4e86\u5176\u4ed6\u8bbe\u5907\u7c7b\u522b\u7684\u4f9b\u5e94\uff0c\u63a8\u9ad8\u4e86\u5185\u5b58\u6210\u672c\u5e76\u6ce2\u53ca\u6d88\u8d39\u7535\u5b50\u786c\u4ef6\u7684\u5229\u6da6\u7387\u2014\u2014\u8fd9\u8bf4\u660e AI capex \u70ed\u6f6e\u6b63\u5728\u6324\u5360\u76f8\u90bb\u5e02\u573a\uff0c\u800c\u4e0d\u662f\u4e0e\u5176\u5171\u5b58\u3002\n",
       "emailed": false
     }
   ],
