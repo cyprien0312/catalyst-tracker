@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-07-22 22:26:23 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-07-22 22:29:03 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,29 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="2647" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.37% (+54bp off 90d-low)</span>
+    <span class="meta">2026-07-22 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-07-21
+Current:  2.37%
+90d low:  1.83%
+Move:     +54bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (inflation-adjusted) Treasury yield has risen ≥40 bp off its recent trailing low.
+
+Why it matters:
+Real yields are the discount rate on every long-duration cash flow — and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.
+</pre>
+  <button class="mark-read" type="button" data-id="2647">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="2646" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -5799,52 +5822,20 @@ Rising real yields raise the discount rate applied to hyperscalers&#39; long-dat
   <button class="mark-read" type="button" data-id="2448">mark read</button>
 </details>
 
-<details class="alert sev-HIGH" data-id="2447" data-catalyst="C11" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C11</code>
-    <span class="subj">[C11-HIGH] SpaceX’s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock? - International Business Times</span>
-    <span class="meta">2026-07-16 20:47 UTC</span>
-  </summary>
-  <pre>Severity:  HIGH
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 16 Jul 2026 20:39:55 GMT
-Link:      https://news.google.com/rss/articles/CBMiigFBVV95cUxOMlVNYXh3bE9qOGs2UXJPTlcxbjZianJ4TVBKdHNYMUZyMnRQemFjNVpSUkRmbHZqSWN3U2pxUHhkTks1VlJlaGRWZG13MnhCeDN5bWVXaC1QUUY2UER5YmNvb093YjROeXZPTDR1OEc0N0c2V2JETzU4N3loaS1PazFWam9hVm50cFE?oc=5
-
-SpaceX’s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock? - International Business Times
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiigFBVV95cUxOMlVNYXh3bE9qOGs2UXJPTlcxbjZianJ4TVBKdHNYMUZyMnRQemFjNVpSUkRmbHZqSWN3U2pxUHhkTks1VlJlaGRWZG13MnhCeDN5bWVXaC1QUUY2UER5YmNvb093YjROeXZPTDR1OEc0N0c2V2JETzU4N3loaS1PazFWam9hVm50cFE?oc=5&#34; target=&#34;_blank&#34;&gt;SpaceX’s Next Test: Can Share Prices Survive The Upcoming Multi-Billion Share Unlock?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;International Business Times&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A news headline asks whether SpaceX shares can survive an upcoming multi-billion-share unlock, ahead of the scheduled lock-up expiration.
-
-内容:
-一篇新闻标题提出疑问：在即将到来的数十亿股解锁前，SpaceX 股价能否扛住冲击。
-
-Why it matters:
-Media coverage of the unlock signals the market is pricing in supply risk — a large tranche of previously restricted shares becoming sellable increases downward pressure on valuation and tests demand for the AI-capex-adjacent name.
-
-影响:
-媒体开始关注解锁事件，说明市场已经在为供给风险定价——大量此前受限股票一旦可以自由抛售，将对估值形成下行压力，也是对这只与 AI capex 相关标的需求端的一次考验。
-</pre>
-  <button class="mark-read" type="button" data-id="2447">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>2639</td>
-<td>2026-07-22 22:05:06 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>2640</td>
+<td>2026-07-22 22:29:03 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>1</td>
 <td>2026-07-02 04:53:03 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>20</td>
-<td>2026-07-21 22:29:04 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>21</td>
+<td>2026-07-22 22:29:01 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
