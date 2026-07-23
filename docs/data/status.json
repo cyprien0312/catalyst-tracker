@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784835130,
-  "generated_at_str": "2026-07-23 19:32:10 UTC",
-  "last_event_ts": 1784834043,
+  "generated_at": 1784835305,
+  "generated_at_str": "2026-07-23 19:35:05 UTC",
+  "last_event_ts": 1784835305,
   "tables": {
     "alerts_dedup": {
-      "count": 2664,
-      "last_ts": 1784829907,
-      "last_str": "2026-07-23 18:05:07 UTC"
+      "count": 2665,
+      "last_ts": 1784835305,
+      "last_str": "2026-07-23 19:35:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-23 18:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2948,
-      "last_ts": 1784833502,
-      "last_str": "2026-07-23 19:05:02 UTC"
+      "count": 2950,
+      "last_ts": 1784835302,
+      "last_str": "2026-07-23 19:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3458,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2672,
+      "ts": 1784835305,
+      "ts_str": "2026-07-23 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Adata boss predicts memory shortages and soaring DRAM prices will persist - TechRadar",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 19:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPRWNFcml6T3pGdDFEcVlVTjFMWnlKa0hCQ0FUbE5udnZYSUllQmpnaVJsclJpNGNxUTVuS2dDU1F2VGE3WTFIdV9GNUkzakVadHhSNHhzRUpLT2lVQ1dXSTRwYi1HTEFUdG8zUi05SGFPTGtNMkY2T3dxcjhWU3Y0N2ZoTjBuRHJKenhKaGtDdmZrMTZVci1LSk9TcWR6U3FmT1NFRVR3ei1YRUp4Mi04cHo3QkE4STlZdV84Sll3?oc=5\n\nAdata boss predicts memory shortages and soaring DRAM prices will persist - TechRadar\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPRWNFcml6T3pGdDFEcVlVTjFMWnlKa0hCQ0FUbE5udnZYSUllQmpnaVJsclJpNGNxUTVuS2dDU1F2VGE3WTFIdV9GNUkzakVadHhSNHhzRUpLT2lVQ1dXSTRwYi1HTEFUdG8zUi05SGFPTGtNMkY2T3dxcjhWU3Y0N2ZoTjBuRHJKenhKaGtDdmZrMTZVci1LSk9TcWR6U3FmT1NFRVR3ei1YRUp4Mi04cHo3QkE4STlZdV84Sll3?oc=5\" target=\"_blank\">Adata boss predicts memory shortages and soaring DRAM prices will persist</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechRadar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2669,
       "ts": 1784829907,
@@ -2292,16 +2302,6 @@
       "subject": "[C6-MED] OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 12:45:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\n\nOnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\" target=\"_blank\">OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA LatestLY article headline asks whether OnePlus is exiting the US and Europe due to a memory price hike.\n\n\u5185\u5bb9:\nLatestLY \u4e00\u7bc7\u6587\u7ae0\u6807\u9898\u8d28\u7591 OnePlus \u9000\u51fa\u7f8e\u56fd\u548c\u6b27\u6d32\u5e02\u573a\u662f\u5426\u56e0\u4e3a\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRSS coverage tying a consumer-electronics business decision to DRAM/NAND cost increases signals memory pricing is now hitting device-maker economics, not just hyperscaler bills of materials \u2014 a broadening of the C6 memory/storage stress thesis beyond datacenter buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5e02\u573a\u51b3\u7b56\u88ab\u5a92\u4f53\u4e0e DRAM/NAND \u6da8\u4ef7\u6302\u94a9\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u8bbe\u5907\u5382\u5546\u7684\u6210\u672c\u7ed3\u6784\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u6570\u636e\u4e2d\u5fc3\u91c7\u8d2d\u7aef\u2014\u2014\u8fd9\u662f C6 \u5185\u5b58/\u5b58\u50a8\u538b\u529b\u53d9\u4e8b\u6269\u6563\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2472,
-      "ts": 1784332032,
-      "ts_str": "2026-07-17 23:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Launch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dol",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 21:25:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTdIBY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTQ?oc=5\n\nLaunch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dollars from Its Peak - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTdIBY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTQ?oc=5\" target=\"_blank\">Launch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dollars from Its Peak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's stock (SPCX) plunged after reports of a launch delay compounded lock-up unlock pressure.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSpaceX\uff08SPCX\uff09\u56e0\u53d1\u5c04\u5ef6\u8fdf\u53e0\u52a0\u89e3\u7981\u629b\u538b\uff0c\u80a1\u4ef7\u66b4\u8dcc\u3002\n\nWhy it matters:\nThis is exactly the unlock-driven downside the C11 tranche calendar flags: forced-seller supply hitting a valuation already stretched by AI-infrastructure enthusiasm, with a launch delay as the trigger.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u89e3\u7981\u65e5\u5386\u6240\u8b66\u793a\u7684\u4e0b\u884c\u8def\u5f84\uff1a\u88ab\u8feb\u5356\u76d8\u9047\u4e0a\u56e0 AI \u57fa\u7840\u8bbe\u65bd\u70ed\u60c5\u800c\u88ab\u63a8\u9ad8\u7684\u4f30\u503c\uff0c\u800c\u8fd9\u6b21\u7684\u89e6\u53d1\u56e0\u7d20\u662f\u53d1\u5c04\u5ef6\u8fdf\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
