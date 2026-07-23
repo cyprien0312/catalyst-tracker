@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784817846,
-  "generated_at_str": "2026-07-23 14:44:06 UTC",
-  "last_event_ts": 1784817842,
+  "generated_at": 1784818036,
+  "generated_at_str": "2026-07-23 14:47:16 UTC",
+  "last_event_ts": 1784818032,
   "tables": {
     "alerts_dedup": {
-      "count": 2652,
-      "last_ts": 1784814425,
-      "last_str": "2026-07-23 13:47:05 UTC"
+      "count": 2656,
+      "last_ts": 1784818032,
+      "last_str": "2026-07-23 14:47:12 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -22,6 +22,11 @@
       "count": 2,
       "last_ts": 1784011634,
       "last_str": "2026-07-14 06:47:14 UTC"
+    },
+    "c11_lockup": {
+      "count": 1,
+      "last_ts": 1784818022,
+      "last_str": "2026-07-23 14:47:02 UTC"
     },
     "c1_filings": {
       "count": 106,
@@ -99,9 +104,9 @@
       "last_str": "2026-07-23 14:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2342,
-      "last_ts": 1784814422,
-      "last_str": "2026-07-23 13:47:02 UTC"
+      "count": 2357,
+      "last_ts": 1784818024,
+      "last_str": "2026-07-23 14:47:04 UTC"
     }
   },
   "c4_xbrl": [
@@ -298,6 +303,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2663,
+      "ts": 1784818032,
+      "ts_str": "2026-07-23 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX's First Post-IPO Earnings Due August 4, Followed by Over 900 Million Share Lockup Expiry - finance.biggo.com",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 10:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5NcUpVem8tVW5GR205NHZVZkdOU2R4bFlwT2JONER1RF82WU1uOUdjaXd6U29qQjZvNG0zcU5feW44U0FqQm5md09UdDdZQzREd3ZyUjlvU19ERkNJeVJPbU13MEF2cG5idkdLSWZCQkJIUXZFeVE?oc=5\n\nSpaceX's First Post-IPO Earnings Due August 4, Followed by Over 900 Million Share Lockup Expiry - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5NcUpVem8tVW5GR205NHZVZkdOU2R4bFlwT2JONER1RF82WU1uOUdjaXd6U29qQjZvNG0zcU5feW44U0FqQm5md09UdDdZQzREd3ZyUjlvU19ERkNJeVJPbU13MEF2cG5idkdLSWZCQkJIUXZFeVE?oc=5\" target=\"_blank\">SpaceX's First Post-IPO Earnings Due August 4, Followed by Over 900 Million Share Lockup Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
+      "emailed": true
+    },
+    {
+      "id": 2662,
+      "ts": 1784818031,
+      "ts_str": "2026-07-23 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com - Investing.com South Africa",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:01:44 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU0gtOTFJVFpKdlJHM1hqZE40a3UyMzg4QnlzN3V1RlVobXdGRE9QOGFPVGxtVGNnSDR0ZjAtWmhfdGFIQUlra0VvQ29zT0QtanZ4MFgwaGxtMlB4TzNMenRGSXBRQzBYZC16MktFd2VSNFRZNXlKR2lBWW50bFpXeXBsc1JWMWpoV3gwSk1qSndRcUNoT1ZYNkFIQlVrdGxiby1MX3ZGSHI1ZUE4Y3JyNHBVMmhDVUhZRFZiR0Q2N2JxbmRLTm5uSjJfcnhycUpkU01zd3dZbzJPbVE0?oc=5\n\nSpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com - Investing.com South Africa\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNU0gtOTFJVFpKdlJHM1hqZE40a3UyMzg4QnlzN3V1RlVobXdGRE9QOGFPVGxtVGNnSDR0ZjAtWmhfdGFIQUlra0VvQ29zT0QtanZ4MFgwaGxtMlB4TzNMenRGSXBRQzBYZC16MktFd2VSNFRZNXlKR2lBWW50bFpXeXBsc1JWMWpoV3gwSk1qSndRcUNoT1ZYNkFIQlVrdGxiby1MX3ZGSHI1ZUE4Y3JyNHBVMmhDVUhZRFZiR0Q2N2JxbmRLTm5uSjJfcnhycUpkU01zd3dZbzJPbVE0?oc=5\" target=\"_blank\">SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
+      "emailed": true
+    },
+    {
+      "id": 2661,
+      "ts": 1784818030,
+      "ts_str": "2026-07-23 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff - Investing.com",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 12:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS21VdkpXemIzMllpU1dJdnREUWcwRkxaNHVRd2dyYlhsR0E1N2phNjRxX1U0dkw2bTJwSnRyYkx2cHdwOHNNc0U3NlVtSlU1alpKc0VLbi1lOUhBRXJpUVpKQWV5anNJc1Z4SVJRYmFCS1FRRE9hdXhmX0RYSXpNcW9JN0I3ak52UDljajE3STV4WWpteWRZM1M3T1dlMkZyeTJDMXJDdjVab0R0SUd4V0hiQ1lubGFOVFVMeElkS2JUdzBqOW9adklSaVhxbUVndWo0OE94eXI?oc=5\n\nSpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS21VdkpXemIzMllpU1dJdnREUWcwRkxaNHVRd2dyYlhsR0E1N2phNjRxX1U0dkw2bTJwSnRyYkx2cHdwOHNNc0U3NlVtSlU1alpKc0VLbi1lOUhBRXJpUVpKQWV5anNJc1Z4SVJRYmFCS1FRRE9hdXhmX0RYSXpNcW9JN0I3ak52UDljajE3STV4WWpteWRZM1M3T1dlMkZyeTJDMXJDdjVab0R0SUd4V0hiQ1lubGFOVFVMeElkS2JUdzBqOW9adklSaVhxbUVndWo0OE94eXI?oc=5\" target=\"_blank\">SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
+      "emailed": true
+    },
+    {
+      "id": 2660,
+      "ts": 1784818029,
+      "ts_str": "2026-07-23 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SPCX unlock in \u22647d: Q2'26 earnings +2td (9.1\u4ebf shares)",
+      "body": "Severity:   HIGH\nTranche:    Q2'26 earnings +2td\nDate:       2026-07-31 (ESTIMATED \u2014 earnings-linked, re-verify on EDGAR)  (7 day(s) out)\nRelease:    9.1\u4ebf shares (7.0% of shares outstanding)\nCumulative: 11.2% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SpaceX (SPCX) lock-up tranche is estimated to expire within the next week, releasing a block of insider shares into the float.\n\nWhy it matters:\nSPCX floated ~4% of its shares and was fast-tracked into the Nasdaq-100, so index funds were forced to buy into a tiny float. Each unlock expands supply against that fixed passive bid; the large tranches (Q3'26 earnings \u224813\u4ebf, Day-366 Musk tranche \u224864\u4ebf) are the live test of whether index plumbing can absorb mega-IPO distribution \u2014 the same mechanics an OpenAI/Anthropic listing would face. Earnings-linked dates are estimates; confirm on EDGAR.\n",
+      "emailed": true
+    },
     {
       "id": 2659,
       "ts": 1784814425,
@@ -2257,46 +2302,6 @@
       "subject": "[C3-MED] How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans - TechCrunch",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 17:45:46 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmcwTkJ4SzdyRmptcl9aWlo3Z3JFSXczeUVrM0tyUDRRdmR1VnBjdjhXSnZsWWJPRnhyT2t0NnFCWV8xeDhhYktaZ3RlSjhBc3oyOUxwTUFpNWpCTnNiS2V6VVVteVR3aWs3bmtBcG9wYW1ueE1mWjJHMklIalBxZnBCQXpQVWZWU0N5Ug?oc=5\n\nHow Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans - TechCrunch\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmcwTkJ4SzdyRmptcl9aWlo3Z3JFSXczeUVrM0tyUDRRdmR1VnBjdjhXSnZsWWJPRnhyT2t0NnFCWV8xeDhhYktaZ3RlSjhBc3oyOUxwTUFpNWpCTnNiS2V6VVVteVR3aWs3bmtBcG9wYW1ueE1mWjJHMklIalBxZnBCQXpQVWZWU0N5Ug?oc=5\" target=\"_blank\">How Apple\u2019s big lawsuit could disrupt OpenAI\u2019s IPO plans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechCrunch</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS is surfacing a TechCrunch piece speculating that Apple's lawsuit could disrupt OpenAI's IPO plans; no filing, number, or confirmed metric is attached.\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u53d6\u5230 TechCrunch \u4e00\u7bc7\u62a5\u9053\uff0c\u731c\u6d4b Apple \u7684\u8bc9\u8bbc\u53ef\u80fd\u4f1a\u6253\u4e71 OpenAI \u7684 IPO \u8ba1\u5212\uff1b\u76ee\u524d\u6ca1\u6709\u9644\u5e26\u4efb\u4f55 SEC \u6587\u4ef6\u6216\u5df2\u786e\u8ba4\u7684\u6570\u636e\u6307\u6807\u3002\n\nWhy it matters:\nThis is background/legal-risk chatter around an OpenAI IPO, not a burn-rate data point \u2014 C3's HIGH trigger needs an extracted metric rising >25% QoQ, which isn't present here, so it stays a MED-severity narrative flag worth tracking but not acting on.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u56f4\u7ed5 OpenAI IPO \u7684\u6cd5\u5f8b\u98ce\u9669\u7c7b\u80cc\u666f\u65b0\u95fb\uff0c\u5e76\u975e\u70e7\u94b1\u7387\u6570\u636e\u70b9\u2014\u2014C3 \u89e6\u53d1 HIGH \u9700\u8981\u63d0\u53d6\u51fa\u73af\u6bd4\u6da8\u5e45\u8d85\u8fc7 25% \u7684\u6307\u6807\uff0c\u8fd9\u91cc\u5e76\u4e0d\u5b58\u5728\uff0c\u6240\u4ee5\u53ea\u7b97\u662f\u503c\u5f97\u5173\u6ce8\u4f46\u6682\u4e0d\u9700\u8981\u884c\u52a8\u7684 MED \u7ea7\u522b\u53d9\u4e8b\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2463,
-      "ts": 1784311516,
-      "ts_str": "2026-07-17 18:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple to raise prices due to memory chip costs - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 21:38:38 GMT\nLink:      https://news.google.com/rss/articles/CBMizAJBVV95cUxNUWtFYWY1YWJMajRWcWMzVGQ2OHNZSDRfRlF3X3hINDZ5SnpSVDNPUnBiQzRHWURFcXRrS3Y2U2J5UjlLU1N6VXRLdzljN0lHZlVOa1ZycnRSdXJ2UG11NFB6VkxaS0lfWTFkVkVlaXdVbldxWFlFdFVCT245cHlFNUpScmJWVW5CbHYxZllUTVN5TkhKSjNsRWk2c3FMb2lvMFdoM2l2YU12Qjd1WGxVSi1Va2dvVlpYX01IQ1h4QzJJaGl2OXpHUXY3Wk9LSVhZalZkejFTdGIyZTY0LXFWUlNIZ3Nnd0xQRE5taFg0Z3pBc0ZXdHp1bGZLYkRkbjVUSzhBUWtRMzBLS3dwd3JBS2FtQlFGdVlOUFpST0lkdHBGb3U2Wjk0RjZRYTJJNGVxM3FxSF9uX0RJd0N6ZkRoWVRJamlTenhjeFZsaA?oc=5\n\nApple to raise prices due to memory chip costs - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMizAJBVV95cUxNUWtFYWY1YWJMajRWcWMzVGQ2OHNZSDRfRlF3X3hINDZ5SnpSVDNPUnBiQzRHWURFcXRrS3Y2U2J5UjlLU1N6VXRLdzljN0lHZlVOa1ZycnRSdXJ2UG11NFB6VkxaS0lfWTFkVkVlaXdVbldxWFlFdFVCT245cHlFNUpScmJWVW5CbHYxZllUTVN5TkhKSjNsRWk2c3FMb2lvMFdoM2l2YU12Qjd1WGxVSi1Va2dvVlpYX01IQ1h4QzJJaGl2OXpHUXY3Wk9LSVhZalZkejFTdGIyZTY0LXFWUlNIZ3Nnd0xQRE5taFg0Z3pBc0ZXdHp1bGZLYkRkbjVUSzhBUWtRMzBLS3dwd3JBS2FtQlFGdVlOUFpST0lkdHBGb3U2Wjk0RjZRYTJJNGVxM3FxSF9uX0RJd0N6ZkRoWVRJamlTenhjeFZsaA?oc=5\" target=\"_blank\">Apple to raise prices due to memory chip costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple is raising prices, citing memory chip costs.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0 Apple \u5c06\u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u800c\u63d0\u4ef7\u3002\n\nWhy it matters:\nA hyperscaler-adjacent OEM passing through DRAM/NAND cost increases to consumers signals real memory-market tightness, not just AI-datacenter demand noise \u2014 corroborates the memory/storage stress thesis feeding HBM/DRAM scarcity into AI-capex cost inflation.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4e0b\u6e38\u7684\u6d88\u8d39\u7535\u5b50\u5de8\u5934\u5f00\u59cb\u628a DRAM/NAND \u6210\u672c\u4e0a\u6da8\u8f6c\u5ac1\u7ed9\u6d88\u8d39\u8005\uff0c\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7684\u7d27\u7f3a\u662f\u771f\u5b9e\u7684\uff0c\u800c\u4e0d\u53ea\u662f AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5e26\u6765\u7684\u566a\u97f3\u2014\u2014\u8fd9\u5370\u8bc1\u4e86\u5185\u5b58/\u5b58\u50a8\u538b\u529b\u7684\u8bba\u70b9\uff0c\u5373 HBM/DRAM \u7a00\u7f3a\u6b63\u5728\u63a8\u9ad8 AI capex \u7684\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2462,
-      "ts": 1784306660,
-      "ts_str": "2026-07-17 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] What a Delayed OpenAI IPO Would Tell Investors - Morningstar",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 16:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQeTVtTWh2dUR3Y0VnYlp6X0RPX01ZdldzRWZOS3JuVUk2OFRfaGl2VjVyaDFPcVlPbzlpYXhzNWt4UGdGQTBSNlg5aW11VDR1UzlROTZDTVZGMmZQazBqbE5UdC1KOGtXbTgwbEZBdE5sNXRXMExYNnU0NVBNOWxSbzZjc3l0UQ?oc=5\n\nWhat a Delayed OpenAI IPO Would Tell Investors - Morningstar\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQeTVtTWh2dUR3Y0VnYlp6X0RPX01ZdldzRWZOS3JuVUk2OFRfaGl2VjVyaDFPcVlPbzlpYXhzNWt4UGdGQTBSNlg5aW11VDR1UzlROTZDTVZGMmZQazBqbE5UdC1KOGtXbTgwbEZBdE5sNXRXMExYNnU0NVBNOWxSbzZjc3l0UQ?oc=5\" target=\"_blank\">What a Delayed OpenAI IPO Would Tell Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Morningstar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Morningstar piece asks what a delayed OpenAI IPO would signal to investors, surfaced by C3's OpenAI-keyword monitor.\n\n\u5185\u5bb9:\nMorningstar \u53d1\u6587\u63a2\u8ba8\u5982\u679c OpenAI IPO \u63a8\u8fdf\uff0c\u5c06\u5411\u6295\u8d44\u8005\u4f20\u9012\u4ec0\u4e48\u4fe1\u53f7\uff0c\u8be5\u5185\u5bb9\u88ab C3 \u7684 OpenAI \u5173\u952e\u8bcd\u76d1\u63a7\u6355\u83b7\u3002\n\nWhy it matters:\nThis is commentary, not a hard data point \u2014 no burn-rate or filing metric crossed the >25% QoQ HIGH threshold, so it stays MED. An actual IPO delay would matter (it would remove a liquidity event the AI-capex bull case leans on), but this article is speculation about that scenario, not confirmation of it.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u8bc4\u8bba\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u786c\u6570\u636e\u2014\u2014\u6ca1\u6709\u89e6\u53d1 burn rate \u73af\u6bd4\u6da8\u5e45\u8d85\u8fc7 25% \u7684 HIGH \u9608\u503c\uff0c\u56e0\u6b64\u4ec5\u6807\u8bb0\u4e3a MED\u3002IPO \u771f\u7684\u63a8\u8fdf\u4f1a\u662f\u91cd\u8981\u4fe1\u53f7\uff08\u610f\u5473\u7740 AI capex \u591a\u5934\u903b\u8f91\u6240\u4f9d\u8d56\u7684\u4e00\u4e2a\u6d41\u52a8\u6027\u4e8b\u4ef6\u88ab\u79fb\u9664\uff09\uff0c\u4f46\u8fd9\u7bc7\u6587\u7ae0\u53ea\u662f\u5728\u63a8\u6d4b\u8fd9\u79cd\u53ef\u80fd\u6027\uff0c\u5e76\u975e\u786e\u8ba4\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2461,
-      "ts": 1784306116,
-      "ts_str": "2026-07-17 16:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 12:45:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\n\nOnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\" target=\"_blank\">OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA LatestLY article headline asks whether OnePlus is exiting the US and Europe due to a memory price hike.\n\n\u5185\u5bb9:\nLatestLY \u4e00\u7bc7\u6587\u7ae0\u6807\u9898\u8d28\u7591 OnePlus \u9000\u51fa\u7f8e\u56fd\u548c\u6b27\u6d32\u5e02\u573a\u662f\u5426\u56e0\u4e3a\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRSS coverage tying a consumer-electronics business decision to DRAM/NAND cost increases signals memory pricing is now hitting device-maker economics, not just hyperscaler bills of materials \u2014 a broadening of the C6 memory/storage stress thesis beyond datacenter buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5e02\u573a\u51b3\u7b56\u88ab\u5a92\u4f53\u4e0e DRAM/NAND \u6da8\u4ef7\u6302\u94a9\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u8bbe\u5907\u5382\u5546\u7684\u6210\u672c\u7ed3\u6784\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u6570\u636e\u4e2d\u5fc3\u91c7\u8d2d\u7aef\u2014\u2014\u8fd9\u662f C6 \u5185\u5b58/\u5b58\u50a8\u538b\u529b\u53d9\u4e8b\u6269\u6563\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2460,
-      "ts": 1784303235,
-      "ts_str": "2026-07-17 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX (SPCX.US) Faces Imminent Lock-Up Expiry: $6 Billion in Leveraged Positions and Earnings Report Under Scrutiny - M",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 14:51:02 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPbFY2QTZWVEFLTWU3MVZtcHFiUy14eDg4SVlJLUNxT0YzRkNNQlNlS3l3dFU2c2pJc080MGoyMHNoVTdzckNYZ3NtRmc2eEVMNG9QY1hlZE9YOWFfQzl1U2dvZm9xdjZWS1ROYVBDdDRWUHNZai1tLU5jLVlXdFpDZmdWWTlTdkRBU2cxMmw3MTdmQnIzaWNGWHBHU2pYaU0?oc=5\n\nSpaceX (SPCX.US) Faces Imminent Lock-Up Expiry: $6 Billion in Leveraged Positions and Earnings Report Under Scrutiny - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPbFY2QTZWVEFLTWU3MVZtcHFiUy14eDg4SVlJLUNxT0YzRkNNQlNlS3l3dFU2c2pJc080MGoyMHNoVTdzckNYZ3NtRmc2eEVMNG9QY1hlZE9YOWFfQzl1U2dvZm9xdjZWS1ROYVBDdDRWUHNZai1tLU5jLVlXdFpDZmdWWTlTdkRBU2cxMmw3MTdmQnIzaWNGWHBHU2pYaU0?oc=5\" target=\"_blank\">SpaceX (SPCX.US) Faces Imminent Lock-Up Expiry: $6 Billion in Leveraged Positions and Earnings Report Under Scrutiny</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Moomoo article warns SpaceX (SPCX) faces an imminent lock-up expiry exposing $6B in leveraged positions, with the earnings report also under scrutiny.\n\n\u5185\u5bb9:\nMoomoo \u4e00\u7bc7\u6587\u7ae0\u8b66\u544a\u79f0\uff0cSpaceX (SPCX) \u5373\u5c06\u9762\u4e34\u89e3\u7981\uff0c\u5176\u4e2d $6B \u7684\u6760\u6746\u5934\u5bf8\u9762\u4e34\u98ce\u9669\uff0c\u8d22\u62a5\u4e5f\u6b63\u53d7\u5230\u5bc6\u5207\u5173\u6ce8\u3002\n\nWhy it matters:\nA lock-up expiry near an earnings print is a classic setup for forced selling if results disappoint \u2014 leveraged holders are especially exposed to a liquidity air-pocket. Feeds directly into the C11 thesis that passive/index flows and unlock mechanics, not fundamentals, could drive the next SPCX repricing.\n\n\u5f71\u54cd:\n\u89e3\u7981\u671f\u4e34\u8fd1\u8d22\u62a5\u53d1\u5e03\u662f\u5178\u578b\u7684\u5f3a\u5236\u629b\u552e\u89e6\u53d1\u573a\u666f\u2014\u2014\u6760\u6746\u6301\u4ed3\u8005\u5bf9\u6d41\u52a8\u6027\u771f\u7a7a\u5c24\u5176\u8106\u5f31\u3002\u8fd9\u76f4\u63a5\u5370\u8bc1\u4e86 C11 \u7684\u6838\u5fc3\u903b\u8f91\uff1a\u9a71\u52a8 SPCX \u4e0b\u4e00\u6ce2\u91cd\u65b0\u5b9a\u4ef7\u7684\u53ef\u80fd\u662f\u88ab\u52a8/\u6307\u6570\u8d44\u91d1\u6d41\u548c\u89e3\u7981\u673a\u5236\uff0c\u800c\u975e\u57fa\u672c\u9762\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
