@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784790127,
-  "generated_at_str": "2026-07-23 07:02:07 UTC",
-  "last_event_ts": 1784789224,
+  "generated_at": 1784790306,
+  "generated_at_str": "2026-07-23 07:05:06 UTC",
+  "last_event_ts": 1784790305,
   "tables": {
     "alerts_dedup": {
-      "count": 2646,
-      "last_ts": 1784789224,
-      "last_str": "2026-07-23 06:47:04 UTC"
+      "count": 2647,
+      "last_ts": 1784790305,
+      "last_str": "2026-07-23 07:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,14 +74,14 @@
       "last_str": "2026-07-23 05:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2899,
-      "last_ts": 1784788507,
-      "last_str": "2026-07-23 06:35:07 UTC"
+      "count": 2900,
+      "last_ts": 1784790302,
+      "last_str": "2026-07-23 07:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3412,
-      "last_ts": 1784786703,
-      "last_str": "2026-07-23 06:05:03 UTC"
+      "count": 3413,
+      "last_ts": 1784790303,
+      "last_str": "2026-07-23 07:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2339,
@@ -89,9 +89,9 @@
       "last_str": "2026-07-23 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2587,
-      "last_ts": 1784781304,
-      "last_str": "2026-07-23 04:35:04 UTC"
+      "count": 2588,
+      "last_ts": 1784790304,
+      "last_str": "2026-07-23 07:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 18257,
@@ -291,6 +291,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2654,
+      "ts": 1784790305,
+      "ts_str": "2026-07-23 07:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] India Smartphone Shipments Fall 10% as Memory Prices Surge - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 22:44:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdDVVMTlLSjlZYlk5RGtrMHFibWFhN216dC1sU0tsc0RKaF94bGNOX1daMGFzTEg2YWVYNmcyb2tIdVhwdEpHRUZpXzQzcmxILV93enlsWmRLMndCM1g5NnBqZV9WbkJfZ2NaYTV2OGlwR2stdHFIWGJwRHY0ZWdtelAydVQtWUJpLTN5TER1cGhRWk1jbmZjdXRYTkM4RGNFTWJJbU00aF9fNlE?oc=5\n\nIndia Smartphone Shipments Fall 10% as Memory Prices Surge - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdDVVMTlLSjlZYlk5RGtrMHFibWFhN216dC1sU0tsc0RKaF94bGNOX1daMGFzTEg2YWVYNmcyb2tIdVhwdEpHRUZpXzQzcmxILV93enlsWmRLMndCM1g5NnBqZV9WbkJfZ2NaYTV2OGlwR2stdHFIWGJwRHY0ZWdtelAydVQtWUJpLTN5TER1cGhRWk1jbmZjdXRYTkM4RGNFTWJJbU00aF9fNlE?oc=5\" target=\"_blank\">India Smartphone Shipments Fall 10% as Memory Prices Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2653,
       "ts": 1784789224,
@@ -2280,16 +2290,6 @@
       "subject": "[C11-MED] Raymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Ca",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 10:18:45 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ18xNF9KNVFNRmtrYVNJUnNVZFBlOGNkQ3dRaHVicE5DT1kwQ0JQOG4yZTFBV0lZWnh2WVpmbFM3R3F6NkVWR3dBbE9xckljTGp0VC1jVnNGLTZiYUplcWpXcDRzRllKSVNmc3p6MndKMFZtd01SaW1mNUhxYnpNSw?oc=5\n\nRaymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Call. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ18xNF9KNVFNRmtrYVNJUnNVZFBlOGNkQ3dRaHVicE5DT1kwQ0JQOG4yZTFBV0lZWnh2WVpmbFM3R3F6NkVWR3dBbE9xckljTGp0VC1jVnNGLTZiYUplcWpXcDRzRllKSVNmc3p6MndKMFZtd01SaW1mNUhxYnpNSw?oc=5\" target=\"_blank\">Raymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Call.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced Raymond James issuing a $800 price target on SpaceX stock, implying 425% upside.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0\uff0cRaymond James \u7ed9\u51fa SpaceX \u80a1\u7968 800 \u7f8e\u5143\u7684\u76ee\u6807\u4ef7\uff0c\u9690\u542b 425% \u7684\u4e0a\u6da8\u7a7a\u95f4\u3002\n\nWhy it matters:\nA sell-side price target this far above any implied private valuation signals building retail/analyst hype ahead of an eventual SpaceX IPO \u2014 exactly the kind of index-inclusion anticipation flow C11 is designed to catch, since aggressive targets can front-run passive-fund demand once the stock lists.\n\n\u5f71\u54cd:\n\u8fd9\u4e00\u8fdc\u8d85\u4efb\u4f55\u9690\u542b\u79c1\u52df\u4f30\u503c\u7684\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u9884\u793a\u7740\u56f4\u7ed5 SpaceX \u672a\u6765 IPO \u7684\u6563\u6237/\u5206\u6790\u5e08\u7092\u4f5c\u60c5\u7eea\u6b63\u5728\u5347\u6e29\u2014\u2014\u8fd9\u6b63\u662f C11 \u60f3\u6355\u6349\u7684\u6307\u6570\u7eb3\u5165\u9884\u671f\u8d44\u91d1\u6d41\u4fe1\u53f7\uff0c\u56e0\u4e3a\u6fc0\u8fdb\u7684\u76ee\u6807\u4ef7\u53ef\u80fd\u5728\u5176\u4e0a\u5e02\u540e\u88ab\u52a8\u57fa\u91d1\u4e70\u76d8\u542f\u52a8\u524d\u5c31\u62a2\u5148\u53cd\u6620\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2454,
-      "ts": 1784288106,
-      "ts_str": "2026-07-17 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Memory Chip Stocks Bloodbath: Micron's Market Cap Drops Below $1 Trillion as CXMT IPO Sparks Oversupply Fears - finance.",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 16 Jul 2026 16:50:37 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE0tS3pmUkFnSnlHYk5nSjZFX1ZYYmtMZ2FSVDZLdmxGZEItOFlMOUp6MGRVdmVHeFRZRGtrUUpEYVV3SVluQkJBNlE0U25zNGRzclFjSk00UmxTT2VvbEZMckxzTEVKWlhVelAzUVFodW1QWVpHaWc?oc=5\n\nMemory Chip Stocks Bloodbath: Micron's Market Cap Drops Below $1 Trillion as CXMT IPO Sparks Oversupply Fears - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE0tS3pmUkFnSnlHYk5nSjZFX1ZYYmtMZ2FSVDZLdmxGZEItOFlMOUp6MGRVdmVHeFRZRGtrUUpEYVV3SVluQkJBNlE0U25zNGRzclFjSk00UmxTT2VvbEZMckxzTEVKWlhVelAzUVFodW1QWVpHaWc?oc=5\" target=\"_blank\">Memory Chip Stocks Bloodbath: Micron's Market Cap Drops Below $1 Trillion as CXMT IPO Sparks Oversupply Fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron's market cap fell below $1 trillion amid an RSS-flagged memory-price reversal, with CXMT's IPO cited as the oversupply trigger.\n\n\u5185\u5bb9:\n\u53d7 RSS \u6807\u8bb0\u7684\u5185\u5b58\u4ef7\u683c\u53cd\u8f6c\u5f71\u54cd\uff0cMicron \u5e02\u503c\u8dcc\u7834 1 \u4e07\u4ebf\u7f8e\u5143\uff0c\u62a5\u9053\u5c06 CXMT IPO \u5217\u4e3a\u4f9b\u5e94\u8fc7\u5269\u7684\u89e6\u53d1\u56e0\u7d20\u3002\n\nWhy it matters:\nDRAM/HBM is a direct input cost and supply constraint for AI accelerators \u2014 a demand-driven price reversal (vs. temporary noise) signals the memory leg of the AI buildout is cracking, which feeds into hyperscaler capex economics and margin assumptions.\n\n\u5f71\u54cd:\nDRAM/HBM \u662f AI \u52a0\u901f\u5668\u7684\u76f4\u63a5\u6210\u672c\u548c\u4f9b\u5e94\u7ea6\u675f\u9879\u2014\u2014\u5982\u679c\u8fd9\u662f\u9700\u6c42\u9a71\u52a8\u7684\u4ef7\u683c\u53cd\u8f6c\uff08\u800c\u975e\u77ed\u671f\u566a\u97f3\uff09\uff0c\u8bf4\u660e AI \u5efa\u8bbe\u5468\u671f\u4e2d\u7684\u5185\u5b58\u73af\u8282\u6b63\u5728\u51fa\u73b0\u88c2\u75d5\uff0c\u8fd9\u4f1a\u4f20\u5bfc\u81f3\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u7ecf\u6d4e\u6027\u4e0e\u5229\u6da6\u7387\u5047\u8bbe\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
