@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784836926,
-  "generated_at_str": "2026-07-23 20:02:06 UTC",
-  "last_event_ts": 1784836022,
+  "generated_at": 1784837105,
+  "generated_at_str": "2026-07-23 20:05:05 UTC",
+  "last_event_ts": 1784837105,
   "tables": {
     "alerts_dedup": {
-      "count": 2665,
-      "last_ts": 1784835305,
-      "last_str": "2026-07-23 19:35:05 UTC"
+      "count": 2666,
+      "last_ts": 1784837105,
+      "last_str": "2026-07-23 20:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,14 +79,14 @@
       "last_str": "2026-07-23 18:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2950,
-      "last_ts": 1784835302,
-      "last_str": "2026-07-23 19:35:02 UTC"
+      "count": 2951,
+      "last_ts": 1784837102,
+      "last_str": "2026-07-23 20:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3458,
-      "last_ts": 1784833504,
-      "last_str": "2026-07-23 19:05:04 UTC"
+      "count": 3460,
+      "last_ts": 1784837103,
+      "last_str": "2026-07-23 20:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2366,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-23 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2629,
-      "last_ts": 1784831705,
-      "last_str": "2026-07-23 18:35:05 UTC"
+      "count": 2631,
+      "last_ts": 1784837104,
+      "last_str": "2026-07-23 20:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 18463,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2673,
+      "ts": 1784837105,
+      "ts_str": "2026-07-23 20:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - AOL.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 20:05:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxNNS1mRm9vQ3VGbzNWcXUwWlQ5YTBtYzlDQXhhWS1veG5mNXA1NVFMX3ZGNjN5T2k5TkpmRk9tRHJzNnpvR1huX01KTmR6VkFJc0VKZXRKVHFCMl93RjQwYXpkSVpfcmlpN0ljdkVXLUxpV3c2cnRvMmZJSk9VUkZnVl9n?oc=5\n\nThe Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNNS1mRm9vQ3VGbzNWcXUwWlQ5YTBtYzlDQXhhWS1veG5mNXA1NVFMX3ZGNjN5T2k5TkpmRk9tRHJzNnpvR1huX01KTmR6VkFJc0VKZXRKVHFCMl93RjQwYXpkSVpfcmlpN0ljdkVXLUxpV3c2cnRvMmZJSk9VUkZnVl9n?oc=5\" target=\"_blank\">The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2672,
       "ts": 1784835305,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung\u2019s Phone Business May Post Its First-Ever Quarterly Loss as Memory Prices Soar - AndroidPure",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 18 Jul 2026 03:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTE85VGo1OEtqbmdEQUdPT2ppNjQ4eGpsMW50RHRsMEJvQzk3U2g5VGdKOS0xWVBpdFJzelgwcFl6VXVVRHNia3FXZXlBUlVTVXFHUTNORFhhN1V4b3dtX2syenhnTW1vZWoz?oc=5\n\nSamsung\u2019s Phone Business May Post Its First-Ever Quarterly Loss as Memory Prices Soar - AndroidPure\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE85VGo1OEtqbmdEQUdPT2ppNjQ4eGpsMW50RHRsMEJvQzk3U2g5VGdKOS0xWVBpdFJzelgwcFl6VXVVRHNia3FXZXlBUlVTVXFHUTNORFhhN1V4b3dtX2syenhnTW1vZWoz?oc=5\" target=\"_blank\">Samsung\u2019s Phone Business May Post Its First-Ever Quarterly Loss as Memory Prices Soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AndroidPure</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Samsung's mobile division may post its first-ever quarterly loss as memory prices surge.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0c\u7531\u4e8e\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u4e09\u661f\u624b\u673a\u4e1a\u52a1\u53ef\u80fd\u51fa\u73b0\u9996\u6b21\u5355\u5b63\u5ea6\u4e8f\u635f\u3002\n\nWhy it matters:\nDRAM/NAND price spikes are being driven by AI datacenter demand pulling supply away from consumer electronics, squeezing device makers' margins \u2014 a sign the memory shortage is severe enough to distort adjacent markets, reinforcing the C6 memory-stress thesis.\n\n\u5f71\u54cd:\nDRAM/NAND \u4ef7\u683c\u98d9\u5347\u7684\u80cc\u540e\u662f AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u62a2\u8d70\u4e86\u539f\u672c\u4f9b\u7ed9\u6d88\u8d39\u7535\u5b50\u7684\u4ea7\u80fd\uff0c\u538b\u7f29\u4e86\u7ec8\u7aef\u5382\u5546\u7684\u5229\u6da6\u7a7a\u95f4\u2014\u2014\u8fd9\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u626d\u66f2\u76f8\u90bb\u5e02\u573a\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 C6 \u5185\u5b58\u627f\u538b\u7684\u8bba\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2473,
-      "ts": 1784347505,
-      "ts_str": "2026-07-18 04:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 12:45:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\n\nOnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQTdseG5EYzVNdUhLTXVZT3lsdXVoTURCMmM3OFBGUFJvWFFZa09tSHpNVEMzemFTV2ctVWh1Z21JQ2xTX0JDRW9pY3p6eTFZU3ZQd0FMclk1ZV9BV1V4Um8yZVVOaVlNR3lIalRydGtMMUx1TnFLNnR5bXJHQ0hHT0ZZcWp1TlZIVHo3dTBUUUE2NGVqR3lCZUtfLTc2SkJmcUtmXzQ5WUdhdlpQTnE3WTZsaWRxV0lhdzlaMUVvV05PR3cyT2VJTdIBzgFBVV95cUxPdEgyaHozUllibE40V0pWekJoWFpnUm1LcjE5ellRV1I1NDh2TG5nU3N3ZHZnQkV1bnhMdms3YkhhLUV3YkVHcktLa2hTaHhteFp6V3J5dTdpMnZOZjA2ZjBRTUVmRjROb21mTnZxUldTNmdvOXJhTDRrN25lX2RGX1hSTEVsZUdZck5INDlvNzdjVFhvTWtzVUVUbGpDWmtEaUltMkF5bkdmMVhNZU13Q3lpc3BidmlHNDBuQndvTnM3YWhVSTdNRk1CZlFLQQ?oc=5\" target=\"_blank\">OnePlus Exit from US and Europe Because of Memory Price Hike? Here's Actual Reason</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA LatestLY article headline asks whether OnePlus is exiting the US and Europe due to a memory price hike.\n\n\u5185\u5bb9:\nLatestLY \u4e00\u7bc7\u6587\u7ae0\u6807\u9898\u8d28\u7591 OnePlus \u9000\u51fa\u7f8e\u56fd\u548c\u6b27\u6d32\u5e02\u573a\u662f\u5426\u56e0\u4e3a\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRSS coverage tying a consumer-electronics business decision to DRAM/NAND cost increases signals memory pricing is now hitting device-maker economics, not just hyperscaler bills of materials \u2014 a broadening of the C6 memory/storage stress thesis beyond datacenter buyers.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7535\u5b50\u5382\u5546\u7684\u5e02\u573a\u51b3\u7b56\u88ab\u5a92\u4f53\u4e0e DRAM/NAND \u6da8\u4ef7\u6302\u94a9\uff0c\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u538b\u529b\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u8bbe\u5907\u5382\u5546\u7684\u6210\u672c\u7ed3\u6784\uff0c\u800c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u6570\u636e\u4e2d\u5fc3\u91c7\u8d2d\u7aef\u2014\u2014\u8fd9\u662f C6 \u5185\u5b58/\u5b58\u50a8\u538b\u529b\u53d9\u4e8b\u6269\u6563\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
