@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784795524,
-  "generated_at_str": "2026-07-23 08:32:04 UTC",
-  "last_event_ts": 1784794443,
+  "generated_at": 1784795708,
+  "generated_at_str": "2026-07-23 08:35:08 UTC",
+  "last_event_ts": 1784795708,
   "tables": {
     "alerts_dedup": {
-      "count": 2647,
-      "last_ts": 1784790305,
-      "last_str": "2026-07-23 07:05:05 UTC"
+      "count": 2650,
+      "last_ts": 1784795708,
+      "last_str": "2026-07-23 08:35:08 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -74,24 +74,24 @@
       "last_str": "2026-07-23 05:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2905,
-      "last_ts": 1784793902,
-      "last_str": "2026-07-23 08:05:02 UTC"
+      "count": 2909,
+      "last_ts": 1784795702,
+      "last_str": "2026-07-23 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3415,
-      "last_ts": 1784793904,
-      "last_str": "2026-07-23 08:05:04 UTC"
+      "count": 3417,
+      "last_ts": 1784795704,
+      "last_str": "2026-07-23 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2340,
-      "last_ts": 1784792103,
-      "last_str": "2026-07-23 07:35:03 UTC"
+      "count": 2341,
+      "last_ts": 1784795703,
+      "last_str": "2026-07-23 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2590,
-      "last_ts": 1784792105,
-      "last_str": "2026-07-23 07:35:05 UTC"
+      "count": 2591,
+      "last_ts": 1784795705,
+      "last_str": "2026-07-23 08:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 18265,
@@ -291,6 +291,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2655,
+      "ts": 1784795708,
+      "ts_str": "2026-07-23 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 02:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\n\nMemory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\" target=\"_blank\">Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2656,
+      "ts": 1784795708,
+      "ts_str": "2026-07-23 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 02:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\n\nMemory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\" target=\"_blank\">Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2657,
+      "ts": 1784795708,
+      "ts_str": "2026-07-23 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 02:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\n\nMemory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\" target=\"_blank\">Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2654,
       "ts": 1784790305,
@@ -2260,36 +2290,6 @@
       "subject": "[C11-HIGH] Cathie Wood\u2019s early investment in SpaceX (NASDAQ:SPCX) shows loss ahead of lockup expiration - TechStock\u00b2",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 11:45:38 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjR2UXY1QlJ4S1F2Q2dtTGI1aE9MbGJTd2VRQy1ZdXB4Sk1YalVBdnhaUHJiN2JnbDJVSEg1VV9mQjA1SWgwMlpyNldjODg4QUdwUzZRUzRfYVpmajNNc253eklmVzVVaU5raUlWU000T1dQR01vcUVUVkd0eG5RZ19zQ1p4UktaQjhzYjJuTjFuNlVZM0hrTngwd0FHSUNFUVlyNk9uaW5FTEhJalE?oc=5\n\nCathie Wood\u2019s early investment in SpaceX (NASDAQ:SPCX) shows loss ahead of lockup expiration - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjR2UXY1QlJ4S1F2Q2dtTGI1aE9MbGJTd2VRQy1ZdXB4Sk1YalVBdnhaUHJiN2JnbDJVSEg1VV9mQjA1SWgwMlpyNldjODg4QUdwUzZRUzRfYVpmajNNc253eklmVzVVaU5raUlWU000T1dQR01vcUVUVkd0eG5RZ19zQ1p4UktaQjhzYjJuTjFuNlVZM0hrTngwd0FHSUNFUVlyNk9uaW5FTEhJalE?oc=5\" target=\"_blank\">Cathie Wood\u2019s early investment in SpaceX (NASDAQ:SPCX) shows loss ahead of lockup expiration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS hit surfaced a TechStock\u00b2 article noting Cathie Wood's early SpaceX (SPCX) investment shows a paper loss ahead of the IPO lockup expiration.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u547d\u4e2d\u663e\u793a\uff0cTechStock\u00b2 \u6587\u7ae0\u63d0\u5230 Cathie Wood \u5bf9 SpaceX (SPCX) \u7684\u65e9\u671f\u6295\u8d44\u5728 IPO \u9501\u5b9a\u671f\u89e3\u7981\u524d\u51fa\u73b0\u8d26\u9762\u4e8f\u635f\u3002\n\nWhy it matters:\nThis is mission-adjacent news volume ahead of the tranche unlock, not a confirmed lockup date change \u2014 but rising media attention on early-investor losses ahead of unlock is exactly the kind of narrative that can accelerate post-lockup selling pressure once shares are freed.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u89e3\u7981\u524d\u4e0e\u4efb\u52a1\u65e0\u5173\u7684\u65b0\u95fb\u70ed\u5ea6\u4e0a\u5347\uff0c\u5e76\u975e\u9501\u5b9a\u65e5\u671f\u672c\u8eab\u53d1\u751f\u53d8\u5316\u2014\u2014\u4f46\u56f4\u7ed5\u65e9\u671f\u6295\u8d44\u8005\u4e8f\u635f\u7684\u8206\u8bba\u5347\u6e29\uff0c\u6070\u6070\u662f\u53ef\u80fd\u5728\u89e3\u7981\u540e\u653e\u5927\u629b\u552e\u538b\u529b\u7684\u90a3\u7c7b\u53d9\u4e8b\u4fe1\u53f7\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2457,
-      "ts": 1784288854,
-      "ts_str": "2026-07-17 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX hype collapses with $600 million still carrying leveraged bets before a massive share unlock - CryptoSlate",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 10:31:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOG5sMkxGUWJCUXlEQkJRcTBNd05oSEltNFJxX2EwRENibWt4bV9VbVJjM2p1dFlnaGZVdkpJVk5QU0J5OHl4SmRnWmdybHBXTVZJTk01SFd6T3l5OFpaejhPbERwVEFjQ0JURzVKMi1aWGVFVUxMWlFsTk1ud1M2ZjlhZGpoUUROeUpDNTRoQmtsSnZTUElNTlZpbldoX3NmRVNGamJvbEx3eHZxZklqc0xRWkZmZGhZQ0hRazNaXzk?oc=5\n\nSpaceX hype collapses with $600 million still carrying leveraged bets before a massive share unlock - CryptoSlate\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOG5sMkxGUWJCUXlEQkJRcTBNd05oSEltNFJxX2EwRENibWt4bV9VbVJjM2p1dFlnaGZVdkpJVk5QU0J5OHl4SmRnWmdybHBXTVZJTk01SFd6T3l5OFpaejhPbERwVEFjQ0JURzVKMi1aWGVFVUxMWlFsTk1ud1M2ZjlhZGpoUUROeUpDNTRoQmtsSnZTUElNTlZpbldoX3NmRVNGamJvbEx3eHZxZklqc0xRWkZmZGhZQ0hRazNaXzk?oc=5\" target=\"_blank\">SpaceX hype collapses with $600 million still carrying leveraged bets before a massive share unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoSlate</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged SpaceX-linked coverage warning that ~$600M in leveraged bets are still open ahead of a large share unlock.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c\u5728 SpaceX \u5927\u89c4\u6a21\u80a1\u4efd\u89e3\u9501\u4e4b\u524d\uff0c\u4ecd\u6709\u7ea6 $600 million \u7684\u6760\u6746\u5934\u5bf8\u672a\u5e73\u4ed3\u3002\n\nWhy it matters:\nLeveraged positions concentrated just before a major unlock raise the odds of forced selling and a disorderly repricing once shares hit the market \u2014 a stress point for the broader AI-infra financing chain SpaceX sits in.\n\n\u5f71\u54cd:\n\u89e3\u9501\u524d\u4ecd\u96c6\u4e2d\u7740\u5927\u91cf\u6760\u6746\u5934\u5bf8\uff0c\u4e00\u65e6\u80a1\u4efd\u89e3\u9501\u4e0a\u5e02\uff0c\u88ab\u8feb\u5e73\u4ed3\u548c\u65e0\u5e8f\u91cd\u65b0\u5b9a\u4ef7\u7684\u98ce\u9669\u4f1a\u4e0a\u5347\u2014\u2014\u8fd9\u662f SpaceX \u6240\u5904\u7684\u66f4\u5e7f\u6cdb AI \u57fa\u5efa\u878d\u8d44\u94fe\u6761\u4e0a\u7684\u4e00\u4e2a\u538b\u529b\u70b9\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2455,
-      "ts": 1784288853,
-      "ts_str": "2026-07-17 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX falls under IPO price, as lockup expirations loom - Axios",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 11:14:29 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE5felJvd1FVWWpMdVpIR0VEOFlTSEp2eDNBTGFXUk5idzExam9wM1pac1Z1TTZYR3hEcVJmODlwTlpINHJtSl9FcHVCODRzbnh2RS1FZzk5RXRrdzF4eTl4Y0NjejRld0NFMmluYQ?oc=5\n\nSpaceX falls under IPO price, as lockup expirations loom - Axios\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5felJvd1FVWWpMdVpIR0VEOFlTSEp2eDNBTGFXUk5idzExam9wM1pac1Z1TTZYR3hEcVJmODlwTlpINHJtSl9FcHVCODRzbnh2RS1FZzk5RXRrdzF4eTl4Y0NjejRld0NFMmluYQ?oc=5\" target=\"_blank\">SpaceX falls under IPO price, as lockup expirations loom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's private-market share price has slipped below its IPO valuation just as lockup expirations on existing shares approach.\n\n\u5185\u5bb9:\n\u5728 SpaceX \u73b0\u6709\u80a1\u4efd\u7684 lockup\uff08\u9501\u5b9a\u671f\uff09\u5373\u5c06\u5230\u671f\u4e4b\u9645\uff0c\u5176\u4e00\u7ea7\u5e02\u573a\u80a1\u4ef7\u5df2\u8dcc\u7834 IPO \u53d1\u884c\u4ef7\u3002\n\nWhy it matters:\nWhen lockups expire, early holders can sell \u2014 if the price is already underwater relative to entry, that increases the odds of forced or panic selling pressuring the stock further, a classic setup for post-lockup volatility in high-profile unlocks.\n\n\u5f71\u54cd:\n\u9501\u5b9a\u671f\u89e3\u7981\u540e\uff0c\u65e9\u671f\u80a1\u4e1c\u53ef\u4ee5\u5356\u51fa\u80a1\u7968\u2014\u2014\u5982\u679c\u6b64\u65f6\u80a1\u4ef7\u5df2\u7ecf\u8dcc\u7834\u6210\u672c\u4ef7\uff0c\u629b\u552e\u538b\u529b\uff08\u65e0\u8bba\u662f\u88ab\u8feb\u8fd8\u662f\u6050\u614c\u6027\uff09\u4f1a\u8fdb\u4e00\u6b65\u538b\u4f4e\u80a1\u4ef7\uff0c\u8fd9\u662f\u9ad8\u5173\u6ce8\u5ea6\u89e3\u7981\u4e8b\u4ef6\u4e2d\u5e38\u89c1\u7684\u6ce2\u52a8\u524d\u5146\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2456,
-      "ts": 1784288853,
-      "ts_str": "2026-07-17 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Raymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Ca",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 10:18:45 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ18xNF9KNVFNRmtrYVNJUnNVZFBlOGNkQ3dRaHVicE5DT1kwQ0JQOG4yZTFBV0lZWnh2WVpmbFM3R3F6NkVWR3dBbE9xckljTGp0VC1jVnNGLTZiYUplcWpXcDRzRllKSVNmc3p6MndKMFZtd01SaW1mNUhxYnpNSw?oc=5\n\nRaymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Call. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ18xNF9KNVFNRmtrYVNJUnNVZFBlOGNkQ3dRaHVicE5DT1kwQ0JQOG4yZTFBV0lZWnh2WVpmbFM3R3F6NkVWR3dBbE9xckljTGp0VC1jVnNGLTZiYUplcWpXcDRzRllKSVNmc3p6MndKMFZtd01SaW1mNUhxYnpNSw?oc=5\" target=\"_blank\">Raymond James Sets Wall Street's Highest Price Target on SpaceX Stock at $800. Here's the Math Behind the 425% Upside Call.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item surfaced Raymond James issuing a $800 price target on SpaceX stock, implying 425% upside.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u62a5\u9053\u79f0\uff0cRaymond James \u7ed9\u51fa SpaceX \u80a1\u7968 800 \u7f8e\u5143\u7684\u76ee\u6807\u4ef7\uff0c\u9690\u542b 425% \u7684\u4e0a\u6da8\u7a7a\u95f4\u3002\n\nWhy it matters:\nA sell-side price target this far above any implied private valuation signals building retail/analyst hype ahead of an eventual SpaceX IPO \u2014 exactly the kind of index-inclusion anticipation flow C11 is designed to catch, since aggressive targets can front-run passive-fund demand once the stock lists.\n\n\u5f71\u54cd:\n\u8fd9\u4e00\u8fdc\u8d85\u4efb\u4f55\u9690\u542b\u79c1\u52df\u4f30\u503c\u7684\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u9884\u793a\u7740\u56f4\u7ed5 SpaceX \u672a\u6765 IPO \u7684\u6563\u6237/\u5206\u6790\u5e08\u7092\u4f5c\u60c5\u7eea\u6b63\u5728\u5347\u6e29\u2014\u2014\u8fd9\u6b63\u662f C11 \u60f3\u6355\u6349\u7684\u6307\u6570\u7eb3\u5165\u9884\u671f\u8d44\u91d1\u6d41\u4fe1\u53f7\uff0c\u56e0\u4e3a\u6fc0\u8fdb\u7684\u76ee\u6807\u4ef7\u53ef\u80fd\u5728\u5176\u4e0a\u5e02\u540e\u88ab\u52a8\u57fa\u91d1\u4e70\u76d8\u542f\u52a8\u524d\u5c31\u62a2\u5148\u53cd\u6620\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
