@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784829726,
-  "generated_at_str": "2026-07-23 18:02:06 UTC",
-  "last_event_ts": 1784828825,
+  "generated_at": 1784829908,
+  "generated_at_str": "2026-07-23 18:05:08 UTC",
+  "last_event_ts": 1784829907,
   "tables": {
     "alerts_dedup": {
-      "count": 2661,
-      "last_ts": 1784828825,
-      "last_str": "2026-07-23 17:47:05 UTC"
+      "count": 2664,
+      "last_ts": 1784829907,
+      "last_str": "2026-07-23 18:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-23 17:14:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2945,
-      "last_ts": 1784828108,
-      "last_str": "2026-07-23 17:35:08 UTC"
+      "count": 2947,
+      "last_ts": 1784829902,
+      "last_str": "2026-07-23 18:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3453,
-      "last_ts": 1784828109,
-      "last_str": "2026-07-23 17:35:09 UTC"
+      "count": 3455,
+      "last_ts": 1784829904,
+      "last_str": "2026-07-23 18:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2361,
-      "last_ts": 1784828109,
-      "last_str": "2026-07-23 17:35:09 UTC"
+      "count": 2365,
+      "last_ts": 1784829903,
+      "last_str": "2026-07-23 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2628,
@@ -303,6 +303,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2669,
+      "ts": 1784829907,
+      "ts_str": "2026-07-23 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\n\nMemory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\" target=\"_blank\">Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2670,
+      "ts": 1784829907,
+      "ts_str": "2026-07-23 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\n\nMemory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\" target=\"_blank\">Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
+    {
+      "id": 2671,
+      "ts": 1784829907,
+      "ts_str": "2026-07-23 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\n\nMemory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity' - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBUZHV1Wkx6TXhjMWtweHpyd2tyWTBhRC1tNEw1VHltOFdaQTAtTFpFN0VPNnBlTFJHQThnVUFTdF9vZk13SnVieW5Ld3dGVFlET3hILWF4ZW1FcFp5a3VoNl9KMU40aEl5REtyQkFhNDV2SFE4RVE?oc=5\" target=\"_blank\">Memory Price Surge Sweeps Smartphone Market: Flagship Prices Jump Over 1,000 Yuan as AI 'Hogs Capacity'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 2668,
       "ts": 1784828825,
@@ -2272,36 +2302,6 @@
       "subject": "[C11-HIGH] Launch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dol",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 21:25:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTdIBY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTQ?oc=5\n\nLaunch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dollars from Its Peak - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTdIBY0FVX3lxTFB5ZFBLV2E2czhoTFkzSGRJelJxdVZ4TjV6U2h0cmhmSHA5RUQ5dlI0Z1Q0VXpHMVdySWxIUDkzN1lWX3pXemxkVWFrNEg5a0hzanlVdjRpY21xeWNUc1ktTW9oTQ?oc=5\" target=\"_blank\">Launch Delay and Unlocking Pressure Cause Share Price Plunge: SpaceX (SPCX.US) Market Cap Evaporates by Trillions of Dollars from Its Peak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's stock (SPCX) plunged after reports of a launch delay compounded lock-up unlock pressure.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSpaceX\uff08SPCX\uff09\u56e0\u53d1\u5c04\u5ef6\u8fdf\u53e0\u52a0\u89e3\u7981\u629b\u538b\uff0c\u80a1\u4ef7\u66b4\u8dcc\u3002\n\nWhy it matters:\nThis is exactly the unlock-driven downside the C11 tranche calendar flags: forced-seller supply hitting a valuation already stretched by AI-infrastructure enthusiasm, with a launch delay as the trigger.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u89e3\u7981\u65e5\u5386\u6240\u8b66\u793a\u7684\u4e0b\u884c\u8def\u5f84\uff1a\u88ab\u8feb\u5356\u76d8\u9047\u4e0a\u56e0 AI \u57fa\u7840\u8bbe\u65bd\u70ed\u60c5\u800c\u88ab\u63a8\u9ad8\u7684\u4f30\u503c\uff0c\u800c\u8fd9\u6b21\u7684\u89e6\u53d1\u56e0\u7d20\u662f\u53d1\u5c04\u5ef6\u8fdf\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2471,
-      "ts": 1784327352,
-      "ts_str": "2026-07-17 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.35% (+53bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-16\nCurrent:  2.35%\n90d low:  1.82%\nMove:     +53bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe C10 real-yield gauge crossed its threshold: the 10-year TIPS real yield hit 2.35pp on 2026-07-16, up 0.53pp from its trailing-90-day low of 1.82pp.\n\n\u5185\u5bb9:\nC10 \u5b9e\u9645\u6536\u76ca\u7387\u4fe1\u53f7\u89e6\u53d1\u9608\u503c\uff1a\u622a\u81f3 2026-07-16\uff0c10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5347\u81f3 2.35pp\uff0c\u8f83\u8fc7\u53bb90\u5929\u4f4e\u70b9 1.82pp \u4e0a\u5347\u4e86 0.53pp\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 a fast 0.53pp move off the recent low is the kind of tightening shock that historically pressures the most speculative, cash-burning names first.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8\u5bf9 AI capex \u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u5e76\u6574\u4f53\u6536\u7d27\u91d1\u878d\u73af\u5883\u2014\u2014\u8fd1\u671f\u4f4e\u70b9\u4ee5\u6765 0.53pp \u7684\u5feb\u901f\u4e0a\u884c\uff0c\u6b63\u662f\u5386\u53f2\u4e0a\u6700\u5148\u51b2\u51fb\u9ad8\u4f30\u503c\u3001\u73b0\u91d1\u6d41\u5403\u7d27\u6807\u7684\u7684\u90a3\u79cd\u6536\u7d27\u51b2\u51fb\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2470,
-      "ts": 1784325913,
-      "ts_str": "2026-07-17 22:05 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] SK Group Chairman Chey Tae-won responds to recent stock price decline: Stock Price Will Long-Term Rise with Memory Chip ",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 14:37:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fTEUwc0dXZUFZeENHXzVvU054OUl0WHlvbnpQTThrMDVBTloybjJEdzJhZVhKZkh1MjJkY0ZwSG02Qks3SHVmVmxsYlVHZktpVGU0bjYwUUszLW9PVG1SY2FRUdIBY0FVX3lxTE1fTEUwc0dXZUFZeENHXzVvU054OUl0WHlvbnpQTThrMDVBTloybjJEdzJhZVhKZkh1MjJkY0ZwSG02Qks3SHVmVmxsYlVHZktpVGU0bjYwUUszLW9PVG1SY2FRUQ?oc=5\n\nSK Group Chairman Chey Tae-won responds to recent stock price decline: Stock Price Will Long-Term Rise with Memory Chip Demand Support - Bitget\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fTEUwc0dXZUFZeENHXzVvU054OUl0WHlvbnpQTThrMDVBTloybjJEdzJhZVhKZkh1MjJkY0ZwSG02Qks3SHVmVmxsYlVHZktpVGU0bjYwUUszLW9PVG1SY2FRUdIBY0FVX3lxTE1fTEUwc0dXZUFZeENHXzVvU054OUl0WHlvbnpQTThrMDVBTloybjJEdzJhZVhKZkh1MjJkY0ZwSG02Qks3SHVmVmxsYlVHZktpVGU0bjYwUUszLW9PVG1SY2FRUQ?oc=5\" target=\"_blank\">SK Group Chairman Chey Tae-won responds to recent stock price decline: Stock Price Will Long-Term Rise with Memory Chip Demand Support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Group Chairman Chey Tae-won publicly reassured investors that the stock will recover long-term on memory chip demand, after a recent share-price decline.\n\n\u5185\u5bb9:\nSK Group \u4f1a\u957f\u5d14\u6cf0\u6e90\u516c\u5f00\u56de\u5e94\u8fd1\u671f\u80a1\u4ef7\u4e0b\u8dcc\uff0c\u79f0\u5728\u5b58\u50a8\u82af\u7247\u9700\u6c42\u652f\u6491\u4e0b\u80a1\u4ef7\u5c06\u957f\u671f\u4e0a\u6da8\u3002\n\nWhy it matters:\nAn executive making a public price-defense statement signals the market is already pricing in memory-demand doubt \u2014 sentiment is cracking faster than fundamentals, a soft precursor to the oversupply/order-cancellation signals C6 is built to catch.\n\n\u5f71\u54cd:\n\u9ad8\u7ba1\u516c\u5f00\u51fa\u9762\u4e3a\u80a1\u4ef7\u62a4\u76d8\uff0c\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u5728\u4e3a\u5b58\u50a8\u82af\u7247\u9700\u6c42\u524d\u666f\u7684\u7591\u8651\u5b9a\u4ef7\u2014\u2014\u60c5\u7eea\u9762\u7684\u677e\u52a8\u5f80\u5f80\u65e9\u4e8e\u57fa\u672c\u9762\u6570\u636e\uff0c\u662f C6 \u60f3\u6355\u6349\u7684\u8ba2\u5355\u53d6\u6d88/\u4f9b\u8fc7\u4e8e\u6c42\u4fe1\u53f7\u7684\u4e00\u4e2a\u8f6f\u6027\u524d\u5146\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2469,
-      "ts": 1784322314,
-      "ts_str": "2026-07-17 21:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory chip cost surge raises Indian phone prices, shipments fall - NewsBytes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 17 Jul 2026 20:47:58 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxQWmZ0N2dKaEpYVmRVQ0djUG5jZGdwNHB3ZWhydjVlMUNGMTV5cW1TRnZIbExUemhGWklpMjEycjd2cG83UzdCMnVXVU54NzdwVEFXRHdkOEVyOWpzd1A3TER6M2w3MUlDVDFQWVl5LWMwanZhWEY0ZzZyNDB5RWFyaUhiVmdRNFB4NTJuUEFxYkpPTzd4Tnhibm1Ja2hFZWcyRXFWZl9GbjFXRS1QSmh6Qjd3?oc=5\n\nMemory chip cost surge raises Indian phone prices, shipments fall - NewsBytes\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQWmZ0N2dKaEpYVmRVQ0djUG5jZGdwNHB3ZWhydjVlMUNGMTV5cW1TRnZIbExUemhGWklpMjEycjd2cG83UzdCMnVXVU54NzdwVEFXRHdkOEVyOWpzd1A3TER6M2w3MUlDVDFQWVl5LWMwanZhWEY0ZzZyNDB5RWFyaUhiVmdRNFB4NTJuUEFxYkpPTzd4Tnhibm1Ja2hFZWcyRXFWZl9GbjFXRS1QSmh6Qjd3?oc=5\" target=\"_blank\">Memory chip cost surge raises Indian phone prices, shipments fall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsBytes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news roundup reports memory chip cost surges are pushing up smartphone prices in India, with shipments falling as a result.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u7efc\u8ff0\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u6b63\u5728\u63a8\u9ad8\u5370\u5ea6\u667a\u80fd\u624b\u673a\u4ef7\u683c\uff0c\u51fa\u8d27\u91cf\u56e0\u6b64\u4e0b\u6ed1\u3002\n\nWhy it matters:\nDownstream consumer-hardware price pass-through and falling shipments are early evidence that HBM/DRAM demand from AI datacenter buildout is crowding out commodity memory supply \u2014 a tell that memory tightness is now hitting end markets, not just spot pricing.\n\n\u5f71\u54cd:\n\u4e0b\u6e38\u6d88\u8d39\u7535\u5b50\u6da8\u4ef7\u3001\u51fa\u8d27\u91cf\u4e0b\u6ed1\uff0c\u662f AI \u6570\u636e\u4e2d\u5fc3\u5bf9 HBM/DRAM \u9700\u6c42\u6324\u5360\u5927\u5b97\u5185\u5b58\u4f9b\u7ed9\u7684\u65e9\u671f\u4fe1\u53f7\u2014\u2014\u8bf4\u660e\u5185\u5b58\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u5e02\u573a\uff0c\u800c\u4e0d\u53ea\u662f\u73b0\u8d27\u4ef7\u683c\u6ce2\u52a8\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
