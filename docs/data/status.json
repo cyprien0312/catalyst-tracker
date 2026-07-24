@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784919733,
-  "generated_at_str": "2026-07-24 19:02:13 UTC",
-  "last_event_ts": 1784918850,
+  "generated_at": 1784919915,
+  "generated_at_str": "2026-07-24 19:05:15 UTC",
+  "last_event_ts": 1784919915,
   "tables": {
     "alerts_dedup": {
-      "count": 2688,
-      "last_ts": 1784918850,
-      "last_str": "2026-07-24 18:47:30 UTC"
+      "count": 2690,
+      "last_ts": 1784919915,
+      "last_str": "2026-07-24 19:05:15 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,24 +79,24 @@
       "last_str": "2026-07-24 17:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3014,
-      "last_ts": 1784918103,
-      "last_str": "2026-07-24 18:35:03 UTC"
+      "count": 3017,
+      "last_ts": 1784919902,
+      "last_str": "2026-07-24 19:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3515,
-      "last_ts": 1784918105,
-      "last_str": "2026-07-24 18:35:05 UTC"
+      "count": 3517,
+      "last_ts": 1784919904,
+      "last_str": "2026-07-24 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2406,
-      "last_ts": 1784918104,
-      "last_str": "2026-07-24 18:35:04 UTC"
+      "count": 2409,
+      "last_ts": 1784919903,
+      "last_str": "2026-07-24 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2683,
-      "last_ts": 1784916304,
-      "last_str": "2026-07-24 18:05:04 UTC"
+      "count": 2684,
+      "last_ts": 1784919904,
+      "last_str": "2026-07-24 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 18704,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2696,
+      "ts": 1784919915,
+      "ts_str": "2026-07-24 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 16:39:15 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW0gHcAUFVX3lxTE5rZWZyNHNSTkpkU3JiSEl1LXhlbHV4ZllfWC1yeEttNkRXdHZqSUpub3U5aG5Ya1J0czh3dnA0MDNjTGVUTDFzOWFGWDJsRUpMVEl3SWdabDE4Z0szR1gzOFd3Mm9UNzMzS2FxbE9FT0k0TEZ6aVRBSkVZQmxTX1F6NFJ0VEV5YTdWR1FRTU4wRl9WMVJFWU8yenVvZDV5UEVLdWRjMHZwbmctZVVjRFJhV0lKSHdWSjlRbURKOFVUWFk0eFNNbVg4SVlUVmxPOWFSR09MOUFITGN5YVY?oc=5\n\nAutomotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW0gHcAUFVX3lxTE5rZWZyNHNSTkpkU3JiSEl1LXhlbHV4ZllfWC1yeEttNkRXdHZqSUpub3U5aG5Ya1J0czh3dnA0MDNjTGVUTDFzOWFGWDJsRUpMVEl3SWdabDE4Z0szR1gzOFd3Mm9UNzMzS2FxbE9FT0k0TEZ6aVRBSkVZQmxTX1F6NFJ0VEV5YTdWR1FRTU4wRl9WMVJFWU8yenVvZDV5UEVLdWRjMHZwbmctZVVjRFJhV0lKSHdWSjlRbURKOFVUWFk0eFNNbVg4SVlUVmxPOWFSR09MOUFITGN5YVY?oc=5\" target=\"_blank\">Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flags AI-driven memory chip shortages raising vehicle production costs, per a breitbart.com report.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\uff08\u6765\u81ea breitbart.com\uff09\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6c7d\u8f66\u751f\u4ea7\u6210\u672c\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) demand pulled into AI datacenter buildouts is spilling into adjacent industries like automotive, evidence the capacity crunch is broad enough to move prices outside the tech supply chain \u2014 a sign the AI-capex cycle is straining physical supply, not just financial metrics.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5bf9\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u7684\u9700\u6c42\u6b63\u5916\u6ea2\u5230\u6c7d\u8f66\u7b49\u76f8\u90bb\u884c\u4e1a\uff0c\u8bf4\u660e\u4ea7\u80fd\u7d27\u5f20\u5df2\u7ecf\u4e25\u91cd\u5230\u8db3\u4ee5\u63a8\u9ad8\u79d1\u6280\u4f9b\u5e94\u94fe\u4e4b\u5916\u7684\u4ef7\u683c\u2014\u2014\u8fd9\u8868\u660e AI capex \u5468\u671f\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\uff0c\u800c\u4e0d\u53ea\u662f\u4f53\u73b0\u5728\u8d22\u52a1\u6307\u6807\u4e0a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2697,
+      "ts": 1784919915,
+      "ts_str": "2026-07-24 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 16:39:15 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZWxSLWctQmxscHdjYTBoRkVjcm1ISGdTbTc0UzJscnFYWllLdzZ3clpxR1dCLXZLZUd5Zm14UkhCWng0ZjFjZEtweExjeDBweXA4b0trSURSVTBvTm1CSFRha3hoaThQdDJxMmVxdEZWekFpQ2pOQ2RMdnk5QlAyQXJkYWtyb1JXNUwzX2V5cDNuRmVRZk5teG1SYTFZb1NORVluMUxsSWpqYmtfLXZCcmhWV29wbGlic0hSYzUzMFpVUzd0RzNHcEZOYUhIQW12YTBtSGtVZ9IB3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW?oc=5\n\nAutomotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZWxSLWctQmxscHdjYTBoRkVjcm1ISGdTbTc0UzJscnFYWllLdzZ3clpxR1dCLXZLZUd5Zm14UkhCWng0ZjFjZEtweExjeDBweXA4b0trSURSVTBvTm1CSFRha3hoaThQdDJxMmVxdEZWekFpQ2pOQ2RMdnk5QlAyQXJkYWtyb1JXNUwzX2V5cDNuRmVRZk5teG1SYTFZb1NORVluMUxsSWpqYmtfLXZCcmhWV29wbGlic0hSYzUzMFpVUzd0RzNHcEZOYUhIQW12YTBtSGtVZ9IB3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW?oc=5\" target=\"_blank\">Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged automotive price increases tied to an AI-driven memory chip (DRAM/NAND) shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6c7d\u8f66\u884c\u4e1a\u7684\u6210\u672c\u3002\n\nWhy it matters:\nMemory shortages driven by AI datacenter demand are now bleeding into unrelated end markets like autos, evidence that AI capex is straining the broader chip supply chain rather than staying contained to hyperscaler budgets \u2014 a sign the input-cost stress is systemic, not isolated.\n\n\u5f71\u54cd:\n\u7531 AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5f15\u53d1\u7684\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6c7d\u8f66\u7b49\u65e0\u5173\u7ec8\u7aef\u5e02\u573a\uff0c\u8bf4\u660e AI capex \u5bf9\u6574\u6761\u82af\u7247\u4f9b\u5e94\u94fe\u7684\u538b\u529b\u5df2\u7ecf\u4e0d\u5c40\u9650\u4e8e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u81ea\u8eab\u9884\u7b97\u2014\u2014\u8fd9\u662f\u6210\u672c\u538b\u529b\u7cfb\u7edf\u6027\u6269\u6563\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2694,
       "ts": 1784918850,
@@ -2281,26 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Faces Dual Squeeze as Starship Abort Precedes Staged Insider Selling Wave - ad-hoc-news.de",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 02:32:37 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxQbFFkeVR1S3JVcUtzalZJbHNIc3pWN3Y4VjJxQUd1RVN2SjJuY0tLdVlla0Q2LVh0Rm91UUJBdEZjRmlMZll0QjRselVCNm5lMlpKV2FjMU93V1pzVWFVRWpPcGFKcjhic2FKSDZBWktmQTJ1Zmw0c2tWck1ldkJJenBMME52T195cTlqbjhIOUVjOVQ5Qm9teFRpQklITFk4cEJnXzQ1M1ZtSTZBN3FSaUJkeWVlekhUMkZVMEtoa3ZBQU9l?oc=5\n\nSpaceX Faces Dual Squeeze as Starship Abort Precedes Staged Insider Selling Wave - ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQbFFkeVR1S3JVcUtzalZJbHNIc3pWN3Y4VjJxQUd1RVN2SjJuY0tLdVlla0Q2LVh0Rm91UUJBdEZjRmlMZll0QjRselVCNm5lMlpKV2FjMU93V1pzVWFVRWpPcGFKcjhic2FKSDZBWktmQTJ1Zmw0c2tWck1ldkJJenBMME52T195cTlqbjhIOUVjOVQ5Qm9teFRpQklITFk4cEJnXzQ1M1ZtSTZBN3FSaUJkeWVlekhUMkZVMEtoa3ZBQU9l?oc=5\" target=\"_blank\">SpaceX Faces Dual Squeeze as Starship Abort Precedes Staged Insider Selling Wave</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX faces coverage tying a Starship abort test to a wave of staged insider selling.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 SpaceX \u9762\u4e34\u53cc\u91cd\u538b\u529b\uff1aStarship \u4e2d\u6b62\u6d4b\u8bd5\u4e4b\u540e\u7d27\u63a5\u7740\u51fa\u73b0\u5206\u6279\u5185\u90e8\u4eba\u51cf\u6301\u7684\u6d88\u606f\u3002\n\nWhy it matters:\nInsider selling around unlock-window news is exactly the passive-flow/liquidity pressure C11 is built to flag \u2014 negative operational headlines (Starship abort) landing alongside insider unwind narratives compounds the sell-side pressure story.\n\n\u5f71\u54cd:\n\u89e3\u9501\u7a97\u53e3\u671f\u51fa\u73b0\u5185\u90e8\u4eba\u51cf\u6301\u6d88\u606f\uff0c\u6b63\u662f C11 \u8981\u6355\u6349\u7684\u88ab\u52a8\u8d44\u91d1/\u6d41\u52a8\u6027\u538b\u529b\u4fe1\u53f7\u2014\u2014Starship \u4e2d\u6b62\u6d4b\u8bd5\u8fd9\u7c7b\u8d1f\u9762\u8fd0\u8425\u65b0\u95fb\u4e0e\u5185\u90e8\u4eba\u51cf\u6301\u53d9\u4e8b\u540c\u65f6\u51fa\u73b0\uff0c\u4f1a\u653e\u5927\u5356\u65b9\u538b\u529b\u7684\u6545\u4e8b\u7ebf\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 2497,
-      "ts": 1784515460,
-      "ts_str": "2026-07-20 02:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes - The Times of",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 02:23:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwJBVV95cUxObG1xQnFJeldYeGJjM0VEYlRuVndhQ0h1MlU5amZGa1ltRlJzMlQya2loN2Z3Y05fY256R2htcTNfWFZPTXVGcGg0a2k5MHJkU2JyU3hidGRITHd6eWJRVndnSzc2aVVSenZlQkl3U2ZCaWlRN3J1UTdWTHNCRXlrUW1hVjRsRXlNajhrMVNpNERaUHhQdThibE5Mc2p1d1c3WlRTczktc09YTnlEdi04Sk16UjRFeFlSS1NCd2phZFFUbEFtZ3dfX19QQmNEcE9VUkR1TjRXUVFmMWdFV2VkWlg3cjBwdTljNlpTZmp4ZF9KSGUxR1RQUW1PcDQ2WUZnNUJrU2drRmRxMnFxdkJxazBTMlJGdERXMzlSa0R0Z2VYb1R2UVJsR0VLVmQtbEdWRE15THpUb3lrYzjSAcACQVVfeXFMTXk2VEEyZ3YycmtoNUl4dFZVajhHckJpRndxbUl2Y0wybFV0a2FQckFkb2RkWXFOT3JUZTNCakZucGR3anNxZGJJSXNkY2xvalVFMmZoMmFhaDBiaXBiZ2xQeTFlVThVdjE0QTNEZDM0YjJENlY4X1RiRDNmczVsNi15NGlKUExtLW85NjhBTXhqZTlqWDFNY2NEaW1SYlh6UVJ3V2F0eDRWcTR2cFItNjlQT2RkUTItU1V3VFhfbWQ4d2o0Yzg1Rk5rUmYtZlAzRW1fSDZVeFpYYk9XTnR0WVhJSDB2aC1PRkpwZ3Z5QkpPdmRrM3E2OG9xdjF0LWI3QTNydndaTFBWM2VicHpaVkRQNGJ1YlVZR0F0NEs1bC11emNnb1Y4UzZsRnQ3WWwwVDFfZVpQSlg0c1M0M2g2Vm4?oc=5\n\nOpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes - The Times of India\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwJBVV95cUxObG1xQnFJeldYeGJjM0VEYlRuVndhQ0h1MlU5amZGa1ltRlJzMlQya2loN2Z3Y05fY256R2htcTNfWFZPTXVGcGg0a2k5MHJkU2JyU3hidGRITHd6eWJRVndnSzc2aVVSenZlQkl3U2ZCaWlRN3J1UTdWTHNCRXlrUW1hVjRsRXlNajhrMVNpNERaUHhQdThibE5Mc2p1d1c3WlRTczktc09YTnlEdi04Sk16UjRFeFlSS1NCd2phZFFUbEFtZ3dfX19QQmNEcE9VUkR1TjRXUVFmMWdFV2VkWlg3cjBwdTljNlpTZmp4ZF9KSGUxR1RQUW1PcDQ2WUZnNUJrU2drRmRxMnFxdkJxazBTMlJGdERXMzlSa0R0Z2VYb1R2UVJsR0VLVmQtbEdWRE15THpUb3lrYzjSAcACQVVfeXFMTXk2VEEyZ3YycmtoNUl4dFZVajhHckJpRndxbUl2Y0wybFV0a2FQckFkb2RkWXFOT3JUZTNCakZucGR3anNxZGJJSXNkY2xvalVFMmZoMmFhaDBiaXBiZ2xQeTFlVThVdjE0QTNEZDM0YjJENlY4X1RiRDNmczVsNi15NGlKUExtLW85NjhBTXhqZTlqWDFNY2NEaW1SYlh6UVJ3V2F0eDRWcTR2cFItNjlQT2RkUTItU1V3VFhfbWQ4d2o0Yzg1Rk5rUmYtZlAzRW1fSDZVeFpYYk9XTnR0WVhJSDB2aC1PRkpwZ3Z5QkpPdmRrM3E2OG9xdjF0LWI3QTNydndaTFBWM2VicHpaVkRQNGJ1YlVZR0F0NEs1bC11emNnb1Y4UzZsRnQ3WWwwVDFfZVpQSlg0c1M0M2g2Vm4?oc=5\" target=\"_blank\">OpenAI CFO Sarah Friar to companies questioning return on their AI investments: Don't rush to the cheapes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI CFO Sarah Friar is quoted telling companies not to default to the cheapest AI option even as they question the ROI of their AI spending.\n\n\u5185\u5bb9:\nOpenAI \u9996\u5e2d\u8d22\u52a1\u5b98 Sarah Friar \u8868\u793a\uff0c\u5373\u4fbf\u4f01\u4e1a\u5f00\u59cb\u8d28\u7591\u5176 AI \u6295\u8d44\u56de\u62a5\uff0c\u4e5f\u4e0d\u5e94\u8be5\u9ed8\u8ba4\u9009\u62e9\u6700\u4fbf\u5b9c\u7684\u65b9\u6848\u3002\n\nWhy it matters:\nThis is OpenAI's own CFO publicly acknowledging that customers are pushing back on AI investment returns \u2014 a demand-side crack in the capex bull case, coming directly from the vendor most dependent on that demand continuing to grow.\n\n\u5f71\u54cd:\n\u8fd9\u662f OpenAI \u81ea\u5df1\u7684 CFO \u516c\u5f00\u627f\u8ba4\u5ba2\u6237\u5728\u8d28\u7591 AI \u6295\u8d44\u56de\u62a5\u2014\u2014\u8fd9\u662f\u9700\u6c42\u7aef\u51fa\u73b0\u88c2\u7f1d\u7684\u4fe1\u53f7\uff0c\u800c\u4e14\u662f\u6765\u81ea\u6700\u4f9d\u8d56\u8fd9\u79cd\u9700\u6c42\u6301\u7eed\u589e\u957f\u7684\u4f9b\u5e94\u5546\u672c\u4eba\u4e4b\u53e3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2496,
-      "ts": 1784504116,
-      "ts_str": "2026-07-19 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Why Memory Chip Stocks Are Plunging Despite Record AI Demand: Wall Street\u2019s Oversupply Panic Explained - PaidFreeDroid",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 19 Jul 2026 22:13:25 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUVsNEZZckJfTWIwTGhVM3pxbTB3dDJZZm9FVkI3QVhCY0tPMnhCbkNuOVUzQzVYVHQ0V3JfeUJlclpNa0VwdjlIVkhjOVlWcXQtTDRRbklaTy1zbTZuYTU5TW5ocm9ad0wzN3ZkYzRoTWFEdVBGaElMeEFSNnFVQXFmQV93bVc3dDFDQkdvQzlIYnVFLUkxMlZVLU1OWUJE0gGgAUFVX3lxTFBFRWw0RllyQl9NYjBMaFUzenFtMHd0Mllmb0VWQjdBWEJjS08yeEJuQ245VTNDNVhUdDRXcl95QmVyWk1rRXB2OUhWSGM5WVZxdC1MNFFuSVpPLXNtNm5hNTlNbmhyb1p3TDM3dmRjNGhNYUR1UEZoSUx4QVI2cVVBcWZBX3dtVzd0MUNCR29DOUhidUUtSTEyVlUtTU5ZQkQ?oc=5\n\nWhy Memory Chip Stocks Are Plunging Despite Record AI Demand: Wall Street\u2019s Oversupply Panic Explained - PaidFreeDroid\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUVsNEZZckJfTWIwTGhVM3pxbTB3dDJZZm9FVkI3QVhCY0tPMnhCbkNuOVUzQzVYVHQ0V3JfeUJlclpNa0VwdjlIVkhjOVlWcXQtTDRRbklaTy1zbTZuYTU5TW5ocm9ad0wzN3ZkYzRoTWFEdVBGaElMeEFSNnFVQXFmQV93bVc3dDFDQkdvQzlIYnVFLUkxMlZVLU1OWUJE0gGgAUFVX3lxTFBFRWw0RllyQl9NYjBMaFUzenFtMHd0Mllmb0VWQjdBWEJjS08yeEJuQ245VTNDNVhUdDRXcl95QmVyWk1rRXB2OUhWSGM5WVZxdC1MNFFuSVpPLXNtNm5hNTlNbmhyb1p3TDM3dmRjNGhNYUR1UEZoSUx4QVI2cVVBcWZBX3dtVzd0MUNCR29DOUhidUUtSTEyVlUtTU5ZQkQ?oc=5\" target=\"_blank\">Why Memory Chip Stocks Are Plunging Despite Record AI Demand: Wall Street\u2019s Oversupply Panic Explained</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PaidFreeDroid</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news roundup reports memory-chip stocks selling off sharply on 'oversupply panic' even as AI demand for memory remains at record levels.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u7efc\u8ff0\u62a5\u9053\u79f0\uff0c\u5c3d\u7ba1 AI \u9700\u6c42\u4ecd\u5904\u4e8e\u5386\u53f2\u9ad8\u4f4d\uff0c\u5b58\u50a8\u82af\u7247\u80a1\u7968\u4ecd\u56e0\u201c\u4f9b\u8fc7\u4e8e\u6c42\u6050\u614c\u201d\u800c\u5927\u5e45\u4e0b\u8dcc\u3002\n\nWhy it matters:\nA narrative flip from 'HBM/DRAM shortage' to 'oversupply' in the same demand environment signals the market pricing in a capacity build-out overshoot \u2014 exactly the memory-leg cancellation/oversupply pattern C6 is designed to catch, and a leading indicator for hyperscaler capex being questioned next.\n\n\u5f71\u54cd:\n\u5728\u9700\u6c42\u73af\u5883\u4e0d\u53d8\u7684\u60c5\u51b5\u4e0b\uff0c\u53d9\u4e8b\u4ece\u201cHBM/DRAM \u77ed\u7f3a\u201d\u7a81\u7136\u8f6c\u5411\u201c\u4f9b\u8fc7\u4e8e\u6c42\u201d\uff0c\u8bf4\u660e\u5e02\u573a\u6b63\u5728\u4e3a\u4ea7\u80fd\u6269\u5f20\u8fc7\u5934\u5b9a\u4ef7\u2014\u2014\u8fd9\u6b63\u662f C6 \u60f3\u6355\u6349\u7684\u5b58\u50a8\u7aef\u53d6\u6d88\u8ba2\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u6a21\u5f0f\uff0c\u4e5f\u53ef\u80fd\u9884\u793a\u63a5\u4e0b\u6765\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u4f1a\u88ab\u5e02\u573a\u8d28\u7591\u3002\n",
       "emailed": true
     }
   ],
