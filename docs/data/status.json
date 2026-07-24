@@ -1,12 +1,12 @@
 {
-  "generated_at": 1784917925,
-  "generated_at_str": "2026-07-24 18:32:05 UTC",
-  "last_event_ts": 1784916845,
+  "generated_at": 1784918118,
+  "generated_at_str": "2026-07-24 18:35:18 UTC",
+  "last_event_ts": 1784918118,
   "tables": {
     "alerts_dedup": {
-      "count": 2684,
-      "last_ts": 1784915233,
-      "last_str": "2026-07-24 17:47:13 UTC"
+      "count": 2685,
+      "last_ts": 1784918118,
+      "last_str": "2026-07-24 18:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-24 17:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3012,
-      "last_ts": 1784916302,
-      "last_str": "2026-07-24 18:05:02 UTC"
+      "count": 3014,
+      "last_ts": 1784918103,
+      "last_str": "2026-07-24 18:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3512,
-      "last_ts": 1784916304,
-      "last_str": "2026-07-24 18:05:04 UTC"
+      "count": 3515,
+      "last_ts": 1784918105,
+      "last_str": "2026-07-24 18:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2404,
-      "last_ts": 1784914503,
-      "last_str": "2026-07-24 17:35:03 UTC"
+      "count": 2406,
+      "last_ts": 1784918104,
+      "last_str": "2026-07-24 18:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2683,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2692,
+      "ts": 1784918118,
+      "ts_str": "2026-07-24 18:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 16:39:15 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW0gHcAUFVX3lxTE5rZWZyNHNSTkpkU3JiSEl1LXhlbHV4ZllfWC1yeEttNkRXdHZqSUpub3U5aG5Ya1J0czh3dnA0MDNjTGVUTDFzOWFGWDJsRUpMVEl3SWdabDE4Z0szR1gzOFd3Mm9UNzMzS2FxbE9FT0k0TEZ6aVRBSkVZQmxTX1F6NFJ0VEV5YTdWR1FRTU4wRl9WMVJFWU8yenVvZDV5UEVLdWRjMHZwbmctZVVjRFJhV0lKSHdWSjlRbURKOFVUWFk0eFNNbVg4SVlUVmxPOWFSR09MOUFITGN5YVY?oc=5\n\nAutomotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW0gHcAUFVX3lxTE5rZWZyNHNSTkpkU3JiSEl1LXhlbHV4ZllfWC1yeEttNkRXdHZqSUpub3U5aG5Ya1J0czh3dnA0MDNjTGVUTDFzOWFGWDJsRUpMVEl3SWdabDE4Z0szR1gzOFd3Mm9UNzMzS2FxbE9FT0k0TEZ6aVRBSkVZQmxTX1F6NFJ0VEV5YTdWR1FRTU4wRl9WMVJFWU8yenVvZDV5UEVLdWRjMHZwbmctZVVjRFJhV0lKSHdWSjlRbURKOFVUWFk0eFNNbVg4SVlUVmxPOWFSR09MOUFITGN5YVY?oc=5\" target=\"_blank\">Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flags AI-driven memory chip shortages raising vehicle production costs, per a breitbart.com report.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\uff08\u6765\u81ea breitbart.com\uff09\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6c7d\u8f66\u751f\u4ea7\u6210\u672c\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) demand pulled into AI datacenter buildouts is spilling into adjacent industries like automotive, evidence the capacity crunch is broad enough to move prices outside the tech supply chain \u2014 a sign the AI-capex cycle is straining physical supply, not just financial metrics.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u5bf9\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u7684\u9700\u6c42\u6b63\u5916\u6ea2\u5230\u6c7d\u8f66\u7b49\u76f8\u90bb\u884c\u4e1a\uff0c\u8bf4\u660e\u4ea7\u80fd\u7d27\u5f20\u5df2\u7ecf\u4e25\u91cd\u5230\u8db3\u4ee5\u63a8\u9ad8\u79d1\u6280\u4f9b\u5e94\u94fe\u4e4b\u5916\u7684\u4ef7\u683c\u2014\u2014\u8fd9\u8868\u660e AI capex \u5468\u671f\u6b63\u5728\u6324\u538b\u5b9e\u4f53\u4f9b\u5e94\uff0c\u800c\u4e0d\u53ea\u662f\u4f53\u73b0\u5728\u8d22\u52a1\u6307\u6807\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2691,
       "ts": 1784915233,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Apple Lawsuit Threatens OpenAI's Hardware Push and IPO Timeline - The Tech Buzz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 19 Jul 2026 19:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxOVXE3bTB0UV9qSDNRRVotY0lza3Z1bG84dnlZMThtaUwyYUFhWUtUSUk2ai04VFBXc05pelRGdmp1ZEp5b2djcHJRM1VIOTE1TlRrOXcxMkNjcWVxTXk0eXNoaWI2d3FEcU1aZ3BaR1lBU1UxV1N0eXRvWEFEN3lyYjBUY1UxMHAzdFNKTzBGWXpIcTdRUEU0VFpFZW0?oc=5\n\nApple Lawsuit Threatens OpenAI's Hardware Push and IPO Timeline - The Tech Buzz\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOVXE3bTB0UV9qSDNRRVotY0lza3Z1bG84dnlZMThtaUwyYUFhWUtUSUk2ai04VFBXc05pelRGdmp1ZEp5b2djcHJRM1VIOTE1TlRrOXcxMkNjcWVxTXk0eXNoaWI2d3FEcU1aZ3BaR1lBU1UxV1N0eXRvWEFEN3lyYjBUY1UxMHAzdFNKTzBGWXpIcTdRUEU0VFpFZW0?oc=5\" target=\"_blank\">Apple Lawsuit Threatens OpenAI's Hardware Push and IPO Timeline</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tech Buzz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news roundup item flags a lawsuit by Apple that could threaten OpenAI's hardware push and delay its IPO timeline.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6458\u8981\u79f0\uff0cApple \u63d0\u8d77\u7684\u8bc9\u8bbc\u53ef\u80fd\u5a01\u80c1 OpenAI \u7684\u786c\u4ef6\u4e1a\u52a1\u63a8\u8fdb\uff0c\u5e76\u62d6\u5ef6\u5176 IPO \u65f6\u95f4\u8868\u3002\n\nWhy it matters:\nOpenAI's hardware ambitions (custom devices, potential silicon partnerships) are part of the capex-demand story underpinning AI infrastructure spend; legal risk to its IPO timeline is a liquidity-event delay signal, but this is thin, source-unclear news coverage rather than a filing or financial metric \u2014 treat as low-confidence background noise, not a hard signal.\n\n\u5f71\u54cd:\nOpenAI \u7684\u786c\u4ef6\u91ce\u5fc3\uff08\u81ea\u7814\u8bbe\u5907\u3001\u6f5c\u5728\u82af\u7247\u5408\u4f5c\uff09\u662f\u652f\u6491 AI \u57fa\u7840\u8bbe\u65bd\u8d44\u672c\u5f00\u652f\u53d9\u4e8b\u7684\u4e00\u90e8\u5206\uff0c\u5176 IPO \u65f6\u95f4\u8868\u82e5\u56e0\u8bc9\u8bbc\u63a8\u8fdf\uff0c\u5c5e\u4e8e\u6d41\u52a8\u6027\u4e8b\u4ef6\u5ef6\u540e\u7684\u4fe1\u53f7\uff1b\u4f46\u8fd9\u6761\u6d88\u606f\u6765\u6e90\u5355\u8584\u3001\u7f3a\u4e4f\u5177\u4f53\u7ec6\u8282\uff0c\u53ea\u80fd\u7b97\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u6784\u6210\u786c\u6570\u636e\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2492,
-      "ts": 1784483054,
-      "ts_str": "2026-07-19 17:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] AM need to know: OpenAI considers IPO delay, Apple raises hardware prices & more - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 19 Jul 2026 09:31:02 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxPNnFBNUpXeU5zSndlN3RqRG10N3VMV2hvMk5wTzBMeGhJTjk2TzlaVnk1Ry1EUHgyZE8tQVYyQ19fM05tVjVRM3pVNTh0TE4ta1IwaFNUNkpFZGdSazAtaW1jX0MwQ19KTkJpcjRCS3N0U18tRFpCTE5Zb0l5RzUwSFZpTGR4M0Zad0pLemlqTHVwcVJVRGtWYmo4cUlSRTZQbnZteGxOOGVXUjZxanctYVc0VHJWNVZIQ05fUHNLUHRZalcwdzU0?oc=5\n\nAM need to know: OpenAI considers IPO delay, Apple raises hardware prices & more - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPNnFBNUpXeU5zSndlN3RqRG10N3VMV2hvMk5wTzBMeGhJTjk2TzlaVnk1Ry1EUHgyZE8tQVYyQ19fM05tVjVRM3pVNTh0TE4ta1IwaFNUNkpFZGdSazAtaW1jX0MwQ19KTkJpcjRCS3N0U18tRFpCTE5Zb0l5RzUwSFZpTGR4M0Zad0pLemlqTHVwcVJVRGtWYmo4cUlSRTZQbnZteGxOOGVXUjZxanctYVc0VHJWNVZIQ05fUHNLUHRZalcwdzU0?oc=5\" target=\"_blank\">AM need to know: OpenAI considers IPO delay, Apple raises hardware prices & more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced an MSN roundup headline reporting OpenAI is considering delaying its IPO.\n\n\u5185\u5bb9:\nGoogle \u65b0\u95fb RSS \u6293\u53d6\u5230 MSN \u7684\u4e00\u7bc7\u7efc\u5408\u62a5\u9053\u6807\u9898\uff0c\u79f0 OpenAI \u6b63\u8003\u8651\u63a8\u8fdf IPO\u3002\n\nWhy it matters:\nIPO delay signals either funding-market caution or that OpenAI's own leadership doubts current valuations would hold up under public scrutiny \u2014 a soft but real read on AI-sector froth, though this is aggregator noise, not a primary filing.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u8981\u4e48\u53cd\u6620\u878d\u8d44\u5e02\u573a\u8d8b\u4e8e\u8c28\u614e,\u8981\u4e48\u8bf4\u660e OpenAI \u7ba1\u7406\u5c42\u81ea\u5df1\u90fd\u4e0d\u786e\u5b9a\u5f53\u524d\u4f30\u503c\u7ecf\u5f97\u8d77\u516c\u5f00\u5e02\u573a\u68c0\u9a8c\u2014\u2014\u8fd9\u662f\u5bf9 AI \u677f\u5757\u6ce1\u6cab\u7a0b\u5ea6\u7684\u4e00\u4e2a\u8f6f\u6027\u4f46\u771f\u5b9e\u7684\u4fe1\u53f7,\u4e0d\u8fc7\u8fd9\u6761\u6d88\u606f\u6765\u81ea\u805a\u5408\u5a92\u4f53\u6807\u9898,\u5e76\u975e\u4e00\u624b\u6587\u4ef6\u62ab\u9732\u3002\n",
       "emailed": false
     }
   ],
