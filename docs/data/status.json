@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785077048,
-  "generated_at_str": "2026-07-26 14:44:08 UTC",
-  "last_event_ts": 1785077042,
+  "generated_at": 1785077234,
+  "generated_at_str": "2026-07-26 14:47:14 UTC",
+  "last_event_ts": 1785077233,
   "tables": {
     "alerts_dedup": {
-      "count": 2710,
-      "last_ts": 1785076515,
-      "last_str": "2026-07-26 14:35:15 UTC"
+      "count": 2711,
+      "last_ts": 1785077233,
+      "last_str": "2026-07-26 14:47:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -24,9 +24,9 @@
       "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c11_lockup": {
-      "count": 1,
-      "last_ts": 1784818022,
-      "last_str": "2026-07-23 14:47:02 UTC"
+      "count": 2,
+      "last_ts": 1785077231,
+      "last_str": "2026-07-26 14:47:11 UTC"
     },
     "c1_filings": {
       "count": 106,
@@ -104,9 +104,9 @@
       "last_str": "2026-07-26 14:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2836,
-      "last_ts": 1785073622,
-      "last_str": "2026-07-26 13:47:02 UTC"
+      "count": 2843,
+      "last_ts": 1785077232,
+      "last_str": "2026-07-26 14:47:12 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2718,
+      "ts": 1785077233,
+      "ts_str": "2026-07-26 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SPCX unlock in \u22647d: Price \u2265130% tranche (4.6\u4ebf shares)",
+      "body": "Severity:   MED\nTranche:    Price \u2265130% tranche\nDate:       2026-08-03 (ESTIMATED \u2014 earnings-linked, re-verify on EDGAR)  (7 day(s) out)\nRelease:    4.6\u4ebf shares (3.5% of shares outstanding)\nCumulative: 14.7% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX has an upcoming lock-up tranche releasing 4.6B in stock, taking cumulative unlocked shares to 14.7% of the total float.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6279\u89e3\u7981\u4efd\u989d\uff0c\u672c\u6b21\u91ca\u653e\u89c4\u6a21\u4e3a 4.6B\uff0c\u4f7f\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u6d41\u901a\u80a1\u7684 14.7%\u3002\n\nWhy it matters:\nA scheduled unlock adds forced-seller supply into a name that's become a large passive/index proxy for AI-capex sentiment \u2014 watch for the same mechanical pressure pattern seen in prior single-name unlock events.\n\n\u5f71\u54cd:\n\u8fd9\u6b21\u8ba1\u5212\u5185\u89e3\u7981\u4f1a\u5411\u5e02\u573a\u6ce8\u5165\u88ab\u52a8\u7684\u629b\u538b\u4f9b\u7ed9\uff0c\u800c SPCX \u5df2\u6210\u4e3a AI capex \u60c5\u7eea\u7684\u91cd\u8981\u5355\u4e00\u6807\u7684\u4ee3\u7406\u2014\u2014\u9700\u5173\u6ce8\u6b64\u524d\u89e3\u7981\u4e8b\u4ef6\u4e2d\u51fa\u73b0\u8fc7\u7684\u540c\u7c7b\u673a\u68b0\u6027\u629b\u538b\u6a21\u5f0f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2717,
       "ts": 1785076515,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron\u2019s HBM Clock Is Ticking: With Capacity Sold Out Until 2027 and a $3 Billion Wafer Investment - ad-hoc-news.de",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 14:24:02 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOdk9ndU9xNkVmR0lPQXZoQ2JuSFQ5SDJTVW44d1hsVW13dnFNeV9obFBLcFJOZmw3ZjM2cGdwWHgzbm1qTXRNNDRzcmdzR3gtQVFjX21mYXo3Z0xJOFBid1N6czNkRklBeDcxTU9FREZteWRNT0Z1WFRjZWtJMU5WSjM2OEltQ3k4VFB2SS11TjZLVHVHT1UzY1RUMldwcVNxcGplMmJ6a1VpYjJ3c2xLcWF1QzlZQktzU2VBSllZQS1WVGl1S3VV?oc=5\n\nMicron\u2019s HBM Clock Is Ticking: With Capacity Sold Out Until 2027 and a $3 Billion Wafer Investment - ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOdk9ndU9xNkVmR0lPQXZoQ2JuSFQ5SDJTVW44d1hsVW13dnFNeV9obFBLcFJOZmw3ZjM2cGdwWHgzbm1qTXRNNDRzcmdzR3gtQVFjX21mYXo3Z0xJOFBid1N6czNkRklBeDcxTU9FREZteWRNT0Z1WFRjZWtJMU5WSjM2OEltQ3k4VFB2SS11TjZLVHVHT1UzY1RUMldwcVNxcGplMmJ6a1VpYjJ3c2xLcWF1QzlZQktzU2VBSllZQS1WVGl1S3VV?oc=5\" target=\"_blank\">Micron\u2019s HBM Clock Is Ticking: With Capacity Sold Out Until 2027 and a $3 Billion Wafer Investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Micron's HBM output is sold out through 2027, alongside a $3B wafer investment announcement.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6d88\u606f\u79f0\uff0cMicron \u7684 HBM \u4ea7\u80fd\u5df2\u552e\u7f44\u81f3 2027 \u5e74\uff0c\u540c\u65f6\u5ba3\u5e03 30 \u4ebf\u7f8e\u5143\u7684\u6676\u5706\u6295\u8d44\u3002\n\nWhy it matters:\nSold-out-until-2027 signals durable, structural shortage rather than a transient supply/demand mismatch \u2014 bullish for memory suppliers but a cost/lead-time headwind for hyperscalers building AI clusters, tightening the capex-payback math C1/C4 track.\n\n\u5f71\u54cd:\n\u4ea7\u80fd\u552e\u7f44\u81f3 2027 \u5e74\u610f\u5473\u7740\u8fd9\u662f\u7ed3\u6784\u6027\u3001\u6301\u7eed\u6027\u7684\u77ed\u7f3a\uff0c\u800c\u975e\u77ed\u671f\u4f9b\u9700\u9519\u914d\u2014\u2014\u5bf9\u5185\u5b58\u5382\u5546\u662f\u5229\u597d\uff0c\u4f46\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa\u8bbe AI \u96c6\u7fa4\u7684\u6210\u672c\u548c\u4ea4\u4ed8\u5468\u671f\uff0c\u52a0\u5267 C1/C4 \u6240\u8ffd\u8e2a\u7684\u8d44\u672c\u5f00\u652f\u56de\u672c\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2518,
-      "ts": 1784556320,
-      "ts_str": "2026-07-20 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Copper Price Rally Powers Hudbay Minerals (HBM) in Q2 - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 12:24:10 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVlMelBnNC10R2RCdTQxNmNKYVdBNDdVMG1oMFNDckdKZmRJQkxYZzk5dlM4bktNd3V3YUliR3Yxd05vUGJXQ1VqYWhnYTRLR2RJUHoxUWgtYnNEa2p2MWlGaG96THJ4OVdIZ1dMaEtjTmY1STFrQUNuTkw0RlhJUGVTQ1hXRW5hVktFay15MmNfUHppVGRnWVlzRXoycjJJX0ZhUw?oc=5\n\nCopper Price Rally Powers Hudbay Minerals (HBM) in Q2 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQOVlMelBnNC10R2RCdTQxNmNKYVdBNDdVMG1oMFNDckdKZmRJQkxYZzk5dlM4bktNd3V3YUliR3Yxd05vUGJXQ1VqYWhnYTRLR2RJUHoxUWgtYnNEa2p2MWlGaG96THJ4OVdIZ1dMaEtjTmY1STFrQUNuTkw0RlhJUGVTQ1hXRW5hVktFay15MmNfUHppVGRnWVlzRXoycjJJX0ZhUw?oc=5\" target=\"_blank\">Copper Price Rally Powers Hudbay Minerals (HBM) in Q2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe Google News RSS item is about copper prices lifting Hudbay Minerals (HBM), not memory/storage; the C6 memory-term matcher appears to have false-positived on the \"HBM\" ticker symbol, which also happens to be the acronym for High Bandwidth Memory.\n\n\u5185\u5bb9:\n\u8fd9\u6761 Google \u65b0\u95fb RSS \u6761\u76ee\u8bb2\u7684\u662f\u94dc\u4ef7\u4e0a\u6da8\u5e26\u52a8 Hudbay Minerals (HBM) \u80a1\u4ef7\uff0c\u4e0e\u5185\u5b58/\u5b58\u50a8\u65e0\u5173\uff1bC6 \u7684\u5185\u5b58\u5173\u952e\u8bcd\u5339\u914d\u5668\u5f88\u53ef\u80fd\u662f\u628a\u80a1\u7968\u4ee3\u7801 \"HBM\" \u8bef\u5224\u6210\u4e86 High Bandwidth Memory \u7684\u7f29\u5199\u3002\n\nWhy it matters:\nThis is a keyword-collision false positive, not a real memory/storage stress signal \u2014 HBM here is a copper miner's stock ticker, unrelated to High Bandwidth Memory chips. No bearing on the AI-capex thesis; worth tightening the C6 proximity filter to avoid ticker/acronym clashes.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e00\u6b21\u5173\u952e\u8bcd\u78b0\u649e\u5bfc\u81f4\u7684\u8bef\u62a5\uff0c\u5e76\u975e\u771f\u5b9e\u7684\u5185\u5b58/\u5b58\u50a8\u538b\u529b\u4fe1\u53f7\u2014\u2014\u8fd9\u91cc\u7684 HBM \u662f\u4e00\u5bb6\u94dc\u77ff\u516c\u53f8\u7684\u80a1\u7968\u4ee3\u7801\uff0c\u4e0e HBM \u82af\u7247\u6beb\u65e0\u5173\u7cfb\u3002\u5bf9 AI capex \u8bba\u70b9\u6ca1\u6709\u5f71\u54cd\uff0c\u4f46\u503c\u5f97\u6536\u7d27 C6 \u7684\u90bb\u8fd1\u5339\u914d\u89c4\u5219\uff0c\u907f\u514d\u80a1\u7968\u4ee3\u7801\u4e0e\u4e13\u6709\u540d\u8bcd\u7f29\u5199\u51b2\u7a81\u3002\n",
       "emailed": false
     }
   ],
