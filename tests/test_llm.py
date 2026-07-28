@@ -101,6 +101,49 @@ def test_nonzero_exit_returns_none(monkeypatch, tmp_db, enable_llm):
     assert llm.summarize_explanation("C3", "CRITICAL", db_path=tmp_db) is None
 
 
+def test_nonzero_exit_surfaces_envelope_result(monkeypatch, tmp_db, enable_llm):
+    """rc!=0 with an is_error envelope on stdout should log the real cause.
+
+    Claude Code writes its failure envelope to stdout even on a non-zero exit,
+    so the ``bad_exit`` branch must surface ``result``/``terminal_reason``
+    rather than only the (empty here) stderr — this is the OAuth-expiry case
+    that silently forced the static FOCUS fallback in prod.
+    """
+    import logging
+
+    def fake_run(cmd, **kwargs):
+        env = json.dumps({
+            "is_error": True,
+            "terminal_reason": "api_error",
+            "result": "Failed to authenticate: OAuth session expired "
+                      "and could not be refreshed",
+        })
+        return subprocess.CompletedProcess(cmd, 1, stdout=env, stderr="")
+
+    monkeypatch.setattr(llm.subprocess, "run", fake_run)
+    monkeypatch.setattr(llm, "_claude_bin", lambda: "/usr/bin/fake-claude")
+
+    records: list[logging.LogRecord] = []
+    handler = logging.Handler()
+    handler.emit = records.append  # type: ignore[method-assign]
+    llm._log.addHandler(handler)
+    try:
+        assert llm.summarize_explanation("C3", "CRITICAL", db_path=tmp_db) is None
+    finally:
+        llm._log.removeHandler(handler)
+
+    msg = next(r.getMessage() for r in records if "reason=bad_exit" in r.getMessage())
+    assert "terminal_reason=api_error" in msg
+    assert "OAuth session expired" in msg
+
+
+def test_envelope_error_detail_tolerates_nonjson_stdout():
+    """Non-JSON stdout falls back to a truncated raw dump, never raises."""
+    assert llm._envelope_error_detail(None) == ""
+    assert llm._envelope_error_detail("") == ""
+    assert llm._envelope_error_detail("boom not json") == " stdout=boom not json"
+
+
 def test_malformed_inner_json_returns_none(monkeypatch, tmp_db, enable_llm):
     def fake_run(cmd, **kwargs):
         env = json.dumps({

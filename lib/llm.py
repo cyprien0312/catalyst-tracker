@@ -218,6 +218,31 @@ def _cache_put(db_path: Path, key: str, value: dict[str, str]) -> None:
         pass  # cache failures must not break the caller
 
 
+def _envelope_error_detail(stdout: str | None) -> str:
+    """Best-effort human-readable cause from a Claude CLI envelope on stdout.
+
+    Claude Code writes its JSON envelope (``is_error``/``result``/
+    ``terminal_reason``) to stdout even when it exits non-zero, so the real
+    cause — e.g. ``"OAuth session expired and could not be refreshed"`` — lives
+    there rather than in the (often empty) stderr the ``bad_exit`` branch
+    otherwise logs. Returns a leading-space suffix for the log line, or "".
+    """
+    if not stdout:
+        return ""
+    try:
+        env = json.loads(stdout)
+    except (json.JSONDecodeError, ValueError):
+        return " stdout=" + stdout[:200]
+    if not isinstance(env, dict):
+        return ""
+    parts = []
+    if env.get("terminal_reason"):
+        parts.append("terminal_reason=%s" % env["terminal_reason"])
+    if env.get("result"):
+        parts.append("result=%s" % str(env["result"])[:300])
+    return (" " + " ".join(parts)) if parts else ""
+
+
 def _call_claude_cli(prompt: str, timeout: int | None = None) -> str | None:
     """Run `claude -p ... --output-format json` and return the inner result string.
 
@@ -250,8 +275,9 @@ def _call_claude_cli(prompt: str, timeout: int | None = None) -> str | None:
     elapsed = time.monotonic() - started
     if proc.returncode != 0 or not proc.stdout:
         _log.warning(
-            "llm.cli_error reason=bad_exit rc=%d elapsed_s=%.1f stderr=%s",
+            "llm.cli_error reason=bad_exit rc=%d elapsed_s=%.1f stderr=%s%s",
             proc.returncode, elapsed, (proc.stderr or "")[:300],
+            _envelope_error_detail(proc.stdout),
         )
         return None
     try:
