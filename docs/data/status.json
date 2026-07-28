@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785261724,
-  "generated_at_str": "2026-07-28 18:02:04 UTC",
-  "last_event_ts": 1785260833,
+  "generated_at": 1785261917,
+  "generated_at_str": "2026-07-28 18:05:17 UTC",
+  "last_event_ts": 1785261916,
   "tables": {
     "alerts_dedup": {
-      "count": 2759,
-      "last_ts": 1785260833,
-      "last_str": "2026-07-28 17:47:13 UTC"
+      "count": 2760,
+      "last_ts": 1785261916,
+      "last_str": "2026-07-28 18:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -84,19 +84,19 @@
       "last_str": "2026-07-28 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3847,
-      "last_ts": 1785260104,
-      "last_str": "2026-07-28 17:35:04 UTC"
+      "count": 3848,
+      "last_ts": 1785261904,
+      "last_str": "2026-07-28 18:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2564,
-      "last_ts": 1785260103,
-      "last_str": "2026-07-28 17:35:03 UTC"
+      "count": 2565,
+      "last_ts": 1785261903,
+      "last_str": "2026-07-28 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2866,
-      "last_ts": 1785260105,
-      "last_str": "2026-07-28 17:35:05 UTC"
+      "count": 2869,
+      "last_ts": 1785261905,
+      "last_str": "2026-07-28 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 19601,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2767,
+      "ts": 1785261916,
+      "ts_str": "2026-07-28 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Testing old drives as external storage to avoid price hikes \u2014 hard drive, SATA SSD, and NVMe in enclosures... - Yahoo Te",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 11:39:52 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxQRV9TSjdxZ1FseUVWRjIxc1BNQTAyMjAyeTFkN0pTOC12cjVIa2NDOWFJWUxYRGs5S3Y5cm1wckxiNHE1SzVJOVRCY3Y1aUpIRXNEUWZUUlZiMEtUaG1WLVdlZ2ZCNVFrVVdBaTNuOS1hU2tueGwxZ2xNb2RycWVjbW43ZUs4Q1VvMUZUcUZSbFlzcWM5bk8w?oc=5\n\nTesting old drives as external storage to avoid price hikes \u2014 hard drive, SATA SSD, and NVMe in enclosures... - Yahoo Tech\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQRV9TSjdxZ1FseUVWRjIxc1BNQTAyMjAyeTFkN0pTOC12cjVIa2NDOWFJWUxYRGs5S3Y5cm1wckxiNHE1SzVJOVRCY3Y1aUpIRXNEUWZUUlZiMEtUaG1WLVdlZ2ZCNVFrVVdBaTNuOS1hU2tueGwxZ2xNb2RycWVjbW43ZUs4Q1VvMUZUcUZSbFlzcWM5bk8w?oc=5\" target=\"_blank\">Testing old drives as external storage to avoid price hikes \u2014 hard drive, SATA SSD, and NVMe in enclosures...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Tech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Yahoo Tech piece frames using old hard drives, SATA SSDs, and NVMe drives in external enclosures as a way to dodge storage price hikes.\n\n\u5185\u5bb9:\nYahoo Tech \u7684\u4e00\u7bc7\u6587\u7ae0\u5efa\u8bae\u7528\u65e7\u786c\u76d8\u3001SATA SSD \u548c NVMe \u786c\u76d8(\u88c5\u8fdb\u5916\u63a5\u76d2)\u6765\u907f\u5f00\u5b58\u50a8\u6da8\u4ef7\u3002\n\nWhy it matters:\nConsumer-facing price-hike coverage without a hard order-cancellation or shortage-tier data point is a weak C6 tell \u2014 it reflects retail DRAM/NAND pricing pressure but doesn't confirm supply is being pulled from AI infrastructure buyers specifically.\n\n\u5f71\u54cd:\n\u8fd9\u7c7b\u6d88\u8d39\u7aef\u6da8\u4ef7\u62a5\u9053\u6ca1\u6709\u7ed9\u51fa\u8ba2\u5355\u53d6\u6d88\u6216\u660e\u786e\u7684\u77ed\u7f3a\u5206\u7ea7\u6570\u636e\uff0c\u4f5c\u4e3a C6 \u4fe1\u53f7\u504f\u5f31\u2014\u2014\u5b83\u53cd\u6620\u7684\u662f\u96f6\u552e\u7aef DRAM/NAND \u4ef7\u683c\u538b\u529b\uff0c\u5e76\u4e0d\u80fd\u8bc1\u5b9e\u4ea7\u80fd\u6b63\u88ab\u4ece AI \u57fa\u7840\u8bbe\u65bd\u4e70\u5bb6\u90a3\u91cc\u62bd\u8d70\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2766,
       "ts": 1785260833,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6 - Moomoo",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 19:35:41 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxOSlJ1djl3b2tfVEV6UUFtYTJoUUlod0JVR1V0RFBGWUFYVDJrVzN5aUU2eHVoVXlGYTFiQXJTVWQ0U08wTnQ1cV9qeVVxVC04dkJQYmZSc1pXTVNXVjhoVlJ2MkxQLWRRWUZiSmVGUG5MeXU1OGt3djI3TlJZd2tubDkxMVYzd2NhN3d3QWZxOFcxWUJ4aUtIaGVhU2l0Sl9SWFF2NnRjcl94bHN5LWc?oc=5\n\nSpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6 - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOSlJ1djl3b2tfVEV6UUFtYTJoUUlod0JVR1V0RFBGWUFYVDJrVzN5aUU2eHVoVXlGYTFiQXJTVWQ0U08wTnQ1cV9qeVVxVC04dkJQYmZSc1pXTVNXVjhoVlJ2MkxQLWRRWUZiSmVGUG5MeXU1OGt3djI3TlJZd2tubDkxMVYzd2NhN3d3QWZxOFcxWUJ4aUtIaGVhU2l0Sl9SWFF2NnRjcl94bHN5LWc?oc=5\" target=\"_blank\">SpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2567,
-      "ts": 1784659630,
-      "ts_str": "2026-07-21 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release - Bloomberg.com",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 14:55:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGJtX0hXN3JHVWFvR2kzX3JSVkhTWC1ubThYcHc4b1Vpd0dOSWdOWWdrUk82QTE3c29LUDhETm1YR19PTWNtUVExbkpLU0dEQ2FIdDE1QS1ESmZRa2RJeXdJdlNQdlhKbElpelpPQ1hfQzRqTmJIOUFQMG44REMwYjNtYkx4VDZjVGw2YXpUWWdZT2w5WnRXa3BBVXdQYVFYOW9hTHFtSEozM0xFUkxFT044UQ?oc=5\n\nSpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGJtX0hXN3JHVWFvR2kzX3JSVkhTWC1ubThYcHc4b1Vpd0dOSWdOWWdrUk82QTE3c29LUDhETm1YR19PTWNtUVExbkpLU0dEQ2FIdDE1QS1ESmZRa2RJeXdJdlNQdlhKbElpelpPQ1hfQzRqTmJIOUFQMG44REMwYjNtYkx4VDZjVGw2YXpUWWdZT2w5WnRXa3BBVXdQYVFYOW9hTHFtSEozM0xFUkxFT044UQ?oc=5\" target=\"_blank\">SpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
     }
   ],
