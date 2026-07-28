@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785238323,
-  "generated_at_str": "2026-07-28 11:32:03 UTC",
-  "last_event_ts": 1785237244,
+  "generated_at": 1785238524,
+  "generated_at_str": "2026-07-28 11:35:24 UTC",
+  "last_event_ts": 1785238524,
   "tables": {
     "alerts_dedup": {
-      "count": 2747,
-      "last_ts": 1785235643,
-      "last_str": "2026-07-28 10:47:23 UTC"
+      "count": 2750,
+      "last_ts": 1785238524,
+      "last_str": "2026-07-28 11:35:24 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-28 09:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3240,
-      "last_ts": 1785236702,
-      "last_str": "2026-07-28 11:05:02 UTC"
+      "count": 3243,
+      "last_ts": 1785238502,
+      "last_str": "2026-07-28 11:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3824,
-      "last_ts": 1785236703,
-      "last_str": "2026-07-28 11:05:03 UTC"
+      "count": 3825,
+      "last_ts": 1785238504,
+      "last_str": "2026-07-28 11:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2547,
-      "last_ts": 1785233103,
-      "last_str": "2026-07-28 10:05:03 UTC"
+      "count": 2548,
+      "last_ts": 1785238503,
+      "last_str": "2026-07-28 11:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2835,
@@ -303,6 +303,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2755,
+      "ts": 1785238524,
+      "ts_str": "2026-07-28 11:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 03:33:35 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZmlGdUVpcWpoYkhpeFFSZ0lSaDFrbUN3ZmxTUWNVVlhiNXFweVV5cmRhLWtJTlNqbTB4aHZ3Z3RhWW4zc2NJdEJQYVBzYzFyWjlBWWphNlZrSnNSSi0tUXc3M1lFazVEVFE?oc=5\n\nSK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZmlGdUVpcWpoYkhpeFFSZ0lSaDFrbUN3ZmxTUWNVVlhiNXFweVV5cmRhLWtJTlNqbTB4aHZ3Z3RhWW4zc2NJdEJQYVBzYzFyWjlBWWphNlZrSnNSSi0tUXc3M1lFazVEVFE?oc=5\" target=\"_blank\">SK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix is reportedly using DDR5 price surges as leverage to push through HBM4 price hikes.\n\n\u5185\u5bb9:\nSK Hynix \u636e\u62a5\u6b63\u501f DDR5 \u4ef7\u683c\u4e0a\u6da8\u7684\u52bf\u5934\uff0c\u4e3a HBM4 \u6da8\u4ef7\u521b\u9020\u7b79\u7801\u3002\n\nWhy it matters:\nRising HBM prices raise the bill of materials for every AI accelerator (Nvidia/AMD GPUs), squeezing hardware margins or pushing costs downstream \u2014 a memory-supply-chain stress signal that compounds the AI-capex cost curve.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u9897 AI \u52a0\u901f\u5361\uff08Nvidia/AMD GPU\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u786c\u4ef6\u5229\u6da6\u6216\u628a\u6210\u672c\u8f6c\u5ac1\u4e0b\u6e38\u2014\u2014\u8fd9\u662f\u5b58\u50a8\u4f9b\u5e94\u94fe\u627f\u538b\u4fe1\u53f7\uff0c\u4f1a\u53e0\u52a0\u5728 AI capex \u7684\u6210\u672c\u66f2\u7ebf\u4e0a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2756,
+      "ts": 1785238524,
+      "ts_str": "2026-07-28 11:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 03:33:35 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZmlGdUVpcWpoYkhpeFFSZ0lSaDFrbUN3ZmxTUWNVVlhiNXFweVV5cmRhLWtJTlNqbTB4aHZ3Z3RhWW4zc2NJdEJQYVBzYzFyWjlBWWphNlZrSnNSSi0tUXc3M1lFazVEVFE?oc=5\n\nSK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE11ZmlGdUVpcWpoYkhpeFFSZ0lSaDFrbUN3ZmxTUWNVVlhiNXFweVV5cmRhLWtJTlNqbTB4aHZ3Z3RhWW4zc2NJdEJQYVBzYzFyWjlBWWphNlZrSnNSSi0tUXc3M1lFazVEVFE?oc=5\" target=\"_blank\">SK Hynix's HBM paradox: DDR5 surge builds leverage for HBM4 price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix is reportedly using DDR5 price surges as leverage to push through HBM4 price hikes.\n\n\u5185\u5bb9:\nSK Hynix \u636e\u62a5\u6b63\u501f DDR5 \u4ef7\u683c\u4e0a\u6da8\u7684\u52bf\u5934\uff0c\u4e3a HBM4 \u6da8\u4ef7\u521b\u9020\u7b79\u7801\u3002\n\nWhy it matters:\nRising HBM prices raise the bill of materials for every AI accelerator (Nvidia/AMD GPUs), squeezing hardware margins or pushing costs downstream \u2014 a memory-supply-chain stress signal that compounds the AI-capex cost curve.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u9897 AI \u52a0\u901f\u5361\uff08Nvidia/AMD GPU\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u786c\u4ef6\u5229\u6da6\u6216\u628a\u6210\u672c\u8f6c\u5ac1\u4e0b\u6e38\u2014\u2014\u8fd9\u662f\u5b58\u50a8\u4f9b\u5e94\u94fe\u627f\u538b\u4fe1\u53f7\uff0c\u4f1a\u53e0\u52a0\u5728 AI capex \u7684\u6210\u672c\u66f2\u7ebf\u4e0a\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2757,
+      "ts": 1785238524,
+      "ts_str": "2026-07-28 11:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Explores Paid Galaxy AI Tier Amid Memory Chip Price Surge - Whalesbook",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 09:02:39 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYTlGN2tjVXJCVkFZSGUxUEIweEFyNEp3TzdNd0phdmNiVVh0TFVGelpYeTYxSFMwU0g5VFdjbmstQThjNWdMSEkwQzhfYUtScjhzeDNjM2VNeU1Fb2Y2RktzYzdNWnRZOEU1anRlakdSQnZNbDVBeWFRcWE2YlgwS2s0Zjh2YWpPOHNHOWZZOWVmMkZnRDJWbGw1akppNHlFN2o0MXdJaTRZN01GbmlyYUF0dXBBVnEyQXdfWTRUek9MZHVRWlR0LXhmOUoyRW9kMVdVR29vdi0?oc=5\n\nSamsung Explores Paid Galaxy AI Tier Amid Memory Chip Price Surge - Whalesbook\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYTlGN2tjVXJCVkFZSGUxUEIweEFyNEp3TzdNd0phdmNiVVh0TFVGelpYeTYxSFMwU0g5VFdjbmstQThjNWdMSEkwQzhfYUtScjhzeDNjM2VNeU1Fb2Y2RktzYzdNWnRZOEU1anRlakdSQnZNbDVBeWFRcWE2YlgwS2s0Zjh2YWpPOHNHOWZZOWVmMkZnRDJWbGw1akppNHlFN2o0MXdJaTRZN01GbmlyYUF0dXBBVnEyQXdfWTRUek9MZHVRWlR0LXhmOUoyRW9kMVdVR29vdi0?oc=5\" target=\"_blank\">Samsung Explores Paid Galaxy AI Tier Amid Memory Chip Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Whalesbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Samsung is considering a paid Galaxy AI subscription tier amid a memory chip price surge, with no ticker or numeric detail given.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u4e09\u661f\u6b63\u8003\u8651\u5728\u5185\u5b58\u82af\u7247\u4ef7\u683c\u4e0a\u6da8\u4e4b\u9645\u63a8\u51fa\u4ed8\u8d39\u7248 Galaxy AI \u8ba2\u9605\u670d\u52a1\uff0c\u672a\u63d0\u53ca\u5177\u4f53 ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nRising memory prices (DRAM/HBM) are a direct AI-capex input cost \u2014 a surge here raises hyperscaler/OEM bill-of-materials and can pressure margins or get passed through, consistent with the memory-stress thesis; but this is a secondary, low-signal mention with no hard numbers attached.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u4ef7\u683c\u4e0a\u6da8\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u7ec8\u7aef\u5382\u5546\u7684\u7269\u6599\u6210\u672c\uff0c\u7b26\u5408\u5185\u5b58\u4ef7\u683c\u627f\u538b\u7684\u8bba\u70b9\uff1b\u4f46\u8fd9\u6761\u6d88\u606f\u7f3a\u4e4f\u5177\u4f53\u6570\u5b57\uff0c\u4fe1\u53f7\u5f3a\u5ea6\u8f83\u5f31\uff0c\u5c5e\u4e8e\u6b21\u8981\u4f50\u8bc1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2753,
       "ts": 1785235643,
@@ -2271,36 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Vivo and Oppo reject Samsung\u2019s latest DRAM price hike, crisis continues to escalate - Notebookcheck",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 15:12:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxPbk1aT2xhM3VBM0xUZWQwWWRZVndPTElsSU5od3JObEN4Q1Z0VmVORGZIeWNwbmV3WXJ0LUtGTHRvZ1FDcDc4QWo3X3o0bHNqblNPZHVBeVNxcndNMHVabU9tbld2emlxMU9KcEF5VlRTRWJUQzNDVm1QN1NqWjFXVnAweW85c21HTVVySll2elE3X3lzZ0ZEWlE4RWJjbzdoMDd1TkxBNEpVbTdpT1ExWkNUSjd1NEh0WXQ5REhaVy1FNDVyWGc?oc=5\n\nVivo and Oppo reject Samsung\u2019s latest DRAM price hike, crisis continues to escalate - Notebookcheck\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPbk1aT2xhM3VBM0xUZWQwWWRZVndPTElsSU5od3JObEN4Q1Z0VmVORGZIeWNwbmV3WXJ0LUtGTHRvZ1FDcDc4QWo3X3o0bHNqblNPZHVBeVNxcndNMHVabU9tbld2emlxMU9KcEF5VlRTRWJUQzNDVm1QN1NqWjFXVnAweW85c21HTVVySll2elE3X3lzZ0ZEWlE4RWJjbzdoMDd1TkxBNEpVbTdpT1ExWkNUSjd1NEh0WXQ5REhaVy1FNDVyWGc?oc=5\" target=\"_blank\">Vivo and Oppo reject Samsung\u2019s latest DRAM price hike, crisis continues to escalate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notebookcheck</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2557,
-      "ts": 1784645230,
-      "ts_str": "2026-07-21 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX sets earnings date, triggering first lock-up expiration for millions of shares - CNBC",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 14:10:49 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxPRkdmZWRDY3lEamR3d0hxUlF6LXNROVQ0VU85REJ3X3B3TWIxZTl4YURrbEdpMjRoVUNrWXJab1VkWnZJVzhnWnVZSkdJWHltUUxYWkdaQmpmSUJKQ1dmNzduOXhfaTc0V3hqUENCTEEtdFUtUzRGMXhVYXNTZExLcTJ30gGHAUFVX3lxTE5mUTBLOXc3R21iUUFTbkFiYzloMFJGRWZFanJTNEdDaTl3NnpWc0hFOWl3YXUwRUljY3pVMmhNeWgxRGduLUM3eGxJWWlpUm1NVjdLMk80d0NfdnFHOGhTQnliTFctSVJIQ050UVJ2S2hEamc5SVlrQnFpaDRCdE9IbF9aS1pZYw?oc=5\n\nSpaceX sets earnings date, triggering first lock-up expiration for millions of shares - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPRkdmZWRDY3lEamR3d0hxUlF6LXNROVQ0VU85REJ3X3B3TWIxZTl4YURrbEdpMjRoVUNrWXJab1VkWnZJVzhnWnVZSkdJWHltUUxYWkdaQmpmSUJKQ1dmNzduOXhfaTc0V3hqUENCTEEtdFUtUzRGMXhVYXNTZExLcTJ30gGHAUFVX3lxTE5mUTBLOXc3R21iUUFTbkFiYzloMFJGRWZFanJTNEdDaTl3NnpWc0hFOWl3YXUwRUljY3pVMmhNeWgxRGduLUM3eGxJWWlpUm1NVjdLMk80d0NfdnFHOGhTQnliTFctSVJIQ050UVJ2S2hEamc5SVlrQnFpaDRCdE9IbF9aS1pZYw?oc=5\" target=\"_blank\">SpaceX sets earnings date, triggering first lock-up expiration for millions of shares</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2556,
-      "ts": 1784644506,
-      "ts_str": "2026-07-21 14:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Price Surge Slams Apple as Past 'Squeezing' Tactics Backfire \u2014 NVIDIA's Buying Spree Flips the Power Dynamic - fi",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 20 Jul 2026 23:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9pRUFBMElFbF9OWXF2dkVZZWpaMDNncG80U05Bay0xdkh3WHVaVWowei0zTlBZN2RJVjllTVk5Y2lKNFdsXzNDblpCTTVJa0JYdHZ1YlQ0UzlxejNlYjROa1B6U1pjZmhRWjJjOWVydVZnQ2lBQ0E?oc=5\n\nMemory Price Surge Slams Apple as Past 'Squeezing' Tactics Backfire \u2014 NVIDIA's Buying Spree Flips the Power Dynamic - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9pRUFBMElFbF9OWXF2dkVZZWpaMDNncG80U05Bay0xdkh3WHVaVWowei0zTlBZN2RJVjllTVk5Y2lKNFdsXzNDblpCTTVJa0JYdHZ1YlQ0UzlxejNlYjROa1B6U1pjZmhRWjJjOWVydVZnQ2lBQ0E?oc=5\" target=\"_blank\">Memory Price Surge Slams Apple as Past 'Squeezing' Tactics Backfire \u2014 NVIDIA's Buying Spree Flips the Power Dynamic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2555,
-      "ts": 1784641624,
-      "ts_str": "2026-07-21 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Space Exploration Technologies (SPCX) Joins Nasdaq 100 As Valuation Debate Meets Starship Risk - Yahoo Finance Australia",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 11:11:13 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxNRng3MXlsSnFZUHpIcmFZT3IxdkRwQmcxSEh3anUzLXI5M1RmVXhVRnY2RWc4ZHVLbE1WUDZ6ZVhpbFJQZUpEcEg0SWlFTWJPSVgtemRIT1lzRURWM1phc2s4THFVVlJtalBiMzRuWmVHd2pmemo3M3BoWEVOT1ExUDZVMlZabjlLajI2YVFDQlhELXF3?oc=5\n\nSpace Exploration Technologies (SPCX) Joins Nasdaq 100 As Valuation Debate Meets Starship Risk - Yahoo Finance Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNRng3MXlsSnFZUHpIcmFZT3IxdkRwQmcxSEh3anUzLXI5M1RmVXhVRnY2RWc4ZHVLbE1WUDZ6ZVhpbFJQZUpEcEg0SWlFTWJPSVgtemRIT1lzRURWM1phc2s4THFVVlJtalBiMzRuWmVHd2pmemo3M3BoWEVOT1ExUDZVMlZabjlLajI2YVFDQlhELXF3?oc=5\" target=\"_blank\">Space Exploration Technologies (SPCX) Joins Nasdaq 100 As Valuation Debate Meets Starship Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
       "emailed": false
     }
   ],
