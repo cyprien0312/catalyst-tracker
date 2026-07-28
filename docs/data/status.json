@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785260648,
-  "generated_at_str": "2026-07-28 17:44:08 UTC",
-  "last_event_ts": 1785260646,
+  "generated_at": 1785260834,
+  "generated_at_str": "2026-07-28 17:47:14 UTC",
+  "last_event_ts": 1785260833,
   "tables": {
     "alerts_dedup": {
-      "count": 2758,
-      "last_ts": 1785258304,
-      "last_str": "2026-07-28 17:05:04 UTC"
+      "count": 2759,
+      "last_ts": 1785260833,
+      "last_str": "2026-07-28 17:47:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -104,9 +104,9 @@
       "last_str": "2026-07-28 17:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3237,
-      "last_ts": 1785257222,
-      "last_str": "2026-07-28 16:47:02 UTC"
+      "count": 3251,
+      "last_ts": 1785260823,
+      "last_str": "2026-07-28 17:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2766,
+      "ts": 1785260833,
+      "ts_str": "2026-07-28 17:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] RBC cuts Tesla stock price target to $480 on SpaceX synergies - Investing.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 13:34:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmV2Z1VqQXo4REo1Mk8wbC1RZ1I0cDZKdWlSZnJsS3hnNGJQQjAyMDY1OTNvUlZwWFZCaDZoWndwLTN1Y0pjd1VYOXBsajRuVklWS3lsWDdubVdQTGUyNHl0blFRWl95RC1zeVpzRlpUYzh6N0lpV1RnTmM5cS16TndnWVQ1OGhzLVFkbTlWRlNtVXBVbVJsbFFSekZ4dUJ1Z010WEFlajF2YnZ5QTBtRmFseUJvTnppaWQ1TTdZNkFqYWxxRGtj?oc=5\n\nRBC cuts Tesla stock price target to $480 on SpaceX synergies - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmV2Z1VqQXo4REo1Mk8wbC1RZ1I0cDZKdWlSZnJsS3hnNGJQQjAyMDY1OTNvUlZwWFZCaDZoWndwLTN1Y0pjd1VYOXBsajRuVklWS3lsWDdubVdQTGUyNHl0blFRWl95RC1zeVpzRlpUYzh6N0lpV1RnTmM5cS16TndnWVQ1OGhzLVFkbTlWRlNtVXBVbVJsbFFSekZ4dUJ1Z010WEFlajF2YnZ5QTBtRmFseUJvTnppaWQ1TTdZNkFqYWxxRGtj?oc=5\" target=\"_blank\">RBC cuts Tesla stock price target to $480 on SpaceX synergies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News hit about RBC cutting Tesla's price target to $480 cites SpaceX synergies as a factor, but the article is fundamentally about Tesla stock, not SpaceX itself.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb\u663e\u793a RBC \u5c06\u7279\u65af\u62c9\u76ee\u6807\u4ef7\u4e0b\u8c03\u81f3 $480\uff0c\u7406\u7531\u63d0\u5230 SpaceX \u534f\u540c\u6548\u5e94\uff0c\u4f46\u6587\u7ae0\u4e3b\u4f53\u8bb2\u7684\u662f\u7279\u65af\u62c9\u80a1\u7968\uff0c\u800c\u975e SpaceX \u672c\u8eab\u3002\n\nWhy it matters:\nThis is proximity noise, not a genuine SpaceX-specific catalyst \u2014 the classifier should down-weight or filter it since it doesn't bear on the unlock schedule, IPO timeline, or passive-flow mechanics C11 tracks.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u90bb\u8fd1\u566a\u97f3\uff0c\u5e76\u975e\u771f\u6b63\u7684 SpaceX \u4e13\u5c5e\u50ac\u5316\u4e8b\u4ef6\u2014\u2014\u5206\u7c7b\u5668\u5e94\u964d\u6743\u6216\u8fc7\u6ee4\u6389\u8fd9\u7c7b\u5185\u5bb9\uff0c\u56e0\u4e3a\u5b83\u4e0e\u89e3\u9501\u65f6\u95f4\u8868\u3001IPO \u65f6\u95f4\u7ebf\u6216\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\u673a\u5236\u65e0\u5173\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2765,
       "ts": 1785258304,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release - Bloomberg.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 14:55:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGJtX0hXN3JHVWFvR2kzX3JSVkhTWC1ubThYcHc4b1Vpd0dOSWdOWWdrUk82QTE3c29LUDhETm1YR19PTWNtUVExbkpLU0dEQ2FIdDE1QS1ESmZRa2RJeXdJdlNQdlhKbElpelpPQ1hfQzRqTmJIOUFQMG44REMwYjNtYkx4VDZjVGw2YXpUWWdZT2w5WnRXa3BBVXdQYVFYOW9hTHFtSEozM0xFUkxFT044UQ?oc=5\n\nSpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGJtX0hXN3JHVWFvR2kzX3JSVkhTWC1ubThYcHc4b1Vpd0dOSWdOWWdrUk82QTE3c29LUDhETm1YR19PTWNtUVExbkpLU0dEQ2FIdDE1QS1ESmZRa2RJeXdJdlNQdlhKbElpelpPQ1hfQzRqTmJIOUFQMG44REMwYjNtYkx4VDZjVGw2YXpUWWdZT2w5WnRXa3BBVXdQYVFYOW9hTHFtSEozM0xFUkxFT044UQ?oc=5\" target=\"_blank\">SpaceX\u2019s Great Unlocking Begins With $116 Billion Share Release</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2565,
-      "ts": 1784656031,
-      "ts_str": "2026-07-21 17:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Q2 2026 earnings date set, triggering insider share unlock - qz.com",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 17:16:45 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE1yc3Fqcy1WYktyREREY19kNWhCVlgtTE85Qmg1d3hYZXBZYzRxa01rS1lBMmtobG4xZEpGOG5xQkdIWFpXUzJuckVJd0pCVjlTWGt6RE1Hdk5lVVp4NDBpY3d6ZDh0Z3g1QkNDQ0l0YUY?oc=5\n\nSpaceX Q2 2026 earnings date set, triggering insider share unlock - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1yc3Fqcy1WYktyREREY19kNWhCVlgtTE85Qmg1d3hYZXBZYzRxa01rS1lBMmtobG4xZEpGOG5xQkdIWFpXUzJuckVJd0pCVjlTWGt6RE1Hdk5lVVp4NDBpY3d6ZDh0Z3g1QkNDQ0l0YUY?oc=5\" target=\"_blank\">SpaceX Q2 2026 earnings date set, triggering insider share unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
     }
   ],
