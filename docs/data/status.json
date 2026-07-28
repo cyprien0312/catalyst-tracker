@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785196926,
-  "generated_at_str": "2026-07-28 00:02:06 UTC",
-  "last_event_ts": 1785196023,
+  "generated_at": 1785197122,
+  "generated_at_str": "2026-07-28 00:05:22 UTC",
+  "last_event_ts": 1785197120,
   "tables": {
     "alerts_dedup": {
-      "count": 2740,
-      "last_ts": 1785191350,
-      "last_str": "2026-07-27 22:29:10 UTC"
+      "count": 2742,
+      "last_ts": 1785197120,
+      "last_str": "2026-07-28 00:05:20 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -89,14 +89,14 @@
       "last_str": "2026-07-27 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2536,
-      "last_ts": 1785193502,
-      "last_str": "2026-07-27 23:05:02 UTC"
+      "count": 2537,
+      "last_ts": 1785197108,
+      "last_str": "2026-07-28 00:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2816,
-      "last_ts": 1785195304,
-      "last_str": "2026-07-27 23:35:04 UTC"
+      "count": 2819,
+      "last_ts": 1785197110,
+      "last_str": "2026-07-28 00:05:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 19461,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2748,
+      "ts": 1785197120,
+      "ts_str": "2026-07-28 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD & memory price increases and what can you do about it - TechTarget",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 27 Jul 2026 23:38:22 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHFtRTBGWUUwOE5rUUtkUXk0aV9PQnotM01UdXF5N0Y2OEJYajFLbkdFbVpjbHZ2T1l6Wi1oY3VVMTFza0VqeWliSWdZVVFtMUJFMktFQ3FjTHZUX1pwT0dFZHNSQnNDaUNjSXhRRkVUcEU0OHVxMFBQWTJpdnpBQnVydW1yN3VhUDhJWG95alVBTjZtNXpVWVluclMyNlA0U1E?oc=5\n\nSSD & memory price increases and what can you do about it - TechTarget\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHFtRTBGWUUwOE5rUUtkUXk0aV9PQnotM01UdXF5N0Y2OEJYajFLbkdFbVpjbHZ2T1l6Wi1oY3VVMTFza0VqeWliSWdZVVFtMUJFMktFQ3FjTHZUX1pwT0dFZHNSQnNDaUNjSXhRRkVUcEU0OHVxMFBQWTJpdnpBQnVydW1yN3VhUDhJWG95alVBTjZtNXpVWVluclMyNlA0U1E?oc=5\" target=\"_blank\">SSD & memory price increases and what can you do about it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechTarget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TechTarget item reports SSD and memory (DRAM/NAND) prices rising, prompting buyers to react.\n\n\u5185\u5bb9:\nTechTarget \u62a5\u9053 SSD \u4e0e\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u4e0a\u6da8\uff0c\u4fc3\u4f7f\u4e70\u5bb6\u5e94\u5bf9\u3002\n\nWhy it matters:\nMemory price surges signal AI-driven demand (HBM/DRAM for accelerators) squeezing broader supply, raising input costs across the compute stack \u2014 a stress point for capex economics if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u5f80\u5f80\u53cd\u6620 AI \u9700\u6c42\uff08\u52a0\u901f\u5361\u7528\u7684 HBM/DRAM\uff09\u6324\u538b\u4e86\u6574\u4f53\u4f9b\u7ed9\uff0c\u63a8\u9ad8\u4e86\u6574\u6761\u7b97\u529b\u94fe\u7684\u6210\u672c\u2014\u2014\u5982\u679c\u6301\u7eed\u4e0b\u53bb\uff0c\u4f1a\u5bf9 capex \u7ecf\u6d4e\u6027\u6784\u6210\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2749,
+      "ts": 1785197120,
+      "ts_str": "2026-07-28 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD & memory price increases and what can you do about it - TechTarget",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 27 Jul 2026 23:38:22 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHFtRTBGWUUwOE5rUUtkUXk0aV9PQnotM01UdXF5N0Y2OEJYajFLbkdFbVpjbHZ2T1l6Wi1oY3VVMTFza0VqeWliSWdZVVFtMUJFMktFQ3FjTHZUX1pwT0dFZHNSQnNDaUNjSXhRRkVUcEU0OHVxMFBQWTJpdnpBQnVydW1yN3VhUDhJWG95alVBTjZtNXpVWVluclMyNlA0U1E?oc=5\n\nSSD & memory price increases and what can you do about it - TechTarget\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQeHFtRTBGWUUwOE5rUUtkUXk0aV9PQnotM01UdXF5N0Y2OEJYajFLbkdFbVpjbHZ2T1l6Wi1oY3VVMTFza0VqeWliSWdZVVFtMUJFMktFQ3FjTHZUX1pwT0dFZHNSQnNDaUNjSXhRRkVUcEU0OHVxMFBQWTJpdnpBQnVydW1yN3VhUDhJWG95alVBTjZtNXpVWVluclMyNlA0U1E?oc=5\" target=\"_blank\">SSD & memory price increases and what can you do about it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechTarget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA TechTarget item reports SSD and memory (DRAM/NAND) prices rising, prompting buyers to react.\n\n\u5185\u5bb9:\nTechTarget \u62a5\u9053 SSD \u4e0e\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u4e0a\u6da8\uff0c\u4fc3\u4f7f\u4e70\u5bb6\u5e94\u5bf9\u3002\n\nWhy it matters:\nMemory price surges signal AI-driven demand (HBM/DRAM for accelerators) squeezing broader supply, raising input costs across the compute stack \u2014 a stress point for capex economics if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u5f80\u5f80\u53cd\u6620 AI \u9700\u6c42\uff08\u52a0\u901f\u5361\u7528\u7684 HBM/DRAM\uff09\u6324\u538b\u4e86\u6574\u4f53\u4f9b\u7ed9\uff0c\u63a8\u9ad8\u4e86\u6574\u6761\u7b97\u529b\u94fe\u7684\u6210\u672c\u2014\u2014\u5982\u679c\u6301\u7eed\u4e0b\u53bb\uff0c\u4f1a\u5bf9 capex \u7ecf\u6d4e\u6027\u6784\u6210\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2747,
       "ts": 1785191350,
@@ -2282,26 +2302,6 @@
       "subject": "[C11-HIGH] SpaceX's First Earnings Report Set for August 4: $109.2 Billion Lockup Expiry Looms, Stock Faces Critical Test - finance",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 12:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1ncmxGU1RIU3R0ZWxhWW1iVGY0b0M1aHlMVjdsdDNyUUpOeDd3bjBrTnBoeFRYYjhFbTFUSTNuVG1vWjc2a1Jub3YtblA1b3EyZ3NPT0VyZkZTT1BKNm1xUlN6VDRKTzV1alJpYVpqTC1id3VKQ1E?oc=5\n\nSpaceX's First Earnings Report Set for August 4: $109.2 Billion Lockup Expiry Looms, Stock Faces Critical Test - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1ncmxGU1RIU3R0ZWxhWW1iVGY0b0M1aHlMVjdsdDNyUUpOeDd3bjBrTnBoeFRYYjhFbTFUSTNuVG1vWjc2a1Jub3YtblA1b3EyZ3NPT0VyZkZTT1BKNm1xUlN6VDRKTzV1alJpYVpqTC1id3VKQ1E?oc=5\" target=\"_blank\">SpaceX's First Earnings Report Set for August 4: $109.2 Billion Lockup Expiry Looms, Stock Faces Critical Test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
-    },
-    {
-      "id": 2548,
-      "ts": 1784635507,
-      "ts_str": "2026-07-21 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman - Tech4Gamers",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 07:42:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWJTd1VTZF85Tl8tdkdBVmtTVXJGVDItTnFQczZONDluUGhRU3VmWUpKQWpQX3NqdVNkV0dKbll2U2dyMEthRUIyRUd4bV9YWXlIZGhYN1BGZ3I1UVJZaTRYUWRUdU45M2QxMi1vdE5lWjVFV0x5RC1EcGxzbWRkbFlR?oc=5\n\nDRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman - Tech4Gamers\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWJTd1VTZF85Tl8tdkdBVmtTVXJGVDItTnFQczZONDluUGhRU3VmWUpKQWpQX3NqdVNkV0dKbll2U2dyMEthRUIyRUd4bV9YWXlIZGhYN1BGZ3I1UVJZaTRYUWRUdU45M2QxMi1vdE5lWjVFV0x5RC1EcGxzbWRkbFlR?oc=5\" target=\"_blank\">DRAM Shortages Expected To Persist For An Entire Decade, Says ADATA Chairman</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech4Gamers</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2549,
-      "ts": 1784635507,
-      "ts_str": "2026-07-21 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Report: NAND Flash Shortages to Finally End in 2027 - TechPowerUp",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 09:44:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFVNSnFYUXhqdHZkc3VLREJ6YS1TODhTOFJJYlcwcHZUNHR4UkE2UTZpRHJBVk5XeW9zWWR3aGZiMnBVbExLX3VoSmFXWmc0WGNacEJlS29UYk9OUWRObldoVUpDdFRmRGJqcl9CMmZHRHNLclZtZjF3VWRfRHN0V1pSSGNZajIzUUowMjhfalBMY1dnNW81UjI3TWVSNWZZWG9z?oc=5\n\nReport: NAND Flash Shortages to Finally End in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFVNSnFYUXhqdHZkc3VLREJ6YS1TODhTOFJJYlcwcHZUNHR4UkE2UTZpRHJBVk5XeW9zWWR3aGZiMnBVbExLX3VoSmFXWmc0WGNacEJlS29UYk9OUWRObldoVUpDdFRmRGJqcl9CMmZHRHNLclZtZjF3VWRfRHN0V1pSSGNZajIzUUowMjhfalBMY1dnNW81UjI3TWVSNWZZWG9z?oc=5\" target=\"_blank\">Report: NAND Flash Shortages to Finally End in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
