@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785281525,
-  "generated_at_str": "2026-07-28 23:32:05 UTC",
-  "last_event_ts": 1785280449,
+  "generated_at": 1785281715,
+  "generated_at_str": "2026-07-28 23:35:15 UTC",
+  "last_event_ts": 1785281714,
   "tables": {
     "alerts_dedup": {
-      "count": 2765,
-      "last_ts": 1785277752,
-      "last_str": "2026-07-28 22:29:12 UTC"
+      "count": 2766,
+      "last_ts": 1785281714,
+      "last_str": "2026-07-28 23:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-28 21:44:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3269,
-      "last_ts": 1785279902,
-      "last_str": "2026-07-28 23:05:02 UTC"
+      "count": 3270,
+      "last_ts": 1785281703,
+      "last_str": "2026-07-28 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3854,
-      "last_ts": 1785270904,
-      "last_str": "2026-07-28 20:35:04 UTC"
+      "count": 3855,
+      "last_ts": 1785281704,
+      "last_str": "2026-07-28 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2572,
-      "last_ts": 1785279902,
-      "last_str": "2026-07-28 23:05:02 UTC"
+      "count": 2575,
+      "last_ts": 1785281704,
+      "last_str": "2026-07-28 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2879,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2773,
+      "ts": 1785281714,
+      "ts_str": "2026-07-28 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK hynix posts record Q2 profit of W60.5tr as AI memory prices surge - The Korea Herald",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 28 Jul 2026 23:20:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmR015UFUyWXRtNVZtRVlrenA4WjZYTkkyTDFrUjY5SWNCckh6Z25xbmtYVmh2WjVHWHVkNU9GaGs0am82YjFscnZWNU8wLUNBc054RVc3TQ?oc=5\n\nSK hynix posts record Q2 profit of W60.5tr as AI memory prices surge - The Korea Herald\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmR015UFUyWXRtNVZtRVlrenA4WjZYTkkyTDFrUjY5SWNCckh6Z25xbmtYVmh2WjVHWHVkNU9GaGs0am82YjFscnZWNU8wLUNBc054RVc3TQ?oc=5\" target=\"_blank\">SK hynix posts record Q2 profit of W60.5tr as AI memory prices surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix reported record Q2 profit of KRW 60.5 trillion, attributing the surge to rising AI memory prices.\n\n\u5185\u5bb9:\nSK hynix \u516c\u5e03\u7b2c\u4e8c\u5b63\u5ea6\u521b\u7eaa\u5f55\u5229\u6da6 60.5 \u4e07\u4ebf\u97e9\u5143\uff0c\u5f52\u56e0\u4e8e AI \u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nConfirms a memory-price uptrend is boosting hyperscaler input costs across the AI-capex chain; sustained HBM/DRAM price spikes squeeze margins for buyers and can signal supply-tightness stress feeding into the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u786e\u8ba4\u5185\u5b58\u4ef7\u683c\u6b63\u5728\u4e0a\u884c\uff0c\u8fd9\u4f1a\u63a8\u9ad8\u6574\u4e2a AI capex \u94fe\u6761\u4e2d\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u91c7\u8d2d\u6210\u672c\uff1bHBM/DRAM \u4ef7\u683c\u6301\u7eed\u8d70\u9ad8\u53ef\u80fd\u6324\u538b\u4e70\u65b9\u5229\u6da6\uff0c\u4e5f\u53ef\u80fd\u662f\u4f9b\u5e94\u8d8b\u7d27\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u4e0e\u6ce1\u6cab\u538b\u529b\u4e3b\u9898\u76f8\u5173\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2772,
       "ts": 1785277752,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Names BNY, Nubank CEOs to Board Ahead of IPO - Bloomberg.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:07:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjY4S0loNU5uSWdsOC1aX1dzanloVzJuc2hZbG5zaEFDdVYxMXdwd1h6bHNPa2dIM3Zfd002ajdnd3laV29wS0Y5TVhEdFlZZWp5WkhIRVlpY0xBRGR2amY0ZzJfdlBHWlhvdmtJcGJNa2gtRWZ6aDc2ZXZtNEdlZUx1eDRiUVdCdlNSdzJzNVJGeVBzQlAzMXpBMEZMWkJOdWlN?oc=5\n\nOpenAI Names BNY, Nubank CEOs to Board Ahead of IPO - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjY4S0loNU5uSWdsOC1aX1dzanloVzJuc2hZbG5zaEFDdVYxMXdwd1h6bHNPa2dIM3Zfd002ajdnd3laV29wS0Y5TVhEdFlZZWp5WkhIRVlpY0xBRGR2amY0ZzJfdlBHWlhvdmtJcGJNa2gtRWZ6aDc2ZXZtNEdlZUx1eDRiUVdCdlNSdzJzNVJGeVBzQlAzMXpBMEZMWkJOdWlN?oc=5\" target=\"_blank\">OpenAI Names BNY, Nubank CEOs to Board Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2572,
-      "ts": 1784666650,
-      "ts_str": "2026-07-21 20:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesse",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:42:39 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxQQVpWWTBoRWRCenVmVkViem9KaFh0UG00NUoyMTFUM3V3SnBxN09MZmppWjk2NDVUM3paVURSVFV3bzd3ZTd1M0ZFZ3dENW5TZ3FfZ1BuQTBrbXlySzJsVndabmpwelh0TlVseW1KYm1zYUxvR0N2eVJLbXhfeHRPY1QwQy1rWWVuSWs0bGUxSkNnS1RmVFNrMm9YVGl2WEs4dDd5WW93UVJ5OUJ0UllCMVY4ZUY?oc=5\n\nOpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQQVpWWTBoRWRCenVmVkViem9KaFh0UG00NUoyMTFUM3V3SnBxN09MZmppWjk2NDVUM3paVURSVFV3bzd3ZTd1M0ZFZ3dENW5TZ3FfZ1BuQTBrbXlySzJsVndabmpwelh0TlVseW1KYm1zYUxvR0N2eVJLbXhfeHRPY1QwQy1rWWVuSWs0bGUxSkNnS1RmVFNrMm9YVGl2WEs4dDd5WW93UVJ5OUJ0UllCMVY4ZUY?oc=5\" target=\"_blank\">OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
