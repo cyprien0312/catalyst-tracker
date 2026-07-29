@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785330123,
-  "generated_at_str": "2026-07-29 13:02:03 UTC",
-  "last_event_ts": 1785329223,
+  "generated_at": 1785330316,
+  "generated_at_str": "2026-07-29 13:05:16 UTC",
+  "last_event_ts": 1785330316,
   "tables": {
     "alerts_dedup": {
-      "count": 2777,
-      "last_ts": 1785325632,
-      "last_str": "2026-07-29 11:47:12 UTC"
+      "count": 2780,
+      "last_ts": 1785330316,
+      "last_str": "2026-07-29 13:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,24 +79,24 @@
       "last_str": "2026-07-29 10:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3307,
-      "last_ts": 1785328502,
-      "last_str": "2026-07-29 12:35:02 UTC"
+      "count": 3310,
+      "last_ts": 1785330302,
+      "last_str": "2026-07-29 13:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3893,
-      "last_ts": 1785328504,
-      "last_str": "2026-07-29 12:35:04 UTC"
+      "count": 3896,
+      "last_ts": 1785330304,
+      "last_str": "2026-07-29 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2620,
-      "last_ts": 1785323103,
-      "last_str": "2026-07-29 11:05:03 UTC"
+      "count": 2621,
+      "last_ts": 1785330303,
+      "last_str": "2026-07-29 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2905,
-      "last_ts": 1785328505,
-      "last_str": "2026-07-29 12:35:05 UTC"
+      "count": 2908,
+      "last_ts": 1785330305,
+      "last_str": "2026-07-29 13:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 19830,
@@ -303,6 +303,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2785,
+      "ts": 1785330316,
+      "ts_str": "2026-07-29 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 04:23:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\n\nSSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\" target=\"_blank\">SSD Prices Double as NAND Shortage Hits Gaming PCs [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports SSD prices doubling as a NAND shortage hits gaming PCs, per tech-insider.org.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6d88\u606f\u79f0\uff0c\u53d7 NAND \u77ed\u7f3a\u5f71\u54cd\uff0cSSD \u4ef7\u683c\u7ffb\u500d\uff0c\u6e38\u620f PC \u9996\u5f53\u5176\u51b2\uff0c\u6765\u6e90\u4e3a tech-insider.org\u3002\n\nWhy it matters:\nNAND/DRAM shortages ripple into HBM and enterprise memory pricing, which raises AI accelerator BOM costs and squeezes hyperscaler capex efficiency \u2014 a supply-side stress tell for the AI-infra buildout, though this single consumer-SSD item is unconfirmed and needs corroboration before being treated as systemic.\n\n\u5f71\u54cd:\nNAND/DRAM \u77ed\u7f3a\u5f80\u5f80\u4f1a\u4f20\u5bfc\u81f3 HBM \u53ca\u4f01\u4e1a\u7ea7\u5185\u5b58\u4ef7\u683c\uff0c\u4ece\u800c\u63a8\u9ad8 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\u2014\u2014\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u4f9b\u7ed9\u4fa7\u538b\u529b\u4fe1\u53f7\uff0c\u4f46\u76ee\u524d\u4ec5\u4e3a\u5355\u6761\u6d88\u8d39\u7ea7 SSD \u62a5\u9053\uff0c\u5c1a\u672a\u83b7\u4ea4\u53c9\u9a8c\u8bc1\uff0c\u4e0d\u5b9c\u76f4\u63a5\u89c6\u4e3a\u7cfb\u7edf\u6027\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2786,
+      "ts": 1785330316,
+      "ts_str": "2026-07-29 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 04:23:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\n\nSSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\" target=\"_blank\">SSD Prices Double as NAND Shortage Hits Gaming PCs [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports SSD prices doubling as a NAND shortage hits gaming PCs, per tech-insider.org.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6d88\u606f\u79f0\uff0c\u53d7 NAND \u77ed\u7f3a\u5f71\u54cd\uff0cSSD \u4ef7\u683c\u7ffb\u500d\uff0c\u6e38\u620f PC \u9996\u5f53\u5176\u51b2\uff0c\u6765\u6e90\u4e3a tech-insider.org\u3002\n\nWhy it matters:\nNAND/DRAM shortages ripple into HBM and enterprise memory pricing, which raises AI accelerator BOM costs and squeezes hyperscaler capex efficiency \u2014 a supply-side stress tell for the AI-infra buildout, though this single consumer-SSD item is unconfirmed and needs corroboration before being treated as systemic.\n\n\u5f71\u54cd:\nNAND/DRAM \u77ed\u7f3a\u5f80\u5f80\u4f1a\u4f20\u5bfc\u81f3 HBM \u53ca\u4f01\u4e1a\u7ea7\u5185\u5b58\u4ef7\u683c\uff0c\u4ece\u800c\u63a8\u9ad8 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\u2014\u2014\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u4f9b\u7ed9\u4fa7\u538b\u529b\u4fe1\u53f7\uff0c\u4f46\u76ee\u524d\u4ec5\u4e3a\u5355\u6761\u6d88\u8d39\u7ea7 SSD \u62a5\u9053\uff0c\u5c1a\u672a\u83b7\u4ea4\u53c9\u9a8c\u8bc1\uff0c\u4e0d\u5b9c\u76f4\u63a5\u89c6\u4e3a\u7cfb\u7edf\u6027\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2787,
+      "ts": 1785330316,
+      "ts_str": "2026-07-29 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 04:23:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\n\nSSD Prices Double as NAND Shortage Hits Gaming PCs [2026] - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wSTVEc1c2M3FpT19URU9zZnpVRFdIUjd2eVliUTBvd0ZNdGQySndDZlZGaGVjXzdZaGpLNUZZQkFxcU5MV1BUcW5IWlVXbEFHQjNRbFZCcjBXcHFWbm9MbVA4bldXZw?oc=5\" target=\"_blank\">SSD Prices Double as NAND Shortage Hits Gaming PCs [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports SSD prices doubling as a NAND shortage hits gaming PCs, per tech-insider.org.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6d88\u606f\u79f0\uff0c\u53d7 NAND \u77ed\u7f3a\u5f71\u54cd\uff0cSSD \u4ef7\u683c\u7ffb\u500d\uff0c\u6e38\u620f PC \u9996\u5f53\u5176\u51b2\uff0c\u6765\u6e90\u4e3a tech-insider.org\u3002\n\nWhy it matters:\nNAND/DRAM shortages ripple into HBM and enterprise memory pricing, which raises AI accelerator BOM costs and squeezes hyperscaler capex efficiency \u2014 a supply-side stress tell for the AI-infra buildout, though this single consumer-SSD item is unconfirmed and needs corroboration before being treated as systemic.\n\n\u5f71\u54cd:\nNAND/DRAM \u77ed\u7f3a\u5f80\u5f80\u4f1a\u4f20\u5bfc\u81f3 HBM \u53ca\u4f01\u4e1a\u7ea7\u5185\u5b58\u4ef7\u683c\uff0c\u4ece\u800c\u63a8\u9ad8 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\u2014\u2014\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u4f9b\u7ed9\u4fa7\u538b\u529b\u4fe1\u53f7\uff0c\u4f46\u76ee\u524d\u4ec5\u4e3a\u5355\u6761\u6d88\u8d39\u7ea7 SSD \u62a5\u9053\uff0c\u5c1a\u672a\u83b7\u4ea4\u53c9\u9a8c\u8bc1\uff0c\u4e0d\u5b9c\u76f4\u63a5\u89c6\u4e3a\u7cfb\u7edf\u6027\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2784,
       "ts": 1785325632,
@@ -2271,36 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6 - \u5bcc\u9014\u725b\u725b",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:23:55 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxPX3Ywc3p6SlFHZk94dExDcFcxTm5SNnFzZlU4SXJQbXhNWTIwaGoycGRvQmhMTkFqcU9IbXNsTlE3eERVR21qRWk1d0F6dEQ5TGZnMzVTN2RZZlhiNDdkUTRNNjdLQjZvcE9lNlc4TUl6Z1hvODdJa0s1REpJLVJFRVFiY3ZXcUlGTzNxR1dWSVcyRm5fbGV2OEl2SExCb0ZIYWxkN0dRYXVVaTA1?oc=5\n\nSpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6 - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPX3Ywc3p6SlFHZk94dExDcFcxTm5SNnFzZlU4SXJQbXhNWTIwaGoycGRvQmhMTkFqcU9IbXNsTlE3eERVR21qRWk1d0F6dEQ5TGZnMzVTN2RZZlhiNDdkUTRNNjdLQjZvcE9lNlc4TUl6Z1hvODdJa0s1REpJLVJFRVFiY3ZXcUlGTzNxR1dWSVcyRm5fbGV2OEl2SExCb0ZIYWxkN0dRYXVVaTA1?oc=5\" target=\"_blank\">SpaceX Faces Historic Stock Lockup Expiration: $116 Billion in Shares to Enter Circulation on August 6</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2586,
-      "ts": 1784674027,
-      "ts_str": "2026-07-21 22:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock Unlocks: $116 Billion at Stake - GuruFocus",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 22:18:45 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxONEZFS040S2Nkc1pnSXlVUEl2Y3RYczgyaDA4TkRfa3JCQnR3THhUZTJMZXA0c3FvSE41T1dkcjg0aWJVT0N6Nnp4dHk4LXdOS012bDJuRk9yLUZkTExTNkJpODA3Z01jSU1Kbm1ubC1VVUlXX2diUE80XzROdkFJWU5HbjZQdEU?oc=5\n\nSpaceX Stock Unlocks: $116 Billion at Stake - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxONEZFS040S2Nkc1pnSXlVUEl2Y3RYczgyaDA4TkRfa3JCQnR3THhUZTJMZXA0c3FvSE41T1dkcjg0aWJVT0N6Nnp4dHk4LXdOS012bDJuRk9yLUZkTExTNkJpODA3Z01jSU1Kbm1ubC1VVUlXX2diUE80XzROdkFJWU5HbjZQdEU?oc=5\" target=\"_blank\">SpaceX Stock Unlocks: $116 Billion at Stake</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2587,
-      "ts": 1784674027,
-      "ts_str": "2026-07-21 22:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX (SPCX) Set to Unlock $116 Billion in Shares Next Month - GuruFocus",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 21:16:56 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxQZVFfNFRyTXRUNVN5bXRWTFk3X3RJbEVfUlRDajlUMU9uR1lWLU50c2xMMkoxNVhZRnhoWk1FRVBOWmVhbXozNFNES0t5bThPSjNPVXJKTXU4N2pvdWUtSUdvQmhrWWNDNnYxNUR5aDZ2ZGlMMXhIZ2EzazRxZUdyQWJvSHhEWENPMTc1Y1dqNURQLXYwckRsQzdUaEgzQQ?oc=5\n\nSpaceX (SPCX) Set to Unlock $116 Billion in Shares Next Month - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQZVFfNFRyTXRUNVN5bXRWTFk3X3RJbEVfUlRDajlUMU9uR1lWLU50c2xMMkoxNVhZRnhoWk1FRVBOWmVhbXozNFNES0t5bThPSjNPVXJKTXU4N2pvdWUtSUdvQmhrWWNDNnYxNUR5aDZ2ZGlMMXhIZ2EzazRxZUdyQWJvSHhEWENPMTc1Y1dqNURQLXYwckRsQzdUaEgzQQ?oc=5\" target=\"_blank\">SpaceX (SPCX) Set to Unlock $116 Billion in Shares Next Month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2585,
-      "ts": 1784672945,
-      "ts_str": "2026-07-21 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.35% (+52bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-20\nCurrent:  2.35%\n90d low:  1.83%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
       "emailed": true
     }
   ],
