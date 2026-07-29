@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785357306,
-  "generated_at_str": "2026-07-29 20:35:06 UTC",
-  "last_event_ts": 1785357306,
+  "generated_at": 1785357498,
+  "generated_at_str": "2026-07-29 20:38:18 UTC",
+  "last_event_ts": 1785357494,
   "tables": {
     "alerts_dedup": {
-      "count": 2787,
-      "last_ts": 1785354545,
-      "last_str": "2026-07-29 19:49:05 UTC"
+      "count": 2788,
+      "last_ts": 1785357494,
+      "last_str": "2026-07-29 20:38:14 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -34,9 +34,9 @@
       "last_str": "2026-07-29 20:32:01 UTC"
     },
     "c2_filings": {
-      "count": 76,
-      "last_ts": 1785186482,
-      "last_str": "2026-07-27 21:08:02 UTC"
+      "count": 77,
+      "last_ts": 1785357482,
+      "last_str": "2026-07-29 20:38:02 UTC"
     },
     "c2_price_check": {
       "count": 4,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2795,
+      "ts": 1785357494,
+      "ts_str": "2026-07-29 20:38 UTC",
+      "catalyst": "C2",
+      "severity": "HIGH",
+      "subject": "[C2-HIGH] APLD 10-K: distress language detected",
+      "body": "Ticker:    APLD\nForm:      10-K\nFiled:     2026-07-29\nAccession: 0001144879-26-000048\nURL:       https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm\n\nHits:\n- COVENANT_DISTRESS (HIGH): covenant default\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAPLD triggered a covenant default, per the C2 distress screen.\n\n\u5185\u5bb9:\n\u6839\u636e C2 \u56f0\u5883\u7b5b\u67e5,APLD \u89e6\u53d1\u4e86\u5951\u7ea6\u8fdd\u7ea6(covenant default)\u3002\n\nWhy it matters:\nCovenant default is a hard-data credit-stress signal, not sentiment \u2014 it means the neocloud's lenders now have contractual leverage (accelerated repayment, forced asset sales) at a moment when the whole sector's economics depend on cheap, continuous refinancing of AI-datacenter buildouts. One neocloud default raises the read-through risk for the rest of the leveraged buildout cohort.\n\n\u5f71\u54cd:\n\u5951\u7ea6\u8fdd\u7ea6\u662f\u786c\u6570\u636e\u7ea7\u522b\u7684\u4fe1\u7528\u538b\u529b\u4fe1\u53f7,\u4e0d\u662f\u60c5\u7eea\u6307\u6807\u2014\u2014\u8fd9\u610f\u5473\u7740\u8d37\u6b3e\u65b9\u73b0\u5728\u62e5\u6709\u5408\u540c\u8d4b\u4e88\u7684\u5f3a\u5236\u624b\u6bb5(\u63d0\u524d\u8fd8\u6b3e\u3001\u5f3a\u5236\u8d44\u4ea7\u5904\u7f6e),\u800c\u6574\u4e2a neocloud \u677f\u5757\u7684\u7ecf\u6d4e\u6a21\u578b\u6070\u6070\u4f9d\u8d56\u4e8e\u6301\u7eed\u3001\u5ec9\u4ef7\u7684\u518d\u878d\u8d44\u6765\u652f\u6491 AI \u6570\u636e\u4e2d\u5fc3\u7684\u5efa\u8bbe\u3002\u4e00\u5bb6 neocloud \u8fdd\u7ea6,\u4f1a\u63d0\u9ad8\u5176\u4ed6\u9ad8\u6760\u6746\u5efa\u8bbe\u540c\u884c\u7684\u8fde\u5e26\u98ce\u9669\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2794,
       "ts": 1785354545,
@@ -2292,16 +2302,6 @@
       "subject": "[C3-MED] OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxNTzFwcklQUWM2Rjd5elBTYmFIUXZsSGM0dm1RMDlWQTcza3JoVUtsZzNFLVkzYVFDZERLWFFOTFp0Zk8ya2E4d012VjU0SkpId2ZzczJXVkszdDhHWF9JTHB3MWhoZGFRc1NBdmZid0dpOXJkbi1xRVRjQnBKRjlBdk0xcFdBeTRuRTNEa0R30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\n\nOpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNTzFwcklQUWM2Rjd5elBTYmFIUXZsSGM0dm1RMDlWQTcza3JoVUtsZzNFLVkzYVFDZERLWFFOTFp0Zk8ya2E4d012VjU0SkpId2ZzczJXVkszdDhHWF9JTHB3MWhoZGFRc1NBdmZid0dpOXJkbi1xRVRjQnBKRjlBdk0xcFdBeTRuRTNEa0R30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\" target=\"_blank\">OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
-    },
-    {
-      "id": 2594,
-      "ts": 1784692031,
-      "ts_str": "2026-07-22 03:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Is Space Exploration Technologies (SPCX) Undervalued After Joining The Nasdaq 100? - simplywall.st",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 03:31:49 GMT\nLink:      https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRjNlOXFvbURTa1ByWmQwZUV1Y29JYW5pT1VWaDR0blJPelAwZFBpM2tUMkRYdnJGVE9zV0M2TUtDdkRnWUV2eXd6WkRERzlwRi1zWjBEMGlUYzltSDJTT2ctYkxnZ2VlREtGY1NyTHQyaGJUYlhEZEhNZUxCbFpfeFpYWHEyZEhuNTBrejN0QlBKaGhDVmhfcU1NX1Fzc0lEc1Y2b2VOa2IyNXN6dGNsZVJaQUtCSVJtTFdqZ0pEaHlVWlZDNDdONXZldGhnRVlsTVp0cVRmNWNTMXdrcktlNnpB0gHnAUFVX3lxTFB3TDcxMXNSV1ctYVlIZHdwYmQwREdrNzJfdXFzUmNpNERKLUUtMFQtbVdHaGxhZThVYTZMQ0Q4N2h2eTk1dC1oWUliSV9nbmRoUGFhR3NqTnRVS0FldnNac2stcEVlbG9hVk0zemZibzctc3NrRXVnRjEzR053c050djhvMWRablluMGEyb2twYVRfR0JCYjh6UE5CTEFrdjZFd2p4TF9nZlpzUlYwcW5OUHc0ZUo5UVlramdycEVMZWFHbk9mZVdyMm9Ca0FFOWNYVHV4aERrdlBXUzhOUkRFdzhIdVJVWQ?oc=5\n\nIs Space Exploration Technologies (SPCX) Undervalued After Joining The Nasdaq 100? - simplywall.st\n\n<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRjNlOXFvbURTa1ByWmQwZUV1Y29JYW5pT1VWaDR0blJPelAwZFBpM2tUMkRYdnJGVE9zV0M2TUtDdkRnWUV2eXd6WkRERzlwRi1zWjBEMGlUYzltSDJTT2ctYkxnZ2VlREtGY1NyTHQyaGJUYlhEZEhNZUxCbFpfeFpYWHEyZEhuNTBrejN0QlBKaGhDVmhfcU1NX1Fzc0lEc1Y2b2VOa2IyNXN6dGNsZVJaQUtCSVJtTFdqZ0pEaHlVWlZDNDdONXZldGhnRVlsTVp0cVRmNWNTMXdrcktlNnpB0gHnAUFVX3lxTFB3TDcxMXNSV1ctYVlIZHdwYmQwREdrNzJfdXFzUmNpNERKLUUtMFQtbVdHaGxhZThVYTZMQ0Q4N2h2eTk1dC1oWUliSV9nbmRoUGFhR3NqTnRVS0FldnNac2stcEVlbG9hVk0zemZibzctc3NrRXVnRjEzR053c050djhvMWRablluMGEyb2twYVRfR0JCYjh6UE5CTEFrdjZFd2p4TF9nZlpzUlYwcW5OUHc0ZUo5UVlramdycEVMZWFHbk9mZVdyMm9Ca0FFOWNYVHV4aERrdlBXUzhOUkRFdzhIdVJVWQ?oc=5\" target=\"_blank\">Is Space Exploration Technologies (SPCX) Undervalued After Joining The Nasdaq 100?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">simplywall.st</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
@@ -2359,45 +2359,40 @@
       "drawdown": -0.09450141223589881
     },
     "spx": null,
-    "regime": "A",
-    "fuses": [],
+    "regime": "B",
+    "fuses": [
+      "C2"
+    ],
     "rungs": [
       {
-        "thresh": 0.0,
+        "thresh": -0.3,
         "pct": 10,
-        "label": "starter \u00b7 FOMO insurance",
-        "level": 30660.6,
-        "triggered": true
-      },
-      {
-        "thresh": -0.1,
-        "pct": 10,
-        "label": "dip 1",
-        "level": 27594.54,
+        "label": "knife 1 \u00b7 fuse active",
+        "level": 21462.42,
         "triggered": false
       },
       {
-        "thresh": -0.15,
-        "pct": 15,
-        "label": "dip 2",
-        "level": 26061.51,
+        "thresh": -0.4,
+        "pct": 10,
+        "label": "knife 2",
+        "level": 18396.359999999997,
         "triggered": false
       },
       {
-        "thresh": -0.2,
-        "pct": 25,
-        "label": "dip 3",
-        "level": 24528.48,
+        "thresh": -0.5,
+        "pct": 20,
+        "label": "backup-the-truck \u00b7 needs stabilisation",
+        "level": 15330.3,
         "triggered": false
       }
     ],
-    "cumulative_target": 10,
-    "reserve": 40,
+    "cumulative_target": 0,
+    "reserve": 0,
     "next_rung": {
-      "thresh": -0.1,
+      "thresh": -0.3,
       "pct": 10,
-      "label": "dip 1",
-      "level": 27594.54
+      "label": "knife 1 \u00b7 fuse active",
+      "level": 21462.42
     },
     "needs_stabilisation": false
   }
