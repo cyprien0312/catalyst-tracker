@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785336248,
-  "generated_at_str": "2026-07-29 14:44:08 UTC",
-  "last_event_ts": 1785336242,
+  "generated_at": 1785336433,
+  "generated_at_str": "2026-07-29 14:47:13 UTC",
+  "last_event_ts": 1785336433,
   "tables": {
     "alerts_dedup": {
-      "count": 2781,
-      "last_ts": 1785332835,
-      "last_str": "2026-07-29 13:47:15 UTC"
+      "count": 2782,
+      "last_ts": 1785336433,
+      "last_str": "2026-07-29 14:47:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -104,9 +104,9 @@
       "last_str": "2026-07-29 14:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3364,
-      "last_ts": 1785332823,
-      "last_str": "2026-07-29 13:47:03 UTC"
+      "count": 3369,
+      "last_ts": 1785336423,
+      "last_str": "2026-07-29 14:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2789,
+      "ts": 1785336433,
+      "ts_str": "2026-07-29 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] Wall Street analyst issues new SpaceX stock price target - Finbold",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 14:27:12 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1prTm1SN1cyYjhDa0lHblQwYVdxRlh2ZmVUMlFuUHliY2hCcU9Gb2lZbUhaLUJMVVU3eFhQcVY3cGhwWUZ2MGs5a1R2TFRkRVNDTFh6WHRyeGFQcGl3c1pmdkIwQTBROVhzSWtTbW0yd1lZMmw3VkwteVo1c2lBRmN3aw?oc=5\n\nWall Street analyst issues new SpaceX stock price target - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNY1prTm1SN1cyYjhDa0lHblQwYVdxRlh2ZmVUMlFuUHliY2hCcU9Gb2lZbUhaLUJMVVU3eFhQcVY3cGhwWUZ2MGs5a1R2TFRkRVNDTFh6WHRyeGFQcGl3c1pmdkIwQTBROVhzSWtTbW0yd1lZMmw3VkwteVo1c2lBRmN3aw?oc=5\" target=\"_blank\">Wall Street analyst issues new SpaceX stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS returned a generic 'analyst issues new SpaceX stock price target' item with no proximity signal to index-flow or unlock mechanics.\n\n\u5185\u5bb9:\nGoogle \u65b0\u95fb RSS \u6293\u5230\u4e00\u6761\u6cdb\u6cdb\u7684'\u534e\u5c14\u8857\u5206\u6790\u5e08\u53d1\u5e03 SpaceX \u65b0\u80a1\u4ef7\u76ee\u6807'\u62a5\u9053\uff0c\u6ca1\u6709\u4efb\u4f55\u4e0e\u6307\u6570\u6d41/\u89e3\u7981\u673a\u5236\u76f8\u5173\u7684\u63a5\u8fd1\u6027\u4fe1\u53f7\u3002\n\nWhy it matters:\nThis is mission-coverage noise, not a genuine index-mechanics or unlock-related catalyst \u2014 the proximity classifier should be filtering it, so its presence here is a low-signal background read rather than an actionable C11 trigger.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u4efb\u52a1\u62a5\u9053\u566a\u97f3\uff0c\u800c\u4e0d\u662f\u771f\u6b63\u7684\u6307\u6570\u673a\u5236\u6216\u89e3\u7981\u76f8\u5173\u50ac\u5316\u4fe1\u53f7\u2014\u2014\u63a5\u8fd1\u6027\u5206\u7c7b\u5668\u672c\u5e94\u8fc7\u6ee4\u6389\u8fd9\u7c7b\u5185\u5bb9\uff0c\u5b83\u51fa\u73b0\u5728\u8fd9\u91cc\u53ea\u662f\u4e00\u4e2a\u4f4e\u4fe1\u53f7\u7684\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u6784\u6210\u53ef\u64cd\u4f5c\u7684 C11 \u89e6\u53d1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2788,
       "ts": 1785332835,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI adds finance leaders to board as IPO nears - MSN",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:55:21 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVpaT0hnbTFvc05EdlUxS1UySW9qWG01VkFrU21fbHpramhZN295WWJHbGhfWkN6cHFBS3MwQmtGN3NsX2kwc294YzlhT1pKMEtnMVNZVGZ3N2tndEFMNHVtYzFsMm5CVk1NZjZvX2hsaE11bVVRRTBTMXFvbVFsc3VSTndFS3pNMHFMczUtTVluRmljbXhTLUs5Y2hsQkpfcVUwazRhVlhGV0c3ckVfTTRzZk1Yb09GOVZFLU45VnZJU0E5THJTYmFqUTZaVmZscHJxWWp3?oc=5\n\nOpenAI adds finance leaders to board as IPO nears - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVpaT0hnbTFvc05EdlUxS1UySW9qWG01VkFrU21fbHpramhZN295WWJHbGhfWkN6cHFBS3MwQmtGN3NsX2kwc294YzlhT1pKMEtnMVNZVGZ3N2tndEFMNHVtYzFsMm5CVk1NZjZvX2hsaE11bVVRRTBTMXFvbVFsc3VSTndFS3pNMHFMczUtTVluRmljbXhTLUs5Y2hsQkpfcVUwazRhVlhGV0c3ckVfTTRzZk1Yb09GOVZFLU45VnZJU0E5THJTYmFqUTZaVmZscHJxWWp3?oc=5\" target=\"_blank\">OpenAI adds finance leaders to board as IPO nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2589,
-      "ts": 1784682305,
-      "ts_str": "2026-07-22 01:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Used DDR4 in China's Market Drops 30% from Peak, But Memory Price Surge Isn't Over Yet - XenoSpectrum",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 00:59:51 GMT\nLink:      https://news.google.com/rss/articles/CBMiYkFVX3lxTE5paWpXR1V3eVd2OVU0bkxPTkxRQm9JT21FVXFQeGZ3bUpmUTBiNUMtcUM1MmxpVC12VXAyTzdIYXZUZjhEYzRHdnNVcGk5aHFDN191U2NKOFhOM1YyMHNIb1Bn?oc=5\n\nUsed DDR4 in China's Market Drops 30% from Peak, But Memory Price Surge Isn't Over Yet - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5paWpXR1V3eVd2OVU0bkxPTkxRQm9JT21FVXFQeGZ3bUpmUTBiNUMtcUM1MmxpVC12VXAyTzdIYXZUZjhEYzRHdnNVcGk5aHFDN191U2NKOFhOM1YyMHNIb1Bn?oc=5\" target=\"_blank\">Used DDR4 in China's Market Drops 30% from Peak, But Memory Price Surge Isn't Over Yet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
