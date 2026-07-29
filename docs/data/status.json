@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785363982,
-  "generated_at_str": "2026-07-29 22:26:22 UTC",
-  "last_event_ts": 1785363244,
+  "generated_at": 1785364152,
+  "generated_at_str": "2026-07-29 22:29:12 UTC",
+  "last_event_ts": 1785364152,
   "tables": {
     "alerts_dedup": {
-      "count": 2789,
-      "last_ts": 1785358383,
-      "last_str": "2026-07-29 20:53:03 UTC"
+      "count": 2790,
+      "last_ts": 1785364152,
+      "last_str": "2026-07-29 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-29 20:53:03 UTC"
     },
     "c10_signals": {
-      "count": 25,
-      "last_ts": 1785277742,
-      "last_str": "2026-07-28 22:29:02 UTC"
+      "count": 26,
+      "last_ts": 1785364142,
+      "last_str": "2026-07-29 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2797,
+      "ts": 1785364152,
+      "ts_str": "2026-07-29 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.41% (+52bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-28\nCurrent:  2.41%\n90d low:  1.89%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\n10-Year real yield rose from a trailing-90-day low of 1.89 to 2.41 as of 2026-07-28, a 0.52pp spike.\n\n\u5185\u5bb9:\n10\u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\u4ece90\u5929\u4f4e\u70b91.89\u5347\u81f32.41\uff08\u622a\u81f32026-07-28\uff09\uff0c\u8df3\u53470.52\u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 this is the same mechanism C7 credit-spread widening captures, just from the rates side.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8\u5bf9AI\u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u91d1\u878d\u6761\u4ef6\u2014\u2014\u8fd9\u4e0eC7\u4fe1\u7528\u5229\u5dee\u8d70\u9614\u6355\u6349\u7684\u662f\u540c\u4e00\u79cd\u538b\u529b\uff0c\u53ea\u662f\u4ece\u5229\u7387\u7aef\u4f53\u73b0\u51fa\u6765\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2796,
       "ts": 1785358383,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX Maintained by Macquarie -- Price Target Set at $250 - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 22:52:30 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxONjVLTUVKV2lLT3N1bEhoQVlrMFRVZWdZOWNNbloxbzRpMExNSXAwWjU1NkNuMzZXUUFmc1hzSWM1SlBpVkVWTldIcnN3WjhYX2EzZld6M0JNemtfWDA1NVVzaE9sOENFYmdFWFZuUkhRYzBxY0hHWE1lQzZxblBNc1V0WlVnU25PYmEtYkxsd0N5aWtEekxwWjluLUFVRzEzZl9rQnln?oc=5\n\nSPCX Maintained by Macquarie -- Price Target Set at $250 - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxONjVLTUVKV2lLT3N1bEhoQVlrMFRVZWdZOWNNbloxbzRpMExNSXAwWjU1NkNuMzZXUUFmc1hzSWM1SlBpVkVWTldIcnN3WjhYX2EzZld6M0JNemtfWDA1NVVzaE9sOENFYmdFWFZuUkhRYzBxY0hHWE1lQzZxblBNc1V0WlVnU25PYmEtYkxsd0N5aWtEekxwWjluLUFVRzEzZl9rQnln?oc=5\" target=\"_blank\">SPCX Maintained by Macquarie -- Price Target Set at $250</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
-      "emailed": false
-    },
-    {
-      "id": 2597,
-      "ts": 1784695452,
-      "ts_str": "2026-07-22 04:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE1mb3pBLXVWd0R5ZVNhUF9idFN4bFlHZ184V0ZrSV9LWTZteUlVYkNNMndhRmFOdUtsWDFQMVlKeUhCMmtGbUZFaFZKYXlmTUUxYkd1eFZseHl2dXBFVWMyRkJYNlYzM0VlV1NjNzZ1ejJUV2hnY2N2N1p30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\n\nOpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1mb3pBLXVWd0R5ZVNhUF9idFN4bFlHZ184V0ZrSV9LWTZteUlVYkNNMndhRmFOdUtsWDFQMVlKeUhCMmtGbUZFaFZKYXlmTUUxYkd1eFZseHl2dXBFVWMyRkJYNlYzM0VlV1NjNzZ1ejJUV2hnY2N2N1p30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\" target=\"_blank\">OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
