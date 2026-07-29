@@ -1,17 +1,17 @@
 {
-  "generated_at": 1785358209,
-  "generated_at_str": "2026-07-29 20:50:09 UTC",
-  "last_event_ts": 1785358022,
+  "generated_at": 1785358581,
+  "generated_at_str": "2026-07-29 20:56:21 UTC",
+  "last_event_ts": 1785358383,
   "tables": {
     "alerts_dedup": {
-      "count": 2788,
-      "last_ts": 1785357494,
-      "last_str": "2026-07-29 20:38:14 UTC"
+      "count": 2789,
+      "last_ts": 1785358383,
+      "last_str": "2026-07-29 20:53:03 UTC"
     },
     "buyplan_regime": {
-      "count": 1,
-      "last_ts": 1782967983,
-      "last_str": "2026-07-02 04:53:03 UTC"
+      "count": 2,
+      "last_ts": 1785358383,
+      "last_str": "2026-07-29 20:53:03 UTC"
     },
     "c10_signals": {
       "count": 25,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2796,
+      "ts": 1785358383,
+      "ts_str": "2026-07-29 20:53 UTC",
+      "catalyst": "BUYPLAN",
+      "severity": "CRITICAL",
+      "subject": "[BUYPLAN] regime A \u2192 B (lit: C2): fuse lit \u2014 FREEZE the fast ladder, hold the reserve",
+      "body": "Buy-plan regime flipped A \u2192 B (lit: C2).\nfuse lit \u2014 FREEZE the fast ladder, hold the reserve.\n\n\u2605 BUY PLAN \u2014 NDX trigger \u00b7 portfolio ladder\nNDX 27,763 \u00b7 ATH 30,661 (2026-06-02) \u00b7 drawdown -9.5%  [2026-07-28]\nSPX 7,429 \u00b7 drawdown -2.4% (ref \u2014 IVV/BGBL core draws down shallower than NDX)\nRegime B \u00b7 \u6ce1\u6cab\u7834\u88c2\uff08\u5f15\u4fe1\u4eae\uff09\u00b7 buy patience \u2014 lit: C2\nCumulative target now: 0% deployed\n\n  \u2b1c  -30%  knife 1 \u00b7 fuse active               10%  @ NDX 21,462  \u2190 next\n  \u2b1c  -40%  knife 2                             10%  @ NDX 18,396\n  \u2b1c  -50%  backup-the-truck \u00b7 needs stabilisation  20%  @ NDX 15,330\n\n  \u26a0 Regime B: fast ladder FROZEN. Deep rung needs stabilisation \u2014\n    C7 stops widening / starts tightening, OR 4-6wk no new 20d-low.",
+      "emailed": true
+    },
     {
       "id": 2795,
       "ts": 1785357494,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE1mb3pBLXVWd0R5ZVNhUF9idFN4bFlHZ184V0ZrSV9LWTZteUlVYkNNMndhRmFOdUtsWDFQMVlKeUhCMmtGbUZFaFZKYXlmTUUxYkd1eFZseHl2dXBFVWMyRkJYNlYzM0VlV1NjNzZ1ejJUV2hnY2N2N1p30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\n\nOpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1mb3pBLXVWd0R5ZVNhUF9idFN4bFlHZ184V0ZrSV9LWTZteUlVYkNNMndhRmFOdUtsWDFQMVlKeUhCMmtGbUZFaFZKYXlmTUUxYkd1eFZseHl2dXBFVWMyRkJYNlYzM0VlV1NjNzZ1ejJUV2hnY2N2N1p30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\" target=\"_blank\">OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2596,
-      "ts": 1784693646,
-      "ts_str": "2026-07-22 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxNTzFwcklQUWM2Rjd5elBTYmFIUXZsSGM0dm1RMDlWQTcza3JoVUtsZzNFLVkzYVFDZERLWFFOTFp0Zk8ya2E4d012VjU0SkpId2ZzczJXVkszdDhHWF9JTHB3MWhoZGFRc1NBdmZid0dpOXJkbi1xRVRjQnBKRjlBdk0xcFdBeTRuRTNEa0R30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\n\nOpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNTzFwcklQUWM2Rjd5elBTYmFIUXZsSGM0dm1RMDlWQTcza3JoVUtsZzNFLVkzYVFDZERLWFFOTFp0Zk8ya2E4d012VjU0SkpId2ZzczJXVkszdDhHWF9JTHB3MWhoZGFRc1NBdmZid0dpOXJkbi1xRVRjQnBKRjlBdk0xcFdBeTRuRTNEa0R30gGOAUFVX3lxTE1PMXBySVBRYzZGN3l6UFNiYUhRdmxIYzR2bVEwOVZBNzNrcmhVS2xnM0UtWTNhUUNkREtYUU5MWnRmTzJrYTh3TXZWNTRKSkh3ZnNzMldWSzN0OEdYX0lMcHcxaGhkYVFzU0F2ZmJ3R2k5cmRuLXFFVGNCcEpGOUF2TTFwV0F5NG5FM0RrRHc?oc=5\" target=\"_blank\">OpenAI adds banking CEOs to board to bolster IPO readiness - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
