@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785309062,
-  "generated_at_str": "2026-07-29 07:11:02 UTC",
-  "last_event_ts": 1785308704,
+  "generated_at": 1785309262,
+  "generated_at_str": "2026-07-29 07:14:22 UTC",
+  "last_event_ts": 1785309259,
   "tables": {
     "alerts_dedup": {
-      "count": 2773,
-      "last_ts": 1785303856,
-      "last_str": "2026-07-29 05:44:16 UTC"
+      "count": 2774,
+      "last_ts": 1785309259,
+      "last_str": "2026-07-29 07:14:19 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-28 23:00:31 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3443,
-      "last_ts": 1785303844,
-      "last_str": "2026-07-29 05:44:04 UTC"
+      "count": 3445,
+      "last_ts": 1785309247,
+      "last_str": "2026-07-29 07:14:07 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 766,
@@ -99,9 +99,9 @@
       "last_str": "2026-07-29 07:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 19730,
-      "last_ts": 1785307443,
-      "last_str": "2026-07-29 06:44:03 UTC"
+      "count": 19737,
+      "last_ts": 1785309243,
+      "last_str": "2026-07-29 07:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3311,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2781,
+      "ts": 1785309259,
+      "ts_str": "2026-07-29 07:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OPENAI to CAD: OpenAI (Gate Pre-IPO) Price in Canadian Dollar - CoinGecko",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 06:02:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTFBZVm5uVzRuRDY4UmthU3QwSXhIYU1GTFljV29TYmFjRDRDbTR4TW84d0hoVDUxX0hwdXV0MGdNVHhiVi1RbnVFODZJUm9nQTcwLUZ3OHpqMFFhQkZXTnptZlR4NF82bUM1dGc?oc=5\n\nOPENAI to CAD: OpenAI (Gate Pre-IPO) Price in Canadian Dollar - CoinGecko\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBZVm5uVzRuRDY4UmthU3QwSXhIYU1GTFljV29TYmFjRDRDbTR4TW84d0hoVDUxX0hwdXV0MGdNVHhiVi1RbnVFODZJUm9nQTcwLUZ3OHpqMFFhQkZXTnptZlR4NF82bUM1dGc?oc=5\" target=\"_blank\">OPENAI to CAD: OpenAI (Gate Pre-IPO) Price in Canadian Dollar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGecko</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CoinGecko listing for 'OpenAI (Gate Pre-IPO)' pre-IPO token pricing surfaced in a Google News RSS scan, not an actual OpenAI corporate disclosure.\n\n\u5185\u5bb9:\nGoogle News RSS \u626b\u63cf\u6293\u5230\u7684\u662f CoinGecko \u4e0a\u4e00\u4e2a\u540d\u4e3a 'OpenAI (Gate Pre-IPO)' \u7684\u52a0\u5bc6\u8d27\u5e01\u4ef7\u683c\u9875\u9762\uff0c\u5e76\u975e OpenAI \u5b98\u65b9\u62ab\u9732\u3002\n\nWhy it matters:\nThis is noise from a crypto pre-IPO derivatives listing, not a burn-rate or filing signal \u2014 it doesn't move the C3 thesis and shouldn't be weighted, but it confirms retail speculation on OpenAI's eventual IPO is active enough to spawn synthetic pre-IPO markets.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u52a0\u5bc6\u8d27\u5e01 pre-IPO \u884d\u751f\u54c1\u6302\u724c\u5e26\u6765\u7684\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u76d1\u7ba1\u6587\u4ef6\u4fe1\u53f7\uff0c\u5bf9 C3 \u8bba\u70b9\u6ca1\u6709\u5b9e\u8d28\u5f71\u54cd\uff1b\u4f46\u5b83\u8bf4\u660e\u5e02\u573a\u5bf9 OpenAI \u672a\u6765 IPO \u7684\u6295\u673a\u60c5\u7eea\u5df2\u7ecf\u5f3a\u5230\u50ac\u751f\u51fa\u5408\u6210\u7684 pre-IPO \u4ea4\u6613\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2780,
       "ts": 1785303856,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-HIGH] Why SpaceX Stock Jumped 7% Despite Unlocking 911 Million Shares - Stocks Down Under",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 19:07:40 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTFBzeU5MeGQzU3c4SmdMcGlEM2JHRFUzR2NBVDQxd2JuZ2J4cXhROEFXdE1EOW0tNXJ4T1NLanRzaHVFX05HTmIxUjV5R0swMHBLeFNCRVg1NTVtdm1SSU9qdC1Da3hkZzQ4S1ZsWC00SDliOXYzM2dn?oc=5\n\nWhy SpaceX Stock Jumped 7% Despite Unlocking 911 Million Shares - Stocks Down Under\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBzeU5MeGQzU3c4SmdMcGlEM2JHRFUzR2NBVDQxd2JuZ2J4cXhROEFXdE1EOW0tNXJ4T1NLanRzaHVFX05HTmIxUjV5R0swMHBLeFNCRVg1NTVtdm1SSU9qdC1Da3hkZzQ4S1ZsWC00SDliOXYzM2dn?oc=5\" target=\"_blank\">Why SpaceX Stock Jumped 7% Despite Unlocking 911 Million Shares</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocks Down Under</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
-    },
-    {
-      "id": 2579,
-      "ts": 1784670249,
-      "ts_str": "2026-07-21 21:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesse",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:39:12 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZmpUNVpYNlpWM2tNMEdQVmlBSFN5dHlOZ0p2OU53cU5Vb3k3VUxrd3lMWTkzN05mLThiTVZWWlZBdHlqcHZOY0FYbmx3dDdvdHFoaHRGVFBycF9neHF1S2dndEZxb1hldHZxZWZ3YUtEMzZYZEx2dGcxV0ZJT0pPS082Ry1GWEVJSVlOcFNmOWsydFh2NlJfbUFveEFpZHNVMVJTWGItR09BcFE5ZWQxUnF4M19BSzF2dUdkRUl1cmRyeVBLdXUxVjM5LVZBUHdYemZrWlc3VHJNc0JUdE5TblJGaXF4YkFIVDh4SW9rQ2hYemNkLWRtcU1WQnAyMVVtdUV0ckdESEttUnc?oc=5\n\nOpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZmpUNVpYNlpWM2tNMEdQVmlBSFN5dHlOZ0p2OU53cU5Vb3k3VUxrd3lMWTkzN05mLThiTVZWWlZBdHlqcHZOY0FYbmx3dDdvdHFoaHRGVFBycF9neHF1S2dndEZxb1hldHZxZWZ3YUtEMzZYZEx2dGcxV0ZJT0pPS082Ry1GWEVJSVlOcFNmOWsydFh2NlJfbUFveEFpZHNVMVJTWGItR09BcFE5ZWQxUnF4M19BSzF2dUdkRUl1cmRyeVBLdXUxVjM5LVZBUHdYemZrWlc3VHJNc0JUdE5TblJGaXF4YkFIVDh4SW9rQ2hYemNkLWRtcU1WQnAyMVVtdUV0ckdESEttUnc?oc=5\" target=\"_blank\">OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
     }
   ],
   "catalysts": [
