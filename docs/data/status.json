@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785285124,
-  "generated_at_str": "2026-07-29 00:32:04 UTC",
-  "last_event_ts": 1785284048,
+  "generated_at": 1785285313,
+  "generated_at_str": "2026-07-29 00:35:13 UTC",
+  "last_event_ts": 1785285313,
   "tables": {
     "alerts_dedup": {
-      "count": 2766,
-      "last_ts": 1785281714,
-      "last_str": "2026-07-28 23:35:14 UTC"
+      "count": 2768,
+      "last_ts": 1785285313,
+      "last_str": "2026-07-29 00:35:13 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -79,9 +79,9 @@
       "last_str": "2026-07-28 21:44:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3272,
-      "last_ts": 1785283503,
-      "last_str": "2026-07-29 00:05:03 UTC"
+      "count": 3273,
+      "last_ts": 1785285302,
+      "last_str": "2026-07-29 00:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3858,
@@ -89,14 +89,14 @@
       "last_str": "2026-07-29 00:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2581,
-      "last_ts": 1785283504,
-      "last_str": "2026-07-29 00:05:04 UTC"
+      "count": 2584,
+      "last_ts": 1785285303,
+      "last_str": "2026-07-29 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2881,
-      "last_ts": 1785283506,
-      "last_str": "2026-07-29 00:05:06 UTC"
+      "count": 2882,
+      "last_ts": 1785285304,
+      "last_str": "2026-07-29 00:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 19672,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2774,
+      "ts": 1785285313,
+      "ts_str": "2026-07-29 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ - Chosunbiz",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 00:14:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE1JeldfOEpHbXhIR0tXVTE1QldRNkMyYjNYZFVjT2Y4R0lSY0I1QmkwVTloRXRNVmVSd3ZVZTlSUzVJNlRhaFpIcmlnQmtvdHJKdDdlODhNcEZ6RDljZEp5Z2p0WmpHc05YRm0tcnFLYllUUFZSdmRTN2VR0gGOAUFVX3lxTE9oMnJsV2tEQmJhb1ktSmp2WU93WTlxRTJfLWxIeG5IRGhFdUxLdWs0RlpTbDNVRXBnamdqazctY3A4ZWlpXzVCWlZaVHhCVFpKWkhzLXNoQ0lKZG16eER1Tk1oeDBsVV9JZ1FZenE0S050MC0tVFN2TlpTa0Q1Q1doTEVzYk9GMlNmNkx4U2c?oc=5\n\nSK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1JeldfOEpHbXhIR0tXVTE1QldRNkMyYjNYZFVjT2Y4R0lSY0I1QmkwVTloRXRNVmVSd3ZVZTlSUzVJNlRhaFpIcmlnQmtvdHJKdDdlODhNcEZ6RDljZEp5Z2p0WmpHc05YRm0tcnFLYllUUFZSdmRTN2VR0gGOAUFVX3lxTE9oMnJsV2tEQmJhb1ktSmp2WU93WTlxRTJfLWxIeG5IRGhFdUxLdWs0RlpTbDNVRXBnamdqazctY3A4ZWlpXzVCWlZaVHhCVFpKWkhzLXNoQ0lKZG16eER1Tk1oeDBsVV9JZ1FZenE0S050MC0tVFN2TlpTa0Q1Q1doTEVzYk9GMlNmNkx4U2c?oc=5\" target=\"_blank\">SK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix's DRAM prices jumped 30% and NAND roughly 50% quarter-over-quarter, driving the company's margin to a record.\n\n\u5185\u5bb9:\nSK hynix \u7684 DRAM \u4ef7\u683c\u73af\u6bd4\u4e0a\u6da8 30%\uff0cNAND \u4ef7\u683c\u6da8\u5e45\u7ea6 50%\uff0c\u63a8\u52a8\u516c\u53f8\u5229\u6da6\u7387\u521b\u4e0b\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nThis is the supply-tightness side of the memory-price-stress signal \u2014 surging DRAM/HBM prices raise the bill of materials for every AI server build and squeeze hyperscaler capex efficiency even as demand stays strong.\n\n\u5f71\u54cd:\n\u8fd9\u4f53\u73b0\u4e86\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4fe1\u53f7\u4e2d\u4f9b\u7ed9\u7d27\u5f20\u7684\u4e00\u9762\u2014\u2014DRAM/HBM \u4ef7\u683c\u98d9\u5347\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5373\u4fbf\u9700\u6c42\u4f9d\u7136\u5f3a\u52b2\uff0c\u4e5f\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2775,
+      "ts": 1785285313,
+      "ts_str": "2026-07-29 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ - Chosunbiz",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 00:14:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE1JeldfOEpHbXhIR0tXVTE1QldRNkMyYjNYZFVjT2Y4R0lSY0I1QmkwVTloRXRNVmVSd3ZVZTlSUzVJNlRhaFpIcmlnQmtvdHJKdDdlODhNcEZ6RDljZEp5Z2p0WmpHc05YRm0tcnFLYllUUFZSdmRTN2VR0gGOAUFVX3lxTE9oMnJsV2tEQmJhb1ktSmp2WU93WTlxRTJfLWxIeG5IRGhFdUxLdWs0RlpTbDNVRXBnamdqazctY3A4ZWlpXzVCWlZaVHhCVFpKWkhzLXNoQ0lKZG16eER1Tk1oeDBsVV9JZ1FZenE0S050MC0tVFN2TlpTa0Q1Q1doTEVzYk9GMlNmNkx4U2c?oc=5\n\nSK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1JeldfOEpHbXhIR0tXVTE1QldRNkMyYjNYZFVjT2Y4R0lSY0I1QmkwVTloRXRNVmVSd3ZVZTlSUzVJNlRhaFpIcmlnQmtvdHJKdDdlODhNcEZ6RDljZEp5Z2p0WmpHc05YRm0tcnFLYllUUFZSdmRTN2VR0gGOAUFVX3lxTE9oMnJsV2tEQmJhb1ktSmp2WU93WTlxRTJfLWxIeG5IRGhFdUxLdWs0RlpTbDNVRXBnamdqazctY3A4ZWlpXzVCWlZaVHhCVFpKWkhzLXNoQ0lKZG16eER1Tk1oeDBsVV9JZ1FZenE0S050MC0tVFN2TlpTa0Q1Q1doTEVzYk9GMlNmNkx4U2c?oc=5\" target=\"_blank\">SK hynix posts record margin as DRAM prices jump 30% and NAND mid-50% - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix's DRAM prices jumped 30% and NAND roughly 50% quarter-over-quarter, driving the company's margin to a record.\n\n\u5185\u5bb9:\nSK hynix \u7684 DRAM \u4ef7\u683c\u73af\u6bd4\u4e0a\u6da8 30%\uff0cNAND \u4ef7\u683c\u6da8\u5e45\u7ea6 50%\uff0c\u63a8\u52a8\u516c\u53f8\u5229\u6da6\u7387\u521b\u4e0b\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nThis is the supply-tightness side of the memory-price-stress signal \u2014 surging DRAM/HBM prices raise the bill of materials for every AI server build and squeeze hyperscaler capex efficiency even as demand stays strong.\n\n\u5f71\u54cd:\n\u8fd9\u4f53\u73b0\u4e86\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4fe1\u53f7\u4e2d\u4f9b\u7ed9\u7d27\u5f20\u7684\u4e00\u9762\u2014\u2014DRAM/HBM \u4ef7\u683c\u98d9\u5347\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u5373\u4fbf\u9700\u6c42\u4f9d\u7136\u5f3a\u52b2\uff0c\u4e5f\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6548\u7387\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2773,
       "ts": 1785281714,
@@ -2282,26 +2302,6 @@
       "subject": "[C11-HIGH] Over 1.37B SpaceX shares unlock post-earnings, risking stock volatility amid a recent 36% drop. - Pluang",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 18:29:18 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxOM3BOSUpaU0ZKc2lCRlRMYjlOVzZXTG9XdXNQY2ZTMnEtc1lmSWEyMmVDeUFfWGJEaVhXc0lYNmxxWHQ4ZG85TEpDcTdPUzJuR1pBbkE2dkJPdTlPTjFXaG44YVEzNzVkVkFjZXFiekl1ZjhJZ0JjQmNUX25qTnE0eFZwNU1pQTFpTlFIeGVOTmpGdUNTQV9wa09TODU5ZElLRnN0d08yNA?oc=5\n\nOver 1.37B SpaceX shares unlock post-earnings, risking stock volatility amid a recent 36% drop. - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOM3BOSUpaU0ZKc2lCRlRMYjlOVzZXTG9XdXNQY2ZTMnEtc1lmSWEyMmVDeUFfWGJEaVhXc0lYNmxxWHQ4ZG85TEpDcTdPUzJuR1pBbkE2dkJPdTlPTjFXaG44YVEzNzVkVkFjZXFiekl1ZjhJZ0JjQmNUX25qTnE0eFZwNU1pQTFpTlFIeGVOTmpGdUNTQV9wa09TODU5ZElLRnN0d08yNA?oc=5\" target=\"_blank\">Over 1.37B SpaceX shares unlock post-earnings, risking stock volatility amid a recent 36% drop.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
-    },
-    {
-      "id": 2575,
-      "ts": 1784666828,
-      "ts_str": "2026-07-21 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX faces massive share unlocks as investors brace for insider selling (SPCX:NASDAQ) - Seeking Alpha",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:01:37 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxPcXZUbTJEX29QNUJlcXVaSWdYd0JSbEZFclVDbnhZNG84Rm9nbVlvVzFlMW5RM2FYZDVZWEVmVnA5UXdGQWo3dFE1Mkh0SGpoa1ptRTZxNzRGSHJhQzVGb0FFd004dkI1Y3QtaGRVNzNhUjNYNTRQOERBTXVxV1kxS2NiVk9rWnhpUXFucjdKUDBUdVptUUxWSmlyMzZETk1jY3lDUXpLTjFDZXkzemlHYQ?oc=5\n\nSpaceX faces massive share unlocks as investors brace for insider selling (SPCX:NASDAQ) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPcXZUbTJEX29QNUJlcXVaSWdYd0JSbEZFclVDbnhZNG84Rm9nbVlvVzFlMW5RM2FYZDVZWEVmVnA5UXdGQWo3dFE1Mkh0SGpoa1ptRTZxNzRGSHJhQzVGb0FFd004dkI1Y3QtaGRVNzNhUjNYNTRQOERBTXVxV1kxS2NiVk9rWnhpUXFucjdKUDBUdVptUUxWSmlyMzZETk1jY3lDUXpLTjFDZXkzemlHYQ?oc=5\" target=\"_blank\">SpaceX faces massive share unlocks as investors brace for insider selling (SPCX:NASDAQ)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2571,
-      "ts": 1784666650,
-      "ts_str": "2026-07-21 20:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Names BNY, Nubank CEOs to Board Ahead of IPO - Bloomberg.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:07:29 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjY4S0loNU5uSWdsOC1aX1dzanloVzJuc2hZbG5zaEFDdVYxMXdwd1h6bHNPa2dIM3Zfd002ajdnd3laV29wS0Y5TVhEdFlZZWp5WkhIRVlpY0xBRGR2amY0ZzJfdlBHWlhvdmtJcGJNa2gtRWZ6aDc2ZXZtNEdlZUx1eDRiUVdCdlNSdzJzNVJGeVBzQlAzMXpBMEZMWkJOdWlN?oc=5\n\nOpenAI Names BNY, Nubank CEOs to Board Ahead of IPO - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjY4S0loNU5uSWdsOC1aX1dzanloVzJuc2hZbG5zaEFDdVYxMXdwd1h6bHNPa2dIM3Zfd002ajdnd3laV29wS0Y5TVhEdFlZZWp5WkhIRVlpY0xBRGR2amY0ZzJfdlBHWlhvdmtJcGJNa2gtRWZ6aDc2ZXZtNEdlZUx1eDRiUVdCdlNSdzJzNVJGeVBzQlAzMXpBMEZMWkJOdWlN?oc=5\" target=\"_blank\">OpenAI Names BNY, Nubank CEOs to Board Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
     }
   ],
   "catalysts": [
