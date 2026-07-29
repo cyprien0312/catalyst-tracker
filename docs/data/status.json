@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785303665,
-  "generated_at_str": "2026-07-29 05:41:05 UTC",
-  "last_event_ts": 1785303306,
+  "generated_at": 1785303857,
+  "generated_at_str": "2026-07-29 05:44:17 UTC",
+  "last_event_ts": 1785303856,
   "tables": {
     "alerts_dedup": {
-      "count": 2772,
-      "last_ts": 1785297913,
-      "last_str": "2026-07-29 04:05:13 UTC"
+      "count": 2773,
+      "last_ts": 1785303856,
+      "last_str": "2026-07-29 05:44:16 UTC"
     },
     "buyplan_regime": {
       "count": 1,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-28 23:00:31 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3442,
-      "last_ts": 1785300245,
-      "last_str": "2026-07-29 04:44:05 UTC"
+      "count": 3443,
+      "last_ts": 1785303844,
+      "last_str": "2026-07-29 05:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 766,
@@ -99,9 +99,9 @@
       "last_str": "2026-07-29 05:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 19716,
-      "last_ts": 1785302042,
-      "last_str": "2026-07-29 05:14:02 UTC"
+      "count": 19720,
+      "last_ts": 1785303842,
+      "last_str": "2026-07-29 05:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3302,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2780,
+      "ts": 1785303856,
+      "ts_str": "2026-07-29 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI (Gate Pre-IPO) Price: OPENAI/USD Live Price Chart, Market Cap & News Today - CoinGecko",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 03:43:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tb2ItTTlXNEQ1VHNGTVhlVzVDbnRIVTZUTlpoU3dJMlBGb3JKQWQ4clhGdzJrdEpxbVlheUdNWVNGMlJLVEZqZF91Q0xrR2lid3gtUi0yTWVCaVh2OXpYelVCQ3Y?oc=5\n\nOpenAI (Gate Pre-IPO) Price: OPENAI/USD Live Price Chart, Market Cap & News Today - CoinGecko\n\n<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tb2ItTTlXNEQ1VHNGTVhlVzVDbnRIVTZUTlpoU3dJMlBGb3JKQWQ4clhGdzJrdEpxbVlheUdNWVNGMlJLVEZqZF91Q0xrR2lid3gtUi0yTWVCaVh2OXpYelVCQ3Y?oc=5\" target=\"_blank\">OpenAI (Gate Pre-IPO) Price: OPENAI/USD Live Price Chart, Market Cap & News Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGecko</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS hit for the search term \"OpenAI\" surfaced a CoinGecko page tracking the price of \"OpenAI (Gate Pre-IPO)\" token OPENAI/USD \u2014 a speculative pre-IPO derivative token, not an OpenAI filing or announcement.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u547d\u4e2d\u4e86\u5173\u952e\u8bcd \"OpenAI\"\uff0c\u6307\u5411 CoinGecko \u4e0a\u8ffd\u8e2a \"OpenAI (Gate Pre-IPO)\" \u4ee3\u5e01 OPENAI/USD \u4ef7\u683c\u7684\u9875\u9762\u2014\u2014\u8fd9\u662f\u4e00\u4e2a\u6295\u673a\u6027\u7684 IPO \u524d\u884d\u751f\u4ee3\u5e01\uff0c\u5e76\u975e OpenAI \u7684\u5b98\u65b9\u6587\u4ef6\u6216\u516c\u544a\u3002\n\nWhy it matters:\nThis is keyword noise, not a genuine OpenAI burn-rate or corporate-disclosure signal \u2014 the C3 classifier caught a crypto-market pre-IPO betting token that merely contains the string \"OpenAI,\" so it carries no evidence for the burn-rate thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5173\u952e\u8bcd\u566a\u97f3\uff0c\u4e0d\u662f\u771f\u6b63\u7684 OpenAI \u70e7\u94b1\u7387\u6216\u4f01\u4e1a\u62ab\u9732\u4fe1\u53f7\u2014\u2014C3 \u5206\u7c7b\u5668\u6293\u5230\u7684\u53ea\u662f\u4e00\u4e2a\u540d\u5b57\u91cc\u5e26 \"OpenAI\" \u5b57\u6837\u7684\u52a0\u5bc6\u5e02\u573a IPO \u524d\u535a\u5f69\u4ee3\u5e01\uff0c\u5bf9\u70e7\u94b1\u7387\u8bba\u70b9\u6ca1\u6709\u5b9e\u9645\u8bc1\u636e\u4ef7\u503c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2778,
       "ts": 1785297913,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesse",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 20:39:12 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZmpUNVpYNlpWM2tNMEdQVmlBSFN5dHlOZ0p2OU53cU5Vb3k3VUxrd3lMWTkzN05mLThiTVZWWlZBdHlqcHZOY0FYbmx3dDdvdHFoaHRGVFBycF9neHF1S2dndEZxb1hldHZxZWZ3YUtEMzZYZEx2dGcxV0ZJT0pPS082Ry1GWEVJSVlOcFNmOWsydFh2NlJfbUFveEFpZHNVMVJTWGItR09BcFE5ZWQxUnF4M19BSzF2dUdkRUl1cmRyeVBLdXUxVjM5LVZBUHdYemZrWlc3VHJNc0JUdE5TblJGaXF4YkFIVDh4SW9rQ2hYemNkLWRtcU1WQnAyMVVtdUV0ckdESEttUnc?oc=5\n\nOpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZmpUNVpYNlpWM2tNMEdQVmlBSFN5dHlOZ0p2OU53cU5Vb3k3VUxrd3lMWTkzN05mLThiTVZWWlZBdHlqcHZOY0FYbmx3dDdvdHFoaHRGVFBycF9neHF1S2dndEZxb1hldHZxZWZ3YUtEMzZYZEx2dGcxV0ZJT0pPS082Ry1GWEVJSVlOcFNmOWsydFh2NlJfbUFveEFpZHNVMVJTWGItR09BcFE5ZWQxUnF4M19BSzF2dUdkRUl1cmRyeVBLdXUxVjM5LVZBUHdYemZrWlc3VHJNc0JUdE5TblJGaXF4YkFIVDh4SW9rQ2hYemNkLWRtcU1WQnAyMVVtdUV0ckdESEttUnc?oc=5\" target=\"_blank\">OpenAI Expands Board With Fintech, Banking Leaders Ahead Of Potential IPO \u2014 Launches ChatGPT Program For Small Businesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2580,
-      "ts": 1784670249,
-      "ts_str": "2026-07-21 21:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Adds Nubank CEO David V\u00e9lez, BNY CEO Robin Vince to Board as IPO Expectations Build - citybiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 21:37:49 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGlKcjZtOUlvMm5BRi00VUVfRlM3QzVNcDBydDRGeThUZEVUamx1b1JjUWVkQ3lhX2FoQjBxak5jcXpQejFLSnNoTFFJWHFOTWFvNzlfa1kwQ240Sm1kbGl0V21HaWZLVXNrdTRfeHIycmxSZmtORWFGR19fVGpseW92em1qR0FFdW81YmYwVWFZQ1RXZnhuaGZYMzFCZXAxQnRuNzFMaGUwcFRwOTMxajhkUngyVnRwT281ZWthV2xFeXNDLVRR?oc=5\n\nOpenAI Adds Nubank CEO David V\u00e9lez, BNY CEO Robin Vince to Board as IPO Expectations Build - citybiz\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPWGlKcjZtOUlvMm5BRi00VUVfRlM3QzVNcDBydDRGeThUZEVUamx1b1JjUWVkQ3lhX2FoQjBxak5jcXpQejFLSnNoTFFJWHFOTWFvNzlfa1kwQ240Sm1kbGl0V21HaWZLVXNrdTRfeHIycmxSZmtORWFGR19fVGpseW92em1qR0FFdW81YmYwVWFZQ1RXZnhuaGZYMzFCZXAxQnRuNzFMaGUwcFRwOTMxajhkUngyVnRwT281ZWthV2xFeXNDLVRR?oc=5\" target=\"_blank\">OpenAI Adds Nubank CEO David V\u00e9lez, BNY CEO Robin Vince to Board as IPO Expectations Build</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">citybiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
