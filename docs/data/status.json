@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785413464,
-  "generated_at_str": "2026-07-30 12:11:04 UTC",
-  "last_event_ts": 1785413104,
+  "generated_at": 1785413656,
+  "generated_at_str": "2026-07-30 12:14:16 UTC",
+  "last_event_ts": 1785413655,
   "tables": {
     "alerts_dedup": {
-      "count": 2803,
-      "last_ts": 1785404833,
-      "last_str": "2026-07-30 09:47:13 UTC"
+      "count": 2804,
+      "last_ts": 1785413655,
+      "last_str": "2026-07-30 12:14:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-07-29 23:00:22 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3512,
-      "last_ts": 1785411845,
-      "last_str": "2026-07-30 11:44:05 UTC"
+      "count": 3513,
+      "last_ts": 1785413644,
+      "last_str": "2026-07-30 12:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 781,
-      "last_ts": 1785406445,
-      "last_str": "2026-07-30 10:14:05 UTC"
+      "count": 782,
+      "last_ts": 1785413644,
+      "last_str": "2026-07-30 12:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3374,
@@ -99,9 +99,9 @@
       "last_str": "2026-07-30 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 20106,
-      "last_ts": 1785411842,
-      "last_str": "2026-07-30 11:44:02 UTC"
+      "count": 20113,
+      "last_ts": 1785413643,
+      "last_str": "2026-07-30 12:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3470,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2811,
+      "ts": 1785413655,
+      "ts_str": "2026-07-30 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI CFO Sarah Friar says Q2 ARR topped in July 2026 - qz.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 30 Jul 2026 11:46:35 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE9VZzk3VW5XaG5qY29UaTd0X2lFdHlqdGE5UnRRU2d4bzR0eV9ZS1hRdTRJWk94eXRrZWhfX053VXl2Tm0yOGk3S1A2bDgtR2NFSEZiNzZBbEVoMlAwQllxWnE3WGZ3QkJwRGpfSGRSSFVaQjZ6QW9J?oc=5\n\nOpenAI CFO Sarah Friar says Q2 ARR topped in July 2026 - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9VZzk3VW5XaG5qY29UaTd0X2lFdHlqdGE5UnRRU2d4bzR0eV9ZS1hRdTRJWk94eXRrZWhfX053VXl2Tm0yOGk3S1A2bDgtR2NFSEZiNzZBbEVoMlAwQllxWnE3WGZ3QkJwRGpfSGRSSFVaQjZ6QW9J?oc=5\" target=\"_blank\">OpenAI CFO Sarah Friar says Q2 ARR topped in July 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI CFO Sarah Friar said Q2 ARR (annualized run-rate revenue) exceeded prior projections as of July 2026, per a Google News item.\n\n\u5185\u5bb9:\nOpenAI CFO Sarah Friar \u8868\u793a\uff0c\u622a\u81f3 2026 \u5e74 7 \u6708\uff0cQ2 ARR\uff08\u5e74\u5316\u7ecf\u5e38\u6027\u6536\u5165\uff09\u8d85\u51fa\u6b64\u524d\u9884\u671f\uff0c\u6d88\u606f\u6765\u81ea Google News\u3002\n\nWhy it matters:\nThis is generic capex-cycle news, not a burn-rate metric \u2014 C3's HIGH trigger needs an extracted burn-rate figure rising >25% QoQ, which isn't present here, so it stays a low-signal MED headline watch rather than confirmation of stress.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u6cdb\u6cdb\u7684 capex \u5468\u671f\u65b0\u95fb\uff0c\u5e76\u975e\u70e7\u94b1\u7387\u6307\u6807\u2014\u2014C3 \u7684 HIGH \u89e6\u53d1\u9700\u8981\u63d0\u53d6\u5230\u70e7\u94b1\u7387\u73af\u6bd4\u6da8\u5e45\u8d85\u8fc7 25% \u7684\u5177\u4f53\u6570\u5b57\uff0c\u800c\u8fd9\u6761\u65b0\u95fb\u91cc\u6ca1\u6709\uff0c\u6240\u4ee5\u5b83\u53ea\u662f\u4e00\u6761\u4f4e\u4fe1\u53f7\u7684 MED \u7ea7\u6807\u9898\u5173\u6ce8\uff0c\u8fd8\u8c08\u4e0d\u4e0a\u538b\u529b\u786e\u8ba4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2810,
       "ts": 1785404833,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] The SpaceX IPO Blueprint For Buying OpenAI And Anthropic - Forbes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 09:14:06 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxONFl6WGFKZFZKTVlPaGhGT0kzMEl3WUZBR252MGFjbHJKSFQ4bXFxdjFNUnE2V01oVFRWSFotRDhPWHZtbUR3T2RsYWhKNlJFaUFGSk1FSmNyOUcwZ0VtNEhRcWxEZFlTX2ZUQ2ZVNzR4SGE0LTlkeHRLOVpTWlF1SFhlamNKaV9ZMmxITFhONzZ1OW44U09tc0lEQ0hfeE9fTmhqSXZRQWxpS25ZbGQ4di1n?oc=5\n\nThe SpaceX IPO Blueprint For Buying OpenAI And Anthropic - Forbes\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxONFl6WGFKZFZKTVlPaGhGT0kzMEl3WUZBR252MGFjbHJKSFQ4bXFxdjFNUnE2V01oVFRWSFotRDhPWHZtbUR3T2RsYWhKNlJFaUFGSk1FSmNyOUcwZ0VtNEhRcWxEZFlTX2ZUQ2ZVNzR4SGE0LTlkeHRLOVpTWlF1SFhlamNKaV9ZMmxITFhONzZ1OW44U09tc0lEQ0hfeE9fTmhqSXZRQWxpS25ZbGQ4di1n?oc=5\" target=\"_blank\">The SpaceX IPO Blueprint For Buying OpenAI And Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2611,
-      "ts": 1784711107,
-      "ts_str": "2026-07-22 09:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 17:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\n\nNAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdEs1MmF1X1VlZjljZDJlRGlKY2NvejFVcWtyUFhGZC1XclRyOVo1a0dXbV9vMEdXZldYT2pSUGpHUmpfREU1MGhlZEJvRzV0UTBnYV90YU5UaTRtdkJOTTZaUVV4cGFBcGdaVVVTYW9ndExUektPRkttVkIyY2psLVFpb2lTVWZF?oc=5\" target=\"_blank\">NAND Flash Memory Shortage Driven by AI Demand Predicted to Ease in Late Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
