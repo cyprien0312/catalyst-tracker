@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785398523,
-  "generated_at_str": "2026-07-30 08:02:03 UTC",
-  "last_event_ts": 1785397639,
+  "generated_at": 1785398714,
+  "generated_at_str": "2026-07-30 08:05:14 UTC",
+  "last_event_ts": 1785398714,
   "tables": {
     "alerts_dedup": {
-      "count": 2800,
-      "last_ts": 1785397639,
-      "last_str": "2026-07-30 07:47:19 UTC"
+      "count": 2801,
+      "last_ts": 1785398714,
+      "last_str": "2026-07-30 08:05:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-07-30 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3363,
-      "last_ts": 1785396902,
-      "last_str": "2026-07-30 07:35:02 UTC"
+      "count": 3365,
+      "last_ts": 1785398702,
+      "last_str": "2026-07-30 08:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3952,
-      "last_ts": 1785396903,
-      "last_str": "2026-07-30 07:35:03 UTC"
+      "count": 3953,
+      "last_ts": 1785398703,
+      "last_str": "2026-07-30 08:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2660,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2808,
+      "ts": 1785398714,
+      "ts_str": "2026-07-30 08:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold - Technology Org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 30 Jul 2026 06:41:03 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxQa3RjX1FnTDN0NlpUNklrMXNIeGQ5MEZiWTlDX1o5WmlSVjl3WEpXOUF2N2RVXzR2ZDBuQzI4eVVQZnNGTVFHRjJqcGZnVUptNDNJVk9qRU1acHZkcHhkRlVMZXVMdzRDQzR0ZzV1eTd5Mk1jdzI5WV9VN2RFbmVHMlViaVpTRG5EazZLNE5INUNEUQ?oc=5\n\nSamsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold - Technology Org\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQa3RjX1FnTDN0NlpUNklrMXNIeGQ5MEZiWTlDX1o5WmlSVjl3WEpXOUF2N2RVXzR2ZDBuQzI4eVVQZnNGTVFHRjJqcGZnVUptNDNJVk9qRU1acHZkcHhkRlVMZXVMdzRDQzR0ZzV1eTd5Mk1jdzI5WV9VN2RFbmVHMlViaVpTRG5EazZLNE5INUNEUQ?oc=5\" target=\"_blank\">Samsung Expects Memory Chip Shortage to Stretch Into 2028 as Chip Profit Jumps 250-Fold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung says memory chip shortage will extend into 2028, with chip profit jumping 250-fold in the report.\n\n\u5185\u5bb9:\n\u4e09\u661f\u8868\u793a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u52302028\u5e74\uff0c\u540c\u65f6\u82af\u7247\u5229\u6da6\u66b4\u6da8250\u500d\u3002\n\nWhy it matters:\nA supply crunch this deep and this long-dated pressures every downstream buyer of HBM/DRAM (hyperscalers, GPU makers) with sustained higher input costs, and a 250x profit spike this early in the cycle suggests memory pricing is running well ahead of any near-term supply response \u2014 a classic overheating signal for the AI-capex build-out.\n\n\u5f71\u54cd:\n\u5982\u6b64\u6df1\u3001\u5982\u6b64\u957f\u671f\u7684\u4f9b\u5e94\u77ed\u7f3a\u4f1a\u7ed9HBM/DRAM\u7684\u4e0b\u6e38\u4e70\u5bb6\uff08\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3001GPU\u5382\u5546\uff09\u5e26\u6765\u6301\u7eed\u66f4\u9ad8\u7684\u91c7\u8d2d\u6210\u672c\u538b\u529b\uff0c\u800c\u5468\u671f\u65e9\u671f\u5c31\u51fa\u73b0250\u500d\u7684\u5229\u6da6\u66b4\u6da8\uff0c\u8bf4\u660e\u5185\u5b58\u5b9a\u4ef7\u5df2\u7ecf\u8fdc\u8fdc\u8dd1\u5728\u4f9b\u7ed9\u54cd\u5e94\u4e4b\u524d\u2014\u2014\u8fd9\u662fAI capex\u6269\u5f20\u5468\u671f\u4e2d\u5178\u578b\u7684\u8fc7\u70ed\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2807,
       "ts": 1785397639,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO - Briefs Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 04:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWFrZ01DeEh1RzlrLVhlQU1MRG5TN1lwUHo1UUZaaW1SWnZxMHlmZlZZTG9FTVM0dHZWN0FlREJJNDF1VlZLczlqcW1iSVFfN2thZDVWcW4zY0JVY09oSE5Tcnp2Ql8xVmcxaVE1NnpDeTNPbTRRbEVhWEV1YTRkb2trTXlNNkY4RGJlMXlJdklUdw?oc=5\n\nOpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO - Briefs Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWFrZ01DeEh1RzlrLVhlQU1MRG5TN1lwUHo1UUZaaW1SWnZxMHlmZlZZTG9FTVM0dHZWN0FlREJJNDF1VlZLczlqcW1iSVFfN2thZDVWcW4zY0JVY09oSE5Tcnp2Ql8xVmcxaVE1NnpDeTNPbTRRbEVhWEV1YTRkb2trTXlNNkY4RGJlMXlJdklUdw?oc=5\" target=\"_blank\">OpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Briefs Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 2608,
-      "ts": 1784706248,
-      "ts_str": "2026-07-22 07:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] After SpaceX's $2 trillion debut, investors are eyeing Anthropic and OpenAI. Market experts share how to play the next t",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 07:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxQYWhDNUZUYWZYRXZBa2JhY3M4S2t3VExMQmRGMFR2WFhVMTJfanZpdDlmVXg2X3F6MmJEbWx4QV9WQU94T25BZ2hGcjI2UkRrTHlqNWFFclJQb2tuTVJ4RGpMaTkzckktRzN2QWpJTUNNSUx4bzhJcTJPdF9TSmNaQmI1SEw5UHl4QXBWaDl3?oc=5\n\nAfter SpaceX's $2 trillion debut, investors are eyeing Anthropic and OpenAI. Market experts share how to play the next trillion-dollar IPO - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQYWhDNUZUYWZYRXZBa2JhY3M4S2t3VExMQmRGMFR2WFhVMTJfanZpdDlmVXg2X3F6MmJEbWx4QV9WQU94T25BZ2hGcjI2UkRrTHlqNWFFclJQb2tuTVJ4RGpMaTkzckktRzN2QWpJTUNNSUx4bzhJcTJPdF9TSmNaQmI1SEw5UHl4QXBWaDl3?oc=5\" target=\"_blank\">After SpaceX's $2 trillion debut, investors are eyeing Anthropic and OpenAI. Market experts share how to play the next trillion-dollar IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
