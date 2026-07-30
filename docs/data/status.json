@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785400323,
-  "generated_at_str": "2026-07-30 08:32:03 UTC",
-  "last_event_ts": 1785399242,
+  "generated_at": 1785400515,
+  "generated_at_str": "2026-07-30 08:35:15 UTC",
+  "last_event_ts": 1785400514,
   "tables": {
     "alerts_dedup": {
-      "count": 2801,
-      "last_ts": 1785398714,
-      "last_str": "2026-07-30 08:05:14 UTC"
+      "count": 2802,
+      "last_ts": 1785400514,
+      "last_str": "2026-07-30 08:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-07-30 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3365,
-      "last_ts": 1785398702,
-      "last_str": "2026-07-30 08:05:02 UTC"
+      "count": 3366,
+      "last_ts": 1785400502,
+      "last_str": "2026-07-30 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3953,
-      "last_ts": 1785398703,
-      "last_str": "2026-07-30 08:05:03 UTC"
+      "count": 3955,
+      "last_ts": 1785400504,
+      "last_str": "2026-07-30 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2660,
-      "last_ts": 1785396902,
-      "last_str": "2026-07-30 07:35:02 UTC"
+      "count": 2661,
+      "last_ts": 1785400503,
+      "last_str": "2026-07-30 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2947,
-      "last_ts": 1785396904,
-      "last_str": "2026-07-30 07:35:04 UTC"
+      "count": 2949,
+      "last_ts": 1785400504,
+      "last_str": "2026-07-30 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 20048,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2809,
+      "ts": 1785400514,
+      "ts_str": "2026-07-30 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Qualcomm Announces September 1 Price Hike Amid Severe Losses From Memory Chip Sector Turmoil - 36Kr",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 30 Jul 2026 06:22:54 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Od1FLTlNNSHE5d2dVeFFKQnVxWFNTQXVNclAwYzNRNVdPY3QzdzVGbUNvd0QxakJGTXlUNVdyTUhMWVN1OEhkcm9SYUxoc0lhV09J?oc=5\n\nQualcomm Announces September 1 Price Hike Amid Severe Losses From Memory Chip Sector Turmoil - 36Kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Od1FLTlNNSHE5d2dVeFFKQnVxWFNTQXVNclAwYzNRNVdPY3QzdzVGbUNvd0QxakJGTXlUNVdyTUhMWVN1OEhkcm9SYUxoc0lhV09J?oc=5\" target=\"_blank\">Qualcomm Announces September 1 Price Hike Amid Severe Losses From Memory Chip Sector Turmoil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">36Kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nQualcomm announced a September 1 price hike, attributing it to severe losses from turmoil in the memory chip sector.\n\n\u5185\u5bb9:\n\u9ad8\u901a\u5ba3\u5e03\u5c06\u4e8e9\u67081\u65e5\u8d77\u6da8\u4ef7\uff0c\u539f\u56e0\u662f\u5185\u5b58\u82af\u7247\u884c\u4e1a\u52a8\u8361\u5bfc\u81f4\u5176\u906d\u53d7\u4e25\u91cd\u635f\u5931\u3002\n\nWhy it matters:\nA major chip buyer publicly raising prices to offset DRAM/NAND cost spikes signals the memory shortage is now hitting margins hard enough to force pass-through pricing \u2014 a concrete sign the AI-driven memory supply crunch is spreading pain beyond memory makers into the broader semiconductor supply chain.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u4e3b\u8981\u82af\u7247\u4e70\u5bb6\u7684\u9ad8\u901a\u88ab\u8feb\u516c\u5f00\u6da8\u4ef7\u4ee5\u5bf9\u51b2DRAM/NAND\u6210\u672c\u98d9\u5347\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u6324\u538b\u5229\u6da6\u3001\u5fc5\u987b\u8f6c\u5ac1\u7ed9\u4e0b\u6e38\u2014\u2014\u8fd9\u662fAI\u9a71\u52a8\u7684\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u6b63\u4ece\u5b58\u50a8\u82af\u7247\u5382\u5546\u5411\u6574\u4e2a\u534a\u5bfc\u4f53\u4f9b\u5e94\u94fe\u8513\u5ef6\u7684\u5b9e\u8d28\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2808,
       "ts": 1785398714,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] NAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply - XenoSpectrum",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 01:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiZEFVX3lxTE44dDgyUmZPWF82Vm00TUwxZzhvQ2s4amtIUEtzTzhlYXpSTElnMW1oTlZrd2xZRHZIai12QnNIMEs1aFBCb2ttVzdpQjVTa1U3WkpDc08wcldwM3h5cVQwNVFqVlY?oc=5\n\nNAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE44dDgyUmZPWF82Vm00TUwxZzhvQ2s4amtIUEtzTzhlYXpSTElnMW1oTlZrd2xZRHZIai12QnNIMEs1aFBCb2ttVzdpQjVTa1U3WkpDc08wcldwM3h5cVQwNVFqVlY?oc=5\" target=\"_blank\">NAND Shortage Set to Ease in Late 2027 as Higher-Density Nodes and China's 19% Share Boost Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2609,
-      "ts": 1784708052,
-      "ts_str": "2026-07-22 08:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO - Briefs Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 04:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWFrZ01DeEh1RzlrLVhlQU1MRG5TN1lwUHo1UUZaaW1SWnZxMHlmZlZZTG9FTVM0dHZWN0FlREJJNDF1VlZLczlqcW1iSVFfN2thZDVWcW4zY0JVY09oSE5Tcnp2Ql8xVmcxaVE1NnpDeTNPbTRRbEVhWEV1YTRkb2trTXlNNkY4RGJlMXlJdklUdw?oc=5\n\nOpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO - Briefs Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWFrZ01DeEh1RzlrLVhlQU1MRG5TN1lwUHo1UUZaaW1SWnZxMHlmZlZZTG9FTVM0dHZWN0FlREJJNDF1VlZLczlqcW1iSVFfN2thZDVWcW4zY0JVY09oSE5Tcnp2Ql8xVmcxaVE1NnpDeTNPbTRRbEVhWEV1YTRkb2trTXlNNkY4RGJlMXlJdklUdw?oc=5\" target=\"_blank\">OpenAI Adds Nubank, BNY CEOs to Board Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Briefs Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
