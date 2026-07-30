@@ -1,7 +1,7 @@
 {
-  "generated_at": 1785438751,
-  "generated_at_str": "2026-07-30 19:12:31 UTC",
-  "last_event_ts": 1785438305,
+  "generated_at": 1785438845,
+  "generated_at_str": "2026-07-30 19:14:05 UTC",
+  "last_event_ts": 1785438844,
   "tables": {
     "alerts_dedup": {
       "count": 2807,
@@ -69,9 +69,9 @@
       "last_str": "2026-07-29 23:00:22 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 3536,
-      "last_ts": 1785437049,
-      "last_str": "2026-07-30 18:44:09 UTC"
+      "count": 3537,
+      "last_ts": 1785438844,
+      "last_str": "2026-07-30 19:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 784,
@@ -99,9 +99,9 @@
       "last_str": "2026-07-30 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 20215,
-      "last_ts": 1785437042,
-      "last_str": "2026-07-30 18:44:02 UTC"
+      "count": 20229,
+      "last_ts": 1785438842,
+      "last_str": "2026-07-30 19:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3523,
@@ -2350,5 +2350,50 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 27192.31,
+      "date": "2026-07-29",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.11311879089124144
+    },
+    "spx": null,
+    "regime": "B",
+    "fuses": [
+      "C2"
+    ],
+    "rungs": [
+      {
+        "thresh": -0.3,
+        "pct": 10,
+        "label": "knife 1 \u00b7 fuse active",
+        "level": 21462.42,
+        "triggered": false
+      },
+      {
+        "thresh": -0.4,
+        "pct": 10,
+        "label": "knife 2",
+        "level": 18396.359999999997,
+        "triggered": false
+      },
+      {
+        "thresh": -0.5,
+        "pct": 20,
+        "label": "backup-the-truck \u00b7 needs stabilisation",
+        "level": 15330.3,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 0,
+    "reserve": 0,
+    "next_rung": {
+      "thresh": -0.3,
+      "pct": 10,
+      "label": "knife 1 \u00b7 fuse active",
+      "level": 21462.42
+    },
+    "needs_stabilisation": false
+  }
 }
