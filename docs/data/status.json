@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785540726,
-  "generated_at_str": "2026-07-31 23:32:06 UTC",
-  "last_event_ts": 1785539650,
+  "generated_at": 1785540920,
+  "generated_at_str": "2026-07-31 23:35:20 UTC",
+  "last_event_ts": 1785540920,
   "tables": {
     "alerts_dedup": {
-      "count": 2831,
-      "last_ts": 1785539112,
-      "last_str": "2026-07-31 23:05:12 UTC"
+      "count": 2832,
+      "last_ts": 1785540920,
+      "last_str": "2026-07-31 23:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-31 23:14:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3457,
-      "last_ts": 1785537307,
-      "last_str": "2026-07-31 22:35:07 UTC"
+      "count": 3458,
+      "last_ts": 1785540907,
+      "last_str": "2026-07-31 23:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4073,
-      "last_ts": 1785539103,
-      "last_str": "2026-07-31 23:05:03 UTC"
+      "count": 4074,
+      "last_ts": 1785540909,
+      "last_str": "2026-07-31 23:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2739,
-      "last_ts": 1785539102,
-      "last_str": "2026-07-31 23:05:02 UTC"
+      "count": 2740,
+      "last_ts": 1785540908,
+      "last_str": "2026-07-31 23:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3063,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2839,
+      "ts": 1785540920,
+      "ts_str": "2026-07-31 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] US firms eye Chinese memory chips as prices soar, but experts warn of supply chain trap - \ud5e4\ub7f4\ub4dc\uacbd\uc81c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 21:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FWElIX0d6X3U5WS1NYW1wMER3QlBrX0xtMkJ4bTg0X3U2NnNKWkQtVmo4T3k0ZUNMQnFTeEtaa0ZabjhWbUZZajNFVHRiX2xBdXlqRGxJRQ?oc=5\n\nUS firms eye Chinese memory chips as prices soar, but experts warn of supply chain trap - \ud5e4\ub7f4\ub4dc\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FWElIX0d6X3U5WS1NYW1wMER3QlBrX0xtMkJ4bTg0X3U2NnNKWkQtVmo4T3k0ZUNMQnFTeEtaa0ZabjhWbUZZajNFVHRiX2xBdXlqRGxJRQ?oc=5\" target=\"_blank\">US firms eye Chinese memory chips as prices soar, but experts warn of supply chain trap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ud5e4\ub7f4\ub4dc\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Herald Business (\ud5e4\ub7f4\ub4dc\uacbd\uc81c) piece reports US firms are turning to Chinese memory chips as prices surge, with experts warning of supply-chain risk.\n\n\u5185\u5bb9:\n\u97e9\u56fd\u300a\ud5e4\ub7f4\ub4dc\uacbd\uc81c\u300b\u62a5\u9053\u79f0\uff0c\u7f8e\u56fd\u4f01\u4e1a\u56e0\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u800c\u8f6c\u5411\u91c7\u8d2d\u4e2d\u56fd\u5185\u5b58\u82af\u7247\uff0c\u4e13\u5bb6\u8b66\u544a\u4f9b\u5e94\u94fe\u5b58\u5728\u98ce\u9669\u3002\n\nWhy it matters:\nConfirms the memory/DRAM/NAND/HBM squeeze is severe enough to push US buyers toward Chinese suppliers despite the geopolitical/security trade-off \u2014 a sign the AI-buildout is now hitting hard component-supply constraints, not just capex-accounting optics.\n\n\u5f71\u54cd:\n\u8fd9\u8bf4\u660e\u5185\u5b58/DRAM/NAND/HBM \u7684\u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u8ba9\u7f8e\u56fd\u4f01\u4e1a\u7518\u613f\u5192\u5730\u7f18\u653f\u6cbb\u548c\u5b89\u5168\u98ce\u9669\u8f6c\u5411\u4e2d\u56fd\u4f9b\u5e94\u5546\uff0c\u8868\u660e AI \u5efa\u8bbe\u5df2\u7ecf\u89e6\u53ca\u786c\u4ef6\u4f9b\u5e94\u7aef\u7684\u5b9e\u8d28\u74f6\u9888\uff0c\u800c\u4e0d\u53ea\u662f\u8d44\u672c\u5f00\u652f\u4f1a\u8ba1\u5c42\u9762\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2838,
       "ts": 1785539112,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron\u2019s HBM Sellout and Price Surge Create a Split-Screen Market - Ad-hoc-news.de",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 18:11:56 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQlFOczZmcHZpTWExakMzY3FYenJoN09KSTVCd0pHOFJqNllwb2VuWERJV0x0MnFzMUc0RHJfWjdZSjZ4UjFwdFdsTTc0Ym54U3BUZUhFZDcydmVzRjQtd1dhMGZrckd1MmRhWDRoSTVHVHh6X3F2MnJEdG12Y3MyN2hHOVBnV29rbmZjZjkzTkQxd1h0UHQ2SWUxamRabEhRckwxQmU2QkJBSGU0cGNod1doYWZNem41Q01zNzZPb3BXQQ?oc=5\n\nMicron\u2019s HBM Sellout and Price Surge Create a Split-Screen Market - Ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQlFOczZmcHZpTWExakMzY3FYenJoN09KSTVCd0pHOFJqNllwb2VuWERJV0x0MnFzMUc0RHJfWjdZSjZ4UjFwdFdsTTc0Ym54U3BUZUhFZDcydmVzRjQtd1dhMGZrckd1MmRhWDRoSTVHVHh6X3F2MnJEdG12Y3MyN2hHOVBnV29rbmZjZjkzTkQxd1h0UHQ2SWUxamRabEhRckwxQmU2QkJBSGU0cGNod1doYWZNem41Q01zNzZPb3BXQQ?oc=5\" target=\"_blank\">Micron\u2019s HBM Sellout and Price Surge Create a Split-Screen Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2639,
-      "ts": 1784746024,
-      "ts_str": "2026-07-22 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] What History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX - The Globe and Mail",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 15:51:02 GMT\nLink:      https://news.google.com/rss/articles/CBMigAJBVV95cUxNMktHSWZaNnozNEFjZm83NjJZTGkyZC1UOFZGRTA1SnBXVGMxTFRaS053Q0tEZ0JOTjZHZXZKY1NEcjBUQ19hdlZJUUxyUExrMXNQMXZCVDRXZHYycWNMYXJoTHNoUG5GRVZtNUZ0Wnpya19xa3dBUFpRb1BrdEhrUzlyOXpLOTNtYXR0LVFuWV9JaEtZUDlwc29sZ1M5NjUzbDEwTmFFemdoWTdaZ1dsVC1tUGdQUEJlREZLMUlLYkozWk1VOXNJcHFMSUlzZDdKOVhSTXhqdjg5eVgzX042RTdUQ1lFMjhjSnB2MDhNTWI3TVl3cnJuU2hnM2VpOW1r?oc=5\n\nWhat History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxNMktHSWZaNnozNEFjZm83NjJZTGkyZC1UOFZGRTA1SnBXVGMxTFRaS053Q0tEZ0JOTjZHZXZKY1NEcjBUQ19hdlZJUUxyUExrMXNQMXZCVDRXZHYycWNMYXJoTHNoUG5GRVZtNUZ0Wnpya19xa3dBUFpRb1BrdEhrUzlyOXpLOTNtYXR0LVFuWV9JaEtZUDlwc29sZ1M5NjUzbDEwTmFFemdoWTdaZ1dsVC1tUGdQUEJlREZLMUlLYkozWk1VOXNJcHFMSUlzZDdKOVhSTXhqdjg5eVgzX042RTdUQ1lFMjhjSnB2MDhNTWI3TVl3cnJuU2hnM2VpOW1r?oc=5\" target=\"_blank\">What History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
       "emailed": false
     }
   ],
