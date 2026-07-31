@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785515533,
-  "generated_at_str": "2026-07-31 16:32:13 UTC",
-  "last_event_ts": 1785514449,
+  "generated_at": 1785515755,
+  "generated_at_str": "2026-07-31 16:35:55 UTC",
+  "last_event_ts": 1785515724,
   "tables": {
     "alerts_dedup": {
-      "count": 2820,
-      "last_ts": 1785512655,
-      "last_str": "2026-07-31 15:44:15 UTC"
+      "count": 2822,
+      "last_ts": 1785515724,
+      "last_str": "2026-07-31 16:35:24 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-31 13:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3441,
-      "last_ts": 1785513904,
-      "last_str": "2026-07-31 16:05:04 UTC"
+      "count": 3444,
+      "last_ts": 1785515702,
+      "last_str": "2026-07-31 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4060,
-      "last_ts": 1785513906,
-      "last_str": "2026-07-31 16:05:06 UTC"
+      "count": 4062,
+      "last_ts": 1785515704,
+      "last_str": "2026-07-31 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2729,
-      "last_ts": 1785513905,
-      "last_str": "2026-07-31 16:05:05 UTC"
+      "count": 2732,
+      "last_ts": 1785515703,
+      "last_str": "2026-07-31 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3051,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2828,
+      "ts": 1785515724,
+      "ts_str": "2026-07-31 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Warns Memory Chip Shortage Will Worsen Through 2027, Last Until 2028 - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 16:11:28 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxObHVxUzRMaTBNQmllLXgxV3NTQ2pKektxbzQ1NzNRS1VpakN3ZEZXV2NtbFpScUVVQy1lbmUta2RuV3hGclV5YVUyNFdXaFFNQVlFVVc2NENfZkttQTlxWXN1cV9Qd2NfVm8zUnZldGFYcHhpYngwY3pmVEJJdnRoTWN5OTkxN2FFbFByNDFZLWd5YTNmb2g2SnJyVEgyY1NNdmxMbmlxc3lWNXVKMEozWG1VYWZidmlLcXZzbWxHSGFRUdIBxwFBVV95cUxNQlZVdGIxY2RNUzFUMmQzX3FvRVYybFIzZGpIUlVHWHIwQ2pBc0Q3S3NHQm1abUJ5RWN0SzNiRTloVm0wTmZpbGlWb2dLZ1JJRjdCRUw1UGxUdzBxbUoya0doTUxaSndiY3hQdnVkaGNxX2VhOFFXT0NoZ3o5Z3JNTXZ3NE1XWFBsbDdLZzFINkd6WHV2Q2l4TXVJU1FLcGMxbnJEOXpmREZtNkFqbjZtcF9oZXYyYzMyZTVPQkZkdTlPdWJrclF3?oc=5\n\nSamsung Warns Memory Chip Shortage Will Worsen Through 2027, Last Until 2028 - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxObHVxUzRMaTBNQmllLXgxV3NTQ2pKektxbzQ1NzNRS1VpakN3ZEZXV2NtbFpScUVVQy1lbmUta2RuV3hGclV5YVUyNFdXaFFNQVlFVVc2NENfZkttQTlxWXN1cV9Qd2NfVm8zUnZldGFYcHhpYngwY3pmVEJJdnRoTWN5OTkxN2FFbFByNDFZLWd5YTNmb2g2SnJyVEgyY1NNdmxMbmlxc3lWNXVKMEozWG1VYWZidmlLcXZzbWxHSGFRUdIBxwFBVV95cUxNQlZVdGIxY2RNUzFUMmQzX3FvRVYybFIzZGpIUlVHWHIwQ2pBc0Q3S3NHQm1abUJ5RWN0SzNiRTloVm0wTmZpbGlWb2dLZ1JJRjdCRUw1UGxUdzBxbUoya0doTUxaSndiY3hQdnVkaGNxX2VhOFFXT0NoZ3o5Z3JNTXZ3NE1XWFBsbDdLZzFINkd6WHV2Q2l4TXVJU1FLcGMxbnJEOXpmREZtNkFqbjZtcF9oZXYyYzMyZTVPQkZkdTlPdWJrclF3?oc=5\" target=\"_blank\">Samsung Warns Memory Chip Shortage Will Worsen Through 2027, Last Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report cites Samsung warning that the memory chip shortage will worsen through 2027 and persist until 2028.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u63f4\u5f15\u4e09\u661f\u8b66\u544a\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u57282027\u5e74\u524d\u6301\u7eed\u6076\u5316\uff0c\u5e76\u5ef6\u7eed\u81f32028\u5e74\u3002\n\nWhy it matters:\nA multi-year DRAM/NAND/HBM shortage forecast from the leading supplier signals durable pricing power and tight allocation for AI accelerators, raising input costs across the hyperscaler capex chain and reinforcing the bubble-stress thesis that hardware scarcity, not demand, is now the binding constraint.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u4e3b\u8981\u4f9b\u5e94\u5546\uff0c\u4e09\u661f\u9884\u6d4b\u77ed\u7f3a\u5c06\u6301\u7eed\u591a\u5e74\uff0c\u610f\u5473\u7740 DRAM/NAND/HBM \u7684\u5b9a\u4ef7\u6743\u548c\u4f9b\u5e94\u7d27\u5f20\u5c06\u957f\u671f\u7ef4\u6301\uff0cAI \u52a0\u901f\u5668\u6574\u6761\u4ea7\u4e1a\u94fe\u7684\u786c\u4ef6\u91c7\u8d2d\u6210\u672c\u968f\u4e4b\u4e0a\u5347\u3002\u8fd9\u5370\u8bc1\u4e86\u6ce1\u6cab\u538b\u529b\u8bba\u7684\u4e00\u4e2a\u5173\u952e\u70b9\uff1a\u5f53\u524d\u7684\u74f6\u9888\u5df2\u7ecf\u4ece\u9700\u6c42\u7aef\u8f6c\u5411\u786c\u4ef6\u7a00\u7f3a\u672c\u8eab\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2829,
+      "ts": 1785515724,
+      "ts_str": "2026-07-31 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Announced That Memory Chip Shortage Will Last Until 2028 - Zamin.uz",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 15:50:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMXdUV3FCeTVWLWJBcWFRcjE5TE4xRDQ3VGctZTVaNnNvTEY5RkUzV29OaXNld2xHLUlzcjhHM1NkU0ZEWU5wZ3Jlc1RueDNtVnk4XzVrSWZXaUtkOVpmSnRrQmpvWDBXUWNKSkVTQzMyRXZiWnozSlRKaHJJYnY1S2xyNU8tTVI1Y0xMaUM3SmlrTld0elJqcWg3MzNaLVRUNk5jQkZUT1BrYk0?oc=5\n\nSamsung Announced That Memory Chip Shortage Will Last Until 2028 - Zamin.uz\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMXdUV3FCeTVWLWJBcWFRcjE5TE4xRDQ3VGctZTVaNnNvTEY5RkUzV29OaXNld2xHLUlzcjhHM1NkU0ZEWU5wZ3Jlc1RueDNtVnk4XzVrSWZXaUtkOVpmSnRrQmpvWDBXUWNKSkVTQzMyRXZiWnozSlRKaHJJYnY1S2xyNU8tTVI1Y0xMaUM3SmlrTld0elJqcWg3MzNaLVRUNk5jQkZUT1BrYk0?oc=5\" target=\"_blank\">Samsung Announced That Memory Chip Shortage Will Last Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Zamin.uz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Samsung stated the memory chip shortage will persist until 2028.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0c\u4e09\u661f\u8868\u793a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nSustained DRAM/NAND/HBM supply tightness keeps upward pressure on AI accelerator bill-of-materials costs and could constrain hyperscaler capex build-outs \u2014 a supply-side stress input to the bubble thesis, not demand confirmation.\n\n\u5f71\u54cd:\nDRAM/NAND/HBM \u4f9b\u5e94\u6301\u7eed\u7d27\u5f20\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u5e76\u53ef\u80fd\u5236\u7ea6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6269\u5f20\u2014\u2014\u8fd9\u662f\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u7684\u4f9b\u7ed9\u4fa7\u4fe1\u53f7\uff0c\u800c\u975e\u9700\u6c42\u7aef\u7684\u786e\u8ba4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2827,
       "ts": 1785512655,
@@ -2281,26 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX\u2019s great unlocking begins with a $116 billion share release - Los Angeles Times",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 15:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0VRWktob3M4VkxxT0t6WG9DWHdUOXFDNWwya2plYzZtMDBfcXgxQmRxWFMxQzJFMmFOcHlFc1lSSXF5NERSZDE1bS1GWEh5WElNOXBZcktLRUdvcDVvVXJpNjQ1NjJlYzZCaDZOdnNua0hERFFxUHJMMWVYdm9xQk9ZSjJhSFRScUVuc1VaUWs0MHd5d3Nwc2gzV1hMaElFU2ZueEVJM2hmQ2IyTUZuZQ?oc=5\n\nSpaceX\u2019s great unlocking begins with a $116 billion share release - Los Angeles Times\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQR0VRWktob3M4VkxxT0t6WG9DWHdUOXFDNWwya2plYzZtMDBfcXgxQmRxWFMxQzJFMmFOcHlFc1lSSXF5NERSZDE1bS1GWEh5WElNOXBZcktLRUdvcDVvVXJpNjQ1NjJlYzZCaDZOdnNua0hERFFxUHJMMWVYdm9xQk9ZSjJhSFRScUVuc1VaUWs0MHd5d3Nwc2gzV1hMaElFU2ZueEVJM2hmQ2IyTUZuZQ?oc=5\" target=\"_blank\">SpaceX\u2019s great unlocking begins with a $116 billion share release</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Los Angeles Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2629,
-      "ts": 1784735229,
-      "ts_str": "2026-07-22 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] What History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX - The Motley Fool",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 15:39:22 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFpb3ptbEhxUmgtSWhEWWVONkN3alRrN1JEem9ZSDlTU2NRdElROTBadFBiY3JYU2tScFdMUUQxYUNVcGUzbW53MUlEVUpZeEZQQlJmbGhVNUVLajkzWGpkckFETHB2ZWZERHlQM0R5ZWJ4UUdDc2pkeFNXUUFPNlE4VDRLRTd3M3lIQW56djc4M2pYcFR6cQ?oc=5\n\nWhat History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFpb3ptbEhxUmgtSWhEWWVONkN3alRrN1JEem9ZSDlTU2NRdElROTBadFBiY3JYU2tScFdMUUQxYUNVcGUzbW53MUlEVUpZeEZQQlJmbGhVNUVLajkzWGpkckFETHB2ZWZERHlQM0R5ZWJ4UUdDc2pkeFNXUUFPNlE4VDRLRTd3M3lIQW56djc4M2pYcFR6cQ?oc=5\" target=\"_blank\">What History Says About Stocks That Join the Nasdaq-100 and What It Means for SpaceX</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
-      "emailed": false
-    },
-    {
-      "id": 2630,
-      "ts": 1784735229,
-      "ts_str": "2026-07-22 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock Unlocks: $116 Billion at Stake - GuruFocus",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 21:56:43 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgJBVV95cUxOeWc5dFFpVkw3NGFHeXZUcWhUY1NieGdBXzBYSnRvaERFNDYyaWtDR1Fha21GdlhKVWluckJsNXlVcEt3Q0J5Y00zSjhxaktBVWdvWm80MFh2clNua0x4bU02bTBjRkEtUWI3T1p6cFF1UlM2NDN6MWFXV21jRmpRQ2VLY3lIcTR6RFM0QnVIS09RY3FjQ2RzdUZwcmgwRUEzak5fZlpqVTMwMlBsQzJfMkRsVFg5OVBHbG9mdDJoQS1YT1JMR0RwSFBSWTdWYjZqTGxSdXp4VzAwY3JzeDNNUGxvRTdVZWZNZGNnYmhZLTdPNEV6OHdibnJfMGZ0LU5OSlFCUWw2UVlWNk1LWWEwbUVNdE42cGdtdS1vUmdoUmctbUo5bW9id0NR?oc=5\n\nSpaceX Stock Unlocks: $116 Billion at Stake - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgJBVV95cUxOeWc5dFFpVkw3NGFHeXZUcWhUY1NieGdBXzBYSnRvaERFNDYyaWtDR1Fha21GdlhKVWluckJsNXlVcEt3Q0J5Y00zSjhxaktBVWdvWm80MFh2clNua0x4bU02bTBjRkEtUWI3T1p6cFF1UlM2NDN6MWFXV21jRmpRQ2VLY3lIcTR6RFM0QnVIS09RY3FjQ2RzdUZwcmgwRUEzak5fZlpqVTMwMlBsQzJfMkRsVFg5OVBHbG9mdDJoQS1YT1JMR0RwSFBSWTdWYjZqTGxSdXp4VzAwY3JzeDNNUGxvRTdVZWZNZGNnYmhZLTdPNEV6OHdibnJfMGZ0LU5OSlFCUWw2UVlWNk1LWWEwbUVNdE42cGdtdS1vUmdoUmctbUo5bW9id0NR?oc=5\" target=\"_blank\">SpaceX Stock Unlocks: $116 Billion at Stake</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
     }
   ],
