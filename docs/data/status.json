@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785536781,
-  "generated_at_str": "2026-07-31 22:26:21 UTC",
-  "last_event_ts": 1785536044,
+  "generated_at": 1785536964,
+  "generated_at_str": "2026-07-31 22:29:24 UTC",
+  "last_event_ts": 1785536964,
   "tables": {
     "alerts_dedup": {
-      "count": 2829,
-      "last_ts": 1785530833,
-      "last_str": "2026-07-31 20:47:13 UTC"
+      "count": 2830,
+      "last_ts": 1785536964,
+      "last_str": "2026-07-31 22:29:24 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-07-29 20:53:03 UTC"
     },
     "c10_signals": {
-      "count": 27,
-      "last_ts": 1785450541,
-      "last_str": "2026-07-30 22:29:01 UTC"
+      "count": 28,
+      "last_ts": 1785536942,
+      "last_str": "2026-07-31 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2837,
+      "ts": 1785536964,
+      "ts_str": "2026-07-31 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.41% (+52bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-30\nCurrent:  2.41%\n90d low:  1.89%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield hit 2.41pp on 2026-07-30, up 0.52pp from its trailing-90-day low of 1.89pp.\n\n\u5185\u5bb9:\n10\u5e74\u671fTIPS\u5b9e\u9645\u6536\u76ca\u7387\u57282026-07-30\u5347\u81f32.41pp\uff0c\u8f83\u8fc7\u53bb90\u4e2a\u4ea4\u6613\u65e5\u4f4e\u70b91.89pp\u4e0a\u5347\u4e860.52pp\u3002\n\nWhy it matters:\nA rising real yield tightens financial conditions and raises the discount rate on long-duration AI-capex cash flows, directly pressuring the valuations that justify current hyperscaler spend. This crosses C10's real-yield trigger, adding a second liquidity-fuse alongside the broad-dollar index.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u884c\u4f1a\u6536\u7d27\u91d1\u878d\u6761\u4ef6\uff0c\u5e76\u62ac\u9ad8\u5bf9AI capex\u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u76f4\u63a5\u538b\u5236\u652f\u6491\u5f53\u524d\u8d85\u5927\u89c4\u6a21\u5382\u5546\u652f\u51fa\u53d9\u4e8b\u7684\u4f30\u503c\u903b\u8f91\u3002\u6b64\u6b21\u89e6\u53d1\u4e86C10\u7684\u5b9e\u9645\u6536\u76ca\u7387\u9608\u503c\uff0c\u4e0e\u5e7f\u4e49\u7f8e\u5143\u6307\u6570\u4e00\u8d77\u6784\u6210\u6d41\u52a8\u6027\u53cc\u91cd\u8b66\u62a5\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2836,
       "ts": 1785530833,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-HIGH] SpaceX $116 Billion Stock Unlock: Staggered Release Starts August 2026 - KuCoin",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 09:02:04 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGt6WnYzRjkxZ3pqSmFOcUFCbEU3VElOaVhkZDlSd2hTWVJFLXFOcVpHbnVRaWFrNkJQN2xPMnN6a0VVM0dJcGFmajQ4RWtpLUNZblhYakJmNHludU91MVhuQ1k0cmhGT1JjdlVmbENZaGRrNGo3Z3FublE2QXJsQXJfdlQ0VnNmRTBweUdmVHJ2Y1NQVHFoOVNVeEw?oc=5\n\nSpaceX $116 Billion Stock Unlock: Staggered Release Starts August 2026 - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOeGt6WnYzRjkxZ3pqSmFOcUFCbEU3VElOaVhkZDlSd2hTWVJFLXFOcVpHbnVRaWFrNkJQN2xPMnN6a0VVM0dJcGFmajQ4RWtpLUNZblhYakJmNHludU91MVhuQ1k0cmhGT1JjdlVmbENZaGRrNGo3Z3FublE2QXJsQXJfdlQ0VnNmRTBweUdmVHJ2Y1NQVHFoOVNVeEw?oc=5\" target=\"_blank\">SpaceX $116 Billion Stock Unlock: Staggered Release Starts August 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
-    },
-    {
-      "id": 2638,
-      "ts": 1784742432,
-      "ts_str": "2026-07-22 17:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX joins Nasdaq-100 on July 7. Its stock is still not a buy - MSN",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 14:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTENGdi1McXlLZnBMdGRIYWdRc0NKcjVmZ2k1Y1dIYkR6QzdnUnNNWDZvcW9fbmI4UThIWVpsT2RoS3FyNWhIZDc1SmVzOXlTZG9NcGpUd0tjU1lNODhFX2FPZ1NGYWNMV0VyRjR1TGVnZ3BvYzFoVTcyZEkxTjk3eHZDcmRTMktXUmpUbmxLbDBma0w0b1dkYzM3Zkd6dEhNLTJRM3FEbHI4aDhzZTJZeEJ1SlV2QzEz?oc=5\n\nSpaceX joins Nasdaq-100 on July 7. Its stock is still not a buy - MSN\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTENGdi1McXlLZnBMdGRIYWdRc0NKcjVmZ2k1Y1dIYkR6QzdnUnNNWDZvcW9fbmI4UThIWVpsT2RoS3FyNWhIZDc1SmVzOXlTZG9NcGpUd0tjU1lNODhFX2FPZ1NGYWNMV0VyRjR1TGVnZ3BvYzFoVTcyZEkxTjk3eHZDcmRTMktXUmpUbmxLbDBma0w0b1dkYzM3Zkd6dEhNLTJRM3FEbHI4aDhzZTJZeEJ1SlV2QzEz?oc=5\" target=\"_blank\">SpaceX joins Nasdaq-100 on July 7. Its stock is still not a buy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MSN</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
