@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785477726,
-  "generated_at_str": "2026-07-31 06:02:06 UTC",
-  "last_event_ts": 1785476823,
+  "generated_at": 1785477926,
+  "generated_at_str": "2026-07-31 06:05:26 UTC",
+  "last_event_ts": 1785477926,
   "tables": {
     "alerts_dedup": {
-      "count": 2810,
-      "last_ts": 1785450550,
-      "last_str": "2026-07-30 22:29:10 UTC"
+      "count": 2812,
+      "last_ts": 1785477926,
+      "last_str": "2026-07-31 06:05:26 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-07-31 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3416,
-      "last_ts": 1785474302,
-      "last_str": "2026-07-31 05:05:02 UTC"
+      "count": 3417,
+      "last_ts": 1785477902,
+      "last_str": "2026-07-31 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4029,
-      "last_ts": 1785476104,
-      "last_str": "2026-07-31 05:35:04 UTC"
+      "count": 4032,
+      "last_ts": 1785477903,
+      "last_str": "2026-07-31 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2702,
-      "last_ts": 1785476103,
-      "last_str": "2026-07-31 05:35:03 UTC"
+      "count": 2704,
+      "last_ts": 1785477902,
+      "last_str": "2026-07-31 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3020,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2818,
+      "ts": 1785477926,
+      "ts_str": "2026-07-31 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK hynix and ADATA warn of memory shortages: 2027 could become particularly tight for DRAM and HBM - igorslab.de",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 04:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9CdTFvQXYwNVFxeXMwNEN0aWI1Mms2SWlLYXhjZHkxMkd0aG9PUmd5YW5UTFRYZHh4TjdIMXA2TFlHWV9mQzdQbFZBT3NwRWJWeGNOakNFYmg4RDhjUTFFRVlkV3NUVk9ZU0VNWE43RmpFODhySjIySk0zMm0?oc=5\n\nSK hynix and ADATA warn of memory shortages: 2027 could become particularly tight for DRAM and HBM - igorslab.de\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9CdTFvQXYwNVFxeXMwNEN0aWI1Mms2SWlLYXhjZHkxMkd0aG9PUmd5YW5UTFRYZHh4TjdIMXA2TFlHWV9mQzdQbFZBT3NwRWJWeGNOakNFYmg4RDhjUTFFRVlkV3NUVk9ZU0VNWE43RmpFODhySjIySk0zMm0?oc=5\" target=\"_blank\">SK hynix and ADATA warn of memory shortages: 2027 could become particularly tight for DRAM and HBM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">igorslab.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports SK hynix and ADATA warning of DRAM/HBM memory shortages, with 2027 flagged as especially tight.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u62a5\u9053\u79f0 SK hynix \u548c ADATA \u8b66\u544a DRAM/HBM \u5b58\u50a8\u5668\u53ef\u80fd\u51fa\u73b0\u77ed\u7f3a\uff0c2027 \u5e74\u5c24\u5176\u7d27\u5f20\u3002\n\nWhy it matters:\nMemory supply tightness pushes up input costs for AI accelerators and servers just as hyperscaler capex is already stretched, and a shift from oversupply fears to shortage warnings signals the memory market is repricing around sustained AI demand rather than a bubble unwind.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u5668\u4f9b\u5e94\u8d8b\u7d27\u4f1a\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u5df2\u7ecf\u5403\u7d27\u7684\u60c5\u51b5\u4e0b\u63a8\u9ad8 AI \u52a0\u901f\u5361\u548c\u670d\u52a1\u5668\u7684\u6210\u672c\uff1b\u5e02\u573a\u53d9\u4e8b\u4ece\u62c5\u5fc3\u8fc7\u5269\u8f6c\u5411\u8b66\u544a\u77ed\u7f3a\uff0c\u8bf4\u660e\u5b58\u50a8\u884c\u4e1a\u6b63\u56f4\u7ed5\u6301\u7eed\u7684 AI \u9700\u6c42\u91cd\u65b0\u5b9a\u4ef7\uff0c\u800c\u4e0d\u662f\u6ce1\u6cab\u9000\u6f6e\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2819,
+      "ts": 1785477926,
+      "ts_str": "2026-07-31 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple warns of memory chip shortage for key devices - coastfm.co.uk",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 05:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxOQllpQ21LSHlBZlNxZzdOeXdGOFpHOHBrSGYyZzRYNEQzZjRrbnBNWjIzWkwyVW1kQ2ZjMHZkaUl1bUF1LU9kU2dqbjVMR3MxMFJuZ0h0RGRHcVgzdjR1RHRmMmwzRmliN2J0d2NSdE13eUJxRDFac1kzRGx0MEVfVXhsSFV4UQ?oc=5\n\nApple warns of memory chip shortage for key devices - coastfm.co.uk\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQllpQ21LSHlBZlNxZzdOeXdGOFpHOHBrSGYyZzRYNEQzZjRrbnBNWjIzWkwyVW1kQ2ZjMHZkaUl1bUF1LU9kU2dqbjVMR3MxMFJuZ0h0RGRHcVgzdjR1RHRmMmwzRmliN2J0d2NSdE13eUJxRDFac1kzRGx0MEVfVXhsSFV4UQ?oc=5\" target=\"_blank\">Apple warns of memory chip shortage for key devices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coastfm.co.uk</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS aggregator surfaced a headline reporting Apple is warning of a memory chip shortage affecting key devices.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u805a\u5408\u7684\u65b0\u95fb\u6807\u9898\u62a5\u9053\u79f0\uff0cApple \u8b66\u544a\u5176\u5173\u952e\u8bbe\u5907\u9762\u4e34\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nA shortage signal from a major end-device buyer (Apple) confirms tight DRAM/NAND supply is spreading beyond AI datacenter demand into consumer electronics, reinforcing the memory-price-stress thesis that AI capex is crowding out other buyers.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u4e3b\u8981\u7ec8\u7aef\u8bbe\u5907\u4e70\u5bb6\uff0cApple \u53d1\u51fa\u77ed\u7f3a\u4fe1\u53f7\uff0c\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u4ece AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u9886\u57df\uff0c\u5370\u8bc1\u4e86 AI capex \u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u4ea7\u80fd\u7684\u5185\u5b58\u4ef7\u683c\u627f\u538b\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2817,
       "ts": 1785450550,
@@ -2282,26 +2302,6 @@
       "subject": "[C6-MED] Oppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026 - AndroidPure",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 11:06:43 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRUJyRDBpZkd1b0Jqa3lUYkk4UVBBSi1mLU0wYmtaN0hjWXJJcUVENEQ5Yzl2akZEdFhHNk1uSmM3eHMwRU9qZ1RFTVVheHlzaUhNeUFjVkQ2VEN5MG5kRUt3QTFSeVpHdVBEdm5SWVFNeWoyUm9tVQ?oc=5\n\nOppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026 - AndroidPure\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9rRUJyRDBpZkd1b0Jqa3lUYkk4UVBBSi1mLU0wYmtaN0hjWXJJcUVENEQ5Yzl2akZEdFhHNk1uSmM3eHMwRU9qZ1RFTVVheHlzaUhNeUFjVkQ2VEN5MG5kRUt3QTFSeVpHdVBEdm5SWVFNeWoyUm9tVQ?oc=5\" target=\"_blank\">Oppo, Vivo Reject Samsung DRAM Price Hike for Q3 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AndroidPure</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
-    },
-    {
-      "id": 2619,
-      "ts": 1784720827,
-      "ts_str": "2026-07-22 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX sets earnings date, triggering first lock-up expiration for millions of shares - CNBC",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 21 Jul 2026 14:10:49 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPZGdKeFY1OGNDOHppaExTNXhnRWpwMmFEQ3R4VzRzdFRGZTFvNHhDSkc3Ti1VRnNSNU1QMmNGUng1QzB2bzI4OFA4Z0wwYzM0cWhQRjFhUVVlUHVCVjZaMFhnbEZKUTZieWFaei1GbDlsbHRHeHNPUTM3RG9UTGRtY0pacF9ILXoxeThsS3RZN3RpNmY2dWc?oc=5\n\nSpaceX sets earnings date, triggering first lock-up expiration for millions of shares - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPZGdKeFY1OGNDOHppaExTNXhnRWpwMmFEQ3R4VzRzdFRGZTFvNHhDSkc3Ti1VRnNSNU1QMmNGUng1QzB2bzI4OFA4Z0wwYzM0cWhQRjFhUVVlUHVCVjZaMFhnbEZKUTZieWFaei1GbDlsbHRHeHNPUTM3RG9UTGRtY0pacF9ILXoxeThsS3RZN3RpNmY2dWc?oc=5\" target=\"_blank\">SpaceX sets earnings date, triggering first lock-up expiration for millions of shares</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2618,
-      "ts": 1784720826,
-      "ts_str": "2026-07-22 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX lock-up expiry could release $116 billion worth of shares (NASDAQ:SPCX) - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 10:41:17 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxQYlF3RVZpM1RsSmpfQjc3TkxoNG5ORk5ZUDN1Uzk3MkV3S1dQMEdwNi1Hd1dMYU85Y2NwaXVIMU90MlJqUEh4amZRS0xuOHZkZW1maG11UmlkWW9mcG5rRnhTQ3ZJUmZuUk1QTXlLcy04UGNDYmZlZHhxWTZMOEZNY3VXTWJEWFVodjBCbldSZjZNeWFnUUhjdHBZZXpNQQ?oc=5\n\nSpaceX lock-up expiry could release $116 billion worth of shares (NASDAQ:SPCX) - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQYlF3RVZpM1RsSmpfQjc3TkxoNG5ORk5ZUDN1Uzk3MkV3S1dQMEdwNi1Hd1dMYU85Y2NwaXVIMU90MlJqUEh4amZRS0xuOHZkZW1maG11UmlkWW9mcG5rRnhTQ3ZJUmZuUk1QTXlLcy04UGNDYmZlZHhxWTZMOEZNY3VXTWJEWFVodjBCbldSZjZNeWFnUUhjdHBZZXpNQQ?oc=5\" target=\"_blank\">SpaceX lock-up expiry could release $116 billion worth of shares (NASDAQ:SPCX)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
     }
   ],
   "catalysts": [
