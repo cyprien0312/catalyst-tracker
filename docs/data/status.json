@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785558724,
-  "generated_at_str": "2026-08-01 04:32:04 UTC",
-  "last_event_ts": 1785557642,
+  "generated_at": 1785558917,
+  "generated_at_str": "2026-08-01 04:35:17 UTC",
+  "last_event_ts": 1785558916,
   "tables": {
     "alerts_dedup": {
-      "count": 2834,
-      "last_ts": 1785552433,
-      "last_str": "2026-08-01 02:47:13 UTC"
+      "count": 2835,
+      "last_ts": 1785558916,
+      "last_str": "2026-08-01 04:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-08-01 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3467,
-      "last_ts": 1785557107,
-      "last_str": "2026-08-01 04:05:07 UTC"
+      "count": 3469,
+      "last_ts": 1785558902,
+      "last_str": "2026-08-01 04:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4082,
@@ -94,9 +94,9 @@
       "last_str": "2026-07-31 23:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3075,
-      "last_ts": 1785553505,
-      "last_str": "2026-08-01 03:05:05 UTC"
+      "count": 3076,
+      "last_ts": 1785558905,
+      "last_str": "2026-08-01 04:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 20543,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2842,
+      "ts": 1785558916,
+      "ts_str": "2026-08-01 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Samsung Electronics Earnings: Lower Peak Memory Prices Expected; Selloff Looks Overdone - global.morningstar.com",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 13:31:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUkdqbl9WTVFXbkstU1FObFNXLUpyZHJBdWQyUENlcFFzemRuNVhhWHFTRFFzU2dhR2VOLVR2Wm5wX0RMSTIwZE1CTE91cUwtLUZ2eER3MHNIMDVRYzhnMHpYbDdKUXBaSXZiTkt2alc5YlJBN1NlRXBMY0FlOUh4M3pSVGlXOE5rTGwteXlyVVExVFBfNGdEUUk5V05EQ3BWekZHZ1ZNNGlQSFBUcGZTSzc5ZEoxT1V4ek5hN0F0RzhyS0lnaU95RA?oc=5\n\nSamsung Electronics Earnings: Lower Peak Memory Prices Expected; Selloff Looks Overdone - global.morningstar.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUkdqbl9WTVFXbkstU1FObFNXLUpyZHJBdWQyUENlcFFzemRuNVhhWHFTRFFzU2dhR2VOLVR2Wm5wX0RMSTIwZE1CTE91cUwtLUZ2eER3MHNIMDVRYzhnMHpYbDdKUXBaSXZiTkt2alc5YlJBN1NlRXBMY0FlOUh4M3pSVGlXOE5rTGwteXlyVVExVFBfNGdEUUk5V05EQ3BWekZHZ1ZNNGlQSFBUcGZTSzc5ZEoxT1V4ek5hN0F0RzhyS0lnaU95RA?oc=5\" target=\"_blank\">Samsung Electronics Earnings: Lower Peak Memory Prices Expected; Selloff Looks Overdone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">global.morningstar.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Morningstar item flags lower-than-expected peak DRAM/NAND prices in Samsung's earnings while arguing the resulting stock selloff is overdone.\n\n\u5185\u5bb9:\nMorningstar \u62a5\u9053\u79f0\uff0cSamsung Electronics \u8d22\u62a5\u663e\u793a\u5185\u5b58\uff08DRAM/NAND\uff09\u4ef7\u683c\u5cf0\u503c\u4f4e\u4e8e\u9884\u671f\uff0c\u5e76\u8ba4\u4e3a\u968f\u4e4b\u800c\u6765\u7684\u80a1\u4ef7\u629b\u552e\u53cd\u5e94\u8fc7\u5ea6\u3002\n\nWhy it matters:\nA memory-price deceleration read against a hyperscaler/AI-server memory bid is exactly the C6 oversupply-vs-shortage tension the tracker watches; if peak pricing is already softening, it front-runs any capex-driven memory shortage thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u89c1\u9876\u56de\u843d\uff0c\u6070\u597d\u4e0e\u8d85\u5927\u89c4\u6a21\u5382\u5546/AI \u670d\u52a1\u5668\u5bf9\u5185\u5b58\u7684\u5f3a\u52b2\u9700\u6c42\u5f62\u6210\u5f20\u529b\uff0c\u8fd9\u6b63\u662f C6 \u8ffd\u8e2a\u7684\u4f9b\u8fc7\u4e8e\u6c42 vs. \u77ed\u7f3a\u4fe1\u53f7\uff1b\u5982\u679c\u5cf0\u503c\u5b9a\u4ef7\u5df2\u7ecf\u5f00\u59cb\u8d70\u8f6f\uff0c\u5c06\u63d0\u524d\u524a\u5f31 AI capex \u9a71\u52a8\u7684\u5185\u5b58\u77ed\u7f3a\u53d9\u4e8b\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2841,
       "ts": 1785552433,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - Yaho",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 19:46:12 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxNYUU2R2VSUmZicFRHOW0weG5OMzVRcWphYzJBRDZwRjcxcG5wel81ZkN5RHFxRXd0d3F6a2VzNUYxejBydEM1OVlER01La3NBeVBfN0N0QmFOWURlNmFLLVpyY01PUUpYYXk5OThOY3V1QmxIdDFYMWpYRlloUlllUElhdl9HU3JZTElmUlVGUk5GaUE?oc=5\n\nThe Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNYUU2R2VSUmZicFRHOW0weG5OMzVRcWphYzJBRDZwRjcxcG5wel81ZkN5RHFxRXd0d3F6a2VzNUYxejBydEM1OVlER01La3NBeVBfN0N0QmFOWURlNmFLLVpyY01PUUpYYXk5OThOY3V1QmxIdDFYMWpYRlloUlllUElhdl9HU3JZTElmUlVGUk5GaUE?oc=5\" target=\"_blank\">The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2642,
-      "ts": 1784750705,
-      "ts_str": "2026-07-22 20:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - 24/7",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 19:46:12 GMT\nLink:      https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeUpoRGhnUTRxTnBxbmV4MkZFeTJiUi15dmthZ0pHMXZSN2M1X09jT3dtWFpCVUVnOFRPOTUxMVpjWVF3VWpwcjNvaWFhZVJadDA1SXJJWmRRd3F5Z1RfcjJzV2pkQXpYRlNEekx5X21wb0pSREw1U3VFcURZdjJxeElDWHpxOE5kRG5JaENJOVA0bEtEYUdmb1dCdVNDc2prWVFOTE40Rl9BQXgxZlhPc0dBZVgyVDZPZ3ZiajNpLUJXaUNRLU41RTc0em1uQ0FjUVpqdURpbS11UDN5MHdiS1ZGNTBUNHdiWHdz?oc=5\n\nThe Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago. - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeUpoRGhnUTRxTnBxbmV4MkZFeTJiUi15dmthZ0pHMXZSN2M1X09jT3dtWFpCVUVnOFRPOTUxMVpjWVF3VWpwcjNvaWFhZVJadDA1SXJJWmRRd3F5Z1RfcjJzV2pkQXpYRlNEekx5X21wb0pSREw1U3VFcURZdjJxeElDWHpxOE5kRG5JaENJOVA0bEtEYUdmb1dCdVNDc2prWVFOTE40Rl9BQXgxZlhPc0dBZVgyVDZPZ3ZiajNpLUJXaUNRLU41RTc0em1uQ0FjUVpqdURpbS11UDN5MHdiS1ZGNTBUNHdiWHdz?oc=5\" target=\"_blank\">The Memory Chip Shortage Sent Micron Stock Up More Than 7x. Natural Gas Shortage Looks Like Memory 12 Months Ago.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
