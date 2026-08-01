@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785584646,
-  "generated_at_str": "2026-08-01 11:44:06 UTC",
-  "last_event_ts": 1785584643,
+  "generated_at": 1785584833,
+  "generated_at_str": "2026-08-01 11:47:13 UTC",
+  "last_event_ts": 1785584832,
   "tables": {
     "alerts_dedup": {
-      "count": 2842,
-      "last_ts": 1785578704,
-      "last_str": "2026-08-01 10:05:04 UTC"
+      "count": 2843,
+      "last_ts": 1785584832,
+      "last_str": "2026-08-01 11:47:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-08-01 11:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3747,
-      "last_ts": 1785581223,
-      "last_str": "2026-08-01 10:47:03 UTC"
+      "count": 3756,
+      "last_ts": 1785584823,
+      "last_str": "2026-08-01 11:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2850,
+      "ts": 1785584832,
+      "ts_str": "2026-08-01 11:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX stock nears $107 support before earnings, unlock - Crypto News",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 01 Aug 2026 10:59:38 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTE5SeGZDUGJqb01oR1RTOTludy04WmlnVEZWTGcwc09ldXpON2M0VWwwQTBBYldRakxmcjFTai1PeVZjMDMtNXlGVzlQYXBkRzUxbjlWempQd2RWQ3ZFSGNJcVFZdUZyU0pfMkF5TzJjRU9BUVpCd2dMVmhzaWdMQTg?oc=5\n\nSpaceX stock nears $107 support before earnings, unlock - Crypto News\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5SeGZDUGJqb01oR1RTOTludy04WmlnVEZWTGcwc09ldXpON2M0VWwwQTBBYldRakxmcjFTai1PeVZjMDMtNXlGVzlQYXBkRzUxbjlWempQd2RWQ3ZFSGNJcVFZdUZyU0pfMkF5TzJjRU9BUVpCd2dMVmhzaWdMQTg?oc=5\" target=\"_blank\">SpaceX stock nears $107 support before earnings, unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX-related news cites shares nearing $107 support ahead of an earnings report and lock-up unlock.\n\n\u5185\u5bb9:\n\u6709\u5173 SpaceX \u7684\u65b0\u95fb\u63d0\u5230\uff0c\u5728\u8d22\u62a5\u548c\u80a1\u7968\u89e3\u9501\u524d\uff0c\u80a1\u4ef7\u63a5\u8fd1 $107 \u652f\u6491\u4f4d\u3002\n\nWhy it matters:\nThis is proximity noise, not a confirmed unlock trigger \u2014 SpaceX is private, so the classifier is likely picking up crypto-market coverage or an unrelated ticker rather than the actual S-1 tranche calendar event.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u90bb\u8fd1\u5173\u952e\u8bcd\u566a\u97f3\uff0c\u800c\u975e\u786e\u8ba4\u7684\u89e3\u9501\u89e6\u53d1\u4e8b\u4ef6\u2014\u2014SpaceX \u662f\u79c1\u8425\u516c\u53f8\uff0c\u5206\u7c7b\u5668\u5f88\u53ef\u80fd\u662f\u6355\u6349\u5230\u4e86\u52a0\u5bc6\u8d27\u5e01\u5e02\u573a\u62a5\u9053\u6216\u65e0\u5173\u6807\u7684\uff0c\u800c\u4e0d\u662f\u771f\u6b63\u7684 S-1 \u5206\u6279\u89e3\u9501\u65e5\u5386\u4e8b\u4ef6\u3002\n",
+      "emailed": true
+    },
     {
       "id": 2849,
       "ts": 1785578704,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2650,
-      "ts": 1784761507,
-      "ts_str": "2026-07-22 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
