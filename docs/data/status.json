@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785565931,
-  "generated_at_str": "2026-08-01 06:32:11 UTC",
-  "last_event_ts": 1785564488,
+  "generated_at": 1785566114,
+  "generated_at_str": "2026-08-01 06:35:14 UTC",
+  "last_event_ts": 1785566114,
   "tables": {
     "alerts_dedup": {
-      "count": 2838,
-      "last_ts": 1785564316,
-      "last_str": "2026-08-01 06:05:16 UTC"
+      "count": 2839,
+      "last_ts": 1785566114,
+      "last_str": "2026-08-01 06:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-01 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3469,
-      "last_ts": 1785558902,
-      "last_str": "2026-08-01 04:35:02 UTC"
+      "count": 3470,
+      "last_ts": 1785566102,
+      "last_str": "2026-08-01 06:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4089,
-      "last_ts": 1785564305,
-      "last_str": "2026-08-01 06:05:05 UTC"
+      "count": 4095,
+      "last_ts": 1785566103,
+      "last_str": "2026-08-01 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2741,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2846,
+      "ts": 1785566114,
+      "ts_str": "2026-08-01 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple warns of memory chip shortage for key devices - Roch Valley Radio",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 07:33:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNNThER0E0X1ZJSHcxMHhwZTBzVjZDT2dtRGxWVWZXZldtRVNTMUNROE44RE93dlhsTklWUXM3dlNMZlF2WWtCQldxbmdYaTZDbFVVLV9WZTljUlZ1b2JBMnhxNGQ0S3UtY1EtdVhLa1BCenkyQTk0Mm5ub09WbGgyMng0M1doUlFuT1FYNUE4cklRTzVCU3lRVEl2SVg1SjlBaWc?oc=5\n\nApple warns of memory chip shortage for key devices - Roch Valley Radio\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNNThER0E0X1ZJSHcxMHhwZTBzVjZDT2dtRGxWVWZXZldtRVNTMUNROE44RE93dlhsTklWUXM3dlNMZlF2WWtCQldxbmdYaTZDbFVVLV9WZTljUlZ1b2JBMnhxNGQ0S3UtY1EtdVhLa1BCenkyQTk0Mm5ub09WbGgyMng0M1doUlFuT1FYNUE4cklRTzVCU3lRVEl2SVg1SjlBaWc?oc=5\" target=\"_blank\">Apple warns of memory chip shortage for key devices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Roch Valley Radio</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item ('Apple warns of memory chip shortage for key devices') paired a memory term with a shortage signal, tripping C6's proximity classifier.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\uff08\"Apple warns of memory chip shortage for key devices\"\uff09\u5c06\u5185\u5b58\u76f8\u5173\u8bcd\u6c47\u4e0e\u77ed\u7f3a\u4fe1\u53f7\u5e76\u5217\u51fa\u73b0\uff0c\u89e6\u53d1\u4e86 C6 \u7684\u90bb\u8fd1\u6027\u5206\u7c7b\u5668\u3002\n\nWhy it matters:\nMemory/NAND/DRAM/HBM shortages raise input costs across the AI hardware stack and signal supply is tightening as AI datacenter buildout competes with consumer devices for the same fabs \u2014 a tell that capacity constraints, not demand softness, are now binding.\n\n\u5f71\u54cd:\n\u5185\u5b58/NAND/DRAM/HBM \u77ed\u7f3a\u4f1a\u63a8\u9ad8\u6574\u4e2a AI \u786c\u4ef6\u4ea7\u4e1a\u94fe\u7684\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u4ea7\u80fd\u6b63\u5728\u6536\u7d27\u2014\u2014AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u4e0e\u6d88\u8d39\u7535\u5b50\u8bbe\u5907\u6b63\u5728\u4e89\u62a2\u540c\u4e00\u6279\u6676\u5706\u4ea7\u80fd\uff0c\u8fd9\u662f\u4f9b\u7ed9\u7aef\u800c\u975e\u9700\u6c42\u7aef\u51fa\u73b0\u74f6\u9888\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2845,
       "ts": 1785564316,
@@ -2292,16 +2302,6 @@
       "subject": "[C10-MED] 10y Real Yield rising: 2.37% (+54bp off 90d-low)",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-07-21\nCurrent:  2.37%\n90d low:  1.83%\nMove:     +54bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
       "emailed": true
-    },
-    {
-      "id": 2646,
-      "ts": 1784757906,
-      "ts_str": "2026-07-22 22:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
