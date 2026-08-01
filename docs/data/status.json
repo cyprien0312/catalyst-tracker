@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785615067,
-  "generated_at_str": "2026-08-01 20:11:07 UTC",
-  "last_event_ts": 1785614705,
+  "generated_at": 1785615255,
+  "generated_at_str": "2026-08-01 20:14:15 UTC",
+  "last_event_ts": 1785615254,
   "tables": {
     "alerts_dedup": {
-      "count": 2847,
-      "last_ts": 1785613633,
-      "last_str": "2026-08-01 19:47:13 UTC"
+      "count": 2848,
+      "last_ts": 1785615254,
+      "last_str": "2026-08-01 20:14:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-01 20:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 20643,
-      "last_ts": 1785613443,
-      "last_str": "2026-08-01 19:44:03 UTC"
+      "count": 20649,
+      "last_ts": 1785615242,
+      "last_str": "2026-08-01 20:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3802,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2855,
+      "ts": 1785615254,
+      "ts_str": "2026-08-01 20:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Faces Competition from Anthropic as IPO Plans Shift - GuruFocus",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 01 Aug 2026 06:11:15 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUV3bHFnSXV3SC11THRMRElkdnJXMFM4dklHLWRyWDdITFFTaWNpU3dIckhTdW1VMTNlWldITWpmaVZUOHFqNEJIX0ppVkd4MVRrb3J3ZWNJbXlHUk5ta3ZIalBFQ0hCcE9kZDBDNUNhbjhHTFZFT09tbDl5RFlEUjdpd18wQUJ0cndCM05sbnVuWlJURDlIVEVtQlVXa1pKaUFXcnZSOUE5SDd4RVE?oc=5\n\nOpenAI Faces Competition from Anthropic as IPO Plans Shift - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQbUV3bHFnSXV3SC11THRMRElkdnJXMFM4dklHLWRyWDdITFFTaWNpU3dIckhTdW1VMTNlWldITWpmaVZUOHFqNEJIX0ppVkd4MVRrb3J3ZWNJbXlHUk5ta3ZIalBFQ0hCcE9kZDBDNUNhbjhHTFZFT09tbDl5RFlEUjdpd18wQUJ0cndCM05sbnVuWlJURDlIVEVtQlVXa1pKaUFXcnZSOUE5SDd4RVE?oc=5\" target=\"_blank\">OpenAI Faces Competition from Anthropic as IPO Plans Shift</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA GuruFocus piece frames OpenAI as facing rising competitive pressure from Anthropic amid shifting IPO plans, but the snippet gives no burn-rate figures or filing detail.\n\n\u5185\u5bb9:\nGuruFocus \u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u968f\u7740 IPO \u8ba1\u5212\u751f\u53d8\uff0cOpenAI \u6b63\u9762\u4e34\u6765\u81ea Anthropic \u7684\u7ade\u4e89\u538b\u529b\u52a0\u5927\uff0c\u4f46\u6458\u8981\u4e2d\u672a\u63d0\u4f9b\u70e7\u94b1\u7387\u6570\u636e\u6216\u5177\u4f53\u6587\u4ef6\u7ec6\u8282\u3002\n\nWhy it matters:\nThis is generic competitive-narrative coverage, not a hard-data trigger (no >25% QoQ burn-rate jump) \u2014 worth noting as context on OpenAI's funding/IPO trajectory but not itself evidence of accelerating cash burn or capex stress.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u6cdb\u6cdb\u7684\u7ade\u4e89\u53d9\u4e8b\u62a5\u9053\uff0c\u5e76\u975e\u786c\u6570\u636e\u89e6\u53d1\u4fe1\u53f7\uff08\u6ca1\u6709\u51fa\u73b0\u70e7\u94b1\u7387\u73af\u6bd4\u4e0a\u6da8\u8d85\u8fc7 25% \u7684\u60c5\u51b5\uff09\u2014\u2014\u53ef\u4ee5\u4f5c\u4e3a\u89c2\u5bdf OpenAI \u878d\u8d44/IPO \u8d70\u5411\u7684\u80cc\u666f\u4fe1\u606f\uff0c\u4f46\u672c\u8eab\u4e0d\u6784\u6210\u8d44\u672c\u5f00\u652f\u6216\u73b0\u91d1\u6d88\u8017\u52a0\u901f\u7684\u8bc1\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2854,
       "ts": 1785613633,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 02:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\n\nMemory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\" target=\"_blank\">Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 2657,
-      "ts": 1784795708,
-      "ts_str": "2026-07-23 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 02:16:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\n\nMemory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTmhHWEJlRHhQZ1gzQ0ZLTUcyWV8zc0JQaWVOSjRsYXdFVnl5MXg0Z3hDYVYtM1otN0hubzVqWnJVX2dQM25wRS1QZGxaRW4wRzZzdTg1UnR5T0JmRjE3cE9EMWFFaUxlQk5kelhhR2t6V2dUd2c?oc=5\" target=\"_blank\">Memory Chip Prices Surge 10-Fold in 18 Months; Analysts Warn of Supercycle Inflection Point in 2027-2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
