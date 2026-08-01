@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785564124,
-  "generated_at_str": "2026-08-01 06:02:04 UTC",
-  "last_event_ts": 1785563235,
+  "generated_at": 1785564317,
+  "generated_at_str": "2026-08-01 06:05:17 UTC",
+  "last_event_ts": 1785564316,
   "tables": {
     "alerts_dedup": {
-      "count": 2837,
-      "last_ts": 1785563235,
-      "last_str": "2026-08-01 05:47:15 UTC"
+      "count": 2838,
+      "last_ts": 1785564316,
+      "last_str": "2026-08-01 06:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-08-01 04:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4085,
-      "last_ts": 1785562503,
-      "last_str": "2026-08-01 05:35:03 UTC"
+      "count": 4089,
+      "last_ts": 1785564305,
+      "last_str": "2026-08-01 06:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2741,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2845,
+      "ts": 1785564316,
+      "ts_str": "2026-08-01 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple warns of memory chip shortage for key devices - Sky News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 31 Jul 2026 06:09:20 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxPb1hOaFd2TFNTa3hSb3czNjZFbkd6Ny1hNG9sRlNsZ2FpWFN5cVFsZjZCTWR2ZnZZbmQ2YVp4UkJMV3BQTGFOZXBIYUVEZXM2Mmxaa0lJQWY0Sm5fdHc2SDFSQWJseUptd19zc1FlQXdLaUxGcVRiSWMxOGREN0VUbGtlS0l3ZUtyTzhTbmRfalo?oc=5\n\nApple warns of memory chip shortage for key devices - Sky News\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPb1hOaFd2TFNTa3hSb3czNjZFbkd6Ny1hNG9sRlNsZ2FpWFN5cVFsZjZCTWR2ZnZZbmQ2YVp4UkJMV3BQTGFOZXBIYUVEZXM2Mmxaa0lJQWY0Sm5fdHc2SDFSQWJseUptd19zc1FlQXdLaUxGcVRiSWMxOGREN0VUbGtlS0l3ZUtyTzhTbmRfalo?oc=5\" target=\"_blank\">Apple warns of memory chip shortage for key devices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns Apple is facing a memory chip shortage affecting key devices, tripping the tracker's memory/storage stress pattern (shortage term near a memory-chip term).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 Apple \u9762\u4e34\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0c\u5f71\u54cd\u5176\u5173\u952e\u8bbe\u5907\uff0c\u89e6\u53d1\u4e86\u8ffd\u8e2a\u5668\u7684\u5185\u5b58/\u5b58\u50a8\u538b\u529b\u4fe1\u53f7\uff08\u77ed\u7f3a\u76f8\u5173\u8bcd\u6c47\u4e0e\u5185\u5b58\u82af\u7247\u8bcd\u6c47\u90bb\u8fd1\u51fa\u73b0\uff09\u3002\n\nWhy it matters:\nA shortage hitting a major device maker like Apple signals DRAM/NAND/HBM supply is tight enough to constrain non-AI end markets too, meaning AI-driven demand is now crowding out other buyers \u2014 a sign the memory supply chain is stretched, which raises input costs and delivery risk for AI infrastructure builds.\n\n\u5f71\u54cd:\n\u50cf Apple \u8fd9\u6837\u7684\u4e3b\u8981\u8bbe\u5907\u5382\u5546\u90fd\u53d7\u5230\u77ed\u7f3a\u51b2\u51fb\uff0c\u8bf4\u660e DRAM/NAND/HBM \u4f9b\u7ed9\u5df2\u7ecf\u7d27\u5f20\u5230\u5f00\u59cb\u6324\u538b\u975e AI \u9886\u57df\u7684\u9700\u6c42\uff0c\u4e5f\u5c31\u662f\u8bf4 AI \u9a71\u52a8\u7684\u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4efd\u989d\u2014\u2014\u8fd9\u8868\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u5df2\u7ecf\u7ef7\u7d27\uff0c\u4f1a\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u539f\u6750\u6599\u6210\u672c\u5e76\u589e\u52a0\u4ea4\u4ed8\u98ce\u9669\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2844,
       "ts": 1785563235,
@@ -2292,16 +2302,6 @@
       "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
-    },
-    {
-      "id": 2645,
-      "ts": 1784756830,
-      "ts_str": "2026-07-22 21:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock Watch Ahead of 911.5 Million Shares Unlocked - Baystreet.ca",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 14:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTFBxUGV0blZrLTlpalZfRW0yREtYWjdXTzUyVHBKSXhpUW9adnpYREtyNjA0dVkzcEk0S0xlM3pQMlZMNXdTdXctUmdFUGJMdXlaTmZ5TmhXN3VwLU9ZYXZWbUNqZjZTMlZlNXhYd0RCXzY2QkNzR3Vz0gF8QVVfeXFMUE5Jak5qZTRmNWlCY08yZnFocmxpLU1RdXZVR2w3aEgxUm00RnhBS2xrSmxTUFJyZmRxX2t6bzQwUDhET0NidWh2aDVlV0hNWk1yOGFHV1lMRGVYallvNkszWFlZLXYtV0Fyd0ZYQVJkVzBEblp6U0hlQjZwTA?oc=5\n\nSpaceX Stock Watch Ahead of 911.5 Million Shares Unlocked - Baystreet.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBxUGV0blZrLTlpalZfRW0yREtYWjdXTzUyVHBKSXhpUW9adnpYREtyNjA0dVkzcEk0S0xlM3pQMlZMNXdTdXctUmdFUGJMdXlaTmZ5TmhXN3VwLU9ZYXZWbUNqZjZTMlZlNXhYd0RCXzY2QkNzR3Vz0gF8QVVfeXFMUE5Jak5qZTRmNWlCY08yZnFocmxpLU1RdXZVR2w3aEgxUm00RnhBS2xrSmxTUFJyZmRxX2t6bzQwUDhET0NidWh2aDVlV0hNWk1yOGFHV1lMRGVYallvNkszWFlZLXYtV0Fyd0ZYQVJkVzBEblp6U0hlQjZwTA?oc=5\" target=\"_blank\">SpaceX Stock Watch Ahead of 911.5 Million Shares Unlocked</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baystreet.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
     }
   ],
   "catalysts": [
