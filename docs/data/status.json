@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785594724,
-  "generated_at_str": "2026-08-01 14:32:04 UTC",
-  "last_event_ts": 1785593642,
+  "generated_at": 1785594914,
+  "generated_at_str": "2026-08-01 14:35:14 UTC",
+  "last_event_ts": 1785594914,
   "tables": {
     "alerts_dedup": {
-      "count": 2843,
-      "last_ts": 1785584832,
-      "last_str": "2026-08-01 11:47:12 UTC"
+      "count": 2844,
+      "last_ts": 1785594914,
+      "last_str": "2026-08-01 14:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-01 10:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3499,
-      "last_ts": 1785591302,
-      "last_str": "2026-08-01 13:35:02 UTC"
+      "count": 3501,
+      "last_ts": 1785594902,
+      "last_str": "2026-08-01 14:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4136,
-      "last_ts": 1785593109,
-      "last_str": "2026-08-01 14:05:09 UTC"
+      "count": 4137,
+      "last_ts": 1785594904,
+      "last_str": "2026-08-01 14:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2763,
-      "last_ts": 1785593108,
-      "last_str": "2026-08-01 14:05:08 UTC"
+      "count": 2765,
+      "last_ts": 1785594903,
+      "last_str": "2026-08-01 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3092,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2851,
+      "ts": 1785594914,
+      "ts_str": "2026-08-01 14:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Smartphone Chip Shipments Fall 15% as Memory Prices Surge 300% - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 01 Aug 2026 13:07:15 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVVxZmhFTmw0NHhPM1FQcUNRVUhRcEdoOHJlLTduNHBnU0VwZFE4aklJRkloMnBrNWE1YUFWekVFM05MYTRPZW4xNzhxMUJmUGhTTW5NODFiNkJkZ0FILVN4TWtjTE5WVGxNY29faVMzUmxzVlFXSTVKbmVTNVRXZ1lQOWRsTW14UDBzSE1fRlVYc0ZqR2x3dFR0M2VqSS1scDJvRUtR?oc=5\n\nSmartphone Chip Shipments Fall 15% as Memory Prices Surge 300% - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVVxZmhFTmw0NHhPM1FQcUNRVUhRcEdoOHJlLTduNHBnU0VwZFE4aklJRkloMnBrNWE1YUFWekVFM05MYTRPZW4xNzhxMUJmUGhTTW5NODFiNkJkZ0FILVN4TWtjTE5WVGxNY29faVMzUmxzVlFXSTVKbmVTNVRXZ1lQOWRsTW14UDBzSE1fRlVYc0ZqR2x3dFR0M2VqSS1scDJvRUtR?oc=5\" target=\"_blank\">Smartphone Chip Shipments Fall 15% as Memory Prices Surge 300%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News reports smartphone chip shipments fell 15% while memory prices surged 300%, per Seoul Economic Daily.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053\u79f0\uff0c\u636e\u97e9\u56fd\u7ecf\u6d4e\u65e5\u62a5\uff0c\u667a\u80fd\u624b\u673a\u82af\u7247\u51fa\u8d27\u91cf\u4e0b\u964d15%\uff0c\u540c\u65f6\u5185\u5b58\u4ef7\u683c\u66b4\u6da8300%\u3002\n\nWhy it matters:\nA 300% memory price spike (DRAM/NAND/HBM) squeezes hyperscaler capex economics and signals AI-driven demand is outstripping supply hard enough to hit adjacent consumer chip volumes \u2014 a stress point that can ripple into AI server costs and margins.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u4ef7\u683c\u66b4\u6da8300%\u4f1a\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u7ecf\u6d4e\u6027\uff0c\u8bf4\u660eAI\u9a71\u52a8\u7684\u9700\u6c42\u5df2\u7ecf\u5f3a\u5230\u51b2\u51fb\u6d88\u8d39\u7535\u5b50\u82af\u7247\u51fa\u8d27\u91cf\u2014\u2014\u8fd9\u79cd\u538b\u529b\u53ef\u80fd\u8fdb\u4e00\u6b65\u4f20\u5bfc\u5230AI\u670d\u52a1\u5668\u6210\u672c\u548c\u5229\u6da6\u7387\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2850,
       "ts": 1785584832,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-HIGH] SpaceX Stock Falls Below IPO Price as Lock-Up Expir\u2026 - StartupHub.ai",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 22:40:42 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXo2ejBCRFpoa1RPZGxQZHY2VFBhNlVad19jWjg5MzlyOUFsMEZJM3RjRXFVZW1vV0JOb2V5LU9MUnkwTlUwd1ByUTNFTllERGZ4bFZFaEd4Um9TSllZaTl5YkxoelphaTFBSGZpaHNZbmpGWGwwVXlFazEyZU1aYUFnRF81Z0ZpX0hhVmliaEFmZzMxNkROQUtn?oc=5\n\nSpaceX Stock Falls Below IPO Price as Lock-Up Expir\u2026 - StartupHub.ai\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPQXo2ejBCRFpoa1RPZGxQZHY2VFBhNlVad19jWjg5MzlyOUFsMEZJM3RjRXFVZW1vV0JOb2V5LU9MUnkwTlUwd1ByUTNFTllERGZ4bFZFaEd4Um9TSllZaTl5YkxoelphaTFBSGZpaHNZbmpGWGwwVXlFazEyZU1aYUFnRF81Z0ZpX0hhVmliaEFmZzMxNkROQUtn?oc=5\" target=\"_blank\">SpaceX Stock Falls Below IPO Price as Lock-Up Expir\u2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StartupHub.ai</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
-    },
-    {
-      "id": 2649,
-      "ts": 1784761507,
-      "ts_str": "2026-07-22 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 22 Jul 2026 17:38:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\n\nSamsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge - TelecomLead\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcURCVzM3bXhhQWt4N0YtUXhSWHdzR213aFVkNUhKcVhTbHVnM2FKZmNYQVZWdk4tc2UyTWxlV2dxS0NCc1pPYnJESXNrQTNyYm5peFpGTXFFSnRmNmxFZFNPUnp6NHVrR3JiUFdZUlh0SnNscDg1OWRjYk4xU0JZZ3dqMWpBaGR2LUIyLUZiQWpuXzBNNnpiMlk2X1NVdHFNZE5Oaldfd0hoV2F2TUdNN0VxVdIBuwFBVV95cUxOUEN1OVBjYUpZcm1GT1hzZHoyM2x0Qkx0SjFBdmZGMnI2WUsyM0lJd1NZYXc2WExDRU1IYzgwMGl5SWxqVG5XaGZERFBPR2xNOTdVNm9nRVI5UDVmSE4zclRIa1g5cnNua3VBUWRBMWRlaExWcWFxNE1IbmVEdW55bzVsQkRwbE1LSVRCMFpWTXhCV05JZ1lsZXpjWDhDcUhKM3ZYYU54VTBBVDI0YzcweU1WdkRRQl9MSFpB?oc=5\" target=\"_blank\">Samsung Raises Foldable Phone Prices by $100 as Memory Chip Costs Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TelecomLead</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
