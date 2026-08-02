@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785668526,
-  "generated_at_str": "2026-08-02 11:02:06 UTC",
-  "last_event_ts": 1785667623,
+  "generated_at": 1785668715,
+  "generated_at_str": "2026-08-02 11:05:15 UTC",
+  "last_event_ts": 1785668715,
   "tables": {
     "alerts_dedup": {
-      "count": 2856,
-      "last_ts": 1785664035,
-      "last_str": "2026-08-02 09:47:15 UTC"
+      "count": 2857,
+      "last_ts": 1785668715,
+      "last_str": "2026-08-02 11:05:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-08-02 10:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4189,
-      "last_ts": 1785666903,
-      "last_str": "2026-08-02 10:35:03 UTC"
+      "count": 4190,
+      "last_ts": 1785668705,
+      "last_str": "2026-08-02 11:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2784,
-      "last_ts": 1785666902,
-      "last_str": "2026-08-02 10:35:02 UTC"
+      "last_ts": 1785668703,
+      "last_str": "2026-08-02 11:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3115,
-      "last_ts": 1785657904,
-      "last_str": "2026-08-02 08:05:04 UTC"
+      "count": 3117,
+      "last_ts": 1785668706,
+      "last_str": "2026-08-02 11:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 20740,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2864,
+      "ts": 1785668715,
+      "ts_str": "2026-08-02 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI boom triggers \u201cRAMaggedon\u201d as memory chip crunch drives global price surge - ETEnterpriseai.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 02 Aug 2026 05:49:08 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVnowaTUwZ3NlYTU3V1hoOWx4N3ZpMFF4d0w2cktrU1p1U0RYUFkwQWYtMFVnUXVleTFQVjVuckZuRW12el8zN0t2OXJVQUQySENGcWpUSFRSOUJhR3NHZFFWR0pqYlRnVk1YYl9wNEZBbjl5YlkzVl9PWjVibVZUUGdTR3RfOHNHTUlQM20tLU5hRTg2dTlMZTQ2dUJBYzIzU1BtYWRiUnlxMUtRY1psSHpySzg1VEYtblRGWVJRVVZCa0VUX0NaclRXaURUZDZlUHdpaWxR0gHWAUFVX3lxTE9WejBpNTBnc2VhNTdXWGg5bHg3dmkwUXh3TDZyS2tTWnVTRFhQWTBBZi0wVWdRdWV5MVBWNW5yRm5FbXZ6XzM3S3Y5clVBRDJIQ0ZxalRIVFI5QmFHc0dkUVZHSmpiVGdWTVhiX3A0RkFuOXliWTNWX09aNWJtVlRQZ1NHdF84c0dNSVAzbS0tTmFFODZ1OUxlNDZ1QkFjMjNTUG1hZGJSeXExS1FjWmxIenJLODVURi1uVEZZUlFVVkJrRVRfQ1pyVFdpRFRkNmVQd2lpbFE?oc=5\n\nAI boom triggers \u201cRAMaggedon\u201d as memory chip crunch drives global price surge - ETEnterpriseai.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVnowaTUwZ3NlYTU3V1hoOWx4N3ZpMFF4d0w2cktrU1p1U0RYUFkwQWYtMFVnUXVleTFQVjVuckZuRW12el8zN0t2OXJVQUQySENGcWpUSFRSOUJhR3NHZFFWR0pqYlRnVk1YYl9wNEZBbjl5YlkzVl9PWjVibVZUUGdTR3RfOHNHTUlQM20tLU5hRTg2dTlMZTQ2dUJBYzIzU1BtYWRiUnlxMUtRY1psSHpySzg1VEYtblRGWVJRVVZCa0VUX0NaclRXaURUZDZlUHdpaWxR0gHWAUFVX3lxTE9WejBpNTBnc2VhNTdXWGg5bHg3dmkwUXh3TDZyS2tTWnVTRFhQWTBBZi0wVWdRdWV5MVBWNW5yRm5FbXZ6XzM3S3Y5clVBRDJIQ0ZxalRIVFI5QmFHc0dkUVZHSmpiVGdWTVhiX3A0RkFuOXliWTNWX09aNWJtVlRQZ1NHdF84c0dNSVAzbS0tTmFFODZ1OUxlNDZ1QkFjMjNTUG1hZGJSeXExS1FjWmxIenJLODVURi1uVEZZUlFVVkJrRVRfQ1pyVFdpRFRkNmVQd2lpbFE?oc=5\" target=\"_blank\">AI boom triggers \u201cRAMaggedon\u201d as memory chip crunch drives global price surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETEnterpriseai.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports a memory-chip shortage (\"RAMaggedon\") driving global DRAM/NAND price surges amid AI-driven demand.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u6807\u9898\u62a5\u9053\uff0cAI \u9700\u6c42\u5f15\u53d1\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\uff08\"RAMaggedon\"\uff09\uff0c\u63a8\u52a8\u5168\u7403 DRAM/NAND \u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising memory costs feed directly into hyperscaler capex and squeeze margins on AI server builds, adding another cost-pressure data point to the capex-payback thesis \u2014 though this is a single trade-press headline, not a filed number.\n\n\u5f71\u54cd:\n\u5b58\u50a8\u6210\u672c\u4e0a\u5347\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 AI \u670d\u52a1\u5668\u5efa\u8bbe\u8d44\u672c\u5f00\u652f\u5e76\u538b\u7f29\u5229\u6da6\u7387\uff0c\u4e3a capex \u56de\u672c\u903b\u8f91\u518d\u6dfb\u4e00\u4e2a\u6210\u672c\u538b\u529b\u4fe1\u53f7\u2014\u2014\u4e0d\u8fc7\u8fd9\u53ea\u662f\u4e00\u6761\u884c\u4e1a\u5a92\u4f53\u6807\u9898\uff0c\u5e76\u975e\u5df2\u62ab\u9732\u7684\u5177\u4f53\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2863,
       "ts": 1785664035,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Price Falls 49% Ahead of $116 Billion Share Lock-Up Expiry - Coinpedia",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:59:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxOdDJQMU9BdlZYd2MtenJ2cGQtd1lqcWJrMjZ4LXJ6ZkdNdWZza3Z2cENRRFlleXZ2MWpjNGowdjFvR25pdEdnN0twTVBfU1J1QzY0SWUyME5lc1ZYVWZuREJzME9RRTBQWHBJVXlfRHNoZmJNNmE3VEx2VnhVRXp3UkkwRFVJRWppdTJmemo4M3ByWGhIQ0hKRmtEcUlTWjVTYThpb1RmQmppczVSelYxbThMZ9IBswFBVV95cUxOdDJQMU9BdlZYd2MtenJ2cGQtd1lqcWJrMjZ4LXJ6ZkdNdWZza3Z2cENRRFlleXZ2MWpjNGowdjFvR25pdEdnN0twTVBfU1J1QzY0SWUyME5lc1ZYVWZuREJzME9RRTBQWHBJVXlfRHNoZmJNNmE3VEx2VnhVRXp3UkkwRFVJRWppdTJmemo4M3ByWGhIQ0hKRmtEcUlTWjVTYThpb1RmQmppczVSelYxbThMZw?oc=5\n\nSpaceX Stock Price Falls 49% Ahead of $116 Billion Share Lock-Up Expiry - Coinpedia\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOdDJQMU9BdlZYd2MtenJ2cGQtd1lqcWJrMjZ4LXJ6ZkdNdWZza3Z2cENRRFlleXZ2MWpjNGowdjFvR25pdEdnN0twTVBfU1J1QzY0SWUyME5lc1ZYVWZuREJzME9RRTBQWHBJVXlfRHNoZmJNNmE3VEx2VnhVRXp3UkkwRFVJRWppdTJmemo4M3ByWGhIQ0hKRmtEcUlTWjVTYThpb1RmQmppczVSelYxbThMZ9IBswFBVV95cUxOdDJQMU9BdlZYd2MtenJ2cGQtd1lqcWJrMjZ4LXJ6ZkdNdWZza3Z2cENRRFlleXZ2MWpjNGowdjFvR25pdEdnN0twTVBfU1J1QzY0SWUyME5lc1ZYVWZuREJzME9RRTBQWHBJVXlfRHNoZmJNNmE3VEx2VnhVRXp3UkkwRFVJRWppdTJmemo4M3ByWGhIQ0hKRmtEcUlTWjVTYThpb1RmQmppczVSelYxbThMZw?oc=5\" target=\"_blank\">SpaceX Stock Price Falls 49% Ahead of $116 Billion Share Lock-Up Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinpedia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2665,
-      "ts": 1784821631,
-      "ts_str": "2026-07-23 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com - Investing.com Australia",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 13:59:05 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLU81dHZiSTNzZkFDc0Y4SV9ydmoxT0VPMFBQQWVlN1BDNG1EN0hTV3Q5NzZLZXFEMlZLM0ptT0ZiVGw0c3l4U05pQmFIdWZTQnVEQ1RfUGh2MU5PTGQtblpBeUNySXBiR2FsRGxYSlZEalpwbEZueGRudVZCYTA0NVZjMnl4WkFicUhrY2hqbE0xMV84U0RFbnpieGNMLTFBbk1ta3BkNHRLN09mOGJJUTJwRDF6d1VEaHZPUWpiWm5OOW5pdzNpQnBGbVUzREJVdWVONEJHOVp0dm5Z?oc=5\n\nSpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com - Investing.com Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLU81dHZiSTNzZkFDc0Y4SV9ydmoxT0VPMFBQQWVlN1BDNG1EN0hTV3Q5NzZLZXFEMlZLM0ptT0ZiVGw0c3l4U05pQmFIdWZTQnVEQ1RfUGh2MU5PTGQtblpBeUNySXBiR2FsRGxYSlZEalpwbEZueGRudVZCYTA0NVZjMnl4WkFicUhrY2hqbE0xMV84U0RFbnpieGNMLTFBbk1ta3BkNHRLN09mOGJJUTJwRDF6d1VEaHZPUWpiWm5OOW5pdzNpQnBGbVUzREJVdWVONEJHOVp0dm5Z?oc=5\" target=\"_blank\">SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": true
     }
   ],
