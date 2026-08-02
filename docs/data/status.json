@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785648726,
-  "generated_at_str": "2026-08-02 05:32:06 UTC",
-  "last_event_ts": 1785647642,
+  "generated_at": 1785648916,
+  "generated_at_str": "2026-08-02 05:35:16 UTC",
+  "last_event_ts": 1785648915,
   "tables": {
     "alerts_dedup": {
-      "count": 2852,
-      "last_ts": 1785647114,
-      "last_str": "2026-08-02 05:05:14 UTC"
+      "count": 2853,
+      "last_ts": 1785648915,
+      "last_str": "2026-08-02 05:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-02 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3539,
-      "last_ts": 1785647102,
-      "last_str": "2026-08-02 05:05:02 UTC"
+      "count": 3540,
+      "last_ts": 1785648902,
+      "last_str": "2026-08-02 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4176,
-      "last_ts": 1785647103,
-      "last_str": "2026-08-02 05:05:03 UTC"
+      "count": 4177,
+      "last_ts": 1785648904,
+      "last_str": "2026-08-02 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2783,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2860,
+      "ts": 1785648915,
+      "ts_str": "2026-08-02 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI demand fuels global 'RAMaggedon' memory chip shortage, Samsung predicts - newsbytesapp.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 02 Aug 2026 04:47:10 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZU96X1dLN2JSUU5Ic0NWR1dvUFB5SFJjUWFsU1JRb2lNZExwM2JnNG50bDE5aWVXMkVEbEk1VGFZaU9EYXVuTHdaVjhFSDJXYXd5Y2phOV9lUEVsNHJEbmxhcGN0UmRFaWRBRlN3akUzNEVhZy1RdnBuN2VZRjZ5R3EtTmpnQ0hCOVJJZC11elVUcmQzWEViUGZSZDBIcmdBbHNZYi1jSDhfMFpWRHhGeE9VNzVON3JmWVlZ?oc=5\n\nAI demand fuels global 'RAMaggedon' memory chip shortage, Samsung predicts - newsbytesapp.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZU96X1dLN2JSUU5Ic0NWR1dvUFB5SFJjUWFsU1JRb2lNZExwM2JnNG50bDE5aWVXMkVEbEk1VGFZaU9EYXVuTHdaVjhFSDJXYXd5Y2phOV9lUEVsNHJEbmxhcGN0UmRFaWRBRlN3akUzNEVhZy1RdnBuN2VZRjZ5R3EtTmpnQ0hCOVJJZC11elVUcmQzWEViUGZSZDBIcmdBbHNZYi1jSDhfMFpWRHhGeE9VNzVON3JmWVlZ?oc=5\" target=\"_blank\">AI demand fuels global 'RAMaggedon' memory chip shortage, Samsung predicts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newsbytesapp.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Samsung forecasting a global memory-chip shortage ('RAMaggedon') driven by AI demand.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u4e09\u661f\u9884\u6d4b AI \u9700\u6c42\u6b63\u5728\u5f15\u53d1\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff08\"RAMaggedon\"\uff09\u3002\n\nWhy it matters:\nTight DRAM/NAND/HBM supply pushes up hyperscaler bill-of-materials costs for AI servers, squeezing already-thin capex-payback economics; a supplier openly flagging shortage also signals pricing power is shifting to memory makers, a classic late-cycle input-cost tell.\n\n\u5f71\u54cd:\nDRAM/NAND/HBM \u4f9b\u7ed9\u8d8b\u7d27\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u8fdb\u4e00\u6b65\u6324\u538b\u672c\u5c31\u5355\u8584\u7684 capex \u56de\u672c\u7a7a\u95f4\uff1b\u4f9b\u5e94\u5546\u4e3b\u52a8\u793a\u8b66\u77ed\u7f3a\uff0c\u4e5f\u610f\u5473\u7740\u5b9a\u4ef7\u6743\u6b63\u5728\u5411\u5185\u5b58\u5382\u5546\u503e\u659c\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u8f93\u5165\u6210\u672c\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2859,
       "ts": 1785647114,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff - Investing.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 23 Jul 2026 12:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS21VdkpXemIzMllpU1dJdnREUWcwRkxaNHVRd2dyYlhsR0E1N2phNjRxX1U0dkw2bTJwSnRyYkx2cHdwOHNNc0U3NlVtSlU1alpKc0VLbi1lOUhBRXJpUVpKQWV5anNJc1Z4SVJRYmFCS1FRRE9hdXhmX0RYSXpNcW9JN0I3ak52UDljajE3STV4WWpteWRZM1M3T1dlMkZyeTJDMXJDdjVab0R0SUd4V0hiQ1lubGFOVFVMeElkS2JUdzBqOW9adklSaVhxbUVndWo0OE94eXI?oc=5\n\nSpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS21VdkpXemIzMllpU1dJdnREUWcwRkxaNHVRd2dyYlhsR0E1N2phNjRxX1U0dkw2bTJwSnRyYkx2cHdwOHNNc0U3NlVtSlU1alpKc0VLbi1lOUhBRXJpUVpKQWV5anNJc1Z4SVJRYmFCS1FRRE9hdXhmX0RYSXpNcW9JN0I3ak52UDljajE3STV4WWpteWRZM1M3T1dlMkZyeTJDMXJDdjVab0R0SUd4V0hiQ1lubGFOVFVMeElkS2JUdzBqOW9adklSaVhxbUVndWo0OE94eXI?oc=5\" target=\"_blank\">SpaceX stock analysis: Lockup expiry and valuation after post-IPO selloff</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": true
-    },
-    {
-      "id": 2660,
-      "ts": 1784818029,
-      "ts_str": "2026-07-23 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SPCX unlock in \u22647d: Q2'26 earnings +2td (9.1\u4ebf shares)",
-      "body": "Severity:   HIGH\nTranche:    Q2'26 earnings +2td\nDate:       2026-07-31 (ESTIMATED \u2014 earnings-linked, re-verify on EDGAR)  (7 day(s) out)\nRelease:    9.1\u4ebf shares (7.0% of shares outstanding)\nCumulative: 11.2% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA SpaceX (SPCX) lock-up tranche is estimated to expire within the next week, releasing a block of insider shares into the float.\n\nWhy it matters:\nSPCX floated ~4% of its shares and was fast-tracked into the Nasdaq-100, so index funds were forced to buy into a tiny float. Each unlock expands supply against that fixed passive bid; the large tranches (Q3'26 earnings \u224813\u4ebf, Day-366 Musk tranche \u224864\u4ebf) are the live test of whether index plumbing can absorb mega-IPO distribution \u2014 the same mechanics an OpenAI/Anthropic listing would face. Earnings-linked dates are estimates; confirm on EDGAR.\n",
       "emailed": true
     }
   ],
