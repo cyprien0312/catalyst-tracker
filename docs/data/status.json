@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785747729,
-  "generated_at_str": "2026-08-03 09:02:09 UTC",
-  "last_event_ts": 1785746822,
+  "generated_at": 1785747932,
+  "generated_at_str": "2026-08-03 09:05:32 UTC",
+  "last_event_ts": 1785747931,
   "tables": {
     "alerts_dedup": {
-      "count": 2875,
-      "last_ts": 1785743252,
-      "last_str": "2026-08-03 07:47:32 UTC"
+      "count": 2876,
+      "last_ts": 1785747931,
+      "last_str": "2026-08-03 09:05:31 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-03 01:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3595,
-      "last_ts": 1785746103,
-      "last_str": "2026-08-03 08:35:03 UTC"
+      "count": 3597,
+      "last_ts": 1785747907,
+      "last_str": "2026-08-03 09:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4229,
-      "last_ts": 1785746105,
-      "last_str": "2026-08-03 08:35:05 UTC"
+      "count": 4231,
+      "last_ts": 1785747909,
+      "last_str": "2026-08-03 09:05:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2812,
-      "last_ts": 1785746104,
-      "last_str": "2026-08-03 08:35:04 UTC"
+      "count": 2814,
+      "last_ts": 1785747908,
+      "last_str": "2026-08-03 09:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3145,
-      "last_ts": 1785746106,
-      "last_str": "2026-08-03 08:35:06 UTC"
+      "count": 3146,
+      "last_ts": 1785747909,
+      "last_str": "2026-08-03 09:05:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 20905,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2883,
+      "ts": 1785747931,
+      "ts_str": "2026-08-03 09:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] MacBook Air Supply Hit As Apple Grapples With Memory Chip Shortage - outlookbusiness.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 06:08:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUGd2SFVUaDVWRnBlQl9rWUQ2Q251cDZ2cEplbmhlVHNNdGRaTDE0Q2FZUm8tb1ZOTUdBSm1VX0tfX2Nyc3ptTmg2MW1WdHZDWUczX2NLRnVhREtnSWR1dmNuUGwtc1lYSHhJek5RdmFWWUlKQ0tmRXlKQ3FmeGk5cEF6MGVUYUdqSVdxQ2t2OHNBa3dpV011TFQyWGZPY1R3OW55RnB5ZElLTzTSAbgBQVVfeXFMTjJJSU9jaXM5N0dQVFhsbUFaTjRUeGhBWmdsQ3p0eHg4cFU5UW4wYmNSbkVyZEQwSWdVMlJYTDhRR2k4STdaTHdGemotMnpPUG10WnVENHk1dlBzclFmUTJmZUVNc2JpS1lVVGRJQkRqaUJyYVFjTjBESlpVRkM1QWJ2N3lMLVJxeV95OURQU1BfakM5STNWQm1KVTNIV3NDX2dCc0ZEdmlyLTQ0dDFDdk5ZS3VQV0E1Mw?oc=5\n\nMacBook Air Supply Hit As Apple Grapples With Memory Chip Shortage - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUGd2SFVUaDVWRnBlQl9rWUQ2Q251cDZ2cEplbmhlVHNNdGRaTDE0Q2FZUm8tb1ZOTUdBSm1VX0tfX2Nyc3ptTmg2MW1WdHZDWUczX2NLRnVhREtnSWR1dmNuUGwtc1lYSHhJek5RdmFWWUlKQ0tmRXlKQ3FmeGk5cEF6MGVUYUdqSVdxQ2t2OHNBa3dpV011TFQyWGZPY1R3OW55RnB5ZElLTzTSAbgBQVVfeXFMTjJJSU9jaXM5N0dQVFhsbUFaTjRUeGhBWmdsQ3p0eHg4cFU5UW4wYmNSbkVyZEQwSWdVMlJYTDhRR2k4STdaTHdGemotMnpPUG10WnVENHk1dlBzclFmUTJmZUVNc2JpS1lVVGRJQkRqaUJyYVFjTjBESlpVRkM1QWJ2N3lMLVJxeV95OURQU1BfakM5STNWQm1KVTNIV3NDX2dCc0ZEdmlyLTQ0dDFDdk5ZS3VQV0E1Mw?oc=5\" target=\"_blank\">MacBook Air Supply Hit As Apple Grapples With Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Apple's MacBook Air supply being disrupted by a memory-chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c\u82f9\u679c MacBook Air \u7684\u4f9b\u5e94\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u53d7\u5230\u51b2\u51fb\u3002\n\nWhy it matters:\nConfirms DRAM/NAND tightness is spilling from data-center AI demand into consumer device supply chains \u2014 a sign the memory shortage is broad enough to constrain non-AI hardware, which tends to precede further memory price spikes that raise AI-server bill-of-materials costs.\n\n\u5f71\u54cd:\n\u8fd9\u8bf4\u660e DRAM/NAND \u7684\u7d27\u5f20\u5df2\u7ecf\u4ece\u6570\u636e\u4e2d\u5fc3 AI \u9700\u6c42\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u4f9b\u5e94\u94fe\u2014\u2014\u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u5f71\u54cd\u975e AI \u786c\u4ef6\u7684\u7a0b\u5ea6\uff0c\u8fd9\u7c7b\u4fe1\u53f7\u5f80\u5f80\u9884\u793a\u5185\u5b58\u4ef7\u683c\u4f1a\u8fdb\u4e00\u6b65\u4e0a\u6da8\uff0c\u4ece\u800c\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2882,
       "ts": 1785743252,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C11-MED] HSBC Begins Coverage of SpaceX (SPCX) with Hold Rating and $115 Price Target - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 10:37:57 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0FmTmdsUjROZ1N0WVN6MVRlcmU2T2o2MGtGZVJDalpyRXZBaUc4WjNRUGtRcXZ1TWNjb3pYeThkOTZoanhhYUVqTXREdlFOeVh3MDdsSXBCaUZQZVE1ZlNhUE1DVWJJR3g0R09nbFJYMVRCVG91aDlhclo4R21paWRoZ1FISGtwcWp5TjJ6TXA3VVFPYUZReEVTX1EtOEE3OWhrSVoycXFoTHRTM25scjRB?oc=5\n\nHSBC Begins Coverage of SpaceX (SPCX) with Hold Rating and $115 Price Target - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOc0FmTmdsUjROZ1N0WVN6MVRlcmU2T2o2MGtGZVJDalpyRXZBaUc4WjNRUGtRcXZ1TWNjb3pYeThkOTZoanhhYUVqTXREdlFOeVh3MDdsSXBCaUZQZVE1ZlNhUE1DVWJJR3g0R09nbFJYMVRCVG91aDlhclo4R21paWRoZ1FISGtwcWp5TjJ6TXA3VVFPYUZReEVTX1EtOEE3OWhrSVoycXFoTHRTM25scjRB?oc=5\" target=\"_blank\">HSBC Begins Coverage of SpaceX (SPCX) with Hold Rating and $115 Price Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHSBC initiated coverage on SpaceX (SPCX) with a Hold rating and a $115 price target.\n\n\u5185\u5bb9:\nHSBC \u5f00\u59cb\u8986\u76d6 SpaceX (SPCX)\uff0c\u7ed9\u4e88\u300c\u6301\u6709\u300d\u8bc4\u7ea7\uff0c\u76ee\u6807\u4ef7 $115\u3002\n\nWhy it matters:\nSell-side coverage from a bulge-bracket bank signals SPCX is being treated as a liquid, trackable equity rather than a private curiosity \u2014 a precondition for index inclusion and passive-flow exposure once shares trade publicly. A Hold rather than Buy/Sell also suggests HSBC sees the stock as roughly fairly valued at current levels, tempering the pure momentum narrative.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5927\u578b\u6295\u884c\u5f00\u59cb\u8986\u76d6 SPCX\uff0c\u8bf4\u660e\u5e02\u573a\u5f00\u59cb\u628a\u5b83\u5f53\u4f5c\u4e00\u53ea\u53ef\u8ffd\u8e2a\u7684\u6d41\u52a8\u6027\u80a1\u7968\uff0c\u800c\u4e0d\u53ea\u662f\u4e00\u5bb6\u79c1\u4eba\u516c\u53f8\u2014\u2014\u8fd9\u662f\u672a\u6765\u88ab\u7eb3\u5165\u6307\u6570\u3001\u83b7\u5f97\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u524d\u63d0\u6761\u4ef6\u3002\u8bc4\u7ea7\u662f\u300c\u6301\u6709\u300d\u800c\u975e\u300c\u4e70\u5165\u300d\u6216\u300c\u5356\u51fa\u300d\uff0c\u4e5f\u8bf4\u660e HSBC \u8ba4\u4e3a\u5f53\u524d\u80a1\u4ef7\u5927\u81f4\u5408\u7406\uff0c\u4e3a\u7eaf\u7cb9\u7684\u52a8\u80fd\u53d9\u4e8b\u964d\u6e29\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2683,
-      "ts": 1784895255,
-      "ts_str": "2026-07-24 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Better IPO Stock: Anthropic vs. OpenAI - The Globe and Mail",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 10:09:16 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxPcE9pN0tuZnNqOHE2RDFqRHFvM3VTSGdqTFVnZGhreEtKcXBNU3dlRkYwa0tEMTlwUUJQa2JyTWFjNzhIUkRwVXJSU0VlUWE5b3dwcDJWd0lET3FGVG1SWHlzQ2dtV2hLWHl5TkRiU202QkdGQS1qdUpjMHJBR2tjaGRYVmREQ3RzamIxMGh0b2RodzF3MURYTmFDbTNRZ0FBVHJJTGpFb0c5QzAyckpkX29TQjFORXlLd2h0QzVsTQ?oc=5\n\nBetter IPO Stock: Anthropic vs. OpenAI - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPcE9pN0tuZnNqOHE2RDFqRHFvM3VTSGdqTFVnZGhreEtKcXBNU3dlRkYwa0tEMTlwUUJQa2JyTWFjNzhIUkRwVXJSU0VlUWE5b3dwcDJWd0lET3FGVG1SWHlzQ2dtV2hLWHl5TkRiU202QkdGQS1qdUpjMHJBR2tjaGRYVmREQ3RzamIxMGh0b2RodzF3MURYTmFDbTNRZ0FBVHJJTGpFb0c5QzAyckpkX29TQjFORXlLd2h0QzVsTQ?oc=5\" target=\"_blank\">Better IPO Stock: Anthropic vs. OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Globe and Mail piece frames the OpenAI-vs-Anthropic race as an IPO-stock comparison, not a burn-rate or filing disclosure.\n\n\u5185\u5bb9:\n\u300a\u73af\u7403\u90ae\u62a5\u300b\u4e00\u7bc7\u6587\u7ae0\u5c06 OpenAI \u4e0e Anthropic \u7684\u7ade\u4e89\u6846\u5b9a\u4e3a\u4e00\u573a IPO \u80a1\u7968\u6bd4\u8f83,\u800c\u975e\u70e7\u94b1\u901f\u5ea6\u6216\u76d1\u7ba1\u62ab\u9732\u4e8b\u4ef6\u3002\n\nWhy it matters:\nThis is generic media speculation, not a quantified OpenAI burn-rate or filing event \u2014 it doesn't move the C3 thesis on its own, it's just noise sitting in the RSS stream alongside real signals.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u6cdb\u6cdb\u7684\u5a92\u4f53\u731c\u6d4b,\u4e0d\u6d89\u53ca\u91cf\u5316\u7684 OpenAI \u70e7\u94b1\u6570\u636e\u6216\u76d1\u7ba1\u6587\u4ef6,\u672c\u8eab\u4e0d\u8db3\u4ee5\u63a8\u52a8 C3 \u8bba\u70b9\u6210\u7acb\u2014\u2014\u53ea\u662f RSS \u4fe1\u53f7\u6d41\u91cc\u5939\u6742\u7684\u566a\u97f3,\u548c\u771f\u6b63\u7684\u4fe1\u53f7\u5e76\u5217\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
