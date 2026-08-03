@@ -2,6 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**真相源：[`docs/STATE.md`](docs/STATE.md)** —— 此刻状态和全部待办只在那一处。
+**先读它再动手**；本文件只讲「怎么干」，不讲「现在怎么样」。
+
+> ⚠️ **生产跑在另一台机器（openclaw）上，不是每台 clone 都在跑。**
+> 动手前先 `git fetch && git status -sb` —— 本机 clone 落后几千个 `state:` commit 是常态，
+> 拿本地 `state/tracker.sqlite` 当现状会得出完全相反的结论（2026-08-03 真踩过）。
+
 ## What this is
 
 `catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for eleven "AI infrastructure bubble-stress" signals (C1–C11) and emails alerts via Gmail SMTP.
@@ -141,3 +148,38 @@ GitHub Actions cannot use this path (ephemeral runners can't hold the claude.ai 
 ## Source spec
 
 Thresholds and verbatim regex anchors live in `docs/source-spec.md` (§3 and §10). Implementation plans for each catalyst and the LLM layer live in `docs/superpowers/plans/`.
+
+## 坑 / Gotcha（踩过的，别再踩）
+
+上面各节已详述，本节只做**索引**（SessionStart hook 靠 grep 本节标题给指针），不复述：
+
+- **本机 clone 常年落后几千个 commit** —— 生产在另一台机器，`state:` 提交由那边的 cron 写。
+  用本地 `state/tracker.sqlite` 或本地 `crontab -l` 判断「系统是否在跑」会得出相反结论。
+  **先 `git fetch` 再下判断。**（2026-08-03 真踩过：据此误判「已停跑 19 天」，实际一直在跑。）
+- **C4 / C5 的 transition semantics** —— 空库首扫**故意静默**，只建基线。查「为什么没告警」
+  先确认有没有前一行。见「Transition semantics」节。
+- **`lib/llm.py` 必须显式传 `--model`** —— CLI 默认 Fable 5 在 AU 受限，返回 `is_error`
+  后静默退回静态模板。见「LLM explanation path」节。
+- **改 prompt schema 必须 bump `_PROMPT_VERSION`**，会让全部缓存解释失效，这是预期的。
+- **Jinja 模板必须保留 `autoescape`** —— subject/body 来自外部 RSS。见「Dashboard alert viewer」节。
+- **`git log` 里的 `state: …` 是 cron 机器人写的，不是人改的，别 revert。** 见「Cron wrapper」节。
+- **PJM 的 `api-subscription-key` 会轮换** —— 401/403 时从 pjm.com 的 JS bundle 刷新。
+- **清 dedup 只能删 `alerts_dedup` 命名空间**，别动逐源幂等键，否则历史信号会重发。
+  见「Recovering from a polluted dedup state」节。
+- **在本机跑 `pytest` 或 `--dry-run` 会修改 `state/tracker.sqlite`**（35M 二进制，已跟踪），
+  导致后续 `git pull --rebase` 被未暂存改动挡住。跑完 `git checkout -- state/tracker.sqlite`。
+
+## 局限 / Known limits
+
+- **GitHub Actions 跑不了完整流程** —— ephemeral runner 拿不到本机 `claude` CLI 的登录会话。
+  **重估条件**：`lib/llm.py` 的 `api` backend（现为 stub）接上 Anthropic SDK 之后。
+- **C11 的 `UNLOCK_SCHEDULE` 是从 S-1 推算的**，earnings-linked tranche 会漂。
+  **重估条件**：拿到官方确认的解禁日历。
+- **没有针对 SEC / EDGAR / yfinance 的集成测试** —— `tests/fixtures/` 只有快照 canary。
+
+## 故意没做的（不是遗漏，别"顺手补上"）
+
+- **不改用 GitHub Actions 定时** —— 见 README「Why a single host instead of GitHub Actions」。
+- **不在 catalyst 模块里改阈值** —— 数值一律进 `lib/thresholds.py`，调邮件量也改那里。
+- **不给 dashboard 做服务端写入** —— Pages 是静态的，已读状态只存浏览器 localStorage，
+  按设备分开是预期行为。
