@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for eleven "AI infrastructure bubble-stress" signals (C1–C11) and emails alerts via Gmail SMTP.
+`catalyst-tracker` is a Python 3.11 monitoring pipeline that scans SEC filings, RSS feeds, XBRL financial data, ISO interconnection-queue snapshots, and macro/credit/crypto market data for eleven "AI infrastructure bubble-stress" signals (C1–C11) and emails alerts via the Resend HTTP API (`lib/email_send.py` — the Gmail SMTP path was replaced; `GMAIL_*` env vars are no longer used).
 
 C11 (SpaceX IPO unlock / passive flows) is the single-name index-mechanics specimen: a deterministic lock-up tranche calendar (⚠️ dates estimated from the S-1-derived schedule — earnings-linked tranches shift; hardcoded in `UNLOCK_SCHEDULE`), Google News RSS with a proximity classifier (mission-coverage noise guard), and a daily ETF-holdings diff from issuer CSVs (default ARKQ; extend via `C11_ETF_CSVS="FUND=url,..."`). ETF leg stores baselines silently on first run (same transition semantics as C4/C5); emails floored to HIGH via `CATALYST_EMAIL_MIN_SEVERITY`.
 
@@ -50,6 +50,12 @@ LOG_LEVEL=DEBUG .venv/bin/python -m catalysts.c3_openai --dry-run
 .venv/bin/python scripts/daily_report.py --html-out /tmp/d.html  # dump HTML
 bin/send_daily_report.sh                                        # cron wrapper (sources env)
 
+# Daily news roll-up email (the day's alert bodies + bilingual explanations, one mail)
+.venv/bin/python scripts/news_report.py --dry-run               # print
+.venv/bin/python scripts/news_report.py --hours 48              # widen the window
+.venv/bin/python scripts/news_report.py --html-out /tmp/n.html  # dump HTML
+bin/send_news_report.sh                                         # cron wrapper (09:10)
+
 # NDX buy-plan signal (regime + drawdown ladder, keyed off the C7/C2 fuses)
 .venv/bin/python scripts/regime_signal.py          # print the plan
 .venv/bin/python scripts/regime_signal.py --json   # machine-readable
@@ -71,7 +77,7 @@ bin/refresh_knowledge.sh                               # cron wrapper (08:45 dai
 
 # Smoke tests before prod changes
 .venv/bin/python scripts/llm_smoke.py     # verifies `claude` CLI envelope still matches lib/llm.py parsing
-.venv/bin/python scripts/test_alert.py    # sends an [OPS-TEST] email via Gmail SMTP
+.venv/bin/python scripts/test_alert.py    # sends an [OPS-TEST] email via Resend
 
 # Inspect state
 sqlite3 state/tracker.sqlite ".tables"
@@ -99,7 +105,7 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
 - `lib/crypto.py` — CoinGecko public API (keyless) — `btc_daily_closes()` daily BTC closes for C9. Rate-limited; degrades to `[]`.
 - `lib/prices.py` — yfinance wrapper with **6-hour TTL cache** keyed in the `c2_price_check` table (yfinance throttles hard)
 - `lib/state.py` — SQLite layer; tables include `c4_xbrl`, `c5_queues`, `c7_spreads`, `c8_macro`, `c9_crypto`, `c10_liquidity`, `llm_cache`, `alerts` (history rendered in dashboard), and the dedup `seen` table (`alerts_dedup` namespace + per-source idempotency keys)
-- `lib/notify.py` — Gmail SMTP send + alert dedup + persistence. **SHA-256 over `(subject, body[:500])` with 7-day TTL** prevents repeat emails AND prevents duplicate `alerts` rows. Every non-deduped alert is INSERTed into the `alerts` table regardless of whether SMTP fired. Two email-mute controls: `CATALYST_EMAIL_DISABLE=c3,c5` (CSV) silences a catalyst's emails entirely; `CATALYST_EMAIL_MIN_SEVERITY=c6:HIGH` (CSV of `tag:floor`) emails only alerts at/above the floor for that catalyst (quieter ones persist but don't email). The per-catalyst floor takes precedence over the blanket disable list. Both keep rows in DB; header `X-Catalyst-Severity:` still set.
+- `lib/notify.py` — Resend send + alert dedup + persistence. **SHA-256 over `(subject, body[:500])` with 7-day TTL** prevents repeat emails AND prevents duplicate `alerts` rows. Every non-deduped alert is INSERTed into the `alerts` table regardless of whether SMTP fired. Two email-mute controls: `CATALYST_EMAIL_DISABLE=c3,c5` (CSV) silences a catalyst's emails entirely; `CATALYST_EMAIL_MIN_SEVERITY=c6:HIGH` (CSV of `tag:floor`) emails only alerts at/above the floor for that catalyst (quieter ones persist but don't email). The per-catalyst floor takes precedence over the blanket disable list. Both keep rows in DB; header `X-Catalyst-Severity:` still set.
 - `lib/thresholds.py` — numeric thresholds (110% capex/OCF, $5/MMBtu Henry Hub, etc.). When tuning email volume, change here rather than in catalyst modules.
 - `lib/explanations.py` — `_REGISTRY` of static English "What this means / Why it matters" templates keyed by `(catalyst, signal_kind)`. `append_context()` is the entry point that catalysts call; it bridges to the LLM layer when enabled.
 - `lib/llm.py` — invokes local `claude` CLI in headless mode (`claude -p ... --model <m> --output-format json`) for bilingual EN/中文 explanations. **Passes `--model` explicitly (`CATALYST_LLM_MODEL`, default `claude-opus-4-8`)** — the CLI's own default (Fable 5) is region-restricted and returns `is_error="... Fable 5 is currently unavailable"` (e.g. AU), which silently forces the static-template fallback. `freeform(prompt)` is a public entry point for free-form text (used by the daily-digest FOCUS). Cache key includes `_PROMPT_VERSION` and the model tag — **bumping `_PROMPT_VERSION` invalidates every cached explanation**. When `lib/knowledge.py` injects ai-infra facts, a digest of that block is folded into the cache key **only if facts are present**, so the no-knowledge path keeps its pre-existing cache namespace (no mass invalidation). Designed to never break alerting: any failure logs `llm.fallback reason=...` and returns `None`, caller uses static template.
@@ -133,7 +139,46 @@ A once-a-day heartbeat email (cron 09:00 local), separate from the per-alert pat
 
 The digest also embeds a **BUY PLAN** card (`scripts/regime_signal.py`) just under FOCUS: a drawdown ladder for accumulating the **whole ETF portfolio** (IVV/BGBL core + satellites — NDX is the *trigger*, being the highest-beta AI tell, not the instrument). `lib/index_quote.py` pulls live NDX + SPX levels and ATHs via the keyless FRED `NASDAQ100`/`SP500` series; SPX renders as a reference line only (IVV/BGBL draws down shallower — NDX -20% ≈ SPX -13..-15%). The plan has two regimes, and **only the C7/C2 fuses flip between them** (all other signals are thermometers): **Regime A** (no fuse FIRING) = deep-heavy ladder (0%:10 / -10%:10 / -15%:15 / -20%:25), max 60% deployed / 40% reserve, "buy speed"; **Regime B** (C7 credit OR C2 neocloud FIRING) = freeze the fast ladder, deep ladder for a multi-quarter bust, last rung needs a manual stabilisation check (C7 stops widening, or 4-6wk no new 20d-low). Ladder rungs live in `REGIME_A_LADDER`/`REGIME_B_LADDER` in `scripts/regime_signal.py`. The card degrades to absent if the index fetch fails (wrapped in try/except in `build()`). Tested in `tests/test_regime_signal.py`.
 
-**Rung/regime-flip alerter** (`scripts/rung_alert.py`, hourly cron at :53 via `bin/check_rungs.sh`): emails within the hour when NDX crosses a ladder rung (HIGH) or the A/B regime flips (A→B CRITICAL, B→A MED), instead of waiting for the 09:00 digest. A rung alerts **once per drawdown episode** — the idempotency key includes the ATH date (`seen` namespace `buyplan_rungs`), and the ATH only moves while no rung is triggered, so a recovery to a new high re-arms the ladder; the 0% starter rung never alerts. Last-known regime lives in `seen` namespace `buyplan_regime` (first run records it silently). Alerts flow through `lib/notify.send_alert` under tag `buyplan`, so they land in the `alerts` table/dashboard like any catalyst. The wrapper writes only `state/tracker.sqlite` and does not commit — the :30-cadence catalyst runs sweep the state change into git. Tested in `tests/test_rung_alert.py`. The priority ranking and the loud-vs-floored email split (`CATALYST_EMAIL_MIN_SEVERITY`) are the agreed defaults: loud = fuses C7/C2 + hard-data C4/C1; floored to HIGH = C8/C6/C3/C5/C9.
+**Rung/regime-flip alerter** (`scripts/rung_alert.py`, hourly cron at :53 via `bin/check_rungs.sh`): emails within the hour when NDX crosses a ladder rung (HIGH) or the A/B regime flips (A→B CRITICAL, B→A MED), instead of waiting for the 09:00 digest. A rung alerts **once per drawdown episode** — the idempotency key includes the ATH date (`seen` namespace `buyplan_rungs`), and the ATH only moves while no rung is triggered, so a recovery to a new high re-arms the ladder; the 0% starter rung never alerts. Last-known regime lives in `seen` namespace `buyplan_regime` (first run records it silently). Alerts flow through `lib/notify.send_alert` under tag `buyplan`, so they land in the `alerts` table/dashboard like any catalyst. The wrapper writes only `state/tracker.sqlite` and does not commit — the :30-cadence catalyst runs sweep the state change into git. Tested in `tests/test_rung_alert.py`.
+
+### Daily news roll-up (`scripts/news_report.py`, `bin/send_news_report.sh`)
+
+The companion to the digest, cron **09:10** (10 minutes after it). The digest answers *"what is
+the state of the eleven signals"*; this answers *"what actually came in today"* — every alert from
+the last 24h with its full body **and** its bilingual LLM explanation, grouped by catalyst in the
+same priority spine, so the per-alert e-mails can stay muted without losing content.
+
+- **Reads the `alerts` table only.** No feed re-fetch, no state write at all (not even a `seen`
+  row — unlike the digest's `focus_history`). Safe to re-run, safe to run out of order with the
+  catalysts, and it never dirties `state/tracker.sqlite` for the next `git pull --rebase`.
+- **Deduped on the normalised subject within a catalyst** (reuses `daily_report._norm_subject`).
+  The same headline routinely arrives on several Google News feeds — the `"DRAM"` and `"NAND"`
+  queries both match the same article — so the raw row count overstates reality by ~30%. Dupes are
+  collapsed and rendered as `×N feeds`, keeping the loudest severity.
+- **Includes alerts that *were* e-mailed instantly**, tagged `sent instantly`. Deliberate: the
+  report is a complete daily record, not a "what you missed" list with unexplained gaps.
+- **Skips sending on an empty window** (`--send-empty` to override) — a daily "nothing happened"
+  mail is exactly the noise this change is removing.
+- Pure helpers unit-tested in `tests/test_news_report.py` (loaded via importlib, same as the digest).
+
+#### Email-volume policy (2026-08-04)
+
+The agreed split, after per-alert mail hit **68 e-mails in 7 days — 81% of it C11 news RSS**:
+
+| tier | catalysts | instant e-mail |
+|---|---|---|
+| fuses + hard data | C7, C2, C4, C1 | all severities (unchanged) |
+| buy plan | `buyplan` (rung/regime flips) | all severities (unchanged) |
+| numeric thermometer | C10 | HIGH and above |
+| news / background | C3, C5, C6, C8, C9, C11 | **CRITICAL only** |
+
+Everything below its floor still persists to `alerts` and the dashboard, and lands in the 09:10
+roll-up. Backtested against the real 7-day history: **68 → 5 instant e-mails**, the survivors being
+`buyplan CRITICAL ×1`, `c11 CRITICAL ×2`, `c1 HIGH ×1`, `c2 HIGH ×1`.
+
+⚠️ **Tune volume via `CATALYST_EMAIL_MIN_SEVERITY`, not `CATALYST_EMAIL_DISABLE`.** In
+`lib/notify._email_muted_for` the per-catalyst floor **takes precedence** over the blanket disable
+list — adding `c11` to `CATALYST_EMAIL_DISABLE` while it still has a floor set is a silent no-op.
 
 ### LLM explanation path
 
@@ -166,6 +211,12 @@ Thresholds and verbatim regex anchors live in `docs/source-spec.md` (§3 and §1
 - **PJM 的 `api-subscription-key` 会轮换** —— 401/403 时从 pjm.com 的 JS bundle 刷新。
 - **清 dedup 只能删 `alerts_dedup` 命名空间**，别动逐源幂等键，否则历史信号会重发。
   见「Recovering from a polluted dedup state」节。
+- **调邮件量要改 `CATALYST_EMAIL_MIN_SEVERITY`，不是 `CATALYST_EMAIL_DISABLE`** ——
+  `lib/notify._email_muted_for` 里**地板优先于 disable 名单**，给一个已设地板的 catalyst
+  加进 disable 名单是**静默无效**的。见「Email-volume policy」节。
+- **同一条新闻会从多个 Google News feed 进来**（`"DRAM"` 和 `"NAND"` 两个 query 命中同一篇），
+  所以 `alerts` 表的原始行数比真实新闻条数**虚高约 30%**。统计新闻量要按 subject 去重，
+  `news_report` 已经这么做了。
 - **在本机跑 `pytest` 或 `--dry-run` 会修改 `state/tracker.sqlite`**（35M 二进制，已跟踪），
   导致后续 `git pull --rebase` 被未暂存改动挡住。跑完 `git checkout -- state/tracker.sqlite`。
 

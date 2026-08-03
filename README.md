@@ -2,7 +2,7 @@
 
 AI Infrastructure Bubble-Stress catalyst tracker. Monitors nine distinct
 signals across SEC filings, news feeds, XBRL financial data, and ISO
-interconnection-queue snapshots, and emails alerts via Gmail SMTP.
+interconnection-queue snapshots, and emails alerts via the Resend HTTP API.
 
 The dashboard publishes to GitHub Pages from `/docs/`. See
 `docs/source-spec.md` for the design document and
@@ -100,7 +100,7 @@ set -a; source ~/.catalyst.env; set +a
 .venv/bin/python scripts/llm_smoke.py
 # expect: "OK: llm smoke passed (...)"
 
-# (b) Verify Gmail SMTP credentials
+# (b) Verify Resend credentials
 .venv/bin/python scripts/test_alert.py
 # expect: "sent" and an email in your inbox
 
