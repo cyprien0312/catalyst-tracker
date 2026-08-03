@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785796325,
-  "generated_at_str": "2026-08-03 22:32:05 UTC",
-  "last_event_ts": 1785796156,
+  "generated_at": 1785796514,
+  "generated_at_str": "2026-08-03 22:35:14 UTC",
+  "last_event_ts": 1785796513,
   "tables": {
     "alerts_dedup": {
-      "count": 2916,
-      "last_ts": 1785796156,
-      "last_str": "2026-08-03 22:29:16 UTC"
+      "count": 2919,
+      "last_ts": 1785796513,
+      "last_str": "2026-08-03 22:35:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-08-03 19:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3641,
-      "last_ts": 1785794702,
-      "last_str": "2026-08-03 22:05:02 UTC"
+      "count": 3643,
+      "last_ts": 1785796502,
+      "last_str": "2026-08-03 22:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4261,
@@ -89,9 +89,9 @@
       "last_str": "2026-08-03 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2840,
-      "last_ts": 1785791103,
-      "last_str": "2026-08-03 21:05:03 UTC"
+      "count": 2842,
+      "last_ts": 1785796503,
+      "last_str": "2026-08-03 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3199,
@@ -303,6 +303,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2924,
+      "ts": 1785796513,
+      "ts_str": "2026-08-03 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Commodity DRAM Prices Hit Another Record High in July - thelec.net",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 22:00:36 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdk01am9OMXBCUFN2VVVtMk1qN00zR1pMSDlOdmh4OC1WYXZaUV9WdGFGcU82RG1oQml5Q0FhSUJRMHhVU1lhcXZNNkViWnVOSzdOdnFqVmIyUTRvaVNMVHdMaGgwak0?oc=5\n\nCommodity DRAM Prices Hit Another Record High in July - thelec.net\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdk01am9OMXBCUFN2VVVtMk1qN00zR1pMSDlOdmh4OC1WYXZaUV9WdGFGcU82RG1oQml5Q0FhSUJRMHhVU1lhcXZNNkViWnVOSzdOdnFqVmIyUTRvaVNMVHdMaGgwak0?oc=5\" target=\"_blank\">Commodity DRAM Prices Hit Another Record High in July</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports commodity DRAM prices hit another record high in July, per thelec.net.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c7 \u6708\u5546\u54c1 DRAM \u4ef7\u683c\u518d\u521b\u5386\u53f2\u65b0\u9ad8\uff08\u6765\u6e90\uff1athelec.net\uff09\u3002\n\nWhy it matters:\nSustained DRAM price surges tighten margins for anyone buying memory at scale for AI servers and signal a supply-demand imbalance that can ripple into HBM pricing \u2014 a cost-side stress on the AI-capex build-out rather than a revenue-side one.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u6301\u7eed\u8d70\u9ad8\u4f1a\u538b\u7f29\u5927\u89c4\u6a21\u91c7\u8d2d\u5185\u5b58\u7528\u4e8e AI \u670d\u52a1\u5668\u7684\u4e00\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4e5f\u8bf4\u660e\u4f9b\u9700\u5931\u8861\u53ef\u80fd\u5916\u6ea2\u5230 HBM \u5b9a\u4ef7\u2014\u2014\u8fd9\u662f AI capex \u5efa\u8bbe\u4e2d\u6210\u672c\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u6536\u5165\u7aef\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2925,
+      "ts": 1785796513,
+      "ts_str": "2026-08-03 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Commodity DRAM Prices Hit Another Record High in July - thelec.net",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 22:00:36 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdk01am9OMXBCUFN2VVVtMk1qN00zR1pMSDlOdmh4OC1WYXZaUV9WdGFGcU82RG1oQml5Q0FhSUJRMHhVU1lhcXZNNkViWnVOSzdOdnFqVmIyUTRvaVNMVHdMaGgwak0?oc=5\n\nCommodity DRAM Prices Hit Another Record High in July - thelec.net\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdk01am9OMXBCUFN2VVVtMk1qN00zR1pMSDlOdmh4OC1WYXZaUV9WdGFGcU82RG1oQml5Q0FhSUJRMHhVU1lhcXZNNkViWnVOSzdOdnFqVmIyUTRvaVNMVHdMaGgwak0?oc=5\" target=\"_blank\">Commodity DRAM Prices Hit Another Record High in July</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thelec.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports commodity DRAM prices hit another record high in July, per thelec.net.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0c7 \u6708\u5546\u54c1 DRAM \u4ef7\u683c\u518d\u521b\u5386\u53f2\u65b0\u9ad8\uff08\u6765\u6e90\uff1athelec.net\uff09\u3002\n\nWhy it matters:\nSustained DRAM price surges tighten margins for anyone buying memory at scale for AI servers and signal a supply-demand imbalance that can ripple into HBM pricing \u2014 a cost-side stress on the AI-capex build-out rather than a revenue-side one.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u6301\u7eed\u8d70\u9ad8\u4f1a\u538b\u7f29\u5927\u89c4\u6a21\u91c7\u8d2d\u5185\u5b58\u7528\u4e8e AI \u670d\u52a1\u5668\u7684\u4e00\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4e5f\u8bf4\u660e\u4f9b\u9700\u5931\u8861\u53ef\u80fd\u5916\u6ea2\u5230 HBM \u5b9a\u4ef7\u2014\u2014\u8fd9\u662f AI capex \u5efa\u8bbe\u4e2d\u6210\u672c\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u6536\u5165\u7aef\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 2926,
+      "ts": 1785796513,
+      "ts_str": "2026-08-03 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability - streamlinefeed.co.ke",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 10:15:05 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxORUdLaHBWRE15ci1rUmJST3Ytd3JmX002VWxqdjlFTUdYVllkb3ZTbXNoMG1hdzBUeVhkMHJiZWpCZ3VhejBkdFRJSjdScUpyMTR2MmEtTU1vOFdKMFZTZ3FEN3J3aVVYQksxQjh3b3ZFQkdTVmhLTGFVX2lJSFIzMDQwaEVGbzlfS1FnaTlrOTdiazV0YmFYOXJnSzM3S3Q5YUY2MHo3anRIbVV0MGNiUQ?oc=5\n\nGlobal Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability - streamlinefeed.co.ke\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxORUdLaHBWRE15ci1rUmJST3Ytd3JmX002VWxqdjlFTUdYVllkb3ZTbXNoMG1hdzBUeVhkMHJiZWpCZ3VhejBkdFRJSjdScUpyMTR2MmEtTU1vOFdKMFZTZ3FEN3J3aVVYQksxQjh3b3ZFQkdTVmhLTGFVX2lJSFIzMDQwaEVGbzlfS1FnaTlrOTdiazV0YmFYOXJnSzM3S3Q5YUY2MHo3anRIbVV0MGNiUQ?oc=5\" target=\"_blank\">Global Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Kenyan business outlet's aggregated report claims a global memory-chip shortage exposes KES 4 trillion of supply-chain vulnerability; the item is generic wire coverage, not a primary disclosure.\n\n\u5185\u5bb9:\n\u80af\u5c3c\u4e9a\u4e00\u5bb6\u5546\u4e1a\u5a92\u4f53\u7684\u805a\u5408\u62a5\u9053\u79f0\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4f7f KES 4 \u4e07\u4ebf\u7684\u4f9b\u5e94\u94fe\u9762\u4e34\u98ce\u9669\uff1b\u8be5\u6761\u76ee\u5c5e\u4e8e\u6cdb\u5316\u8f6c\u8f7d\u62a5\u9053\uff0c\u4e0d\u662f\u4e00\u624b\u4fe1\u606f\u62ab\u9732\u3002\n\nWhy it matters:\nC6 fires on memory/storage term + shortage/surge language proximity \u2014 this is the low-conviction, RSS-noise end of that signal (no named supplier, no order data), but it's consistent with the DRAM/NAND/HBM tightness narrative feeding AI-server cost inflation if corroborated by harder sources.\n\n\u5f71\u54cd:\nC6 \u7684\u89e6\u53d1\u6761\u4ef6\u662f\u5185\u5b58/\u5b58\u50a8\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a/\u6da8\u4ef7\u7c7b\u63aa\u8f9e\u5728\u6587\u672c\u4e2d\u76f8\u90bb\u51fa\u73b0\u2014\u2014\u8fd9\u6761\u5c5e\u4e8e\u8be5\u4fe1\u53f7\u91cc\u53ef\u4fe1\u5ea6\u8f83\u4f4e\u7684 RSS \u566a\u97f3\u7aef\uff08\u6ca1\u6709\u5177\u4f53\u4f9b\u5e94\u5546\uff0c\u4e5f\u6ca1\u6709\u8ba2\u5355\u6570\u636e\uff09\uff0c\u4f46\u5982\u679c\u6709\u66f4\u786c\u7684\u4fe1\u6e90\u4f50\u8bc1\uff0c\u65b9\u5411\u4e0a\u4e0e DRAM/NAND/HBM \u4f9b\u5e94\u8d8b\u7d27\u63a8\u9ad8 AI \u670d\u52a1\u5668\u6210\u672c\u7684\u53d9\u4e8b\u662f\u4e00\u81f4\u7684\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2923,
       "ts": 1785796156,
@@ -2271,36 +2301,6 @@
       "severity": "MED",
       "subject": "[C11-MED] HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Globe and Mail",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 26 Jul 2026 23:28:18 GMT\nLink:      https://news.google.com/rss/articles/CBMihgJBVV95cUxQdHNFb2ZzSlA5U0dZT0NlRnQ4SVZyendNdW1CTm83ZExyLThpNHNIZkhFYmpoNWpWMGY4TFVxZmxMQUtUbjA3eEtMTWI1TTVRWDgyQ05tNXc0QWRlSnIzUGxRcDh5dWlHVGhmeHR5OTNiTDNMZVA5N1ppZThMVTB3ZHVReUI3cjRPUDBjczdUS0pNOExycHg2aG51eUl6V3ZpMV9Qa19pSzNGV3g1OFFZVEE1RFNES09nT2tNb3dIaTdfY05VeWQ1UkN0OUljYnROREpzTWVmRzNsQm1mdjZpeGI4Mzk5SURVdndYUmZ3UUs0WkR0X1YzR3N1Yi10WlpILWpUUGJ3?oc=5\n\nHSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxQdHNFb2ZzSlA5U0dZT0NlRnQ4SVZyendNdW1CTm83ZExyLThpNHNIZkhFYmpoNWpWMGY4TFVxZmxMQUtUbjA3eEtMTWI1TTVRWDgyQ05tNXc0QWRlSnIzUGxRcDh5dWlHVGhmeHR5OTNiTDNMZVA5N1ppZThMVTB3ZHVReUI3cjRPUDBjczdUS0pNOExycHg2aG51eUl6V3ZpMV9Qa19pSzNGV3g1OFFZVEE1RFNES09nT2tNb3dIaTdfY05VeWQ1UkN0OUljYnROREpzTWVmRzNsQm1mdjZpeGI4Mzk5SURVdndYUmZ3UUs0WkR0X1YzR3N1Yi10WlpILWpUUGJ3?oc=5\" target=\"_blank\">HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHSBC initiated coverage on SpaceX with a $115 price target, matching Friday's $115.07 close.\n\n\u5185\u5bb9:\nHSBC \u5f00\u59cb\u8986\u76d6 SpaceX\uff0c\u7ed9\u51fa $115 \u76ee\u6807\u4ef7\uff0c\u4e0e\u5468\u4e94\u6536\u76d8\u4ef7 $115.07 \u57fa\u672c\u6301\u5e73\u3002\n\nWhy it matters:\nThis is analyst-coverage noise, not a capex or balance-sheet signal \u2014 it doesn't move the C11 unlock/passive-flow thesis; the proximity classifier should treat it as background chatter unless it ties to actual float or index-inclusion mechanics.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u5206\u6790\u5e08\u8986\u76d6\u7c7b\u7684\u80cc\u666f\u566a\u97f3\uff0c\u5e76\u975e\u8d44\u672c\u5f00\u652f\u6216\u8d44\u4ea7\u8d1f\u503a\u8868\u4fe1\u53f7\uff0c\u5bf9 C11 \u89e3\u7981/\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u8bba\u70b9\u6ca1\u6709\u5b9e\u8d28\u5f71\u54cd\uff0c\u9664\u975e\u540e\u7eed\u4e0e\u6d41\u901a\u80a1\u672c\u6216\u6307\u6570\u7eb3\u5165\u673a\u5236\u6302\u94a9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2726,
-      "ts": 1785109632,
-      "ts_str": "2026-07-26 23:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Motley Fool",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 26 Jul 2026 23:11:50 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPV3poZ1ZzLS1hVmVlMm9PSXFHTHZZQ3E2bkpsVlJBc1NSbElQWDM2ZV9jVmJRUmFLWVNqdUluQ0lrUzNKSXphMFdhbmdOb2pNV3VjdDZOTnlfQU1GUEJoOWFtcUxUSzJqV1F2SzZ3UlJUbUZoUC1wRzJ0aVk1dHZRMEMxTjc2VEktYXRtM3RwSjdiLURnRE8tdA?oc=5\n\nHSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPV3poZ1ZzLS1hVmVlMm9PSXFHTHZZQ3E2bkpsVlJBc1NSbElQWDM2ZV9jVmJRUmFLWVNqdUluQ0lrUzNKSXphMFdhbmdOb2pNV3VjdDZOTnlfQU1GUEJoOWFtcUxUSzJqV1F2SzZ3UlJUbUZoUC1wRzJ0aVk1dHZRMEMxTjc2VEktYXRtM3RwSjdiLURnRE8tdA?oc=5\" target=\"_blank\">HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHSBC initiated coverage on SpaceX with a $115 price target, matching Friday's $115.07 close.\n\n\u5185\u5bb9:\nHSBC \u5f00\u59cb\u8986\u76d6 SpaceX\uff0c\u7ed9\u51fa $115 \u76ee\u6807\u4ef7\uff0c\u4e0e\u5468\u4e94\u6536\u76d8\u4ef7 $115.07 \u57fa\u672c\u4e00\u81f4\u3002\n\nWhy it matters:\nSell-side coverage on a still-private company is a precursor to public listing prep and index-eligibility mechanics \u2014 it's the kind of analyst attention that builds the case for the eventual IPO/unlock flows this catalyst tracks, not a fundamental signal on AI capex itself.\n\n\u5f71\u54cd:\n\u5bf9\u4e00\u5bb6\u4ecd\u662f\u79c1\u8425\u516c\u53f8\u7684\u4f01\u4e1a\u542f\u52a8\u5356\u65b9\u8986\u76d6\uff0c\u901a\u5e38\u662f\u4e3a\u516c\u5f00\u4e0a\u5e02\u505a\u94fa\u57ab\u3001\u5e76\u4e3a\u672a\u6765\u6307\u6570\u7eb3\u5165\u673a\u5236\u6253\u57fa\u7840\u7684\u4fe1\u53f7\u2014\u2014\u8fd9\u66f4\u591a\u662f\u5206\u6790\u5e08\u5173\u6ce8\u5ea6\u7684\u79ef\u7d2f\uff0c\u800c\u975e AI capex \u57fa\u672c\u9762\u672c\u8eab\u7684\u53d8\u5316\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2723,
-      "ts": 1785108913,
-      "ts_str": "2026-07-26 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027 - Technetbook",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 26 Jul 2026 23:29:00 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5nenB3LWFRT3E0YlhfRFN3X204b0VJU3ZaY3p6U1BXMm9xek5Gd3VTenVZZnYwMGVGZ1ZLRGdWblFWVkdNSFJaQUxWbnViQ1J5UTJZTWUzakdwMVFFU3FYYWtvUEZfZFB3Ui1IUEoyRmhNV1NlQVlCSlpMMA?oc=5\n\nApacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027 - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5nenB3LWFRT3E0YlhfRFN3X204b0VJU3ZaY3p6U1BXMm9xek5Gd3VTenVZZnYwMGVGZ1ZLRGdWblFWVkdNSFJaQUxWbnViQ1J5UTJZTWUzakdwMVFFU3FYYWtvUEZfZFB3Ui1IUEoyRmhNV1NlQVlCSlpMMA?oc=5\" target=\"_blank\">Apacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns of deep DRAM and enterprise SSD shortages extending to 2027, per Apacer.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cApacer \u8b66\u544a DRAM \u548c\u4f01\u4e1a\u7ea7 SSD \u5c06\u51fa\u73b0\u6df1\u5ea6\u77ed\u7f3a\uff0c\u4e14\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA memory-supplier warning of multi-year shortage (rather than glut) signals AI-driven demand is outstripping memory supply, supporting the capex-cycle thesis but raising input-cost risk for anyone building AI infrastructure.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u5e94\u5546\u8b66\u544a\u7684\u662f\u591a\u5e74\u671f\u77ed\u7f3a\u800c\u975e\u8fc7\u5269\uff0c\u8fd9\u8bf4\u660e AI \u9a71\u52a8\u7684\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u5185\u5b58\u4f9b\u7ed9\uff0c\u652f\u6491\u4e86 AI capex \u5468\u671f\u7684\u903b\u8f91\uff0c\u4f46\u4e5f\u610f\u5473\u7740 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u65b9\u9762\u4e34\u66f4\u9ad8\u7684\u786c\u4ef6\u91c7\u8d2d\u6210\u672c\u98ce\u9669\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2724,
-      "ts": 1785108913,
-      "ts_str": "2026-07-26 23:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027 - Technetbook",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 26 Jul 2026 23:29:00 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5nenB3LWFRT3E0YlhfRFN3X204b0VJU3ZaY3p6U1BXMm9xek5Gd3VTenVZZnYwMGVGZ1ZLRGdWblFWVkdNSFJaQUxWbnViQ1J5UTJZTWUzakdwMVFFU3FYYWtvUEZfZFB3Ui1IUEoyRmhNV1NlQVlCSlpMMA?oc=5\n\nApacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027 - Technetbook\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5nenB3LWFRT3E0YlhfRFN3X204b0VJU3ZaY3p6U1BXMm9xek5Gd3VTenVZZnYwMGVGZ1ZLRGdWblFWVkdNSFJaQUxWbnViQ1J5UTJZTWUzakdwMVFFU3FYYWtvUEZfZFB3Ui1IUEoyRmhNV1NlQVlCSlpMMA?oc=5\" target=\"_blank\">Apacer Warns of Deep DRAM and Enterprise SSD Shortages Extending to 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technetbook</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns of deep DRAM and enterprise SSD shortages extending to 2027, per Apacer.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cApacer \u8b66\u544a DRAM \u548c\u4f01\u4e1a\u7ea7 SSD \u5c06\u51fa\u73b0\u6df1\u5ea6\u77ed\u7f3a\uff0c\u4e14\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA memory-supplier warning of multi-year shortage (rather than glut) signals AI-driven demand is outstripping memory supply, supporting the capex-cycle thesis but raising input-cost risk for anyone building AI infrastructure.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u5e94\u5546\u8b66\u544a\u7684\u662f\u591a\u5e74\u671f\u77ed\u7f3a\u800c\u975e\u8fc7\u5269\uff0c\u8fd9\u8bf4\u660e AI \u9a71\u52a8\u7684\u9700\u6c42\u6b63\u5728\u8d85\u8fc7\u5185\u5b58\u4f9b\u7ed9\uff0c\u652f\u6491\u4e86 AI capex \u5468\u671f\u7684\u903b\u8f91\uff0c\u4f46\u4e5f\u610f\u5473\u7740 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u65b9\u9762\u4e34\u66f4\u9ad8\u7684\u786c\u4ef6\u91c7\u8d2d\u6210\u672c\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
