@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785792727,
-  "generated_at_str": "2026-08-03 21:32:07 UTC",
-  "last_event_ts": 1785791644,
+  "generated_at": 1785792916,
+  "generated_at_str": "2026-08-03 21:35:16 UTC",
+  "last_event_ts": 1785792915,
   "tables": {
     "alerts_dedup": {
-      "count": 2909,
-      "last_ts": 1785786433,
-      "last_str": "2026-08-03 19:47:13 UTC"
+      "count": 2910,
+      "last_ts": 1785792915,
+      "last_str": "2026-08-03 21:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-08-03 19:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3638,
-      "last_ts": 1785789303,
-      "last_str": "2026-08-03 20:35:03 UTC"
+      "count": 3640,
+      "last_ts": 1785792903,
+      "last_str": "2026-08-03 21:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4258,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2917,
+      "ts": 1785792915,
+      "ts_str": "2026-08-03 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability - streamlinefeed.co.ke",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 10:15:05 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxORUdLaHBWRE15ci1rUmJST3Ytd3JmX002VWxqdjlFTUdYVllkb3ZTbXNoMG1hdzBUeVhkMHJiZWpCZ3VhejBkdFRJSjdScUpyMTR2MmEtTU1vOFdKMFZTZ3FEN3J3aVVYQksxQjh3b3ZFQkdTVmhLTGFVX2lJSFIzMDQwaEVGbzlfS1FnaTlrOTdiazV0YmFYOXJnSzM3S3Q5YUY2MHo3anRIbVV0MGNiUQ?oc=5\n\nGlobal Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability - streamlinefeed.co.ke\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxORUdLaHBWRE15ci1rUmJST3Ytd3JmX002VWxqdjlFTUdYVllkb3ZTbXNoMG1hdzBUeVhkMHJiZWpCZ3VhejBkdFRJSjdScUpyMTR2MmEtTU1vOFdKMFZTZ3FEN3J3aVVYQksxQjh3b3ZFQkdTVmhLTGFVX2lJSFIzMDQwaEVGbzlfS1FnaTlrOTdiazV0YmFYOXJnSzM3S3Q5YUY2MHo3anRIbVV0MGNiUQ?oc=5\" target=\"_blank\">Global Memory Chip Shortage Exposes KES 4 Trillion Supply Chain Vulnerability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Kenyan business outlet's aggregated report claims a global memory-chip shortage exposes KES 4 trillion of supply-chain vulnerability; the item is generic wire coverage, not a primary disclosure.\n\n\u5185\u5bb9:\n\u80af\u5c3c\u4e9a\u4e00\u5bb6\u5546\u4e1a\u5a92\u4f53\u7684\u805a\u5408\u62a5\u9053\u79f0\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4f7f KES 4 \u4e07\u4ebf\u7684\u4f9b\u5e94\u94fe\u9762\u4e34\u98ce\u9669\uff1b\u8be5\u6761\u76ee\u5c5e\u4e8e\u6cdb\u5316\u8f6c\u8f7d\u62a5\u9053\uff0c\u4e0d\u662f\u4e00\u624b\u4fe1\u606f\u62ab\u9732\u3002\n\nWhy it matters:\nC6 fires on memory/storage term + shortage/surge language proximity \u2014 this is the low-conviction, RSS-noise end of that signal (no named supplier, no order data), but it's consistent with the DRAM/NAND/HBM tightness narrative feeding AI-server cost inflation if corroborated by harder sources.\n\n\u5f71\u54cd:\nC6 \u7684\u89e6\u53d1\u6761\u4ef6\u662f\u5185\u5b58/\u5b58\u50a8\u5173\u952e\u8bcd\u4e0e\u77ed\u7f3a/\u6da8\u4ef7\u7c7b\u63aa\u8f9e\u5728\u6587\u672c\u4e2d\u76f8\u90bb\u51fa\u73b0\u2014\u2014\u8fd9\u6761\u5c5e\u4e8e\u8be5\u4fe1\u53f7\u91cc\u53ef\u4fe1\u5ea6\u8f83\u4f4e\u7684 RSS \u566a\u97f3\u7aef\uff08\u6ca1\u6709\u5177\u4f53\u4f9b\u5e94\u5546\uff0c\u4e5f\u6ca1\u6709\u8ba2\u5355\u6570\u636e\uff09\uff0c\u4f46\u5982\u679c\u6709\u66f4\u786c\u7684\u4fe1\u6e90\u4f50\u8bc1\uff0c\u65b9\u5411\u4e0a\u4e0e DRAM/NAND/HBM \u4f9b\u5e94\u8d8b\u7d27\u63a8\u9ad8 AI \u670d\u52a1\u5668\u6210\u672c\u7684\u53d9\u4e8b\u662f\u4e00\u81f4\u7684\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2916,
       "ts": 1785786433,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-MED] SPCX unlock in \u22647d: Price \u2265130% tranche (4.6\u4ebf shares)",
       "body": "Severity:   MED\nTranche:    Price \u2265130% tranche\nDate:       2026-08-03 (ESTIMATED \u2014 earnings-linked, re-verify on EDGAR)  (7 day(s) out)\nRelease:    4.6\u4ebf shares (3.5% of shares outstanding)\nCumulative: 14.7% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX has an upcoming lock-up tranche releasing 4.6B in stock, taking cumulative unlocked shares to 14.7% of the total float.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6279\u89e3\u7981\u4efd\u989d\uff0c\u672c\u6b21\u91ca\u653e\u89c4\u6a21\u4e3a 4.6B\uff0c\u4f7f\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u6d41\u901a\u80a1\u7684 14.7%\u3002\n\nWhy it matters:\nA scheduled unlock adds forced-seller supply into a name that's become a large passive/index proxy for AI-capex sentiment \u2014 watch for the same mechanical pressure pattern seen in prior single-name unlock events.\n\n\u5f71\u54cd:\n\u8fd9\u6b21\u8ba1\u5212\u5185\u89e3\u7981\u4f1a\u5411\u5e02\u573a\u6ce8\u5165\u88ab\u52a8\u7684\u629b\u538b\u4f9b\u7ed9\uff0c\u800c SPCX \u5df2\u6210\u4e3a AI capex \u60c5\u7eea\u7684\u91cd\u8981\u5355\u4e00\u6807\u7684\u4ee3\u7406\u2014\u2014\u9700\u5173\u6ce8\u6b64\u524d\u89e3\u7981\u4e8b\u4ef6\u4e2d\u51fa\u73b0\u8fc7\u7684\u540c\u7c7b\u673a\u68b0\u6027\u629b\u538b\u6a21\u5f0f\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2717,
-      "ts": 1785076515,
-      "ts_str": "2026-07-26 14:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Kingston XS1000 1TB portable SSD drops to $139.99 in latest price cut - Technobezz",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 26 Jul 2026 14:11:13 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNcHFyUGs0cWU0NkV4eUVURm5ES0d1UUtuVnQ4ZENQa1ZPcU5pa3ByR3JpV244ZVNxSGxTTFBSSzVuT1RTenE0ejFkRGNGNUM3WllISG12MDlNN0dhQ0pUejRTUjV3QTFiMlhldjdFLXJoblVwU0hyWDRfLVB2MVFPclZ0UW83aThidjNNZnFOM3JXZlpzUnlXbmpCdnlKM1JHMGc?oc=5\n\nKingston XS1000 1TB portable SSD drops to $139.99 in latest price cut - Technobezz\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNcHFyUGs0cWU0NkV4eUVURm5ES0d1UUtuVnQ4ZENQa1ZPcU5pa3ByR3JpV244ZVNxSGxTTFBSSzVuT1RTenE0ejFkRGNGNUM3WllISG12MDlNN0dhQ0pUejRTUjV3QTFiMlhldjdFLXJoblVwU0hyWDRfLVB2MVFPclZ0UW83aThidjNNZnFOM3JXZlpzUnlXbmpCdnlKM1JHMGc?oc=5\" target=\"_blank\">Kingston XS1000 1TB portable SSD drops to $139.99 in latest price cut</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technobezz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged a Kingston XS1000 1TB portable SSD price cut to $139.99.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u6d88\u606f\u663e\u793a\uff0cKingston XS1000 1TB \u4fbf\u643a\u5f0f SSD \u964d\u4ef7\u81f3 $139.99\u3002\n\nWhy it matters:\nConsumer SSD retail discounting is a weak, downstream proxy for NAND oversupply \u2014 not a direct read on datacenter memory/storage pricing, so this is low-confidence noise unless corroborated by enterprise HBM/DRAM contract-price data.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7 SSD \u96f6\u552e\u964d\u4ef7\u53ea\u662f NAND \u4f9b\u8fc7\u4e8e\u6c42\u7684\u4e00\u4e2a\u95f4\u63a5\u3001\u6ede\u540e\u7684\u4fe1\u53f7\uff0c\u5e76\u4e0d\u80fd\u76f4\u63a5\u53cd\u6620\u6570\u636e\u4e2d\u5fc3\u5b58\u50a8\u82af\u7247\u7684\u5b9a\u4ef7\u60c5\u51b5\uff0c\u9664\u975e\u6709\u4f01\u4e1a\u7ea7 HBM/DRAM \u5408\u7ea6\u4ef7\u6570\u636e\u4f50\u8bc1\uff0c\u5426\u5219\u53ef\u4fe1\u5ea6\u8f83\u4f4e\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
