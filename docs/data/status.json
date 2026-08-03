@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785761049,
-  "generated_at_str": "2026-08-03 12:44:09 UTC",
-  "last_event_ts": 1785761045,
+  "generated_at": 1785761241,
+  "generated_at_str": "2026-08-03 12:47:21 UTC",
+  "last_event_ts": 1785761241,
   "tables": {
     "alerts_dedup": {
-      "count": 2887,
-      "last_ts": 1785760518,
-      "last_str": "2026-08-03 12:35:18 UTC"
+      "count": 2888,
+      "last_ts": 1785761241,
+      "last_str": "2026-08-03 12:47:21 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-08-03 12:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3986,
-      "last_ts": 1785757622,
-      "last_str": "2026-08-03 11:47:02 UTC"
+      "count": 3995,
+      "last_ts": 1785761222,
+      "last_str": "2026-08-03 12:47:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2895,
+      "ts": 1785761241,
+      "ts_str": "2026-08-03 12:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SpaceX and AMD test whether Nasdaq 100 confirms last week's bullish turn - CMC Markets",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 12:43:58 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQWDc4UTRJZ1J4dUo5Q21KNXl2MWVqd2o5aV9xeVo5NXpmRTZUVzRqU0F0ZGFNdGF4R2dfOGFDSXhaQmdRRGFNR0xXUmFENmVTdzRYSGdDeDZiVFF4clhjdUJWZUhDN0plaU5BZEpmTjFydTRfRWtuS0xJWjZGVU5ITzloS2NXdkd1NWF2QmNibEQzTzFkQ1J5ZlF3?oc=5\n\nSpaceX and AMD test whether Nasdaq 100 confirms last week's bullish turn - CMC Markets\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQWDc4UTRJZ1J4dUo5Q21KNXl2MWVqd2o5aV9xeVo5NXpmRTZUVzRqU0F0ZGFNdGF4R2dfOGFDSXhaQmdRRGFNR0xXUmFENmVTdzRYSGdDeDZiVFF4clhjdUJWZUhDN0plaU5BZEpmTjFydTRfRWtuS0xJWjZGVU5ITzloS2NXdkd1NWF2QmNibEQzTzFkQ1J5ZlF3?oc=5\" target=\"_blank\">SpaceX and AMD test whether Nasdaq 100 confirms last week's bullish turn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMC Markets</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CMC Markets news wire tests whether Nasdaq 100 confirms last week's bullish turn, name-checking SpaceX and AMD in the same breath as the index move.\n\n\u5185\u5bb9:\nCMC Markets \u7684\u4e00\u7bc7\u65b0\u95fb\u5728\u8ba8\u8bba\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u80fd\u5426\u786e\u8ba4\u4e0a\u5468\u7684\u770b\u6da8\u8f6c\u6298\u65f6\uff0c\u987a\u5e26\u63d0\u5230\u4e86 SpaceX \u548c AMD\u3002\n\nWhy it matters:\nThis is proximity noise, not a genuine SpaceX unlock signal \u2014 the article is about Nasdaq 100 technical momentum, with SpaceX/AMD dragged in incidentally. It's the exact pattern the classifier exists to filter: mission-coverage-style mentions that co-occur with the ticker/keyword without being about the lock-up or flow mechanics.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u90bb\u8fd1\u566a\u97f3\uff0c\u4e0d\u662f\u771f\u6b63\u7684 SpaceX \u89e3\u7981\u4fe1\u53f7\u2014\u2014\u6587\u7ae0\u4e3b\u9898\u662f\u7eb3\u65af\u8fbe\u514b 100 \u7684\u6280\u672f\u9762\u8d70\u52bf\uff0cSpaceX/AMD \u53ea\u662f\u987a\u5e26\u88ab\u63d0\u53ca\u3002\u8fd9\u6b63\u662f\u90bb\u8fd1\u5206\u7c7b\u5668\u8981\u8fc7\u6ee4\u6389\u7684\u90a3\u7c7b\u60c5\u51b5\uff1a\u5173\u952e\u8bcd\u53ea\u662f\u78b0\u5de7\u540c\u6846\u51fa\u73b0\uff0c\u5e76\u4e0d\u6d89\u53ca\u89e3\u7981\u6216\u8d44\u91d1\u6d41\u673a\u5236\u672c\u8eab\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2894,
       "ts": 1785760518,
@@ -2292,16 +2302,6 @@
       "subject": "[C6-MED] Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 16:39:15 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZWxSLWctQmxscHdjYTBoRkVjcm1ISGdTbTc0UzJscnFYWllLdzZ3clpxR1dCLXZLZUd5Zm14UkhCWng0ZjFjZEtweExjeDBweXA4b0trSURSVTBvTm1CSFRha3hoaThQdDJxMmVxdEZWekFpQ2pOQ2RMdnk5QlAyQXJkYWtyb1JXNUwzX2V5cDNuRmVRZk5teG1SYTFZb1NORVluMUxsSWpqYmtfLXZCcmhWV29wbGlic0hSYzUzMFpVUzd0RzNHcEZOYUhIQW12YTBtSGtVZ9IB3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW?oc=5\n\nAutomotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZWxSLWctQmxscHdjYTBoRkVjcm1ISGdTbTc0UzJscnFYWllLdzZ3clpxR1dCLXZLZUd5Zm14UkhCWng0ZjFjZEtweExjeDBweXA4b0trSURSVTBvTm1CSFRha3hoaThQdDJxMmVxdEZWekFpQ2pOQ2RMdnk5QlAyQXJkYWtyb1JXNUwzX2V5cDNuRmVRZk5teG1SYTFZb1NORVluMUxsSWpqYmtfLXZCcmhWV29wbGlic0hSYzUzMFpVUzd0RzNHcEZOYUhIQW12YTBtSGtVZ9IB3AFBVV95cUxOa2VmcjRzUk5KZFNyYkhJdS14ZWx1eGZZX1gtcnhLbTZEV3R2aklKbm91OWhuWGtSdHM4d3ZwNDAzY0xlVEwxczlhRlgybEVKTFRJd0lnWmwxOGdLM0dYMzhXdzJvVDczM0thcWxPRU9JNExGemlUQUpFWUJsU19RejRSdFRFeWE3VkdRUU1OMEZfVjFSRVlPMnp1b2Q1eVBFS3VkYzB2cG5nLWVVY0RSYVdJSkh3Vko5UW1ESjhVVFhZNHhTTW1YOElZVFZsTzlhUkdPTDlBSExjeWFW?oc=5\" target=\"_blank\">Automotive Industry Faces Price Increases as AI-Driven Memory Chip Shortage Impacts Vehicle Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged automotive price increases tied to an AI-driven memory chip (DRAM/NAND) shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u63a8\u9ad8\u6c7d\u8f66\u884c\u4e1a\u7684\u6210\u672c\u3002\n\nWhy it matters:\nMemory shortages driven by AI datacenter demand are now bleeding into unrelated end markets like autos, evidence that AI capex is straining the broader chip supply chain rather than staying contained to hyperscaler budgets \u2014 a sign the input-cost stress is systemic, not isolated.\n\n\u5f71\u54cd:\n\u7531 AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5f15\u53d1\u7684\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u6c7d\u8f66\u7b49\u65e0\u5173\u7ec8\u7aef\u5e02\u573a\uff0c\u8bf4\u660e AI capex \u5bf9\u6574\u6761\u82af\u7247\u4f9b\u5e94\u94fe\u7684\u538b\u529b\u5df2\u7ecf\u4e0d\u5c40\u9650\u4e8e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u81ea\u8eab\u9884\u7b97\u2014\u2014\u8fd9\u662f\u6210\u672c\u538b\u529b\u7cfb\u7edf\u6027\u6269\u6563\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2694,
-      "ts": 1784918850,
-      "ts_str": "2026-07-24 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Lockup Expiry: Morgan Stanley Believes \u2018Largely Unchanged\u2019 Fundamentals Create Attractive Entry Point At Current ",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 24 Jul 2026 17:31:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHpjN3FBTVRXcnhHYlFXWERJa2VfaVVzNExaaFFRRFd1RGIzSHVvYWQ0aHBQTUQ5ZFBPVUs0dElwQXowUktWQjFuWkw0NUpTbWxxOWpEWGxsZ200Mk12cGczSm04d3lHaTVweFpDSFVYV1NIRUtLcUlGNklnY2pvSzNlM0VaNzU0OE9nT2Z3a3B6eGFEdWtWMFRrbF9XOEpwRnc?oc=5\n\nSpaceX Lockup Expiry: Morgan Stanley Believes \u2018Largely Unchanged\u2019 Fundamentals Create Attractive Entry Point At Current Levels - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHpjN3FBTVRXcnhHYlFXWERJa2VfaVVzNExaaFFRRFd1RGIzSHVvYWQ0aHBQTUQ5ZFBPVUs0dElwQXowUktWQjFuWkw0NUpTbWxxOWpEWGxsZ200Mk12cGczSm04d3lHaTVweFpDSFVYV1NIRUtLcUlGNklnY2pvSzNlM0VaNzU0OE9nT2Z3a3B6eGFEdWtWMFRrbF9XOEpwRnc?oc=5\" target=\"_blank\">SpaceX Lockup Expiry: Morgan Stanley Believes \u2018Largely Unchanged\u2019 Fundamentals Create Attractive Entry Point At Current Levels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley published a note tied to the SpaceX lockup expiry arguing fundamentals are 'largely unchanged' and calling current levels an attractive entry point.\n\n\u5185\u5bb9:\n\u6469\u6839\u58eb\u4e39\u5229\u56f4\u7ed5 SpaceX \u9501\u5b9a\u671f\u5230\u671f\u53d1\u5e03\u62a5\u544a\uff0c\u79f0\u57fa\u672c\u9762'\u57fa\u672c\u672a\u53d8'\uff0c\u5e76\u5c06\u5f53\u524d\u4ef7\u4f4d\u89c6\u4e3a\u5177\u5438\u5f15\u529b\u7684\u5165\u573a\u70b9\u3002\n\nWhy it matters:\nSell-side framing around an unlock window shapes how much secondary supply actually hits the market post-expiry \u2014 bullish analyst commentary right before a lockup lapse is a soft signal that insiders/employees may face less selling pressure than the raw unlock size implies, which matters for how hard the C11 passive-flow mechanics bite.\n\n\u5f71\u54cd:\n\u5356\u65b9\u5728\u89e3\u7981\u7a97\u53e3\u524d\u7684\u63aa\u8f9e\u4f1a\u5f71\u54cd\u771f\u6b63\u6d41\u5165\u4e8c\u7ea7\u5e02\u573a\u7684\u629b\u552e\u89c4\u6a21\u2014\u2014\u5728\u9501\u5b9a\u671f\u5230\u671f\u524d\u51fa\u73b0\u770b\u591a\u7684\u5206\u6790\u5e08\u8bc4\u8bba\uff0c\u662f\u4e00\u4e2a\u8f6f\u4fe1\u53f7\uff0c\u6697\u793a\u5185\u90e8\u4eba/\u5458\u5de5\u7684\u629b\u538b\u53ef\u80fd\u4e0d\u5982\u89e3\u7981\u89c4\u6a21\u672c\u8eab\u770b\u8d77\u6765\u90a3\u4e48\u5927\uff0c\u8fd9\u5bf9 C11 \u88ab\u52a8\u8d44\u91d1\u6d41\u673a\u5236\u7684\u5b9e\u9645\u51b2\u51fb\u529b\u6709\u5f71\u54cd\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
