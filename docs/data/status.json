@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785832323,
-  "generated_at_str": "2026-08-04 08:32:03 UTC",
-  "last_event_ts": 1785831243,
+  "generated_at": 1785832517,
+  "generated_at_str": "2026-08-04 08:35:17 UTC",
+  "last_event_ts": 1785832516,
   "tables": {
     "alerts_dedup": {
-      "count": 2925,
-      "last_ts": 1785821716,
-      "last_str": "2026-08-04 05:35:16 UTC"
+      "count": 2926,
+      "last_ts": 1785832516,
+      "last_str": "2026-08-04 08:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-04 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3659,
-      "last_ts": 1785830703,
-      "last_str": "2026-08-04 08:05:03 UTC"
+      "count": 3661,
+      "last_ts": 1785832502,
+      "last_str": "2026-08-04 08:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4285,
-      "last_ts": 1785828904,
-      "last_str": "2026-08-04 07:35:04 UTC"
+      "count": 4287,
+      "last_ts": 1785832504,
+      "last_str": "2026-08-04 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 2852,
-      "last_ts": 1785830704,
-      "last_str": "2026-08-04 08:05:04 UTC"
+      "count": 2853,
+      "last_ts": 1785832503,
+      "last_str": "2026-08-04 08:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3202,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2933,
+      "ts": 1785832516,
+      "ts_str": "2026-08-04 08:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Lexar Launches DDR5 Memory Kit Using CXMT DRAM: The Reality That New Chinese Memory Suppliers Don't Immediately Lower Pr",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 02:46:21 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE92cWJzblo5THYtc0o3M1Bfc0d6dXFoT3NkZlh4d2JWcFFwSlpmTGNoc0RMWW1XMWplb0RtZnBUV0xTR05WRkdHS052X1Z3Z1RhMjF6Q3haWl9Ed2xIY0xRRV9pc3V5dw?oc=5\n\nLexar Launches DDR5 Memory Kit Using CXMT DRAM: The Reality That New Chinese Memory Suppliers Don't Immediately Lower Prices - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE92cWJzblo5THYtc0o3M1Bfc0d6dXFoT3NkZlh4d2JWcFFwSlpmTGNoc0RMWW1XMWplb0RtZnBUV0xTR05WRkdHS052X1Z3Z1RhMjF6Q3haWl9Ed2xIY0xRRV9pc3V5dw?oc=5\" target=\"_blank\">Lexar Launches DDR5 Memory Kit Using CXMT DRAM: The Reality That New Chinese Memory Suppliers Don't Immediately Lower Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports Lexar releasing a DDR5 kit using CXMT DRAM, framed as evidence new Chinese memory suppliers don't immediately undercut prices.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News RSS \u62a5\u9053\u79f0 Lexar \u63a8\u51fa\u4f7f\u7528 CXMT DRAM \u7684 DDR5 \u5185\u5b58\u5957\u88c5\uff0c\u62a5\u9053\u6307\u51fa\u65b0\u8fdb\u5165\u7684\u4e2d\u56fd\u5185\u5b58\u4f9b\u5e94\u5546\u5e76\u672a\u7acb\u5373\u538b\u4f4e\u4ef7\u683c\u3002\n\nWhy it matters:\nThis is a soft counter-signal to memory-glut fears: new supply entering (CXMT) isn't yet triggering a price war, suggesting near-term DRAM pricing stays firmer than an oversupply thesis would predict \u2014 relevant to whether AI-server memory costs stay elevated.\n\n\u5f71\u54cd:\n\u8fd9\u5bf9\u300c\u5185\u5b58\u8fc7\u5269\u300d\u7684\u62c5\u5fe7\u6784\u6210\u4e00\u4e2a\u5f31\u53cd\u5411\u4fe1\u53f7\uff1aCXMT \u8fd9\u6837\u7684\u65b0\u589e\u4ea7\u80fd\u5165\u573a\u540e\u5e76\u672a\u7acb\u523b\u5f15\u53d1\u4ef7\u683c\u6218\uff0c\u8bf4\u660e\u77ed\u671f DRAM \u5b9a\u4ef7\u53ef\u80fd\u6bd4\u4f9b\u8fc7\u4e8e\u6c42\u5047\u8bbe\u9884\u671f\u7684\u66f4\u575a\u633a\u2014\u2014\u8fd9\u5173\u7cfb\u5230 AI \u670d\u52a1\u5668\u7684\u5185\u5b58\u6210\u672c\u662f\u5426\u4f1a\u7ef4\u6301\u9ad8\u4f4d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2932,
       "ts": 1785821716,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-MED] HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Globe and Mail",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 27 Jul 2026 00:01:24 GMT\nLink:      https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTmQwd3RuaXl4aExneVNWVUJ0QVJiQi1qZC05bFg5LXd4cS1SVnV2U2ZmelQzeFIydm5uYVRhYXpoYzRHMFBjMkk4Y0hESFZOeFoyRWNpcGxOOHVMQ3J5ZlN3Ni1ULWpMWld2ZTlQb1poWFBiX3lsR2JXRUdFWVlHYXc2SWUxcTY0Si00SzJsMjAweUFIa0NyX214RkpvQk5yYVFCaDhqRGUyN2wyVl9YOXViNi10S2RfZE5wT09QalVERWhPd0ZDSXZCOVZ2UlkxNlVxOXR3bURJRTNYTnQ5Y1lESUR4alVMR2NwNmJBOU1aeXhSN3VsSV9RX2FZU28?oc=5\n\nHSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07. - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTmQwd3RuaXl4aExneVNWVUJ0QVJiQi1qZC05bFg5LXd4cS1SVnV2U2ZmelQzeFIydm5uYVRhYXpoYzRHMFBjMkk4Y0hESFZOeFoyRWNpcGxOOHVMQ3J5ZlN3Ni1ULWpMWld2ZTlQb1poWFBiX3lsR2JXRUdFWVlHYXc2SWUxcTY0Si00SzJsMjAweUFIa0NyX214RkpvQk5yYVFCaDhqRGUyN2wyVl9YOXViNi10S2RfZE5wT09QalVERWhPd0ZDSXZCOVZ2UlkxNlVxOXR3bURJRTNYTnQ5Y1lESUR4alVMR2NwNmJBOU1aeXhSN3VsSV9RX2FZU28?oc=5\" target=\"_blank\">HSBC Just Started Covering SpaceX With a $115 Price Target. The Stock Closed Friday at $115.07.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHSBC initiated coverage on SpaceX with a $115 price target, matching Friday's close of $115.07.\n\n\u5185\u5bb9:\nHSBC \u5f00\u59cb\u5bf9 SpaceX \u5c55\u5f00\u8986\u76d6\uff0c\u7ed9\u51fa $115 \u76ee\u6807\u4ef7\uff0c\u4e0e\u5468\u4e94\u6536\u76d8\u4ef7 $115.07 \u57fa\u672c\u6301\u5e73\u3002\n\nWhy it matters:\nA major bank starting formal coverage of SpaceX equity \u2014 even pre-IPO \u2014 signals institutional plumbing (research, pricing consensus) is forming ahead of a public listing, which feeds directly into the passive-flow/index-inclusion mechanics this catalyst tracks.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5927\u884c\u5728 SpaceX \u5c1a\u672a\u6b63\u5f0f\u4e0a\u5e02\u524d\u5c31\u542f\u52a8\u8986\u76d6\uff0c\u8bf4\u660e\u673a\u6784\u5c42\u9762\u7684\u7814\u7a76\u548c\u5b9a\u4ef7\u5171\u8bc6\u6b63\u5728\u5f62\u6210\uff0c\u8fd9\u6b63\u662f\u672c\u50ac\u5316\u5242\u5173\u6ce8\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u5165/\u6307\u6570\u7eb3\u5165\u673a\u5236\u7684\u524d\u7f6e\u4fe1\u53f7\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 2734,
-      "ts": 1785131245,
-      "ts_str": "2026-07-27 05:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX\u2019s First Earnings as a Public Company Collides With a Record Lock-Up Expiry - Ad-hoc-news.de",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 27 Jul 2026 05:11:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZWlUVVlRMmdIa3c5aFRiakQzTFJJd2dsRkZ3M1lnMjZ4MW91ZFNPQWhwWjRJWmpuV0N1OXpQXzE5UHFZc05adlNsNWt4Qm5kb1BDZGFkMVZYSy1faHBzQUduMjUtekFkeGN6WVlRNG92SC1wQnp5VTU0eE5CTW8zYlVVY3UwV2cyNWpfbDd0WWU3UE9PQzI1Mng1THRfdEpTREVtekVJRXFGbFQzbFhMOFB6dUZoazBiMzlRNVFwdUFhM2c?oc=5\n\nSpaceX\u2019s First Earnings as a Public Company Collides With a Record Lock-Up Expiry - Ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZWlUVVlRMmdIa3c5aFRiakQzTFJJd2dsRkZ3M1lnMjZ4MW91ZFNPQWhwWjRJWmpuV0N1OXpQXzE5UHFZc05adlNsNWt4Qm5kb1BDZGFkMVZYSy1faHBzQUduMjUtekFkeGN6WVlRNG92SC1wQnp5VTU0eE5CTW8zYlVVY3UwV2cyNWpfbDd0WWU3UE9PQzI1Mng1THRfdEpTREVtekVJRXFGbFQzbFhMOFB6dUZoazBiMzlRNVFwdUFhM2c?oc=5\" target=\"_blank\">SpaceX\u2019s First Earnings as a Public Company Collides With a Record Lock-Up Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS hit surfaced coverage tying SpaceX's first earnings report as a public company to a record lock-up expiry, from Ad-hoc-news.de.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google \u65b0\u95fb RSS \u62a5\u9053\u5c06 SpaceX \u4f5c\u4e3a\u4e0a\u5e02\u516c\u53f8\u7684\u9996\u6b21\u8d22\u62a5\u4e0e\u521b\u7eaa\u5f55\u7684\u9501\u5b9a\u671f\u89e3\u7981\u8054\u7cfb\u5728\u4e00\u8d77\uff0c\u6765\u6e90\u4e3a Ad-hoc-news.de\u3002\n\nWhy it matters:\nMedia is now explicitly linking the SPCX unlock tranche to the earnings print \u2014 the exact proximity pattern the classifier watches for, since simultaneous unlock + earnings raises the odds of concentrated post-lock-up selling pressure.\n\n\u5f71\u54cd:\n\u5a92\u4f53\u5f00\u59cb\u628a SPCX \u7684\u89e3\u7981\u6279\u6b21\u4e0e\u8d22\u62a5\u53d1\u5e03\u660e\u786e\u6302\u94a9\u2014\u2014\u8fd9\u6b63\u662f\u8be5\u5206\u7c7b\u5668\u8981\u6355\u6349\u7684\u4e34\u8fd1\u6a21\u5f0f\uff0c\u56e0\u4e3a\u89e3\u7981\u4e0e\u8d22\u62a5\u540c\u65f6\u53d1\u751f\u4f1a\u52a0\u5927\u89e3\u7981\u540e\u96c6\u4e2d\u629b\u552e\u7684\u98ce\u9669\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
