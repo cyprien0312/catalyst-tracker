@@ -6,7 +6,7 @@ import re
 from catalysts.base import Alert, CatalystBase
 from lib.edgar import EdgarClient
 from lib.explanations import append_context
-from lib.rss import Entry, fetch_many
+from lib.rss import Entry, entry_text, fetch_many
 from lib.state import State
 
 # Default feed list. Google News is the most reliable substrate.
@@ -45,6 +45,42 @@ MED_TOKENS = (
     r"\bnet\s+loss(es)?\b",        # context token — quoted in every OpenAI recap
     r"\bIPO\b",                    # context token — daily speculation; case-sensitive
 )
+
+# Sense guards for tokens whose plain form is ambiguous in headlines. Proximity
+# alone cannot tell which *sense* a word carries, and CRITICAL is the only C3
+# tier that emails — so a wrong sense here costs a real e-mail. Each entry is
+# checked against the whole text; `require` must be present, `exclude` must not.
+#
+# Measured against 1595 real C3 alerts: 5 of the 9 CRITICALs were false
+# positives, and these two guards account for four of them.
+_TOKEN_GUARDS: dict[str, dict[str, str]] = {
+    # "restructuring" in AI news is overwhelmingly *organisational*, not
+    # financial. Real FPs: "Starling to cut 130 roles in AI-driven
+    # restructuring", "Meta Admits AI Restructuring Fell Short", "OpenAI's Head
+    # of Safety Exits Amid Restructuring".
+    r"\brestructuring\b": {
+        "exclude": r"\b(?:roles?|jobs?|staff|layoffs?|headcount|teams?|personnel|"
+                   r"reorg\w*|exits?|departs?|head\s+of|leadership|hiring)\b",
+    },
+    # "default" as a debt event, not a setting. The existing negative lookahead
+    # only covers `default <noun>`; it misses the sentence-final noun use, as in
+    # "...should become the long-term default".
+    r"\bdefault(?:s|ed|ing)?\b(?!\s+(?:chatgpt|gpt|mode|model|setting|option|behaviou?r|app|browser|voice|view|state|value|page|account))": {
+        "require": r"\b(?:debt|loan|bond|note|payment|covenant|obligation|creditor|"
+                   r"lender|credit\s+facility|repay\w*|interest)\b",
+    },
+}
+
+
+def _guard_ok(text: str, pattern: str) -> bool:
+    g = _TOKEN_GUARDS.get(pattern)
+    if not g:
+        return True
+    if "require" in g and not re.search(g["require"], text, re.I):
+        return False
+    if "exclude" in g and re.search(g["exclude"], text, re.I):
+        return False
+    return True
 
 # Feeds we treat as primary sources. HIGH-tier hits from non-primary feeds
 # (Google News opinion columns, aggregators) get downgraded to MED — the
@@ -95,14 +131,14 @@ def classify(text: str) -> str | None:
         return None
     # IPO and proper nouns are case-sensitive; the rest case-insensitive.
     for pat in CRITICAL_TOKENS:
-        if _near_openai(text, pat, case_sensitive=False):
+        if _near_openai(text, pat, case_sensitive=False) and _guard_ok(text, pat):
             return "CRITICAL"
     for pat in HIGH_TOKENS:
-        if _near_openai(text, pat, case_sensitive=False):
+        if _near_openai(text, pat, case_sensitive=False) and _guard_ok(text, pat):
             return "HIGH"
     for pat in MED_TOKENS:
         cs = pat in (r"\bSarah\s+Friar\b", r"\bIPO\b")
-        if _near_openai(text, pat, case_sensitive=cs):
+        if _near_openai(text, pat, case_sensitive=cs) and _guard_ok(text, pat):
             return "MED"
     return None
 
@@ -134,7 +170,7 @@ class Catalyst3(CatalystBase):
 
         # News
         for entry in fetch_many(self._feeds, self._state):
-            text = f"{entry.title}\n{entry.summary}"
+            text = entry_text(entry)
             sev = classify(text)
             if not sev:
                 continue
@@ -183,10 +219,10 @@ class Catalyst3(CatalystBase):
 class _Catalyst3NewsOnly(Catalyst3):
     """News-only variant used by `--no-edgar`."""
     def run(self) -> list[Alert]:
-        from lib.rss import fetch_many
+        from lib.rss import entry_text, fetch_many
         alerts: list[Alert] = []
         for entry in fetch_many(self._feeds, self._state):
-            text = f"{entry.title}\n{entry.summary}"
+            text = entry_text(entry)
             sev = classify(text)
             if sev:
                 if sev == "HIGH" and not _is_primary_source(entry.feed_url):

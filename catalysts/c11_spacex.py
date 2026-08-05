@@ -34,7 +34,7 @@ import requests
 from catalysts.base import Alert, CatalystBase
 from lib.explanations import append_context
 from lib.log import get_logger
-from lib.rss import Entry, fetch_many
+from lib.rss import Entry, entry_text, fetch_many
 from lib.state import State
 
 log = get_logger(__name__)
@@ -143,11 +143,29 @@ CRITICAL_TOKENS = (
     r"\bsecondary\s+offering\b",
     r"\binsiders?\s+(?:dump|flood|rush\s+to\s+sell)\b",
     r"\bmusk\s+(?:sells?|sold|to\s+sell)\b",
-    r"\block-?up\s+(?:waiv|releas)(?:er|ed|e)\b",
+    # CRITICAL means supply arriving *off-calendar* — a waived or accelerated
+    # lock-up. The scheduled release is not news: leg 1 emits it deterministically
+    # from UNLOCK_SCHEDULE days ahead of time.
+    #
+    # The previous pattern, r"\block-?up\s+(?:waiv|releas)(?:er|ed|e)\b", was
+    # exactly inverted. It matched "staggered lock-up release" — the routine
+    # scheduled event, all 3 CRITICALs it ever produced — while failing to match
+    # "underwriters waived the lock-up early", the shock it exists to catch,
+    # because that puts the verb before the noun.
+    r"\bwaiv(?:e|ed|es|ing|er)\b[^.\n]{0,40}\block-?up\b",
+    r"\block-?up\b[^.\n]{0,40}\bwaiv(?:e|ed|es|ing|er)\b",
+    r"\baccelerat(?:e|ed|es|ing|ion)\b[^.\n]{0,40}\block-?up\b",
+    r"\block-?up\b[^.\n]{0,40}\baccelerat(?:e|ed|es|ing|ion)\b",
+    # "early" must modify the *release*, not just co-occur. Bare proximity
+    # matched "Cathie Wood's early investment ... ahead of lockup expiration"
+    # and "sell ... early August before earnings and lockup expiration".
+    r"\block-?up\b[^.\n]{0,30}\b(?:releas|lift|expir)\w*\b[^.\n]{0,15}\b(?:earl(?:y|ier)|ahead\s+of\s+schedule)\b",
+    r"\b(?:earl(?:y|ier)|ahead-of-schedule)\s+(?:\w+\s+){0,2}(?:releas|lift)\w*\b[^.\n]{0,30}\block-?up\b",
+    r"\block-?up\b[^.\n]{0,30}\b(?:earl(?:y|ier)|ahead\s+of\s+schedule)\s+(?:\w+\s+){0,2}(?:releas|lift)\w*\b",
 )
 
 HIGH_TOKENS = (
-    r"\block-?ups?\s+(?:expir|end|lift)\w*\b",
+    r"\block-?ups?\s+(?:expir|end|lift|releas)\w*\b",   # incl. the scheduled release
     r"\bunlock\w*\b",
     r"\bshare\s+sales?\b",
     r"\binsider\s+selling\b",
@@ -390,7 +408,7 @@ class Catalyst11(CatalystBase):
     def _run_news(self) -> list[Alert]:
         alerts: list[Alert] = []
         for entry in fetch_many(self._feeds, self._state):
-            text = f"{entry.title}\n{entry.summary}"
+            text = entry_text(entry)
             hit = classify(text)
             if not hit:
                 continue

@@ -152,3 +152,39 @@ def test_diff_no_prior_is_none():
 
 def test_lead_days_sane():
     assert 1 <= LEAD_DAYS <= 30
+
+
+# --- lock-up CRITICAL: the waiver, not the calendar ------------------------
+# All 3 CRITICALs C11 ever raised were the *scheduled* release, which leg 1
+# already emits deterministically from UNLOCK_SCHEDULE. The old pattern was
+# inverted: it matched the routine event and missed the actual waiver.
+
+def test_scheduled_lockup_release_is_not_critical():
+    for t in [
+        "SpaceX's staggered lock-up release prolongs the pain",
+        "SpaceX Faces a Two-Front Test This Week: First Earnings Report Meets Record Lock-Up Release",
+        "SpaceX Stock Slides to Near 52-Week Low After Starship Abort; Lockup Release Adds Pressure",
+    ]:
+        got = classify(t)
+        assert got is not None and got[0] == "HIGH", (t, got)
+
+
+def test_waived_or_accelerated_lockup_is_critical():
+    for t in [
+        "SpaceX underwriters waived the lock-up early, releasing shares ahead of schedule",
+        "SpaceX lock-up released early after underwriter agreement",
+        "Underwriters accelerate the SpaceX lock-up, freeing shares months ahead",
+        "SpaceX grants a lock-up waiver to early investors",
+    ]:
+        got = classify(t)
+        assert got is not None and got[0] == "CRITICAL", (t, got)
+
+
+def test_early_must_modify_the_release_not_merely_co_occur():
+    """'early August' and 'early investment' are not early releases."""
+    for t in [
+        "Cathie Wood's early investment in SpaceX (NASDAQ:SPCX) shows loss ahead of lockup expiration",
+        "Best time to sell SpaceX stock is early August before earnings and lockup expiration",
+    ]:
+        got = classify(t)
+        assert got is not None and got[0] == "HIGH", (t, got)

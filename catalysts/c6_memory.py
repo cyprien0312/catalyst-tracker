@@ -22,7 +22,7 @@ import re
 
 from catalysts.base import Alert, CatalystBase
 from lib.explanations import append_context
-from lib.rss import Entry, fetch_many
+from lib.rss import Entry, entry_text, fetch_many
 from lib.state import State
 
 DEFAULT_FEEDS = [
@@ -44,13 +44,36 @@ _SUBJECT_RE = re.compile(
     re.I,
 )
 
-# Consumer-deal noise guard: "SSD prices drop for Prime Day" is retail,
-# not cycle signal. Any of these kills the entry outright.
+# Consumer-deal noise guard: "SSD prices drop for Prime Day" is retail, not
+# cycle signal — arguably the opposite, since retail discounting clears old
+# inventory. Any of these kills the entry outright.
+#
+# The second block was added 2026-08-05: 30 of the 52 unique HIGH alerts ever
+# raised were retail SKU pricing that the original list missed, because those
+# headlines say "drops to $219.99" or "41% Off On Amazon" rather than "deal".
 _DEAL_NOISE_RE = re.compile(
     r"\b(black\s+friday|cyber\s+monday|prime\s+day|deal[s]?\b|discount|"
-    r"coupon|best\s+buy|amazon\s+sale|lowest\s+price\s+ever)\b",
+    r"coupon|best\s+buy|amazon\s+sale|lowest\s+price\s+ever)\b"
+    # Retail SKU pricing: a consumer price point, a percentage off, or a
+    # buy-now framing. Contract-price journalism quotes percentages and
+    # indices, not $x.99.
+    r"|\bdrops?\s+to\s+\$|\bfalls?\s+to\s+\$|\bdips?\s+to\s+\$|\bnow\s+just\s+\$"
+    r"|\bsave\s+\$|\d+%\s+off\b|\bon\s+sale\b|\bcheaper\s+than\b"
+    r"|\$\d[\d,]*\.\d{2}\b",
     re.I,
 )
+
+# "HBM" is not only High Bandwidth Memory. It is the NYSE ticker for Hudbay
+# Minerals (a copper miner, routinely in "cuts target price" analyst notes),
+# and Lafarge rebranded a cement unit to HBM. Both produced HIGH alerts.
+_TICKER_COLLISION_RE = re.compile(
+    r"\bhudbay\b|\bhbm\.(?:us|to|v)\b|\blafarge\b|\bcement\b|\bminerals?\b",
+    re.I,
+)
+
+# An analyst's "target price" is not a product price. Real FP:
+# "Jefferies Maintains Hudbay Minerals(HBM.US) ... Cuts Target Price to $35.18".
+_ANALYST_TARGET_RE = re.compile(r"\b(?:target\s+price|price\s+target)\b", re.I)
 
 # The unwind reached real money.
 CRITICAL_TOKENS = (
@@ -122,10 +145,17 @@ def classify(text: str) -> tuple[str, str] | None:
         return None
     if _DEAL_NOISE_RE.search(text):
         return None
+    if _TICKER_COLLISION_RE.search(text):
+        return None
     for sev, kind, tokens in _TIERS:
         for pat in tokens:
-            if _near_subject(text, pat):
-                return sev, kind
+            if not _near_subject(text, pat):
+                continue
+            # A price *token* that only fired on an analyst's target price is
+            # not a memory-price signal.
+            if _ANALYST_TARGET_RE.search(text) and "price" in pat:
+                continue
+            return sev, kind
     return None
 
 
@@ -151,7 +181,7 @@ class Catalyst6(CatalystBase):
     def run(self) -> list[Alert]:
         alerts: list[Alert] = []
         for entry in fetch_many(self._feeds, self._state):
-            text = f"{entry.title}\n{entry.summary}"
+            text = entry_text(entry)
             hit = classify(text)
             if not hit:
                 continue

@@ -60,3 +60,47 @@ def test_rss_meta_table_populated_with_etag(tmp_path):
     assert row is not None
     assert row[0] == "\"abc123\""
     assert row[1] == "Wed, 21 Oct 2026 07:28:00 GMT"
+
+
+# --- entry_text: publisher names and feed markup are not content -----------
+
+from lib.rss import Entry, entry_text, strip_source_suffix  # noqa: E402
+
+
+def _entry(title, summary=""):
+    return Entry(feed_url="f", guid="g", title=title, link="l",
+                 summary=summary, published="p")
+
+
+def test_strip_source_suffix_removes_masthead():
+    assert strip_source_suffix("DRAM prices tumble 40% - Reuters") == "DRAM prices tumble 40%"
+    assert strip_source_suffix("Micron jumps 12% - parameter.io") == "Micron jumps 12%"
+
+
+def test_strip_source_suffix_keeps_headline_prose():
+    # A long tail with sentence punctuation is part of the headline, not a masthead.
+    t = "Analysts split - some see a glut, others see structural demand through 2028."
+    assert strip_source_suffix(t) == t
+
+
+def test_entry_text_drops_publisher_name():
+    """A publisher's name must not supply a tier token.
+
+    Real C3 false positive: the accounting blog "Going Concern" put the phrase
+    'going concern' into every one of its headlines.
+    """
+    e = _entry(
+        "Friday Footnotes: OpenAI CFO Says Don't Sweat Token Costs - Going Concern",
+        '<a href="https://news.google.com/rss/articles/CBMiXXXX">Friday Footnotes: '
+        'OpenAI CFO Says Don\'t Sweat Token Costs</a>&nbsp;&nbsp;'
+        '<font color="#6f6f6f">Going Concern</font>',
+    )
+    assert "going concern" not in entry_text(e).lower()
+
+
+def test_entry_text_strips_markup_and_opaque_url():
+    e = _entry("Headline - Src",
+               '<a href="https://news.google.com/rss/articles/CBMiab0Ncd">Headline</a>')
+    out = entry_text(e)
+    assert "<" not in out and "https://" not in out
+    assert "Headline" in out

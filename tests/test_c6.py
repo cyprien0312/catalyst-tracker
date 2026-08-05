@@ -114,3 +114,37 @@ def test_run_dedups_seen_entries(tmp_path):
     second = cat.run()
     assert len(first) == 2
     assert second == []
+
+
+# --- retail and ticker-collision guards ------------------------------------
+# Verbatim headlines from the alerts table: 30 of the 52 unique HIGH alerts
+# ever raised were consumer SKU pricing, not the memory cycle.
+
+def test_retail_sku_pricing_is_not_a_cycle_signal():
+    for t in [
+        "WD_Black SN8100 NVMe SSD drops to $699.99 in latest price cut",
+        "Samsung 990 PRO SSD drops to $219.99 in new price cut",
+        "Upgrade Your Storage With Samsung's 4TB 9100 PRO SSD, Now 41% Off On Amazon",
+        "Save $521 on this RTX 5070 gaming PC, now just $1,349 - huge price drop",
+    ]:
+        assert classify(t) is None, t
+
+
+def test_hbm_ticker_collision_is_not_memory():
+    """HBM is also Hudbay Minerals (copper), and a Lafarge cement brand."""
+    for t in [
+        "Jefferies Maintains Hudbay Minerals(HBM.US) With Buy Rating, Cuts Target Price to $35.18",
+        "RBC Capital Maintains Hudbay Minerals(HBM.US) With Buy Rating, Cuts Target Price to $28.17",
+        "Umahi demands cut in cement prices as Lafarge rebrands to HBM",
+    ]:
+        assert classify(t) is None, t
+
+
+def test_genuine_memory_price_reversal_still_high():
+    for t in [
+        "DRAM crisis: Analysts expect drastic price drop in 2028",
+        "Semiconductor ETFs Attract $25 Billion Inflows as DRAM Prices Tumble 40%",
+        "CoreWeave Weighs Derivatives Hedge Against Memory Chip Price Plunge, Sources Say",
+        "MU Stock Heads Under $1,000 as Micron Selloff Deepens on DRAM Lawsuit, Oversupply Concerns",
+    ]:
+        assert (classify(t) or (None,))[0] == "HIGH", t
