@@ -33,6 +33,48 @@ def test_decoy_text_no_hits():
     assert scan_text("Property and equipment, net of depreciation, $1B.") == []
 
 
+# --- risk-factor canaries --------------------------------------------------
+
+def test_risk_factor_covenant_language_does_not_fire():
+    """Verbatim risk factor from APLD's FY2026 10-K (accession
+    0001144879-26-000048).
+
+    "...any adverse developments ... including ... debt covenant defaults or
+    other liabilities, could have a material adverse effect..." is a list of
+    things that might happen, not a default. It fired C2-HIGH on 2026-07-30 and
+    flipped the buy-plan regime A -> B.
+    """
+    text = (FIX / "apld_risk_factor_covenant.txt").read_text()
+    assert scan_text(text) == []
+
+
+def test_hypothetical_going_concern_does_not_fire():
+    """The CRITICAL going-concern pattern in its risk-factor form."""
+    text = ("If we are unable to raise additional capital on acceptable terms, there "
+            "could be substantial doubt about our ability to continue as a going concern.")
+    assert scan_text(text) == []
+
+
+def test_actual_going_concern_still_fires():
+    text = ("The Company had a working capital deficit of $ 119.3 million which raised "
+            "substantial doubt about its ability to continue as a going concern.")
+    assert {h["key"] for h in scan_text(text)} == {"GOING_CONCERN"}
+
+
+def test_actual_covenant_default_with_consequences_still_fires():
+    """A real default that also describes what may follow must not be gated out."""
+    text = ("As of May 31, 2026 the Company was not in compliance with the fixed charge "
+            "coverage ratio, resulting in a covenant default, which could result in "
+            "acceleration of the outstanding borrowings.")
+    assert "COVENANT_DISTRESS" in {h["key"] for h in scan_text(text)}
+
+
+def test_hits_carry_the_sentence_they_came_from():
+    text = (FIX / "apld_10q_going_concern.txt").read_text()
+    hits = scan_text(text)
+    assert hits and all(h.get("sentence") for h in hits)
+
+
 def test_run_emits_filing_alert(tmp_path):
     text = (FIX / "apld_10q_going_concern.txt").read_text()
     edgar = MagicMock()

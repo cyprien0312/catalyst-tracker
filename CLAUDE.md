@@ -98,6 +98,15 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
 ### Shared infrastructure (`lib/`)
 
 - `lib/edgar.py` — SEC EDGAR client (requires `SEC_USER_AGENT`)
+- `lib/filing_context.py` — **sentence-level context gate for the C1/C2 filing-text regexes.**
+  The patterns match vocabulary, not disclosures: every 10-Q carries accounting-policy
+  boilerplate ("Estimates are used for, but not limited to, … impairment of property and
+  equipment …") and risk-factor hypotheticals ("… debt covenant defaults …, **could** have
+  a material adverse effect") built from exactly the words of the real event. `scan()` is
+  the entry point both `c1_depreciation.scan_text` and `c2_neoclouds.scan_text` delegate to.
+  Verdict per hit: `BOILERPLATE` ⇒ drop; else `AFFIRMATIVE` ⇒ keep; else `HYPOTHETICAL` ⇒ drop;
+  else keep. It **fails open** on purpose — a suppressed real signal is silent, so it is the
+  more expensive error. Per-pattern subject checks live in each catalyst's `REQUIRES` dict.
 - `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL
 - `lib/xbrl.py` — XBRL facts pull for hyperscaler capex/OCF/FCF (C4)
 - `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). PJM is now a POST to `services.pjm.com/PJMPlanningApi/api/Queue/ExportToXls` with an `api-subscription-key` header (the old GET `/Queues/ExportToExcel` 404s as of 2026-05). The subscription key lives in the public JS bundle on pjm.com and may rotate — if PJM fetches start 401/403'ing, refresh `PJM_API_SUBSCRIPTION_KEY` from `https://www.pjm.com/dist/interconnectionqueues.*.js`.
@@ -203,6 +212,12 @@ Thresholds and verbatim regex anchors live in `docs/source-spec.md` (§3 and §1
   **先 `git fetch` 再下判断。**（2026-08-03 真踩过：据此误判「已停跑 19 天」，实际一直在跑。）
 - **C4 / C5 的 transition semantics** —— 空库首扫**故意静默**，只建基线。查「为什么没告警」
   先确认有没有前一行。见「Transition semantics」节。
+- **改 C1/C2 的 regex 前先读 `lib/filing_context.py`** —— 那些 pattern 匹配的是**词汇**不是
+  **事件**。10-Q 的会计政策样板（"Estimates are used for, but not limited to, … impairment of
+  property and equipment …"）和风险因素的虚拟语气（"… could have a material adverse effect"）
+  用的是和真事件**一模一样**的词。**别用字符窗口做上下文判断** —— AMZN FY2025 10-K 里真正的
+  折旧年限变更就在样板句后约 150 字符，窗口一开就把真信号一起吃掉；必须按**句子**切。
+  另外扫描要用 `finditer` 不是 `search`：样板总在文件靠前，`search` 会让它挡住后面的真信号。
 - **`lib/llm.py` 必须显式传 `--model`** —— CLI 默认 Fable 5 在 AU 受限，返回 `is_error`
   后静默退回静态模板。见「LLM explanation path」节。
 - **改 prompt schema 必须 bump `_PROMPT_VERSION`**，会让全部缓存解释失效，这是预期的。
@@ -234,3 +249,9 @@ Thresholds and verbatim regex anchors live in `docs/source-spec.md` (§3 and §1
 - **不在 catalyst 模块里改阈值** —— 数值一律进 `lib/thresholds.py`，调邮件量也改那里。
 - **不给 dashboard 做服务端写入** —— Pages 是静态的，已读状态只存浏览器 localStorage，
   按设备分开是预期行为。
+- **`lib/filing_context.py` 只接在 C1/C2 上，没接 C3/C6/C11** —— don't assume it exists there。
+  那三个吃的是 RSS 标题（短句、没有会计样板也没有风险因素段落），是另一类误报，
+  归 proximity classifier 管（见待办里 C11 那条）。
+- **修 regex 误报时不回溯清洗 `alerts` 表** —— 改判据只影响之后的扫描；历史误报行还在库里，
+  而 buy-plan 的保险丝读的是**近 7 天**的 `alerts`，所以一条误报最长还会再撑 7 天。
+  要立刻恢复只能手删那一行，**这是需要人拍板的动作**，别自动做。
