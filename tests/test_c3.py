@@ -201,3 +201,39 @@ def test_run_dedups_seen_entries(tmp_path):
     second = cat.run()
     assert len(first) >= 1
     assert second == []
+
+
+# --- sense guards on the CRITICAL tier -------------------------------------
+# Verbatim headlines from the alerts table. CRITICAL is the only C3 tier that
+# e-mails, and 5 of the 9 CRITICALs ever raised were false positives.
+
+def test_org_restructuring_is_not_financial_distress():
+    for t in [
+        "OpenAI in talks to give US government 5% stake, say reports; Starling to cut 130 roles in AI-driven restructuring",
+        "OpenAI's Head of Safety Johannes Heidecke Exits Amid Restructuring",
+    ]:
+        assert classify(t) != "CRITICAL", t
+
+
+def test_default_as_a_setting_is_not_a_debt_event():
+    t = ("'We don't believe this kind of government access process should become "
+         "the long-term default': OpenAI's new AI models have a very unusual feature")
+    assert classify(t) != "CRITICAL"
+
+
+def test_real_debt_default_still_critical():
+    assert classify("OpenAI defaulted on a $2bn loan payment to its lenders") == "CRITICAL"
+
+
+def test_real_debt_restructuring_still_critical():
+    assert classify(
+        "OpenAI begins debt restructuring talks with creditors over its credit facility"
+    ) == "CRITICAL"
+
+
+def test_genuine_bond_headlines_survive():
+    for t in [
+        "S&P Downgrades Oracle's Bond Rating, Names OpenAI as a “Credit Risk”",
+        "SoftBank Seeks 60 Billion Bond Sale Amid Nearly $65 Billion OpenAI Commitment",
+    ]:
+        assert classify(t) == "CRITICAL", t

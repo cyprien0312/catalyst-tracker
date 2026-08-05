@@ -107,7 +107,11 @@ Each `catalysts/cN_*.py` is a standalone module exposing a class (subclass of `c
   Verdict per hit: `BOILERPLATE` ⇒ drop; else `AFFIRMATIVE` ⇒ keep; else `HYPOTHETICAL` ⇒ drop;
   else keep. It **fails open** on purpose — a suppressed real signal is silent, so it is the
   more expensive error. Per-pattern subject checks live in each catalyst's `REQUIRES` dict.
-- `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL
+- `lib/rss.py` — feedparser wrapper, idempotent on `(feed_url, GUID)` with 30-day TTL.
+  **`entry_text(entry)` 是 C3/C6/C11 分类器的唯一入口**（别再手写
+  `f"{entry.title}\n{entry.summary}"`）：Google News 的 item 不是纯文本 —— title 尾巴挂着
+  ` - 出版方`，summary 是 HTML 包着一段 base64 文章 URL 再加一次出版方名。直接分类那坨东西，
+  **出版方的名字会贡献 tier token**（实锤：会计博客 "Going Concern" 让 C3 发了一条 CRITICAL）
 - `lib/xbrl.py` — XBRL facts pull for hyperscaler capex/OCF/FCF (C4)
 - `lib/grid_queues.py` — PJM/CAISO interconnection queue XLSX parsers (C5). PJM is now a POST to `services.pjm.com/PJMPlanningApi/api/Queue/ExportToXls` with an `api-subscription-key` header (the old GET `/Queues/ExportToExcel` 404s as of 2026-05). The subscription key lives in the public JS bundle on pjm.com and may rotate — if PJM fetches start 401/403'ing, refresh `PJM_API_SUBSCRIPTION_KEY` from `https://www.pjm.com/dist/interconnectionqueues.*.js`.
 - `lib/eia.py` — Henry Hub strip (C5). `lib/fred.py` — FRED data: `observations()` (JSON API, needs `FRED_API_KEY`) and **`series_csv()`** (the keyless `fredgraph.csv` export, used by C7 credit spreads + C8 CPI so they work with no secret).
@@ -229,6 +233,15 @@ Thresholds and verbatim regex anchors live in `docs/source-spec.md` (§3 and §1
 - **调邮件量要改 `CATALYST_EMAIL_MIN_SEVERITY`，不是 `CATALYST_EMAIL_DISABLE`** ——
   `lib/notify._email_muted_for` 里**地板优先于 disable 名单**，给一个已设地板的 catalyst
   加进 disable 名单是**静默无效**的。见「Email-volume policy」节。
+- **新闻分类器（C3/C6/C11）的 proximity window 只量字符距离，不做实体归属** ——
+  一条标题里出现两家公司时，靠近**任意一家**的 token 都会算到 subject 头上。
+  实锤：「**Meta** Admits AI **Restructuring** Fell Short … Close Gap With OpenAI」发了 C3 CRITICAL。
+  **故意没用「最近实体」规则修**：那样会把「S&P Downgrades **Oracle**'s **Bond** Rating,
+  Names OpenAI as a Credit Risk」这种真信号一起杀掉（Oracle 离 bond 更近，但文章确实关于 OpenAI）。
+  能修的是**词义**（`_TOKEN_GUARDS`）和**同名冲突**（`_TICKER_COLLISION_RE`），归属留着没解。
+- **`HBM` 不止是显存** —— 它同时是 Hudbay Minerals（铜矿）的 NYSE 代码，Lafarge 还把一个
+  水泥品牌改名叫 HBM。两者都会产出 "cuts target price" / "cut in cement prices" 这类标题，
+  正好命中 C6 的降价 token。见 `c6_memory._TICKER_COLLISION_RE`。
 - **同一条新闻会从多个 Google News feed 进来**（`"DRAM"` 和 `"NAND"` 两个 query 命中同一篇），
   所以 `alerts` 表的原始行数比真实新闻条数**虚高约 30%**。统计新闻量要按 subject 去重，
   `news_report` 已经这么做了。

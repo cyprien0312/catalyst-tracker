@@ -8,6 +8,8 @@ Designed for the catalyst tracker:
 from __future__ import annotations
 
 import hashlib
+import html
+import re
 import time
 from dataclasses import dataclass
 from typing import Iterable
@@ -54,6 +56,59 @@ class Entry:
     link: str
     summary: str
     published: str
+
+
+# --- text normalisation for the news classifiers (C3/C6/C11) ---------------
+#
+# A Google News RSS item is not plain text. The title ends with " - Publisher",
+# and the summary is HTML wrapping an opaque base64 article URL plus the
+# publisher name again:
+#
+#   <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE5k...">Headline</a>
+#   &nbsp;&nbsp;<font color="#6f6f6f">AOL.com</font>
+#
+# Classifying that raw blob lets a *publisher's name* supply a tier token. Real
+# case: "Friday Footnotes: OpenAI CFO Says Don't Sweat Token Costs ... - Going
+# Concern" fired a C3 CRITICAL because the accounting blog is named "Going
+# Concern". The article had nothing to do with OpenAI's solvency.
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_URL_RE = re.compile(r"https?://\S+")
+# Google News marks the publisher with a grey <font> tag. Drop it wholesale —
+# tag *and* content — before any other stripping.
+_FONT_BLOCK_RE = re.compile(r"<font\b[^>]*>.*?</font>", re.I | re.S)
+
+# " - Publisher" tail on the title.
+_SOURCE_TAIL_RE = re.compile(r"\s+-\s+([^-]{1,40})$")
+
+
+def _looks_like_masthead(tail: str) -> bool:
+    """A publisher name is a short noun phrase or a bare domain."""
+    if re.fullmatch(r"[\w.-]+\.[a-z]{2,}", tail, re.I):   # parameter.io, AOL.com
+        return True
+    if len(tail.split()) > 6:                             # too long to be a masthead
+        return False
+    return not any(c in tail for c in ".!?;")             # prose punctuation ⇒ headline
+
+
+def strip_source_suffix(title: str) -> str:
+    """Drop the trailing ' - Publisher' that Google News appends to titles."""
+    m = _SOURCE_TAIL_RE.search(title)
+    if not m or not _looks_like_masthead(m.group(1).strip()):
+        return title
+    return title[: m.start()].rstrip()
+
+
+def entry_text(entry: "Entry") -> str:
+    """Classification text for a feed entry: headline + de-HTMLed summary.
+
+    Strips markup, the opaque article URL, and the publisher name, so only what
+    a human would read as the story reaches the proximity classifiers.
+    """
+    summary = _FONT_BLOCK_RE.sub(" ", entry.summary)
+    summary = _URL_RE.sub(" ", _TAG_RE.sub(" ", summary))
+    summary = re.sub(r"\s+", " ", html.unescape(summary)).strip()
+    return f"{strip_source_suffix(entry.title)}\n{strip_source_suffix(summary)}"
 
 
 def _entry_guid(entry: dict) -> str:

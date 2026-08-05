@@ -1,11 +1,12 @@
 # catalyst-tracker — 短期记忆
 
 > 本 repo 的**唯一**状态与待办来源。别处只能链接过来，不许另起清单。
-> 最后更新：2026-08-05（C1/C2 正则误报**已修**，经 27 份真实 filing 实测核对）
+> 最后更新：2026-08-05（C1/C2 正则 + C3/C6/C11 新闻分类器误报**均已修**，
+> 分别经 27 份真实 filing 与 2901 条真实告警实测核对）
 
 ## 现在是什么状态
 
-- **能跑吗**：能。`.venv/bin/pytest` → **295 passed**（2026-08-05 实跑，新增 24 个用例）
+- **能跑吗**：能。`.venv/bin/pytest` → **309 passed**（2026-08-05 实跑）
 - **跑在哪**：本机 crontab，**11 个 catalyst + 4 个辅助任务**（`crontab -l` 核对）
   | 任务 | 频率 |
   |---|---|
@@ -18,8 +19,9 @@
 - **邮件量**：2026-08-04 起，逐条告警只在 CRITICAL（新闻类）/ HIGH（C10）/ 全部（保险丝 C7
   C2、硬数据 C4 C1、buyplan）时即时发；其余全部进 09:10 的 news roll-up。
   按真实 7 天历史回放：**68 封 → 5 封**。
-- **上次动它**：2026-08-05（新增 `lib/filing_context.py` 句子级上下文闸门，
-  堵掉 C1/C2 的会计样板 / 风险因素误报）。
+- **上次动它**：2026-08-05（两轮误报修复：`lib/filing_context.py` 句子级上下文闸门堵
+  C1/C2 的会计样板 / 风险因素；`lib/rss.py` 的 `entry_text()` + 各自的词义/同名冲突闸门
+  堵 C3/C6/C11 的新闻误报）。
 - **buy plan 此刻仍在 Regime B**，撑着它的只有那条已被认定为误报的 C2 告警
   （2026-07-29 20:38 UTC / **07-30 06:38 本地**）。**改正则不回溯清洗 `alerts` 表**，
   该行 **2026-08-05 20:38 UTC（08-06 06:38 本地）** 自然滚出 7 天窗口，
@@ -33,7 +35,9 @@
 |---|---|---|
 | ~~**P1**~~ | ~~**C1/C2 的正则在「风险因素」和「会计政策附注」样板句上误报**，已实锤两例（详见下方「正则误报核验证据」）~~ —— **2026-08-05 关闭，凭据见「最近关掉的」第一条** | ~~C2 是引信：一句假设句就把买入梯队从 Regime A 冻到 B~~ |
 | P2 | CLAUDE.md 的「坑 / 局限 / 故意没做的」三节合计 **18 条**，超过 workflow-kit 的 15 条阈值 | 按 kit 的规矩该拆出 `docs/limits.md`、CLAUDE.md 只留一行链接。**故意没拆**：SessionStart hook 靠 grep CLAUDE.md 的这几个小节标题给指针，拆走内容会让那个指针指向空壳。要拆得连 hook 一起改 |
-| P2 | C11 的新闻分类器把 HIGH 发得过于随意（近 7 天 53 条 HIGH 全是 RSS 新闻），HIGH 已失去区分度 | 现在靠 CRITICAL 地板绕过了，但 news roll-up 里 HIGH/MED 的排序仍然没意义；真要修得调 `c11_spacex.py` 的 proximity classifier |
+| P2 | C11 的新闻分类器把 HIGH 发得过于随意（近 7 天 53 条 HIGH 全是 RSS 新闻），HIGH 已失去区分度 | 现在靠 CRITICAL 地板绕过了，但 news roll-up 里 HIGH/MED 的排序仍然没意义。**2026-08-05 部分处理**：CRITICAL 的误报已修（见「最近关掉的」），但 HIGH 本身仍是 150 条 `unlock`/`lock-up expir` 的评论 —— 那是**调音量**不是 bug，要动得先定「HIGH 应该意味着什么」 |
+| P2 | **C6 的 CRITICAL 层从没响过一次**（1034 条告警里 0 条），因为 `_SUBJECT_RE` 只认产品词（DRAM/NAND/HBM/SSD/HDD），而砍单/砍资本开支这类最高级别的事**是用公司口径报道的**："Samsung's chip output cut"、"hyperscalers cut capex" 都 subject=False | C6 的邮件地板是 CRITICAL ⇒ **C6 至今一封邮件都没发过**。修法是把内存厂商名加进 subject 闸门，但那会让 C6 显著变吵（当初就是故意不放公司名的）—— 属于调音量，要先拍板 |
+| P2 | C3 的 98% 告警（1567/1595）来自单个 token `\bIPO\b`，代码注释自己都写着 "daily speculation" | MED 层完全被 IPO 投机刷屏，news roll-up 里 C3 那一段没有信息量。删或降级都行，但那是**调音量**，得用户定 |
 | P2 | 每次 cron 运行写一个 `state:` commit，历史里全是自动提交 | 人写的改动被淹没，`git log` 失去可读性；排查"上次改了什么"要翻很多页 |
 | P2 | 本文件的「上次人工改动」栏是从 commit 反推的，没核实 | 下次接手时对项目活跃度判断偏差 |
 
@@ -103,6 +107,45 @@ APLD 本期实际大事是**分拆**不是困境：2026-05-05 把云业务分离
 - ~~用 GitHub Actions 跑生产调度~~ — 故意关掉，生产在本机 cron（见 CLAUDE.md）
 
 ## 最近关掉的
+
+- **C3 / C6 / C11 新闻分类器的同类误报** —— 承接 C1/C2 那轮，按用户要求只修**确定性 bug**，
+  调音量的部分留成待办（见上表三条 P2）。
+
+  **共同根因**（和 filing 那套不同）：proximity window **只量字符距离，不做实体归属**；
+  且 Google News 的 item 不是纯文本，title 尾巴是 ` - 出版方`、summary 是 HTML 裹着
+  base64 URL 再加一遍出版方名 —— **出版方的名字能贡献 tier token**。
+
+  修了四处：
+  1. `lib/rss.py` 新增 **`entry_text()`**，剥掉出版方名 / HTML / 文章 URL，成为 C3/C6/C11
+     分类的唯一入口（原来三个模块各自手写 `title + summary`）。
+  2. `c3_openai._TOKEN_GUARDS` —— `restructuring` 要求不是"裁员/换人"义，`default` 要求
+     债务语境。
+  3. `c6_memory` —— `_DEAL_NOISE_RE` 补上零售 SKU 定价（`drops to $x.99`、`41% off`），
+     新增 `_TICKER_COLLISION_RE`（**HBM 也是 Hudbay Minerals 的代码**）和分析师
+     `target price` 排除。
+  4. `c11_spacex` 的 CRITICAL lock-up token **原来是反的**：命中 "staggered lock-up
+     release"（日程内、leg 1 的 `UNLOCK_SCHEDULE` 早就确定性发过），却匹配不到
+     "waived the lock-up early"（真正的意外供给）。改成要求 waive/accelerate/早于日程，
+     日程内的 release 降到 HIGH。
+
+  凭据：把 `alerts` 表里 **2901 条真实新闻告警**用「改前 vs 改后」两份代码全量重放：
+
+  | | CRITICAL | HIGH | 说明 |
+  |---|---|---|---|
+  | C3 | **9 → 5** | — | 消掉的 4 条：Starling 裁员、"long-term default"（设置义）、安全负责人离职、以及出版方就叫 **"Going Concern"** 的那条 |
+  | C6 | 0 → 0 | **69 → 43**，另有 65 条整体降为不告警 | 消掉的全是 Technobezz 之流的零售 SSD 降价 + Hudbay Minerals(HBM.US) |
+  | C11 | **3 → 0** | 147 → 150 | 那 3 条 CRITICAL 全是日程内 release，降到 HIGH 才对 |
+
+  真信号存活已逐条验证：C6 的 DRAM 暴跌/oversupply 四条仍 HIGH；C3 的 Oracle 债降级、
+  SoftBank 发债仍 CRITICAL，且构造的 "OpenAI defaulted on a $2bn loan payment" 仍 CRITICAL；
+  C11 构造的 "waived the lock-up early" 现在能进 CRITICAL（改之前进不去）。
+  **改动自身没引入任何新的 CRITICAL**（重放实测 0 条）。
+  `pytest` → **309 passed**（改前 295，新增 14 个用例，全部钉在真实标题上）。2026-08-05
+
+  ⚠️ **留了一条已知残留**：「Meta Admits AI Restructuring Fell Short … Close Gap With
+  OpenAI」仍是 C3 CRITICAL。这是**实体归属**问题，不是词义问题。**故意没用「离 token
+  最近的公司才算」规则修** —— 那条规则会把「S&P Downgrades **Oracle**'s **Bond** Rating,
+  Names OpenAI as a Credit Risk」这种真信号一起杀掉。宁可留一条误报。
 
 - **C1 `IMPAIRMENT_PPE` 命中每份 10-Q 都有的 GAAP「Use of Estimates」样板** —— 以及同一类
   的另外三个误报。新增 `lib/filing_context.py`：按**句子**（不是字符窗口）判断命中落在
