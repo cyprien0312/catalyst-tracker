@@ -1,6 +1,6 @@
 {
-  "generated_at": 1785962285,
-  "generated_at_str": "2026-08-05 20:38:05 UTC",
+  "generated_at": 1785962462,
+  "generated_at_str": "2026-08-05 20:41:02 UTC",
   "last_event_ts": 1785962105,
   "tables": {
     "alerts_dedup": {
@@ -2359,40 +2359,45 @@
       "drawdown": -0.030248592656373252
     },
     "spx": null,
-    "regime": "B",
-    "fuses": [
-      "C2"
-    ],
+    "regime": "A",
+    "fuses": [],
     "rungs": [
       {
-        "thresh": -0.3,
+        "thresh": 0.0,
         "pct": 10,
-        "label": "knife 1 \u00b7 fuse active",
-        "level": 21462.42,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27594.54,
         "triggered": false
       },
       {
-        "thresh": -0.4,
-        "pct": 10,
-        "label": "knife 2",
-        "level": 18396.359999999997,
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
         "triggered": false
       },
       {
-        "thresh": -0.5,
-        "pct": 20,
-        "label": "backup-the-truck \u00b7 needs stabilisation",
-        "level": 15330.3,
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24528.48,
         "triggered": false
       }
     ],
-    "cumulative_target": 0,
-    "reserve": 0,
+    "cumulative_target": 10,
+    "reserve": 40,
     "next_rung": {
-      "thresh": -0.3,
+      "thresh": -0.1,
       "pct": 10,
-      "label": "knife 1 \u00b7 fuse active",
-      "level": 21462.42
+      "label": "dip 1",
+      "level": 27594.54
     },
     "needs_stabilisation": false
   }
