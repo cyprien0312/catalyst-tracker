@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-**真相源：[`docs/STATE.md`](docs/STATE.md)** —— 此刻状态和全部待办只在那一处。
+**短期记忆：[`docs/STATE.md`](docs/STATE.md)** —— 此刻状态和全部待办只在那一处。
 **先读它再动手**；本文件只讲「怎么干」，不讲「现在怎么样」。
 
 > ⚠️ **生产跑在另一台机器（openclaw）上，不是每台 clone 都在跑。**
