@@ -1,12 +1,12 @@
 {
-  "generated_at": 1785968781,
-  "generated_at_str": "2026-08-05 22:26:21 UTC",
-  "last_event_ts": 1785968044,
+  "generated_at": 1785968954,
+  "generated_at_str": "2026-08-05 22:29:14 UTC",
+  "last_event_ts": 1785968954,
   "tables": {
     "alerts_dedup": {
-      "count": 2970,
-      "last_ts": 1785966434,
-      "last_str": "2026-08-05 21:47:14 UTC"
+      "count": 2971,
+      "last_ts": 1785968954,
+      "last_str": "2026-08-05 22:29:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 30,
-      "last_ts": 1785882542,
-      "last_str": "2026-08-04 22:29:02 UTC"
+      "count": 31,
+      "last_ts": 1785968941,
+      "last_str": "2026-08-05 22:29:01 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 2978,
+      "ts": 1785968954,
+      "ts_str": "2026-08-05 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.40% (+51bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-04\nCurrent:  2.40%\n90d low:  1.89%\nMove:     +51bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.4% from a trailing-90-day low of 1.89%, a 0.51pp jump as of 2026-08-04.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\uff08TIPS\uff09\u6536\u76ca\u7387\u4ece\u8fd1 90 \u5929\u4f4e\u70b9 1.89% \u5347\u81f3 2.4%\uff0c\u622a\u81f3 2026-08-04 \u4e0a\u6da8 0.51 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields tighten financial conditions and raise the discount rate on long-duration AI capex bets, directly pressuring the valuations that assume near-zero real financing costs. C10 mirrors C7's structure \u2014 this is a thermometer reading, not a fuse, but a sustained move above the 2x-trigger threshold would push it to CRITICAL.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u4e0a\u5347\u4f1a\u6536\u7d27\u91d1\u878d\u73af\u5883\uff0c\u62ac\u9ad8\u957f\u4e45\u671f AI capex \u6295\u8d44\u7684\u8d34\u73b0\u7387\uff0c\u76f4\u63a5\u51b2\u51fb\u90a3\u4e9b\u5047\u8bbe\u878d\u8d44\u6210\u672c\u63a5\u8fd1\u96f6\u5b9e\u9645\u5229\u7387\u7684\u4f30\u503c\u903b\u8f91\u3002C10 \u7ed3\u6784\u4e0a\u7167\u642c C7 \u2014\u2014\u8fd9\u662f\u6e29\u5ea6\u8ba1\u4fe1\u53f7\u4e0d\u662f\u5f15\u4fe1\uff0c\u4f46\u5982\u679c\u6da8\u5e45\u6301\u7eed\u8d85\u8fc7 2 \u500d\u89e6\u53d1\u9608\u503c\uff0c\u4f1a\u5347\u7ea7\u5230 CRITICAL\u3002\n",
+      "emailed": false
+    },
     {
       "id": 2977,
       "ts": 1785966434,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility - odaily.news",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 03:53:56 GMT\nLink:      https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xYXlKYXNXRC1NR3FpeUU4LTVaZDQ1OHVHeG50aXNRbkM0WXdOVkVBejZ0NlNYZ0lPVXZEU0xySHoxZ3hPV0NKOTRQRVJaaWpr?oc=5\n\nSK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility - odaily.news\n\n<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xYXlKYXNXRC1NR3FpeUU4LTVaZDQ1OHVHeG50aXNRbkM0WXdOVkVBejZ0NlNYZ0lPVXZEU0xySHoxZ3hPV0NKOTRQRVJaaWpr?oc=5\" target=\"_blank\">SK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">odaily.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix reported record Q2 profit margin, citing HBM4 and long-term agreements as boosting demand visibility.\n\n\u5185\u5bb9:\nSK Hynix \u516c\u5e03\u7b2c\u4e8c\u5b63\u5ea6\u5229\u6da6\u7387\u521b\u5386\u53f2\u65b0\u9ad8\uff0c\u79f0 HBM4 \u4e0e\u957f\u671f\u534f\u8bae\u63d0\u5347\u4e86\u9700\u6c42\u53ef\u89c1\u5ea6\u3002\n\nWhy it matters:\nA memory supplier posting record margins on HBM signals pricing power holding up, not the oversupply/order-cancellation stress the C6 signal watches for \u2014 this is a bullish demand-visibility read, the opposite pole of the memory-price-stress thesis.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u5b58\u50a8\u82af\u7247\u4f9b\u5e94\u5546\u5728 HBM \u4e0a\u521b\u4e0b\u5229\u6da6\u7387\u65b0\u9ad8\uff0c\u8bf4\u660e\u5176\u5b9a\u4ef7\u6743\u4ecd\u7136\u7a33\u56fa\uff0c\u800c\u975e C6 \u4fe1\u53f7\u6240\u8b66\u60d5\u7684\u4f9b\u8fc7\u4e8e\u6c42\u6216\u8ba2\u5355\u53d6\u6d88\u538b\u529b\u2014\u2014\u8fd9\u662f\u9700\u6c42\u53ef\u89c1\u5ea6\u6539\u5584\u7684\u5229\u597d\u4fe1\u53f7\uff0c\u4e0e\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u8bba\u70b9\u65b9\u5411\u76f8\u53cd\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2779,
-      "ts": 1785297913,
-      "ts_str": "2026-07-29 04:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility - odaily.news",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 29 Jul 2026 03:53:56 GMT\nLink:      https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xYXlKYXNXRC1NR3FpeUU4LTVaZDQ1OHVHeG50aXNRbkM0WXdOVkVBejZ0NlNYZ0lPVXZEU0xySHoxZ3hPV0NKOTRQRVJaaWpr?oc=5\n\nSK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility - odaily.news\n\n<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xYXlKYXNXRC1NR3FpeUU4LTVaZDQ1OHVHeG50aXNRbkM0WXdOVkVBejZ0NlNYZ0lPVXZEU0xySHoxZ3hPV0NKOTRQRVJaaWpr?oc=5\" target=\"_blank\">SK Hynix Q2 Profit Margin Hits Record High, HBM4 and Long-Term Agreements Enhance Demand Visibility</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">odaily.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix reported record Q2 profit margin, citing HBM4 and long-term agreements as boosting demand visibility.\n\n\u5185\u5bb9:\nSK Hynix \u516c\u5e03\u7b2c\u4e8c\u5b63\u5ea6\u5229\u6da6\u7387\u521b\u5386\u53f2\u65b0\u9ad8\uff0c\u79f0 HBM4 \u4e0e\u957f\u671f\u534f\u8bae\u63d0\u5347\u4e86\u9700\u6c42\u53ef\u89c1\u5ea6\u3002\n\nWhy it matters:\nA memory supplier posting record margins on HBM signals pricing power holding up, not the oversupply/order-cancellation stress the C6 signal watches for \u2014 this is a bullish demand-visibility read, the opposite pole of the memory-price-stress thesis.\n\n\u5f71\u54cd:\n\u4f5c\u4e3a\u5b58\u50a8\u82af\u7247\u4f9b\u5e94\u5546\u5728 HBM \u4e0a\u521b\u4e0b\u5229\u6da6\u7387\u65b0\u9ad8\uff0c\u8bf4\u660e\u5176\u5b9a\u4ef7\u6743\u4ecd\u7136\u7a33\u56fa\uff0c\u800c\u975e C6 \u4fe1\u53f7\u6240\u8b66\u60d5\u7684\u4f9b\u8fc7\u4e8e\u6c42\u6216\u8ba2\u5355\u53d6\u6d88\u538b\u529b\u2014\u2014\u8fd9\u662f\u9700\u6c42\u53ef\u89c1\u5ea6\u6539\u5584\u7684\u5229\u597d\u4fe1\u53f7\uff0c\u4e0e\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u8bba\u70b9\u65b9\u5411\u76f8\u53cd\u3002\n",
       "emailed": false
     }
   ],
