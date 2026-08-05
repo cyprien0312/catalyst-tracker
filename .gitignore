@@ -9,3 +9,9 @@ state/*.sqlite-journal
 state/*.sqlite-wal
 state/*.sqlite-shm
 logs/
+
+# Claude Code local state: settings.local.json (per-machine permissions) and
+# worktrees/ (background-task checkouts). Neither should follow the repo to
+# another host. If a shared .claude/settings.json is ever wanted, un-ignore it
+# explicitly with `!.claude/settings.json` — this pattern covers it too.
+.claude/
