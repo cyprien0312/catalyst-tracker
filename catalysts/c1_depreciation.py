@@ -1,5 +1,7 @@
 import re
 
+from lib.filing_context import scan as _gated_scan
+
 PATTERNS: list[tuple[str, str, str]] = [
     ("USEFUL_LIFE_SHORTENED_6_TO_5",
      r"from\s+(?:six|6)\s+years?\s+to\s+(?:five|5)\s+years?", "HIGH"),
@@ -20,6 +22,28 @@ PATTERNS: list[tuple[str, str, str]] = [
 ]
 _COMPILED = [(k, re.compile(p, re.I | re.S), s) for k, p, s in PATTERNS]
 
+# Per-pattern subject checks, applied to the sentence a hit lands in. Only for
+# patterns too generic to identify their own subject — the shared boilerplate /
+# risk-factor gate in lib.filing_context handles everything else.
+REQUIRES: dict[str, re.Pattern[str]] = {
+    # "5.5 years" on its own also matches contract durations. AMZN's Q1 2026
+    # 10-Q says "The weighted-average remaining life of our long-term contracts
+    # is 5.5 years" — a revenue-backlog sentence with nothing to do with
+    # depreciation.
+    "META_5_5_YEARS": re.compile(
+        r"useful\s+li(?:fe|ves)|depreciat|amortiz|servers?|network\s+(?:asset|equipment)",
+        re.I,
+    ),
+    # An impairment only matters once it has been taken. Requiring a quantified
+    # charge separates META's real "total impairment losses for property and
+    # equipment were $237 million" from GOOGL's ASC 360 policy paragraph.
+    "IMPAIRMENT_PPE": re.compile(
+        r"\$\s?\d|\brecord(?:ed|s)\b|\brecogniz(?:ed|es)\b|\bincurred\b"
+        r"|\bcharges?\b|\bloss(?:es)?\b|\bwrote\s+down\b|\bwrite-?downs?\b",
+        re.I,
+    ),
+}
+
 _SEVERITY_ORDER = {"LOG": 0, "MED": 1, "HIGH": 2, "CRITICAL": 3}
 
 
@@ -28,12 +52,7 @@ def MAX_SEVERITY_RANK(severities: list[str]) -> str:
 
 
 def scan_text(text: str) -> list[dict]:
-    out: list[dict] = []
-    for key, rx, sev in _COMPILED:
-        m = rx.search(text)
-        if m:
-            out.append({"key": key, "severity": sev, "snippet": m.group(0)[:240]})
-    return out
+    return _gated_scan(text, _COMPILED, REQUIRES)
 
 
 from lib.config import HYPERSCALERS
@@ -58,6 +77,10 @@ def _render_body(ticker: str, filing, hits: list[dict]) -> str:
     for h in hits:
         snippet = h["snippet"].replace("\n", " ")
         lines.append(f"- {h['key']} ({h['severity']}): {snippet}")
+        # The sentence the hit came from — enough context to tell a real
+        # disclosure from boilerplate without opening the filing.
+        if h.get("sentence"):
+            lines.append(f"    context: {h['sentence'][:400]}")
     return "\n".join(lines)
 
 

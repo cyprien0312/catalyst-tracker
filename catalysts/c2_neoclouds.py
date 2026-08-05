@@ -11,6 +11,7 @@ from catalysts.base import Alert, CatalystBase
 from lib.config import NEOCLOUDS
 from lib.edgar import EdgarClient, Filing
 from lib.explanations import append_context
+from lib.filing_context import scan as _gated_scan
 from lib.log import get_logger
 from lib.prices import stock_crash, stock_crash_cached
 from lib.state import State
@@ -43,12 +44,7 @@ def _max_sev(sevs: list[str]) -> str:
 
 
 def scan_text(text: str) -> list[dict]:
-    out: list[dict] = []
-    for key, rx, sev in _COMPILED:
-        m = rx.search(text)
-        if m:
-            out.append({"key": key, "severity": sev, "snippet": m.group(0)[:240]})
-    return out
+    return _gated_scan(text, _COMPILED)
 
 
 def _render_filing_body(ticker: str, filing: Filing, hits: list[dict]) -> str:
@@ -64,6 +60,10 @@ def _render_filing_body(ticker: str, filing: Filing, hits: list[dict]) -> str:
     for h in hits:
         snip = h["snippet"].replace("\n", " ")
         lines.append(f"- {h['key']} ({h['severity']}): {snip}")
+        # The sentence the hit came from — enough context to tell a real
+        # disclosure from risk-factor language without opening the filing.
+        if h.get("sentence"):
+            lines.append(f"    context: {h['sentence'][:400]}")
     return "\n".join(lines)
 
 

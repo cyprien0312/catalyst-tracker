@@ -166,6 +166,12 @@ No paid packages. No API keys are required for SEC, FINRA, PJM, ERCOT, CAISO, RS
 | `accelerated\s+depreciation` AND `(?:server\|GPU\|network)` | HIGH | impairment proxy |
 | `impair(?:ment\|ed)` AND `property\s+and\s+equipment` | HIGH | impairment line |
 
+> ⚠️ **A pattern hit alone is no longer sufficient to alert (changed 2026-08-05).**
+> Every hit is gated by `lib/filing_context.py`, which rejects the match if the
+> *sentence* it lands in is accounting-policy boilerplate or forward-looking risk
+> language. `impair… property and equipment` in particular matches the "Use of
+> Estimates" note of every single 10-Q ever filed. See §3.1.
+
 **Verbatim anchor text for unit tests** — from Amazon's 10-K (accession `0001018724-25-000004`, filed 2025-02-07, period 2024-12-31, file `amzn-20241231.htm`):
 
 > "We completed our most recent servers and networking equipment useful life study in Q4 2024, and are changing the useful lives of a subset of our servers and networking equipment, effective January 1, 2025, from six years to five years. … we anticipate a decrease in 2025 operating income of approximately $0.7 billion."
@@ -179,6 +185,31 @@ From Meta's FY2024 10-K (accession `0001326801-25-000017`, file `meta-20241231.h
 > "In January 2025, we completed an assessment of the useful lives of certain servers and network assets, which resulted in an increase in their estimated useful life to 5.5 years, effective beginning fiscal year 2025. … we expect this change in accounting estimate will reduce our full-year 2025 depreciation expense by approximately $2.9 billion."
 
 These are the literal strings the regex must match in production. They live in `tests/fixtures/` as canary tests — CI fails if our regex stops matching them after refactors.
+
+### §3.1 Context gate (added 2026-08-05)
+
+The patterns above match *vocabulary*, not *disclosures*. Filings state the same
+words in three voices, only one of which is a signal:
+
+| voice | example | alert? |
+|---|---|---|
+| **policy boilerplate** | "Estimates are used for, but not limited to, … impairment of property and equipment …" | no |
+| **risk-factor hypothetical** | "any adverse developments … including … debt covenant defaults …, could have a material adverse effect" | no |
+| **disclosure** | "total impairment losses for property and equipment were $237 million" | yes |
+
+`lib/filing_context.py` classifies the sentence a hit lands in and drops the
+first two. It **fails open** — an unrecognised sentence still alerts, because a
+suppressed real signal is silent and therefore the more expensive error.
+
+Scope is the sentence and **not** a character window. In AMZN's FY2025 10-K the
+genuine useful-life change sits ~150 chars after the "but not limited to" list,
+so any window wide enough to catch the boilerplate also swallows the real
+signal. `tests/fixtures/amzn_use_of_estimates_note.txt` pins exactly that
+adjacency.
+
+Because boilerplate reliably precedes real disclosures in a filing, the scan
+walks **every** occurrence (`finditer`) rather than the first (`re.search`) —
+otherwise the policy note near the top masks the disclosure in the notes below.
 
 **Core code:**
 ```python

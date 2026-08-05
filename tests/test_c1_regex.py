@@ -51,3 +51,56 @@ def test_snippet_is_truncated():
     text = "x " * 1000 + "from six years to five years " + "y " * 1000
     hits = scan_text(text)
     assert any(len(h["snippet"]) <= 240 for h in hits)
+
+
+# --- boilerplate canaries --------------------------------------------------
+# Verbatim excerpts from real filings. Each pins a false positive that reached
+# production, or a real signal that must survive the fix that killed one.
+
+def test_use_of_estimates_boilerplate_does_not_fire_impairment():
+    """GAAP "Use of Estimates" boilerplate is in every 10-Q/10-K.
+
+    It fired a spurious C1-HIGH on AMZN's Q2 2026 10-Q (accession
+    0001018724-26-000026) on 2026-07-31. The excerpt keeps the genuine
+    useful-life disclosure that sits ~150 chars later in the same paragraph,
+    because that adjacency is what rules out any character-window guard.
+    """
+    text = (FIX / "amzn_use_of_estimates_note.txt").read_text()
+    keys = {h["key"] for h in scan_text(text)}
+    assert "IMPAIRMENT_PPE" not in keys
+    # ...while the real disclosure in the very same paragraph still fires.
+    assert "USEFUL_LIFE_SHORTENED_6_TO_5" in keys
+    assert "AMZN_SUBSET_PHRASE" in keys
+
+
+def test_asc360_impairment_policy_note_does_not_fire():
+    """GOOGL's "Impairment of Long-Lived Assets" policy note describes a method,
+    not a charge. Same class of bug, different boilerplate."""
+    text = (FIX / "googl_impairment_policy.txt").read_text()
+    assert "IMPAIRMENT_PPE" not in {h["key"] for h in scan_text(text)}
+
+
+def test_real_impairment_disclosure_still_fires():
+    """META's actual impairment numbers must survive the boilerplate fix.
+
+    The excerpt deliberately opens with a trailing "... - Use of Estimates."
+    cross-reference from the preceding sentence — proof the gate is scoped to
+    the matched sentence and not to a surrounding window.
+    """
+    text = (FIX / "meta_impairment_real.txt").read_text()
+    hits = {h["key"]: h for h in scan_text(text)}
+    assert "IMPAIRMENT_PPE" in hits
+    assert "$ 237 million" in hits["IMPAIRMENT_PPE"]["sentence"]
+
+
+def test_contract_duration_does_not_fire_5_5_years():
+    """"5.5 years" also describes AMZN's revenue backlog duration (Q1 2026
+    10-Q) — nothing to do with depreciation."""
+    text = (FIX / "amzn_contract_duration_5_5_years.txt").read_text()
+    assert "META_5_5_YEARS" not in {h["key"] for h in scan_text(text)}
+
+
+def test_hits_carry_the_sentence_they_came_from():
+    text = (FIX / "amzn_2024_10k_excerpt.txt").read_text()
+    hits = scan_text(text)
+    assert hits and all(h.get("sentence") for h in hits)
