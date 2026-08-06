@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786048327,
-  "generated_at_str": "2026-08-06 20:32:07 UTC",
-  "last_event_ts": 1786047244,
+  "generated_at": 1786048515,
+  "generated_at_str": "2026-08-06 20:35:15 UTC",
+  "last_event_ts": 1786048515,
   "tables": {
     "alerts_dedup": {
-      "count": 3054,
-      "last_ts": 1786046718,
-      "last_str": "2026-08-06 20:05:18 UTC"
+      "count": 3055,
+      "last_ts": 1786048515,
+      "last_str": "2026-08-06 20:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-08-06 20:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4492,
-      "last_ts": 1786046705,
-      "last_str": "2026-08-06 20:05:05 UTC"
+      "count": 4493,
+      "last_ts": 1786048503,
+      "last_str": "2026-08-06 20:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 2982,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-06 20:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3358,
-      "last_ts": 1786043105,
-      "last_str": "2026-08-06 19:05:05 UTC"
+      "count": 3361,
+      "last_ts": 1786048504,
+      "last_str": "2026-08-06 20:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 21952,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3062,
+      "ts": 1786048515,
+      "ts_str": "2026-08-06 20:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI Infrastructure Demand Drives HBM Shortage - Intellectia AI",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 00:05:35 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPbC1SXzIyX0RWT3dacXpOSktkYkJ0MWtJS1ZNcWVjSUhoU0duQVprNGxjUWNsYUlvenZjMVZPZExGV184V0xZRFlKU2JyeU9naVF2NmFLclZZalZuMC1ETHk5SzB4UzFQYjh6WXBrcWpsN3NWNzBWRjRSNWREN0RhRmhuRjQ?oc=5\n\nAI Infrastructure Demand Drives HBM Shortage - Intellectia AI\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPbC1SXzIyX0RWT3dacXpOSktkYkJ0MWtJS1ZNcWVjSUhoU0duQVprNGxjUWNsYUlvenZjMVZPZExGV184V0xZRFlKU2JyeU9naVF2NmFLclZZalZuMC1ETHk5SzB4UzFQYjh6WXBrcWpsN3NWNzBWRjRSNWREN0RhRmhuRjQ?oc=5\" target=\"_blank\">AI Infrastructure Demand Drives HBM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intellectia AI</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item repeats the headline \"AI Infrastructure Demand Drives HBM Shortage\" twice, pairing HBM with a shortage token.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u91cd\u590d\u51fa\u73b0\u6807\u9898\u300cAI Infrastructure Demand Drives HBM Shortage\u300d\u4e24\u6b21\uff0cHBM \u4e0e\u300c\u77ed\u7f3a\u300d\u8bcd\u6c47\u540c\u65f6\u51fa\u73b0\u3002\n\nWhy it matters:\nA genuine HBM shortage would confirm memory is the binding constraint on AI accelerator supply, tightening margins for hyperscalers and boosting pricing power for SK Hynix/Samsung/Micron \u2014 but this is a single wire-style headline with no ticker or numbers, so treat it as a thin, unconfirmed data point.\n\n\u5f71\u54cd:\n\u5982\u679c HBM \u771f\u7684\u77ed\u7f3a\uff0c\u8bf4\u660e\u5185\u5b58\u5df2\u7ecf\u6210\u4e3a AI \u52a0\u901f\u5668\u4f9b\u5e94\u7684\u74f6\u9888\uff0c\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u540c\u65f6\u63d0\u5347 SK \u6d77\u529b\u58eb/\u4e09\u661f/\u7f8e\u5149\u7684\u5b9a\u4ef7\u6743\uff1b\u4f46\u8fd9\u6761\u53ea\u662f\u4e00\u4e2a\u6ca1\u6709 ticker \u548c\u5177\u4f53\u6570\u5b57\u7684\u901a\u7a3f\u5f0f\u6807\u9898\uff0c\u53ef\u4fe1\u5ea6\u6709\u9650\uff0c\u53ea\u80fd\u5f53\u4f5c\u4e00\u4e2a\u5f85\u786e\u8ba4\u7684\u5f31\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3060,
       "ts": 1786046718,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-HIGH] SPCX\u2019s first earnings report is about to be released\u2014$100 billion unlock seller black hole - Binance",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 02 Aug 2026 02:48:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZOTFYRG5IclpQQm9pa05GaE5IdW04QjR2Q2htZXQzSkEtYnp3RU1pTFJqZ0ZBekZwNXgzV21iRlZsZWRLc0p2LXFmemc2T1BwdS0xUTlzd3RzSU8yYWxGZEt1SzNZM2FW?oc=5\n\nSPCX\u2019s first earnings report is about to be released\u2014$100 billion unlock seller black hole - Binance\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZOTFYRG5IclpQQm9pa05GaE5IdW04QjR2Q2htZXQzSkEtYnp3RU1pTFJqZ0ZBekZwNXgzV21iRlZsZWRLc0p2LXFmemc2T1BwdS0xUTlzd3RzSU8yYWxGZEt1SzNZM2FW?oc=5\" target=\"_blank\">SPCX\u2019s first earnings report is about to be released\u2014$100 billion unlock seller black hole</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Binance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline warns SPCX's upcoming first earnings report could trigger a $100 billion unlock-driven sell-off.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u5934\u6761\u8b66\u544a\u79f0\uff0cSPCX \u5373\u5c06\u53d1\u5e03\u7684\u9996\u4efd\u8d22\u62a5\u53ef\u80fd\u5f15\u53d1\u89c4\u6a21\u9ad8\u8fbe $100 billion \u7684\u89e3\u9501\u629b\u552e\u3002\n\nWhy it matters:\nThis is unverified speculative news coverage, not a confirmed filing or ETF-flow event, but it flags that the market is pricing lock-up expiration risk around SPCX's earnings \u2014 a reminder that passive-flow mechanics can compound any negative print.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e00\u6761\u672a\u7ecf\u8bc1\u5b9e\u7684\u5a92\u4f53\u63a8\u6d4b\u62a5\u9053\uff0c\u5e76\u975e\u5b98\u65b9\u6587\u4ef6\u6216 ETF \u8d44\u91d1\u6d41\u786e\u8ba4\u4e8b\u4ef6\uff0c\u4f46\u5b83\u63d0\u793a\u5e02\u573a\u5df2\u7ecf\u5728\u4e3a SPCX \u8d22\u62a5\u524d\u540e\u7684\u89e3\u9501\u98ce\u9669\u5b9a\u4ef7\u2014\u2014\u88ab\u52a8\u8d44\u91d1\u7684\u673a\u5236\u6027\u629b\u538b\u53ef\u80fd\u653e\u5927\u4efb\u4f55\u5229\u7a7a\u8d22\u62a5\u7684\u51b2\u51fb\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2862,
-      "ts": 1785658453,
-      "ts_str": "2026-08-02 08:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC - Y100 WNCY",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 01 Aug 2026 10:37:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZVJ6N3BDbjJpUWphRl9Ka1dDUFNzTzRVUWZhQUlib29qY29GeUdPOVNxOTNQN3hsMGlza3FBRlZxUFR3TGhKQVRReXg0MEtJbEpBb3RYVzRWZXlTaEpOVUVpMnRqODhmUWpuZmhLa2tVQUJ5UmltT1hmWnRjRC01bTg5WERySVdnSU1ZUHM1U01jay1lcFIzYXBVYkpIYXIwQmpEbkNjMWNKdw?oc=5\n\nOpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC - Y100 WNCY\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZVJ6N3BDbjJpUWphRl9Ka1dDUFNzTzRVUWZhQUlib29qY29GeUdPOVNxOTNQN3hsMGlza3FBRlZxUFR3TGhKQVRReXg0MEtJbEpBb3RYVzRWZXlTaEpOVUVpMnRqODhmUWpuZmhLa2tVQUJ5UmltT1hmWnRjRC01bTg5WERySVdnSU1ZUHM1U01jay1lcFIzYXBVYkpIYXIwQmpEbkNjMWNKdw?oc=5\" target=\"_blank\">OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Y100 WNCY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI told CNBC its CFO will reserve a portion of IPO shares for retail investors.\n\n\u5185\u5bb9:\nOpenAI \u5411 CNBC \u900f\u9732\uff0c\u5176 CFO \u8868\u793a\u5c06\u4e3a\u6563\u6237\u6295\u8d44\u8005\u9884\u7559\u90e8\u5206 IPO \u80a1\u4efd\u3002\n\nWhy it matters:\nConfirms IPO planning is advancing and signals a push for broad retail participation, which widens the pool of capital exposed if the AI-capex cycle turns out overbuilt.\n\n\u5f71\u54cd:\n\u8fd9\u8bc1\u5b9e IPO \u7b79\u5907\u6b63\u5728\u63a8\u8fdb\uff0c\u5e76\u91ca\u653e\u51fa\u9762\u5411\u6563\u6237\u6269\u5927\u53d1\u884c\u7684\u4fe1\u53f7\uff0c\u4e00\u65e6 AI capex \u5468\u671f\u88ab\u8bc1\u660e\u662f\u8fc7\u5ea6\u5efa\u8bbe\uff0c\u5c06\u6709\u66f4\u591a\u6563\u6237\u8d44\u91d1\u66b4\u9732\u5728\u98ce\u9669\u4e4b\u4e2d\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
