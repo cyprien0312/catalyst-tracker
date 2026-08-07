@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786098726,
-  "generated_at_str": "2026-08-07 10:32:06 UTC",
-  "last_event_ts": 1786097644,
+  "generated_at": 1786098917,
+  "generated_at_str": "2026-08-07 10:35:17 UTC",
+  "last_event_ts": 1786098916,
   "tables": {
     "alerts_dedup": {
-      "count": 3078,
-      "last_ts": 1786093505,
-      "last_str": "2026-08-07 09:05:05 UTC"
+      "count": 3080,
+      "last_ts": 1786098916,
+      "last_str": "2026-08-07 10:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-07 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3891,
-      "last_ts": 1786097102,
-      "last_str": "2026-08-07 10:05:02 UTC"
+      "count": 3894,
+      "last_ts": 1786098902,
+      "last_str": "2026-08-07 10:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4528,
-      "last_ts": 1786097104,
-      "last_str": "2026-08-07 10:05:04 UTC"
+      "count": 4530,
+      "last_ts": 1786098904,
+      "last_str": "2026-08-07 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3015,
-      "last_ts": 1786097103,
-      "last_str": "2026-08-07 10:05:03 UTC"
+      "count": 3016,
+      "last_ts": 1786098903,
+      "last_str": "2026-08-07 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3379,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3086,
+      "ts": 1786098916,
+      "ts_str": "2026-08-07 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] iPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 09:57:31 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEpsR0dwQlNmakxWd25JUXlld1R5REtOSDg3Ry1zNXRiZk5tYXBnQTc0QlRxc1M1Z3BtcldQTDA0VzB2WUZVYzRlUjZJMnF2bFZST1UwdHNPLVNjRzJ1TXpTMGRBbkhJR18xcDN5ejZvQmlhX0JSbm4xbm1obEtFVktJS1lWWW9pWEJQNndOUjdSa2djMlN0V3lHbk5WZEpyT2VscHJVYUFCLTRBZkV5U0hBcDVOMWJMdHkxVm9vb2JEdkUweGfSAcsBQVVfeXFMTXpmNTNyOFRfRnA2VU8zSktuRGlNZzh3QWpEX18xZ254QUVXTGhSY0hEcmZkQTlxajA3UDA3RWhaeUppSk9KRXB2WVZqNHlWemtqZVJwQUM1c1owcU9tc1g5akI0QjZPS0VUeXFBZkg4VkYxUmNUa3BMbFcyTDU0RHdrWnRaSHF0YnpZY1ZVejUxd1ItaXBLcVE5LU9Pa3BrbkgtYmJHNUZ2Q0U5OTVpd1l2WUtfaDNPbnBtM3VPRFA5YVdtOGlJZlVFMjQ?oc=5\n\niPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEpsR0dwQlNmakxWd25JUXlld1R5REtOSDg3Ry1zNXRiZk5tYXBnQTc0QlRxc1M1Z3BtcldQTDA0VzB2WUZVYzRlUjZJMnF2bFZST1UwdHNPLVNjRzJ1TXpTMGRBbkhJR18xcDN5ejZvQmlhX0JSbm4xbm1obEtFVktJS1lWWW9pWEJQNndOUjdSa2djMlN0V3lHbk5WZEpyT2VscHJVYUFCLTRBZkV5U0hBcDVOMWJMdHkxVm9vb2JEdkUweGfSAcsBQVVfeXFMTXpmNTNyOFRfRnA2VU8zSktuRGlNZzh3QWpEX18xZ254QUVXTGhSY0hEcmZkQTlxajA3UDA3RWhaeUppSk9KRXB2WVZqNHlWemtqZVJwQUM1c1owcU9tc1g5akI0QjZPS0VUeXFBZkg4VkYxUmNUa3BMbFcyTDU0RHdrWnRaSHF0YnpZY1ZVejUxd1ItaXBLcVE5LU9Pa3BrbkgtYmJHNUZ2Q0U5OTVpd1l2WUtfaDNPbnBtM3VPRFA5YVdtOGlJZlVFMjQ?oc=5\" target=\"_blank\">iPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report claims iPhone 18 Pro production is bottlenecked by a global DRAM shortage, citing the same headline twice across feeds.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 iPhone 18 Pro \u56e0\u5168\u7403 DRAM \u77ed\u7f3a\u5bfc\u81f4\u751f\u4ea7\u53d7\u963b\uff0c\u540c\u4e00\u6807\u9898\u5728\u4e24\u4e2a feed \u91cc\u5404\u51fa\u73b0\u4e00\u6b21\u3002\n\nWhy it matters:\nDRAM tightness feeding into consumer-device supply chains is a demand-pull signal for memory used in AI infrastructure too \u2014 if hyperscalers and phone makers are competing for the same fabs, it points to broad HBM/DRAM capacity strain rather than an AI-specific bubble tell, so treat this as corroborating context, not a standalone AI-capex signal.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u5982\u679c\u8fde\u6d88\u8d39\u7535\u5b50\u90fd\u53d7\u5f71\u54cd\uff0c\u8bf4\u660e\u662f\u4ea7\u80fd\u5c42\u9762\u7684\u666e\u904d\u7d27\u5f20\uff0c\u800c\u4e0d\u53ea\u662f AI \u670d\u52a1\u5668\u62a2\u4ea7\u80fd\u2014\u2014\u8fd9\u6761\u66f4\u50cf\u662f\u7ed9 HBM/DRAM \u7d27\u7f3a\u63d0\u4f9b\u4f50\u8bc1\uff0c\u672c\u8eab\u4e0d\u6784\u6210\u72ec\u7acb\u7684 AI \u6ce1\u6cab\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3087,
+      "ts": 1786098916,
+      "ts_str": "2026-08-07 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] iPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report - LatestLY",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 09:57:31 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEpsR0dwQlNmakxWd25JUXlld1R5REtOSDg3Ry1zNXRiZk5tYXBnQTc0QlRxc1M1Z3BtcldQTDA0VzB2WUZVYzRlUjZJMnF2bFZST1UwdHNPLVNjRzJ1TXpTMGRBbkhJR18xcDN5ejZvQmlhX0JSbm4xbm1obEtFVktJS1lWWW9pWEJQNndOUjdSa2djMlN0V3lHbk5WZEpyT2VscHJVYUFCLTRBZkV5U0hBcDVOMWJMdHkxVm9vb2JEdkUweGfSAcsBQVVfeXFMTXpmNTNyOFRfRnA2VU8zSktuRGlNZzh3QWpEX18xZ254QUVXTGhSY0hEcmZkQTlxajA3UDA3RWhaeUppSk9KRXB2WVZqNHlWemtqZVJwQUM1c1owcU9tc1g5akI0QjZPS0VUeXFBZkg4VkYxUmNUa3BMbFcyTDU0RHdrWnRaSHF0YnpZY1ZVejUxd1ItaXBLcVE5LU9Pa3BrbkgtYmJHNUZ2Q0U5OTVpd1l2WUtfaDNPbnBtM3VPRFA5YVdtOGlJZlVFMjQ?oc=5\n\niPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report - LatestLY\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQTEpsR0dwQlNmakxWd25JUXlld1R5REtOSDg3Ry1zNXRiZk5tYXBnQTc0QlRxc1M1Z3BtcldQTDA0VzB2WUZVYzRlUjZJMnF2bFZST1UwdHNPLVNjRzJ1TXpTMGRBbkhJR18xcDN5ejZvQmlhX0JSbm4xbm1obEtFVktJS1lWWW9pWEJQNndOUjdSa2djMlN0V3lHbk5WZEpyT2VscHJVYUFCLTRBZkV5U0hBcDVOMWJMdHkxVm9vb2JEdkUweGfSAcsBQVVfeXFMTXpmNTNyOFRfRnA2VU8zSktuRGlNZzh3QWpEX18xZ254QUVXTGhSY0hEcmZkQTlxajA3UDA3RWhaeUppSk9KRXB2WVZqNHlWemtqZVJwQUM1c1owcU9tc1g5akI0QjZPS0VUeXFBZkg4VkYxUmNUa3BMbFcyTDU0RHdrWnRaSHF0YnpZY1ZVejUxd1ItaXBLcVE5LU9Pa3BrbkgtYmJHNUZ2Q0U5OTVpd1l2WUtfaDNPbnBtM3VPRFA5YVdtOGlJZlVFMjQ?oc=5\" target=\"_blank\">iPhone 18 Pro Facing Production Bottlenecks Due to Global DRAM Shortage: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report claims iPhone 18 Pro production is bottlenecked by a global DRAM shortage, citing the same headline twice across feeds.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 iPhone 18 Pro \u56e0\u5168\u7403 DRAM \u77ed\u7f3a\u5bfc\u81f4\u751f\u4ea7\u53d7\u963b\uff0c\u540c\u4e00\u6807\u9898\u5728\u4e24\u4e2a feed \u91cc\u5404\u51fa\u73b0\u4e00\u6b21\u3002\n\nWhy it matters:\nDRAM tightness feeding into consumer-device supply chains is a demand-pull signal for memory used in AI infrastructure too \u2014 if hyperscalers and phone makers are competing for the same fabs, it points to broad HBM/DRAM capacity strain rather than an AI-specific bubble tell, so treat this as corroborating context, not a standalone AI-capex signal.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u5e94\u7d27\u5f20\u5982\u679c\u8fde\u6d88\u8d39\u7535\u5b50\u90fd\u53d7\u5f71\u54cd\uff0c\u8bf4\u660e\u662f\u4ea7\u80fd\u5c42\u9762\u7684\u666e\u904d\u7d27\u5f20\uff0c\u800c\u4e0d\u53ea\u662f AI \u670d\u52a1\u5668\u62a2\u4ea7\u80fd\u2014\u2014\u8fd9\u6761\u66f4\u50cf\u662f\u7ed9 HBM/DRAM \u7d27\u7f3a\u63d0\u4f9b\u4f50\u8bc1\uff0c\u672c\u8eab\u4e0d\u6784\u6210\u72ec\u7acb\u7684 AI \u6ce1\u6cab\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3085,
       "ts": 1786093505,
@@ -2281,26 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] ThinkEquity raises Micron stock price target to $900 on HBM demand - Investing.com Canada",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 11:01:45 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxOQkFqQUp6MFYxYzhXVTZqc2F5ZmJQUmVMeWlfeXJUMlpTWTM0OUx5NUtnZzdIZTlESTgtaTdwZndVOWJ5Vl82YUVHbWg0Q2NJckV6bHBvbmxvak9nMTZXa3gwcnJzZE5XV1pvS0hTNDZyamFHVDhBczhEVmJpcV9DMEJkY3IzNjNEZ1BNZ2NCM1YyNnNoVnE1WkJHRi1ZR0dqMy1kQ1N6bXBYcXk2MGt3OXp1MzRkV19aNkdlbHBneEphUlJ1?oc=5\n\nThinkEquity raises Micron stock price target to $900 on HBM demand - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOQkFqQUp6MFYxYzhXVTZqc2F5ZmJQUmVMeWlfeXJUMlpTWTM0OUx5NUtnZzdIZTlESTgtaTdwZndVOWJ5Vl82YUVHbWg0Q2NJckV6bHBvbmxvak9nMTZXa3gwcnJzZE5XV1pvS0hTNDZyamFHVDhBczhEVmJpcV9DMEJkY3IzNjNEZ1BNZ2NCM1YyNnNoVnE1WkJHRi1ZR0dqMy1kQ1N6bXBYcXk2MGt3OXp1MzRkV19aNkdlbHBneEphUlJ1?oc=5\" target=\"_blank\">ThinkEquity raises Micron stock price target to $900 on HBM demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThinkEquity raised its Micron (MU) price target to $900, citing HBM demand.\n\n\u5185\u5bb9:\nThinkEquity \u5c06\u7f8e\u5149 (MU) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $900\uff0c\u7406\u7531\u662f HBM \u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nAn HBM-driven bull call on Micron signals memory supply is seen as tight rather than oversaturated \u2014 a headwind for the C6 oversupply/cancellation thesis, but consistent with the broader AI-capex-is-real narrative if it holds.\n\n\u5f71\u54cd:\n\u8fd9\u4efd\u770b\u591a\u62a5\u544a\u4ee5 HBM \u9700\u6c42\u4e3a\u7531\uff0c\u8bf4\u660e\u5e02\u573a\u8ba4\u4e3a\u5185\u5b58\u4f9b\u7ed9\u504f\u7d27\u800c\u975e\u8fc7\u5269\u2014\u2014\u5bf9 C6 \u7684\u4ea7\u80fd\u8fc7\u5269/\u780d\u5355\u53d9\u4e8b\u662f\u5229\u7a7a\uff0c\u4f46\u5982\u679c\u7ad9\u5f97\u4f4f\u811a\uff0c\u53cd\u800c\u5370\u8bc1\u4e86 AI capex \u9700\u6c42\u662f\u771f\u5b9e\u7684\u8fd9\u6761\u4e3b\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2888,
-      "ts": 1785755131,
-      "ts_str": "2026-08-03 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] MacBook Air faces global shortage risk due to memory chip shortage - Laodong.vn",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 10:12:14 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmdRWkJucVFNOUVhWm1QaElocUJaRzNldklpUUJIOTg5bEZPMGs3QldwbDFFUjVMRHRQU2xSQURuTThDVHh2dmdXcVhjaDJJanplMUVVN0tPWHh3aGx1MmRMNG9BcjdoZzE0Q1pHMGdJYUJVR0dlNHhrdHhERGo4aF9uNDdRek1NZS1QNFppT3NjUXBvVXlPMklxc1N4MVlXQ211UWdORFhINGpIZjRF?oc=5\n\nMacBook Air faces global shortage risk due to memory chip shortage - Laodong.vn\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmdRWkJucVFNOUVhWm1QaElocUJaRzNldklpUUJIOTg5bEZPMGs3QldwbDFFUjVMRHRQU2xSQURuTThDVHh2dmdXcVhjaDJJanplMUVVN0tPWHh3aGx1MmRMNG9BcjdoZzE0Q1pHMGdJYUJVR0dlNHhrdHhERGo4aF9uNDdRek1NZS1QNFppT3NjUXBvVXlPMklxc1N4MVlXQ211UWdORFhINGpIZjRF?oc=5\" target=\"_blank\">MacBook Air faces global shortage risk due to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Laodong.vn</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Vietnamese outlet (Laodong.vn) reports MacBook Air faces a global shortage risk tied to a memory chip shortage.\n\n\u5185\u5bb9:\n\u8d8a\u5357\u5a92\u4f53 Laodong.vn \u62a5\u9053\uff0c\u7531\u4e8e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff0cMacBook Air \u9762\u4e34\u5168\u7403\u4f9b\u5e94\u77ed\u7f3a\u98ce\u9669\u3002\n\nWhy it matters:\nA memory-chip shortage bleeding into consumer devices signals DRAM/NAND supply is tight enough to hit non-AI end markets \u2014 consistent with the thesis that AI-driven HBM/DRAM demand is crowding out other buyers and pushing memory prices up industry-wide.\n\n\u5f71\u54cd:\n\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5df2\u7ecf\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\u4ea7\u54c1\uff0c\u8bf4\u660e DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5230\u8db3\u4ee5\u51b2\u51fb\u975e AI \u7ec8\u7aef\u5e02\u573a\u2014\u2014\u7b26\u5408 AI \u9a71\u52a8\u7684 HBM/DRAM \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u3001\u63a8\u9ad8\u5168\u884c\u4e1a\u5185\u5b58\u4ef7\u683c\u7684\u5224\u65ad\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2885,
-      "ts": 1785751515,
-      "ts_str": "2026-08-03 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 09:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\n\nDRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\" target=\"_blank\">DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports DRAM price surges hitting costs like a \"once-in-a-century flood,\" with Apple warning on the impact and Nomura projecting DRAM revenue could top $2 trillion.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cDRAM \u4ef7\u683c\u66b4\u6da8\u5bf9\u6210\u672c\u7684\u51b2\u51fb\u5982\u300c\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\u300d\uff0cApple \u5bf9\u6b64\u53d1\u51fa\u8b66\u544a\uff0c\u91ce\u6751\u8bc1\u5238\u9884\u6d4b DRAM \u6536\u5165\u5c06\u7a81\u7834 2 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nMemory pricing pressure squeezes hardware margins across the AI supply chain \u2014 HBM/DRAM scarcity raises the effective cost of every AI server built, and a forecast this extreme (a 12x-plus jump toward $2T) signals either genuine capacity strain or speculative overshoot feeding the bubble narrative from the supplier side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4f1a\u6324\u538b\u6574\u4e2a AI \u4f9b\u5e94\u94fe\u7684\u786c\u4ef6\u5229\u6da6\u2014\u2014HBM/DRAM \u77ed\u7f3a\u63a8\u9ad8\u4e86\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5b9e\u9645\u6210\u672c\uff0c\u800c\u8fd9\u6837\u6781\u7aef\u7684\u9884\u6d4b\uff08\u8dc3\u5347\u903e 12 \u500d\u8fbe\u5230 2 \u4e07\u4ebf\u7f8e\u5143\uff09\u65e2\u53ef\u80fd\u53cd\u6620\u771f\u5b9e\u7684\u4ea7\u80fd\u7d27\u5f20\uff0c\u4e5f\u53ef\u80fd\u662f\u4ece\u4f9b\u5e94\u7aef\u52a9\u63a8\u6ce1\u6cab\u53d9\u4e8b\u7684\u6295\u673a\u6027\u9884\u671f\u3002\n",
       "emailed": false
     }
   ],
