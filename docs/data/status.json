@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786104124,
-  "generated_at_str": "2026-08-07 12:02:04 UTC",
-  "last_event_ts": 1786103244,
+  "generated_at": 1786104319,
+  "generated_at_str": "2026-08-07 12:05:19 UTC",
+  "last_event_ts": 1786104318,
   "tables": {
     "alerts_dedup": {
-      "count": 3084,
-      "last_ts": 1786103244,
-      "last_str": "2026-08-07 11:47:24 UTC"
+      "count": 3085,
+      "last_ts": 1786104318,
+      "last_str": "2026-08-07 12:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-07 11:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3900,
-      "last_ts": 1786102502,
-      "last_str": "2026-08-07 11:35:02 UTC"
+      "count": 3901,
+      "last_ts": 1786104302,
+      "last_str": "2026-08-07 12:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4538,
-      "last_ts": 1786102503,
-      "last_str": "2026-08-07 11:35:03 UTC"
+      "count": 4543,
+      "last_ts": 1786104304,
+      "last_str": "2026-08-07 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3016,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-07 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3382,
-      "last_ts": 1786100707,
-      "last_str": "2026-08-07 11:05:07 UTC"
+      "count": 3383,
+      "last_ts": 1786104305,
+      "last_str": "2026-08-07 12:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 22074,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3092,
+      "ts": 1786104318,
+      "ts_str": "2026-08-07 12:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple's iPhone 18 Pro Could Face Sales Hit Due To Memory Chip Shortage - timesnownews.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 11:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWZrdU0weGxGTEh5RFFIajZjaVRNckRpWnpIM3dUUkVBazlBa3NkTVNNc2hhY0Nla2RDNk1SNjRTNTMwc0hEdDY0VE5yMDVVeUs0ajlVeThvM3BfbFZiV0lLUWpQbnRWVG90Mk5RazhKRlo5dTBlTERBTlpvLVdhbTBvUndzMURTNllyTXJ5QzJMQ2RxbnVmZEw1WUZ2ak11OXAwSUc5QTRGQ0M2TkpPVVVBcEY5ekxhZVVQZXBFd05VMVp1aDNnSUxNMGtXQmVZ0gHWAUFVX3lxTE5VMS1wSlRFYTNHNjExS3JBdDRuMndUQXI5Tkg5NlJhem8tRTFYVjNlRHkwWFFlU1M4b2sxT2R0eERkZGZ5WDdKNFFlWDUyNVJNV3FYcVRmcDM0RGp2RDRXLTFQTjM5NHZwdE9LY08tbEJkRkQ0TTgyeGlBbU5lcE1oUlo2SGNMeHNVaEpGTEZkajhfcVNkVVlwMTJITWhHYlpFenIwZkpEV2FsYnJlYTQ0N1htQ1hMYmIwUXNLNEtRRENaTlgzRVU1LU9FTV9vVUFnQWhJMVE?oc=5\n\nApple's iPhone 18 Pro Could Face Sales Hit Due To Memory Chip Shortage - timesnownews.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWZrdU0weGxGTEh5RFFIajZjaVRNckRpWnpIM3dUUkVBazlBa3NkTVNNc2hhY0Nla2RDNk1SNjRTNTMwc0hEdDY0VE5yMDVVeUs0ajlVeThvM3BfbFZiV0lLUWpQbnRWVG90Mk5RazhKRlo5dTBlTERBTlpvLVdhbTBvUndzMURTNllyTXJ5QzJMQ2RxbnVmZEw1WUZ2ak11OXAwSUc5QTRGQ0M2TkpPVVVBcEY5ekxhZVVQZXBFd05VMVp1aDNnSUxNMGtXQmVZ0gHWAUFVX3lxTE5VMS1wSlRFYTNHNjExS3JBdDRuMndUQXI5Tkg5NlJhem8tRTFYVjNlRHkwWFFlU1M4b2sxT2R0eERkZGZ5WDdKNFFlWDUyNVJNV3FYcVRmcDM0RGp2RDRXLTFQTjM5NHZwdE9LY08tbEJkRkQ0TTgyeGlBbU5lcE1oUlo2SGNMeHNVaEpGTEZkajhfcVNkVVlwMTJITWhHYlpFenIwZkpEV2FsYnJlYTQ0N1htQ1hMYmIwUXNLNEtRRENaTlgzRVU1LU9FTV9vVUFnQWhJMVE?oc=5\" target=\"_blank\">Apple's iPhone 18 Pro Could Face Sales Hit Due To Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timesnownews.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple's iPhone 18 Pro could face a sales hit due to a memory chip shortage \u2014 flagged by C6 as a DRAM/NAND supply-tension signal.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0ciPhone 18 Pro \u53ef\u80fd\u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u800c\u5f71\u54cd\u9500\u91cf\u2014\u2014\u88ab C6 \u6807\u8bb0\u4e3a DRAM/NAND \u4f9b\u7ed9\u7d27\u5f20\u4fe1\u53f7\u3002\n\nWhy it matters:\nA shortage severe enough to threaten a flagship smartphone's shipments signals memory capacity is being pulled hard toward AI/datacenter demand, squeezing consumer supply. That's the price-stress mechanism C6 tracks \u2014 tight DRAM/NAND is a direct read on how much of the memory market AI buildout is consuming.\n\n\u5f71\u54cd:\n\u8fde\u65d7\u8230\u624b\u673a\u7684\u51fa\u8d27\u90fd\u4f1a\u88ab\u5185\u5b58\u77ed\u7f3a\u62d6\u7d2f\uff0c\u8bf4\u660e\u5185\u5b58\u4ea7\u80fd\u6b63\u88ab\u5927\u91cf\u6324\u5411 AI/\u6570\u636e\u4e2d\u5fc3\u9700\u6c42\uff0c\u6d88\u8d39\u7aef\u4f9b\u7ed9\u88ab\u6324\u538b\u3002\u8fd9\u6b63\u662f C6 \u8981\u76ef\u7684\u4ef7\u683c\u538b\u529b\u673a\u5236\uff1aDRAM/NAND \u5403\u7d27\u76f4\u63a5\u53cd\u6620 AI \u57fa\u5efa\u5728\u591a\u5927\u7a0b\u5ea6\u4e0a\u62a2\u5360\u4e86\u5185\u5b58\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3090,
       "ts": 1786103244,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] July DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN - \uc7ac\uacbd\uc77c\ubcf4",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 11:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiSkFVX3lxTE1YSEQ1NU9jRXRwUWEyYVVsNnI0LVNJZTdlVGFWLUQ5T0duXzF5dW50S2U5RUd1Y3Ayb0Rna1BwdVJrWWVQM2xSVmdn?oc=5\n\nJuly DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN - \uc7ac\uacbd\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTE1YSEQ1NU9jRXRwUWEyYVVsNnI0LVNJZTdlVGFWLUQ5T0duXzF5dW50S2U5RUd1Y3Ayb0Rna1BwdVJrWWVQM2xSVmdn?oc=5\" target=\"_blank\">July DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc7ac\uacbd\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean-language Google News RSS item reports July DRAM and NAND spot prices hit record highs as memory supply shortage intensifies.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u97e9\u8bed Google News RSS \u62a5\u9053\u79f0\uff0c7 \u6708 DRAM \u4e0e NAND \u73b0\u8d27\u4ef7\u683c\u521b\u5386\u53f2\u65b0\u9ad8\uff0c\u5185\u5b58\u4f9b\u5e94\u77ed\u7f3a\u6b63\u5728\u52a0\u5267\u3002\n\nWhy it matters:\nMemory pricing feeding into hyperscaler capex costs is a direct AI-infra bubble-stress input \u2014 record DRAM/NAND prices plus 'shortage' language signals tightening supply that raises the cost of building out AI compute, and can also be read as demand-side confirmation of the AI buildout.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u76f4\u63a5\u5f71\u54cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u6ce1\u6cab\u538b\u529b\u7684\u91cd\u8981\u8f93\u5165\u9879\u2014\u2014DRAM/NAND \u4ef7\u683c\u521b\u65b0\u9ad8\u53e0\u52a0\"\u77ed\u7f3a\"\u63aa\u8f9e\uff0c\u65e2\u610f\u5473\u7740\u4f9b\u5e94\u8d8b\u7d27\u63a8\u9ad8 AI \u7b97\u529b\u5efa\u8bbe\u6210\u672c\uff0c\u4e5f\u53ef\u4ee5\u89c6\u4e3a AI \u5efa\u8bbe\u9700\u6c42\u7aef\u7684\u4e00\u79cd\u786e\u8ba4\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2892,
-      "ts": 1785758726,
-      "ts_str": "2026-08-03 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] July DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN - \uc7ac\uacbd\uc77c\ubcf4",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 11:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiSkFVX3lxTE1YSEQ1NU9jRXRwUWEyYVVsNnI0LVNJZTdlVGFWLUQ5T0duXzF5dW50S2U5RUd1Y3Ayb0Rna1BwdVJrWWVQM2xSVmdn?oc=5\n\nJuly DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN - \uc7ac\uacbd\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTE1YSEQ1NU9jRXRwUWEyYVVsNnI0LVNJZTdlVGFWLUQ5T0duXzF5dW50S2U5RUd1Y3Ayb0Rna1BwdVJrWWVQM2xSVmdn?oc=5\" target=\"_blank\">July DRAM and NAND Prices Hit Record Highs as Memory Supply Shortage Intensifies : \uae30\uc5c5\u00b7\uc0b0\uc5c5 : JKN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc7ac\uacbd\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean-language Google News RSS item reports July DRAM and NAND spot prices hit record highs as memory supply shortage intensifies.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u97e9\u8bed Google News RSS \u62a5\u9053\u79f0\uff0c7 \u6708 DRAM \u4e0e NAND \u73b0\u8d27\u4ef7\u683c\u521b\u5386\u53f2\u65b0\u9ad8\uff0c\u5185\u5b58\u4f9b\u5e94\u77ed\u7f3a\u6b63\u5728\u52a0\u5267\u3002\n\nWhy it matters:\nMemory pricing feeding into hyperscaler capex costs is a direct AI-infra bubble-stress input \u2014 record DRAM/NAND prices plus 'shortage' language signals tightening supply that raises the cost of building out AI compute, and can also be read as demand-side confirmation of the AI buildout.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u76f4\u63a5\u5f71\u54cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u6ce1\u6cab\u538b\u529b\u7684\u91cd\u8981\u8f93\u5165\u9879\u2014\u2014DRAM/NAND \u4ef7\u683c\u521b\u65b0\u9ad8\u53e0\u52a0\"\u77ed\u7f3a\"\u63aa\u8f9e\uff0c\u65e2\u610f\u5473\u7740\u4f9b\u5e94\u8d8b\u7d27\u63a8\u9ad8 AI \u7b97\u529b\u5efa\u8bbe\u6210\u672c\uff0c\u4e5f\u53ef\u4ee5\u89c6\u4e3a AI \u5efa\u8bbe\u9700\u6c42\u7aef\u7684\u4e00\u79cd\u786e\u8ba4\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
