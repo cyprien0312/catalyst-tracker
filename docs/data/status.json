@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786093327,
-  "generated_at_str": "2026-08-07 09:02:07 UTC",
-  "last_event_ts": 1786092435,
+  "generated_at": 1786093506,
+  "generated_at_str": "2026-08-07 09:05:06 UTC",
+  "last_event_ts": 1786093505,
   "tables": {
     "alerts_dedup": {
-      "count": 3077,
-      "last_ts": 1786092435,
-      "last_str": "2026-08-07 08:47:15 UTC"
+      "count": 3078,
+      "last_ts": 1786093505,
+      "last_str": "2026-08-07 09:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-07 02:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3882,
-      "last_ts": 1786091702,
-      "last_str": "2026-08-07 08:35:02 UTC"
+      "count": 3888,
+      "last_ts": 1786093502,
+      "last_str": "2026-08-07 09:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4521,
-      "last_ts": 1786091704,
-      "last_str": "2026-08-07 08:35:04 UTC"
+      "count": 4523,
+      "last_ts": 1786093504,
+      "last_str": "2026-08-07 09:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3013,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3085,
+      "ts": 1786093505,
+      "ts_str": "2026-08-07 09:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage: How Is This Indian ICT Distributor Benefiting from Rising Memory Prices? - Trade Brains",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 04:14:00 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxQTWFQaGFOWUhBRERyVkVTRk43MU4ycURaMUNOWDE3YXJvelpPZzB6MHpxSklLeHNLTm9qZE9ySVhwcGhEZ2dkMnhEVnc5TXF6ZWJJUV9aNzY5NlIyVFlWYm9IWkNiUkx0elAtS3czNjB2LXZlQzIxS3FUMTNXQTRDVU1VN1FLR2VqOVo5TGJrVzg2RjdlWVljQ2JFc3pFN2lDR1FSVC1JNFFBZHZyRVg0RVRFaWhBdzQ?oc=5\n\nMemory Chip Shortage: How Is This Indian ICT Distributor Benefiting from Rising Memory Prices? - Trade Brains\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQTWFQaGFOWUhBRERyVkVTRk43MU4ycURaMUNOWDE3YXJvelpPZzB6MHpxSklLeHNLTm9qZE9ySVhwcGhEZ2dkMnhEVnc5TXF6ZWJJUV9aNzY5NlIyVFlWYm9IWkNiUkx0elAtS3czNjB2LXZlQzIxS3FUMTNXQTRDVU1VN1FLR2VqOVo5TGJrVzg2RjdlWVljQ2JFc3pFN2lDR1FSVC1JNFFBZHZyRVg0RVRFaWhBdzQ?oc=5\" target=\"_blank\">Memory Chip Shortage: How Is This Indian ICT Distributor Benefiting from Rising Memory Prices?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trade Brains</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS item reports a memory-chip shortage and rising DRAM/NAND prices, framed around how an Indian ICT distributor is profiting from the price surge.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u62a5\u9053\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3001DRAM/NAND \u4ef7\u683c\u4e0a\u6da8\uff0c\u805a\u7126\u4e00\u5bb6\u5370\u5ea6 ICT \u5206\u9500\u5546\u5982\u4f55\u4ece\u8fd9\u6ce2\u6da8\u4ef7\u4e2d\u83b7\u5229\u3002\n\nWhy it matters:\nRising memory prices are a supply-side signal, not a demand collapse \u2014 but sustained shortages raise input costs for every AI server build, squeezing hyperscaler margins on the same capex that funds the AI buildout. Distributors profiting off price spikes is a late-cycle tell that supply hasn't caught up with AI-driven demand.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f\u4f9b\u7ed9\u7aef\u4fe1\u53f7\uff0c\u4e0d\u4ee3\u8868\u9700\u6c42\u5d29\u584c\u2014\u2014\u4f46\u6301\u7eed\u77ed\u7f3a\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u652f\u6491 AI \u5efa\u8bbe\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5229\u6da6\u3002\u5206\u9500\u5546\u9760\u6da8\u4ef7\u83b7\u5229\uff0c\u8bf4\u660e\u4f9b\u7ed9\u8fd8\u6ca1\u8ddf\u4e0a AI \u9a71\u52a8\u7684\u9700\u6c42\uff0c\u662f\u5468\u671f\u504f\u665a\u671f\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3084,
       "ts": 1786092435,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion ",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 09:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\n\nDRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\" target=\"_blank\">DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports DRAM price surges hitting costs like a \"once-in-a-century flood,\" with Apple warning on the impact and Nomura projecting DRAM revenue could top $2 trillion.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cDRAM \u4ef7\u683c\u66b4\u6da8\u5bf9\u6210\u672c\u7684\u51b2\u51fb\u5982\u300c\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\u300d\uff0cApple \u5bf9\u6b64\u53d1\u51fa\u8b66\u544a\uff0c\u91ce\u6751\u8bc1\u5238\u9884\u6d4b DRAM \u6536\u5165\u5c06\u7a81\u7834 2 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nMemory pricing pressure squeezes hardware margins across the AI supply chain \u2014 HBM/DRAM scarcity raises the effective cost of every AI server built, and a forecast this extreme (a 12x-plus jump toward $2T) signals either genuine capacity strain or speculative overshoot feeding the bubble narrative from the supplier side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4f1a\u6324\u538b\u6574\u4e2a AI \u4f9b\u5e94\u94fe\u7684\u786c\u4ef6\u5229\u6da6\u2014\u2014HBM/DRAM \u77ed\u7f3a\u63a8\u9ad8\u4e86\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5b9e\u9645\u6210\u672c\uff0c\u800c\u8fd9\u6837\u6781\u7aef\u7684\u9884\u6d4b\uff08\u8dc3\u5347\u903e 12 \u500d\u8fbe\u5230 2 \u4e07\u4ebf\u7f8e\u5143\uff09\u65e2\u53ef\u80fd\u53cd\u6620\u771f\u5b9e\u7684\u4ea7\u80fd\u7d27\u5f20\uff0c\u4e5f\u53ef\u80fd\u662f\u4ece\u4f9b\u5e94\u7aef\u52a9\u63a8\u6ce1\u6cab\u53d9\u4e8b\u7684\u6295\u673a\u6027\u9884\u671f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2886,
-      "ts": 1785751515,
-      "ts_str": "2026-08-03 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 09:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\n\nDRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5pWUs5QUhpOXlJbUJvMlZFZkNySWc4RGZpakVqM2xSUzdZRGtoTWtkc1RiSmtsV3ZpdlJfbThldS11SkIxdVFHa1RGZkpVZ2VJeXYxM0VvNG91UGg5ZjBFZFFCWXJkNUNPVVNIVGpud0g4dlRYTUE?oc=5\" target=\"_blank\">DRAM Price Surge Hits Costs Like a \"Once-in-a-Century Flood\": Apple Warns, Nomura Sees DRAM Revenue Topping $2 Trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports DRAM price surges hitting costs like a \"once-in-a-century flood,\" with Apple warning on the impact and Nomura projecting DRAM revenue could top $2 trillion.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0\uff0cDRAM \u4ef7\u683c\u66b4\u6da8\u5bf9\u6210\u672c\u7684\u51b2\u51fb\u5982\u300c\u767e\u5e74\u4e00\u9047\u7684\u6d2a\u6c34\u300d\uff0cApple \u5bf9\u6b64\u53d1\u51fa\u8b66\u544a\uff0c\u91ce\u6751\u8bc1\u5238\u9884\u6d4b DRAM \u6536\u5165\u5c06\u7a81\u7834 2 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nMemory pricing pressure squeezes hardware margins across the AI supply chain \u2014 HBM/DRAM scarcity raises the effective cost of every AI server built, and a forecast this extreme (a 12x-plus jump toward $2T) signals either genuine capacity strain or speculative overshoot feeding the bubble narrative from the supplier side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4f1a\u6324\u538b\u6574\u4e2a AI \u4f9b\u5e94\u94fe\u7684\u786c\u4ef6\u5229\u6da6\u2014\u2014HBM/DRAM \u77ed\u7f3a\u63a8\u9ad8\u4e86\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5b9e\u9645\u6210\u672c\uff0c\u800c\u8fd9\u6837\u6781\u7aef\u7684\u9884\u6d4b\uff08\u8dc3\u5347\u903e 12 \u500d\u8fbe\u5230 2 \u4e07\u4ebf\u7f8e\u5143\uff09\u65e2\u53ef\u80fd\u53cd\u6620\u771f\u5b9e\u7684\u4ea7\u80fd\u7d27\u5f20\uff0c\u4e5f\u53ef\u80fd\u662f\u4ece\u4f9b\u5e94\u7aef\u52a9\u63a8\u6ce1\u6cab\u53d9\u4e8b\u7684\u6295\u673a\u6027\u9884\u671f\u3002\n",
       "emailed": false
     }
   ],
