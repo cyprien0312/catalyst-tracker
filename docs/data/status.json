@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786100526,
-  "generated_at_str": "2026-08-07 11:02:06 UTC",
-  "last_event_ts": 1786099622,
+  "generated_at": 1786100718,
+  "generated_at_str": "2026-08-07 11:05:18 UTC",
+  "last_event_ts": 1786100717,
   "tables": {
     "alerts_dedup": {
-      "count": 3080,
-      "last_ts": 1786098916,
-      "last_str": "2026-08-07 10:35:16 UTC"
+      "count": 3081,
+      "last_ts": 1786100717,
+      "last_str": "2026-08-07 11:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-07 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3894,
-      "last_ts": 1786098902,
-      "last_str": "2026-08-07 10:35:02 UTC"
+      "count": 3897,
+      "last_ts": 1786100702,
+      "last_str": "2026-08-07 11:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4530,
-      "last_ts": 1786098904,
-      "last_str": "2026-08-07 10:35:04 UTC"
+      "count": 4535,
+      "last_ts": 1786100705,
+      "last_str": "2026-08-07 11:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3016,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-07 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3379,
-      "last_ts": 1786089904,
-      "last_str": "2026-08-07 08:05:04 UTC"
+      "count": 3382,
+      "last_ts": 1786100707,
+      "last_str": "2026-08-07 11:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 22066,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3088,
+      "ts": 1786100717,
+      "ts_str": "2026-08-07 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Due to DRAM shortages... NVIDIA considers reducing HBM capacity - \ub9e4\uc77c\uacbd\uc81c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 08:52:41 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yQm1pb2pYc09NVDNCbUpjdFBpWlZzWmFRMkZlZWViTzI3bUlYdnR1OXlGZVV6aEVpeDAyMlYxNXNwRmt6X2daWnU3MlF1eHlnamNV?oc=5\n\nDue to DRAM shortages... NVIDIA considers reducing HBM capacity - \ub9e4\uc77c\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yQm1pb2pYc09NVDNCbUpjdFBpWlZzWmFRMkZlZWViTzI3bUlYdnR1OXlGZVV6aEVpeDAyMlYxNXNwRmt6X2daWnU3MlF1eHlnamNV?oc=5\" target=\"_blank\">Due to DRAM shortages... NVIDIA considers reducing HBM capacity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub9e4\uc77c\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA report says NVIDIA is considering cutting HBM capacity amid ongoing DRAM shortages.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u5728 DRAM \u6301\u7eed\u77ed\u7f3a\u4e4b\u9645\uff0cNVIDIA \u6b63\u8003\u8651\u524a\u51cf HBM \u4ea7\u80fd\u3002\n\nWhy it matters:\nA GPU maker throttling HBM supply during a shortage points to tightening memory availability feeding straight into AI accelerator output \u2014 a capacity constraint on the AI buildout itself, not just a cost line.\n\n\u5f71\u54cd:\nGPU \u5382\u5546\u5728\u5185\u5b58\u77ed\u7f3a\u65f6\u4e3b\u52a8\u6536\u7d27 HBM \u4f9b\u5e94\uff0c\u8bf4\u660e\u5b58\u50a8\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230 AI \u52a0\u901f\u5361\u7684\u4ea7\u51fa\u7aef\u2014\u2014\u8fd9\u4e0d\u53ea\u662f\u6210\u672c\u95ee\u9898\uff0c\u800c\u662f\u76f4\u63a5\u5361\u4f4f\u4e86 AI \u57fa\u5efa\u6269\u5f20\u7684\u4ea7\u80fd\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3086,
       "ts": 1786098916,
@@ -2292,16 +2302,6 @@
       "subject": "[C11-HIGH] US Stock Market This Week: SpaceX Unlock, Jobs Data and Clarity Act in Focus - Coinpedia Fintech News",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 08:36:10 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxPcHFXRGhZcW9Ba1ZzV21pbHVTZTYzdjhneWRNY2JvVUlnUklBTzE4Q1dURy1DQVI2ZjY2eExyZE1pbUN1NXMxeUhRWHpaOEd3TVJ2Nzg4N3lhNDUtMW1yem1tVWQwLWtfOHl6ZEI4SXlKbkY3cmZMLURKbDB6NmtQOHRiT1I4eUJMaUc5OGlUX0Zpa0l0WDVIT3NoMWlSZGRRVHlhZG0zQzhydDBBWnVTc2YzZ05OdkJtUHfSAboBQVVfeXFMT3BxV0RoWXFvQWtWc1dtaWx1U2U2M3Y4Z3lkTWNib1VJZ1JJQU8xOENXVEctQ0FSNmY2NnhMcmRNaW1DdTVzMXlIUVh6WjhHd01Sdjc4ODd5YTQ1LTFtcnptbVVkMC1rXzh5emRCOEl5Sm5GN3JmTC1ESmwwejZrUDh0Yk9SOHlCTGlHOThpVF9GaWtJdFg1SE9zaDFpUmRkUVR5YWRtM0M4cnQwQVp1U3NmM2dOTnZCbVB3?oc=5\n\nUS Stock Market This Week: SpaceX Unlock, Jobs Data and Clarity Act in Focus - Coinpedia Fintech News\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPcHFXRGhZcW9Ba1ZzV21pbHVTZTYzdjhneWRNY2JvVUlnUklBTzE4Q1dURy1DQVI2ZjY2eExyZE1pbUN1NXMxeUhRWHpaOEd3TVJ2Nzg4N3lhNDUtMW1yem1tVWQwLWtfOHl6ZEI4SXlKbkY3cmZMLURKbDB6NmtQOHRiT1I4eUJMaUc5OGlUX0Zpa0l0WDVIT3NoMWlSZGRRVHlhZG0zQzhydDBBWnVTc2YzZ05OdkJtUHfSAboBQVVfeXFMT3BxV0RoWXFvQWtWc1dtaWx1U2U2M3Y4Z3lkTWNib1VJZ1JJQU8xOENXVEctQ0FSNmY2NnhMcmRNaW1DdTVzMXlIUVh6WjhHd01Sdjc4ODd5YTQ1LTFtcnptbVVkMC1rXzh5emRCOEl5Sm5GN3JmTC1ESmwwejZrUDh0Yk9SOHlCTGlHOThpVF9GaWtJdFg1SE9zaDFpUmRkUVR5YWRtM0M4cnQwQVp1U3NmM2dOTnZCbVB3?oc=5\" target=\"_blank\">US Stock Market This Week: SpaceX Unlock, Jobs Data and Clarity Act in Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinpedia Fintech News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news roundup lists a SpaceX equity unlock alongside jobs data and the Clarity Act as market-moving events this week, with no ticker or specific date confirmed in the snippet.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u6c47\u603b\u628a SpaceX \u80a1\u6743\u89e3\u7981\u548c\u5c31\u4e1a\u6570\u636e\u3001Clarity Act \u5e76\u5217\u4e3a\u672c\u5468\u5e02\u573a\u5173\u6ce8\u4e8b\u4ef6\uff0c\u6458\u8981\u4e2d\u6ca1\u6709\u5177\u4f53\u80a1\u7968\u4ee3\u7801\u6216\u786e\u8ba4\u65e5\u671f\u3002\n\nWhy it matters:\nThis is proximity-noise, not a confirmed unlock trigger \u2014 coverage lumping SPCX in with generic macro calendar items doesn't validate that a specific tranche in the S-1-derived schedule is firing this week. Treat as a watch item, not a signal.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u90bb\u8fd1\u566a\u97f3\uff0c\u4e0d\u662f\u786e\u8ba4\u7684\u89e3\u7981\u89e6\u53d1\u2014\u2014\u62a5\u9053\u628a SPCX \u548c\u6cdb\u6cdb\u7684\u5b8f\u89c2\u65e5\u5386\u4e8b\u4ef6\u653e\u5728\u4e00\u8d77\u63d0\u53ca\uff0c\u5e76\u4e0d\u80fd\u9a8c\u8bc1 S-1 \u63a8\u7b97\u65e5\u5386\u4e2d\u7684\u67d0\u4e2a\u5177\u4f53\u6279\u6b21\u672c\u5468\u786e\u5b9e\u89e3\u7981\u3002\u5e94\u5f53\u5f53\u4f5c\u89c2\u5bdf\u9879\uff0c\u800c\u4e0d\u662f\u4fe1\u53f7\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 2887,
-      "ts": 1785755131,
-      "ts_str": "2026-08-03 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] ThinkEquity raises Micron stock price target to $900 on HBM demand - Investing.com Canada",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 03 Aug 2026 11:01:45 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxOQkFqQUp6MFYxYzhXVTZqc2F5ZmJQUmVMeWlfeXJUMlpTWTM0OUx5NUtnZzdIZTlESTgtaTdwZndVOWJ5Vl82YUVHbWg0Q2NJckV6bHBvbmxvak9nMTZXa3gwcnJzZE5XV1pvS0hTNDZyamFHVDhBczhEVmJpcV9DMEJkY3IzNjNEZ1BNZ2NCM1YyNnNoVnE1WkJHRi1ZR0dqMy1kQ1N6bXBYcXk2MGt3OXp1MzRkV19aNkdlbHBneEphUlJ1?oc=5\n\nThinkEquity raises Micron stock price target to $900 on HBM demand - Investing.com Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOQkFqQUp6MFYxYzhXVTZqc2F5ZmJQUmVMeWlfeXJUMlpTWTM0OUx5NUtnZzdIZTlESTgtaTdwZndVOWJ5Vl82YUVHbWg0Q2NJckV6bHBvbmxvak9nMTZXa3gwcnJzZE5XV1pvS0hTNDZyamFHVDhBczhEVmJpcV9DMEJkY3IzNjNEZ1BNZ2NCM1YyNnNoVnE1WkJHRi1ZR0dqMy1kQ1N6bXBYcXk2MGt3OXp1MzRkV19aNkdlbHBneEphUlJ1?oc=5\" target=\"_blank\">ThinkEquity raises Micron stock price target to $900 on HBM demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThinkEquity raised its Micron (MU) price target to $900, citing HBM demand.\n\n\u5185\u5bb9:\nThinkEquity \u5c06\u7f8e\u5149 (MU) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $900\uff0c\u7406\u7531\u662f HBM \u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nAn HBM-driven bull call on Micron signals memory supply is seen as tight rather than oversaturated \u2014 a headwind for the C6 oversupply/cancellation thesis, but consistent with the broader AI-capex-is-real narrative if it holds.\n\n\u5f71\u54cd:\n\u8fd9\u4efd\u770b\u591a\u62a5\u544a\u4ee5 HBM \u9700\u6c42\u4e3a\u7531\uff0c\u8bf4\u660e\u5e02\u573a\u8ba4\u4e3a\u5185\u5b58\u4f9b\u7ed9\u504f\u7d27\u800c\u975e\u8fc7\u5269\u2014\u2014\u5bf9 C6 \u7684\u4ea7\u80fd\u8fc7\u5269/\u780d\u5355\u53d9\u4e8b\u662f\u5229\u7a7a\uff0c\u4f46\u5982\u679c\u7ad9\u5f97\u4f4f\u811a\uff0c\u53cd\u800c\u5370\u8bc1\u4e86 AI capex \u9700\u6c42\u662f\u771f\u5b9e\u7684\u8fd9\u6761\u4e3b\u7ebf\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
