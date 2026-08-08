@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786199526,
-  "generated_at_str": "2026-08-08 14:32:06 UTC",
-  "last_event_ts": 1786198442,
+  "generated_at": 1786199715,
+  "generated_at_str": "2026-08-08 14:35:15 UTC",
+  "last_event_ts": 1786199714,
   "tables": {
     "alerts_dedup": {
-      "count": 3122,
-      "last_ts": 1786193224,
-      "last_str": "2026-08-08 12:47:04 UTC"
+      "count": 3123,
+      "last_ts": 1786199714,
+      "last_str": "2026-08-08 14:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-08-08 14:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4599,
-      "last_ts": 1786197904,
-      "last_str": "2026-08-08 14:05:04 UTC"
+      "count": 4604,
+      "last_ts": 1786199703,
+      "last_str": "2026-08-08 14:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3059,
-      "last_ts": 1786196103,
-      "last_str": "2026-08-08 13:35:03 UTC"
+      "count": 3061,
+      "last_ts": 1786199702,
+      "last_str": "2026-08-08 14:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3443,
-      "last_ts": 1786197905,
-      "last_str": "2026-08-08 14:05:05 UTC"
+      "count": 3444,
+      "last_ts": 1786199704,
+      "last_str": "2026-08-08 14:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 22298,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3130,
+      "ts": 1786199714,
+      "ts_str": "2026-08-08 14:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NVIDIA may cut Rubin Ultra HBM capacity amid memory shortage - Sammy Fans",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 08 Aug 2026 02:07:20 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXZ4ZUJyTnBzU0R5cnFsc1p3T2RZeGt2cmRJWFR3NjhOelZTNi04V2ZVcU9sMUpvN1U5T2EtQmhKOVQtVHhxLVlCcW9LbkZzN3FQMFZoRjZmS1o2R0JNTjJxWldlcjRZeVNQM1lENjJFaVZrZHZpa2tEYkNkaEo4V2dRdWlRa25vdmlGMUhNZUdtRUhsdXJudEw0MVdJd3ladmZyMNIBpAFBVV95cUxQeXZ4ZUJyTnBzU0R5cnFsc1p3T2RZeGt2cmRJWFR3NjhOelZTNi04V2ZVcU9sMUpvN1U5T2EtQmhKOVQtVHhxLVlCcW9LbkZzN3FQMFZoRjZmS1o2R0JNTjJxWldlcjRZeVNQM1lENjJFaVZrZHZpa2tEYkNkaEo4V2dRdWlRa25vdmlGMUhNZUdtRUhsdXJudEw0MVdJd3ladmZyMA?oc=5\n\nNVIDIA may cut Rubin Ultra HBM capacity amid memory shortage - Sammy Fans\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXZ4ZUJyTnBzU0R5cnFsc1p3T2RZeGt2cmRJWFR3NjhOelZTNi04V2ZVcU9sMUpvN1U5T2EtQmhKOVQtVHhxLVlCcW9LbkZzN3FQMFZoRjZmS1o2R0JNTjJxWldlcjRZeVNQM1lENjJFaVZrZHZpa2tEYkNkaEo4V2dRdWlRa25vdmlGMUhNZUdtRUhsdXJudEw0MVdJd3ladmZyMNIBpAFBVV95cUxQeXZ4ZUJyTnBzU0R5cnFsc1p3T2RZeGt2cmRJWFR3NjhOelZTNi04V2ZVcU9sMUpvN1U5T2EtQmhKOVQtVHhxLVlCcW9LbkZzN3FQMFZoRjZmS1o2R0JNTjJxWldlcjRZeVNQM1lENjJFaVZrZHZpa2tEYkNkaEo4V2dRdWlRa25vdmlGMUhNZUdtRUhsdXJudEw0MVdJd3ladmZyMA?oc=5\" target=\"_blank\">NVIDIA may cut Rubin Ultra HBM capacity amid memory shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sammy Fans</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports NVIDIA may cut HBM capacity allocated to its Rubin Ultra chip amid a broader memory shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0 NVIDIA \u53ef\u80fd\u56e0\u5185\u5b58\u77ed\u7f3a\u524a\u51cf\u5206\u914d\u7ed9 Rubin Ultra \u82af\u7247\u7684 HBM \u4ea7\u80fd\u3002\n\nWhy it matters:\nHBM is the binding constraint on AI accelerator output \u2014 if NVIDIA itself can't secure enough HBM for its next-gen part, that's supply-side evidence the memory shortage is real and now constrains the AI buildout's most important chip, not just commodity DRAM/NAND pricing.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u4ea7\u91cf\u7684\u786c\u7ea6\u675f\u2014\u2014\u5982\u679c\u8fde NVIDIA \u81ea\u5df1\u90fd\u62ff\u4e0d\u5230\u8db3\u591f HBM \u7ed9\u4e0b\u4e00\u4ee3\u82af\u7247\u7528\uff0c\u8bf4\u660e\u8fd9\u8f6e\u5185\u5b58\u77ed\u7f3a\u662f\u771f\u7684\uff0c\u800c\u4e14\u5df2\u7ecf\u5361\u5230 AI \u5efa\u8bbe\u6700\u6838\u5fc3\u7684\u82af\u7247\u4e0a\uff0c\u4e0d\u53ea\u662f DRAM/NAND \u5927\u5b97\u4ef7\u683c\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3129,
       "ts": 1786193224,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Can SpaceX\u2019s First Earnings Call Ease Pressure from Looming Lockup Expirations? - The Daily Upside",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 04:03:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSlZ3dFBpak0waHBrbWdUODFKTlBlV1ZtZjNFSDRodklKY2VpS2hGSk9tS3ppbThDclhqZ29kSU83bHNCZm1JWFpTLVctSTZkWFJZMkRRTmo1UkQ4ckY2QW9vbDNMTThiQk1kajZXdnJDY1BIcW9ub3VXVElZbXMxUGJSdTROMXNuZjUxa2ViTDQ2RWFfbTJ6UXcwajRaQW9RTUVqQW52bFo0aG1LREV4QjVOWEhOSkhjLTV1MG5yWUJWQQ?oc=5\n\nCan SpaceX\u2019s First Earnings Call Ease Pressure from Looming Lockup Expirations? - The Daily Upside\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSlZ3dFBpak0waHBrbWdUODFKTlBlV1ZtZjNFSDRodklKY2VpS2hGSk9tS3ppbThDclhqZ29kSU83bHNCZm1JWFpTLVctSTZkWFJZMkRRTmo1UkQ4ckY2QW9vbDNMTThiQk1kajZXdnJDY1BIcW9ub3VXVElZbXMxUGJSdTROMXNuZjUxa2ViTDQ2RWFfbTJ6UXcwajRaQW9RTUVqQW52bFo0aG1LREV4QjVOWEhOSkhjLTV1MG5yWUJWQQ?oc=5\" target=\"_blank\">Can SpaceX\u2019s First Earnings Call Ease Pressure from Looming Lockup Expirations?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Daily Upside</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's first earnings call as an unlock deadline looms is being framed by The Daily Upside as a potential catalyst to ease pressure from expiring lock-ups.\n\n\u5185\u5bb9:\nThe Daily Upside \u62a5\u9053\u79f0\uff0cSpaceX \u5373\u5c06\u8fce\u6765\u9996\u6b21\u8d22\u62a5\u7535\u8bdd\u4f1a\uff0c\u5c4a\u65f6\u6b63\u503c\u89e3\u7981\u671f\u4e34\u8fd1\uff0c\u5e02\u573a\u731c\u6d4b\u8d22\u62a5\u662f\u5426\u80fd\u7f13\u89e3\u89e3\u7981\u5e26\u6765\u7684\u538b\u529b\u3002\n\nWhy it matters:\nCoverage is speculating that strong earnings could offset the technical selling pressure from the unlock \u2014 a bullish framing worth tracking, but it's commentary, not a confirmed tranche event or ETF flow yet.\n\n\u5f71\u54cd:\n\u62a5\u9053\u5728\u505a\u4e00\u79cd\u504f\u4e50\u89c2\u7684\u731c\u6d4b\u2014\u2014\u5982\u679c\u8d22\u62a5\u5f3a\u52b2\uff0c\u6216\u8bb8\u80fd\u62b5\u6d88\u89e3\u7981\u5e26\u6765\u7684\u6280\u672f\u6027\u629b\u538b\uff0c\u4f46\u8fd9\u4ecd\u53ea\u662f\u8bc4\u8bba\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u5df2\u786e\u8ba4\u7684\u89e3\u7981\u6279\u6b21\u4e8b\u4ef6\u6216 ETF \u8d44\u91d1\u6d41\u53d8\u5316\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2930,
-      "ts": 1785815236,
-      "ts_str": "2026-08-04 03:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Is SpaceX Stock a Buy Ahead of a $104 Billion Unlock? Elon Musk Answers - Mitrade",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 02:21:19 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxOb25pb01sWU43NXJhTmNOc1JBMll0Q0QyS09vTmRqUDFtaGt1UXRUb2gyZFpqRFN1d0VGSjd1ZlIwZW14TUZNZzdaOFVYTGJNakI0RUVBb0JqVUdGSnlQNlpzcGJITEZmeS1lcVYtOVlDYjl1a3M1Y1pCX05Ecm9BMkNVOHFPWVNpekFiT1Jzd2JjX2M?oc=5\n\nIs SpaceX Stock a Buy Ahead of a $104 Billion Unlock? Elon Musk Answers - Mitrade\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOb25pb01sWU43NXJhTmNOc1JBMll0Q0QyS09vTmRqUDFtaGt1UXRUb2gyZFpqRFN1d0VGSjd1ZlIwZW14TUZNZzdaOFVYTGJNakI0RUVBb0JqVUdGSnlQNlpzcGJITEZmeS1lcVYtOVlDYjl1a3M1Y1pCX05Ecm9BMkNVOHFPWVNpekFiT1Jzd2JjX2M?oc=5\" target=\"_blank\">Is SpaceX Stock a Buy Ahead of a $104 Billion Unlock? Elon Musk Answers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mitrade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced an article asking whether SpaceX stock is worth buying ahead of a $104 billion unlock, with commentary attributed to Elon Musk.\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u5230\u4e00\u7bc7\u6587\u7ae0\uff0c\u8ba8\u8bba\u5728 1040 \u4ebf\u7f8e\u5143\u89e3\u7981\u524d SpaceX \u80a1\u7968\u662f\u5426\u503c\u5f97\u4e70\u5165\uff0c\u5e76\u5f15\u7528\u4e86 Elon Musk \u7684\u76f8\u5173\u8868\u6001\u3002\n\nWhy it matters:\nMainstream financial press framing the SpaceX unlock as a buy/sell decision signals retail and index-fund attention is building ahead of the tranche \u2014 the kind of narrative momentum that front-runs passive-flow pressure once shares actually unlock.\n\n\u5f71\u54cd:\n\u4e3b\u6d41\u8d22\u7ecf\u5a92\u4f53\u5f00\u59cb\u628a SpaceX \u89e3\u7981\u5305\u88c5\u6210\u300c\u4e70\u4e0d\u4e70\u300d\u7684\u51b3\u7b56\u8bdd\u9898\uff0c\u8bf4\u660e\u6563\u6237\u548c\u88ab\u52a8\u8d44\u91d1\u5bf9\u6b64\u4e8b\u7684\u5173\u6ce8\u5ea6\u6b63\u5728\u5347\u6e29\u2014\u2014\u8fd9\u7c7b\u53d9\u4e8b\u70ed\u5ea6\u901a\u5e38\u4f1a\u5728\u89e3\u7981\u771f\u6b63\u843d\u5730\u3001\u88ab\u52a8\u6d41\u51fa\u538b\u529b\u663e\u73b0\u4e4b\u524d\u5148\u884c\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
