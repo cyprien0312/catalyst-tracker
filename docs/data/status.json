@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786269729,
-  "generated_at_str": "2026-08-09 10:02:09 UTC",
-  "last_event_ts": 1786268835,
+  "generated_at": 1786269917,
+  "generated_at_str": "2026-08-09 10:05:17 UTC",
+  "last_event_ts": 1786269916,
   "tables": {
     "alerts_dedup": {
-      "count": 3137,
-      "last_ts": 1786268835,
-      "last_str": "2026-08-09 09:47:15 UTC"
+      "count": 3139,
+      "last_ts": 1786269916,
+      "last_str": "2026-08-09 10:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-09 00:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3985,
-      "last_ts": 1786262702,
-      "last_str": "2026-08-09 08:05:02 UTC"
+      "count": 3987,
+      "last_ts": 1786269902,
+      "last_str": "2026-08-09 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4640,
-      "last_ts": 1786268104,
-      "last_str": "2026-08-09 09:35:04 UTC"
+      "count": 4644,
+      "last_ts": 1786269904,
+      "last_str": "2026-08-09 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3100,
@@ -303,6 +303,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3145,
+      "ts": 1786269916,
+      "ts_str": "2026-08-09 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Why the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026 - openPR.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 09 Aug 2026 09:21:40 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2tXQVFTZ1ljd01EMkhqZkM0NUxaTmJBUmdFSi1uY2RFSVZFZ3E5MmxUeXB3bWtOM3JVd3hnbzhnNXA2Q3p1N0I3TDJhUzFXeFpKM21BdnJBWVRySXdLSjFKVWVzM2hObVkxbWtNMm1EcVczN3ZReWZLbXpMOWNnZnNlc3ZJRV9ycGZIa09DRWVCMHdIb2ZXRjYtQQ?oc=5\n\nWhy the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026 - openPR.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2tXQVFTZ1ljd01EMkhqZkM0NUxaTmJBUmdFSi1uY2RFSVZFZ3E5MmxUeXB3bWtOM3JVd3hnbzhnNXA2Q3p1N0I3TDJhUzFXeFpKM21BdnJBWVRySXdLSjFKVWVzM2hObVkxbWtNMm1EcVczN3ZReWZLbXpMOWNnZnNlc3ZJRV9ycGZIa09DRWVCMHdIb2ZXRjYtQQ?oc=5\" target=\"_blank\">Why the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline claims a memory-chip shortage is reshaping semiconductor portfolios in 2026, but no ticker, price figure, or specific supplier action is cited.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u91cd\u58512026\u5e74\u534a\u5bfc\u4f53\u884c\u4e1a\u7684\u6295\u8d44\u7ec4\u5408\uff0c\u4f46\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53 ticker\u3001\u4ef7\u683c\u6570\u5b57\u6216\u67d0\u5bb6\u4f9b\u5e94\u5546\u7684\u5177\u4f53\u52a8\u4f5c\u3002\n\nWhy it matters:\nThis is a generic trend/opinion piece, not a discrete data point \u2014 pairing a memory term with a shortage token fires the C6 classifier, but without a concrete number or company action it adds no signal to the memory-price-stress thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e00\u7bc7\u6cdb\u6cdb\u7684\u8d8b\u52bf/\u89c2\u70b9\u6587\u7ae0\uff0c\u4e0d\u662f\u5177\u4f53\u6570\u636e\u70b9\u2014\u2014\u5185\u5b58\u8bcd\u6c47\u78b0\u4e0a\u77ed\u7f3a\u7c7b token \u89e6\u53d1\u4e86 C6 \u5206\u7c7b\u5668\uff0c\u4f46\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u6216\u516c\u53f8\u52a8\u4f5c\uff0c\u5bf9\u5185\u5b58\u4ef7\u683c\u627f\u538b\u7684\u5224\u65ad\u6ca1\u6709\u589e\u91cf\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3146,
+      "ts": 1786269916,
+      "ts_str": "2026-08-09 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Why the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026 - openPR.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 09 Aug 2026 09:21:40 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2tXQVFTZ1ljd01EMkhqZkM0NUxaTmJBUmdFSi1uY2RFSVZFZ3E5MmxUeXB3bWtOM3JVd3hnbzhnNXA2Q3p1N0I3TDJhUzFXeFpKM21BdnJBWVRySXdLSjFKVWVzM2hObVkxbWtNMm1EcVczN3ZReWZLbXpMOWNnZnNlc3ZJRV9ycGZIa09DRWVCMHdIb2ZXRjYtQQ?oc=5\n\nWhy the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026 - openPR.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPS2tXQVFTZ1ljd01EMkhqZkM0NUxaTmJBUmdFSi1uY2RFSVZFZ3E5MmxUeXB3bWtOM3JVd3hnbzhnNXA2Q3p1N0I3TDJhUzFXeFpKM21BdnJBWVRySXdLSjFKVWVzM2hObVkxbWtNMm1EcVczN3ZReWZLbXpMOWNnZnNlc3ZJRV9ycGZIa09DRWVCMHdIb2ZXRjYtQQ?oc=5\" target=\"_blank\">Why the Memory Chip Shortage Is Reshaping Portfolios Across Semiconductors in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline claims a memory-chip shortage is reshaping semiconductor portfolios in 2026, but no ticker, price figure, or specific supplier action is cited.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6b63\u5728\u91cd\u58512026\u5e74\u534a\u5bfc\u4f53\u884c\u4e1a\u7684\u6295\u8d44\u7ec4\u5408\uff0c\u4f46\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53 ticker\u3001\u4ef7\u683c\u6570\u5b57\u6216\u67d0\u5bb6\u4f9b\u5e94\u5546\u7684\u5177\u4f53\u52a8\u4f5c\u3002\n\nWhy it matters:\nThis is a generic trend/opinion piece, not a discrete data point \u2014 pairing a memory term with a shortage token fires the C6 classifier, but without a concrete number or company action it adds no signal to the memory-price-stress thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e00\u7bc7\u6cdb\u6cdb\u7684\u8d8b\u52bf/\u89c2\u70b9\u6587\u7ae0\uff0c\u4e0d\u662f\u5177\u4f53\u6570\u636e\u70b9\u2014\u2014\u5185\u5b58\u8bcd\u6c47\u78b0\u4e0a\u77ed\u7f3a\u7c7b token \u89e6\u53d1\u4e86 C6 \u5206\u7c7b\u5668\uff0c\u4f46\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u6216\u516c\u53f8\u52a8\u4f5c\uff0c\u5bf9\u5185\u5b58\u4ef7\u683c\u627f\u538b\u7684\u5224\u65ad\u6ca1\u6709\u589e\u91cf\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3144,
       "ts": 1786268835,
@@ -2281,26 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Faces a Make-or-Break Week as Investors Await Earnings and Lockup Expiration - Barchart.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 17:35:23 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxOWm9CSzh4S1ptdmZXUnVGY0g1WkJrN0ZzTlhhb1ZjUkJhQWRELUo0SUUxX3pGWHJhTzREYVVRa2lGQkFFNjBaSmkxSmhSalVicTJSLXpDR0VxR21wTzhZd2V3aHFhQmxsLTlqZE5YSkxYX0xTX0dhaVpUSE5HNGltTldzdlp3REJPLVNkRFcyMFJ1ZlFPTWRmTnlWRERveWdqcHEzNFlPeE1ka0dyOVNrdF9TY0N1YncxLVFEM0xwczVTXzk2cHU2N01iUUFSdw?oc=5\n\nSpaceX Stock Faces a Make-or-Break Week as Investors Await Earnings and Lockup Expiration - Barchart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOWm9CSzh4S1ptdmZXUnVGY0g1WkJrN0ZzTlhhb1ZjUkJhQWRELUo0SUUxX3pGWHJhTzREYVVRa2lGQkFFNjBaSmkxSmhSalVicTJSLXpDR0VxR21wTzhZd2V3aHFhQmxsLTlqZE5YSkxYX0xTX0dhaVpUSE5HNGltTldzdlp3REJPLVNkRFcyMFJ1ZlFPTWRmTnlWRERveWdqcHEzNFlPeE1ka0dyOVNrdF9TY0N1YncxLVFEM0xwczVTXzk2cHU2N01iUUFSdw?oc=5\" target=\"_blank\">SpaceX Stock Faces a Make-or-Break Week as Investors Await Earnings and Lockup Expiration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barchart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBarchart reports SpaceX stock faces a \"make-or-break week\" as investors await both earnings and a lock-up expiration hitting at the same time.\n\n\u5185\u5bb9:\nBarchart \u62a5\u9053\u79f0\uff0cSpaceX \u80a1\u7968\u5c06\u8fce\u6765\u300c\u751f\u6b7b\u6538\u5173\u7684\u4e00\u5468\u300d\uff0c\u8d22\u62a5\u53d1\u5e03\u4e0e\u80a1\u4efd\u89e3\u7981\u5c06\u5728\u540c\u4e00\u65f6\u95f4\u70b9\u649e\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nA lock-up expiration releasing employee/early-investor shares right alongside an earnings print creates a supply-and-sentiment collision \u2014 if earnings disappoint, unlocked holders have both the ability and the motive to sell into weakness, amplifying any downside move.\n\n\u5f71\u54cd:\n\u89e3\u7981\u91ca\u653e\u5458\u5de5\u548c\u65e9\u671f\u6295\u8d44\u8005\u7684\u80a1\u7968\uff0c\u6070\u597d\u4e0e\u8d22\u62a5\u53d1\u5e03\u649e\u8f66\uff0c\u5f62\u6210\u4f9b\u7ed9\u548c\u60c5\u7eea\u7684\u53cc\u91cd\u51b2\u51fb\u2014\u2014\u4e00\u65e6\u8d22\u62a5\u4e0d\u53ca\u9884\u671f\uff0c\u89e3\u7981\u80a1\u4e1c\u65e2\u6709\u80fd\u529b\u4e5f\u6709\u52a8\u673a\u8d81\u5f31\u52bf\u629b\u552e\uff0c\u4f1a\u653e\u5927\u4e0b\u8dcc\u5e45\u5ea6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2946,
-      "ts": 1785866726,
-      "ts_str": "2026-08-04 18:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] AI Infrastructure Surge Drives Memory Chip Shortages and Costs - whalesbook.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 17:31:40 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3hUa3hyaTNSR2N0Qzg0X3ExQ3JqUWhBZXlaZExBMENCQkowaUhMZEpTWWdFNFN2R1lLYUxOUmg4Vk9PeU12d0U3NnozU2V4ZVRveXMxYmJJN0trYjVncE5YUEtzUHR2Z01Gekx2cF9nZEsxa0hvMlgtdk1pSmtXM2JGZzB2RHJMc19uaFlyQ1g0bFh5YjQ0QmQxZnFRTGtPdm9leXN2SlMtX0JlN05lSGhzTFBRRWpULXlKSkJuekRHazNWOHdvQnpqOUtJa0N2S0dFbA?oc=5\n\nAI Infrastructure Surge Drives Memory Chip Shortages and Costs - whalesbook.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOd3hUa3hyaTNSR2N0Qzg0X3ExQ3JqUWhBZXlaZExBMENCQkowaUhMZEpTWWdFNFN2R1lLYUxOUmg4Vk9PeU12d0U3NnozU2V4ZVRveXMxYmJJN0trYjVncE5YUEtzUHR2Z01Gekx2cF9nZEsxa0hvMlgtdk1pSmtXM2JGZzB2RHJMc19uaFlyQ1g0bFh5YjQ0QmQxZnFRTGtPdm9leXN2SlMtX0JlN05lSGhzTFBRRWpULXlKSkJuekRHazNWOHdvQnpqOUtJa0N2S0dFbA?oc=5\" target=\"_blank\">AI Infrastructure Surge Drives Memory Chip Shortages and Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">whalesbook.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report ties the AI infrastructure buildout to memory chip shortages, citing rising DRAM/NAND costs and tightening supply.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u62a5\u9053\u5c06 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u4e0e\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u8054\u7cfb\u8d77\u6765\uff0c\u79f0 DRAM/NAND \u6210\u672c\u4e0a\u5347\u3001\u4f9b\u5e94\u8d8b\u7d27\u3002\n\nWhy it matters:\nMemory is a hard input to every AI server BOM \u2014 sustained DRAM/NAND shortages raise hyperscaler capex per unit of compute and can bottleneck build-outs even where GPU supply and power are available. It's a corroborating cost-pressure signal alongside the capex/depreciation catalysts (C1/C4), not a standalone thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u662f\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7269\u6599\u6e05\u5355\u91cc\u7ed5\u4e0d\u5f00\u7684\u786c\u6027\u6295\u5165\u2014\u2014DRAM/NAND \u6301\u7eed\u77ed\u7f3a\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff0c\u5373\u4fbf GPU \u4f9b\u7ed9\u548c\u7535\u529b\u90fd\u5230\u4f4d\uff0c\u4e5f\u53ef\u80fd\u5361\u4f4f\u5efa\u8bbe\u8fdb\u5ea6\u3002\u8fd9\u662f\u4e0e C1/C4 \u8d44\u672c\u5f00\u652f/\u6298\u65e7\u7c7b\u4fe1\u53f7\u76f8\u4e92\u5370\u8bc1\u7684\u6210\u672c\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u72ec\u7acb\u6210\u7acb\u7684\u8bba\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2945,
-      "ts": 1785865635,
-      "ts_str": "2026-08-04 17:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX prepares to release first quarterly earnings post-IPO amid stock drop and insider share unlock. - Pluang",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 14:43:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU25oS2YyWjlHZm1CeEI4ZlFnbHVBMHdPZXdnRGFEaWNXU25WUllsUUxyTGlWanYyWGJnQ19iMWJBa2xJbDZZd3kwQlJMemlQU2V3dFE0RkZiekFyTE9tN2hSaUpsLXAydlVMU09YZU1ZZHdQUzFaS1VNSzhGUG5SdkphM0I2X0Fi?oc=5\n\nSpaceX prepares to release first quarterly earnings post-IPO amid stock drop and insider share unlock. - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU25oS2YyWjlHZm1CeEI4ZlFnbHVBMHdPZXdnRGFEaWNXU25WUllsUUxyTGlWanYyWGJnQ19iMWJBa2xJbDZZd3kwQlJMemlQU2V3dFE0RkZiekFyTE9tN2hSaUpsLXAydlVMU09YZU1ZZHdQUzFaS1VNSzhGUG5SdkphM0I2X0Fi?oc=5\" target=\"_blank\">SpaceX prepares to release first quarterly earnings post-IPO amid stock drop and insider share unlock.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced a report that SpaceX is preparing its first post-IPO quarterly earnings release, coinciding with a stock price drop and an insider share unlock event.\n\n\u5185\u5bb9:\nGoogle News RSS \u62a5\u9053\u79f0\uff0cSpaceX \u6b63\u51c6\u5907\u53d1\u5e03 IPO \u540e\u9996\u4efd\u5b63\u5ea6\u8d22\u62a5\uff0c\u540c\u65f6\u4f34\u968f\u80a1\u4ef7\u4e0b\u8dcc\u548c\u5185\u90e8\u4eba\u80a1\u4efd\u89e3\u7981\u3002\n\nWhy it matters:\nThe convergence of earnings disclosure and insider unlock timing raises supply pressure on SPCX shares right as fundamentals get scrutinized publicly for the first time \u2014 a classic setup for unlock-driven selling if the print disappoints.\n\n\u5f71\u54cd:\n\u8d22\u62a5\u62ab\u9732\u4e0e\u5185\u90e8\u4eba\u89e3\u7981\u7684\u65f6\u95f4\u70b9\u91cd\u53e0\uff0c\u5728\u57fa\u672c\u9762\u9996\u6b21\u63a5\u53d7\u516c\u5f00\u68c0\u9a8c\u7684\u5f53\u53e3\u589e\u52a0\u4e86\u80a1\u7968\u7684\u4f9b\u7ed9\u538b\u529b\u2014\u2014\u5982\u679c\u8d22\u62a5\u4e0d\u53ca\u9884\u671f\uff0c\u8fd9\u662f\u5178\u578b\u7684\u89e3\u7981\u629b\u538b\u89e6\u53d1\u573a\u666f\u3002\n",
       "emailed": false
     }
   ],
