@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786267926,
-  "generated_at_str": "2026-08-09 09:32:06 UTC",
-  "last_event_ts": 1786266843,
+  "generated_at": 1786268120,
+  "generated_at_str": "2026-08-09 09:35:20 UTC",
+  "last_event_ts": 1786268120,
   "tables": {
     "alerts_dedup": {
-      "count": 3135,
-      "last_ts": 1786248856,
-      "last_str": "2026-08-09 04:14:16 UTC"
+      "count": 3136,
+      "last_ts": 1786268120,
+      "last_str": "2026-08-09 09:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-08-09 08:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4639,
-      "last_ts": 1786264503,
-      "last_str": "2026-08-09 08:35:03 UTC"
+      "count": 4640,
+      "last_ts": 1786268104,
+      "last_str": "2026-08-09 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3100,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3143,
+      "ts": 1786268120,
+      "ts_str": "2026-08-09 09:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NVIDIA Considers HBM Cut Amid Supply Shortages - \uc870\uc120\uc77c\ubcf4",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 09 Aug 2026 09:04:59 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFU4SFhBMXM2bUxVb2pMRXBNcnpKMXNFenNta09TazJVaTZCNDlKTXRZbU8zbHRzWG5lNjlUcmI4dWU2SHFNNXRscGM3ZGRRYlJpbkxMQnRyR2RCZzVfcmlDUV9sLTluU3Q2MHNmQ2REREZmZ3I1Wnp4SXNoWkowVXZXRHVkYTNG?oc=5\n\nNVIDIA Considers HBM Cut Amid Supply Shortages - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFU4SFhBMXM2bUxVb2pMRXBNcnpKMXNFenNta09TazJVaTZCNDlKTXRZbU8zbHRzWG5lNjlUcmI4dWU2SHFNNXRscGM3ZGRRYlJpbkxMQnRyR2RCZzVfcmlDUV9sLTluU3Q2MHNmQ2REREZmZ3I1Wnp4SXNoWkowVXZXRHVkYTNG?oc=5\" target=\"_blank\">NVIDIA Considers HBM Cut Amid Supply Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports NVIDIA is considering cutting HBM (high-bandwidth memory) amid supply shortages, with the same headline appearing twice in the feed.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0 NVIDIA \u6b63\u8003\u8651\u5728 HBM\uff08\u9ad8\u5e26\u5bbd\u5185\u5b58\uff09\u4f9b\u5e94\u77ed\u7f3a\u4e0b\u524a\u51cf HBM\uff0c\u540c\u4e00\u6807\u9898\u5728 feed \u91cc\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\u3002\n\nWhy it matters:\nHBM is the binding constraint on AI accelerator output \u2014 a shortage tight enough to force NVIDIA to consider cuts signals the memory supply chain, not chip fabrication, is now the bottleneck on AI infrastructure buildout, and points to further HBM/DRAM price spikes upstream.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u4ea7\u80fd\u7684\u786c\u7ea6\u675f\u2014\u2014\u77ed\u7f3a\u4e25\u91cd\u5230\u8ba9 NVIDIA \u8003\u8651\u524a\u51cf\uff0c\u8bf4\u660e\u73b0\u5728\u5361\u8116\u5b50\u7684\u662f\u5185\u5b58\u4f9b\u5e94\u94fe\u800c\u4e0d\u662f\u82af\u7247\u5236\u9020\u672c\u8eab\uff0c\u4e5f\u9884\u793a\u4e0a\u6e38 HBM/DRAM \u4ef7\u683c\u8fd8\u4f1a\u7ee7\u7eed\u51b2\u9ad8\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3142,
       "ts": 1786248856,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] ThinkEquity raises Micron stock price target to $900 on HBM demand By Investing.com - Investing.com India",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 06:50:51 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQUF2MlhrbVJQSzh0OW45MmtELUxYZENFT0tXdWFkOUpQcFVsc2FraHJRNjhBcUl3TVF5YWdvU3FQWGVCcUNGRnlzQ1dzbmJUUXA0b2VGSnRYb0V0ZlJFdkNEcEI4N0xScXZ2cXlTNnV1eHN1ZW91Y2dqTmFVanFVQTRjM1REbXNnSUZJRXVOTDl0NW9RRkxsUXlxb2JLTGNXcS1SLUFCODc3dXkwSVBwcm5CM0NJdVctT1UxallWcFo2NElSaE5idjYxRzlubWh0VTF1RA?oc=5\n\nThinkEquity raises Micron stock price target to $900 on HBM demand By Investing.com - Investing.com India\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQUF2MlhrbVJQSzh0OW45MmtELUxYZENFT0tXdWFkOUpQcFVsc2FraHJRNjhBcUl3TVF5YWdvU3FQWGVCcUNGRnlzQ1dzbmJUUXA0b2VGSnRYb0V0ZlJFdkNEcEI4N0xScXZ2cXlTNnV1eHN1ZW91Y2dqTmFVanFVQTRjM1REbXNnSUZJRXVOTDl0NW9RRkxsUXlxb2JLTGNXcS1SLUFCODc3dXkwSVBwcm5CM0NJdVctT1UxallWcFo2NElSaE5idjYxRzlubWh0VTF1RA?oc=5\" target=\"_blank\">ThinkEquity raises Micron stock price target to $900 on HBM demand By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThinkEquity raised its Micron (MU) price target to $900, citing HBM demand.\n\n\u5185\u5bb9:\nThinkEquity \u5c06 Micron (MU) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $900\uff0c\u7406\u7531\u662f HBM \u9700\u6c42\u5f3a\u52b2\u3002\n\nWhy it matters:\nA sell-side target hike on HBM demand is a bullish memory-cycle signal, not a stress one \u2014 it doesn't match the DRAM/NAND oversupply or order-cancellation pattern C6 is built to catch, so this looks like a classifier false-positive on the memory-term/price-tier proximity match rather than a genuine bubble-stress read.\n\n\u5f71\u54cd:\n\u5356\u65b9\u4e0a\u8c03\u76ee\u6807\u4ef7\u3001\u7406\u7531\u662f HBM \u9700\u6c42\u65fa\u76db\uff0c\u8fd9\u662f\u770b\u591a\u5185\u5b58\u5468\u671f\u7684\u4fe1\u53f7\uff0c\u800c\u4e0d\u662f C6 \u8981\u6355\u6349\u7684\u538b\u529b\u4fe1\u53f7\uff08DRAM/NAND \u8fc7\u5269\u6216\u780d\u5355\uff09\uff1b\u8fd9\u6761\u66f4\u50cf\u662f\u5206\u7c7b\u5668\u628a\"\u5185\u5b58\u5173\u952e\u8bcd+\u4ef7\u683c\u6863\u4f4d\u8bcd\"\u4e34\u8fd1\u5339\u914d\u8bef\u5224\u4e3a\u538b\u529b\u4fe1\u53f7\uff0c\u800c\u975e\u771f\u6b63\u7684\u6ce1\u6cab\u538b\u529b\u8ff9\u8c61\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2943,
-      "ts": 1785862035,
-      "ts_str": "2026-08-04 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Analysts revise SpaceX stock price target - Finbold",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 15:52:43 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE1DZU0zRTZ2WEltbkl6cWRfTHhleFZfSjlBYS1abThvTDhTdEI5SGxxaHZ0NGpUR1Q0OW40emwzdXZaVDZuQ2NhZDhQRFNHSVRKTlBBN2NiOXVwc3A4cVd4cUJZNWVYTnZqOE9jU3hRTQ?oc=5\n\nAnalysts revise SpaceX stock price target - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1DZU0zRTZ2WEltbkl6cWRfTHhleFZfSjlBYS1abThvTDhTdEI5SGxxaHZ0NGpUR1Q0OW40emwzdXZaVDZuQ2NhZDhQRFNHSVRKTlBBN2NiOXVwc3A4cVd4cUJZNWVYTnZqOE9jU3hRTQ?oc=5\" target=\"_blank\">Analysts revise SpaceX stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced a Finbold article titled 'Analysts revise SpaceX stock price target,' with no ticker or numeric data captured by the scraper.\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u53d6\u5230 Finbold \u7684\u4e00\u7bc7\u6587\u7ae0\uff0c\u6807\u9898\u4e3a\u300cAnalysts revise SpaceX stock price target\u300d\uff0c\u6293\u53d6\u7ed3\u679c\u4e2d\u6ca1\u6709 ticker \u6216\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nAnalyst price-target chatter ahead of the SpaceX IPO shapes the valuation anchor for the unlock tranches \u2014 but this is generic coverage-noise, not a hard data point, so it doesn't move the C11 thesis on its own.\n\n\u5f71\u54cd:\n\u5206\u6790\u5e08\u5bf9 SpaceX IPO \u524d\u76ee\u6807\u4ef7\u7684\u8c03\u6574\u4f1a\u5f71\u54cd\u89e3\u7981\u4efd\u989d\u7684\u4f30\u503c\u951a\u70b9\uff0c\u4f46\u8fd9\u5c5e\u4e8e\u6cdb\u6cdb\u7684\u65b0\u95fb\u566a\u97f3\uff0c\u4e0d\u662f\u786c\u6570\u636e\uff0c\u672c\u8eab\u4e0d\u8db3\u4ee5\u63a8\u52a8 C11 \u7684\u8bba\u70b9\u3002\n",
       "emailed": false
     }
   ],
