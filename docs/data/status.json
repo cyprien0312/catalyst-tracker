@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786282323,
-  "generated_at_str": "2026-08-09 13:32:03 UTC",
-  "last_event_ts": 1786281245,
+  "generated_at": 1786282521,
+  "generated_at_str": "2026-08-09 13:35:21 UTC",
+  "last_event_ts": 1786282518,
   "tables": {
     "alerts_dedup": {
-      "count": 3144,
-      "last_ts": 1786278918,
-      "last_str": "2026-08-09 12:35:18 UTC"
+      "count": 3145,
+      "last_ts": 1786282518,
+      "last_str": "2026-08-09 13:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-09 13:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3991,
-      "last_ts": 1786278903,
-      "last_str": "2026-08-09 12:35:03 UTC"
+      "count": 3993,
+      "last_ts": 1786282502,
+      "last_str": "2026-08-09 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4668,
-      "last_ts": 1786280704,
-      "last_str": "2026-08-09 13:05:04 UTC"
+      "count": 4670,
+      "last_ts": 1786282504,
+      "last_str": "2026-08-09 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3101,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3152,
+      "ts": 1786282518,
+      "ts_str": "2026-08-09 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Apple is testing Chinese DRAM even after CXMT refused to cut prices - Digital Trends",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 09 Aug 2026 13:22:41 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNaFE1MnBRb2dfbkVodzBxME83X1pLZlMyeFlZb3dxMHlKZkozT214RW1ReDk0b0xVY19iUVZUSFdwOGZjU3ZZWHBSWUNpaGVDNVZVV0tqdkdHMjgyUkJQY1dBeGV4WVpVR2xaWWlvWFp5ZkpGWUNoTFNRejRMOW5wbmRuWlc2dDBYVGxSYVY5WFRMdV8xYlBhVXZLNEt6MUV5TU14Z0ZiMy1YLTFE?oc=5\n\nApple is testing Chinese DRAM even after CXMT refused to cut prices - Digital Trends\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNaFE1MnBRb2dfbkVodzBxME83X1pLZlMyeFlZb3dxMHlKZkozT214RW1ReDk0b0xVY19iUVZUSFdwOGZjU3ZZWHBSWUNpaGVDNVZVV0tqdkdHMjgyUkJQY1dBeGV4WVpVR2xaWWlvWFp5ZkpGWUNoTFNRejRMOW5wbmRuWlc2dDBYVGxSYVY5WFRMdV8xYlBhVXZLNEt6MUV5TU14Z0ZiMy1YLTFE?oc=5\" target=\"_blank\">Apple is testing Chinese DRAM even after CXMT refused to cut prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Digital Trends</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is qualifying Chinese DRAM supplier CXMT for its supply chain, even though CXMT has refused to lower prices despite the request.\n\n\u5185\u5bb9:\nApple \u6b63\u5728\u628a\u4e2d\u56fd\u5b58\u50a8\u5382\u5546 CXMT \u7eb3\u5165\u4f9b\u5e94\u94fe\u6d4b\u8bd5\uff0c\u4f46 CXMT \u62d2\u7edd\u4e86\u964d\u4ef7\u8981\u6c42\uff0c\u4ef7\u683c\u5e76\u672a\u677e\u52a8\u3002\n\nWhy it matters:\nCXMT holding price signals persistent DRAM tightness rather than the oversupply/price-crash pattern C6 watches for \u2014 pricing power is staying with memory makers, which keeps hyperscaler input costs elevated instead of easing them.\n\n\u5f71\u54cd:\nCXMT \u9876\u4f4f\u4e0d\u964d\u4ef7\uff0c\u8bf4\u660e DRAM \u4f9b\u7ed9\u4ecd\u7136\u504f\u7d27\uff0c\u4e0d\u662f C6 \u8981\u76ef\u7684\u90a3\u79cd\u964d\u4ef7/\u8fc7\u5269\u4fe1\u53f7\u2014\u2014\u5b9a\u4ef7\u6743\u8fd8\u5728\u5b58\u50a8\u5382\u5546\u624b\u91cc\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u91c7\u8d2d\u6210\u672c\u538b\u529b\u5e76\u672a\u7f13\u89e3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3151,
       "ts": 1786278918,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Lockup expiry will offer the next test of investor appetite for SpaceX shares - WKZO",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 04:02:40 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUjBEcGZTY0RDMWpHQk5yMjMzbW9HSzdfMjVaOTgxV0RHaUtsUEtjZzRwa2hra3c4NTFSMzlucDlZa25vNGVUX1ozRVMwVkp3S2xGMkRGLVp0S2RIZkVXUEZpTFdvZHJwTVlMVW5uWHdKMjFFTUFteXhiZWJTMm1BN2p5Y25vNGJOcnNCdnlYYV9lZUhCVThQd0hpTnlIWnU0VjktMV9zbkJ5UQ?oc=5\n\nLockup expiry will offer the next test of investor appetite for SpaceX shares - WKZO\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUjBEcGZTY0RDMWpHQk5yMjMzbW9HSzdfMjVaOTgxV0RHaUtsUEtjZzRwa2hra3c4NTFSMzlucDlZa25vNGVUX1ozRVMwVkp3S2xGMkRGLVp0S2RIZkVXUEZpTFdvZHJwTVlMVW5uWHdKMjFFTUFteXhiZWJTMm1BN2p5Y25vNGJOcnNCdnlYYV9lZUhCVThQd0hpTnlIWnU0VjktMV9zbkJ5UQ?oc=5\" target=\"_blank\">Lockup expiry will offer the next test of investor appetite for SpaceX shares</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WKZO</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that SpaceX's lockup expiry will be the next test of investor appetite for SpaceX shares, per WKZO \u2014 no specific date, tranche size, or dollar figure is given in this snippet.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0cSpaceX \u7684 lockup \u89e3\u7981\u5c06\u662f\u68c0\u9a8c\u6295\u8d44\u8005\u5bf9 SpaceX \u80a1\u7968\u9700\u6c42\u7684\u4e0b\u4e00\u4e2a\u8003\u9a8c\uff08\u6765\u6e90 WKZO\uff09\u2014\u2014\u8fd9\u6761\u6458\u8981\u91cc\u6ca1\u6709\u5177\u4f53\u65e5\u671f\u3001\u89e3\u7981\u89c4\u6a21\u6216\u91d1\u989d\u3002\n\nWhy it matters:\nLockup expirations release large blocks of insider/employee shares for potential sale; if this pre-IPO/secondary-market unlock triggers heavy selling, it signals fading investor demand for SpaceX exposure \u2014 a read-through for AI-infra-adjacent private valuations generally, though this headline alone is too vague to confirm anything concrete.\n\n\u5f71\u54cd:\nLockup \u89e3\u7981\u4f1a\u91ca\u653e\u5927\u91cf\u5185\u90e8\u4eba/\u5458\u5de5\u6301\u80a1\u8fdb\u5165\u5e02\u573a\uff1b\u5982\u679c\u8fd9\u6b21\u89e3\u7981\u5f15\u53d1\u629b\u552e\uff0c\u8bf4\u660e\u5e02\u573a\u5bf9 SpaceX \u7684\u9700\u6c42\u5728\u51cf\u5f31\uff0c\u8fd9\u5bf9 AI \u57fa\u5efa\u76f8\u5173\u7684\u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u6709\u53c2\u8003\u610f\u4e49\uff0c\u4f46\u4ec5\u51ed\u8fd9\u6761\u6807\u9898\u4fe1\u606f\u592a\u5355\u8584\uff0c\u8fd8\u4e0d\u80fd\u786e\u8ba4\u4efb\u4f55\u5177\u4f53\u7ed3\u8bba\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2952,
-      "ts": 1785901635,
-      "ts_str": "2026-08-05 03:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Earnings Today Put SPCX Stock and $123B Unlock in Focus - CryptoRank",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 04 Aug 2026 19:17:02 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQWUZfemR1c1VHLXJGNGphcWNzZ3NVdEVmWEdlcVRlS2RYams0enZNdmI3cW03QmVZcUFQTWN6N0hZYThIQ0VqY1V6dUZna1NZMFgzclpUVmxuQXZEYXBORy1DVW9pZ0l2aURDLVdBMUVJS21RQ2xCbHI0V2l5cGU1NFNXQ2tNMkdra29TMW1La09vcXhuQlFjaGRlRVk3bVpN?oc=5\n\nSpaceX Earnings Today Put SPCX Stock and $123B Unlock in Focus - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQWUZfemR1c1VHLXJGNGphcWNzZ3NVdEVmWEdlcVRlS2RYams0enZNdmI3cW03QmVZcUFQTWN6N0hZYThIQ0VqY1V6dUZna1NZMFgzclpUVmxuQXZEYXBORy1DVW9pZ0l2aURDLVdBMUVJS21RQ2xCbHI0V2l5cGU1NFNXQ2tNMkdra29TMW1La09vcXhuQlFjaGRlRVk3bVpN?oc=5\" target=\"_blank\">SpaceX Earnings Today Put SPCX Stock and $123B Unlock in Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CryptoRank article ties SpaceX's earnings release to renewed attention on the $123B post-lockup unlock for SPCX stock.\n\n\u5185\u5bb9:\nCryptoRank \u7684\u4e00\u7bc7\u6587\u7ae0\u5c06 SpaceX \u8d22\u62a5\u53d1\u5e03\u4e0e SPCX \u80a1\u7968 $123B \u89e3\u7981\u7684\u5173\u6ce8\u5ea6\u4e0a\u5347\u8054\u7cfb\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nThis is proximity news noise around the deterministic unlock calendar, not a new fact \u2014 but recurring earnings-linked coverage flags that the tranche timing may be shifting toward reported results rather than the fixed dates in the schedule.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u56f4\u7ed5\u65e2\u5b9a\u89e3\u7981\u65e5\u5386\u7684\u90bb\u8fd1\u65b0\u95fb\u566a\u97f3\uff0c\u5e76\u975e\u65b0\u4e8b\u5b9e\u2014\u2014\u4f46\u8d22\u62a5\u5173\u8054\u62a5\u9053\u53cd\u590d\u51fa\u73b0\uff0c\u63d0\u793a\u89e3\u7981\u6279\u6b21\u7684\u65f6\u70b9\u53ef\u80fd\u6b63\u5728\u5411\u8d22\u62a5\u516c\u5e03\u65e5\u9760\u62e2\uff0c\u800c\u4e0d\u662f\u56fa\u5b9a\u5728\u539f\u5b9a\u65e5\u671f\u4e0a\u3002\n",
       "emailed": false
     }
   ],
