@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786400781,
-  "generated_at_str": "2026-08-10 22:26:21 UTC",
-  "last_event_ts": 1786400042,
+  "generated_at": 1786400954,
+  "generated_at_str": "2026-08-10 22:29:14 UTC",
+  "last_event_ts": 1786400954,
   "tables": {
     "alerts_dedup": {
-      "count": 3174,
-      "last_ts": 1786391235,
-      "last_str": "2026-08-10 19:47:15 UTC"
+      "count": 3175,
+      "last_ts": 1786400954,
+      "last_str": "2026-08-10 22:29:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 33,
-      "last_ts": 1786141742,
-      "last_str": "2026-08-07 22:29:02 UTC"
+      "count": 34,
+      "last_ts": 1786400942,
+      "last_str": "2026-08-10 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3182,
+      "ts": 1786400954,
+      "ts_str": "2026-08-10 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.40% (+51bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-07\nCurrent:  2.40%\n90d low:  1.89%\nMove:     +51bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield rose to 2.40% as of 2026-08-07, up 0.51pp from its trailing-90-day low of 1.89%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u622a\u81f3 2026-08-07 \u5347\u81f3 2.40%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.89% \u4e0a\u5347 0.51 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex bets \u2014 a rise this size directly compresses the valuation of hyperscaler/neocloud names funding buildout with debt, and tightens the refinancing math the C7 credit-spread fuse also watches.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u662f\u7ed9 AI capex \u8fd9\u7c7b\u957f\u4e45\u671f\u62bc\u6ce8\u5b9a\u4ef7\u7684\u8d34\u73b0\u7387\uff0c\u6da8\u8fd9\u4e48\u591a\u4f1a\u76f4\u63a5\u538b\u4f4e\u9760\u4e3e\u503a\u6269\u4ea7\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546/\u4e91\u5382\u5546\u4f30\u503c\uff0c\u4e5f\u8ba9 C7 \u4fe1\u7528\u5229\u5dee\u90a3\u6761\u5f15\u4fe1\u76ef\u7740\u7684\u518d\u878d\u8d44\u6210\u672c\u53d8\u7d27\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3181,
       "ts": 1786391235,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] DRAM price surge lifts Samsung and Micron as SK Hynix loses share - digitimes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 00:00:42 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxOVHhqdWZjRmVuc1N1RzJwcUhiQzVzTVJCb2Z4QjdzdXE5OVBLTXhZaGg5OFQxR2Y2R2s2WnN5c0FiUGREamtIbnkyY3lmajMtWFR3WU50dXZ3cEFiZF9rR09xRmtvdWdVSDZLeFIxc3pDSjVCNm1JdWFJRjVPVkg3N3d1RHRkMFY5R1hRWHdn?oc=5\n\nDRAM price surge lifts Samsung and Micron as SK Hynix loses share - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOVHhqdWZjRmVuc1N1RzJwcUhiQzVzTVJCb2Z4QjdzdXE5OVBLTXhZaGg5OFQxR2Y2R2s2WnN5c0FiUGREamtIbnkyY3lmajMtWFR3WU50dXZ3cEFiZF9rR09xRmtvdWdVSDZLeFIxc3pDSjVCNm1JdWFJRjVPVkg3N3d1RHRkMFY5R1hRWHdn?oc=5\" target=\"_blank\">DRAM price surge lifts Samsung and Micron as SK Hynix loses share</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports a DRAM price surge, crediting Samsung and Micron gains against SK Hynix share loss \u2014 no ticker, filing, or specific figure attached.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u62a5\u9053 DRAM \u4ef7\u683c\u4e0a\u6da8\uff0c\u79f0 Samsung \u548c Micron \u53d7\u76ca\u3001SK Hynix \u4efd\u989d\u4e0b\u6ed1\u2014\u2014\u6ca1\u6709 ticker\u3001\u6ca1\u6709 filing\uff0c\u4e5f\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nRising DRAM prices signal tightening memory supply feeding the AI-buildout demand story, but this is a single unsourced headline with no volume/pricing data \u2014 treat as a background thermometer read, not confirmation of a structural shift.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7\u5f80\u5f80\u5bf9\u5e94\u5185\u5b58\u4f9b\u7ed9\u6536\u7d27\uff0c\u547c\u5e94 AI \u57fa\u5efa\u7684\u9700\u6c42\u53d9\u4e8b\uff0c\u4f46\u8fd9\u53ea\u662f\u4e00\u6761\u6ca1\u6709\u6570\u636e\u652f\u6491\u7684\u5355\u4e00\u65b0\u95fb\u6807\u9898\uff0c\u53ea\u80fd\u5f53\u80cc\u666f\u6e29\u5ea6\u8ba1\u770b\uff0c\u4e0d\u4ee3\u8868\u7ed3\u6784\u6027\u53d8\u5316\u5df2\u7ecf\u786e\u8ba4\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2982,
-      "ts": 1785973623,
-      "ts_str": "2026-08-05 23:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX stock not a buy until lockups expire, investor says - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 21:32:49 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE15QzVIYmtGSjZTY05vcllyaDJ3YWI1S1I0ZHdROTY2aDdNQk9KenNpOVJRRW43S1VrSnFsanRHU2VJS0pDNlkyMVhDTzRiamxrWURpUVNnVkRQalBpSGlwTkN5STRvb2Q0cmFoZkRUbWNyaDFuQkxuTEswTzYwdw?oc=5\n\nSpaceX stock not a buy until lockups expire, investor says - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE15QzVIYmtGSjZTY05vcllyaDJ3YWI1S1I0ZHdROTY2aDdNQk9KenNpOVJRRW43S1VrSnFsanRHU2VJS0pDNlkyMVhDTzRiamxrWURpUVNnVkRQalBpSGlwTkN5STRvb2Q0cmFoZkRUbWNyaDFuQkxuTEswTzYwdw?oc=5\" target=\"_blank\">SpaceX stock not a buy until lockups expire, investor says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA single Google News RSS headline repeated twice ('SpaceX stock not a buy until lockups expire, investor says') matched the C11 unlock-news classifier.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\uff08\"SpaceX stock not a buy until lockups expire, investor says\"\uff09\uff0c\u547d\u4e2d\u4e86 C11 \u7684\u89e3\u7981\u65b0\u95fb\u5206\u7c7b\u5668\u3002\n\nWhy it matters:\nThis is commentary flagging that SpaceX shares aren't attractive until pre-IPO lock-ups expire and float increases \u2014 a reminder that the unlock tranche calendar is the key mechanical catalyst for supply/demand pressure on the stock once tradable shares hit the market.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u8bc4\u8bba\u63d0\u9192\u5e02\u573a\uff1a\u5728\u89e3\u7981\u524d SpaceX \u80a1\u7968\u4e0d\u503c\u5f97\u4e70\u2014\u2014\u6d41\u901a\u80a1\u589e\u52a0\u624d\u662f\u5173\u952e\u3002\u8fd9\u5370\u8bc1\u4e86\u89e3\u7981\u6279\u6b21\u65e5\u5386\u672c\u8eab\u5c31\u662f\u5f71\u54cd\u8be5\u80a1\u4f9b\u9700\u538b\u529b\u7684\u6838\u5fc3\u673a\u5236\u6027\u50ac\u5316\u5242\uff0c\u4e00\u65e6\u53ef\u4ea4\u6613\u80a1\u4efd\u8fdb\u5165\u5e02\u573a\u5c31\u4f1a\u4ea7\u751f\u51b2\u51fb\u3002\n",
       "emailed": false
     }
   ],
