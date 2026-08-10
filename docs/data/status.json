@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786339926,
-  "generated_at_str": "2026-08-10 05:32:06 UTC",
-  "last_event_ts": 1786338842,
+  "generated_at": 1786340115,
+  "generated_at_str": "2026-08-10 05:35:15 UTC",
+  "last_event_ts": 1786340114,
   "tables": {
     "alerts_dedup": {
-      "count": 3154,
-      "last_ts": 1786337057,
-      "last_str": "2026-08-10 04:44:17 UTC"
+      "count": 3155,
+      "last_ts": 1786340114,
+      "last_str": "2026-08-10 05:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-08-10 00:14:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4025,
-      "last_ts": 1786336502,
-      "last_str": "2026-08-10 04:35:02 UTC"
+      "count": 4026,
+      "last_ts": 1786340102,
+      "last_str": "2026-08-10 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4714,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-10 04:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3496,
-      "last_ts": 1786334704,
-      "last_str": "2026-08-10 04:05:04 UTC"
+      "count": 3497,
+      "last_ts": 1786340104,
+      "last_str": "2026-08-10 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 22559,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3162,
+      "ts": 1786340114,
+      "ts_str": "2026-08-10 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple tests CXMT memory chips as shortage, price pressures persist - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 03:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzcyNXJ3TTc4cWNRa01fbHhTdDMxM216NlZQM1RVSmp6OEdSMnhZcjRGZTBSYlR5Tzlvdno1RXFLT3NkSnBkY0xyVGljTUtXeGYtbnBoT0NqVmVNcWREU0JCTkE5bkdtTmFLV3NTOEMzbng0c1BwVzNsOThhQl9rdWRKV3BnS3VXN3hUcmFIYXQ?oc=5\n\nApple tests CXMT memory chips as shortage, price pressures persist - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzcyNXJ3TTc4cWNRa01fbHhTdDMxM216NlZQM1RVSmp6OEdSMnhZcjRGZTBSYlR5Tzlvdno1RXFLT3NkSnBkY0xyVGljTUtXeGYtbnBoT0NqVmVNcWREU0JCTkE5bkdtTmFLV3NTOEMzbng0c1BwVzNsOThhQl9rdWRKV3BnS3VXN3hUcmFIYXQ?oc=5\" target=\"_blank\">Apple tests CXMT memory chips as shortage, price pressures persist</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says Apple is testing memory chips from CXMT (a Chinese DRAM maker) while industry-wide memory shortage and price pressure persist.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u5728\u5185\u5b58\u77ed\u7f3a\u548c\u4ef7\u683c\u538b\u529b\u6301\u7eed\u7684\u80cc\u666f\u4e0b\uff0cApple \u6b63\u5728\u6d4b\u8bd5 CXMT\uff08\u4e2d\u56fd DRAM \u5382\u5546\uff09\u7684\u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nApple qualifying a new, non-traditional memory supplier signals the DRAM/NAND shortage is severe enough to push a top-tier buyer to diversify sourcing \u2014 consistent with the memory-price-surge leg of the AI-capex bubble-stress thesis, where AI accelerator demand is crowding out commodity DRAM/NAND supply.\n\n\u5f71\u54cd:\nApple \u8fd9\u6837\u7684\u5934\u90e8\u4e70\u5bb6\u53bb\u9a8c\u8bc1\u4e00\u5bb6\u975e\u4f20\u7edf\u5185\u5b58\u4f9b\u5e94\u5546\uff0c\u8bf4\u660e DRAM/NAND \u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u903c\u5b83\u5206\u6563\u91c7\u8d2d\u6765\u6e90\u2014\u2014\u8fd9\u548c\u300cAI \u7b97\u529b\u9700\u6c42\u6324\u5360\u5927\u5b97 DRAM/NAND \u4ea7\u80fd\uff0c\u63a8\u9ad8\u5185\u5b58\u4ef7\u683c\u300d\u8fd9\u6761 AI capex \u6ce1\u6cab\u538b\u529b\u7ebf\u7d22\u662f\u543b\u5408\u7684\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3161,
       "ts": 1786337057,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] TrendForce: DDR chip price increases are slowing, while NAND prices lack momentum for a rebound. - Moomoo",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 08:49:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV2Y1WXE2NG81QWJwOEZ4aVVJMVE5dDE2YUxvQjRTdzFNa3V1ZHoyaHM5TWVXbElqVkpJd2JqVEt5dm54VmZhX1ozMmhEZmhsUWUwLU0yMkRMOExyYXdvODBnd2RiMXRRVGNlbndlSVZQZkZqeUtZTy1IRzRxNjVqdEZlYmplZG5vUWJEa3FhVGRudEY1djVSTDlfVUJhblZsb1BheFlwRzNQMWc?oc=5\n\nTrendForce: DDR chip price increases are slowing, while NAND prices lack momentum for a rebound. - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV2Y1WXE2NG81QWJwOEZ4aVVJMVE5dDE2YUxvQjRTdzFNa3V1ZHoyaHM5TWVXbElqVkpJd2JqVEt5dm54VmZhX1ozMmhEZmhsUWUwLU0yMkRMOExyYXdvODBnd2RiMXRRVGNlbndlSVZQZkZqeUtZTy1IRzRxNjVqdEZlYmplZG5vUWJEa3FhVGRudEY1djVSTDlfVUJhblZsb1BheFlwRzNQMWc?oc=5\" target=\"_blank\">TrendForce: DDR chip price increases are slowing, while NAND prices lack momentum for a rebound.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce reports that DDR memory price increases are decelerating while NAND prices show no momentum for a rebound.\n\n\u5185\u5bb9:\nTrendForce \u62a5\u544a\u79f0\uff0cDDR \u5185\u5b58\u6da8\u4ef7\u901f\u5ea6\u6b63\u5728\u653e\u7f13\uff0cNAND \u4ef7\u683c\u5219\u7f3a\u4e4f\u53cd\u5f39\u52a8\u80fd\u3002\n\nWhy it matters:\nA cooling DDR pricing trend and a stalled NAND rebound point to softening demand or easing supply tightness in the memory market that underpins AI accelerator BOM costs \u2014 a mild disconfirming data point against the memory-shortage leg of the AI-capex bull case, not a new supply shock.\n\n\u5f71\u54cd:\nDDR \u6da8\u4ef7\u964d\u6e29\u3001NAND \u53cd\u5f39\u4e4f\u529b\uff0c\u8bf4\u660e\u652f\u6491 AI \u52a0\u901f\u5361\u6210\u672c\u7684\u5185\u5b58\u5e02\u573a\u9700\u6c42\u6216\u4f9b\u7ed9\u7d27\u5f20\u7a0b\u5ea6\u5728\u51cf\u5f31\u2014\u2014\u8fd9\u662f\u5bf9\u300c\u5185\u5b58\u77ed\u7f3a\u300d\u8fd9\u6761 AI capex \u591a\u5934\u903b\u8f91\u7684\u8f7b\u5fae\u53cd\u5411\u4fe1\u53f7\uff0c\u800c\u4e0d\u662f\u65b0\u7684\u4f9b\u7ed9\u51b2\u51fb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2961,
-      "ts": 1785930447,
-      "ts_str": "2026-08-05 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Analyst Cuts SpaceX Stock Price Target to $140 Amid AI Spending Jitters - CoinGape",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 11:10:49 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0tQWlFIMURZUzQ5dk13TDRNR1ZuWktiUmhGOE9ZM2RwS1V4bkFoa1NXcXppX2lyaUJ6YV9oVEhIdnlkMnNpS3lGYnNpSng1UVlFOHZjVGJnRTZjNU9CMFhENTQwamRKT1FWYy1OLUxsUTdvSUlXYXhvLWxJZ2VQVnJDUE5qTzA5X29jZUhRMUZGb3BZUnJr?oc=5\n\nAnalyst Cuts SpaceX Stock Price Target to $140 Amid AI Spending Jitters - CoinGape\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPa0tQWlFIMURZUzQ5dk13TDRNR1ZuWktiUmhGOE9ZM2RwS1V4bkFoa1NXcXppX2lyaUJ6YV9oVEhIdnlkMnNpS3lGYnNpSng1UVlFOHZjVGJnRTZjNU9CMFhENTQwamRKT1FWYy1OLUxsUTdvSUlXYXhvLWxJZ2VQVnJDUE5qTzA5X29jZUhRMUZGb3BZUnJr?oc=5\" target=\"_blank\">Analyst Cuts SpaceX Stock Price Target to $140 Amid AI Spending Jitters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGape</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports an analyst cutting SpaceX's stock price target to $140, citing AI-spending jitters.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u67d0\u5206\u6790\u5e08\u56e0 AI \u652f\u51fa\u62c5\u5fe7\u5c06 SpaceX \u80a1\u4ef7\u76ee\u6807\u4e0b\u8c03\u81f3 $140\u3002\n\nWhy it matters:\nSpaceX isn't publicly listed, but this is index-mechanics noise around the C11 unlock/passive-flow thesis \u2014 a price-target cut tied explicitly to AI-capex sentiment signals the market is starting to price bubble-stress risk into names adjacent to the AI infrastructure buildout.\n\n\u5f71\u54cd:\nSpaceX \u5e76\u672a\u516c\u5f00\u4e0a\u5e02\uff0c\u4f46\u8fd9\u6761\u5c5e\u4e8e C11 \u89e3\u7981/\u88ab\u52a8\u8d44\u91d1\u6d41\u4e3b\u9898\u4e0b\u7684\u6307\u6570\u673a\u5236\u7c7b\u65b0\u95fb\u2014\u2014\u5206\u6790\u5e08\u660e\u786e\u628a\u76ee\u6807\u4ef7\u4e0b\u8c03\u548c AI \u652f\u51fa\u62c5\u5fe7\u6302\u94a9\uff0c\u8bf4\u660e\u5e02\u573a\u5f00\u59cb\u628a AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u5b9a\u4ef7\u8fdb\u76f8\u5173\u8054\u7684\u6807\u7684\u3002\n",
       "emailed": false
     }
   ],
