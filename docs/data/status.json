@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786408326,
-  "generated_at_str": "2026-08-11 00:32:06 UTC",
-  "last_event_ts": 1786407244,
+  "generated_at": 1786408515,
+  "generated_at_str": "2026-08-11 00:35:15 UTC",
+  "last_event_ts": 1786408514,
   "tables": {
     "alerts_dedup": {
-      "count": 3179,
-      "last_ts": 1786405454,
-      "last_str": "2026-08-10 23:44:14 UTC"
+      "count": 3180,
+      "last_ts": 1786408514,
+      "last_str": "2026-08-11 00:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-10 22:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4086,
-      "last_ts": 1786403101,
-      "last_str": "2026-08-10 23:05:01 UTC"
+      "count": 4087,
+      "last_ts": 1786408502,
+      "last_str": "2026-08-11 00:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4762,
-      "last_ts": 1786406703,
-      "last_str": "2026-08-11 00:05:03 UTC"
+      "count": 4765,
+      "last_ts": 1786408503,
+      "last_str": "2026-08-11 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3178,
-      "last_ts": 1786406703,
-      "last_str": "2026-08-11 00:05:03 UTC"
+      "count": 3180,
+      "last_ts": 1786408503,
+      "last_str": "2026-08-11 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3542,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3187,
+      "ts": 1786408514,
+      "ts_str": "2026-08-11 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Tech Companies Want Federal Government to Sort Out AI-Driven Memory Chip Shortage - breitbart.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 18:06:18 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEo4cWlSeWtIVENRNjUyektrb2NfejFjMGVGTDJ0TWR4aDgxSmptV25qaVNLbDkwa2VzYno3NVA0dlRWeU1yZHVlVEJfSlBJUlVfelF5MjNSYjFiUHFTNzZ3VVVyZ1dXU3I2WjI0NmFZS3Z5bGQyV0xEejVxUV96S1BOYVk1MHhLSC1mYU5ySEZqQmlWYzl1SFFydk9veDJISzZkWUotMkQ1OEtXbXhRQzF4eF8wTjQ2Q0lkd0xhTFB6ZkpRVEY40gHHAUFVX3lxTE1oSjhxaVJ5a0hUQ1E2NTJ6S2tvY196MWMwZUZMMnRNZHhoODFKam1XbmppU0tsOTBrZXNiejc1UDR2VFZ5TXJkdWVUQl9KUElSVV96UXkyM1JiMWJQcVM3NndVVXJnV1dTcjZaMjQ2YVlLdnlsZDJXTER6NXFRX3pLUE5hWTUweEtILWZhTnJIRmpCaVZjOXVIUXJ2T294MkhLNmRZSi0yRDU4S1dteFFDMXh4XzBONDZDSWR3TGFMUHpmSlFURjg?oc=5\n\nTech Companies Want Federal Government to Sort Out AI-Driven Memory Chip Shortage - breitbart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNaEo4cWlSeWtIVENRNjUyektrb2NfejFjMGVGTDJ0TWR4aDgxSmptV25qaVNLbDkwa2VzYno3NVA0dlRWeU1yZHVlVEJfSlBJUlVfelF5MjNSYjFiUHFTNzZ3VVVyZ1dXU3I2WjI0NmFZS3Z5bGQyV0xEejVxUV96S1BOYVk1MHhLSC1mYU5ySEZqQmlWYzl1SFFydk9veDJISzZkWUotMkQ1OEtXbXhRQzF4eF8wTjQ2Q0lkd0xhTFB6ZkpRVEY40gHHAUFVX3lxTE1oSjhxaVJ5a0hUQ1E2NTJ6S2tvY196MWMwZUZMMnRNZHhoODFKam1XbmppU0tsOTBrZXNiejc1UDR2VFZ5TXJkdWVUQl9KUElSVV96UXkyM1JiMWJQcVM3NndVVXJnV1dTcjZaMjQ2YVlLdnlsZDJXTER6NXFRX3pLUE5hWTUweEtILWZhTnJIRmpCaVZjOXVIUXJ2T294MkhLNmRZSi0yRDU4S1dteFFDMXh4XzBONDZDSWR3TGFMUHpmSlFURjg?oc=5\" target=\"_blank\">Tech Companies Want Federal Government to Sort Out AI-Driven Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">breitbart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports tech companies are asking the U.S. federal government to intervene in an AI-driven memory chip shortage.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0,\u79d1\u6280\u516c\u53f8\u6b63\u8981\u6c42\u7f8e\u56fd\u8054\u90a6\u653f\u5e9c\u51fa\u624b\u89e3\u51b3 AI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u95ee\u9898\u3002\n\nWhy it matters:\nA shortage severe enough to trigger a federal-intervention ask signals DRAM/NAND/HBM supply is now a binding constraint on AI hardware buildout, not just a margin story \u2014 it raises input costs and lead times across the whole hyperscaler capex chain right as capex intensity is already the central bubble-stress variable.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u4e25\u91cd\u5230\u9700\u8981\u627e\u8054\u90a6\u653f\u5e9c\u51fa\u9762,\u8bf4\u660e DRAM/NAND/HBM \u4f9b\u7ed9\u5df2\u7ecf\u6210\u4e86 AI \u786c\u4ef6\u5efa\u8bbe\u7684\u786c\u7ea6\u675f,\u4e0d\u53ea\u662f\u5229\u6da6\u7387\u95ee\u9898\u2014\u2014\u8fd9\u4f1a\u62c9\u9ad8\u6574\u6761\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u94fe\u7684\u91c7\u8d2d\u6210\u672c\u548c\u4ea4\u4ed8\u5468\u671f,\u800c capex \u5f3a\u5ea6\u672c\u6765\u5c31\u662f\u8fd9\u8f6e\u6ce1\u6cab\u538b\u529b\u7684\u6838\u5fc3\u53d8\u91cf\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3186,
       "ts": 1786405454,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron: 2027 DRAM Shortage Signals AI Capex Impact - blockchain.news",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 14:31:26 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ19iXzlELXAtT2hveGgtYWJjNHZEdEtoWDVHdDlQalFhVkl1NHBGOHBCRGdxenZ3cXJzd2xoeXVTUUIwdDNkUnptNUNlVkcyWkxzUnIzSDVNY1cxZzBWOExrOTF5M3ppT2pMUnZBcGpMSmhGZ3Jld2hKdHlGSXBTakNWRjh5R0pIU1pv?oc=5\n\nMicron: 2027 DRAM Shortage Signals AI Capex Impact - blockchain.news\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ19iXzlELXAtT2hveGgtYWJjNHZEdEtoWDVHdDlQalFhVkl1NHBGOHBCRGdxenZ3cXJzd2xoeXVTUUIwdDNkUnptNUNlVkcyWkxzUnIzSDVNY1cxZzBWOExrOTF5M3ppT2pMUnZBcGpMSmhGZ3Jld2hKdHlGSXBTakNWRjh5R0pIU1pv?oc=5\" target=\"_blank\">Micron: 2027 DRAM Shortage Signals AI Capex Impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">blockchain.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item flags a projected 2027 DRAM shortage tied to AI capex demand, with Micron cited as the source.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0\u9884\u8ba1 2027 \u5e74\u5c06\u51fa\u73b0 DRAM \u77ed\u7f3a\uff0c\u4e0e AI capex \u9700\u6c42\u6302\u94a9\uff0c\u6d88\u606f\u6e90\u5f15\u7528\u4e86 Micron\u3002\n\nWhy it matters:\nThis is a supply-tightness signal, not an oversupply crash \u2014 a projected shortage would support (not threaten) memory pricing and hyperscaler capex plans, so it cuts against the bubble-stress thesis rather than confirming it.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4f9b\u7ed9\u8d8b\u7d27\u7684\u4fe1\u53f7\uff0c\u4e0d\u662f\u8fc7\u5269\u66b4\u8dcc\u2014\u2014\u5982\u679c 2027 \u5e74\u771f\u4f1a\u7f3a\u8d27\uff0c\u90a3\u5bf9\u5185\u5b58\u4ef7\u683c\u548c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u8ba1\u5212\u53cd\u800c\u662f\u5229\u597d\uff0c\u8ddf\u6ce1\u6cab\u627f\u538b\u7684\u8bba\u70b9\u65b9\u5411\u76f8\u53cd\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2986,
-      "ts": 1785984435,
-      "ts_str": "2026-08-06 02:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Gary Black Questions SpaceX Stock Dip Buying Ahead Of Unlock - SpaceX (NASDAQ:SPCX) - Benzinga",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 02:29:17 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxObnVleUlzMzh0OTdSZWtsTU5ZTXdhTHVPam5WSjJpQWo4SG9fYldpOWdYcnZDcE5QYmpiYWVDNXFZektnZXI5dVpxRUtfa2ZKLTlZYkFBWGIzQjFLeFZTekl3bXA4WmxLdE1tMjVOMGNjVG00a1VSRnV1MlNVajlvQk9SZ0dWM0VSY21yT2FCdjJxVEJpeWZ5ZGx0aG9sVURGaFlB?oc=5\n\nGary Black Questions SpaceX Stock Dip Buying Ahead Of Unlock - SpaceX (NASDAQ:SPCX) - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxObnVleUlzMzh0OTdSZWtsTU5ZTXdhTHVPam5WSjJpQWo4SG9fYldpOWdYcnZDcE5QYmpiYWVDNXFZektnZXI5dVpxRUtfa2ZKLTlZYkFBWGIzQjFLeFZTekl3bXA4WmxLdE1tMjVOMGNjVG00a1VSRnV1MlNVajlvQk9SZ0dWM0VSY21yT2FCdjJxVEJpeWZ5ZGx0aG9sVURGaFlB?oc=5\" target=\"_blank\">Gary Black Questions SpaceX Stock Dip Buying Ahead Of Unlock - SpaceX (NASDAQ:SPCX)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nFinancial commentator Gary Black publicly questioned investors buying the dip in SpaceX (SPCX) stock ahead of an upcoming share unlock.\n\n\u5185\u5bb9:\n\u8d22\u7ecf\u8bc4\u8bba\u4eba Gary Black \u516c\u5f00\u8d28\u7591\u6295\u8d44\u8005\u5728 SpaceX\uff08SPCX\uff09\u89e3\u7981\u524d\u9022\u8dcc\u4e70\u5165\u7684\u505a\u6cd5\u3002\n\nWhy it matters:\nUnlock-adjacent commentary questioning dip-buying signals building unease about post-unlock selling pressure \u2014 relevant to the passive-flow/index-mechanics risk this catalyst tracks around SpaceX's lock-up tranches.\n\n\u5f71\u54cd:\n\u4e34\u8fd1\u89e3\u7981\u671f\u51fa\u73b0\u8d28\u7591\u6284\u5e95\u7684\u8a00\u8bba\uff0c\u8bf4\u660e\u5e02\u573a\u5bf9\u89e3\u7981\u540e\u629b\u538b\u5df2\u7ecf\u5f00\u59cb\u4e0d\u5b89\u2014\u2014\u8fd9\u6b63\u5bf9\u5e94\u672c\u9879\u8ffd\u8e2a\u7684 SpaceX \u89e3\u7981\u5f15\u53d1\u7684\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u673a\u5236\u98ce\u9669\u3002\n",
       "emailed": false
     }
   ],
