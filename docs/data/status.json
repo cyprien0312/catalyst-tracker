@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786423462,
-  "generated_at_str": "2026-08-11 04:44:22 UTC",
-  "last_event_ts": 1786423459,
+  "generated_at": 1786423637,
+  "generated_at_str": "2026-08-11 04:47:17 UTC",
+  "last_event_ts": 1786423637,
   "tables": {
     "alerts_dedup": {
-      "count": 3187,
-      "last_ts": 1786423459,
-      "last_str": "2026-08-11 04:44:19 UTC"
+      "count": 3188,
+      "last_ts": 1786423637,
+      "last_str": "2026-08-11 04:47:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-08-11 04:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5625,
-      "last_ts": 1786420022,
-      "last_str": "2026-08-11 03:47:02 UTC"
+      "count": 5629,
+      "last_ts": 1786423622,
+      "last_str": "2026-08-11 04:47:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3195,
+      "ts": 1786423637,
+      "ts_str": "2026-08-11 04:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] Morgan Stanley: SpaceX's Cursor Acquisition Could Unlock $600/Share - BASENOR - Tesla Accessories",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 01:03:51 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxPSWpacG5nVllDMFRpVGdsVTBfSGMzWEowT08wWE9uSmZlWFE4S0I4cDFZOUprVGxySzJCcEd1WDd2SE9CZ0FRTmNvMmtodnZQeHU4NTYxbnBBaG9XQUg4bVg5blZ1S3oxTFZJWkZtSGtiTkx3NVV0Rk5vY042UFJxLVhuX2stb1BTWmtTN0s1WGFnLVYyeGhwMzlhSFk3VXBq?oc=5\n\nMorgan Stanley: SpaceX's Cursor Acquisition Could Unlock $600/Share - BASENOR - Tesla Accessories\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPSWpacG5nVllDMFRpVGdsVTBfSGMzWEowT08wWE9uSmZlWFE4S0I4cDFZOUprVGxySzJCcEd1WDd2SE9CZ0FRTmNvMmtodnZQeHU4NTYxbnBBaG9XQUg4bVg5blZ1S3oxTFZJWkZtSGtiTkx3NVV0Rk5vY042UFJxLVhuX2stb1BTWmtTN0s1WGFnLVYyeGhwMzlhSFk3VXBq?oc=5\" target=\"_blank\">Morgan Stanley: SpaceX's Cursor Acquisition Could Unlock $600/Share</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BASENOR - Tesla Accessories</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley published a note arguing SpaceX's acquisition of Cursor could unlock a valuation of $600/share.\n\n\u5185\u5bb9:\nMorgan Stanley \u53d1\u62a5\u544a\u79f0\uff0cSpaceX \u6536\u8d2d Cursor \u53ef\u80fd\u628a\u4f30\u503c\u63a8\u9ad8\u5230\u6bcf\u80a1 $600\u3002\n\nWhy it matters:\nThis is analyst commentary tied to SpaceX's private valuation, not a lock-up or unlock-schedule event \u2014 it's the kind of coverage the C11 news classifier flags as proximity to 'unlock' vocabulary rather than an actual tranche release. Treat as noise unless it's paired with a real lock-up date or share-distribution mechanic.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u662f\u56f4\u7ed5 SpaceX \u79c1\u6709\u4f30\u503c\u7684\u5206\u6790\u5e08\u8bc4\u8bba\uff0c\u4e0d\u662f\u89e3\u7981\u65e5\u5386\u6216\u80a1\u4efd\u91ca\u653e\u4e8b\u4ef6\u2014\u2014\u5c5e\u4e8e C11 \u65b0\u95fb\u5206\u7c7b\u5668\u56e0\u300cunlock\u300d\u8bcd\u6c47\u90bb\u8fd1\u800c\u6293\u5230\u7684\u62a5\u9053\uff0c\u4e0d\u662f\u771f\u6b63\u7684\u89e3\u7981\u6279\u6b21\u3002\u9664\u975e\u914d\u4e0a\u5177\u4f53\u7684\u9501\u5b9a\u671f\u65e5\u671f\u6216\u80a1\u4efd\u5206\u53d1\u673a\u5236\uff0c\u5426\u5219\u5e94\u89c6\u4e3a\u566a\u97f3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3194,
       "ts": 1786423459,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Elite Semiconductor rides niche DRAM price hikes - digitimes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 07:24:52 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQcTYzOEVFOVk1UTVNYTRua1FUNDQzbW1XV24xbDcyV1BxVVNySUxnSFJKVU5yTko2MEM2OHhtRlBsTmp1ajZSS2w4bERxdDZkWjhOZ3k1Ul81bzVCdHhNcS01Qmk0Yy1RVDJlRFlNV205WHlmNUZ6aHdnQjNYdEN1M1cxVHdiQQ?oc=5\n\nElite Semiconductor rides niche DRAM price hikes - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQcTYzOEVFOVk1UTVNYTRua1FUNDQzbW1XV24xbDcyV1BxVVNySUxnSFJKVU5yTko2MEM2OHhtRlBsTmp1ajZSS2w4bERxdDZkWjhOZ3k1Ul81bzVCdHhNcS01Qmk0Yy1RVDJlRFlNV205WHlmNUZ6aHdnQjNYdEN1M1cxVHdiQQ?oc=5\" target=\"_blank\">Elite Semiconductor rides niche DRAM price hikes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA niche DRAM maker, Elite Semiconductor, is reported riding a wave of DRAM price hikes.\n\n\u5185\u5bb9:\n\u5c0f\u4f17 DRAM \u5382\u5546 Elite Semiconductor \u88ab\u62a5\u9053\u642d\u4e0a\u4e86 DRAM \u6da8\u4ef7\u7684\u987a\u98ce\u8f66\u3002\n\nWhy it matters:\nRising DRAM prices squeeze hyperscaler capex further \u2014 memory is a direct input cost for AI servers, and a price surge (vs. a glut) signals tight supply feeding through to higher AI infrastructure build costs.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7\u4f1a\u8fdb\u4e00\u6b65\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u2014\u2014\u5185\u5b58\u662f AI \u670d\u52a1\u5668\u7684\u76f4\u63a5\u6210\u672c\u9879\uff0c\u6da8\u4ef7\uff08\u800c\u975e\u8fc7\u5269\uff09\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0c\u6b63\u5728\u4f20\u5bfc\u6210\u66f4\u9ad8\u7684 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 2996,
-      "ts": 1786005327,
-      "ts_str": "2026-08-06 08:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] MSI Raises Graphics Card Prices By Over 20% Following ASUS & Gigabyte Hikes As NVIDIA & AMD Partners Face Persistent DRA",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 05:45:10 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE5tSm1vMWNDUVRtZHJpd2pJdHJqaXA5TVYzdnpTazdDNGozekJBOUs5Q2tDbDFtVEtVcEpTdlJ3WkhCY2dQMUJpYTNUbElvUm5RLVMxMGJma0NrdUxXTlhsTWN0Z2VlcktRVC1aTkdWa09JaFpqUFJqSDZ5YlfSAYIBQVVfeXFMTlByLWplNmI5TzR3YzgzQ2t5Ym0yYWJIY3c4RXg1QTdCTzVrMjZCRWl3ak1WN0l6cWNxQjhfSGpGWEhkc1JiZFdjTUVIYUpWM0VEN0NBLWMxRnFYRFFBdWlwM2FHYzk5QjNWek1sZlRobGpKWWNQeVZhSl8yYjNwNU9tZw?oc=5\n\nMSI Raises Graphics Card Prices By Over 20% Following ASUS & Gigabyte Hikes As NVIDIA & AMD Partners Face Persistent DRAM Shortages - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5tSm1vMWNDUVRtZHJpd2pJdHJqaXA5TVYzdnpTazdDNGozekJBOUs5Q2tDbDFtVEtVcEpTdlJ3WkhCY2dQMUJpYTNUbElvUm5RLVMxMGJma0NrdUxXTlhsTWN0Z2VlcktRVC1aTkdWa09JaFpqUFJqSDZ5YlfSAYIBQVVfeXFMTlByLWplNmI5TzR3YzgzQ2t5Ym0yYWJIY3c4RXg1QTdCTzVrMjZCRWl3ak1WN0l6cWNxQjhfSGpGWEhkc1JiZFdjTUVIYUpWM0VEN0NBLWMxRnFYRFFBdWlwM2FHYzk5QjNWek1sZlRobGpKWWNQeVZhSl8yYjNwNU9tZw?oc=5\" target=\"_blank\">MSI Raises Graphics Card Prices By Over 20% Following ASUS & Gigabyte Hikes As NVIDIA & AMD Partners Face Persistent DRAM Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMSI raised graphics card prices by over 20%, following similar hikes from ASUS and Gigabyte, as NVIDIA and AMD board partners cite persistent DRAM shortages.\n\n\u5185\u5bb9:\nMSI \u5c06\u663e\u5361\u4ef7\u683c\u4e0a\u8c03\u8d85\u8fc7 20%\uff0c\u6b64\u524d ASUS \u548c Gigabyte \u5df2\u7ecf\u5148\u6da8\u4ef7\uff0cNVIDIA \u4e0e AMD \u7684\u677f\u5361\u5408\u4f5c\u4f19\u4f34\u90fd\u5728\u8bf4 DRAM \u6301\u7eed\u77ed\u7f3a\u3002\n\nWhy it matters:\nThree separate board partners moving in lockstep on price signals a real supply constraint, not one company's margin grab \u2014 DRAM/GDDR scarcity feeding into GPU pricing raises input costs across the AI-hardware stack and squeezes anyone downstream who isn't a hyperscaler with locked-in allocation.\n\n\u5f71\u54cd:\n\u4e09\u5bb6\u677f\u5361\u5382\u5546\u540c\u6b65\u6da8\u4ef7\uff0c\u8bf4\u660e\u8fd9\u662f\u771f\u5b9e\u7684\u4f9b\u7ed9\u7d27\u5f20\uff0c\u4e0d\u662f\u5355\u5bb6\u516c\u53f8\u5728\u62ac\u4ef7\u2014\u2014DRAM/GDDR \u7a00\u7f3a\u4f1a\u63a8\u9ad8\u6574\u4e2a AI \u786c\u4ef6\u94fe\u6761\u7684\u6210\u672c\uff0c\u6324\u538b\u90a3\u4e9b\u6ca1\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u90a3\u79cd\u9501\u5b9a\u914d\u989d\u7684\u4e0b\u6e38\u73a9\u5bb6\u3002\n",
       "emailed": false
     }
   ],
