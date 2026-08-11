@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786475462,
-  "generated_at_str": "2026-08-11 19:11:02 UTC",
-  "last_event_ts": 1786475285,
+  "generated_at": 1786475660,
+  "generated_at_str": "2026-08-11 19:14:20 UTC",
+  "last_event_ts": 1786475657,
   "tables": {
     "alerts_dedup": {
-      "count": 3213,
-      "last_ts": 1786474050,
-      "last_str": "2026-08-11 18:47:30 UTC"
+      "count": 3214,
+      "last_ts": 1786475657,
+      "last_str": "2026-08-11 19:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-10 23:00:43 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4022,
-      "last_ts": 1786473844,
-      "last_str": "2026-08-11 18:44:04 UTC"
+      "count": 4026,
+      "last_ts": 1786475644,
+      "last_str": "2026-08-11 19:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 908,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-11 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 23045,
-      "last_ts": 1786473842,
-      "last_str": "2026-08-11 18:44:02 UTC"
+      "count": 23052,
+      "last_ts": 1786475642,
+      "last_str": "2026-08-11 19:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5770,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3221,
+      "ts": 1786475657,
+      "ts_str": "2026-08-11 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI raised $7 billion in a sale, with speculation this fuels an eventual IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u5b8c\u6210 70 \u4ebf\u7f8e\u5143\u7684\u4e00\u7b14\u51fa\u552e\u4ea4\u6613\uff0c\u5e02\u573a\u731c\u6d4b\u8fd9\u4f1a\u4e3a\u5176 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nThis is unconfirmed capital-raise/IPO chatter rather than a hard filing or burn-rate metric, so it's a MED-severity soft signal \u2014 it flags market attention on OpenAI's funding trajectory without yet showing whether the money offsets or masks rising compute costs.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\u878d\u8d44/IPO \u4f20\u95fb\uff0c\u4e0d\u662f\u786c\u6027 filing \u6216 burn rate \u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7b97 MED \u7ea7\u522b\u7684\u8f6f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u5e02\u573a\u5728\u5173\u6ce8 OpenAI \u7684\u878d\u8d44\u8d70\u5411\uff0c\u4f46\u8fd8\u770b\u4e0d\u51fa\u8fd9\u7b14\u94b1\u662f\u7f13\u89e3\u4e86\u8fd8\u662f\u63a9\u76d6\u4e86\u4e0d\u65ad\u4e0a\u5347\u7684\u7b97\u529b\u6210\u672c\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3219,
       "ts": 1786474050,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market - coinpedia.org",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 12:26:02 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXRlcGdId2o0RUQ2NUJXWWpnSXBoWGJjZjRMVDFMcDVZVml2UjV5T0hmbEp2VTNpbDBxNzlLNXZydFpxR1gwYXVNT3kyYU1lY2VoN0t4MXNEZjJCTmF1aVA2d2g1MVotRjNOc2Qzb2kwMzZiYk81UEw1WWVOMkYzZ05IVGozUm1wcFllZy1Zc05EaVIwRFQ1WVptWjN1azlsYW95UkxMbExCT1B3VURPVGZXekp4ZGRaTDctbtIBvAFBVV95cUxPUXRlcGdId2o0RUQ2NUJXWWpnSXBoWGJjZjRMVDFMcDVZVml2UjV5T0hmbEp2VTNpbDBxNzlLNXZydFpxR1gwYXVNT3kyYU1lY2VoN0t4MXNEZjJCTmF1aVA2d2g1MVotRjNOc2Qzb2kwMzZiYk81UEw1WWVOMkYzZ05IVGozUm1wcFllZy1Zc05EaVIwRFQ1WVptWjN1azlsYW95UkxMbExCT1B3VURPVGZXekp4ZGRaTDctbg?oc=5\n\nSpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market - coinpedia.org\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXRlcGdId2o0RUQ2NUJXWWpnSXBoWGJjZjRMVDFMcDVZVml2UjV5T0hmbEp2VTNpbDBxNzlLNXZydFpxR1gwYXVNT3kyYU1lY2VoN0t4MXNEZjJCTmF1aVA2d2g1MVotRjNOc2Qzb2kwMzZiYk81UEw1WWVOMkYzZ05IVGozUm1wcFllZy1Zc05EaVIwRFQ1WVptWjN1azlsYW95UkxMbExCT1B3VURPVGZXekp4ZGRaTDctbtIBvAFBVV95cUxPUXRlcGdId2o0RUQ2NUJXWWpnSXBoWGJjZjRMVDFMcDVZVml2UjV5T0hmbEp2VTNpbDBxNzlLNXZydFpxR1gwYXVNT3kyYU1lY2VoN0t4MXNEZjJCTmF1aVA2d2g1MVotRjNOc2Qzb2kwMzZiYk81UEw1WWVOMkYzZ05IVGozUm1wcFllZy1Zc05EaVIwRFQ1WVptWjN1azlsYW95UkxMbExCT1B3VURPVGZXekp4ZGRaTDctbg?oc=5\" target=\"_blank\">SpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coinpedia.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX faces a share unlock event releasing 911.5 million shares into the market.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u5c06\u8fce\u6765\u4e00\u6b21\u89e3\u7981\u4e8b\u4ef6\uff0c\u5171 9.115 \u4ebf\u80a1\u80a1\u7968\u8fdb\u5165\u5e02\u573a\u6d41\u901a\u3002\n\nWhy it matters:\nA lock-up expiration of this size creates a large supply overhang \u2014 even if SpaceX stays private, this kind of unlock mechanics matters for the passive-flow/index-inclusion thesis once liquid shares hit public markets, since a flood of newly tradable stock can pressure the price and ripple into ETFs holding it.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\u4f1a\u9020\u6210\u5de8\u5927\u7684\u629b\u538b\u2014\u2014\u5373\u4fbf SpaceX \u4ecd\u662f\u79c1\u6709\u516c\u53f8\uff0c\u8fd9\u7c7b\u89e3\u7981\u673a\u5236\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u7eb3\u5165\u903b\u8f91\u4e5f\u5f88\u91cd\u8981\uff0c\u4e00\u65e6\u8fd9\u4e9b\u80a1\u7968\u53d8\u5f97\u53ef\u6d41\u901a\uff0c\u5927\u91cf\u65b0\u589e\u53ef\u4ea4\u6613\u80a1\u7968\u4f1a\u538b\u4f4e\u80a1\u4ef7\uff0c\u5e76\u6ce2\u53ca\u6301\u6709\u8be5\u80a1\u7968\u7684 ETF\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3025,
-      "ts": 1786024077,
-      "ts_str": "2026-08-06 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] US Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, ME",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 05 Aug 2026 23:40:54 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxONFA3S3dKVHVsSmM2VVdoTWdxVWZGYzdPWGExVVczVW1BWGJhcFFXUS1ob3NXMUU0QzBzWmFwcDE3MHQtbnJpejFQVU1YZGNjVXFjVWFhRWpWcUhTNkE4eVFKQWJ6SjFsN1YyTWpzTmNPckU3blNRM0tQMm55ZTRmOTlDZlVTT05vWEtQQVFKN2Z4U0hSNGxQVg?oc=5\n\nUS Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxONFA3S3dKVHVsSmM2VVdoTWdxVWZGYzdPWGExVVczVW1BWGJhcFFXUS1ob3NXMUU0QzBzWmFwcDE3MHQtbnJpejFQVU1YZGNjVXFjVWFhRWpWcUhTNkE4eVFKQWJ6SjFsN1YyTWpzTmNPckU3blNRM0tQMm55ZTRmOTlDZlVTT05vWEtQQVFKN2Z4U0hSNGxQVg?oc=5\" target=\"_blank\">US Stock Futures Inch Higher Following S&amp;P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news wire reports markets bracing for a SpaceX share unlock, with GOOGL, UBER, META, FLUT, and AMZN flagged as related names amid a broader S&P 500 / Nasdaq pullback.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u7a3f\u79f0\u5e02\u573a\u6b63\u4e3a SpaceX \u80a1\u7968\u89e3\u7981\u505a\u51c6\u5907\uff0cGOOGL\u3001UBER\u3001META\u3001FLUT\u3001AMZN \u88ab\u5217\u4e3a\u76f8\u5173\u6807\u7684\uff0c\u540c\u671f S&P 500 \u548c Nasdaq \u51fa\u73b0\u56de\u8c03\u3002\n\nWhy it matters:\nThis is proximity-driven index-mechanics chatter tied to the SpaceX lock-up calendar, not a fundamental AI-capex signal \u2014 it matters only as a flow/liquidity tell around the unlock date, not as evidence of stress at any of the named companies.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u56f4\u7ed5 SpaceX \u89e3\u7981\u65e5\u5386\u7684\u6307\u6570\u673a\u5236\u7c7b\u566a\u97f3\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4e0a\u7684 AI capex \u538b\u529b\u4fe1\u53f7\u2014\u2014\u5b83\u7684\u610f\u4e49\u4ec5\u5728\u4e8e\u89e3\u7981\u524d\u540e\u7684\u8d44\u91d1\u6d41/\u6d41\u52a8\u6027\u52a8\u5411\uff0c\u4e0d\u4ee3\u8868\u88ab\u63d0\u53ca\u7684\u4efb\u4f55\u4e00\u5bb6\u516c\u53f8\u51fa\u4e86\u95ee\u9898\u3002\n",
       "emailed": false
     }
   ],
