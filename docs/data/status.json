@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786482663,
-  "generated_at_str": "2026-08-11 21:11:03 UTC",
-  "last_event_ts": 1786482302,
+  "generated_at": 1786482847,
+  "generated_at_str": "2026-08-11 21:14:07 UTC",
+  "last_event_ts": 1786482844,
   "tables": {
     "alerts_dedup": {
-      "count": 3217,
-      "last_ts": 1786481236,
-      "last_str": "2026-08-11 20:47:16 UTC"
+      "count": 3218,
+      "last_ts": 1786482844,
+      "last_str": "2026-08-11 21:14:04 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-08-10 23:00:43 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4036,
-      "last_ts": 1786481044,
-      "last_str": "2026-08-11 20:44:04 UTC"
+      "count": 4039,
+      "last_ts": 1786482843,
+      "last_str": "2026-08-11 21:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 910,
-      "last_ts": 1786481045,
-      "last_str": "2026-08-11 20:44:05 UTC"
+      "count": 911,
+      "last_ts": 1786482844,
+      "last_str": "2026-08-11 21:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4142,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-11 20:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 23070,
-      "last_ts": 1786481042,
-      "last_str": "2026-08-11 20:44:02 UTC"
+      "count": 23075,
+      "last_ts": 1786482842,
+      "last_str": "2026-08-11 21:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5797,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3225,
+      "ts": 1786482844,
+      "ts_str": "2026-08-11 21:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - uk.finance.yahoo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGNsWkhRUUVXRTlTWTY3dDhpS2FOY3hFSVB0QlUxdXpvbnRXanNkNFQ0QjBjM3VQQV9sSmtwX2dqQk1qd1JmSFZmbXhWdUh1cFJfWWNHT2dwcUNTeXdoOU51cGtobGhWOE9DcG5ZRVd2aFI2UlN3NGE1QWRQeUhLSXZjSQ?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - uk.finance.yahoo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGNsWkhRUUVXRTlTWTY3dDhpS2FOY3hFSVB0QlUxdXpvbnRXanNkNFQ0QjBjM3VQQV9sSmtwX2dqQk1qd1JmSFZmbXhWdUh1cFJfWWNHT2dwcUNTeXdoOU51cGtobGhWOE9DcG5ZRVd2aFI2UlN3NGE1QWRQeUhLSXZjSQ?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uk.finance.yahoo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI raised $7 billion in a sale, with speculation this fuels an eventual IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u5b8c\u6210 70 \u4ebf\u7f8e\u5143\u7684\u4e00\u7b14\u51fa\u552e\u4ea4\u6613\uff0c\u5e02\u573a\u731c\u6d4b\u8fd9\u4f1a\u4e3a\u5176 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nThis is unconfirmed capital-raise/IPO chatter rather than a hard filing or burn-rate metric, so it's a MED-severity soft signal \u2014 it flags market attention on OpenAI's funding trajectory without yet showing whether the money offsets or masks rising compute costs.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\u878d\u8d44/IPO \u4f20\u95fb\uff0c\u4e0d\u662f\u786c\u6027 filing \u6216 burn rate \u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7b97 MED \u7ea7\u522b\u7684\u8f6f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u5e02\u573a\u5728\u5173\u6ce8 OpenAI \u7684\u878d\u8d44\u8d70\u5411\uff0c\u4f46\u8fd8\u770b\u4e0d\u51fa\u8fd9\u7b14\u94b1\u662f\u7f13\u89e3\u4e86\u8fd8\u662f\u63a9\u76d6\u4e86\u4e0d\u65ad\u4e0a\u5347\u7684\u7b97\u529b\u6210\u672c\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3224,
       "ts": 1786481236,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX lockup expiry to test retail\u2019s iron stomach - The Globe and Mail",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 13:27:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxNdml5cmczRHRQdkx1OVEtSDJiMnZyLWpRM0NvQjJjdWl0NTZNUTVSRUJwZmhqS0hQYWg3ZVEwU3M2Ylk5YzA1VTNvVHF2S2VvU0VocXRzODJINWVUWmRCbG1SX3dySFRPYUtReXZxTjJlWF82c1Q4QVFGR0NkWUkzakpCaUhhZ2Y1TU9GcllkOUtUbEtBOVNzLVNKSFcyakhXeUE?oc=5\n\nSpaceX lockup expiry to test retail\u2019s iron stomach - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNdml5cmczRHRQdkx1OVEtSDJiMnZyLWpRM0NvQjJjdWl0NTZNUTVSRUJwZmhqS0hQYWg3ZVEwU3M2Ylk5YzA1VTNvVHF2S2VvU0VocXRzODJINWVUWmRCbG1SX3dySFRPYUtReXZxTjJlWF82c1Q4QVFGR0NkWUkzakpCaUhhZ2Y1TU9GcllkOUtUbEtBOVNzLVNKSFcyakhXeUE?oc=5\" target=\"_blank\">SpaceX lockup expiry to test retail\u2019s iron stomach</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news alert covers the upcoming expiry of SpaceX's insider lockup, framed as a test of whether retail holders will keep holding through the unlock.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053 SpaceX \u5185\u90e8\u4eba\u9501\u5b9a\u671f\u5373\u5c06\u5230\u671f\uff0c\u5c06\u5176\u5b9a\u6027\u4e3a\u5bf9\u6563\u6237\u80fd\u5426\u625b\u4f4f\u89e3\u7981\u7684\u4e00\u6b21\u8003\u9a8c\u3002\n\nWhy it matters:\nA lockup expiry adds a large new supply of shares eligible for sale, which can pressure the price and signal how sticky current holders actually are \u2014 relevant to the passive-flow/index-mechanics thesis around SpaceX's eventual IPO.\n\n\u5f71\u54cd:\n\u89e3\u7981\u5230\u671f\u4f1a\u91ca\u653e\u5927\u91cf\u53ef\u5356\u51fa\u80a1\u4efd\uff0c\u53ef\u80fd\u7ed9\u80a1\u4ef7\u5e26\u6765\u538b\u529b\uff0c\u4e5f\u80fd\u770b\u51fa\u73b0\u6709\u6301\u80a1\u4eba\u5230\u5e95\u6709\u591a\u300c\u7c98\u300d\u2014\u2014\u8fd9\u4e0e SpaceX \u672a\u6765 IPO \u76f8\u5173\u7684\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u673a\u5236\u4e3b\u9898\u76f4\u63a5\u76f8\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3021,
-      "ts": 1786024077,
-      "ts_str": "2026-08-06 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SPCX Stock Surges as Bernstein Raises Elon Musk\u2019s SpaceX Price Target to $248 - CoinGape",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 13:25:32 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3NzRWhjZFZPbmxjWEJYR1AyYzJIeGF2QkJ4UkVnbzRNUS1FWVhfZFUyV1JHMHRHVklHWmstTC1ha19PRkRKNG1nZW5jUWpQelFmV2NqMWhEbkd3THVhcS1PX1VZb1NqeXZ2NDNyWUpBQ0JaMEpWQlk1cDRSMDBWN0c3WktYMXc3ZWtSdlJzNDJLUlI1Z0FVQUxRUU5OOVE3cTY4VGNkYlVydU1JdGc?oc=5\n\nSPCX Stock Surges as Bernstein Raises Elon Musk\u2019s SpaceX Price Target to $248 - CoinGape\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3NzRWhjZFZPbmxjWEJYR1AyYzJIeGF2QkJ4UkVnbzRNUS1FWVhfZFUyV1JHMHRHVklHWmstTC1ha19PRkRKNG1nZW5jUWpQelFmV2NqMWhEbkd3THVhcS1PX1VZb1NqeXZ2NDNyWUpBQ0JaMEpWQlk1cDRSMDBWN0c3WktYMXc3ZWtSdlJzNDJLUlI1Z0FVQUxRUU5OOVE3cTY4VGNkYlVydU1JdGc?oc=5\" target=\"_blank\">SPCX Stock Surges as Bernstein Raises Elon Musk\u2019s SpaceX Price Target to $248</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGape</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein raised its price target on SpaceX (SPCX) shares to $248, and the stock rose on the news.\n\n\u5185\u5bb9:\nBernstein \u5c06 SpaceX\uff08SPCX\uff09\u80a1\u7968\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $248\uff0c\u80a1\u4ef7\u968f\u4e4b\u4e0a\u6da8\u3002\n\nWhy it matters:\nA rising SpaceX valuation ahead of index inclusion increases the size of the eventual passive-flow rebalancing event when funds are forced to buy \u2014 but a sell-side price-target bump alone is routine analyst commentary, not a lock-up or flow event, so it's low-signal noise for the bubble-stress thesis on its own.\n\n\u5f71\u54cd:\nSpaceX \u4f30\u503c\u8d70\u9ad8\uff0c\u610f\u5473\u7740\u672a\u6765\u88ab\u52a8\u8d44\u91d1\u88ab\u8feb\u4e70\u5165\u65f6\u7684\u518d\u5e73\u8861\u89c4\u6a21\u4e5f\u4f1a\u66f4\u5927\uff1b\u4f46\u4e00\u6b21\u5356\u65b9\u76ee\u6807\u4ef7\u4e0a\u8c03\u672c\u8eab\u53ea\u662f\u5e38\u89c4\u5206\u6790\u5e08\u8bc4\u8bba\uff0c\u4e0d\u6d89\u53ca\u89e3\u7981\u6216\u5b9e\u9645\u8d44\u91d1\u6d41\u52a8\uff0c\u5355\u72ec\u770b\u4fe1\u53f7\u91cf\u5f88\u4f4e\u3002\n",
       "emailed": false
     }
   ],
