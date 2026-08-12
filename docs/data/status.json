@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786543327,
-  "generated_at_str": "2026-08-12 14:02:07 UTC",
-  "last_event_ts": 1786542423,
+  "generated_at": 1786543505,
+  "generated_at_str": "2026-08-12 14:05:05 UTC",
+  "last_event_ts": 1786543505,
   "tables": {
     "alerts_dedup": {
-      "count": 3236,
-      "last_ts": 1786541720,
-      "last_str": "2026-08-12 13:35:20 UTC"
+      "count": 3237,
+      "last_ts": 1786543505,
+      "last_str": "2026-08-12 14:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-12 13:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4191,
-      "last_ts": 1786541702,
-      "last_str": "2026-08-12 13:35:02 UTC"
+      "count": 4194,
+      "last_ts": 1786543502,
+      "last_str": "2026-08-12 14:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4869,
-      "last_ts": 1786541704,
-      "last_str": "2026-08-12 13:35:04 UTC"
+      "count": 4870,
+      "last_ts": 1786543504,
+      "last_str": "2026-08-12 14:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3254,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-12 13:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3635,
-      "last_ts": 1786541705,
-      "last_str": "2026-08-12 13:35:05 UTC"
+      "count": 3640,
+      "last_ts": 1786543505,
+      "last_str": "2026-08-12 14:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 23198,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3244,
+      "ts": 1786543505,
+      "ts_str": "2026-08-12 14:05 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Apple is testing Chinese DRAM even after CXMT refused to cut prices - Yahoo Finance",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 12 Aug 2026 13:22:41 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPWEZmMVA1UlhEai1QVzZNanRzSmVpVlJ1ZzZjWlhMOXo2aXhua2NjeWsyYURkMVhrQk53VEktUEhHSW1tcXBZNF9acnBmYkZ0dGtsbnlxNEEyX195RDcxVTFYS0RKektiRGVxUTF4Skt4b0poTlhibVNoaF9VanE2UDA3VDNrVHExUl8wMzVjZENqZERqSmRF?oc=5\n\nApple is testing Chinese DRAM even after CXMT refused to cut prices - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPWEZmMVA1UlhEai1QVzZNanRzSmVpVlJ1ZzZjWlhMOXo2aXhua2NjeWsyYURkMVhrQk53VEktUEhHSW1tcXBZNF9acnBmYkZ0dGtsbnlxNEEyX195RDcxVTFYS0RKektiRGVxUTF4Skt4b0poTlhibVNoaF9VanE2UDA3VDNrVHExUl8wMzVjZENqZERqSmRF?oc=5\" target=\"_blank\">Apple is testing Chinese DRAM even after CXMT refused to cut prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is qualifying Chinese DRAM supplier CXMT for its supply chain, even though CXMT has refused to lower prices despite the request.\n\n\u5185\u5bb9:\nApple \u6b63\u5728\u628a\u4e2d\u56fd\u5b58\u50a8\u5382\u5546 CXMT \u7eb3\u5165\u4f9b\u5e94\u94fe\u6d4b\u8bd5\uff0c\u4f46 CXMT \u62d2\u7edd\u4e86\u964d\u4ef7\u8981\u6c42\uff0c\u4ef7\u683c\u5e76\u672a\u677e\u52a8\u3002\n\nWhy it matters:\nCXMT holding price signals persistent DRAM tightness rather than the oversupply/price-crash pattern C6 watches for \u2014 pricing power is staying with memory makers, which keeps hyperscaler input costs elevated instead of easing them.\n\n\u5f71\u54cd:\nCXMT \u9876\u4f4f\u4e0d\u964d\u4ef7\uff0c\u8bf4\u660e DRAM \u4f9b\u7ed9\u4ecd\u7136\u504f\u7d27\uff0c\u4e0d\u662f C6 \u8981\u76ef\u7684\u90a3\u79cd\u964d\u4ef7/\u8fc7\u5269\u4fe1\u53f7\u2014\u2014\u5b9a\u4ef7\u6743\u8fd8\u5728\u5b58\u50a8\u5382\u5546\u624b\u91cc\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u91c7\u8d2d\u6210\u672c\u538b\u529b\u5e76\u672a\u7f13\u89e3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3243,
       "ts": 1786541720,
@@ -2291,16 +2301,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple's IPhone 18 Production Runs Into A Mounting DRAM Shortage - Forbes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 16:37:29 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDJnYXREeEdSdUlqOWxJUTYwVGx4TFB3dXJNdGhZaXZPNW9mLXA5MFBuTmlTNEFJNnhnbkNUTEV1bXM1WDZIS19oMmxjTXBFTTN3TmtyRUxYVnVEVW9XaXFhLWlEYm9aOFRzV2lxcmZJZ2Z2SkJOT2QwRjZRMnlfT3dBa3JYRElPNGxGTEZOY2ZkbWM0SUtHXzRUZHF5blBBU1JpVmE0ZEoyMzlqaEo2RnczQ1M?oc=5\n\nApple's IPhone 18 Production Runs Into A Mounting DRAM Shortage - Forbes\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNUDJnYXREeEdSdUlqOWxJUTYwVGx4TFB3dXJNdGhZaXZPNW9mLXA5MFBuTmlTNEFJNnhnbkNUTEV1bXM1WDZIS19oMmxjTXBFTTN3TmtyRUxYVnVEVW9XaXFhLWlEYm9aOFRzV2lxcmZJZ2Z2SkJOT2QwRjZRMnlfT3dBa3JYRElPNGxGTEZOY2ZkbWM0SUtHXzRUZHF5blBBU1JpVmE0ZEoyMzlqaEo2RnczQ1M?oc=5\" target=\"_blank\">Apple's IPhone 18 Production Runs Into A Mounting DRAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA DRAM shortage tied to Apple's iPhone 18 production is being reported across syndicated coverage, with no ticker, price, or shortage magnitude specified in the snippet.\n\n\u5185\u5bb9:\n\u591a\u5bb6\u8f6c\u8f7d\u5a92\u4f53\u62a5\u9053\u79f0\uff0cApple iPhone 18 \u7684\u751f\u4ea7\u6b63\u906d\u9047\u65e5\u76ca\u4e25\u91cd\u7684 DRAM \u77ed\u7f3a\uff0c\u6458\u8981\u4e2d\u672a\u7ed9\u51fa\u5177\u4f53 ticker\u3001\u4ef7\u683c\u6216\u77ed\u7f3a\u5e45\u5ea6\u3002\n\nWhy it matters:\nA shortage driven by a major OEM's ramp is a genuine demand-side memory-price catalyst, distinct from speculative or promotional coverage \u2014 it corroborates the C6 thesis that AI-driven and consumer-driven demand are competing for the same DRAM supply.\n\n\u5f71\u54cd:\n\u7531\u5927\u578b OEM \u4ea7\u80fd\u722c\u5761\u5f15\u53d1\u7684\u77ed\u7f3a\u662f\u771f\u5b9e\u7684\u9700\u6c42\u4fa7\u5185\u5b58\u4ef7\u683c\u50ac\u5316\u5242\uff0c\u4e0d\u540c\u4e8e\u6295\u673a\u6216\u5ba3\u4f20\u6027\u62a5\u9053\u2014\u2014\u8fd9\u5370\u8bc1\u4e86 C6 \u7684\u6838\u5fc3\u903b\u8f91\uff1aAI \u9700\u6c42\u548c\u6d88\u8d39\u7535\u5b50\u9700\u6c42\u6b63\u5728\u4e89\u62a2\u540c\u4e00\u5757 DRAM \u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3038,
-      "ts": 1786034875,
-      "ts_str": "2026-08-06 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] $100 Billion in SpaceX Shares Just Unlocked \u2014 So Why Isn\u2019t the Stock Crashing? - 24/7 Wall St.",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 15:58:26 GMT\nLink:      https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGlrMkczNS01cGJzWGhMc2lkSk96TmU5WHdhVkpkM2Znc3Q2aDBWN29QWUN3UEhYV2tRZkdBOGYya2hyd3hXdzY0aVoybEQxQThRNi1LdGlLV0ZHdlhMRjRjcy1zekZNZ0VVNi0xNVU4R3JvZkIydEYwYWtmT1VVUXFRRTdITzMwSUpFNmU3YlhiRW4tNTdFUFBTRjQzd3M3Rmw2Z2dKMGwyUkxaWURRUHNIUlVxelY2?oc=5\n\n$100 Billion in SpaceX Shares Just Unlocked \u2014 So Why Isn\u2019t the Stock Crashing? - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVGlrMkczNS01cGJzWGhMc2lkSk96TmU5WHdhVkpkM2Znc3Q2aDBWN29QWUN3UEhYV2tRZkdBOGYya2hyd3hXdzY0aVoybEQxQThRNi1LdGlLV0ZHdlhMRjRjcy1zekZNZ0VVNi0xNVU4R3JvZkIydEYwYWtmT1VVUXFRRTdITzMwSUpFNmU3YlhiRW4tNTdFUFBTRjQzd3M3Rmw2Z2dKMGwyUkxaWURRUHNIUlVxelY2?oc=5\" target=\"_blank\">$100 Billion in SpaceX Shares Just Unlocked \u2014 So Why Isn\u2019t the Stock Crashing?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports roughly $100B in SpaceX shares became unlocked, and asks why the stock isn't crashing.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u7ea6 $100B \u89c4\u6a21\u7684 SpaceX \u80a1\u4efd\u89e3\u7981\uff0c\u62a5\u9053\u8ffd\u95ee\u4e3a\u4f55\u80a1\u4ef7\u6ca1\u6709\u66b4\u8dcc\u3002\n\nWhy it matters:\nA large unlock removing without a visible price reaction suggests early/orderly absorption rather than forced selling \u2014 worth watching for delayed distribution pressure, but on its own it's a soft, sentiment-level signal rather than a confirmed stress event.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u5374\u6ca1\u5f15\u53d1\u660e\u663e\u80a1\u4ef7\u53cd\u5e94\uff0c\u8bf4\u660e\u629b\u538b\u53ef\u80fd\u5df2\u88ab\u6709\u5e8f\u6d88\u5316\u800c\u975e\u88ab\u8feb\u629b\u552e\uff1b\u4f46\u8fd9\u672c\u8eab\u53ea\u662f\u60c5\u7eea\u5c42\u9762\u7684\u8f6f\u4fe1\u53f7\uff0c\u8fd8\u4e0d\u662f\u786e\u8ba4\u7684\u538b\u529b\u4e8b\u4ef6\uff0c\u540e\u7eed\u8981\u770b\u662f\u5426\u6709\u5ef6\u8fdf\u7684\u629b\u538b\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
