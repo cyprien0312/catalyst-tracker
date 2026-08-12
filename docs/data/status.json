@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786496523,
-  "generated_at_str": "2026-08-12 01:02:03 UTC",
-  "last_event_ts": 1786495622,
+  "generated_at": 1786496716,
+  "generated_at_str": "2026-08-12 01:05:16 UTC",
+  "last_event_ts": 1786496716,
   "tables": {
     "alerts_dedup": {
-      "count": 3222,
-      "last_ts": 1786492033,
-      "last_str": "2026-08-11 23:47:13 UTC"
+      "count": 3223,
+      "last_ts": 1786496716,
+      "last_str": "2026-08-12 01:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-11 21:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4149,
-      "last_ts": 1786493103,
-      "last_str": "2026-08-12 00:05:03 UTC"
+      "count": 4152,
+      "last_ts": 1786496702,
+      "last_str": "2026-08-12 01:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4828,
-      "last_ts": 1786491304,
-      "last_str": "2026-08-11 23:35:04 UTC"
+      "count": 4831,
+      "last_ts": 1786496703,
+      "last_str": "2026-08-12 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3234,
-      "last_ts": 1786494902,
-      "last_str": "2026-08-12 00:35:02 UTC"
+      "count": 3235,
+      "last_ts": 1786496703,
+      "last_str": "2026-08-12 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3600,
-      "last_ts": 1786491305,
-      "last_str": "2026-08-11 23:35:05 UTC"
+      "count": 3601,
+      "last_ts": 1786496704,
+      "last_str": "2026-08-12 01:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 23112,
@@ -303,6 +303,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3230,
+      "ts": 1786496716,
+      "ts_str": "2026-08-12 01:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Scales Back 2026 Shipments Due to DRAM Shortage, Kuo Says - tbreak.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:36:09 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTFBiUHNHb0FCc3dIcVVOS3U0Y2R6UkxzNGVoUlFiLTNBQ1ZhOUdmYzRjTktscHJtZ1c4Z3BVdkJVc253SlVDRjVsdU91cHpickdoYlk1M3Fpbk0tcFlDeGhyRncwbENSSU9vRktPV183cjVkTnlf?oc=5\n\nApple Scales Back 2026 Shipments Due to DRAM Shortage, Kuo Says - tbreak.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBiUHNHb0FCc3dIcVVOS3U0Y2R6UkxzNGVoUlFiLTNBQ1ZhOUdmYzRjTktscHJtZ1c4Z3BVdkJVc253SlVDRjVsdU91cHpickdoYlk1M3Fpbk0tcFlDeGhyRncwbENSSU9vRktPV183cjVkTnlf?oc=5\" target=\"_blank\">Apple Scales Back 2026 Shipments Due to DRAM Shortage, Kuo Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tbreak.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is cutting its 2026 shipment plans because of a DRAM shortage, according to analyst Ming-Chi Kuo.\n\n\u5185\u5bb9:\n\u636e\u5206\u6790\u5e08\u90ed\u660e\u9324\u900f\u9732\uff0cApple \u56e0 DRAM \u77ed\u7f3a\u800c\u4e0b\u8c03\u4e86 2026 \u5e74\u7684\u51fa\u8d27\u8ba1\u5212\u3002\n\nWhy it matters:\nMemory scarcity is spilling over from AI-server demand into consumer-device supply chains \u2014 DRAM fabs are prioritizing HBM for AI accelerators, squeezing capacity for everything else. A shortage severe enough to make Apple cut shipments confirms the memory market is genuinely capacity-constrained, not just repricing on sentiment.\n\n\u5f71\u54cd:\n\u5185\u5b58\u7d27\u7f3a\u6b63\u4ece AI \u670d\u52a1\u5668\u9700\u6c42\u5916\u6ea2\u5230\u6d88\u8d39\u7535\u5b50\u4f9b\u5e94\u94fe\u2014\u2014DRAM \u5382\u628a\u4ea7\u80fd\u4f18\u5148\u7ed9 AI \u52a0\u901f\u5668\u7528\u7684 HBM\uff0c\u6324\u538b\u4e86\u5176\u4ed6\u4ea7\u54c1\u7ebf\u7684\u4ea7\u80fd\u3002\u4e25\u91cd\u5230\u8ba9 Apple \u780d\u51fa\u8d27\uff0c\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u662f\u771f\u7684\u4ea7\u80fd\u5403\u7d27\uff0c\u4e0d\u53ea\u662f\u60c5\u7eea\u63a8\u52a8\u7684\u6da8\u4ef7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3229,
       "ts": 1786492033,
@@ -2291,16 +2301,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Climbs 3% as Lockup Expiration Fails to Trigger a Selloff; AST SpaceMobile and Rocket Lab Rise 5% - AOL.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 15:26:04 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNWFo5V1lJdWR4eWxwR19QdHREdUhRWjJxNFhvb2RBaFJnV2RpNGhnTnN2NEJuV3B0bEt5SFlHU0o5NTF0WVF0UnJ1N1E0OWQwaXJRaU15dU5PNXZvekpYbmZRQWhGSURfLUJ4QjlIdDRSM2lBN0h5eVlNUzdadmVWVUlRUQ?oc=5\n\nSpaceX Climbs 3% as Lockup Expiration Fails to Trigger a Selloff; AST SpaceMobile and Rocket Lab Rise 5% - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNWFo5V1lJdWR4eWxwR19QdHREdUhRWjJxNFhvb2RBaFJnV2RpNGhnTnN2NEJuV3B0bEt5SFlHU0o5NTF0WVF0UnJ1N1E0OWQwaXJRaU15dU5PNXZvekpYbmZRQWhGSURfLUJ4QjlIdDRSM2lBN0h5eVlNUzdadmVWVUlRUQ?oc=5\" target=\"_blank\">SpaceX Climbs 3% as Lockup Expiration Fails to Trigger a Selloff; AST SpaceMobile and Rocket Lab Rise 5%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX shares rose 3% after a lock-up expiration failed to trigger a selloff, with AST SpaceMobile and Rocket Lab also up 5%.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0\uff0cSpaceX \u80a1\u4ef7\u5728\u89e3\u7981\u5230\u671f\u540e\u4e0d\u8dcc\u53cd\u6da8 3%\uff0c\u672a\u5f15\u53d1\u629b\u552e\uff1bAST SpaceMobile \u548c Rocket Lab \u4e5f\u5404\u6da8 5%\u3002\n\nWhy it matters:\nA lock-up unlock passing without a selloff is a bearish-thesis-negative signal \u2014 it suggests insiders/early holders aren't dumping shares into the market, reducing near-term supply-pressure risk on the unlock calendar this catalyst tracks.\n\n\u5f71\u54cd:\n\u89e3\u7981\u5230\u671f\u5374\u6ca1\u5f15\u53d1\u629b\u552e\uff0c\u5bf9\u672c\u9879\u8ffd\u8e2a\u7684\u300c\u89e3\u7981\u629b\u538b\u300d\u770b\u7a7a\u903b\u8f91\u662f\u53cd\u5411\u4fe1\u53f7\u2014\u2014\u8bf4\u660e\u5185\u90e8\u4eba/\u65e9\u671f\u80a1\u4e1c\u6ca1\u6709\u501f\u89e3\u7981\u96c6\u4e2d\u51fa\u8d27\uff0c\u77ed\u671f\u4f9b\u7ed9\u538b\u529b\u98ce\u9669\u5728\u4e0b\u964d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3030,
-      "ts": 1786030508,
-      "ts_str": "2026-08-06 15:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM Shortage Impacts Apple Chip Supply; $1 Billion in TSMC Processor Orders Cannot Be Packaged - TradingKey",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 08:47:02 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa0VESU0yM0g3SkFOeng5WDV3RzJEOTJWbUkxR2szSnpaRFRnTE5tZXFYeUdYeWFXZ2NsRUU5Q3c5ZVNLbjFMVVhQLURQTDFHMHFZdEkzUldtMi1zNXJRak1pM2xTQjFYenk1UjNUdmpJTXRfaG4tS2w4N3d0Z3ExejNBaHdxVzA3YzRGM0ZhLXpGREk0VDBQR2d6YkNvNTFPLUsyQlpFU2RNdFcwWFZUc0NGX2NRbEh0YVg0RDVMV3NfVTRvMWE5QjZ5blpfd0cyX0gw?oc=5\n\nDRAM Shortage Impacts Apple Chip Supply; $1 Billion in TSMC Processor Orders Cannot Be Packaged - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa0VESU0yM0g3SkFOeng5WDV3RzJEOTJWbUkxR2szSnpaRFRnTE5tZXFYeUdYeWFXZ2NsRUU5Q3c5ZVNLbjFMVVhQLURQTDFHMHFZdEkzUldtMi1zNXJRak1pM2xTQjFYenk1UjNUdmpJTXRfaG4tS2w4N3d0Z3ExejNBaHdxVzA3YzRGM0ZhLXpGREk0VDBQR2d6YkNvNTFPLUsyQlpFU2RNdFcwWFZUc0NGX2NRbEh0YVg0RDVMV3NfVTRvMWE5QjZ5blpfd0cyX0gw?oc=5\" target=\"_blank\">DRAM Shortage Impacts Apple Chip Supply; $1 Billion in TSMC Processor Orders Cannot Be Packaged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports describe a DRAM shortage disrupting Apple's chip supply chain, with $1 billion worth of TSMC-fabricated processors unable to be packaged as a result.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 DRAM \u77ed\u7f3a\u6b63\u51b2\u51fb Apple \u7684\u82af\u7247\u4f9b\u5e94\u94fe\uff0c\u5bfc\u81f4\u4ef7\u503c $1 billion \u7684 TSMC \u5904\u7406\u5668\u65e0\u6cd5\u5b8c\u6210\u5c01\u88c5\u3002\n\nWhy it matters:\nMemory scarcity is now bottlenecking advanced-node logic packaging, not just consumer devices \u2014 a sign the AI-driven HBM/DRAM demand surge is spilling into general semiconductor supply chains and forcing even top-tier customers like Apple into shortage conditions.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u5f00\u59cb\u5361\u4f4f\u5148\u8fdb\u5236\u7a0b\u903b\u8f91\u82af\u7247\u7684\u5c01\u88c5\u73af\u8282\uff0c\u4e0d\u53ea\u662f\u6d88\u8d39\u7aef\u4ea7\u54c1\u53d7\u5f71\u54cd\u2014\u2014\u8fd9\u8bf4\u660e AI \u9a71\u52a8\u7684 HBM/DRAM \u9700\u6c42\u6fc0\u589e\u6b63\u5728\u5916\u6ea2\u5230\u6574\u4e2a\u534a\u5bfc\u4f53\u4f9b\u5e94\u94fe\uff0c\u8fde Apple \u8fd9\u79cd\u5934\u90e8\u5ba2\u6237\u90fd\u88ab\u62d6\u8fdb\u4e86\u7f3a\u8d27\u5c40\u9762\u3002\n",
       "emailed": false
     }
   ],
