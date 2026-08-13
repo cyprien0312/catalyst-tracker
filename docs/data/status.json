@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786659982,
-  "generated_at_str": "2026-08-13 22:26:22 UTC",
-  "last_event_ts": 1786659268,
+  "generated_at": 1786660174,
+  "generated_at_str": "2026-08-13 22:29:34 UTC",
+  "last_event_ts": 1786660171,
   "tables": {
     "alerts_dedup": {
-      "count": 3272,
-      "last_ts": 1786659268,
-      "last_str": "2026-08-13 22:14:28 UTC"
+      "count": 3273,
+      "last_ts": 1786660171,
+      "last_str": "2026-08-13 22:29:31 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 36,
-      "last_ts": 1786573742,
-      "last_str": "2026-08-12 22:29:02 UTC"
+      "count": 37,
+      "last_ts": 1786660142,
+      "last_str": "2026-08-13 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3280,
+      "ts": 1786660171,
+      "ts_str": "2026-08-13 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.42% (+53bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-12\nCurrent:  2.42%\n90d low:  1.89%\nMove:     +53bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield rose to 2.42 (2026-08-12) from a trailing-90-day low of 1.89 \u2014 a rise of 0.53pp, per FRED series REAL10.\n\n\u5185\u5bb9:\n10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5347\u81f3 2.42\uff082026-08-12\uff09\uff0c\u6b64\u524d 90 \u5929\u4f4e\u70b9\u4e3a 1.89\uff0c\u6da8\u4e86 0.53 \u4e2a\u767e\u5206\u70b9\uff0c\u6570\u636e\u6765\u81ea FRED \u7684 REAL10 \u7cfb\u5217\u3002\n\nWhy it matters:\nA rising real yield tightens the discount rate on long-duration AI-capex bets and raises the cost of debt-funded data-center buildouts just as hyperscaler leverage is climbing. Crossing 2x the trigger on C10's trailing-90 low escalates this from a MED to a HIGH liquidity-stress read.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u62c9\u9ad8\u957f\u4e45\u671f AI capex \u9879\u76ee\u7684\u8d34\u73b0\u7387\uff0c\u4e5f\u63a8\u9ad8\u503a\u52a1\u9a71\u52a8\u7684\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6210\u672c\u2014\u2014\u504f\u504f\u6b64\u65f6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u6760\u6746\u8fd8\u5728\u5f80\u4e0a\u8d70\u3002\u6da8\u5e45\u8fbe\u5230 C10 \u89e6\u53d1\u9608\u503c\u7684 2 \u500d\uff0c\u628a\u8fd9\u6761\u4fe1\u53f7\u4ece MED \u5347\u7ea7\u5230 HIGH\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3278,
       "ts": 1786659268,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HP, Asus start using China's CXMT DRAM amid AI-driven shortages - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 04:14:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVFKNElwemNaLVNwR3B3QjZaZTlPNk9uTUJzYW9Xa3RpZXc1ZkxhbDRReVVEY3g1bGl2cHNVNU5ENDJnd3RTdWZMMW8zbTZNaFc0eVZubzNVaE5EcXdsWHR4V0xva0MzdG43TDVzS3F5cm8xU2hEWDBYM3JyOWhtWXpnUDVyb3RyaWl5YldIRUo4ZE9YSnExWHQzUWdaSVFIb3VERERMbW5lZw?oc=5\n\nHP, Asus start using China's CXMT DRAM amid AI-driven shortages - \ub514\uc9c0\ud138\ud22c\ub370\uc774\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVFKNElwemNaLVNwR3B3QjZaZTlPNk9uTUJzYW9Xa3RpZXc1ZkxhbDRReVVEY3g1bGl2cHNVNU5ENDJnd3RTdWZMMW8zbTZNaFc0eVZubzNVaE5EcXdsWHR4V0xva0MzdG43TDVzS3F5cm8xU2hEWDBYM3JyOWhtWXpnUDVyb3RyaWl5YldIRUo4ZE9YSnExWHQzUWdaSVFIb3VERERMbW5lZw?oc=5\" target=\"_blank\">HP, Asus start using China's CXMT DRAM amid AI-driven shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub514\uc9c0\ud138\ud22c\ub370\uc774</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHP and Asus have begun sourcing DRAM from China's CXMT as AI-driven demand strains supply from the established memory makers.\n\n\u5185\u5bb9:\nHP \u548c Asus \u5df2\u5f00\u59cb\u91c7\u8d2d\u4e2d\u56fd CXMT \u7684 DRAM\uff0c\u539f\u56e0\u662f AI \u9a71\u52a8\u7684\u9700\u6c42\u8ba9\u539f\u6709\u4f9b\u5e94\u5403\u7d27\u3002\n\nWhy it matters:\nA shortage severe enough to push major OEMs toward a second-tier, non-Korean/Japanese supplier confirms real capacity constraints in the memory chain feeding AI servers, not just spot-price noise \u2014 it also signals a structural shift as CXMT gains a toehold in accounts previously locked to Samsung/SK Hynix/Micron.\n\n\u5f71\u54cd:\n\u8fde HP\u3001Asus \u8fd9\u6837\u7684\u5927\u5382\u90fd\u8981\u8f6c\u5411 CXMT \u8fd9\u6837\u7684\u4e8c\u7ebf\u4f9b\u5e94\u5546\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7aef\u7684\u7d27\u5f20\u662f\u771f\u5b9e\u7684\u4ea7\u80fd\u95ee\u9898\uff0c\u4e0d\u53ea\u662f\u73b0\u8d27\u4ef7\u683c\u6ce2\u52a8\uff1b\u8fd9\u4e5f\u610f\u5473\u7740 CXMT \u501f\u673a\u6253\u5165\u4e86\u539f\u672c\u88ab\u4e09\u661f/SK \u6d77\u529b\u58eb/\u7f8e\u5149\u628a\u6301\u7684\u5ba2\u6237\u540d\u5355\uff0c\u4f9b\u5e94\u94fe\u683c\u5c40\u5728\u8d77\u53d8\u5316\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3080,
-      "ts": 1786085234,
-      "ts_str": "2026-08-07 06:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Rises Over 6% on $100 Billion Share Unlock as Traders Bet on Bottom - TradingKey",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 06:22:57 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaUpleFJPNUV3MXJLUlBCeGZWSVZfSENUZ1hHdzFCc1pQYW1PTHBUNktKOC1iMmhIaGtoN213aDVQTDE3cGFaQkprM1kySlRhN2Y2TVlYbTFzSjVOc3A1RHA0dGxHTUNKNjJIUVVORjlRZUxJXzVnU2FEWXJmQXI3dV9sMmFPeXU4YnlTNWhYejlrRXRBVUZaUEdsaHhqZlBYVzhHVmxqSlBZRlo3cjFLSVBtQ2RmZkphcGtDbUJSMjV6bnNPcDBiajJzNWNRX0VNSXdudHIxTEl3WUdxZmg4?oc=5\n\nSpaceX Rises Over 6% on $100 Billion Share Unlock as Traders Bet on Bottom - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaUpleFJPNUV3MXJLUlBCeGZWSVZfSENUZ1hHdzFCc1pQYW1PTHBUNktKOC1iMmhIaGtoN213aDVQTDE3cGFaQkprM1kySlRhN2Y2TVlYbTFzSjVOc3A1RHA0dGxHTUNKNjJIUVVORjlRZUxJXzVnU2FEWXJmQXI3dV9sMmFPeXU4YnlTNWhYejlrRXRBVUZaUEdsaHhqZlBYVzhHVmxqSlBZRlo3cjFLSVBtQ2RmZkphcGtDbUJSMjV6bnNPcDBiajJzNWNRX0VNSXdudHIxTEl3WUdxZmg4?oc=5\" target=\"_blank\">SpaceX Rises Over 6% on $100 Billion Share Unlock as Traders Bet on Bottom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares reportedly rose over 6% following a $100 billion share unlock, with traders framing it as a bottom signal.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSpaceX \u80a1\u4ef7\u5728\u4e00\u6b21\u4ef7\u503c $100 billion \u7684\u80a1\u6743\u89e3\u7981\u540e\u4e0a\u6da8\u903e 6%\uff0c\u4ea4\u6613\u5458\u5c06\u5176\u89e3\u8bfb\u4e3a\u89c1\u5e95\u4fe1\u53f7\u3002\n\nWhy it matters:\nA large lock-up unlock releasing $100B in shares is exactly the kind of passive-flow / index-mechanics pressure point the C11 thesis tracks \u2014 even a private-market \\\"rise\\\" narrative around it signals how sensitive sentiment is to unlock-driven supply, not fundamentals.\n\n\u5f71\u54cd:\n\u4e00\u6b21\u6d89\u53ca $100 billion \u7684\u89e3\u7981\u672c\u8eab\u5c31\u662f C11 \u5173\u6ce8\u7684\u88ab\u52a8\u629b\u538b/\u6307\u6570\u673a\u5236\u98ce\u9669\u70b9\uff1b\u5e02\u573a\u628a\u5b83\u8bb2\u6210\"\u89c1\u5e95\"\u53d9\u4e8b\uff0c\u6070\u6070\u8bf4\u660e\u60c5\u7eea\u5bf9\u89e3\u7981\u5e26\u6765\u7684\u4f9b\u7ed9\u51b2\u51fb\u6709\u591a\u654f\u611f\uff0c\u800c\u4e0d\u662f\u57fa\u4e8e\u57fa\u672c\u9762\u3002\n",
       "emailed": false
     }
   ],
