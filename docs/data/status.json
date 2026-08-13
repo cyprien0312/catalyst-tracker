@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786632252,
-  "generated_at_str": "2026-08-13 14:44:12 UTC",
-  "last_event_ts": 1786632242,
+  "generated_at": 1786632448,
+  "generated_at_str": "2026-08-13 14:47:28 UTC",
+  "last_event_ts": 1786632447,
   "tables": {
     "alerts_dedup": {
-      "count": 3253,
-      "last_ts": 1786628832,
-      "last_str": "2026-08-13 13:47:12 UTC"
+      "count": 3256,
+      "last_ts": 1786632447,
+      "last_str": "2026-08-13 14:47:27 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -24,9 +24,9 @@
       "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c11_lockup": {
-      "count": 2,
-      "last_ts": 1785077231,
-      "last_str": "2026-07-26 14:47:11 UTC"
+      "count": 3,
+      "last_ts": 1786632431,
+      "last_str": "2026-08-13 14:47:11 UTC"
     },
     "c1_filings": {
       "count": 109,
@@ -104,9 +104,9 @@
       "last_str": "2026-08-13 14:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6110,
-      "last_ts": 1786628822,
-      "last_str": "2026-08-13 13:47:02 UTC"
+      "count": 6120,
+      "last_ts": 1786632433,
+      "last_str": "2026-08-13 14:47:13 UTC"
     }
   },
   "c4_xbrl": [
@@ -310,6 +310,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3261,
+      "ts": 1786632447,
+      "ts_str": "2026-08-13 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 70 (3.2\u4ebf shares)",
+      "body": "Severity:   MED\nTranche:    Day 70\nDate:       2026-08-21  (7 day(s) out)\nRelease:    3.2\u4ebf shares (2.4% of shares outstanding)\nCumulative: 17.2% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shows an upcoming lock-up unlock of $3.2B, taking cumulative shares released to 17.2% of the total.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6b21 $3.2B \u7684\u89e3\u7981\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u603b\u80a1\u672c\u7684 17.2%\u3002\n\nWhy it matters:\nA large scheduled unlock adds forced/opportunistic selling pressure right as index funds passively hold the name \u2014 a mechanical supply shock unrelated to fundamentals, and a template for how forced-flow risk shows up across the AI-infra complex.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u4f1a\u5728\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u6301\u6709\u8be5\u80a1\u7684\u540c\u65f6\u5e26\u6765\u629b\u538b\u2014\u2014\u8fd9\u662f\u548c\u57fa\u672c\u9762\u65e0\u5173\u7684\u673a\u68b0\u6027\u4f9b\u7ed9\u51b2\u51fb\uff0c\u4e5f\u662f AI \u57fa\u5efa\u677f\u5757\u91cc\u5f3a\u5236\u6027\u8d44\u91d1\u6d41\u98ce\u9669\u7684\u4e00\u4e2a\u6837\u672c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3262,
+      "ts": 1786632447,
+      "ts_str": "2026-08-13 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX Stock Surges 35% After Massive Share Lockup Expiry - equiti.com",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 12:13:11 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxObXU2S3NreG53LUVHVkZhSzF0TkZGeWZ5UUFqV20zejhzUUFyYkJrWGdGUEctZGQtZ1NMbUNPRzVSRndOandVZGZHSWJWdXNnam5La2diWkhfSldnckUzVmJWZ2J1eS1iRFI4NGw0bGpTYUxpblh4MEp5bnZ6N2Z0cnRQQXZ5SGQyY1R0dnZ4VE5mWk83MGZ4eElR?oc=5\n\nSpaceX Stock Surges 35% After Massive Share Lockup Expiry - equiti.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxObXU2S3NreG53LUVHVkZhSzF0TkZGeWZ5UUFqV20zejhzUUFyYkJrWGdGUEctZGQtZ1NMbUNPRzVSRndOandVZGZHSWJWdXNnam5La2diWkhfSldnckUzVmJWZ2J1eS1iRFI4NGw0bGpTYUxpblh4MEp5bnZ6N2Z0cnRQQXZ5SGQyY1R0dnZ4VE5mWk83MGZ4eElR?oc=5\" target=\"_blank\">SpaceX Stock Surges 35% After Massive Share Lockup Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">equiti.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX stock surged 35% after a major share lock-up expiry, coinciding with a scheduled unlock tranche in the C11 calendar.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cSpaceX \u80a1\u4ef7\u5728\u4e00\u6b21\u5927\u89c4\u6a21\u80a1\u4efd\u89e3\u7981\u540e\u4e0a\u6da8 35%\uff0c\u4e0e C11 \u65e5\u5386\u91cc\u7684\u4e00\u4e2a\u8ba1\u5212\u89e3\u7981\u6279\u6b21\u65f6\u95f4\u543b\u5408\u3002\n\nWhy it matters:\nA large post-unlock rally is the opposite of the bearish thesis (insiders dumping into newly tradable float) \u2014 it suggests demand absorbed the unlocked shares, which argues against near-term passive-flow stress from this tranche. Still worth tracking whether the move holds once the full unlocked float actually trades.\n\n\u5f71\u54cd:\n\u89e3\u7981\u540e\u5927\u6da8\u5176\u5b9e\u548c\u300c\u5185\u90e8\u4eba\u629b\u552e\u51b2\u51fb\u6d41\u901a\u76d8\u300d\u7684\u770b\u7a7a\u903b\u8f91\u76f8\u53cd\uff0c\u8bf4\u660e\u5e02\u573a\u628a\u65b0\u589e\u53ef\u4ea4\u6613\u80a1\u4efd\u63a5\u4f4f\u4e86\uff0c\u77ed\u671f\u88ab\u52a8\u8d44\u91d1\u51b2\u51fb\u7684\u538b\u529b\u53cd\u800c\u51cf\u8f7b\u3002\u4e0d\u8fc7\u8fd8\u8981\u770b\u89e3\u7981\u80a1\u4efd\u771f\u6b63\u5f00\u59cb\u4ea4\u6613\u540e\u8fd9\u6ce2\u6da8\u5e45\u80fd\u4e0d\u80fd\u6491\u4f4f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3263,
+      "ts": 1786632447,
+      "ts_str": "2026-08-13 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX passes first lockup expiry test with US$500 bil rally - The Edge Malaysia",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 14:28:36 GMT\nLink:      https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SY3oyNVBVX2RwSWlXRzg4WTRaZkVfN0d2RmV0SzB3NzZMUkh4UWtXaEZqYmhzY3VJUkJLMERpdmpDZmVTcGg1VWRlMEdMckdD?oc=5\n\nSpaceX passes first lockup expiry test with US$500 bil rally - The Edge Malaysia\n\n<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SY3oyNVBVX2RwSWlXRzg4WTRaZkVfN0d2RmV0SzB3NzZMUkh4UWtXaEZqYmhzY3VJUkJLMERpdmpDZmVTcGg1VWRlMEdMckdD?oc=5\" target=\"_blank\">SpaceX passes first lockup expiry test with US$500 bil rally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Edge Malaysia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX cleared its first post-listing lockup expiry without a selloff, with commentary framing the company's valuation around US$500B.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 SpaceX \u987a\u5229\u901a\u8fc7\u4e86\u4e0a\u5e02\u540e\u7b2c\u4e00\u6b21\u89e3\u7981\u6d4b\u8bd5\uff0c\u6ca1\u6709\u51fa\u73b0\u629b\u552e\u51b2\u51fb\uff0c\u62a5\u9053\u4e2d\u63d0\u5230\u516c\u53f8\u4f30\u503c\u7ea6\u4e3a US$500B\u3002\n\nWhy it matters:\nA lockup expiry is the first real test of whether employee/early-investor selling overwhelms demand; passing it quietly removes a near-term overhang and signals sustained buyer demand for SpaceX shares at current levels \u2014 a data point that cuts against the bubble-stress thesis rather than confirming it.\n\n\u5f71\u54cd:\n\u89e3\u7981\u5230\u671f\u662f\u68c0\u9a8c\u5458\u5de5\u548c\u65e9\u671f\u6295\u8d44\u4eba\u7684\u629b\u538b\u80fd\u4e0d\u80fd\u88ab\u5e02\u573a\u6d88\u5316\u7684\u7b2c\u4e00\u9053\u5173\u5361\u3002\u8fd9\u6b21\u987a\u5229\u8fc7\u5173\uff0c\u8bf4\u660e\u77ed\u671f\u629b\u538b\u9690\u60a3\u89e3\u9664\uff0c\u5f53\u524d\u4f30\u503c\u6c34\u5e73\u4e0a\u4e70\u76d8\u4f9d\u7136\u624e\u5b9e\u2014\u2014\u8fd9\u4e2a\u4fe1\u53f7\u5176\u5b9e\u662f\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u7684\u4e00\u6b21\u53cd\u8bc1\uff0c\u800c\u4e0d\u662f\u4f50\u8bc1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3259,
       "ts": 1786628832,
@@ -2278,36 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market - Coinpedia",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 19:48:25 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxOZC1KQXVHME12Szk1dFotTmlZZzNCbXZseHF5V0JiMVRuZWI4XzVpbDc1TjVpSnJoSGpjVVc1ejlwQk9ZTlJOU2NFYXIxbmc2SkVQTHlCdTh6dVpLOVhGcW5MV1BQcldKU2pvN3o4TlA3QlVkaEZnNmpvSnJMek13cWFjR2d3dmU2aE9fU1N3SEU4VVNUS014SkFfbjBoRzFfOC12dmZkMFg3S0lPVVU2dV9lNTJOaWvSAbwBQVVfeXFMT1F0ZXBnSHdqNEVENjVCV1lqZ0lwaFhiY2Y0TFQxTHA1WVZpdlI1eU9IZmxKdlUzaWwwcTc5SzV2cnRacUdYMGF1TU95MmFNZWNlaDdLeDFzRGYyQk5hdWlQNndoNTFaLUYzTnNkM29pMDM2YmJPNVBMNVllTjJGM2dOSFRqM1JtcHBZZWctWXNORGlSMERUNVlabVozdWs5bGFveVJMTGxMQk9Qd1VET1RmV3pKeGRkWkw3LW4?oc=5\n\nSpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market - Coinpedia\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOZC1KQXVHME12Szk1dFotTmlZZzNCbXZseHF5V0JiMVRuZWI4XzVpbDc1TjVpSnJoSGpjVVc1ejlwQk9ZTlJOU2NFYXIxbmc2SkVQTHlCdTh6dVpLOVhGcW5MV1BQcldKU2pvN3o4TlA3QlVkaEZnNmpvSnJMek13cWFjR2d3dmU2aE9fU1N3SEU4VVNUS014SkFfbjBoRzFfOC12dmZkMFg3S0lPVVU2dV9lNTJOaWvSAbwBQVVfeXFMT1F0ZXBnSHdqNEVENjVCV1lqZ0lwaFhiY2Y0TFQxTHA1WVZpdlI1eU9IZmxKdlUzaWwwcTc5SzV2cnRacUdYMGF1TU95MmFNZWNlaDdLeDFzRGYyQk5hdWlQNndoNTFaLUYzTnNkM29pMDM2YmJPNVBMNVllTjJGM2dOSFRqM1JtcHBZZWctWXNORGlSMERUNVlabVozdWs5bGFveVJMTGxMQk9Qd1VET1RmV3pKeGRkWkw3LW4?oc=5\" target=\"_blank\">SpaceX Stock Faces Massive Share Unlock as 911.5 Million Shares Enter Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coinpedia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX faces a share unlock event releasing 911.5 million shares into the market.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u5c06\u8fce\u6765\u4e00\u6b21\u89e3\u7981\u4e8b\u4ef6\uff0c\u5171 9.115 \u4ebf\u80a1\u80a1\u7968\u8fdb\u5165\u5e02\u573a\u6d41\u901a\u3002\n\nWhy it matters:\nA lock-up expiration of this size creates a large supply overhang \u2014 even if SpaceX stays private, this kind of unlock mechanics matters for the passive-flow/index-inclusion thesis once liquid shares hit public markets, since a flood of newly tradable stock can pressure the price and ripple into ETFs holding it.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\u4f1a\u9020\u6210\u5de8\u5927\u7684\u629b\u538b\u2014\u2014\u5373\u4fbf SpaceX \u4ecd\u662f\u79c1\u6709\u516c\u53f8\uff0c\u8fd9\u7c7b\u89e3\u7981\u673a\u5236\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u7eb3\u5165\u903b\u8f91\u4e5f\u5f88\u91cd\u8981\uff0c\u4e00\u65e6\u8fd9\u4e9b\u80a1\u7968\u53d8\u5f97\u53ef\u6d41\u901a\uff0c\u5927\u91cf\u65b0\u589e\u53ef\u4ea4\u6613\u80a1\u7968\u4f1a\u538b\u4f4e\u80a1\u4ef7\uff0c\u5e76\u6ce2\u53ca\u6301\u6709\u8be5\u80a1\u7968\u7684 ETF\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3065,
-      "ts": 1786049224,
-      "ts_str": "2026-08-06 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Bulls Pile Into $111 Calls Ahead of 911 Million-Share Unlock: Here's What to Know - TradingView",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 11:43:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FaDRnd0RMcGtsS1Z1R0czLVQ1VjZnS3ZVWElaY1dhUTVYN2ZDd1hhdzlrcU51TncwZGQzd2Q3eGVGRHN2MXJrQ0otVWY3NEg3OEZZTnFyck5QcXNUQllqQ09SalIxU2Jl?oc=5\n\nSpaceX Bulls Pile Into $111 Calls Ahead of 911 Million-Share Unlock: Here's What to Know - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FaDRnd0RMcGtsS1Z1R0czLVQ1VjZnS3ZVWElaY1dhUTVYN2ZDd1hhdzlrcU51TncwZGQzd2Q3eGVGRHN2MXJrQ0otVWY3NEg3OEZZTnFyck5QcXNUQllqQ09SalIxU2Jl?oc=5\" target=\"_blank\">SpaceX Bulls Pile Into $111 Calls Ahead of 911 Million-Share Unlock: Here's What to Know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News coverage flags heavy call-option buying at the $111 strike ahead of a 911-million-share SpaceX lock-up expiration.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053\u79f0\uff0c\u5728 SpaceX 9.11 \u4ebf\u80a1\u89e3\u7981\u524d\uff0c\u6709\u4ea4\u6613\u8005\u5927\u4e3e\u4e70\u5165\u884c\u6743\u4ef7 $111 \u7684\u770b\u6da8\u671f\u6743\u3002\n\nWhy it matters:\nLarge pre-unlock options positioning signals traders expect volatility or a supply overhang once employee/early-investor shares become sellable \u2014 a mechanical, not fundamental, pressure point that matters for the index-mechanics/passive-flow thesis around SpaceX's eventual public listing.\n\n\u5f71\u54cd:\n\u89e3\u7981\u524d\u5927\u91cf\u770b\u6da8\u671f\u6743\u4ed3\u4f4d\u8bf4\u660e\u4ea4\u6613\u8005\u9884\u671f\u89e3\u7981\u540e\u6ce2\u52a8\u52a0\u5927\u6216\u4f9b\u7ed9\u6fc0\u589e\u2014\u2014\u8fd9\u662f\u4e00\u79cd\u673a\u68b0\u6027\u7684\u629b\u538b\u4fe1\u53f7\uff0c\u800c\u975e\u57fa\u672c\u9762\u53d8\u5316\uff0c\u5bf9\u5224\u65ad SpaceX \u672a\u6765\u4e0a\u5e02\u540e\u7684\u6307\u6570\u673a\u5236\u548c\u88ab\u52a8\u8d44\u91d1\u6d41\u5411\u5f88\u91cd\u8981\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3062,
-      "ts": 1786048515,
-      "ts_str": "2026-08-06 20:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] AI Infrastructure Demand Drives HBM Shortage - Intellectia AI",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 00:05:35 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPbC1SXzIyX0RWT3dacXpOSktkYkJ0MWtJS1ZNcWVjSUhoU0duQVprNGxjUWNsYUlvenZjMVZPZExGV184V0xZRFlKU2JyeU9naVF2NmFLclZZalZuMC1ETHk5SzB4UzFQYjh6WXBrcWpsN3NWNzBWRjRSNWREN0RhRmhuRjQ?oc=5\n\nAI Infrastructure Demand Drives HBM Shortage - Intellectia AI\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPbC1SXzIyX0RWT3dacXpOSktkYkJ0MWtJS1ZNcWVjSUhoU0duQVprNGxjUWNsYUlvenZjMVZPZExGV184V0xZRFlKU2JyeU9naVF2NmFLclZZalZuMC1ETHk5SzB4UzFQYjh6WXBrcWpsN3NWNzBWRjRSNWREN0RhRmhuRjQ?oc=5\" target=\"_blank\">AI Infrastructure Demand Drives HBM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intellectia AI</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item repeats the headline \"AI Infrastructure Demand Drives HBM Shortage\" twice, pairing HBM with a shortage token.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6761\u76ee\u91cd\u590d\u51fa\u73b0\u6807\u9898\u300cAI Infrastructure Demand Drives HBM Shortage\u300d\u4e24\u6b21\uff0cHBM \u4e0e\u300c\u77ed\u7f3a\u300d\u8bcd\u6c47\u540c\u65f6\u51fa\u73b0\u3002\n\nWhy it matters:\nA genuine HBM shortage would confirm memory is the binding constraint on AI accelerator supply, tightening margins for hyperscalers and boosting pricing power for SK Hynix/Samsung/Micron \u2014 but this is a single wire-style headline with no ticker or numbers, so treat it as a thin, unconfirmed data point.\n\n\u5f71\u54cd:\n\u5982\u679c HBM \u771f\u7684\u77ed\u7f3a\uff0c\u8bf4\u660e\u5185\u5b58\u5df2\u7ecf\u6210\u4e3a AI \u52a0\u901f\u5668\u4f9b\u5e94\u7684\u74f6\u9888\uff0c\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u540c\u65f6\u63d0\u5347 SK \u6d77\u529b\u58eb/\u4e09\u661f/\u7f8e\u5149\u7684\u5b9a\u4ef7\u6743\uff1b\u4f46\u8fd9\u6761\u53ea\u662f\u4e00\u4e2a\u6ca1\u6709 ticker \u548c\u5177\u4f53\u6570\u5b57\u7684\u901a\u7a3f\u5f0f\u6807\u9898\uff0c\u53ef\u4fe1\u5ea6\u6709\u9650\uff0c\u53ea\u80fd\u5f53\u4f5c\u4e00\u4e2a\u5f85\u786e\u8ba4\u7684\u5f31\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3060,
-      "ts": 1786046718,
-      "ts_str": "2026-08-06 20:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] The AI-Driven Memory Shortage: DRAM Prices, Inflation and Market Risks - J.P. Morgan",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 06 Aug 2026 17:26:15 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxPd2JSc2c3QTJJY1c1NncwWjdRRVVCclBSOTloN01tRG5YSlFRUEx4R0c3cUhROHZoVG1QcG1kTkIwM0J2QWZMa0dvMC1jT3hoVzI2UWI4QUNRTWdHc2tHZzlTbm9nZkN5eU5JdzFJMmNScl9RWjRXN3B3YVVMcWNvM0tydVk2UFVmUzVobkRETG45TmNneWZvRDh3N0d1aGhOSEx1ZA?oc=5\n\nThe AI-Driven Memory Shortage: DRAM Prices, Inflation and Market Risks - J.P. Morgan\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPd2JSc2c3QTJJY1c1NncwWjdRRVVCclBSOTloN01tRG5YSlFRUEx4R0c3cUhROHZoVG1QcG1kTkIwM0J2QWZMa0dvMC1jT3hoVzI2UWI4QUNRTWdHc2tHZzlTbm9nZkN5eU5JdzFJMmNScl9RWjRXN3B3YVVMcWNvM0tydVk2UFVmUzVobkRETG45TmNneWZvRDh3N0d1aGhOSEx1ZA?oc=5\" target=\"_blank\">The AI-Driven Memory Shortage: DRAM Prices, Inflation and Market Risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">J.P. Morgan</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe RSS item is a J.P. Morgan research headline titled 'The AI-Driven Memory Shortage: DRAM Prices, Inflation and Market Risks,' pairing the DRAM memory term with shortage/price-surge language, no specific ticker or number given.\n\n\u5185\u5bb9:\n\u8fd9\u6761 RSS \u662f\u6469\u6839\u5927\u901a\u7684\u4e00\u7bc7\u7814\u7a76\u6807\u9898\u300aThe AI-Driven Memory Shortage: DRAM Prices, Inflation and Market Risks\u300b\uff0c\u628a DRAM \u8fd9\u4e2a\u5185\u5b58\u8bcd\u548c\u77ed\u7f3a/\u6da8\u4ef7\u7c7b\u8868\u8ff0\u914d\u5bf9\u51fa\u73b0\uff0c\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53 ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nA sell-side desk framing memory pricing as an AI-driven shortage confirms the supply squeeze is now mainstream analyst narrative, not fringe chatter \u2014 DRAM/HBM tightness feeds directly into hyperscaler capex costs and margin pressure on AI infrastructure buildouts.\n\n\u5f71\u54cd:\n\u5356\u65b9\u7814\u7a76\u628a\u5185\u5b58\u6da8\u4ef7\u5b9a\u6027\u4e3a\u300cAI \u9a71\u52a8\u7684\u77ed\u7f3a\u300d\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\u5df2\u7ecf\u6210\u4e86\u4e3b\u6d41\u5206\u6790\u5e08\u53d9\u4e8b\uff0c\u4e0d\u518d\u662f\u8fb9\u7f18\u566a\u97f3\u2014\u2014DRAM/HBM \u7d27\u7f3a\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u538b\u7f29 AI \u57fa\u5efa\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
