@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786700463,
-  "generated_at_str": "2026-08-14 09:41:03 UTC",
-  "last_event_ts": 1786700109,
+  "generated_at": 1786700666,
+  "generated_at_str": "2026-08-14 09:44:26 UTC",
+  "last_event_ts": 1786700666,
   "tables": {
     "alerts_dedup": {
-      "count": 3285,
-      "last_ts": 1786690023,
-      "last_str": "2026-08-14 06:47:03 UTC"
+      "count": 3287,
+      "last_ts": 1786700666,
+      "last_str": "2026-08-14 09:44:26 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-13 23:00:40 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4177,
-      "last_ts": 1786698844,
-      "last_str": "2026-08-14 09:14:04 UTC"
+      "count": 4178,
+      "last_ts": 1786700643,
+      "last_str": "2026-08-14 09:44:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 936,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-14 09:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 23615,
-      "last_ts": 1786698843,
-      "last_str": "2026-08-14 09:14:03 UTC"
+      "count": 23621,
+      "last_ts": 1786700642,
+      "last_str": "2026-08-14 09:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6237,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3293,
+      "ts": 1786700666,
+      "ts_str": "2026-08-14 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI sheds senior execs in pre-IPO refresh - Axios",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 09:33:04 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1SN1dFNXE5NHoyVi1rN3FfenZnUTBhWVYzVVE2eGduV2djbndmMHVTbVFrQnhId1RYUUkxck80SnVZVUppTC05UGl0ajRWZmlHVE5uS01qNGY5RkpfRnBzV0VKVC1waEp0OFZEUnZPeUJJSWtzWnc?oc=5\n\nOpenAI sheds senior execs in pre-IPO refresh - Axios\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1SN1dFNXE5NHoyVi1rN3FfenZnUTBhWVYzVVE2eGduV2djbndmMHVTbVFrQnhId1RYUUkxck80SnVZVUppTC05UGl0ajRWZmlHVE5uS01qNGY5RkpfRnBzV0VKVC1waEp0OFZEUnZPeUJJSWtzWnc?oc=5\" target=\"_blank\">OpenAI sheds senior execs in pre-IPO refresh</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI lost several senior executives in a pre-IPO reshuffle, per news coverage.\n\n\u5185\u5bb9:\n\u636e\u65b0\u95fb\u62a5\u9053\uff0cOpenAI \u5728 IPO \u524d\u7684\u4eba\u4e8b\u8c03\u6574\u4e2d\u6d41\u5931\u4e86\u591a\u540d\u9ad8\u7ba1\u3002\n\nWhy it matters:\nExecutive churn ahead of a planned IPO signals internal friction over strategy, governance, or valuation expectations at exactly the moment OpenAI needs stability to justify its capex commitments \u2014 a soft but real stress tell on the demand side of the AI-infra trade.\n\n\u5f71\u54cd:\nIPO \u524d\u5915\u9ad8\u7ba1\u6d41\u5931\uff0c\u8bf4\u660e\u516c\u53f8\u5728\u6218\u7565\u3001\u6cbb\u7406\u6216\u4f30\u503c\u9884\u671f\u4e0a\u5b58\u5728\u5185\u90e8\u5206\u6b67\u2014\u2014\u800c\u8fd9\u6070\u6070\u662f OpenAI \u6700\u9700\u8981\u7a33\u5b9a\u59ff\u6001\u53bb\u652f\u6491\u5176\u8d44\u672c\u5f00\u652f\u627f\u8bfa\u7684\u65f6\u523b\uff0c\u5c5e\u4e8e AI \u57fa\u5efa\u4ea4\u6613\u9700\u6c42\u7aef\u4e00\u4e2a\u504f\u8f6f\u4f46\u771f\u5b9e\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3294,
+      "ts": 1786700666,
+      "ts_str": "2026-08-14 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Annual Revenue Tops $40 Billion, But IPO Window Remains Closed - TradingKey",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 09:40:52 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxPMkdIWjBDeXlueDJWZnd3bGVRSHNoTmEyQ2F3dkxwRjlRenRLOXdnejRXVzlrZG41R3hFSFhNa3hPYkFvRVhqblN3QVhEMFdZQnVzMTl1MHphNGZHNng0cmwxeloxRTNRaGVQQ2h2Y09EaTJSQ2JYR25VS2N1TkZtNXRlUDNzNTV5aGRDVVVlZmMxSnNHYW1mYy1pUDB3a21WZk5EYw?oc=5\n\nOpenAI Annual Revenue Tops $40 Billion, But IPO Window Remains Closed - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPMkdIWjBDeXlueDJWZnd3bGVRSHNoTmEyQ2F3dkxwRjlRenRLOXdnejRXVzlrZG41R3hFSFhNa3hPYkFvRVhqblN3QVhEMFdZQnVzMTl1MHphNGZHNng0cmwxeloxRTNRaGVQQ2h2Y09EaTJSQ2JYR25VS2N1TkZtNXRlUDNzNTV5aGRDVVVlZmMxSnNHYW1mYy1pUDB3a21WZk5EYw?oc=5\" target=\"_blank\">OpenAI Annual Revenue Tops $40 Billion, But IPO Window Remains Closed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports OpenAI's annualized revenue has topped $40 billion, but notes the IPO window remains closed.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u5e74\u5316\u6536\u5165\u5df2\u7a81\u7834 $40B\uff0c\u4f46 IPO \u7a97\u53e3\u4ecd\u672a\u6253\u5f00\u3002\n\nWhy it matters:\nRevenue scale alone doesn't resolve the C3 thesis \u2014 without a path to public listing or external liquidity, private-market marks and continued primary-round fundraising (not market-tested valuation) keep funding the buildout, so the burn-vs-liquidity mismatch this catalyst tracks stays open.\n\n\u5f71\u54cd:\n\u6536\u5165\u89c4\u6a21\u672c\u8eab\u89e3\u51b3\u4e0d\u4e86 C3 \u5173\u5fc3\u7684\u95ee\u9898\u2014\u2014\u6ca1\u6709\u4e0a\u5e02\u6216\u5916\u90e8\u6d41\u52a8\u6027\u9000\u51fa\u8def\u5f84\uff0c\u4f30\u503c\u5c31\u8fd8\u662f\u9760\u4e00\u7ea7\u5e02\u573a\u81ea\u5df1\u7ed9\u81ea\u5df1\u5b9a\u4ef7\u3001\u9760\u7ee7\u7eed\u878d\u8d44\u6491\u7740\uff0c\u70e7\u94b1\u548c\u6d41\u52a8\u6027\u9519\u914d\u7684\u9690\u60a3\u6ca1\u6709\u89e3\u9664\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3292,
       "ts": 1786690023,
@@ -2288,26 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] Apple is urgently seeking DRAM for the iPhone 18, but the Chinese firm CXMT has refused to lower its prices - Mezha",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 06:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQN19Vc2h5SEZrVDdhZ215RU5KaTZVZWRhY1BMN2p3LUVDSUd4YkxORXJEc3ZiUVJFTHRpRTlvcjYtUk14bDRhazFXY2JKb09jMUZjQWg3OEJrdUtjMmRnVXRQMWhtUEtxZkYyeVh2UXJsam13MDJyWVBEa2w5S1JFSUhiY3bSAYoBQVVfeXFMT0VMa2cyVW55SVBkQUItNnB6VmFaNU5tQ3g5ZmsxaGhZNFh2Y0xDaXJSdmFta0x2b2lvZzZUUFpBYW5fQ2treFh3UThEYklmYXFHU3k0Q1Jjd1dWSHcwcTZOWVpBLXpVR2JOdHJ2SzNIWnVkeE53c2x2dTBLVWRJdmhGaTJmRk5XWUdR?oc=5\n\nApple is urgently seeking DRAM for the iPhone 18, but the Chinese firm CXMT has refused to lower its prices - Mezha\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQN19Vc2h5SEZrVDdhZ215RU5KaTZVZWRhY1BMN2p3LUVDSUd4YkxORXJEc3ZiUVJFTHRpRTlvcjYtUk14bDRhazFXY2JKb09jMUZjQWg3OEJrdUtjMmRnVXRQMWhtUEtxZkYyeVh2UXJsam13MDJyWVBEa2w5S1JFSUhiY3bSAYoBQVVfeXFMT0VMa2cyVW55SVBkQUItNnB6VmFaNU5tQ3g5ZmsxaGhZNFh2Y0xDaXJSdmFta0x2b2lvZzZUUFpBYW5fQ2treFh3UThEYklmYXFHU3k0Q1Jjd1dWSHcwcTZOWVpBLXpVR2JOdHJ2SzNIWnVkeE53c2x2dTBLVWRJdmhGaTJmRk5XWUdR?oc=5\" target=\"_blank\">Apple is urgently seeking DRAM for the iPhone 18, but the Chinese firm CXMT has refused to lower its prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mezha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple is reportedly pushing hard to secure DRAM supply for the iPhone 18, but Chinese memory maker CXMT has refused to cut its prices despite that pressure.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cApple \u6b63\u6025\u4e8e\u4e3a iPhone 18 \u91c7\u8d2d DRAM\uff0c\u4f46\u4e2d\u56fd\u5b58\u50a8\u5382\u5546 CXMT \u62d2\u7edd\u964d\u4ef7\u3002\n\nWhy it matters:\nA component buyer as large as Apple normally has leverage to force price concessions; CXMT holding firm signals a seller's market in DRAM, consistent with AI-driven demand (HBM/server DRAM) crowding out consumer-grade supply and keeping memory prices elevated across the board.\n\n\u5f71\u54cd:\nApple \u8fd9\u79cd\u4f53\u91cf\u7684\u91c7\u8d2d\u65b9\u901a\u5e38\u6709\u80fd\u529b\u538b\u4ef7\uff0cCXMT \u9876\u4f4f\u4e0d\u964d\u8bf4\u660e DRAM \u76ee\u524d\u662f\u5356\u65b9\u5e02\u573a\u2014\u2014\u5f88\u53ef\u80fd\u662f AI \u9a71\u52a8\u7684\u9700\u6c42\uff08HBM/\u670d\u52a1\u5668 DRAM\uff09\u6324\u5360\u4e86\u6d88\u8d39\u7ea7\u4ea7\u80fd\uff0c\u5bfc\u81f4\u6574\u4f53\u5b58\u50a8\u4ef7\u683c\u5c45\u9ad8\u4e0d\u4e0b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3094,
-      "ts": 1786110438,
-      "ts_str": "2026-08-07 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX's big week: Stock weathers earnings storm, lock-up expiration in crucial test for investors - Yahoo Finance UK",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 13:18:28 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxQclJ6c3lQMkJHbl9VTHZ1RUdSWFoyTDlaVUd0Z1VBLVNadHVKLUVnQ054enBxUFlDOE1QY0NfU2NRSWNFazlsbnBMV28xUnhCbGY3alJpOFN1R1ppNG9xbjM1UHc5bTNJWURVc3lyUHF1dmlsT2tuVDRGdWx2ZGQ1Q1ZOTl9wc1NmUm9lM09qbnZPZTJpci1zRmJ3TW1VM3d2S203d21fZlRtYUZhVnVhcEw3V0NzeGR3YUxiUWEwSmRTbHN2dXNsN2NMa19KT2hwVE5sRVZ6Z1pndzMz?oc=5\n\nSpaceX's big week: Stock weathers earnings storm, lock-up expiration in crucial test for investors - Yahoo Finance UK\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQclJ6c3lQMkJHbl9VTHZ1RUdSWFoyTDlaVUd0Z1VBLVNadHVKLUVnQ054enBxUFlDOE1QY0NfU2NRSWNFazlsbnBMV28xUnhCbGY3alJpOFN1R1ppNG9xbjM1UHc5bTNJWURVc3lyUHF1dmlsT2tuVDRGdWx2ZGQ1Q1ZOTl9wc1NmUm9lM09qbnZPZTJpci1zRmJ3TW1VM3d2S203d21fZlRtYUZhVnVhcEw3V0NzeGR3YUxiUWEwSmRTbHN2dXNsN2NMa19KT2hwVE5sRVZ6Z1pndzMz?oc=5\" target=\"_blank\">SpaceX's big week: Stock weathers earnings storm, lock-up expiration in crucial test for investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage flags SpaceX's lock-up expiration as a key test this week, alongside its stock's reaction to recent earnings.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u672c\u5468 SpaceX \u7684\u89e3\u7981\u5230\u671f\u662f\u4e00\u6b21\u5173\u952e\u8003\u9a8c\uff0c\u540c\u65f6\u5e02\u573a\u4e5f\u5728\u89c2\u5bdf\u5176\u80a1\u4ef7\u5bf9\u8fd1\u671f\u8d22\u62a5\u7684\u53cd\u5e94\u3002\n\nWhy it matters:\nA lock-up expiration lets pre-IPO/employee shareholders sell for the first time, and a wave of supply hitting the market is a mechanical test of demand independent of fundamentals \u2014 weak absorption here is an early tell for how the broader AI-infra-linked equity complex handles unlock-driven selling pressure.\n\n\u5f71\u54cd:\n\u89e3\u7981\u5230\u671f\u610f\u5473\u7740\u4e0a\u5e02\u524d\u80a1\u4e1c\u548c\u5458\u5de5\u9996\u6b21\u53ef\u4ee5\u5356\u51fa\u80a1\u7968\uff0c\u96c6\u4e2d\u629b\u538b\u6d8c\u5411\u5e02\u573a\u662f\u8131\u79bb\u57fa\u672c\u9762\u7684\u4e00\u6b21\u7eaf\u4f9b\u9700\u6d4b\u8bd5\u2014\u2014\u8fd9\u91cc\u5982\u679c\u627f\u63a5\u4e4f\u529b\uff0c\u5c31\u662f AI \u57fa\u5efa\u5173\u8054\u80a1\u7968\u6574\u4f53\u5e94\u5bf9\u89e3\u7981\u629b\u538b\u80fd\u529b\u7684\u65e9\u671f\u98ce\u5411\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3093,
-      "ts": 1786106116,
-      "ts_str": "2026-08-07 12:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] After Asus and Gigabyte, MSI Increases Graphics Card Prices by Over 20% Due to Ongoing DRAM Shortages - varindia.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 12:22:58 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGJyUTdEbGdwNFpmUXhRa1JaWkFBSk1LTEhPN0ZDMkFzcHpTMHBjdXdQVm5TQmVOekJQQnZhY3U3Nms3SHNKY0hLYjFWU1F5d1JLZUlwN2F4c1dqbmhfNHJlWHZBSjBlUy1FV3d3ZEdET1U2OVRrUXdhQnRZeU1uMWxaeWdPcTdGaEs2Y2ZlRG1hQVRkc3VOczVFeExJZWwtNWlYREU2TjZ1eHY4SGtySUV5UkJNbnhqTGV3V2swaDB4NDZETzNkYQ?oc=5\n\nAfter Asus and Gigabyte, MSI Increases Graphics Card Prices by Over 20% Due to Ongoing DRAM Shortages - varindia.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGJyUTdEbGdwNFpmUXhRa1JaWkFBSk1LTEhPN0ZDMkFzcHpTMHBjdXdQVm5TQmVOekJQQnZhY3U3Nms3SHNKY0hLYjFWU1F5d1JLZUlwN2F4c1dqbmhfNHJlWHZBSjBlUy1FV3d3ZEdET1U2OVRrUXdhQnRZeU1uMWxaeWdPcTdGaEs2Y2ZlRG1hQVRkc3VOczVFeExJZWwtNWlYREU2TjZ1eHY4SGtySUV5UkJNbnhqTGV3V2swaDB4NDZETzNkYQ?oc=5\" target=\"_blank\">After Asus and Gigabyte, MSI Increases Graphics Card Prices by Over 20% Due to Ongoing DRAM Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">varindia.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMSI raised graphics-card prices by over 20%, following similar hikes from Asus and Gigabyte, citing ongoing DRAM shortages.\n\n\u5185\u5bb9:\nMSI \u5c06\u663e\u5361\u4ef7\u683c\u4e0a\u8c03\u8d85\u8fc7 20%\uff0c\u6b64\u524d Asus \u548c Gigabyte \u5df2\u6709\u7c7b\u4f3c\u6da8\u4ef7\uff0c\u7406\u7531\u662f DRAM \u6301\u7eed\u77ed\u7f3a\u3002\n\nWhy it matters:\nThree board partners moving in lockstep on a 20%+ price hike confirms DRAM scarcity is now hitting finished consumer hardware, not just spot memory prices \u2014 a sign the AI-driven memory squeeze is broad enough to spill into adjacent markets and pressure margins across the supply chain.\n\n\u5f71\u54cd:\n\u4e09\u5bb6\u677f\u5361\u5382\u5546\u540c\u65f6\u5927\u5e45\u6da8\u4ef7 20% \u4ee5\u4e0a\uff0c\u8bf4\u660e DRAM \u7a00\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7ea7\u6210\u54c1\u786c\u4ef6\uff0c\u4e0d\u53ea\u662f\u5185\u5b58\u73b0\u8d27\u4ef7\u683c\u3002\u8fd9\u8868\u660e AI \u9a71\u52a8\u7684\u5185\u5b58\u7d27\u7f3a\u5df2\u7ecf\u5916\u6ea2\u5230\u76f8\u90bb\u5e02\u573a\uff0c\u6b63\u5728\u6324\u538b\u6574\u6761\u4f9b\u5e94\u94fe\u7684\u5229\u6da6\u3002\n",
       "emailed": false
     }
   ],
