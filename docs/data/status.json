@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786746409,
-  "generated_at_str": "2026-08-14 22:26:49 UTC",
-  "last_event_ts": 1786745658,
+  "generated_at": 1786746555,
+  "generated_at_str": "2026-08-14 22:29:15 UTC",
+  "last_event_ts": 1786746555,
   "tables": {
     "alerts_dedup": {
-      "count": 3320,
-      "last_ts": 1786745658,
-      "last_str": "2026-08-14 22:14:18 UTC"
+      "count": 3321,
+      "last_ts": 1786746555,
+      "last_str": "2026-08-14 22:29:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 37,
-      "last_ts": 1786660142,
-      "last_str": "2026-08-13 22:29:02 UTC"
+      "count": 38,
+      "last_ts": 1786746542,
+      "last_str": "2026-08-14 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3328,
+      "ts": 1786746555,
+      "ts_str": "2026-08-14 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.39% (+50bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-13\nCurrent:  2.39%\n90d low:  1.89%\nMove:     +50bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield rose to 2.39% on 2026-08-13, up 0.50 percentage points from its trailing-90-day low of 1.89%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5728 2026-08-13 \u5347\u81f3 2.39%\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.89% \u9ad8\u51fa 0.50 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nA real yield spike this size raises the discount rate applied to long-duration AI capex bets, squeezing the valuation math on names priced for cash flows years out. It also tightens financial conditions broadly, which is the same channel C7 credit spreads watch for stress.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8fd9\u79cd\u5e45\u5ea6\u7684\u8df3\u5347\uff0c\u4f1a\u62c9\u9ad8\u957f\u4e45\u671f AI capex \u62bc\u6ce8\u6240\u7528\u7684\u6298\u73b0\u7387\uff0c\u6324\u538b\u90a3\u4e9b\u73b0\u91d1\u6d41\u8981\u597d\u51e0\u5e74\u540e\u624d\u5151\u73b0\u7684\u516c\u53f8\u7684\u4f30\u503c\u3002\u5b83\u540c\u65f6\u6536\u7d27\u6574\u4f53\u91d1\u878d\u73af\u5883\uff0c\u548c C7 \u4fe1\u7528\u5229\u5dee\u76ef\u7684\u662f\u540c\u4e00\u6761\u538b\u529b\u4f20\u5bfc\u94fe\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3327,
       "ts": 1786745658,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX\u2019s stock is having one of its best days ever \u2014 with the first lockup expiration now behind it - MarketWatch",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 07 Aug 2026 16:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVDF6N1JGVU05ejQtcGFPOUlLZHQtd25XaUVVRDRvLWZoNUxkR3kwLWdKWGJDN2E3ZGZDblRMSXczeEw2SFRQZDdRM1NRMnJNbk9lNFZtSDJkWmpNN2Zmd1E2LWVHWFBqU1k1ejZfMG91YTJ2bUU3UXJqV2h4Umo0MDUtMFk2Zmg5V1pjSG10amRYUUFaZjhBX1U2bk55MDZTTVBWaTZIUlZsVFo4S0VrSjBSc0JXakRVUXJsNnQzX2RoeGxvQnQ4eThGLThubkN1c3Q0WTRCQjMzeWdONjVDdE96R01vVU92TENBMzc1X2ctRk0?oc=5\n\nSpaceX\u2019s stock is having one of its best days ever \u2014 with the first lockup expiration now behind it - MarketWatch\n\n<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVDF6N1JGVU05ejQtcGFPOUlLZHQtd25XaUVVRDRvLWZoNUxkR3kwLWdKWGJDN2E3ZGZDblRMSXczeEw2SFRQZDdRM1NRMnJNbk9lNFZtSDJkWmpNN2Zmd1E2LWVHWFBqU1k1ejZfMG91YTJ2bUU3UXJqV2h4Umo0MDUtMFk2Zmg5V1pjSG10amRYUUFaZjhBX1U2bk55MDZTTVBWaTZIUlZsVFo4S0VrSjBSc0JXakRVUXJsNnQzX2RoeGxvQnQ4eThGLThubkN1c3Q0WTRCQjMzeWdONjVDdE96R01vVU92TENBMzc1X2ctRk0?oc=5\" target=\"_blank\">SpaceX\u2019s stock is having one of its best days ever \u2014 with the first lockup expiration now behind it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWatch</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX shares rallying sharply on one of their best days, with the first post-IPO lock-up expiration now having passed without triggering a sell-off.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 SpaceX \u80a1\u4ef7\u8fce\u6765\u8868\u73b0\u6700\u597d\u7684\u4ea4\u6613\u65e5\u4e4b\u4e00\uff0c\u9996\u4e2a\u89e3\u7981\u671f\u5df2\u7ecf\u8fc7\u53bb\uff0c\u6ca1\u6709\u5f15\u53d1\u629b\u552e\u3002\n\nWhy it matters:\nA clean pass through the first unlock tranche undercuts the bear case that lock-up expirations force forced selling and pressure the stock \u2014 bullish for the passive-flow thesis, since it suggests insiders are holding rather than dumping into the unlock window.\n\n\u5f71\u54cd:\n\u9996\u6279\u89e3\u7981\u5e73\u7a33\u8fc7\u5173\uff0c\u524a\u5f31\u4e86\u300c\u89e3\u7981\u5fc5\u7136\u5f15\u53d1\u629b\u538b\u300d\u7684\u770b\u7a7a\u903b\u8f91\uff0c\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u8bba\u70b9\u662f\u5229\u597d\u2014\u2014\u8bf4\u660e\u5185\u90e8\u4eba\u5728\u89e3\u7981\u7a97\u53e3\u9009\u62e9\u6301\u6709\u800c\u975e\u629b\u552e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3127,
-      "ts": 1786192518,
-      "ts_str": "2026-08-08 12:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Scientist says RAM pricing has risen to normalized 2007 levels, AI shortage undid 20 years of progress in a matter of mo",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 08 Aug 2026 00:46:22 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wJBVV95cUxORVVIY1cyVlgzclFsOS1WaTJpQWUtaHZMQkF4Sl91NDJwNTZlaV9vS19CRnhuN2tzckVscVZQbFI4SnpPMllCaHJlUjJvZXEtcl9GVFhFckVkbmtrNjFYSXdIWjV3ZHgxSEFxRm9PQ0FBOVZWeFlGcVlxdm5nMVZRTlFlZktKQU5pNmFpQ0hhU2xTbW1Fb1hacEFQWUdYMEV6a3hZT3NRSnBQR2VrRGMwY1Y1bFdSVng0TE5NczI1VlhIU0lKWFFaVk52N3ZVMVJvV3ZUYmJZRkdWa3lZRnhoTTdyTTA2bmJOdUhUYW1fM01jejhuVkV6Z2xFMWhDLVhxSmNuM2cxckhKeERqM2RpeWJDaWIyY0dPMklqSG9yVWpMTUZTMERxekp6d2VMQkI4X0M4Wnk3X24wZUhpVTllc3NiRzdjWGZaSUNzbmFRZnRQbnZpNjNLSXNLQQ?oc=5\n\nScientist says RAM pricing has risen to normalized 2007 levels, AI shortage undid 20 years of progress in a matter of months \u2014 memory prices had been falling exponentially for decades - tomshardware.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wJBVV95cUxORVVIY1cyVlgzclFsOS1WaTJpQWUtaHZMQkF4Sl91NDJwNTZlaV9vS19CRnhuN2tzckVscVZQbFI4SnpPMllCaHJlUjJvZXEtcl9GVFhFckVkbmtrNjFYSXdIWjV3ZHgxSEFxRm9PQ0FBOVZWeFlGcVlxdm5nMVZRTlFlZktKQU5pNmFpQ0hhU2xTbW1Fb1hacEFQWUdYMEV6a3hZT3NRSnBQR2VrRGMwY1Y1bFdSVng0TE5NczI1VlhIU0lKWFFaVk52N3ZVMVJvV3ZUYmJZRkdWa3lZRnhoTTdyTTA2bmJOdUhUYW1fM01jejhuVkV6Z2xFMWhDLVhxSmNuM2cxckhKeERqM2RpeWJDaWIyY0dPMklqSG9yVWpMTUZTMERxekp6d2VMQkI4X0M4Wnk3X24wZUhpVTllc3NiRzdjWGZaSUNzbmFRZnRQbnZpNjNLSXNLQQ?oc=5\" target=\"_blank\">Scientist says RAM pricing has risen to normalized 2007 levels, AI shortage undid 20 years of progress in a matter of months \u2014 memory prices had been falling exponentially for decades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tomshardware.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA scientist quoted in the coverage says RAM pricing has risen back to normalized 2007 levels, reversing roughly 20 years of exponential memory price declines within a matter of months.\n\n\u5185\u5bb9:\n\u62a5\u9053\u5f15\u8ff0\u4e00\u4f4d\u79d1\u5b66\u5bb6\u7684\u8bdd\u79f0\uff0cRAM \u4ef7\u683c\u5df2\u56de\u5347\u5230 2007 \u5e74\u7684\u6c34\u5e73\uff0cAI \u9700\u6c42\u5e26\u6765\u7684\u77ed\u7f3a\u5728\u77ed\u77ed\u51e0\u4e2a\u6708\u5185\u62b9\u5e73\u4e86\u5185\u5b58\u4ef7\u683c\u7ea6 20 \u5e74\u7684\u6307\u6570\u7ea7\u4e0b\u8dcc\u3002\n\nWhy it matters:\nMemory has historically gotten cheaper every year as a predictable input cost; an AI-driven DRAM/HBM shortage severe enough to erase two decades of price deflation signals demand is badly outrunning fab capacity. That directly raises the bill-of-materials cost for every AI server build, squeezing margins across the hyperscaler/neocloud capex chain.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u51e0\u5341\u5e74\u6765\u4e00\u76f4\u5728\u7a33\u5b9a\u4e0b\u8dcc\uff0c\u662f AI \u670d\u52a1\u5668\u6210\u672c\u6a21\u578b\u91cc\u4e00\u4e2a\u53ef\u9884\u6d4b\u7684\u53d8\u91cf\u3002\u8fd9\u6b21\u7531 AI \u9700\u6c42\u5f15\u53d1\u7684 DRAM/HBM \u77ed\u7f3a\u4e25\u91cd\u5230\u80fd\u62b9\u5e73 20 \u5e74\u8dcc\u52bf\uff0c\u8bf4\u660e\u9700\u6c42\u5df2\u7ecf\u4e25\u91cd\u8d85\u51fa\u6676\u5706\u4ea7\u80fd\u3002\u8fd9\u4f1a\u76f4\u63a5\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u6574\u6761 capex \u94fe\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
       "emailed": false
     }
   ],
