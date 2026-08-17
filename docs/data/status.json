@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786941124,
-  "generated_at_str": "2026-08-17 04:32:04 UTC",
-  "last_event_ts": 1786940041,
+  "generated_at": 1786941310,
+  "generated_at_str": "2026-08-17 04:35:10 UTC",
+  "last_event_ts": 1786941309,
   "tables": {
     "alerts_dedup": {
-      "count": 3355,
-      "last_ts": 1786937720,
-      "last_str": "2026-08-17 03:35:20 UTC"
+      "count": 3356,
+      "last_ts": 1786941309,
+      "last_str": "2026-08-17 04:35:09 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-17 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4498,
-      "last_ts": 1786935901,
-      "last_str": "2026-08-17 03:05:01 UTC"
+      "count": 4501,
+      "last_ts": 1786941307,
+      "last_str": "2026-08-17 04:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5163,
-      "last_ts": 1786939504,
-      "last_str": "2026-08-17 04:05:04 UTC"
+      "count": 5168,
+      "last_ts": 1786941308,
+      "last_str": "2026-08-17 04:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3426,
-      "last_ts": 1786939502,
-      "last_str": "2026-08-17 04:05:02 UTC"
+      "count": 3427,
+      "last_ts": 1786941308,
+      "last_str": "2026-08-17 04:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3886,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3363,
+      "ts": 1786941309,
+      "ts_str": "2026-08-17 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation - WION",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 16 Aug 2026 08:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Z9IBywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Zw?oc=5\n\nAI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation - WION\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Z9IBywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Zw?oc=5\" target=\"_blank\">AI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK news report says an AI-driven memory-chip shortage ('chipflation') is pushing DRAM/NAND prices up enough to threaten to reverse the country's falling inflation trend.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff08\"chipflation\"\uff09\u6b63\u63a8\u9ad8 DRAM/NAND \u4ef7\u683c\uff0c\u4e25\u91cd\u5230\u53ef\u80fd\u9006\u8f6c\u82f1\u56fd\u6b63\u5728\u4e0b\u884c\u7684\u901a\u80c0\u8d8b\u52bf\u3002\n\nWhy it matters:\nMemory shortages spreading from AI datacenter demand into consumer-facing inflation data is a sign the capex boom is now large enough to distort a national price index, not just component costs \u2014 a scale marker for how far the AI-buildout demand shock has propagated downstream.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4ece AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5916\u6ea2\u5230\u6d88\u8d39\u7aef\u901a\u80c0\u6570\u636e\uff0c\u8bf4\u660e\u8fd9\u8f6e AI \u5efa\u8bbe\u7684\u9700\u6c42\u51b2\u51fb\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u80fd\u626d\u52a8\u4e00\u56fd\u7684\u4ef7\u683c\u6307\u6570\uff0c\u4e0d\u53ea\u662f\u96f6\u90e8\u4ef6\u6210\u672c\u2014\u2014\u8fd9\u662f\u9700\u6c42\u5916\u6ea2\u7a0b\u5ea6\u7684\u4e00\u4e2a\u6807\u5c3a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3362,
       "ts": 1786937720,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Price Forecast: Shares Surge 26% After First Lock-Up Expiration; Will Rally Continue? - TradingKey",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 06:35:01 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNUm9ucnJaalhISGtYWkdzLXFIRXp6Ni1TTDRObGwyc3dsc2NJTUNIN3I2RmNEOUlFcVdrLVVXdmZiT1FjcVVoUks4Z0V5dEpoZDZRUG1Db000NVcwTER6eDNFQ0lfVlpBYkhPcHBNTXAtekUwMENWLWNOTHdKbEtGUmZ4eFBweml2VTNSMHlCbDgyYmRCdXhMODJ4ejJLUy0wdkwtTjg2TzRhRklWNWVMNA?oc=5\n\nSpaceX Stock Price Forecast: Shares Surge 26% After First Lock-Up Expiration; Will Rally Continue? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNUm9ucnJaalhISGtYWkdzLXFIRXp6Ni1TTDRObGwyc3dsc2NJTUNIN3I2RmNEOUlFcVdrLVVXdmZiT1FjcVVoUks4Z0V5dEpoZDZRUG1Db000NVcwTER6eDNFQ0lfVlpBYkhPcHBNTXAtekUwMENWLWNOTHdKbEtGUmZ4eFBweml2VTNSMHlCbDgyYmRCdXhMODJ4ejJLUy0wdkwtTjg2TzRhRklWNWVMNA?oc=5\" target=\"_blank\">SpaceX Stock Price Forecast: Shares Surge 26% After First Lock-Up Expiration; Will Rally Continue?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX shares surged 26% following the first lock-up expiration, despite the unlock theoretically adding sell-side supply to the market.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0\uff0cSpaceX \u5728\u9996\u6b21\u89e3\u7981\u540e\u80a1\u4ef7\u53cd\u800c\u4e0a\u6da8 26%\uff0c\u800c\u89e3\u7981\u7406\u8bba\u4e0a\u4f1a\u589e\u52a0\u5e02\u573a\u7684\u629b\u552e\u4f9b\u7ed9\u3002\n\nWhy it matters:\nA lock-up expiration is supposed to be a supply-side pressure event \u2014 more shares eligible to sell should push price down, not up. A 26% rally instead signals strong demand absorbing the unlocked stock, undercutting the bear case that SpaceX's private-market valuation is fragile once insiders can exit.\n\n\u5f71\u54cd:\n\u89e3\u7981\u672c\u8be5\u662f\u4f9b\u7ed9\u7aef\u7684\u5229\u7a7a\u2014\u2014\u53ef\u5356\u80a1\u7968\u53d8\u591a\uff0c\u4ef7\u683c\u8be5\u8dcc\u4e0d\u8be5\u6da8\u300226% \u7684\u4e0a\u6da8\u8bf4\u660e\u9700\u6c42\u7aef\u628a\u89e3\u7981\u7684\u629b\u538b\u5168\u90e8\u5403\u6389\u4e86\uff0c\u8fd9\u524a\u5f31\u4e86\u300cSpaceX \u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u4e00\u65e6\u5185\u90e8\u4eba\u53ef\u4ee5\u9000\u51fa\u5c31\u4f1a\u7ad9\u4e0d\u4f4f\u300d\u8fd9\u4e2a\u7a7a\u5934\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3164,
-      "ts": 1786344452,
-      "ts_str": "2026-08-10 06:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Korean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry - Seoul Economic Daily",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 05:56:42 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1V4S0psa0xNc3pRQXV0RnJWZ1B4aU04SGlGRFJPekNoVlpxQ1NVenNIVHdqQXF2VXFfRXIyVkdRSkFJbzNzODVVUjZ0a3N5U0xWbGl2Q0JEZG9PazMxQ3I4ZktVRk5Eb2I0WFZvOGhmaVM5akctVmRDMW9Lcmp4MFRSU3NwaF9YbUwxUnA5cjR1MTZyS3k0ZGlDeE4?oc=5\n\nKorean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1V4S0psa0xNc3pRQXV0RnJWZ1B4aU04SGlGRFJPekNoVlpxQ1NVenNIVHdqQXF2VXFfRXIyVkdRSkFJbzNzODVVUjZ0a3N5U0xWbGl2Q0JEZG9PazMxQ3I4ZktVRk5Eb2I0WFZvOGhmaVM5akctVmRDMW9Lcmp4MFRSU3NwaF9YbUwxUnA5cjR1MTZyS3k0ZGlDeE4?oc=5\" target=\"_blank\">Korean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nKorean VC-linked stocks rallied after SpaceX shares rebounded following the expiry of an insider lockup period.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u5728\u4e00\u8f6e\u5185\u90e8\u4eba\u9501\u5b9a\u671f\u89e3\u7981\u540e\u53cd\u5f39\uff0c\u5e26\u52a8\u97e9\u56fd VC \u6982\u5ff5\u80a1\u8d70\u9ad8\u3002\n\nWhy it matters:\nA rebound right after lockup expiry suggests the anticipated sell pressure from newly unlocked shares didn't materialize or was absorbed quickly \u2014 a read on how much insider selling the market can digest without a real repricing. Relevant to the passive-flow thesis since Korean VC exposure to SpaceX is a proxy for how sentiment ripples through indirect holders.\n\n\u5f71\u54cd:\n\u89e3\u7981\u540e\u7acb\u523b\u53cd\u5f39\u8bf4\u660e\u5e02\u573a\u9884\u671f\u7684\u629b\u538b\u6ca1\u6709\u5151\u73b0\uff0c\u6216\u8005\u5f88\u5feb\u88ab\u6d88\u5316\u6389\u4e86\u2014\u2014\u8fd9\u662f\u5224\u65ad\u5e02\u573a\u80fd\u541e\u4e0b\u591a\u5c11\u89e3\u7981\u629b\u552e\u800c\u4e0d\u5f15\u53d1\u771f\u5b9e\u91cd\u65b0\u5b9a\u4ef7\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\u97e9\u56fd VC \u5bf9 SpaceX \u7684\u95f4\u63a5\u6301\u4ed3\u662f\u60c5\u7eea\u5916\u6ea2\u7684\u4ee3\u7406\u6307\u6807\uff0c\u8ddf\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\u7684\u903b\u8f91\u76f8\u5173\u3002\n",
       "emailed": false
     }
   ],
