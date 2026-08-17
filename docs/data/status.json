@@ -1,12 +1,12 @@
 {
-  "generated_at": 1786937523,
-  "generated_at_str": "2026-08-17 03:32:03 UTC",
-  "last_event_ts": 1786936442,
+  "generated_at": 1786937721,
+  "generated_at_str": "2026-08-17 03:35:21 UTC",
+  "last_event_ts": 1786937720,
   "tables": {
     "alerts_dedup": {
-      "count": 3354,
-      "last_ts": 1786922058,
-      "last_str": "2026-08-16 23:14:18 UTC"
+      "count": 3355,
+      "last_ts": 1786937720,
+      "last_str": "2026-08-17 03:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,14 +84,14 @@
       "last_str": "2026-08-17 03:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5158,
-      "last_ts": 1786935902,
-      "last_str": "2026-08-17 03:05:02 UTC"
+      "count": 5161,
+      "last_ts": 1786937708,
+      "last_str": "2026-08-17 03:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3424,
-      "last_ts": 1786935902,
-      "last_str": "2026-08-17 03:05:02 UTC"
+      "count": 3425,
+      "last_ts": 1786937708,
+      "last_str": "2026-08-17 03:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3884,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3362,
+      "ts": 1786937720,
+      "ts_str": "2026-08-17 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Chip maker CXMT rejects Apple bid to cut DRAM prices - Bangkok Post",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 17 Aug 2026 03:23:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmRJQWNhVEd6Z1ZpZTB3RkYwZ0dvY0dYOEc2Tk5Oc1RlcmQyMzllOGRLeVd4aDNnTmhXME9EVFR5dENuejUxd3hud1h2eFBKa3Uta0FBc3NVZEhGSVVEcTUzeFpkME5laS1mblFBdDF5WGQxQkdaSEFsRFpncXNBS2RSdXBYeUFlUXd2dHJmaGlZVjFqcXJPZkJ6cmhHY3c?oc=5\n\nChip maker CXMT rejects Apple bid to cut DRAM prices - Bangkok Post\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmRJQWNhVEd6Z1ZpZTB3RkYwZ0dvY0dYOEc2Tk5Oc1RlcmQyMzllOGRLeVd4aDNnTmhXME9EVFR5dENuejUxd3hud1h2eFBKa3Uta0FBc3NVZEhGSVVEcTUzeFpkME5laS1mblFBdDF5WGQxQkdaSEFsRFpncXNBS2RSdXBYeUFlUXd2dHJmaGlZVjFqcXJPZkJ6cmhHY3c?oc=5\" target=\"_blank\">Chip maker CXMT rejects Apple bid to cut DRAM prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bangkok Post</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCXMT (a major Chinese DRAM maker) rejected a bid from Apple to cut DRAM prices, meaning CXMT is refusing to lower pricing despite pressure from a large buyer.\n\n\u5185\u5bb9:\nDRAM \u5382\u5546 CXMT \u62d2\u7edd\u4e86 Apple \u8981\u6c42\u964d\u4ef7\u7684\u63d0\u8bae\uff0c\u5373\u4fbf\u9762\u5bf9 Apple \u8fd9\u6837\u4f53\u91cf\u7684\u5927\u4e70\u5bb6\uff0cCXMT \u4ecd\u4e0d\u80af\u8ba9\u6b65\u3002\n\nWhy it matters:\nA supplier holding firm against a buyer as large as Apple signals DRAM supply is tight, not oversupplied \u2014 the opposite of the price-collapse pattern C6 is built to catch, and it's bullish for memory-maker margins feeding the AI-hardware capex chain.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u5546\u80fd\u5728 Apple \u8fd9\u79cd\u5927\u5ba2\u6237\u9762\u524d\u625b\u4f4f\u4e0d\u964d\u4ef7\uff0c\u8bf4\u660e DRAM \u4f9b\u7ed9\u504f\u7d27\u800c\u975e\u8fc7\u5269\u2014\u2014\u8fd9\u8ddf C6 \u672c\u6765\u8981\u6355\u6349\u7684\u4ef7\u683c\u5d29\u584c\u4fe1\u53f7\u65b9\u5411\u76f8\u53cd\uff0c\u5bf9\u652f\u6491 AI \u786c\u4ef6 capex \u94fe\u6761\u7684\u5185\u5b58\u5382\u5546\u5229\u6da6\u662f\u5229\u597d\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3361,
       "ts": 1786922058,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Korean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry - Seoul Economic Daily",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 05:56:42 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1V4S0psa0xNc3pRQXV0RnJWZ1B4aU04SGlGRFJPekNoVlpxQ1NVenNIVHdqQXF2VXFfRXIyVkdRSkFJbzNzODVVUjZ0a3N5U0xWbGl2Q0JEZG9PazMxQ3I4ZktVRk5Eb2I0WFZvOGhmaVM5akctVmRDMW9Lcmp4MFRSU3NwaF9YbUwxUnA5cjR1MTZyS3k0ZGlDeE4?oc=5\n\nKorean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ1V4S0psa0xNc3pRQXV0RnJWZ1B4aU04SGlGRFJPekNoVlpxQ1NVenNIVHdqQXF2VXFfRXIyVkdRSkFJbzNzODVVUjZ0a3N5U0xWbGl2Q0JEZG9PazMxQ3I4ZktVRk5Eb2I0WFZvOGhmaVM5akctVmRDMW9Lcmp4MFRSU3NwaF9YbUwxUnA5cjR1MTZyS3k0ZGlDeE4?oc=5\" target=\"_blank\">Korean VC Stocks Surge as SpaceX Rebounds After Lockup Expiry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nKorean VC-linked stocks rallied after SpaceX shares rebounded following the expiry of an insider lockup period.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u5728\u4e00\u8f6e\u5185\u90e8\u4eba\u9501\u5b9a\u671f\u89e3\u7981\u540e\u53cd\u5f39\uff0c\u5e26\u52a8\u97e9\u56fd VC \u6982\u5ff5\u80a1\u8d70\u9ad8\u3002\n\nWhy it matters:\nA rebound right after lockup expiry suggests the anticipated sell pressure from newly unlocked shares didn't materialize or was absorbed quickly \u2014 a read on how much insider selling the market can digest without a real repricing. Relevant to the passive-flow thesis since Korean VC exposure to SpaceX is a proxy for how sentiment ripples through indirect holders.\n\n\u5f71\u54cd:\n\u89e3\u7981\u540e\u7acb\u523b\u53cd\u5f39\u8bf4\u660e\u5e02\u573a\u9884\u671f\u7684\u629b\u538b\u6ca1\u6709\u5151\u73b0\uff0c\u6216\u8005\u5f88\u5feb\u88ab\u6d88\u5316\u6389\u4e86\u2014\u2014\u8fd9\u662f\u5224\u65ad\u5e02\u573a\u80fd\u541e\u4e0b\u591a\u5c11\u89e3\u7981\u629b\u552e\u800c\u4e0d\u5f15\u53d1\u771f\u5b9e\u91cd\u65b0\u5b9a\u4ef7\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\u97e9\u56fd VC \u5bf9 SpaceX \u7684\u95f4\u63a5\u6301\u4ed3\u662f\u60c5\u7eea\u5916\u6ea2\u7684\u4ee3\u7406\u6307\u6807\uff0c\u8ddf\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\u7684\u903b\u8f91\u76f8\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3162,
-      "ts": 1786340114,
-      "ts_str": "2026-08-10 05:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple tests CXMT memory chips as shortage, price pressures persist - digitimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 03:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzcyNXJ3TTc4cWNRa01fbHhTdDMxM216NlZQM1RVSmp6OEdSMnhZcjRGZTBSYlR5Tzlvdno1RXFLT3NkSnBkY0xyVGljTUtXeGYtbnBoT0NqVmVNcWREU0JCTkE5bkdtTmFLV3NTOEMzbng0c1BwVzNsOThhQl9rdWRKV3BnS3VXN3hUcmFIYXQ?oc=5\n\nApple tests CXMT memory chips as shortage, price pressures persist - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzcyNXJ3TTc4cWNRa01fbHhTdDMxM216NlZQM1RVSmp6OEdSMnhZcjRGZTBSYlR5Tzlvdno1RXFLT3NkSnBkY0xyVGljTUtXeGYtbnBoT0NqVmVNcWREU0JCTkE5bkdtTmFLV3NTOEMzbng0c1BwVzNsOThhQl9rdWRKV3BnS3VXN3hUcmFIYXQ?oc=5\" target=\"_blank\">Apple tests CXMT memory chips as shortage, price pressures persist</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says Apple is testing memory chips from CXMT (a Chinese DRAM maker) while industry-wide memory shortage and price pressure persist.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u5728\u5185\u5b58\u77ed\u7f3a\u548c\u4ef7\u683c\u538b\u529b\u6301\u7eed\u7684\u80cc\u666f\u4e0b\uff0cApple \u6b63\u5728\u6d4b\u8bd5 CXMT\uff08\u4e2d\u56fd DRAM \u5382\u5546\uff09\u7684\u5185\u5b58\u82af\u7247\u3002\n\nWhy it matters:\nApple qualifying a new, non-traditional memory supplier signals the DRAM/NAND shortage is severe enough to push a top-tier buyer to diversify sourcing \u2014 consistent with the memory-price-surge leg of the AI-capex bubble-stress thesis, where AI accelerator demand is crowding out commodity DRAM/NAND supply.\n\n\u5f71\u54cd:\nApple \u8fd9\u6837\u7684\u5934\u90e8\u4e70\u5bb6\u53bb\u9a8c\u8bc1\u4e00\u5bb6\u975e\u4f20\u7edf\u5185\u5b58\u4f9b\u5e94\u5546\uff0c\u8bf4\u660e DRAM/NAND \u77ed\u7f3a\u5df2\u7ecf\u4e25\u91cd\u5230\u903c\u5b83\u5206\u6563\u91c7\u8d2d\u6765\u6e90\u2014\u2014\u8fd9\u548c\u300cAI \u7b97\u529b\u9700\u6c42\u6324\u5360\u5927\u5b97 DRAM/NAND \u4ea7\u80fd\uff0c\u63a8\u9ad8\u5185\u5b58\u4ef7\u683c\u300d\u8fd9\u6761 AI capex \u6ce1\u6cab\u538b\u529b\u7ebf\u7d22\u662f\u543b\u5408\u7684\u3002\n",
       "emailed": false
     }
   ],
