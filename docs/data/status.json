@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787092038,
-  "generated_at_str": "2026-08-18 22:27:18 UTC",
-  "last_event_ts": 1787091244,
+  "generated_at": 1787092156,
+  "generated_at_str": "2026-08-18 22:29:16 UTC",
+  "last_event_ts": 1787092155,
   "tables": {
     "alerts_dedup": {
-      "count": 3407,
-      "last_ts": 1787086036,
-      "last_str": "2026-08-18 20:47:16 UTC"
+      "count": 3408,
+      "last_ts": 1787092155,
+      "last_str": "2026-08-18 22:29:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 39,
-      "last_ts": 1787005742,
-      "last_str": "2026-08-17 22:29:02 UTC"
+      "count": 40,
+      "last_ts": 1787092142,
+      "last_str": "2026-08-18 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3415,
+      "ts": 1787092155,
+      "ts_str": "2026-08-18 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.44% (+55bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-17\nCurrent:  2.44%\n90d low:  1.89%\nMove:     +55bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield jumped to 2.44 pp on 2026-08-17, up 0.55 pp from a trailing-90-day low of 1.89 pp.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u771f\u5b9e\uff08TIPS\uff09\u6536\u76ca\u7387\u5728 2026-08-17 \u5347\u81f3 2.44 \u4e2a\u767e\u5206\u70b9\uff0c\u8f83\u8fc7\u53bb 90 \u4e2a\u4ea4\u6613\u65e5\u7684\u4f4e\u70b9 1.89 \u4e2a\u767e\u5206\u70b9\u4e0a\u6da8\u4e86 0.55 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 a spike this size crossing C10's 2x trigger signals liquidity is draining faster than the trailing baseline, which historically pressures the most speculative, cash-flow-negative parts of the AI trade first.\n\n\u5f71\u54cd:\n\u771f\u5b9e\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8 AI \u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u6d41\u52a8\u6027\u3002\u8fd9\u6b21\u6da8\u5e45\u8fbe\u5230 C10 \u7684 2 \u500d\u89e6\u53d1\u7ebf\uff0c\u8bf4\u660e\u6d41\u52a8\u6027\u6536\u7d27\u7684\u901f\u5ea6\u5feb\u8fc7\u8fd1 90 \u5929\u7684\u57fa\u51c6\u6c34\u5e73\u2014\u2014\u5386\u53f2\u4e0a\u8fd9\u79cd\u60c5\u51b5\u4f1a\u5148\u538b\u5230 AI \u6982\u5ff5\u91cc\u6700\u6295\u673a\u3001\u73b0\u91d1\u6d41\u4e3a\u8d1f\u7684\u90a3\u90e8\u5206\u8d44\u4ea7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3414,
       "ts": 1787086036,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All - MarketWise",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 15:05:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxQWGxGeXRmZ0hrWFo3cnBERWRBdFBZcGxxRU41OFJwc2N3Sk1xVXMyQ2pnMFdHbFl0THVMeGI4OE1SU2pIQzlBcHdXc1ZVSkdRVGt1aXBiMG5SR1VIM240TGU0TmFhSVlqVGF3ZmdfR19hM05jcm5ScW5PMkhCUkhWMDZB?oc=5\n\nOpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All - MarketWise\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQWGxGeXRmZ0hrWFo3cnBERWRBdFBZcGxxRU41OFJwc2N3Sk1xVXMyQ2pnMFdHbFl0THVMeGI4OE1SU2pIQzlBcHdXc1ZVSkdRVGt1aXBiMG5SR1VIM240TGU0TmFhSVlqVGF3ZmdfR19hM05jcm5ScW5PMkhCUkhWMDZB?oc=5\" target=\"_blank\">OpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWise</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA cluster of headlines flags a possible delay to OpenAI's IPO, with price cuts read as a sign it may not happen at all.\n\n\u5185\u5bb9:\n\u591a\u6761\u65b0\u95fb\u6807\u9898\u6307\u5411 OpenAI IPO \u53ef\u80fd\u63a8\u8fdf\uff0c\u964d\u4ef7\u88ab\u89e3\u8bfb\u4e3a IPO \u751a\u81f3\u53ef\u80fd\u4e0d\u4f1a\u53d1\u751f\u7684\u4fe1\u53f7\u3002\n\nWhy it matters:\nIPO delay plus discounting points to weaker investor demand or internal doubt about valuation \u2014 a direct read on capex-funding capacity for the largest single demand source in the AI buildout thesis.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u52a0\u4e0a\u964d\u4ef7\uff0c\u8bf4\u660e\u6295\u8d44\u4eba\u9700\u6c42\u8d70\u5f31\uff0c\u6216\u516c\u53f8\u5185\u90e8\u5bf9\u4f30\u503c\u6ca1\u5e95\u2014\u2014\u8fd9\u76f4\u63a5\u5173\u7cfb\u5230 AI \u5efa\u8bbe\u5468\u671f\u91cc\u6700\u5927\u5355\u4e00\u9700\u6c42\u65b9\u7684\u878d\u8d44\u80fd\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3215,
-      "ts": 1786463235,
-      "ts_str": "2026-08-11 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX (SPCX) Buys Cursor for $60B Days After IPO \u2014 Will the August Float Unlock End the Rally? - TradingKey",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 10 Aug 2026 22:41:25 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxON0pJalA1ajU5TXJoeW93cTI4c01fckR6MF9kUHJxd3hpaG9zbE54dmJudW5VZ1ZsWWNBSVEzR0dNUDg1MDduUzQyX0tFTnJ5T3lfUGd2TVhfWUtSTVA3Sm1FN1ZBQzkzUlY0eXZMMU9JZkJGRFlGZVplTFpKWkhoeWc3UmNRblhUTW1iald0dWdya2dOU2l2QmpMMUE0czl2dGx3cEd4eTFkX3JHQ01mdTZUOVh1bVBoZFYyUlFB?oc=5\n\nSpaceX (SPCX) Buys Cursor for $60B Days After IPO \u2014 Will the August Float Unlock End the Rally? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxON0pJalA1ajU5TXJoeW93cTI4c01fckR6MF9kUHJxd3hpaG9zbE54dmJudW5VZ1ZsWWNBSVEzR0dNUDg1MDduUzQyX0tFTnJ5T3lfUGd2TVhfWUtSTVA3Sm1FN1ZBQzkzUlY0eXZMMU9JZkJGRFlGZVplTFpKWkhoeWc3UmNRblhUTW1iald0dWdya2dOU2l2QmpMMUE0czl2dGx3cEd4eTFkX3JHQ01mdTZUOVh1bVBoZFYyUlFB?oc=5\" target=\"_blank\">SpaceX (SPCX) Buys Cursor for $60B Days After IPO \u2014 Will the August Float Unlock End the Rally?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports SpaceX (SPCX) buying Cursor for $60B days after its IPO, framed as a question about whether the August float unlock will end the rally.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u79f0 SpaceX\uff08SPCX\uff09\u5728 IPO \u540e\u6570\u65e5\u4ee5 $60B \u6536\u8d2d Cursor\uff0c\u5e76\u63d0\u51fa 8 \u6708\u89e3\u7981\u662f\u5426\u4f1a\u7ec8\u7ed3\u8fd9\u8f6e\u6da8\u52bf\u7684\u7591\u95ee\u3002\n\nWhy it matters:\nThis is speculative news-cycle chatter tied to C11's unlock calendar, not a confirmed regulatory filing \u2014 the acquisition claim and the unlock-timing framing both need independent verification before treating this as a real bubble-stress signal.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u548c C11 \u89e3\u7981\u65e5\u5386\u6302\u94a9\u7684\u65b0\u95fb\u7c7b\u63a8\u6d4b\uff0c\u4e0d\u662f\u786e\u8ba4\u8fc7\u7684\u76d1\u7ba1\u6587\u4ef6\u2014\u2014\u6536\u8d2d\u8bf4\u6cd5\u672c\u8eab\u548c\u300c\u89e3\u7981\u7ec8\u7ed3\u6da8\u52bf\u300d\u8fd9\u4e2a\u6846\u67b6\u90fd\u9700\u8981\u72ec\u7acb\u6838\u5b9e\uff0c\u4e0d\u80fd\u76f4\u63a5\u5f53\u4f5c\u771f\u5b9e\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
