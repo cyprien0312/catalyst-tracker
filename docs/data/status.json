@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787137323,
-  "generated_at_str": "2026-08-19 11:02:03 UTC",
-  "last_event_ts": 1787136422,
+  "generated_at": 1787137523,
+  "generated_at_str": "2026-08-19 11:05:23 UTC",
+  "last_event_ts": 1787137519,
   "tables": {
     "alerts_dedup": {
-      "count": 3413,
-      "last_ts": 1787135716,
-      "last_str": "2026-08-19 10:35:16 UTC"
+      "count": 3414,
+      "last_ts": 1787137519,
+      "last_str": "2026-08-19 11:05:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-19 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4670,
-      "last_ts": 1787135702,
-      "last_str": "2026-08-19 10:35:02 UTC"
+      "count": 4673,
+      "last_ts": 1787137502,
+      "last_str": "2026-08-19 11:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5343,
-      "last_ts": 1787135705,
-      "last_str": "2026-08-19 10:35:05 UTC"
+      "count": 5345,
+      "last_ts": 1787137504,
+      "last_str": "2026-08-19 11:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3539,
-      "last_ts": 1787135704,
-      "last_str": "2026-08-19 10:35:04 UTC"
+      "count": 3542,
+      "last_ts": 1787137503,
+      "last_str": "2026-08-19 11:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4014,
-      "last_ts": 1787135707,
-      "last_str": "2026-08-19 10:35:07 UTC"
+      "count": 4015,
+      "last_ts": 1787137505,
+      "last_str": "2026-08-19 11:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 24886,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3421,
+      "ts": 1787137519,
+      "ts_str": "2026-08-19 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs - Free Press Journal",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 10:38:55 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDNWN3ZxXzIwdTQ0QnJnbVdKVjBjakN6aEZmOUg1bG9jS3dlelZidUR5cW02aENkUkEzRUdhLVBqaGpZUVVpR3A1MDM4clRVS2MzbGxacXZNZjBFZXAxaUZNb2RLQ2RwRHRQa2ZGSWctMklQUk9MTEFDRW1LMWZzRHhEVEJfWlFBMWxrT0FEQXhJVHhZanQ0ZjM1azNvSEozdTJFVC1HVUtRdEIyYWJNb1lzbVNfd9IBuwFBVV95cUxOWnR3WC1KVXpyNDdNR1BibTNpNU9pYjlkaXpCUi1JX3VfY0g3R1NfNG1JejdtR2szZEZWMzR3OUhwLU5nTG54ZHZNdjV3bjkxT2ZGMjBiMnRvdk81QWdSc2staE0wY243VVJfb3BkQUFTaUctS3lpeWhqRUdIRmJvQnJlcEhZMXN1enNSU2sxR2c4cmpZYnltZndjUDJQa3IwNkJSbzhvZ055Mlk0VlRncFJaQ1AtUDVuR1hv?oc=5\n\nSamsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs - Free Press Journal\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDNWN3ZxXzIwdTQ0QnJnbVdKVjBjakN6aEZmOUg1bG9jS3dlelZidUR5cW02aENkUkEzRUdhLVBqaGpZUVVpR3A1MDM4clRVS2MzbGxacXZNZjBFZXAxaUZNb2RLQ2RwRHRQa2ZGSWctMklQUk9MTEFDRW1LMWZzRHhEVEJfWlFBMWxrT0FEQXhJVHhZanQ0ZjM1azNvSEozdTJFVC1HVUtRdEIyYWJNb1lzbVNfd9IBuwFBVV95cUxOWnR3WC1KVXpyNDdNR1BibTNpNU9pYjlkaXpCUi1JX3VfY0g3R1NfNG1JejdtR2szZEZWMzR3OUhwLU5nTG54ZHZNdjV3bjkxT2ZGMjBiMnRvdk81QWdSc2staE0wY243VVJfb3BkQUFTaUctS3lpeWhqRUdIRmJvQnJlcEhZMXN1enNSU2sxR2c4cmpZYnltZndjUDJQa3IwNkJSbzhvZ055Mlk0VlRncFJaQ1AtUDVuR1hv?oc=5\" target=\"_blank\">Samsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Free Press Journal</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Samsung may raise Galaxy foldable prices in India due to rising memory chip costs \u2014 a device-price pass-through story, not a direct DRAM/NAND spot-price report.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u4e09\u661f\u53ef\u80fd\u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u800c\u4e0a\u8c03\u5370\u5ea6\u5e02\u573a Galaxy \u6298\u53e0\u5c4f\u624b\u673a\u552e\u4ef7\u2014\u2014\u8fd9\u662f\u7ec8\u7aef\u8bbe\u5907\u6da8\u4ef7\u7684\u4f20\u5bfc\u62a5\u9053\uff0c\u4e0d\u662f DRAM/NAND \u73b0\u8d27\u4ef7\u683c\u7684\u76f4\u63a5\u6570\u636e\u3002\n\nWhy it matters:\nConfirms memory-chip cost inflation is already reaching consumer-device pricing, consistent with the broader C6 tight-supply thesis, but this is a downstream retail signal rather than primary chip-market data.\n\n\u5f71\u54cd:\n\u8bf4\u660e\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u6d88\u8d39\u7535\u5b50\u5b9a\u4ef7\uff0c\u4e0e C6 \u4f9b\u5e94\u7d27\u5f20\u7684\u6574\u4f53\u5224\u65ad\u4e00\u81f4\uff0c\u4f46\u8fd9\u5c5e\u4e8e\u4e0b\u6e38\u96f6\u552e\u7aef\u4fe1\u53f7\uff0c\u4e0d\u662f\u82af\u7247\u5e02\u573a\u7684\u4e00\u624b\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3420,
       "ts": 1787135716,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching - TechStock\u00b2",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:54:33 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWhQUmx1WXlhMy1Zbmxlek1OOWVTcHpWUEtNMWR4Y1BGTHhoaTQ4dUg1b1I0cjVYVFlKQ2pPd043MGFRQ05NRmNVSThQN0ZzWGxWNndvVUc2TzZoZjNCcmg1MVBVVFBsMFc4YzJGSE5SODhWUkNlQ3AybkdlQTdSaVdjRVBaZlVZaDlzdTNoMkhRSWVYUWc?oc=5\n\nSpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWhQUmx1WXlhMy1Zbmxlek1OOWVTcHpWUEtNMWR4Y1BGTHhoaTQ4dUg1b1I0cjVYVFlKQ2pPd043MGFRQ05NRmNVSThQN0ZzWGxWNndvVUc2TzZoZjNCcmg1MVBVVFBsMFc4YzJGSE5SODhWUkNlQ3AybkdlQTdSaVdjRVBaZlVZaDlzdTNoMkhRSWVYUWc?oc=5\" target=\"_blank\">SpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shares fell below the $135 listing price as the next scheduled share-unlock date approaches.\n\n\u5185\u5bb9:\n\u5728\u4e0b\u4e00\u6b21\u80a1\u4efd\u89e3\u7981\u4e34\u8fd1\u4e4b\u9645\uff0cSPCX \u80a1\u4ef7\u8dcc\u7834 $135 \u7684\u4e0a\u5e02\u53d1\u884c\u4ef7\u3002\n\nWhy it matters:\nTrading below the IPO reference price right before a lock-up expiry signals the market is front-running the coming supply increase \u2014 insiders and early holders get to sell into a market that's already soft, which tends to compound the drawdown rather than absorb it cleanly.\n\n\u5f71\u54cd:\n\u89e3\u7981\u524d\u80a1\u4ef7\u5df2\u7ecf\u8dcc\u7834\u53d1\u884c\u4ef7\uff0c\u8bf4\u660e\u5e02\u573a\u5728\u63d0\u524d\u6d88\u5316\u5373\u5c06\u589e\u52a0\u7684\u6d41\u901a\u4f9b\u7ed9\u2014\u2014\u5185\u90e8\u4eba\u548c\u65e9\u671f\u80a1\u4e1c\u8981\u5356\u5230\u4e00\u4e2a\u672c\u5c31\u75b2\u8f6f\u7684\u5e02\u573a\u91cc\uff0c\u8fd9\u901a\u5e38\u4f1a\u653e\u5927\u8dcc\u52bf\uff0c\u800c\u4e0d\u662f\u88ab\u5e73\u7a33\u5438\u6536\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3221,
-      "ts": 1786475657,
-      "ts_str": "2026-08-11 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI raised $7 billion in a sale, with speculation this fuels an eventual IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u5b8c\u6210 70 \u4ebf\u7f8e\u5143\u7684\u4e00\u7b14\u51fa\u552e\u4ea4\u6613\uff0c\u5e02\u573a\u731c\u6d4b\u8fd9\u4f1a\u4e3a\u5176 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nThis is unconfirmed capital-raise/IPO chatter rather than a hard filing or burn-rate metric, so it's a MED-severity soft signal \u2014 it flags market attention on OpenAI's funding trajectory without yet showing whether the money offsets or masks rising compute costs.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\u878d\u8d44/IPO \u4f20\u95fb\uff0c\u4e0d\u662f\u786c\u6027 filing \u6216 burn rate \u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7b97 MED \u7ea7\u522b\u7684\u8f6f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u5e02\u573a\u5728\u5173\u6ce8 OpenAI \u7684\u878d\u8d44\u8d70\u5411\uff0c\u4f46\u8fd8\u770b\u4e0d\u51fa\u8fd9\u7b14\u94b1\u662f\u7f13\u89e3\u4e86\u8fd8\u662f\u63a9\u76d6\u4e86\u4e0d\u65ad\u4e0a\u5347\u7684\u7b97\u529b\u6210\u672c\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
