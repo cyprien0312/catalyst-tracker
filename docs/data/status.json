@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787139123,
-  "generated_at_str": "2026-08-19 11:32:03 UTC",
-  "last_event_ts": 1787138046,
+  "generated_at": 1787139317,
+  "generated_at_str": "2026-08-19 11:35:17 UTC",
+  "last_event_ts": 1787139316,
   "tables": {
     "alerts_dedup": {
-      "count": 3414,
-      "last_ts": 1787137519,
-      "last_str": "2026-08-19 11:05:19 UTC"
+      "count": 3415,
+      "last_ts": 1787139316,
+      "last_str": "2026-08-19 11:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-08-19 11:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5345,
-      "last_ts": 1787137504,
-      "last_str": "2026-08-19 11:05:04 UTC"
+      "count": 5347,
+      "last_ts": 1787139305,
+      "last_str": "2026-08-19 11:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3542,
@@ -94,9 +94,9 @@
       "last_str": "2026-08-19 11:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4015,
-      "last_ts": 1787137505,
-      "last_str": "2026-08-19 11:05:05 UTC"
+      "count": 4017,
+      "last_ts": 1787139307,
+      "last_str": "2026-08-19 11:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 24893,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3422,
+      "ts": 1787139316,
+      "ts_str": "2026-08-19 11:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Display Panel Prices 2026: Tracker Report Shows LCD TV Panels Rising as Memory Chip Shortage Squeezes Supply - openPR.co",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 11:17:15 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTM2aXRWNlFydHgxRjZiUTFkRHhhUEtFUDdXU3hIZ2M3VmFYN2hhUVlKdlFham93MUx0czR0NmtFSGdkZWlMUllmNXdNMDhyUW5wamxFMFo2UHIydFh6dFpfd0N3WHZaeWowVUR3RmtHenY4YVJTcURRb05aWDYwdGhNbHYxNUtTWXBwTFd0dk5veklhajJuU3ptQXA?oc=5\n\nDisplay Panel Prices 2026: Tracker Report Shows LCD TV Panels Rising as Memory Chip Shortage Squeezes Supply - openPR.com\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTM2aXRWNlFydHgxRjZiUTFkRHhhUEtFUDdXU3hIZ2M3VmFYN2hhUVlKdlFham93MUx0czR0NmtFSGdkZWlMUllmNXdNMDhyUW5wamxFMFo2UHIydFh6dFpfd0N3WHZaeWowVUR3RmtHenY4YVJTcURRb05aWDYwdGhNbHYxNUtTWXBwTFd0dk5veklhajJuU3ptQXA?oc=5\" target=\"_blank\">Display Panel Prices 2026: Tracker Report Shows LCD TV Panels Rising as Memory Chip Shortage Squeezes Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">openPR.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tracker report shows LCD TV panel prices rising as a memory-chip shortage squeezes upstream supply.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u8ddf\u8e2a\u62a5\u544a\u663e\u793a\uff0c\u968f\u7740\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u6324\u538b\u4e0a\u6e38\u4f9b\u5e94\uff0cLCD \u7535\u89c6\u9762\u677f\u4ef7\u683c\u6b63\u5728\u4e0a\u6da8\u3002\n\nWhy it matters:\nConfirms the memory-price-stress signal C6 tracks: DRAM/NAND tightness is now visibly passing through to downstream device pricing, evidence the shortage is real demand-driven scarcity (plausibly AI-driven HBM/DRAM allocation) rather than isolated noise.\n\n\u5f71\u54cd:\n\u8fd9\u5370\u8bc1\u4e86 C6 \u5173\u6ce8\u7684\u5185\u5b58\u4ef7\u683c\u538b\u529b\u4fe1\u53f7\uff1aDRAM/NAND \u7684\u7d27\u5f20\u5df2\u7ecf\u660e\u663e\u4f20\u5bfc\u5230\u4e0b\u6e38\u8bbe\u5907\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u8f6e\u77ed\u7f3a\u662f\u771f\u5b9e\u7684\u9700\u6c42\u7aef\u7a00\u7f3a\uff08\u5f88\u53ef\u80fd\u662f AI \u62c9\u52a8\u7684 HBM/DRAM \u5206\u914d\uff09\uff0c\u800c\u4e0d\u662f\u5b64\u7acb\u566a\u97f3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3421,
       "ts": 1787137519,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Loses Veteran COO Brad Lightcap as IPO Preparations Intensify - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:17:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1VdjJxNWNEYmczZVI3UGtnRkhobUJacDdFR0JnY3Yxc3VFaENzeloxWlVBS2hrUVVIeDN6cjN6WmlvaldEMjFmVTl4QldnX1FodG1nMjZ4T0dyWElGRjFYYWxRNm9CRm5CdnQxa2xqdS1SRDI1NHc?oc=5\n\nOpenAI Loses Veteran COO Brad Lightcap as IPO Preparations Intensify - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1VdjJxNWNEYmczZVI3UGtnRkhobUJacDdFR0JnY3Yxc3VFaENzeloxWlVBS2hrUVVIeDN6cjN6WmlvaldEMjFmVTl4QldnX1FodG1nMjZ4T0dyWElGRjFYYWxRNm9CRm5CdnQxa2xqdS1SRDI1NHc?oc=5\" target=\"_blank\">OpenAI Loses Veteran COO Brad Lightcap as IPO Preparations Intensify</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's longtime COO Brad Lightcap is departing as the company intensifies preparations for an IPO.\n\n\u5185\u5bb9:\nOpenAI \u8d44\u6df1 COO Brad Lightcap \u79bb\u804c\uff0c\u6b63\u503c\u516c\u53f8\u52a0\u7d27\u7b79\u5907 IPO\u3002\n\nWhy it matters:\nA senior executive exit right before an IPO push is a governance/stability signal worth tracking, but on its own it's a personnel headline, not a capex or burn-rate data point \u2014 it stays at MED unless paired with a harder metric.\n\n\u5f71\u54cd:\nIPO \u51b2\u523a\u524d\u6838\u5fc3\u9ad8\u7ba1\u79bb\u804c\uff0c\u662f\u6cbb\u7406\u548c\u7a33\u5b9a\u6027\u5c42\u9762\u503c\u5f97\u5173\u6ce8\u7684\u4fe1\u53f7\uff0c\u4f46\u5355\u72ec\u770b\u53ea\u662f\u4eba\u4e8b\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u8d44\u672c\u5f00\u652f\u6216\u70e7\u94b1\u901f\u5ea6\u8fd9\u7c7b\u786c\u6307\u6807\uff0c\u6240\u4ee5\u7ef4\u6301 MED\uff0c\u9664\u975e\u914d\u5408\u66f4\u786c\u7684\u6570\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3222,
-      "ts": 1786477636,
-      "ts_str": "2026-08-11 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching - TechStock\u00b2",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:54:33 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWhQUmx1WXlhMy1Zbmxlek1OOWVTcHpWUEtNMWR4Y1BGTHhoaTQ4dUg1b1I0cjVYVFlKQ2pPd043MGFRQ05NRmNVSThQN0ZzWGxWNndvVUc2TzZoZjNCcmg1MVBVVFBsMFc4YzJGSE5SODhWUkNlQ3AybkdlQTdSaVdjRVBaZlVZaDlzdTNoMkhRSWVYUWc?oc=5\n\nSpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWhQUmx1WXlhMy1Zbmxlek1OOWVTcHpWUEtNMWR4Y1BGTHhoaTQ4dUg1b1I0cjVYVFlKQ2pPd043MGFRQ05NRmNVSThQN0ZzWGxWNndvVUc2TzZoZjNCcmg1MVBVVFBsMFc4YzJGSE5SODhWUkNlQ3AybkdlQTdSaVdjRVBaZlVZaDlzdTNoMkhRSWVYUWc?oc=5\" target=\"_blank\">SpaceX Stock (SPCX) Dips Under $135 Listing Price With Next Share Unlock Approaching</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shares fell below the $135 listing price as the next scheduled share-unlock date approaches.\n\n\u5185\u5bb9:\n\u5728\u4e0b\u4e00\u6b21\u80a1\u4efd\u89e3\u7981\u4e34\u8fd1\u4e4b\u9645\uff0cSPCX \u80a1\u4ef7\u8dcc\u7834 $135 \u7684\u4e0a\u5e02\u53d1\u884c\u4ef7\u3002\n\nWhy it matters:\nTrading below the IPO reference price right before a lock-up expiry signals the market is front-running the coming supply increase \u2014 insiders and early holders get to sell into a market that's already soft, which tends to compound the drawdown rather than absorb it cleanly.\n\n\u5f71\u54cd:\n\u89e3\u7981\u524d\u80a1\u4ef7\u5df2\u7ecf\u8dcc\u7834\u53d1\u884c\u4ef7\uff0c\u8bf4\u660e\u5e02\u573a\u5728\u63d0\u524d\u6d88\u5316\u5373\u5c06\u589e\u52a0\u7684\u6d41\u901a\u4f9b\u7ed9\u2014\u2014\u5185\u90e8\u4eba\u548c\u65e9\u671f\u80a1\u4e1c\u8981\u5356\u5230\u4e00\u4e2a\u672c\u5c31\u75b2\u8f6f\u7684\u5e02\u573a\u91cc\uff0c\u8fd9\u901a\u5e38\u4f1a\u653e\u5927\u8dcc\u52bf\uff0c\u800c\u4e0d\u662f\u88ab\u5e73\u7a33\u5438\u6536\u3002\n",
       "emailed": false
     }
   ],
