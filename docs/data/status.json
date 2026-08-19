@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787148662,
-  "generated_at_str": "2026-08-19 14:11:02 UTC",
-  "last_event_ts": 1787148318,
+  "generated_at": 1787148861,
+  "generated_at_str": "2026-08-19 14:14:21 UTC",
+  "last_event_ts": 1787148860,
   "tables": {
     "alerts_dedup": {
-      "count": 3416,
-      "last_ts": 1787148318,
-      "last_str": "2026-08-19 14:05:18 UTC"
+      "count": 3417,
+      "last_ts": 1787148860,
+      "last_str": "2026-08-19 14:14:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-18 23:00:30 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4357,
-      "last_ts": 1787145246,
-      "last_str": "2026-08-19 13:14:06 UTC"
+      "count": 4358,
+      "last_ts": 1787148844,
+      "last_str": "2026-08-19 14:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 984,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-19 14:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 24929,
-      "last_ts": 1787147043,
-      "last_str": "2026-08-19 13:44:03 UTC"
+      "count": 24936,
+      "last_ts": 1787148842,
+      "last_str": "2026-08-19 14:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7009,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3424,
+      "ts": 1787148860,
+      "ts_str": "2026-08-19 14:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic Just Doubled OpenAI\u2019s Revenue. Is Its $2 Trillion IPO Getting Too Much Hype? - 24/7 Wall St.",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 14:00:52 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHJYdllPb1Q5T1M0UFI2RlNuR2JHT3RVUjV3OWVkSy1MaVZERmo2STZXd0wydW9MQW1tRUhMaHAzZk9jVGlGMlhvdVNLcWxQN3dtbjQzem0wa2RlaGdsclJoUDFtaVRQOGx3RHJXMktqX1AyTUc3VXM5QXlRRk1ER29BU2swVExRbGJ4NDFSVkhUTjhRQjBqOTFzRnlCbjdNQkVUS2IzSU9VUUJURlNKUDhjV3NKYkRiME5MZmJfYmQ0RFNF?oc=5\n\nAnthropic Just Doubled OpenAI\u2019s Revenue. Is Its $2 Trillion IPO Getting Too Much Hype? - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPbHJYdllPb1Q5T1M0UFI2RlNuR2JHT3RVUjV3OWVkSy1MaVZERmo2STZXd0wydW9MQW1tRUhMaHAzZk9jVGlGMlhvdVNLcWxQN3dtbjQzem0wa2RlaGdsclJoUDFtaVRQOGx3RHJXMktqX1AyTUc3VXM5QXlRRk1ER29BU2swVExRbGJ4NDFSVkhUTjhRQjBqOTFzRnlCbjdNQkVUS2IzSU9VUUJURlNKUDhjV3NKYkRiME5MZmJfYmQ0RFNF?oc=5\" target=\"_blank\">Anthropic Just Doubled OpenAI\u2019s Revenue. Is Its $2 Trillion IPO Getting Too Much Hype?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline claims Anthropic's revenue has now doubled OpenAI's, raising questions about whether OpenAI's reported ~$2 trillion IPO valuation is overhyped.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 Anthropic \u7684\u8425\u6536\u5df2\u662f OpenAI \u7684\u4e24\u500d\uff0c\u8fdb\u800c\u8d28\u7591 OpenAI \u7ea6 2 \u4e07\u4ebf\u7f8e\u5143 IPO \u4f30\u503c\u662f\u5426\u88ab\u8fc7\u5ea6\u7092\u4f5c\u3002\n\nWhy it matters:\nIf accurate, this directly challenges the revenue-multiple assumptions underpinning OpenAI's valuation and the broader AI-capex buildout narrative that OpenAI's growth trajectory helps justify \u2014 but this is speculative commentary, not a filed disclosure, so it should be weighted as noise unless corroborated by hard numbers.\n\n\u5f71\u54cd:\n\u5982\u679c\u5c5e\u5b9e\uff0c\u8fd9\u4f1a\u76f4\u63a5\u51b2\u51fb\u652f\u6491 OpenAI \u4f30\u503c\u7684\u8425\u6536\u500d\u6570\u5047\u8bbe\uff0c\u4e5f\u52a8\u6447\u4e86 OpenAI \u589e\u957f\u6545\u4e8b\u5bf9\u6574\u4e2a AI capex \u6269\u5f20\u53d9\u4e8b\u7684\u652f\u6491\u4f5c\u7528\uff1b\u4f46\u8fd9\u53ea\u662f\u5a92\u4f53\u731c\u6d4b\uff0c\u4e0d\u662f\u6b63\u5f0f\u62ab\u9732\uff0c\u6ca1\u6709\u786c\u6570\u5b57\u4f50\u8bc1\u524d\u5e94\u5f53\u5f53\u566a\u97f3\u5904\u7406\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3423,
       "ts": 1787148318,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - uk.finance.yahoo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGNsWkhRUUVXRTlTWTY3dDhpS2FOY3hFSVB0QlUxdXpvbnRXanNkNFQ0QjBjM3VQQV9sSmtwX2dqQk1qd1JmSFZmbXhWdUh1cFJfWWNHT2dwcUNTeXdoOU51cGtobGhWOE9DcG5ZRVd2aFI2UlN3NGE1QWRQeUhLSXZjSQ?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - uk.finance.yahoo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNVGNsWkhRUUVXRTlTWTY3dDhpS2FOY3hFSVB0QlUxdXpvbnRXanNkNFQ0QjBjM3VQQV9sSmtwX2dqQk1qd1JmSFZmbXhWdUh1cFJfWWNHT2dwcUNTeXdoOU51cGtobGhWOE9DcG5ZRVd2aFI2UlN3NGE1QWRQeUhLSXZjSQ?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uk.finance.yahoo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI raised $7 billion in a sale, with speculation this fuels an eventual IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u5b8c\u6210 70 \u4ebf\u7f8e\u5143\u7684\u4e00\u7b14\u51fa\u552e\u4ea4\u6613\uff0c\u5e02\u573a\u731c\u6d4b\u8fd9\u4f1a\u4e3a\u5176 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nThis is unconfirmed capital-raise/IPO chatter rather than a hard filing or burn-rate metric, so it's a MED-severity soft signal \u2014 it flags market attention on OpenAI's funding trajectory without yet showing whether the money offsets or masks rising compute costs.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\u878d\u8d44/IPO \u4f20\u95fb\uff0c\u4e0d\u662f\u786c\u6027 filing \u6216 burn rate \u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7b97 MED \u7ea7\u522b\u7684\u8f6f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u5e02\u573a\u5728\u5173\u6ce8 OpenAI \u7684\u878d\u8d44\u8d70\u5411\uff0c\u4f46\u8fd8\u770b\u4e0d\u51fa\u8fd9\u7b14\u94b1\u662f\u7f13\u89e3\u4e86\u8fd8\u662f\u63a9\u76d6\u4e86\u4e0d\u65ad\u4e0a\u5347\u7684\u7b97\u529b\u6210\u672c\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3224,
-      "ts": 1786481236,
-      "ts_str": "2026-08-11 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] 911 Million Shares Unlocked: Why SpaceX Rallied Into Its Own Supply - Bitcoin World",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 19:15:11 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE4ySGJnY1VmOXVwcmg5N3NvbVJyLTNsZDlscDFHMkEzUmpEcVNFU09Tbm9GdEhNNHBkOHpjZnBDT1M3eVJ4TTZoUmVabVlSQ2M4S0JtOVlfckhkSXJFU2ZmTVdNclJxWFFSZl9Sc1o5VWxBWDZPM0Fv?oc=5\n\n911 Million Shares Unlocked: Why SpaceX Rallied Into Its Own Supply - Bitcoin World\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE4ySGJnY1VmOXVwcmg5N3NvbVJyLTNsZDlscDFHMkEzUmpEcVNFU09Tbm9GdEhNNHBkOHpjZnBDT1M3eVJ4TTZoUmVabVlSQ2M4S0JtOVlfckhkSXJFU2ZmTVdNclJxWFFSZl9Sc1o5VWxBWDZPM0Fv?oc=5\" target=\"_blank\">911 Million Shares Unlocked: Why SpaceX Rallied Into Its Own Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitcoin World</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX rallied following the unlock of 911 million shares, with the article framing the buying pressure as absorbing its own new supply rather than being suppressed by it.\n\n\u5185\u5bb9:\nSpaceX \u89e3\u7981 9.11 \u4ebf\u80a1\u540e\u80a1\u4ef7\u53cd\u800c\u4e0a\u6da8\uff0c\u62a5\u9053\u5c06\u5176\u89e3\u8bfb\u4e3a\u516c\u53f8\u81ea\u5df1\u6d88\u5316\u4e86\u8fd9\u6ce2\u65b0\u589e\u4f9b\u7ed9\uff0c\u800c\u975e\u88ab\u6253\u538b\u3002\n\nWhy it matters:\nA large unlock hitting the market without a price drop signals strong absorbed demand \u2014 a bullish tell for SpaceX-linked passive flows and index-mechanics positioning, worth tracking against the broader lock-up tranche calendar for follow-through or reversal.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u6ca1\u6709\u538b\u57ae\u80a1\u4ef7\uff0c\u8bf4\u660e\u5e02\u573a\u627f\u63a5\u529b\u5f88\u5f3a\u2014\u2014\u5bf9 SpaceX \u76f8\u5173\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u548c\u6307\u6570\u673a\u5236\u4ed3\u4f4d\u662f\u5229\u591a\u4fe1\u53f7\uff0c\u503c\u5f97\u5bf9\u7167\u89e3\u7981\u6279\u6b21\u65e5\u5386\u770b\u540e\u7eed\u662f\u5ef6\u7eed\u8fd8\u662f\u56de\u843d\u3002\n",
       "emailed": false
     }
   ],
