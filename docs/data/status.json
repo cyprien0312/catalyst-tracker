@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787113923,
-  "generated_at_str": "2026-08-19 04:32:03 UTC",
-  "last_event_ts": 1787112844,
+  "generated_at": 1787114131,
+  "generated_at_str": "2026-08-19 04:35:31 UTC",
+  "last_event_ts": 1787114130,
   "tables": {
     "alerts_dedup": {
-      "count": 3408,
-      "last_ts": 1787092155,
-      "last_str": "2026-08-18 22:29:15 UTC"
+      "count": 3410,
+      "last_ts": 1787114130,
+      "last_str": "2026-08-19 04:35:30 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-19 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4648,
-      "last_ts": 1787106901,
-      "last_str": "2026-08-19 02:35:01 UTC"
+      "count": 4649,
+      "last_ts": 1787114107,
+      "last_str": "2026-08-19 04:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5310,
-      "last_ts": 1787112304,
-      "last_str": "2026-08-19 04:05:04 UTC"
+      "count": 5313,
+      "last_ts": 1787114108,
+      "last_str": "2026-08-19 04:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3516,
-      "last_ts": 1787112303,
-      "last_str": "2026-08-19 04:05:03 UTC"
+      "count": 3517,
+      "last_ts": 1787114107,
+      "last_str": "2026-08-19 04:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4000,
-      "last_ts": 1787112304,
-      "last_str": "2026-08-19 04:05:04 UTC"
+      "count": 4001,
+      "last_ts": 1787114109,
+      "last_str": "2026-08-19 04:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 24834,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3416,
+      "ts": 1787114130,
+      "ts_str": "2026-08-19 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UBS Reiterates $1,625 Target on Micron, Citing HBM Price Boom Amid Supply Crunch - kaohoon international",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 04:20:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiYEFVX3lxTE44RzNPNE5KWXVLQmV6TlgtOGhWS0hzMlc0UXdaMGM0ZGxNV2JyeXQtR1o4cGNHZENHOGxBOW5Fc05ndGhyYUlfLXNXRUpqX3RsWE14bEFqbTJWTXBCZjZKdg?oc=5\n\nUBS Reiterates $1,625 Target on Micron, Citing HBM Price Boom Amid Supply Crunch - kaohoon international\n\n<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE44RzNPNE5KWXVLQmV6TlgtOGhWS0hzMlc0UXdaMGM0ZGxNV2JyeXQtR1o4cGNHZENHOGxBOW5Fc05ndGhyYUlfLXNXRUpqX3RsWE14bEFqbTJWTXBCZjZKdg?oc=5\" target=\"_blank\">UBS Reiterates $1,625 Target on Micron, Citing HBM Price Boom Amid Supply Crunch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">kaohoon international</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUBS reiterated a $1,625 price target on Micron, citing an HBM price boom driven by a supply crunch.\n\n\u5185\u5bb9:\nUBS \u91cd\u7533\u5bf9 Micron \u7684 $1,625 \u76ee\u6807\u4ef7\uff0c\u7406\u7531\u662f\u4f9b\u5e94\u7d27\u5f20\u63a8\u52a8 HBM \u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising HBM prices signal AI-chip memory demand is outstripping supply, which supports the capex-spend thesis short-term but also raises input costs across the AI hardware stack \u2014 a squeeze that eventually pressures margins for buyers.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e AI \u82af\u7247\u7684\u5185\u5b58\u9700\u6c42\u8dd1\u8d62\u4e86\u4f9b\u7ed9\uff0c\u77ed\u671f\u652f\u6491\u8d44\u672c\u5f00\u652f\u53d9\u4e8b\uff0c\u4f46\u4e5f\u63a8\u9ad8\u4e86\u6574\u6761 AI \u786c\u4ef6\u94fe\u7684\u6210\u672c\u2014\u2014\u8fd9\u79cd\u6324\u538b\u6700\u7ec8\u4f1a\u538b\u5230\u4e0b\u6e38\u4e70\u5bb6\u7684\u5229\u6da6\u7387\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3417,
+      "ts": 1787114130,
+      "ts_str": "2026-08-19 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Xiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage - sekbernews.id",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 01:20:18 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE5BZTRJRFFRMkdjbmk4ZVh5UG02S3RMWmk0VnVPRm01MTUxenRhQ3JlYlhIc1BxNU5WYk1Ia2tQNzJsNTRZWGFJXzY0THlHMEhCZmxkRXBlenVFZG1KZGRRUkpadHQ3UndxdHFTRXhUWmZWNzV3?oc=5\n\nXiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5BZTRJRFFRMkdjbmk4ZVh5UG02S3RMWmk0VnVPRm01MTUxenRhQ3JlYlhIc1BxNU5WYk1Ia2tQNzJsNTRZWGFJXzY0THlHMEhCZmxkRXBlenVFZG1KZGRRUkpadHQ3UndxdHFTRXhUWmZWNzV3?oc=5\" target=\"_blank\">Xiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nXiaomi's net income fell 43% amid a memory-chip (DRAM/NAND) shortage, per RSS reporting.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cXiaomi \u56e0\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\uff0c\u51c0\u5229\u6da6\u4e0b\u6ed1 43%\u3002\n\nWhy it matters:\nA named hyperscaler-adjacent device maker taking a direct earnings hit from memory scarcity confirms the shortage is already flowing through to P&L, not just spot prices \u2014 reinforces the memory-tightness leg of the AI-capex bubble-stress thesis (upstream component scarcity constraining downstream builders).\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4e0e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4f9b\u5e94\u94fe\u76f8\u90bb\u7684\u7ec8\u7aef\u5382\u5546\uff0c\u5229\u6da6\u5df2\u7ecf\u88ab\u5185\u5b58\u77ed\u7f3a\u76f4\u63a5\u6253\u7a7f\uff0c\u8bf4\u660e\u8fd9\u8f6e\u7d27\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u635f\u76ca\u8868\uff0c\u4e0d\u53ea\u662f\u73b0\u8d27\u4ef7\u683c\u5728\u6da8\u3002\u8fd9\u5370\u8bc1\u4e86 AI capex \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u5185\u5b58\u7d27\u7f3a\u8fd9\u4e00\u6761\u817f\u2014\u2014\u4e0a\u6e38\u5143\u4ef6\u7a00\u7f3a\u6b63\u5728\u5236\u7ea6\u4e0b\u6e38\u5382\u5546\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3415,
       "ts": 1787092155,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - Yahoo! Finance Canada",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmt6Ml80RC1iQTBYdjVERmlRSTEzOTJIV181SUFobDVWR3ZEM1YzODYtLW9WQjY5eDg4bV81Q3pBbWVpTVhmd1lTZUdoTU9TVGZqeEJWclQ0S1JZVWdhYTZuNlNiZ0VuekZtVDY4d0lSUklMTXNaWXdBbHotbXZrQ0ZTZw?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - Yahoo! Finance Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNQmt6Ml80RC1iQTBYdjVERmlRSTEzOTJIV181SUFobDVWR3ZEM1YzODYtLW9WQjY5eDg4bV81Q3pBbWVpTVhmd1lTZUdoTU9TVGZqeEJWclQ0S1JZVWdhYTZuNlNiZ0VuekZtVDY4d0lSUklMTXNaWXdBbHotbXZrQ0ZTZw?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports OpenAI raised $7B in a share sale, feeding IPO speculation \u2014 no filing, no financials disclosed.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u901a\u8fc7\u80a1\u4efd\u51fa\u552e\u52df\u5f97 $7B\uff0c\u5f15\u53d1 IPO \u731c\u6d4b\u2014\u2014\u6ca1\u6709 filing\uff0c\u4e5f\u6ca1\u6709\u62ab\u9732\u8d22\u52a1\u6570\u636e\u3002\n\nWhy it matters:\nPure secondary-market/valuation chatter, not a burn-rate or filing signal \u2014 C3's MED tier catches this kind of noise; it doesn't move the bubble-stress thesis on its own.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u4e8c\u7ea7\u5e02\u573a\u4f30\u503c\u5c42\u9762\u7684\u4f20\u95fb\uff0c\u4e0d\u662f\u70e7\u94b1\u901f\u5ea6\u6216 filing \u4fe1\u53f7\u2014\u2014\u5c5e\u4e8e C3 MED \u6863\u7684\u566a\u97f3\uff0c\u5355\u72ec\u770b\u5bf9\u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u6ca1\u6709\u63a8\u8fdb\u4f5c\u7528\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3217,
-      "ts": 1786472057,
-      "ts_str": "2026-08-11 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's IPO Countdown Gets a $7 Billion Boost - cheddar.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 17:36:17 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxQRDBtd09ZQ25XcVVEc0FTRnByME9LeXRzWV9wd25NWFJxRHpDTUU1cFQtSzhuaVBnTTREMU4xNTM1NmVqM1ZmblRjREdmQ1k4Z0gxbXFsaFdkeXNna2FnUlBpRno2OTlDLUJWbVhweFBUWXJoY1RmMml0M3k2OC1QYQ?oc=5\n\nOpenAI's IPO Countdown Gets a $7 Billion Boost - cheddar.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQRDBtd09ZQ25XcVVEc0FTRnByME9LeXRzWV9wd25NWFJxRHpDTUU1cFQtSzhuaVBnTTREMU4xNTM1NmVqM1ZmblRjREdmQ1k4Z0gxbXFsaFdkeXNna2FnUlBpRno2OTlDLUJWbVhweFBUWXJoY1RmMml0M3k2OC1QYQ?oc=5\" target=\"_blank\">OpenAI's IPO Countdown Gets a $7 Billion Boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cheddar.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports OpenAI's IPO process getting a $7B boost \u2014 no filing, ticker, or hard number attached, just headline-level speculation.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u8fdb\u7a0b\u83b7\u5f97 $7B \u7684\u63a8\u52a8\u2014\u2014\u6ca1\u6709\u5177\u4f53 filing\u3001ticker \u6216\u786c\u6570\u5b57\uff0c\u53ea\u662f\u6807\u9898\u7ea7\u522b\u7684\u731c\u6d4b\u3002\n\nWhy it matters:\nThis is C3's noisiest signal channel \u2014 IPO chatter fires MED constantly and carries little diagnostic weight on its own, but repeated IPO-track headlines do build the narrative that OpenAI needs external capital markets access sooner rather than later.\n\n\u5f71\u54cd:\n\u8fd9\u7c7b IPO \u4f20\u95fb\u662f C3 \u91cc\u6700\u5435\u7684\u4e00\u7c7b\u4fe1\u53f7\uff0c\u5355\u6761 MED \u53c2\u8003\u4ef7\u503c\u6709\u9650\uff1b\u4f46\u8fde\u7eed\u51fa\u73b0\u7684 IPO \u8fdb\u5c55\u65b0\u95fb\uff0c\u4f1a\u5f3a\u5316 OpenAI \u9700\u8981\u5c3d\u5feb\u5bf9\u63a5\u516c\u5f00\u5e02\u573a\u878d\u8d44\u8fd9\u6761\u53d9\u4e8b\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3216,
-      "ts": 1786466656,
-      "ts_str": "2026-08-11 16:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All - MarketWise",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 15:05:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxQWGxGeXRmZ0hrWFo3cnBERWRBdFBZcGxxRU41OFJwc2N3Sk1xVXMyQ2pnMFdHbFl0THVMeGI4OE1SU2pIQzlBcHdXc1ZVSkdRVGt1aXBiMG5SR1VIM240TGU0TmFhSVlqVGF3ZmdfR19hM05jcm5ScW5PMkhCUkhWMDZB?oc=5\n\nOpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All - MarketWise\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQWGxGeXRmZ0hrWFo3cnBERWRBdFBZcGxxRU41OFJwc2N3Sk1xVXMyQ2pnMFdHbFl0THVMeGI4OE1SU2pIQzlBcHdXc1ZVSkdRVGt1aXBiMG5SR1VIM240TGU0TmFhSVlqVGF3ZmdfR19hM05jcm5ScW5PMkhCUkhWMDZB?oc=5\" target=\"_blank\">OpenAI IPO Delay: Just the Start? Price Cuts Hint It May Not Happen at All</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWise</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA cluster of headlines flags a possible delay to OpenAI's IPO, with price cuts read as a sign it may not happen at all.\n\n\u5185\u5bb9:\n\u591a\u6761\u65b0\u95fb\u6807\u9898\u6307\u5411 OpenAI IPO \u53ef\u80fd\u63a8\u8fdf\uff0c\u964d\u4ef7\u88ab\u89e3\u8bfb\u4e3a IPO \u751a\u81f3\u53ef\u80fd\u4e0d\u4f1a\u53d1\u751f\u7684\u4fe1\u53f7\u3002\n\nWhy it matters:\nIPO delay plus discounting points to weaker investor demand or internal doubt about valuation \u2014 a direct read on capex-funding capacity for the largest single demand source in the AI buildout thesis.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u52a0\u4e0a\u964d\u4ef7\uff0c\u8bf4\u660e\u6295\u8d44\u4eba\u9700\u6c42\u8d70\u5f31\uff0c\u6216\u516c\u53f8\u5185\u90e8\u5bf9\u4f30\u503c\u6ca1\u5e95\u2014\u2014\u8fd9\u76f4\u63a5\u5173\u7cfb\u5230 AI \u5efa\u8bbe\u5468\u671f\u91cc\u6700\u5927\u5355\u4e00\u9700\u6c42\u65b9\u7684\u878d\u8d44\u80fd\u529b\u3002\n",
       "emailed": false
     }
   ],
