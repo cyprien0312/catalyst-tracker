@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787135524,
-  "generated_at_str": "2026-08-19 10:32:04 UTC",
-  "last_event_ts": 1787134454,
+  "generated_at": 1787135717,
+  "generated_at_str": "2026-08-19 10:35:17 UTC",
+  "last_event_ts": 1787135716,
   "tables": {
     "alerts_dedup": {
-      "count": 3412,
-      "last_ts": 1787134454,
-      "last_str": "2026-08-19 10:14:14 UTC"
+      "count": 3413,
+      "last_ts": 1787135716,
+      "last_str": "2026-08-19 10:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-19 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4668,
-      "last_ts": 1787132102,
-      "last_str": "2026-08-19 09:35:02 UTC"
+      "count": 4670,
+      "last_ts": 1787135702,
+      "last_str": "2026-08-19 10:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5341,
-      "last_ts": 1787132105,
-      "last_str": "2026-08-19 09:35:05 UTC"
+      "count": 5343,
+      "last_ts": 1787135705,
+      "last_str": "2026-08-19 10:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3538,
-      "last_ts": 1787133904,
-      "last_str": "2026-08-19 10:05:04 UTC"
+      "count": 3539,
+      "last_ts": 1787135704,
+      "last_str": "2026-08-19 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4011,
-      "last_ts": 1787133906,
-      "last_str": "2026-08-19 10:05:06 UTC"
+      "count": 4014,
+      "last_ts": 1787135707,
+      "last_str": "2026-08-19 10:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 24883,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3420,
+      "ts": 1787135716,
+      "ts_str": "2026-08-19 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Server Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks - www1.ru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 06:58:39 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTdIBvAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTQ?oc=5\n\nServer Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks - www1.ru\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTdIBvAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTQ?oc=5\" target=\"_blank\">Server Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www1.ru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Russian-language report claims memory prices in Russia surged 20x, attributed to AI/neural-network demand.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u4fc4\u8bed\u62a5\u9053\u79f0\uff0c\u53d7\u795e\u7ecf\u7f51\u7edc\u9700\u6c42\u9a71\u52a8\uff0c\u4fc4\u7f57\u65af\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 20 \u500d\u3002\n\nWhy it matters:\nIf accurate, this is an extreme version of the DRAM/NAND supply squeeze already feeding into hyperscaler capex costs \u2014 AI demand crowding out other buyers. But a single unsourced 20x figure from one regional market warrants skepticism before treating it as a global signal.\n\n\u5f71\u54cd:\n\u5982\u679c\u5c5e\u5b9e\uff0c\u8fd9\u662f DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u7684\u6781\u7aef\u7248\u672c\u2014\u2014AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4efd\u989d\uff0c\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u3002\u4f46\u5355\u4e00\u533a\u57df\u5e02\u573a\u3001\u65e0\u4fe1\u6e90\u652f\u6491\u7684 20 \u500d\u6570\u5b57\uff0c\u5728\u5f53\u4f5c\u5168\u7403\u4fe1\u53f7\u4e4b\u524d\u5f97\u6253\u4e2a\u95ee\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3419,
       "ts": 1787134454,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:21:09 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\n\nOpenAI's $7 Billion Sale Fuels IPO Buzz - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2FsU2loN2JyS01VaXpKcTN6YjJKME1NcUxtWDNXNEQ4ZHJYMzctR0ptNzRsd3BiV0NlZURiMEFheEpHMEE2QUFOSWtBN3ktT2JGOFVnVk82OEp0LVJSWkNJSDNkOUEwM0V0a3BMOXBoV01SbGFia0JlX0RGVkphMkE5a1FyVUJKSWxENVlfQ1Z5VG9sTU9Ca09WNTRJb2s?oc=5\" target=\"_blank\">OpenAI's $7 Billion Sale Fuels IPO Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI raised $7 billion in a sale, with speculation this fuels an eventual IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 OpenAI \u5b8c\u6210 70 \u4ebf\u7f8e\u5143\u7684\u4e00\u7b14\u51fa\u552e\u4ea4\u6613\uff0c\u5e02\u573a\u731c\u6d4b\u8fd9\u4f1a\u4e3a\u5176 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nThis is unconfirmed capital-raise/IPO chatter rather than a hard filing or burn-rate metric, so it's a MED-severity soft signal \u2014 it flags market attention on OpenAI's funding trajectory without yet showing whether the money offsets or masks rising compute costs.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\u878d\u8d44/IPO \u4f20\u95fb\uff0c\u4e0d\u662f\u786c\u6027 filing \u6216 burn rate \u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7b97 MED \u7ea7\u522b\u7684\u8f6f\u4fe1\u53f7\u2014\u2014\u5b83\u53cd\u6620\u5e02\u573a\u5728\u5173\u6ce8 OpenAI \u7684\u878d\u8d44\u8d70\u5411\uff0c\u4f46\u8fd8\u770b\u4e0d\u51fa\u8fd9\u7b14\u94b1\u662f\u7f13\u89e3\u4e86\u8fd8\u662f\u63a9\u76d6\u4e86\u4e0d\u65ad\u4e0a\u5347\u7684\u7b97\u529b\u6210\u672c\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3219,
-      "ts": 1786474050,
-      "ts_str": "2026-08-11 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX crashed too hard for insiders\u2019 bonus unlock - Protos | Informed crypto news",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 11 Aug 2026 18:23:51 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE1HOFBVOV9LZ1lPYk1hNjZpYXd3WFVaal9TbGdYS1NQRlA5QjJGQzl3UkVaN0R4SEZZR2toR3EwZlJaQlM4VWtRUFpSV3JHNjdWQXZFeVY5Q3RVX0VYYjVQcUcxRlJrS2lrNDU1VUtwTk5LNm9BY3NfcQ?oc=5\n\nSpaceX crashed too hard for insiders\u2019 bonus unlock - Protos | Informed crypto news\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1HOFBVOV9LZ1lPYk1hNjZpYXd3WFVaal9TbGdYS1NQRlA5QjJGQzl3UkVaN0R4SEZZR2toR3EwZlJaQlM4VWtRUFpSV3JHNjdWQXZFeVY5Q3RVX0VYYjVQcUcxRlJrS2lrNDU1VUtwTk5LNm9BY3NfcQ?oc=5\" target=\"_blank\">SpaceX crashed too hard for insiders\u2019 bonus unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Protos | Informed crypto news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX's valuation dropped too far for an insider bonus-linked unlock trigger to be met.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 SpaceX \u4f30\u503c\u8dcc\u5e45\u8fc7\u5927\uff0c\u5bfc\u81f4\u4e0e\u5185\u90e8\u4eba\u5956\u52b1\u6302\u94a9\u7684\u89e3\u7981\u6761\u4ef6\u672a\u80fd\u89e6\u53d1\u3002\n\nWhy it matters:\nUnlock/lock-up mechanics tied to valuation milestones are a proxy for late-stage private-market froth; a miss here signals SpaceX's valuation trajectory has stalled or reversed, which matters for the broader AI-infrastructure capital cycle since SpaceX/Starlink capex and financing sit adjacent to the same investor base funding AI datacenter buildout.\n\n\u5f71\u54cd:\n\u89e3\u7981\u673a\u5236\u548c\u4f30\u503c\u91cc\u7a0b\u7891\u6302\u94a9\uff0c\u672c\u8d28\u662f\u665a\u671f\u4e00\u7ea7\u5e02\u573a\u4f30\u503c\u8fc7\u70ed\u7a0b\u5ea6\u7684\u98ce\u5411\u6807\uff1b\u8fd9\u6b21\u6ca1\u89e6\u53d1\u8bf4\u660e SpaceX \u7684\u4f30\u503c\u8d70\u52bf\u5df2\u7ecf\u505c\u6ede\u751a\u81f3\u56de\u843d\uff0c\u8fd9\u5bf9 AI \u57fa\u5efa\u8d44\u672c\u5468\u671f\u6709\u53c2\u8003\u610f\u4e49\uff0c\u56e0\u4e3a SpaceX/Starlink \u7684\u8d44\u672c\u5f00\u652f\u548c\u878d\u8d44\u80cc\u540e\u662f\u540c\u4e00\u6279\u6295\u8d44\u8005\uff0c\u4e5f\u5728\u652f\u6491 AI \u6570\u636e\u4e2d\u5fc3\u7684\u6269\u5f20\u3002\n",
       "emailed": false
     }
   ],
