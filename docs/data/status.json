@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787255059,
-  "generated_at_str": "2026-08-20 19:44:19 UTC",
-  "last_event_ts": 1787255055,
+  "generated_at": 1787255233,
+  "generated_at_str": "2026-08-20 19:47:13 UTC",
+  "last_event_ts": 1787255232,
   "tables": {
     "alerts_dedup": {
-      "count": 3468,
-      "last_ts": 1787255055,
-      "last_str": "2026-08-20 19:44:15 UTC"
+      "count": 3469,
+      "last_ts": 1787255232,
+      "last_str": "2026-08-20 19:47:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-08-20 19:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7185,
-      "last_ts": 1787251623,
-      "last_str": "2026-08-20 18:47:03 UTC"
+      "count": 7193,
+      "last_ts": 1787255222,
+      "last_str": "2026-08-20 19:47:02 UTC"
     }
   },
   "c4_xbrl": [
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3476,
+      "ts": 1787255232,
+      "ts_str": "2026-08-20 19:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] Wall Street analyst sets SpaceX stock price target for 12 months - Finbold",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 18:33:06 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUpwMldHcHlTNDc0U0F0bEtsNHJ1b3M3Y0xBaVMwbWFveU5QZUN5TG9PUHY4STg0ZVhoa3N2bXNtTjYwTWx0eDZNMjM2MVA2bkJvX21oY1ZGcmRBV2xXcXJPdEdTZzhfNHFTZWhrcHpLc21icURQcTkzWDZhcHJDaTBmQnRQbU1iVjdCeXVR?oc=5\n\nWall Street analyst sets SpaceX stock price target for 12 months - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPRUpwMldHcHlTNDc0U0F0bEtsNHJ1b3M3Y0xBaVMwbWFveU5QZUN5TG9PUHY4STg0ZVhoa3N2bXNtTjYwTWx0eDZNMjM2MVA2bkJvX21oY1ZGcmRBV2xXcXJPdEdTZzhfNHFTZWhrcHpLc21icURQcTkzWDZhcHJDaTBmQnRQbU1iVjdCeXVR?oc=5\" target=\"_blank\">Wall Street analyst sets SpaceX stock price target for 12 months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS entries repeat the identical headline about a Wall Street analyst setting a 12-month price target for SpaceX stock.\n\n\u5185\u5bb9:\n\u4e24\u6761 Google News RSS \u6761\u76ee\u91cd\u590d\u4e86\u540c\u4e00\u6761\u6807\u9898\uff1a\u534e\u5c14\u8857\u5206\u6790\u5e08\u4e3a SpaceX \u80a1\u7968\u8bbe\u5b9a 12 \u4e2a\u6708\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nThis is routine sell-side coverage, not a material index-mechanics event \u2014 it's the kind of speculative-IPO noise the C11 classifier is prone to over-flagging rather than a real signal on unlock timing or ETF flows.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5e38\u89c4\u5356\u65b9\u7814\u7a76\u62a5\u9053\uff0c\u4e0d\u662f\u5b9e\u8d28\u6027\u7684\u6307\u6570\u673a\u5236\u4e8b\u4ef6\u2014\u2014\u5c5e\u4e8e C11 \u5206\u7c7b\u5668\u5bb9\u6613\u8bef\u5224\u7684\u6295\u673a\u6027 IPO \u566a\u97f3\uff0c\u800c\u975e\u89e3\u7981\u65f6\u70b9\u6216 ETF \u8d44\u91d1\u6d41\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3475,
       "ts": 1787255055,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Nvidia GPU Prices Jump 87% in 17 Months as HBM Squeezes Memory Supply - Seoul Economic Daily",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 21:06:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEhOcjd1ZWtaV3VCNTh3Vk41Z3RtMmVsTUdLRG13SW1ZMHhtWXctTUV3MDl1alFiaFBiX2VPd3JqcU5uUnJDVGgzdExfOUd5dXh0N0pZRE1YdU5jeDN2Rm9EczRHa2hvTk5kYnRJTG5QNE9xbTY4cWZESlRqR2M3eGN6cWVaSGNsUU5sMGI4WEFkUXFwR1NkX1U5ZUdya2h5MUpF?oc=5\n\nNvidia GPU Prices Jump 87% in 17 Months as HBM Squeezes Memory Supply - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEhOcjd1ZWtaV3VCNTh3Vk41Z3RtMmVsTUdLRG13SW1ZMHhtWXctTUV3MDl1alFiaFBiX2VPd3JqcU5uUnJDVGgzdExfOUd5dXh0N0pZRE1YdU5jeDN2Rm9EczRHa2hvTk5kYnRJTG5QNE9xbTY4cWZESlRqR2M3eGN6cWVaSGNsUU5sMGI4WEFkUXFwR1NkX1U5ZUdya2h5MUpF?oc=5\" target=\"_blank\">Nvidia GPU Prices Jump 87% in 17 Months as HBM Squeezes Memory Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News reported Nvidia GPU prices rising 87% over 17 months, attributing the spike to HBM supply being squeezed.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053\u79f0\uff0cNvidia GPU \u4ef7\u683c\u5728 17 \u4e2a\u6708\u5185\u4e0a\u6da8 87%\uff0c\u539f\u56e0\u662f HBM \u4f9b\u5e94\u5403\u7d27\u3002\n\nWhy it matters:\nA sustained 87% GPU price jump driven by memory scarcity raises the effective cost of AI infrastructure buildout, squeezing margins for anyone buying compute and reinforcing the memory-supply chain as a bottleneck on the AI capex cycle.\n\n\u5f71\u54cd:\nGPU \u4ef7\u683c\u6301\u7eed\u5927\u6da8 87%\uff0c\u8bf4\u660e AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u5b9e\u9645\u6210\u672c\u5728\u4e0a\u5347\uff0c\u538b\u7f29\u4e86\u91c7\u8d2d\u7b97\u529b\u4e00\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4e5f\u5370\u8bc1\u5185\u5b58\u4f9b\u5e94\u94fe\u6b63\u6210\u4e3a AI capex \u5468\u671f\u7684\u74f6\u9888\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3276,
-      "ts": 1786655654,
-      "ts_str": "2026-08-13 21:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI revenue chief Denise Dresser departs \u2013 latest high-level exit ahead of blockbuster IPO - New York Post",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 20:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxPd25memJGdXMzVjI2QS1lT0ZsQ3luR0ZQU3FJTXlST1drQTRmdFB5RU5JZ0txOEo4TkI1TUJDWG8zc1NWMGRDdG5KbzZqdDBOeWs2V1UzNUFoWWtkd2NNcU1GXzdEYWxCMXYycVpzQWwwQ0E0QjJEX0U1YVBSSzFFcG9mYy1KYjloUHlNMUt6YkYzYXVDS3NoNXJKNjBoTkFLTHJUdEFn?oc=5\n\nOpenAI revenue chief Denise Dresser departs \u2013 latest high-level exit ahead of blockbuster IPO - New York Post\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPd25memJGdXMzVjI2QS1lT0ZsQ3luR0ZQU3FJTXlST1drQTRmdFB5RU5JZ0txOEo4TkI1TUJDWG8zc1NWMGRDdG5KbzZqdDBOeWs2V1UzNUFoWWtkd2NNcU1GXzdEYWxCMXYycVpzQWwwQ0E0QjJEX0U1YVBSSzFFcG9mYy1KYjloUHlNMUt6YkYzYXVDS3NoNXJKNjBoTkFLTHJUdEFn?oc=5\" target=\"_blank\">OpenAI revenue chief Denise Dresser departs \u2013 latest high-level exit ahead of blockbuster IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's revenue chief Denise Dresser is departing, marked as the latest in a string of senior-leadership exits ahead of the company's planned blockbuster IPO.\n\n\u5185\u5bb9:\nOpenAI \u8425\u6536\u8d1f\u8d23\u4eba Denise Dresser \u79bb\u804c\uff0c\u662f\u516c\u53f8\u7b79\u5907\u91cd\u78c5 IPO \u524d\u53c8\u4e00\u4f4d\u9ad8\u7ba1\u51fa\u8d70\u3002\n\nWhy it matters:\nExecutive churn right before a marquee IPO \u2014 especially on the revenue side \u2014 raises questions about internal stability and whether the growth story investors are being sold holds up under the people who built it. Not a hard financial signal, but a soft-tissue tell worth tracking alongside OpenAI's burn-rate data.\n\n\u5f71\u54cd:\n\u4e34\u8fd1\u91cd\u78c5 IPO \u524d\u7684\u9ad8\u7ba1\u79bb\u804c\u6f6e\uff0c\u5c24\u5176\u662f\u8425\u6536\u7ebf\u7684\u8d1f\u8d23\u4eba\u8d70\u4eba\uff0c\u5bb9\u6613\u8ba9\u4eba\u6000\u7591\u516c\u53f8\u5185\u90e8\u662f\u5426\u7a33\u5b9a\uff0c\u4ee5\u53ca\u5356\u7ed9\u6295\u8d44\u4eba\u7684\u589e\u957f\u6545\u4e8b\u662f\u4e0d\u662f\u8fd8\u7ad9\u5f97\u4f4f\u811a\u3002\u8fd9\u4e0d\u662f\u786c\u8d22\u52a1\u4fe1\u53f7\uff0c\u4f46\u503c\u5f97\u548c OpenAI \u7684\u70e7\u94b1\u6570\u636e\u4e00\u8d77\u8ffd\u8e2a\u3002\n",
       "emailed": false
     }
   ],
