@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787243525,
-  "generated_at_str": "2026-08-20 16:32:05 UTC",
-  "last_event_ts": 1787242442,
+  "generated_at": 1787243713,
+  "generated_at_str": "2026-08-20 16:35:13 UTC",
+  "last_event_ts": 1787243713,
   "tables": {
     "alerts_dedup": {
-      "count": 3455,
-      "last_ts": 1787240850,
-      "last_str": "2026-08-20 15:47:30 UTC"
+      "count": 3458,
+      "last_ts": 1787243713,
+      "last_str": "2026-08-20 16:35:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-08-20 12:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4744,
-      "last_ts": 1787241902,
-      "last_str": "2026-08-20 16:05:02 UTC"
+      "count": 4745,
+      "last_ts": 1787243702,
+      "last_str": "2026-08-20 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5459,
-      "last_ts": 1787241903,
-      "last_str": "2026-08-20 16:05:03 UTC"
+      "count": 5462,
+      "last_ts": 1787243703,
+      "last_str": "2026-08-20 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3589,
-      "last_ts": 1787241903,
-      "last_str": "2026-08-20 16:05:03 UTC"
+      "count": 3590,
+      "last_ts": 1787243702,
+      "last_str": "2026-08-20 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4102,
-      "last_ts": 1787241905,
-      "last_str": "2026-08-20 16:05:05 UTC"
+      "count": 4103,
+      "last_ts": 1787243704,
+      "last_str": "2026-08-20 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 25191,
@@ -310,6 +310,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3463,
+      "ts": 1787243713,
+      "ts_str": "2026-08-20 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 10:01:40 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\n\nSamsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\" target=\"_blank\">Samsung HBM4 Chip Price Increase: Projections vs Facts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadget Hacks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline pairs 'Samsung' and 'HBM4' with 'Price Increase' language, tripping C6's memory/storage price-surge trigger.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u6807\u9898\u628a Samsung \u548c HBM4 \u4e0e\u300c\u6da8\u4ef7\u300d\u653e\u5728\u4e00\u8d77\uff0c\u89e6\u53d1\u4e86 C6 \u7684\u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u5f02\u52a8\u4fe1\u53f7\u3002\n\nWhy it matters:\nRising HBM pricing signals tight supply feeding AI accelerators \u2014 the opposite of the memory-glut bear case, and it raises hyperscaler capex costs, tightening the AI-infra margin story.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0c\u4e0e\u300c\u5185\u5b58\u8fc7\u5269\u300d\u7684\u7a7a\u5934\u903b\u8f91\u76f8\u53cd\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u6324\u538b AI \u57fa\u7840\u8bbe\u65bd\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3464,
+      "ts": 1787243713,
+      "ts_str": "2026-08-20 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 10:01:40 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\n\nSamsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\" target=\"_blank\">Samsung HBM4 Chip Price Increase: Projections vs Facts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadget Hacks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline pairs 'Samsung' and 'HBM4' with 'Price Increase' language, tripping C6's memory/storage price-surge trigger.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u6807\u9898\u628a Samsung \u548c HBM4 \u4e0e\u300c\u6da8\u4ef7\u300d\u653e\u5728\u4e00\u8d77\uff0c\u89e6\u53d1\u4e86 C6 \u7684\u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u5f02\u52a8\u4fe1\u53f7\u3002\n\nWhy it matters:\nRising HBM pricing signals tight supply feeding AI accelerators \u2014 the opposite of the memory-glut bear case, and it raises hyperscaler capex costs, tightening the AI-infra margin story.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0c\u4e0e\u300c\u5185\u5b58\u8fc7\u5269\u300d\u7684\u7a7a\u5934\u903b\u8f91\u76f8\u53cd\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u6324\u538b AI \u57fa\u7840\u8bbe\u65bd\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3465,
+      "ts": 1787243713,
+      "ts_str": "2026-08-20 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 10:01:40 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\n\nSamsung HBM4 Chip Price Increase: Projections vs Facts - Gadget Hacks\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQNllsRGR3TUE2OXBuRFFOd2FMTnlOc2pXWU9jVnIyZnJzbFIyd2taRHZ1NmlqVk5ZZUZFSDNyVU0yQi1iV0NIR2Z2UVh5RmIxQ0pIUFZpYzlxVzBSMklOTWFTUkVkajNURlY0WGRCekphd3BPM2QyQXRTVTJpVm1BOV9nelpsaDF5MXllQkpxc09GSjExeHc?oc=5\" target=\"_blank\">Samsung HBM4 Chip Price Increase: Projections vs Facts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gadget Hacks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline pairs 'Samsung' and 'HBM4' with 'Price Increase' language, tripping C6's memory/storage price-surge trigger.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u6807\u9898\u628a Samsung \u548c HBM4 \u4e0e\u300c\u6da8\u4ef7\u300d\u653e\u5728\u4e00\u8d77\uff0c\u89e6\u53d1\u4e86 C6 \u7684\u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u5f02\u52a8\u4fe1\u53f7\u3002\n\nWhy it matters:\nRising HBM pricing signals tight supply feeding AI accelerators \u2014 the opposite of the memory-glut bear case, and it raises hyperscaler capex costs, tightening the AI-infra margin story.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0c\u4e0e\u300c\u5185\u5b58\u8fc7\u5269\u300d\u7684\u7a7a\u5934\u903b\u8f91\u76f8\u53cd\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\uff0c\u6324\u538b AI \u57fa\u7840\u8bbe\u65bd\u7684\u5229\u6da6\u7a7a\u95f4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3459,
       "ts": 1787240850,
@@ -2278,36 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Defeats Musk in Lawsuit, Clearing IPO Path - tovima.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 05:02:02 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxObDBSb2N3b2JWYTc4MEdMTFNrT3RveXdac1pQN1FiQ0hUY3E1a3lQeTRZRm9TZmtIdzI1YUMtM244SFUxaHgtUmd4NFBZVWItR3VmTS01ODBXRklSTldUYVhEcndkV1Z1bE9nSFNoRjZWcEtVQlQzVndzVEJlZERlbXNiZ1DSAYoBQVVfeXFMUHhaMnhHeUp6NWREWHo5Y0N2Q2VyY1pjZGhSRElESnNUQ3A1c29hZmFMNmdWb0ZLNk9PMnM2a3lOQWNJNmhiSEJCSDJGNTNKWW9jN2VTc2dhYVJpTDVLQlBlVXMxdFBnQjM0NElEN2FHRFVPV3g1RzFyWmIwVDNsZzVkTnN6dDVsQmNB?oc=5\n\nOpenAI Defeats Musk in Lawsuit, Clearing IPO Path - tovima.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxObDBSb2N3b2JWYTc4MEdMTFNrT3RveXdac1pQN1FiQ0hUY3E1a3lQeTRZRm9TZmtIdzI1YUMtM244SFUxaHgtUmd4NFBZVWItR3VmTS01ODBXRklSTldUYVhEcndkV1Z1bE9nSFNoRjZWcEtVQlQzVndzVEJlZERlbXNiZ1DSAYoBQVVfeXFMUHhaMnhHeUp6NWREWHo5Y0N2Q2VyY1pjZGhSRElESnNUQ3A1c29hZmFMNmdWb0ZLNk9PMnM2a3lOQWNJNmhiSEJCSDJGNTNKWW9jN2VTc2dhYVJpTDVLQlBlVXMxdFBnQjM0NElEN2FHRFVPV3g1RzFyWmIwVDNsZzVkTnN6dDVsQmNB?oc=5\" target=\"_blank\">OpenAI Defeats Musk in Lawsuit, Clearing IPO Path</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tovima.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI won its lawsuit against Elon Musk, removing a legal obstacle that was standing in the way of an OpenAI IPO.\n\n\u5185\u5bb9:\nOpenAI \u5728\u4e0e\u9a6c\u65af\u514b\u7684\u8bc9\u8bbc\u4e2d\u80dc\u8bc9\uff0c\u626b\u6e05\u4e86 OpenAI IPO \u8def\u4e0a\u7684\u4e00\u4e2a\u6cd5\u5f8b\u969c\u788d\u3002\n\nWhy it matters:\nClears a path toward OpenAI going public, which would give the market its first direct equity stake in the company at the center of the AI-capex boom \u2014 a milestone the C3 tracker flags as MED because it's structurally relevant but not itself a burn-rate or distress signal.\n\n\u5f71\u54cd:\n\u8fd9\u4e3a OpenAI \u4e0a\u5e02\u6253\u5f00\u4e86\u9053\u8def\uff0c\u4e00\u65e6\u6210\u884c\uff0c\u5e02\u573a\u5c06\u9996\u6b21\u80fd\u76f4\u63a5\u6301\u6709\u8fd9\u5bb6\u7ad9\u5728 AI capex \u70ed\u6f6e\u4e2d\u5fc3\u7684\u516c\u53f8\u7684\u80a1\u6743\u3002C3 \u628a\u5b83\u6807\u4e3a MED\uff0c\u56e0\u4e3a\u8fd9\u4e8b\u7ed3\u6784\u4e0a\u76f8\u5173\uff0c\u4f46\u672c\u8eab\u4e0d\u662f\u70e7\u94b1\u901f\u5ea6\u6216\u8d22\u52a1\u56f0\u5883\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3265,
-      "ts": 1786637117,
-      "ts_str": "2026-08-13 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Google (GOOGL) Raises Smartphone Prices, Citing Memory Chip Shortage - TipRanks",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 15:56:43 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDBiMTEzVm1jUkhhSi1YUVV0dXJ6cXdYVy1YMUp6OWxfNTRPRlp0M2lFWW83MkNYbjZWeHY0cEpIVzJQajNMX2lheHFjZEkybzJxRV9MbFQ5bVN4czRHN3FCM3RGWkcxeXByOE9lOGtfNnJHNm0xWmdHYzNwbG1PeEI4R2g3bHYzb3dVaw?oc=5\n\nGoogle (GOOGL) Raises Smartphone Prices, Citing Memory Chip Shortage - TipRanks\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDBiMTEzVm1jUkhhSi1YUVV0dXJ6cXdYVy1YMUp6OWxfNTRPRlp0M2lFWW83MkNYbjZWeHY0cEpIVzJQajNMX2lheHFjZEkybzJxRV9MbFQ5bVN4czRHN3FCM3RGWkcxeXByOE9lOGtfNnJHNm0xWmdHYzNwbG1PeEI4R2g3bHYzb3dVaw?oc=5\" target=\"_blank\">Google (GOOGL) Raises Smartphone Prices, Citing Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Google (GOOGL) is raising smartphone prices, citing a memory chip shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219 Google News \u62a5\u9053\u79f0 Google\uff08GOOGL\uff09\u4ee5\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e3a\u7531\u4e0a\u8c03\u667a\u80fd\u624b\u673a\u552e\u4ef7\u3002\n\nWhy it matters:\nDRAM/NAND scarcity spilling into consumer device pricing signals real supply-side tightness, not just AI-datacenter chatter \u2014 hyperscalers competing with consumer OEMs for the same memory supply raises input costs for AI infrastructure buildout too.\n\n\u5f71\u54cd:\nDRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u5b9a\u4ef7\uff0c\u8bf4\u660e\u8fd9\u4e0d\u53ea\u662f AI \u6570\u636e\u4e2d\u5fc3\u90a3\u8fb9\u7684\u8bf4\u8f9e\uff0c\u800c\u662f\u771f\u5b9e\u7684\u4f9b\u7ed9\u7aef\u7d27\u7f3a\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u6d88\u8d39\u7535\u5b50\u5382\u5546\u5728\u62a2\u540c\u4e00\u6279\u5185\u5b58\u4f9b\u5e94\uff0c\u4f1a\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3264,
-      "ts": 1786636036,
-      "ts_str": "2026-08-13 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Morgan Stanley's Adam Jonas lays out how SpaceX can unlock a long-term bullish stock move - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 13 Aug 2026 12:29:45 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYUNHWnBrREozeWoxWmY4MjlBcTlKRzFPa1RuNjI0V3hsSEk1bXBpWEhyN3ZRcXFVcmhITlEyVDNPTHhhV3BMZkROaHMzODdGUkVxU2lsdlhUS0k2QUxmeURXU0ZMU2ZOS0xoMXBCLXMwcTBoWXg4d0pLNVRSRTNaOVNCNUpRS0l6S2dweGduNXlIdV9vYm1Jei10QUJwLURabTU0NERLNkFvQk5YOWQ2YmFYbVphbDhicWtKTDZPV1lRNlAwenJzZnFtc2g1UFJLOEJ0eEFvUy10bllSYjJXWGpJWkx2NGc?oc=5\n\nMorgan Stanley's Adam Jonas lays out how SpaceX can unlock a long-term bullish stock move - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYUNHWnBrREozeWoxWmY4MjlBcTlKRzFPa1RuNjI0V3hsSEk1bXBpWEhyN3ZRcXFVcmhITlEyVDNPTHhhV3BMZkROaHMzODdGUkVxU2lsdlhUS0k2QUxmeURXU0ZMU2ZOS0xoMXBCLXMwcTBoWXg4d0pLNVRSRTNaOVNCNUpRS0l6S2dweGduNXlIdV9vYm1Jei10QUJwLURabTU0NERLNkFvQk5YOWQ2YmFYbVphbDhicWtKTDZPV1lRNlAwenJzZnFtc2g1UFJLOEJ0eEFvUy10bllSYjJXWGpJWkx2NGc?oc=5\" target=\"_blank\">Morgan Stanley's Adam Jonas lays out how SpaceX can unlock a long-term bullish stock move</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley analyst Adam Jonas published commentary arguing SpaceX has a path to a long-term bullish stock move, tied to the IPO/unlock narrative.\n\n\u5185\u5bb9:\n\u6469\u6839\u58eb\u4e39\u5229\u5206\u6790\u5e08 Adam Jonas \u53d1\u8868\u8bc4\u8bba\uff0c\u8ba4\u4e3a SpaceX \u5b58\u5728\u63a8\u52a8\u80a1\u4ef7\u957f\u671f\u8d70\u5f3a\u7684\u8def\u5f84\uff0c\u8bdd\u9898\u4e0e IPO/\u89e3\u7981\u53d9\u4e8b\u76f8\u5173\u3002\n\nWhy it matters:\nThis is sell-side commentary, not a filed unlock event or a holdings change \u2014 it's exactly the kind of proximity noise the C11 news classifier is built to catch, since it uses 'SpaceX' and 'unlock' in the same headline without an actual tranche or filing behind it.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5356\u65b9\u8bc4\u8bba\uff0c\u4e0d\u662f\u5b9e\u9645\u7684\u89e3\u7981\u4e8b\u4ef6\u6216\u6301\u4ed3\u53d8\u52a8\u516c\u544a\u2014\u2014\u6807\u9898\u91cc 'SpaceX' \u548c 'unlock' \u540c\u65f6\u51fa\u73b0\u4f46\u80cc\u540e\u6ca1\u6709\u771f\u5b9e\u7684\u89e3\u7981\u6279\u6b21\u6216 filing\uff0c\u6b63\u662f C11 \u65b0\u95fb\u5206\u7c7b\u5668\u8981\u8fc7\u6ee4\u6389\u7684\u8fd9\u7c7b\u566a\u97f3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3261,
-      "ts": 1786632447,
-      "ts_str": "2026-08-13 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 70 (3.2\u4ebf shares)",
-      "body": "Severity:   MED\nTranche:    Day 70\nDate:       2026-08-21  (7 day(s) out)\nRelease:    3.2\u4ebf shares (2.4% of shares outstanding)\nCumulative: 17.2% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shows an upcoming lock-up unlock of $3.2B, taking cumulative shares released to 17.2% of the total.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6b21 $3.2B \u7684\u89e3\u7981\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u603b\u80a1\u672c\u7684 17.2%\u3002\n\nWhy it matters:\nA large scheduled unlock adds forced/opportunistic selling pressure right as index funds passively hold the name \u2014 a mechanical supply shock unrelated to fundamentals, and a template for how forced-flow risk shows up across the AI-infra complex.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u4f1a\u5728\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u6301\u6709\u8be5\u80a1\u7684\u540c\u65f6\u5e26\u6765\u629b\u538b\u2014\u2014\u8fd9\u662f\u548c\u57fa\u672c\u9762\u65e0\u5173\u7684\u673a\u68b0\u6027\u4f9b\u7ed9\u51b2\u51fb\uff0c\u4e5f\u662f AI \u57fa\u5efa\u677f\u5757\u91cc\u5f3a\u5236\u6027\u8d44\u91d1\u6d41\u98ce\u9669\u7684\u4e00\u4e2a\u6837\u672c\u3002\n",
       "emailed": false
     }
   ],
