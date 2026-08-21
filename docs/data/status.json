@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787307063,
-  "generated_at_str": "2026-08-21 10:11:03 UTC",
-  "last_event_ts": 1787306703,
+  "generated_at": 1787307260,
+  "generated_at_str": "2026-08-21 10:14:20 UTC",
+  "last_event_ts": 1787307259,
   "tables": {
     "alerts_dedup": {
-      "count": 3482,
-      "last_ts": 1787303662,
-      "last_str": "2026-08-21 09:14:22 UTC"
+      "count": 3483,
+      "last_ts": 1787307259,
+      "last_str": "2026-08-21 10:14:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-21 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 25316,
-      "last_ts": 1787305442,
-      "last_str": "2026-08-21 09:44:02 UTC"
+      "count": 25322,
+      "last_ts": 1787307242,
+      "last_str": "2026-08-21 10:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7252,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3490,
+      "ts": 1787307259,
+      "ts_str": "2026-08-21 10:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Watch Open Machine CEO on Anthropic, OpenAI IPO Potential - Bloomberg.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 21:55:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWDVfd1FtbllVTWE3ZnZEVEdVY2FvZDlyaGFhRmNWMnhJVTVFWE4wdW9UTklURi04ZElScXFJWnpPay1ETHlybVVpS3BuVGs5ajkwZjRweEFfN3lDNXVHcFd6NzFLdjJHcF9DYWs4WnpVU0pzZndULWY5SU5nWmZhVzk5Y2VHYlMydUdFNC1QdjdOWVFxVy1CTm9PNm50V2RVdTQxS2tCRk8?oc=5\n\nWatch Open Machine CEO on Anthropic, OpenAI IPO Potential - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWDVfd1FtbllVTWE3ZnZEVEdVY2FvZDlyaGFhRmNWMnhJVTVFWE4wdW9UTklURi04ZElScXFJWnpPay1ETHlybVVpS3BuVGs5ajkwZjRweEFfN3lDNXVHcFd6NzFLdjJHcF9DYWs4WnpVU0pzZndULWY5SU5nWmZhVzk5Y2VHYlMydUdFNC1QdjdOWVFxVy1CTm9PNm50V2RVdTQxS2tCRk8?oc=5\" target=\"_blank\">Watch Open Machine CEO on Anthropic, OpenAI IPO Potential</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA daily-speculation feed item about the 'Open Machine' (likely Musk-linked xAI/Grok orbit) CEO discussing Anthropic and a potential OpenAI IPO surfaced twice under the same headline.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65e5\u5e38\u6295\u673a\u7c7b\u65b0\u95fb\u7a3f\uff0c\u6807\u9898\u4e24\u6b21\u51fa\u73b0\uff0c\u8bb2\u7684\u662f Open Machine\uff08\u5f88\u53ef\u80fd\u662f Musk \u7cfb xAI/Grok \u9635\u8425\uff09CEO \u8c08 Anthropic \u548c OpenAI \u6f5c\u5728 IPO \u7684\u8bdd\u9898\u3002\n\nWhy it matters:\nThis is IPO-speculation chatter, not a filing or hard data point \u2014 the C3 MED tier is dominated by this kind of noise (the `\\bIPO\\b` token accounts for ~98% of C3 alerts per the tracker's own known-limits note), so it carries little standalone signal for the OpenAI-burn thesis.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u5c5e\u4e8e IPO \u6295\u673a\u578b\u65b0\u95fb\uff0c\u4e0d\u662f filing \u6216\u786c\u6570\u636e\u3002C3 \u7684 MED \u6863\u51e0\u4e4e\u5168\u88ab\u8fd9\u7c7b\u566a\u97f3\u5360\u6ee1\uff08`\\bIPO\\b` \u8fd9\u4e2a token \u8d21\u732e\u4e86\u7ea6 98% \u7684 C3 \u544a\u8b66\uff0c\u662f\u5df2\u77e5\u7684\u8c03\u97f3\u91cf\u5f85\u529e\uff09\uff0c\u5355\u6761\u6765\u770b\u4fe1\u53f7\u4ef7\u503c\u5f88\u4f4e\uff0c\u5bf9 OpenAI \u70e7\u94b1\u8bba\u7684\u5224\u65ad\u6ca1\u6709\u5b9e\u8d28\u8d21\u732e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3488,
       "ts": 1787303662,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's Second Senior Exit In Days: CRO Denise Dresser Leaves As IPO Nears - outlookbusiness.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 05:40:54 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2VZaDB4eWx3cUxMVnVjRkYyNGp4b081UmlmbzFmNXdlQkxRSlZ1dXdIdzlIcnhyekpxUndKVnA0QzJYS1pPZUxTSVhySkNSYTFGRlNuV3VlRVRFV1NMaDFmWEZsajJ3QzY4cG5RaC0yZXZVb3lIVWJ2Q09FcjVlVjRmaFYyVjNyOFZwLTAxNlppTjN4cl9WZjNqTUFQWFF5N2k2RHpzM0NzM2hFRXAwVVgxSmU4UdIBwwFBVV95cUxQazF2dmJXbDRyUnlQVm1rYVdBVllDcU9DVEFXMFJKTlM4TGh6RmJxQ2RpeUtnR1lhVU9yUzc0a3NOaktsRmdRVDY2N2dMMHRhRWFKVFJxVE1hcXNOZHA5aTZ5TjlXeEFZQjVZbDBTbFlfMFJOMTlnZjdVUkVGRzZqOWVNeWNyMDlqNV9DME9IMk5SSXNsMFAwTnQyNFNxdnRmMV9nZFM1dW0ydEd0bE9aVGkyYlF5NVJLenJyczE4aDdjNUE?oc=5\n\nOpenAI's Second Senior Exit In Days: CRO Denise Dresser Leaves As IPO Nears - outlookbusiness.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2VZaDB4eWx3cUxMVnVjRkYyNGp4b081UmlmbzFmNXdlQkxRSlZ1dXdIdzlIcnhyekpxUndKVnA0QzJYS1pPZUxTSVhySkNSYTFGRlNuV3VlRVRFV1NMaDFmWEZsajJ3QzY4cG5RaC0yZXZVb3lIVWJ2Q09FcjVlVjRmaFYyVjNyOFZwLTAxNlppTjN4cl9WZjNqTUFQWFF5N2k2RHpzM0NzM2hFRXAwVVgxSmU4UdIBwwFBVV95cUxQazF2dmJXbDRyUnlQVm1rYVdBVllDcU9DVEFXMFJKTlM4TGh6RmJxQ2RpeUtnR1lhVU9yUzc0a3NOaktsRmdRVDY2N2dMMHRhRWFKVFJxVE1hcXNOZHA5aTZ5TjlXeEFZQjVZbDBTbFlfMFJOMTlnZjdVUkVGRzZqOWVNeWNyMDlqNV9DME9IMk5SSXNsMFAwTnQyNFNxdnRmMV9nZFM1dW0ydEd0bE9aVGkyYlF5NVJLenJyczE4aDdjNUE?oc=5\" target=\"_blank\">OpenAI's Second Senior Exit In Days: CRO Denise Dresser Leaves As IPO Nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">outlookbusiness.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's Chief Revenue Officer Denise Dresser is departing, the second senior executive exit in a matter of days, as the company's IPO process advances.\n\n\u5185\u5bb9:\nOpenAI \u9996\u5e2d\u8425\u6536\u5b98\uff08CRO\uff09Denise Dresser \u79bb\u804c\uff0c\u8fd9\u662f\u51e0\u5929\u5185\u7b2c\u4e8c\u4f4d\u9ad8\u7ba1\u51fa\u8d70\uff0c\u6b63\u503c\u516c\u53f8 IPO \u8fdb\u7a0b\u63a8\u8fdb\u4e4b\u9645\u3002\n\nWhy it matters:\nBack-to-back senior departures ahead of an IPO raise questions about internal stability at exactly the moment governance and leadership continuity get the most scrutiny \u2014 a leadership-churn signal rather than a financial one, but worth tracking alongside the burn-rate metric for C3.\n\n\u5f71\u54cd:\n\u4e34\u8fd1 IPO \u65f6\u8fde\u7eed\u4e24\u4f4d\u9ad8\u7ba1\u79bb\u804c\uff0c\u8ba9\u4eba\u6000\u7591\u516c\u53f8\u5185\u90e8\u662f\u5426\u7a33\u5b9a\u2014\u2014\u8fd9\u6070\u6070\u662f\u6cbb\u7406\u548c\u9886\u5bfc\u5c42\u8fde\u7eed\u6027\u6700\u53d7\u5173\u6ce8\u7684\u65f6\u70b9\u3002\u8fd9\u672c\u8eab\u662f\u4eba\u4e8b\u52a8\u8361\u4fe1\u53f7\uff0c\u4e0d\u662f\u8d22\u52a1\u4fe1\u53f7\uff0c\u4f46\u503c\u5f97\u548c C3 \u7684\u70e7\u94b1\u7387\u6307\u6807\u653e\u5728\u4e00\u8d77\u8ffd\u8e2a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3290,
-      "ts": 1786686436,
-      "ts_str": "2026-08-14 05:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX shares surge 35% after lockup expiration, defying Wall Street fears - The Economic Times",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 04:49:16 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdC1JNTg2LVNDMDJMa2V2NTZFRUpqMF96VVplR0ppNEdmRmNSSFF0QlFHclpCTWdjYjlJYW9zRzNGa3p2aGZBdDlHeFhRUWp0QkdnU256MkliX2N3bzNUd1hHdGdQLW5JQ3FBb1Z0RUlMNDNLdjdZSFBwa2ZpeUhwV1N5LWlEempnTzVWckFwSmtEZ3lFWm0xZHU5OUs3X29DWThVY2hmZWFBY01uX24wdnByRndGeHhDaFpYdkNvNDNUYTktVWNxTWFCaVBsUERQSUo0NjUwQWtaZzlTTW5TcVNIUEFRd3ZETGQwN9IB8gFBVV95cUxON3M0Mk9IRjNJenBOazVqRm8yamNwN1RzQm9QSWtveUNlNUxVRU5iZGVLVGs4M29Kc3NuN2lxZjBtR2xmaWFEMDNvenVydGJjXzZ6dzdoaHJVQ1VLZU1QblpZcU1iSUFzS0VPU01TaHVHQ2FSOU1uMDJKUEZ3RUlRS2JDZnl1QWdtSEdXdFZaZG53Y0ExTUdfZnA3dHlnaGVIbF9xeEhWMGhSUWZySWVwSjMtT0FBOW50RGhZN1loX3VvXzd4TlpwTzh2ellMeWpNb3k4eFV2UDE1elhmSW9rZE5pV2puTGtCZ3VZcXhoR0owQQ?oc=5\n\nSpaceX shares surge 35% after lockup expiration, defying Wall Street fears - The Economic Times\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdC1JNTg2LVNDMDJMa2V2NTZFRUpqMF96VVplR0ppNEdmRmNSSFF0QlFHclpCTWdjYjlJYW9zRzNGa3p2aGZBdDlHeFhRUWp0QkdnU256MkliX2N3bzNUd1hHdGdQLW5JQ3FBb1Z0RUlMNDNLdjdZSFBwa2ZpeUhwV1N5LWlEempnTzVWckFwSmtEZ3lFWm0xZHU5OUs3X29DWThVY2hmZWFBY01uX24wdnByRndGeHhDaFpYdkNvNDNUYTktVWNxTWFCaVBsUERQSUo0NjUwQWtaZzlTTW5TcVNIUEFRd3ZETGQwN9IB8gFBVV95cUxON3M0Mk9IRjNJenBOazVqRm8yamNwN1RzQm9QSWtveUNlNUxVRU5iZGVLVGs4M29Kc3NuN2lxZjBtR2xmaWFEMDNvenVydGJjXzZ6dzdoaHJVQ1VLZU1QblpZcU1iSUFzS0VPU01TaHVHQ2FSOU1uMDJKUEZ3RUlRS2JDZnl1QWdtSEdXdFZaZG53Y0ExTUdfZnA3dHlnaGVIbF9xeEhWMGhSUWZySWVwSjMtT0FBOW50RGhZN1loX3VvXzd4TlpwTzh2ellMeWpNb3k4eFV2UDE1elhmSW9rZE5pV2puTGtCZ3VZcXhoR0owQQ?oc=5\" target=\"_blank\">SpaceX shares surge 35% after lockup expiration, defying Wall Street fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economic Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares jumped 35% following the lockup expiration, contrary to Wall Street expectations of a sell-off from insider unlocked shares hitting the market.\n\n\u5185\u5bb9:\n\u89e3\u7981\u540e SpaceX \u80a1\u4ef7\u4e0d\u8dcc\u53cd\u6da8 35%\uff0c\u4e0e\u534e\u5c14\u8857\u9884\u671f\u7684\u629b\u538b\u76f8\u53cd\u3002\n\nWhy it matters:\nA lockup unlock that fails to trigger the expected supply-driven price drop signals demand strong enough to absorb the new float \u2014 for a bubble-stress tracker, this is a bearish-thesis miss, not a confirming data point, though sustained buying pressure after unlocks does suggest the market isn't yet pricing in AI-infra overcapacity risk for this name.\n\n\u5f71\u54cd:\n\u89e3\u7981\u672c\u5e94\u5e26\u6765\u629b\u552e\u538b\u529b\uff0c\u7ed3\u679c\u6ca1\u8dcc\u53cd\u6da8\uff0c\u8bf4\u660e\u5e02\u573a\u9700\u6c42\u8db3\u4ee5\u6d88\u5316\u65b0\u589e\u6d41\u901a\u80a1\u4efd\u2014\u2014\u5bf9\u6ce1\u6cab\u538b\u529b\u8ffd\u8e2a\u5668\u800c\u8a00\uff0c\u8fd9\u662f\u7a7a\u5934\u903b\u8f91\u843d\u7a7a\u7684\u4e00\u4f8b\uff0c\u4e0d\u662f\u786e\u8ba4\u4fe1\u53f7\uff0c\u4f46\u6301\u7eed\u7684\u4e70\u76d8\u4e5f\u8bf4\u660e\u5e02\u573a\u76ee\u524d\u8fd8\u6ca1\u628a AI \u57fa\u5efa\u4ea7\u80fd\u8fc7\u5269\u7684\u98ce\u9669\u8ba1\u5165\u8fd9\u53ea\u80a1\u7968\u7684\u5b9a\u4ef7\u3002\n",
       "emailed": false
     }
   ],
