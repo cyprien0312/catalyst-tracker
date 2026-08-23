@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787447462,
-  "generated_at_str": "2026-08-23 01:11:02 UTC",
-  "last_event_ts": 1787447103,
+  "generated_at": 1787447647,
+  "generated_at_str": "2026-08-23 01:14:07 UTC",
+  "last_event_ts": 1787447646,
   "tables": {
     "alerts_dedup": {
-      "count": 3518,
-      "last_ts": 1787436845,
-      "last_str": "2026-08-22 22:14:05 UTC"
+      "count": 3519,
+      "last_ts": 1787447646,
+      "last_str": "2026-08-23 01:14:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-08-22 19:44:10 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1009,
-      "last_ts": 1787444045,
-      "last_str": "2026-08-23 00:14:05 UTC"
+      "count": 1010,
+      "last_ts": 1787447644,
+      "last_str": "2026-08-23 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4863,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-23 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 25581,
-      "last_ts": 1787445843,
-      "last_str": "2026-08-23 00:44:03 UTC"
+      "count": 25583,
+      "last_ts": 1787447642,
+      "last_str": "2026-08-23 01:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7426,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3526,
+      "ts": 1787447646,
+      "ts_str": "2026-08-23 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] IPO Fever Heats Up for OpenAI and Anthropic - The Motley Fool",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 01:11:31 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmFobjRZR2hxMGRKcEhsa3J0LS0xODg0c1BxUHpKTlh2VS1oZmJmVlZlWG5famo3OHl3QkFUeURTMUotX2ZjTmEtY2lodjFWUklNSW5jNERvZ1RpQ2FxQUlrTndtb2oxNXBDZzBIX3lqR1I2YktPODNWOFY3UjcxZkdzZ0h6a193SnAtejBiSQ?oc=5\n\nIPO Fever Heats Up for OpenAI and Anthropic - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmFobjRZR2hxMGRKcEhsa3J0LS0xODg0c1BxUHpKTlh2VS1oZmJmVlZlWG5famo3OHl3QkFUeURTMUotX2ZjTmEtY2lodjFWUklNSW5jNERvZ1RpQ2FxQUlrTndtb2oxNXBDZzBIX3lqR1I2YktPODNWOFY3UjcxZkdzZ0h6a193SnAtejBiSQ?oc=5\" target=\"_blank\">IPO Fever Heats Up for OpenAI and Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 3525,
       "ts": 1787436845,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Watch OpenAI Barrels Toward IPO, US Readies Iran Econ Attack | Bloomberg Businessweek Daily 8/14/2026 - Bloomberg.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 22:02:41 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxON3dQakZIdlBCdDA5YjR1U3pvVVZvTnZJZncyeEkzVXgxUDRoa2Noa09kdDhabXplNzVqRXdyQ2VfRnlPUU02VjBRLUg0aFpVTEw5cXlkYzE1UU9BY3FWZlJQQnE2LURWMGFPdk5OWWZMdWYxeFVlZWhJY29BWExReTFTNGRpRzQ3amtpcVAtQTQtNkU0N0ljLQ?oc=5\n\nWatch OpenAI Barrels Toward IPO, US Readies Iran Econ Attack | Bloomberg Businessweek Daily 8/14/2026 - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxON3dQakZIdlBCdDA5YjR1U3pvVVZvTnZJZncyeEkzVXgxUDRoa2Noa09kdDhabXplNzVqRXdyQ2VfRnlPUU02VjBRLUg0aFpVTEw5cXlkYzE1UU9BY3FWZlJQQnE2LURWMGFPdk5OWWZMdWYxeFVlZWhJY29BWExReTFTNGRpRzQ3amtpcVAtQTQtNkU0N0ljLQ?oc=5\" target=\"_blank\">Watch OpenAI Barrels Toward IPO, US Readies Iran Econ Attack | Bloomberg Businessweek Daily 8/14/2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg Businessweek Daily podcast episode title mentions \"OpenAI Barrels Toward IPO\" alongside unrelated Iran economic-sanctions coverage.\n\n\u5185\u5bb9:\n\u5f6d\u535a Businessweek Daily \u64ad\u5ba2\u4e00\u671f\u6807\u9898\u63d0\u5230\u300cOpenAI Barrels Toward IPO\u300d\uff0c\u540c\u671f\u8fd8\u5e26\u4e86\u4e00\u6761\u65e0\u5173\u7684\u4f0a\u6717\u7ecf\u6d4e\u5236\u88c1\u65b0\u95fb\u3002\n\nWhy it matters:\nThis is generic IPO speculation with no new financial detail \u2014 no burn-rate figure, no filing, no dated commitment. It only clears C3's MED-level keyword bar, not the >25% QoQ burn-rate trigger for HIGH.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u6cdb\u6cdb\u7684 IPO \u731c\u6d4b\uff0c\u6ca1\u6709\u65b0\u7684\u8d22\u52a1\u7ec6\u8282\u2014\u2014\u6ca1\u6709 burn rate \u6570\u5b57\uff0c\u6ca1\u6709\u65b0 filing\uff0c\u4e5f\u6ca1\u6709\u5177\u4f53\u65f6\u95f4\u627f\u8bfa\u3002\u53ea\u591f\u5230 C3 \u7684 MED \u5173\u952e\u8bcd\u95e8\u69db\uff0c\u591f\u4e0d\u4e0a\u89e6\u53d1 HIGH \u7684 burn rate \u73af\u6bd4 >25% \u90a3\u6761\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3326,
-      "ts": 1786743856,
-      "ts_str": "2026-08-14 21:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO - International Business Times",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 21:16:02 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3B1eGs3QmNRYXdqWVJ2N0dzYjFVSlVha2E0SncxSlNXcDRCclJ1Y3dJUEZ0eTh2bm42SGp1NnRfUWtGZ3JEaU1BcEZ4SktVMUFuajJSNnB3cmF6cGxiTG5GMFFFRmtwYTBCRUxOSVEzYVdFaDRlZUMyOWNQdl9Id041cTcwTExLWTBEa0QtQzJ5dw?oc=5\n\nOpenAI\u2019s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3B1eGs3QmNRYXdqWVJ2N0dzYjFVSlVha2E0SncxSlNXcDRCclJ1Y3dJUEZ0eTh2bm42SGp1NnRfUWtGZ3JEaU1BcEZ4SktVMUFuajJSNnB3cmF6cGxiTG5GMFFFRmtwYTBCRUxOSVEzYVdFaDRlZUMyOWNQdl9Id041cTcwTExLWTBEa0QtQzJ5dw?oc=5\" target=\"_blank\">OpenAI\u2019s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says OpenAI's revenue has surpassed $40 billion, framed as a milestone ahead of a potential IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u8425\u6536\u5df2\u7a81\u7834 $40 billion\uff0c\u88ab\u5305\u88c5\u6210\u5176 IPO \u524d\u7684\u91cc\u7a0b\u7891\u3002\n\nWhy it matters:\nRising OpenAI revenue supports the demand side of the AI-capex bull case, but an IPO narrative also raises the odds of aggressive spend-to-grow behavior and eventual public-market scrutiny of burn rate \u2014 worth tracking, not yet a stress signal on its own.\n\n\u5f71\u54cd:\nOpenAI \u8425\u6536\u4e0a\u6da8\u652f\u6491\u4e86 AI capex \u9700\u6c42\u7aef\u7684\u4e50\u89c2\u53d9\u4e8b\uff0c\u4f46 IPO \u9884\u671f\u4e5f\u610f\u5473\u7740\u516c\u53f8\u53ef\u80fd\u66f4\u503e\u5411\u70e7\u94b1\u6362\u589e\u957f\uff0c\u672a\u6765\u4e0a\u5e02\u540e\u70e7\u94b1\u901f\u5ea6\u4f1a\u88ab\u516c\u5f00\u5e02\u573a\u653e\u5927\u68c0\u89c6\u3002\u76ee\u524d\u8fd8\u53ea\u662f\u9700\u8981\u8ddf\u8e2a\u7684\u4fe1\u53f7\uff0c\u8fd8\u8c08\u4e0d\u4e0a\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
