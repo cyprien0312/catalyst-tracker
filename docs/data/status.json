@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787477529,
-  "generated_at_str": "2026-08-23 09:32:09 UTC",
-  "last_event_ts": 1787476442,
+  "generated_at": 1787477707,
+  "generated_at_str": "2026-08-23 09:35:07 UTC",
+  "last_event_ts": 1787477707,
   "tables": {
     "alerts_dedup": {
-      "count": 3525,
-      "last_ts": 1787472306,
-      "last_str": "2026-08-23 08:05:06 UTC"
+      "count": 3526,
+      "last_ts": 1787477707,
+      "last_str": "2026-08-23 09:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-23 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4875,
-      "last_ts": 1787475901,
-      "last_str": "2026-08-23 09:05:01 UTC"
+      "count": 4876,
+      "last_ts": 1787477702,
+      "last_str": "2026-08-23 09:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5670,
-      "last_ts": 1787475903,
-      "last_str": "2026-08-23 09:05:03 UTC"
+      "count": 5672,
+      "last_ts": 1787477704,
+      "last_str": "2026-08-23 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3652,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3533,
+      "ts": 1787477707,
+      "ts_str": "2026-08-23 09:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Nvidia (NVDA) Stock Retreats as Memory Chip Costs Drive 15%+ Server Price Increases - Blockonomi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 08:55:28 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxPOG4tanFka0RtdUEwSWlhcE54UmFjYmRZTXc0enJlM3lHTUYtb0NZYU8xM1NrMGJBWjBjQkRwQTRGckRscnpNV1pRTmg4RmNhSEo4amRvY013ZjFZN3NONGdKclhvZklJWTB4OGpPckQ2UHdjVG0xcHJKOUpNenFvTkZNRzFMMkhLcTN0MkVtd0lRUTkwWVpFSm1QTzNGM2tNX3dTcXln?oc=5\n\nNvidia (NVDA) Stock Retreats as Memory Chip Costs Drive 15%+ Server Price Increases - Blockonomi\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPOG4tanFka0RtdUEwSWlhcE54UmFjYmRZTXc0enJlM3lHTUYtb0NZYU8xM1NrMGJBWjBjQkRwQTRGckRscnpNV1pRTmg4RmNhSEo4amRvY013ZjFZN3NONGdKclhvZklJWTB4OGpPckQ2UHdjVG0xcHJKOUpNenFvTkZNRzFMMkhLcTN0MkVtd0lRUTkwWVpFSm1QTzNGM2tNX3dTcXln?oc=5\" target=\"_blank\">Nvidia (NVDA) Stock Retreats as Memory Chip Costs Drive 15%+ Server Price Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockonomi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 3532,
       "ts": 1787472306,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple Tests CXMT DRAM for iPhones and MacBooks Amid AI-Driven Memory Shortage - KuCoin",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 15 Aug 2026 03:09:55 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWnA3ZjM2TGF0QmZqNFc0c1ZWOXRGVUUwVnRNM1dzRXl2ZXFqU2dEYnNxeklKTVk1ZEcwcWFwRUhOc0t3YTlEbFNsVkxMOXd2ZHJ0MXdFOWRTZzBxLW1VMzY0b1dUYUZVemZVWE1kZ1lpWC02YjQ4N00xQjRsa3M5S3RDNmUzclRRLUZDRDNpMkhpcUtpNzVhMU1TbV9OalhvZWotVGZ2SFM?oc=5\n\nApple Tests CXMT DRAM for iPhones and MacBooks Amid AI-Driven Memory Shortage - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWnA3ZjM2TGF0QmZqNFc0c1ZWOXRGVUUwVnRNM1dzRXl2ZXFqU2dEYnNxeklKTVk1ZEcwcWFwRUhOc0t3YTlEbFNsVkxMOXd2ZHJ0MXdFOWRTZzBxLW1VMzY0b1dUYUZVemZVWE1kZ1lpWC02YjQ4N00xQjRsa3M5S3RDNmUzclRRLUZDRDNpMkhpcUtpNzVhMU1TbV9OalhvZWotVGZ2SFM?oc=5\" target=\"_blank\">Apple Tests CXMT DRAM for iPhones and MacBooks Amid AI-Driven Memory Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is testing CXMT DRAM for iPhones and MacBooks amid an AI-driven memory shortage.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u82f9\u679c\u6b63\u5728\u6d4b\u8bd5 CXMT \u7684 DRAM\uff0c\u7528\u4e8e iPhone \u548c MacBook\uff0c\u80cc\u666f\u662f AI \u9a71\u52a8\u7684\u5185\u5b58\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI datacenter buildout is pulling DRAM/HBM supply away from consumer devices, forcing Apple to qualify a second-tier Chinese supplier (CXMT) just to secure volume \u2014 direct evidence that AI capex is straining the memory supply chain enough to reshape sourcing decisions elsewhere.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u62a2\u5360 DRAM/HBM \u4f9b\u7ed9\uff0c\u903c\u5f97\u82f9\u679c\u4e0d\u5f97\u4e0d\u8ba4\u8bc1 CXMT \u8fd9\u6837\u7684\u4e8c\u7ebf\u4e2d\u56fd\u4f9b\u5e94\u5546\u6765\u4fdd\u8bc1\u4f9b\u8d27\u91cf\u2014\u2014\u8fd9\u76f4\u63a5\u8bf4\u660e AI capex \u5bf9\u5185\u5b58\u4f9b\u5e94\u94fe\u7684\u6324\u538b\u5df2\u7ecf\u4e25\u91cd\u5230\u5f71\u54cd\u522b\u5904\u7684\u91c7\u8d2d\u51b3\u7b56\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3333,
-      "ts": 1786767256,
-      "ts_str": "2026-08-15 04:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI upheaval mounts as Sam Altman readies IPO push - ft.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 15 Aug 2026 04:00:31 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXcxN1ZMZG0wZzNlYWtTUVRkS1lJeW52eWh6clBCRWxNWkVXdmlzSHdZQ3lxc1o1a0t6VllWbURuYzNSOUM2ajRlQmVWMUZ5b0lRV3VRV09pNFdWSDdRNEtjUWhDWDBRWDA3WVNyN3hEQVJKdzl0dFAzdzcyOVZMb0VqR0M?oc=5\n\nOpenAI upheaval mounts as Sam Altman readies IPO push - ft.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXcxN1ZMZG0wZzNlYWtTUVRkS1lJeW52eWh6clBCRWxNWkVXdmlzSHdZQ3lxc1o1a0t6VllWbURuYzNSOUM2ajRlQmVWMUZ5b0lRV3VRV09pNFdWSDdRNEtjUWhDWDBRWDA3WVNyN3hEQVJKdzl0dFAzdzcyOVZMb0VqR0M?oc=5\" target=\"_blank\">OpenAI upheaval mounts as Sam Altman readies IPO push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports growing turmoil inside OpenAI as Sam Altman pushes ahead with IPO preparations.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u968f\u7740 Sam Altman \u63a8\u8fdb IPO \u7b79\u5907\uff0cOpenAI \u5185\u90e8\u52a8\u8361\u52a0\u5267\u3002\n\nWhy it matters:\nAn IPO push signals OpenAI is moving toward public-market capital and scrutiny while internal instability persists \u2014 a mismatch that raises execution risk right as the AI-capex thesis depends on OpenAI's growth and spending staying credible.\n\n\u5f71\u54cd:\n\u63a8\u8fdb IPO \u610f\u5473\u7740 OpenAI \u6b63\u8d70\u5411\u516c\u5f00\u5e02\u573a\u878d\u8d44\u548c\u66f4\u5f3a\u76d1\u7ba1\u5ba1\u89c6\uff0c\u4f46\u5185\u90e8\u52a8\u8361\u540c\u65f6\u5b58\u5728\u2014\u2014\u8fd9\u79cd\u9519\u4f4d\u52a0\u5927\u4e86\u6267\u884c\u98ce\u9669\uff0c\u800c AI capex \u903b\u8f91\u6b63\u4f9d\u8d56 OpenAI \u589e\u957f\u548c\u652f\u51fa\u53d9\u4e8b\u4fdd\u6301\u53ef\u4fe1\u3002\n",
       "emailed": false
     }
   ],
