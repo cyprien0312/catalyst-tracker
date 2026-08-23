@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787465462,
-  "generated_at_str": "2026-08-23 06:11:02 UTC",
-  "last_event_ts": 1787465103,
+  "generated_at": 1787465647,
+  "generated_at_str": "2026-08-23 06:14:07 UTC",
+  "last_event_ts": 1787465646,
   "tables": {
     "alerts_dedup": {
-      "count": 3522,
-      "last_ts": 1787462045,
-      "last_str": "2026-08-23 05:14:05 UTC"
+      "count": 3523,
+      "last_ts": 1787465646,
+      "last_str": "2026-08-23 06:14:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-22 23:00:05 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4486,
-      "last_ts": 1787427850,
-      "last_str": "2026-08-22 19:44:10 UTC"
+      "count": 4488,
+      "last_ts": 1787465644,
+      "last_str": "2026-08-23 06:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1010,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-23 04:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 25608,
-      "last_ts": 1787463842,
-      "last_str": "2026-08-23 05:44:02 UTC"
+      "count": 25609,
+      "last_ts": 1787465642,
+      "last_str": "2026-08-23 06:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7434,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3530,
+      "ts": 1787465646,
+      "ts_str": "2026-08-23 06:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 21:21:07 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\n\nCOIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\" target=\"_blank\">COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 3529,
       "ts": 1787462045,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's $40B Revenue Run Rate Fuels IPO Hopes - StartupHub.ai",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 23:04:57 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTk4TjAzakFTVTgzNUhqbG4zSTFEakJnVHRaTDhTZ3V4U0V4MUVVTldSbFZnQThjYkxHSkNrQzdtRGo2dTN2ckplR3NHaWRqTHFnLXBBUVg1UVQ0eTN0bXJ1N1pHNDF4Sk1JVDJXN0ZHczFRZm9ZRm9CaWdMRTNKcG1fdFBkUWhwTndlQ2puekptRHBuWms5VGludjYxVjNXcXVvUGRiQnVkUnlj?oc=5\n\nOpenAI's $40B Revenue Run Rate Fuels IPO Hopes - StartupHub.ai\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTk4TjAzakFTVTgzNUhqbG4zSTFEakJnVHRaTDhTZ3V4U0V4MUVVTldSbFZnQThjYkxHSkNrQzdtRGo2dTN2ckplR3NHaWRqTHFnLXBBUVg1UVQ0eTN0bXJ1N1pHNDF4Sk1JVDJXN0ZHczFRZm9ZRm9CaWdMRTNKcG1fdFBkUWhwTndlQ2puekptRHBuWms5VGludjYxVjNXcXVvUGRiQnVkUnlj?oc=5\" target=\"_blank\">OpenAI's $40B Revenue Run Rate Fuels IPO Hopes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StartupHub.ai</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports OpenAI is at a $40B annualized revenue run rate, framed as fueling speculation about a possible IPO.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u5e74\u5316\u6536\u5165\u8fbe\u5230 $40B\uff0c\u5e76\u501f\u6b64\u7092\u4f5c IPO \u9884\u671f\u3002\n\nWhy it matters:\nThis is IPO speculation, not a confirmed filing or disclosed metric \u2014 treat the $40B figure as unverified media reporting. A real IPO filing would be the actual catalyst; run-rate chatter alone doesn't confirm burn-rate trends relevant to the C3 stress thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f IPO \u731c\u6d4b\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u7ecf\u8bc1\u5b9e\u7684\u62db\u80a1\u6587\u4ef6\u6216\u5b98\u65b9\u62ab\u9732\u6570\u636e\u2014\u2014$40B \u8fd9\u4e2a\u6570\u5b57\u6765\u81ea\u5a92\u4f53\uff0c\u672a\u7ecf\u6838\u5b9e\u3002\u771f\u6b63\u7684\u50ac\u5316\u5242\u8981\u7b49\u5b9e\u9645 IPO \u6587\u4ef6\uff0c\u5355\u51ed\u8425\u6536\u8dd1\u91cf\u4f20\u95fb\u5224\u65ad\u4e0d\u4e86\u71c3\u70e7\u7387\u8d8b\u52bf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3329,
-      "ts": 1786752324,
-      "ts_str": "2026-08-15 00:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] NAND Supply Crunch Lifts YMTC to Third Place as Micron Slips Behind - Qoo Media",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 14 Aug 2026 18:58:14 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxNZjhJazIxejgtSk9oYVJJY282LWFUaEZueXpOaHN4aTgtcmczd3FkbUlUbE9RYVNHSmNXUHBsRmhYbzhiMDhfZFJtM21GQUhnd2llUkZnNHdldkpzbXRCbXFFVDQtaTc2RU03MkVsdnZ4UnZ4Q3BvbXlOY3JPUEJfbA?oc=5\n\nNAND Supply Crunch Lifts YMTC to Third Place as Micron Slips Behind - Qoo Media\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNZjhJazIxejgtSk9oYVJJY282LWFUaEZueXpOaHN4aTgtcmczd3FkbUlUbE9RYVNHSmNXUHBsRmhYbzhiMDhfZFJtM21GQUhnd2llUkZnNHdldkpzbXRCbXFFVDQtaTc2RU03MkVsdnZ4UnZ4Q3BvbXlOY3JPUEJfbA?oc=5\" target=\"_blank\">NAND Supply Crunch Lifts YMTC to Third Place as Micron Slips Behind</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Qoo Media</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA NAND supply crunch is reported to have pushed YMTC into third place among NAND makers while Micron slipped in ranking.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 NAND \u4f9b\u5e94\u7d27\u5f20\u8ba9 YMTC \u6392\u540d\u5347\u81f3\u7b2c\u4e09\uff0cMicron \u540d\u6b21\u4e0b\u6ed1\u3002\n\nWhy it matters:\nTightening NAND supply signals pricing power shifting to memory makers, which raises input costs for AI server/storage buildouts and can squeeze hyperscaler margins if the shortage persists.\n\n\u5f71\u54cd:\nNAND \u4f9b\u5e94\u6536\u7d27\u610f\u5473\u7740\u5b9a\u4ef7\u6743\u6b63\u8f6c\u5411\u5b58\u50a8\u5382\u5546\uff0cAI \u670d\u52a1\u5668\u548c\u5b58\u50a8\u5efa\u8bbe\u7684\u6210\u672c\u4f1a\u8ddf\u7740\u4e0a\u5347\uff0c\u5982\u679c\u77ed\u7f3a\u6301\u7eed\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5229\u6da6\u7387\u53ef\u80fd\u88ab\u6324\u538b\u3002\n",
       "emailed": false
     }
   ],
