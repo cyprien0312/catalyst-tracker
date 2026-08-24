@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787604062,
-  "generated_at_str": "2026-08-24 20:41:02 UTC",
-  "last_event_ts": 1787603709,
+  "generated_at": 1787604260,
+  "generated_at_str": "2026-08-24 20:44:20 UTC",
+  "last_event_ts": 1787604257,
   "tables": {
     "alerts_dedup": {
-      "count": 3551,
-      "last_ts": 1787603709,
-      "last_str": "2026-08-24 20:35:09 UTC"
+      "count": 3552,
+      "last_ts": 1787604257,
+      "last_str": "2026-08-24 20:44:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-24 20:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 25932,
-      "last_ts": 1787602442,
-      "last_str": "2026-08-24 20:14:02 UTC"
+      "count": 25940,
+      "last_ts": 1787604242,
+      "last_str": "2026-08-24 20:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7550,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3559,
+      "ts": 1787604257,
+      "ts_str": "2026-08-24 20:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s CFO Just Told Employees the IPO Is Coming in 2027 or Sooner - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 24 Aug 2026 13:50:36 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQczlocURWX2dnbHpHalZIOGtsT0RJdTBheThhWU5NQ1RGTXY1a3NOZ3lxeHl6UUdJSVhXWXAzQmNmMFhnYjNzbWlNT0pDYUxHNEpjaDVhYWtvSkJOcnd0Unl6SzJjWUtOMVRwSGZ5LTk4d2NWS2NqUmd3cWVxc1RNcVpkYjFRSjc3VG5FZTV2RUx5cWZ5QkczeDhB?oc=5\n\nOpenAI\u2019s CFO Just Told Employees the IPO Is Coming in 2027 or Sooner - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQczlocURWX2dnbHpHalZIOGtsT0RJdTBheThhWU5NQ1RGTXY1a3NOZ3lxeHl6UUdJSVhXWXAzQmNmMFhnYjNzbWlNT0pDYUxHNEpjaDVhYWtvSkJOcnd0Unl6SzJjWUtOMVRwSGZ5LTk4d2NWS2NqUmd3cWVxc1RNcVpkYjFRSjc3VG5FZTV2RUx5cWZ5QkczeDhB?oc=5\" target=\"_blank\">OpenAI\u2019s CFO Just Told Employees the IPO Is Coming in 2027 or Sooner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's CFO told employees the company expects an IPO by 2027 or sooner, per internal comments reported in the press.\n\n\u5185\u5bb9:\nOpenAI \u9996\u5e2d\u8d22\u52a1\u5b98\u5411\u5458\u5de5\u8868\u793a\uff0c\u516c\u53f8\u9884\u8ba1\u6700\u65e9 2027 \u5e74 IPO\uff0c\u76f8\u5173\u5185\u5bb9\u7ecf\u5a92\u4f53\u62a5\u9053\u3002\n\nWhy it matters:\nAn IPO timeline signals the current private-funding model (mega rounds from Microsoft/SoftBank/etc.) is being treated as a bridge, not the end state \u2014 capital needs are outrunning what private markets alone will keep supplying at this valuation. It's a data point on how OpenAI plans to fund its compute buildout, not a stress signal on its own.\n\n\u5f71\u54cd:\nIPO \u65f6\u95f4\u8868\u8bf4\u660e\u73b0\u5728\u9760 Microsoft\u3001SoftBank \u7b49\u5de8\u989d\u79c1\u52df\u8f6e\u6491\u7740\u7684\u878d\u8d44\u6a21\u5f0f\u88ab\u5f53\u4f5c\u8fc7\u6e21\u65b9\u6848\uff0c\u4e0d\u662f\u7ec8\u70b9\u2014\u2014\u6309\u76ee\u524d\u4f30\u503c\uff0c\u5149\u9760\u79c1\u52df\u8d44\u91d1\u5df2\u7ecf\u8ddf\u4e0d\u4e0a\u7b97\u529b\u6269\u5f20\u6240\u9700\u7684\u8d44\u672c\u91cf\u3002\u8fd9\u6761\u672c\u8eab\u662f OpenAI \u878d\u8d44\u89c4\u5212\u7684\u4fe1\u606f\uff0c\u4e0d\u7b97\u72ec\u7acb\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3558,
       "ts": 1787603709,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Morgan Stanley Sets $300 Price Target for SpaceX Stock - asatunews.co.id",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 16 Aug 2026 11:05:41 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE10ZTZnM0NtUXlxSXpydExHY1dXWk16Z3ZlbmpYQmE3UkFacXpyNzlvQ1htQ18tNmxKd2NUV2wtaGM5RkdFUjVoTXg0VnlEV2pvWUh1RTFVcmV3N1dEbHpxWmtESnNvWEtWOUs2d3B4TmcxVEk?oc=5\n\nMorgan Stanley Sets $300 Price Target for SpaceX Stock - asatunews.co.id\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE10ZTZnM0NtUXlxSXpydExHY1dXWk16Z3ZlbmpYQmE3UkFacXpyNzlvQ1htQ18tNmxKd2NUV2wtaGM5RkdFUjVoTXg0VnlEV2pvWUh1RTFVcmV3N1dEbHpxWmtESnNvWEtWOUs2d3B4TmcxVEk?oc=5\" target=\"_blank\">Morgan Stanley Sets $300 Price Target for SpaceX Stock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">asatunews.co.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley set a $300 price target for SpaceX stock, coverage repeated across two RSS entries for the same headline.\n\n\u5185\u5bb9:\n\u6469\u6839\u58eb\u4e39\u5229\u7ed9 SpaceX \u80a1\u7968\u8bbe\u5b9a $300 \u76ee\u6807\u4ef7\uff0c\u540c\u4e00\u6761\u6807\u9898\u5728 RSS \u91cc\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\u3002\n\nWhy it matters:\nA sell-side price target on a still-private company is analyst speculation, not a lock-up event or fund flow \u2014 it doesn't move the index-mechanics thesis and is noise relative to the actual unlock calendar.\n\n\u5f71\u54cd:\n\u5bf9\u4e00\u5bb6\u4ecd\u672a\u4e0a\u5e02\u7684\u516c\u53f8\u7ed9\u51fa\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u53ea\u662f\u5206\u6790\u5e08\u731c\u6d4b\uff0c\u4e0d\u6d89\u53ca\u89e3\u7981\u6216\u8d44\u91d1\u6d41\u52a8\uff0c\u8ddf\u6307\u6570\u673a\u5236\u8fd9\u6761\u903b\u8f91\u5173\u7cfb\u4e0d\u5927\uff0c\u76f8\u5bf9\u4e8e\u771f\u6b63\u7684\u89e3\u7981\u65e5\u5386\u6765\u8bf4\u662f\u566a\u97f3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3359,
-      "ts": 1786902436,
-      "ts_str": "2026-08-16 17:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Nasdaq-100 Inclusion To Spark Huge SpaceX Share Buying Barbora Krej\u010d\u00edkov\u00e1 (FFx4Szo4Cp) - Mshale",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 16 Aug 2026 14:48:27 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pOFZJbVN6RXpEYW52cnRwNFdid01iWENjVlZ2VzNrSGNZa1R4QkdMRUowVi1RM1dMWlJUd2hmOElQSHdWejlSSzhtb3BwRVk3My0yZnFHOHZLN28?oc=5\n\nNasdaq-100 Inclusion To Spark Huge SpaceX Share Buying Barbora Krej\u010d\u00edkov\u00e1 (FFx4Szo4Cp) - Mshale\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pOFZJbVN6RXpEYW52cnRwNFdid01iWENjVlZ2VzNrSGNZa1R4QkdMRUowVi1RM1dMWlJUd2hmOElQSHdWejlSSzhtb3BwRVk3My0yZnFHOHZLN28?oc=5\" target=\"_blank\">Nasdaq-100 Inclusion To Spark Huge SpaceX Share Buying Barbora Krej\u010d\u00edkov\u00e1 (FFx4Szo4Cp)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mshale</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that Nasdaq-100 inclusion would trigger large passive share buying of SpaceX.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0cSpaceX \u82e5\u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u5c06\u5f15\u53d1\u5927\u89c4\u6a21\u88ab\u52a8\u4e70\u76d8\u3002\n\nWhy it matters:\nIf SpaceX joins the Nasdaq-100, index funds and ETFs tracking it are forced to buy shares regardless of valuation \u2014 mechanical, price-insensitive demand that can mask whether the AI-infra capex thesis is actually improving. This is the index-mechanics risk C11 exists to flag: passive flows inflating a name unrelated to its fundamentals.\n\n\u5f71\u54cd:\n\u5982\u679c SpaceX \u52a0\u5165\u7eb3\u65af\u8fbe\u514b100\uff0c\u8ddf\u8e2a\u8be5\u6307\u6570\u7684\u57fa\u91d1\u548c ETF \u4f1a\u88ab\u8feb\u4e70\u5165\u5176\u80a1\u7968\uff0c\u4e0d\u7ba1\u4f30\u503c\u9ad8\u4f4e\u2014\u2014\u8fd9\u662f\u4e00\u79cd\u673a\u68b0\u3001\u4e0d\u770b\u4ef7\u683c\u7684\u9700\u6c42\uff0c\u4f1a\u63a9\u76d6 AI \u57fa\u7840\u8bbe\u65bd capex \u903b\u8f91\u672c\u8eab\u5230\u5e95\u6709\u6ca1\u6709\u6539\u5584\u3002\u8fd9\u6b63\u662f C11 \u8981\u76ef\u7684\u6307\u6570\u673a\u5236\u98ce\u9669\uff1a\u88ab\u52a8\u8d44\u91d1\u628a\u4e00\u4e2a\u548c\u57fa\u672c\u9762\u65e0\u5173\u7684\u6807\u7684\u63a8\u9ad8\u3002\n",
       "emailed": false
     }
   ],
