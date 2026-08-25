@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-08-25 22:28:01 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-08-25 22:29:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="3587" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.38% (+49bp off 90d-low)</span>
+    <span class="meta">2026-08-25 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-08-24
+Current:  2.38%
+90d low:  1.89%
+Move:     +49bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield jumped from a trailing-90-day low of 1.89% to 2.38% as of 2026-08-24, a 0.49pp rise.
+
+内容:
+10 年期实际（TIPS）收益率从近 90 天低点 1.89% 升至 2.38%（截至 2026-08-24），涨了 0.49 个百分点。
+
+Why it matters:
+Rising real yields raise the discount rate applied to long-duration AI-capex cash flows and make debt-funded buildouts more expensive to service, squeezing the valuation multiples that justify current spend. This is the C10 liquidity thermometer flashing tighter financial conditions, not a fuse by itself.
+
+影响:
+实际收益率上升会提高 AI capex 这类长久期现金流的折现率，也让债务融资的建设项目还款成本更高，压缩支撑当前支出的估值倍数。这是 C10 流动性温度计显示金融条件收紧，本身不是引信。
+</pre>
+  <button class="mark-read" type="button" data-id="3587">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="3586" data-catalyst="C3" data-severity="MED">
   <summary>
@@ -6392,49 +6421,20 @@ A revenue-side executive exit right as IPO prep accelerates is a leadership-stab
   <button class="mark-read" type="button" data-id="3388">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="3387" data-catalyst="C10" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C10</code>
-    <span class="subj">[C10-MED] 10y Real Yield rising: 2.41% (+52bp off 90d-low)</span>
-    <span class="meta">2026-08-17 22:29 UTC · muted</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-08-14
-Current:  2.41%
-90d low:  1.89%
-Move:     +52bp off 90d-low (fire ≥ +40bp)
-
-────────────────────────────────────────────────────────────
-What this means:
-The 10-year real (TIPS) yield jumped to 2.41% on 2026-08-14, up 0.52pp from its trailing-90-day low of 1.89%.
-
-内容:
-10 年期实际利率（TIPS）在 2026-08-14 升至 2.41%，比过去 90 天低点 1.89% 高出 0.52 个百分点。
-
-Why it matters:
-Real yields near cycle highs raise the discount rate on long-duration AI capex bets and make debt-funded data-center buildouts more expensive to carry — a direct headwind to the AI-infrastructure spend thesis.
-
-影响:
-实际利率逼近周期高位，会提高长久期 AI capex 项目的贴现率，也让数据中心那类举债扩张的融资成本更高——直接利空 AI 基建的支出逻辑。
-</pre>
-  <button class="mark-read" type="button" data-id="3387">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>3579</td>
-<td>2026-08-25 21:44:22 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>3580</td>
+<td>2026-08-25 22:29:13 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>44</td>
-<td>2026-08-24 22:29:02 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>45</td>
+<td>2026-08-25 22:29:02 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
