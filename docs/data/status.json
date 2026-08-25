@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787616124,
-  "generated_at_str": "2026-08-25 00:02:04 UTC",
-  "last_event_ts": 1787615222,
+  "generated_at": 1787616308,
+  "generated_at_str": "2026-08-25 00:05:08 UTC",
+  "last_event_ts": 1787616306,
   "tables": {
     "alerts_dedup": {
-      "count": 3554,
-      "last_ts": 1787610553,
-      "last_str": "2026-08-24 22:29:13 UTC"
+      "count": 3555,
+      "last_ts": 1787616306,
+      "last_str": "2026-08-25 00:05:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-24 14:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4947,
-      "last_ts": 1787614502,
-      "last_str": "2026-08-24 23:35:02 UTC"
+      "count": 4948,
+      "last_ts": 1787616302,
+      "last_str": "2026-08-25 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5764,
-      "last_ts": 1787607304,
-      "last_str": "2026-08-24 21:35:04 UTC"
+      "count": 5765,
+      "last_ts": 1787616305,
+      "last_str": "2026-08-25 00:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3704,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3562,
+      "ts": 1787616306,
+      "ts_str": "2026-08-25 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years \u2014 company introduces t",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 24 Aug 2026 13:11:37 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5\n\nMarvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years \u2014 company introduces three-tier AI memory infrastructure - Tom's Hardware\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J6emx4ZjZic2QyZ0MycE5CUXBqeE5DTDFiczNMVlYzRmhmeDRCbE15bFYwNnRDTm5iYnJmemkyMWZKdC1LU2cwUi1seHhwVG00dVNkXzdjakxBUGV6Yy0ya1RJWnF0UmtUNHBhNkItbFcyMWZQeDQ4NGFZOHVfNXVfQ1N4SkZhcHJZdWFmNTlaOHRhWTQtamlwTXNHc3RHUnRLQy1tUmpJeHd4RFhNNENHSDZZWkxaYUNkaQ?oc=5\" target=\"_blank\">Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years \u2014 company introduces three-tier AI memory infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tom's Hardware</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns of the worst DRAM shortage in years, reporting that Marvell VP is pushing DDR4 recycling for CXL memory use and the company launched a three-tier AI memory infrastructure.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5f53\u524d DRAM \u77ed\u7f3a\u662f\u591a\u5e74\u6765\u6700\u4e25\u91cd\u7684\u4e00\u6b21\uff0cMarvell \u526f\u603b\u88c1\u63a8\u52a8\u628a DDR4 \u56de\u6536\u7528\u4e8e CXL \u5185\u5b58\uff0c\u516c\u53f8\u540c\u65f6\u63a8\u51fa\u4e09\u5c42\u7ea7 AI \u5185\u5b58\u57fa\u7840\u8bbe\u65bd\u3002\n\nWhy it matters:\nA severe, publicly acknowledged memory shortage tightens the supply-cost side of AI infrastructure and can squeeze margins or delay buildouts for anyone dependent on DRAM/HBM, reinforcing the bubble-stress thesis on the input-cost axis rather than the demand axis.\n\n\u5f71\u54cd:\n\u4e25\u91cd\u4e14\u516c\u5f00\u627f\u8ba4\u7684\u5185\u5b58\u77ed\u7f3a\u4f1a\u8ba9 AI \u57fa\u7840\u8bbe\u65bd\u5728\u4f9b\u7ed9\u6210\u672c\u7aef\u6536\u7d27\uff0c\u53ef\u80fd\u538b\u7f29\u4f9d\u8d56 DRAM/HBM \u5382\u5546\u7684\u5229\u6da6\u6216\u62d6\u6162\u5efa\u8bbe\u8fdb\u5ea6\uff0c\u4ece\u6210\u672c\u7aef\u800c\u975e\u9700\u6c42\u7aef\u5370\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3561,
       "ts": 1787610553,
@@ -2299,16 +2309,6 @@
       "subject": "[C6-MED] AI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation - WION",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 16 Aug 2026 08:46:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Z9IBywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Zw?oc=5\n\nAI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation - WION\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Z9IBywFBVV95cUxPYXdCNWh4dDF6NWhrNUQyYm15YWVLamlrTG1tYzQ0dEZnWWdoVmJ5QXY1emkzYVd6Szlyclp2SnRLSzZkTDlEai01YTNadlNwd19PdFVJVldHR1VYbkwzVklBMHJxMTlERmxNWE12clREQzRwbEZpeGhJQW9JaWVWMl9YTlNIaXUwLWpvTDZoc0xGSnVUSEl1VUY4RER2QmQyU0UtTDFhb2lib0dKMTROdUIzV2ZETVJHS2RscHdjdjg2c3B6c2oxbXk2Zw?oc=5\" target=\"_blank\">AI 'chipflation' hits UK: Memory chip shortage threatens to reverse falling inflation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA UK news report says an AI-driven memory-chip shortage ('chipflation') is pushing DRAM/NAND prices up enough to threaten to reverse the country's falling inflation trend.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684\u5185\u5b58\u82af\u7247\u77ed\u7f3a\uff08\"chipflation\"\uff09\u6b63\u63a8\u9ad8 DRAM/NAND \u4ef7\u683c\uff0c\u4e25\u91cd\u5230\u53ef\u80fd\u9006\u8f6c\u82f1\u56fd\u6b63\u5728\u4e0b\u884c\u7684\u901a\u80c0\u8d8b\u52bf\u3002\n\nWhy it matters:\nMemory shortages spreading from AI datacenter demand into consumer-facing inflation data is a sign the capex boom is now large enough to distort a national price index, not just component costs \u2014 a scale marker for how far the AI-buildout demand shock has propagated downstream.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4ece AI \u6570\u636e\u4e2d\u5fc3\u9700\u6c42\u5916\u6ea2\u5230\u6d88\u8d39\u7aef\u901a\u80c0\u6570\u636e\uff0c\u8bf4\u660e\u8fd9\u8f6e AI \u5efa\u8bbe\u7684\u9700\u6c42\u51b2\u51fb\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u80fd\u626d\u52a8\u4e00\u56fd\u7684\u4ef7\u683c\u6307\u6570\uff0c\u4e0d\u53ea\u662f\u96f6\u90e8\u4ef6\u6210\u672c\u2014\u2014\u8fd9\u662f\u9700\u6c42\u5916\u6ea2\u7a0b\u5ea6\u7684\u4e00\u4e2a\u6807\u5c3a\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 3362,
-      "ts": 1786937720,
-      "ts_str": "2026-08-17 03:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Chip maker CXMT rejects Apple bid to cut DRAM prices - Bangkok Post",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 17 Aug 2026 03:23:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmRJQWNhVEd6Z1ZpZTB3RkYwZ0dvY0dYOEc2Tk5Oc1RlcmQyMzllOGRLeVd4aDNnTmhXME9EVFR5dENuejUxd3hud1h2eFBKa3Uta0FBc3NVZEhGSVVEcTUzeFpkME5laS1mblFBdDF5WGQxQkdaSEFsRFpncXNBS2RSdXBYeUFlUXd2dHJmaGlZVjFqcXJPZkJ6cmhHY3c?oc=5\n\nChip maker CXMT rejects Apple bid to cut DRAM prices - Bangkok Post\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPQmRJQWNhVEd6Z1ZpZTB3RkYwZ0dvY0dYOEc2Tk5Oc1RlcmQyMzllOGRLeVd4aDNnTmhXME9EVFR5dENuejUxd3hud1h2eFBKa3Uta0FBc3NVZEhGSVVEcTUzeFpkME5laS1mblFBdDF5WGQxQkdaSEFsRFpncXNBS2RSdXBYeUFlUXd2dHJmaGlZVjFqcXJPZkJ6cmhHY3c?oc=5\" target=\"_blank\">Chip maker CXMT rejects Apple bid to cut DRAM prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bangkok Post</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCXMT (a major Chinese DRAM maker) rejected a bid from Apple to cut DRAM prices, meaning CXMT is refusing to lower pricing despite pressure from a large buyer.\n\n\u5185\u5bb9:\nDRAM \u5382\u5546 CXMT \u62d2\u7edd\u4e86 Apple \u8981\u6c42\u964d\u4ef7\u7684\u63d0\u8bae\uff0c\u5373\u4fbf\u9762\u5bf9 Apple \u8fd9\u6837\u4f53\u91cf\u7684\u5927\u4e70\u5bb6\uff0cCXMT \u4ecd\u4e0d\u80af\u8ba9\u6b65\u3002\n\nWhy it matters:\nA supplier holding firm against a buyer as large as Apple signals DRAM supply is tight, not oversupplied \u2014 the opposite of the price-collapse pattern C6 is built to catch, and it's bullish for memory-maker margins feeding the AI-hardware capex chain.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u5546\u80fd\u5728 Apple \u8fd9\u79cd\u5927\u5ba2\u6237\u9762\u524d\u625b\u4f4f\u4e0d\u964d\u4ef7\uff0c\u8bf4\u660e DRAM \u4f9b\u7ed9\u504f\u7d27\u800c\u975e\u8fc7\u5269\u2014\u2014\u8fd9\u8ddf C6 \u672c\u6765\u8981\u6355\u6349\u7684\u4ef7\u683c\u5d29\u584c\u4fe1\u53f7\u65b9\u5411\u76f8\u53cd\uff0c\u5bf9\u652f\u6491 AI \u786c\u4ef6 capex \u94fe\u6761\u7684\u5185\u5b58\u5382\u5546\u5229\u6da6\u662f\u5229\u597d\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
@@ -2357,5 +2357,55 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 29308.86,
+      "date": "2026-08-21",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.04408719985910248
+    },
+    "spx": null,
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 10,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
