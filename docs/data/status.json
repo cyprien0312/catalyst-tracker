@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787698922,
-  "generated_at_str": "2026-08-25 23:02:02 UTC",
-  "last_event_ts": 1787698832,
+  "generated_at": 1787699116,
+  "generated_at_str": "2026-08-25 23:05:16 UTC",
+  "last_event_ts": 1787699116,
   "tables": {
     "alerts_dedup": {
-      "count": 3582,
-      "last_ts": 1787698033,
-      "last_str": "2026-08-25 22:47:13 UTC"
+      "count": 3584,
+      "last_ts": 1787699116,
+      "last_str": "2026-08-25 23:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-25 22:44:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4991,
-      "last_ts": 1787693702,
-      "last_str": "2026-08-25 21:35:02 UTC"
+      "count": 4993,
+      "last_ts": 1787699102,
+      "last_str": "2026-08-25 23:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5843,
-      "last_ts": 1787695505,
-      "last_str": "2026-08-25 22:05:05 UTC"
+      "count": 5844,
+      "last_ts": 1787699103,
+      "last_str": "2026-08-25 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3738,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3590,
+      "ts": 1787699116,
+      "ts_str": "2026-08-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] South Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 22:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE40bXE1T213dU9MUmVFUVFhMlNjSzhDcGVrcnhjZDdrRE9QU1RZbHpOVC1XQ241MURSanNVbXdEWGJvdXBzUFQzUXVUbmY2NE1qM2xPWjlPbzg2VDkzOUlWTW1YTWZiZTE1MklSOXEtTGRyc1htTGc?oc=5\n\nSouth Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE40bXE1T213dU9MUmVFUVFhMlNjSzhDcGVrcnhjZDdrRE9QU1RZbHpOVC1XQ241MURSanNVbXdEWGJvdXBzUFQzUXVUbmY2NE1qM2xPWjlPbzg2VDkzOUlWTW1YTWZiZTE1MklSOXEtTGRyc1htTGc?oc=5\" target=\"_blank\">South Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSouth Korean DRAM export prices reportedly hit 'gold-parity' levels while supply shortage is expected to worsen next year.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0\u97e9\u56fd DRAM \u51fa\u53e3\u4ef7\u683c\u5df2\u8fbe\u5230\u300c\u91d1\u4ef7\u6c34\u5e73\u300d\uff0c\u4e14\u9884\u8ba1\u660e\u5e74\u4f9b\u5e94\u77ed\u7f3a\u5c06\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nA sustained memory price spike squeezes hyperscaler capex budgets and margins on AI server BOM cost, and a widening shortage forecast suggests the tightness is structural, not a one-off blip \u2014 reinforcing the supply-constraint leg of the AI-infra stress thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u6301\u7eed\u98d9\u5347\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u9884\u7b97\u548c AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u5229\u6da6\u7387\uff0c\u800c\u300c\u77ed\u7f3a\u660e\u5e74\u8fd8\u4f1a\u6076\u5316\u300d\u7684\u9884\u6d4b\u8bf4\u660e\u8fd9\u8f6e\u7d27\u5f20\u662f\u7ed3\u6784\u6027\u7684\uff0c\u4e0d\u662f\u4e00\u6b21\u6027\u6ce2\u52a8\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 AI \u57fa\u7840\u8bbe\u65bd\u538b\u529b\u53d9\u4e8b\u91cc\u4f9b\u5e94\u53d7\u9650\u8fd9\u6761\u7ebf\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3591,
+      "ts": 1787699116,
+      "ts_str": "2026-08-25 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] South Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 22:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE40bXE1T213dU9MUmVFUVFhMlNjSzhDcGVrcnhjZDdrRE9QU1RZbHpOVC1XQ241MURSanNVbXdEWGJvdXBzUFQzUXVUbmY2NE1qM2xPWjlPbzg2VDkzOUlWTW1YTWZiZTE1MklSOXEtTGRyc1htTGc?oc=5\n\nSouth Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE40bXE1T213dU9MUmVFUVFhMlNjSzhDcGVrcnhjZDdrRE9QU1RZbHpOVC1XQ241MURSanNVbXdEWGJvdXBzUFQzUXVUbmY2NE1qM2xPWjlPbzg2VDkzOUlWTW1YTWZiZTE1MklSOXEtTGRyc1htTGc?oc=5\" target=\"_blank\">South Korean DRAM Export Price Hits Gold-Parity Levels; Supply Shortage Expected to Worsen Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSouth Korean DRAM export prices reportedly hit 'gold-parity' levels while supply shortage is expected to worsen next year.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0\u97e9\u56fd DRAM \u51fa\u53e3\u4ef7\u683c\u5df2\u8fbe\u5230\u300c\u91d1\u4ef7\u6c34\u5e73\u300d\uff0c\u4e14\u9884\u8ba1\u660e\u5e74\u4f9b\u5e94\u77ed\u7f3a\u5c06\u8fdb\u4e00\u6b65\u6076\u5316\u3002\n\nWhy it matters:\nA sustained memory price spike squeezes hyperscaler capex budgets and margins on AI server BOM cost, and a widening shortage forecast suggests the tightness is structural, not a one-off blip \u2014 reinforcing the supply-constraint leg of the AI-infra stress thesis.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u6301\u7eed\u98d9\u5347\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u9884\u7b97\u548c AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u5229\u6da6\u7387\uff0c\u800c\u300c\u77ed\u7f3a\u660e\u5e74\u8fd8\u4f1a\u6076\u5316\u300d\u7684\u9884\u6d4b\u8bf4\u660e\u8fd9\u8f6e\u7d27\u5f20\u662f\u7ed3\u6784\u6027\u7684\uff0c\u4e0d\u662f\u4e00\u6b21\u6027\u6ce2\u52a8\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 AI \u57fa\u7840\u8bbe\u65bd\u538b\u529b\u53d9\u4e8b\u91cc\u4f9b\u5e94\u53d7\u9650\u8fd9\u6761\u7ebf\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3589,
       "ts": 1787698033,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Pre-IPO Pressure Mounts as OpenAI Sees Second Senior Exit in Single Week - Channel Insider",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 02:26:51 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxOenRfMW9MQ3A1TEZVMEw0UVJJWlE4eUhvcnBBRWthQllfTzFmTndKcEtMenQ1RVN6NEtPYjcxdV9DOW8ySDFyVUlreUJqYi1EakJBVnZoN1M3MFpXSTQ3XzAyZjJDLUU3WUcwUm4zRE9weVM3Q09xOUNVMW9sTlRITmZPTlU5VTFETkd0TUdwaVg2MEJubnVpX3ItTQ?oc=5\n\nPre-IPO Pressure Mounts as OpenAI Sees Second Senior Exit in Single Week - Channel Insider\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOenRfMW9MQ3A1TEZVMEw0UVJJWlE4eUhvcnBBRWthQllfTzFmTndKcEtMenQ1RVN6NEtPYjcxdV9DOW8ySDFyVUlreUJqYi1EakJBVnZoN1M3MFpXSTQ3XzAyZjJDLUU3WUcwUm4zRE9weVM3Q09xOUNVMW9sTlRITmZPTlU5VTFETkd0TUdwaVg2MEJubnVpX3ItTQ?oc=5\" target=\"_blank\">Pre-IPO Pressure Mounts as OpenAI Sees Second Senior Exit in Single Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Channel Insider</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports OpenAI lost a second senior executive within one week ahead of a possible IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cOpenAI \u5728\u4e00\u5468\u5185\u7b2c\u4e8c\u6b21\u51fa\u73b0\u9ad8\u7ba1\u79bb\u804c\uff0c\u6b63\u503c\u5176 IPO \u524d\u654f\u611f\u671f\u3002\n\nWhy it matters:\nRapid senior-leadership departures pre-IPO signal internal instability right as OpenAI faces scrutiny over burn rate and governance \u2014 feeds the broader thesis that OpenAI's spending trajectory is outrunning organizational discipline.\n\n\u5f71\u54cd:\nIPO \u524d\u9ad8\u7ba1\u5bc6\u96c6\u79bb\u804c\u8bf4\u660e\u5185\u90e8\u4e0d\u7a33\u5b9a\uff0c\u6b63\u597d\u8d76\u4e0a\u5916\u754c\u5bf9 OpenAI \u70e7\u94b1\u901f\u5ea6\u548c\u6cbb\u7406\u7684\u5173\u6ce8\u5347\u6e29\uff0c\u8fd9\u4f1a\u5f3a\u5316\u300c\u652f\u51fa\u8282\u594f\u8dd1\u8d62\u7ec4\u7ec7\u7ba1\u7406\u80fd\u529b\u300d\u7684\u8bba\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3391,
-      "ts": 1787016906,
-      "ts_str": "2026-08-18 01:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Global Memory Prices Surge Up to Fivefold Amid AI Infrastructure Demand - sekbernews.id",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 17 Aug 2026 23:56:00 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE9wLXVhV1pEMnJpSGI0VFRYUnptNTdCTWNza0NzSVF6Y0JNMkFSVGhCLWNuQjR6dFFURHhmWDBMcW1xb3lJVzN0R3RVaENEV3NUUnRyUEtCSUJ3U09OZWdQOF8wN3NTaVp1dUtYb0lybFZadw?oc=5\n\nGlobal Memory Prices Surge Up to Fivefold Amid AI Infrastructure Demand - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9wLXVhV1pEMnJpSGI0VFRYUnptNTdCTWNza0NzSVF6Y0JNMkFSVGhCLWNuQjR6dFFURHhmWDBMcW1xb3lJVzN0R3RVaENEV3NUUnRyUEtCSUJ3U09OZWdQOF8wN3NTaVp1dUtYb0lybFZadw?oc=5\" target=\"_blank\">Global Memory Prices Surge Up to Fivefold Amid AI Infrastructure Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 3389,
-      "ts": 1787014031,
-      "ts_str": "2026-08-18 00:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] 5-star analyst sets alarming SpaceX stock price target - thestreet.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 00:07:00 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxORzZJS2I5MjRxY0toQ3l3cTluZ3d6ZmxHXzh5V0NQdHRDcWowWnRuUk9mVXoybEFabXBtaE9jUUhrOW5vQTlsemJiT0VHbFBDVHg4ek5PdllxdU1jLUhNTkh1RnJZMTlwWEd4VXV4bTdldUZQSjR5RDk2dFRJTFJEaXp3VlMxbW01bDdfQ2JkWGZoWXpS?oc=5\n\n5-star analyst sets alarming SpaceX stock price target - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxORzZJS2I5MjRxY0toQ3l3cTluZ3d6ZmxHXzh5V0NQdHRDcWowWnRuUk9mVXoybEFabXBtaE9jUUhrOW5vQTlsemJiT0VHbFBDVHg4ek5PdllxdU1jLUhNTkh1RnJZMTlwWEd4VXV4bTdldUZQSjR5RDk2dFRJTFJEaXp3VlMxbW01bDdfQ2JkWGZoWXpS?oc=5\" target=\"_blank\">5-star analyst sets alarming SpaceX stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
       "emailed": false
     }
   ],
