@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787749326,
-  "generated_at_str": "2026-08-26 13:02:06 UTC",
-  "last_event_ts": 1787748255,
+  "generated_at": 1787749506,
+  "generated_at_str": "2026-08-26 13:05:06 UTC",
+  "last_event_ts": 1787749505,
   "tables": {
     "alerts_dedup": {
-      "count": 3619,
-      "last_ts": 1787748255,
-      "last_str": "2026-08-26 12:44:15 UTC"
+      "count": 3620,
+      "last_ts": 1787749505,
+      "last_str": "2026-08-26 13:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-26 10:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5026,
-      "last_ts": 1787745902,
-      "last_str": "2026-08-26 12:05:02 UTC"
+      "count": 5031,
+      "last_ts": 1787749502,
+      "last_str": "2026-08-26 13:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5891,
-      "last_ts": 1787747703,
-      "last_str": "2026-08-26 12:35:03 UTC"
+      "count": 5892,
+      "last_ts": 1787749504,
+      "last_str": "2026-08-26 13:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3755,
-      "last_ts": 1787747702,
-      "last_str": "2026-08-26 12:35:02 UTC"
+      "count": 3756,
+      "last_ts": 1787749503,
+      "last_str": "2026-08-26 13:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4404,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3627,
+      "ts": 1787749505,
+      "ts_str": "2026-08-26 13:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 09:21:36 GMT\nLink:      https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFVMUUpTQWlFVThhcGtsSjNUaHhDcHZQZU1jbUVUcWhoOWZ1ZEZxWkhrczdPdncyODROWFh1T2pKVnZZTUQ1WEhZMklSWG9acXhlYzlramQ5MnkteUMwMnpER253U243d1paeTF2aWhZSGsyWF9xRjlaYWZodEdmSjZpeFkzMWUwMmVRZThKV0N5NEJ4SjEyMGJrWjlNOV9yNHltdTlPWG5aSldSb1pNeXhjOU0zVGVIUEHSAb8BQVVfeXFMTm0tRXZBdmJDa1N5bE0wNXpIenp2UDFOSnZZTGV5cG9HakNQbmR2Z0xxT2ZyZ2ZfVFNpdmtGNnBrcWhTa1JBZER4WTdXMWxJSS1LdUF4eHJBVms0Y191WFI2U3VyNzdPUXlzblllX3NVN1YwU3VBdWJPNGNfMFUyeFBJZXBFNzdMZE1UUm0yMmQ1X1FtTE85ZXJ5N0MyYlAxc3FRamFCQUNmdFc5d2hHS3EycGxITzVBLWlkenZfNVE?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFVMUUpTQWlFVThhcGtsSjNUaHhDcHZQZU1jbUVUcWhoOWZ1ZEZxWkhrczdPdncyODROWFh1T2pKVnZZTUQ1WEhZMklSWG9acXhlYzlramQ5MnkteUMwMnpER253U243d1paeTF2aWhZSGsyWF9xRjlaYWZodEdmSjZpeFkzMWUwMmVRZThKV0N5NEJ4SjEyMGJrWjlNOV9yNHltdTlPWG5aSldSb1pNeXhjOU0zVGVIUEHSAb8BQVVfeXFMTm0tRXZBdmJDa1N5bE0wNXpIenp2UDFOSnZZTGV5cG9HakNQbmR2Z0xxT2ZyZ2ZfVFNpdmtGNnBrcWhTa1JBZER4WTdXMWxJSS1LdUF4eHJBVms0Y191WFI2U3VyNzdPUXlzblllX3NVN1YwU3VBdWJPNGNfMFUyeFBJZXBFNzdMZE1UUm0yMmQ1X1FtTE85ZXJ5N0MyYlAxc3FRamFCQUNmdFc5d2hHS3EycGxITzVBLWlkenZfNVE?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers' capex by 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u9884\u8ba1\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\uff08CSP\uff09\u8d44\u672c\u5f00\u652f\u7684 68%\u3002\n\nWhy it matters:\nRising memory prices signal tightening supply feeding AI infrastructure buildout \u2014 the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8fd9\u548c\u80fd\u7f13\u89e3 capex \u538b\u529b\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3001\u964d\u4ef7\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\u9884\u6d4b DRAM/NAND \u5355\u9879\u5c31\u5403\u6389 CSP 68% \u7684\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u6b63\u53d8\u6210 AI \u57fa\u5efa\u7684\u74f6\u9888\u548c\u6210\u672c\u5927\u5934\uff0c\u4ece\u4f9b\u7ed9\u7aef\u4f50\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3626,
       "ts": 1787748255,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Another SpaceX \u2018Unlock\u2019 Puts the Stock to the Test - Bloomberg.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 16:13:23 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTBlbTJHRmVFRjFoZmx5ZnptcGxQbXVGTTR2Y0h0UkY1bXpyZ182cnExYzgtYXRNa3pDck9IOTQxaVpyZkV6TmlXOUJ3dWV1eU9EcFE0Ui1Vb3BOQTNlel9sOFo1eWFKcl92bGNMb196Nkx4S0w3VEd3dTBJV0VMdlNCa0d1b29QanFyYU93UEN0TXpkQWVIVTBVVDlma2k1ZS1uLVlFNVdSWThOdGlGOWxR?oc=5\n\nAnother SpaceX \u2018Unlock\u2019 Puts the Stock to the Test - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTBlbTJHRmVFRjFoZmx5ZnptcGxQbXVGTTR2Y0h0UkY1bXpyZ182cnExYzgtYXRNa3pDck9IOTQxaVpyZkV6TmlXOUJ3dWV1eU9EcFE0Ui1Vb3BOQTNlel9sOFo1eWFKcl92bGNMb196Nkx4S0w3VEd3dTBJV0VMdlNCa0d1b29QanFyYU93UEN0TXpkQWVIVTBVVDlma2k1ZS1uLVlFNVdSWThOdGlGOWxR?oc=5\" target=\"_blank\">Another SpaceX \u2018Unlock\u2019 Puts the Stock to the Test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline flags another SpaceX equity 'unlock' event as a test for the stock, with no ticker or numeric detail in the RSS snippet.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u79f0 SpaceX \u53c8\u4e00\u8f6e\u80a1\u6743\u300c\u89e3\u7981\u300d\u6b63\u5728\u8003\u9a8c\u80a1\u4ef7\uff0cRSS \u6458\u8981\u91cc\u6ca1\u6709\u5177\u4f53\u4ee3\u7801\u6216\u6570\u5b57\u3002\n\nWhy it matters:\nSpaceX unlocks are the passive-flow mechanism this catalyst tracks \u2014 each tranche release increases sellable float and can pressure the stock into index-related flows, which matters for the broader private-to-public AI-infra valuation transfer thesis.\n\n\u5f71\u54cd:\nSpaceX \u7684\u89e3\u7981\u6b63\u662f\u8fd9\u4e2a catalyst \u8ffd\u8e2a\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u673a\u5236\u2014\u2014\u6bcf\u4e00\u6279\u89e3\u7981\u90fd\u4f1a\u589e\u52a0\u53ef\u5356\u51fa\u7684\u6d41\u901a\u80a1\uff0c\u53ef\u80fd\u901a\u8fc7\u6307\u6570\u76f8\u5173\u7684\u8d44\u91d1\u6d41\u7ed9\u80a1\u4ef7\u5e26\u6765\u538b\u529b\uff0c\u8fd9\u5bf9 AI \u57fa\u7840\u8bbe\u65bd\u4ece\u4e00\u7ea7\u5e02\u573a\u5411\u4e8c\u7ea7\u5e02\u573a\u4f30\u503c\u8f6c\u79fb\u7684\u6574\u4f53\u903b\u8f91\u6709\u53c2\u8003\u610f\u4e49\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3427,
-      "ts": 1787154432,
-      "ts_str": "2026-08-19 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX stock in focus after China rocket milestone, share unlock ahead - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 13:45:36 GMT\nLink:      https://news.google.com/rss/articles/CBMizgFBVV95cUxNUXM4WkxxZjl3eTRnM2JvTC14MDd3OVNFMDhDYUd5QWNwTThkOU1YaE1wVnVpUWROTTMzMXk5VF8yMTFhbXRkZC1XRmZ5NXVjbURqYXpJbXJVck1EVEVZMjVPeGtyZFRzM0MwcTZ4bWE2eE1WSngtRXc1NDlqeGRHSDZybDBKWjhJY1FlVFVOT1ZxWndZMmtyMTY2Qkp3UmxGY25RcGh5SEV1aC1aUG5wSjR4VVNWcDNQWnNRSUZhSVpvb3l1YmVPZHp0NHoyUQ?oc=5\n\nSpaceX stock in focus after China rocket milestone, share unlock ahead - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNUXM4WkxxZjl3eTRnM2JvTC14MDd3OVNFMDhDYUd5QWNwTThkOU1YaE1wVnVpUWROTTMzMXk5VF8yMTFhbXRkZC1XRmZ5NXVjbURqYXpJbXJVck1EVEVZMjVPeGtyZFRzM0MwcTZ4bWE2eE1WSngtRXc1NDlqeGRHSDZybDBKWjhJY1FlVFVOT1ZxWndZMmtyMTY2Qkp3UmxGY25RcGh5SEV1aC1aUG5wSjR4VVNWcDNQWnNRSUZhSVpvb3l1YmVPZHp0NHoyUQ?oc=5\" target=\"_blank\">SpaceX stock in focus after China rocket milestone, share unlock ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX news coverage tied to a China rocket milestone appeared alongside mentions of the company's upcoming share unlock \u2014 no new SEC filing or numeric detail given.\n\n\u5185\u5bb9:\n\u6709\u5173 SpaceX \u7684\u65b0\u95fb\u62a5\u9053\u628a\u300c\u4e2d\u56fd\u706b\u7bad\u91cc\u7a0b\u7891\u300d\u4e0e\u8be5\u516c\u53f8\u5373\u5c06\u5230\u6765\u7684\u80a1\u4efd\u89e3\u7981\u653e\u5728\u4e00\u8d77\u63d0\u53ca\u2014\u2014\u6ca1\u6709\u65b0\u7684 SEC \u6587\u4ef6\u6216\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nThis is a scheduled tranche event on the lock-up calendar, not a standalone catalyst; the classifier flagged it purely on proximity between rocket-milestone news and the word 'unlock', so it's low-signal absent a filing or price/flow confirmation.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u89e3\u7981\u65e5\u5386\u4e0a\u7684\u4e00\u4e2a\u65e2\u5b9a\u6863\u4f4d\u4e8b\u4ef6\uff0c\u4e0d\u662f\u72ec\u7acb\u50ac\u5316\u5242\uff1b\u5206\u7c7b\u5668\u7eaf\u7cb9\u56e0\u4e3a\u6807\u9898\u91cc\u300c\u706b\u7bad\u91cc\u7a0b\u7891\u300d\u548c\u300cunlock\u300d\u4e24\u4e2a\u8bcd\u8ddd\u79bb\u8fd1\u5c31\u6253\u4e0a\u4e86\u6807\u7b7e\uff0c\u6ca1\u6709\u6587\u4ef6\u6216\u8d44\u91d1\u6d41\u4f50\u8bc1\uff0c\u4fe1\u53f7\u4ef7\u503c\u4f4e\u3002\n",
       "emailed": false
     }
   ],
