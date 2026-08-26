@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787742123,
-  "generated_at_str": "2026-08-26 11:02:03 UTC",
-  "last_event_ts": 1787741222,
+  "generated_at": 1787742315,
+  "generated_at_str": "2026-08-26 11:05:15 UTC",
+  "last_event_ts": 1787742315,
   "tables": {
     "alerts_dedup": {
-      "count": 3612,
-      "last_ts": 1787738705,
-      "last_str": "2026-08-26 10:05:05 UTC"
+      "count": 3613,
+      "last_ts": 1787742315,
+      "last_str": "2026-08-26 11:05:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-08-26 10:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5022,
-      "last_ts": 1787738702,
-      "last_str": "2026-08-26 10:05:02 UTC"
+      "count": 5023,
+      "last_ts": 1787742302,
+      "last_str": "2026-08-26 11:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5883,
@@ -89,14 +89,14 @@
       "last_str": "2026-08-26 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3749,
-      "last_ts": 1787740503,
-      "last_str": "2026-08-26 10:35:03 UTC"
+      "count": 3751,
+      "last_ts": 1787742302,
+      "last_str": "2026-08-26 11:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4392,
-      "last_ts": 1787740505,
-      "last_str": "2026-08-26 10:35:05 UTC"
+      "count": 4394,
+      "last_ts": 1787742304,
+      "last_str": "2026-08-26 11:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 26382,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3620,
+      "ts": 1787742315,
+      "ts_str": "2026-08-26 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 09:21:36 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers' capex by 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u9884\u8ba1\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\uff08CSP\uff09\u8d44\u672c\u5f00\u652f\u7684 68%\u3002\n\nWhy it matters:\nRising memory prices signal tightening supply feeding AI infrastructure buildout \u2014 the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8fd9\u548c\u80fd\u7f13\u89e3 capex \u538b\u529b\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3001\u964d\u4ef7\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\u9884\u6d4b DRAM/NAND \u5355\u9879\u5c31\u5403\u6389 CSP 68% \u7684\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u6b63\u53d8\u6210 AI \u57fa\u5efa\u7684\u74f6\u9888\u548c\u6210\u672c\u5927\u5934\uff0c\u4ece\u4f9b\u7ed9\u7aef\u4f50\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3619,
       "ts": 1787738705,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs - Free Press Journal",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 10:38:55 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDNWN3ZxXzIwdTQ0QnJnbVdKVjBjakN6aEZmOUg1bG9jS3dlelZidUR5cW02aENkUkEzRUdhLVBqaGpZUVVpR3A1MDM4clRVS2MzbGxacXZNZjBFZXAxaUZNb2RLQ2RwRHRQa2ZGSWctMklQUk9MTEFDRW1LMWZzRHhEVEJfWlFBMWxrT0FEQXhJVHhZanQ0ZjM1azNvSEozdTJFVC1HVUtRdEIyYWJNb1lzbVNfd9IBuwFBVV95cUxOWnR3WC1KVXpyNDdNR1BibTNpNU9pYjlkaXpCUi1JX3VfY0g3R1NfNG1JejdtR2szZEZWMzR3OUhwLU5nTG54ZHZNdjV3bjkxT2ZGMjBiMnRvdk81QWdSc2staE0wY243VVJfb3BkQUFTaUctS3lpeWhqRUdIRmJvQnJlcEhZMXN1enNSU2sxR2c4cmpZYnltZndjUDJQa3IwNkJSbzhvZ055Mlk0VlRncFJaQ1AtUDVuR1hv?oc=5\n\nSamsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs - Free Press Journal\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDNWN3ZxXzIwdTQ0QnJnbVdKVjBjakN6aEZmOUg1bG9jS3dlelZidUR5cW02aENkUkEzRUdhLVBqaGpZUVVpR3A1MDM4clRVS2MzbGxacXZNZjBFZXAxaUZNb2RLQ2RwRHRQa2ZGSWctMklQUk9MTEFDRW1LMWZzRHhEVEJfWlFBMWxrT0FEQXhJVHhZanQ0ZjM1azNvSEozdTJFVC1HVUtRdEIyYWJNb1lzbVNfd9IBuwFBVV95cUxOWnR3WC1KVXpyNDdNR1BibTNpNU9pYjlkaXpCUi1JX3VfY0g3R1NfNG1JejdtR2szZEZWMzR3OUhwLU5nTG54ZHZNdjV3bjkxT2ZGMjBiMnRvdk81QWdSc2staE0wY243VVJfb3BkQUFTaUctS3lpeWhqRUdIRmJvQnJlcEhZMXN1enNSU2sxR2c4cmpZYnltZndjUDJQa3IwNkJSbzhvZ055Mlk0VlRncFJaQ1AtUDVuR1hv?oc=5\" target=\"_blank\">Samsung May Hike Galaxy Foldable Prices In India Amid Rising Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Free Press Journal</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Samsung may raise Galaxy foldable prices in India due to rising memory chip costs \u2014 a device-price pass-through story, not a direct DRAM/NAND spot-price report.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u4e09\u661f\u53ef\u80fd\u56e0\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u800c\u4e0a\u8c03\u5370\u5ea6\u5e02\u573a Galaxy \u6298\u53e0\u5c4f\u624b\u673a\u552e\u4ef7\u2014\u2014\u8fd9\u662f\u7ec8\u7aef\u8bbe\u5907\u6da8\u4ef7\u7684\u4f20\u5bfc\u62a5\u9053\uff0c\u4e0d\u662f DRAM/NAND \u73b0\u8d27\u4ef7\u683c\u7684\u76f4\u63a5\u6570\u636e\u3002\n\nWhy it matters:\nConfirms memory-chip cost inflation is already reaching consumer-device pricing, consistent with the broader C6 tight-supply thesis, but this is a downstream retail signal rather than primary chip-market data.\n\n\u5f71\u54cd:\n\u8bf4\u660e\u5185\u5b58\u82af\u7247\u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u6d88\u8d39\u7535\u5b50\u5b9a\u4ef7\uff0c\u4e0e C6 \u4f9b\u5e94\u7d27\u5f20\u7684\u6574\u4f53\u5224\u65ad\u4e00\u81f4\uff0c\u4f46\u8fd9\u5c5e\u4e8e\u4e0b\u6e38\u96f6\u552e\u7aef\u4fe1\u53f7\uff0c\u4e0d\u662f\u82af\u7247\u5e02\u573a\u7684\u4e00\u624b\u6570\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3420,
-      "ts": 1787135716,
-      "ts_str": "2026-08-19 10:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Server Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks - www1.ru",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 06:58:39 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTdIBvAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTQ?oc=5\n\nServer Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks - www1.ru\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTdIBvAFBVV95cUxOSkJtZGVrbEhwbk5FSTE1OEJQMXRaVlU1OFBfVUpuNi1kY1dMU0J4M1NHSVM3X29HejdpR1dqMmpUemZvZXRoNzdkWWVTQzBmdi1IN056TjlXTmdZQTVGbU51STRGU0Ruc080WUNwd3d4YmY0RVo3b2IzdzlkS0tqZHhRT0xwbnZ4RGNNT1JsaEJFUGJIZ1RkSEdzN0FwaWlVTEllM1l1TjU3MEhkV2hrV1loSGpfanNla3RQTQ?oc=5\" target=\"_blank\">Server Crisis in Russia? Memory Prices Soar 20-Fold Due to Neural Networks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www1.ru</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Russian-language report claims memory prices in Russia surged 20x, attributed to AI/neural-network demand.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u4fc4\u8bed\u62a5\u9053\u79f0\uff0c\u53d7\u795e\u7ecf\u7f51\u7edc\u9700\u6c42\u9a71\u52a8\uff0c\u4fc4\u7f57\u65af\u5185\u5b58\u4ef7\u683c\u66b4\u6da8 20 \u500d\u3002\n\nWhy it matters:\nIf accurate, this is an extreme version of the DRAM/NAND supply squeeze already feeding into hyperscaler capex costs \u2014 AI demand crowding out other buyers. But a single unsourced 20x figure from one regional market warrants skepticism before treating it as a global signal.\n\n\u5f71\u54cd:\n\u5982\u679c\u5c5e\u5b9e\uff0c\u8fd9\u662f DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u7684\u6781\u7aef\u7248\u672c\u2014\u2014AI \u9700\u6c42\u6b63\u5728\u6324\u5360\u5176\u4ed6\u4e70\u5bb6\u7684\u4efd\u989d\uff0c\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u3002\u4f46\u5355\u4e00\u533a\u57df\u5e02\u573a\u3001\u65e0\u4fe1\u6e90\u652f\u6491\u7684 20 \u500d\u6570\u5b57\uff0c\u5728\u5f53\u4f5c\u5168\u7403\u4fe1\u53f7\u4e4b\u524d\u5f97\u6253\u4e2a\u95ee\u53f7\u3002\n",
       "emailed": false
     }
   ],
