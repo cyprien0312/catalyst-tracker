@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787721063,
-  "generated_at_str": "2026-08-26 05:11:03 UTC",
-  "last_event_ts": 1787720716,
+  "generated_at": 1787721254,
+  "generated_at_str": "2026-08-26 05:14:14 UTC",
+  "last_event_ts": 1787721248,
   "tables": {
     "alerts_dedup": {
-      "count": 3592,
-      "last_ts": 1787720716,
-      "last_str": "2026-08-26 05:05:16 UTC"
+      "count": 3593,
+      "last_ts": 1787721248,
+      "last_str": "2026-08-26 05:14:08 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-26 05:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 26314,
-      "last_ts": 1787719442,
-      "last_str": "2026-08-26 04:44:02 UTC"
+      "count": 26318,
+      "last_ts": 1787721242,
+      "last_str": "2026-08-26 05:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7761,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3600,
+      "ts": 1787721248,
+      "ts_str": "2026-08-26 05:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing - Bloomberg",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 04:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxQNTFoNmNLTmRrT0ZGMHVBVi1RS1M5M1NJWlZfdEJaR2t3TXk3WktrMTdhdU9iZGM2QnVYM3h1R2lSWFBvRlBqSmpXZzFIX1E3OGE3dG5VeEdyLUFqUzFlSkk0b2dsb3gySWEtbTVMS3RLaENEdzZuWkhvNGdqZmYyUlVtLTBYT0Q3S3pXdDM3cHA4aFF4T1RDd1N2MndPWklNUmxzTVVTcnFtQUk3ck14ZnN4YURvNENyalhVYTFsQ3h4cjNVUXFj?oc=5\n\nSoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing - Bloomberg\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQNTFoNmNLTmRrT0ZGMHVBVi1RS1M5M1NJWlZfdEJaR2t3TXk3WktrMTdhdU9iZGM2QnVYM3h1R2lSWFBvRlBqSmpXZzFIX1E3OGE3dG5VeEdyLUFqUzFlSkk0b2dsb3gySWEtbTVMS3RLaENEdzZuWkhvNGdqZmYyUlVtLTBYT0Q3S3pXdDM3cHA4aFF4T1RDd1N2MndPWklNUmxzTVVTcnFtQUk3ck14ZnN4YURvNENyalhVYTFsQ3h4cjNVUXFj?oc=5\" target=\"_blank\">SoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
+      "emailed": true
+    },
     {
       "id": 3599,
       "ts": 1787720716,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory chip price surge: winners and losers across the tech supply chain - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 06:10:29 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxPay02ajRhU1V5MHM2THNJOElkQ2NaUGdnZHJQcHl1TDE3SS1KdnEzaGd0eEpKV1ZRbFg5b05LMlBmczlwVTYwdjFtaUJqMkxNbjgtc3JERkpzYWp3NDNncy1zT05tNFhXVHZJNmlkcFhxZFRUQjJ0VHJ0SzBpNTZTRUtqUk9MYzc5dUc5dGFBVFdZTDY0Wm1taHBwQ2o1bTZ3MnB4bFN6VERrN3FhRkxDXzBxV3lreXJGMDFwTndEdFJJVms0R1BzQVRuQkhZY3NqWG5SRTNDd2w?oc=5\n\nMemory chip price surge: winners and losers across the tech supply chain - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPay02ajRhU1V5MHM2THNJOElkQ2NaUGdnZHJQcHl1TDE3SS1KdnEzaGd0eEpKV1ZRbFg5b05LMlBmczlwVTYwdjFtaUJqMkxNbjgtc3JERkpzYWp3NDNncy1zT05tNFhXVHZJNmlkcFhxZFRUQjJ0VHJ0SzBpNTZTRUtqUk9MYzc5dUc5dGFBVFdZTDY0Wm1taHBwQ2o1bTZ3MnB4bFN6VERrN3FhRkxDXzBxV3lreXJGMDFwTndEdFJJVms0R1BzQVRuQkhZY3NqWG5SRTNDd2w?oc=5\" target=\"_blank\">Memory chip price surge: winners and losers across the tech supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA wave of headlines reports a memory-chip price surge across the supply chain, with the same story framed in terms of resulting winners and losers.\n\n\u5185\u5bb9:\n\u591a\u6761\u62a5\u9053\u79f0\u5185\u5b58\u82af\u7247\u4ef7\u683c\u51fa\u73b0\u5168\u9762\u4e0a\u6da8\uff0c\u5e76\u6309\u4f9b\u5e94\u94fe\u5404\u73af\u8282\u5217\u51fa\u8d62\u5bb6\u548c\u8f93\u5bb6\u3002\n\nWhy it matters:\nRising DRAM/NAND/HBM prices raise the bill of materials for every AI server build, squeezing margins for buyers while validating the shortage thesis behind C6 \u2014 but a duplicated headline with no ticker or figure is thin evidence on its own.\n\n\u5f71\u54cd:\nDRAM/NAND/HBM \u6da8\u4ef7\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u91c7\u8d2d\u65b9\u5229\u6da6\uff0c\u4e5f\u5370\u8bc1\u4e86 C6 \u76ef\u7684\u77ed\u7f3a\u903b\u8f91\uff1b\u4f46\u8fd9\u6761\u6ca1\u6709 ticker \u4e5f\u6ca1\u6709\u5177\u4f53\u6570\u5b57\uff0c\u53ea\u662f\u540c\u4e00\u6761\u65b0\u95fb\u7684\u91cd\u590d\u6807\u9898\uff0c\u8bc1\u636e\u529b\u6709\u9650\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3400,
-      "ts": 1787040309,
-      "ts_str": "2026-08-18 08:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory chip price surge: winners and losers across the tech supply chain - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 06:10:29 GMT\nLink:      https://news.google.com/rss/articles/CBMi2AFBVV95cUxPay02ajRhU1V5MHM2THNJOElkQ2NaUGdnZHJQcHl1TDE3SS1KdnEzaGd0eEpKV1ZRbFg5b05LMlBmczlwVTYwdjFtaUJqMkxNbjgtc3JERkpzYWp3NDNncy1zT05tNFhXVHZJNmlkcFhxZFRUQjJ0VHJ0SzBpNTZTRUtqUk9MYzc5dUc5dGFBVFdZTDY0Wm1taHBwQ2o1bTZ3MnB4bFN6VERrN3FhRkxDXzBxV3lreXJGMDFwTndEdFJJVms0R1BzQVRuQkhZY3NqWG5SRTNDd2w?oc=5\n\nMemory chip price surge: winners and losers across the tech supply chain - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPay02ajRhU1V5MHM2THNJOElkQ2NaUGdnZHJQcHl1TDE3SS1KdnEzaGd0eEpKV1ZRbFg5b05LMlBmczlwVTYwdjFtaUJqMkxNbjgtc3JERkpzYWp3NDNncy1zT05tNFhXVHZJNmlkcFhxZFRUQjJ0VHJ0SzBpNTZTRUtqUk9MYzc5dUc5dGFBVFdZTDY0Wm1taHBwQ2o1bTZ3MnB4bFN6VERrN3FhRkxDXzBxV3lreXJGMDFwTndEdFJJVms0R1BzQVRuQkhZY3NqWG5SRTNDd2w?oc=5\" target=\"_blank\">Memory chip price surge: winners and losers across the tech supply chain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA wave of headlines reports a memory-chip price surge across the supply chain, with the same story framed in terms of resulting winners and losers.\n\n\u5185\u5bb9:\n\u591a\u6761\u62a5\u9053\u79f0\u5185\u5b58\u82af\u7247\u4ef7\u683c\u51fa\u73b0\u5168\u9762\u4e0a\u6da8\uff0c\u5e76\u6309\u4f9b\u5e94\u94fe\u5404\u73af\u8282\u5217\u51fa\u8d62\u5bb6\u548c\u8f93\u5bb6\u3002\n\nWhy it matters:\nRising DRAM/NAND/HBM prices raise the bill of materials for every AI server build, squeezing margins for buyers while validating the shortage thesis behind C6 \u2014 but a duplicated headline with no ticker or figure is thin evidence on its own.\n\n\u5f71\u54cd:\nDRAM/NAND/HBM \u6da8\u4ef7\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u91c7\u8d2d\u65b9\u5229\u6da6\uff0c\u4e5f\u5370\u8bc1\u4e86 C6 \u76ef\u7684\u77ed\u7f3a\u903b\u8f91\uff1b\u4f46\u8fd9\u6761\u6ca1\u6709 ticker \u4e5f\u6ca1\u6709\u5177\u4f53\u6570\u5b57\uff0c\u53ea\u662f\u540c\u4e00\u6761\u65b0\u95fb\u7684\u91cd\u590d\u6807\u9898\uff0c\u8bc1\u636e\u529b\u6709\u9650\u3002\n",
       "emailed": false
     }
   ],
