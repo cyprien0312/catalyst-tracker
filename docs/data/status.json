@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787715124,
-  "generated_at_str": "2026-08-26 03:32:04 UTC",
-  "last_event_ts": 1787714051,
+  "generated_at": 1787715319,
+  "generated_at_str": "2026-08-26 03:35:19 UTC",
+  "last_event_ts": 1787715318,
   "tables": {
     "alerts_dedup": {
-      "count": 3589,
-      "last_ts": 1787714051,
-      "last_str": "2026-08-26 03:14:11 UTC"
+      "count": 3590,
+      "last_ts": 1787715318,
+      "last_str": "2026-08-26 03:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-26 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5000,
-      "last_ts": 1787713502,
-      "last_str": "2026-08-26 03:05:02 UTC"
+      "count": 5001,
+      "last_ts": 1787715302,
+      "last_str": "2026-08-26 03:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5855,
-      "last_ts": 1787713503,
-      "last_str": "2026-08-26 03:05:03 UTC"
+      "count": 5856,
+      "last_ts": 1787715304,
+      "last_str": "2026-08-26 03:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3740,
-      "last_ts": 1787713503,
-      "last_str": "2026-08-26 03:05:03 UTC"
+      "count": 3741,
+      "last_ts": 1787715303,
+      "last_str": "2026-08-26 03:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4381,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3597,
+      "ts": 1787715318,
+      "ts_str": "2026-08-26 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] CXMT hits production ceiling, dimming hopes of easing DRAM shortage - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 02:09:58 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxNeDBwUG41UFlNeElIRjNTRjVTVHBuTHViazQyaFQ1d0FaYkxpeGJDWjExT3IxVzhla0ozVU41TFAyLURiNmYwTVhXUVlueFNKUm5TallQclh1VnVjSFZaSTFQdnpIV2VlXzI1ZzRjMndxdFpUQ3hvM25RaDVmQkhRSEI3aWpUZF9jMFhPWlNqX3NkRUhqeVJJVjNtelBjNjctaHRNQkw4cFVQN2ZQeE43QQ?oc=5\n\nCXMT hits production ceiling, dimming hopes of easing DRAM shortage - \ub514\uc9c0\ud138\ud22c\ub370\uc774\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNeDBwUG41UFlNeElIRjNTRjVTVHBuTHViazQyaFQ1d0FaYkxpeGJDWjExT3IxVzhla0ozVU41TFAyLURiNmYwTVhXUVlueFNKUm5TallQclh1VnVjSFZaSTFQdnpIV2VlXzI1ZzRjMndxdFpUQ3hvM25RaDVmQkhRSEI3aWpUZF9jMFhPWlNqX3NkRUhqeVJJVjNtelBjNjctaHRNQkw4cFVQN2ZQeE43QQ?oc=5\" target=\"_blank\">CXMT hits production ceiling, dimming hopes of easing DRAM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub514\uc9c0\ud138\ud22c\ub370\uc774</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reports CXMT has hit its production ceiling, undercutting hopes that DRAM shortages will ease \u2014 the same headline arrived duplicated, likely via multiple feed queries.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0 CXMT \u5df2\u8fbe\u5230\u751f\u4ea7\u4e0a\u9650\uff0cDRAM \u77ed\u7f3a\u7f13\u89e3\u7684\u5e0c\u671b\u56e0\u6b64\u53d8\u6de1\u2014\u2014\u540c\u4e00\u6761\u6807\u9898\u91cd\u590d\u51fa\u73b0\uff0c\u5f88\u53ef\u80fd\u662f\u547d\u4e2d\u4e86\u591a\u4e2a feed \u67e5\u8be2\u3002\n\nWhy it matters:\nA capped Chinese DRAM supplier means less relief on the supply side just as AI-driven memory demand keeps prices firm, reinforcing the memory-price-stress thesis (C6) that feeds into hyperscaler capex/margin pressure.\n\n\u5f71\u54cd:\n\u4e2d\u56fd DRAM \u5382\u5546\u4ea7\u80fd\u5c01\u9876\u610f\u5473\u7740\u4f9b\u7ed9\u7aef\u7f13\u89e3\u6709\u9650\uff0c\u800c AI \u9a71\u52a8\u7684\u5185\u5b58\u9700\u6c42\u8fd8\u5728\u6491\u7740\u4ef7\u683c\uff0c\u8fd9\u5f3a\u5316\u4e86 C6 \u7684\u5185\u5b58\u4ef7\u683c\u627f\u538b\u903b\u8f91\uff0c\u4e5f\u4f1a\u4f20\u5bfc\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u548c\u5229\u6da6\u7aef\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3596,
       "ts": 1787714051,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] How long can memory, SSD prices keep rising? Supply shortages may last - digitaltoday.co.kr",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 07:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxNLVhabUQwOUxHNXluR2dLVUlxM0F5Z2I2N2hZUjV5a3hxOW9wQms5NmpROXZuZzVvVzNwNU0wTjc1ZHNpLTNSZXp0MGNOZTF2d2M1djRUSUlkMTh1b0RKd0FnOHN0MUVKc3liekVJQmFJanZBQVVyZUZLTDdpTlR5alRGRUVtbEFRcUNFTk9vTDFleXAtMEFscjF4SG1hczl1ZTRZ?oc=5\n\nHow long can memory, SSD prices keep rising? Supply shortages may last - digitaltoday.co.kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNLVhabUQwOUxHNXluR2dLVUlxM0F5Z2I2N2hZUjV5a3hxOW9wQms5NmpROXZuZzVvVzNwNU0wTjc1ZHNpLTNSZXp0MGNOZTF2d2M1djRUSUlkMTh1b0RKd0FnOHN0MUVKc3liekVJQmFJanZBQVVyZUZLTDdpTlR5alRGRUVtbEFRcUNFTk9vTDFleXAtMEFscjF4SG1hczl1ZTRZ?oc=5\" target=\"_blank\">How long can memory, SSD prices keep rising? Supply shortages may last</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitaltoday.co.kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory and SSD prices are still climbing, with supply shortages expected to persist.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u548c SSD \u4ef7\u683c\u4ecd\u5728\u4e0a\u6da8\uff0c\u4f9b\u5e94\u77ed\u7f3a\u53ef\u80fd\u8fd8\u4f1a\u6301\u7eed\u3002\n\nWhy it matters:\nRising, sustained memory/NAND pricing signals real hardware supply constraint feeding AI infrastructure buildout costs \u2014 this is the inverse of an oversupply glut and points to continued capex pressure/cost inflation for compute-heavy buyers.\n\n\u5f71\u54cd:\n\u5185\u5b58/NAND \u4ef7\u683c\u6301\u7eed\u8d70\u9ad8\u8bf4\u660e\u786c\u4ef6\u4f9b\u7ed9\u786e\u5b9e\u5403\u7d27\uff0c\u8fd9\u4f1a\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u6210\u672c\uff0c\u548c\u4f9b\u8fc7\u4e8e\u6c42\u6b63\u597d\u76f8\u53cd\uff0c\u610f\u5473\u7740\u7b97\u529b\u4e70\u5bb6\u7684\u8d44\u672c\u5f00\u652f\u538b\u529b\u8fd8\u4f1a\u5ef6\u7eed\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3399,
-      "ts": 1787038514,
-      "ts_str": "2026-08-18 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] How long can memory, SSD prices keep rising? Supply shortages may last - digitaltoday.co.kr",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 07:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxNLVhabUQwOUxHNXluR2dLVUlxM0F5Z2I2N2hZUjV5a3hxOW9wQms5NmpROXZuZzVvVzNwNU0wTjc1ZHNpLTNSZXp0MGNOZTF2d2M1djRUSUlkMTh1b0RKd0FnOHN0MUVKc3liekVJQmFJanZBQVVyZUZLTDdpTlR5alRGRUVtbEFRcUNFTk9vTDFleXAtMEFscjF4SG1hczl1ZTRZ?oc=5\n\nHow long can memory, SSD prices keep rising? Supply shortages may last - digitaltoday.co.kr\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNLVhabUQwOUxHNXluR2dLVUlxM0F5Z2I2N2hZUjV5a3hxOW9wQms5NmpROXZuZzVvVzNwNU0wTjc1ZHNpLTNSZXp0MGNOZTF2d2M1djRUSUlkMTh1b0RKd0FnOHN0MUVKc3liekVJQmFJanZBQVVyZUZLTDdpTlR5alRGRUVtbEFRcUNFTk9vTDFleXAtMEFscjF4SG1hczl1ZTRZ?oc=5\" target=\"_blank\">How long can memory, SSD prices keep rising? Supply shortages may last</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitaltoday.co.kr</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory and SSD prices are still climbing, with supply shortages expected to persist.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u548c SSD \u4ef7\u683c\u4ecd\u5728\u4e0a\u6da8\uff0c\u4f9b\u5e94\u77ed\u7f3a\u53ef\u80fd\u8fd8\u4f1a\u6301\u7eed\u3002\n\nWhy it matters:\nRising, sustained memory/NAND pricing signals real hardware supply constraint feeding AI infrastructure buildout costs \u2014 this is the inverse of an oversupply glut and points to continued capex pressure/cost inflation for compute-heavy buyers.\n\n\u5f71\u54cd:\n\u5185\u5b58/NAND \u4ef7\u683c\u6301\u7eed\u8d70\u9ad8\u8bf4\u660e\u786c\u4ef6\u4f9b\u7ed9\u786e\u5b9e\u5403\u7d27\uff0c\u8fd9\u4f1a\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u6210\u672c\uff0c\u548c\u4f9b\u8fc7\u4e8e\u6c42\u6b63\u597d\u76f8\u53cd\uff0c\u610f\u5473\u7740\u7b97\u529b\u4e70\u5bb6\u7684\u8d44\u672c\u5f00\u652f\u538b\u529b\u8fd8\u4f1a\u5ef6\u7eed\u3002\n",
       "emailed": false
     }
   ],
