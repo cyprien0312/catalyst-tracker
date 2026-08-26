@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787783181,
-  "generated_at_str": "2026-08-26 22:26:21 UTC",
-  "last_event_ts": 1787782444,
+  "generated_at": 1787783353,
+  "generated_at_str": "2026-08-26 22:29:13 UTC",
+  "last_event_ts": 1787783353,
   "tables": {
     "alerts_dedup": {
-      "count": 3629,
-      "last_ts": 1787779031,
-      "last_str": "2026-08-26 21:17:11 UTC"
+      "count": 3630,
+      "last_ts": 1787783353,
+      "last_str": "2026-08-26 22:29:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 45,
-      "last_ts": 1787696942,
-      "last_str": "2026-08-25 22:29:02 UTC"
+      "count": 46,
+      "last_ts": 1787783342,
+      "last_str": "2026-08-26 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3637,
+      "ts": 1787783353,
+      "ts_str": "2026-08-26 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.32% (+43bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-25\nCurrent:  2.32%\n90d low:  1.89%\nMove:     +43bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield spiked to 2.32% on 2026-08-25, up 0.43pp from its trailing-90-day low of 1.89%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5728 2026-08-25 \u5347\u81f3 2.32%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.89% \u4e0a\u6da8 0.43 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nReal yields near cycle highs raise the discount rate applied to AI capex's distant payback and tighten financial conditions broadly \u2014 this is C10's early-warning leg, not yet at the 2x-trigger HIGH escalation.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u903c\u8fd1\u5468\u671f\u9ad8\u4f4d\uff0c\u4f1a\u62c9\u9ad8 AI capex \u90a3\u79cd\u8fdc\u671f\u56de\u672c\u9879\u76ee\u7684\u8d34\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u91d1\u878d\u6761\u4ef6\u2014\u2014\u8fd9\u662f C10 \u7684\u65e9\u671f\u9884\u8b66\u817f\uff0c\u8fd8\u6ca1\u5230 2 \u500d\u89e6\u53d1\u7ebf\u5bf9\u5e94\u7684 HIGH \u7ea7\u522b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3636,
       "ts": 1787779031,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI signals IPO could wait until 2027 as Anthropic weighs listing - digitimes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 04:00:17 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxQQklRZHlDUzJXY1c2c3h5TVNodzI5QkVPWGhaS3h3RVA2UFRqQVU4WmZJa2lhSlc4RzhFc2FJNFJCdFJSTkc0ZF9lY3djX25wLXlfaFJvblN4X1lKOWZTeGRxTjdDRHhEbXVHWXgzbWRZU0Uza3NvaW9CaU51MjhjV3V4aFJkZ2JYTFgtaG5tbUk?oc=5\n\nOpenAI signals IPO could wait until 2027 as Anthropic weighs listing - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQQklRZHlDUzJXY1c2c3h5TVNodzI5QkVPWGhaS3h3RVA2UFRqQVU4WmZJa2lhSlc4RzhFc2FJNFJCdFJSTkc0ZF9lY3djX25wLXlfaFJvblN4X1lKOWZTeGRxTjdDRHhEbXVHWXgzbWRZU0Uza3NvaW9CaU51MjhjV3V4aFJkZ2JYTFgtaG5tbUk?oc=5\" target=\"_blank\">OpenAI signals IPO could wait until 2027 as Anthropic weighs listing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI signaled its IPO could slip to 2027, coinciding with reports that rival Anthropic is weighing its own listing.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u7684 IPO \u53ef\u80fd\u63a8\u8fdf\u5230 2027 \u5e74\uff0c\u540c\u65f6 Anthropic \u4e5f\u5728\u8003\u8651\u4e0a\u5e02\u3002\n\nWhy it matters:\nA delayed OpenAI IPO removes a near-term liquidity/valuation-discovery event for the AI-capex thesis, while Anthropic entertaining a listing suggests the sector is still capital-hungry and looking to public markets to fund compute buildout \u2014 a moderate, not urgent, data point for bubble-stress monitoring.\n\n\u5f71\u54cd:\nOpenAI IPO \u63a8\u8fdf\uff0c\u610f\u5473\u7740\u77ed\u671f\u5185\u5c11\u4e86\u4e00\u4e2a\u7ed9 AI capex \u903b\u8f91\u505a\u4f30\u503c\u68c0\u9a8c\u7684\u4e8b\u4ef6\uff1b\u800c Anthropic \u4e5f\u5728\u8003\u8651\u4e0a\u5e02\uff0c\u8bf4\u660e\u8fd9\u4e2a\u884c\u4e1a\u4f9d\u65e7\u7f3a\u94b1\uff0c\u8fd8\u5f97\u9760\u516c\u5f00\u5e02\u573a\u878d\u8d44\u6491\u7b97\u529b\u6269\u5f20\u3002\u4fe1\u53f7\u5f3a\u5ea6\u4e2d\u7b49\uff0c\u4e0d\u7b97\u7d27\u6025\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3437,
-      "ts": 1787194024,
-      "ts_str": "2026-08-20 02:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX's Second Lockup Expiry: A New Test for Investors - Briefs Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 02:10:54 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxQZm9BTzBwMVdhaE5vNlBvODhhdno4Tl9ISHdTb05tdzhTY19oRHl3Q1poX01ONDBqYVVBU0QwSmdLdkJjcURUOUQ1SU1LZE8xX2RjYzNWZkpPUWZNekZVejBmSUhUY1FLVnh4LWlmWnAxWjE2M2g2YzVmbFNPczBHcHp6MUJEMnY5Y3c?oc=5\n\nSpaceX's Second Lockup Expiry: A New Test for Investors - Briefs Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQZm9BTzBwMVdhaE5vNlBvODhhdno4Tl9ISHdTb05tdzhTY19oRHl3Q1poX01ONDBqYVVBU0QwSmdLdkJjcURUOUQ1SU1LZE8xX2RjYzNWZkpPUWZNekZVejBmSUhUY1FLVnh4LWlmWnAxWjE2M2g2YzVmbFNPczBHcHp6MUJEMnY5Y3c?oc=5\" target=\"_blank\">SpaceX's Second Lockup Expiry: A New Test for Investors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Briefs Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": false
     }
   ],
