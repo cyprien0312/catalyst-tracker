@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787735463,
-  "generated_at_str": "2026-08-26 09:11:03 UTC",
-  "last_event_ts": 1787735285,
+  "generated_at": 1787735697,
+  "generated_at_str": "2026-08-26 09:14:57 UTC",
+  "last_event_ts": 1787735694,
   "tables": {
     "alerts_dedup": {
-      "count": 3604,
-      "last_ts": 1787732072,
-      "last_str": "2026-08-26 08:14:32 UTC"
+      "count": 3608,
+      "last_ts": 1787735694,
+      "last_str": "2026-08-26 09:14:54 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-25 23:00:32 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4618,
-      "last_ts": 1787733845,
-      "last_str": "2026-08-26 08:44:05 UTC"
+      "count": 4620,
+      "last_ts": 1787735649,
+      "last_str": "2026-08-26 09:14:09 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1039,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-26 09:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 26350,
-      "last_ts": 1787732043,
-      "last_str": "2026-08-26 08:14:03 UTC"
+      "count": 26361,
+      "last_ts": 1787735647,
+      "last_str": "2026-08-26 09:14:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7769,
@@ -310,6 +310,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3614,
+      "ts": 1787735694,
+      "ts_str": "2026-08-26 09:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Considers A $20 Billion Bond For OpenAI Debt - Finimize",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 08:01:12 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeDdWY0Q3c3BBbmsyTlJ5SWtqTGFzTFZPMVBMek13eG40QU95YmtXZVRub19JTG5UbWdORG9pV0V4aU0wczlGaHBNYV9tRWQ2NHNIbUNFNVloV1VqZVpQRU5vN3gwRU1Wc1dTVXNaaXV4WFFCTW5Oa0FSZk9aZzljOUVnUm5NWS1s?oc=5\n\nSoftBank Considers A $20 Billion Bond For OpenAI Debt - Finimize\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeDdWY0Q3c3BBbmsyTlJ5SWtqTGFzTFZPMVBMek13eG40QU95YmtXZVRub19JTG5UbWdORG9pV0V4aU0wczlGaHBNYV9tRWQ2NHNIbUNFNVloV1VqZVpQRU5vN3gwRU1Wc1dTVXNaaXV4WFFCTW5Oa0FSZk9aZzljOUVnUm5NWS1s?oc=5\" target=\"_blank\">SoftBank Considers A $20 Billion Bond For OpenAI Debt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly weighing a $20 billion bond issuance to fund debt tied to its OpenAI commitments.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u8f6f\u94f6\u6b63\u8003\u8651\u53d1\u884c\u4e00\u7b14 200 \u4ebf\u7f8e\u5143\u7684\u503a\u5238\uff0c\u7528\u4e8e\u507f\u4ed8\u4e0e OpenAI \u76f8\u5173\u7684\u503a\u52a1\u3002\n\nWhy it matters:\nRaising debt at this scale to cover OpenAI-linked obligations signals the capital needs are outrunning cash flow, and it pushes financing risk into public credit markets where spreads can react \u2014 a direct stress input for the AI-capex bubble thesis.\n\n\u5f71\u54cd:\n\u8981\u9760\u53d1\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u503a\u6765\u586b OpenAI \u76f8\u5173\u7684\u8d44\u91d1\u7f3a\u53e3\uff0c\u8bf4\u660e\u8d44\u672c\u9700\u6c42\u5df2\u7ecf\u8dd1\u8d62\u4e86\u73b0\u91d1\u6d41\uff0c\u800c\u4e14\u628a\u878d\u8d44\u98ce\u9669\u644a\u5230\u4e86\u516c\u5f00\u4fe1\u7528\u5e02\u573a\uff0c\u5229\u5dee\u53ef\u80fd\u56e0\u6b64\u6ce2\u52a8\u2014\u2014\u8fd9\u662f AI capex \u6ce1\u6cab\u538b\u529b\u6d4b\u8bd5\u7684\u76f4\u63a5\u8f93\u5165\u9879\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 3615,
+      "ts": 1787735694,
+      "ts_str": "2026-08-26 09:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan - marketscreener.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 08:16:44 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlE5OXVXWXhnWTZubjdYdVB1YlhRS0tCaVpuampzak1ZN2NiX1J0MXFNdkh6WlNQc3RmNUZob2ZpYnNWVDJ2VWpfOG1WQkZQZFlMUEYtcW5LaldVdWtjUVRacmF1NGtkT01iaGpQN1pXTFh4QjExNGFQOEp4dm1OYkh5NklLYUZsSlZJWjBWSDFJZndwTEtmRUhQRlk5MXBvTHJ1eXF4R1g0MzY1MWxKYzdRQ25JbllOaXpaWmtOMHZiRWdmT25ReTgyNFZXSG4yLUlKaHpxTQ?oc=5\n\nSoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlE5OXVXWXhnWTZubjdYdVB1YlhRS0tCaVpuampzak1ZN2NiX1J0MXFNdkh6WlNQc3RmNUZob2ZpYnNWVDJ2VWpfOG1WQkZQZFlMUEYtcW5LaldVdWtjUVRacmF1NGtkT01iaGpQN1pXTFh4QjExNGFQOEp4dm1OYkh5NklLYUZsSlZJWjBWSDFJZndwTEtmRUhQRlk5MXBvTHJ1eXF4R1g0MzY1MWxKYzdRQ25JbllOaXpaWmtOMHZiRWdmT25ReTgyNFZXSG4yLUlKaHpxTQ?oc=5\" target=\"_blank\">SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is considering a bond offering of up to $20 billion to refinance the loan it used to fund its OpenAI investment.\n\n\u5185\u5bb9:\n\u8f6f\u94f6\u6b63\u8003\u8651\u53d1\u884c\u6700\u9ad8 $20 billion \u7684\u503a\u5238\uff0c\u7528\u4ee5\u518d\u878d\u8d44\u6b64\u524d\u4e3a\u6295\u8d44 OpenAI \u6240\u501f\u7684\u8d37\u6b3e\u3002\n\nWhy it matters:\nSoftBank funding its OpenAI stake with fresh debt rather than cash signals its balance sheet is stretched by AI bets \u2014 a large investor needing to refinance an AI-related loan is a stress tell for the capital structure underpinning the OpenAI ecosystem, not just an OpenAI-side metric.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u8981\u9760\u65b0\u53d1\u503a\u6765\u7ed9 OpenAI \u6295\u8d44\u7684\u8d37\u6b3e\u7eed\u547d\uff0c\u8bf4\u660e\u5b83\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u5df2\u7ecf\u88ab AI \u62bc\u6ce8\u7ef7\u7d27\u4e86\u2014\u2014\u4e00\u4e2a\u5927\u80a1\u4e1c\u88ab\u8feb\u518d\u878d\u8d44 AI \u76f8\u5173\u8d37\u6b3e\uff0c\u662f\u7ed9 OpenAI \u751f\u6001\u80cc\u540e\u7684\u8d44\u672c\u7ed3\u6784\u6572\u54cd\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u53ea\u662f OpenAI \u81ea\u8eab\u7684\u6307\u6807\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 3612,
+      "ts": 1787735693,
+      "ts_str": "2026-08-26 09:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] OpenAI Investment Could Spur SoftBank\u2019s $20B Bond Deal - Yellow.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 07:49:23 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE1mZlRsVFRKaklfTGVWQm9DRTJkVUlPa0JSWDJEMFBuTXRvQVkzWjIzak5ITE9fUXdkNFNNT0ZfSmIwdE9lZGdHenlCVGFDbUwzMzB6YlpvUWJIZEhNZnF3bmxvZzFYeXphRlZ6TmpwWVJXQQ?oc=5\n\nOpenAI Investment Could Spur SoftBank\u2019s $20B Bond Deal - Yellow.com\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1mZlRsVFRKaklfTGVWQm9DRTJkVUlPa0JSWDJEMFBuTXRvQVkzWjIzak5ITE9fUXdkNFNNT0ZfSmIwdE9lZGdHenlCVGFDbUwzMzB6YlpvUWJIZEhNZnF3bmxvZzFYeXphRlZ6TmpwWVJXQQ?oc=5\" target=\"_blank\">OpenAI Investment Could Spur SoftBank\u2019s $20B Bond Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yellow.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly weighing a $20B bond deal, potentially tied to its OpenAI investment.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u8f6f\u94f6\u6b63\u5728\u8003\u8651\u53d1\u884c\u4e00\u7b14 $20B \u7684\u503a\u5238\uff0c\u53ef\u80fd\u4e0e\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u6709\u5173\u3002\n\nWhy it matters:\nSoftBank funding its OpenAI stake via debt rather than equity/cash raises the leverage embedded in the AI-capex chain \u2014 if OpenAI's growth stalls, the debt service burden sits on SoftBank's balance sheet, not OpenAI's, adding a new credit-risk transmission channel to the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u5982\u679c\u9760\u4e3e\u503a\u800c\u975e\u80a1\u6743/\u73b0\u91d1\u6765\u652f\u6491\u5bf9 OpenAI \u7684\u6295\u8d44\uff0c\u5c31\u628a AI capex \u94fe\u6761\u91cc\u7684\u6760\u6746\u53c8\u52a0\u9ad8\u4e86\u4e00\u5c42\u2014\u2014\u4e00\u65e6 OpenAI \u589e\u957f\u653e\u7f13\uff0c\u8fd8\u503a\u538b\u529b\u843d\u5728\u8f6f\u94f6\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u4e0a\uff0c\u800c\u4e0d\u662f OpenAI \u81ea\u5df1\u8eab\u4e0a\uff0c\u7ed9\u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u591a\u6dfb\u4e86\u4e00\u6761\u4fe1\u7528\u98ce\u9669\u4f20\u5bfc\u8def\u5f84\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 3613,
+      "ts": 1787735693,
+      "ts_str": "2026-08-26 09:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Weighs Bond Offerings to Refinance OpenAI Bridge Loan - marketscreener.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 06:50:45 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxOTW45TWNsNW9QRXkzc2I2Y1NvckZvT1FsM2lXcksxdzFvYkZLbXl1azIzbHo5Z2VDUGk3ZE8yWjZiaWhNZFl5Q2cxWURUR0haUGtWUExaTU5QOEdHZ2xIVE9xeW1rT1UyVl9zRFlNUnBkZndvUUpMck1NLXVSWkRUUHNkMnBiQ1BfamlfUmdITGdyUE5zTjBGbE8xUDdhRXVYeURKOWJncHpqOHVUZl9maHpqeWhDUQ?oc=5\n\nSoftBank Weighs Bond Offerings to Refinance OpenAI Bridge Loan - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTW45TWNsNW9QRXkzc2I2Y1NvckZvT1FsM2lXcksxdzFvYkZLbXl1azIzbHo5Z2VDUGk3ZE8yWjZiaWhNZFl5Q2cxWURUR0haUGtWUExaTU5QOEdHZ2xIVE9xeW1rT1UyVl9zRFlNUnBkZndvUUpMck1NLXVSWkRUUHNkMnBiQ1BfamlfUmdITGdyUE5zTjBGbE8xUDdhRXVYeURKOWJncHpqOHVUZl9maHpqeWhDUQ?oc=5\" target=\"_blank\">SoftBank Weighs Bond Offerings to Refinance OpenAI Bridge Loan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly weighing bond offerings to refinance the bridge loan it used to fund its OpenAI commitment.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u8f6f\u94f6\u6b63\u8003\u8651\u53d1\u503a\uff0c\u7528\u4ee5\u518d\u878d\u8d44\u5176\u4e3a\u8d44\u52a9 OpenAI \u76f8\u5173\u627f\u8bfa\u800c\u501f\u7684\u8fc7\u6865\u8d37\u6b3e\u3002\n\nWhy it matters:\nA bridge loan getting refinanced via bonds means the original short-term financing didn't convert to permanent capital on its own terms \u2014 SoftBank needs public debt markets to carry OpenAI exposure long-term. It's a funding-stack stress tell one layer removed from OpenAI itself: if bond investors balk or price it wide, that's a read on how the market views AI-capex-linked credit risk.\n\n\u5f71\u54cd:\n\u8fc7\u6865\u8d37\u6b3e\u9700\u8981\u9760\u53d1\u503a\u518d\u878d\u8d44\uff0c\u8bf4\u660e\u8fd9\u7b14\u77ed\u671f\u878d\u8d44\u6ca1\u80fd\u6309\u539f\u8ba1\u5212\u987a\u5229\u8f6c\u4e3a\u957f\u671f\u8d44\u672c\uff0c\u8f6f\u94f6\u5f97\u9760\u516c\u5f00\u503a\u5238\u5e02\u573a\u6765\u625b\u4f4f\u8fd9\u7b14 OpenAI \u76f8\u5173\u7684\u655e\u53e3\u3002\u8fd9\u662f\u6bd4 OpenAI \u81ea\u8eab\u4f4e\u4e00\u5c42\u7684\u8d44\u91d1\u94fe\u538b\u529b\u4fe1\u53f7\u2014\u2014\u5982\u679c\u503a\u5238\u6295\u8d44\u8005\u72b9\u8c6b\u6216\u8981\u4ef7\u504f\u9ad8\uff0c\u5c31\u80fd\u770b\u51fa\u5e02\u573a\u600e\u4e48\u7ed9 AI capex \u76f8\u5173\u7684\u4fe1\u7528\u98ce\u9669\u5b9a\u4ef7\u3002\n",
+      "emailed": true
+    },
     {
       "id": 3610,
       "ts": 1787732072,
@@ -2268,46 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Xiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage - sekbernews.id",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 01:20:18 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE5BZTRJRFFRMkdjbmk4ZVh5UG02S3RMWmk0VnVPRm01MTUxenRhQ3JlYlhIc1BxNU5WYk1Ia2tQNzJsNTRZWGFJXzY0THlHMEhCZmxkRXBlenVFZG1KZGRRUkpadHQ3UndxdHFTRXhUWmZWNzV3?oc=5\n\nXiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage - sekbernews.id\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5BZTRJRFFRMkdjbmk4ZVh5UG02S3RMWmk0VnVPRm01MTUxenRhQ3JlYlhIc1BxNU5WYk1Ia2tQNzJsNTRZWGFJXzY0THlHMEhCZmxkRXBlenVFZG1KZGRRUkpadHQ3UndxdHFTRXhUWmZWNzV3?oc=5\" target=\"_blank\">Xiaomi Net Income Drops 43 Percent Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sekbernews.id</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nXiaomi's net income fell 43% amid a memory-chip (DRAM/NAND) shortage, per RSS reporting.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cXiaomi \u56e0\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\uff0c\u51c0\u5229\u6da6\u4e0b\u6ed1 43%\u3002\n\nWhy it matters:\nA named hyperscaler-adjacent device maker taking a direct earnings hit from memory scarcity confirms the shortage is already flowing through to P&L, not just spot prices \u2014 reinforces the memory-tightness leg of the AI-capex bubble-stress thesis (upstream component scarcity constraining downstream builders).\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4e0e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u4f9b\u5e94\u94fe\u76f8\u90bb\u7684\u7ec8\u7aef\u5382\u5546\uff0c\u5229\u6da6\u5df2\u7ecf\u88ab\u5185\u5b58\u77ed\u7f3a\u76f4\u63a5\u6253\u7a7f\uff0c\u8bf4\u660e\u8fd9\u8f6e\u7d27\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u635f\u76ca\u8868\uff0c\u4e0d\u53ea\u662f\u73b0\u8d27\u4ef7\u683c\u5728\u6da8\u3002\u8fd9\u5370\u8bc1\u4e86 AI capex \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u5185\u5b58\u7d27\u7f3a\u8fd9\u4e00\u6761\u817f\u2014\u2014\u4e0a\u6e38\u5143\u4ef6\u7a00\u7f3a\u6b63\u5728\u5236\u7ea6\u4e0b\u6e38\u5382\u5546\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3415,
-      "ts": 1787092155,
-      "ts_str": "2026-08-18 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.44% (+55bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-17\nCurrent:  2.44%\n90d low:  1.89%\nMove:     +55bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield jumped to 2.44 pp on 2026-08-17, up 0.55 pp from a trailing-90-day low of 1.89 pp.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u771f\u5b9e\uff08TIPS\uff09\u6536\u76ca\u7387\u5728 2026-08-17 \u5347\u81f3 2.44 \u4e2a\u767e\u5206\u70b9\uff0c\u8f83\u8fc7\u53bb 90 \u4e2a\u4ea4\u6613\u65e5\u7684\u4f4e\u70b9 1.89 \u4e2a\u767e\u5206\u70b9\u4e0a\u6da8\u4e86 0.55 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly \u2014 a spike this size crossing C10's 2x trigger signals liquidity is draining faster than the trailing baseline, which historically pressures the most speculative, cash-flow-negative parts of the AI trade first.\n\n\u5f71\u54cd:\n\u771f\u5b9e\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8 AI \u8d44\u672c\u5f00\u652f\u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u540c\u65f6\u6536\u7d27\u6574\u4f53\u6d41\u52a8\u6027\u3002\u8fd9\u6b21\u6da8\u5e45\u8fbe\u5230 C10 \u7684 2 \u500d\u89e6\u53d1\u7ebf\uff0c\u8bf4\u660e\u6d41\u52a8\u6027\u6536\u7d27\u7684\u901f\u5ea6\u5feb\u8fc7\u8fd1 90 \u5929\u7684\u57fa\u51c6\u6c34\u5e73\u2014\u2014\u5386\u53f2\u4e0a\u8fd9\u79cd\u60c5\u51b5\u4f1a\u5148\u538b\u5230 AI \u6982\u5ff5\u91cc\u6700\u6295\u673a\u3001\u73b0\u91d1\u6d41\u4e3a\u8d1f\u7684\u90a3\u90e8\u5206\u8d44\u4ea7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3414,
-      "ts": 1787086036,
-      "ts_str": "2026-08-18 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Shares Drop 2.6% as $45.4 Billion Unlock Hits Market, Matching 3.3 Days\u2019 Trading Volume - TechStock\u00b2",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 20:16:54 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxPVUxDMTVkTzJwbWo5UjdTX2FpUFdpZURfLTZkbTNBUlkyd2RENGZwVzFwWk1DS2o2S2V1QzB3c1NFWm14UXBLNGhpWUtwLVRQR3c4MmpqMnVocTdEcDZ6R1B4VkF1S281R2NKUTBieHBkdFh0QnlwMWhfRVRPVEZHcEZzaDFlNGlWdGl1TWx4Y2Y?oc=5\n\nSpaceX Shares Drop 2.6% as $45.4 Billion Unlock Hits Market, Matching 3.3 Days\u2019 Trading Volume - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPVUxDMTVkTzJwbWo5UjdTX2FpUFdpZURfLTZkbTNBUlkyd2RENGZwVzFwWk1DS2o2S2V1QzB3c1NFWm14UXBLNGhpWUtwLVRQR3c4MmpqMnVocTdEcDZ6R1B4VkF1S281R2NKUTBieHBkdFh0QnlwMWhfRVRPVEZHcEZzaDFlNGlWdGl1TWx4Y2Y?oc=5\" target=\"_blank\">SpaceX Shares Drop 2.6% as $45.4 Billion Unlock Hits Market, Matching 3.3 Days\u2019 Trading Volume</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares fell 2.6% as $45.4B in newly unlocked stock hit the market, a volume equal to 3.3 days of normal trading.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u4e0b\u8dcc 2.6%\uff0c\u56e0\u4e3a $45.4B \u7684\u65b0\u89e3\u7981\u80a1\u7968\u6d8c\u5165\u5e02\u573a\uff0c\u76f8\u5f53\u4e8e 3.3 \u4e2a\u4ea4\u6613\u65e5\u7684\u6b63\u5e38\u6210\u4ea4\u91cf\u3002\n\nWhy it matters:\nA single-name unlock this large relative to daily volume creates real technical selling pressure, and as a passive-flow/index-mechanics specimen it's the clearest live test of whether lock-up expirations translate into forced or opportunistic selling in AI-adjacent names.\n\n\u5f71\u54cd:\n\u89e3\u7981\u89c4\u6a21\u76f8\u5bf9\u65e5\u6210\u4ea4\u91cf\u8fd9\u4e48\u5927\uff0c\u4f1a\u9020\u6210\u5b9e\u6253\u5b9e\u7684\u629b\u538b\uff1b\u4f5c\u4e3a\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u673a\u5236\u7684\u5355\u4e00\u6807\u7684\u6837\u672c\uff0c\u8fd9\u662f\u68c0\u9a8c\u89e3\u7981\u5230\u5e95\u4f1a\u4e0d\u4f1a\u8f6c\u5316\u4e3a\u5f3a\u5236\u6216\u987a\u52bf\u629b\u552e\u7684\u4e00\u6b21\u73b0\u6210\u89c2\u5bdf\u7a97\u53e3\uff0c\u5bf9 AI \u76f8\u5173\u80a1\u7968\u6709\u53c2\u8003\u610f\u4e49\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3413,
-      "ts": 1787080459,
-      "ts_str": "2026-08-18 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic\u2019s $65 Billion Surge, OpenAI\u2019s Teen Push | Bloomberg Tech 8/18/2026",
-      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Tue, 18 Aug 2026 18:52:39 GMT\nLink:      https://www.bloomberg.com/news/videos/2026-08-18/bloomberg-tech-8-18-2026-video\n\nAnthropic\u2019s $65 Billion Surge, OpenAI\u2019s Teen Push | Bloomberg Tech 8/18/2026\n\nBloomberg\u2019s Ed Ludlow breaks down Anthropic\u2019s annualized revenue topping $65 billion as the AI startup moves closer to a potential IPO. Plus, OpenAI launches ChatGPT for Teens, aimed at giving 13- to 17-year-olds a safer way to use the chatbot for learning. And, after advanced AI models escaped controlled safety tests and accessed real-world systems, we speak with the CEO of the startup hired to stress-test them. (Source: Bloomberg)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThis is a general AI industry news roundup (Bloomberg Tech), not a specific catalyst trigger: Anthropic's annualized revenue tops $65B ahead of a possible IPO, OpenAI launches ChatGPT for Teens, and an AI safety-testing startup CEO discusses models escaping controlled tests.\n\n\u5185\u5bb9:\n\u8fd9\u662f\u4e00\u5219\u7efc\u5408\u6027 AI \u884c\u4e1a\u65b0\u95fb\u6c47\u603b\uff08Bloomberg Tech\uff09\uff0c\u4e0d\u662f\u5177\u4f53\u7684\u50ac\u5316\u5242\u89e6\u53d1\uff1aAnthropic \u5e74\u5316\u6536\u5165\u7a81\u7834 $65B\u3001\u4e34\u8fd1\u6f5c\u5728 IPO\uff0cOpenAI \u63a8\u51fa\u9762\u5411\u9752\u5c11\u5e74\u7684 ChatGPT\uff0c\u4ee5\u53ca\u4e00\u5bb6 AI \u5b89\u5168\u6d4b\u8bd5\u521d\u521b\u516c\u53f8\u7684 CEO \u8c08\u5230\u6709\u6a21\u578b\u5728\u53d7\u63a7\u6d4b\u8bd5\u4e2d\u300c\u9003\u9038\u300d\u3002\n\nWhy it matters:\nNone of these items are hard financial or filing signals for the bubble-stress thesis \u2014 Anthropic's revenue claim is unverified/self-reported, and the safety-escape story is a soft narrative risk rather than a capex or credit signal. Low-value background noise; doesn't move the C3 burn-rate trigger.\n\n\u5f71\u54cd:\n\u8fd9\u51e0\u6761\u90fd\u4e0d\u6784\u6210 bubble-stress \u8bba\u70b9\u91cc\u7684\u786c\u8d22\u52a1\u6216\u76d1\u7ba1\u4fe1\u53f7\u2014\u2014Anthropic \u7684\u6536\u5165\u6570\u5b57\u662f\u672a\u7ecf\u6838\u5b9e\u7684\u81ea\u6211\u62ab\u9732\uff0c\u6a21\u578b\u9003\u9038\u6d4b\u8bd5\u7684\u8bf4\u6cd5\u5c5e\u4e8e\u8f6f\u6027\u53d9\u4e8b\u98ce\u9669\uff0c\u4e0d\u662f capex \u6216\u4fe1\u8d37\u7c7b\u4fe1\u53f7\u3002\u57fa\u672c\u662f\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u4f1a\u89e6\u53d1 C3 \u7684 burn-rate \u6307\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3412,
-      "ts": 1787078117,
-      "ts_str": "2026-08-18 18:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Puya Semiconductor's H1 net profit surges 1,929% as memory price hikes and consolidation effects drive results - finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 15:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBpaE5uZ2lnYzhqcE1sT0ctSy0yaV94TXBPY21ic1c0cnVKTVV3N1JFTnU4Q2VVWUduNUFROEdKYmxuelFWVzJ5eU1CUHVnZ1ZUT0JYSGhBUG9XRWptX21XRHFlOXF5WFZHNnpTMUN2VHJ4dUZDaFE?oc=5\n\nPuya Semiconductor's H1 net profit surges 1,929% as memory price hikes and consolidation effects drive results - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBpaE5uZ2lnYzhqcE1sT0ctSy0yaV94TXBPY21ic1c0cnVKTVV3N1JFTnU4Q2VVWUduNUFROEdKYmxuelFWVzJ5eU1CUHVnZ1ZUT0JYSGhBUG9XRWptX21XRHFlOXF5WFZHNnpTMUN2VHJ4dUZDaFE?oc=5\" target=\"_blank\">Puya Semiconductor's H1 net profit surges 1,929% as memory price hikes and consolidation effects drive results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPuya Semiconductor reported H1 net profit up 1,929% year-over-year, attributed to memory (chip) price hikes and industry consolidation.\n\n\u5185\u5bb9:\n\u666e\u96c5\u534a\u5bfc\u4f53\u62ab\u9732\u4e0a\u534a\u5e74\u51c0\u5229\u6da6\u540c\u6bd4\u66b4\u6da8 1,929%\uff0c\u516c\u53f8\u5c06\u5176\u5f52\u56e0\u4e8e\u5b58\u50a8\u5668\u6da8\u4ef7\u548c\u884c\u4e1a\u6574\u5408\u6548\u5e94\u3002\n\nWhy it matters:\nA ~20x profit jump from price hikes confirms upstream memory pricing power is accelerating, not just holding \u2014 this is the supply-tightness leg of the AI-capex bubble-stress thesis, since scarce/expensive memory raises the cost basis for every AI server build.\n\n\u5f71\u54cd:\n\u5229\u6da6\u6da8\u4e86\u8fd1 20 \u500d\uff0c\u8bf4\u660e\u4e0a\u6e38\u5b58\u50a8\u6da8\u4ef7\u7684\u52a8\u80fd\u5728\u52a0\u901f\u800c\u975e\u89c1\u9876\uff0c\u8fd9\u6b63\u597d\u5370\u8bc1 AI capex \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u300c\u4f9b\u7ed9\u7d27\u5f20\u300d\u8fd9\u6761\u817f\u2014\u2014\u5b58\u50a8\u8d8a\u8d35\u8d8a\u7d27\u4fcf\uff0c\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5efa\u9020\u6210\u672c\u5c31\u8d8a\u9ad8\u3002\n",
       "emailed": false
     }
   ],
