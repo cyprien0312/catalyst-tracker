@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787730068,
-  "generated_at_str": "2026-08-26 07:41:08 UTC",
-  "last_event_ts": 1787729704,
+  "generated_at": 1787730260,
+  "generated_at_str": "2026-08-26 07:44:20 UTC",
+  "last_event_ts": 1787730257,
   "tables": {
     "alerts_dedup": {
-      "count": 3600,
-      "last_ts": 1787728446,
-      "last_str": "2026-08-26 07:14:06 UTC"
+      "count": 3601,
+      "last_ts": 1787730257,
+      "last_str": "2026-08-26 07:44:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-08-26 07:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 26337,
-      "last_ts": 1787728442,
-      "last_str": "2026-08-26 07:14:02 UTC"
+      "count": 26342,
+      "last_ts": 1787730242,
+      "last_str": "2026-08-26 07:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7766,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3608,
+      "ts": 1787730257,
+      "ts_str": "2026-08-26 07:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Plans $20 Billion Bond Sale to Refinance OpenAI Investment - finance.biggo.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 07:09:23 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5mYVlXLU1lN0FUZFBmMFR1U2dObHpQOUExVmhZZzZvVHE2dEt4SHlMdnd5aDFrandqNm1MWWFzc0lrbFZGemdGb1Vxam56OWU2Q01EaVBucU1jZVR4OXhmdHdDNjExZlRBMjFJVmpBWDR3bGk2SkE?oc=5\n\nSoftBank Plans $20 Billion Bond Sale to Refinance OpenAI Investment - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5mYVlXLU1lN0FUZFBmMFR1U2dObHpQOUExVmhZZzZvVHE2dEt4SHlMdnd5aDFrandqNm1MWWFzc0lrbFZGemdGb1Vxam56OWU2Q01EaVBucU1jZVR4OXhmdHdDNjExZlRBMjFJVmpBWDR3bGk2SkE?oc=5\" target=\"_blank\">SoftBank Plans $20 Billion Bond Sale to Refinance OpenAI Investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank plans to sell $20 billion in bonds to refinance its investment in OpenAI.\n\n\u5185\u5bb9:\nSoftBank \u8ba1\u5212\u53d1\u884c 200 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u7528\u4e8e\u7ed9\u5176 OpenAI \u6295\u8d44\u518d\u878d\u8d44\u3002\n\nWhy it matters:\nRaising debt against an OpenAI stake signals SoftBank is leveraging its position rather than funding it from cash flow \u2014 a classic late-cycle move that transfers AI-bet risk onto bondholders and makes SoftBank's balance sheet a transmission channel for OpenAI-specific stress into credit markets.\n\n\u5f71\u54cd:\n\u9760\u53d1\u503a\u7ed9 OpenAI \u6301\u4ed3\u518d\u878d\u8d44\uff0c\u8bf4\u660e SoftBank \u6ca1\u7528\u73b0\u91d1\u6d41\u652f\u6491\u8fd9\u7b14\u6295\u8d44\uff0c\u800c\u662f\u52a0\u6760\u6746\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u64cd\u4f5c\uff0c\u628a AI \u8d4c\u6ce8\u7684\u98ce\u9669\u8f6c\u5ac1\u7ed9\u4e86\u503a\u6743\u4eba\uff0c\u4e5f\u8ba9 SoftBank \u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u6210\u4e86 OpenAI \u7279\u5b9a\u98ce\u9669\u4f20\u5bfc\u8fdb\u4fe1\u7528\u5e02\u573a\u7684\u901a\u9053\u3002\n",
+      "emailed": true
+    },
     {
       "id": 3607,
       "ts": 1787728445,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX shares dip as 319M insider shares become eligible for sale, testing investor demand after recent lock-up expiry. ",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 13:00:12 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPc2lseXNjS19XaGVITTZxYl9VZUJ2OWVGVWxLeGduRFhseTNIdHg0ZG96SWRCOFNQcG9LWmUtbXo0eDhjRmJUMDRubFRLMGd1LUFjdC1IWFZOZXBQM3ZrYTlEWlBhaGVhdG0wMXI4QS03N281eFRVVEFMVUxTMmllN2ZwX2E?oc=5\n\nSpaceX shares dip as 319M insider shares become eligible for sale, testing investor demand after recent lock-up expiry. - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPc2lseXNjS19XaGVITTZxYl9VZUJ2OWVGVWxLeGduRFhseTNIdHg0ZG96SWRCOFNQcG9LWmUtbXo0eDhjRmJUMDRubFRLMGd1LUFjdC1IWFZOZXBQM3ZrYTlEWlBhaGVhdG0wMXI4QS03N281eFRVVEFMVUxTMmllN2ZwX2E?oc=5\" target=\"_blank\">SpaceX shares dip as 319M insider shares become eligible for sale, testing investor demand after recent lock-up expiry.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares dipped after 319M insider shares became eligible for sale, testing investor demand following the recent lock-up expiry.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u4e0b\u8dcc\uff0c\u56e0 319M \u80a1\u5185\u90e8\u4eba\u80a1\u7968\u5728\u8fd1\u671f\u89e3\u7981\u540e\u8fbe\u5230\u53ef\u51fa\u552e\u6761\u4ef6\uff0c\u5e02\u573a\u501f\u6b64\u6d4b\u8bd5\u771f\u5b9e\u9700\u6c42\u3002\n\nWhy it matters:\nThis is the mechanical unlock-supply event the C11 signal is built to catch \u2014 newly tradable insider shares pressure the price directly and serve as a read on how much passive/index demand can absorb before the stock cracks.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u8981\u6293\u7684\u89e3\u7981\u4f9b\u7ed9\u51b2\u51fb\u2014\u2014\u65b0\u589e\u53ef\u4ea4\u6613\u7684\u5185\u90e8\u4eba\u80a1\u7968\u76f4\u63a5\u538b\u4ef7\uff0c\u4e5f\u662f\u68c0\u9a8c\u88ab\u52a8/\u6307\u6570\u8d44\u91d1\u80fd\u5438\u6536\u591a\u5c11\u629b\u538b\u7684\u4e00\u6b21\u5b9e\u6d4b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3407,
-      "ts": 1787057249,
-      "ts_str": "2026-08-18 12:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Top Analyst Raises SpaceX Price Target to $248 on Massive Orbital AI Opportunity - 24/7 Wall St.",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 18 Aug 2026 12:28:48 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU0FRWWdDTWIzWGNIT3dfeGkxVUowVm16Mzh4VE9FNm1iaEV3MWxZNGdoWmQyLUJJMC1DdjN4ZDZBSk1XVk82NUxKV3RVUzVYNjg2TS1od3ZzZWcyMFE4LTJnMU55VkxtcVFBRVZQT08tQ2t0bi1aUmtVMkIyZFFyeWVjTndpYlFOYTNQNTNJanR0U1NMVU1yTWJCcUlzZDVNQU1heUZfSVY4SHFUUThkanZiaHlsRW8wb0JsNENJRDE?oc=5\n\nTop Analyst Raises SpaceX Price Target to $248 on Massive Orbital AI Opportunity - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU0FRWWdDTWIzWGNIT3dfeGkxVUowVm16Mzh4VE9FNm1iaEV3MWxZNGdoWmQyLUJJMC1DdjN4ZDZBSk1XVk82NUxKV3RVUzVYNjg2TS1od3ZzZWcyMFE4LTJnMU55VkxtcVFBRVZQT08tQ2t0bi1aUmtVMkIyZFFyeWVjTndpYlFOYTNQNTNJanR0U1NMVU1yTWJCcUlzZDVNQU1heUZfSVY4SHFUUThkanZiaHlsRW8wb0JsNENJRDE?oc=5\" target=\"_blank\">Top Analyst Raises SpaceX Price Target to $248 on Massive Orbital AI Opportunity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS surfaced an analyst note raising SpaceX's price target to $248, framed around orbital AI computing.\n\n\u5185\u5bb9:\nGoogle News RSS \u6293\u5230\u4e00\u6761\u5206\u6790\u5e08\u62a5\u544a\uff0c\u628a SpaceX \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $248\uff0c\u7406\u7531\u662f\u300c\u8f68\u9053 AI \u7b97\u529b\u673a\u9047\u300d\u3002\n\nWhy it matters:\nRising private valuation just before the IPO/lock-up window increases the passive-flow shock when index funds must buy in \u2014 bigger implied market cap means a bigger mechanical buy, not a fundamentals signal.\n\n\u5f71\u54cd:\n\u89e3\u7981/IPO \u7a97\u53e3\u524d\u79c1\u52df\u4f30\u503c\u8d70\u9ad8\uff0c\u4f1a\u653e\u5927\u6307\u6570\u57fa\u91d1\u88ab\u52a8\u4e70\u5165\u7684\u51b2\u51fb\u2014\u2014\u9690\u542b\u5e02\u503c\u8d8a\u5927\uff0c\u88ab\u52a8\u8d44\u91d1\u8981\u4e70\u7684\u91cf\u5c31\u8d8a\u5927\uff0c\u8fd9\u548c\u57fa\u672c\u9762\u4fe1\u53f7\u65e0\u5173\u3002\n",
       "emailed": false
     }
   ],
