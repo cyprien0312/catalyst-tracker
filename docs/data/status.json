@@ -1,12 +1,12 @@
 {
-  "generated_at": 1787869578,
-  "generated_at_str": "2026-08-27 22:26:18 UTC",
-  "last_event_ts": 1787868845,
+  "generated_at": 1787869755,
+  "generated_at_str": "2026-08-27 22:29:15 UTC",
+  "last_event_ts": 1787869752,
   "tables": {
     "alerts_dedup": {
-      "count": 3645,
-      "last_ts": 1787858045,
-      "last_str": "2026-08-27 19:14:05 UTC"
+      "count": 3646,
+      "last_ts": 1787869752,
+      "last_str": "2026-08-27 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 46,
-      "last_ts": 1787783342,
-      "last_str": "2026-08-26 22:29:02 UTC"
+      "count": 47,
+      "last_ts": 1787869742,
+      "last_str": "2026-08-27 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3653,
+      "ts": 1787869752,
+      "ts_str": "2026-08-27 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.34% (+45bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-26\nCurrent:  2.34%\n90d low:  1.89%\nMove:     +45bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield spiked to 2.34% from a trailing-90-day low of 1.89% \u2014 a 0.45pp rise as of 2026-08-26.\n\n\u5185\u5bb9:\n10\u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u4ece90\u5929\u4f4e\u70b91.89%\u8df3\u5347\u81f32.34%\uff0c\u6da8\u4e860.45\u4e2a\u767e\u5206\u70b9\uff08\u622a\u81f32026-08-26\uff09\u3002\n\nWhy it matters:\nRising real yields raise the discount rate on long-duration cash flows, hitting speculative AI capex bets hardest since their payoff is furthest out. It's also a tightening-financial-conditions signal \u2014 makes debt-funded capex more expensive right when hyperscaler free cash flow is already strained.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u4f1a\u62ac\u9ad8\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\uff0c\u5bf9\u56de\u62a5\u5468\u671f\u6700\u8fdc\u7684AI\u6295\u673a\u6027\u8d44\u672c\u5f00\u652f\u6253\u51fb\u6700\u5927\u3002\u8fd9\u4e5f\u662f\u91d1\u878d\u6761\u4ef6\u6536\u7d27\u7684\u4fe1\u53f7\u2014\u2014\u504f\u504f\u5728\u8d85\u5927\u89c4\u6a21\u5382\u5546\u81ea\u7531\u73b0\u91d1\u6d41\u5df2\u7ecf\u5403\u7d27\u7684\u65f6\u5019\uff0c\u8ba9\u4e3e\u503a\u6269\u4ea7\u53d8\u5f97\u66f4\u8d35\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3652,
       "ts": 1787858045,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Moderna Adds $50B on Cancer Vaccine, SPCX Unlock Today - CoinDCX",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 12:58:23 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxPejdvSmszd2hMUUFVY0NOVlpQd2dYSm92d1lzbURPZ3lDcmJ1cWhqMGtrcHhPWFF4a2hoT0hiTHFtSW10SVRISU1uX182bnA0LTJCWVJKZmpXSGtTUWpiWkF1bzZ6U0paNmdSdjJEM25CU1hVNFVDQ2lBV0U2cS1Rel9FQ1I2NXRUUHNsMWZnLUY?oc=5\n\nModerna Adds $50B on Cancer Vaccine, SPCX Unlock Today - CoinDCX\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPejdvSmszd2hMUUFVY0NOVlpQd2dYSm92d1lzbURPZ3lDcmJ1cWhqMGtrcHhPWFF4a2hoT0hiTHFtSW10SVRISU1uX182bnA0LTJCWVJKZmpXSGtTUWpiWkF1bzZ6U0paNmdSdjJEM25CU1hVNFVDQ2lBV0U2cS1Rel9FQ1I2NXRUUHNsMWZnLUY?oc=5\" target=\"_blank\">Moderna Adds $50B on Cancer Vaccine, SPCX Unlock Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinDCX</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item flagged Moderna's $50B cancer-vaccine news alongside an SPCX (SpaceX) unlock event scheduled for the same day.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u628a Moderna 500 \u4ebf\u7f8e\u5143\u764c\u75c7\u75ab\u82d7\u65b0\u95fb\u548c\u5f53\u5929\u7684 SPCX\uff08SpaceX\uff09\u89e3\u7981\u4e8b\u4ef6\u653e\u5728\u4e86\u4e00\u8d77\u3002\n\nWhy it matters:\nThis is a scheduled tranche unlock from the S-1-derived lock-up calendar, not a news-driven catalyst \u2014 the co-occurring Moderna headline is unrelated noise picked up by the proximity classifier. Relevant mainly as a passive-flow/index-mechanics event to watch for supply pressure on the unlock date.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u89e3\u7981\u65e5\u5386\uff08\u4ece S-1 \u63a8\u7b97\uff09\u91cc\u6392\u5b9a\u7684\u4e00\u6b21\u89e3\u7981\uff0c\u4e0d\u662f\u65b0\u95fb\u9a71\u52a8\u7684\u4fe1\u53f7\u2014\u2014\u540c\u65f6\u51fa\u73b0\u7684 Moderna \u6807\u9898\u662f\u5206\u7c7b\u5668\u6293\u5230\u7684\u65e0\u5173\u566a\u97f3\u3002\u4e3b\u8981\u4f5c\u4e3a\u88ab\u52a8\u8d44\u91d1\u6d41/\u6307\u6570\u673a\u5236\u4e8b\u4ef6\u5173\u6ce8\uff0c\u770b\u89e3\u7981\u5f53\u5929\u662f\u5426\u6709\u4f9b\u7ed9\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3453,
-      "ts": 1787233450,
-      "ts_str": "2026-08-20 13:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Targets Public Market Debut By 2027 While Dismissing IPO Race Pressure With Anthropic - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 19 Aug 2026 23:39:16 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDR3VG13TFBJenQyOUN5Q0psaUJnVjViY3A3aUtrOURhNkRyZmdtRFFfZWc1Wk9EbGRjRUZxWlRlSHJjb2VyblkxOG9Lell3S1JFRWdmeTNQTnI3YkJibzE0RlUzbU1LTGZOSHViQkRPWkFTYUg2cXA1SmtUWEwycTNiNlItUWJVTVphSHppSnh4bGwtbGhSV3RNSDduc0xJ?oc=5\n\nOpenAI Targets Public Market Debut By 2027 While Dismissing IPO Race Pressure With Anthropic - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDR3VG13TFBJenQyOUN5Q0psaUJnVjViY3A3aUtrOURhNkRyZmdtRFFfZWc1Wk9EbGRjRUZxWlRlSHJjb2VyblkxOG9Lell3S1JFRWdmeTNQTnI3YkJibzE0RlUzbU1LTGZOSHViQkRPWkFTYUg2cXA1SmtUWEwycTNiNlItUWJVTVphSHppSnh4bGwtbGhSV3RNSDduc0xJ?oc=5\" target=\"_blank\">OpenAI Targets Public Market Debut By 2027 While Dismissing IPO Race Pressure With Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports OpenAI is targeting a public-market debut by 2027, while pushing back on framing it as an IPO race with Anthropic.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u7784\u51c6 2027 \u5e74\u4e0a\u5e02\uff0c\u4f46\u516c\u53f8\u5426\u8ba4\u8fd9\u662f\u5728\u8ddf Anthropic \u62a2 IPO \u8fdb\u5ea6\u3002\n\nWhy it matters:\nA concrete 2027 IPO timeline signals OpenAI is preparing for outside financial scrutiny of its burn rate and unit economics \u2014 the kind of disclosure discipline that could validate or puncture the AI-capex bull case once it's public. It's a MED-severity headline, not yet a hard financial trigger.\n\n\u5f71\u54cd:\n2027 \u5e74\u8fd9\u4e2a\u5177\u4f53\u4e0a\u5e02\u65f6\u95f4\u8868\u610f\u5473\u7740 OpenAI \u8981\u5f00\u59cb\u4e3a\u5916\u90e8\u8d44\u91d1\u5bf9\u5176\u70e7\u94b1\u901f\u5ea6\u548c\u5355\u4f4d\u7ecf\u6d4e\u6a21\u578b\u7684\u5ba1\u89c6\u505a\u51c6\u5907\uff0c\u4e0a\u5e02\u540e\u7684\u62ab\u9732\u5c06\u6210\u4e3a\u9a8c\u8bc1\u6216\u6233\u7834 AI capex \u725b\u5e02\u903b\u8f91\u7684\u5173\u952e\u3002\u76ee\u524d\u53ea\u662f MED \u7ea7\u522b\u7684\u65b0\u95fb\uff0c\u8fd8\u4e0d\u662f\u786c\u8d22\u52a1\u89e6\u53d1\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
