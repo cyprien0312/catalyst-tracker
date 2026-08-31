@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788217328,
-  "generated_at_str": "2026-08-31 23:02:08 UTC",
-  "last_event_ts": 1788217228,
+  "generated_at": 1788217516,
+  "generated_at_str": "2026-08-31 23:05:16 UTC",
+  "last_event_ts": 1788217515,
   "tables": {
     "alerts_dedup": {
-      "count": 3707,
-      "last_ts": 1788216255,
-      "last_str": "2026-08-31 22:44:15 UTC"
+      "count": 3710,
+      "last_ts": 1788217515,
+      "last_str": "2026-08-31 23:05:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-31 22:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5289,
-      "last_ts": 1788215702,
-      "last_str": "2026-08-31 22:35:02 UTC"
+      "count": 5291,
+      "last_ts": 1788217503,
+      "last_str": "2026-08-31 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6236,
-      "last_ts": 1788215704,
-      "last_str": "2026-08-31 22:35:04 UTC"
+      "count": 6237,
+      "last_ts": 1788217505,
+      "last_str": "2026-08-31 23:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3868,
@@ -310,6 +310,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3715,
+      "ts": 1788217515,
+      "ts_str": "2026-08-31 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - Startup Fortune",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 10:46:02 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\n\nHuawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\" target=\"_blank\">Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei reported H1 2026 profit down 36%, attributing part of the hit to surging memory chip prices \u2014 DRAM/NAND cost inflation feeding through to a major device/server maker's bottom line.\n\n\u5185\u5bb9:\n\u534e\u4e3a\u62ab\u9732 2026 \u5e74\u4e0a\u534a\u5e74\u5229\u6da6\u4e0b\u6ed1 36%\uff0c\u90e8\u5206\u5f52\u56e0\u4e8e\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u2014\u2014DRAM/NAND \u6210\u672c\u4e0a\u6da8\u76f4\u63a5\u51b2\u51fb\u8fd9\u5bb6\u4e3b\u8981\u8bbe\u5907/\u670d\u52a1\u5668\u5382\u5546\u7684\u5229\u6da6\u3002\n\nWhy it matters:\nMemory price spikes squeeze every hyperscaler and OEM buying HBM/DRAM for AI servers, not just Huawei \u2014 it's a cost-side confirmation that the memory shortage is real and already showing up in earnings, reinforcing the AI-capex cost-inflation thread.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u6324\u538b\u7684\u4e0d\u53ea\u662f\u534e\u4e3a\uff0c\u6240\u6709\u91c7\u8d2d HBM/DRAM \u5efa AI \u670d\u52a1\u5668\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c OEM \u90fd\u53d7\u5f71\u54cd\u2014\u2014\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u8d22\u62a5\u5229\u6da6\u7aef\u7684\u6210\u672c\u4fa7\u8bc1\u636e\uff0c\u52a0\u56fa\u4e86 AI capex \u6210\u672c\u901a\u80c0\u8fd9\u6761\u7ebf\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3716,
+      "ts": 1788217515,
+      "ts_str": "2026-08-31 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 22:00:05 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\n\nMemory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\" target=\"_blank\">Memory Shortage Deepens as HBM Export Price Tops $70</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports a memory-market shortage, stating HBM export prices have risen above $70.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u62a5\u9053\u5185\u5b58\u5e02\u573a\u77ed\u7f3a\u52a0\u5267\uff0cHBM \u51fa\u53e3\u4ef7\u683c\u7a81\u7834 $70\u3002\n\nWhy it matters:\nRising HBM prices confirm demand for AI-accelerator memory continues to outstrip supply \u2014 a bullish input cost signal that also raises hyperscaler capex and squeezes margins for anyone buying HBM downstream, feeding the AI-infra bubble-stress thesis from the supply-tightness side.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e AI \u52a0\u901f\u5361\u6240\u9700\u5185\u5b58\u7684\u9700\u6c42\u4ecd\u5728\u8d85\u8fc7\u4f9b\u7ed9\uff0c\u8fd9\u65e2\u662f\u6210\u672c\u7aef\u7684\u5229\u597d\u4fe1\u53f7\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u538b\u7f29\u4e0b\u6e38\u91c7\u8d2d\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4ece\u4f9b\u7ed9\u7d27\u5f20\u8fd9\u4e00\u4fa7\u5370\u8bc1 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3717,
+      "ts": 1788217515,
+      "ts_str": "2026-08-31 23:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 22:00:05 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\n\nMemory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\" target=\"_blank\">Memory Shortage Deepens as HBM Export Price Tops $70</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports a memory-market shortage, stating HBM export prices have risen above $70.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u62a5\u9053\u5185\u5b58\u5e02\u573a\u77ed\u7f3a\u52a0\u5267\uff0cHBM \u51fa\u53e3\u4ef7\u683c\u7a81\u7834 $70\u3002\n\nWhy it matters:\nRising HBM prices confirm demand for AI-accelerator memory continues to outstrip supply \u2014 a bullish input cost signal that also raises hyperscaler capex and squeezes margins for anyone buying HBM downstream, feeding the AI-infra bubble-stress thesis from the supply-tightness side.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e AI \u52a0\u901f\u5361\u6240\u9700\u5185\u5b58\u7684\u9700\u6c42\u4ecd\u5728\u8d85\u8fc7\u4f9b\u7ed9\uff0c\u8fd9\u65e2\u662f\u6210\u672c\u7aef\u7684\u5229\u597d\u4fe1\u53f7\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u538b\u7f29\u4e0b\u6e38\u91c7\u8d2d\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4ece\u4f9b\u7ed9\u7d27\u5f20\u8fd9\u4e00\u4fa7\u5370\u8bc1 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3714,
       "ts": 1788216255,
@@ -2278,36 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Musk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 08:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB2NzdUZ2RIelhxemdUT2FzOUVnLXNadXhkNEQ4clQ0eWxWZWdLRnJ1NzhvUFVpYk5OUmZMVnQxMDBZOXZKNU0tZG94YlJla3JpZGVQYjRrcjVxQ21vNjZ3Y3NjWnozTHRfLWRRSldnUTlHaWxBbnc?oc=5\n\nMusk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB2NzdUZ2RIelhxemdUT2FzOUVnLXNadXhkNEQ4clQ0eWxWZWdLRnJ1NzhvUFVpYk5OUmZMVnQxMDBZOXZKNU0tZG94YlJla3JpZGVQYjRrcjVxQ21vNjZ3Y3NjWnozTHRfLWRRSldnUTlHaWxBbnc?oc=5\" target=\"_blank\">Musk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that Musk's planned 20-gigawatt AI data-center buildout is exposing a memory chip shortage as the next infrastructure bottleneck.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u9a6c\u65af\u514b\u89c4\u5212\u7684 20 \u5409\u74e6 AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u66b4\u9732\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u95ee\u9898\uff0c\u8fd9\u5c06\u6210\u4e3a\u4e0b\u4e00\u4e2a\u57fa\u7840\u8bbe\u65bd\u74f6\u9888\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) supply constraints are now surfacing as a binding limit on AI buildout pace, not just GPU or power availability \u2014 another node in the capex chain where demand is outrunning supply, reinforcing the shortage-driven price-stress thesis behind C6.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u4f9b\u5e94\u9650\u5236\u6b63\u5728\u6210\u4e3a\u5236\u7ea6 AI \u5efa\u8bbe\u901f\u5ea6\u7684\u5b9e\u9645\u74f6\u9888\uff0c\u800c\u4e0d\u53ea\u662f GPU \u6216\u7535\u529b\u4e0d\u591f\u2014\u2014\u8d44\u672c\u5f00\u652f\u94fe\u6761\u4e0a\u53c8\u591a\u4e86\u4e00\u4e2a\u9700\u6c42\u8dd1\u8d62\u4f9b\u7ed9\u7684\u73af\u8282\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 C6 \u80cc\u540e\u300c\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u300d\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3517,
-      "ts": 1787374034,
-      "ts_str": "2026-08-22 04:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX (SPCX) Stock: Rebounds as $43 Billion Share Unlock Hits Market - Blockonomi",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 17:41:07 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZqcTZxdzRyNl8zdEc3WnJtOUVWSkJpSVhmUEF4Ml9iRkh4dS1Ob1FkeERhSmVCdXVxb0R5aUpSbDRiZ0FoMzBEeGZUVDJFWlB4ODVUWjdHcXdmZmpTLXNoLVVHTFh2RGVGQTFYOXNfRTlWSnZ6UVo2ZDlWN0ZXVDNVVlRfX3RjQzNoVGVBLUkwTE0?oc=5\n\nSpaceX (SPCX) Stock: Rebounds as $43 Billion Share Unlock Hits Market - Blockonomi\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQRkZqcTZxdzRyNl8zdEc3WnJtOUVWSkJpSVhmUEF4Ml9iRkh4dS1Ob1FkeERhSmVCdXVxb0R5aUpSbDRiZ0FoMzBEeGZUVDJFWlB4ODVUWjdHcXdmZmpTLXNoLVVHTFh2RGVGQTFYOXNfRTlWSnZ6UVo2ZDlWN0ZXVDNVVlRfX3RjQzNoVGVBLUkwTE0?oc=5\" target=\"_blank\">SpaceX (SPCX) Stock: Rebounds as $43 Billion Share Unlock Hits Market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockonomi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX (SPCX) shares rebounded even as a $43 billion share unlock hit the market.\n\n\u5185\u5bb9:\nSpaceX\uff08SPCX\uff09\u80a1\u4ef7\u5728 $43 billion \u89c4\u6a21\u7684\u80a1\u4efd\u89e3\u7981\u6d8c\u5165\u5e02\u573a\u540e\u4ecd\u51fa\u73b0\u53cd\u5f39\u3002\n\nWhy it matters:\nA $43B unlock is a massive potential supply overhang; the stock absorbing it without selling off suggests strong demand from insiders/employees holding rather than dumping, which is a modest bullish read for the passive-flow thesis but doesn't rule out delayed selling pressure in subsequent sessions.\n\n\u5f71\u54cd:\n$43B \u7684\u89e3\u7981\u89c4\u6a21\u662f\u5de8\u5927\u7684\u6f5c\u5728\u629b\u538b\uff0c\u80a1\u4ef7\u6ca1\u6709\u5e94\u58f0\u4e0b\u8dcc\uff0c\u8bf4\u660e\u5185\u90e8\u4eba/\u5458\u5de5\u66f4\u503e\u5411\u6301\u6709\u800c\u975e\u629b\u552e\uff0c\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u903b\u8f91\u662f\u4e2a\u5c0f\u5229\u597d\uff0c\u4f46\u4e0d\u6392\u9664\u629b\u538b\u53ea\u662f\u5ef6\u540e\u5230\u540e\u7eed\u4ea4\u6613\u65e5\u624d\u91ca\u653e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3516,
-      "ts": 1787370437,
-      "ts_str": "2026-08-22 03:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX shares unlock, and BJ's earnings take center stage - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 12:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxNUktxRkl3S29SWUdPa2tfak9sRkE0djNfdHBSQjhUSDhkemlOMkN1WGJoU2hBZEN5MG5hNjJ2Qi1lM29nWHgtSUJNRnNoSGxLQ29nREEycG5MMUxsQ20wZld2c2Q1clVKcGZKQlZzUVlVd0phQjJTV2VFMWFmV1U2UllFMGdUNG8?oc=5\n\nSpaceX shares unlock, and BJ's earnings take center stage - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNUktxRkl3S29SWUdPa2tfak9sRkE0djNfdHBSQjhUSDhkemlOMkN1WGJoU2hBZEN5MG5hNjJ2Qi1lM29nWHgtSUJNRnNoSGxLQ29nREEycG5MMUxsQ20wZld2c2Q1clVKcGZKQlZzUVlVd0phQjJTV2VFMWFmV1U2UllFMGdUNG8?oc=5\" target=\"_blank\">SpaceX shares unlock, and BJ's earnings take center stage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA cluster of Google News headlines about SpaceX's share unlock is circulating, paired with unrelated BJ's Wholesale earnings coverage in the same feed item.\n\n\u5185\u5bb9:\nGoogle News \u4e0a\u51fa\u73b0\u4e00\u6279\u5173\u4e8e SpaceX \u80a1\u4efd\u89e3\u7981\u7684\u6807\u9898\uff0c\u540c\u4e00\u6761 feed item \u91cc\u8fd8\u5939\u6742\u7740\u65e0\u5173\u7684 BJ's Wholesale \u8d22\u62a5\u62a5\u9053\u3002\n\nWhy it matters:\nThis is routine unlock-calendar news coverage, not a new fact \u2014 the classifier is picking up scheduled-event chatter rather than a fresh trigger. On its own it doesn't move the passive-flow thesis; it only matters if unlock-driven selling actually shows up in ETF holdings data.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u89e3\u7981\u65e5\u5386\u672c\u6765\u5c31\u8be5\u6709\u7684\u5e38\u89c4\u65b0\u95fb\u8986\u76d6\uff0c\u4e0d\u662f\u65b0\u4e8b\u5b9e\u2014\u2014\u5206\u7c7b\u5668\u6293\u5230\u7684\u662f\u65e2\u5b9a\u65e5\u7a0b\u7684\u8ba8\u8bba\u70ed\u5ea6\uff0c\u4e0d\u662f\u65b0\u89e6\u53d1\u4fe1\u53f7\u3002\u5355\u770b\u8fd9\u6761\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41\u51fa\u7684\u903b\u8f91\u6ca1\u6709\u5b9e\u8d28\u5f71\u54cd\uff0c\u53ea\u6709\u5f53\u89e3\u7981\u771f\u7684\u5728 ETF \u6301\u4ed3\u6570\u636e\u91cc\u4f53\u73b0\u4e3a\u629b\u552e\u65f6\u624d\u503c\u5f97\u5173\u6ce8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3515,
-      "ts": 1787368456,
-      "ts_str": "2026-08-22 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's CFO just said something IPO investors should hear - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 01:03:00 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUhYNDNNeXJ1bnliM0EtMEMxZ2thdjZpdVlQdFVZSXBrSm9uMWZ6a1BMSHhiN1p1aUFnSWR6dmprUVRNVzJadHNpWnRkUnlLbDQ3YUFDZ1R2N3g3NnFDaENNblpvcUlmVjZaV0pxZHZXVlF0dEJRWklpVmFrdDdvRnVjdzJKaENocTVDdnJaaUI3aXVNbllXVzQzcGM?oc=5\n\nOpenAI's CFO just said something IPO investors should hear - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUhYNDNNeXJ1bnliM0EtMEMxZ2thdjZpdVlQdFVZSXBrSm9uMWZ6a1BMSHhiN1p1aUFnSWR6dmprUVRNVzJadHNpWnRkUnlLbDQ3YUFDZ1R2N3g3NnFDaENNblpvcUlmVjZaV0pxZHZXVlF0dEJRWklpVmFrdDdvRnVjdzJKaENocTVDdnJaaUI3aXVNbllXVzQzcGM?oc=5\" target=\"_blank\">OpenAI's CFO just said something IPO investors should hear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's CFO made a public statement framed as relevant guidance for prospective IPO investors, per a recurring news headline.\n\n\u5185\u5bb9:\nOpenAI \u7684 CFO \u5c31 IPO \u6295\u8d44\u8005\u5e94\u5173\u6ce8\u7684\u5185\u5bb9\u53d1\u8868\u4e86\u516c\u5f00\u8868\u6001\uff0c\u6765\u81ea\u4e00\u6761\u91cd\u590d\u51fa\u73b0\u7684\u65b0\u95fb\u6807\u9898\u3002\n\nWhy it matters:\nAny CFO commentary aimed at IPO investors signals OpenAI is actively shaping the narrative ahead of a possible public listing \u2014 worth watching for burn-rate or capex disclosures that would move C3's HIGH threshold, but on its own this is a MED-severity headline with no extracted metric.\n\n\u5f71\u54cd:\nCFO \u4e3b\u52a8\u5bf9\u7740 IPO \u6295\u8d44\u8005\u558a\u8bdd\uff0c\u8bf4\u660e OpenAI \u5728\u4e3a\u53ef\u80fd\u7684\u4e0a\u5e02\u94fa\u57ab\u53d9\u4e8b\uff0c\u503c\u5f97\u7559\u610f\u540e\u7eed\u662f\u5426\u5e26\u51fa\u70e7\u94b1\u901f\u5ea6\u6216\u8d44\u672c\u5f00\u652f\u4e4b\u7c7b\u4f1a\u89e6\u53d1 C3 HIGH \u9608\u503c\u7684\u6570\u5b57\uff1b\u4f46\u8fd9\u6761\u672c\u8eab\u53ea\u662f MED \u7ea7\u522b\u7684\u65b0\u95fb\u6807\u9898\uff0c\u6ca1\u6709\u5177\u4f53\u6307\u6807\u3002\n",
       "emailed": false
     }
   ],
