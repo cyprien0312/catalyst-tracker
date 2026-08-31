@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-08-31 22:26:20 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-08-31 22:29:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="3713" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.42% (+53bp off 90d-low)</span>
+    <span class="meta">2026-08-31 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-08-28
+Current:  2.42%
+90d low:  1.89%
+Move:     +53bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year TIPS-derived real yield jumped to 2.42% on 2026-08-28, up 0.53pp from its trailing-90-day low of 1.89%, crossing C10&#39;s 2x-trigger threshold for a HIGH escalation.
+
+内容:
+10年期 TIPS 隐含实际收益率在 2026-08-28 升至 2.42%，比过去 90 天低点 1.89% 高出 0.53 个百分点，触发了 C10 的 2 倍地板，升级为 HIGH。
+
+Why it matters:
+Real yields this high raise the discount rate applied to long-duration AI capex bets and make the risk-free alternative to speculative growth assets much more attractive. A sustained move here pressures the same high-multiple AI names that a credit or neocloud fuse would hit, just through the rates channel instead of the credit channel.
+
+影响:
+实际利率这么高，会拉高对 AI 长周期资本开支的折现率，同时让无风险资产比高估值成长股更有吸引力。这个信号走的是利率渠道，跟信用或 neocloud 引信打的是同一批高估值 AI 股票，只是路径不同。
+</pre>
+  <button class="mark-read" type="button" data-id="3713">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="3711" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -6406,49 +6435,20 @@ Confirms the C11 thesis that lock-up expirations create real sell pressure as pr
   <button class="mark-read" type="button" data-id="3514">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="3513" data-catalyst="C10" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C10</code>
-    <span class="subj">[C10-MED] 10y Real Yield rising: 2.35% (+46bp off 90d-low)</span>
-    <span class="meta">2026-08-21 22:29 UTC · muted</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-08-20
-Current:  2.35%
-90d low:  1.89%
-Move:     +46bp off 90d-low (fire ≥ +40bp)
-
-────────────────────────────────────────────────────────────
-What this means:
-The 10-year real (TIPS) yield rose to 2.35pp, up 0.46pp from its trailing-90-day low of 1.89pp, as of 2026-08-20.
-
-内容:
-10 年期实际利率（TIPS）截至 2026-08-20 升至 2.35pp，比过去 90 天低点 1.89pp 高出 0.46pp。
-
-Why it matters:
-A rising real yield raises the discount rate applied to long-duration cash flows — exactly the kind hyperscalers are promising from AI capex years out. It directly compresses the valuation multiple the AI trade depends on, independent of anything company-specific.
-
-影响:
-实际利率上升会推高长久期现金流的折现率——而超大规模厂商画的 AI capex 回报饼恰恰是好几年后才兑现的那种。这会直接压缩支撑 AI 交易的估值倍数，跟具体公司基本面无关。
-</pre>
-  <button class="mark-read" type="button" data-id="3513">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>3705</td>
-<td>2026-08-31 22:05:16 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>3706</td>
+<td>2026-08-31 22:29:14 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>48</td>
-<td>2026-08-28 22:29:03 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>49</td>
+<td>2026-08-31 22:29:01 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
