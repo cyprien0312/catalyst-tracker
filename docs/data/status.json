@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788136322,
-  "generated_at_str": "2026-08-31 00:32:02 UTC",
-  "last_event_ts": 1788135242,
+  "generated_at": 1788136520,
+  "generated_at_str": "2026-08-31 00:35:20 UTC",
+  "last_event_ts": 1788136520,
   "tables": {
     "alerts_dedup": {
-      "count": 3678,
-      "last_ts": 1788119236,
-      "last_str": "2026-08-30 19:47:16 UTC"
+      "count": 3680,
+      "last_ts": 1788136520,
+      "last_str": "2026-08-31 00:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-08-30 20:14:13 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5223,
-      "last_ts": 1788129302,
-      "last_str": "2026-08-30 22:35:02 UTC"
+      "count": 5225,
+      "last_ts": 1788136503,
+      "last_str": "2026-08-31 00:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6162,
-      "last_ts": 1788132903,
-      "last_str": "2026-08-30 23:35:03 UTC"
+      "count": 6165,
+      "last_ts": 1788136505,
+      "last_str": "2026-08-31 00:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3849,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3686,
+      "ts": 1788136520,
+      "ts_str": "2026-08-31 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Korean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 30 Aug 2026 06:15:26 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHlDekNHV2kyLVJ5clpDZFFwaFJzTHlsMFBLODhMSHkxTEhsMW5QNzRackJGY3EyNWVsaGhlWDJYZW9iYXB5TEpXVjNKaWlaSFVmZkpRSW1Bb2xkbnRqQkNMSmU0NGZzLWN6cUtGX0Q?oc=5\n\nKorean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHlDekNHV2kyLVJ5clpDZFFwaFJzTHlsMFBLODhMSHkxTEhsMW5QNzRackJGY3EyNWVsaGhlWDJYZW9iYXB5TEpXVjNKaWlaSFVmZkpRSW1Bb2xkbnRqQkNMSmU0NGZzLWN6cUtGX0Q?oc=5\" target=\"_blank\">Korean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean DRAM export-price index jumped 401%, reportedly as chipmakers reallocate fab output toward AI memory, outpacing gold's gains.\n\n\u5185\u5bb9:\n\u97e9\u56fd DRAM \u51fa\u53e3\u4ef7\u683c\u6307\u6570\u66b4\u6da8 401%\uff0c\u636e\u79f0\u662f\u82af\u7247\u5382\u5546\u628a\u4ea7\u80fd\u8f6c\u5411 AI \u5185\u5b58\u6240\u81f4\uff0c\u6da8\u5e45\u8d85\u8fc7\u9ec4\u91d1\u3002\n\nWhy it matters:\nA 4x price spike signals a severe DRAM supply squeeze driven by AI demand \u2014 bullish for memory makers but a direct cost shock for every hyperscaler's server budget, tightening the AI-capex payback math from the input-cost side rather than the revenue side.\n\n\u5f71\u54cd:\n\u4ef7\u683c\u7ffb\u4e86 4 \u500d\u4ee5\u4e0a\uff0c\u8bf4\u660e AI \u9700\u6c42\u6b63\u5728\u9020\u6210\u4e25\u91cd\u7684 DRAM \u4f9b\u7ed9\u7d27\u5f20\u2014\u2014\u5bf9\u5185\u5b58\u5382\u5546\u662f\u5229\u597d\uff0c\u4f46\u5bf9\u6bcf\u4e00\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u670d\u52a1\u5668\u91c7\u8d2d\u6210\u672c\u662f\u76f4\u63a5\u51b2\u51fb\uff0c\u4ece\u6295\u5165\u6210\u672c\u8fd9\u4e00\u4fa7\u6536\u7d27\u4e86 AI capex \u7684\u56de\u672c\u8d26\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3687,
+      "ts": 1788136520,
+      "ts_str": "2026-08-31 00:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Korean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 30 Aug 2026 06:15:26 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHlDekNHV2kyLVJ5clpDZFFwaFJzTHlsMFBLODhMSHkxTEhsMW5QNzRackJGY3EyNWVsaGhlWDJYZW9iYXB5TEpXVjNKaWlaSFVmZkpRSW1Bb2xkbnRqQkNMSmU0NGZzLWN6cUtGX0Q?oc=5\n\nKorean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBOTHlDekNHV2kyLVJ5clpDZFFwaFJzTHlsMFBLODhMSHkxTEhsMW5QNzRackJGY3EyNWVsaGhlWDJYZW9iYXB5TEpXVjNKaWlaSFVmZkpRSW1Bb2xkbnRqQkNMSmU0NGZzLWN6cUtGX0Q?oc=5\" target=\"_blank\">Korean DRAM Export Prices Jump 401% as Chipmakers Shift Output to AI Memory, Outpacing Gold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean DRAM export-price index jumped 401%, reportedly as chipmakers reallocate fab output toward AI memory, outpacing gold's gains.\n\n\u5185\u5bb9:\n\u97e9\u56fd DRAM \u51fa\u53e3\u4ef7\u683c\u6307\u6570\u66b4\u6da8 401%\uff0c\u636e\u79f0\u662f\u82af\u7247\u5382\u5546\u628a\u4ea7\u80fd\u8f6c\u5411 AI \u5185\u5b58\u6240\u81f4\uff0c\u6da8\u5e45\u8d85\u8fc7\u9ec4\u91d1\u3002\n\nWhy it matters:\nA 4x price spike signals a severe DRAM supply squeeze driven by AI demand \u2014 bullish for memory makers but a direct cost shock for every hyperscaler's server budget, tightening the AI-capex payback math from the input-cost side rather than the revenue side.\n\n\u5f71\u54cd:\n\u4ef7\u683c\u7ffb\u4e86 4 \u500d\u4ee5\u4e0a\uff0c\u8bf4\u660e AI \u9700\u6c42\u6b63\u5728\u9020\u6210\u4e25\u91cd\u7684 DRAM \u4f9b\u7ed9\u7d27\u5f20\u2014\u2014\u5bf9\u5185\u5b58\u5382\u5546\u662f\u5229\u597d\uff0c\u4f46\u5bf9\u6bcf\u4e00\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u670d\u52a1\u5668\u91c7\u8d2d\u6210\u672c\u662f\u76f4\u63a5\u51b2\u51fb\uff0c\u4ece\u6295\u5165\u6210\u672c\u8fd9\u4e00\u4fa7\u6536\u7d27\u4e86 AI capex \u7684\u56de\u672c\u8d26\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3685,
       "ts": 1788119236,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI vs. Anthropic: Who Will Win the AI Unicorn IPO Race? - TradingKey",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 09:11:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlc0VFFwNV9odDhVZEZqMkxuM3pSTjd2bWRwRlJGYjFCMDJhWUxZMklQVDhOQ2FHaTBhZ2tXMm5CWnYtYnMxOG1aWUg5blBHb0tCR2lGTWdTTENad29kaU5YT1VYREtRSWR4dWRyRHV6NTlSX2V3cENOcXE0MkcxaVR6LXJBQ0tGM1ZpREVqUkxnb0dTcloydl93eloxOFQzRlpYdEl3U2tmelZ4YXdnS25Caw?oc=5\n\nOpenAI vs. Anthropic: Who Will Win the AI Unicorn IPO Race? - TradingKey\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPQlc0VFFwNV9odDhVZEZqMkxuM3pSTjd2bWRwRlJGYjFCMDJhWUxZMklQVDhOQ2FHaTBhZ2tXMm5CWnYtYnMxOG1aWUg5blBHb0tCR2lGTWdTTENad29kaU5YT1VYREtRSWR4dWRyRHV6NTlSX2V3cENOcXE0MkcxaVR6LXJBQ0tGM1ZpREVqUkxnb0dTcloydl93eloxOFQzRlpYdEl3U2tmelZ4YXdnS25Caw?oc=5\" target=\"_blank\">OpenAI vs. Anthropic: Who Will Win the AI Unicorn IPO Race?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News feed surfaced a speculative article on OpenAI vs. Anthropic IPO timing, matched by C3's OpenAI-keyword filter \u2014 no filing, no financial data, just IPO-race commentary.\n\n\u5185\u5bb9:\nGoogle News \u4e0a\u4e00\u7bc7\u5173\u4e8e OpenAI \u4e0e Anthropic \u8c01\u5148 IPO \u7684\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u547d\u4e2d\u4e86 C3 \u7684 OpenAI \u5173\u952e\u8bcd\u8fc7\u6ee4\u5668\u2014\u2014\u6ca1\u6709 filing\uff0c\u4e5f\u6ca1\u6709\u8d22\u52a1\u6570\u636e\uff0c\u7eaf\u5c5e IPO \u7ade\u901f\u8bc4\u8bba\u3002\n\nWhy it matters:\nThis is the generic IPO-speculation token firing, not a real burn-rate or filing signal \u2014 no bearing on the AI-capex/bubble-stress thesis by itself.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u901a\u7528\u7684 IPO \u6295\u673a token \u89e6\u53d1\uff0c\u4e0d\u662f\u771f\u5b9e\u7684\u70e7\u94b1\u7387\u6216 filing \u4fe1\u53f7\uff0c\u672c\u8eab\u5bf9 AI capex/\u6ce1\u6cab\u538b\u529b\u8fd9\u6761\u4e3b\u7ebf\u6ca1\u6709\u5b9e\u8d28\u610f\u4e49\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3487,
-      "ts": 1787298254,
-      "ts_str": "2026-08-21 07:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Alex Roepers Says Tesla Is a Definite Short and the OpenAI IPO Could Mark the Top - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 01:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hZGFfazMyaVdSdlk0LXdyMjJlakJPeU55cUdmR2s0NUU1OS1xb3BwUDhpQ1Y1dVRUc0ZyVXR3MlBNeDdIVXJUWGZMbmZHcFZJVUVIT3o3djUwRlk?oc=5\n\nAlex Roepers Says Tesla Is a Definite Short and the OpenAI IPO Could Mark the Top - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hZGFfazMyaVdSdlk0LXdyMjJlakJPeU55cUdmR2s0NUU1OS1xb3BwUDhpQ1Y1dVRUc0ZyVXR3MlBNeDdIVXJUWGZMbmZHcFZJVUVIT3o3djUwRlk?oc=5\" target=\"_blank\">Alex Roepers Says Tesla Is a Definite Short and the OpenAI IPO Could Mark the Top</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA fund manager (Alex Roepers) publicly called Tesla a short and suggested the OpenAI IPO could mark a market top \u2014 this is speculative commentary, not a filing or data release.\n\n\u5185\u5bb9:\n\u57fa\u91d1\u7ecf\u7406 Alex Roepers \u516c\u5f00\u8bf4 Tesla \u662f\u300c\u660e\u786e\u7684\u505a\u7a7a\u6807\u7684\u300d\uff0c\u5e76\u6697\u793a OpenAI IPO \u53ef\u80fd\u6807\u5fd7\u5e02\u573a\u9876\u90e8\u2014\u2014\u8fd9\u662f\u6295\u673a\u6027\u8bc4\u8bba\uff0c\u4e0d\u662f filing \u6216\u6570\u636e\u53d1\u5e03\u3002\n\nWhy it matters:\nIt's pure IPO-speculation noise (the C3 pattern this hits is known to fire heavily on generic \"IPO\" mentions), not a burn-rate or filing signal \u2014 low information value for the bubble-stress thesis on its own.\n\n\u5f71\u54cd:\n\u8fd9\u7eaf\u7cb9\u662f IPO \u6295\u673a\u7c7b\u566a\u97f3\uff08\u547d\u4e2d\u7684\u662f\u5df2\u77e5\u4f1a\u56e0\u6cdb\u6cdb\u63d0\u53ca\u300cIPO\u300d\u800c\u5927\u91cf\u89e6\u53d1\u7684 C3 \u6a21\u5f0f\uff09\uff0c\u4e0d\u6d89\u53ca burn rate \u6216 filing \u6570\u636e\uff0c\u5355\u770b\u8fd9\u6761\u5bf9 bubble-stress \u8bba\u70b9\u4fe1\u606f\u91cf\u5f88\u4f4e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3486,
-      "ts": 1787291054,
-      "ts_str": "2026-08-21 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Citi, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 20 Aug 2026 20:45:02 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVTV6X2FEbkUwSmM5VldPRndBVy1GMWwxcGY5Vll3RmpsUVcwc1dwRkU1c3dKc3owcTlHZ1dWcDVJV1pjSkZjVEIyTWRqc0NWZTcxQXNyRnNPSlZRaE5RTGlMOW9mOXlob1ExdVJJMXp2Sjl1U1ZFSHRsekNVaGtvdXZiZVBFVC15cUh2YTg4SHE3R0NQVmtSVWljRHlkS2N2LWZOb1BIWTl4TFU2bHl3WFlIYjc0dUltOUszbllYdEY2QUxKWnJaSE4taFg2VHVRV2VyaVpYSGd3MEhJQ2lR?oc=5\n\nCiti, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVTV6X2FEbkUwSmM5VldPRndBVy1GMWwxcGY5Vll3RmpsUVcwc1dwRkU1c3dKc3owcTlHZ1dWcDVJV1pjSkZjVEIyTWRqc0NWZTcxQXNyRnNPSlZRaE5RTGlMOW9mOXlob1ExdVJJMXp2Sjl1U1ZFSHRsekNVaGtvdXZiZVBFVC15cUh2YTg4SHE3R0NQVmtSVWljRHlkS2N2LWZOb1BIWTl4TFU2bHl3WFlIYjc0dUltOUszbllYdEY2QUxKWnJaSE4taFg2VHVRV2VyaVpYSGd3MEhJQ2lR?oc=5\" target=\"_blank\">Citi, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCiti and JPMorgan are reportedly in talks to join the underwriting syndicate for an OpenAI IPO.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cCiti \u548c JPM \u6b63\u5728\u6d3d\u8c08\u52a0\u5165 OpenAI IPO \u7684\u627f\u9500\u56e2\u961f\u3002\n\nWhy it matters:\nBank IPO staffing is prep-stage speculation, not a filed process \u2014 it signals OpenAI is inching toward a public listing but confirms no valuation, timeline, or burn-rate data yet. Low-signal relative to the C3 thesis until an S-1 or confirmed mandate lands.\n\n\u5f71\u54cd:\n\u94f6\u884c\u56e2\u7ec4\u5efa\u5c5e\u4e8e\u7b79\u5907\u9636\u6bb5\u7684\u4f20\u95fb\uff0c\u8fd8\u4e0d\u662f\u6b63\u5f0f\u542f\u52a8\u7684\u6d41\u7a0b\u2014\u2014\u8bf4\u660e OpenAI \u5728\u5411\u4e0a\u5e02\u63a8\u8fdb\uff0c\u4f46\u4f30\u503c\u3001\u65f6\u95f4\u8868\u3001\u70e7\u94b1\u901f\u5ea6\u90fd\u8fd8\u6ca1\u6709\u5b9e\u9524\u3002\u5bf9 C3 \u7684\u8bba\u70b9\u6765\u8bf4\u4fe1\u53f7\u504f\u5f31\uff0c\u5f97\u7b49 S-1 \u6216\u627f\u9500\u786e\u8ba4\u843d\u5730\u624d\u7b97\u6570\u3002\n",
       "emailed": false
     }
   ],
