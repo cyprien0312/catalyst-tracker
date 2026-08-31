@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788213726,
-  "generated_at_str": "2026-08-31 22:02:06 UTC",
-  "last_event_ts": 1788212823,
+  "generated_at": 1788213916,
+  "generated_at_str": "2026-08-31 22:05:16 UTC",
+  "last_event_ts": 1788213916,
   "tables": {
     "alerts_dedup": {
-      "count": 3703,
-      "last_ts": 1788210845,
-      "last_str": "2026-08-31 21:14:05 UTC"
+      "count": 3705,
+      "last_ts": 1788213916,
+      "last_str": "2026-08-31 22:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-08-31 21:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6233,
-      "last_ts": 1788206703,
-      "last_str": "2026-08-31 20:05:03 UTC"
+      "count": 6234,
+      "last_ts": 1788213903,
+      "last_str": "2026-08-31 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3867,
-      "last_ts": 1788206702,
-      "last_str": "2026-08-31 20:05:02 UTC"
+      "count": 3868,
+      "last_ts": 1788213902,
+      "last_str": "2026-08-31 22:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4665,
-      "last_ts": 1788210305,
-      "last_str": "2026-08-31 21:05:05 UTC"
+      "count": 4666,
+      "last_ts": 1788213903,
+      "last_str": "2026-08-31 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 27721,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3711,
+      "ts": 1788213916,
+      "ts_str": "2026-08-31 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - startupfortune.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 10:46:02 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\n\nHuawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - startupfortune.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\" target=\"_blank\">Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">startupfortune.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei reported H1 2026 profit down 36%, attributing part of the hit to surging memory chip prices \u2014 DRAM/NAND cost inflation feeding through to a major device/server maker's bottom line.\n\n\u5185\u5bb9:\n\u534e\u4e3a\u62ab\u9732 2026 \u5e74\u4e0a\u534a\u5e74\u5229\u6da6\u4e0b\u6ed1 36%\uff0c\u90e8\u5206\u5f52\u56e0\u4e8e\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u2014\u2014DRAM/NAND \u6210\u672c\u4e0a\u6da8\u76f4\u63a5\u51b2\u51fb\u8fd9\u5bb6\u4e3b\u8981\u8bbe\u5907/\u670d\u52a1\u5668\u5382\u5546\u7684\u5229\u6da6\u3002\n\nWhy it matters:\nMemory price spikes squeeze every hyperscaler and OEM buying HBM/DRAM for AI servers, not just Huawei \u2014 it's a cost-side confirmation that the memory shortage is real and already showing up in earnings, reinforcing the AI-capex cost-inflation thread.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u6324\u538b\u7684\u4e0d\u53ea\u662f\u534e\u4e3a\uff0c\u6240\u6709\u91c7\u8d2d HBM/DRAM \u5efa AI \u670d\u52a1\u5668\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c OEM \u90fd\u53d7\u5f71\u54cd\u2014\u2014\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u8d22\u62a5\u5229\u6da6\u7aef\u7684\u6210\u672c\u4fa7\u8bc1\u636e\uff0c\u52a0\u56fa\u4e86 AI capex \u6210\u672c\u901a\u80c0\u8fd9\u6761\u7ebf\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3712,
+      "ts": 1788213916,
+      "ts_str": "2026-08-31 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - startupfortune.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 10:46:02 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\n\nHuawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - startupfortune.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\" target=\"_blank\">Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">startupfortune.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei reported H1 2026 profit down 36%, attributing part of the hit to surging memory chip prices \u2014 DRAM/NAND cost inflation feeding through to a major device/server maker's bottom line.\n\n\u5185\u5bb9:\n\u534e\u4e3a\u62ab\u9732 2026 \u5e74\u4e0a\u534a\u5e74\u5229\u6da6\u4e0b\u6ed1 36%\uff0c\u90e8\u5206\u5f52\u56e0\u4e8e\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u2014\u2014DRAM/NAND \u6210\u672c\u4e0a\u6da8\u76f4\u63a5\u51b2\u51fb\u8fd9\u5bb6\u4e3b\u8981\u8bbe\u5907/\u670d\u52a1\u5668\u5382\u5546\u7684\u5229\u6da6\u3002\n\nWhy it matters:\nMemory price spikes squeeze every hyperscaler and OEM buying HBM/DRAM for AI servers, not just Huawei \u2014 it's a cost-side confirmation that the memory shortage is real and already showing up in earnings, reinforcing the AI-capex cost-inflation thread.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u6324\u538b\u7684\u4e0d\u53ea\u662f\u534e\u4e3a\uff0c\u6240\u6709\u91c7\u8d2d HBM/DRAM \u5efa AI \u670d\u52a1\u5668\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c OEM \u90fd\u53d7\u5f71\u54cd\u2014\u2014\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u8d22\u62a5\u5229\u6da6\u7aef\u7684\u6210\u672c\u4fa7\u8bc1\u636e\uff0c\u52a0\u56fa\u4e86 AI capex \u6210\u672c\u901a\u80c0\u8fd9\u6761\u7ebf\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3710,
       "ts": 1788210845,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C10-MED] 10y Real Yield rising: 2.35% (+46bp off 90d-low)",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-08-20\nCurrent:  2.35%\n90d low:  1.89%\nMove:     +46bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.35pp, up 0.46pp from its trailing-90-day low of 1.89pp, as of 2026-08-20.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS\uff09\u622a\u81f3 2026-08-20 \u5347\u81f3 2.35pp\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.89pp \u9ad8\u51fa 0.46pp\u3002\n\nWhy it matters:\nA rising real yield raises the discount rate applied to long-duration cash flows \u2014 exactly the kind hyperscalers are promising from AI capex years out. It directly compresses the valuation multiple the AI trade depends on, independent of anything company-specific.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u4e0a\u5347\u4f1a\u63a8\u9ad8\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\u2014\u2014\u800c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u753b\u7684 AI capex \u56de\u62a5\u997c\u6070\u6070\u662f\u597d\u51e0\u5e74\u540e\u624d\u5151\u73b0\u7684\u90a3\u79cd\u3002\u8fd9\u4f1a\u76f4\u63a5\u538b\u7f29\u652f\u6491 AI \u4ea4\u6613\u7684\u4f30\u503c\u500d\u6570\uff0c\u8ddf\u5177\u4f53\u516c\u53f8\u57fa\u672c\u9762\u65e0\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3511,
-      "ts": 1787350461,
-      "ts_str": "2026-08-21 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic's IPO could come sooner than you think \u2014 likely beating OpenAI to the punch - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 19:51:10 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ2MzTTlXQnRNTDcyekp5VDREUVJkcnZ3ZWJ2RVN3aENpZ2YxZFlhTnUzNy1EbllvM25xcUsxaWZ0YTN4MmFvZVZqbk1UZ1B5M2g3OTc4Z200bElvajlERlZfdmFzdkcxa3ZrRm4zWkp2QXg4MWVtUVF4V3Yzd0lRZjRCdTYtdw?oc=5\n\nAnthropic's IPO could come sooner than you think \u2014 likely beating OpenAI to the punch - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ2MzTTlXQnRNTDcyekp5VDREUVJkcnZ3ZWJ2RVN3aENpZ2YxZFlhTnUzNy1EbllvM25xcUsxaWZ0YTN4MmFvZVZqbk1UZ1B5M2g3OTc4Z200bElvajlERlZfdmFzdkcxa3ZrRm4zWkp2QXg4MWVtUVF4V3Yzd0lRZjRCdTYtdw?oc=5\" target=\"_blank\">Anthropic's IPO could come sooner than you think \u2014 likely beating OpenAI to the punch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMED-severity news scan flagged headlines speculating Anthropic could IPO before OpenAI, no ticker or financial metric attached.\n\n\u5185\u5bb9:\nMED \u7ea7\u522b\u65b0\u95fb\u626b\u63cf\u6293\u5230\u591a\u6761\u6807\u9898\uff0c\u63a8\u6d4b Anthropic \u53ef\u80fd\u6bd4 OpenAI \u66f4\u65e9 IPO\uff0c\u6ca1\u6709 ticker \u6216\u8d22\u52a1\u6570\u5b57\u3002\n\nWhy it matters:\nThis is speculative media chatter about IPO timing, not a filing or verified capex/burn data point \u2014 it belongs to C3's IPO-keyword noise floor rather than a substantive bubble-stress signal.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5173\u4e8e IPO \u65f6\u673a\u7684\u5a92\u4f53\u731c\u6d4b\uff0c\u4e0d\u662f filing \u6216\u7ecf\u6838\u5b9e\u7684\u8d44\u672c\u5f00\u652f/\u70e7\u94b1\u6570\u636e\uff0c\u5c5e\u4e8e C3 \u7684 IPO \u5173\u952e\u8bcd\u566a\u97f3\uff0c\u4e0d\u662f\u5b9e\u8d28\u6027\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3512,
-      "ts": 1787350461,
-      "ts_str": "2026-08-21 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s CFO just said something IPO investors should hear - thestreet.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 21 Aug 2026 22:03:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE5Jei1JWXljc3J1NndVejJXYnk2dTJ5NkhWemZjTDdFdEJrUXk4QzNXbk9nSkc1LWxpenhUa29tUFMzdWRNNUpRQjBxOUc1R0RBWGFVd3ZaRDJCd0xLVG90a3N0b1MyVGxGbjh5S21qT0JsWnZRc0hrWnNQN21DUQ?oc=5\n\nOpenAI\u2019s CFO just said something IPO investors should hear - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5Jei1JWXljc3J1NndVejJXYnk2dTJ5NkhWemZjTDdFdEJrUXk4QzNXbk9nSkc1LWxpenhUa29tUFMzdWRNNUpRQjBxOUc1R0RBWGFVd3ZaRDJCd0xLVG90a3N0b1MyVGxGbjh5S21qT0JsWnZRc0hrWnNQN21DUQ?oc=5\" target=\"_blank\">OpenAI\u2019s CFO just said something IPO investors should hear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's CFO made a public statement framed as relevant to prospective IPO investors, per a headline picked up by multiple outlets.\n\n\u5185\u5bb9:\nOpenAI \u7684 CFO \u5c31\u4e00\u4e2a\u88ab\u591a\u5bb6\u5a92\u4f53\u8f6c\u8f7d\u7684\u8bdd\u9898\u53d1\u8868\u4e86\u516c\u5f00\u8a00\u8bba\uff0c\u6807\u9898\u5c06\u5176\u6846\u5b9a\u4e3a\u300cIPO \u6295\u8d44\u8005\u5e94\u8be5\u542c\u300d\u7684\u5185\u5bb9\u3002\n\nWhy it matters:\nAny CFO commentary tied to a future IPO signals how OpenAI is managing investor narrative ahead of a potential listing \u2014 worth watching for burn-rate or valuation cues, but a bare headline alone carries limited signal for the capex-bubble thesis.\n\n\u5f71\u54cd:\n\u4efb\u4f55\u548c\u6f5c\u5728 IPO \u6302\u94a9\u7684 CFO \u8868\u6001\u90fd\u5728\u5851\u9020\u6295\u8d44\u8005\u53d9\u4e8b\uff0c\u503c\u5f97\u7559\u610f\u5176\u4e2d\u662f\u5426\u5e26\u51fa\u70e7\u94b1\u901f\u5ea6\u6216\u4f30\u503c\u7ebf\u7d22\uff0c\u4f46\u4ec5\u51ed\u4e00\u6761\u6807\u9898\u672c\u8eab\u5bf9 AI capex \u6ce1\u6cab\u8bba\u8bc1\u7684\u4fe1\u53f7\u91cf\u6709\u9650\u3002\n",
       "emailed": false
     }
   ],
