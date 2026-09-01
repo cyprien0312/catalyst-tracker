@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788231723,
-  "generated_at_str": "2026-09-01 03:02:03 UTC",
-  "last_event_ts": 1788230645,
+  "generated_at": 1788231917,
+  "generated_at_str": "2026-09-01 03:05:17 UTC",
+  "last_event_ts": 1788231913,
   "tables": {
     "alerts_dedup": {
-      "count": 3719,
-      "last_ts": 1788230645,
-      "last_str": "2026-09-01 02:44:05 UTC"
+      "count": 3720,
+      "last_ts": 1788231913,
+      "last_str": "2026-09-01 03:05:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-01 02:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6244,
-      "last_ts": 1788228303,
-      "last_str": "2026-09-01 02:05:03 UTC"
+      "count": 6246,
+      "last_ts": 1788231902,
+      "last_str": "2026-09-01 03:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3876,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3727,
+      "ts": 1788231913,
+      "ts_str": "2026-09-01 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung locks 70% of memory output as HBM spot prices soar - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 02:34:14 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxOSGRXaEJIZm1jd1M5cEhSR0prQ2piLVhhZkh5YUlfSTdpemhZR0dRWjdyNTdvZUM3c2d1bWFKMUE5VHA2ZTA3SGI1N3ZFR0FCbEloTGJ4UnNlT0w5SVRTQTJZUE93al9sMmdSc2RzWjJIbGNVZEtBbEFCZEZ1VTI0NjI1bHhzcERRMzlXaGYyZS10ZHpnSjZFMi1TYjg?oc=5\n\nSamsung locks 70% of memory output as HBM spot prices soar - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOSGRXaEJIZm1jd1M5cEhSR0prQ2piLVhhZkh5YUlfSTdpemhZR0dRWjdyNTdvZUM3c2d1bWFKMUE5VHA2ZTA3SGI1N3ZFR0FCbEloTGJ4UnNlT0w5SVRTQTJZUE93al9sMmdSc2RzWjJIbGNVZEtBbEFCZEZ1VTI0NjI1bHhzcERRMzlXaGYyZS10ZHpnSjZFMi1TYjg?oc=5\" target=\"_blank\">Samsung locks 70% of memory output as HBM spot prices soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung has locked in 70% of its memory output as HBM spot prices surge, per two duplicate RSS entries.\n\n\u5185\u5bb9:\nSamsung \u5df2\u9501\u5b9a\u517670%\u7684\u5185\u5b58\u4ea7\u80fd\uff0c\u540c\u65f6 HBM \u73b0\u8d27\u4ef7\u683c\u98d9\u5347\uff08RSS \u91cd\u590d\u63a8\u9001\u4e24\u6761\u540c\u4e00\u6d88\u606f\uff09\u3002\n\nWhy it matters:\nTighter HBM supply directly feeds AI accelerator bottlenecks \u2014 Samsung reserving most of its output signals producers are prioritizing AI-driven demand over general memory supply, which sustains upward price pressure on a key AI-infra input.\n\n\u5f71\u54cd:\nHBM \u4f9b\u7ed9\u6536\u7d27\u4f1a\u76f4\u63a5\u52a0\u5267 AI \u52a0\u901f\u5361\u7684\u4ea7\u80fd\u74f6\u9888\u2014\u2014Samsung \u628a\u5927\u90e8\u5206\u4ea7\u80fd\u9884\u7559\u51fa\u6765\uff0c\u8bf4\u660e\u5382\u5546\u5728\u628a AI \u9700\u6c42\u7f6e\u4e8e\u666e\u901a\u5185\u5b58\u4f9b\u5e94\u4e4b\u4e0a\uff0c\u8fd9\u4f1a\u8ba9\u4ef7\u683c\u6301\u7eed\u627f\u538b\u8d70\u9ad8\uff0c\u662f AI \u57fa\u7840\u8bbe\u65bd\u6210\u672c\u7aef\u7684\u5229\u7a7a\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3726,
       "ts": 1788230644,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Nvidia to raise AI product prices over 15% due to memory chip costs: CNBC - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 04:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMG85cDJzbDNRcURXMHBOMXV0UG9XaDNyZFJ1ZWx6TFlkY2laeWQtUWVfWUdtZ2lMMXhNX1dUQUgxbDVURGQyYnk1emZ5TGhXbmFvM2FEcEF5WHViTzYtcnpmeXFkQVNjb3VYSDI1VF9mQVdIaExJVVRDMzJOcWNyUTRXZ09icDdnVGc5SmhJVzhyV3FmUUo5MW1QNDJqT2ZPelVBM2hWdXMzalRreGsyYzdkNkQxSkFidTc2VFdJQnZocXZ4SUM4TFI0QV9pOXJYUlE?oc=5\n\nNvidia to raise AI product prices over 15% due to memory chip costs: CNBC - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMG85cDJzbDNRcURXMHBOMXV0UG9XaDNyZFJ1ZWx6TFlkY2laeWQtUWVfWUdtZ2lMMXhNX1dUQUgxbDVURGQyYnk1emZ5TGhXbmFvM2FEcEF5WHViTzYtcnpmeXFkQVNjb3VYSDI1VF9mQVdIaExJVVRDMzJOcWNyUTRXZ09icDdnVGc5SmhJVzhyV3FmUUo5MW1QNDJqT2ZPelVBM2hWdXMzalRreGsyYzdkNkQxSkFidTc2VFdJQnZocXZ4SUM4TFI0QV9pOXJYUlE?oc=5\" target=\"_blank\">Nvidia to raise AI product prices over 15% due to memory chip costs: CNBC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 3527,
-      "ts": 1787459706,
-      "ts_str": "2026-08-23 04:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Nvidia to raise AI product prices over 15% due to memory chip costs: CNBC - Crypto Briefing",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 04:23:44 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQYXc1YWIwZUppSHhabXJrUmQ2dlpOZDhPNzhxVTd4MjZtS1lUd0ljc2lUY0QzZnRsNThOOTZTOGhWS1BjYjlIam0xdU5pTUxicG0ya3VjdDVLUVNKSnJEVkJUblVKVFdDa2hsX1FHTW0xWnUyTEV4TUFsRV80X1Y3bzNWdlRHMllaWDVUM0JNT0tBYXNqZWRnQ1dXai1DM2lh?oc=5\n\nNvidia to raise AI product prices over 15% due to memory chip costs: CNBC - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQYXc1YWIwZUppSHhabXJrUmQ2dlpOZDhPNzhxVTd4MjZtS1lUd0ljc2lUY0QzZnRsNThOOTZTOGhWS1BjYjlIam0xdU5pTUxicG0ya3VjdDVLUVNKSnJEVkJUblVKVFdDa2hsX1FHTW0xWnUyTEV4TUFsRV80X1Y3bzNWdlRHMllaWDVUM0JNT0tBYXNqZWRnQ1dXai1DM2lh?oc=5\" target=\"_blank\">Nvidia to raise AI product prices over 15% due to memory chip costs: CNBC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
