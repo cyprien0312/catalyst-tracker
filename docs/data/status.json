@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788244862,
-  "generated_at_str": "2026-09-01 06:41:02 UTC",
-  "last_event_ts": 1788244504,
+  "generated_at": 1788245061,
+  "generated_at_str": "2026-09-01 06:44:21 UTC",
+  "last_event_ts": 1788245058,
   "tables": {
     "alerts_dedup": {
-      "count": 3722,
-      "last_ts": 1788238035,
-      "last_str": "2026-09-01 04:47:15 UTC"
+      "count": 3723,
+      "last_ts": 1788245058,
+      "last_str": "2026-09-01 06:44:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-08-31 23:00:28 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4852,
-      "last_ts": 1788243244,
-      "last_str": "2026-09-01 06:14:04 UTC"
+      "count": 4853,
+      "last_ts": 1788245044,
+      "last_str": "2026-09-01 06:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1107,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-01 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 27787,
-      "last_ts": 1788243242,
-      "last_str": "2026-09-01 06:14:02 UTC"
+      "count": 27793,
+      "last_ts": 1788245042,
+      "last_str": "2026-09-01 06:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8308,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3730,
+      "ts": 1788245058,
+      "ts_str": "2026-09-01 06:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI is touting ads as 'diversified business model' as it gears up for its massive IPO - The Times of India",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 06:18:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi_gFBVV95cUxPT3pvV3ZQSGxNWnUtNi1QSWpPbW5PaWI2cDhrU3pYUXkxMUxCTlNRY0tYR0VnajJldXlPY1ZCdGd3Nzk5S2huUzBmQ0FlN3MwaHh4Z29iQnVlUVVEblZ6eVVTeW1LMlA4cmRfeXAtRkphbUpVWURsSnJ2UXMzdTlDd3pWZkFITjNzMlFXM3gtUl90OWJleHREb19nMjgxMlpTbjkxVG5uVDV2ZUNKbHNuRGhyM0dGNHhoVTgwSVNnOWdWRklFdHpyZmFvSGhWeDNFTWNlLVBLdHVQdThzRkNEZU9qbURJcDRWNzd6SXQ2VUI5MUNLWllOQW83TzRiUdIBgwJBVV95cUxOWlpuUU13dGpzS0o0S1RDb2k3M3FSQWRXaUJ5VFU5VGlHbGxGSXV3X1NTV0JnYTFHYm5nc1FHOWNXb0pSV0luM0Y1SGE5QXd6NFVHLXJ2TlJGOTJPWkgwREJ1azNQU0wtSHlpdThSWjd1UHNraFhqWUUyNTZ3WlFpT0VkU1hpR2s1RWJoTVFucUozal9YRFY3cFFWZlpqdHpjNk9IM3JYZ3FuQmZ6c20wb2N0aGlwVVlOV1NLam83M2ZEd05aSzMyS24yQThmLURjV3h4VC1TZE8xZE92RUZOczVUQ0NmWF9DQktObkFxVjlHYUV1QlFMUW84TXk2ako5czhv?oc=5\n\nOpenAI is touting ads as 'diversified business model' as it gears up for its massive IPO - The Times of India\n\n<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxPT3pvV3ZQSGxNWnUtNi1QSWpPbW5PaWI2cDhrU3pYUXkxMUxCTlNRY0tYR0VnajJldXlPY1ZCdGd3Nzk5S2huUzBmQ0FlN3MwaHh4Z29iQnVlUVVEblZ6eVVTeW1LMlA4cmRfeXAtRkphbUpVWURsSnJ2UXMzdTlDd3pWZkFITjNzMlFXM3gtUl90OWJleHREb19nMjgxMlpTbjkxVG5uVDV2ZUNKbHNuRGhyM0dGNHhoVTgwSVNnOWdWRklFdHpyZmFvSGhWeDNFTWNlLVBLdHVQdThzRkNEZU9qbURJcDRWNzd6SXQ2VUI5MUNLWllOQW83TzRiUdIBgwJBVV95cUxOWlpuUU13dGpzS0o0S1RDb2k3M3FSQWRXaUJ5VFU5VGlHbGxGSXV3X1NTV0JnYTFHYm5nc1FHOWNXb0pSV0luM0Y1SGE5QXd6NFVHLXJ2TlJGOTJPWkgwREJ1azNQU0wtSHlpdThSWjd1UHNraFhqWUUyNTZ3WlFpT0VkU1hpR2s1RWJoTVFucUozal9YRFY3cFFWZlpqdHpjNk9IM3JYZ3FuQmZ6c20wb2N0aGlwVVlOV1NLam83M2ZEd05aSzMyS24yQThmLURjV3h4VC1TZE8xZE92RUZOczVUQ0NmWF9DQktObkFxVjlHYUV1QlFMUW84TXk2ako5czhv?oc=5\" target=\"_blank\">OpenAI is touting ads as 'diversified business model' as it gears up for its massive IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is publicly framing advertising as part of a \"diversified business model\" ahead of its planned IPO \u2014 the same headline recurring across multiple feeds.\n\n\u5185\u5bb9:\nOpenAI \u5728\u7b79\u5907\u5927\u89c4\u6a21 IPO \u4e4b\u9645\u516c\u5f00\u5ba3\u4f20\u5e7f\u544a\u4e1a\u52a1\u662f\u5176\u300c\u591a\u5143\u5316\u5546\u4e1a\u6a21\u5f0f\u300d\u7684\u4e00\u90e8\u5206\u2014\u2014\u540c\u4e00\u6761\u6807\u9898\u5728\u591a\u4e2a\u4fe1\u606f\u6e90\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nSignals OpenAI is preparing IPO-facing revenue-diversification messaging, likely to offset investor concern about compute-cost burn and reliance on subscription/API revenue. Pure narrative-management news, not a financial disclosure \u2014 low signal on its own but consistent with the pre-IPO spin pattern C3 tracks.\n\n\u5f71\u54cd:\n\u8fd9\u8bf4\u660e OpenAI \u5728\u4e3a IPO \u94fa\u57ab\u6536\u5165\u591a\u5143\u5316\u7684\u53d9\u4e8b\uff0c\u5f88\u53ef\u80fd\u662f\u60f3\u6de1\u5316\u6295\u8d44\u8005\u5bf9\u7b97\u529b\u70e7\u94b1\u548c\u8fc7\u5ea6\u4f9d\u8d56\u8ba2\u9605/API \u6536\u5165\u7684\u62c5\u5fe7\u3002\u8fd9\u53ea\u662f\u516c\u5173\u53e3\u5f84\uff0c\u4e0d\u662f\u8d22\u52a1\u62ab\u9732\uff0c\u5355\u770b\u4fe1\u53f7\u4e0d\u5f3a\uff0c\u4f46\u7b26\u5408 C3 \u5173\u6ce8\u7684\u4e0a\u5e02\u524d\u9020\u52bf\u6a21\u5f0f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3729,
       "ts": 1788238035,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO Odds: AI Panel Vs Kalshi Timeline - OddsShopper",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 05:53:34 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE16bGhrVjJhTDhhUFFlODZoR1hlYTBmTHpHNVJhMFJLVGs5eW5wdVFzMXMxN0c4N1NhTXFBcjlTMWhNQWlWMWxQRVIyOGlwX0VJaHo3aTJ3N1N3TUNucXJ0X0tBbnpQVW8tZGJNd0JUN2RCa29lMEx1RUx5aw?oc=5\n\nOpenAI IPO Odds: AI Panel Vs Kalshi Timeline - OddsShopper\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE16bGhrVjJhTDhhUFFlODZoR1hlYTBmTHpHNVJhMFJLVGs5eW5wdVFzMXMxN0c4N1NhTXFBcjlTMWhNQWlWMWxQRVIyOGlwX0VJaHo3aTJ3N1N3TUNucXJ0X0tBbnpQVW8tZGJNd0JUN2RCa29lMEx1RUx5aw?oc=5\" target=\"_blank\">OpenAI IPO Odds: AI Panel Vs Kalshi Timeline</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OddsShopper</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 3530,
-      "ts": 1787465646,
-      "ts_str": "2026-08-23 06:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwi",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 21:21:07 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\n\nCOIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\" target=\"_blank\">COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
