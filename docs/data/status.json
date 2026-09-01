@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788220924,
-  "generated_at_str": "2026-09-01 00:02:04 UTC",
-  "last_event_ts": 1788220022,
+  "generated_at": 1788221117,
+  "generated_at_str": "2026-09-01 00:05:17 UTC",
+  "last_event_ts": 1788221114,
   "tables": {
     "alerts_dedup": {
-      "count": 3710,
-      "last_ts": 1788217515,
-      "last_str": "2026-08-31 23:05:15 UTC"
+      "count": 3712,
+      "last_ts": 1788221114,
+      "last_str": "2026-09-01 00:05:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-08-31 23:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5293,
-      "last_ts": 1788219303,
-      "last_str": "2026-08-31 23:35:03 UTC"
+      "count": 5294,
+      "last_ts": 1788221102,
+      "last_str": "2026-09-01 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6238,
-      "last_ts": 1788219305,
-      "last_str": "2026-08-31 23:35:05 UTC"
+      "count": 6239,
+      "last_ts": 1788221103,
+      "last_str": "2026-09-01 00:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3869,
-      "last_ts": 1788219304,
-      "last_str": "2026-08-31 23:35:04 UTC"
+      "count": 3871,
+      "last_ts": 1788221102,
+      "last_str": "2026-09-01 00:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4667,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3718,
+      "ts": 1788221114,
+      "ts_str": "2026-09-01 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 23:21:42 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\n\nHBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\" target=\"_blank\">HBM Squeeze Pushes Legacy PC DRAM to Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM shortages driving legacy PC DRAM prices to a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0 HBM \u77ed\u7f3a\u6b63\u628a\u4f20\u7edf PC DRAM \u4ef7\u683c\u63a8\u81f3\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nTight DRAM/HBM supply raises input costs for every hyperscaler building AI servers and signals the memory market is being squeezed by AI demand rather than easing \u2014 a stress point for the capex-payback thesis if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u7ed9\u6301\u7eed\u504f\u7d27\uff0c\u4f1a\u63a8\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa AI \u670d\u52a1\u5668\u7684\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u6b63\u88ab AI \u9700\u6c42\u6324\u538b\u800c\u975e\u7f13\u89e3\u2014\u2014\u5982\u679c\u8fd9\u4e2a\u6001\u52bf\u6301\u7eed\uff0c\u4f1a\u7ed9 capex \u56de\u672c\u903b\u8f91\u589e\u52a0\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3719,
+      "ts": 1788221114,
+      "ts_str": "2026-09-01 00:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 23:21:42 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\n\nHBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\" target=\"_blank\">HBM Squeeze Pushes Legacy PC DRAM to Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM shortages driving legacy PC DRAM prices to a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0 HBM \u77ed\u7f3a\u6b63\u628a\u4f20\u7edf PC DRAM \u4ef7\u683c\u63a8\u81f3\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nTight DRAM/HBM supply raises input costs for every hyperscaler building AI servers and signals the memory market is being squeezed by AI demand rather than easing \u2014 a stress point for the capex-payback thesis if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u7ed9\u6301\u7eed\u504f\u7d27\uff0c\u4f1a\u63a8\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa AI \u670d\u52a1\u5668\u7684\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u6b63\u88ab AI \u9700\u6c42\u6324\u538b\u800c\u975e\u7f13\u89e3\u2014\u2014\u5982\u679c\u8fd9\u4e2a\u6001\u52bf\u6301\u7eed\uff0c\u4f1a\u7ed9 capex \u56de\u672c\u903b\u8f91\u589e\u52a0\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3715,
       "ts": 1788217515,
@@ -2289,26 +2309,6 @@
       "subject": "[C3-MED] OpenAI IPO: Sam Altman Reportedly Reveals Timeline, Hints At Major AI Upgrade - Stocktwits",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 07:18:06 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUdTX1ZYX0k0eTRldC04NTdKTFVyaDRNblF4eDRSaDdEbXNXTkRBME1QWjQwRFZqX3RaM21SX1dENHp0eDY2ZjkxTVlFRkNOZXFzZ2NHc0NWZndQSXJaSlBkNDZlQkpOVi05dGVlVHhZWUU2TnJnU2J2Y0JwdUxydFZFS1JUbzJIZkNkd1F3dGxrdGhvNnJDVkhWa3hHLXVYYk12aUFGa3dYUHdvYW54NU9HTWozTmNfY0Q0MmQzRDgtY2doWHZpMUpPSk9YSXA4?oc=5\n\nOpenAI IPO: Sam Altman Reportedly Reveals Timeline, Hints At Major AI Upgrade - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWUdTX1ZYX0k0eTRldC04NTdKTFVyaDRNblF4eDRSaDdEbXNXTkRBME1QWjQwRFZqX3RaM21SX1dENHp0eDY2ZjkxTVlFRkNOZXFzZ2NHc0NWZndQSXJaSlBkNDZlQkpOVi05dGVlVHhZWUU2TnJnU2J2Y0JwdUxydFZFS1JUbzJIZkNkd1F3dGxrdGhvNnJDVkhWa3hHLXVYYk12aUFGa3dYUHdvYW54NU9HTWozTmNfY0Q0MmQzRDgtY2doWHZpMUpPSk9YSXA4?oc=5\" target=\"_blank\">OpenAI IPO: Sam Altman Reportedly Reveals Timeline, Hints At Major AI Upgrade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports Sam Altman revealed a timeline for an OpenAI IPO and hinted at a major AI upgrade.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Sam Altman \u900f\u9732\u4e86 OpenAI IPO \u7684\u65f6\u95f4\u8868\uff0c\u5e76\u6697\u793a\u4f1a\u6709\u91cd\u5927 AI \u5347\u7ea7\u3002\n\nWhy it matters:\nOpenAI IPO speculation is background noise for the bubble-stress thesis unless paired with hard financials \u2014 but a confirmed IPO timeline would be a major forcing event, dragging OpenAI's real burn rate and valuation into public disclosure for the first time.\n\n\u5f71\u54cd:\n\u5149\u662f IPO \u4f20\u95fb\u5bf9 bubble-stress \u8bba\u70b9\u6765\u8bf4\u53ea\u662f\u80cc\u666f\u566a\u97f3\uff0c\u9664\u975e\u914d\u4e0a\u786c\u8d22\u52a1\u6570\u636e\u2014\u2014\u4f46\u5982\u679c IPO \u65f6\u95f4\u8868\u88ab\u5750\u5b9e\uff0c\u4f1a\u662f\u4e2a\u91cd\u5927\u4e8b\u4ef6\uff0c\u7b2c\u4e00\u6b21\u628a OpenAI \u771f\u5b9e\u7684\u70e7\u94b1\u901f\u5ea6\u548c\u4f30\u503c\u62c9\u8fdb\u516c\u5f00\u62ab\u9732\u7684\u8303\u56f4\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 3520,
-      "ts": 1787391863,
-      "ts_str": "2026-08-22 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Robinhood\u2019s Private Markets Bet: RVI IPO Opens Door to SpaceX, OpenAI Hype - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 07:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxPeDBWUDZhSk5pSUJDRDZFRTBqdXp3SGh2dGYwWU9IWlphRWU3SGhvZk1HTzl2VzlkXzB1V2o5WVVBUDluRHFGbnRucFRZWmZyaW1jb1pka3BsRXp5RGkwa0RvYmJoR1FWbmtsdUZfYVB6TmlTWUR4WmFySTRtM1JnNUg4MDNZMmRWbkF4WWZGTzI1NFcydHJBVWFEeWw5ZGRkY0dnLWtBdFluRDRaY29QVGJxMVRzRlNpdjhZNEdfdzBzbHA5T01XcmhwOUhVZFU?oc=5\n\nRobinhood\u2019s Private Markets Bet: RVI IPO Opens Door to SpaceX, OpenAI Hype - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPeDBWUDZhSk5pSUJDRDZFRTBqdXp3SGh2dGYwWU9IWlphRWU3SGhvZk1HTzl2VzlkXzB1V2o5WVVBUDluRHFGbnRucFRZWmZyaW1jb1pka3BsRXp5RGkwa0RvYmJoR1FWbmtsdUZfYVB6TmlTWUR4WmFySTRtM1JnNUg4MDNZMmRWbkF4WWZGTzI1NFcydHJBVWFEeWw5ZGRkY0dnLWtBdFluRDRaY29QVGJxMVRzRlNpdjhZNEdfdzBzbHA5T01XcmhwOUhVZFU?oc=5\" target=\"_blank\">Robinhood\u2019s Private Markets Bet: RVI IPO Opens Door to SpaceX, OpenAI Hype</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nRobinhood's RVI IPO listing was reported as opening retail access to pre-IPO exposure in SpaceX and OpenAI.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Robinhood \u7684 RVI IPO \u4e0a\u5e02\uff0c\u4e3a\u6563\u6237\u6253\u5f00\u4e86\u53c2\u4e0e SpaceX \u548c OpenAI \u672a\u4e0a\u5e02\u80a1\u6743\u7684\u6e20\u9053\u3002\n\nWhy it matters:\nThis is retail-access/hype coverage, not a fundamental OpenAI signal \u2014 it doesn't move burn-rate or filing metrics, but it does show speculative demand for OpenAI exposure broadening beyond VC/insider channels.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u6563\u6237\u53ef\u53ca\u6027/\u7092\u4f5c\u7c7b\u62a5\u9053\uff0c\u4e0d\u6d89\u53ca OpenAI \u7684\u57fa\u672c\u9762\u6307\u6807\uff08\u6bd4\u5982\u70e7\u94b1\u7387\uff09\uff0c\u4f46\u8bf4\u660e\u5e02\u573a\u5bf9 OpenAI \u655e\u53e3\u7684\u6295\u673a\u9700\u6c42\u5df2\u7ecf\u4ece\u98ce\u6295/\u5185\u90e8\u4eba\u5708\u5b50\u6269\u6563\u5230\u6563\u6237\u5c42\u9762\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3518,
-      "ts": 1787389517,
-      "ts_str": "2026-08-22 09:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Musk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 22 Aug 2026 08:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB2NzdUZ2RIelhxemdUT2FzOUVnLXNadXhkNEQ4clQ0eWxWZWdLRnJ1NzhvUFVpYk5OUmZMVnQxMDBZOXZKNU0tZG94YlJla3JpZGVQYjRrcjVxQ21vNjZ3Y3NjWnozTHRfLWRRSldnUTlHaWxBbnc?oc=5\n\nMusk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB2NzdUZ2RIelhxemdUT2FzOUVnLXNadXhkNEQ4clQ0eWxWZWdLRnJ1NzhvUFVpYk5OUmZMVnQxMDBZOXZKNU0tZG94YlJla3JpZGVQYjRrcjVxQ21vNjZ3Y3NjWnozTHRfLWRRSldnUTlHaWxBbnc?oc=5\" target=\"_blank\">Musk's 20-Gigawatt AI Buildout Exposes Memory Chip Shortage as the Next Bottleneck</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that Musk's planned 20-gigawatt AI data-center buildout is exposing a memory chip shortage as the next infrastructure bottleneck.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u9a6c\u65af\u514b\u89c4\u5212\u7684 20 \u5409\u74e6 AI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u66b4\u9732\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u95ee\u9898\uff0c\u8fd9\u5c06\u6210\u4e3a\u4e0b\u4e00\u4e2a\u57fa\u7840\u8bbe\u65bd\u74f6\u9888\u3002\n\nWhy it matters:\nMemory (DRAM/HBM) supply constraints are now surfacing as a binding limit on AI buildout pace, not just GPU or power availability \u2014 another node in the capex chain where demand is outrunning supply, reinforcing the shortage-driven price-stress thesis behind C6.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/HBM\uff09\u4f9b\u5e94\u9650\u5236\u6b63\u5728\u6210\u4e3a\u5236\u7ea6 AI \u5efa\u8bbe\u901f\u5ea6\u7684\u5b9e\u9645\u74f6\u9888\uff0c\u800c\u4e0d\u53ea\u662f GPU \u6216\u7535\u529b\u4e0d\u591f\u2014\u2014\u8d44\u672c\u5f00\u652f\u94fe\u6761\u4e0a\u53c8\u591a\u4e86\u4e00\u4e2a\u9700\u6c42\u8dd1\u8d62\u4f9b\u7ed9\u7684\u73af\u8282\uff0c\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 C6 \u80cc\u540e\u300c\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u300d\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
@@ -2357,5 +2357,55 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 29433.43,
+      "date": "2026-08-28",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.040024330900243266
+    },
+    "spx": null,
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 10,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
