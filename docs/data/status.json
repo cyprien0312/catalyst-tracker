@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788280865,
-  "generated_at_str": "2026-09-01 16:41:05 UTC",
-  "last_event_ts": 1788280506,
+  "generated_at": 1788281046,
+  "generated_at_str": "2026-09-01 16:44:06 UTC",
+  "last_event_ts": 1788281045,
   "tables": {
     "alerts_dedup": {
-      "count": 3733,
-      "last_ts": 1788277634,
-      "last_str": "2026-09-01 15:47:14 UTC"
+      "count": 3734,
+      "last_ts": 1788281045,
+      "last_str": "2026-09-01 16:44:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-08-31 23:00:28 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 4875,
-      "last_ts": 1788279244,
-      "last_str": "2026-09-01 16:14:04 UTC"
+      "count": 4877,
+      "last_ts": 1788281044,
+      "last_str": "2026-09-01 16:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1115,
-      "last_ts": 1788279244,
-      "last_str": "2026-09-01 16:14:04 UTC"
+      "count": 1116,
+      "last_ts": 1788281045,
+      "last_str": "2026-09-01 16:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5333,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-01 16:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 27896,
-      "last_ts": 1788279242,
-      "last_str": "2026-09-01 16:14:02 UTC"
+      "count": 27904,
+      "last_ts": 1788281042,
+      "last_str": "2026-09-01 16:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8361,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3741,
+      "ts": 1788281045,
+      "ts_str": "2026-09-01 16:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 13:06:14 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxQMV82QTVqaUlTdEFvNUxCbnlZTkFEZ3JzNlJRQXlId1JUMmxSbjhOblJ2X2VwcWg1WC1YeWl3ekRSd2lrXzdjbG1RNWs4MEdpWFB4cDB6RlJ4TzZYdjFzVlVrOGktSWRVb1hlOGowZThBdmNQQWJOTldMTUtuTXJ4SERFai1QV0xGd2I4TmNqeDZfVUxjTExn?oc=5\n\nSB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQMV82QTVqaUlTdEFvNUxCbnlZTkFEZ3JzNlJRQXlId1JUMmxSbjhOblJ2X2VwcWg1WC1YeWl3ekRSd2lrXzdjbG1RNWs4MEdpWFB4cDB6RlJ4TzZYdjFzVlVrOGktSWRVb1hlOGowZThBdmNQQWJOTldMTUtuTXJ4SERFai1QV0xGd2I4TmNqeDZfVUxjTExn?oc=5\" target=\"_blank\">SB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSB Energy's IPO filing discloses Nvidia investing $3B and OpenAI receiving warrants.\n\n\u5185\u5bb9:\nSB Energy \u7684 IPO \u6587\u4ef6\u62ab\u9732\uff0cNvidia \u5c06\u6295\u8d44 $3B\uff0cOpenAI \u83b7\u5f97\u8ba4\u80a1\u6743\u8bc1\u3002\n\nWhy it matters:\nNvidia is circular-financing its own downstream ecosystem while OpenAI collects warrant-based equity exposure without cash outlay \u2014 both patterns raise the same 'vendor financing propping up demand' question this tracker watches for.\n\n\u5f71\u54cd:\nNvidia \u5728\u7ed9\u81ea\u5df1\u4e0b\u6e38\u751f\u6001\u5708\u505a\u5faa\u73af\u878d\u8d44\uff0cOpenAI \u5219\u4e0d\u638f\u73b0\u91d1\u5c31\u62ff\u5230\u6743\u8bc1\u5f62\u5f0f\u7684\u80a1\u6743\u655e\u53e3\u2014\u2014\u8fd9\u4e24\u70b9\u90fd\u6307\u5411\u8fd9\u4e2a tracker \u4e00\u76f4\u5728\u76ef\u7684\u300c\u4f9b\u5e94\u5546\u878d\u8d44\u6491\u8d77\u9700\u6c42\u300d\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3740,
       "ts": 1788277634,
@@ -2299,16 +2309,6 @@
       "subject": "[C3-CRITICAL] SoftBank plans record \u00a51T bond sale to fund OpenAI investments - Crypto Briefing",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 24 Aug 2026 01:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE5EOEdCMEZqU1hKYTd0MEF6eHoxTGdrcDl6aFh4QWhFcTlkR2pGZ0pCTEJ1VUdyQk1DUm80RXZoVjJ5bGR2a2JqTHZub2NzNlRXbkhnOTlPdG5CeE94dUxPcFhOMGNvUVFrNGZqWg?oc=5\n\nSoftBank plans record \u00a51T bond sale to fund OpenAI investments - Crypto Briefing\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5EOEdCMEZqU1hKYTd0MEF6eHoxTGdrcDl6aFh4QWhFcTlkR2pGZ0pCTEJ1VUdyQk1DUm80RXZoVjJ5bGR2a2JqTHZub2NzNlRXbkhnOTlPdG5CeE94dUxPcFhOMGNvUVFrNGZqWg?oc=5\" target=\"_blank\">SoftBank plans record \u00a51T bond sale to fund OpenAI investments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto Briefing</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a record \u00a51 trillion bond sale to fund its investments in OpenAI.\n\n\u5185\u5bb9:\n\u8f6f\u94f6\u8ba1\u5212\u53d1\u884c\u521b\u7eaa\u5f55\u7684 1 \u4e07\u4ebf\u65e5\u5143\u503a\u5238\uff0c\u7528\u4e8e\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u3002\n\nWhy it matters:\nSoftBank is a key funding conduit for OpenAI's capex commitments; resorting to record debt issuance signals the round is being financed with leverage rather than existing cash, raising the stakes if OpenAI's revenue growth doesn't keep pace with spend.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u662f OpenAI \u8d44\u672c\u5f00\u652f\u7684\u5173\u952e\u8d44\u91d1\u6765\u6e90\u4e4b\u4e00\uff0c\u52a8\u7528\u521b\u7eaa\u5f55\u89c4\u6a21\u7684\u4e3e\u503a\u8bf4\u660e\u8fd9\u8f6e\u6295\u8d44\u9760\u6760\u6746\u800c\u975e\u81ea\u6709\u73b0\u91d1\u652f\u6491\u3002\u5982\u679c OpenAI \u7684\u6536\u5165\u589e\u901f\u8ddf\u4e0d\u4e0a\u652f\u51fa\u8282\u594f\uff0c\u8fd9\u6761\u878d\u8d44\u94fe\u7684\u98ce\u9669\u4f1a\u88ab\u653e\u5927\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 3541,
-      "ts": 1787537114,
-      "ts_str": "2026-08-24 02:05 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] RTX 5070 gaming PC with 32GB of DDR5 RAM sees a decent price cut on Amazon - PC Guide",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 24 Aug 2026 01:57:56 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmwxZHJMRVNoZ1YtdHFzSGxUdEhjRUMyRDNGLWtLTEU2Z0tMZzNvUkxVdEx0WWh4N1VmZVRCYjFlVVN1NHNJb2dIVUYxSGU2bExxVFJNTTNkajd4UkhTT2xncEYxUURkYllJaGxjUjRNeURKUU5hZzJ2MFhrVThfTGVqNUx6MGtyVGlwNDh5T2VZa2tldll4UFp5UVMxYnFfLWVWazNONnc?oc=5\n\nRTX 5070 gaming PC with 32GB of DDR5 RAM sees a decent price cut on Amazon - PC Guide\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmwxZHJMRVNoZ1YtdHFzSGxUdEhjRUMyRDNGLWtLTEU2Z0tMZzNvUkxVdEx0WWh4N1VmZVRCYjFlVVN1NHNJb2dIVUYxSGU2bExxVFJNTTNkajd4UkhTT2xncEYxUURkYllJaGxjUjRNeURKUU5hZzJ2MFhrVThfTGVqNUx6MGtyVGlwNDh5T2VZa2tldll4UFp5UVMxYnFfLWVWazNONnc?oc=5\" target=\"_blank\">RTX 5070 gaming PC with 32GB of DDR5 RAM sees a decent price cut on Amazon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PC Guide</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA gaming PC listing with 32GB DDR5 RAM saw a price cut on Amazon \u2014 a retail promo, not a supplier or industry disclosure.\n\n\u5185\u5bb9:\n\u4e00\u6b3e\u914d\u5907 32GB DDR5 \u5185\u5b58\u7684\u6e38\u620f\u4e3b\u673a\u5728 Amazon \u4e0a\u964d\u4ef7\uff0c\u662f\u96f6\u552e\u4fc3\u9500\uff0c\u4e0d\u662f\u4f9b\u5e94\u5546\u6216\u884c\u4e1a\u5c42\u9762\u7684\u62ab\u9732\u3002\n\nWhy it matters:\nThis is consumer-retail noise (a single SKU markdown), not evidence of DRAM/NAND pricing direction from a fab, OEM, or distributor \u2014 doesn't support or refute the memory-oversupply thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5355\u4e2a SKU \u7684\u96f6\u552e\u964d\u4ef7\u566a\u97f3,\u4e0d\u662f\u6765\u81ea\u6676\u5706\u5382\u3001OEM \u6216\u5206\u9500\u5546\u7684 DRAM/NAND \u4ef7\u683c\u65b9\u5411\u4fe1\u53f7,\u5bf9\u5185\u5b58\u8fc7\u5269\u8fd9\u5957\u8bba\u70b9\u65e2\u4e0d\u652f\u6301\u4e5f\u4e0d\u63a8\u7ffb\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
