@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788269526,
-  "generated_at_str": "2026-09-01 13:32:06 UTC",
-  "last_event_ts": 1788268457,
+  "generated_at": 1788269726,
+  "generated_at_str": "2026-09-01 13:35:26 UTC",
+  "last_event_ts": 1788269726,
   "tables": {
     "alerts_dedup": {
-      "count": 3728,
-      "last_ts": 1788268457,
-      "last_str": "2026-09-01 13:14:17 UTC"
+      "count": 3730,
+      "last_ts": 1788269726,
+      "last_str": "2026-09-01 13:35:26 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-01 13:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6270,
-      "last_ts": 1788267903,
-      "last_str": "2026-09-01 13:05:03 UTC"
+      "count": 6272,
+      "last_ts": 1788269704,
+      "last_str": "2026-09-01 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3891,
-      "last_ts": 1788264308,
-      "last_str": "2026-09-01 12:05:08 UTC"
+      "count": 3892,
+      "last_ts": 1788269703,
+      "last_str": "2026-09-01 13:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4701,
-      "last_ts": 1788267905,
-      "last_str": "2026-09-01 13:05:05 UTC"
+      "count": 4702,
+      "last_ts": 1788269706,
+      "last_str": "2026-09-01 13:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 27855,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3736,
+      "ts": 1788269726,
+      "ts_str": "2026-09-01 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] The Memory Shortage Isn\u2019t Close to Ending \u2014 Samsung Just Locked Up 70% of HBM Capacity Through 2031 - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 15:52:33 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxOem5DaEk4Tm92aFd2QXF2VE9fRjNCelR0VXJ2TU1qelR6eTVtOWNLRi05c3B1dVdTRjVMQllTLUNRR3dKcFlRQzNnTnlVTnNmelVndzhpNjgxaWQ1TVR4cDBxQ0tBX1pMVmxkRkhnMnZ0NXR5T2E0N0RXZ1NaNWFDdDgtamNnOXYySGhYZU1DS3lUTTZIZlE?oc=5\n\nThe Memory Shortage Isn\u2019t Close to Ending \u2014 Samsung Just Locked Up 70% of HBM Capacity Through 2031 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOem5DaEk4Tm92aFd2QXF2VE9fRjNCelR0VXJ2TU1qelR6eTVtOWNLRi05c3B1dVdTRjVMQllTLUNRR3dKcFlRQzNnTnlVTnNmelVndzhpNjgxaWQ1TVR4cDBxQ0tBX1pMVmxkRkhnMnZ0NXR5T2E0N0RXZ1NaNWFDdDgtamNnOXYySGhYZU1DS3lUTTZIZlE?oc=5\" target=\"_blank\">The Memory Shortage Isn\u2019t Close to Ending \u2014 Samsung Just Locked Up 70% of HBM Capacity Through 2031</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung has secured contracts for roughly 70% of its HBM production capacity through 2031, signaling the memory shortage will persist for years rather than ease near-term.\n\n\u5185\u5bb9:\n\u4e09\u661f\u5df2\u9501\u5b9a\u5176 HBM \u4ea7\u80fd\u7ea6 70% \u7684\u5408\u540c\uff0c\u4f9b\u8d27\u671f\u4e00\u76f4\u6392\u5230 2031 \u5e74\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u4e0d\u4f1a\u5728\u77ed\u671f\u5185\u7f13\u89e3\uff0c\u800c\u662f\u4f1a\u6301\u7eed\u6570\u5e74\u3002\n\nWhy it matters:\nA multi-year supply lock-up removes flexibility for other buyers and cements HBM as a structurally tight input for AI accelerators \u2014 reinforces the memory-cost leg of the AI-capex bull case rather than showing stress, but confirms C6's shortage/price-surge thesis is intact and not a transient blip.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u591a\u5e74\u671f\u7684\u4ea7\u80fd\u9501\u5b9a\u610f\u5473\u7740\u5176\u4ed6\u4e70\u5bb6\u7684\u91c7\u8d2d\u7a7a\u95f4\u88ab\u5927\u5e45\u538b\u7f29\uff0cHBM \u4f5c\u4e3a AI \u52a0\u901f\u5668\u5173\u952e\u6295\u5165\u54c1\u7684\u7ed3\u6784\u6027\u7d27\u5f20\u88ab\u5750\u5b9e\u3002\u8fd9\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\uff0c\u53cd\u800c\u5370\u8bc1\u4e86 C6 \u7684\u77ed\u7f3a/\u6da8\u4ef7\u5224\u65ad\u4e0d\u662f\u77ed\u671f\u6ce2\u52a8\uff0c\u800c\u662f\u957f\u671f\u8d8b\u52bf\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3737,
+      "ts": 1788269726,
+      "ts_str": "2026-09-01 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM3E Spot Prices Surge to 4-5 Times Contract Rates as Samsung Locks In 70% of Capacity Through 2031 - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 08:22:04 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE9KdGFtdFNXVE1yT2lSNDU0WXJidlRDWkhWaVlhRG1rT3NReDRTSUg4bVhyOVRJaVN3aHNqX1JzNEZTRFZZMENmeVZ6QWlES3h2dkZmc0o3N0hSSGFXZDRiRGJXSlRIWDBISjZkRnVCcw?oc=5\n\nHBM3E Spot Prices Surge to 4-5 Times Contract Rates as Samsung Locks In 70% of Capacity Through 2031 - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE9KdGFtdFNXVE1yT2lSNDU0WXJidlRDWkhWaVlhRG1rT3NReDRTSUg4bVhyOVRJaVN3aHNqX1JzNEZTRFZZMENmeVZ6QWlES3h2dkZmc0o3N0hSSGFXZDRiRGJXSlRIWDBISjZkRnVCcw?oc=5\" target=\"_blank\">HBM3E Spot Prices Surge to 4-5 Times Contract Rates as Samsung Locks In 70% of Capacity Through 2031</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News reported HBM3E spot prices surging to 4-5x contract rates, with Samsung locking in 70% of its HBM capacity through 2031.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053 HBM3E \u73b0\u8d27\u4ef7\u98d9\u5347\u81f3\u5408\u7ea6\u4ef7\u7684 4-5 \u500d\uff0cSamsung \u5df2\u628a 70% \u7684 HBM \u4ea7\u80fd\u9501\u5b9a\u5230 2031 \u5e74\u3002\n\nWhy it matters:\nExtreme spot-vs-contract spread signals acute memory shortage, not just a price cycle \u2014 and Samsung pre-committing capacity for five years locks scarce supply away from spot buyers, which raises input costs across every AI accelerator vendor dependent on HBM.\n\n\u5f71\u54cd:\n\u73b0\u8d27\u4ef7\u548c\u5408\u7ea6\u4ef7\u5dee\u8ddd\u8fd9\u4e48\u5927\uff0c\u8bf4\u660e\u5185\u5b58\u77ed\u7f3a\u5f88\u4e25\u91cd\uff0c\u4e0d\u53ea\u662f\u666e\u901a\u7684\u4ef7\u683c\u5468\u671f\u3002Samsung \u4e00\u6b21\u9501\u5b9a\u4e94\u5e74\u4ea7\u80fd\uff0c\u610f\u5473\u7740\u73b0\u8d27\u5e02\u573a\u80fd\u4e70\u5230\u7684\u8d27\u66f4\u5c11\u4e86\uff0c\u4f1a\u63a8\u9ad8\u6240\u6709\u4f9d\u8d56 HBM \u7684 AI \u52a0\u901f\u5668\u5382\u5546\u7684\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3735,
       "ts": 1788268457,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] NVIDIA Price Increase Alert for AI Servers Amid Memory Chip Cost Surge - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 24 Aug 2026 00:09:36 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWZtX3NiUkpNVGx0V21YamFBcDQ5TmVFcVJXbnNxbnpoQUUwQUlIbXVlQ3VETTZYYUlNMXZZczVoN3Z3Wm5zbWtDT280VG9vUFY2SjV0TXc3WVljamlBeTVXRnFIOTR4blZZU1lOendSYnVFM3hEX21zaEJYVDdlSkVGVVpkM0JfUVNhUW9KOEtCZk1lVmtjX1dDdTY1WHJhSkN6N1Zyc2dmMXVZdVE?oc=5\n\nNVIDIA Price Increase Alert for AI Servers Amid Memory Chip Cost Surge - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWZtX3NiUkpNVGx0V21YamFBcDQ5TmVFcVJXbnNxbnpoQUUwQUlIbXVlQ3VETTZYYUlNMXZZczVoN3Z3Wm5zbWtDT280VG9vUFY2SjV0TXc3WVljamlBeTVXRnFIOTR4blZZU1lOendSYnVFM3hEX21zaEJYVDdlSkVGVVpkM0JfUVNhUW9KOEtCZk1lVmtjX1dDdTY1WHJhSkN6N1Zyc2dmMXVZdVE?oc=5\" target=\"_blank\">NVIDIA Price Increase Alert for AI Servers Amid Memory Chip Cost Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports NVIDIA warning of AI-server price increases tied to a surge in memory-chip costs.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u6807\u9898\u79f0\uff0cNVIDIA \u8b66\u544a\u5185\u5b58\u82af\u7247\u6210\u672c\u98d9\u5347\u6b63\u63a8\u52a8 AI \u670d\u52a1\u5668\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory (DRAM/NAND/HBM) is a direct input cost for AI servers, so this is upstream cost inflation flowing into hyperscaler capex \u2014 either compressing margins or getting passed through as higher prices, both of which pressure the capex-payback math the bubble-stress thesis depends on.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u662f AI \u670d\u52a1\u5668\u7684\u76f4\u63a5\u6210\u672c\u9879\uff0c\u8fd9\u662f\u4e0a\u6e38\u6210\u672c\u901a\u80c0\u4f20\u5bfc\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u7684\u4fe1\u53f7\u2014\u2014\u8981\u4e48\u538b\u7f29\u5229\u6da6\u7387\uff0c\u8981\u4e48\u8f6c\u5ac1\u4e3a\u6da8\u4ef7\uff0c\u4e24\u79cd\u60c5\u51b5\u90fd\u4f1a\u51b2\u51fb capex \u56de\u672c\u903b\u8f91\u6240\u4f9d\u8d56\u7684\u6d4b\u7b97\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3537,
-      "ts": 1787530455,
-      "ts_str": "2026-08-24 00:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic, OpenAI IPO plans squeeze liquidity, boost AI capital battle; Korea contrasts - CHOSUNBIZ - Chosunbiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 23:47:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxPZkdaWEpMT0hZTklxOEhqejR2UTNMMjdZU2ZZcHR6em83ZjJlSGJCLXBIaWtJRjNzZFEzUmRlQmRsMFNWT2hGdmxEUVBBM1ZfbDU0OGt0alpDcExtenc4bHZRakN0bDJMb0dDaUdnbGl2N3dJWVFTajJtZlFKVmM3RNIBlAFBVV95cUxNMVVManBJZGxpV3EtRGVoS0lyR2t2N3pWaDBGTGFFcmNnNFFFQi1UakZDUjZ6M25wNFdWM21qMGV3WVR5UW5qSkc3SnRsSlJ5R1d3TXY1anhLb0RNMVIxanYtaVcxYzMxUFlURGo0UFhHRERPWEJMNU9lNnFFNWRrNDYyUG1YN0xsV1M3RTJFdDBUWWRV?oc=5\n\nAnthropic, OpenAI IPO plans squeeze liquidity, boost AI capital battle; Korea contrasts - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZkdaWEpMT0hZTklxOEhqejR2UTNMMjdZU2ZZcHR6em83ZjJlSGJCLXBIaWtJRjNzZFEzUmRlQmRsMFNWT2hGdmxEUVBBM1ZfbDU0OGt0alpDcExtenc4bHZRakN0bDJMb0dDaUdnbGl2N3dJWVFTajJtZlFKVmM3RNIBlAFBVV95cUxNMVVManBJZGxpV3EtRGVoS0lyR2t2N3pWaDBGTGFFcmNnNFFFQi1UakZDUjZ6M25wNFdWM21qMGV3WVR5UW5qSkc3SnRsSlJ5R1d3TXY1anhLb0RNMVIxanYtaVcxYzMxUFlURGo0UFhHRERPWEJMNU9lNnFFNWRrNDYyUG1YN0xsV1M3RTJFdDBUWWRV?oc=5\" target=\"_blank\">Anthropic, OpenAI IPO plans squeeze liquidity, boost AI capital battle; Korea contrasts - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Korean outlet reports Anthropic and OpenAI's IPO plans are squeezing liquidity and intensifying the AI capital race, contrasted against Korea's market.\n\n\u5185\u5bb9:\n\u4e00\u5bb6\u97e9\u56fd\u5a92\u4f53\u62a5\u9053\uff0cAnthropic \u548c OpenAI \u7684 IPO \u8ba1\u5212\u6b63\u6324\u538b\u6d41\u52a8\u6027\uff0c\u52a0\u5267 AI \u8d44\u672c\u7ade\u8d5b\uff0c\u5e76\u4e0e\u97e9\u56fd\u5e02\u573a\u5f62\u6210\u5bf9\u6bd4\u3002\n\nWhy it matters:\nIPO chatter for the two frontier labs signals mounting pressure to convert capex-heavy growth into public-market cash \u2014 a MED-tier speculation piece, not confirmed filing activity, but it feeds the same liquidity-squeeze thesis underlying the AI-capex bubble-stress read.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u524d\u6cbf\u5b9e\u9a8c\u5ba4\u7684 IPO \u4f20\u95fb\uff0c\u8bf4\u660e\u628a\u91cd\u8d44\u672c\u5f00\u652f\u7684\u589e\u957f\u8f6c\u5316\u4e3a\u516c\u5f00\u5e02\u573a\u73b0\u91d1\u7684\u538b\u529b\u5728\u52a0\u5927\u2014\u2014\u8fd9\u662f MED \u7ea7\u522b\u7684\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u5df2\u786e\u8ba4\u7684\u7533\u62a5\u52a8\u4f5c\uff0c\u4f46\u547c\u5e94\u4e86 AI capex \u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u6d41\u52a8\u6027\u6536\u7d27\u7684\u90a3\u6761\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3536,
-      "ts": 1787516047,
-      "ts_str": "2026-08-23 20:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic Eyes $2 Trillion IPO To Top SpaceX Record With $100 Billion Haul as OpenAI Rival Goes Public - International B",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 23 Aug 2026 19:53:18 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSGMzdWFkNW45VFZKMTlKdXJPQ0VlRTFDeGtVSVljemZLa01MblpSbkkyMWdYWUhzOEJtZ014UGdmQ2tJWmh1Tms2bndyWTZfVnJrUUZhdEE1MGZrV0pzX2hTSERmbE5hRHdkVGlXNDRSNGliYnh5ZEx6NA?oc=5\n\nAnthropic Eyes $2 Trillion IPO To Top SpaceX Record With $100 Billion Haul as OpenAI Rival Goes Public - International Business Times UK\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5zSGMzdWFkNW45VFZKMTlKdXJPQ0VlRTFDeGtVSVljemZLa01MblpSbkkyMWdYWUhzOEJtZ014UGdmQ2tJWmh1Tms2bndyWTZfVnJrUUZhdEE1MGZrV0pzX2hTSERmbE5hRHdkVGlXNDRSNGliYnh5ZEx6NA?oc=5\" target=\"_blank\">Anthropic Eyes $2 Trillion IPO To Top SpaceX Record With $100 Billion Haul as OpenAI Rival Goes Public</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
       "emailed": false
     }
   ],
