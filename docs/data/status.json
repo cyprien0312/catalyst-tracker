@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788451323,
-  "generated_at_str": "2026-09-03 16:02:03 UTC",
-  "last_event_ts": 1788450422,
+  "generated_at": 1788451503,
+  "generated_at_str": "2026-09-03 16:05:03 UTC",
+  "last_event_ts": 1788451503,
   "tables": {
     "alerts_dedup": {
-      "count": 3787,
-      "last_ts": 1788446837,
-      "last_str": "2026-09-03 14:47:17 UTC"
+      "count": 3788,
+      "last_ts": 1788451503,
+      "last_str": "2026-09-03 16:05:03 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-03 15:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5422,
-      "last_ts": 1788447901,
-      "last_str": "2026-09-03 15:05:01 UTC"
+      "count": 5425,
+      "last_ts": 1788451501,
+      "last_str": "2026-09-03 16:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6446,
-      "last_ts": 1788449713,
-      "last_str": "2026-09-03 15:35:13 UTC"
+      "count": 6448,
+      "last_ts": 1788451503,
+      "last_str": "2026-09-03 16:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3949,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3795,
+      "ts": 1788451503,
+      "ts_str": "2026-09-03 16:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron: The AI Memory Shortage Has Spread Beyond HBM (NASDAQ:MU) - Seeking Alpha",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 12:06:08 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxQTnhhMWZyX0hVbmhuYVdCTF91RFd0NE5wcngyM08xN0xycy1fN0FHREVyS0p4b21FVXpja0FjbUItcnUxb2xvamFlUElLTl92LTl3MDMzTkZoYUcxZnpIN3B5MW1JazZNOF9QVXRfV1VlTzlwcXVJZkhBZ01Ra0dJNXJYWVVmVFBycm52RGRqbXJ0d0hjWmpv?oc=5\n\nMicron: The AI Memory Shortage Has Spread Beyond HBM (NASDAQ:MU) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQTnhhMWZyX0hVbmhuYVdCTF91RFd0NE5wcngyM08xN0xycy1fN0FHREVyS0p4b21FVXpja0FjbUItcnUxb2xvamFlUElLTl92LTl3MDMzTkZoYUcxZnpIN3B5MW1JazZNOF9QVXRfV1VlTzlwcXVJZkhBZ01Ra0dJNXJYWVVmVFBycm52RGRqbXJ0d0hjWmpv?oc=5\" target=\"_blank\">Micron: The AI Memory Shortage Has Spread Beyond HBM (NASDAQ:MU)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Seeking Alpha headline on MU says the AI-driven memory shortage has spread beyond HBM to broader DRAM/NAND supply.\n\n\u5185\u5bb9:\nSeeking Alpha \u4e00\u7bc7\u5173\u4e8e MU \u7684\u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684\u5b58\u50a8\u77ed\u7f3a\u5df2\u4ece HBM \u8513\u5ef6\u5230\u66f4\u5e7f\u6cdb\u7684 DRAM/NAND\u3002\n\nWhy it matters:\nConfirms memory tightness is now systemic, not just an HBM/AI-accelerator bottleneck \u2014 supports the memory-price-stress thesis feeding into general compute costs and margins across the AI buildout, though it's a single article, not a filed number.\n\n\u5f71\u54cd:\n\u8bf4\u660e\u5b58\u50a8\u7d27\u5f20\u5df2\u7ecf\u662f\u7cfb\u7edf\u6027\u95ee\u9898\uff0c\u4e0d\u53ea\u662f HBM/AI \u52a0\u901f\u5668\u8fd9\u4e00\u73af\u7684\u74f6\u9888\uff0c\u652f\u6491\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u4f1a\u4f20\u5bfc\u5230\u6574\u4e2a AI \u5efa\u8bbe\u5468\u671f\u7684\u7b97\u529b\u6210\u672c\u548c\u5229\u6da6\u7387\u8fd9\u6761\u903b\u8f91\u2014\u2014\u4e0d\u8fc7\u8fd9\u53ea\u662f\u4e00\u7bc7\u62a5\u9053\uff0c\u4e0d\u662f\u8d22\u62a5\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3794,
       "ts": 1788446837,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s Data-Center Chief Has Reportedly Left \u2014 Executive Exodus Grows Ahead Of Planned IPO - Stocktwits",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 21:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdGtxcUNDdE9VTDFQb2RSVTliaF9Ra3c4SkV1STRKVHFVdlNpOFFYNllOc0U0cXdUN2gxa2ZhekZOdGRjc1Y4YTRWV3NMNnRid3dfTF8wcWxKVVhGOFp6cHVDZmxYRlM1OG9tU25rRVU4dHk3SG1DeDZ6SjJRUmtibkh6R3E5aXlPTHRxNHF4blh2VEwxejRIbllEUkZpOXI4eEV5Ylg3alA4bzlveko1Ynd6dm9YMFMtVWFlNHR4QTlSc19jRXVySGtRN2FSc1VxUUFwWjNWNDNNU1FyWTJqUndybGJ0akF1?oc=5\n\nOpenAI\u2019s Data-Center Chief Has Reportedly Left \u2014 Executive Exodus Grows Ahead Of Planned IPO - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdGtxcUNDdE9VTDFQb2RSVTliaF9Ra3c4SkV1STRKVHFVdlNpOFFYNllOc0U0cXdUN2gxa2ZhekZOdGRjc1Y4YTRWV3NMNnRid3dfTF8wcWxKVVhGOFp6cHVDZmxYRlM1OG9tU25rRVU4dHk3SG1DeDZ6SjJRUmtibkh6R3E5aXlPTHRxNHF4blh2VEwxejRIbllEUkZpOXI4eEV5Ylg3alA4bzlveko1Ynd6dm9YMFMtVWFlNHR4QTlSc19jRXVySGtRN2FSc1VxUUFwWjNWNDNNU1FyWTJqUndybGJ0akF1?oc=5\" target=\"_blank\">OpenAI\u2019s Data-Center Chief Has Reportedly Left \u2014 Executive Exodus Grows Ahead Of Planned IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's data-center chief reportedly departed, adding to a wave of executive exits ahead of the company's planned IPO.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u7684\u6570\u636e\u4e2d\u5fc3\u8d1f\u8d23\u4eba\u5df2\u7ecf\u79bb\u804c\uff0c\u5728\u516c\u53f8\u7b79\u5907 IPO \u4e4b\u9645\uff0c\u9ad8\u7ba1\u79bb\u804c\u6f6e\u8fdb\u4e00\u6b65\u6269\u5927\u3002\n\nWhy it matters:\nLeadership churn right before an IPO signals internal instability at the entity whose compute demand underpins the AI-capex bull case \u2014 infrastructure leadership turnover raises doubts about execution on the data-center buildout OpenAI has committed to.\n\n\u5f71\u54cd:\nIPO \u524d\u5915\u51fa\u73b0\u9ad8\u7ba1\u5bc6\u96c6\u79bb\u804c\uff0c\u8bf4\u660e\u8fd9\u5bb6\u6491\u8d77 AI capex \u591a\u5934\u903b\u8f91\u7684\u516c\u53f8\u5185\u90e8\u5e76\u4e0d\u7a33\u3002\u6570\u636e\u4e2d\u5fc3\u8fd9\u5757\u7684\u9886\u5bfc\u5c42\u52a8\u8361\uff0c\u8ba9\u4eba\u6000\u7591 OpenAI \u80fd\u5426\u5151\u73b0\u6b64\u524d\u627f\u8bfa\u7684\u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u8ba1\u5212\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3595,
-      "ts": 1787713514,
-      "ts_str": "2026-08-26 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Amazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages - GuruFocus",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 02:41:50 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmZEQXhtWTIzSWNLbWY1Qlpka09xZng0UFZ4MjRWZEh1MVh6V1QxcU12UjZlX3dNWFFNU05oNHZtTkw2QnI5QTcxeC0tQXBQNHR5UkFZbjh2czVkRGU3S1J6U2hfTWRSOWdkQ1d2Q1NtTWNTQWFZWjlmM0hsck5yZzZiUk15LWJucVBmNklZQVFDdG5XdE83S3BQQXNWN2dvUVRWYXN3?oc=5\n\nAmazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmZEQXhtWTIzSWNLbWY1Qlpka09xZng0UFZ4MjRWZEh1MVh6V1QxcU12UjZlX3dNWFFNU05oNHZtTkw2QnI5QTcxeC0tQXBQNHR5UkFZbjh2czVkRGU3S1J6U2hfTWRSOWdkQ1d2Q1NtTWNTQWFZWjlmM0hsck5yZzZiUk15LWJucVBmNklZQVFDdG5XdE83S3BQQXNWN2dvUVRWYXN3?oc=5\" target=\"_blank\">Amazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Amazon (AMZN) is raising hardware prices, citing memory-chip shortages.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0 Amazon (AMZN) \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e0a\u8c03\u786c\u4ef6\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/NAND shortage passthrough to hardware pricing signals tightening memory supply that could pressure hyperscaler capex costs and margins \u2014 a stress point for the AI-buildout cost structure.\n\n\u5f71\u54cd:\nDRAM/NAND \u77ed\u7f3a\u4f20\u5bfc\u5230\u786c\u4ef6\u6da8\u4ef7,\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5728\u6536\u7d27,\u53ef\u80fd\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u3001\u538b\u7f29\u5229\u6da6\u7387,\u662f AI \u57fa\u5efa\u6210\u672c\u7ed3\u6784\u7684\u4e00\u4e2a\u538b\u529b\u70b9\u3002\n",
       "emailed": false
     }
   ],
