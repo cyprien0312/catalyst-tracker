@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788446645,
-  "generated_at_str": "2026-09-03 14:44:05 UTC",
-  "last_event_ts": 1788446644,
+  "generated_at": 1788446840,
+  "generated_at_str": "2026-09-03 14:47:20 UTC",
+  "last_event_ts": 1788446837,
   "tables": {
     "alerts_dedup": {
-      "count": 3786,
-      "last_ts": 1788446113,
-      "last_str": "2026-09-03 14:35:13 UTC"
+      "count": 3787,
+      "last_ts": 1788446837,
+      "last_str": "2026-09-03 14:47:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -24,9 +24,9 @@
       "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c11_lockup": {
-      "count": 4,
-      "last_ts": 1788360431,
-      "last_str": "2026-09-02 14:47:11 UTC"
+      "count": 5,
+      "last_ts": 1788446835,
+      "last_str": "2026-09-03 14:47:15 UTC"
     },
     "c1_filings": {
       "count": 110,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-03 14:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8598,
-      "last_ts": 1788443222,
-      "last_str": "2026-09-03 13:47:02 UTC"
+      "count": 8606,
+      "last_ts": 1788446836,
+      "last_str": "2026-09-03 14:47:16 UTC"
     }
   },
   "c4_xbrl": [
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3794,
+      "ts": 1788446837,
+      "ts_str": "2026-09-03 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 91 (0.6\u4ebf shares)",
+      "body": "Severity:   MED\nTranche:    Day 91\nDate:       2026-09-11  (7 day(s) out)\nRelease:    0.6\u4ebf shares (0.5% of shares outstanding)\nCumulative: 20.0% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX faces an upcoming lock-up unlock releasing $0.6B in shares, bringing cumulative unlocked supply to 20% of the float.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6b21\u89e3\u7981\uff0c\u91ca\u653e $0.6B \u80a1\u4efd\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u6d41\u901a\u80a1\u7684 20%\u3002\n\nWhy it matters:\nA scheduled unlock adds a known supply overhang right as passive index flows and early-investor liquidity needs intersect \u2014 watch for pre-unlock price pressure or accelerated selling that would confirm the mechanical-flow thesis rather than a fundamentals-driven move.\n\n\u5f71\u54cd:\n\u8fd9\u6b21\u89e3\u7981\u662f\u5df2\u77e5\u7684\u4f9b\u7ed9\u51b2\u51fb\uff0c\u6b63\u597d\u8d76\u4e0a\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6d41\u4e0e\u65e9\u671f\u6295\u8d44\u8005\u7684\u53d8\u73b0\u9700\u6c42\u53e0\u52a0\u2014\u2014\u8981\u7559\u610f\u89e3\u7981\u524d\u7684\u4ef7\u683c\u538b\u529b\u6216\u52a0\u901f\u629b\u552e\uff0c\u8fd9\u4f1a\u5370\u8bc1\u673a\u5236\u6027\u629b\u538b\u7684\u903b\u8f91\uff0c\u800c\u4e0d\u662f\u57fa\u672c\u9762\u9a71\u52a8\u7684\u8d70\u52bf\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3792,
       "ts": 1788446113,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Amazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 02:41:50 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmZEQXhtWTIzSWNLbWY1Qlpka09xZng0UFZ4MjRWZEh1MVh6V1QxcU12UjZlX3dNWFFNU05oNHZtTkw2QnI5QTcxeC0tQXBQNHR5UkFZbjh2czVkRGU3S1J6U2hfTWRSOWdkQ1d2Q1NtTWNTQWFZWjlmM0hsck5yZzZiUk15LWJucVBmNklZQVFDdG5XdE83S3BQQXNWN2dvUVRWYXN3?oc=5\n\nAmazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOSmZEQXhtWTIzSWNLbWY1Qlpka09xZng0UFZ4MjRWZEh1MVh6V1QxcU12UjZlX3dNWFFNU05oNHZtTkw2QnI5QTcxeC0tQXBQNHR5UkFZbjh2czVkRGU3S1J6U2hfTWRSOWdkQ1d2Q1NtTWNTQWFZWjlmM0hsck5yZzZiUk15LWJucVBmNklZQVFDdG5XdE83S3BQQXNWN2dvUVRWYXN3?oc=5\" target=\"_blank\">Amazon (AMZN) Raises Prices on Hardware Amid Memory Chip Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Amazon (AMZN) is raising hardware prices, citing memory-chip shortages.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0 Amazon (AMZN) \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4e0a\u8c03\u786c\u4ef6\u4ef7\u683c\u3002\n\nWhy it matters:\nDRAM/NAND shortage passthrough to hardware pricing signals tightening memory supply that could pressure hyperscaler capex costs and margins \u2014 a stress point for the AI-buildout cost structure.\n\n\u5f71\u54cd:\nDRAM/NAND \u77ed\u7f3a\u4f20\u5bfc\u5230\u786c\u4ef6\u6da8\u4ef7,\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5728\u6536\u7d27,\u53ef\u80fd\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u3001\u538b\u7f29\u5229\u6da6\u7387,\u662f AI \u57fa\u5efa\u6210\u672c\u7ed3\u6784\u7684\u4e00\u4e2a\u538b\u529b\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3594,
-      "ts": 1787712246,
-      "ts_str": "2026-08-26 02:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI data center chief exits as 4 executives leave ahead of 2027 IPO - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 20:10:48 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQNm5pd1lKT082M1F0U3E4LVUwU3NnZW5LZFhBNmhYS1Y0aTJrb2xEcHB4bmU2eGVWTjlZeFlGYldjVnNuaEI2QjVWQVJpOTFyWENQOGMwblpHODJ2T1QxMTFHUzlYQVBvNjBZQWxqUWFLUnVSZkxDNV9aRXY3bEFzNW9vTm5iS2dZcmhJdzVyMW9mbE5CVmZRV1RR?oc=5\n\nOpenAI data center chief exits as 4 executives leave ahead of 2027 IPO - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQNm5pd1lKT082M1F0U3E4LVUwU3NnZW5LZFhBNmhYS1Y0aTJrb2xEcHB4bmU2eGVWTjlZeFlGYldjVnNuaEI2QjVWQVJpOTFyWENQOGMwblpHODJ2T1QxMTFHUzlYQVBvNjBZQWxqUWFLUnVSZkxDNV9aRXY3bEFzNW9vTm5iS2dZcmhJdzVyMW9mbE5CVmZRV1RR?oc=5\" target=\"_blank\">OpenAI data center chief exits as 4 executives leave ahead of 2027 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nFour OpenAI executives, including the data center chief, departed ahead of the company's planned 2027 IPO.\n\n\u5185\u5bb9:\nOpenAI \u56db\u540d\u9ad8\u7ba1\u79bb\u804c\uff0c\u5176\u4e2d\u5305\u62ec\u6570\u636e\u4e2d\u5fc3\u8d1f\u8d23\u4eba\uff0c\u6b63\u503c\u516c\u53f8\u7b79\u5907 2027 \u5e74 IPO \u4e4b\u9645\u3002\n\nWhy it matters:\nLeadership turnover in the group running OpenAI's data center buildout \u2014 the physical core of its capex commitments \u2014 raises execution risk right as pre-IPO scrutiny of spend and governance intensifies.\n\n\u5f71\u54cd:\n\u8d1f\u8d23\u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u8fd9\u5757\u2014\u2014\u4e5f\u5c31\u662f OpenAI capex \u627f\u8bfa\u7684\u6838\u5fc3\u6267\u884c\u90e8\u95e8\u2014\u2014\u51fa\u73b0\u9ad8\u7ba1\u96c6\u4f53\u79bb\u804c\uff0c\u5728 IPO \u524d\u8d44\u672c\u5f00\u652f\u548c\u6cbb\u7406\u672c\u5c31\u53d7\u5230\u4e25\u683c\u5ba1\u89c6\u7684\u8282\u70b9\u4e0a\uff0c\u6267\u884c\u98ce\u9669\u4e0a\u5347\u3002\n",
       "emailed": false
     }
   ],
