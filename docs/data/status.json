@@ -1,6 +1,6 @@
 {
-  "generated_at": 1788422162,
-  "generated_at_str": "2026-09-03 07:56:02 UTC",
+  "generated_at": 1788422523,
+  "generated_at_str": "2026-09-03 08:02:03 UTC",
   "last_event_ts": 1788421629,
   "tables": {
     "alerts_dedup": {
@@ -2357,5 +2357,55 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 29143.33,
+      "date": "2026-09-02",
+      "ath": 30660.6,
+      "ath_date": "2026-06-02",
+      "drawdown": -0.04948598527099912
+    },
+    "spx": null,
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30660.6,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27594.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26061.51,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24528.48,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 10,
+      "label": "dip 1",
+      "level": 27594.54
+    },
+    "needs_stabilisation": false
+  }
 }
