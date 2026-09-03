@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788478325,
-  "generated_at_str": "2026-09-03 23:32:05 UTC",
-  "last_event_ts": 1788477245,
+  "generated_at": 1788478504,
+  "generated_at_str": "2026-09-03 23:35:04 UTC",
+  "last_event_ts": 1788478504,
   "tables": {
     "alerts_dedup": {
-      "count": 3793,
-      "last_ts": 1788476714,
-      "last_str": "2026-09-03 23:05:14 UTC"
+      "count": 3794,
+      "last_ts": 1788478504,
+      "last_str": "2026-09-03 23:35:04 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-03 22:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5450,
-      "last_ts": 1788474902,
-      "last_str": "2026-09-03 22:35:02 UTC"
+      "count": 5453,
+      "last_ts": 1788478502,
+      "last_str": "2026-09-03 23:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6480,
-      "last_ts": 1788476713,
-      "last_str": "2026-09-03 23:05:13 UTC"
+      "count": 6481,
+      "last_ts": 1788478503,
+      "last_str": "2026-09-03 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 3966,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-03 23:05:12 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4888,
-      "last_ts": 1788476714,
-      "last_str": "2026-09-03 23:05:14 UTC"
+      "count": 4889,
+      "last_ts": 1788478504,
+      "last_str": "2026-09-03 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 28775,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3801,
+      "ts": 1788478504,
+      "ts_str": "2026-09-03 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Google recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 22:41:53 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\n\nGoogle recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\" target=\"_blank\">Google recycles DDR4 from dead servers as DRAM shortage bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Google is recycling DDR4 memory pulled from decommissioned servers because a DRAM shortage is constraining supply.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u56e0 DRAM \u77ed\u7f3a\uff0cGoogle \u6b63\u4ece\u62a5\u5e9f\u670d\u52a1\u5668\u4e0a\u56de\u6536 DDR4 \u5185\u5b58\u91cd\u65b0\u5229\u7528\u3002\n\nWhy it matters:\nHyperscalers scavenging old RAM instead of buying new is a direct, low-noise signal of real memory scarcity feeding into AI-infra build-outs \u2014 it corroborates the C6 memory/storage price-stress thesis with an operational (not just pricing) data point.\n\n\u5f71\u54cd:\n\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u62c6\u65e7\u5185\u5b58\u7eed\u547d\u800c\u4e0d\u662f\u76f4\u63a5\u91c7\u8d2d\u65b0\u8d27\uff0c\u662f\u5185\u5b58\u771f\u5b9e\u7d27\u7f3a\u7684\u4e00\u4e2a\u6734\u7d20\u4f46\u76f4\u63a5\u7684\u4fe1\u53f7\uff0c\u4ece\u8fd0\u8425\u5c42\u9762\uff08\u800c\u4e0d\u53ea\u662f\u4ef7\u683c\u5c42\u9762\uff09\u5370\u8bc1\u4e86 C6 \u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3800,
       "ts": 1788476714,
@@ -2298,16 +2308,6 @@
       "severity": "CRITICAL",
       "subject": "[C3-CRITICAL] SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com Nigeria",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 05:26:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUFZbmx6VjJYZ2I3NF9waGRaOEtfN0cxeVZmNXdMellITzZ0aXBlSndzT2dJaGdaRHg2UkdlZ0xBcWc0Q3lFSnlXMXF0NWJDaVNvVDZFNFEtdWJnaUY0RnlCTFJNMWNFbGg5OHJjYkJraGo2WW1KSWRGbVNham8zRWhRZUpKYnlRcmllLWFKWnVwNW93Z3plb3N3NDR3bDQwcURjOF80VFY5UTRHUF9WMFFjZEYwVk5icTNSQW96MC1vaXNCUDQ4cGdR?oc=5\n\nSoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUFZbmx6VjJYZ2I3NF9waGRaOEtfN0cxeVZmNXdMellITzZ0aXBlSndzT2dJaGdaRHg2UkdlZ0xBcWc0Q3lFSnlXMXF0NWJDaVNvVDZFNFEtdWJnaUY0RnlCTFJNMWNFbGg5OHJjYkJraGo2WW1KSWRGbVNham8zRWhRZUpKYnlRcmllLWFKWnVwNW93Z3plb3N3NDR3bDQwcURjOF80VFY5UTRHUF9WMFFjZEYwVk5icTNSQW96MC1vaXNCUDQ4cGdR?oc=5\" target=\"_blank\">SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
-      "emailed": true
-    },
-    {
-      "id": 3601,
-      "ts": 1787723051,
-      "ts_str": "2026-08-26 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing - Bloomberg.com",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 04:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxPWGNBOThiTEdqZHNsZURvWVhrZjM0d2NhZXNEYnRIdzJTbTJ5cW1FM2FPaEJJTWRTWldpMFhpYXFKcjljNWVsdDhwNVJ3Q2YzWkZMT05NOExHejhPRERlcllCRnRqQkxSdV83RHdBWHlLdGhDS05BTW5RU2x0aXY1VHlTZ2RkaFY4eXpxN1IyLV8zTEpYYWloTFNfZ3JqbWlsb3JvYkcxNjZTUGlLakdFQkxPQQ?oc=5\n\nSoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPWGNBOThiTEdqZHNsZURvWVhrZjM0d2NhZXNEYnRIdzJTbTJ5cW1FM2FPaEJJTWRTWldpMFhpYXFKcjljNWVsdDhwNVJ3Q2YzWkZMT05NOExHejhPRERlcllCRnRqQkxSdV83RHdBWHlLdGhDS05BTW5RU2x0aXY1VHlTZ2RkaFY4eXpxN1IyLV8zTEpYYWloTFNfZ3JqbWlsb3JvYkcxNjZTUGlLakdFQkxPQQ?oc=5\" target=\"_blank\">SoftBank Mulls Up to $20 Billion Bond Sale for OpenAI Financing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
       "emailed": true
     }
   ],
