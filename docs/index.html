@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-09-04 22:26:20 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-09-04 22:29:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="3822" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.42% (+51bp off 90d-low)</span>
+    <span class="meta">2026-09-04 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-03
+Current:  2.42%
+90d low:  1.91%
+Move:     +51bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield jumped to 2.42% on 2026-09-03, up 0.51pp from its trailing-90-day low of 1.91%, crossing C10&#39;s spike trigger.
+
+内容:
+10 年期真实（TIPS）收益率在 2026-09-03 升至 2.42%，比过去 90 天低点 1.91% 高出 0.51 个百分点，触发了 C10 的跳升阈值。
+
+Why it matters:
+Rising real yields raise the discount rate applied to long-duration AI-capex cash flows and tighten broader financial conditions, directly pressuring the valuations most exposed to the AI-infrastructure narrative.
+
+影响:
+真实收益率上升会抬高长久期 AI capex 现金流的折现率，也收紧整体金融环境，直接打压最依赖 AI 基建叙事的那批估值。
+</pre>
+  <button class="mark-read" type="button" data-id="3822">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="3821" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -6470,52 +6499,20 @@ Rising memory prices signal tightening supply feeding AI infrastructure buildout
   <button class="mark-read" type="button" data-id="3622">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="3623" data-catalyst="C6" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C6</code>
-    <span class="subj">[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp</span>
-    <span class="meta">2026-08-26 11:35 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Wed, 26 Aug 2026 09:21:36 GMT
-Link:      https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFVMUUpTQWlFVThhcGtsSjNUaHhDcHZQZU1jbUVUcWhoOWZ1ZEZxWkhrczdPdncyODROWFh1T2pKVnZZTUQ1WEhZMklSWG9acXhlYzlramQ5MnkteUMwMnpER253U243d1paeTF2aWhZSGsyWF9xRjlaYWZodEdmSjZpeFkzMWUwMmVRZThKV0N5NEJ4SjEyMGJrWjlNOV9yNHltdTlPWG5aSldSb1pNeXhjOU0zVGVIUEHSAb8BQVVfeXFMTm0tRXZBdmJDa1N5bE0wNXpIenp2UDFOSnZZTGV5cG9HakNQbmR2Z0xxT2ZyZ2ZfVFNpdmtGNnBrcWhTa1JBZER4WTdXMWxJSS1LdUF4eHJBVms0Y191WFI2U3VyNzdPUXlzblllX3NVN1YwU3VBdWJPNGNfMFUyeFBJZXBFNzdMZE1UUm0yMmQ1X1FtTE85ZXJ5N0MyYlAxc3FRamFCQUNmdFc5d2hHS3EycGxITzVBLWlkenZfNVE?oc=5
-
-Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiugFBVV95cUxPOFVMUUpTQWlFVThhcGtsSjNUaHhDcHZQZU1jbUVUcWhoOWZ1ZEZxWkhrczdPdncyODROWFh1T2pKVnZZTUQ1WEhZMklSWG9acXhlYzlramQ5MnkteUMwMnpER253U243d1paeTF2aWhZSGsyWF9xRjlaYWZodEdmSjZpeFkzMWUwMmVRZThKV0N5NEJ4SjEyMGJrWjlNOV9yNHltdTlPWG5aSldSb1pNeXhjOU0zVGVIUEHSAb8BQVVfeXFMTm0tRXZBdmJDa1N5bE0wNXpIenp2UDFOSnZZTGV5cG9HakNQbmR2Z0xxT2ZyZ2ZfVFNpdmtGNnBrcWhTa1JBZER4WTdXMWxJSS1LdUF4eHJBVms0Y191WFI2U3VyNzdPUXlzblllX3NVN1YwU3VBdWJPNGNfMFUyeFBJZXBFNzdMZE1UUm0yMmQ1X1FtTE85ZXJ5N0MyYlAxc3FRamFCQUNmdFc5d2hHS3EycGxITzVBLWlkenZfNVE?oc=5&#34; target=&#34;_blank&#34;&gt;Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;TechPowerUp&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers&#39; capex by 2027.
-
-内容:
-一则新闻称内存价格飙升，预计到 2027 年 DRAM 和 NAND 闪存将占主要云服务商（CSP）资本开支的 68%。
-
-Why it matters:
-Rising memory prices signal tightening supply feeding AI infrastructure buildout — the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.
-
-影响:
-内存价格上涨说明供给正在收紧，这和能缓解 capex 压力的供过于求、降价局面正好相反。预测 DRAM/NAND 单项就吃掉 CSP 68% 的资本开支，说明内存正变成 AI 基建的瓶颈和成本大头，从供给端佐证泡沫压力的逻辑。
-</pre>
-  <button class="mark-read" type="button" data-id="3623">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>3814</td>
-<td>2026-09-04 21:05:15 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>3815</td>
+<td>2026-09-04 22:29:13 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>52</td>
-<td>2026-09-03 22:29:01 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>53</td>
+<td>2026-09-04 22:29:02 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
