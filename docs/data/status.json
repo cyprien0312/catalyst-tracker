@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788552122,
-  "generated_at_str": "2026-09-04 20:02:02 UTC",
-  "last_event_ts": 1788551223,
+  "generated_at": 1788552318,
+  "generated_at_str": "2026-09-04 20:05:18 UTC",
+  "last_event_ts": 1788552317,
   "tables": {
     "alerts_dedup": {
-      "count": 3812,
-      "last_ts": 1788549256,
-      "last_str": "2026-09-04 19:14:16 UTC"
+      "count": 3813,
+      "last_ts": 1788552317,
+      "last_str": "2026-09-04 20:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-09-04 19:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5489,
-      "last_ts": 1788550502,
-      "last_str": "2026-09-04 19:35:02 UTC"
+      "count": 5490,
+      "last_ts": 1788552302,
+      "last_str": "2026-09-04 20:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6536,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3820,
+      "ts": 1788552317,
+      "ts_str": "2026-09-04 20:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Sandisk Stock Rides DRAM Shortage And Retail-Fueled Swings - timothysykes.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 19:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFdTVDQ3ZmlUUXloVktSejA0YTdMbzZFa1VmR0tMQkFYNWxqOUt2SHhrQ25rVGQ0UWRERDh2Z2xRWmUxR1ZwUklOUFFWeko3WnRRWnh2dEFyS256TFpFdEFTM3JPbl9HeE1rMlMzTnVMZkZGeEwxRTNDekNtLTVlYw?oc=5\n\nSandisk Stock Rides DRAM Shortage And Retail-Fueled Swings - timothysykes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFdTVDQ3ZmlUUXloVktSejA0YTdMbzZFa1VmR0tMQkFYNWxqOUt2SHhrQ25rVGQ0UWRERDh2Z2xRWmUxR1ZwUklOUFFWeko3WnRRWnh2dEFyS256TFpFdEFTM3JPbl9HeE1rMlMzTnVMZkZGeEwxRTNDekNtLTVlYw?oc=5\" target=\"_blank\">Sandisk Stock Rides DRAM Shortage And Retail-Fueled Swings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timothysykes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports Sandisk stock swinging on a DRAM shortage narrative, with retail trading amplifying the move.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u79f0 Sandisk \u80a1\u4ef7\u56e0 DRAM \u77ed\u7f3a\u53d9\u4e8b\u800c\u5267\u70c8\u6ce2\u52a8\uff0c\u6563\u6237\u4ea4\u6613\u653e\u5927\u4e86\u8fd9\u4e00\u8d70\u52bf\u3002\n\nWhy it matters:\nShortage framing is the inverse of the C6 bear case (oversupply/price collapse) \u2014 it signals tight memory supply, which supports pricing power for DRAM/NAND makers rather than the capex-glut thesis. Worth tracking as a leading indicator for memory-price direction feeding AI hardware cost inputs.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u53d9\u4e8b\u548c C6 \u5173\u6ce8\u7684\u7a7a\u5934\u903b\u8f91\uff08\u4f9b\u8fc7\u4e8e\u6c42\u3001\u4ef7\u683c\u5d29\u8dcc\uff09\u65b9\u5411\u76f8\u53cd\u2014\u2014\u5b83\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u504f\u7d27\uff0c\u5bf9 DRAM/NAND \u5382\u5546\u662f\u63d0\u4ef7\u5229\u597d\uff0c\u800c\u4e0d\u662f\u4ea7\u80fd\u8fc7\u5269\u7684\u4fe1\u53f7\u3002\u8fd9\u6761\u53ef\u4ee5\u4f5c\u4e3a\u5185\u5b58\u4ef7\u683c\u8d70\u5411\u7684\u9886\u5148\u6307\u6807\uff0c\u95f4\u63a5\u5f71\u54cd AI \u786c\u4ef6\u7684\u6210\u672c\u8f93\u5165\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3819,
       "ts": 1788549256,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 09:21:36 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers' capex by 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u9884\u8ba1\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\uff08CSP\uff09\u8d44\u672c\u5f00\u652f\u7684 68%\u3002\n\nWhy it matters:\nRising memory prices signal tightening supply feeding AI infrastructure buildout \u2014 the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8fd9\u548c\u80fd\u7f13\u89e3 capex \u538b\u529b\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3001\u964d\u4ef7\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\u9884\u6d4b DRAM/NAND \u5355\u9879\u5c31\u5403\u6389 CSP 68% \u7684\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u6b63\u53d8\u6210 AI \u57fa\u5efa\u7684\u74f6\u9888\u548c\u6210\u672c\u5927\u5934\uff0c\u4ece\u4f9b\u7ed9\u7aef\u4f50\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3620,
-      "ts": 1787742315,
-      "ts_str": "2026-08-26 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 09:21:36 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers' capex by 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u9884\u8ba1\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\uff08CSP\uff09\u8d44\u672c\u5f00\u652f\u7684 68%\u3002\n\nWhy it matters:\nRising memory prices signal tightening supply feeding AI infrastructure buildout \u2014 the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8fd9\u548c\u80fd\u7f13\u89e3 capex \u538b\u529b\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3001\u964d\u4ef7\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\u9884\u6d4b DRAM/NAND \u5355\u9879\u5c31\u5403\u6389 CSP 68% \u7684\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u6b63\u53d8\u6210 AI \u57fa\u5efa\u7684\u74f6\u9888\u548c\u6210\u672c\u5927\u5934\uff0c\u4ece\u4f9b\u7ed9\u7aef\u4f50\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
       "emailed": false
     }
   ],
