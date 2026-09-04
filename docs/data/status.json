@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788549065,
-  "generated_at_str": "2026-09-04 19:11:05 UTC",
-  "last_event_ts": 1788548705,
+  "generated_at": 1788549257,
+  "generated_at_str": "2026-09-04 19:14:17 UTC",
+  "last_event_ts": 1788549256,
   "tables": {
     "alerts_dedup": {
-      "count": 3811,
-      "last_ts": 1788544036,
-      "last_str": "2026-09-04 17:47:16 UTC"
+      "count": 3812,
+      "last_ts": 1788549256,
+      "last_str": "2026-09-04 19:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-03 23:00:40 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5083,
-      "last_ts": 1788547445,
-      "last_str": "2026-09-04 18:44:05 UTC"
+      "count": 5084,
+      "last_ts": 1788549244,
+      "last_str": "2026-09-04 19:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1158,
-      "last_ts": 1788542045,
-      "last_str": "2026-09-04 17:14:05 UTC"
+      "count": 1159,
+      "last_ts": 1788549245,
+      "last_str": "2026-09-04 19:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5488,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-04 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29000,
-      "last_ts": 1788547443,
-      "last_str": "2026-09-04 18:44:03 UTC"
+      "count": 29009,
+      "last_ts": 1788549243,
+      "last_str": "2026-09-04 19:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8746,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3819,
+      "ts": 1788549256,
+      "ts_str": "2026-09-04 19:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI going public IPO remains mission-first - StartupHub.ai",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 13:24:46 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQUHpsa0JDUTdVWXQ5dWgtNlNHUVhyMmRXalJNVzdIN19WejAzY3lNcDQwUHRCRU9vazVIaXJzcFFrd3pZQ21CcTlvYlNPZ3lOcFpjSmFsNzA0UklzZ2NDc1I4SFdmOXNtRWhzTW85V2JQWEpTUFEwdFlIWFpxaGE1cmlPV2NxVnIxLTBHTlg4blVmZFQ0ZnA5TkVFcFZpWTlK?oc=5\n\nOpenAI going public IPO remains mission-first - StartupHub.ai\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQUHpsa0JDUTdVWXQ5dWgtNlNHUVhyMmRXalJNVzdIN19WejAzY3lNcDQwUHRCRU9vazVIaXJzcFFrd3pZQ21CcTlvYlNPZ3lOcFpjSmFsNzA0UklzZ2NDc1I4SFdmOXNtRWhzTW85V2JQWEpTUFEwdFlIWFpxaGE1cmlPV2NxVnIxLTBHTlg4blVmZFQ0ZnA5TkVFcFZpWTlK?oc=5\" target=\"_blank\">OpenAI going public IPO remains mission-first</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StartupHub.ai</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI-related news repeated the phrase 'going public IPO remains mission-first' twice in the RSS entry, a proximity-classifier MED hit with no ticker or specific numbers attached.\n\n\u5185\u5bb9:\n\u4e00\u6761 OpenAI \u76f8\u5173\u65b0\u95fb\u91cc\u91cd\u590d\u51fa\u73b0\u4e86\u4e24\u904d\u300c\u4e0a\u5e02 IPO \u4ecd\u4ee5\u4f7f\u547d\u4e3a\u5148\u300d\u7684\u63aa\u8f9e\uff0c\u8fd9\u662f proximity classifier \u6253\u51fa\u7684 MED \u7ea7\u547d\u4e2d\uff0c\u6ca1\u6709 ticker \u4e5f\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nThis is generic IPO-speculation chatter, not a disclosed financial metric \u2014 the C3 burn-rate HIGH trigger requires an extracted >25% QoQ number, which is absent here, so the signal carries little weight on its own.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u6cdb\u6cdb\u7684 IPO \u731c\u6d4b\u578b\u65b0\u95fb\uff0c\u4e0d\u662f\u62ab\u9732\u7684\u8d22\u52a1\u6307\u6807\u2014\u2014C3 \u7684 HIGH \u89e6\u53d1\u9700\u8981\u6293\u5230\u70e7\u94b1\u7387\u73af\u6bd4\u6da8\u8d85 25% \u7684\u5177\u4f53\u6570\u5b57\uff0c\u8fd9\u91cc\u6ca1\u6709\uff0c\u6240\u4ee5\u5355\u72ec\u770b\u8fd9\u6761\u4fe1\u53f7\u6743\u91cd\u4e0d\u5927\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3818,
       "ts": 1788544036,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 09:21:36 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027 - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UdIBvwFBVV95cUxObS1FdkF2YkNrU3lsTTA1ekh6enZQMU5KdllMZXlwb0dqQ1BuZHZnTHFPZnJnZl9UU2l2a0Y2cGtxaFNrUkFkRHhZN1cxbElJLUt1QXh4ckFWazRjX3VYUjZTdXI3N09ReXNuWWVfc1U3VjBTdUF1Yk80Y18wVTJ4UEllcEU3N0xkTVRSbTIyZDVfUW1MTzllcnk3QzJiUDFzcVFqYUJBQ2Z0Vzl3aEdLcTJwbEhPNUEtaWR6dl81UQ?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory prices surging, with DRAM and NAND flash projected to reach 68% of major cloud service providers' capex by 2027.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u9884\u8ba1\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\uff08CSP\uff09\u8d44\u672c\u5f00\u652f\u7684 68%\u3002\n\nWhy it matters:\nRising memory prices signal tightening supply feeding AI infrastructure buildout \u2014 the opposite of the oversupply/price-cut scenario that would ease capex pressure. A forecast that DRAM/NAND alone eats 68% of CSP capex flags memory as a growing bottleneck and cost driver for the AI buildout, reinforcing the bubble-stress thesis from the supply side.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u8bf4\u660e\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8fd9\u548c\u80fd\u7f13\u89e3 capex \u538b\u529b\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3001\u964d\u4ef7\u5c40\u9762\u6b63\u597d\u76f8\u53cd\u3002\u9884\u6d4b DRAM/NAND \u5355\u9879\u5c31\u5403\u6389 CSP 68% \u7684\u8d44\u672c\u5f00\u652f\uff0c\u8bf4\u660e\u5185\u5b58\u6b63\u53d8\u6210 AI \u57fa\u5efa\u7684\u74f6\u9888\u548c\u6210\u672c\u5927\u5934\uff0c\u4ece\u4f9b\u7ed9\u7aef\u4f50\u8bc1\u6ce1\u6cab\u538b\u529b\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3619,
-      "ts": 1787738705,
-      "ts_str": "2026-08-26 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027, Says TrendForce - TrendForce",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 11:05:11 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE1SRVlJV3pmcjVfNUtpM3R2alVnTUp5UjFnT3RyOGlQWGV0c0J5N3ZqZm8yZWhBeDFyODZWZERGTFVnVkFNY0xwaHlMWWU2dTI1YjlQZWMyM0ZYd1VKQ19Bd1pXTGg4RWUtWXllbUhvM3g?oc=5\n\nMemory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027, Says TrendForce - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1SRVlJV3pmcjVfNUtpM3R2alVnTUp5UjFnT3RyOGlQWGV0c0J5N3ZqZm8yZWhBeDFyODZWZERGTFVnVkFNY0xwaHlMWWU2dTI1YjlQZWMyM0ZYd1VKQ19Bd1pXTGg4RWUtWXllbUhvM3g?oc=5\" target=\"_blank\">Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027, Says TrendForce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce projects DRAM and NAND flash will account for 68% of major CSPs' 2027 capex as memory prices surge.\n\n\u5185\u5bb9:\nTrendForce \u9884\u6d4b\uff0c\u5230 2027 \u5e74 DRAM \u548c NAND \u95ea\u5b58\u5c06\u5360\u4e3b\u8981\u4e91\u670d\u52a1\u5546\u8d44\u672c\u5f00\u652f\u7684 68%\uff0c\u5185\u5b58\u4ef7\u683c\u6b63\u5728\u98d9\u5347\u3002\n\nWhy it matters:\nMemory is becoming the binding constraint on AI infrastructure spend rather than an incidental line item \u2014 when two-thirds of cloud capex goes to DRAM/NAND, chip supply (not GPU allocation) starts gating how fast AI buildout can scale, and it raises the breakeven bar for every AI workload riding on that hardware.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6b63\u5728\u4ece\u8d44\u672c\u5f00\u652f\u91cc\u7684\u6b21\u8981\u9879\u53d8\u6210\u786c\u7ea6\u675f\u2014\u2014\u5f53\u4e09\u5206\u4e4b\u4e8c\u7684\u4e91\u7aef capex \u90fd\u7838\u8fdb DRAM/NAND\uff0c\u80fd\u4e0d\u80fd\u6269\u5927 AI \u90e8\u7f72\u89c4\u6a21\u5c31\u8981\u770b\u82af\u7247\u4f9b\u7ed9\u800c\u4e0d\u662f GPU \u5206\u914d\uff0c\u8fd9\u4e5f\u628a\u6240\u6709\u8dd1\u5728\u8fd9\u4e9b\u786c\u4ef6\u4e0a\u7684 AI \u5e94\u7528\u7684\u76c8\u4e8f\u5e73\u8861\u7ebf\u62ac\u9ad8\u4e86\u3002\n",
       "emailed": false
     }
   ],
