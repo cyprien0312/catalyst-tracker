@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788490925,
-  "generated_at_str": "2026-09-04 03:02:05 UTC",
-  "last_event_ts": 1788490023,
+  "generated_at": 1788491115,
+  "generated_at_str": "2026-09-04 03:05:15 UTC",
+  "last_event_ts": 1788491114,
   "tables": {
     "alerts_dedup": {
-      "count": 3794,
-      "last_ts": 1788478504,
-      "last_str": "2026-09-03 23:35:04 UTC"
+      "count": 3795,
+      "last_ts": 1788491114,
+      "last_str": "2026-09-04 03:05:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-04 02:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5455,
-      "last_ts": 1788487502,
-      "last_str": "2026-09-04 02:05:02 UTC"
+      "count": 5457,
+      "last_ts": 1788491102,
+      "last_str": "2026-09-04 03:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6486,
-      "last_ts": 1788489303,
-      "last_str": "2026-09-04 02:35:03 UTC"
+      "count": 6487,
+      "last_ts": 1788491104,
+      "last_str": "2026-09-04 03:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3968,
-      "last_ts": 1788487503,
-      "last_str": "2026-09-04 02:05:03 UTC"
+      "count": 3969,
+      "last_ts": 1788491103,
+      "last_str": "2026-09-04 03:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4892,
-      "last_ts": 1788489304,
-      "last_str": "2026-09-04 02:35:04 UTC"
+      "count": 4894,
+      "last_ts": 1788491105,
+      "last_str": "2026-09-04 03:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 28798,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3802,
+      "ts": 1788491114,
+      "ts_str": "2026-09-04 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Holds 28% NAND Market Share as Micron Climbs to Third Amid Price Surge - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 01:37:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tck1mZWNXZGdXQjIzSVNKLVNhWUsySkpzekNocGdaa3drQm9XVEd0Y3RFTmNzR3RUMDBfWm9OMHBjeFZIbFZOcGJLZVd1blNVNi1nNVJfcVBJT2Mtb2FtWEhhVQ?oc=5\n\nSamsung Holds 28% NAND Market Share as Micron Climbs to Third Amid Price Surge - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tck1mZWNXZGdXQjIzSVNKLVNhWUsySkpzekNocGdaa3drQm9XVEd0Y3RFTmNzR3RUMDBfWm9OMHBjeFZIbFZOcGJLZVd1blNVNi1nNVJfcVBJT2Mtb2FtWEhhVQ?oc=5\" target=\"_blank\">Samsung Holds 28% NAND Market Share as Micron Climbs to Third Amid Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News groups Samsung's 28% NAND market share with Micron overtaking SK Hynix for third place, framed around a broader NAND price surge.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053 Samsung \u4ee5 28% \u4efd\u989d\u9886\u8dd1 NAND \u5e02\u573a\uff0cMicron \u8d85\u8fc7 SK Hynix \u5347\u81f3\u7b2c\u4e09\uff0c\u80cc\u666f\u662f NAND \u4ef7\u683c\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising NAND prices and reshuffled market share reflect tightening memory supply feeding the AI-server buildout \u2014 consistent with the memory-shortage leg of the AI-capex thesis, though this specific item is a market-share ranking story, not a direct order/capacity signal.\n\n\u5f71\u54cd:\nNAND \u6da8\u4ef7\u52a0\u4e0a\u5e02\u573a\u4efd\u989d\u91cd\u65b0\u6d17\u724c\uff0c\u53cd\u6620\u5185\u5b58\u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\uff0c\u8ddf AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u5185\u5b58\u77ed\u7f3a\u903b\u8f91\u543b\u5408\uff1b\u4f46\u8fd9\u6761\u672c\u8d28\u662f\u5e02\u573a\u4efd\u989d\u6392\u540d\u65b0\u95fb\uff0c\u4e0d\u662f\u76f4\u63a5\u7684\u8ba2\u5355\u6216\u4ea7\u80fd\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3801,
       "ts": 1788478504,
@@ -2298,16 +2308,6 @@
       "severity": "CRITICAL",
       "subject": "[C3-CRITICAL] SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 05:29:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxQN0VJRDk5aUtGbDZ2NFJtaFNjNjl0dzVmT1d1VmlwQ05YTHphZ25EWTNWUmN3UkM1RUs0eDhIOGo3R3ZhVFROclRzWERFX19CNEFpemhWRHNES3ZVXzIzbzVpOVJScFF1VHhTMVdwOTFoVUNkcnJKNTZaV3VtT0ZaUDhMRVFJSS1xeU1SS08zYzk4UXB4ZklfOUNjQzQ5dnBFM3RubWExdDJBU3JIVExIV0FjcTVUek5wcWpETlY1di0ydmcyNEw1SWdDUQ?oc=5\n\nSoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQN0VJRDk5aUtGbDZ2NFJtaFNjNjl0dzVmT1d1VmlwQ05YTHphZ25EWTNWUmN3UkM1RUs0eDhIOGo3R3ZhVFROclRzWERFX19CNEFpemhWRHNES3ZVXzIzbzVpOVJScFF1VHhTMVdwOTFoVUNkcnJKNTZaV3VtT0ZaUDhMRVFJSS1xeU1SS08zYzk4UXB4ZklfOUNjQzQ5dnBFM3RubWExdDJBU3JIVExIV0FjcTVUek5wcWpETlY1di0ydmcyNEw1SWdDUQ?oc=5\" target=\"_blank\">SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is considering a bond sale of up to $20B to refinance a loan it made to OpenAI.\n\n\u5185\u5bb9:\nSoftBank \u6b63\u8003\u8651\u53d1\u884c\u6700\u9ad8 $20B \u7684\u503a\u5238\uff0c\u7528\u4e8e\u7ed9\u6b64\u524d\u501f\u7ed9 OpenAI \u7684\u8d37\u6b3e\u518d\u878d\u8d44\u3002\n\nWhy it matters:\nSoftBank funding an OpenAI-linked loan via new debt rather than cash shows OpenAI's compute buildout is being financed through layered, indirect leverage \u2014 a credit-market stress point that compounds if OpenAI's burn rate keeps climbing.\n\n\u5f71\u54cd:\nSoftBank \u8981\u9760\u65b0\u53d1\u503a\u6765\u7ed9\u4e00\u7b14 OpenAI \u76f8\u5173\u8d37\u6b3e\u7eed\u547d\uff0c\u8bf4\u660e OpenAI \u7684\u7b97\u529b\u6269\u5f20\u80cc\u540e\u538b\u7740\u4e00\u5c42\u5c42\u95f4\u63a5\u6760\u6746\u3002\u8fd9\u662f\u4fe1\u7528\u5e02\u573a\u7684\u4e00\u4e2a\u538b\u529b\u70b9\uff0c\u4e00\u65e6 OpenAI \u70e7\u94b1\u901f\u5ea6\u7ee7\u7eed\u4e0a\u5347\uff0c\u98ce\u9669\u4f1a\u8ddf\u7740\u53e0\u52a0\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 3602,
-      "ts": 1787723052,
-      "ts_str": "2026-08-26 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com Nigeria",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 05:26:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUFZbmx6VjJYZ2I3NF9waGRaOEtfN0cxeVZmNXdMellITzZ0aXBlSndzT2dJaGdaRHg2UkdlZ0xBcWc0Q3lFSnlXMXF0NWJDaVNvVDZFNFEtdWJnaUY0RnlCTFJNMWNFbGg5OHJjYkJraGo2WW1KSWRGbVNham8zRWhRZUpKYnlRcmllLWFKWnVwNW93Z3plb3N3NDR3bDQwcURjOF80VFY5UTRHUF9WMFFjZEYwVk5icTNSQW96MC1vaXNCUDQ4cGdR?oc=5\n\nSoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUFZbmx6VjJYZ2I3NF9waGRaOEtfN0cxeVZmNXdMellITzZ0aXBlSndzT2dJaGdaRHg2UkdlZ0xBcWc0Q3lFSnlXMXF0NWJDaVNvVDZFNFEtdWJnaUY0RnlCTFJNMWNFbGg5OHJjYkJraGo2WW1KSWRGbVNham8zRWhRZUpKYnlRcmllLWFKWnVwNW93Z3plb3N3NDR3bDQwcURjOF80VFY5UTRHUF9WMFFjZEYwVk5icTNSQW96MC1vaXNCUDQ4cGdR?oc=5\" target=\"_blank\">SoftBank weighs up to $20 bln bond sale to refinance OpenAI loan - Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
       "emailed": true
     }
   ],
