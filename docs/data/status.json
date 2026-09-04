@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788514328,
-  "generated_at_str": "2026-09-04 09:32:08 UTC",
-  "last_event_ts": 1788513245,
+  "generated_at": 1788514507,
+  "generated_at_str": "2026-09-04 09:35:07 UTC",
+  "last_event_ts": 1788514506,
   "tables": {
     "alerts_dedup": {
-      "count": 3801,
-      "last_ts": 1788505519,
-      "last_str": "2026-09-04 07:05:19 UTC"
+      "count": 3802,
+      "last_ts": 1788514506,
+      "last_str": "2026-09-04 09:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-04 02:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5467,
-      "last_ts": 1788512702,
-      "last_str": "2026-09-04 09:05:02 UTC"
+      "count": 5468,
+      "last_ts": 1788514502,
+      "last_str": "2026-09-04 09:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6501,
-      "last_ts": 1788512704,
-      "last_str": "2026-09-04 09:05:04 UTC"
+      "count": 6503,
+      "last_ts": 1788514505,
+      "last_str": "2026-09-04 09:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 3980,
-      "last_ts": 1788512703,
-      "last_str": "2026-09-04 09:05:03 UTC"
+      "count": 3981,
+      "last_ts": 1788514504,
+      "last_str": "2026-09-04 09:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4905,
-      "last_ts": 1788512705,
-      "last_str": "2026-09-04 09:05:05 UTC"
+      "count": 4907,
+      "last_ts": 1788514506,
+      "last_str": "2026-09-04 09:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 28851,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3809,
+      "ts": 1788514506,
+      "ts_str": "2026-09-04 09:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] The latest memory price tracking shows that the Q3 storage price hike logic continues: PC DRAM price expectations are ra",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 03:57:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE82N2hoeFV0UTd5OUNMRlZGc1cyM2xCOE44RnRjTGF1MlplMDBtSkNwb25OOGt1OWkxZHVnck84NUQ0N0dPREZ3MmFDZ3hXZzN3R0c4?oc=5\n\nThe latest memory price tracking shows that the Q3 storage price hike logic continues: PC DRAM price expectations are ra\u2026 - Longbridge\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE82N2hoeFV0UTd5OUNMRlZGc1cyM2xCOE44RnRjTGF1MlplMDBtSkNwb25OOGt1OWkxZHVnck84NUQ0N0dPREZ3MmFDZ3hXZzN3R0c4?oc=5\" target=\"_blank\">The latest memory price tracking shows that the Q3 storage price hike logic continues: PC DRAM price expectations are ra\u2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Longbridge</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA memory-price tracking report says the Q3 storage price-hike trend continues, with PC DRAM price expectations being raised.\n\n\u5185\u5bb9:\n\u4e00\u4efd\u5185\u5b58\u4ef7\u683c\u8ffd\u8e2a\u62a5\u544a\u79f0\uff0cQ3 \u5b58\u50a8\u6da8\u4ef7\u903b\u8f91\u4ecd\u5728\u5ef6\u7eed\uff0cPC DRAM \u4ef7\u683c\u9884\u671f\u88ab\u4e0a\u8c03\u3002\n\nWhy it matters:\nRising DRAM/NAND prices signal tight memory supply feeding into AI accelerator BOM costs \u2014 a persistent price hike raises hyperscaler capex-per-unit and can squeeze margins on AI infrastructure buildouts, though a single vague tracking note without hard numbers is weak evidence on its own.\n\n\u5f71\u54cd:\nDRAM/NAND \u6da8\u4ef7\u610f\u5473\u7740\u5185\u5b58\u4f9b\u7ed9\u8d8b\u7d27\uff0c\u4f1a\u63a8\u9ad8 AI \u52a0\u901f\u5668\u7684\u7269\u6599\u6210\u672c\uff0c\u6301\u7eed\u6da8\u4ef7\u4f1a\u62ac\u5347\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5355\u4f4d capex \u5e76\u6324\u538b\u5229\u6da6\u7a7a\u95f4\uff1b\u4e0d\u8fc7\u8fd9\u6761\u53ea\u662f\u7b3c\u7edf\u7684\u8ffd\u8e2a\u8bc4\u8bba\uff0c\u6ca1\u6709\u5177\u4f53\u6570\u5b57\uff0c\u8bc1\u636e\u529b\u504f\u5f31\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3807,
       "ts": 1788505519,
@@ -2299,16 +2309,6 @@
       "subject": "[C3-CRITICAL] SoftBank In Talks With Banks Over US$20 Billion Bond Sale For OpenAI - BusinessToday Malaysia",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 06:13:59 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3dXdm5mNzZjMzRIQjdQd2VPQlNCZzdYUlVKeXp2UmtYYkp1aWQxTGc4ODF1Q2FWb3k5bUxMU1VSOG84N2Z0Vzc5b0ZrcG5odU5HaUNnYjRPNmRkeVBBTm1veko2M0Y2OFByU0ZBcmhrZFJ6aHBpanZpTkxJQVNLXzlKTTBUTkF0d0hwRlBTcUgxaUg4UG1ZcEpUTkhoY1lnNnNpak53ZGVRYThyeDVKVllB?oc=5\n\nSoftBank In Talks With Banks Over US$20 Billion Bond Sale For OpenAI - BusinessToday Malaysia\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3dXdm5mNzZjMzRIQjdQd2VPQlNCZzdYUlVKeXp2UmtYYkp1aWQxTGc4ODF1Q2FWb3k5bUxMU1VSOG84N2Z0Vzc5b0ZrcG5odU5HaUNnYjRPNmRkeVBBTm1veko2M0Y2OFByU0ZBcmhrZFJ6aHBpanZpTkxJQVNLXzlKTTBUTkF0d0hwRlBTcUgxaUg4UG1ZcEpUTkhoY1lnNnNpak53ZGVRYThyeDVKVllB?oc=5\" target=\"_blank\">SoftBank In Talks With Banks Over US$20 Billion Bond Sale For OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BusinessToday Malaysia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly in talks with banks to arrange a $20 billion bond sale earmarked for OpenAI.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u8f6f\u94f6\u6b63\u4e0e\u591a\u5bb6\u94f6\u884c\u5546\u8c08\uff0c\u4e3a OpenAI \u5b89\u6392\u4e00\u7b14 200 \u4ebf\u7f8e\u5143\u7684\u503a\u5238\u53d1\u884c\u3002\n\nWhy it matters:\nDebt financing at this scale for a single AI lab signals OpenAI's capital needs have outgrown equity funding rounds, and shifts risk onto credit markets rather than venture investors \u2014 a leverage build-up that raises the stakes if OpenAI's revenue trajectory disappoints.\n\n\u5f71\u54cd:\n\u5355\u4e00 AI \u5b9e\u9a8c\u5ba4\u8981\u9760\u8fd9\u4e2a\u89c4\u6a21\u7684\u503a\u52a1\u878d\u8d44\uff0c\u8bf4\u660e OpenAI \u7684\u8d44\u91d1\u9700\u6c42\u5df2\u7ecf\u8d85\u51fa\u80a1\u6743\u878d\u8d44\u8f6e\u80fd\u8986\u76d6\u7684\u8303\u56f4\uff0c\u98ce\u9669\u4e5f\u4ece\u98ce\u6295\u8f6c\u79fb\u5230\u4e86\u4fe1\u8d37\u5e02\u573a\u2014\u2014\u4e00\u65e6 OpenAI \u7684\u8425\u6536\u589e\u957f\u4e0d\u53ca\u9884\u671f\uff0c\u8fd9\u79cd\u6760\u6746\u5806\u79ef\u4f1a\u653e\u5927\u51b2\u51fb\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 3609,
-      "ts": 1787730438,
-      "ts_str": "2026-08-26 07:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] DXYZ, VCX, NASA Stocks Rocket As FTSE Clears Fast Lane For SpaceX IPO \u2014 Retail Shrugs Off Destiny Tech100\u2019s $1B Share Sa",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 00:33:05 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWU5za3JWbVRCME8wQVNoZ1VzWmExY1pwajJoTmd0Z0tsNFdiS0hRbUNVS25JbWczNV9SdUVRRm1YNHdZZHQyLUpZOGNUbC1lLTFBZUpWYVJ0YTNHN0lhb1ZPc2toaFN6eEd5cE40RFRhSUNHY2Q1NW95T2liSWFqcWRQOGRNUXZnb1VsQmVoUXUybjFtMGpHV2ppWmdHbVBZbnVMQVgzWFV3NkpZVHBxcmN6SjhmM0VKUFhKd0p5d3NNUi1PX3lXRg?oc=5\n\nDXYZ, VCX, NASA Stocks Rocket As FTSE Clears Fast Lane For SpaceX IPO \u2014 Retail Shrugs Off Destiny Tech100\u2019s $1B Share Sale - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWU5za3JWbVRCME8wQVNoZ1VzWmExY1pwajJoTmd0Z0tsNFdiS0hRbUNVS25JbWczNV9SdUVRRm1YNHdZZHQyLUpZOGNUbC1lLTFBZUpWYVJ0YTNHN0lhb1ZPc2toaFN6eEd5cE40RFRhSUNHY2Q1NW95T2liSWFqcWRQOGRNUXZnb1VsQmVoUXUybjFtMGpHV2ppWmdHbVBZbnVMQVgzWFV3NkpZVHBxcmN6SjhmM0VKUFhKd0p5d3NNUi1PX3lXRg?oc=5\" target=\"_blank\">DXYZ, VCX, NASA Stocks Rocket As FTSE Clears Fast Lane For SpaceX IPO \u2014 Retail Shrugs Off Destiny Tech100\u2019s $1B Share Sale</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say FTSE cleared a listing pathway tied to a SpaceX IPO, sending DXYZ, VCX, and NASA-linked shares up, while Destiny Tech100 sold $1B of shares with little market reaction.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 FTSE \u4e3a SpaceX IPO \u6e05\u51fa\u4e86\u4e0a\u5e02\u901a\u9053\uff0c\u5e26\u52a8 DXYZ\u3001VCX \u548c NASA \u76f8\u5173\u80a1\u7968\u4e0a\u6da8\uff0c\u540c\u65f6 Destiny Tech100 \u5356\u51fa $1B \u80a1\u7968\u4f46\u5e02\u573a\u53cd\u5e94\u5e73\u6de1\u3002\n\nWhy it matters:\nRetail enthusiasm absorbing a $1B share sale without a price hit signals strong demand ahead of the SpaceX listing \u2014 the kind of frothy positioning that makes the eventual lock-up unlock a bigger passive-flow event once index inclusion and float actually hit the market.\n\n\u5f71\u54cd:\n\u6563\u6237\u80fd\u4e0d\u52a8\u58f0\u8272\u5730\u5438\u6536 $1B \u7684\u80a1\u7968\u629b\u552e\uff0c\u8bf4\u660e\u5e02\u573a\u5728 SpaceX \u4e0a\u5e02\u524d\u60c5\u7eea\u504f\u70ed\u3001\u4ed3\u4f4d\u504f\u6ee1\u3002\u8fd9\u79cd\u4ea2\u594b\u4e00\u65e6\u9047\u4e0a\u771f\u6b63\u7684\u89e3\u7981\u6d41\u901a\u76d8\u548c\u6307\u6570\u7eb3\u5165\uff0c\u88ab\u52a8\u8d44\u91d1\u51b2\u51fb\u4f1a\u88ab\u653e\u5927\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
