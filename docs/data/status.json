@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788570125,
-  "generated_at_str": "2026-09-05 01:02:05 UTC",
-  "last_event_ts": 1788569223,
+  "generated_at": 1788570306,
+  "generated_at_str": "2026-09-05 01:05:06 UTC",
+  "last_event_ts": 1788570306,
   "tables": {
     "alerts_dedup": {
-      "count": 3816,
-      "last_ts": 1788563115,
-      "last_str": "2026-09-04 23:05:15 UTC"
+      "count": 3817,
+      "last_ts": 1788570306,
+      "last_str": "2026-09-05 01:05:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-09-04 19:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5498,
-      "last_ts": 1788564902,
-      "last_str": "2026-09-04 23:35:02 UTC"
+      "count": 5499,
+      "last_ts": 1788570303,
+      "last_str": "2026-09-05 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6546,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3824,
+      "ts": 1788570306,
+      "ts_str": "2026-09-05 01:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion - timothysykes.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 20:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE1NSVI4ZjlpRTBJSkkwS2pVNHdoZXYxRTlnSjVYZEY2MmlINjlWNWZ3UTdFOGdZQ2ptUlpTWDlmY25hV2ZudmhDT2pWZHRKOVZuMWs2YlpxSXYtLWRqMXA3Wk5qTFhqaXBIbjdnQmVSSQ?oc=5\n\nSK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion - timothysykes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1NSVI4ZjlpRTBJSkkwS2pVNHdoZXYxRTlnSjVYZEY2MmlINjlWNWZ3UTdFOGdZQ2ptUlpTWDlmY25hV2ZudmhDT2pWZHRKOVZuMWs2YlpxSXYtLWRqMXA3Wk5qTFhqaXBIbjdnQmVSSQ?oc=5\" target=\"_blank\">SK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timothysykes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix shares jumped after reports of a DRAM shortage prompting the company to expand production aggressively.\n\n\u5185\u5bb9:\nSK hynix \u80a1\u4ef7\u5927\u6da8\uff0c\u6b64\u524d\u6709\u62a5\u9053\u79f0 DRAM \u77ed\u7f3a\u4fc3\u4f7f\u516c\u53f8\u6fc0\u8fdb\u6269\u4ea7\u3002\n\nWhy it matters:\nTight DRAM supply and rising memory prices are a direct input cost pressure on AI server/GPU builds; it's also a classic late-cycle tell \u2014 suppliers racing to add capacity into a shortage often overshoot right as demand cools.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u7ed9\u7d27\u5f20\u3001\u4ef7\u683c\u4e0a\u6da8\uff0c\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u7684\u5efa\u8bbe\u6210\u672c\uff1b\u8fd9\u4e5f\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u2014\u2014\u4f9b\u5e94\u5546\u5728\u77ed\u7f3a\u4e2d\u62fc\u547d\u6269\u4ea7\uff0c\u5f80\u5f80\u6b63\u597d\u649e\u4e0a\u9700\u6c42\u964d\u6e29\u7684\u65f6\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3823,
       "ts": 1788563115,
@@ -2299,16 +2309,6 @@
       "subject": "[C3-CRITICAL] SoftBank (9984 JT) mulls up to USD 20bln bond sale for OpenAI financing, according to Bloomberg - Newsquawk",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 04:58:28 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxOMkhxVnJNSVBVY2RHUy13NElNWTNMVmhWbkU1MWVyZUhodU54dEVHT2VXUnhhSEdFQ0lmYnhqak1rWWFkNl9rVllHTFVaYzlzaDVZMFB1SDJ3ZnFRbjhKU3BycE5menk4Y2VTcjFVYU02ZXloVWQ3YjB2OTV5djhMZWgwMnl2b1dJNjhHWFBOUm5PU1FjNHpvME9XUHRUemVaRDdOYXExTi1sX0lGUGRJOHN5THRrWlRGTWhFTGF0a3dfTm5tUF9N?oc=5\n\nSoftBank (9984 JT) mulls up to USD 20bln bond sale for OpenAI financing, according to Bloomberg - Newsquawk\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOMkhxVnJNSVBVY2RHUy13NElNWTNMVmhWbkU1MWVyZUhodU54dEVHT2VXUnhhSEdFQ0lmYnhqak1rWWFkNl9rVllHTFVaYzlzaDVZMFB1SDJ3ZnFRbjhKU3BycE5menk4Y2VTcjFVYU02ZXloVWQ3YjB2OTV5djhMZWgwMnl2b1dJNjhHWFBOUm5PU1FjNHpvME9XUHRUemVaRDdOYXExTi1sX0lGUGRJOHN5THRrWlRGTWhFTGF0a3dfTm5tUF9N?oc=5\" target=\"_blank\">SoftBank (9984 JT) mulls up to USD 20bln bond sale for OpenAI financing, according to Bloomberg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newsquawk</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank (9984 JT) is reportedly weighing a bond sale of up to USD 20bln to help finance its OpenAI commitments, per Bloomberg.\n\n\u5185\u5bb9:\n\u636e\u5f6d\u535a\u793e\u62a5\u9053\uff0c\u8f6f\u94f6 (9984 JT) \u6b63\u8003\u8651\u53d1\u884c\u6700\u9ad8 200 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u4e3a\u5176 OpenAI \u76f8\u5173\u878d\u8d44\u627f\u8bfa\u63d0\u4f9b\u8d44\u91d1\u3002\n\nWhy it matters:\nA debt-funded raise of this size signals SoftBank's existing cash/equity resources aren't enough to cover its OpenAI exposure, pushing leverage risk onto its balance sheet rather than investor capital. It's a funding-strain tell for the OpenAI ecosystem \u2014 the kind of signal that precedes tighter terms or renegotiated commitments if credit markets balk.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u9760\u53d1\u503a\u878d\u8d44\uff0c\u8bf4\u660e\u8f6f\u94f6\u73b0\u6709\u7684\u73b0\u91d1\u548c\u80a1\u6743\u8d44\u6e90\u4e0d\u8db3\u4ee5\u8986\u76d6\u5b83\u5bf9 OpenAI \u7684\u51fa\u8d44\u627f\u8bfa\uff0c\u98ce\u9669\u56e0\u6b64\u8f6c\u79fb\u5230\u81ea\u5df1\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u4e0a\u3002\u8fd9\u662f OpenAI \u751f\u6001\u8d44\u91d1\u538b\u529b\u7684\u4e00\u4e2a\u4fe1\u53f7\u2014\u2014\u5982\u679c\u4fe1\u7528\u5e02\u573a\u53cd\u5e94\u51b7\u6de1\uff0c\u540e\u9762\u5f88\u53ef\u80fd\u8ddf\u7740\u6761\u6b3e\u6536\u7d27\u6216\u51fa\u8d44\u627f\u8bfa\u91cd\u65b0\u8c08\u5224\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 3621,
-      "ts": 1787744114,
-      "ts_str": "2026-08-26 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] South Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand - Global Sources",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 11:06:19 GMT\nLink:      https://news.google.com/rss/articles/CBMi6wFBVV95cUxON2JxVlYxb2c3R0VhNVFScGx2WWp3cF9pZm1fSHlGUVN5Z2ZTRGpJbk5RQnNqRkFfUDhUSFpCdHVrT3JHUWJtVDdIWkQ2Rl9kOFVLM0d1U2pWaTc2MWtmMzJlRHR0UEM3Z0x1QXA5YXZ0ZzJiVVV1OU1DcHN4QVVlRmI4eURFcDIyQl9XMll1RG1qSjNCei1hWUpFMmw4NlNUa3U2RTVQbVFFLVhCamt5WXBBWVBMNkpHVXpsRHlKSTdBOW1qR1FiOEI2SC12dktzZ1cxeURKbjhhX1RvY2N4aXBXWGkxWlpIaU84?oc=5\n\nSouth Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand - Global Sources\n\n<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxON2JxVlYxb2c3R0VhNVFScGx2WWp3cF9pZm1fSHlGUVN5Z2ZTRGpJbk5RQnNqRkFfUDhUSFpCdHVrT3JHUWJtVDdIWkQ2Rl9kOFVLM0d1U2pWaTc2MWtmMzJlRHR0UEM3Z0x1QXA5YXZ0ZzJiVVV1OU1DcHN4QVVlRmI4eURFcDIyQl9XMll1RG1qSjNCei1hWUpFMmw4NlNUa3U2RTVQbVFFLVhCamt5WXBBWVBMNkpHVXpsRHlKSTdBOW1qR1FiOEI2SC12dktzZ1cxeURKbjhhX1RvY2N4aXBXWGkxWlpIaU84?oc=5\" target=\"_blank\">South Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Sources</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSouth Korean media report DRAM spot prices surging to levels compared with precious metals, driven by AI demand.\n\n\u5185\u5bb9:\n\u97e9\u56fd\u5a92\u4f53\u62a5\u9053\uff0cAI \u9700\u6c42\u63a8\u52a8\u4e0b DRAM \u73b0\u8d27\u4ef7\u683c\u98d9\u5347\u5230\u53ef\u4e0e\u8d35\u91d1\u5c5e\u76f8\u63d0\u5e76\u8bba\u7684\u6c34\u5e73\u3002\n\nWhy it matters:\nRunaway memory pricing signals HBM/DRAM supply can't keep pace with AI accelerator build-out \u2014 a classic input-cost squeeze that either compresses hyperscaler/GPU-maker margins or gets passed through, both consistent with capex overheating rather than steady-state demand.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u5931\u63a7\u8bf4\u660e HBM/DRAM \u4f9b\u7ed9\u8ddf\u4e0d\u4e0a AI \u52a0\u901f\u5361\u7684\u6269\u4ea7\u8282\u594f\u2014\u2014\u8fd9\u662f\u5178\u578b\u7684\u6210\u672c\u7aef\u6324\u538b\uff0c\u8981\u4e48\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546/GPU \u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u8981\u4e48\u88ab\u8f6c\u5ac1\u4e0b\u6e38\uff0c\u4e24\u79cd\u60c5\u5f62\u90fd\u6307\u5411 capex \u8fc7\u70ed\u800c\u975e\u9700\u6c42\u5e73\u7a33\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
