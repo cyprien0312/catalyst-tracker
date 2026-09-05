@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788606124,
-  "generated_at_str": "2026-09-05 11:02:04 UTC",
-  "last_event_ts": 1788605222,
+  "generated_at": 1788606318,
+  "generated_at_str": "2026-09-05 11:05:18 UTC",
+  "last_event_ts": 1788606317,
   "tables": {
     "alerts_dedup": {
-      "count": 3820,
-      "last_ts": 1788588306,
-      "last_str": "2026-09-05 06:05:06 UTC"
+      "count": 3822,
+      "last_ts": 1788606317,
+      "last_str": "2026-09-05 11:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,14 +84,14 @@
       "last_str": "2026-09-05 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6560,
-      "last_ts": 1788604504,
-      "last_str": "2026-09-05 10:35:04 UTC"
+      "count": 6564,
+      "last_ts": 1788606304,
+      "last_str": "2026-09-05 11:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4000,
-      "last_ts": 1788597304,
-      "last_str": "2026-09-05 08:35:04 UTC"
+      "count": 4001,
+      "last_ts": 1788606303,
+      "last_str": "2026-09-05 11:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4963,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3828,
+      "ts": 1788606317,
+      "ts_str": "2026-09-05 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand - Blockonomi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 05 Sep 2026 10:31:01 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQM005Z0tNNGxrdlFhUHNoV1UzZWxEekp5QWp0c19OekVZZjNkbThudUxQN1JER1pieEJPNnVwWUYybXEyZDl6M24wMHlpWndnQVpjUW9CUVR2UE84Y3VjRmtkcm1LVVlTZHZheV9UVDJkMnRTSFg0QmxfNHNjaVRxQ0k3aVNWaVFwZmQ4WUxxeUdEUmo4Z0NnYy1hNzk4NDYzWXVoTUhSUmliZGdQQmM5aEdhMA?oc=5\n\nMemory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand - Blockonomi\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQM005Z0tNNGxrdlFhUHNoV1UzZWxEekp5QWp0c19OekVZZjNkbThudUxQN1JER1pieEJPNnVwWUYybXEyZDl6M24wMHlpWndnQVpjUW9CUVR2UE84Y3VjRmtkcm1LVVlTZHZheV9UVDJkMnRTSFg0QmxfNHNjaVRxQ0k3aVNWaVFwZmQ4WUxxeUdEUmo4Z0NnYy1hNzk4NDYzWXVoTUhSUmliZGdQQmM5aEdhMA?oc=5\" target=\"_blank\">Memory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockonomi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron (MU), SanDisk, and SK Hynix shares rallied on reports of memory supply tightness and AI-driven demand.\n\n\u5185\u5bb9:\nMicron (MU)\u3001SanDisk \u4e0e SK Hynix \u56e0\u4f9b\u5e94\u8d8b\u7d27\u548c AI \u9700\u6c42\u62a5\u9053\u80a1\u4ef7\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising memory prices are a direct AI-capex cost input, not a slowdown signal \u2014 this is the tightening side of the C6 thermometer, consistent with strained supply rather than demand destruction. It cross-confirms the AI buildout is still consuming real-world components faster than fabs can supply them.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI capex \u7684\u76f4\u63a5\u6210\u672c\u9879\uff0c\u4e0d\u662f\u9700\u6c42\u964d\u6e29\u7684\u4fe1\u53f7\u2014\u2014\u8fd9\u662f C6 \u6e29\u5ea6\u8ba1\u91cc\u300c\u4f9b\u5e94\u504f\u7d27\u300d\u7684\u4e00\u7aef\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7aef\u4ecd\u8ddf\u4e0d\u4e0a\u9700\u6c42\u3002\u8fd9\u6761\u53cd\u8fc7\u6765\u5370\u8bc1 AI \u5efa\u8bbe\u4ecd\u5728\u5b9e\u6253\u5b9e\u5730\u6d88\u8017\u786c\u4ef6\u4ea7\u80fd\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u5728\u840e\u7f29\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3829,
+      "ts": 1788606317,
+      "ts_str": "2026-09-05 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand - Blockonomi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 05 Sep 2026 10:31:01 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQM005Z0tNNGxrdlFhUHNoV1UzZWxEekp5QWp0c19OekVZZjNkbThudUxQN1JER1pieEJPNnVwWUYybXEyZDl6M24wMHlpWndnQVpjUW9CUVR2UE84Y3VjRmtkcm1LVVlTZHZheV9UVDJkMnRTSFg0QmxfNHNjaVRxQ0k3aVNWaVFwZmQ4WUxxeUdEUmo4Z0NnYy1hNzk4NDYzWXVoTUhSUmliZGdQQmM5aEdhMA?oc=5\n\nMemory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand - Blockonomi\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQM005Z0tNNGxrdlFhUHNoV1UzZWxEekp5QWp0c19OekVZZjNkbThudUxQN1JER1pieEJPNnVwWUYybXEyZDl6M24wMHlpWndnQVpjUW9CUVR2UE84Y3VjRmtkcm1LVVlTZHZheV9UVDJkMnRTSFg0QmxfNHNjaVRxQ0k3aVNWaVFwZmQ4WUxxeUdEUmo4Z0NnYy1hNzk4NDYzWXVoTUhSUmliZGdQQmM5aEdhMA?oc=5\" target=\"_blank\">Memory Chip Giants Micron (MU), SanDisk, and SK Hynix Rally on Supply Tightness and AI Demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockonomi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron (MU), SanDisk, and SK Hynix shares rallied on reports of memory supply tightness and AI-driven demand.\n\n\u5185\u5bb9:\nMicron (MU)\u3001SanDisk \u4e0e SK Hynix \u56e0\u4f9b\u5e94\u8d8b\u7d27\u548c AI \u9700\u6c42\u62a5\u9053\u80a1\u4ef7\u4e0a\u6da8\u3002\n\nWhy it matters:\nRising memory prices are a direct AI-capex cost input, not a slowdown signal \u2014 this is the tightening side of the C6 thermometer, consistent with strained supply rather than demand destruction. It cross-confirms the AI buildout is still consuming real-world components faster than fabs can supply them.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI capex \u7684\u76f4\u63a5\u6210\u672c\u9879\uff0c\u4e0d\u662f\u9700\u6c42\u964d\u6e29\u7684\u4fe1\u53f7\u2014\u2014\u8fd9\u662f C6 \u6e29\u5ea6\u8ba1\u91cc\u300c\u4f9b\u5e94\u504f\u7d27\u300d\u7684\u4e00\u7aef\uff0c\u8bf4\u660e\u4f9b\u7ed9\u7aef\u4ecd\u8ddf\u4e0d\u4e0a\u9700\u6c42\u3002\u8fd9\u6761\u53cd\u8fc7\u6765\u5370\u8bc1 AI \u5efa\u8bbe\u4ecd\u5728\u5b9e\u6253\u5b9e\u5730\u6d88\u8017\u786c\u4ef6\u4ea7\u80fd\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u5728\u840e\u7f29\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3827,
       "ts": 1788588306,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 22:17:03 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA DRAM price-fixing lawsuit against Samsung, SK hynix, and Micron surfaced alongside Samsung's expected 20% DRAM price hike.\n\n\u5185\u5bb9:\n\u4e00\u8d77\u9488\u5bf9 Samsung\u3001SK hynix\u3001Micron \u7684 DRAM \u4ef7\u683c\u64cd\u7eb5\u8bc9\u8bbc\u6d6e\u51fa\u6c34\u9762\uff0c\u540c\u65f6 Samsung \u9884\u671f\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nCoordinated pricing power across the three dominant DRAM suppliers, tight enough to draw antitrust suits, signals memory scarcity feeding directly into AI-server bill-of-materials cost \u2014 a supply-side stress tell, not demand weakness.\n\n\u5f71\u54cd:\n\u4e09\u5927 DRAM \u5382\u5546\u540c\u6b65\u6da8\u4ef7\u3001\u7d27\u5230\u5f15\u6765\u53cd\u5784\u65ad\u8bc9\u8bbc\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u6b63\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u2014\u2014\u8fd9\u662f\u4f9b\u7ed9\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u9700\u6c42\u8d70\u5f31\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3629,
-      "ts": 1787755457,
-      "ts_str": "2026-08-26 14:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] Market Chatter: SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan - Yahoo Finance",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 08:13:55 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0RDcmV3dERLbEpidlV0ODRXRWtRaDg5MEs3VjRMU0pBaHhCc00wbDUzcllJZm0xUUdsSDRISml1SUJ5YjIwTnoyd0JtWkpVYXVqNHp0cjZxV2RBTVV0dy1UZFFQNmxSU01mLVVWWGVNcUR1WWhZelRRSlgyOHBGOHdLbkJJM3c3WWoza1l5REo5YWtjTjhMMXJBZ1R0LURmdkRLNDFn?oc=5\n\nMarket Chatter: SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0RDcmV3dERLbEpidlV0ODRXRWtRaDg5MEs3VjRMU0pBaHhCc00wbDUzcllJZm0xUUdsSDRISml1SUJ5YjIwTnoyd0JtWkpVYXVqNHp0cjZxV2RBTVV0dy1UZFFQNmxSU01mLVVWWGVNcUR1WWhZelRRSlgyOHBGOHdLbkJJM3c3WWoza1l5REo5YWtjTjhMMXJBZ1R0LURmdkRLNDFn?oc=5\" target=\"_blank\">Market Chatter: SoftBank Considering Up to $20 Billion Bond Offering to Refinance OpenAI Investment Loan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly weighing a bond offering of up to $20B to refinance the loan it used to fund its OpenAI investment.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u8f6f\u94f6\u6b63\u8003\u8651\u53d1\u884c\u6700\u9ad8 $20B \u7684\u503a\u5238\uff0c\u7528\u4e8e\u7f6e\u6362\u6b64\u524d\u4e3a\u6295\u8d44 OpenAI \u800c\u501f\u7684\u8d37\u6b3e\u3002\n\nWhy it matters:\nSoftBank borrowing at scale to cover an OpenAI commitment signals the OpenAI capital stack now depends on debt markets, not just equity \u2014 a credit-market stress point layered directly on top of the AI-capex thesis. If bond investors balk or price it wide, that's a direct read on how the market values OpenAI-linked risk.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u8981\u9760\u5927\u89c4\u6a21\u4e3e\u503a\u6765\u586b OpenAI \u90a3\u7b14\u6295\u8d44\u7684\u7a9f\u7abf\uff0c\u8bf4\u660e OpenAI \u80cc\u540e\u7684\u8d44\u91d1\u94fe\u5df2\u7ecf\u4e0d\u53ea\u9760\u80a1\u6743\uff0c\u5f00\u59cb\u538b\u5411\u503a\u5e02\u2014\u2014\u8fd9\u662f\u53e0\u5728 AI capex \u53d9\u4e8b\u4e0a\u7684\u4e00\u4e2a\u4fe1\u7528\u5e02\u573a\u538b\u529b\u70b9\u3002\u5982\u679c\u8fd9\u7b14\u503a\u5238\u53d1\u884c\u9047\u51b7\u6216\u5229\u7387\u88ab\u8981\u6c42\u8d70\u9ad8\uff0c\u5c31\u662f\u5e02\u573a\u5bf9 OpenAI \u76f8\u5173\u98ce\u9669\u5b9a\u4ef7\u7684\u76f4\u63a5\u4fe1\u53f7\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 3628,
-      "ts": 1787753123,
-      "ts_str": "2026-08-26 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 25 Aug 2026 22:17:03 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA DRAM price-fixing lawsuit against Samsung, SK hynix, and Micron surfaced alongside Samsung's expected 20% DRAM price hike.\n\n\u5185\u5bb9:\n\u4e00\u8d77\u9488\u5bf9 Samsung\u3001SK hynix\u3001Micron \u7684 DRAM \u4ef7\u683c\u64cd\u7eb5\u8bc9\u8bbc\u6d6e\u51fa\u6c34\u9762\uff0c\u540c\u65f6 Samsung \u9884\u671f\u5c06 DRAM \u4ef7\u683c\u4e0a\u8c03 20%\u3002\n\nWhy it matters:\nCoordinated pricing power across the three dominant DRAM suppliers, tight enough to draw antitrust suits, signals memory scarcity feeding directly into AI-server bill-of-materials cost \u2014 a supply-side stress tell, not demand weakness.\n\n\u5f71\u54cd:\n\u4e09\u5927 DRAM \u5382\u5546\u540c\u6b65\u6da8\u4ef7\u3001\u7d27\u5230\u5f15\u6765\u53cd\u5784\u65ad\u8bc9\u8bbc\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u6b63\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u2014\u2014\u8fd9\u662f\u4f9b\u7ed9\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u9700\u6c42\u8d70\u5f31\u3002\n",
       "emailed": false
     }
   ],
