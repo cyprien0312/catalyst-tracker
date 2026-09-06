@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788732663,
-  "generated_at_str": "2026-09-06 22:11:03 UTC",
-  "last_event_ts": 1788732304,
+  "generated_at": 1788732857,
+  "generated_at_str": "2026-09-06 22:14:17 UTC",
+  "last_event_ts": 1788732854,
   "tables": {
     "alerts_dedup": {
-      "count": 3842,
-      "last_ts": 1788727446,
-      "last_str": "2026-09-06 20:44:06 UTC"
+      "count": 3843,
+      "last_ts": 1788732854,
+      "last_str": "2026-09-06 22:14:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-06 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29316,
-      "last_ts": 1788731043,
-      "last_str": "2026-09-06 21:44:03 UTC"
+      "count": 29319,
+      "last_ts": 1788732843,
+      "last_str": "2026-09-06 22:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8836,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3850,
+      "ts": 1788732854,
+      "ts_str": "2026-09-06 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Holds GPT-6 Astra Pricing at $10/$50, Setting Up Pre-IPO Price Standoff with Anthropic - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 06 Sep 2026 18:06:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBUVGNYLW1ORTBqcVZZZjdiampKaGk3M2wtMW9TRXdRTGgxWUNRaEE2MDNISm1iZFNfYjFnVERZb1gwUUJSbTg0YUVpejdoWTV2WFpUR0tDUlcyUFBMb3AtM29QV1MyMFpjOWRSam9YOThPOVlyUnc?oc=5\n\nOpenAI Holds GPT-6 Astra Pricing at $10/$50, Setting Up Pre-IPO Price Standoff with Anthropic - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBUVGNYLW1ORTBqcVZZZjdiampKaGk3M2wtMW9TRXdRTGgxWUNRaEE2MDNISm1iZFNfYjFnVERZb1gwUUJSbTg0YUVpejdoWTV2WFpUR0tDUlcyUFBMb3AtM29QV1MyMFpjOWRSam9YOThPOVlyUnc?oc=5\" target=\"_blank\">OpenAI Holds GPT-6 Astra Pricing at $10/$50, Setting Up Pre-IPO Price Standoff with Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI froze GPT-6 Astra API pricing at $10/$50 (input/output per million tokens), a move framed as a pre-IPO price standoff with Anthropic.\n\n\u5185\u5bb9:\nOpenAI \u5c06 GPT-6 Astra \u7684 API \u5b9a\u4ef7\u7ef4\u6301\u5728 $10/$50\uff08\u6bcf\u767e\u4e07 token \u8f93\u5165/\u8f93\u51fa\uff09\uff0c\u62a5\u9053\u79f0\u8fd9\u662f IPO \u524d\u4e0e Anthropic \u7684\u4ef7\u683c\u5bf9\u5cd9\u3002\n\nWhy it matters:\nHolding pricing flat while competitors likely cut prices signals OpenAI is prioritizing margin/valuation optics ahead of a listing over market-share defense \u2014 a soft data point on burn-rate discipline, not a hard filing metric.\n\n\u5f71\u54cd:\n\u5728\u7ade\u4e89\u5bf9\u624b\u53ef\u80fd\u964d\u4ef7\u7684\u60c5\u51b5\u4e0b\u6309\u5175\u4e0d\u52a8\uff0c\u8bf4\u660e OpenAI \u66f4\u770b\u91cd\u4e0a\u5e02\u524d\u7684\u5229\u6da6\u7387\u548c\u4f30\u503c\u89c2\u611f\uff0c\u800c\u4e0d\u662f\u62a2\u5e02\u573a\u4efd\u989d\u2014\u2014\u8fd9\u662f\u5173\u4e8e\u70e7\u94b1\u7eaa\u5f8b\u7684\u8f6f\u6027\u4fe1\u53f7\uff0c\u4e0d\u662f\u786c\u6027\u8d22\u52a1\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3849,
       "ts": 1788727446,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Is Reportedly Targeting an IPO Debut Above $1 Trillion. Should Investors Watch Sam Altman's Path to Public Market",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 27 Aug 2026 16:29:38 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTNOMmdxMC1OODlvbWNYRUszdnZSRlNESVZjd1FEZHNfQzNjZVNBN1JWNWlETTNtYUw2RDNpc09mcDRDQmptOEp5aHZWNl91eGJOVGhieUVBUm91cHRVVkVVSk9PRTRyaDNGV0pOUG16a1lVemh5Z25NMzFlVF8xcklSQWNHVDJNbTlpU1R1cG1JZmlpRHBj?oc=5\n\nOpenAI Is Reportedly Targeting an IPO Debut Above $1 Trillion. Should Investors Watch Sam Altman's Path to Public Markets? - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOOTNOMmdxMC1OODlvbWNYRUszdnZSRlNESVZjd1FEZHNfQzNjZVNBN1JWNWlETTNtYUw2RDNpc09mcDRDQmptOEp5aHZWNl91eGJOVGhieUVBUm91cHRVVkVVSk9PRTRyaDNGV0pOUG16a1lVemh5Z25NMzFlVF8xcklSQWNHVDJNbTlpU1R1cG1JZmlpRHBj?oc=5\" target=\"_blank\">OpenAI Is Reportedly Targeting an IPO Debut Above $1 Trillion. Should Investors Watch Sam Altman's Path to Public Markets?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say OpenAI is targeting an IPO valuing it above $1 trillion, raising the question of Sam Altman's path to public markets.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u7784\u51c6\u8d85\u8fc7 1 \u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u7684 IPO\uff0c\u5e02\u573a\u5f00\u59cb\u5173\u6ce8 Sam Altman \u901a\u5f80\u516c\u5f00\u5e02\u573a\u7684\u8def\u5f84\u3002\n\nWhy it matters:\nA trillion-dollar IPO target for a company still burning cash on compute would be the clearest public-market test of the AI-capex thesis \u2014 it forces investors to price OpenAI's spend against real revenue rather than private funding-round momentum.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4ecd\u5728\u4e3a\u7b97\u529b\u70e7\u94b1\u7684\u516c\u53f8\u82e5\u51b2\u51fb\u4e07\u4ebf\u7f8e\u5143 IPO \u4f30\u503c\uff0c\u4f1a\u662f AI capex \u903b\u8f91\u5728\u516c\u5f00\u5e02\u573a\u53d7\u5230\u7684\u6700\u76f4\u63a5\u68c0\u9a8c\u2014\u2014\u6295\u8d44\u8005\u5f97\u62ff\u771f\u5b9e\u8425\u6536\u53bb\u8861\u91cf\u5b83\u7684\u652f\u51fa\uff0c\u800c\u4e0d\u662f\u9760\u79c1\u52df\u8f6e\u7684\u4f30\u503c\u60ef\u6027\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3650,
-      "ts": 1787846717,
-      "ts_str": "2026-08-27 16:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK Hynix ADR Shares Climb Today as Nvidia Warns Global Memory Chip Shortages Could Persist Through 2028 - International ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 27 Aug 2026 15:45:47 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxQbWVtRFVBZzNNSGhwVTlVOTRKNWxiRWFjbDRIdno0QW1keElBamZEb0NVdlV2OVRhSGNjVHBTS3Y0alhsX2ZBTmxNRnl2RjRvNzN1OHR2azJRQTYxZ0xVYkxYTE0wUWRBUlRTemc3SURHUlJ6RklvMFRyeXhXazBXNFZtWXNDei1HdW1vQVR3?oc=5\n\nSK Hynix ADR Shares Climb Today as Nvidia Warns Global Memory Chip Shortages Could Persist Through 2028 - International Business Times Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQbWVtRFVBZzNNSGhwVTlVOTRKNWxiRWFjbDRIdno0QW1keElBamZEb0NVdlV2OVRhSGNjVHBTS3Y0alhsX2ZBTmxNRnl2RjRvNzN1OHR2azJRQTYxZ0xVYkxYTE0wUWRBUlRTemc3SURHUlJ6RklvMFRyeXhXazBXNFZtWXNDei1HdW1vQVR3?oc=5\" target=\"_blank\">SK Hynix ADR Shares Climb Today as Nvidia Warns Global Memory Chip Shortages Could Persist Through 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNvidia warned that global memory chip shortages could persist through 2028, and SK Hynix ADR shares rose on the news.\n\n\u5185\u5bb9:\nNvidia \u8b66\u544a\u5168\u7403\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u53ef\u80fd\u6301\u7eed\u5230 2028 \u5e74\uff0cSK Hynix ADR \u80a1\u4ef7\u968f\u4e4b\u4e0a\u6da8\u3002\n\nWhy it matters:\nA multi-year shortage call from the largest AI-GPU buyer signals sustained pricing power for memory makers, which raises the input-cost base for every hyperscaler's AI buildout \u2014 a direct read-through to capex economics, not just a memory-sector story.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5168\u7403\u6700\u5927 AI GPU \u4e70\u5bb6\u7ed9\u51fa\u7684\u591a\u5e74\u671f\u77ed\u7f3a\u5224\u65ad\uff0c\u610f\u5473\u7740\u5185\u5b58\u5382\u5546\u7684\u5b9a\u4ef7\u6743\u4f1a\u6301\u7eed\u4e0b\u53bb\uff0c\u8fdb\u800c\u62ac\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI \u5efa\u8bbe\u7684\u6210\u672c\u57fa\u7840\u2014\u2014\u4e0d\u53ea\u662f\u5185\u5b58\u677f\u5757\u672c\u8eab\u7684\u6545\u4e8b\uff0c\u800c\u662f\u76f4\u63a5\u5f71\u54cd capex \u7ecf\u6d4e\u6027\u7684\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
