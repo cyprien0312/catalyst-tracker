@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788714662,
-  "generated_at_str": "2026-09-06 17:11:02 UTC",
-  "last_event_ts": 1788714305,
+  "generated_at": 1788714860,
+  "generated_at_str": "2026-09-06 17:14:20 UTC",
+  "last_event_ts": 1788714857,
   "tables": {
     "alerts_dedup": {
-      "count": 3840,
-      "last_ts": 1788698655,
-      "last_str": "2026-09-06 12:44:15 UTC"
+      "count": 3841,
+      "last_ts": 1788714857,
+      "last_str": "2026-09-06 17:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-06 15:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29288,
-      "last_ts": 1788713042,
-      "last_str": "2026-09-06 16:44:02 UTC"
+      "count": 29291,
+      "last_ts": 1788714843,
+      "last_str": "2026-09-06 17:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8827,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3848,
+      "ts": 1788714857,
+      "ts_str": "2026-09-06 17:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Perplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets - International Business Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 06 Sep 2026 15:47:43 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVXa0Jpdk9OYjc3MVZ2Y3BUSHJuemFRMnBYNG1iSGFCNEU4Yk1rdVQwNWhTZ21GeUQ0NUZFOWp3TUZVNlhBVTBuSEpnREgyV3hIQjFkaFhGb25qM1YyeU83akJ6U0QzVUdpYzRGeWxNUVd0bTJDMFVESXBPbmxTbTVDTlBLUS1lU2VxWDc2OHdORWZrVTRMVHJtY19pZ1ZGMXFBRHpkVlFFWHBua0pn?oc=5\n\nPerplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPamVXa0Jpdk9OYjc3MVZ2Y3BUSHJuemFRMnBYNG1iSGFCNEU4Yk1rdVQwNWhTZ21GeUQ0NUZFOWp3TUZVNlhBVTBuSEpnREgyV3hIQjFkaFhGb25qM1YyeU83akJ6U0QzVUdpYzRGeWxNUVd0bTJDMFVESXBPbmxTbTVDTlBLUS1lU2VxWDc2OHdORWZrVTRMVHJtY19pZ1ZGMXFBRHpkVlFFWHBua0pn?oc=5\" target=\"_blank\">Perplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPerplexity reaffirmed its 2028 IPO timeline, in a headline paired with reports that OpenAI and Anthropic are also taking steps toward public markets.\n\n\u5185\u5bb9:\nPerplexity \u91cd\u7533\u5176 2028 \u5e74 IPO \u65f6\u95f4\u8868\uff0c\u6807\u9898\u540c\u65f6\u63d0\u5230 OpenAI \u548c Anthropic \u4e5f\u5728\u5411\u516c\u5f00\u5e02\u573a\u8fc8\u8fdb\u3002\n\nWhy it matters:\nThis is speculative IPO-timeline chatter, not a filed disclosure or a burn-rate metric \u2014 it's the low-signal MED tier the C3 catalyst floods with (per source-spec, only a >25% QoQ burn-rate jump earns HIGH). Track it as sentiment noise, not a capital-markets-stress data point.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f IPO \u65f6\u95f4\u8868\u7684\u5e02\u573a\u731c\u6d4b\uff0c\u4e0d\u662f\u6b63\u5f0f\u62ab\u9732\u6587\u4ef6\uff0c\u4e5f\u6ca1\u6709 burn-rate \u6307\u6807\uff08\u6309 source-spec\uff0c\u53ea\u6709 burn-rate \u73af\u6bd4\u6da8\u8d85 25% \u624d\u591f\u683c HIGH\uff09\u3002\u5c5e\u4e8e C3 \u5e38\u89c1\u7684\u4f4e\u4fe1\u53f7 MED \u5c42\u566a\u97f3\uff0c\u4e0d\u7b97\u8d44\u672c\u5e02\u573a\u538b\u529b\u6570\u636e\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3847,
       "ts": 1788698655,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX $100B Louisiana Starbase Lands Before SPCX Unlock - FinanceFeeds",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 26 Aug 2026 17:50:30 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0xBdWRvZTk4Xy1HZlU1RmQ4SUg4VUJWbDc4X0VtQ2JYZWljZTU4OU9SYjJtOUg1RkFXbFNGaVdtaDkwNUhHcFNPcjVPellReWVNVVh6bl9Vb3VQOWxHUUZVV2I2S0VGay0yUlBkcGRxaWtUTjF2akFjSVE3aEtaWWo5aVVVVjdoMTZWVlhKallCenot?oc=5\n\nSpaceX $100B Louisiana Starbase Lands Before SPCX Unlock - FinanceFeeds\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0xBdWRvZTk4Xy1HZlU1RmQ4SUg4VUJWbDc4X0VtQ2JYZWljZTU4OU9SYjJtOUg1RkFXbFNGaVdtaDkwNUhHcFNPcjVPellReWVNVVh6bl9Vb3VQOWxHUUZVV2I2S0VGay0yUlBkcGRxaWtUTjF2akFjSVE3aEtaWWo5aVVVVjdoMTZWVlhKallCenot?oc=5\" target=\"_blank\">SpaceX $100B Louisiana Starbase Lands Before SPCX Unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanceFeeds</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's $100B Louisiana Starbase project was announced just ahead of the SPCX equity unlock window.\n\n\u5185\u5bb9:\nSpaceX \u5ba3\u5e03\u8def\u6613\u65af\u5b89\u90a3\u5dde 100 \u4ebf\u7f8e\u5143\u7684 Starbase \u9879\u76ee\uff0c\u65f6\u95f4\u70b9\u6b63\u597d\u5361\u5728 SPCX \u80a1\u6743\u89e3\u7981\u7a97\u53e3\u4e4b\u524d\u3002\n\nWhy it matters:\nPositive news timed right before a lock-up expiry can be read as sentiment management ahead of a wave of insider selling \u2014 worth watching whether post-unlock flows put pressure on secondary-market pricing for SpaceX shares.\n\n\u5f71\u54cd:\n\u89e3\u7981\u524d\u653e\u51fa\u5229\u597d\u6d88\u606f\uff0c\u5bb9\u6613\u88ab\u89e3\u8bfb\u6210\u4e3a\u5373\u5c06\u5230\u6765\u7684\u5185\u90e8\u4eba\u629b\u552e\u94fa\u57ab\u60c5\u7eea\u3002\u503c\u5f97\u5173\u6ce8\u89e3\u7981\u540e\u7684\u629b\u538b\u4f1a\u4e0d\u4f1a\u5f71\u54cd SpaceX \u80a1\u4efd\u5728\u4e8c\u7ea7\u5e02\u573a\u7684\u5b9a\u4ef7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3648,
-      "ts": 1787842034,
-      "ts_str": "2026-08-27 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] JPMorgan sets SpaceX stock price target - Finbold",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 27 Aug 2026 14:21:12 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE92WE85Z19USVV0MUY4X1hVSDFybmFoMHZwdXhKcW1MUkk0MTNSUTNGR1lzclQtdEstWmtDazl4T1NhenhWbEJzdUtvX1M3X2daUXc5WHUzdU1YSXJJSVFMRWdhTGJqbGIzMHEtbg?oc=5\n\nJPMorgan sets SpaceX stock price target - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE92WE85Z19USVV0MUY4X1hVSDFybmFoMHZwdXhKcW1MUkk0MTNSUTNGR1lzclQtdEstWmtDazl4T1NhenhWbEJzdUtvX1M3X2daUXc5WHUzdU1YSXJJSVFMRWdhTGJqbGIzMHEtbg?oc=5\" target=\"_blank\">JPMorgan sets SpaceX stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA wave of headlines report analyst price-target changes for SpaceX stock, duplicated across feeds.\n\n\u5185\u5bb9:\n\u591a\u6761\u65b0\u95fb\u91cd\u590d\u62a5\u9053\u5206\u6790\u5e08\u5bf9 SpaceX \u80a1\u7968\u76ee\u6807\u4ef7\u7684\u8c03\u6574\uff0c\u540c\u4e00\u6761\u6d88\u606f\u5728\u4e0d\u540c feed \u91cc\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nSell-side price targets on a still-private, index-adjacent name are sentiment noise, not a fundamental change to the unlock schedule or float mechanics \u2014 low signal for the C11 thesis on its own.\n\n\u5f71\u54cd:\n\u5bf9\u4e00\u53ea\u4ecd\u672a\u4e0a\u5e02\u3001\u53ea\u662f\u6307\u6570\u673a\u5236\u5c42\u9762\u76f8\u5173\u7684\u6807\u7684\uff0c\u5356\u65b9\u76ee\u6807\u4ef7\u8c03\u6574\u5c5e\u4e8e\u60c5\u7eea\u566a\u97f3\uff0c\u4e0d\u6d89\u53ca\u89e3\u7981\u65f6\u95f4\u8868\u6216\u6d41\u901a\u76d8\u7ed3\u6784\u7684\u5b9e\u8d28\u53d8\u5316\uff0c\u5355\u72ec\u770b\u5bf9 C11 \u903b\u8f91\u4fe1\u53f7\u4ef7\u503c\u4e0d\u5927\u3002\n",
       "emailed": false
     }
   ],
