@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788842462,
-  "generated_at_str": "2026-09-08 04:41:02 UTC",
-  "last_event_ts": 1788842106,
+  "generated_at": 1788842667,
+  "generated_at_str": "2026-09-08 04:44:27 UTC",
+  "last_event_ts": 1788842666,
   "tables": {
     "alerts_dedup": {
-      "count": 3851,
-      "last_ts": 1788809706,
-      "last_str": "2026-09-07 19:35:06 UTC"
+      "count": 3853,
+      "last_ts": 1788842666,
+      "last_str": "2026-09-08 04:44:26 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-08 04:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29649,
-      "last_ts": 1788840843,
-      "last_str": "2026-09-08 04:14:03 UTC"
+      "count": 29656,
+      "last_ts": 1788842643,
+      "last_str": "2026-09-08 04:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8898,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3859,
+      "ts": 1788842666,
+      "ts_str": "2026-09-08 04:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO - Financial Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 04:01:15 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3Z6TmVsNklaVTFJUzRYNkxMQjFoN2ZvSnJjbHlmX0JzTzgwUTRGVUlXR3NPM08wemRmUlItRGlBVzZNSlh0cXBiN1BsRW5LRzYtQUZ2QktPSF9ZQUY5SFRNalJYb0puYmtjQVFiQjZWWkNpQ2hQd1ZBUFRRZDhrdVBhbkk?oc=5\n\nAnthropic and OpenAI bankers push for top-tier credit ratings post-IPO - Financial Times\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPd3Z6TmVsNklaVTFJUzRYNkxMQjFoN2ZvSnJjbHlmX0JzTzgwUTRGVUlXR3NPM08wemRmUlItRGlBVzZNSlh0cXBiN1BsRW5LRzYtQUZ2QktPSF9ZQUY5SFRNalJYb0puYmtjQVFiQjZWWkNpQ2hQd1ZBUFRRZDhrdVBhbkk?oc=5\" target=\"_blank\">Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBankers advising Anthropic and OpenAI are pushing for top-tier (investment-grade-level) credit ratings ahead of a post-IPO debt raise.\n\n\u5185\u5bb9:\n\u4e3a Anthropic \u548c OpenAI \u63d0\u4f9b\u54a8\u8be2\u7684\u94f6\u884c\u5bb6\u6b63\u5728\u63a8\u52a8\u4e24\u5bb6\u516c\u53f8\u5728 IPO \u540e\u62ff\u5230\u9876\u7ea7\uff08\u63a5\u8fd1\u6295\u8d44\u7ea7\uff09\u4fe1\u7528\u8bc4\u7ea7\u3002\n\nWhy it matters:\nA top-tier rating would let both labs borrow cheaply to fund GPU capex instead of relying on equity or vendor financing \u2014 but rating agencies grading pre-profit AI labs at investment-grade quality is itself a sign credit markets are pricing in the bubble thesis, not discounting it.\n\n\u5f71\u54cd:\n\u9876\u7ea7\u8bc4\u7ea7\u80fd\u8ba9\u4e24\u5bb6\u516c\u53f8\u4ee5\u4f4e\u6210\u672c\u4e3e\u503a\u53bb\u586b GPU \u8d44\u672c\u5f00\u652f\u7684\u7f3a\u53e3\uff0c\u4e0d\u7528\u518d\u9760\u80a1\u6743\u878d\u8d44\u6216\u4f9b\u5e94\u5546\u57ab\u6b3e\u3002\u4f46\u8bc4\u7ea7\u673a\u6784\u613f\u610f\u628a\u8fd9\u4e24\u5bb6\u8fd8\u6ca1\u76c8\u5229\u7684 AI \u5b9e\u9a8c\u5ba4\u8bc4\u5230\u6295\u8d44\u7ea7\u8d28\u91cf\uff0c\u672c\u8eab\u8bf4\u660e\u4fe1\u7528\u5e02\u573a\u5728\u4e3a\u6ce1\u6cab\u53d9\u4e8b\u5b9a\u4ef7\uff0c\u800c\u4e0d\u662f\u5728\u6253\u6298\u6263\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3860,
+      "ts": 1788842666,
+      "ts_str": "2026-09-08 04:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI, Anthropic bankers seek investment-grade credit ratings post-IPO, FT says - marketscreener.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 04:14:17 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxQbDBCZ0tuM1NyYlBzY2UwVzFsclRvUlJyYmdrOGNWclY1a3pHeDZrTGh4MUZ2bWQ1RTZBQWV1S20ySTg0OVpjbmp5Q3I1ZWxpc3EzMTNrd1ZEYlF4dHpWSXA1YlgtamJ5aWJUcEhOMldoT1ozVUh3NE14ZWNKbmU0UTQtd1BCUUNSX1JFN0dmSGk3ZzRxRk9GSGtheXFrTFMtUDdEMzVOelZ5cVJyN1lGcVJwcnRSUG9FN0ltYlYtc3ZVY05uelFQVlRPUQ?oc=5\n\nOpenAI, Anthropic bankers seek investment-grade credit ratings post-IPO, FT says - marketscreener.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQbDBCZ0tuM1NyYlBzY2UwVzFsclRvUlJyYmdrOGNWclY1a3pHeDZrTGh4MUZ2bWQ1RTZBQWV1S20ySTg0OVpjbmp5Q3I1ZWxpc3EzMTNrd1ZEYlF4dHpWSXA1YlgtamJ5aWJUcEhOMldoT1ozVUh3NE14ZWNKbmU0UTQtd1BCUUNSX1JFN0dmSGk3ZzRxRk9GSGtheXFrTFMtUDdEMzVOelZ5cVJyN1lGcVJwcnRSUG9FN0ltYlYtc3ZVY05uelFQVlRPUQ?oc=5\" target=\"_blank\">OpenAI, Anthropic bankers seek investment-grade credit ratings post-IPO, FT says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketscreener.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/FT-type report says bankers for OpenAI and Anthropic are seeking investment-grade credit ratings ahead of or following an IPO.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 OpenAI \u548c Anthropic \u7684\u627f\u9500\u94f6\u884c\u6b63\u5728\u4e3a\u4e8c\u8005\u5bfb\u6c42\u6295\u8d44\u7ea7\u4fe1\u7528\u8bc4\u7ea7\uff08IPO \u524d\u540e\uff09\u3002\n\nWhy it matters:\nInvestment-grade ratings would let both labs tap much cheaper, larger debt markets to fund GPU/datacenter buildout \u2014 a shift from equity/vendor-financed capex to bond-market leverage, which raises systemic exposure if the AI-capex payback thesis breaks.\n\n\u5f71\u54cd:\n\u62ff\u5230\u6295\u8d44\u7ea7\u8bc4\u7ea7\u610f\u5473\u7740\u4e24\u5bb6\u516c\u53f8\u80fd\u4ee5\u66f4\u4f4e\u6210\u672c\u3001\u66f4\u5927\u89c4\u6a21\u4ece\u503a\u5238\u5e02\u573a\u878d\u8d44\u6765\u652f\u6491 GPU/\u6570\u636e\u4e2d\u5fc3\u7684\u6269\u5f20\uff0c\u8fd9\u662f\u4ece\u80a1\u6743\u548c\u4f9b\u5e94\u5546\u878d\u8d44\u8f6c\u5411\u503a\u5e02\u6760\u6746\u7684\u4fe1\u53f7\u2014\u2014\u4e00\u65e6 AI capex \u56de\u672c\u903b\u8f91\u7ad9\u4e0d\u4f4f\uff0c\u98ce\u9669\u655e\u53e3\u4f1a\u901a\u8fc7\u503a\u5e02\u4f20\u5bfc\u5f97\u66f4\u5e7f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3858,
       "ts": 1788809706,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes ",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 28 Aug 2026 02:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBnaERpTElwYXhFZ1NJRk4ydHJGakZvLVVBWl9VWFF1UTRmVGFJWUh0UTR0VVRYWkhPZk5KX3g0NkhUaU1KNkR4ODgwR0thVzdRaVdpX2RULU1UWHFwd2hpcDJVOHhqdHZJN3MtWUc4emhTdGxkWEE?oc=5\n\nSK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes industry cycles - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBnaERpTElwYXhFZ1NJRk4ydHJGakZvLVVBWl9VWFF1UTRmVGFJWUh0UTR0VVRYWkhPZk5KX3g0NkhUaU1KNkR4ODgwR0thVzdRaVdpX2RULU1UWHFwd2hpcDJVOHhqdHZJN3MtWUc4emhTdGxkWEE?oc=5\" target=\"_blank\">SK Hynix CEO Kwak Noh-jung: Memory chip shortage expected to last through end of 2030, AI customization demand reshapes industry cycles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK Hynix CEO Kwak Noh-jung stated the memory chip shortage is expected to persist through end of 2030, driven by AI customization demand reshaping industry cycles.\n\n\u5185\u5bb9:\nSK Hynix CEO \u90ed\u9b6f\u6b63\u8868\u793a\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u9884\u8ba1\u5c06\u6301\u7eed\u5230 2030 \u5e74\u5e95\uff0cAI \u5b9a\u5236\u5316\u9700\u6c42\u6b63\u5728\u91cd\u5851\u884c\u4e1a\u5468\u671f\u3002\n\nWhy it matters:\nA supplier executive publicly extending the shortage horizon to 2030 signals structural, not cyclical, memory tightness \u2014 bullish for HBM/DRAM pricing power but bearish for AI-infra buildout economics downstream, since memory cost is a growing share of accelerator BOM.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4f9b\u5e94\u5546\u9ad8\u7ba1\u516c\u5f00\u628a\u77ed\u7f3a\u65f6\u95f4\u7ebf\u62c9\u5230 2030 \u5e74\uff0c\u8bf4\u660e\u8fd9\u662f\u7ed3\u6784\u6027\u800c\u975e\u5468\u671f\u6027\u7d27\u5f20\u2014\u2014\u5bf9 HBM/DRAM \u5b9a\u4ef7\u6743\u662f\u5229\u597d\uff0c\u4f46\u5bf9\u4e0b\u6e38 AI \u57fa\u5efa\u7684\u5efa\u8bbe\u7ecf\u6d4e\u6027\u662f\u5229\u7a7a\uff0c\u56e0\u4e3a\u5185\u5b58\u6210\u672c\u5728\u52a0\u901f\u5361\u7269\u6599\u6e05\u5355\u91cc\u7684\u5360\u6bd4\u5728\u4e0a\u5347\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3658,
-      "ts": 1787915117,
-      "ts_str": "2026-08-28 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 28 Aug 2026 08:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5\n\nDDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5\" target=\"_blank\">DDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item claims DDR5 prices have surged fivefold in a year, driven by China's HBM demand creating a shortage in legacy DRAM.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0 DDR5 \u4ef7\u683c\u4e00\u5e74\u5185\u66b4\u6da8\u4e94\u500d\uff0c\u4e2d\u56fd\u5bf9 HBM \u7684\u65fa\u76db\u9700\u6c42\u5f15\u53d1\u4e86\u4f20\u7edf DRAM \u7684\u77ed\u7f3a\u3002\n\nWhy it matters:\nA fivefold DRAM price spike signals severe memory supply-chain stress feeding directly into AI-infrastructure build costs \u2014 it's the kind of input-cost shock that squeezes hyperscaler capex economics and can force hardware-spec substitutions across the AI stack.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u4e00\u5e74\u6da8\u4e94\u500d\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u538b\u529b\u6781\u5927\uff0c\u76f4\u63a5\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u7a7a\u95f4\uff0c\u4e5f\u53ef\u80fd\u5012\u903c AI \u786c\u4ef6\u89c4\u683c\u4e0a\u7684\u66ff\u4ee3\u65b9\u6848\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3659,
-      "ts": 1787915117,
-      "ts_str": "2026-08-28 11:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 28 Aug 2026 08:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5\n\nDDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB1bDI0eE9hSXB4V1c2Y04xWjVXbDdpd213bXNVdndoV19JSjBHWFRCMHZ2LUo1U3I3UW1UbDBFcE5WLUcyNWJYcHN3RWR4SWVaajZ2MkQwSzJzMlB1NFJqQWxwM2VVR2hKOUI1S3VFMnQ5QVRCRHc?oc=5\" target=\"_blank\">DDR5 Prices Surge Fivefold in a Year \u2014 China's HBM Obsession Creates a Legacy DRAM Shortage Paradox</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item claims DDR5 prices have surged fivefold in a year, driven by China's HBM demand creating a shortage in legacy DRAM.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0 DDR5 \u4ef7\u683c\u4e00\u5e74\u5185\u66b4\u6da8\u4e94\u500d\uff0c\u4e2d\u56fd\u5bf9 HBM \u7684\u65fa\u76db\u9700\u6c42\u5f15\u53d1\u4e86\u4f20\u7edf DRAM \u7684\u77ed\u7f3a\u3002\n\nWhy it matters:\nA fivefold DRAM price spike signals severe memory supply-chain stress feeding directly into AI-infrastructure build costs \u2014 it's the kind of input-cost shock that squeezes hyperscaler capex economics and can force hardware-spec substitutions across the AI stack.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u4e00\u5e74\u6da8\u4e94\u500d\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u94fe\u538b\u529b\u6781\u5927\uff0c\u76f4\u63a5\u63a8\u9ad8 AI \u57fa\u7840\u8bbe\u65bd\u7684\u5efa\u8bbe\u6210\u672c\uff0c\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u7a7a\u95f4\uff0c\u4e5f\u53ef\u80fd\u5012\u903c AI \u786c\u4ef6\u89c4\u683c\u4e0a\u7684\u66ff\u4ee3\u65b9\u6848\u3002\n",
       "emailed": false
     }
   ],
