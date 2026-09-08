@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788849666,
-  "generated_at_str": "2026-09-08 06:41:06 UTC",
-  "last_event_ts": 1788849306,
+  "generated_at": 1788849859,
+  "generated_at_str": "2026-09-08 06:44:19 UTC",
+  "last_event_ts": 1788849858,
   "tables": {
     "alerts_dedup": {
-      "count": 3855,
-      "last_ts": 1788846434,
-      "last_str": "2026-09-08 05:47:14 UTC"
+      "count": 3856,
+      "last_ts": 1788849858,
+      "last_str": "2026-09-08 06:44:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-07 23:00:39 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5132,
-      "last_ts": 1788848044,
-      "last_str": "2026-09-08 06:14:04 UTC"
+      "count": 5133,
+      "last_ts": 1788849845,
+      "last_str": "2026-09-08 06:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1171,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-08 06:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29672,
-      "last_ts": 1788848043,
-      "last_str": "2026-09-08 06:14:03 UTC"
+      "count": 29676,
+      "last_ts": 1788849843,
+      "last_str": "2026-09-08 06:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8900,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3863,
+      "ts": 1788849858,
+      "ts_str": "2026-09-08 06:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] OpenAI and Anthropic Race Toward Investment-Grade Ratings, Eyeing the $11.7 Trillion Bond Market Post-IPO - finance.bigg",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 06:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZl96eVhJa3IyRWtyUWdaYk55c1FjVGJyWHduc0l1WXVaUXBIR0ZWNFlPNFp6M0dhWWNlSDBZalNYbnZMdmpveU5WVEpCRk5mLVcwRWZraDc4dklvVE1sUldtQ2ZteHE0NjZ4bU03UHgzamxVUGc?oc=5\n\nOpenAI and Anthropic Race Toward Investment-Grade Ratings, Eyeing the $11.7 Trillion Bond Market Post-IPO - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZl96eVhJa3IyRWtyUWdaYk55c1FjVGJyWHduc0l1WXVaUXBIR0ZWNFlPNFp6M0dhWWNlSDBZalNYbnZMdmpveU5WVEpCRk5mLVcwRWZraDc4dklvVE1sUldtQ2ZteHE0NjZ4bU03UHgzamxVUGc?oc=5\" target=\"_blank\">OpenAI and Anthropic Race Toward Investment-Grade Ratings, Eyeing the $11.7 Trillion Bond Market Post-IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headlines report OpenAI and Anthropic are pursuing investment-grade credit ratings to access the $11.7 trillion corporate bond market post-IPO.\n\n\u5185\u5bb9:\n\u591a\u5bb6 Google News \u62a5\u9053\u79f0\uff0cOpenAI \u548c Anthropic \u6b63\u5728\u4e89\u53d6\u6295\u8d44\u7ea7\u4fe1\u7528\u8bc4\u7ea7\uff0c\u4ee5\u4fbf IPO \u540e\u8fdb\u5165\u89c4\u6a21 11.7 \u4e07\u4ebf\u7f8e\u5143\u7684\u503a\u5238\u5e02\u573a\u3002\n\nWhy it matters:\nInvestment-grade ratings let AI labs issue cheap long-duration debt to fund compute buildout instead of relying on equity/VC rounds \u2014 a structural shift toward leveraging the capex cycle. It also signals rating agencies and bond markets are starting to underwrite AI-lab cash flows as durable, which raises the stakes if burn rates or revenue growth disappoint.\n\n\u5f71\u54cd:\n\u62ff\u5230\u6295\u8d44\u7ea7\u8bc4\u7ea7\u610f\u5473\u7740\u8fd9\u4e9b AI \u5b9e\u9a8c\u5ba4\u53ef\u4ee5\u53d1\u884c\u4f4e\u6210\u672c\u7684\u957f\u671f\u503a\u5238\u4e3a\u7b97\u529b\u6269\u5f20\u878d\u8d44\uff0c\u800c\u4e0d\u518d\u53ea\u9760\u80a1\u6743\u548c VC \u8f93\u8840\u2014\u2014\u8fd9\u662f\u8d44\u672c\u5f00\u652f\u5468\u671f\u5411\u52a0\u6760\u6746\u7684\u7ed3\u6784\u6027\u8f6c\u53d8\u3002\u540c\u65f6\u4e5f\u8bf4\u660e\u8bc4\u7ea7\u673a\u6784\u548c\u503a\u5238\u5e02\u573a\u5df2\u7ecf\u5f00\u59cb\u628a AI \u5b9e\u9a8c\u5ba4\u7684\u73b0\u91d1\u6d41\u5f53\u4f5c\u53ef\u6301\u7eed\u8d44\u4ea7\u6765\u5b9a\u4ef7\uff0c\u4e00\u65e6\u70e7\u94b1\u901f\u5ea6\u6216\u8425\u6536\u589e\u957f\u4e0d\u53ca\u9884\u671f\uff0c\u98ce\u9669\u655e\u53e3\u4f1a\u66f4\u5927\u3002\n",
+      "emailed": true
+    },
     {
       "id": 3862,
       "ts": 1788846434,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] CXMT Returned To Profit As DRAM Prices Jumped - Finimize",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 28 Aug 2026 13:01:45 GMT\nLink:      https://news.google.com/rss/articles/CBMif0FVX3lxTFByQk9DMXV5blRSbGJfWUVVWDRQY1luVlpxU3U2NldyaHNrLXBWNmtnaFJCTXI4RXFRaGZEc3FNSXRFNDFCUE44RWNyYXlWaXhpMVhlVDZ3bHFOSHl5VTRDaUU3b1NCZmtxWWJ3OU1peUdCQmZFZHJheldqQWlhSEU?oc=5\n\nCXMT Returned To Profit As DRAM Prices Jumped - Finimize\n\n<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFByQk9DMXV5blRSbGJfWUVVWDRQY1luVlpxU3U2NldyaHNrLXBWNmtnaFJCTXI4RXFRaGZEc3FNSXRFNDFCUE44RWNyYXlWaXhpMVhlVDZ3bHFOSHl5VTRDaUU3b1NCZmtxWWJ3OU1peUdCQmZFZHJheldqQWlhSEU?oc=5\" target=\"_blank\">CXMT Returned To Profit As DRAM Prices Jumped</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finimize</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports CXMT returned to profitability as DRAM prices jumped, repeated twice in the same RSS entry.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053 CXMT \u56e0 DRAM \u4ef7\u683c\u4e0a\u6da8\u800c\u6062\u590d\u76c8\u5229\uff0c\u540c\u4e00\u6761 RSS \u91cc\u91cd\u590d\u4e86\u4e24\u904d\u3002\n\nWhy it matters:\nRising DRAM prices and a Chinese memory maker's return to profit signal tightening memory supply \u2014 a cost tailwind for chipmakers but a margin headwind for AI-server buyers, consistent with the memory-shortage side of the capex-stress thesis.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7\u53e0\u52a0\u4e2d\u56fd\u5b58\u50a8\u5382\u5546 CXMT \u626d\u4e8f\u4e3a\u76c8\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u5728\u6536\u7d27\u2014\u2014\u5bf9\u82af\u7247\u5382\u662f\u6210\u672c\u5229\u597d\uff0c\u4f46\u5bf9\u91c7\u8d2d AI \u670d\u52a1\u5668\u7684\u5382\u5546\u662f\u5229\u6da6\u538b\u529b\uff0c\u7b26\u5408\u5185\u5b58\u77ed\u7f3a\u8fd9\u6761\u5bf9 AI capex \u65bd\u538b\u7684\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3663,
-      "ts": 1787924655,
-      "ts_str": "2026-08-28 13:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI launches ChatGPT ads in India ahead of 2027 IPO - qz.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 28 Aug 2026 13:17:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE8wb1FzNnlESWt2UzliLXExSHhNMEdlZUJKeWh6SjZ3ZHFMb2xVQlFTbkFaY1RPSkxWQnlpU0RrZU9mZDhMdEl3SnczVFVYY1NVcW5QUWI2Q2J4T2VRdGY3MW5sVUZURjhkTVE?oc=5\n\nOpenAI launches ChatGPT ads in India ahead of 2027 IPO - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE8wb1FzNnlESWt2UzliLXExSHhNMEdlZUJKeWh6SjZ3ZHFMb2xVQlFTbkFaY1RPSkxWQnlpU0RrZU9mZDhMdEl3SnczVFVYY1NVcW5QUWI2Q2J4T2VRdGY3MW5sVUZURjhkTVE?oc=5\" target=\"_blank\">OpenAI launches ChatGPT ads in India ahead of 2027 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS entries report OpenAI launching ChatGPT ads in India ahead of a rumored 2027 IPO \u2014 duplicate items from feed overlap.\n\n\u5185\u5bb9:\n\u4e24\u6761 Google News RSS \u6761\u76ee\u62a5\u9053 OpenAI \u5728\u5370\u5ea6\u4e0a\u7ebf ChatGPT \u5e7f\u544a\uff0c\u4e3a 2027 \u5e74\u4f20\u95fb\u4e2d\u7684 IPO \u94fa\u8def\u2014\u2014feed \u91cd\u53e0\u5bfc\u81f4\u7684\u91cd\u590d\u6761\u76ee\u3002\n\nWhy it matters:\nPure business-development/monetization news, not a burn-rate or capex signal \u2014 this is C3's MED-tier IPO-speculation noise, not evidence of financial stress.\n\n\u5f71\u54cd:\n\u7eaf\u7cb9\u662f\u5546\u4e1a\u62d3\u5c55/\u53d8\u73b0\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u70e7\u94b1\u7387\u6216\u8d44\u672c\u5f00\u652f\u4fe1\u53f7\u2014\u2014\u5c5e\u4e8e C3 \u7684 MED \u5c42 IPO \u6295\u673a\u566a\u97f3\uff0c\u4e0d\u662f\u8d22\u52a1\u627f\u538b\u7684\u8bc1\u636e\u3002\n",
       "emailed": false
     }
   ],
