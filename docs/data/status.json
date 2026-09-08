@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788889262,
-  "generated_at_str": "2026-09-08 17:41:02 UTC",
-  "last_event_ts": 1788888905,
+  "generated_at": 1788889456,
+  "generated_at_str": "2026-09-08 17:44:16 UTC",
+  "last_event_ts": 1788889455,
   "tables": {
     "alerts_dedup": {
-      "count": 3890,
-      "last_ts": 1788886057,
-      "last_str": "2026-09-08 16:47:37 UTC"
+      "count": 3891,
+      "last_ts": 1788889455,
+      "last_str": "2026-09-08 17:44:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-07 23:00:39 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5164,
-      "last_ts": 1788884045,
-      "last_str": "2026-09-08 16:14:05 UTC"
+      "count": 5166,
+      "last_ts": 1788889445,
+      "last_str": "2026-09-08 17:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1177,
-      "last_ts": 1788887646,
-      "last_str": "2026-09-08 17:14:06 UTC"
+      "count": 1178,
+      "last_ts": 1788889446,
+      "last_str": "2026-09-08 17:44:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5649,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-08 17:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 29845,
-      "last_ts": 1788887644,
-      "last_str": "2026-09-08 17:14:04 UTC"
+      "count": 29854,
+      "last_ts": 1788889443,
+      "last_str": "2026-09-08 17:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8981,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3898,
+      "ts": 1788889455,
+      "ts_str": "2026-09-08 17:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 17:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\n\nSoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\" target=\"_blank\">SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a large junk-bond offering to help fund its OpenAI investment commitments.\n\n\u5185\u5bb9:\nSoftBank \u8ba1\u5212\u53d1\u884c\u4e00\u7b14\u5927\u89c4\u6a21\u5783\u573e\u503a\uff0c\u7528\u4e8e\u586b\u8865\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u627f\u8bfa\u3002\n\nWhy it matters:\nFinancing an AI equity stake with sub-investment-grade debt signals the money isn't coming from free cash flow \u2014 it's leveraged, which raises the stakes if OpenAI's growth or funding path disappoints. It also feeds directly into the credit-market stress channel this tracker watches via C7.\n\n\u5f71\u54cd:\n\u7528\u5783\u573e\u7ea7\u503a\u5238\u7ed9 AI \u80a1\u6743\u6295\u8d44\u878d\u8d44\uff0c\u8bf4\u660e\u8fd9\u7b14\u94b1\u4e0d\u662f\u81ea\u7531\u73b0\u91d1\u6d41\u51fa\u7684\uff0c\u800c\u662f\u52a0\u6760\u6746\u501f\u6765\u7684\u2014\u2014\u4e00\u65e6 OpenAI \u7684\u589e\u957f\u6216\u540e\u7eed\u878d\u8d44\u4e0d\u987a\uff0c\u98ce\u9669\u4f1a\u88ab\u653e\u5927\u3002\u8fd9\u4e5f\u76f4\u63a5\u8fde\u5230 C7 \u76ef\u7684\u4fe1\u7528\u5e02\u573a\u538b\u529b\u90a3\u6761\u7ebf\u3002\n",
+      "emailed": true
+    },
     {
       "id": 3895,
       "ts": 1788886057,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI\u2019s ChatGPT Ad Business Reaches $1 Billion Run Rate as IPO Looms - citybiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 14:03:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVNpRzhCVVNBSXJOeDB1aTItYlpxaWVvWC1lVnA4eTVZTnMwY1FKLUlCRXZ5dG1uRW0yaldjNTZVT213WnhCU3B1Y1dXVUFpZG91M2ttMFJKSnU3dFNpUEtkeUZFR3ktaHJlN1d4R3p6Y3FJOE5NNFZuU1NXLWZucVozdldQSmpfQXZYNVJ3ZXVhamxPWlNzdXNRM2xyTDNHQ0NwVl9kMkU4dw?oc=5\n\nOpenAI\u2019s ChatGPT Ad Business Reaches $1 Billion Run Rate as IPO Looms - citybiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVNpRzhCVVNBSXJOeDB1aTItYlpxaWVvWC1lVnA4eTVZTnMwY1FKLUlCRXZ5dG1uRW0yaldjNTZVT213WnhCU3B1Y1dXVUFpZG91M2ttMFJKSnU3dFNpUEtkeUZFR3ktaHJlN1d4R3p6Y3FJOE5NNFZuU1NXLWZucVozdldQSmpfQXZYNVJ3ZXVhamxPWlNzdXNRM2xyTDNHQ0NwVl9kMkU4dw?oc=5\" target=\"_blank\">OpenAI\u2019s ChatGPT Ad Business Reaches $1 Billion Run Rate as IPO Looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">citybiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's ChatGPT ad business hit a $1 billion annualized run rate, reported as the company approaches a potential IPO.\n\n\u5185\u5bb9:\nOpenAI \u7684 ChatGPT \u5e7f\u544a\u4e1a\u52a1\u5e74\u5316\u6536\u5165\u8fbe\u5230 10 \u4ebf\u7f8e\u5143\uff0c\u62a5\u9053\u65f6\u673a\u6b63\u503c\u516c\u53f8\u8003\u8651 IPO\u3002\n\nWhy it matters:\nA real, monetizing revenue line for OpenAI weakens the pure-cost-center bear case and supports the capex-justification narrative \u2014 but $1B run rate is still small next to the ~$1T+ compute commitments being scrutinized, so it's a modest counter-signal, not a resolution.\n\n\u5f71\u54cd:\nOpenAI \u6709\u4e86\u4e00\u6761\u771f\u5b9e\u53d8\u73b0\u7684\u6536\u5165\u7ebf\uff0c\u8fd9\u4f1a\u524a\u5f31\u300c\u7eaf\u70e7\u94b1\u300d\u7684\u770b\u7a7a\u8bba\u8c03\uff0c\u5bf9 capex \u5408\u7406\u6027\u53d9\u4e8b\u662f\u4e2a\u652f\u6491\uff1b\u4f46 10 \u4ebf\u7f8e\u5143\u5e74\u5316\u6536\u5165\u76f8\u5bf9\u4e8e\u5916\u754c\u8d28\u7591\u7684\u4e07\u4ebf\u7ea7\u7b97\u529b\u627f\u8bfa\u4ecd\u7136\u5f88\u5c0f\uff0c\u53ea\u662f\u4e00\u4e2a\u6e29\u548c\u7684\u53cd\u5411\u4fe1\u53f7\uff0c\u8c08\u4e0d\u4e0a\u5b9a\u8bba\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3698,
-      "ts": 1788184034,
-      "ts_str": "2026-08-31 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Just Unlocked 911 Million Shares... Here's What Happens Next Archie Sussex 7th Birthday Photo (hUIyWVKTOa) - Msha",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 12:23:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wSGg4eHY2aXVqSHBUU3lNcENrYjJYU0lOb1dHWkhYNHZEeTRONkJHbWxxejkxRFB6dHd1MmlHVFVhNHdYVlJyZnhXTVhHR1JCNklLcVcxZkVmX2s?oc=5\n\nSpaceX Just Unlocked 911 Million Shares... Here's What Happens Next Archie Sussex 7th Birthday Photo (hUIyWVKTOa) - Mshale\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wSGg4eHY2aXVqSHBUU3lNcENrYjJYU0lOb1dHWkhYNHZEeTRONkJHbWxxejkxRFB6dHd1MmlHVFVhNHdYVlJyZnhXTVhHR1JCNklLcVcxZkVmX2s?oc=5\" target=\"_blank\">SpaceX Just Unlocked 911 Million Shares... Here's What Happens Next Archie Sussex 7th Birthday Photo (hUIyWVKTOa)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mshale</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline surfaced 911 million SpaceX shares becoming unlocked, but the article is generic clickbait riding an unrelated celebrity-photo caption (\"Archie Sussex 7th Birthday Photo\").\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u63d0\u5230 SpaceX \u89e3\u7981\u4e86 9.11 \u4ebf\u80a1\uff0c\u4f46\u6587\u7ae0\u6b63\u6587\u5176\u5b9e\u662f\u8e6d\u4e86\u4e00\u6bb5\u65e0\u5173\u7684\u540d\u4eba\u751f\u65e5\u7167\u7247\u8bf4\u660e\uff08\"Archie Sussex 7th Birthday Photo\"\uff09\u7684\u4f4e\u8d28\u805a\u5408\u5185\u5bb9\u3002\n\nWhy it matters:\nThis is likely a proximity-classifier false positive \u2014 the unlock-figure phrase is real but the surrounding content is low-quality aggregator noise, not verified reporting; treat the underlying 911M-share unlock claim as unconfirmed until corroborated by a primary source.\n\n\u5f71\u54cd:\n\u8fd9\u5f88\u53ef\u80fd\u662f\u5206\u7c7b\u5668\u8bef\u62a5\u2014\u2014\u89e3\u7981\u80a1\u6570\u8fd9\u4e2a\u8bf4\u6cd5\u672c\u8eab\u6216\u8bb8\u771f\u5b9e\uff0c\u4f46\u5468\u8fb9\u5185\u5bb9\u660e\u663e\u662f\u805a\u5408\u7ad9\u566a\u97f3\u800c\u975e\u6838\u5b9e\u8fc7\u7684\u62a5\u9053\uff0c\u5728\u6709\u4e00\u624b\u4fe1\u6e90\u4f50\u8bc1\u4e4b\u524d\uff0c9.11 \u4ebf\u80a1\u89e3\u7981\u8fd9\u4e2a\u6570\u5b57\u5e94\u89c6\u4e3a\u672a\u7ecf\u8bc1\u5b9e\u3002\n",
       "emailed": false
     }
   ],
