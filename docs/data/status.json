@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788951723,
-  "generated_at_str": "2026-09-09 11:02:03 UTC",
-  "last_event_ts": 1788950837,
+  "generated_at": 1788951913,
+  "generated_at_str": "2026-09-09 11:05:13 UTC",
+  "last_event_ts": 1788951907,
   "tables": {
     "alerts_dedup": {
-      "count": 3926,
-      "last_ts": 1788950837,
-      "last_str": "2026-09-09 10:47:17 UTC"
+      "count": 3927,
+      "last_ts": 1788951907,
+      "last_str": "2026-09-09 11:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-09 10:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5695,
-      "last_ts": 1788950102,
-      "last_str": "2026-09-09 10:35:02 UTC"
+      "count": 5696,
+      "last_ts": 1788951903,
+      "last_str": "2026-09-09 11:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6820,
-      "last_ts": 1788950105,
-      "last_str": "2026-09-09 10:35:05 UTC"
+      "count": 6824,
+      "last_ts": 1788951906,
+      "last_str": "2026-09-09 11:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4107,
-      "last_ts": 1788950103,
-      "last_str": "2026-09-09 10:35:03 UTC"
+      "count": 4109,
+      "last_ts": 1788951904,
+      "last_str": "2026-09-09 11:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5147,
-      "last_ts": 1788950107,
-      "last_str": "2026-09-09 10:35:07 UTC"
+      "count": 5148,
+      "last_ts": 1788951907,
+      "last_str": "2026-09-09 11:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30040,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3934,
+      "ts": 1788951907,
+      "ts_str": "2026-09-09 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage: Stockpiles Fall Below 10 Days [2026] - shattered.io",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 07:24:14 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XMlEzdkhhZmhEeGRKSUxWU1pYSXg1OVFSRzVzaHZVWXNuRjBGWmQ1ZTlpWGhwT3BBSkdacEJZM2tjUVBBM0hvQ2ZPMXlmT1UxNXp1aGh1RTF1Yjg4c1h6RGVpUGhlUQ?oc=5\n\nMemory Chip Shortage: Stockpiles Fall Below 10 Days [2026] - shattered.io\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XMlEzdkhhZmhEeGRKSUxWU1pYSXg1OVFSRzVzaHZVWXNuRjBGWmQ1ZTlpWGhwT3BBSkdacEJZM2tjUVBBM0hvQ2ZPMXlmT1UxNXp1aGh1RTF1Yjg4c1h6RGVpUGhlUQ?oc=5\" target=\"_blank\">Memory Chip Shortage: Stockpiles Fall Below 10 Days [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline is reporting that memory chip stockpiles have fallen below 10 days, framed as a shortage rather than a specific ticker or filing.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\u5185\u5b58\u82af\u7247\u5e93\u5b58\u5df2\u8dcc\u7834 10 \u5929,\u62a5\u9053\u65b9\u5411\u662f\u77ed\u7f3a\u800c\u975e\u5177\u4f53\u516c\u53f8\u6216\u8d22\u62a5\u6570\u636e\u3002\n\nWhy it matters:\nA sub-10-day inventory buffer signals tight DRAM/NAND supply, which supports pricing power for memory makers and validates the AI-infra demand story \u2014 but it's a single repeated headline with no numbers or source attribution, so it reads more like a wire duplicate than confirmed new information.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u4f4e\u4e8e 10 \u5929\u610f\u5473\u7740 DRAM/NAND \u4f9b\u7ed9\u504f\u7d27,\u7406\u8bba\u4e0a\u652f\u6491\u5185\u5b58\u5382\u5546\u7684\u5b9a\u4ef7\u6743,\u4e5f\u5370\u8bc1 AI \u57fa\u5efa\u7684\u9700\u6c42\u53d9\u4e8b\u2014\u2014\u4f46\u8fd9\u6761\u53ea\u662f\u6807\u9898\u91cd\u590d\u51fa\u73b0\u4e24\u904d,\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u6216\u6765\u6e90,\u66f4\u50cf\u662f\u540c\u4e00\u6761\u65b0\u95fb\u88ab\u91cd\u590d\u6293\u53d6,\u800c\u4e0d\u662f\u65b0\u589e\u5b9e\u9524\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3932,
       "ts": 1788950837,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Nvidia\u2019s $3B Bet On SB Energy Anchors SoftBank Data-Center IPO Push \u2013 OpenAI Holds 3.9M Warrants - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 12:27:34 GMT\nLink:      https://news.google.com/rss/articles/CBMi6gFBVV95cUxOa1dvSnl6d1BsRUlzWHM3QWhDb01qRUwyaThfQ3QzNlBzTXlWVm1UYmZ6bVNxOUV0MDlQSEpZMExrN3UzUHplSVhJeDBsQTBiMmw1bTJWZ2hINV8xRUkwcUx6OWtLOFFmNloyX0x1Yi1sa2ZqazdteUlhWW1lclMwcXVLaUstaHhBY1BBdnFzNV9mck1VSnZTZ2g1aWFDdzdTbXdFX0JkdjE1cEpXU2E4RnFCTjlycnpOckM3ZlQ2NXBkRDVSY1ZwSUJFeG1VWnNRcHJNSTMta1UzTWpxRzIta016SmFERVpzblE?oc=5\n\nNvidia\u2019s $3B Bet On SB Energy Anchors SoftBank Data-Center IPO Push \u2013 OpenAI Holds 3.9M Warrants - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOa1dvSnl6d1BsRUlzWHM3QWhDb01qRUwyaThfQ3QzNlBzTXlWVm1UYmZ6bVNxOUV0MDlQSEpZMExrN3UzUHplSVhJeDBsQTBiMmw1bTJWZ2hINV8xRUkwcUx6OWtLOFFmNloyX0x1Yi1sa2ZqazdteUlhWW1lclMwcXVLaUstaHhBY1BBdnFzNV9mck1VSnZTZ2g1aWFDdzdTbXdFX0JkdjE1cEpXU2E4RnFCTjlycnpOckM3ZlQ2NXBkRDVSY1ZwSUJFeG1VWnNRcHJNSTMta1UzTWpxRzIta016SmFERVpzblE?oc=5\" target=\"_blank\">Nvidia\u2019s $3B Bet On SB Energy Anchors SoftBank Data-Center IPO Push \u2013 OpenAI Holds 3.9M Warrants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNvidia is investing $3B in SB Energy to anchor SoftBank's data-center IPO push; OpenAI separately holds 3.9 million warrants tied to the deal.\n\n\u5185\u5bb9:\nNvidia \u5411 SB Energy \u6295\u8d44 $3B\uff0c\u4e3a SoftBank \u7684\u6570\u636e\u4e2d\u5fc3 IPO \u94fa\u8def\uff1bOpenAI \u5219\u6301\u6709\u8be5\u4ea4\u6613\u76f8\u5173\u7684 390 \u4e07\u4efd\u8ba4\u80a1\u6743\u8bc1\u3002\n\nWhy it matters:\nThis is circular AI-infrastructure financing \u2014 a chipmaker bankrolling the power/data-center supplier for the buildout, while the largest compute customer holds equity upside in the same vehicle. It's evidence of the ecosystem's interlocking capital structure, not new capex or distress data, so it stays a background MED signal for the C3 thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f AI \u57fa\u7840\u8bbe\u65bd\u91cc\u5178\u578b\u7684\u5faa\u73af\u878d\u8d44\u2014\u2014\u82af\u7247\u5382\u5546\u51fa\u8d44\u652f\u6301\u6570\u636e\u4e2d\u5fc3/\u7535\u529b\u4f9b\u5e94\u5546\u7684\u5efa\u8bbe\uff0c\u800c\u6700\u5927\u7684\u7b97\u529b\u4e70\u5bb6\u53c8\u5728\u540c\u4e00\u4e2a\u8f7d\u4f53\u91cc\u6301\u6709\u80a1\u6743\u4e0a\u884c\u7a7a\u95f4\u3002\u8fd9\u6761\u53ea\u662f\u63ed\u793a\u4e86\u751f\u6001\u5708\u8d44\u672c\u7ed3\u6784\u4e92\u76f8\u5d4c\u5957\uff0c\u4e0d\u6d89\u53ca\u65b0\u589e capex \u6216\u8d22\u52a1\u56f0\u5883\u6570\u636e\uff0c\u5bf9 C3 \u8bba\u70b9\u6765\u8bf4\u5c5e\u4e8e\u80cc\u666f\u7ea7 MED \u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3734,
-      "ts": 1788266656,
-      "ts_str": "2026-09-01 12:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Nvidia Puts $3B Into SB Energy, OpenAI Holds Nearly 4M Warrants In IPO - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 12:31:09 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT191dk9aOWZEY1JoZk42ZDM4ZXNLb0J0MTc5bjk3YkdhS0xLUTRBREd6SG5TdTE2QkdhSExxRDRiTUNxcHV5UXdwMlVKTzFUYmtnaVFNVXNYaWlxYUxUcThPbkZoakJYOXJIdlNpc285N3FPVXJoOFRTT08wTWNUcThqWmlpdFk2SFhyUnBEekk2T3pGM0FyeTFTWGFScXRXdi04cWw0OGl3dnJkcEtHOW1zeUZjTUZCblRYbnNsaWRtTi1WRk5qLVZqRmd6cnNrYXc?oc=5\n\nNvidia Puts $3B Into SB Energy, OpenAI Holds Nearly 4M Warrants In IPO - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT191dk9aOWZEY1JoZk42ZDM4ZXNLb0J0MTc5bjk3YkdhS0xLUTRBREd6SG5TdTE2QkdhSExxRDRiTUNxcHV5UXdwMlVKTzFUYmtnaVFNVXNYaWlxYUxUcThPbkZoakJYOXJIdlNpc285N3FPVXJoOFRTT08wTWNUcThqWmlpdFk2SFhyUnBEekk2T3pGM0FyeTFTWGFScXRXdi04cWw0OGl3dnJkcEtHOW1zeUZjTUZCblRYbnNsaWRtTi1WRk5qLVZqRmd6cnNrYXc?oc=5\" target=\"_blank\">Nvidia Puts $3B Into SB Energy, OpenAI Holds Nearly 4M Warrants In IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNvidia is investing $3B into SB Energy, and OpenAI is disclosed to hold nearly 4 million warrants tied to an IPO.\n\n\u5185\u5bb9:\nNvidia \u5411 SB Energy \u6295\u8d44 $3B\uff0c\u540c\u65f6\u62ab\u9732 OpenAI \u6301\u6709\u8fd1 400 \u4e07\u4efd\u4e0e\u67d0 IPO \u76f8\u5173\u7684\u8ba4\u80a1\u6743\u8bc1\u3002\n\nWhy it matters:\nBoth items sit in the OpenAI-adjacent capex/equity web the C3 tracker watches: Nvidia funding downstream power/infra for AI buildout, and OpenAI's own equity stakes surfacing via IPO warrant disclosures. Neither is itself a distress signal \u2014 this is background noise on the ecosystem, not a burn-rate or filing-language trigger.\n\n\u5f71\u54cd:\n\u8fd9\u4e24\u4ef6\u4e8b\u90fd\u843d\u5728 C3 \u8ffd\u8e2a\u7684 OpenAI \u76f8\u5173\u8d44\u672c/\u80a1\u6743\u7f51\u7edc\u91cc\uff1aNvidia \u5728\u4e3a AI \u57fa\u5efa\u7684\u4e0b\u6e38\u7535\u529b\u6295\u94b1\uff0cOpenAI \u81ea\u5df1\u7684\u80a1\u6743\u5e03\u5c40\u4e5f\u968f IPO \u8ba4\u80a1\u6743\u8bc1\u62ab\u9732\u6d6e\u51fa\u6c34\u9762\u3002\u4f46\u4e24\u8005\u672c\u8eab\u90fd\u4e0d\u662f\u56f0\u5883\u4fe1\u53f7\uff0c\u53ea\u662f\u751f\u6001\u7cfb\u7edf\u7684\u80cc\u666f\u566a\u97f3\uff0c\u6ca1\u6709\u89e6\u53d1 burn-rate \u6216\u63aa\u8f9e\u5c42\u9762\u7684\u771f\u5b9e\u8b66\u62a5\u3002\n",
       "emailed": false
     }
   ],
