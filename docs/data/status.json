@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788921123,
-  "generated_at_str": "2026-09-09 02:32:03 UTC",
-  "last_event_ts": 1788920045,
+  "generated_at": 1788921318,
+  "generated_at_str": "2026-09-09 02:35:18 UTC",
+  "last_event_ts": 1788921317,
   "tables": {
     "alerts_dedup": {
-      "count": 3908,
-      "last_ts": 1788918424,
-      "last_str": "2026-09-09 01:47:04 UTC"
+      "count": 3911,
+      "last_ts": 1788921317,
+      "last_str": "2026-09-09 02:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-09-09 00:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5675,
-      "last_ts": 1788919503,
-      "last_str": "2026-09-09 02:05:03 UTC"
+      "count": 5676,
+      "last_ts": 1788921302,
+      "last_str": "2026-09-09 02:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6789,
-      "last_ts": 1788919505,
-      "last_str": "2026-09-09 02:05:05 UTC"
+      "count": 6792,
+      "last_ts": 1788921304,
+      "last_str": "2026-09-09 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4093,
-      "last_ts": 1788917704,
-      "last_str": "2026-09-09 01:35:04 UTC"
+      "count": 4095,
+      "last_ts": 1788921303,
+      "last_str": "2026-09-09 02:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5131,
@@ -310,6 +310,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3916,
+      "ts": 1788921317,
+      "ts_str": "2026-09-09 02:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 02:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\n\nUBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\" target=\"_blank\">UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUBS forecasts the memory chip shortage will persist through 2027, with the broader semiconductor upturn extending to at least 2028.\n\n\u5185\u5bb9:\n\u745e\u94f6\u9884\u6d4b\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\uff0c\u6574\u4e2a\u534a\u5bfc\u4f53\u4e0a\u884c\u5468\u671f\u81f3\u5c11\u5ef6\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nA multi-year DRAM/NAND/HBM shortage keeps memory pricing elevated for hyperscaler AI-server build-outs, pressuring capex budgets and supporting the memory-supplier margin story \u2014 but a forecast this long-dated (through 2027-2028) is itself a sign the market is pricing in an extended up-cycle, which raises the bar for disappointment if demand slips.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u77ed\u7f3a\u62d6\u8fd9\u4e48\u4e45\uff0c\u610f\u5473\u7740 AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u4f1a\u957f\u671f\u5c45\u9ad8\u4e0d\u4e0b\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u9884\u7b97\uff0c\u4f46\u4e5f\u6491\u4f4f\u5185\u5b58\u5382\u5546\u7684\u5229\u6da6\u6545\u4e8b\uff1b\u4e0d\u8fc7\u8fd9\u79cd\u4e00\u53e3\u6c14\u770b\u5230 2027-2028 \u7684\u9884\u6d4b\uff0c\u672c\u8eab\u4e5f\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u628a\u300c\u957f\u5468\u671f\u4e0a\u884c\u300d\u63d0\u524d\u8ba1\u5165\u4ef7\u683c\uff0c\u4e00\u65e6\u9700\u6c42\u4e0d\u5982\u9884\u671f\uff0c\u56de\u843d\u7684\u843d\u5dee\u4f1a\u66f4\u5927\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3917,
+      "ts": 1788921317,
+      "ts_str": "2026-09-09 02:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 02:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\n\nUBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\" target=\"_blank\">UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUBS forecasts the memory chip shortage will persist through 2027, with the broader semiconductor upturn extending to at least 2028.\n\n\u5185\u5bb9:\n\u745e\u94f6\u9884\u6d4b\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\uff0c\u6574\u4e2a\u534a\u5bfc\u4f53\u4e0a\u884c\u5468\u671f\u81f3\u5c11\u5ef6\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nA multi-year DRAM/NAND/HBM shortage keeps memory pricing elevated for hyperscaler AI-server build-outs, pressuring capex budgets and supporting the memory-supplier margin story \u2014 but a forecast this long-dated (through 2027-2028) is itself a sign the market is pricing in an extended up-cycle, which raises the bar for disappointment if demand slips.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u77ed\u7f3a\u62d6\u8fd9\u4e48\u4e45\uff0c\u610f\u5473\u7740 AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u4f1a\u957f\u671f\u5c45\u9ad8\u4e0d\u4e0b\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u9884\u7b97\uff0c\u4f46\u4e5f\u6491\u4f4f\u5185\u5b58\u5382\u5546\u7684\u5229\u6da6\u6545\u4e8b\uff1b\u4e0d\u8fc7\u8fd9\u79cd\u4e00\u53e3\u6c14\u770b\u5230 2027-2028 \u7684\u9884\u6d4b\uff0c\u672c\u8eab\u4e5f\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u628a\u300c\u957f\u5468\u671f\u4e0a\u884c\u300d\u63d0\u524d\u8ba1\u5165\u4ef7\u683c\uff0c\u4e00\u65e6\u9700\u6c42\u4e0d\u5982\u9884\u671f\uff0c\u56de\u843d\u7684\u843d\u5dee\u4f1a\u66f4\u5927\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3918,
+      "ts": 1788921317,
+      "ts_str": "2026-09-09 02:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 02:26:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\n\nUBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028 - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBNeVR1c1doOUlWc1Z6WGI0c2RtUzFFek1yWmlmZVVkbTFBYXlrY25nUlQzNXk4S3FNMVpJVDUxTGFsQUhzTXV6ODFYdC1nZDVUQ0Mwd0VqTzZBem8wLWRObG9iZXphSGo2emJfOEpKSF95WW9fWEE?oc=5\" target=\"_blank\">UBS: Memory Chip Shortage to Extend Through 2027; Semiconductor Upturn to Last Until at Least 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUBS forecasts the memory chip shortage will persist through 2027, with the broader semiconductor upturn extending to at least 2028.\n\n\u5185\u5bb9:\n\u745e\u94f6\u9884\u6d4b\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\uff0c\u6574\u4e2a\u534a\u5bfc\u4f53\u4e0a\u884c\u5468\u671f\u81f3\u5c11\u5ef6\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nA multi-year DRAM/NAND/HBM shortage keeps memory pricing elevated for hyperscaler AI-server build-outs, pressuring capex budgets and supporting the memory-supplier margin story \u2014 but a forecast this long-dated (through 2027-2028) is itself a sign the market is pricing in an extended up-cycle, which raises the bar for disappointment if demand slips.\n\n\u5f71\u54cd:\n\u5185\u5b58\uff08DRAM/NAND/HBM\uff09\u77ed\u7f3a\u62d6\u8fd9\u4e48\u4e45\uff0c\u610f\u5473\u7740 AI \u670d\u52a1\u5668\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u4f1a\u957f\u671f\u5c45\u9ad8\u4e0d\u4e0b\uff0c\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u9884\u7b97\uff0c\u4f46\u4e5f\u6491\u4f4f\u5185\u5b58\u5382\u5546\u7684\u5229\u6da6\u6545\u4e8b\uff1b\u4e0d\u8fc7\u8fd9\u79cd\u4e00\u53e3\u6c14\u770b\u5230 2027-2028 \u7684\u9884\u6d4b\uff0c\u672c\u8eab\u4e5f\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u628a\u300c\u957f\u5468\u671f\u4e0a\u884c\u300d\u63d0\u524d\u8ba1\u5165\u4ef7\u683c\uff0c\u4e00\u65e6\u9700\u6c42\u4e0d\u5982\u9884\u671f\uff0c\u56de\u843d\u7684\u843d\u5dee\u4f1a\u66f4\u5927\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3915,
       "ts": 1788918424,
@@ -2278,36 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 23:21:42 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\n\nHBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\" target=\"_blank\">HBM Squeeze Pushes Legacy PC DRAM to Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM shortages driving legacy PC DRAM prices to a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0 HBM \u77ed\u7f3a\u6b63\u628a\u4f20\u7edf PC DRAM \u4ef7\u683c\u63a8\u81f3\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nTight DRAM/HBM supply raises input costs for every hyperscaler building AI servers and signals the memory market is being squeezed by AI demand rather than easing \u2014 a stress point for the capex-payback thesis if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u7ed9\u6301\u7eed\u504f\u7d27\uff0c\u4f1a\u63a8\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa AI \u670d\u52a1\u5668\u7684\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u6b63\u88ab AI \u9700\u6c42\u6324\u538b\u800c\u975e\u7f13\u89e3\u2014\u2014\u5982\u679c\u8fd9\u4e2a\u6001\u52bf\u6301\u7eed\uff0c\u4f1a\u7ed9 capex \u56de\u672c\u903b\u8f91\u589e\u52a0\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3719,
-      "ts": 1788221114,
-      "ts_str": "2026-09-01 00:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] HBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 23:21:42 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\n\nHBM Squeeze Pushes Legacy PC DRAM to Record High - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUdYZDA3Z1VUVklCOFg5RzZMNU1HVHJYcmg1TmJreVVEWE1nSkQtelhNckNtbEk5b1huMUZHV3V1S3RQZ1ZyLUpad0lnR2ZyVkJTNk9YZjllcFl6LS1hT1dIcjNHUjZzYXVTQ0NReGNONF9pam05LWYyV29rSS1XREkzMktybWVHdTFpVzhVY0xBWnFG?oc=5\" target=\"_blank\">HBM Squeeze Pushes Legacy PC DRAM to Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM shortages driving legacy PC DRAM prices to a record high.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u62a5\u9053\u79f0 HBM \u77ed\u7f3a\u6b63\u628a\u4f20\u7edf PC DRAM \u4ef7\u683c\u63a8\u81f3\u5386\u53f2\u65b0\u9ad8\u3002\n\nWhy it matters:\nTight DRAM/HBM supply raises input costs for every hyperscaler building AI servers and signals the memory market is being squeezed by AI demand rather than easing \u2014 a stress point for the capex-payback thesis if it persists.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u7ed9\u6301\u7eed\u504f\u7d27\uff0c\u4f1a\u63a8\u9ad8\u6240\u6709\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa AI \u670d\u52a1\u5668\u7684\u6210\u672c\uff0c\u4e5f\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u6b63\u88ab AI \u9700\u6c42\u6324\u538b\u800c\u975e\u7f13\u89e3\u2014\u2014\u5982\u679c\u8fd9\u4e2a\u6001\u52bf\u6301\u7eed\uff0c\u4f1a\u7ed9 capex \u56de\u672c\u903b\u8f91\u589e\u52a0\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3715,
-      "ts": 1788217515,
-      "ts_str": "2026-08-31 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - Startup Fortune",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 10:46:02 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\n\nHuawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHBhenpHTldERlppd1pvYjdZeU9DUlIzSDlyelN4blhXUlduTlBPV0lORnZjeGJTM29qczNHY29ITzFGXzA5QU9qUHZvSnBGOXl4S1R0WWhvYzNEN1RhOUVsS0tzTzZmWFk1QzExdEw5enlTZHZzV3llay1lOW5hTTNKN0Fwa1FUU2piVXNQN3NWVnRj?oc=5\" target=\"_blank\">Huawei's Profit Fell 36% in H1 2026 as Memory Chip Prices Surged</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei reported H1 2026 profit down 36%, attributing part of the hit to surging memory chip prices \u2014 DRAM/NAND cost inflation feeding through to a major device/server maker's bottom line.\n\n\u5185\u5bb9:\n\u534e\u4e3a\u62ab\u9732 2026 \u5e74\u4e0a\u534a\u5e74\u5229\u6da6\u4e0b\u6ed1 36%\uff0c\u90e8\u5206\u5f52\u56e0\u4e8e\u5185\u5b58\u82af\u7247\u4ef7\u683c\u98d9\u5347\u2014\u2014DRAM/NAND \u6210\u672c\u4e0a\u6da8\u76f4\u63a5\u51b2\u51fb\u8fd9\u5bb6\u4e3b\u8981\u8bbe\u5907/\u670d\u52a1\u5668\u5382\u5546\u7684\u5229\u6da6\u3002\n\nWhy it matters:\nMemory price spikes squeeze every hyperscaler and OEM buying HBM/DRAM for AI servers, not just Huawei \u2014 it's a cost-side confirmation that the memory shortage is real and already showing up in earnings, reinforcing the AI-capex cost-inflation thread.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u6324\u538b\u7684\u4e0d\u53ea\u662f\u534e\u4e3a\uff0c\u6240\u6709\u91c7\u8d2d HBM/DRAM \u5efa AI \u670d\u52a1\u5668\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c OEM \u90fd\u53d7\u5f71\u54cd\u2014\u2014\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u8d22\u62a5\u5229\u6da6\u7aef\u7684\u6210\u672c\u4fa7\u8bc1\u636e\uff0c\u52a0\u56fa\u4e86 AI capex \u6210\u672c\u901a\u80c0\u8fd9\u6761\u7ebf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3716,
-      "ts": 1788217515,
-      "ts_str": "2026-08-31 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 22:00:05 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\n\nMemory Shortage Deepens as HBM Export Price Tops $70 - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTlVaMU5iNkhpMWdjTDBxa3Y0STdTeWotd3h5SFh4MjIxMTQ5RXEtWnczRlBDSGxNYy1RZDBKbjNoUTRhaWpUV09UZlRrOWJDQUZNbkRnNTF4Ti1VLXE3MXhCQ0kwY1ltd1dCbVd1aUxJYUtNZXp0TkVGUjN2Rm93b3pHZmd6cXZDWTIxY0VjTXRDQm1Ibmd3Wg?oc=5\" target=\"_blank\">Memory Shortage Deepens as HBM Export Price Tops $70</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports a memory-market shortage, stating HBM export prices have risen above $70.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u62a5\u9053\u5185\u5b58\u5e02\u573a\u77ed\u7f3a\u52a0\u5267\uff0cHBM \u51fa\u53e3\u4ef7\u683c\u7a81\u7834 $70\u3002\n\nWhy it matters:\nRising HBM prices confirm demand for AI-accelerator memory continues to outstrip supply \u2014 a bullish input cost signal that also raises hyperscaler capex and squeezes margins for anyone buying HBM downstream, feeding the AI-infra bubble-stress thesis from the supply-tightness side.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u8bf4\u660e AI \u52a0\u901f\u5361\u6240\u9700\u5185\u5b58\u7684\u9700\u6c42\u4ecd\u5728\u8d85\u8fc7\u4f9b\u7ed9\uff0c\u8fd9\u65e2\u662f\u6210\u672c\u7aef\u7684\u5229\u597d\u4fe1\u53f7\uff0c\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\uff0c\u538b\u7f29\u4e0b\u6e38\u91c7\u8d2d\u65b9\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4ece\u4f9b\u7ed9\u7d27\u5f20\u8fd9\u4e00\u4fa7\u5370\u8bc1 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u7684\u5224\u65ad\u3002\n",
       "emailed": false
     }
   ],
