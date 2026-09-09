@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788948126,
-  "generated_at_str": "2026-09-09 10:02:06 UTC",
-  "last_event_ts": 1788947233,
+  "generated_at": 1788948316,
+  "generated_at_str": "2026-09-09 10:05:16 UTC",
+  "last_event_ts": 1788948316,
   "tables": {
     "alerts_dedup": {
-      "count": 3923,
-      "last_ts": 1788947233,
-      "last_str": "2026-09-09 09:47:13 UTC"
+      "count": 3924,
+      "last_ts": 1788948316,
+      "last_str": "2026-09-09 10:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-09-09 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5691,
-      "last_ts": 1788946503,
-      "last_str": "2026-09-09 09:35:03 UTC"
+      "count": 5693,
+      "last_ts": 1788948303,
+      "last_str": "2026-09-09 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6816,
-      "last_ts": 1788946505,
-      "last_str": "2026-09-09 09:35:05 UTC"
+      "count": 6818,
+      "last_ts": 1788948305,
+      "last_str": "2026-09-09 10:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4105,
-      "last_ts": 1788946504,
-      "last_str": "2026-09-09 09:35:04 UTC"
+      "count": 4106,
+      "last_ts": 1788948304,
+      "last_str": "2026-09-09 10:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5143,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3931,
+      "ts": 1788948316,
+      "ts_str": "2026-09-09 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage: Stockpiles Fall Below 10 Days [2026] - shattered.io",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 07:24:14 GMT\nLink:      https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XMlEzdkhhZmhEeGRKSUxWU1pYSXg1OVFSRzVzaHZVWXNuRjBGWmQ1ZTlpWGhwT3BBSkdacEJZM2tjUVBBM0hvQ2ZPMXlmT1UxNXp1aGh1RTF1Yjg4c1h6RGVpUGhlUQ?oc=5\n\nMemory Chip Shortage: Stockpiles Fall Below 10 Days [2026] - shattered.io\n\n<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XMlEzdkhhZmhEeGRKSUxWU1pYSXg1OVFSRzVzaHZVWXNuRjBGWmQ1ZTlpWGhwT3BBSkdacEJZM2tjUVBBM0hvQ2ZPMXlmT1UxNXp1aGh1RTF1Yjg4c1h6RGVpUGhlUQ?oc=5\" target=\"_blank\">Memory Chip Shortage: Stockpiles Fall Below 10 Days [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline is reporting that memory chip stockpiles have fallen below 10 days, framed as a shortage rather than a specific ticker or filing.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\u5185\u5b58\u82af\u7247\u5e93\u5b58\u5df2\u8dcc\u7834 10 \u5929,\u62a5\u9053\u65b9\u5411\u662f\u77ed\u7f3a\u800c\u975e\u5177\u4f53\u516c\u53f8\u6216\u8d22\u62a5\u6570\u636e\u3002\n\nWhy it matters:\nA sub-10-day inventory buffer signals tight DRAM/NAND supply, which supports pricing power for memory makers and validates the AI-infra demand story \u2014 but it's a single repeated headline with no numbers or source attribution, so it reads more like a wire duplicate than confirmed new information.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u4f4e\u4e8e 10 \u5929\u610f\u5473\u7740 DRAM/NAND \u4f9b\u7ed9\u504f\u7d27,\u7406\u8bba\u4e0a\u652f\u6491\u5185\u5b58\u5382\u5546\u7684\u5b9a\u4ef7\u6743,\u4e5f\u5370\u8bc1 AI \u57fa\u5efa\u7684\u9700\u6c42\u53d9\u4e8b\u2014\u2014\u4f46\u8fd9\u6761\u53ea\u662f\u6807\u9898\u91cd\u590d\u51fa\u73b0\u4e24\u904d,\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u6216\u6765\u6e90,\u66f4\u50cf\u662f\u540c\u4e00\u6761\u65b0\u95fb\u88ab\u91cd\u590d\u6293\u53d6,\u800c\u4e0d\u662f\u65b0\u589e\u5b9e\u9524\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3929,
       "ts": 1788947233,
@@ -2298,16 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] ChatGPT predicts SpaceX stock price after September 9 share unlock - Cryptonews.net",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 31 Aug 2026 13:29:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yZzFEQlVpT3Y2bVpJdTU0b01odExZdk1qb0UtYlZiN1JacVNvRlNUdjVjSzJFLWUzQUJDeWNackl4eHZyREE0YmUzWXgzOTVjWjljeGNNR0xycm8?oc=5\n\nChatGPT predicts SpaceX stock price after September 9 share unlock - Cryptonews.net\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yZzFEQlVpT3Y2bVpJdTU0b01odExZdk1qb0UtYlZiN1JacVNvRlNUdjVjSzJFLWUzQUJDeWNackl4eHZyREE0YmUzWXgzOTVjWjljeGNNR0xycm8?oc=5\" target=\"_blank\">ChatGPT predicts SpaceX stock price after September 9 share unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA wave of near-identical headlines speculates that ChatGPT can predict SpaceX's stock price after the September 9 share unlock.\n\n\u5185\u5bb9:\n\u4e00\u6279\u9ad8\u5ea6\u96f7\u540c\u7684\u6807\u9898\u5728\u7092\u4f5c\u300cChatGPT \u9884\u6d4b SpaceX 9 \u6708 9 \u65e5\u89e3\u7981\u540e\u7684\u80a1\u4ef7\u300d\u3002\n\nWhy it matters:\nThis is AI-generated clickbait riding the SpaceX unlock story, not a substantive filing or market event \u2014 it carries no new information about the actual lock-up expiration or index-mechanics flow risk.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u8e6d SpaceX \u89e3\u7981\u70ed\u70b9\u7684 AI \u751f\u6210\u8425\u9500\u6587\uff0c\u4e0d\u662f\u771f\u6b63\u7684 filing \u6216\u5e02\u573a\u4e8b\u4ef6\uff0c\u5bf9\u89e3\u7981\u65e5\u5386\u672c\u8eab\u6216\u6307\u6570\u673a\u5236\u5c42\u9762\u7684\u6d41\u52a8\u6027\u98ce\u9669\u6ca1\u6709\u4efb\u4f55\u65b0\u589e\u4fe1\u606f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3731,
-      "ts": 1788257118,
-      "ts_str": "2026-09-01 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 09:23:12 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzllcHNmdFNacFpDVEI0M1otOVp6MWZOSDB5ZzlQenB0Z0JPQm9nOU5mXzd4dWJiVWY0czdPRjNUN2lzV3lVTkNIakw1X2pBSzZIWmFMZE1ENVQ2anNUeTFHdUlDODA5TklUWWN2SkxkZE9DZzZuVmNkWHV2OTVxQVR4N1Q0blJ6a2RGNVJlSHhkQXM5dGM2OA?oc=5\n\nTim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus. - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzllcHNmdFNacFpDVEI0M1otOVp6MWZOSDB5ZzlQenB0Z0JPQm9nOU5mXzd4dWJiVWY0czdPRjNUN2lzV3lVTkNIakw1X2pBSzZIWmFMZE1ENVQ2anNUeTFHdUlDODA5TklUWWN2SkxkZE9DZzZuVmNkWHV2OTVxQVR4N1Q0blJ6a2RGNVJlSHhkQXM5dGM2OA?oc=5\" target=\"_blank\">Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC/Motley Fool-style piece frames Apple's memory-chip shortage as a lasting margin risk, citing Tim Cook's warning before departing as CEO \u2014 no new capacity or pricing data.\n\n\u5185\u5bb9:\n\u4e00\u7bc7 CNBC/Motley Fool \u98ce\u683c\u7684\u6587\u7ae0\u501f Tim Cook \u5378\u4efb\u524d\u7684\u8b66\u544a\uff0c\u628a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5b9a\u6027\u4e3a\u82f9\u679c\u7684\u957f\u671f\u6bdb\u5229\u98ce\u9669\uff0c\u6ca1\u6709\u7ed9\u51fa\u65b0\u7684\u4ea7\u80fd\u6216\u5b9a\u4ef7\u6570\u636e\u3002\n\nWhy it matters:\nThis is downstream commentary on the same DRAM/NAND tightness driving AI-server costs, not a fresh capex or supply signal; it confirms the memory-price-stress thesis is now mainstream narrative, which raises the bar for what counts as new information in C6.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5bf9 DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u8fd9\u4e2a\u8001\u8bdd\u9898\u7684\u4e0b\u6e38\u8bc4\u8bba\uff0c\u4e0d\u662f\u65b0\u7684\u8d44\u672c\u5f00\u652f\u6216\u4f9b\u7ed9\u4fe1\u53f7\uff1b\u5b83\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u627f\u538b\u7684\u8bf4\u6cd5\u5df2\u7ecf\u8fdb\u5165\u4e3b\u6d41\u53d9\u4e8b\uff0c\u8fd9\u4f1a\u62ac\u9ad8 C6 \u5224\u65ad\"\u65b0\u4fe1\u606f\"\u7684\u95e8\u69db\u3002\n",
       "emailed": false
     }
   ],
