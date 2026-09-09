@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788960724,
-  "generated_at_str": "2026-09-09 13:32:04 UTC",
-  "last_event_ts": 1788959650,
+  "generated_at": 1788960918,
+  "generated_at_str": "2026-09-09 13:35:18 UTC",
+  "last_event_ts": 1788960918,
   "tables": {
     "alerts_dedup": {
-      "count": 3932,
-      "last_ts": 1788958038,
-      "last_str": "2026-09-09 12:47:18 UTC"
+      "count": 3933,
+      "last_ts": 1788960918,
+      "last_str": "2026-09-09 13:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-09 13:14:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5705,
-      "last_ts": 1788959107,
-      "last_str": "2026-09-09 13:05:07 UTC"
+      "count": 5706,
+      "last_ts": 1788960902,
+      "last_str": "2026-09-09 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6834,
-      "last_ts": 1788959111,
-      "last_str": "2026-09-09 13:05:11 UTC"
+      "count": 6835,
+      "last_ts": 1788960904,
+      "last_str": "2026-09-09 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4113,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-09 12:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5157,
-      "last_ts": 1788959113,
-      "last_str": "2026-09-09 13:05:13 UTC"
+      "count": 5158,
+      "last_ts": 1788960905,
+      "last_str": "2026-09-09 13:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30072,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3940,
+      "ts": 1788960918,
+      "ts_str": "2026-09-09 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] SSD Shortages Fueled by AI Boom Push HDD Prices to Record High - bloomingbit",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 13:20:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jb2VHSzdham9zNjR0YXQyUEJ1ZmZJemxIdXFxeXZEd2lra29Oa1prWWplSTJZNW1CMnRhNzlmX2FDMEZlWG8wdWI4Q1pzbFdnRWxldA?oc=5\n\nSSD Shortages Fueled by AI Boom Push HDD Prices to Record High - bloomingbit\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jb2VHSzdham9zNjR0YXQyUEJ1ZmZJemxIdXFxeXZEd2lra29Oa1prWWplSTJZNW1CMnRhNzlmX2FDMEZlWG8wdWI4Q1pzbFdnRWxldA?oc=5\" target=\"_blank\">SSD Shortages Fueled by AI Boom Push HDD Prices to Record High</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomingbit</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Reuters headline reports that AI-driven demand for SSDs has created shortages, pushing HDD prices to record highs \u2014 the item appears twice in the feed.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e\u62a5\u9053\u79f0\uff0cAI \u9a71\u52a8\u7684 SSD \u9700\u6c42\u9020\u6210\u77ed\u7f3a\uff0c\u628a HDD \u4ef7\u683c\u63a8\u5230\u5386\u53f2\u65b0\u9ad8\u2014\u2014\u8fd9\u6761\u6d88\u606f\u5728 feed \u91cc\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nConfirms C6's memory/storage stress thesis: hyperscaler AI buildouts are pulling so hard on NAND/SSD supply that spillover demand is bidding up substitute HDD capacity, a sign the storage supply chain is tightening under AI capex, not loosening.\n\n\u5f71\u54cd:\n\u8fd9\u5370\u8bc1\u4e86 C6 \u7684\u5b58\u50a8\u538b\u529b\u903b\u8f91\uff1a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 AI \u5efa\u8bbe\u5bf9 NAND/SSD \u7684\u62c9\u52a8\u5df2\u7ecf\u5f3a\u5230\u628a\u9700\u6c42\u5916\u6ea2\u5230\u66ff\u4ee3\u54c1 HDD \u4e0a\uff0c\u8bf4\u660e\u5b58\u50a8\u4f9b\u5e94\u94fe\u5728 AI capex \u4e0b\u6301\u7eed\u6536\u7d27\uff0c\u800c\u4e0d\u662f\u8f6c\u677e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3938,
       "ts": 1788958038,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C3-MED] SB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 13:06:14 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxQMV82QTVqaUlTdEFvNUxCbnlZTkFEZ3JzNlJRQXlId1JUMmxSbjhOblJ2X2VwcWg1WC1YeWl3ekRSd2lrXzdjbG1RNWs4MEdpWFB4cDB6RlJ4TzZYdjFzVlVrOGktSWRVb1hlOGowZThBdmNQQWJOTldMTUtuTXJ4SERFai1QV0xGd2I4TmNqeDZfVUxjTExn?oc=5\n\nSB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQMV82QTVqaUlTdEFvNUxCbnlZTkFEZ3JzNlJRQXlId1JUMmxSbjhOblJ2X2VwcWg1WC1YeWl3ekRSd2lrXzdjbG1RNWs4MEdpWFB4cDB6RlJ4TzZYdjFzVlVrOGktSWRVb1hlOGowZThBdmNQQWJOTldMTUtuTXJ4SERFai1QV0xGd2I4TmNqeDZfVUxjTExn?oc=5\" target=\"_blank\">SB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSB Energy's IPO filing discloses Nvidia investing $3B and OpenAI receiving warrants.\n\n\u5185\u5bb9:\nSB Energy \u7684 IPO \u6587\u4ef6\u62ab\u9732\uff0cNvidia \u5c06\u6295\u8d44 $3B\uff0cOpenAI \u83b7\u5f97\u8ba4\u80a1\u6743\u8bc1\u3002\n\nWhy it matters:\nNvidia is circular-financing its own downstream ecosystem while OpenAI collects warrant-based equity exposure without cash outlay \u2014 both patterns raise the same 'vendor financing propping up demand' question this tracker watches for.\n\n\u5f71\u54cd:\nNvidia \u5728\u7ed9\u81ea\u5df1\u4e0b\u6e38\u751f\u6001\u5708\u505a\u5faa\u73af\u878d\u8d44\uff0cOpenAI \u5219\u4e0d\u638f\u73b0\u91d1\u5c31\u62ff\u5230\u6743\u8bc1\u5f62\u5f0f\u7684\u80a1\u6743\u655e\u53e3\u2014\u2014\u8fd9\u4e24\u70b9\u90fd\u6307\u5411\u8fd9\u4e2a tracker \u4e00\u76f4\u5728\u76ef\u7684\u300c\u4f9b\u5e94\u5546\u878d\u8d44\u6491\u8d77\u9700\u6c42\u300d\u7684\u95ee\u9898\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3740,
-      "ts": 1788277634,
-      "ts_str": "2026-09-01 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX\u2019s Next Share Unlock Lands September 9, With SPCX Near Its Highs - FinanceFeeds",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 14:48:25 GMT\nLink:      https://news.google.com/rss/articles/CBMib0FVX3lxTE1YaGtseEdIQWRDQWJzV2ZPcG9PV1lnUTIzUkZQWjBnNG94OVRyTXRqZGV5R2RoSWtSQjFnNm92NEVfcGpOQklKdGJKX3c1NDdMdXNHYzd2dVhjUThwYnBIUVRjVlBkZi0tbURLR204UQ?oc=5\n\nSpaceX\u2019s Next Share Unlock Lands September 9, With SPCX Near Its Highs - FinanceFeeds\n\n<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1YaGtseEdIQWRDQWJzV2ZPcG9PV1lnUTIzUkZQWjBnNG94OVRyTXRqZGV5R2RoSWtSQjFnNm92NEVfcGpOQklKdGJKX3c1NDdMdXNHYzd2dVhjUThwYnBIUVRjVlBkZi0tbURLR204UQ?oc=5\" target=\"_blank\">SpaceX\u2019s Next Share Unlock Lands September 9, With SPCX Near Its Highs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanceFeeds</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's next scheduled share unlock is set for September 9, with SPCX trading near its highs going into the event.\n\n\u5185\u5bb9:\nSpaceX \u7684\u4e0b\u4e00\u6b21\u80a1\u4efd\u89e3\u7981\u5b9a\u5728 9 \u6708 9 \u65e5\uff0cSPCX \u76ee\u524d\u80a1\u4ef7\u63a5\u8fd1\u9ad8\u4f4d\u3002\n\nWhy it matters:\nA large unlock near price highs raises the odds of forced/opportunistic selling pressure once shares become tradeable, which is exactly the passive-flow mechanics C11 is watching for as a stress point in the AI-infra trade.\n\n\u5f71\u54cd:\n\u80a1\u4ef7\u5904\u4e8e\u9ad8\u4f4d\u65f6\u9047\u4e0a\u5927\u89c4\u6a21\u89e3\u7981\uff0c\u629b\u552e\u538b\u529b\u7684\u6982\u7387\u4f1a\u4e0a\u5347\uff0c\u8fd9\u6b63\u662f C11 \u5173\u6ce8\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u673a\u5236\u2014\u2014AI \u57fa\u7840\u8bbe\u65bd\u4ea4\u6613\u91cc\u7684\u4e00\u4e2a\u6f5c\u5728\u538b\u529b\u70b9\u3002\n",
       "emailed": false
     }
   ],
