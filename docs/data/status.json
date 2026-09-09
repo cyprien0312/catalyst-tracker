@@ -1,12 +1,12 @@
 {
-  "generated_at": 1788992778,
-  "generated_at_str": "2026-09-09 22:26:18 UTC",
-  "last_event_ts": 1788992045,
+  "generated_at": 1788992953,
+  "generated_at_str": "2026-09-09 22:29:13 UTC",
+  "last_event_ts": 1788992952,
   "tables": {
     "alerts_dedup": {
-      "count": 3948,
-      "last_ts": 1788990423,
-      "last_str": "2026-09-09 21:47:03 UTC"
+      "count": 3949,
+      "last_ts": 1788992952,
+      "last_str": "2026-09-09 22:29:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 54,
-      "last_ts": 1788906541,
-      "last_str": "2026-09-08 22:29:01 UTC"
+      "count": 55,
+      "last_ts": 1788992943,
+      "last_str": "2026-09-09 22:29:03 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3956,
+      "ts": 1788992952,
+      "ts_str": "2026-09-09 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.43% (+52bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-08\nCurrent:  2.43%\n90d low:  1.91%\nMove:     +52bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield rose to 2.43pp on 2026-09-08, up 0.52pp from its trailing-90-day low of 1.91pp.\n\n\u5185\u5bb9:\n10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5728 2026-09-08 \u5347\u81f3 2.43pp\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.91pp \u9ad8\u51fa 0.52pp\u3002\n\nWhy it matters:\nReal yields this high raise the discount rate on long-duration AI capex bets and make debt-funded data-center buildouts more expensive to finance. A sustained rise squeezes the exact leveraged spending this tracker is watching for stress.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8fd9\u4e48\u9ad8\uff0c\u4f1a\u63d0\u9ad8\u957f\u4e45\u671f AI capex \u9879\u76ee\u7684\u8d34\u73b0\u7387\uff0c\u4e5f\u8ba9\u9760\u4e3e\u503a\u5efa\u6570\u636e\u4e2d\u5fc3\u7684\u6a21\u5f0f\u878d\u8d44\u6210\u672c\u66f4\u9ad8\u3002\u5982\u679c\u8fd9\u4e2a\u6da8\u52bf\u6301\u7eed\uff0c\u538b\u7684\u6b63\u662f\u8fd9\u5957\u8ffd\u8e2a\u4f53\u7cfb\u6700\u5173\u5fc3\u7684\u6760\u6746\u5316\u652f\u51fa\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3955,
       "ts": 1788990423,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Phison CEO Warns Global NAND Flash Shortage Will Persist Through 2027 - streamlinefeed.co.ke",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 05:19:44 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0tqU0RjaUVoV1lpZ0hWa0loMlk4SVU4QkxrS0dvbDlIWG0yenE1TTlxQk1QMTlpYzNjTWFKa21FZGxDdzJhQUllZFI4R1Z5T1ZoTHFfZ3VTdWVXUmwydmlKaFRUR3BXYWN5LWg3bEFKV0prVFREbHFvVmhEcjVVZHpzVXZxeTdVdW5PVE9fN29Pc2E1XzNxdlZ6MFBJdDVHbVlESnVB?oc=5\n\nPhison CEO Warns Global NAND Flash Shortage Will Persist Through 2027 - streamlinefeed.co.ke\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0tqU0RjaUVoV1lpZ0hWa0loMlk4SVU4QkxrS0dvbDlIWG0yenE1TTlxQk1QMTlpYzNjTWFKa21FZGxDdzJhQUllZFI4R1Z5T1ZoTHFfZ3VTdWVXUmwydmlKaFRUR3BXYWN5LWg3bEFKV0prVFREbHFvVmhEcjVVZHpzVXZxeTdVdW5PVE9fN29Pc2E1XzNxdlZ6MFBJdDVHbVlESnVB?oc=5\" target=\"_blank\">Phison CEO Warns Global NAND Flash Shortage Will Persist Through 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">streamlinefeed.co.ke</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe Phison CEO warned that a global NAND flash shortage will persist through 2027.\n\n\u5185\u5bb9:\nPhison CEO \u8b66\u544a\uff0c\u5168\u7403 NAND \u95ea\u5b58\u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA multi-year supply constraint keeps memory prices elevated, raising the bill-of-materials cost for AI servers/GPUs and adding a persistent cost tailwind to the hyperscaler capex thesis \u2014 the opposite signal from an oversupply glut.\n\n\u5f71\u54cd:\n\u591a\u5e74\u671f\u7684\u4f9b\u7ed9\u7d27\u5f20\u4f1a\u8ba9\u5b58\u50a8\u4ef7\u683c\u7ef4\u6301\u9ad8\u4f4d\uff0c\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u7684\u7269\u6599\u6210\u672c\uff0c\u7ed9\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u53d9\u4e8b\u6dfb\u4e86\u4e00\u4e2a\u6301\u7eed\u7684\u6210\u672c\u538b\u529b\uff0c\u65b9\u5411\u4e0e\u4f9b\u5e94\u8fc7\u5269\u6b63\u597d\u76f8\u53cd\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3756,
-      "ts": 1788318305,
-      "ts_str": "2026-09-02 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 01 Sep 2026 09:14:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQdEtiVHV0MXR3SU9oaW5BOXljbnEyQm1jVk5QNHFlZEVyOXhJZlFROGJDOWIzTlFkOHVyZ2ZEQVBzZ0RGRXZmWG4yOThUbFdXa3NqVHYwM0JIUUVoT3hmUlEwdjlMcU9Mb0NKVUNkMWthWmtneEVOamxJTU5FRlk5V3lIenJGQQ?oc=5\n\nTim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus. - Currently.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQdEtiVHV0MXR3SU9oaW5BOXljbnEyQm1jVk5QNHFlZEVyOXhJZlFROGJDOWIzTlFkOHVyZ2ZEQVBzZ0RGRXZmWG4yOThUbFdXa3NqVHYwM0JIUUVoT3hmUlEwdjlMcU9Mb0NKVUNkMWthWmtneEVOamxJTU5FRlk5V3lIenJGQQ?oc=5\" target=\"_blank\">Tim Cook's Last Warning as Apple CEO Was That Memory Chip Shortages Won't Improve Any Time Soon. Here's What That Means for Apple's Margins Under John Ternus.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Currently.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA CNBC/Motley Fool-style piece frames Apple's memory-chip shortage as a lasting margin risk, citing Tim Cook's warning before departing as CEO \u2014 no new capacity or pricing data.\n\n\u5185\u5bb9:\n\u4e00\u7bc7 CNBC/Motley Fool \u98ce\u683c\u7684\u6587\u7ae0\u501f Tim Cook \u5378\u4efb\u524d\u7684\u8b66\u544a\uff0c\u628a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u5b9a\u6027\u4e3a\u82f9\u679c\u7684\u957f\u671f\u6bdb\u5229\u98ce\u9669\uff0c\u6ca1\u6709\u7ed9\u51fa\u65b0\u7684\u4ea7\u80fd\u6216\u5b9a\u4ef7\u6570\u636e\u3002\n\nWhy it matters:\nThis is downstream commentary on the same DRAM/NAND tightness driving AI-server costs, not a fresh capex or supply signal; it confirms the memory-price-stress thesis is now mainstream narrative, which raises the bar for what counts as new information in C6.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5bf9 DRAM/NAND \u4f9b\u5e94\u7d27\u5f20\u8fd9\u4e2a\u8001\u8bdd\u9898\u7684\u4e0b\u6e38\u8bc4\u8bba\uff0c\u4e0d\u662f\u65b0\u7684\u8d44\u672c\u5f00\u652f\u6216\u4f9b\u7ed9\u4fe1\u53f7\uff1b\u5b83\u8bf4\u660e\u5185\u5b58\u4ef7\u683c\u627f\u538b\u7684\u8bf4\u6cd5\u5df2\u7ecf\u8fdb\u5165\u4e3b\u6d41\u53d9\u4e8b\uff0c\u8fd9\u4f1a\u62ac\u9ad8 C6 \u5224\u65ad\"\u65b0\u4fe1\u606f\"\u7684\u95e8\u69db\u3002\n",
       "emailed": false
     }
   ],
