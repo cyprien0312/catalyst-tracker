@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789005723,
-  "generated_at_str": "2026-09-10 02:02:03 UTC",
-  "last_event_ts": 1789004644,
+  "generated_at": 1789005906,
+  "generated_at_str": "2026-09-10 02:05:06 UTC",
+  "last_event_ts": 1789005905,
   "tables": {
     "alerts_dedup": {
-      "count": 3952,
-      "last_ts": 1788998716,
-      "last_str": "2026-09-10 00:05:16 UTC"
+      "count": 3953,
+      "last_ts": 1789005905,
+      "last_str": "2026-09-10 02:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-10 01:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6861,
-      "last_ts": 1789002305,
-      "last_str": "2026-09-10 01:05:05 UTC"
+      "count": 6863,
+      "last_ts": 1789005904,
+      "last_str": "2026-09-10 02:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4125,
-      "last_ts": 1789004103,
-      "last_str": "2026-09-10 01:35:03 UTC"
+      "count": 4126,
+      "last_ts": 1789005903,
+      "last_str": "2026-09-10 02:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5192,
-      "last_ts": 1789004105,
-      "last_str": "2026-09-10 01:35:05 UTC"
+      "count": 5194,
+      "last_ts": 1789005905,
+      "last_str": "2026-09-10 02:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30226,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3960,
+      "ts": 1789005905,
+      "ts_str": "2026-09-10 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 23:41:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZ9IBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\n\nApple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZ9IBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\" target=\"_blank\">Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is raising iPhone prices across the lineup because DRAM costs have risen.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u7531\u4e8e DRAM \u6210\u672c\u4e0a\u6da8\uff0cApple \u6b63\u5728\u5168\u7ebf\u4e0a\u8c03 iPhone \u552e\u4ef7\u3002\n\nWhy it matters:\nA DRAM cost spike hitting consumer-electronics pricing power confirms memory-market tightness is broad enough to move end-product prices, not just component margins \u2014 supports the C6 memory/storage stress thesis of an AI-driven memory supply squeeze.\n\n\u5f71\u54cd:\nDRAM \u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7684\u7d27\u5f20\u7a0b\u5ea6\u5df2\u7ecf\u4e0d\u53ea\u662f\u538b\u7f29\u5382\u5546\u5229\u6da6\u7387\uff0c\u800c\u662f\u6491\u8d77 C6 \u5185\u5b58/\u5b58\u50a8\u7d27\u5f20\u7684\u8bba\u70b9\u2014\u2014AI \u9a71\u52a8\u7684\u5185\u5b58\u4f9b\u7ed9\u6324\u538b\u6b63\u5728\u6269\u6563\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3959,
       "ts": 1788998716,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Panasonic Connect to Raise Prices on Select Let's Note Models from October; SSD Upgrades Up to 2x More Expensive - finan",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 06:58:56 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1ua3p1eTlWdDlGYXp0aHRLR2FIR0JRUGpFSEtDNHotaUhwN1hjZ25hRExfaDlHRlJMdkUxaGpxWGREYmhHazRGN2Uwcm5CelhIUEdkbXZoY3R1aDEzeno0c2FsaVZEc1JEY2NNSlFCZ2pJQzMwR3c?oc=5\n\nPanasonic Connect to Raise Prices on Select Let's Note Models from October; SSD Upgrades Up to 2x More Expensive - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1ua3p1eTlWdDlGYXp0aHRLR2FIR0JRUGpFSEtDNHotaUhwN1hjZ25hRExfaDlHRlJMdkUxaGpxWGREYmhHazRGN2Uwcm5CelhIUEdkbXZoY3R1aDEzeno0c2FsaVZEc1JEY2NNSlFCZ2pJQzMwR3c?oc=5\" target=\"_blank\">Panasonic Connect to Raise Prices on Select Let's Note Models from October; SSD Upgrades Up to 2x More Expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPanasonic Connect is raising prices on select Let's Note laptop models from October, with SSD upgrade options costing up to 2x more than before.\n\n\u5185\u5bb9:\nPanasonic Connect \u5ba3\u5e03\u4ece 10 \u6708\u8d77\u4e0a\u8c03\u90e8\u5206 Let's Note \u7b14\u8bb0\u672c\u578b\u53f7\u4ef7\u683c\uff0c\u5176\u4e2d SSD \u5347\u7ea7\u9009\u9879\u7684\u52a0\u4ef7\u6700\u9ad8\u6da8\u5230\u539f\u6765\u7684 2 \u500d\u3002\n\nWhy it matters:\nA component-level price hike passed straight to OEM end products signals the memory/storage cost squeeze (DRAM/NAND/SSD) is real and severe enough that vendors can no longer absorb it \u2014 consistent with the broader memory-shortage-driven repricing cycle feeding AI-infrastructure cost pressure.\n\n\u5f71\u54cd:\n\u96f6\u90e8\u4ef6\u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u6574\u673a\u552e\u4ef7\uff0c\u8bf4\u660e\u5185\u5b58/\u5b58\u50a8\uff08DRAM/NAND/SSD\uff09\u7684\u6da8\u4ef7\u538b\u529b\u5927\u5230 OEM \u5382\u5546\u625b\u4e0d\u4f4f\u4e86\uff0c\u8ddf\u5f53\u524d\u5b58\u50a8\u77ed\u7f3a\u63a8\u9ad8\u6210\u672c\u3001\u8fdb\u800c\u4f20\u5bfc\u5230 AI \u57fa\u7840\u8bbe\u65bd\u5f00\u652f\u7684\u5927\u8d8b\u52bf\u662f\u4e00\u81f4\u7684\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3759,
-      "ts": 1788331472,
-      "ts_str": "2026-09-02 06:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SB Energy files for IPO, leans on OpenAI ties while losses mount - Briefs Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 02:51:27 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxNVFVfVkI3ZzRadXZiX1pPQXdZeTloVzBIV3NEWnhWQmVVcENYMDZkX1hNWFV1RVl2cHluWmtwYzRWY3Q5THFxbVhHYlpKcFg5Q05VeGxXc3c0ck9vYWlxN3pCTDZmSlI1elVKS05TbkpxeWxYTEYzc25lUXc1WFBRVFc0S3FnYV9uSzZNLVZVNjNhZw?oc=5\n\nSB Energy files for IPO, leans on OpenAI ties while losses mount - Briefs Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNVFVfVkI3ZzRadXZiX1pPQXdZeTloVzBIV3NEWnhWQmVVcENYMDZkX1hNWFV1RVl2cHluWmtwYzRWY3Q5THFxbVhHYlpKcFg5Q05VeGxXc3c0ck9vYWlxN3pCTDZmSlI1elVKS05TbkpxeWxYTEYzc25lUXc1WFBRVFc0S3FnYV9uSzZNLVZVNjNhZw?oc=5\" target=\"_blank\">SB Energy files for IPO, leans on OpenAI ties while losses mount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Briefs Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSB Energy filed for an IPO, with its prospectus emphasizing ties to OpenAI even as losses continue to grow.\n\n\u5185\u5bb9:\nSB Energy \u63d0\u4ea4 IPO \u7533\u8bf7\uff0c\u62db\u80a1\u6750\u6599\u5f3a\u8c03\u4e0e OpenAI \u7684\u5173\u8054\uff0c\u4f46\u516c\u53f8\u4e8f\u635f\u4ecd\u5728\u6269\u5927\u3002\n\nWhy it matters:\nA speculative OpenAI-adjacent IPO going out while losses widen is a classic late-cycle tell \u2014 capital markets are still willing to fund the ecosystem around OpenAI's growth story despite deteriorating unit economics.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u4e8f\u635f\u6301\u7eed\u6269\u5927\u7684 OpenAI \u6982\u5ff5\u516c\u53f8\u8fd8\u80fd\u53bb IPO\uff0c\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u2014\u2014\u8d44\u672c\u5e02\u573a\u4ecd\u613f\u610f\u4e3a OpenAI \u751f\u6001\u5708\u7684\u589e\u957f\u6545\u4e8b\u4e70\u5355\uff0c\u54ea\u6015\u57fa\u672c\u9762\u5728\u6076\u5316\u3002\n",
       "emailed": false
     }
   ],
