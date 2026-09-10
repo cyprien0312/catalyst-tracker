@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789021923,
-  "generated_at_str": "2026-09-10 06:32:03 UTC",
-  "last_event_ts": 1789020845,
+  "generated_at": 1789022118,
+  "generated_at_str": "2026-09-10 06:35:18 UTC",
+  "last_event_ts": 1789022117,
   "tables": {
     "alerts_dedup": {
-      "count": 3958,
-      "last_ts": 1789020318,
-      "last_str": "2026-09-10 06:05:18 UTC"
+      "count": 3959,
+      "last_ts": 1789022117,
+      "last_str": "2026-09-10 06:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-10 04:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6876,
-      "last_ts": 1789020307,
-      "last_str": "2026-09-10 06:05:07 UTC"
+      "count": 6877,
+      "last_ts": 1789022105,
+      "last_str": "2026-09-10 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4131,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3966,
+      "ts": 1789022117,
+      "ts_str": "2026-09-10 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] China AI chipmakers hike prices as HBM shortage hits domestic push - Reuters - Investing.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 06:22:43 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxNb0xuMEIyQkpEUUI0V21IVDl3VHJyUE5KNl9MNHBDbWo3MEhlRVZVbnFiOEcwVGliaFRINy1zTHd6SmJBWHZVSjdxTGdwUzhqMmZ5dTlqZjhIWlRDMGFHNHIzaF8yV24zMjhKUUx5VGw2cTRnbmE2dzRxcDZKbWhMRFVHMFQzYWhXeTRCdE9oc0xWQzRqeUtKQnRfUjZsdHpzZ3RoUnc5TzBWaERNVGxwSGk3NVU0akZIVDZBVmM2UTRLem1CM3VqblQtWHM?oc=5\n\nChina AI chipmakers hike prices as HBM shortage hits domestic push - Reuters - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNb0xuMEIyQkpEUUI0V21IVDl3VHJyUE5KNl9MNHBDbWo3MEhlRVZVbnFiOEcwVGliaFRINy1zTHd6SmJBWHZVSjdxTGdwUzhqMmZ5dTlqZjhIWlRDMGFHNHIzaF8yV24zMjhKUUx5VGw2cTRnbmE2dzRxcDZKbWhMRFVHMFQzYWhXeTRCdE9oc0xWQzRqeUtKQnRfUjZsdHpzZ3RoUnc5TzBWaERNVGxwSGk3NVU0akZIVDZBVmM2UTRLem1CM3VqblQtWHM?oc=5\" target=\"_blank\">China AI chipmakers hike prices as HBM shortage hits domestic push - Reuters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChina-based AI chipmakers are raising prices after an HBM shortage disrupted domestic supply chains, per Reuters.\n\n\u5185\u5bb9:\n\u636e\u8def\u900f\u793e\u62a5\u9053\uff0cHBM \u77ed\u7f3a\u51b2\u51fb\u56fd\u5185\u4f9b\u5e94\u94fe\u540e\uff0c\u4e2d\u56fd AI \u82af\u7247\u5382\u5546\u6b63\u5728\u6da8\u4ef7\u3002\n\nWhy it matters:\nA memory-price surge in a bubble-stress tracker signals demand outstripping supply at the hardware layer \u2014 the same HBM crunch constraining Nvidia/hyperscaler builds is now visible in China's domestic AI chip production, reinforcing that memory (not just GPUs) is a binding constraint on AI infrastructure buildout.\n\n\u5f71\u54cd:\n\u5728\u8fd9\u4e2a\u8ffd\u8e2a\u6ce1\u6cab\u538b\u529b\u7684\u4f53\u7cfb\u91cc\uff0c\u5b58\u50a8\u82af\u7247\u6da8\u4ef7\u8bf4\u660e\u786c\u4ef6\u5c42\u9700\u6c42\u5df2\u7ecf\u538b\u8fc7\u4f9b\u7ed9\u3002\u540c\u6837\u8fd9\u6ce2 HBM \u7d27\u7f3a\u4e5f\u5728\u5236\u7ea6\u82f1\u4f1f\u8fbe\u548c\u5404\u5927\u4e91\u5382\u5546\u7684\u5efa\u8bbe\u8282\u594f\uff0c\u5982\u4eca\u8fde\u4e2d\u56fd\u672c\u571f AI \u82af\u7247\u4ea7\u7ebf\u90fd\u53d7\u6ce2\u53ca\uff0c\u8bf4\u660e\u5b58\u50a8\uff08\u4e0d\u53ea\u662f GPU\uff09\u6b63\u6210\u4e3a AI \u57fa\u5efa\u6269\u5f20\u7684\u786c\u74f6\u9888\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3965,
       "ts": 1789020318,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX Stock Jumps as SpaceX Price Target Raised by Oppenheimer - CoinGape",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 13:35:11 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxPUHNXbjJCelpqbHZRQUFWUEI5bDVEUGRBSEN5UGhCRHlTalN1V05EbXdoaW4talFJSkFuN1ZsTGpTSkcyWE4yQkIwZ0dYYm54ZWUwZ3ZoNzA1Wm5kbU1laTl5RnA5dXp2R3dhc0p5SmVLR1praTRteVNmVVFpZHlJOHRMdVdlOXhjUHg4WnRZMlVrZmdMbGFKUk9JOA?oc=5\n\nSPCX Stock Jumps as SpaceX Price Target Raised by Oppenheimer - CoinGape\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPUHNXbjJCelpqbHZRQUFWUEI5bDVEUGRBSEN5UGhCRHlTalN1V05EbXdoaW4talFJSkFuN1ZsTGpTSkcyWE4yQkIwZ0dYYm54ZWUwZ3ZoNzA1Wm5kbU1laTl5RnA5dXp2R3dhc0p5SmVLR1praTRteVNmVVFpZHlJOHRMdVdlOXhjUHg4WnRZMlVrZmdMbGFKUk9JOA?oc=5\" target=\"_blank\">SPCX Stock Jumps as SpaceX Price Target Raised by Oppenheimer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGape</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX stock rose after Oppenheimer raised its price target on SpaceX.\n\n\u5185\u5bb9:\nOppenheimer \u4e0a\u8c03 SpaceX \u76ee\u6807\u4ef7\u540e\uff0cSPCX \u80a1\u4ef7\u4e0a\u6da8\u3002\n\nWhy it matters:\nA sell-side price-target bump is bullish sentiment noise, not a fundamental capex/unlock signal \u2014 flags as low-value background chatter for the C11 index-mechanics thesis rather than a real stress indicator.\n\n\u5f71\u54cd:\n\u5238\u5546\u4e0a\u8c03\u76ee\u6807\u4ef7\u5c5e\u4e8e\u60c5\u7eea\u9762\u6d88\u606f\uff0c\u4e0d\u662f\u8d44\u672c\u5f00\u652f\u6216\u89e3\u7981\u76f8\u5173\u7684\u57fa\u672c\u9762\u4fe1\u53f7\uff0c\u5bf9 C11 \u7684\u6307\u6570\u673a\u5236\u4e3b\u7ebf\u6765\u8bf4\u53ea\u662f\u4f4e\u4ef7\u503c\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u7b97\u771f\u6b63\u7684\u538b\u529b\u6307\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3767,
-      "ts": 1788356844,
-      "ts_str": "2026-09-02 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Oppenheimer raises SpaceX stock price target to $280 on AI growth - Investing.com UK",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 12:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWjlNTHVydjdYX1JJa0JOOTZZN0dRZHdHWG81b09oOTFlaUdZLVM2OGYxNjRpTG5QNTcteE5JTEJPSzg1SU55NExXQ0NtMEFCRXp0bUxCX09NcHZPaGZPSXd4Q2N0cC1iUXZEaVNKeUF0aWU0b00xUVMtSWViems3dUk3Q0VEUVoycWdfRUNjQV9FcjFDc0VtMFRXV0U3TG8xZmIwcmlVcTlZdTlXaDRsdzRvVHNkRHZKZzByQkhEek1PcXc?oc=5\n\nOppenheimer raises SpaceX stock price target to $280 on AI growth - Investing.com UK\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWjlNTHVydjdYX1JJa0JOOTZZN0dRZHdHWG81b09oOTFlaUdZLVM2OGYxNjRpTG5QNTcteE5JTEJPSzg1SU55NExXQ0NtMEFCRXp0bUxCX09NcHZPaGZPSXd4Q2N0cC1iUXZEaVNKeUF0aWU0b00xUVMtSWViems3dUk3Q0VEUVoycWdfRUNjQV9FcjFDc0VtMFRXV0U3TG8xZmIwcmlVcTlZdTlXaDRsdzRvVHNkRHZKZzByQkhEek1PcXc?oc=5\" target=\"_blank\">Oppenheimer raises SpaceX stock price target to $280 on AI growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOppenheimer raised its SpaceX stock price target to $280, citing AI-driven growth, per Investing.com UK coverage.\n\n\u5185\u5bb9:\nOppenheimer \u5c06 SpaceX \u80a1\u7968\u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $280\uff0c\u7406\u7531\u662f AI \u9a71\u52a8\u7684\u589e\u957f\uff0c\u6d88\u606f\u6765\u81ea Investing.com UK\u3002\n\nWhy it matters:\nAn analyst price-target bump is exactly the kind of passive/index-flow-adjacent sentiment C11 tracks ahead of the lock-up unlock \u2014 it signals bullish positioning building right as insider shares are set to become sellable, which can amplify downside if sentiment reverses before or during the unlock window.\n\n\u5f71\u54cd:\n\u5206\u6790\u5e08\u4e0a\u8c03\u76ee\u6807\u4ef7\u6b63\u662f C11 \u5173\u6ce8\u7684\u88ab\u52a8\u8d44\u91d1/\u60c5\u7eea\u6d41\u4fe1\u53f7\uff0c\u5728\u89e3\u7981\u7a97\u53e3\u524d\u5e02\u573a\u60c5\u7eea\u8f6c\u591a\uff0c\u4e00\u65e6\u89e3\u7981\u671f\u95f4\u60c5\u7eea\u53cd\u8f6c\uff0c\u629b\u538b\u53ef\u80fd\u88ab\u653e\u5927\u3002\n",
       "emailed": false
     }
   ],
