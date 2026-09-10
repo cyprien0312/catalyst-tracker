@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789055046,
-  "generated_at_str": "2026-09-10 15:44:06 UTC",
-  "last_event_ts": 1789055044,
+  "generated_at": 1789055237,
+  "generated_at_str": "2026-09-10 15:47:17 UTC",
+  "last_event_ts": 1789055235,
   "tables": {
     "alerts_dedup": {
-      "count": 3978,
-      "last_ts": 1789054519,
-      "last_str": "2026-09-10 15:35:19 UTC"
+      "count": 3980,
+      "last_ts": 1789055235,
+      "last_str": "2026-09-10 15:47:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-10 15:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9164,
-      "last_ts": 1789051623,
-      "last_str": "2026-09-10 14:47:03 UTC"
+      "count": 9176,
+      "last_ts": 1789055223,
+      "last_str": "2026-09-10 15:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3986,
+      "ts": 1789055235,
+      "ts_str": "2026-09-10 15:47 UTC",
+      "catalyst": "C11",
+      "severity": "HIGH",
+      "subject": "[C11-HIGH] SpaceX Lockup Expiry: 59M Shares Set To Hit The Market \u2014 Here\u2019s What Happened After Previous Unlocks - Yahoo Finance",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 12:20:46 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDl3TVlscEV6MnJBRG1Wd1hpZ09FekJKaWpjZWN2R3NEZFhtRjRQRE1ZNlhCTF94LXFfTFVhMjd4MVo3MUg4dkcyaFNYdEgxY0RYRkZ5ZVZiT2htNFpMYnFDdVFZazdrd0pjOVZ4bmlCLTlxWEdxaFY4bVEwVTZTdWh5TzY1d0tNek5nZ2s5QUZuNEtuYnZQV2Q2TlM?oc=5\n\nSpaceX Lockup Expiry: 59M Shares Set To Hit The Market \u2014 Here\u2019s What Happened After Previous Unlocks - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDl3TVlscEV6MnJBRG1Wd1hpZ09FekJKaWpjZWN2R3NEZFhtRjRQRE1ZNlhCTF94LXFfTFVhMjd4MVo3MUg4dkcyaFNYdEgxY0RYRkZ5ZVZiT2htNFpMYnFDdVFZazdrd0pjOVZ4bmlCLTlxWEdxaFY4bVEwVTZTdWh5TzY1d0tNek5nZ2s5QUZuNEtuYnZQV2Q2TlM?oc=5\" target=\"_blank\">SpaceX Lockup Expiry: 59M Shares Set To Hit The Market \u2014 Here\u2019s What Happened After Previous Unlocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item about SpaceX's 59M-share lock-up expiry frames it around what happened to the stock after previous unlocks \u2014 pure retrospective/speculative framing, no new filing or number disclosed.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u56f4\u7ed5 SpaceX 5900 \u4e07\u80a1\u89e3\u7981\u5c55\u5f00\uff0c\u5185\u5bb9\u662f\u56de\u987e\u4ee5\u5f80\u51e0\u6b21\u89e3\u7981\u540e\u80a1\u4ef7\u7684\u8d70\u52bf\u2014\u2014\u7eaf\u56de\u987e/\u731c\u6d4b\u6027\u6846\u67b6\uff0c\u6ca1\u6709\u65b0\u7684 filing \u6216\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nThis is exactly the mission-coverage/speculation pattern the C11 proximity classifier is meant to catch: a headline about the unlock calendar with no incremental fact (no new tranche size, no ETF flow, no filing). Treat as background noise unless it cites a concrete new data point.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u90bb\u8fd1\u5206\u7c7b\u5668\u8981\u8fc7\u6ee4\u6389\u7684\u90a3\u7c7b\u566a\u97f3\uff1a\u6807\u9898\u7ed5\u7740\u89e3\u7981\u65e5\u5386\u8bb2\u6545\u4e8b\uff0c\u5374\u6ca1\u6709\u65b0\u7684\u589e\u91cf\u4e8b\u5b9e\uff08\u6ca1\u6709\u65b0\u6279\u6b21\u89c4\u6a21\u3001\u6ca1\u6709 ETF \u8d44\u91d1\u6d41\u3001\u6ca1\u6709\u65b0 filing\uff09\u3002\u9664\u975e\u5f15\u7528\u4e86\u5177\u4f53\u65b0\u6570\u636e\uff0c\u5426\u5219\u5f53\u80cc\u666f\u566a\u97f3\u5904\u7406\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3987,
+      "ts": 1789055235,
+      "ts_str": "2026-09-10 15:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] Why SpaceX Could See $15.5 Billion in Forced Buying From the Nasdaq-100 Rebalance - KuCoin",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 13:03:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxNbDVBaENPakxwUDFiakxoSmxQbGdhd2ZQSXFWTGpkdy1FMDRFSV81TUkwT0dlZDZFSl9KcGp4WWExcmFDRDRvUUs3bFF6dEIwVjV3YVRSZmNYamtBYmRXcXhhWTZTTUpVOWt4Q0RYc2ZVQWhOeHVnV0lBenY3elBwZ2pWcWtveGlscWc?oc=5\n\nWhy SpaceX Could See $15.5 Billion in Forced Buying From the Nasdaq-100 Rebalance - KuCoin\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNbDVBaENPakxwUDFiakxoSmxQbGdhd2ZQSXFWTGpkdy1FMDRFSV81TUkwT0dlZDZFSl9KcGp4WWExcmFDRDRvUUs3bFF6dEIwVjV3YVRSZmNYamtBYmRXcXhhWTZTTUpVOWt4Q0RYc2ZVQWhOeHVnV0lBenY3elBwZ2pWcWtveGlscWc?oc=5\" target=\"_blank\">Why SpaceX Could See $15.5 Billion in Forced Buying From the Nasdaq-100 Rebalance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KuCoin</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports SpaceX could face up to $15.5B in forced buying tied to a Nasdaq-100 rebalance \u2014 passive index funds tracking the NDX would have to purchase shares mechanically once SpaceX is added.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u56e0\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u8c03\u4ed3\uff0cSpaceX \u53ef\u80fd\u9762\u4e34\u6700\u9ad8 $15.5B \u7684\u88ab\u52a8\u4e70\u76d8\u2014\u2014\u8ffd\u8e2a NDX \u7684\u88ab\u52a8\u57fa\u91d1\u4e00\u65e6\u628a SpaceX \u7eb3\u5165\u6210\u5206\u80a1\uff0c\u5c31\u5fc5\u987b\u673a\u68b0\u6027\u4e70\u5165\u3002\n\nWhy it matters:\nThis is index-mechanics demand, not fundamental demand: it comes from funds' mandate to track the index, not from anyone judging SpaceX's valuation. It can inflate the price on technical grounds alone, and the same mechanism reverses hard if SpaceX is ever removed or a reference cools.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6307\u6570\u673a\u5236\u5e26\u6765\u7684\u9700\u6c42\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u9a71\u52a8\u2014\u2014\u57fa\u91d1\u4e70\u662f\u56e0\u4e3a\u8981\u8ddf\u8e2a\u6307\u6570\uff0c\u4e0d\u662f\u56e0\u4e3a\u6709\u4eba\u5224\u65ad SpaceX \u503c\u8fd9\u4e2a\u4ef7\u3002\u8fd9\u79cd\u6280\u672f\u6027\u4e70\u76d8\u80fd\u5355\u7eaf\u9760\u8d44\u91d1\u6d41\u628a\u4ef7\u683c\u63a8\u9ad8\uff0c\u4f46\u540c\u4e00\u4e2a\u673a\u5236\u4e00\u65e6\u53cd\u5411\uff08\u5254\u9664\u6210\u5206\u80a1\u6216\u964d\u6e29\uff09\u4e5f\u4f1a\u540c\u6837\u673a\u68b0\u5730\u53cd\u566c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3985,
       "ts": 1789054519,
@@ -2288,26 +2308,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] Samsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon - Gizmodo",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 10:40:04 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGdQSEt6SGNaT19mRFhEX3lxQVItUjdyYWdhdFlpU3pnTllOWVptUHFpZ3p2RDFDLUtYTE4wZ28xNW5GVU9FZkk0OXBTLXliTHB4eDFkTWVEdkxHWUpJY3V1U3MtOUJDeGoxSnZzZ2p6dURfN3JnaFpzR3F5alBqVEdxTXo1NEVFeGdfek54LS1WeGRLUzZFM0labVM2TzVLNGRZVWVlVTgxaWZUd2k3dTN6WUV4VU4wNDlLZEVRVHNzOFppbWlR?oc=5\n\nSamsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon - Gizmodo\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGdQSEt6SGNaT19mRFhEX3lxQVItUjdyYWdhdFlpU3pnTllOWVptUHFpZ3p2RDFDLUtYTE4wZ28xNW5GVU9FZkk0OXBTLXliTHB4eDFkTWVEdkxHWUpJY3V1U3MtOUJDeGoxSnZzZ2p6dURfN3JnaFpzR3F5alBqVEdxTXo1NEVFeGdfek54LS1WeGRLUzZFM0labVM2TzVLNGRZVWVlVTgxaWZUd2k3dTN6WUV4VU4wNDlLZEVRVHNzOFppbWlR?oc=5\" target=\"_blank\">Samsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAmazon dropped the price of its Samsung 990 1TB SSD to a record low ahead of Labor Day.\n\n\u5185\u5bb9:\n\u4e9a\u9a6c\u900a\u628a Samsung 990 1TB SSD \u7684\u4ef7\u683c\u964d\u5230\u5386\u53f2\u65b0\u4f4e\uff0c\u8d76\u5728\u52b3\u52a8\u8282\u524d\u3002\n\nWhy it matters:\nA consumer-facing price cut on NAND-based storage is a soft, low-confidence read on the memory glut thesis \u2014 retail promos are driven by seasonal sales cycles as much as by wholesale oversupply, so this alone doesn't confirm the C6 thesis.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7 NAND \u5b58\u50a8\u964d\u4ef7\u5bf9\u5185\u5b58\u8fc7\u5269\u8fd9\u6761\u903b\u8f91\u53ea\u662f\u4e2a\u5f31\u4fe1\u53f7\u2014\u2014\u96f6\u552e\u4fc3\u9500\u53d7\u5b63\u8282\u6027\u5927\u4fc3\u5f71\u54cd\u4e0d\u4e9a\u4e8e\u6279\u53d1\u7aef\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u5355\u51ed\u8fd9\u4e00\u6761\u8fd8\u4e0d\u80fd\u5750\u5b9e C6 \u7684\u5224\u65ad\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3789,
-      "ts": 1788435314,
-      "ts_str": "2026-09-03 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Samsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon - Gizmodo",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 10:40:04 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGdQSEt6SGNaT19mRFhEX3lxQVItUjdyYWdhdFlpU3pnTllOWVptUHFpZ3p2RDFDLUtYTE4wZ28xNW5GVU9FZkk0OXBTLXliTHB4eDFkTWVEdkxHWUpJY3V1U3MtOUJDeGoxSnZzZ2p6dURfN3JnaFpzR3F5alBqVEdxTXo1NEVFeGdfek54LS1WeGRLUzZFM0labVM2TzVLNGRZVWVlVTgxaWZUd2k3dTN6WUV4VU4wNDlLZEVRVHNzOFppbWlR?oc=5\n\nSamsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon - Gizmodo\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPaGdQSEt6SGNaT19mRFhEX3lxQVItUjdyYWdhdFlpU3pnTllOWVptUHFpZ3p2RDFDLUtYTE4wZ28xNW5GVU9FZkk0OXBTLXliTHB4eDFkTWVEdkxHWUpJY3V1U3MtOUJDeGoxSnZzZ2p6dURfN3JnaFpzR3F5alBqVEdxTXo1NEVFeGdfek54LS1WeGRLUzZFM0labVM2TzVLNGRZVWVlVTgxaWZUd2k3dTN6WUV4VU4wNDlLZEVRVHNzOFppbWlR?oc=5\" target=\"_blank\">Samsung 990 1TB Internal SSD Sees a Quiet Price Drop to a Record Low Ahead of Labor Day on Amazon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAmazon dropped the price of its Samsung 990 1TB SSD to a record low ahead of Labor Day.\n\n\u5185\u5bb9:\n\u4e9a\u9a6c\u900a\u628a Samsung 990 1TB SSD \u7684\u4ef7\u683c\u964d\u5230\u5386\u53f2\u65b0\u4f4e\uff0c\u8d76\u5728\u52b3\u52a8\u8282\u524d\u3002\n\nWhy it matters:\nA consumer-facing price cut on NAND-based storage is a soft, low-confidence read on the memory glut thesis \u2014 retail promos are driven by seasonal sales cycles as much as by wholesale oversupply, so this alone doesn't confirm the C6 thesis.\n\n\u5f71\u54cd:\n\u6d88\u8d39\u7ea7 NAND \u5b58\u50a8\u964d\u4ef7\u5bf9\u5185\u5b58\u8fc7\u5269\u8fd9\u6761\u903b\u8f91\u53ea\u662f\u4e2a\u5f31\u4fe1\u53f7\u2014\u2014\u96f6\u552e\u4fc3\u9500\u53d7\u5b63\u8282\u6027\u5927\u4fc3\u5f71\u54cd\u4e0d\u4e9a\u4e8e\u6279\u53d1\u7aef\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u5355\u51ed\u8fd9\u4e00\u6761\u8fd8\u4e0d\u80fd\u5750\u5b9e C6 \u7684\u5224\u65ad\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3786,
-      "ts": 1788434057,
-      "ts_str": "2026-09-03 11:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China\u2019s AI Advances Weigh On OpenAI, Anthropic - Stocktw",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 02:59:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAJBVV95cUxPYnJxQkV5cHdiZjJTMDhHYWRUdDdZcTJFVF9xWFU3WEIybS1PcWtjOF9HZDJrUWFGdHNXUks2T2wzdmRTZ3dSdFlZUWdoMFUwY0gtUEJzODNtSXI4a2s3MldRbExxeEc3aTQwZUhPVk9nRnZVdjhhN2hrR0FOQkdDSk1nZmRBdzBDRDh5bWpiRVVpRy01SFBKN3lMdFRWLXl5R0w3VXp0Qk50X1B3N21WZXFwR0ctWFBfdGJYVkR1TXU3MDgwV2ZONnNRYV9NVDRBLVlBbGl2YWFZeEw4YjF3TjNQWl8xeW5lcHBENXZKa2NUOGV0bWdGZUo3ZE9jcm5uQVFiaQ?oc=5\n\nKimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China\u2019s AI Advances Weigh On OpenAI, Anthropic - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxPYnJxQkV5cHdiZjJTMDhHYWRUdDdZcTJFVF9xWFU3WEIybS1PcWtjOF9HZDJrUWFGdHNXUks2T2wzdmRTZ3dSdFlZUWdoMFUwY0gtUEJzODNtSXI4a2s3MldRbExxeEc3aTQwZUhPVk9nRnZVdjhhN2hrR0FOQkdDSk1nZmRBdzBDRDh5bWpiRVVpRy01SFBKN3lMdFRWLXl5R0w3VXp0Qk50X1B3N21WZXFwR0ctWFBfdGJYVkR1TXU3MDgwV2ZONnNRYV9NVDRBLVlBbGl2YWFZeEw4YjF3TjNQWl8xeW5lcHBENXZKa2NUOGV0bWdGZUo3ZE9jcm5uQVFiaQ?oc=5\" target=\"_blank\">Kimi K3 Operator Moonshot Reportedly Files For Hong Kong IPO As China\u2019s AI Advances Weigh On OpenAI, Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Reuters/media report says Moonshot AI's Kimi K3 has reportedly filed for a Hong Kong IPO, framed as part of China's AI advances putting competitive pressure on OpenAI and Anthropic.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u6708\u4e4b\u6697\u9762\uff08Moonshot AI\uff09\u7684 Kimi K3 \u5df2\u5c31\u6e2f\u80a1 IPO \u63d0\u4ea4\u7533\u8bf7\uff0c\u62a5\u9053\u5c06\u5176\u6846\u5b9a\u4e3a\u4e2d\u56fd AI \u8fdb\u5c55\u7ed9 OpenAI \u548c Anthropic \u5e26\u6765\u7ade\u4e89\u538b\u529b\u7684\u4e00\u90e8\u5206\u3002\n\nWhy it matters:\nThis is competitive-landscape news, not a direct OpenAI financial or filing event \u2014 it's a proxy signal that cheaper/faster Chinese model progress could compress OpenAI's pricing power and burn-rate runway, which is the underlying C3 thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u7ade\u4e89\u683c\u5c40\u7c7b\u65b0\u95fb\uff0c\u4e0d\u662f OpenAI \u81ea\u8eab\u7684\u8d22\u52a1\u6216\u76d1\u7ba1\u62ab\u9732\u4e8b\u4ef6\u2014\u2014\u5b83\u662f\u4e00\u4e2a\u4ee3\u7406\u4fe1\u53f7\uff0c\u8bf4\u660e\u4e2d\u56fd\u6a21\u578b\u66f4\u4fbf\u5b9c\u66f4\u5feb\u7684\u8fdb\u5c55\u53ef\u80fd\u538b\u7f29 OpenAI \u7684\u5b9a\u4ef7\u80fd\u529b\u548c\u8d44\u91d1\u6d88\u8017\u8282\u594f\uff0c\u8fd9\u6b63\u662f C3 \u60f3\u8ffd\u8e2a\u7684\u5e95\u5c42\u903b\u8f91\u3002\n",
       "emailed": false
     }
   ],
