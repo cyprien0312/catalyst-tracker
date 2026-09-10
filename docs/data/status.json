@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789047127,
-  "generated_at_str": "2026-09-10 13:32:07 UTC",
-  "last_event_ts": 1789046046,
+  "generated_at": 1789047326,
+  "generated_at_str": "2026-09-10 13:35:26 UTC",
+  "last_event_ts": 1789047325,
   "tables": {
     "alerts_dedup": {
-      "count": 3969,
-      "last_ts": 1789045516,
-      "last_str": "2026-09-10 13:05:16 UTC"
+      "count": 3971,
+      "last_ts": 1789047325,
+      "last_str": "2026-09-10 13:35:25 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-10 13:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5760,
-      "last_ts": 1789045502,
-      "last_str": "2026-09-10 13:05:02 UTC"
+      "count": 5762,
+      "last_ts": 1789047302,
+      "last_str": "2026-09-10 13:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6890,
-      "last_ts": 1789045504,
-      "last_str": "2026-09-10 13:05:04 UTC"
+      "count": 6893,
+      "last_ts": 1789047304,
+      "last_str": "2026-09-10 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4150,
-      "last_ts": 1789045503,
-      "last_str": "2026-09-10 13:05:03 UTC"
+      "count": 4152,
+      "last_ts": 1789047303,
+      "last_str": "2026-09-10 13:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5217,
-      "last_ts": 1789045505,
-      "last_str": "2026-09-10 13:05:05 UTC"
+      "count": 5218,
+      "last_ts": 1789047305,
+      "last_str": "2026-09-10 13:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30355,
@@ -310,6 +310,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3977,
+      "ts": 1789047325,
+      "ts_str": "2026-09-10 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] China\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply - Modern Diplomacy",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 13:18:18 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE55bjc3UVB5cE51c0dqLU5lNHRYUTJmeVB4dUNLamphZGxwYk9abERzdlpIdU82cXJUMExRTHJQWnhtSzhzSlA5LU95WG02eVh1Sm93TUNCNDBMY1VLWlRYS2JFSGVTZG1FaTFhY1d3TG5mNFVqMVNUVTNIbHR1QQ?oc=5\n\nChina\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply - Modern Diplomacy\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE55bjc3UVB5cE51c0dqLU5lNHRYUTJmeVB4dUNLamphZGxwYk9abERzdlpIdU82cXJUMExRTHJQWnhtSzhzSlA5LU95WG02eVh1Sm93TUNCNDBMY1VLWlRYS2JFSGVTZG1FaTFhY1d3TG5mNFVqMVNUVTNIbHR1QQ?oc=5\" target=\"_blank\">China\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Modern Diplomacy</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChinese AI chip makers raised prices as an HBM shortage squeezes supply, per two RSS entries of the same headline.\n\n\u5185\u5bb9:\n\u4e24\u6761\u76f8\u540c\u6807\u9898\u7684 RSS \u62a5\u9053\u79f0\uff0cHBM \u77ed\u7f3a\u6324\u538b\u4f9b\u5e94\uff0c\u4e2d\u56fd AI \u82af\u7247\u5382\u5546\u56e0\u6b64\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory scarcity feeding through to AI chip pricing confirms the supply-side capex thesis \u2014 tight HBM directly constrains AI accelerator output regardless of demand, and rising prices for buyers compound the capex burden hyperscalers already carry.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u4f20\u5bfc\u5230 AI \u82af\u7247\u5b9a\u4ef7\uff0c\u5370\u8bc1\u4e86\u4f9b\u7ed9\u4fa7\u7684 capex \u903b\u8f91\u2014\u2014HBM \u7d27\u5f20\u4f1a\u76f4\u63a5\u9650\u5236 AI \u52a0\u901f\u5668\u4ea7\u51fa\uff0c\u8ddf\u9700\u6c42\u65e0\u5173\uff1b\u5bf9\u4e70\u5bb6\u6765\u8bf4\u6da8\u4ef7\u8fd8\u4f1a\u52a0\u91cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u672c\u5df2\u6c89\u91cd\u7684 capex \u8d1f\u62c5\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 3978,
+      "ts": 1789047325,
+      "ts_str": "2026-09-10 13:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Sources: Prices of Chinese AI chips rise due to memory chip shortage - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 13:30:55 GMT\nLink:      https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWldFRVB2alpKWnBVdlBBcDRsLXlkMW1qLVMzSFVNMzE0LWpCUzcyWlcwbTQyb05QUGxCb0JVZmFuTEJmLUtKTnZWenFpQ2RLNHJ0Wmk0c3VtRm43Mm1zM2szajFBZ01SWDhF?oc=5\n\nSources: Prices of Chinese AI chips rise due to memory chip shortage - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644\n\n<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWldFRVB2alpKWnBVdlBBcDRsLXlkMW1qLVMzSFVNMzE0LWpCUzcyWlcwbTQyb05QUGxCb0JVZmFuTEJmLUtKTnZWenFpQ2RLNHJ0Wmk0c3VtRm43Mm1zM2szajFBZ01SWDhF?oc=5\" target=\"_blank\">Sources: Prices of Chinese AI chips rise due to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMultiple Google News RSS items report Chinese AI chip prices rising due to a memory chip shortage \u2014 the same headline recurring across feed queries.\n\n\u5185\u5bb9:\n\u591a\u6761 Google News RSS \u62a5\u9053\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u63a8\u9ad8\u4e86\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\uff0c\u540c\u4e00\u6807\u9898\u5728\u4e0d\u540c feed \u67e5\u8be2\u91cc\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nMemory-shortage-driven price surges tighten the input-cost side of AI hardware and squeeze margins for chipmakers/OEMs building AI accelerators, adding to supply-chain stress on top of capex/credit signals.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u4f1a\u62ac\u9ad8 AI \u786c\u4ef6\u7684\u6210\u672c\u7aef\uff0c\u538b\u7f29\u82af\u7247\u5382\u5546\u548c OEM \u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u662f\u5728 capex\u3001\u4fe1\u7528\u7b49\u4fe1\u53f7\u4e4b\u5916\u53c8\u53e0\u52a0\u4e86\u4e00\u5c42\u4f9b\u5e94\u94fe\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3976,
       "ts": 1789045516,
@@ -2288,26 +2308,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Analyst sets SpaceX (SPCX) stock price target - Finbold",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 16:00:56 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE5xUVJEVFdNYzhLVTQ1SVZwZmdzVUZlQ0JlV3VXMFNXUEp4LXZ3Sl9oUjJIUEhHSVJlS2ZDcGJudWhOXzZwellMT2cyTmp5WWg2NnB3bEp3ZjZwYmZKVTY3Qnp0RXk4dHZVMzZpTGZ3ZW4zUQ?oc=5\n\nAnalyst sets SpaceX (SPCX) stock price target - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5xUVJEVFdNYzhLVTQ1SVZwZmdzVUZlQ0JlV3VXMFNXUEp4LXZ3Sl9oUjJIUEhHSVJlS2ZDcGJudWhOXzZwellMT2cyTmp5WWg2NnB3bEp3ZjZwYmZKVTY3Qnp0RXk4dHZVMzZpTGZ3ZW4zUQ?oc=5\" target=\"_blank\">Analyst sets SpaceX (SPCX) stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports an analyst setting a price target on SpaceX (SPCX) stock \u2014 the headline appears duplicated across feeds with no target number or numeric detail given.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053\u5206\u6790\u5e08\u4e3a SpaceX\uff08SPCX\uff09\u80a1\u7968\u8bbe\u5b9a\u76ee\u6807\u4ef7\u2014\u2014\u8be5\u6807\u9898\u5728\u591a\u4e2a feed \u4e2d\u91cd\u590d\u51fa\u73b0\uff0c\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53\u76ee\u6807\u4ef7\u6570\u5b57\u6216\u5176\u4ed6\u7ec6\u8282\u3002\n\nWhy it matters:\nPrice-target chatter is standard sell-side noise around the SPCX unlock/IPO-mechanics story, not evidence of a flow or lock-up event; without a number or context it doesn't move the passive-flow thesis on its own.\n\n\u5f71\u54cd:\n\u76ee\u6807\u4ef7\u7c7b\u62a5\u9053\u662f\u56f4\u7ed5 SPCX \u89e3\u7981/\u88ab\u52a8\u8d44\u91d1\u6d41\u53d9\u4e8b\u7684\u5e38\u89c4\u5356\u65b9\u566a\u97f3\uff0c\u4e0d\u4ee3\u8868\u771f\u5b9e\u7684\u8d44\u91d1\u6d41\u52a8\u6216\u89e3\u7981\u4e8b\u4ef6\uff1b\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u6216\u4e0a\u4e0b\u6587\uff0c\u672c\u8eab\u4e0d\u8db3\u4ee5\u63a8\u52a8\u88ab\u52a8\u8d44\u91d1\u6d41\u8fd9\u6761\u8bba\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3779,
-      "ts": 1788371235,
-      "ts_str": "2026-09-02 17:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Bernstein SocGen raises SpaceX stock price target on launch expansion - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 13:56:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZUZCTVRxSk5ORnNVNG9UaGd5OUhuRUJHY2xiZWxtRnZRUTVjN3Q4TUJOd3NyTThjYmdidFpuaGlqa1Y0WHVoalpHXzZkYVhZTlVQQnlTRmJnOXhweHAtemRHdlZ1US02bDhBZjBiOHhPYnhyVjVWU3gzWVhuWkpreVpFYUlfa19JalZCU2xWdks2S2pscWVEOXozb3B6Q1JBNGRRT2lWV0hURkNnb090eWxGLS1pQ2pqakZCQ2ZYaFZwWW4ya29LRk1nVjhMbTFicDhr?oc=5\n\nBernstein SocGen raises SpaceX stock price target on launch expansion - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZUZCTVRxSk5ORnNVNG9UaGd5OUhuRUJHY2xiZWxtRnZRUTVjN3Q4TUJOd3NyTThjYmdidFpuaGlqa1Y0WHVoalpHXzZkYVhZTlVQQnlTRmJnOXhweHAtemRHdlZ1US02bDhBZjBiOHhPYnhyVjVWU3gzWVhuWkpreVpFYUlfa19JalZCU2xWdks2S2pscWVEOXozb3B6Q1JBNGRRT2lWV0hURkNnb090eWxGLS1pQ2pqakZCQ2ZYaFZwWW4ya29LRk1nVjhMbTFicDhr?oc=5\" target=\"_blank\">Bernstein SocGen raises SpaceX stock price target on launch expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo separate reports both flag SpaceX stock price target raises tied to launch-cadence expansion, appearing as duplicate Google News entries with no ticker or numeric detail attached.\n\n\u5185\u5bb9:\n\u4e24\u6761\u91cd\u590d\u7684 Google News \u62a5\u9053\u90fd\u63d0\u5230 SpaceX \u56e0\u53d1\u5c04\u8282\u594f\u6269\u5f20\u83b7\u5206\u6790\u5e08\u4e0a\u8c03\u80a1\u4ef7\u76ee\u6807\uff0c\u6ca1\u6709 ticker \u6216\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nThis is index-flow-adjacent coverage rather than a hard trigger \u2014 bullish analyst sentiment on SpaceX ahead of any public listing keeps the anticipated-IPO narrative warm, which matters for the passive-flow thesis only once shares actually list and get indexed.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u5c5e\u4e8e\u6307\u6570\u6d41\u76f8\u5173\u7684\u80cc\u666f\u65b0\u95fb\uff0c\u4e0d\u662f\u786c\u89e6\u53d1\u2014\u2014\u5206\u6790\u5e08\u5bf9 SpaceX \u4e0a\u5e02\u524d\u7684\u770b\u591a\u60c5\u7eea\u53ea\u662f\u8ba9\u300c\u9884\u671f IPO\u300d\u7684\u53d9\u4e8b\u4fdd\u6301\u70ed\u5ea6\uff0c\u771f\u6b63\u5f71\u54cd\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u903b\u8f91\u8981\u7b49\u80a1\u7968\u5b9e\u9645\u4e0a\u5e02\u5e76\u88ab\u7eb3\u5165\u6307\u6570\u624d\u6210\u7acb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3776,
-      "ts": 1788368705,
-      "ts_str": "2026-09-02 17:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron (MU) Stock Drops 13% Despite Looming Memory Chip Price Surge - Blockonomi",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 02 Sep 2026 13:41:18 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0xHWGlpdnBLdDRUUmloRDIzSmJPZGVKMTdVbDM5bzFHOGdzbDVFTHBtbjJKWUtBRWR5U0VzeDVzeHpnTnpiQ0pFaGhqd1VDM3lWYWdfMThyYXRkYnA2RVVkMmtEMG5BWFdzcXRvMllYV0ZUM29XTHA5MzlPLXcxck92cXRfZUxQdG5rMjVOU1g4dw?oc=5\n\nMicron (MU) Stock Drops 13% Despite Looming Memory Chip Price Surge - Blockonomi\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0xHWGlpdnBLdDRUUmloRDIzSmJPZGVKMTdVbDM5bzFHOGdzbDVFTHBtbjJKWUtBRWR5U0VzeDVzeHpnTnpiQ0pFaGhqd1VDM3lWYWdfMThyYXRkYnA2RVVkMmtEMG5BWFdzcXRvMllYV0ZUM29XTHA5MzlPLXcxck92cXRfZUxQdG5rMjVOU1g4dw?oc=5\" target=\"_blank\">Micron (MU) Stock Drops 13% Despite Looming Memory Chip Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Blockonomi</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports Micron (MU) shares fell 13% even as memory chip prices are expected to surge.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u5c3d\u7ba1\u5185\u5b58\u82af\u7247\u4ef7\u683c\u5373\u5c06\u4e0a\u6da8\uff0cMicron\uff08MU\uff09\u80a1\u4ef7\u4ecd\u4e0b\u8dcc 13%\u3002\n\nWhy it matters:\nA stock drop despite bullish pricing news suggests the market is pricing in demand destruction or oversupply risk elsewhere in the AI-hardware chain, not confirming a supply squeeze \u2014 treat the surge framing with caution until paired with actual order/shipment data.\n\n\u5f71\u54cd:\n\u4ef7\u683c\u770b\u6da8\u4f46\u80a1\u4ef7\u4e0b\u8dcc\uff0c\u8bf4\u660e\u5e02\u573a\u5728\u4e3a AI \u786c\u4ef6\u94fe\u6761\u522b\u5904\u7684\u9700\u6c42\u8d70\u5f31\u6216\u4f9b\u7ed9\u8fc7\u5269\u98ce\u9669\u5b9a\u4ef7\uff0c\u800c\u4e0d\u662f\u5728\u786e\u8ba4\u771f\u5b9e\u7684\u4f9b\u7ed9\u7d27\u5f20\u2014\u2014\u5728\u6ca1\u6709\u5b9e\u9645\u8ba2\u5355/\u51fa\u8d27\u6570\u636e\u4f50\u8bc1\u524d\uff0c\u5bf9\u8fd9\u6761\"\u6da8\u4ef7\"\u53d9\u4e8b\u8981\u6253\u4e2a\u95ee\u53f7\u3002\n",
       "emailed": false
     }
   ],
