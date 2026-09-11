@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789120928,
-  "generated_at_str": "2026-09-11 10:02:08 UTC",
-  "last_event_ts": 1789120022,
+  "generated_at": 1789121118,
+  "generated_at_str": "2026-09-11 10:05:18 UTC",
+  "last_event_ts": 1789121118,
   "tables": {
     "alerts_dedup": {
-      "count": 3992,
-      "last_ts": 1789119325,
-      "last_str": "2026-09-11 09:35:25 UTC"
+      "count": 3993,
+      "last_ts": 1789121118,
+      "last_str": "2026-09-11 10:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-11 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5798,
-      "last_ts": 1789119303,
-      "last_str": "2026-09-11 09:35:03 UTC"
+      "count": 5799,
+      "last_ts": 1789121103,
+      "last_str": "2026-09-11 10:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6941,
-      "last_ts": 1789119306,
-      "last_str": "2026-09-11 09:35:06 UTC"
+      "count": 6946,
+      "last_ts": 1789121105,
+      "last_str": "2026-09-11 10:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4176,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4000,
+      "ts": 1789121118,
+      "ts_str": "2026-09-11 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan - igor\u00b4sLAB",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 04:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0tFQjBLQWZMT2IwQ2hoWjVmdHpTX1B1Rkh6SHAyTGFwZkp0dkp3LUdQenBVZnFrT2F2UEZNeldfd2xVMnpMRUVVLXd4N19HQXI3U0c2NVNyeUtpTk1CSFNyN0VDeGRseWEyRHhCTUJxNlNMVWhHMmt1eEZWWXotMENaNEZNc01BOEJuTjJjLUJ5NlFsdG9uYw?oc=5\n\nHBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan - igor\u00b4sLAB\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0tFQjBLQWZMT2IwQ2hoWjVmdHpTX1B1Rkh6SHAyTGFwZkp0dkp3LUdQenBVZnFrT2F2UEZNeldfd2xVMnpMRUVVLXd4N19HQXI3U0c2NVNyeUtpTk1CSFNyN0VDeGRseWEyRHhCTUJxNlNMVWhHMmt1eEZWWXotMENaNEZNc01BOEJuTjJjLUJ5NlFsdG9uYw?oc=5\" target=\"_blank\">HBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">igor\u00b4sLAB</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reported Huawei's Ascend 950DT AI chip price surpassing 250,000 yuan, citing an HBM shortage as the driver, duplicated across two RSS entries.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053 Huawei Ascend 950DT \u56e0 HBM \u77ed\u7f3a\u800c\u4ef7\u683c\u7a81\u7834 25 \u4e07\u5143\uff0c\u540c\u4e00\u6761\u6d88\u606f\u91cd\u590d\u51fa\u73b0\u5728\u4e24\u6761 RSS \u8bb0\u5f55\u91cc\u3002\n\nWhy it matters:\nHBM scarcity feeding through to a >$34k end-product price is exactly the memory-bottleneck stress C6 watches for \u2014 it signals hyperscaler/AI-chip supply chains are capacity-constrained on the memory side, not just logic, which raises the cost basis of the whole AI-capex build-out.\n\n\u5f71\u54cd:\nHBM \u77ed\u7f3a\u76f4\u63a5\u4f20\u5bfc\u5230\u7ec8\u7aef\u82af\u7247\u4ef7\u683c\u7a81\u7834 25 \u4e07\u5143\uff08\u7ea6 3.4 \u4e07\u7f8e\u5143\uff09\uff0c\u8fd9\u6b63\u662f C6 \u8981\u76ef\u7684\u5185\u5b58\u74f6\u9888\u538b\u529b\u2014\u2014\u8bf4\u660e AI \u82af\u7247\u4f9b\u5e94\u94fe\u4e0d\u53ea\u662f\u903b\u8f91\u82af\u7247\u5403\u7d27\uff0c\u5185\u5b58\u8fd9\u4e00\u7aef\u4e5f\u5728\u5361\u4ea7\u80fd\uff0c\u6574\u4f53 AI capex \u7684\u6210\u672c\u57fa\u7840\u56e0\u6b64\u88ab\u63a8\u9ad8\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3998,
       "ts": 1789119325,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Google recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 22:41:53 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\n\nGoogle recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\" target=\"_blank\">Google recycles DDR4 from dead servers as DRAM shortage bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Google is recycling DDR4 memory pulled from decommissioned servers because a DRAM shortage is constraining supply.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u56e0 DRAM \u77ed\u7f3a\uff0cGoogle \u6b63\u4ece\u62a5\u5e9f\u670d\u52a1\u5668\u4e0a\u56de\u6536 DDR4 \u5185\u5b58\u91cd\u65b0\u5229\u7528\u3002\n\nWhy it matters:\nHyperscalers scavenging old RAM instead of buying new is a direct, low-noise signal of real memory scarcity feeding into AI-infra build-outs \u2014 it corroborates the C6 memory/storage price-stress thesis with an operational (not just pricing) data point.\n\n\u5f71\u54cd:\n\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u62c6\u65e7\u5185\u5b58\u7eed\u547d\u800c\u4e0d\u662f\u76f4\u63a5\u91c7\u8d2d\u65b0\u8d27\uff0c\u662f\u5185\u5b58\u771f\u5b9e\u7d27\u7f3a\u7684\u4e00\u4e2a\u6734\u7d20\u4f46\u76f4\u63a5\u7684\u4fe1\u53f7\uff0c\u4ece\u8fd0\u8425\u5c42\u9762\uff08\u800c\u4e0d\u53ea\u662f\u4ef7\u683c\u5c42\u9762\uff09\u5370\u8bc1\u4e86 C6 \u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u5224\u65ad\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3800,
-      "ts": 1788476714,
-      "ts_str": "2026-09-03 23:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Google recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 22:41:53 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\n\nGoogle recycles DDR4 from dead servers as DRAM shortage bites - CryptoRank\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOeC1ucHNjenFRMHdTdDRWU1hGNGxjc0dxamRMeW03N3JuMjJubklDeDNkY2k2TExRLUVBYXlrLTNUTkVIUC1xRHpyd1Byd25aNFRSeEZTSi03eEkxZjBnclF0eXVSMGhOcG80aWxCS0Y2Nl9tRXlaUG1JR2luYlJLQWtTTTg?oc=5\" target=\"_blank\">Google recycles DDR4 from dead servers as DRAM shortage bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CryptoRank</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Google is recycling DDR4 memory pulled from decommissioned servers because a DRAM shortage is constraining supply.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u56e0 DRAM \u77ed\u7f3a\uff0cGoogle \u6b63\u4ece\u62a5\u5e9f\u670d\u52a1\u5668\u4e0a\u56de\u6536 DDR4 \u5185\u5b58\u91cd\u65b0\u5229\u7528\u3002\n\nWhy it matters:\nHyperscalers scavenging old RAM instead of buying new is a direct, low-noise signal of real memory scarcity feeding into AI-infra build-outs \u2014 it corroborates the C6 memory/storage price-stress thesis with an operational (not just pricing) data point.\n\n\u5f71\u54cd:\n\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u62c6\u65e7\u5185\u5b58\u7eed\u547d\u800c\u4e0d\u662f\u76f4\u63a5\u91c7\u8d2d\u65b0\u8d27\uff0c\u662f\u5185\u5b58\u771f\u5b9e\u7d27\u7f3a\u7684\u4e00\u4e2a\u6734\u7d20\u4f46\u76f4\u63a5\u7684\u4fe1\u53f7\uff0c\u4ece\u8fd0\u8425\u5c42\u9762\uff08\u800c\u4e0d\u53ea\u662f\u4ef7\u683c\u5c42\u9762\uff09\u5370\u8bc1\u4e86 C6 \u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u5224\u65ad\u3002\n",
       "emailed": false
     }
   ],
