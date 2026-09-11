@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789141262,
-  "generated_at_str": "2026-09-11 15:41:02 UTC",
-  "last_event_ts": 1789140907,
+  "generated_at": 1789141455,
+  "generated_at_str": "2026-09-11 15:44:15 UTC",
+  "last_event_ts": 1789141454,
   "tables": {
     "alerts_dedup": {
-      "count": 3997,
-      "last_ts": 1789130656,
-      "last_str": "2026-09-11 12:44:16 UTC"
+      "count": 3998,
+      "last_ts": 1789141454,
+      "last_str": "2026-09-11 15:44:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-10 23:00:27 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5350,
-      "last_ts": 1789137844,
-      "last_str": "2026-09-11 14:44:04 UTC"
+      "count": 5352,
+      "last_ts": 1789141444,
+      "last_str": "2026-09-11 15:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1227,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-11 15:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 30735,
-      "last_ts": 1789139643,
-      "last_str": "2026-09-11 15:14:03 UTC"
+      "count": 30739,
+      "last_ts": 1789141443,
+      "last_str": "2026-09-11 15:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9267,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4005,
+      "ts": 1789141454,
+      "ts_str": "2026-09-11 15:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Fidji Simo Joins Data Center Startup Nscale\u2019s Board Ahead of IPO",
+      "body": "Severity:  MED\nFeed:      https://feeds.bloomberg.com/technology/news.rss\nPublished: Fri, 11 Sep 2026 15:15:00 GMT\nLink:      https://www.bloomberg.com/news/articles/2026-09-11/fidji-simo-joins-data-center-startup-nscale-s-board-ahead-of-ipo\n\nFidji Simo Joins Data Center Startup Nscale\u2019s Board Ahead of IPO\n\nNscale Global Holdings appointed former OpenAI and Meta Platforms Inc. executive Fidji Simo to its board as the data center startup bolsters its ranks of directors ahead of an initial public offering.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nFidji Simo, a former OpenAI and Meta executive, joined the board of data center startup Nscale ahead of its planned IPO.\n\n\u5185\u5bb9:\n\u524d OpenAI \u548c Meta \u9ad8\u7ba1 Fidji Simo \u52a0\u5165\u6570\u636e\u4e2d\u5fc3\u521b\u4e1a\u516c\u53f8 Nscale \u7684\u8463\u4e8b\u4f1a\uff0c\u8be5\u516c\u53f8\u6b63\u7b79\u5907 IPO\u3002\n\nWhy it matters:\nA board appointment before an IPO is standard governance prep, not a stress signal \u2014 no capex, burn-rate, or financing distress data here. Worth tracking only because it confirms Nscale (an AI-infra buildout name) is advancing toward a public listing.\n\n\u5f71\u54cd:\nIPO \u524d\u8865\u8463\u4e8b\u4f1a\u662f\u5e38\u89c4\u6cbb\u7406\u52a8\u4f5c\uff0c\u4e0d\u6d89\u53ca capex\u3001\u70e7\u94b1\u901f\u5ea6\u6216\u878d\u8d44\u538b\u529b\u7b49\u5e94\u529b\u4fe1\u53f7\u3002\u503c\u5f97\u7559\u610f\u7684\u5730\u65b9\u53ea\u662f\u8fd9\u786e\u8ba4\u4e86 Nscale\uff08\u4e00\u5bb6 AI \u57fa\u5efa\u6807\u7684\uff09\u6b63\u5728\u63a8\u8fdb\u4e0a\u5e02\u8fdb\u7a0b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4004,
       "ts": 1789130656,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] NAND prices jump as market surges 70%, Samsung and SK hynix lead - CHOSUNBIZ - Chosunbiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 03:31:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxOVWVCenpsR1g4dWozT3UySGxQR1VWZzJWMExUMWpCNUdPWUFEa2ZJSEU0WmVHdzdvQzNud1RUd3gtMFNOTmt3QTF4Y2tpMWFudExtenFPYnhfRS1hUjNrdWtYdEt6a3FtUTBGVWRuVXRQTkZ2RGF4R3VJUjFrbTdWdnlfOFVFQV9TT0xFLXZ30gGOAUFVX3lxTE5VZUJ6emxHWDh1ajNPdTJIbFBHVVZnMlYwTFQxakI1R09ZQURrZklIRTRaZUd3N29DM253VFR3eC0wU05Oa3dBMXhja2kxYW50TG16cU9ieF9FLWFSM2t1a1h0S3prcW1RMEZVZG5VdFBORnZEYXhHdUlSMWttN1Z2eV84VUVBX1NPTEUtdnc?oc=5\n\nNAND prices jump as market surges 70%, Samsung and SK hynix lead - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOVWVCenpsR1g4dWozT3UySGxQR1VWZzJWMExUMWpCNUdPWUFEa2ZJSEU0WmVHdzdvQzNud1RUd3gtMFNOTmt3QTF4Y2tpMWFudExtenFPYnhfRS1hUjNrdWtYdEt6a3FtUTBGVWRuVXRQTkZ2RGF4R3VJUjFrbTdWdnlfOFVFQV9TT0xFLXZ30gGOAUFVX3lxTE5VZUJ6emxHWDh1ajNPdTJIbFBHVVZnMlYwTFQxakI1R09ZQURrZklIRTRaZUd3N29DM253VFR3eC0wU05Oa3dBMXhja2kxYW50TG16cU9ieF9FLWFSM2t1a1h0S3prcW1RMEZVZG5VdFBORnZEYXhHdUlSMWttN1Z2eV84VUVBX1NPTEUtdnc?oc=5\" target=\"_blank\">NAND prices jump as market surges 70%, Samsung and SK hynix lead - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reports NAND prices surging 70%, led by Samsung and SK hynix.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb\u6807\u9898\u79f0 NAND \u4ef7\u683c\u66b4\u6da8 70%\uff0c\u4e09\u661f\u548c SK \u6d77\u529b\u58eb\u9886\u6da8\u3002\n\nWhy it matters:\nA 70% memory-price spike signals severe supply tightness feeding straight into hyperscaler AI-server bills of materials \u2014 HBM/DRAM/NAND cost inflation compresses AI-capex margins and can force vendors to ration allocation, a classic sign the buildout is outrunning supply chains.\n\n\u5f71\u54cd:\nNAND \u4ef7\u683c\u66b4\u6da8 70% \u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u6781\u5ea6\u7d27\u5f20\uff0c\u8fd9\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546 AI \u670d\u52a1\u5668\u7684\u7269\u6599\u6210\u672c\u2014\u2014HBM/DRAM/NAND \u6da8\u4ef7\u538b\u7f29 AI capex \u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u8fd8\u53ef\u80fd\u903c\u5382\u5546\u9650\u91cf\u5206\u914d\uff0c\u662f\u5efa\u8bbe\u901f\u5ea6\u5df2\u7ecf\u8dd1\u8d62\u4f9b\u5e94\u94fe\u7684\u5178\u578b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3805,
-      "ts": 1788500837,
-      "ts_str": "2026-09-04 05:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock SPCX Surges 6.4% as Valuation Nears $2T Ahead of Unlock - coingabbar.com",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 04:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxPMUZuUWk2blJpYnQ4bEdISW1Nd014ZG1laVBjZEJkTXB0aWRFVTlJbWQxQ0RTdmdsVGZ3RXp1MlJKYmtVZEpwYTVnSGhoWTVFVld3b19FNW54STl6dExoU1Z2b0dyUlVvOEdMZkk3cXlsd3puYnVPdWRJajVicUQ3Q3ZKLU9GVzVHa0V3Z2V4clpvMy16SUFiaUJCQ1VZQ19CVDZTdF9EbjZVc2RvZUE?oc=5\n\nSpaceX Stock SPCX Surges 6.4% as Valuation Nears $2T Ahead of Unlock - coingabbar.com\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPMUZuUWk2blJpYnQ4bEdISW1Nd014ZG1laVBjZEJkTXB0aWRFVTlJbWQxQ0RTdmdsVGZ3RXp1MlJKYmtVZEpwYTVnSGhoWTVFVld3b19FNW54STl6dExoU1Z2b0dyUlVvOEdMZkk3cXlsd3puYnVPdWRJajVicUQ3Q3ZKLU9GVzVHa0V3Z2V4clpvMy16SUFiaUJCQ1VZQ19CVDZTdF9EbjZVc2RvZUE?oc=5\" target=\"_blank\">SpaceX Stock SPCX Surges 6.4% as Valuation Nears $2T Ahead of Unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coingabbar.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMultiple Google News RSS entries report SpaceX's secondary-market share price (ticker SPCX) rising 6.4%, pushing its implied valuation close to $2T ahead of an insider/employee stock unlock.\n\n\u5185\u5bb9:\n\u591a\u6761 Google \u65b0\u95fb RSS \u62a5\u9053 SpaceX \u4e8c\u7ea7\u5e02\u573a\u80a1\u4ef7\uff08\u4ee3\u7801 SPCX\uff09\u4e0a\u6da8 6.4%\uff0c\u4f30\u503c\u903c\u8fd1 $2T\uff0c\u5c31\u5728\u5458\u5de5/\u5185\u90e8\u4eba\u89e3\u7981\u524d\u5915\u3002\n\nWhy it matters:\nSpaceX is a large private holding embedded in several passive/index-adjacent vehicles tracked by C11; a valuation spike right before a lock-up expiry raises the stakes of the unlock \u2014 a supply-side event that could pressure the price once restricted shares become sellable, with knock-on effects for funds holding it.\n\n\u5f71\u54cd:\nSpaceX \u662f\u88ab C11 \u8ddf\u8e2a\u7684\u51e0\u4e2a\u88ab\u52a8/\u7c7b\u6307\u6570\u4ea7\u54c1\u6301\u6709\u7684\u5927\u578b\u672a\u4e0a\u5e02\u6807\u7684\uff1b\u4f30\u503c\u5728\u89e3\u7981\u524d\u5915\u66b4\u6da8\uff0c\u8ba9\u8fd9\u6b21\u89e3\u7981\u7684\u5206\u91cf\u66f4\u91cd\u2014\u2014\u89e3\u7981\u540e\u9650\u552e\u80a1\u53ef\u81ea\u7531\u5356\u51fa\uff0c\u4f9b\u7ed9\u7aef\u538b\u529b\u53ef\u80fd\u53cd\u566c\u80a1\u4ef7\uff0c\u8fdb\u800c\u5f71\u54cd\u6301\u6709\u5b83\u7684\u57fa\u91d1\u3002\n",
       "emailed": false
     }
   ],
