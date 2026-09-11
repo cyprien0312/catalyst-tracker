@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789164123,
-  "generated_at_str": "2026-09-11 22:02:03 UTC",
-  "last_event_ts": 1789163233,
+  "generated_at": 1789164313,
+  "generated_at_str": "2026-09-11 22:05:13 UTC",
+  "last_event_ts": 1789164312,
   "tables": {
     "alerts_dedup": {
-      "count": 4006,
-      "last_ts": 1789163233,
-      "last_str": "2026-09-11 21:47:13 UTC"
+      "count": 4007,
+      "last_ts": 1789164312,
+      "last_str": "2026-09-11 22:05:12 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-11 21:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6979,
-      "last_ts": 1789162504,
-      "last_str": "2026-09-11 21:35:04 UTC"
+      "count": 6980,
+      "last_ts": 1789164304,
+      "last_str": "2026-09-11 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4192,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-11 21:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5283,
-      "last_ts": 1789162505,
-      "last_str": "2026-09-11 21:35:05 UTC"
+      "count": 5285,
+      "last_ts": 1789164305,
+      "last_str": "2026-09-11 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30800,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4014,
+      "ts": 1789164312,
+      "ts_str": "2026-09-11 22:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] China\u2019s AI Chipmakers Reportedly Raise Prices as HBM Shortage Drives Up Costs - Tekedia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 17:45:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiowFBVV95cUxNOW5EZnYzX2syclFSdEVzSlY1WjU0Zl9Jd0JUbDZOUnA3eGgyNjdDbnZQclMxbjQtRWhLbVY3ZVFOOF9BeHBaOUN2VDk4VG4yOF9fblV3bDVMX1lSc3VCZ0luUmNLOGQzbGxfYTUxUElZZEVOSm5QbEdRNUFHVmpHXzRNWF96RkZMWUdnaUROZ3YxeVdPVUd2czIzTWdKRFlhNk1F?oc=5\n\nChina\u2019s AI Chipmakers Reportedly Raise Prices as HBM Shortage Drives Up Costs - Tekedia\n\n<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNOW5EZnYzX2syclFSdEVzSlY1WjU0Zl9Jd0JUbDZOUnA3eGgyNjdDbnZQclMxbjQtRWhLbVY3ZVFOOF9BeHBaOUN2VDk4VG4yOF9fblV3bDVMX1lSc3VCZ0luUmNLOGQzbGxfYTUxUElZZEVOSm5QbEdRNUFHVmpHXzRNWF96RkZMWUdnaUROZ3YxeVdPVUd2czIzTWdKRFlhNk1F?oc=5\" target=\"_blank\">China\u2019s AI Chipmakers Reportedly Raise Prices as HBM Shortage Drives Up Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tekedia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChinese AI chipmakers reportedly raised prices as an HBM shortage pushed up their input costs.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e2d\u56fd AI \u82af\u7247\u5382\u5546\u56e0 HBM \u77ed\u7f3a\u63a8\u9ad8\u6210\u672c\uff0c\u5df2\u4e0a\u8c03\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nRising HBM costs squeezing chip margins signal tight memory supply feeding straight into AI hardware pricing \u2014 a cost-side stress indicator on the AI buildout, not demand weakness.\n\n\u5f71\u54cd:\nHBM \u6210\u672c\u4e0a\u6da8\u6324\u538b\u82af\u7247\u5382\u5546\u5229\u6da6\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u5df2\u7ecf\u4f20\u5bfc\u5230 AI \u786c\u4ef6\u5b9a\u4ef7\u7aef\u2014\u2014\u8fd9\u662f AI \u5efa\u8bbe\u6210\u672c\u4fa7\u627f\u538b\u7684\u4fe1\u53f7\uff0c\u4e0d\u662f\u9700\u6c42\u8d70\u5f31\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4013,
       "ts": 1789163233,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] All Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in P",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 15:41:04 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmNubnIxUmNBWkhlUTlxVGp6N3pyWG1qMi05NGlYMlQ3STgxbmR5TnV1M0VpMW1aZFRzd0FuUFN2aTlHYmpfdHlNVG9fUDNNT3NfQ05FMnVlOG1oVWlVRk1RVTB0dVNUQmFaemMwWkZ2cWdYbG51MWVZSm9MN1Bnb3VqaTQ2NmFSRk5wQW00TzFuLTlrRWtN?oc=5\n\nAll Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in Plain Sight. - The Motley Fool\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmNubnIxUmNBWkhlUTlxVGp6N3pyWG1qMi05NGlYMlQ3STgxbmR5TnV1M0VpMW1aZFRzd0FuUFN2aTlHYmpfdHlNVG9fUDNNT3NfQ05FMnVlOG1oVWlVRk1RVTB0dVNUQmFaemMwWkZ2cWdYbG51MWVZSm9MN1Bnb3VqaTQ2NmFSRk5wQW00TzFuLTlrRWtN?oc=5\" target=\"_blank\">All Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in Plain Sight.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline about SpaceX's next share unlock on Sept. 9 appeared duplicated across the RSS feed, framed as clickbait pointing readers toward three unrelated growth stocks instead.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053\u4e86 SpaceX 9 \u6708 9 \u65e5\u7684\u4e0b\u4e00\u6b21\u80a1\u4efd\u89e3\u7981\uff0c\u5728 RSS \u91cc\u91cd\u590d\u51fa\u73b0\uff0c\u4f46\u5185\u5bb9\u5176\u5b9e\u662f\u501f\u89e3\u7981\u8bdd\u9898\u5e26\u4e09\u53ea\u65e0\u5173\u6210\u957f\u80a1\u7684\u6807\u9898\u515a\u6587\u7ae0\u3002\n\nWhy it matters:\nConfirms the unlock date is still on schedule and getting mainstream financial-media attention, but the actual content is low-signal \u2014 a stock-promotion piece using the unlock as a hook, not new information about unlock size, selling pressure, or index-flow mechanics.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u53ea\u662f\u786e\u8ba4\u89e3\u7981\u65e5\u671f 9 \u6708 9 \u65e5\u4ecd\u6309\u8ba1\u5212\u8fdb\u884c\uff0c\u5a92\u4f53\u4e5f\u5728\u5173\u6ce8\uff0c\u4f46\u5185\u5bb9\u672c\u8eab\u4fe1\u53f7\u5f88\u5f31\u2014\u2014\u662f\u62ff\u89e3\u7981\u5f53\u5671\u5934\u7684\u9009\u80a1\u8f6f\u6587\uff0c\u6ca1\u6709\u63d0\u4f9b\u89e3\u7981\u89c4\u6a21\u3001\u629b\u538b\u6216\u6307\u6570\u6d41\u5411\u65b9\u9762\u7684\u65b0\u4fe1\u606f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3814,
-      "ts": 1788521717,
-      "ts_str": "2026-09-04 11:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory chip price surge reshapes smartphone pricing: Global average up 15%, Samsung bucks trend by ramping up low-end pr",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 11:05:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFA5dEkyZFFlZFVKZ1NyRTFNTHpYVk9tSk1jOFc4cTh5czh0ajBaS2U1eXREV1lnVTNiY0NUOFlQRG15UDVNMVZlRTVvcGZxbGdEQVNSQ25aeVZvTEprWVNiT3B5MHFDQ3g5bnVyUzVGdlJEdGExNkE?oc=5\n\nMemory chip price surge reshapes smartphone pricing: Global average up 15%, Samsung bucks trend by ramping up low-end production to grab share - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFA5dEkyZFFlZFVKZ1NyRTFNTHpYVk9tSk1jOFc4cTh5czh0ajBaS2U1eXREV1lnVTNiY0NUOFlQRG15UDVNMVZlRTVvcGZxbGdEQVNSQ25aeVZvTEprWVNiT3B5MHFDQ3g5bnVyUzVGdlJEdGExNkE?oc=5\" target=\"_blank\">Memory chip price surge reshapes smartphone pricing: Global average up 15%, Samsung bucks trend by ramping up low-end production to grab share</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA memory-price surge article reports global average smartphone memory chip prices up 15%, with Samsung breaking from the trend by ramping low-end production to grab market share.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u5168\u7403\u667a\u80fd\u624b\u673a\u5185\u5b58\u82af\u7247\u5747\u4ef7\u4e0a\u6da8 15%\uff0c\u800c Samsung \u53cd\u5176\u9053\u800c\u884c\uff0c\u52a0\u5927\u4f4e\u7aef\u4ea7\u80fd\u6765\u62a2\u4efd\u989d\u3002\n\nWhy it matters:\nRising DRAM/NAND prices squeeze device makers' margins and point to tight memory supply \u2014 a bullish signal for memory vendors but a cost headwind for AI hardware buyers who need HBM/DRAM for accelerators. Samsung's counter-move (chasing volume at the low end instead of riding the price spike) suggests the cartel-like pricing discipline seen elsewhere in the memory market isn't universal.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4ef7\u683c\u4e0a\u6da8\u4f1a\u538b\u7f29\u7ec8\u7aef\u5382\u5546\u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u4e5f\u8bf4\u660e DRAM/NAND \u4f9b\u7ed9\u504f\u7d27\u2014\u2014\u5bf9\u5185\u5b58\u5382\u5546\u662f\u5229\u597d\uff0c\u4f46\u5bf9\u9700\u8981 HBM/DRAM \u7684 AI \u786c\u4ef6\u91c7\u8d2d\u65b9\u662f\u6210\u672c\u538b\u529b\u3002Samsung \u6ca1\u6709\u8ddf\u6da8\u53cd\u800c\u6269\u4ea7\u4f4e\u7aef\u62a2\u4efd\u989d\uff0c\u8bf4\u660e\u5185\u5b58\u884c\u4e1a\u5e76\u975e\u94c1\u677f\u4e00\u5757\u5730\u7ef4\u6301\u6da8\u4ef7\u7eaa\u5f8b\u3002\n",
       "emailed": false
     }
   ],
