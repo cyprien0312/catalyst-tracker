@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789108323,
-  "generated_at_str": "2026-09-11 06:32:03 UTC",
-  "last_event_ts": 1789107243,
+  "generated_at": 1789108519,
+  "generated_at_str": "2026-09-11 06:35:19 UTC",
+  "last_event_ts": 1789108518,
   "tables": {
     "alerts_dedup": {
-      "count": 3988,
-      "last_ts": 1789103121,
-      "last_str": "2026-09-11 05:05:21 UTC"
+      "count": 3989,
+      "last_ts": 1789108518,
+      "last_str": "2026-09-11 06:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-11 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6918,
-      "last_ts": 1789106704,
-      "last_str": "2026-09-11 06:05:04 UTC"
+      "count": 6930,
+      "last_ts": 1789108504,
+      "last_str": "2026-09-11 06:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4173,
-      "last_ts": 1789090503,
-      "last_str": "2026-09-11 01:35:03 UTC"
+      "count": 4174,
+      "last_ts": 1789108503,
+      "last_str": "2026-09-11 06:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5246,
-      "last_ts": 1789104905,
-      "last_str": "2026-09-11 05:35:05 UTC"
+      "count": 5248,
+      "last_ts": 1789108505,
+      "last_str": "2026-09-11 06:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30622,
@@ -310,6 +310,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 3996,
+      "ts": 1789108518,
+      "ts_str": "2026-09-11 06:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron Holds $973 as HBM Shortage Keeps $1,034 Breakout in Play - FXLeaders",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 06:18:53 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQVXdENkFTX0FINFFub3pFLVVLeVRrVEpvRUhXanZpVzR5OTJWeEU0OWRCbHF0Njhxem41NUszLTd4ZFhWUU9iUU43SnpWT1NSLUppLWFjaUNEYUNmNG40a1hVSi0tdGtlVEVBN0p3YThCM3BPZ3BmS2pPeWRvckMtZXNpWVY0UllBZmpzc1FXOA?oc=5\n\nMicron Holds $973 as HBM Shortage Keeps $1,034 Breakout in Play - FXLeaders\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQVXdENkFTX0FINFFub3pFLVVLeVRrVEpvRUhXanZpVzR5OTJWeEU0OWRCbHF0Njhxem41NUszLTd4ZFhWUU9iUU43SnpWT1NSLUppLWFjaUNEYUNmNG40a1hVSi0tdGtlVEVBN0p3YThCM3BPZ3BmS2pPeWRvckMtZXNpWVY0UllBZmpzc1FXOA?oc=5\" target=\"_blank\">Micron Holds $973 as HBM Shortage Keeps $1,034 Breakout in Play</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXLeaders</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Micron-focused market note reports the stock holding $973 as an HBM shortage keeps the $1,034 breakout level in play; the same line repeats in the RSS entry.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u805a\u7126 Micron \u7684\u5e02\u573a\u7b80\u8baf\u79f0\uff0c\u5728 HBM \u77ed\u7f3a\u652f\u6491\u4e0b\uff0c\u80a1\u4ef7\u5b88\u4f4f $973\uff0c$1,034 \u7684\u7a81\u7834\u4f4d\u4ecd\u7136\u6709\u6548\uff1b\u540c\u4e00\u53e5\u8bdd\u5728 RSS \u6761\u76ee\u91cc\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nThis is trading-desk commentary on chip prices, not a disclosed order cancellation or confirmed capacity cut \u2014 treat it as a C6 price-surge tell (tight HBM supply) rather than hard evidence of memory oversupply/collapse. If the shortage narrative holds, it reinforces the AI-capex bull case rather than the bubble-stress thesis, since scarce HBM signals demand still outrunning supply.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4ea4\u6613\u53f0\u5bf9\u82af\u7247\u4ef7\u683c\u7684\u8bc4\u8bba\uff0c\u4e0d\u662f\u62ab\u9732\u7684\u8ba2\u5355\u53d6\u6d88\u6216\u786e\u8ba4\u7684\u4ea7\u80fd\u524a\u51cf\uff0c\u5e94\u89c6\u4e3a C6 \u7684\u4ef7\u683c\u4e0a\u6da8\u4fe1\u53f7\uff08HBM \u4f9b\u7ed9\u504f\u7d27\uff09\uff0c\u800c\u4e0d\u662f\u5185\u5b58\u8fc7\u5269\u6216\u5d29\u76d8\u7684\u5b9e\u9524\u8bc1\u636e\u3002\u5982\u679c\u77ed\u7f3a\u53d9\u4e8b\u6210\u7acb\uff0c\u53cd\u800c\u5f3a\u5316 AI capex \u7684\u591a\u5934\u903b\u8f91\uff0c\u800c\u4e0d\u662f\u652f\u6301\u6ce1\u6cab\u538b\u529b\u8bba\u3002\n",
+      "emailed": false
+    },
     {
       "id": 3995,
       "ts": 1789103121,
@@ -2298,16 +2308,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Google Dismantles Retired Servers to Recover DDR4 as Memory Shortage Forces Extreme Measures - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 18:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE95dGpKN1BYMzB2bFRHLVRjbDg3R1hkRnRaWTVNRlRoa1RvNnpqQU1pZEF6bDg1QnpPeUlYWm5VaV9qZHYzWk1GOEZpMEZCUm4yMXIxamc1dk4tMjRBQWQyY1h3VHdQaERTeFlTVWgwcG5iZElOdWc?oc=5\n\nGoogle Dismantles Retired Servers to Recover DDR4 as Memory Shortage Forces Extreme Measures - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE95dGpKN1BYMzB2bFRHLVRjbDg3R1hkRnRaWTVNRlRoa1RvNnpqQU1pZEF6bDg1QnpPeUlYWm5VaV9qZHYzWk1GOEZpMEZCUm4yMXIxamc1dk4tMjRBQWQyY1h3VHdQaERTeFlTVWgwcG5iZElOdWc?oc=5\" target=\"_blank\">Google Dismantles Retired Servers to Recover DDR4 as Memory Shortage Forces Extreme Measures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle is dismantling retired servers specifically to recover DDR4 memory chips, as reported amid a described memory shortage forcing this measure.\n\n\u5185\u5bb9:\nGoogle \u6b63\u5728\u62c6\u89e3\u9000\u5f79\u670d\u52a1\u5668\u4ee5\u56de\u6536 DDR4 \u5185\u5b58\u82af\u7247\uff0c\u62a5\u9053\u79f0\u8fd9\u662f\u5185\u5b58\u77ed\u7f3a\u903c\u51fa\u7684\u6781\u7aef\u505a\u6cd5\u3002\n\nWhy it matters:\nA hyperscaler cannibalizing decommissioned hardware for RAM instead of buying new signals DRAM supply is tight enough to change operational behavior, not just pricing \u2014 consistent with the memory/storage price-stress thesis where component scarcity feeds through to AI-infra capex costs.\n\n\u5f71\u54cd:\n\u8d85\u5927\u89c4\u6a21\u5382\u5546\u9760\u62c6\u673a\u56de\u6536\u5185\u5b58\u800c\u4e0d\u662f\u76f4\u63a5\u4e70\u65b0\u7684\uff0c\u8bf4\u660e DRAM \u4f9b\u7ed9\u7d27\u5f20\u5230\u5df2\u7ecf\u6539\u53d8\u4e86\u8fd0\u8425\u884c\u4e3a\uff0c\u4e0d\u53ea\u662f\u6da8\u4ef7\u8fd9\u4e48\u7b80\u5355\u2014\u2014\u8fd9\u7b26\u5408\u5185\u5b58/\u5b58\u50a8\u4ef7\u683c\u627f\u538b\u7684\u903b\u8f91\uff1a\u5143\u4ef6\u77ed\u7f3a\u4f1a\u4f20\u5bfc\u5230 AI \u57fa\u7840\u8bbe\u65bd\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3796,
-      "ts": 1788464834,
-      "ts_str": "2026-09-03 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX (NASDAQ:SPCX) Stock Jumps 8% as Oppenheimer Lifts Price Target to $280 on AI Growth - Stocks Down Under",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 03 Sep 2026 19:23:38 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE1uMTJhakdDVm9NY3F3QWx2bUJ3S1NZZEkzanBycnF6QWJiT1IteDFkb3p2bUdVTXJDb29OVVBXdjlzWlZLRzVCcTZBeDdSeUUwXzJWeVQtYl82TGJiSjlJR2lYMVJtS01oOEl3Y3pTUERkU01ZWWEtN3dVdw?oc=5\n\nSpaceX (NASDAQ:SPCX) Stock Jumps 8% as Oppenheimer Lifts Price Target to $280 on AI Growth - Stocks Down Under\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1uMTJhakdDVm9NY3F3QWx2bUJ3S1NZZEkzanBycnF6QWJiT1IteDFkb3p2bUdVTXJDb29OVVBXdjlzWlZLRzVCcTZBeDdSeUUwXzJWeVQtYl82TGJiSjlJR2lYMVJtS01oOEl3Y3pTUERkU01ZWWEtN3dVdw?oc=5\" target=\"_blank\">SpaceX (NASDAQ:SPCX) Stock Jumps 8% as Oppenheimer Lifts Price Target to $280 on AI Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocks Down Under</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOppenheimer raised its SpaceX (SPCX) price target to $280, citing AI-driven growth, and the stock jumped 8% on the news.\n\n\u5185\u5bb9:\nOppenheimer \u5c06 SpaceX (SPCX) \u76ee\u6807\u4ef7\u4e0a\u8c03\u81f3 $280\uff0c\u7406\u7531\u662f AI \u9a71\u52a8\u589e\u957f\uff0c\u80a1\u4ef7\u5e94\u58f0\u4e0a\u6da8 8%\u3002\n\nWhy it matters:\nA sell-side target hike tied to \"AI growth\" pushes the valuation further into speculative territory ahead of any unlock event \u2014 it's exactly the kind of index-flow-adjacent hype that inflates the base the lock-up tranches will later be measured against.\n\n\u5f71\u54cd:\n\u5356\u65b9\u5206\u6790\u5e08\u7528\u300cAI \u589e\u957f\u300d\u5f53\u7406\u7531\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0c\u4f1a\u628a\u4f30\u503c\u8fdb\u4e00\u6b65\u63a8\u5411\u6295\u673a\u533a\u95f4\uff0c\u4e5f\u8ba9\u65e5\u540e\u89e3\u7981\u6f6e\u8861\u91cf\u7684\u57fa\u6570\u88ab\u57ab\u9ad8\u2014\u2014\u8fd9\u7c7b\u7092\u4f5c\u6b63\u662f\u89e3\u7981\u524d\u7684\u5178\u578b\u566a\u97f3\u3002\n",
       "emailed": false
     }
   ],
