@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789176723,
-  "generated_at_str": "2026-09-12 01:32:03 UTC",
-  "last_event_ts": 1789175645,
+  "generated_at": 1789176918,
+  "generated_at_str": "2026-09-12 01:35:18 UTC",
+  "last_event_ts": 1789176918,
   "tables": {
     "alerts_dedup": {
-      "count": 4009,
-      "last_ts": 1789165767,
-      "last_str": "2026-09-11 22:29:27 UTC"
+      "count": 4010,
+      "last_ts": 1789176918,
+      "last_str": "2026-09-12 01:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-11 23:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6981,
-      "last_ts": 1789166105,
-      "last_str": "2026-09-11 22:35:05 UTC"
+      "count": 6982,
+      "last_ts": 1789176904,
+      "last_str": "2026-09-12 01:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4196,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-12 01:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5285,
-      "last_ts": 1789164305,
-      "last_str": "2026-09-11 22:05:05 UTC"
+      "count": 5286,
+      "last_ts": 1789176906,
+      "last_str": "2026-09-12 01:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30826,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4017,
+      "ts": 1789176918,
+      "ts_str": "2026-09-12 01:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics - Yahoo Finance UK",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 23:01:33 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNXU2SzNCWkdqTEJnNHJFcUpTYjd4V3hfcHlUTUF5SlUzOWxyNS1oSjRCd3JrQy1VZWZBQUwzQzRKU1l2dzF1X25zS0JTOVNrV2hlZVFqek9ET2JzYVI3T3BsYUN5Sjc5LV9EN0otNkltbUpIbVoxVHFtRFl2VGY4ZTNtZ1pqeDA3ZzVz?oc=5\n\nAI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics - Yahoo Finance UK\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNXU2SzNCWkdqTEJnNHJFcUpTYjd4V3hfcHlUTUF5SlUzOWxyNS1oSjRCd3JrQy1VZWZBQUwzQzRKU1l2dzF1X25zS0JTOVNrV2hlZVFqek9ET2JzYVI3T3BsYUN5Sjc5LV9EN0otNkltbUpIbVoxVHFtRFl2VGY4ZTNtZ1pqeDA3ZzVz?oc=5\" target=\"_blank\">AI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg-style headline says AI's HBM shortage is strengthening Micron's pricing position while pressuring Nvidia's GPU cost structure \u2014 no ticker or numeric figure given.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u79f0 AI \u5bf9 HBM \u7684\u77ed\u7f3a\u6b63\u5728\u5f3a\u5316 Micron \u7684\u8bae\u4ef7\u80fd\u529b\uff0c\u540c\u65f6\u7ed9 Nvidia \u7684 GPU \u6210\u672c\u7ed3\u6784\u5e26\u6765\u538b\u529b\u2014\u2014\u672a\u7ed9\u51fa\u5177\u4f53 ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nTight HBM supply flows margin from GPU makers to memory suppliers and signals capacity-constrained AI hardware, a bullish memory-cycle read but a cost/margin headwind for the compute layer \u2014 worth watching for follow-through in Nvidia gross margin guidance or Micron pricing commentary.\n\n\u5f71\u54cd:\nHBM \u4f9b\u7ed9\u5403\u7d27\u4f1a\u628a\u5229\u6da6\u4ece GPU \u5382\u5546\u8f6c\u79fb\u5230\u5185\u5b58\u4f9b\u5e94\u5546\u624b\u91cc\uff0c\u8bf4\u660e AI \u786c\u4ef6\u4ea7\u80fd\u4ecd\u7136\u7d27\u5f20\u2014\u2014\u5bf9\u5185\u5b58\u5468\u671f\u662f\u5229\u597d\u4fe1\u53f7\uff0c\u4f46\u5bf9\u7b97\u529b\u8fd9\u4e00\u5c42\u662f\u6210\u672c/\u6bdb\u5229\u7684\u538b\u529b\u3002\u540e\u7eed\u8981\u7559\u610f Nvidia \u6bdb\u5229\u6307\u5f15\u6216 Micron \u5b9a\u4ef7\u8868\u6001\u662f\u5426\u5370\u8bc1\u8fd9\u4e2a\u8bf4\u6cd5\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4015,
       "ts": 1789165767,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX Stock Climbs Overnight After Rocky Nasdaq-100 Debut: Cathie Wood\u2019s ARK Keeps Buying, Starlink Doubles Business Avia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 12:55:39 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaG1sRUxJVWxqNUpMTFYtR2pZMWRLV2Z0dGVLRmNQSEQyOVFiZ3hLUHc4NkQ5SF9QM1RicXZ6MlBEWEthQ3UyakNPUXI4X1FXV1I0WGx6UzU4ajQ4YVRYMU90bGFJSUpmN2ZEZXZuZ0FIMVRhY3pGd1BoS3ppY2lpU3NBSnIxLVR0UldBUG9pSko4U3pjbktneHZSWEw4TVROTVNBQV9KRWdaa1hvMUVjT1ZMbXc3Y1JQZWNxS0dFR0JMdWs?oc=5\n\nSPCX Stock Climbs Overnight After Rocky Nasdaq-100 Debut: Cathie Wood\u2019s ARK Keeps Buying, Starlink Doubles Business Aviation Prices - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaG1sRUxJVWxqNUpMTFYtR2pZMWRLV2Z0dGVLRmNQSEQyOVFiZ3hLUHc4NkQ5SF9QM1RicXZ6MlBEWEthQ3UyakNPUXI4X1FXV1I0WGx6UzU4ajQ4YVRYMU90bGFJSUpmN2ZEZXZuZ0FIMVRhY3pGd1BoS3ppY2lpU3NBSnIxLVR0UldBUG9pSko4U3pjbktneHZSWEw4TVROTVNBQV9KRWdaa1hvMUVjT1ZMbXc3Y1JQZWNxS0dFR0JMdWs?oc=5\" target=\"_blank\">SPCX Stock Climbs Overnight After Rocky Nasdaq-100 Debut: Cathie Wood\u2019s ARK Keeps Buying, Starlink Doubles Business Aviation Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shares rose overnight following a volatile Nasdaq-100 debut; ARK funds continued buying, and Starlink doubled its pricing for business-aviation customers.\n\n\u5185\u5bb9:\nSPCX \u80a1\u4ef7\u5728\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u52a8\u8361\u7684\u9996\u79c0\u540e\u9694\u591c\u4e0a\u6da8\uff1bARK \u65d7\u4e0b\u57fa\u91d1\u6301\u7eed\u4e70\u5165\uff0c\u540c\u65f6 Starlink \u5c06\u5546\u52a1\u822a\u7a7a\u5ba2\u6237\u7684\u4ef7\u683c\u4e0a\u8c03\u4e86\u4e00\u500d\u3002\n\nWhy it matters:\nThis is index-mechanics noise layered on a real pricing data point: passive Nasdaq-100 inclusion forces mechanical buying independent of fundamentals, while the Starlink price hike is a genuine signal that a SpaceX business line has pricing power \u2014 worth separating from the ARK-driven flow story.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u6d88\u606f\u91cc\u6df7\u7740\u4e24\u4ef6\u4e8b\uff1a\u7eb3\u65af\u8fbe\u514b100\u88ab\u52a8\u7eb3\u5165\u5e26\u6765\u7684\u673a\u68b0\u6027\u4e70\u76d8\u566a\u97f3\uff08\u8ddf\u57fa\u672c\u9762\u65e0\u5173\uff09\uff0c\u4ee5\u53ca Starlink \u6da8\u4ef7\u8fd9\u4e2a\u771f\u5b9e\u4fe1\u53f7\u2014\u2014\u540e\u8005\u8bf4\u660e SpaceX \u67d0\u9879\u4e1a\u52a1\u786e\u5b9e\u6709\u5b9a\u4ef7\u6743\uff0c\u503c\u5f97\u548c ARK \u9a71\u52a8\u7684\u8d44\u91d1\u6d41\u6545\u4e8b\u5206\u5f00\u770b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3817,
-      "ts": 1788540424,
-      "ts_str": "2026-09-04 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] All Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in P",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 15:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxOVDRIbnpXc0cxNkpldVJUbkNpYTROajdmUlhWTjNNbG1UV21GdGFQNzZhb2pHbmZUOTRrQXl2M2JTakhHamcxQTRJZnpic2dpTnNYX3IzbHY4a3k5Ni1oTXQ0MnhjMkFnOUd5T1E2N3RKdUtmb3JiRUNjWkdYQ184TlZFcm9HemRGbVBGUnpZTk4tVUdUZmREcVYyUQ?oc=5\n\nAll Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in Plain Sight. - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOVDRIbnpXc0cxNkpldVJUbkNpYTROajdmUlhWTjNNbG1UV21GdGFQNzZhb2pHbmZUOTRrQXl2M2JTakhHamcxQTRJZnpic2dpTnNYX3IzbHY4a3k5Ni1oTXQ0MnhjMkFnOUd5T1E2N3RKdUtmb3JiRUNjWkdYQ184TlZFcm9HemRGbVBGUnpZTk4tVUdUZmREcVYyUQ?oc=5\" target=\"_blank\">All Eyes Are on SpaceX's Next Share Unlock on Sept. 9. But These 3 Unstoppable Growth Stocks Are Better Buys Hiding in Plain Sight.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline about SpaceX's next share unlock on Sept. 9 appeared duplicated across the RSS feed, framed as clickbait pointing readers toward three unrelated growth stocks instead.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053\u4e86 SpaceX 9 \u6708 9 \u65e5\u7684\u4e0b\u4e00\u6b21\u80a1\u4efd\u89e3\u7981\uff0c\u5728 RSS \u91cc\u91cd\u590d\u51fa\u73b0\uff0c\u4f46\u5185\u5bb9\u5176\u5b9e\u662f\u501f\u89e3\u7981\u8bdd\u9898\u5e26\u4e09\u53ea\u65e0\u5173\u6210\u957f\u80a1\u7684\u6807\u9898\u515a\u6587\u7ae0\u3002\n\nWhy it matters:\nConfirms the unlock date is still on schedule and getting mainstream financial-media attention, but the actual content is low-signal \u2014 a stock-promotion piece using the unlock as a hook, not new information about unlock size, selling pressure, or index-flow mechanics.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u53ea\u662f\u786e\u8ba4\u89e3\u7981\u65e5\u671f 9 \u6708 9 \u65e5\u4ecd\u6309\u8ba1\u5212\u8fdb\u884c\uff0c\u5a92\u4f53\u4e5f\u5728\u5173\u6ce8\uff0c\u4f46\u5185\u5bb9\u672c\u8eab\u4fe1\u53f7\u5f88\u5f31\u2014\u2014\u662f\u62ff\u89e3\u7981\u5f53\u5671\u5934\u7684\u9009\u80a1\u8f6f\u6587\uff0c\u6ca1\u6709\u63d0\u4f9b\u89e3\u7981\u89c4\u6a21\u3001\u629b\u538b\u6216\u6307\u6570\u6d41\u5411\u65b9\u9762\u7684\u65b0\u4fe1\u606f\u3002\n",
       "emailed": false
     }
   ],
