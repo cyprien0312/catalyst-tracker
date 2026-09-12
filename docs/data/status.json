@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789198323,
-  "generated_at_str": "2026-09-12 07:32:03 UTC",
-  "last_event_ts": 1789197243,
+  "generated_at": 1789198518,
+  "generated_at_str": "2026-09-12 07:35:18 UTC",
+  "last_event_ts": 1789198517,
   "tables": {
     "alerts_dedup": {
-      "count": 4012,
-      "last_ts": 1789188423,
-      "last_str": "2026-09-12 04:47:03 UTC"
+      "count": 4015,
+      "last_ts": 1789198517,
+      "last_str": "2026-09-12 07:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-12 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5840,
-      "last_ts": 1789196703,
-      "last_str": "2026-09-12 07:05:03 UTC"
+      "count": 5841,
+      "last_ts": 1789198503,
+      "last_str": "2026-09-12 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6990,
-      "last_ts": 1789196706,
-      "last_str": "2026-09-12 07:05:06 UTC"
+      "count": 6996,
+      "last_ts": 1789198505,
+      "last_str": "2026-09-12 07:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4201,
-      "last_ts": 1789196704,
-      "last_str": "2026-09-12 07:05:04 UTC"
+      "count": 4202,
+      "last_ts": 1789198503,
+      "last_str": "2026-09-12 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5293,
-      "last_ts": 1789193105,
-      "last_str": "2026-09-12 06:05:05 UTC"
+      "count": 5294,
+      "last_ts": 1789198507,
+      "last_str": "2026-09-12 07:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 30865,
@@ -317,6 +317,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4020,
+      "ts": 1789198517,
+      "ts_str": "2026-09-12 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge squeezes $100 phones - blockchain.news",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 15:53:41 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE9fMWhRT0lEWXI1MU9ZeW1oRGxyMkFFdXZocHFJUU42aWdCb24tdkZWaHZvZ0VBWG1LSVdtaEYwQXFjQUtqM0FKT3ZpQm54TTcxY2NpV3RyS0tnQzFPdERmZERRZnRBOFFFaTY3eFVtaVRZdWZtcFRWUw?oc=5\n\nMemory price surge squeezes $100 phones - blockchain.news\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9fMWhRT0lEWXI1MU9ZeW1oRGxyMkFFdXZocHFJUU42aWdCb24tdkZWaHZvZ0VBWG1LSVdtaEYwQXFjQUtqM0FKT3ZpQm54TTcxY2NpV3RyS0tnQzFPdERmZERRZnRBOFFFaTY3eFVtaVRZdWZtcFRWUw?oc=5\" target=\"_blank\">Memory price surge squeezes $100 phones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">blockchain.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline about a memory-price surge squeezing the price of $100 phones triggered C6, duplicated across feeds (same title twice).\n\n\u5185\u5bb9:\n\u4e00\u6761\u5173\u4e8e\u5185\u5b58\u6da8\u4ef7\u6324\u538b $100 \u624b\u673a\u4ef7\u683c\u7684\u65b0\u95fb\u89e6\u53d1\u4e86 C6\uff0c\u540c\u4e00\u6807\u9898\u5728\u591a\u4e2a feed \u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) cost pass-through hitting the cheapest phone tier signals the price spike is broad enough to compress margins even in low-end hardware, not just premium AI servers \u2014 a tightening-supply read consistent with the memory-stress thesis.\n\n\u5f71\u54cd:\nDRAM/NAND \u6210\u672c\u4f20\u5bfc\u5230\u6700\u4fbf\u5b9c\u7684\u624b\u673a\u6863\u4f4d\uff0c\u8bf4\u660e\u8fd9\u6ce2\u6da8\u4ef7\u5df2\u7ecf\u8513\u5ef6\u5230\u4f4e\u7aef\u786c\u4ef6\uff0c\u4e0d\u53ea\u662f\u9ad8\u7aef AI \u670d\u52a1\u5668\uff0c\u7b26\u5408\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4021,
+      "ts": 1789198517,
+      "ts_str": "2026-09-12 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory price surge squeezes $100 phones - blockchain.news",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 15:53:41 GMT\nLink:      https://news.google.com/rss/articles/CBMieEFVX3lxTE9fMWhRT0lEWXI1MU9ZeW1oRGxyMkFFdXZocHFJUU42aWdCb24tdkZWaHZvZ0VBWG1LSVdtaEYwQXFjQUtqM0FKT3ZpQm54TTcxY2NpV3RyS0tnQzFPdERmZERRZnRBOFFFaTY3eFVtaVRZdWZtcFRWUw?oc=5\n\nMemory price surge squeezes $100 phones - blockchain.news\n\n<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9fMWhRT0lEWXI1MU9ZeW1oRGxyMkFFdXZocHFJUU42aWdCb24tdkZWaHZvZ0VBWG1LSVdtaEYwQXFjQUtqM0FKT3ZpQm54TTcxY2NpV3RyS0tnQzFPdERmZERRZnRBOFFFaTY3eFVtaVRZdWZtcFRWUw?oc=5\" target=\"_blank\">Memory price surge squeezes $100 phones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">blockchain.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline about a memory-price surge squeezing the price of $100 phones triggered C6, duplicated across feeds (same title twice).\n\n\u5185\u5bb9:\n\u4e00\u6761\u5173\u4e8e\u5185\u5b58\u6da8\u4ef7\u6324\u538b $100 \u624b\u673a\u4ef7\u683c\u7684\u65b0\u95fb\u89e6\u53d1\u4e86 C6\uff0c\u540c\u4e00\u6807\u9898\u5728\u591a\u4e2a feed \u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nMemory (DRAM/NAND) cost pass-through hitting the cheapest phone tier signals the price spike is broad enough to compress margins even in low-end hardware, not just premium AI servers \u2014 a tightening-supply read consistent with the memory-stress thesis.\n\n\u5f71\u54cd:\nDRAM/NAND \u6210\u672c\u4f20\u5bfc\u5230\u6700\u4fbf\u5b9c\u7684\u624b\u673a\u6863\u4f4d\uff0c\u8bf4\u660e\u8fd9\u6ce2\u6da8\u4ef7\u5df2\u7ecf\u8513\u5ef6\u5230\u4f4e\u7aef\u786c\u4ef6\uff0c\u4e0d\u53ea\u662f\u9ad8\u7aef AI \u670d\u52a1\u5668\uff0c\u7b26\u5408\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4022,
+      "ts": 1789198517,
+      "ts_str": "2026-09-12 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] AI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics - Yahoo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 23:01:33 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE1OOG1aM2U5aVdfeVdTUjF5eEVOX0hBRTVic2p3SjFQVW1ZcjBYU0h2TmtsczRENFo2UF9PSFpxRG9BS3lwZHJNQWFtZEsxemZFVEdtS1JVZ1kzMlRvcVBIYnlRcDdkcVZEcFIwSzVEbG5JTElCbUtqWVlFU0o1N2RyU01uWGhWcE1WYkxHNDNmRU1jLXc1dkNXQnA0XzA?oc=5\n\nAI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE1OOG1aM2U5aVdfeVdTUjF5eEVOX0hBRTVic2p3SjFQVW1ZcjBYU0h2TmtsczRENFo2UF9PSFpxRG9BS3lwZHJNQWFtZEsxemZFVEdtS1JVZ1kzMlRvcVBIYnlRcDdkcVZEcFIwSzVEbG5JTElCbUtqWVlFU0o1N2RyU01uWGhWcE1WYkxHNDNmRU1jLXc1dkNXQnA0XzA?oc=5\" target=\"_blank\">AI\u2019s HBM Shortage Strengthens Micron\u2019s Hand\u2014and Pressures Nvidia\u2019s GPU Economics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg-style headline says AI's HBM shortage is strengthening Micron's pricing position while pressuring Nvidia's GPU cost structure \u2014 no ticker or numeric figure given.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u79f0 AI \u5bf9 HBM \u7684\u77ed\u7f3a\u6b63\u5728\u5f3a\u5316 Micron \u7684\u8bae\u4ef7\u80fd\u529b\uff0c\u540c\u65f6\u7ed9 Nvidia \u7684 GPU \u6210\u672c\u7ed3\u6784\u5e26\u6765\u538b\u529b\u2014\u2014\u672a\u7ed9\u51fa\u5177\u4f53 ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nTight HBM supply flows margin from GPU makers to memory suppliers and signals capacity-constrained AI hardware, a bullish memory-cycle read but a cost/margin headwind for the compute layer \u2014 worth watching for follow-through in Nvidia gross margin guidance or Micron pricing commentary.\n\n\u5f71\u54cd:\nHBM \u4f9b\u7ed9\u5403\u7d27\u4f1a\u628a\u5229\u6da6\u4ece GPU \u5382\u5546\u8f6c\u79fb\u5230\u5185\u5b58\u4f9b\u5e94\u5546\u624b\u91cc\uff0c\u8bf4\u660e AI \u786c\u4ef6\u4ea7\u80fd\u4ecd\u7136\u7d27\u5f20\u2014\u2014\u5bf9\u5185\u5b58\u5468\u671f\u662f\u5229\u597d\u4fe1\u53f7\uff0c\u4f46\u5bf9\u7b97\u529b\u8fd9\u4e00\u5c42\u662f\u6210\u672c/\u6bdb\u5229\u7684\u538b\u529b\u3002\u540e\u7eed\u8981\u7559\u610f Nvidia \u6bdb\u5229\u6307\u5f15\u6216 Micron \u5b9a\u4ef7\u8868\u6001\u662f\u5426\u5370\u8bc1\u8fd9\u4e2a\u8bf4\u6cd5\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4019,
       "ts": 1789188423,
@@ -2285,36 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion - timothysykes.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 20:08:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTFBWMHo4OHBZMkc1NTlTN2x2cWdpTmdLdmRHakRRUGZsWmxLMGFqZ2Zva2ZuQzUyNlBzZEJaM3FRQkpScS1YaTFaNXNTRjd2VFo4MV9HMFFqbzNFQ19yOG9WSE1wWTZ6MnRjMnRELXhnUDhyM09x?oc=5\n\nSK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion - timothysykes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBWMHo4OHBZMkc1NTlTN2x2cWdpTmdLdmRHakRRUGZsWmxLMGFqZ2Zva2ZuQzUyNlBzZEJaM3FRQkpScS1YaTFaNXNTRjd2VFo4MV9HMFFqbzNFQ19yOG9WSE1wWTZ6MnRjMnRELXhnUDhyM09x?oc=5\" target=\"_blank\">SK hynix Stock Surges As DRAM Shortage Fuels Aggressive Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timothysykes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix shares jumped after reports of a DRAM shortage prompting the company to expand production aggressively.\n\n\u5185\u5bb9:\nSK hynix \u80a1\u4ef7\u5927\u6da8\uff0c\u6b64\u524d\u6709\u62a5\u9053\u79f0 DRAM \u77ed\u7f3a\u4fc3\u4f7f\u516c\u53f8\u6fc0\u8fdb\u6269\u4ea7\u3002\n\nWhy it matters:\nTight DRAM supply and rising memory prices are a direct input cost pressure on AI server/GPU builds; it's also a classic late-cycle tell \u2014 suppliers racing to add capacity into a shortage often overshoot right as demand cools.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u7ed9\u7d27\u5f20\u3001\u4ef7\u683c\u4e0a\u6da8\uff0c\u76f4\u63a5\u63a8\u9ad8 AI \u670d\u52a1\u5668/GPU \u7684\u5efa\u8bbe\u6210\u672c\uff1b\u8fd9\u4e5f\u662f\u5178\u578b\u7684\u5468\u671f\u665a\u671f\u4fe1\u53f7\u2014\u2014\u4f9b\u5e94\u5546\u5728\u77ed\u7f3a\u4e2d\u62fc\u547d\u6269\u4ea7\uff0c\u5f80\u5f80\u6b63\u597d\u649e\u4e0a\u9700\u6c42\u964d\u6e29\u7684\u65f6\u70b9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3822,
-      "ts": 1788560953,
-      "ts_str": "2026-09-04 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.42% (+51bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-03\nCurrent:  2.42%\n90d low:  1.91%\nMove:     +51bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield jumped to 2.42% on 2026-09-03, up 0.51pp from its trailing-90-day low of 1.91%, crossing C10's spike trigger.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u771f\u5b9e\uff08TIPS\uff09\u6536\u76ca\u7387\u5728 2026-09-03 \u5347\u81f3 2.42%\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.91% \u9ad8\u51fa 0.51 \u4e2a\u767e\u5206\u70b9\uff0c\u89e6\u53d1\u4e86 C10 \u7684\u8df3\u5347\u9608\u503c\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to long-duration AI-capex cash flows and tighten broader financial conditions, directly pressuring the valuations most exposed to the AI-infrastructure narrative.\n\n\u5f71\u54cd:\n\u771f\u5b9e\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u62ac\u9ad8\u957f\u4e45\u671f AI capex \u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\uff0c\u4e5f\u6536\u7d27\u6574\u4f53\u91d1\u878d\u73af\u5883\uff0c\u76f4\u63a5\u6253\u538b\u6700\u4f9d\u8d56 AI \u57fa\u5efa\u53d9\u4e8b\u7684\u90a3\u6279\u4f30\u503c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3821,
-      "ts": 1788555915,
-      "ts_str": "2026-09-04 21:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] SK hynix Stock Jumps As DRAM Shortage And AI Demand Fuel Expansion - timothysykes.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 20:38:00 GMT\nLink:      https://news.google.com/rss/articles/CBMid0FVX3lxTE4taFBtZzBucFk3SnRoNGw2UXFfYlVYaV92MU1UZUxUbEJRb2RYNGtTWXJJVzE3Rzd5ckZsY19YRDduS0NtRDBmakVwR29MQndJUDBtdVl1S3lUd2Q2ZzMwTWo4MEczSExRajdNWjRQSl9GU2d4TTFn?oc=5\n\nSK hynix Stock Jumps As DRAM Shortage And AI Demand Fuel Expansion - timothysykes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE4taFBtZzBucFk3SnRoNGw2UXFfYlVYaV92MU1UZUxUbEJRb2RYNGtTWXJJVzE3Rzd5ckZsY19YRDduS0NtRDBmakVwR29MQndJUDBtdVl1S3lUd2Q2ZzMwTWo4MEczSExRajdNWjRQSl9GU2d4TTFn?oc=5\" target=\"_blank\">SK hynix Stock Jumps As DRAM Shortage And AI Demand Fuel Expansion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timothysykes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSK hynix shares rose on reports of a DRAM shortage driven by AI demand, with the company reportedly expanding capacity in response.\n\n\u5185\u5bb9:\nSK hynix \u80a1\u4ef7\u4e0a\u6da8\uff0c\u5e02\u573a\u62a5\u9053\u79f0 AI \u9700\u6c42\u5e26\u52a8 DRAM \u51fa\u73b0\u77ed\u7f3a\uff0c\u516c\u53f8\u636e\u62a5\u6b63\u5728\u6269\u4ea7\u5e94\u5bf9\u3002\n\nWhy it matters:\nA DRAM shortage tightening alongside AI buildout signals real, not speculative, demand pull-through into the memory supply chain \u2014 the opposite of the C6 oversupply/cancellation pattern this catalyst usually flags, so it's a bullish-for-thesis data point rather than a stress signal.\n\n\u5f71\u54cd:\nDRAM \u4f9b\u7ed9\u5728 AI \u5efa\u8bbe\u63a8\u8fdb\u7684\u540c\u65f6\u6536\u7d27\uff0c\u8bf4\u660e\u9700\u6c42\u662f\u771f\u5b9e\u62c9\u52a8\u800c\u975e\u6295\u673a\u2014\u2014\u8fd9\u8ddf C6 \u5e73\u65f6\u76ef\u7684\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u6b63\u597d\u76f8\u53cd\uff0c\u5c5e\u4e8e\u5bf9 AI capex \u8bba\u70b9\u6709\u5229\u7684\u6570\u636e\u70b9\uff0c\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3820,
-      "ts": 1788552317,
-      "ts_str": "2026-09-04 20:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Sandisk Stock Rides DRAM Shortage And Retail-Fueled Swings - timothysykes.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 04 Sep 2026 19:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFdTVDQ3ZmlUUXloVktSejA0YTdMbzZFa1VmR0tMQkFYNWxqOUt2SHhrQ25rVGQ0UWRERDh2Z2xRWmUxR1ZwUklOUFFWeko3WnRRWnh2dEFyS256TFpFdEFTM3JPbl9HeE1rMlMzTnVMZkZGeEwxRTNDekNtLTVlYw?oc=5\n\nSandisk Stock Rides DRAM Shortage And Retail-Fueled Swings - timothysykes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQcFdTVDQ3ZmlUUXloVktSejA0YTdMbzZFa1VmR0tMQkFYNWxqOUt2SHhrQ25rVGQ0UWRERDh2Z2xRWmUxR1ZwUklOUFFWeko3WnRRWnh2dEFyS256TFpFdEFTM3JPbl9HeE1rMlMzTnVMZkZGeEwxRTNDekNtLTVlYw?oc=5\" target=\"_blank\">Sandisk Stock Rides DRAM Shortage And Retail-Fueled Swings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">timothysykes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn RSS headline reports Sandisk stock swinging on a DRAM shortage narrative, with retail trading amplifying the move.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u65b0\u95fb\u79f0 Sandisk \u80a1\u4ef7\u56e0 DRAM \u77ed\u7f3a\u53d9\u4e8b\u800c\u5267\u70c8\u6ce2\u52a8\uff0c\u6563\u6237\u4ea4\u6613\u653e\u5927\u4e86\u8fd9\u4e00\u8d70\u52bf\u3002\n\nWhy it matters:\nShortage framing is the inverse of the C6 bear case (oversupply/price collapse) \u2014 it signals tight memory supply, which supports pricing power for DRAM/NAND makers rather than the capex-glut thesis. Worth tracking as a leading indicator for memory-price direction feeding AI hardware cost inputs.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u53d9\u4e8b\u548c C6 \u5173\u6ce8\u7684\u7a7a\u5934\u903b\u8f91\uff08\u4f9b\u8fc7\u4e8e\u6c42\u3001\u4ef7\u683c\u5d29\u8dcc\uff09\u65b9\u5411\u76f8\u53cd\u2014\u2014\u5b83\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u504f\u7d27\uff0c\u5bf9 DRAM/NAND \u5382\u5546\u662f\u63d0\u4ef7\u5229\u597d\uff0c\u800c\u4e0d\u662f\u4ea7\u80fd\u8fc7\u5269\u7684\u4fe1\u53f7\u3002\u8fd9\u6761\u53ef\u4ee5\u4f5c\u4e3a\u5185\u5b58\u4ef7\u683c\u8d70\u5411\u7684\u9886\u5148\u6307\u6807\uff0c\u95f4\u63a5\u5f71\u54cd AI \u786c\u4ef6\u7684\u6210\u672c\u8f93\u5165\u3002\n",
       "emailed": false
     }
   ],
