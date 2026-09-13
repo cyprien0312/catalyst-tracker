@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789296062,
-  "generated_at_str": "2026-09-13 10:41:02 UTC",
-  "last_event_ts": 1789295704,
+  "generated_at": 1789296257,
+  "generated_at_str": "2026-09-13 10:44:17 UTC",
+  "last_event_ts": 1789296256,
   "tables": {
     "alerts_dedup": {
-      "count": 4088,
-      "last_ts": 1789294457,
-      "last_str": "2026-09-13 10:14:17 UTC"
+      "count": 4090,
+      "last_ts": 1789296256,
+      "last_str": "2026-09-13 10:44:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-13 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31144,
-      "last_ts": 1789294443,
-      "last_str": "2026-09-13 10:14:03 UTC"
+      "count": 31150,
+      "last_ts": 1789296243,
+      "last_str": "2026-09-13 10:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9376,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4096,
+      "ts": 1789296256,
+      "ts_str": "2026-09-13 10:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 09:59:11 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0lOYnBnV2txeVo5Zno4SmFvUTRZbm0zNlV1aUNhUjFOUVdYMElKeGlmR3hiWVMzS2pfaFNsOEhMcE9YVVFKdHFDRk0xWXpHRW5xZ0R5dXY5NXNMZDU3VlVBX0FXYXo5SjAyREZNV052UQ?oc=5\n\nSam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0lOYnBnV2txeVo5Zno4SmFvUTRZbm0zNlV1aUNhUjFOUVdYMElKeGlmR3hiWVMzS2pfaFNsOEhMcE9YVVFKdHFDRk0xWXpHRW5xZ0R5dXY5NXNMZDU3VlVBX0FXYXo5SjAyREZNV052UQ?oc=5\" target=\"_blank\">Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yellow.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/other outlets report Sam Altman has ruled out an OpenAI IPO in 2026, citing AI safety work as the reason.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e\u7b49\u5a92\u4f53\u62a5\u9053\uff0cSam Altman \u6392\u9664\u4e86 OpenAI \u5728 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u7406\u7531\u662f AI \u5b89\u5168\u5de5\u4f5c\u3002\n\nWhy it matters:\nRemoves a near-term liquidity/exit path that would otherwise let OpenAI raise public capital or give backers a mark-to-market; keeps OpenAI reliant on private mega-rounds and partner capex (e.g. Microsoft, Oracle) to fund compute, which is exactly the fragile-funding-chain dynamic the C3 signal watches for.\n\n\u5f71\u54cd:\n\u8fd9\u7b49\u4e8e\u5173\u6389\u4e86\u4e00\u4e2a\u8fd1\u671f\u7684\u6d41\u52a8\u6027/\u9000\u51fa\u6e20\u9053\u2014\u2014OpenAI \u6ca1\u6cd5\u9760\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u4e5f\u6ca1\u6cd5\u8ba9\u73b0\u6709\u6295\u8d44\u4eba\u7684\u6301\u80a1\u5f97\u5230\u516c\u5f00\u5b9a\u4ef7\uff0c\u53ea\u80fd\u7ee7\u7eed\u9760\u79c1\u52df\u5de8\u989d\u878d\u8d44\u548c Microsoft\u3001Oracle \u8fd9\u7c7b\u5408\u4f5c\u4f19\u4f34\u7684\u8d44\u672c\u5f00\u652f\u6491\u7b97\u529b\u9700\u6c42\u3002\u8fd9\u6b63\u662f C3 \u4fe1\u53f7\u76ef\u7684\u90a3\u79cd\u8106\u5f31\u8d44\u91d1\u94fe\u98ce\u9669\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4097,
+      "ts": 1789296256,
+      "ts_str": "2026-09-13 10:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI rules out 2026 IPO as Altman cites safety work - Tech in Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 00:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPa1F4VGdEeTFWTy1IbGNLeDFIUHp6ZU5OaHZaWldWbVlDdnBPRmwyb1oteFIxSmdWRHVoNGRuTlJfTVoyTXVaN00yUGlwM0RFNkxWVjc5S25nOFZpdjNpenBqRDBITk15bExzc01wYlhMQ3Rwa3pLZGpqOWZlcTZFTHFUYkc?oc=5\n\nOpenAI rules out 2026 IPO as Altman cites safety work - Tech in Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPa1F4VGdEeTFWTy1IbGNLeDFIUHp6ZU5OaHZaWldWbVlDdnBPRmwyb1oteFIxSmdWRHVoNGRuTlJfTVoyTXVaN00yUGlwM0RFNkxWVjc5S25nOFZpdjNpenBqRDBITk15bExzc01wYlhMQ3Rwa3pLZGpqOWZlcTZFTHFUYkc?oc=5\" target=\"_blank\">OpenAI rules out 2026 IPO as Altman cites safety work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech in Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI ruled out an IPO in 2026, with Sam Altman citing ongoing safety work as the reason.\n\n\u5185\u5bb9:\nOpenAI \u6392\u9664\u4e86 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0cSam Altman \u7ed9\u51fa\u7684\u7406\u7531\u662f\u5b89\u5168\u65b9\u9762\u7684\u5de5\u4f5c\u4ecd\u5728\u8fdb\u884c\u3002\n\nWhy it matters:\nRemoves a near-term liquidity/scrutiny event that would have forced audited financials and public burn-rate disclosure \u2014 keeps OpenAI's capex commitments opaque for longer, which is mildly bearish for anyone trying to verify the C3 burn-rate thesis from outside.\n\n\u5f71\u54cd:\n\u8fd9\u7b49\u4e8e\u628a\u4e00\u4e2a\u672c\u53ef\u80fd\u5f3a\u5236\u62ab\u9732\u5ba1\u8ba1\u8d22\u52a1\u548c\u771f\u5b9e\u70e7\u94b1\u901f\u5ea6\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u5f80\u540e\u63a8\u8fdf\uff0c\u5916\u90e8\u60f3\u6838\u5b9e C3 \u70e7\u94b1\u5047\u8bbe\u7684\u96be\u5ea6\u56e0\u6b64\u53c8\u589e\u52a0\u4e86\uff0c\u7b97\u662f\u8f7b\u5ea6\u5229\u7a7a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4095,
       "ts": 1789294457,
@@ -2296,26 +2316,6 @@
       "subject": "[C3-CRITICAL] SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 17:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\n\nSoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\" target=\"_blank\">SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a large junk-bond offering to help fund its OpenAI investment commitments.\n\n\u5185\u5bb9:\nSoftBank \u8ba1\u5212\u53d1\u884c\u4e00\u7b14\u5927\u89c4\u6a21\u5783\u573e\u503a\uff0c\u7528\u4e8e\u586b\u8865\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u627f\u8bfa\u3002\n\nWhy it matters:\nFinancing an AI equity stake with sub-investment-grade debt signals the money isn't coming from free cash flow \u2014 it's leveraged, which raises the stakes if OpenAI's growth or funding path disappoints. It also feeds directly into the credit-market stress channel this tracker watches via C7.\n\n\u5f71\u54cd:\n\u7528\u5783\u573e\u7ea7\u503a\u5238\u7ed9 AI \u80a1\u6743\u6295\u8d44\u878d\u8d44\uff0c\u8bf4\u660e\u8fd9\u7b14\u94b1\u4e0d\u662f\u81ea\u7531\u73b0\u91d1\u6d41\u51fa\u7684\uff0c\u800c\u662f\u52a0\u6760\u6746\u501f\u6765\u7684\u2014\u2014\u4e00\u65e6 OpenAI \u7684\u589e\u957f\u6216\u540e\u7eed\u878d\u8d44\u4e0d\u987a\uff0c\u98ce\u9669\u4f1a\u88ab\u653e\u5927\u3002\u8fd9\u4e5f\u76f4\u63a5\u8fde\u5230 C7 \u76ef\u7684\u4fe1\u7528\u5e02\u573a\u538b\u529b\u90a3\u6761\u7ebf\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 3895,
-      "ts": 1788886057,
-      "ts_str": "2026-09-08 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Wall Street analyst sets SpaceX stock price target for next 12 months - finbold.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 16:11:10 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxNUm14Mmg4cm1OaFlENmxXQnJpXy11bllpRXF0NmtxbWNTZVVkOVE0a1dBbWluMTBSeU52OWpwN29UMUZUWVpTV01UY0NoX09PdVhvM3pwTExjTHNSNm5ITWt2cEJLWV83X3VIcGZIUVU2cE14RmZ4MXdja29OcHdvSTVfM0dyUGVkMkRkelJLS25LYklk?oc=5\n\nWall Street analyst sets SpaceX stock price target for next 12 months - finbold.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNUm14Mmg4cm1OaFlENmxXQnJpXy11bllpRXF0NmtxbWNTZVVkOVE0a1dBbWluMTBSeU52OWpwN29UMUZUWVpTV01UY0NoX09PdVhvM3pwTExjTHNSNm5ITWt2cEJLWV83X3VIcGZIUVU2cE14RmZ4MXdja29OcHdvSTVfM0dyUGVkMkRkelJLS25LYklk?oc=5\" target=\"_blank\">Wall Street analyst sets SpaceX stock price target for next 12 months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finbold.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Wall Street analyst published a 12-month price target for SpaceX stock, per Google News coverage; the duplicated headline indicates it was picked up by two feeds, not two separate events.\n\n\u5185\u5bb9:\n\u4e00\u4f4d\u534e\u5c14\u8857\u5206\u6790\u5e08\u7ed9 SpaceX \u80a1\u7968\u53d1\u5e03\u4e86\u672a\u6765 12 \u4e2a\u6708\u7684\u76ee\u6807\u4ef7\uff0c\u6765\u81ea Google News\uff1b\u6807\u9898\u91cd\u590d\u51fa\u73b0\u662f\u56e0\u4e3a\u88ab\u4e24\u4e2a feed \u540c\u65f6\u6293\u5230\uff0c\u4e0d\u662f\u4e24\u6761\u72ec\u7acb\u4e8b\u4ef6\u3002\n\nWhy it matters:\nAnalyst price-target coverage on a still-private company ahead of an IPO is exactly the kind of retail-facing narrative that primes flows once SpaceX lists and enters passive indices \u2014 but on its own it's speculative chatter, not a confirmed catalyst event.\n\n\u5f71\u54cd:\n\u5bf9\u4e00\u5bb6\u8fd8\u6ca1\u4e0a\u5e02\u7684\u516c\u53f8\u53d1\u76ee\u6807\u4ef7\uff0c\u6b63\u662f\u90a3\u79cd\u4e3a\u65e5\u540e IPO \u548c\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u9884\u70ed\u8206\u8bba\u7684\u62a5\u9053\uff0c\u4f46\u5c31\u8fd9\u6761\u672c\u8eab\u800c\u8a00\u53ea\u662f\u5e02\u573a\u731c\u6d4b\uff0c\u4e0d\u6784\u6210\u5df2\u786e\u8ba4\u7684\u50ac\u5316\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3896,
-      "ts": 1788886057,
-      "ts_str": "2026-09-08 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX set for boost from potential jump in Nasdaq 100 weighting - Moneyweb",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 13:11:07 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTdGbWhacTU4VUZYQkVoYmZFSXI4T1ZiY1l2eE5JMjZXdU1UQWVmSWNpTHBNR3Rzd211NXlyNXhTWlFqOHVsUzktWWdXenhSSTRwM2FCaEg1NnhsMUo5enZuQVFOQURzMjc4blNkWEpWUWpPSzNrZEliSUdYRWpHYnBtTVVJZnZ0bHVzNjhkbVZvcFJBeHZid1BpMy10Nml5MXRXSg?oc=5\n\nSpaceX set for boost from potential jump in Nasdaq 100 weighting - Moneyweb\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQaTdGbWhacTU4VUZYQkVoYmZFSXI4T1ZiY1l2eE5JMjZXdU1UQWVmSWNpTHBNR3Rzd211NXlyNXhTWlFqOHVsUzktWWdXenhSSTRwM2FCaEg1NnhsMUo5enZuQVFOQURzMjc4blNkWEpWUWpPSzNrZEliSUdYRWpHYnBtTVVJZnZ0bHVzNjhkbVZvcFJBeHZid1BpMy10Nml5MXRXSg?oc=5\" target=\"_blank\">SpaceX set for boost from potential jump in Nasdaq 100 weighting</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moneyweb</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage flags that SpaceX could see a boost from a potential jump in its Nasdaq 100 index weighting.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cSpaceX \u5728\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u4e2d\u7684\u6743\u91cd\u53ef\u80fd\u5927\u5e45\u4e0a\u5347\uff0c\u5e76\u56e0\u6b64\u53d7\u76ca\u3002\n\nWhy it matters:\nHigher index weighting triggers mechanical buying from passive funds tracking the NDX, independent of fundamentals \u2014 this is exactly the kind of index-mechanics flow that can amplify a single name's price action and mask underlying valuation risk.\n\n\u5f71\u54cd:\n\u6743\u91cd\u4e00\u65e6\u4e0a\u8c03\uff0c\u8ddf\u8e2a NDX \u7684\u88ab\u52a8\u57fa\u91d1\u4f1a\u673a\u68b0\u6027\u4e70\u5165\uff0c\u8fd9\u8ddf\u57fa\u672c\u9762\u6ca1\u5173\u7cfb\u2014\u2014\u8fd9\u6b63\u662f\u6307\u6570\u673a\u5236\u9a71\u52a8\u7684\u8d44\u91d1\u6d41\uff0c\u4f1a\u653e\u5927\u5355\u4e00\u80a1\u7968\u7684\u4ef7\u683c\u6ce2\u52a8\uff0c\u63a9\u76d6\u771f\u5b9e\u7684\u4f30\u503c\u98ce\u9669\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
