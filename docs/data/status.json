@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789328651,
-  "generated_at_str": "2026-09-13 19:44:11 UTC",
-  "last_event_ts": 1789328650,
+  "generated_at": 1789328835,
+  "generated_at_str": "2026-09-13 19:47:15 UTC",
+  "last_event_ts": 1789328834,
   "tables": {
     "alerts_dedup": {
-      "count": 4113,
-      "last_ts": 1789326853,
-      "last_str": "2026-09-13 19:14:13 UTC"
+      "count": 4114,
+      "last_ts": 1789328834,
+      "last_str": "2026-09-13 19:47:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-13 19:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9400,
-      "last_ts": 1789325223,
-      "last_str": "2026-09-13 18:47:03 UTC"
+      "count": 9404,
+      "last_ts": 1789328823,
+      "last_str": "2026-09-13 19:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4121,
+      "ts": 1789328834,
+      "ts_str": "2026-09-13 19:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SpaceX weighting in Nasdaq 100 set to rise after rebalance - Tech in Asia",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 03:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPN29VMElFSnlsSXV5VDhzVDM1dkFJRDFUUVZ6QjNhVFFPYTFsWXJ3bGZxM0NTY2xuWGZWQ24xQnJqaEhveHc3eEVHTlJtQm9vdkRuUGFBSWx6cXFzTmMtaE9QVVFwMVppamljZnFoeGREWHJFM25CVHVhX2haZWdhbDd2NlU?oc=5\n\nSpaceX weighting in Nasdaq 100 set to rise after rebalance - Tech in Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPN29VMElFSnlsSXV5VDhzVDM1dkFJRDFUUVZ6QjNhVFFPYTFsWXJ3bGZxM0NTY2xuWGZWQ24xQnJqaEhveHc3eEVHTlJtQm9vdkRuUGFBSWx6cXFzTmMtaE9QVVFwMVppamljZnFoeGREWHJFM25CVHVhX2haZWdhbDd2NlU?oc=5\" target=\"_blank\">SpaceX weighting in Nasdaq 100 set to rise after rebalance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech in Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS headlines reporting SpaceX's Nasdaq-100 index weighting is set to rise following an index rebalance.\n\n\u5185\u5bb9:\n\u4e24\u6761 Google News RSS \u6807\u9898\u62a5\u9053 SpaceX \u5728\u6307\u6570\u518d\u5e73\u8861\u540e\u4e8e Nasdaq-100 \u4e2d\u7684\u6743\u91cd\u5c06\u4e0a\u5347\u3002\n\nWhy it matters:\nA higher Nasdaq-100 weighting for SpaceX pulls in more passive-fund buying regardless of fundamentals \u2014 the exact mechanical-flow risk C11 tracks. Two duplicate hits from separate feed queries inflate the apparent signal strength, so this reads as one event, not two.\n\n\u5f71\u54cd:\nSpaceX \u5728 Nasdaq-100 \u6743\u91cd\u4e0a\u5347\u4f1a\u5e26\u6765\u66f4\u591a\u88ab\u52a8\u57fa\u91d1\u7684\u673a\u68b0\u6027\u4e70\u5165\uff0c\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u2014\u2014\u8fd9\u6b63\u662f C11 \u8981\u76ef\u7684\u6307\u6570\u673a\u5236\u98ce\u9669\u3002\u4e24\u6761\u547d\u4e2d\u6765\u81ea\u4e0d\u540c\u7684 feed \u67e5\u8be2\u3001\u5176\u5b9e\u662f\u540c\u4e00\u4ef6\u4e8b\uff0c\u4e0d\u8981\u6309\u4e24\u6761\u4fe1\u53f7\u8ba1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4120,
       "ts": 1789326853,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Rising Weight for SpaceX Triggers $12.4 Billion in Passive Buying, but the Test of 2.3 Billion Unlocking Shares Lies Ah\u2026",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 03:10:08 GMT\nLink:      https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kSTByYzZRaFktZmVBcEVEUi0xM3lUZGliajljYmxBSlZfb0s2eGlJeHdBYU1ka2htMDVUX2h2Mm9pRUVLTWwxVWtkM0N2R3BTblJBZ2lGRmx5dlBF?oc=5\n\nRising Weight for SpaceX Triggers $12.4 Billion in Passive Buying, but the Test of 2.3 Billion Unlocking Shares Lies Ah\u2026 - \u6df1\u6f6eTechFlow\n\n<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kSTByYzZRaFktZmVBcEVEUi0xM3lUZGliajljYmxBSlZfb0s2eGlJeHdBYU1ka2htMDVUX2h2Mm9pRUVLTWwxVWtkM0N2R3BTblJBZ2lGRmx5dlBF?oc=5\" target=\"_blank\">Rising Weight for SpaceX Triggers $12.4 Billion in Passive Buying, but the Test of 2.3 Billion Unlocking Shares Lies Ah\u2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u6df1\u6f6eTechFlow</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's rising index weight is triggering $12.4B in passive fund buying, while 2.3B shares from insider lock-ups are set to unlock.\n\n\u5185\u5bb9:\nSpaceX \u6743\u91cd\u4e0a\u5347\u6b63\u89e6\u53d1 $12.4B \u7684\u88ab\u52a8\u57fa\u91d1\u4e70\u5165\uff0c\u4e0e\u6b64\u540c\u65f6 23\u4ebf\u80a1\u5185\u90e8\u4eba\u9501\u5b9a\u80a1\u4efd\u5373\u5c06\u89e3\u7981\u3002\n\nWhy it matters:\nPassive inflows and unlock-driven insider selling are about to hit the same stock at the same time \u2014 a mechanical supply/demand collision, not a fundamentals signal. If the unlock supply outweighs the passive bid, it's a test case for how index mechanics handle a single oversized private-market name going public.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u548c\u89e3\u7981\u629b\u538b\u5c06\u540c\u65f6\u7838\u5411\u540c\u4e00\u53ea\u80a1\u7968\u2014\u2014\u8fd9\u662f\u673a\u68b0\u6027\u7684\u4f9b\u9700\u78b0\u649e\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u3002\u5982\u679c\u89e3\u7981\u629b\u538b\u538b\u8fc7\u88ab\u52a8\u4e70\u76d8\uff0c\u8fd9\u5c31\u662f\u4e00\u6b21\u5b9e\u6d4b\uff1a\u6307\u6570\u673a\u5236\u600e\u4e48\u5e94\u5bf9\u4e00\u5bb6\u8d85\u5927\u6743\u91cd\u7684\u79c1\u52df\u516c\u53f8\u4e0a\u5e02\u540e\u7684\u51b2\u51fb\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3923,
-      "ts": 1788925673,
-      "ts_str": "2026-09-09 03:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX shares could get a boost from Nasdaq 100 rebalancing - economictimes.indiatimes.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 00:30:12 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwJBVV95cUxOZm5PWkdkTnNMNjQ0dzNINHd3aDhPVVB2aFRVa3hyb3BGR0FZOHYyQzVKUC1ta3VoVEZ3NzNZNUdZWndjN3RyaUpUNnhfMmthUm01YVN3V3pSRE5KNEtiNUNab3FtcTdlakJ4N2NkODFsQmQyVVE0RTM1NUdqSFVzcXp6QUVsNmZFNGNtM05pQTlua1NBS0pkX0tuTXdnaGdTTWtzeE8tMlY0S1k2V1dwSmZubjJ0VzIyMVBJLWtGbUdfeXBqRkRScDZMcHBjZHl3ZmZxTmJ3UTVka09mZm0zQk53WUd6VW5FUTVyZ2lhZjNKbUQ2QW5KRk9QQ1hxWk1WTV9NeUdXUUI0MXFLaEozMW11enZkelA1ZGI1eGZsSzJrcFN6Sl93S0NVczBBNEFoVEh5RTFXNlRwcWfSAdcBQVVfeXFMUDFTdThKcHNzWm5XT0NmeHNGVDVlbElUX29ZVmpJZGRObjVNNk1FVzdvbVRvTGNjRFRWLTFZeHlWNE00YmhiVkt5RnY0QnZ6d1p0ZG83cmY3eExraGs5Q1dZUUhabnJsdEgxU2xLVXUxRVFicUdkdW1Mc3lTYWJpX0dTQk1HOHdWVUp1eVhlQkxUcUxTN19neVlsSzVKT0NlRW1xU0FndkttQjFINW5LQkJtQklxaGlkcnR5RGQxWTkwX2I5c3ptOWNjczlWV2lNTElFbFhuMG8?oc=5\n\nSpaceX shares could get a boost from Nasdaq 100 rebalancing - economictimes.indiatimes.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwJBVV95cUxOZm5PWkdkTnNMNjQ0dzNINHd3aDhPVVB2aFRVa3hyb3BGR0FZOHYyQzVKUC1ta3VoVEZ3NzNZNUdZWndjN3RyaUpUNnhfMmthUm01YVN3V3pSRE5KNEtiNUNab3FtcTdlakJ4N2NkODFsQmQyVVE0RTM1NUdqSFVzcXp6QUVsNmZFNGNtM05pQTlua1NBS0pkX0tuTXdnaGdTTWtzeE8tMlY0S1k2V1dwSmZubjJ0VzIyMVBJLWtGbUdfeXBqRkRScDZMcHBjZHl3ZmZxTmJ3UTVka09mZm0zQk53WUd6VW5FUTVyZ2lhZjNKbUQ2QW5KRk9QQ1hxWk1WTV9NeUdXUUI0MXFLaEozMW11enZkelA1ZGI1eGZsSzJrcFN6Sl93S0NVczBBNEFoVEh5RTFXNlRwcWfSAdcBQVVfeXFMUDFTdThKcHNzWm5XT0NmeHNGVDVlbElUX29ZVmpJZGRObjVNNk1FVzdvbVRvTGNjRFRWLTFZeHlWNE00YmhiVkt5RnY0QnZ6d1p0ZG83cmY3eExraGs5Q1dZUUhabnJsdEgxU2xLVXUxRVFicUdkdW1Mc3lTYWJpX0dTQk1HOHdWVUp1eVhlQkxUcUxTN19neVlsSzVKT0NlRW1xU0FndkttQjFINW5LQkJtQklxaGlkcnR5RGQxWTkwX2I5c3ptOWNjczlWV2lNTElFbFhuMG8?oc=5\" target=\"_blank\">SpaceX shares could get a boost from Nasdaq 100 rebalancing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">economictimes.indiatimes.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item speculates that SpaceX shares could get a boost if included in a Nasdaq 100 rebalancing.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u82e5 SpaceX \u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u91cd\u65b0\u8c03\u4ed3\uff0c\u5176\u80a1\u4ef7\u53ef\u80fd\u56e0\u6b64\u83b7\u5f97\u63d0\u632f\u3002\n\nWhy it matters:\nIndex inclusion would force passive funds tracking the Nasdaq 100 to buy SpaceX regardless of valuation, adding mechanical, price-insensitive demand on top of any lock-up unlock dynamics \u2014 a flow-driven prop for the price, not a fundamentals-driven one.\n\n\u5f71\u54cd:\n\u4e00\u65e6\u88ab\u7eb3\u5165\u6307\u6570\uff0c\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u7684\u88ab\u52a8\u57fa\u91d1\u5c31\u5fc5\u987b\u65e0\u89c6\u4f30\u503c\u5f3a\u5236\u4e70\u5165 SpaceX\uff0c\u8fd9\u662f\u4e00\u79cd\u673a\u68b0\u7684\u3001\u4e0d\u770b\u4ef7\u683c\u7684\u8d44\u91d1\u6d41\u5165\uff0c\u4f1a\u53e0\u52a0\u5728\u89e3\u7981\u629b\u538b\u4e4b\u4e0a\uff0c\u5c5e\u4e8e\u8d44\u91d1\u6d41\u9a71\u52a8\u800c\u975e\u57fa\u672c\u9762\u9a71\u52a8\u7684\u652f\u6491\u3002\n",
       "emailed": false
     }
   ],
