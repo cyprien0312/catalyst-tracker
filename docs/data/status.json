@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789292462,
-  "generated_at_str": "2026-09-13 09:41:02 UTC",
-  "last_event_ts": 1789292105,
+  "generated_at": 1789292670,
+  "generated_at_str": "2026-09-13 09:44:30 UTC",
+  "last_event_ts": 1789292669,
   "tables": {
     "alerts_dedup": {
-      "count": 4084,
-      "last_ts": 1789290855,
-      "last_str": "2026-09-13 09:14:15 UTC"
+      "count": 4086,
+      "last_ts": 1789292669,
+      "last_str": "2026-09-13 09:44:29 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-12 23:00:31 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5382,
-      "last_ts": 1789287245,
-      "last_str": "2026-09-13 08:14:05 UTC"
+      "count": 5383,
+      "last_ts": 1789292644,
+      "last_str": "2026-09-13 09:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1243,
-      "last_ts": 1789233245,
-      "last_str": "2026-09-12 17:14:05 UTC"
+      "count": 1244,
+      "last_ts": 1789292645,
+      "last_str": "2026-09-13 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5870,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-13 09:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31131,
-      "last_ts": 1789290843,
-      "last_str": "2026-09-13 09:14:03 UTC"
+      "count": 31136,
+      "last_ts": 1789292642,
+      "last_str": "2026-09-13 09:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9372,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4092,
+      "ts": 1789292669,
+      "ts_str": "2026-09-13 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Sam Altman Rules Out OpenAI IPO in 2026 - ForkLog",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 07:31:45 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE85QjlTNC1MZzVudzdVVVVYNy1EdkJOWmI4WWtqWm5JWEF0RXUtdC1GazBuWnBjdEhFT2RXc3V5Z2x0YnBRR3o4VFZsVVpLV3ZjTkJoMHYtNHIzSmptaTh0dF93cktJRFBSQXM5bmVVTFc?oc=5\n\nSam Altman Rules Out OpenAI IPO in 2026 - ForkLog\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE85QjlTNC1MZzVudzdVVVVYNy1EdkJOWmI4WWtqWm5JWEF0RXUtdC1GazBuWnBjdEhFT2RXc3V5Z2x0YnBRR3o4VFZsVVpLV3ZjTkJoMHYtNHIzSmptaTh0dF93cktJRFBSQXM5bmVVTFc?oc=5\" target=\"_blank\">Sam Altman Rules Out OpenAI IPO in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ForkLog</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Sam Altman ruling out an OpenAI IPO in 2026; the feed carried the identical title twice.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053 Sam Altman \u6392\u9664\u4e86 OpenAI \u5728 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u540c\u4e00\u6761\u6807\u9898\u5728 feed \u91cc\u91cd\u590d\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nThis is C3's routine OpenAI-keyword news noise rather than a burn-rate metric move, so it's MED by default \u2014 ruling out an IPO removes a near-term liquidity/valuation-marking event for the AI-capex thesis rather than adding stress.\n\n\u5f71\u54cd:\n\u8fd9\u662f C3 \u5e38\u89c4\u7684 OpenAI \u5173\u952e\u8bcd\u65b0\u95fb\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6307\u6807\u53d8\u52a8\uff0c\u6240\u4ee5\u9ed8\u8ba4\u662f MED\uff1b\u6392\u9664 IPO \u610f\u5473\u7740\u8fd1\u671f\u5c11\u4e86\u4e00\u4e2a\u80fd\u7ed9 AI capex \u53d9\u4e8b\u63d0\u4f9b\u6d41\u52a8\u6027/\u4f30\u503c\u951a\u70b9\u7684\u4e8b\u4ef6\uff0c\u672c\u8eab\u8c08\u4e0d\u4e0a\u52a0\u5267\u538b\u529b\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4093,
+      "ts": 1789292669,
+      "ts_str": "2026-09-13 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] \"Ill-Advised Moment\": Sam Altman Says OpenAI IPO Won't Launch In 2026 - NDTV",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 05:59:13 GMT\nLink:      https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGlRTUp3am91QlR3azUzLVROT2t2eHVpVkk0NlhBTU95TFFTODd5a2NyaGZ3RkFCREZiNHJiOHJFMHdSeGN2MTlxSE9ZcGJfeVlCNnhwYl8xN0JXTUQxNW5JMnVXM1d2Z2FUbDJJaTAzbDdUVzlVZkNFMEFWUTVVVG50SzJUSF9lc2JveGhQMkR1Q18tejY3WnlEZmNseG9CeXlQZlcyazFjLXlVblJGUmZR0gGyAUFVX3lxTE5waVFNSndqb3VCVHdrNTMtVE5Pa3Z4dWlWSTQ2WEFNT3lMUVM4N3lrY3JoZndGQUJERmI0cmI4ckUwd1J4Y3YxOXFIT1lwYl95WUI2eHBiXzE3QldNRDE1bkkydVczV3ZnYVRsMklpMDNsN1RXOVVmQ0UwQVZRNVVUbnRLMlRIX2VzYm94aFAyRHVDXy16NjdaeURmY2x4b0J5eVBmVzJrMWMteVVuUkZSZlE?oc=5\n\n\"Ill-Advised Moment\": Sam Altman Says OpenAI IPO Won't Launch In 2026 - NDTV\n\n<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGlRTUp3am91QlR3azUzLVROT2t2eHVpVkk0NlhBTU95TFFTODd5a2NyaGZ3RkFCREZiNHJiOHJFMHdSeGN2MTlxSE9ZcGJfeVlCNnhwYl8xN0JXTUQxNW5JMnVXM1d2Z2FUbDJJaTAzbDdUVzlVZkNFMEFWUTVVVG50SzJUSF9lc2JveGhQMkR1Q18tejY3WnlEZmNseG9CeXlQZlcyazFjLXlVblJGUmZR0gGyAUFVX3lxTE5waVFNSndqb3VCVHdrNTMtVE5Pa3Z4dWlWSTQ2WEFNT3lMUVM4N3lrY3JoZndGQUJERmI0cmI4ckUwd1J4Y3YxOXFIT1lwYl95WUI2eHBiXzE3QldNRDE1bkkydVczV3ZnYVRsMklpMDNsN1RXOVVmQ0UwQVZRNVVUbnRLMlRIX2VzYm94aFAyRHVDXy16NjdaeURmY2x4b0J5eVBmVzJrMWMteVVuUkZSZlE?oc=5\" target=\"_blank\">\"Ill-Advised Moment\": Sam Altman Says OpenAI IPO Won't Launch In 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said OpenAI's IPO will not launch in 2026, calling the timing question an \"ill-advised moment\" to discuss.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a OpenAI \u7684 IPO \u4e0d\u4f1a\u5728 2026 \u5e74\u63a8\u51fa\uff0c\u79f0\u6b64\u523b\u8ba8\u8bba\u4e0a\u5e02\u65f6\u673a\u662f\u300c\u4e0d\u660e\u667a\u7684\u65f6\u523b\u300d\u3002\n\nWhy it matters:\nA pushed-back IPO removes a near-term liquidity/valuation-check event for OpenAI and delays external market scrutiny of its burn rate \u2014 this is background chatter, not a hard financial metric, so it stays MED rather than a burn-rate-driven HIGH.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740\u77ed\u671f\u5185\u4e0d\u4f1a\u6709\u5916\u90e8\u5e02\u573a\u5bf9 OpenAI \u4f30\u503c\u548c\u8d44\u91d1\u6d88\u8017\u505a\u68c0\u9a8c\uff0c\u8fd9\u6761\u53ea\u662f\u80cc\u666f\u6d88\u606f\u800c\u975e\u786c\u6570\u636e\u6307\u6807\uff0c\u6240\u4ee5\u505c\u5728 MED \u800c\u4e0d\u662f\u9760 burn rate \u89e6\u53d1\u7684 HIGH\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4090,
       "ts": 1789290855,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung India Diwali Dhamaka: 80-100 Jobs Cut as Memory Chip Prices Surge - International Business Times, Singapore Edit",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 15:40:01 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPaXh2SThTTi1yQ1VibjVuWUNpc1VuaEw3Wmw1dWJPZG81YlVqYURobVRRSmVsQ3hPdEdEdmhWU2VqRGhvMmZoYVpJMFJTaER6SWUzaXBRN1c4VVp0WHFPTUNaeHNjUVowTDJ6NjQ4Zmk5M0dPcE5QNjUxY2oyOVA4V09EZFM4OW9VR1hzZ3NsRVFBcnYzQzhmNTd5OWpoY3M?oc=5\n\nSamsung India Diwali Dhamaka: 80-100 Jobs Cut as Memory Chip Prices Surge - International Business Times, Singapore Edition\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPaXh2SThTTi1yQ1VibjVuWUNpc1VuaEw3Wmw1dWJPZG81YlVqYURobVRRSmVsQ3hPdEdEdmhWU2VqRGhvMmZoYVpJMFJTaER6SWUzaXBRN1c4VVp0WHFPTUNaeHNjUVowTDJ6NjQ4Zmk5M0dPcE5QNjUxY2oyOVA4V09EZFM4OW9VR1hzZ3NsRVFBcnYzQzhmNTd5OWpoY3M?oc=5\" target=\"_blank\">Samsung India Diwali Dhamaka: 80-100 Jobs Cut as Memory Chip Prices Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times, Singapore Edition</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News item reports Samsung India cutting 80-100 jobs while memory chip prices surge, a pairing that matches C6's price-surge trigger term.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb\u62a5\u9053\u79f0\u4e09\u661f\u5370\u5ea6\u88c1\u5458 80-100 \u4eba\uff0c\u540c\u65f6\u5185\u5b58\u82af\u7247\u4ef7\u683c\u4e0a\u6da8\uff0c\u89e6\u53d1\u4e86 C6 \u7684\u4ef7\u683c\u4e0a\u6da8\u5173\u952e\u8bcd\u3002\n\nWhy it matters:\nA price surge alongside layoffs signals memory suppliers cutting capacity/headcount even as prices rise \u2014 consistent with DRAM/NAND tightness feeding into AI-server cost inflation, a real input cost pressure on the AI-capex thesis.\n\n\u5f71\u54cd:\n\u4ef7\u683c\u4e0a\u6da8\u4f34\u968f\u88c1\u5458\uff0c\u8bf4\u660e\u5185\u5b58\u5382\u5546\u5728\u6da8\u4ef7\u7684\u540c\u65f6\u6536\u7f29\u4ea7\u80fd\u6216\u4eba\u529b\u2014\u2014\u4e0e DRAM/NAND \u4f9b\u5e94\u8d8b\u7d27\u3001\u63a8\u9ad8 AI \u670d\u52a1\u5668\u6210\u672c\u7684\u903b\u8f91\u543b\u5408\uff0c\u662f AI capex \u6210\u672c\u7aef\u627f\u538b\u7684\u771f\u5b9e\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3892,
-      "ts": 1788882435,
-      "ts_str": "2026-09-08 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX's increased weighting triggers $12.4 billion in passive buying, but is the real test yet to come with 2.3 billion",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 15:39:27 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxNODltcDRqSnlSWXBzMlF2bWFqYUdwSmxpX0QwYmpaR1l4eHFvOWZiRU53SWlQYjk0OHQ5NVRmR3NCOVBMbXpPVVRWNlMtSVVwMlp3RWVmbHBzTUpRNW1hZTdjNlc3WUxJSWgyWnVVdmxkVU9NRXZoYUdPTEFJRW9nVDJYWDJMQ21CUERiSkNYd0daTGh6QmdVbFJubXZKajAtOEx0dw?oc=5\n\nSpaceX's increased weighting triggers $12.4 billion in passive buying, but is the real test yet to come with 2.3 billion shares unlocking? - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNODltcDRqSnlSWXBzMlF2bWFqYUdwSmxpX0QwYmpaR1l4eHFvOWZiRU53SWlQYjk0OHQ5NVRmR3NCOVBMbXpPVVRWNlMtSVVwMlp3RWVmbHBzTUpRNW1hZTdjNlc3WUxJSWgyWnVVdmxkVU9NRXZoYUdPTEFJRW9nVDJYWDJMQ21CUERiSkNYd0daTGh6QmdVbFJubXZKajAtOEx0dw?oc=5\" target=\"_blank\">SpaceX's increased weighting triggers $12.4 billion in passive buying, but is the real test yet to come with 2.3 billion shares unlocking?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's index-weighting increase is triggering an estimated $12.4B in passive fund buying, while 2.3B shares of insider/employee stock are set to unlock separately.\n\n\u5185\u5bb9:\nSpaceX \u6743\u91cd\u4e0a\u8c03\u6b63\u89e6\u53d1\u7ea6 $12.4B \u7684\u88ab\u52a8\u8d44\u91d1\u4e70\u5165\uff0c\u4e0e\u6b64\u540c\u65f6 23 \u4ebf\u80a1\u5185\u90e8\u4eba/\u5458\u5de5\u80a1\u7968\u5c06\u5355\u72ec\u89e3\u7981\u3002\n\nWhy it matters:\nThe passive-flow inflow and the unlock are opposite forces on the same name: forced buying from index trackers props up demand mechanically, but a 2.3B-share unlock is the real supply test \u2014 if unlock-driven selling outweighs the passive bid, it signals index mechanics alone can't hold up a richly-valued private-market name once real float hits the market.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u6d41\u5165\u548c\u89e3\u7981\u662f\u540c\u4e00\u53ea\u80a1\u7968\u4e0a\u7684\u4e24\u80a1\u76f8\u53cd\u529b\u91cf\uff1a\u6307\u6570\u57fa\u91d1\u7684\u5f3a\u5236\u4e70\u5165\u9760\u673a\u68b0\u89c4\u5219\u6258\u5e95\u9700\u6c42\uff0c\u4f46 23 \u4ebf\u80a1\u89e3\u7981\u624d\u662f\u771f\u6b63\u7684\u4f9b\u7ed9\u6d4b\u8bd5\u2014\u2014\u5982\u679c\u89e3\u7981\u629b\u538b\u538b\u8fc7\u88ab\u52a8\u4e70\u76d8\uff0c\u5c31\u8bf4\u660e\u5355\u9760\u6307\u6570\u673a\u5236\u6491\u4e0d\u4f4f\u4e00\u4e2a\u6d41\u901a\u76d8\u9aa4\u589e\u7684\u9ad8\u4f30\u503c\u6807\u7684\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3893,
-      "ts": 1788882435,
-      "ts_str": "2026-09-08 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally? - Invezz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 14:56:11 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxNbzFrT2N1eWR2MjBuZlZ0ZGxEOTlUd2dqYkJCSVNGYzgxZ3dxYzl5MFRWM1U0TUdXelJtdFh4UHN6bjBBNEFjdmhWczZGSDgtUG1rdzVTTzFZbi13dnBybFJELTZPdlhYMGZIR3E5dmJ0XzVwem1XdkZFOXRGZkJnS1g0STJXckcxcWs4a2h5b3hKYjdMVXUydThpZ0l1ckNEVjY4eGVRNEtKWFVNX05aS2x0X2tRc0k?oc=5\n\nSpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally? - Invezz\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNbzFrT2N1eWR2MjBuZlZ0ZGxEOTlUd2dqYkJCSVNGYzgxZ3dxYzl5MFRWM1U0TUdXelJtdFh4UHN6bjBBNEFjdmhWczZGSDgtUG1rdzVTTzFZbi13dnBybFJELTZPdlhYMGZIR3E5dmJ0XzVwem1XdkZFOXRGZkJnS1g0STJXckcxcWs4a2h5b3hKYjdMVXUydThpZ0l1ckNEVjY4eGVRNEtKWFVNX05aS2x0X2tRc0k?oc=5\" target=\"_blank\">SpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Invezz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadlines are speculating that SpaceX (SPCX) stock could see large passive buying if it is added to the Nasdaq 100, prompting the question of whether SPCX will rally on the rebalance.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u731c\u6d4b\uff0c\u5982\u679c SpaceX\uff08SPCX\uff09\u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\uff0c\u53ef\u80fd\u5f15\u53d1\u5927\u89c4\u6a21\u88ab\u52a8\u4e70\u76d8\uff0c\u5e02\u573a\u5728\u8ba8\u8bba SPCX \u662f\u5426\u4f1a\u501f\u8c03\u4ed3\u4e0a\u6da8\u3002\n\nWhy it matters:\nThis is index-mechanics flow, not fundamentals \u2014 passive funds tracking the Nasdaq 100 would be forced to buy regardless of valuation, which can inflate the perceived strength of an AI-infrastructure name independent of its actual capex or revenue trajectory. It's a reminder that some of the sector's price action is mechanical flow, not conviction.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6307\u6570\u673a\u5236\u5e26\u6765\u7684\u8d44\u91d1\u6d41\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u53d8\u5316\u2014\u2014\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u7684\u88ab\u52a8\u57fa\u91d1\u4e00\u65e6\u8981\u7eb3\u5165\u6210\u5206\u80a1\uff0c\u65e0\u8bba\u4f30\u503c\u9ad8\u4f4e\u90fd\u5f97\u4e70\u5165\uff0c\u8fd9\u4f1a\u8ba9\u4e00\u53ea AI \u57fa\u7840\u8bbe\u65bd\u76f8\u5173\u6807\u7684\u7684\u5f3a\u52bf\u770b\u8d77\u6765\u6bd4\u5b9e\u9645\u60c5\u51b5\u66f4\u5938\u5f20\u3002\u8fd9\u63d0\u9192\u6211\u4eec\uff0c\u677f\u5757\u91cc\u6709\u4e00\u90e8\u5206\u6da8\u5e45\u662f\u673a\u68b0\u6027\u7684\u8d44\u91d1\u6d41\uff0c\u4e0d\u662f\u771f\u5b9e\u4fe1\u5ff5\u9a71\u52a8\u7684\u3002\n",
       "emailed": false
     }
   ],
