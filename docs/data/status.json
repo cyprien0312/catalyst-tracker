@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789303262,
-  "generated_at_str": "2026-09-13 12:41:02 UTC",
-  "last_event_ts": 1789301655,
+  "generated_at": 1789303470,
+  "generated_at_str": "2026-09-13 12:44:30 UTC",
+  "last_event_ts": 1789303469,
   "tables": {
     "alerts_dedup": {
-      "count": 4094,
-      "last_ts": 1789301655,
-      "last_str": "2026-09-13 12:14:15 UTC"
+      "count": 4096,
+      "last_ts": 1789303469,
+      "last_str": "2026-09-13 12:44:29 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-13 12:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31162,
-      "last_ts": 1789301643,
-      "last_str": "2026-09-13 12:14:03 UTC"
+      "count": 31169,
+      "last_ts": 1789303443,
+      "last_str": "2026-09-13 12:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9384,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4102,
+      "ts": 1789303469,
+      "ts_str": "2026-09-13 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Altman: OpenAI IPO Won't Happen in 2026 - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 12:30:14 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xaUV5SEw3aVhIaG16NEppZGtOVzMxSXFwNnBKLVdlckVQV3NwWEt2UmhZdzBFNF9nQklKTXdNMEFObkNkX2w3b1FINTNjT3pzTmxGanJOT253MVVVeW45bzY5a0doYlk?oc=5\n\nAltman: OpenAI IPO Won't Happen in 2026 - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xaUV5SEw3aVhIaG16NEppZGtOVzMxSXFwNnBKLVdlckVQV3NwWEt2UmhZdzBFNF9nQklKTXdNMEFObkNkX2w3b1FINTNjT3pzTmxGanJOT253MVVVeW45bzY5a0doYlk?oc=5\" target=\"_blank\">Altman: OpenAI IPO Won't Happen in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said OpenAI will not IPO in 2026, according to news coverage picked up by the tracker's IPO keyword.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a OpenAI \u4e0d\u4f1a\u5728 2026 \u5e74 IPO\uff0c\u8fd9\u6761\u6d88\u606f\u547d\u4e2d\u4e86 tracker \u7684 IPO \u5173\u952e\u8bcd\u3002\n\nWhy it matters:\nA founder ruling out a near-term IPO removes one potential liquidity/valuation check on OpenAI's private marks, letting the current funding-round valuations stand unchallenged by public-market pricing for longer. On its own this is routine founder messaging, not a stress signal \u2014 MED severity here mostly reflects the tracker's blunt keyword match on \"IPO\" rather than new information.\n\n\u5f71\u54cd:\n\u521b\u59cb\u4eba\u6392\u9664\u8fd1\u671f IPO\uff0c\u610f\u5473\u7740\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\u8fd9\u9053\u6821\u9a8c\u79c1\u52df\u4f30\u503c\u7684\u5173\u5361\u88ab\u63a8\u5f97\u66f4\u8fdc\uff0cOpenAI \u73b0\u6709\u878d\u8d44\u8f6e\u7684\u4f30\u503c\u77ed\u671f\u5185\u4e0d\u4f1a\u88ab\u516c\u5f00\u5e02\u573a\u68c0\u9a8c\u3002\u8fd9\u672c\u8eab\u662f\u5e38\u89c4\u7684\u521b\u59cb\u4eba\u8868\u6001\uff0c\u7b97\u4e0d\u4e0a\u538b\u529b\u4fe1\u53f7\u2014\u2014MED \u7ea7\u522b\u4e3b\u8981\u662f\u56e0\u4e3a tracker \u7528\u300cIPO\u300d\u5173\u952e\u8bcd\u7c97\u66b4\u5339\u914d\uff0c\u4e0d\u4ee3\u8868\u51fa\u73b0\u4e86\u65b0\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4103,
+      "ts": 1789303469,
+      "ts_str": "2026-09-13 12:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI's Altman won't do IPO this year, calls AI extinction risk \u201cunacceptable\u201d - en.prothomalo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 11:57:21 GMT\nLink:      https://news.google.com/rss/articles/CBMiX0FVX3lxTE51eTUzZEZ6X0lsZUV4M2JybHRXV3NpQ0YwYVBwT2dpdFRFUk9kUFc1cklNTmJFUUVsdmo1NGlzMDhkbUFhcHZNOWxZWWRtdkFnSW5kaVlwMUZpNFRrb0I00gFsQVVfeXFMT2pCOXB4Q19sUGhGRlk2aVB3M0FuUDlSQW14Z3Z2VExGUTRKZGI1RUVYSWtsWFA5aGxvb2h4OEFYaGVjOVZ0b01Ca20xVWtWbkFEZmVfcTUxV1pDUWRxdGg1RHhnSmRWLXBvMjNR?oc=5\n\nOpenAI's Altman won't do IPO this year, calls AI extinction risk \u201cunacceptable\u201d - en.prothomalo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE51eTUzZEZ6X0lsZUV4M2JybHRXV3NpQ0YwYVBwT2dpdFRFUk9kUFc1cklNTmJFUUVsdmo1NGlzMDhkbUFhcHZNOWxZWWRtdkFnSW5kaVlwMUZpNFRrb0I00gFsQVVfeXFMT2pCOXB4Q19sUGhGRlk2aVB3M0FuUDlSQW14Z3Z2VExGUTRKZGI1RUVYSWtsWFA5aGxvb2h4OEFYaGVjOVZ0b01Ca20xVWtWbkFEZmVfcTUxV1pDUWRxdGg1RHhnSmRWLXBvMjNR?oc=5\" target=\"_blank\">OpenAI's Altman won't do IPO this year, calls AI extinction risk \u201cunacceptable\u201d</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">en.prothomalo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News item on OpenAI's Sam Altman saying no IPO this year and calling AI extinction risk \"unacceptable\" \u2014 no ticker or numeric metric attached.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u65b0\u95fb\uff1aOpenAI \u7684 Altman \u8868\u793a\u4eca\u5e74\u4e0d\u4f1a IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669\u201c\u4e0d\u53ef\u63a5\u53d7\u201d\u2014\u2014\u6ca1\u6709\u6d89\u53ca\u5177\u4f53 ticker \u6216\u6570\u5b57\u6307\u6807\u3002\n\nWhy it matters:\nThis is speculation/commentary, not a burn-rate or filing data point, so it doesn't meet the HIGH bar (burn-rate metric up >25% QoQ); it's routine OpenAI-keyword noise rather than a substantive capex-payback signal.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u8a00\u8bba/\u731c\u6d4b\u7c7b\u65b0\u95fb\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u8d22\u62a5\u6570\u636e\u70b9\uff0c\u591f\u4e0d\u5230 HIGH \u7684\u95e8\u69db\uff08\u9700\u8981\u70e7\u94b1\u7387\u6307\u6807\u73af\u6bd4\u6da8\u8d85 25%\uff09\uff0c\u53ea\u662f OpenAI \u5173\u952e\u8bcd\u547d\u4e2d\u7684\u5e38\u89c4\u566a\u97f3\uff0c\u4e0d\u6784\u6210\u5b9e\u8d28\u6027\u7684 capex \u56de\u672c\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4101,
       "ts": 1789301655,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Analyst Drops Jaw-Dropping SpaceX Stock Price Target - GuruFocus",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 19:34:24 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxNVS13TEQwNkZBcV9sUUJUNHBLWS1XcnRpTHBVY1diRHJLSGc2Skl4eFNmQkstSVBpUDBjaHhBMVkyR0FfdERlXzY1ZWNrVl9halN3TFYzVUNkdFZNSTlTaXFGajgtUFhFaDNKYUUwaTF3OXpQVmJvZ2xVdEdCWHJHQ0g4RWNGQ3VPZ09waFcxRnp6a3g4?oc=5\n\nAnalyst Drops Jaw-Dropping SpaceX Stock Price Target - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNVS13TEQwNkZBcV9sUUJUNHBLWS1XcnRpTHBVY1diRHJLSGc2Skl4eFNmQkstSVBpUDBjaHhBMVkyR0FfdERlXzY1ZWNrVl9halN3TFYzVUNkdFZNSTlTaXFGajgtUFhFaDNKYUUwaTF3OXpQVmJvZ2xVdEdCWHJHQ0g4RWNGQ3VPZ09waFcxRnp6a3g4?oc=5\" target=\"_blank\">Analyst Drops Jaw-Dropping SpaceX Stock Price Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn analyst issued a new SpaceX stock price target described in the headline as 'jaw-dropping' \u2014 the same headline appears twice, likely duplicate coverage syndicated across outlets.\n\n\u5185\u5bb9:\n\u67d0\u5206\u6790\u5e08\u7ed9\u51fa\u4e86\u4e00\u4e2a\u88ab\u6807\u9898\u79f0\u4e3a\u300c\u60ca\u6389\u4e0b\u5df4\u300d\u7684 SpaceX \u80a1\u4ef7\u76ee\u6807\uff0c\u540c\u4e00\u6761\u6807\u9898\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\uff0c\u5927\u6982\u7387\u662f\u591a\u5bb6\u5a92\u4f53\u8f6c\u8f7d\u7684\u540c\u4e00\u7bc7\u62a5\u9053\u3002\n\nWhy it matters:\nSpaceX isn't public yet, so an 'analyst price target' at this stage is pre-IPO speculation, not a real valuation signal \u2014 it matters for C11 only as a sentiment/hype marker ahead of the unlock, not as new information about fundamentals.\n\n\u5f71\u54cd:\nSpaceX \u8fd8\u6ca1\u4e0a\u5e02\uff0c\u8fd9\u65f6\u5019\u51fa\u73b0\u7684\u300c\u5206\u6790\u5e08\u76ee\u6807\u4ef7\u300d\u672c\u8d28\u662f IPO \u524d\u7684\u731c\u6d4b\uff0c\u4e0d\u662f\u771f\u5b9e\u4f30\u503c\u4fe1\u53f7\uff1b\u5bf9 C11 \u6765\u8bf4\uff0c\u8fd9\u6761\u53ea\u80fd\u7b97\u89e3\u7981\u524d\u7684\u5e02\u573a\u60c5\u7eea/\u7092\u4f5c\u6307\u6807\uff0c\u4e0d\u4ee3\u8868\u57fa\u672c\u9762\u6709\u65b0\u4fe1\u606f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3904,
-      "ts": 1788896861,
-      "ts_str": "2026-09-08 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock Climbs Ahead of Lockup Expiry as Starship's First Commercial Payload Nears - ad-hoc-news.de",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 19:31:49 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSV9nS3E1Z09JSkxTMDZ1Q0dyclRMZ0k0NUQ2SFNrR0lFTUJUYWdQTFA3dGFRVmxvdGVOYlZxdmpuTm5YbWJZOVJCWkF6bWxIdnBORlc3SXZ6OHVfcjN0U2taV0pqRWxtMFZqcjFsZGFtXzVTaTcyYXVmbHA1cnBXeDNRY2ktQmd4MFhsemZCRUdmTXVnRnlaZzEyYjhJcnZpcEJseUx6bnJ5b1I2cnhzaGpfWHBWRFc1SlVuVGVlTXAzc01sUklLYl9HM1h3MU82LTVGSHg2RUllTXgzOHc?oc=5\n\nSpaceX Stock Climbs Ahead of Lockup Expiry as Starship's First Commercial Payload Nears - ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSV9nS3E1Z09JSkxTMDZ1Q0dyclRMZ0k0NUQ2SFNrR0lFTUJUYWdQTFA3dGFRVmxvdGVOYlZxdmpuTm5YbWJZOVJCWkF6bWxIdnBORlc3SXZ6OHVfcjN0U2taV0pqRWxtMFZqcjFsZGFtXzVTaTcyYXVmbHA1cnBXeDNRY2ktQmd4MFhsemZCRUdmTXVnRnlaZzEyYjhJcnZpcEJseUx6bnJ5b1I2cnhzaGpfWHBWRFc1SlVuVGVlTXAzc01sUklLYl9HM1h3MU82LTVGSHg2RUllTXgzOHc?oc=5\" target=\"_blank\">SpaceX Stock Climbs Ahead of Lockup Expiry as Starship's First Commercial Payload Nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline flags SpaceX stock rising ahead of an upcoming lock-up expiry, tied to speculation about Starship's first commercial payload.\n\n\u5185\u5bb9:\nGoogle News \u6807\u9898\u79f0\uff0c\u5728\u89e3\u7981\u4e34\u8fd1\u4e4b\u9645 SpaceX \u80a1\u4ef7\u4e0a\u6da8\uff0c\u5e02\u573a\u7092\u4f5c Starship \u9996\u4e2a\u5546\u4e1a\u8f7d\u8377\u5373\u5c06\u843d\u5730\u3002\n\nWhy it matters:\nPre-unlock rallies followed by post-unlock selling pressure are the exact mechanics C11 tracks \u2014 a run-up here raises the odds of a sharper drop once insiders can sell, and any narrative (Starship payload) tied to the rally is worth watching for follow-through vs. hype.\n\n\u5f71\u54cd:\n\u89e3\u7981\u524d\u62c9\u5347\u3001\u89e3\u7981\u540e\u629b\u538b\uff0c\u6b63\u662f C11 \u76ef\u7684\u673a\u5236\u2014\u2014\u8fd9\u91cc\u7684\u4e0a\u6da8\u8d8a\u731b\uff0c\u89e3\u7981\u540e\u5185\u90e8\u4eba\u53ef\u4ee5\u5356\u51fa\u65f6\u56de\u8c03\u7684\u98ce\u9669\u5c31\u8d8a\u5927\uff0c\u503c\u5f97\u76ef\u4f4f Starship \u8f7d\u8377\u8fd9\u4e2a\u53d9\u4e8b\u662f\u4e0d\u662f\u6709\u771f\u5b9e\u8fdb\u5c55\u652f\u6491\uff0c\u8fd8\u662f\u7eaf\u7092\u4f5c\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3905,
-      "ts": 1788896861,
-      "ts_str": "2026-09-08 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally? - Invezz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 14:15:48 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVFWd2drWXlKMlJVUkt1ZXBFTXg1eF8wc2xZMjlpNWpvVDE1LXliU3lGZEZyRkhsN2NjZUNzLUFtUThIN2V1YVpUSzBveFRRMnVDUDUyWEdkVVIyRzYwTXRVU09JT0pBX1NlTWRaVEZVRkVfRFdmYWc5X0ZUV1ROend2alRLMUhqUFJLVEZlRnVYcmRzZUY5Qmw1RzNjeTY4SjViY2U3M1VaS294V0ZWdUdYTQ?oc=5\n\nSpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally? - Invezz\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVFWd2drWXlKMlJVUkt1ZXBFTXg1eF8wc2xZMjlpNWpvVDE1LXliU3lGZEZyRkhsN2NjZUNzLUFtUThIN2V1YVpUSzBveFRRMnVDUDUyWEdkVVIyRzYwTXRVU09JT0pBX1NlTWRaVEZVRkVfRFdmYWc5X0ZUV1ROend2alRLMUhqUFJLVEZlRnVYcmRzZUY5Qmw1RzNjeTY4SjViY2U3M1VaS294V0ZWdUdYTQ?oc=5\" target=\"_blank\">SpaceX stock could see massive buying on Nasdaq 100 rebalance: will SPCX rally?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Invezz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadlines are speculating that SpaceX (SPCX) stock could see large passive buying if it is added to the Nasdaq 100, prompting the question of whether SPCX will rally on the rebalance.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u731c\u6d4b\uff0c\u5982\u679c SpaceX\uff08SPCX\uff09\u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\uff0c\u53ef\u80fd\u5f15\u53d1\u5927\u89c4\u6a21\u88ab\u52a8\u4e70\u76d8\uff0c\u5e02\u573a\u5728\u8ba8\u8bba SPCX \u662f\u5426\u4f1a\u501f\u8c03\u4ed3\u4e0a\u6da8\u3002\n\nWhy it matters:\nThis is index-mechanics flow, not fundamentals \u2014 passive funds tracking the Nasdaq 100 would be forced to buy regardless of valuation, which can inflate the perceived strength of an AI-infrastructure name independent of its actual capex or revenue trajectory. It's a reminder that some of the sector's price action is mechanical flow, not conviction.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6307\u6570\u673a\u5236\u5e26\u6765\u7684\u8d44\u91d1\u6d41\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u53d8\u5316\u2014\u2014\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u7684\u88ab\u52a8\u57fa\u91d1\u4e00\u65e6\u8981\u7eb3\u5165\u6210\u5206\u80a1\uff0c\u65e0\u8bba\u4f30\u503c\u9ad8\u4f4e\u90fd\u5f97\u4e70\u5165\uff0c\u8fd9\u4f1a\u8ba9\u4e00\u53ea AI \u57fa\u7840\u8bbe\u65bd\u76f8\u5173\u6807\u7684\u7684\u5f3a\u52bf\u770b\u8d77\u6765\u6bd4\u5b9e\u9645\u60c5\u51b5\u66f4\u5938\u5f20\u3002\u8fd9\u63d0\u9192\u6211\u4eec\uff0c\u677f\u5757\u91cc\u6709\u4e00\u90e8\u5206\u6da8\u5e45\u662f\u673a\u68b0\u6027\u7684\u8d44\u91d1\u6d41\uff0c\u4e0d\u662f\u771f\u5b9e\u4fe1\u5ff5\u9a71\u52a8\u7684\u3002\n",
       "emailed": false
     }
   ],
