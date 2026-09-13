@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789281663,
-  "generated_at_str": "2026-09-13 06:41:03 UTC",
-  "last_event_ts": 1789281304,
+  "generated_at": 1789281846,
+  "generated_at_str": "2026-09-13 06:44:06 UTC",
+  "last_event_ts": 1789281845,
   "tables": {
     "alerts_dedup": {
-      "count": 4076,
-      "last_ts": 1789280070,
-      "last_str": "2026-09-13 06:14:30 UTC"
+      "count": 4077,
+      "last_ts": 1789281845,
+      "last_str": "2026-09-13 06:44:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-12 23:00:31 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5379,
-      "last_ts": 1789276445,
-      "last_str": "2026-09-13 05:14:05 UTC"
+      "count": 5380,
+      "last_ts": 1789281844,
+      "last_str": "2026-09-13 06:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1243,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-13 04:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31104,
-      "last_ts": 1789280043,
-      "last_str": "2026-09-13 06:14:03 UTC"
+      "count": 31106,
+      "last_ts": 1789281843,
+      "last_str": "2026-09-13 06:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9367,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4084,
+      "ts": 1789281845,
+      "ts_str": "2026-09-13 06:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - The Hindu",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 05:22:12 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekU2TVdaeXBya1VGXzZrMF9FcnQ3bm5HbTlScjF4QXpKVE5PaEJPTkstZUVnc1BUYkRJS0hDSWphRDBCaDhuZm1MdHRnSDlYWERhWG1KUjFTTVlZejRIQldrU0c5VkpZNHVLQUJsQzc2T2x3djBQN0x4aWdxM2E0SWR4T1oxc1V0TDdhd0wwUzJDMjRRT3pYckdmcHd0X0V3STVHOXYxSTZTREFFQ1puSFBndDBJcDlzeEtpd2Q0X1hzUURNX0lOVnFQa1V1eHd6NHBGdmYyWjFSOENi0gHcAUFVX3lxTE16RTZNV1p5cHJrVUZfNmswX0VydDdubkdtOVJyMXhBekpUTk9oQk9OSy1lRWdzUFRiRElLSENJamFEMEJoOG5mbUx0dGdIOVhYRGFYbUpSMVNNWVl6NEhCV2tTRzlWSlk0dUtBQmxDNzZPbHd2MFA3THhpZ3EzYTRJZHhPWjFzVXRMN2F3TDBTMkMyNFFPelhyR2Zwd3RfRXdJNUc5djFJNlNEQUVDWm5IUGd0MElwOXN4S2l3ZDRfWHNRRE1fSU5WcVBrVXV4d3o0cEZ2ZjJaMVI4Q2I?oc=5\n\nOpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - The Hindu\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekU2TVdaeXBya1VGXzZrMF9FcnQ3bm5HbTlScjF4QXpKVE5PaEJPTkstZUVnc1BUYkRJS0hDSWphRDBCaDhuZm1MdHRnSDlYWERhWG1KUjFTTVlZejRIQldrU0c5VkpZNHVLQUJsQzc2T2x3djBQN0x4aWdxM2E0SWR4T1oxc1V0TDdhd0wwUzJDMjRRT3pYckdmcHd0X0V3STVHOXYxSTZTREFFQ1puSFBndDBJcDlzeEtpd2Q0X1hzUURNX0lOVnFQa1V1eHd6NHBGdmYyWjFSOENi0gHcAUFVX3lxTE16RTZNV1p5cHJrVUZfNmswX0VydDdubkdtOVJyMXhBekpUTk9oQk9OSy1lRWdzUFRiRElLSENJamFEMEJoOG5mbUx0dGdIOVhYRGFYbUpSMVNNWVl6NEhCV2tTRzlWSlk0dUtBQmxDNzZPbHd2MFA3THhpZ3EzYTRJZHhPWjFzVXRMN2F3TDBTMkMyNFFPelhyR2Zwd3RfRXdJNUc5djFJNlNEQUVDWm5IUGd0MElwOXN4S2l3ZDRfWHNRRE1fSU5WcVBrVXV4d3o0cEZ2ZjJaMVI4Q2I?oc=5\" target=\"_blank\">OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/AP-style headline reporting OpenAI CEO Sam Altman ruled out an IPO this year and called AI extinction risk 'unacceptable.'\n\n\u5185\u5bb9:\n\u8def\u900f/\u7f8e\u8054\u793e\u98ce\u683c\u7684\u62a5\u9053\uff1aOpenAI CEO Sam Altman \u8868\u793a\u4eca\u5e74\u4e0d\u4f1a IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669'\u4e0d\u53ef\u63a5\u53d7'\u3002\n\nWhy it matters:\nNo burn-rate or filing data here \u2014 this is standing commentary, not a new capex/cash-flow tell. Ruling out an IPO removes one path to fresh outside capital for OpenAI's compute buildout, mildly relevant to the funding side of the AI-capex thesis but not a fuse-level signal on its own.\n\n\u5f71\u54cd:\n\u8fd9\u91cc\u6ca1\u6709 burn rate \u6216 filing \u6570\u636e\uff0c\u53ea\u662f\u5e38\u89c4\u8868\u6001\uff0c\u4e0d\u7b97\u65b0\u7684 capex/\u73b0\u91d1\u6d41\u4fe1\u53f7\u3002\u6392\u9664\u4eca\u5e74 IPO \u610f\u5473\u7740 OpenAI \u5c11\u4e86\u4e00\u6761\u878d\u8d44\u6e20\u9053\uff0c\u8ddf AI capex \u7684\u8d44\u91d1\u6765\u6e90\u95ee\u9898\u6cbe\u8fb9\uff0c\u4f46\u5355\u72ec\u770b\u4e0d\u6784\u6210\u5f15\u4fe1\u7ea7\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4082,
       "ts": 1789280070,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] The Nasdaq 100 Will Get Its Quarterly Rebalance This Month. It Could Be a Boon For SpaceX. - International Business Time",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 14:15:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejlFa0U4Z2JTSlFTZkczV0h2ZWNOZ2owVmdKc0xXWWVJSmJtWnRfZ1FsYlFFc0JnSjJmQnNGWlNFRUtzNDlaeURsbWVKRTFHRDhEU0d1ZXNnNTBuaHZzWHd1U0tiWk92b29GTFZZTVB0UXYxVktzYjZUdDVueXpwNFBIMTlKN080d3NpZ2VubGVLaDFRTTBqT2hoZmJDTEdTYUo1T0pPVEhmbzA?oc=5\n\nThe Nasdaq 100 Will Get Its Quarterly Rebalance This Month. It Could Be a Boon For SpaceX. - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejlFa0U4Z2JTSlFTZkczV0h2ZWNOZ2owVmdKc0xXWWVJSmJtWnRfZ1FsYlFFc0JnSjJmQnNGWlNFRUtzNDlaeURsbWVKRTFHRDhEU0d1ZXNnNTBuaHZzWHd1U0tiWk92b29GTFZZTVB0UXYxVktzYjZUdDVueXpwNFBIMTlKN080d3NpZ2VubGVLaDFRTTBqT2hoZmJDTEdTYUo1T0pPVEhmbzA?oc=5\" target=\"_blank\">The Nasdaq 100 Will Get Its Quarterly Rebalance This Month. It Could Be a Boon For SpaceX.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe Nasdaq 100 will undergo its quarterly index rebalance this month, with commentary flagging it as a potential positive for SpaceX.\n\n\u5185\u5bb9:\n\u672c\u6708 Nasdaq 100 \u5c06\u8fdb\u884c\u5b63\u5ea6\u6307\u6570\u518d\u5e73\u8861\uff0c\u6709\u8bc4\u8bba\u8ba4\u4e3a\u8fd9\u53ef\u80fd\u5229\u597d SpaceX\u3002\n\nWhy it matters:\nIndex inclusion or weight changes drive mechanical passive-fund buying independent of fundamentals \u2014 a pure flow catalyst that can mask or amplify real capex-cycle stress in the underlying names.\n\n\u5f71\u54cd:\n\u6307\u6570\u7eb3\u5165\u6216\u6743\u91cd\u8c03\u6574\u4f1a\u5e26\u6765\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u7684\u88ab\u52a8\u8d44\u91d1\u673a\u68b0\u4e70\u76d8\u2014\u2014\u8fd9\u662f\u7eaf\u7cb9\u7684\u8d44\u91d1\u6d41\u50ac\u5316\u5242\uff0c\u53ef\u80fd\u63a9\u76d6\u6216\u653e\u5927\u76f8\u5173\u6807\u7684\u771f\u5b9e\u7684 capex \u5468\u671f\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3886,
-      "ts": 1788878862,
-      "ts_str": "2026-09-08 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Could Draw $15.5B in Passive Buying as Nasdaq Rebalance Looms - Benzinga",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 13:51:32 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFVvSkY5M2N5czJGUzBlaEkyV0xFM0RfVzJIY0xYdTNPd3cybTB1YzBaZ3FrZGEyMml2eTI4MktxWUhrVHFLcFdjV09ELWt6QUN0cWlKMUl5a25rN2Z4bjNDaTI0MV9xazJuSnozQTRoampPSTlKeENzNmJYNXZJQmtlWmxkYjhrNGphTGJlUGlqVjFSU0hJSmpFcGs4RUZGVGhjUGVPNzRXT2VS?oc=5\n\nSpaceX Could Draw $15.5B in Passive Buying as Nasdaq Rebalance Looms - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFVvSkY5M2N5czJGUzBlaEkyV0xFM0RfVzJIY0xYdTNPd3cybTB1YzBaZ3FrZGEyMml2eTI4MktxWUhrVHFLcFdjV09ELWt6QUN0cWlKMUl5a25rN2Z4bjNDaTI0MV9xazJuSnozQTRoampPSTlKeENzNmJYNXZJQmtlWmxkYjhrNGphTGJlUGlqVjFSU0hJSmpFcGs4RUZGVGhjUGVPNzRXT2VS?oc=5\" target=\"_blank\">SpaceX Could Draw $15.5B in Passive Buying as Nasdaq Rebalance Looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX could draw an estimated $15.5B in passive index-fund buying as a Nasdaq rebalance approaches.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u968f\u7740\u7eb3\u65af\u8fbe\u514b\u6307\u6570\u91cd\u65b0\u5e73\u8861\u4e34\u8fd1\uff0cSpaceX \u53ef\u80fd\u5438\u5f15\u7ea6 $15.5B \u7684\u88ab\u52a8\u57fa\u91d1\u4e70\u5165\u3002\n\nWhy it matters:\nPassive index inflows of this size are mechanical, not valuation-driven \u2014 they buy regardless of price, and a name of this scale entering major indices concentrates AI-infrastructure exposure inside funds investors think are diversified. It's a distribution-mechanics tell, not a fundamentals signal.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u89c4\u6a21\u7684\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6d41\u5165\u662f\u673a\u68b0\u6027\u7684\uff0c\u4e0d\u770b\u4f30\u503c\uff0c\u53ea\u8981\u5728\u6307\u6570\u91cc\u5c31\u5f97\u4e70\u3002\u50cf SpaceX \u8fd9\u6837\u4f53\u91cf\u7684\u516c\u53f8\u4e00\u65e6\u88ab\u7eb3\u5165\u4e3b\u8981\u6307\u6570\uff0c\u4f1a\u628a AI \u57fa\u7840\u8bbe\u65bd\u655e\u53e3\u6084\u6084\u96c6\u4e2d\u8fdb\u90a3\u4e9b\u6295\u8d44\u8005\u4ee5\u4e3a\u5df2\u7ecf\u5206\u6563\u914d\u7f6e\u7684\u57fa\u91d1\u91cc\u3002\u8fd9\u662f\u8d44\u91d1\u5206\u5e03\u673a\u5236\u5c42\u9762\u7684\u4fe1\u53f7\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
