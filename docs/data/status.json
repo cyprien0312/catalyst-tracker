@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789297862,
-  "generated_at_str": "2026-09-13 11:11:02 UTC",
-  "last_event_ts": 1789297503,
+  "generated_at": 1789298059,
+  "generated_at_str": "2026-09-13 11:14:19 UTC",
+  "last_event_ts": 1789298059,
   "tables": {
     "alerts_dedup": {
-      "count": 4090,
-      "last_ts": 1789296256,
-      "last_str": "2026-09-13 10:44:16 UTC"
+      "count": 4091,
+      "last_ts": 1789298059,
+      "last_str": "2026-09-13 11:14:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-13 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31150,
-      "last_ts": 1789296243,
-      "last_str": "2026-09-13 10:44:03 UTC"
+      "count": 31156,
+      "last_ts": 1789298043,
+      "last_str": "2026-09-13 11:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9379,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4098,
+      "ts": 1789298059,
+      "ts_str": "2026-09-13 11:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI rules out 2026 IPO over AI safety; researchers say 10% possibility of human extinction threat - The Times of Indi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 10:44:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigAJBVV95cUxOcHBaSzNkTldBdzJoV2VIaHVXM3RjcXk4akc1MDVPUktteURCQnhBM3hkYTIxeWhjWFVGeVdpaW9YZVBJS1dmZEdpSDBPbDZwZVUyQklqRjBjTkUwTHBBYmh4ZGI3eHpRbERrclBHX044NVZwRENIdzZfOXpkMnA3NkE1XzduMlkzU1dONUNhQ2pnc3NUa29NRHIta1ZsS3RiUEpMVGluRjZ0a3JwX2M1cE5uVmFaZGdzRTdDdU5xOW9BOHctZFZRdzZoZUVyZW5nVXM5cVIyUHo0cTliQW85dlZoNWk2QzhsWTZUSXMwOEYxN2tUUUNFdFdSNUJNQVA40gGGAkFVX3lxTE1nWmhkZnhhRTA2SDUteGx2NE53OHlNZGMxR2xHQlhqS0ttTTVDQmlWU1hxSnBzOVpYa2ZxNWlrVEVMMEQtMl90X2RpS29yeFlqMy1zRS1RdU1RZktWR3Y5c0JHOGRFS1haME42MXlHUDhiTlE5YlBfWllkdkpsbzRsQVFPYzVPRzFiSTY0M3JFOTdfS3RndFpiLW41VzNXZThtYXB5QTFNWjBPSVNhbHpfc0tIcGN0X2dlUEN2VW9vbVljZTk5UW9mdjhPc1NWZi10OWF0amJ5RFN0MlBFaG1FelRRcVdlWTBpOXJycHR2VWZWb2NzNExEWm1YQ3Y3MDR6SlVkaFE?oc=5\n\nOpenAI rules out 2026 IPO over AI safety; researchers say 10% possibility of human extinction threat - The Times of India\n\n<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxOcHBaSzNkTldBdzJoV2VIaHVXM3RjcXk4akc1MDVPUktteURCQnhBM3hkYTIxeWhjWFVGeVdpaW9YZVBJS1dmZEdpSDBPbDZwZVUyQklqRjBjTkUwTHBBYmh4ZGI3eHpRbERrclBHX044NVZwRENIdzZfOXpkMnA3NkE1XzduMlkzU1dONUNhQ2pnc3NUa29NRHIta1ZsS3RiUEpMVGluRjZ0a3JwX2M1cE5uVmFaZGdzRTdDdU5xOW9BOHctZFZRdzZoZUVyZW5nVXM5cVIyUHo0cTliQW85dlZoNWk2QzhsWTZUSXMwOEYxN2tUUUNFdFdSNUJNQVA40gGGAkFVX3lxTE1nWmhkZnhhRTA2SDUteGx2NE53OHlNZGMxR2xHQlhqS0ttTTVDQmlWU1hxSnBzOVpYa2ZxNWlrVEVMMEQtMl90X2RpS29yeFlqMy1zRS1RdU1RZktWR3Y5c0JHOGRFS1haME42MXlHUDhiTlE5YlBfWllkdkpsbzRsQVFPYzVPRzFiSTY0M3JFOTdfS3RndFpiLW41VzNXZThtYXB5QTFNWjBPSVNhbHpfc0tIcGN0X2dlUEN2VW9vbVljZTk5UW9mdjhPc1NWZi10OWF0amJ5RFN0MlBFaG1FelRRcVdlWTBpOXJycHR2VWZWb2NzNExEWm1YQ3Y3MDR6SlVkaFE?oc=5\" target=\"_blank\">OpenAI rules out 2026 IPO over AI safety; researchers say 10% possibility of human extinction threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI publicly ruled out an IPO in 2026, citing AI safety concerns; researchers cited in the coverage put the odds of an extinction-level threat from AI at 10%.\n\n\u5185\u5bb9:\nOpenAI \u516c\u5f00\u8868\u793a\u6392\u9664 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u7406\u7531\u662f AI \u5b89\u5168\u65b9\u9762\u7684\u987e\u8651\uff1b\u62a5\u9053\u5f15\u7528\u7684\u7814\u7a76\u8005\u79f0 AI \u9020\u6210\u706d\u7edd\u7ea7\u5a01\u80c1\u7684\u6982\u7387\u4e3a 10%\u3002\n\nWhy it matters:\nA ruled-out IPO removes a near-term liquidity/valuation checkpoint for the OpenAI stress thesis and signals internal caution is winning over a listing that would have forced public financial disclosure. The 10% extinction-risk framing is safety-researcher commentary riding along in the same story, not a new financial data point \u2014 treat this as MED narrative noise, not a burn-rate or filing signal.\n\n\u5f71\u54cd:\n\u6392\u9664 IPO \u610f\u5473\u7740 OpenAI \u538b\u529b\u53d9\u4e8b\u5c11\u4e86\u4e00\u4e2a\u8fd1\u671f\u7684\u6d41\u52a8\u6027/\u4f30\u503c\u68c0\u9a8c\u70b9\uff0c\u4e5f\u8bf4\u660e\u5185\u90e8\u8c28\u614e\u6001\u5ea6\u6682\u65f6\u538b\u8fc7\u4e86\u4e0a\u5e02\u5e26\u6765\u7684\u5f3a\u5236\u8d22\u52a1\u62ab\u9732\u538b\u529b\u300210% \u706d\u7edd\u98ce\u9669\u7684\u8bf4\u6cd5\u662f\u5b89\u5168\u7814\u7a76\u8005\u642d\u8fd9\u6761\u65b0\u95fb\u7684\u8bc4\u8bba\uff0c\u4e0d\u662f\u65b0\u7684\u8d22\u52a1\u6570\u636e\uff0c\u8fd9\u6761\u53ea\u662f MED \u7ea7\u522b\u7684\u53d9\u4e8b\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216 filing \u5c42\u9762\u7684\u5b9e\u9524\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4096,
       "ts": 1789296256,
@@ -2306,16 +2316,6 @@
       "subject": "[C11-HIGH] SpaceX Stock Rises 3.4% Before 319 Million Shares Unlock Wednesday - TechStock\u00b2",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 17:25:05 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNMFJsM0c0MDE0Rnp1ZDNYUUpaUi13WDBDRFJLRFdZdEZ0ZUxJZ1g4bnhXdUN3RFVodUlyRFR4YjV4ckktSnN0UHlCQU05NXd5ZEZXQmdNMXZrUUNZLVZ3NDJyQ2RDNnBfNmVLV3VFUGFielhlTVJmX1dRUjd0Y0dKVEo5ZUd1NkF5eXBnVndQUQ?oc=5\n\nSpaceX Stock Rises 3.4% Before 319 Million Shares Unlock Wednesday - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNMFJsM0c0MDE0Rnp1ZDNYUUpaUi13WDBDRFJLRFdZdEZ0ZUxJZ1g4bnhXdUN3RFVodUlyRFR4YjV4ckktSnN0UHlCQU05NXd5ZEZXQmdNMXZrUUNZLVZ3NDJyQ2RDNnBfNmVLV3VFUGFielhlTVJmX1dRUjd0Y0dKVEo5ZUd1NkF5eXBnVndQUQ?oc=5\" target=\"_blank\">SpaceX Stock Rises 3.4% Before 319 Million Shares Unlock Wednesday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX stock is reported up 3.4% ahead of a 319 million share unlock event on Wednesday.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 SpaceX \u80a1\u7968\u5728\u5468\u4e09 3.19 \u4ebf\u80a1\u89e3\u7981\u524d\u4e0a\u6da8 3.4%\u3002\n\nWhy it matters:\nA large unlock of this size raises supply overhang risk for a name whose valuation underpins index-mechanics-linked passive flows (ARKQ etc.); a pre-unlock rally followed by post-unlock selling pressure is the pattern this signal is watching for.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\u4f1a\u5e26\u6765\u629b\u538b\u98ce\u9669\uff0c\u800c SpaceX \u4f30\u503c\u53c8\u7275\u52a8 ARKQ \u7b49\u88ab\u52a8\u8d44\u91d1\u7684\u6301\u4ed3\u2014\u2014\u8fd9\u4e2a\u4fe1\u53f7\u76ef\u7684\u6b63\u662f\u300c\u89e3\u7981\u524d\u62c9\u5347\u3001\u89e3\u7981\u540e\u629b\u552e\u300d\u8fd9\u79cd\u6a21\u5f0f\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 3898,
-      "ts": 1788889455,
-      "ts_str": "2026-09-08 17:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 08 Sep 2026 17:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\n\nSoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQdElqTERnYnJxYm9MUFk0MUNIVzFjMURJdjZYREY5SkRVOWtXTTRUZzZCUE56a1RGQWd0RzJReHMtNzNEdGtGaDNtR0MydlhyUEdmcE5DNUpQXzZZTnF5WFk0X2lJZkpSbGpRV1lLOUJZRkJRS1dvLWY1MUJ1VkFaSHRlSlRGYnNPVnI2MW9uOG0wZTQ?oc=5\" target=\"_blank\">SoftBank Plans a Jumbo Junk Bond Sale to Cover Its OpenAI Bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a large junk-bond offering to help fund its OpenAI investment commitments.\n\n\u5185\u5bb9:\nSoftBank \u8ba1\u5212\u53d1\u884c\u4e00\u7b14\u5927\u89c4\u6a21\u5783\u573e\u503a\uff0c\u7528\u4e8e\u586b\u8865\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u627f\u8bfa\u3002\n\nWhy it matters:\nFinancing an AI equity stake with sub-investment-grade debt signals the money isn't coming from free cash flow \u2014 it's leveraged, which raises the stakes if OpenAI's growth or funding path disappoints. It also feeds directly into the credit-market stress channel this tracker watches via C7.\n\n\u5f71\u54cd:\n\u7528\u5783\u573e\u7ea7\u503a\u5238\u7ed9 AI \u80a1\u6743\u6295\u8d44\u878d\u8d44\uff0c\u8bf4\u660e\u8fd9\u7b14\u94b1\u4e0d\u662f\u81ea\u7531\u73b0\u91d1\u6d41\u51fa\u7684\uff0c\u800c\u662f\u52a0\u6760\u6746\u501f\u6765\u7684\u2014\u2014\u4e00\u65e6 OpenAI \u7684\u589e\u957f\u6216\u540e\u7eed\u878d\u8d44\u4e0d\u987a\uff0c\u98ce\u9669\u4f1a\u88ab\u653e\u5927\u3002\u8fd9\u4e5f\u76f4\u63a5\u8fde\u5230 C7 \u76ef\u7684\u4fe1\u7528\u5e02\u573a\u538b\u529b\u90a3\u6761\u7ebf\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
