@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789354923,
-  "generated_at_str": "2026-09-14 03:02:03 UTC",
-  "last_event_ts": 1789354022,
+  "generated_at": 1789355118,
+  "generated_at_str": "2026-09-14 03:05:18 UTC",
+  "last_event_ts": 1789355117,
   "tables": {
     "alerts_dedup": {
-      "count": 4137,
-      "last_ts": 1789353865,
-      "last_str": "2026-09-14 02:44:25 UTC"
+      "count": 4138,
+      "last_ts": 1789355117,
+      "last_str": "2026-09-14 03:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-09-14 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5880,
-      "last_ts": 1789351502,
-      "last_str": "2026-09-14 02:05:02 UTC"
+      "count": 5884,
+      "last_ts": 1789355103,
+      "last_str": "2026-09-14 03:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7060,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4145,
+      "ts": 1789355117,
+      "ts_str": "2026-09-14 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 00:40:44 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0NUZjNkczVuVzBDcjZhbUlBeXE1RDhjUXNPYXJFRHR4a3FVWGE5SmtBZ1ROa250U1h2cnZYOWZuQmlMYjRQR1cyajdYUW9rUHN2NUZ6SEJBRHl5TkwzZ2NtWk1XcTh1SXRFcmFLQnRuM21rbXJJMXV1bWwtdnl2aUhHcmxfdw?oc=5\n\nWeekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0NUZjNkczVuVzBDcjZhbUlBeXE1RDhjUXNPYXJFRHR4a3FVWGE5SmtBZ1ROa250U1h2cnZYOWZuQmlMYjRQR1cyajdYUW9rUHN2NUZ6SEJBRHl5TkwzZ2NtWk1XcTh1SXRFcmFLQnRuM21rbXJJMXV1bWwtdnl2aUhHcmxfdw?oc=5\" target=\"_blank\">Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA weekly roundup headline flags HBM4 supply strain and Intel price hikes as part of the next AI infrastructure buildout.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u6bcf\u5468\u65b0\u95fb\u6c47\u603b\u63d0\u5230 HBM4 \u4f9b\u5e94\u7d27\u5f20\u548c Intel \u6da8\u4ef7\uff0c\u5c06\u5176\u89c6\u4e3a\u4e0b\u4e00\u8f6e AI \u57fa\u7840\u8bbe\u65bd\u5efa\u8bbe\u7684\u4e00\u90e8\u5206\u3002\n\nWhy it matters:\nHBM4 tightness and rising memory prices feed directly into hyperscaler capex costs \u2014 if memory becomes the bottleneck, it either compresses margins or forces further capex increases, both consistent with the bubble-stress thesis.\n\n\u5f71\u54cd:\nHBM4 \u4f9b\u5e94\u5403\u7d27\u548c\u5185\u5b58\u6da8\u4ef7\u4f1a\u76f4\u63a5\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u6210\u672c\u2014\u2014\u5185\u5b58\u4e00\u65e6\u6210\u4e3a\u74f6\u9888\uff0c\u8981\u4e48\u538b\u7f29\u5229\u6da6\uff0c\u8981\u4e48\u5012\u903c capex \u8fdb\u4e00\u6b65\u4e0a\u5347\uff0c\u4e24\u6761\u8def\u90fd\u5370\u8bc1\u4e86\u6ce1\u6cab\u538b\u529b\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4143,
       "ts": 1789353865,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] Wake Up, SpaceX Shareholders: Up to $47 Billion in Insider Selling Pressure Is Set to Hit the Tape Today, Sept. 9 - The ",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 09:26:46 GMT\nLink:      https://news.google.com/rss/articles/CBMingJBVV95cUxNVVVnaTZvSDlQZGV2OE1oeUxoaU56aG1neThoVTRtZkh4cDI0X21kelB0a29UcF9nUEJFR1pGUkc0OElXN0oySS1qR0t5WVFlUzhLNzBsSmVkSl9TZXd0cmtESk9hc2JZcXhTN3dXVmJHTTlnUXNaRnR1T0hQUnJFcUowNUxFb29VWjBzM3RTTHVDYnFfQUJoMEZ0TWlxM0toN2NTR0RKR056cGFLQ3B4OWR1ejJITlBWQU0zaE96SlVJUnRNWTBfTW82MGNtV0RBSDNFWFNnYzdITzlicmtJdkpoMUlvdnQtOExGMF9fejc4VTMwZG5vMlBWWDMwUmVjclg4SDBwQ3lMOGo0eWdzeHJLZ1lfUzZtWFhzMk9B?oc=5\n\nWake Up, SpaceX Shareholders: Up to $47 Billion in Insider Selling Pressure Is Set to Hit the Tape Today, Sept. 9 - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMingJBVV95cUxNVVVnaTZvSDlQZGV2OE1oeUxoaU56aG1neThoVTRtZkh4cDI0X21kelB0a29UcF9nUEJFR1pGUkc0OElXN0oySS1qR0t5WVFlUzhLNzBsSmVkSl9TZXd0cmtESk9hc2JZcXhTN3dXVmJHTTlnUXNaRnR1T0hQUnJFcUowNUxFb29VWjBzM3RTTHVDYnFfQUJoMEZ0TWlxM0toN2NTR0RKR056cGFLQ3B4OWR1ejJITlBWQU0zaE96SlVJUnRNWTBfTW82MGNtV0RBSDNFWFNnYzdITzlicmtJdkpoMUlvdnQtOExGMF9fejc4VTMwZG5vMlBWWDMwUmVjclg4SDBwQ3lMOGo0eWdzeHJLZ1lfUzZtWFhzMk9B?oc=5\" target=\"_blank\">Wake Up, SpaceX Shareholders: Up to $47 Billion in Insider Selling Pressure Is Set to Hit the Tape Today, Sept. 9</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports claim SpaceX insiders may sell up to $47 billion in shares in a tender/secondary event dated Sept. 9.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0 SpaceX \u5185\u90e8\u4eba\u53ef\u80fd\u5728 9 \u6708 9 \u65e5\u901a\u8fc7\u8981\u7ea6\u6536\u8d2d/\u4e8c\u7ea7\u4ea4\u6613\u51fa\u552e\u6700\u591a $47 billion \u7684\u80a1\u7968\u3002\n\nWhy it matters:\nA sale of this size, right as SpaceX's IPO/unlock timeline plays out, is a major passive-flow and index-mechanics event for the AI-infrastructure thesis \u2014 it tests how much real demand exists to absorb insider selling without a valuation reset.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u89c4\u6a21\u7684\u629b\u552e\u6b63\u597d\u5361\u5728 SpaceX IPO/\u89e3\u7981\u7684\u65f6\u95f4\u7ebf\u4e0a\uff0c\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u548c\u6307\u6570\u673a\u5236\u5c42\u9762\u7684\u5927\u4e8b\u4ef6\u2014\u2014\u5b83\u68c0\u9a8c\u7684\u662f\u5e02\u573a\u6709\u6ca1\u6709\u8db3\u591f\u771f\u5b9e\u9700\u6c42\u63a5\u4f4f\u8fd9\u6ce2\u5185\u90e8\u4eba\u51cf\u6301\uff0c\u800c\u4e0d\u9700\u8981\u9760\u4f30\u503c\u4e0b\u4fee\u6765\u6d88\u5316\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3946,
-      "ts": 1788965249,
-      "ts_str": "2026-09-09 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] Ahead of Today\u2019s 319M-Share Unlock, Let\u2019s See Who Owns SpaceX Stock and What Wall Street Expects Next - TipRanks",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 14:20:14 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTWdBTmlmQXV2MlkwX0o1V3BMeHlzdkNpbmlpMjNYckFzZC0yeS1oQTlVY2h4QXZwVUdYU19aeGNrZ2JIVjJuOUtsNGo3Tml6RUZ1eDBaLXZmODZMMkVJazJlNmY5bEVxSHgzNDhKQnJ5MWIzRUJEdXRoUEhpaXBWNEF6Z1cwbWQyZEkzYXFTcEE4WFlEd09VTVJoeDlRVldDVVc1RkpwOVpiOU5tajBDZFR6RHFyR2hNYVU3V3gxdTJxUHVYN2h0UQ?oc=5\n\nAhead of Today\u2019s 319M-Share Unlock, Let\u2019s See Who Owns SpaceX Stock and What Wall Street Expects Next - TipRanks\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTWdBTmlmQXV2MlkwX0o1V3BMeHlzdkNpbmlpMjNYckFzZC0yeS1oQTlVY2h4QXZwVUdYU19aeGNrZ2JIVjJuOUtsNGo3Tml6RUZ1eDBaLXZmODZMMkVJazJlNmY5bEVxSHgzNDhKQnJ5MWIzRUJEdXRoUEhpaXBWNEF6Z1cwbWQyZEkzYXFTcEE4WFlEd09VTVJoeDlRVldDVVc1RkpwOVpiOU5tajBDZFR6RHFyR2hNYVU3V3gxdTJxUHVYN2h0UQ?oc=5\" target=\"_blank\">Ahead of Today\u2019s 319M-Share Unlock, Let\u2019s See Who Owns SpaceX Stock and What Wall Street Expects Next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news article previews today's unlock of 319 million SpaceX shares, surveying who currently holds SpaceX stock and what Wall Street analysts expect to happen next.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u5728\u4eca\u5929 3.19 \u4ebf\u80a1 SpaceX \u80a1\u7968\u89e3\u7981\u524d\u505a\u9884\u544a\uff0c\u68b3\u7406\u76ee\u524d\u8c01\u6301\u6709 SpaceX \u80a1\u7968\u3001\u534e\u5c14\u8857\u63a5\u4e0b\u6765\u9884\u671f\u4ec0\u4e48\u3002\n\nWhy it matters:\nA large scheduled unlock adds a wave of newly-tradeable shares just as passive/index flows are already sensitive to SpaceX-linked names; heavy pre-unlock coverage signals the market is bracing for supply pressure, which is exactly the mechanical stress this catalyst tracks.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u4f1a\u5728\u88ab\u52a8/\u6307\u6570\u8d44\u91d1\u6d41\u672c\u5c31\u654f\u611f\u7684\u65f6\u70b9\uff0c\u4e00\u4e0b\u5b50\u653e\u51fa\u5927\u91cf\u53ef\u4ea4\u6613\u80a1\u4efd\uff1b\u89e3\u7981\u524d\u5a92\u4f53\u5bc6\u96c6\u62a5\u9053\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u5728\u4e3a\u4f9b\u7ed9\u51b2\u51fb\u505a\u51c6\u5907\uff0c\u8fd9\u6b63\u662f\u8fd9\u4e2a\u50ac\u5316\u56e0\u5b50\u8981\u76ef\u7684\u673a\u5236\u6027\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
