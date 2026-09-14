@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789351323,
-  "generated_at_str": "2026-09-14 02:02:03 UTC",
-  "last_event_ts": 1789350423,
+  "generated_at": 1789351521,
+  "generated_at_str": "2026-09-14 02:05:21 UTC",
+  "last_event_ts": 1789351521,
   "tables": {
     "alerts_dedup": {
-      "count": 4133,
-      "last_ts": 1789348466,
-      "last_str": "2026-09-14 01:14:26 UTC"
+      "count": 4135,
+      "last_ts": 1789351521,
+      "last_str": "2026-09-14 02:05:21 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-14 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5878,
-      "last_ts": 1789347902,
-      "last_str": "2026-09-14 01:05:02 UTC"
+      "count": 5880,
+      "last_ts": 1789351502,
+      "last_str": "2026-09-14 02:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7058,
-      "last_ts": 1789349706,
-      "last_str": "2026-09-14 01:35:06 UTC"
+      "count": 7059,
+      "last_ts": 1789351504,
+      "last_str": "2026-09-14 02:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4235,
-      "last_ts": 1789311903,
-      "last_str": "2026-09-13 15:05:03 UTC"
+      "count": 4236,
+      "last_ts": 1789351503,
+      "last_str": "2026-09-14 02:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5353,
-      "last_ts": 1789347907,
-      "last_str": "2026-09-14 01:05:07 UTC"
+      "count": 5354,
+      "last_ts": 1789351505,
+      "last_str": "2026-09-14 02:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 31296,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4141,
+      "ts": 1789351521,
+      "ts_str": "2026-09-14 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 01:34:13 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\n\nHBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\" target=\"_blank\">HBM4 Shortage: DRAM Inventory Falls Below 10 Days</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports HBM4 shortage with DRAM inventory falling below 10 days, indicating rapid depletion of memory chip stock.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u4e00\u6761\u6807\u9898\u62a5\u9053 HBM4 \u77ed\u7f3a\uff0cDRAM \u5e93\u5b58\u8dcc\u7834 10 \u5929\u3002\n\nWhy it matters:\nSub-10-day DRAM inventory signals demand is outrunning supply hard enough that buffers are nearly gone \u2014 consistent with AI accelerators (HBM4) soaking up memory capacity. This tightens the memory-cost input into every AI-server BOM, a cost-side pressure that compounds the capex-payback question rather than resolving it.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u8dcc\u7834 10 \u5929\u8bf4\u660e\u9700\u6c42\u6d88\u8017\u901f\u5ea6\u5df2\u7ecf\u5feb\u5230\u7f13\u51b2\u51e0\u4e4e\u8017\u5c3d\uff0c\u7b26\u5408 HBM4 \u88ab AI \u52a0\u901f\u5668\u5927\u91cf\u5403\u6389\u4ea7\u80fd\u7684\u5224\u65ad\u3002\u8fd9\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u91cc\u7684\u5185\u5b58\u90e8\u5206\uff0c\u662f\u5728\u6210\u672c\u7aef\u7ed9 AI capex \u56de\u672c\u903b\u8f91\u518d\u52a0\u4e00\u5c42\u538b\u529b\uff0c\u800c\u4e0d\u662f\u7f13\u89e3\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4142,
+      "ts": 1789351521,
+      "ts_str": "2026-09-14 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 01:34:13 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\n\nHBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\" target=\"_blank\">HBM4 Shortage: DRAM Inventory Falls Below 10 Days</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports HBM4 shortage with DRAM inventory falling below 10 days, indicating rapid depletion of memory chip stock.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u4e00\u6761\u6807\u9898\u62a5\u9053 HBM4 \u77ed\u7f3a\uff0cDRAM \u5e93\u5b58\u8dcc\u7834 10 \u5929\u3002\n\nWhy it matters:\nSub-10-day DRAM inventory signals demand is outrunning supply hard enough that buffers are nearly gone \u2014 consistent with AI accelerators (HBM4) soaking up memory capacity. This tightens the memory-cost input into every AI-server BOM, a cost-side pressure that compounds the capex-payback question rather than resolving it.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u8dcc\u7834 10 \u5929\u8bf4\u660e\u9700\u6c42\u6d88\u8017\u901f\u5ea6\u5df2\u7ecf\u5feb\u5230\u7f13\u51b2\u51e0\u4e4e\u8017\u5c3d\uff0c\u7b26\u5408 HBM4 \u88ab AI \u52a0\u901f\u5668\u5927\u91cf\u5403\u6389\u4ea7\u80fd\u7684\u5224\u65ad\u3002\u8fd9\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u91cc\u7684\u5185\u5b58\u90e8\u5206\uff0c\u662f\u5728\u6210\u672c\u7aef\u7ed9 AI capex \u56de\u672c\u903b\u8f91\u518d\u52a0\u4e00\u5c42\u538b\u529b\uff0c\u800c\u4e0d\u662f\u7f13\u89e3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4139,
       "ts": 1789348466,
@@ -2295,26 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Faces $47 Billion Lockup Expiry Selling Pressure; 00910 Charges Into Space Satellite Rebound - finance.biggo.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 13:31:52 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBnWFYyejhONkFsdThYRFFFcjQxVGNVb2RYV2txdlZqUXVaT2toQ3R2bVc5WnRJWW9ETWdpMXlYckZqQ05OZ2lyWVBSRlp5RlJqa2FLZlNVd1VrZE5CVGl5US1GZFVZWXdXV2RiNE9QWXl4MTJJR2c?oc=5\n\nSpaceX Faces $47 Billion Lockup Expiry Selling Pressure; 00910 Charges Into Space Satellite Rebound - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBnWFYyejhONkFsdThYRFFFcjQxVGNVb2RYV2txdlZqUXVaT2toQ3R2bVc5WnRJWW9ETWdpMXlYckZqQ05OZ2lyWVBSRlp5RlJqa2FLZlNVd1VrZE5CVGl5US1GZFVZWXdXV2RiNE9QWXl4MTJJR2c?oc=5\" target=\"_blank\">SpaceX Faces $47 Billion Lockup Expiry Selling Pressure; 00910 Charges Into Space Satellite Rebound</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX faces a $47 billion lock-up expiry, warning of potential selling pressure as insiders become free to sell shares.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u9762\u4e34 $47 billion \u89c4\u6a21\u7684\u80a1\u6743\u89e3\u7981\uff0c\u5e02\u573a\u62c5\u5fe7\u53ef\u80fd\u5e26\u6765\u629b\u552e\u538b\u529b\u3002\n\nWhy it matters:\nA lock-up expiry of this size is a passive-flow mechanics event, not a fundamentals signal \u2014 it tests whether early investors and employees convert paper gains to cash once restrictions lift, which can pressure the valuation independent of the business's performance.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\u672c\u8d28\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u7684\u673a\u5236\u6027\u4e8b\u4ef6\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u2014\u2014\u5b83\u8003\u9a8c\u7684\u662f\u65e9\u671f\u6295\u8d44\u4eba\u548c\u5458\u5de5\u5728\u9650\u552e\u89e3\u9664\u540e\u4f1a\u4e0d\u4f1a\u628a\u8d26\u9762\u6d6e\u76c8\u5151\u73b0\uff0c\u8fd9\u53ef\u80fd\u538b\u4f4e\u4f30\u503c\uff0c\u8ddf\u516c\u53f8\u4e1a\u52a1\u597d\u574f\u65e0\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3942,
-      "ts": 1788961658,
-      "ts_str": "2026-09-09 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Stock Under Pressure Ahead of 319M-Share Unlock \u2013 Will It Trigger a Selloff? - TipRanks",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 10:14:10 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxQUEFlQjNoVGlCUE8wdDJKZDFwLUMxaW1OTXhwX01Bck44TnRmYklydXYxVnRTbWpVZjQ1V0h1Q01saG1EU1BPU2lVVEpCUHRyOUlNS1Q2MEVZN2lYeG51MnUzZW9sVEFCNC1vNmNqME5jdmlzb1ZKdnpsM0hueTlzNlVMNTRzMFgyME45NG5oUC1WZHJVdEhPMU5WaXVkSWwzUXRoY3lhaGZETlNqRk5F?oc=5\n\nSpaceX Stock Under Pressure Ahead of 319M-Share Unlock \u2013 Will It Trigger a Selloff? - TipRanks\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQUEFlQjNoVGlCUE8wdDJKZDFwLUMxaW1OTXhwX01Bck44TnRmYklydXYxVnRTbWpVZjQ1V0h1Q01saG1EU1BPU2lVVEpCUHRyOUlNS1Q2MEVZN2lYeG51MnUzZW9sVEFCNC1vNmNqME5jdmlzb1ZKdnpsM0hueTlzNlVMNTRzMFgyME45NG5oUC1WZHJVdEhPMU5WaXVkSWwzUXRoY3lhaGZETlNqRk5F?oc=5\" target=\"_blank\">SpaceX Stock Under Pressure Ahead of 319M-Share Unlock \u2013 Will It Trigger a Selloff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TipRanks</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage flags a 319-million-share unlock for SpaceX, with the headline framing the event as a possible trigger for a stock selloff as the lock-up expiration approaches.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 SpaceX \u5373\u5c06\u8fce\u6765 3.19 \u4ebf\u80a1\u89e3\u7981\uff0c\u6807\u9898\u5c06\u8fd9\u6b21\u89e3\u7981\u5b9a\u6027\u4e3a\u53ef\u80fd\u5f15\u53d1\u629b\u552e\u7684\u89e6\u53d1\u70b9\u3002\n\nWhy it matters:\nSpaceX is the C11 index-mechanics specimen: a large tranche unlocking means pre-IPO holders can sell, and the resulting supply overhang is a passive-flow/mechanical risk independent of the company's actual fundamentals \u2014 exactly the kind of stress this catalyst tracks.\n\n\u5f71\u54cd:\nSpaceX \u662f C11 \u5173\u6ce8\u7684\u6307\u6570\u673a\u5236\u6837\u672c\uff1a\u5927\u6279\u80a1\u4efd\u89e3\u7981\u610f\u5473\u7740 IPO \u524d\u80a1\u4e1c\u53ef\u4ee5\u5356\u51fa\uff0c\u7531\u6b64\u5e26\u6765\u7684\u4f9b\u7ed9\u538b\u529b\u662f\u4e00\u79cd\u88ab\u52a8\u8d44\u91d1\u6d41/\u673a\u5236\u6027\u98ce\u9669\uff0c\u8ddf\u516c\u53f8\u57fa\u672c\u9762\u597d\u574f\u65e0\u5173\u2014\u2014\u8fd9\u6b63\u662f\u8fd9\u4e2a\u4fe1\u53f7\u8981\u76ef\u7684\u90a3\u7c7b\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3943,
-      "ts": 1788961658,
-      "ts_str": "2026-09-09 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Unlocks 319 Million Shares Today, With 59.1 Million More Tomorrow - FinanceFeeds",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 09:17:34 GMT\nLink:      https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGNQNF9jd1h3MEI0T0EwOFdWSzhQbUxSejJsT0h2R3lVWXlPZHhYMlpoUXR4V0ZPNFRYMFhaM0dhX3l2Mk9XVkU4RHNFcXpqSmNqbDljbkc3aFFLV0NXTVF2bGlmUFBnQXVGUXNvOEhUSzVIblQtbjlELTU3bm1kUQ?oc=5\n\nSpaceX Unlocks 319 Million Shares Today, With 59.1 Million More Tomorrow - FinanceFeeds\n\n<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGNQNF9jd1h3MEI0T0EwOFdWSzhQbUxSejJsT0h2R3lVWXlPZHhYMlpoUXR4V0ZPNFRYMFhaM0dhX3l2Mk9XVkU4RHNFcXpqSmNqbDljbkc3aFFLV0NXTVF2bGlmUFBnQXVGUXNvOEhUSzVIblQtbjlELTU3bm1kUQ?oc=5\" target=\"_blank\">SpaceX Unlocks 319 Million Shares Today, With 59.1 Million More Tomorrow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanceFeeds</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX is unlocking 319 million shares today, with another 59.1 million shares unlocking tomorrow.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u4eca\u5929\u89e3\u7981 3.19 \u4ebf\u80a1\uff0c\u660e\u5929\u8fd8\u6709 5910 \u4e07\u80a1\u89e3\u7981\u3002\n\nWhy it matters:\nA large lock-up expiration adds a wave of newly tradeable private/employee shares to the market at once. For a company at SpaceX's valuation, that's a test of whether secondary-market demand can absorb supply without a price concession \u2014 relevant to the broader thesis that AI-infrastructure-adjacent private valuations are propped up by scarcity of tradeable shares.\n\n\u5f71\u54cd:\n\u4e00\u6b21\u6027\u89e3\u7981\u8fd9\u4e48\u591a\u80a1\u4efd\uff0c\u610f\u5473\u7740\u5927\u91cf\u539f\u672c\u9501\u5b9a\u7684\u79c1\u52df/\u5458\u5de5\u80a1\u7968\u7a81\u7136\u53ef\u4ee5\u5356\u51fa\u3002\u5bf9 SpaceX \u8fd9\u79cd\u4f30\u503c\u6c34\u5e73\u7684\u516c\u53f8\u6765\u8bf4\uff0c\u8fd9\u662f\u5728\u6d4b\u8bd5\u4e8c\u7ea7\u5e02\u573a\u7684\u627f\u63a5\u529b\u591f\u4e0d\u591f\u2014\u2014\u5982\u679c\u4e0d\u591f\uff0c\u80a1\u4ef7\u5c31\u5f97\u8ba9\u6b65\u3002\u8fd9\u8ddf\u300cAI \u57fa\u5efa\u76f8\u5173\u7684\u79c1\u52df\u4f30\u503c\u9760\u80a1\u4efd\u7a00\u7f3a\u6491\u7740\u300d\u8fd9\u6761\u5224\u65ad\u76f4\u63a5\u76f8\u5173\u3002\n",
       "emailed": false
     }
   ],
