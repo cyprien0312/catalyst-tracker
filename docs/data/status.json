@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789375263,
-  "generated_at_str": "2026-09-14 08:41:03 UTC",
-  "last_event_ts": 1789374904,
+  "generated_at": 1789375497,
+  "generated_at_str": "2026-09-14 08:44:57 UTC",
+  "last_event_ts": 1789375496,
   "tables": {
     "alerts_dedup": {
-      "count": 4150,
-      "last_ts": 1789373714,
-      "last_str": "2026-09-14 08:15:14 UTC"
+      "count": 4154,
+      "last_ts": 1789375496,
+      "last_str": "2026-09-14 08:44:56 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-13 23:00:38 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5411,
-      "last_ts": 1789373645,
-      "last_str": "2026-09-14 08:14:05 UTC"
+      "count": 5412,
+      "last_ts": 1789375444,
+      "last_str": "2026-09-14 08:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1256,
-      "last_ts": 1789348445,
-      "last_str": "2026-09-14 01:14:05 UTC"
+      "count": 1258,
+      "last_ts": 1789375445,
+      "last_str": "2026-09-14 08:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5890,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-14 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31406,
-      "last_ts": 1789373644,
-      "last_str": "2026-09-14 08:14:04 UTC"
+      "count": 31418,
+      "last_ts": 1789375443,
+      "last_str": "2026-09-14 08:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9426,
@@ -317,6 +317,46 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4158,
+      "ts": 1789375496,
+      "ts_str": "2026-09-14 08:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] AM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:) - Seeking Alpha",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 08:13:19 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1pxa2J2Ynd3US1GTEpLM2NQSG1tU0tpdlJqMmdrMGd4Z2E2OVFkZlFYejdCRm5nV3RmNUVkb3dfcFkwcDBjYjA0Z3Fyc2ktZDU2N29xUWVrYTlMTjR4MTB0V09sTFk2VFlnOEJ0YXBCdjUtX0lPSVNTZzNwd1NHNVc0WDFmaU9CNWtiQXFKR2sxeHlMMnFEYjVyYWZ0R0xYR1d2bmI5NjVubkF1WGc?oc=5\n\nAM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1pxa2J2Ynd3US1GTEpLM2NQSG1tU0tpdlJqMmdrMGd4Z2E2OVFkZlFYejdCRm5nV3RmNUVkb3dfcFkwcDBjYjA0Z3Fyc2ktZDU2N29xUWVrYTlMTjR4MTB0V09sTFk2VFlnOEJ0YXBCdjUtX0lPSVNTZzNwd1NHNVc0WDFmaU9CNWtiQXFKR2sxeHlMMnFEYjVyYWZ0R0xYR1d2bmI5NjVubkF1WGc?oc=5\" target=\"_blank\">AM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews roundup mentions OpenAI ruling out an IPO in 2026, alongside unrelated tanker-rate coverage \u2014 a low-signal aggregation, not an OpenAI-specific filing or metric.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6458\u8981\u63d0\u5230 OpenAI \u6392\u9664 2026 \u5e74\u4e0a\u5e02\uff08IPO\uff09\uff0c\u540c\u4e00\u6761\u91cc\u8fd8\u5939\u6742\u7740\u4e0d\u76f8\u5173\u7684\u6cb9\u8f6e\u8fd0\u4ef7\u6d88\u606f\u2014\u2014\u662f\u4f4e\u4fe1\u606f\u91cf\u7684\u65b0\u95fb\u805a\u5408\uff0c\u4e0d\u662f OpenAI \u4e13\u5c5e\u7684 filing \u6216\u6307\u6807\u3002\n\nWhy it matters:\nNo burn-rate number or filing text here, just a headline blip; MED severity reflects that this is IPO-timeline speculation rather than the >25% QoQ burn-rate trigger the C3 thesis actually tracks.\n\n\u5f71\u54cd:\n\u8fd9\u91cc\u6ca1\u6709\u5177\u4f53\u7684\u70e7\u94b1\u7387\u6570\u5b57\u6216 filing \u5185\u5bb9\uff0c\u53ea\u662f\u4e2a\u6807\u9898\u7ea7\u522b\u7684\u4fe1\u53f7\uff0cMED \u4e25\u91cd\u5ea6\u4e5f\u8bf4\u660e\u8fd9\u53ea\u662f\u5173\u4e8e\u4e0a\u5e02\u65f6\u95f4\u8868\u7684\u731c\u6d4b\uff0c\u5e76\u975e C3 \u771f\u6b63\u76ef\u7684\u90a3\u4e2a QoQ \u70e7\u94b1\u7387\u6da8\u8d85 25% \u7684\u89e6\u53d1\u6761\u4ef6\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4159,
+      "ts": 1789375496,
+      "ts_str": "2026-09-14 08:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Rules Out 2026 IPO as Altman Focuses on AI Safety - CoinMarketCap",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 07:38:19 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPWGlhSUI4dkVybXpZX2NDTE9NSDZ5U0lKYktyTFktTHQ2R0JHVUhfVDZRcjFmNFppaDExQW8xbHhsWjBYc3YtWWZoeVNNNWI1bG5BQW5mYXNISDFyWTlPTWdZVE5PX1RwLThOcVcwa1hjZC1MLXJJRGVwQ1NKTDhNNmU2Tm9reV9VVUhmX1lXU2ZRZw?oc=5\n\nOpenAI Rules Out 2026 IPO as Altman Focuses on AI Safety - CoinMarketCap\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPWGlhSUI4dkVybXpZX2NDTE9NSDZ5U0lKYktyTFktTHQ2R0JHVUhfVDZRcjFmNFppaDExQW8xbHhsWjBYc3YtWWZoeVNNNWI1bG5BQW5mYXNISDFyWTlPTWdZVE5PX1RwLThOcVcwa1hjZC1MLXJJRGVwQ1NKTDhNNmU2Tm9reV9VVUhmX1lXU2ZRZw?oc=5\" target=\"_blank\">OpenAI Rules Out 2026 IPO as Altman Focuses on AI Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinMarketCap</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews-feed alert: OpenAI publicly ruled out an IPO in 2026, with Sam Altman citing AI safety as the reason to stay private for now.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u7c7b\u544a\u8b66\uff1aOpenAI \u516c\u5f00\u6392\u9664\u4e86 2026 \u5e74\u4e0a\u5e02\u7684\u53ef\u80fd\uff0cSam Altman \u79f0\u539f\u56e0\u662f\u8981\u4e13\u6ce8 AI \u5b89\u5168\u3002\n\nWhy it matters:\nA near-term IPO would have forced audited financials and public disclosure of burn rate and revenue \u2014 ruling it out removes that transparency catalyst and keeps OpenAI's real unit economics opaque to the market for longer.\n\n\u5f71\u54cd:\n\u5982\u679c\u8fd1\u671f\u4e0a\u5e02\uff0cOpenAI \u5c31\u5f97\u62ab\u9732\u7ecf\u5ba1\u8ba1\u7684\u8d22\u62a5\uff0c\u70e7\u94b1\u901f\u5ea6\u548c\u6536\u5165\u60c5\u51b5\u4f1a\u88ab\u8feb\u644a\u5728\u9633\u5149\u4e0b\u3002\u6392\u9664\u4e0a\u5e02\u610f\u5473\u7740\u8fd9\u4e2a\u50ac\u5316\u5242\u6d88\u5931\u4e86\uff0c\u5b83\u771f\u5b9e\u7684\u5355\u4f4d\u7ecf\u6d4e\u72b6\u51b5\u8fd8\u4f1a\u7ee7\u7eed\u5bf9\u5e02\u573a\u4fdd\u6301\u4e0d\u900f\u660e\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4160,
+      "ts": 1789375496,
+      "ts_str": "2026-09-14 08:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] [News] Anthropic CEO Calls for Slower AI Progress but Flags China Risk; OpenAI Reportedly Rules Out 2026 IPO - TrendForc",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 07:57:30 GMT\nLink:      https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWkktZlJIanpwZ3JwMTFNTmxqelZKYnpySGNnUGgtc0hGc1pLREtER3FudnlUQjBVTFB5UVRCd3djY1ZlNVNrbS1OaGRCYUV4dWM5LUhYUjlhVm9fenpnMmxBNzJhQV9PQnIwTElZazdwUHBsZG5ZNmotRkpMSjUtdEZFZmtUT1o3WldkSlpUbWRLSjEzZmprdVlMSGxRMENQUkNoNWlqZThIeFJvZVdwYUZzYVljNmM3YU1MYnRId19ZVTYyeXExcGZ5ZmR4TC1ndUgwMExuaEFUckNrc0N0ZG1NWQ?oc=5\n\n[News] Anthropic CEO Calls for Slower AI Progress but Flags China Risk; OpenAI Reportedly Rules Out 2026 IPO - TrendForce\n\n<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWkktZlJIanpwZ3JwMTFNTmxqelZKYnpySGNnUGgtc0hGc1pLREtER3FudnlUQjBVTFB5UVRCd3djY1ZlNVNrbS1OaGRCYUV4dWM5LUhYUjlhVm9fenpnMmxBNzJhQV9PQnIwTElZazdwUHBsZG5ZNmotRkpMSjUtdEZFZmtUT1o3WldkSlpUbWRLSjEzZmprdVlMSGxRMENQUkNoNWlqZThIeFJvZVdwYUZzYVljNmM3YU1MYnRId19ZVTYyeXExcGZ5ZmR4TC1ndUgwMExuaEFUckNrc0N0ZG1NWQ?oc=5\" target=\"_blank\">[News] Anthropic CEO Calls for Slower AI Progress but Flags China Risk; OpenAI Reportedly Rules Out 2026 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TrendForce</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAnthropic's CEO publicly called for slower AI development while flagging China as a competitive risk, and OpenAI reportedly ruled out an IPO in 2026.\n\n\u5185\u5bb9:\nAnthropic CEO \u516c\u5f00\u547c\u5401\u653e\u6162 AI \u53d1\u5c55\u901f\u5ea6\uff0c\u540c\u65f6\u70b9\u540d\u4e2d\u56fd\u662f\u7ade\u4e89\u98ce\u9669\uff1b\u636e\u62a5\u9053 OpenAI \u5df2\u6392\u9664 2026 \u5e74\u4e0a\u5e02 (IPO) \u7684\u53ef\u80fd\u3002\n\nWhy it matters:\nNeither item is a hard financial signal \u2014 no burn-rate or filing data is cited \u2014 so this stays a MED-severity narrative item. Ruling out a 2026 IPO removes one near-term liquidity/scrutiny event for OpenAI, while a rival CEO publicly urging caution signals the industry itself sees the pace as a risk, feeding the broader AI-capex bubble-stress narrative without adding numeric substance.\n\n\u5f71\u54cd:\n\u8fd9\u4e24\u6761\u90fd\u6ca1\u6709\u5f15\u7528\u5177\u4f53\u7684\u8d44\u91d1\u6d88\u8017\u7387\u6216\u8d22\u62a5\u6570\u5b57\uff0c\u6240\u4ee5\u53ea\u662f MED \u7ea7\u522b\u7684\u53d9\u4e8b\u65b0\u95fb\u3002\u6392\u9664 2026 \u5e74\u4e0a\u5e02\u610f\u5473\u7740 OpenAI \u77ed\u671f\u5185\u5c11\u4e86\u4e00\u6b21\u53ef\u80fd\u88ab\u653e\u5927\u5ba1\u89c6\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff1b\u800c\u4e00\u5bb6\u7ade\u4e89\u5bf9\u624b\u7684 CEO \u516c\u5f00\u547c\u5401\u653e\u6162\u8282\u594f\uff0c\u8bf4\u660e\u884c\u4e1a\u5185\u90e8\u81ea\u5df1\u90fd\u5f00\u59cb\u62c5\u5fc3\u901f\u5ea6\u8fc7\u5feb\uff0c\u8fd9\u4e3a AI capex \u6ce1\u6cab\u538b\u529b\u7684\u5927\u53d9\u4e8b\u6dfb\u4e86\u4e00\u7b14\uff0c\u4f46\u6ca1\u6709\u5e26\u6765\u4efb\u4f55\u6570\u5b57\u5c42\u9762\u7684\u5b9e\u8d28\u4fe1\u606f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4161,
+      "ts": 1789375496,
+      "ts_str": "2026-09-14 08:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Chart of the Day: AI to Slow Down; OpenAI IPO \u201cCanceled\u201d \ud83d\udea8US100 Drops 1.7% at the Start of the Week\ud83d\udca5 - XTB.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 08:43:01 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxON2U4NFJaYVhwbk80ZTFJMnY1ZEgweVBwbUx5UWFLTU5odTdCcWU4WnZEa29LMWJZUGZjb1ZWckN0WGY1Z3dhUUhBbzl6OWxNQUwybnhkbE5DOWVyR0hQalFleUdiTjRMUmRjd3g1bXN5OHlJZTJoRnhZaVJIQm9WbURZTEhwV1BxRXRFVDZUaWpaWlZNVkJ0LUtveDk5ZzFkSjlVdFQ5VG0tUlowXy1wNzVvYS1jTWlLZGFDM0FqZ3pjZk1TZ2hKR2VMc3Y?oc=5\n\nChart of the Day: AI to Slow Down; OpenAI IPO \u201cCanceled\u201d \ud83d\udea8US100 Drops 1.7% at the Start of the Week\ud83d\udca5 - XTB.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxON2U4NFJaYVhwbk80ZTFJMnY1ZEgweVBwbUx5UWFLTU5odTdCcWU4WnZEa29LMWJZUGZjb1ZWckN0WGY1Z3dhUUhBbzl6OWxNQUwybnhkbE5DOWVyR0hQalFleUdiTjRMUmRjd3g1bXN5OHlJZTJoRnhZaVJIQm9WbURZTEhwV1BxRXRFVDZUaWpaWlZNVkJ0LUtveDk5ZzFkSjlVdFQ5VG0tUlowXy1wNzVvYS1jTWlLZGFDM0FqZ3pjZk1TZ2hKR2VMc3Y?oc=5\" target=\"_blank\">Chart of the Day: AI to Slow Down; OpenAI IPO \u201cCanceled\u201d \ud83d\udea8US100 Drops 1.7% at the Start of the Week\ud83d\udca5</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XTB.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline flags a market-sentiment chart: NASDAQ-100 futures down 1.7% at the week's open on chatter of a slowing AI trade and a supposedly \"canceled\" OpenAI IPO.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google \u65b0\u95fb RSS \u6807\u9898\u63d0\u5230\u4e00\u5f20\u5e02\u573a\u60c5\u7eea\u56fe\u8868\uff1a\u672c\u5468\u5f00\u76d8 US100 \u671f\u8d27\u4e0b\u8dcc 1.7%\uff0c\u8bf4\u6cd5\u662f AI \u4ea4\u6613\u964d\u6e29\u3001OpenAI IPO \"\u88ab\u53d6\u6d88\"\u3002\n\nWhy it matters:\nThis is retail-chart noise, not a filing or confirmed event \u2014 no OpenAI source, no ticker, no numbers. It's exactly the kind of speculative-token hit (\"IPO\") the C3 classifier is known to over-fire on; treat as low-signal until a primary source corroborates an actual IPO status change.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u6563\u6237\u56fe\u8868\u7c7b\u566a\u97f3\uff0c\u4e0d\u662f filing \u6216\u5df2\u8bc1\u5b9e\u4e8b\u4ef6\u2014\u2014\u6ca1\u6709 OpenAI \u5b98\u65b9\u4fe1\u6e90\uff0c\u6ca1\u6709 ticker\uff0c\u6ca1\u6709\u5177\u4f53\u6570\u5b57\u3002\u8fd9\u6b63\u662f C3 \u5206\u7c7b\u5668\u5bb9\u6613\u5728 \"IPO\" \u8fd9\u7c7b\u6295\u673a token \u4e0a\u8fc7\u5ea6\u89e6\u53d1\u7684\u60c5\u51b5\uff0c\u5728\u6709\u4e00\u624b\u4fe1\u6e90\u8bc1\u5b9e IPO \u72b6\u6001\u771f\u7684\u53d8\u5316\u4e4b\u524d\uff0c\u5e94\u5f53\u5f53\u4f5c\u4f4e\u4fe1\u53f7\u5904\u7406\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4152,
       "ts": 1789373714,
@@ -2275,46 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge - finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 02:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9RblRyWGZrYmVUY2ZvOGN2Qm9tY20xRm4tOVJidDRSRHdyZUk3NHpGcklxdEhIcTNxSkd0ME9oX0FQSUlGYnhubGJ2dlJmaTQwQ2dyVzJIMzhnY2RiSVZxekd5UFUtTUZZSGs3bzdxck9LbjF6WGc?oc=5\n\nMemory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9RblRyWGZrYmVUY2ZvOGN2Qm9tY20xRm4tOVJidDRSRHdyZUk3NHpGcklxdEhIcTNxSkd0ME9oX0FQSUlGYnhubGJ2dlJmaTQwQ2dyVzJIMzhnY2RiSVZxekd5UFUtTUZZSGs3bzdxck9LbjF6WGc?oc=5\" target=\"_blank\">Memory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory chips (DRAM/NAND) now make up half of global semiconductor revenue, driven by AI-related supply shortages pushing prices up.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u53d7 AI \u9700\u6c42\u9a71\u52a8\u7684\u4f9b\u5e94\u7d27\u5f20\u63a8\u9ad8\u4ef7\u683c\uff0c\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u5982\u4eca\u5df2\u5360\u5168\u7403\u534a\u5bfc\u4f53\u6536\u5165\u7684\u4e00\u534a\u3002\n\nWhy it matters:\nRising memory prices squeeze margins for every AI-infra builder that isn't a memory maker \u2014 it's a cost-side stress signal on top of the capex-side ones, and a supply crunch this severe historically precedes a sharp correction once new fab capacity lands.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4f1a\u6324\u538b\u9664\u5185\u5b58\u5382\u5546\u4e4b\u5916\u6240\u6709 AI \u57fa\u5efa\u53c2\u4e0e\u8005\u7684\u5229\u6da6\uff0c\u8fd9\u662f\u6210\u672c\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u548c\u8d44\u672c\u5f00\u652f\u7aef\u7684\u4fe1\u53f7\u5f62\u6210\u547c\u5e94\uff1b\u5386\u53f2\u4e0a\u8fd9\u79cd\u7a0b\u5ea6\u7684\u4f9b\u5e94\u7d27\u5f20\uff0c\u5f80\u5f80\u5728\u65b0\u4ea7\u80fd\u843d\u5730\u540e\u5f15\u53d1\u4ef7\u683c\u5927\u5e45\u56de\u843d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3963,
-      "ts": 1789009529,
-      "ts_str": "2026-09-10 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory chip stocks rally! SK Hynix hits record high on U.S. market; Goldman Sachs declares the worst is over - \u5bcc\u9014\u725b\u725b",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 02:57:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxQTDdrS2ZWaVZrN1JJNWNFX2JjNmcta2VidEppOHRrNFVHRFRScU9SSXVHQnJQN3JvU1lTQ3o3ekNYTFMtdEwxcUF6ZjRCVDRwX25EQjUzSFRNZHVqcjJuY2hucThBUWNwVU5MazBrQWR0alRxSmVjanBNc3ZTeE1wNGVnOGR2R052WjZNM3d3X3JYVU1ZU3BpVWFB?oc=5\n\nMemory chip stocks rally! SK Hynix hits record high on U.S. market; Goldman Sachs declares the worst is over - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQTDdrS2ZWaVZrN1JJNWNFX2JjNmcta2VidEppOHRrNFVHRFRScU9SSXVHQnJQN3JvU1lTQ3o3ekNYTFMtdEwxcUF6ZjRCVDRwX25EQjUzSFRNZHVqcjJuY2hucThBUWNwVU5MazBrQWR0alRxSmVjanBNc3ZTeE1wNGVnOGR2R052WjZNM3d3X3JYVU1ZU3BpVWFB?oc=5\" target=\"_blank\">Memory chip stocks rally! SK Hynix hits record high on U.S. market; Goldman Sachs declares the worst is over</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News RSS reports SK Hynix stock hit a record high in U.S. trading, with Goldman Sachs saying the memory downturn is over.\n\n\u5185\u5bb9:\nGoogle News RSS \u62a5\u9053\u79f0 SK Hynix \u80a1\u4ef7\u5728\u7f8e\u80a1\u5e02\u573a\u521b\u4e0b\u5386\u53f2\u65b0\u9ad8\uff0c\u9ad8\u76db\u8868\u793a\u5b58\u50a8\u82af\u7247\u7684\u6700\u5dee\u9636\u6bb5\u5df2\u7ecf\u8fc7\u53bb\u3002\n\nWhy it matters:\nA sell-side call that the memory cycle bottomed, plus a record price for a major supplier, points toward tightening DRAM/NAND/HBM supply \u2014 the opposite of the oversupply-crash scenario C6 watches for, but a price surge this sharp can itself signal capacity being bid away from AI buildouts toward speculative allocation.\n\n\u5f71\u54cd:\n\u5927\u884c\u558a\u51fa\u5468\u671f\u89c1\u5e95\uff0c\u53e0\u52a0\u4e3b\u8981\u4f9b\u5e94\u5546\u80a1\u4ef7\u521b\u65b0\u9ad8\uff0c\u6307\u5411 DRAM/NAND/HBM \u4f9b\u7ed9\u6b63\u5728\u6536\u7d27\u2014\u2014\u8fd9\u548c C6 \u76ef\u9632\u7684\u4ea7\u80fd\u8fc7\u5269\u5d29\u76d8\u6b63\u597d\u76f8\u53cd\uff0c\u4f46\u6da8\u5f97\u8fd9\u4e48\u731b\u672c\u8eab\u4e5f\u53ef\u80fd\u610f\u5473\u7740\u4ea7\u80fd\u6b63\u88ab\u4ece AI \u5efa\u8bbe\u9700\u6c42\u91cc\u62a2\u8d70\uff0c\u6d41\u5411\u6295\u673a\u6027\u914d\u7f6e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3960,
-      "ts": 1789005905,
-      "ts_str": "2026-09-10 02:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - TechPowerUp",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 23:41:30 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZ9IBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\n\nApple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZ9IBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\" target=\"_blank\">Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is raising iPhone prices across the lineup because DRAM costs have risen.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u7531\u4e8e DRAM \u6210\u672c\u4e0a\u6da8\uff0cApple \u6b63\u5728\u5168\u7ebf\u4e0a\u8c03 iPhone \u552e\u4ef7\u3002\n\nWhy it matters:\nA DRAM cost spike hitting consumer-electronics pricing power confirms memory-market tightness is broad enough to move end-product prices, not just component margins \u2014 supports the C6 memory/storage stress thesis of an AI-driven memory supply squeeze.\n\n\u5f71\u54cd:\nDRAM \u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7684\u7d27\u5f20\u7a0b\u5ea6\u5df2\u7ecf\u4e0d\u53ea\u662f\u538b\u7f29\u5382\u5546\u5229\u6da6\u7387\uff0c\u800c\u662f\u6491\u8d77 C6 \u5185\u5b58/\u5b58\u50a8\u7d27\u5f20\u7684\u8bba\u70b9\u2014\u2014AI \u9a71\u52a8\u7684\u5185\u5b58\u4f9b\u7ed9\u6324\u538b\u6b63\u5728\u6269\u6563\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3959,
-      "ts": 1788998716,
-      "ts_str": "2026-09-10 00:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - techpowerup.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 23:44:45 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxOYkM3YVRydjFuVWxTSTROeVI4RjFrSHZtTDdJVDl4MjQwUFRHNkxOR2NwWmp0TU5ZY1JHMkJqcWFQN2I5ck0wbXJNclFOeWlLR24tZHZvU1VNbHNKOFVWNURIdlBrTlhuWXBOQzByQW9pa3hJeVZ6VUg4eVZSUHpvRFN2aWJQSG1kV3IyQW1lMXpqUW1LSkxYZ0lqdDRNR25UZmEtMdIBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\n\nApple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up - techpowerup.com\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOYkM3YVRydjFuVWxTSTROeVI4RjFrSHZtTDdJVDl4MjQwUFRHNkxOR2NwWmp0TU5ZY1JHMkJqcWFQN2I5ck0wbXJNclFOeWlLR24tZHZvU1VNbHNKOFVWNURIdlBrTlhuWXBOQzByQW9pa3hJeVZ6VUg4eVZSUHpvRFN2aWJQSG1kV3IyQW1lMXpqUW1LSkxYZ0lqdDRNR25UZmEtMdIBqgFBVV95cUxObUZvRnpBZHJrNEFuRHNEQ0NHd2tRenNZVkJuZHRDZGJJdllFWGh0QXdQbnRrcmRLblhZbVhXN3RjRnNwNnROclZSTEZ1LWN0UFQ0Vk9MQjlZMzBldE9hZjMtV19oNzNlQUpwSGxRN0ZJaDk1ZzlKbzBoS3BmUTQ0UGhkRGdXQzljYlJEazB5aGhkODU4Xzh5UUFteXA5SU9IYl9PWnNHbjVJZw?oc=5\" target=\"_blank\">Apple Raises Prices Across the iPhone Lineup as DRAM Costs Catch Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">techpowerup.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Apple is raising iPhone prices across the lineup because DRAM costs have risen.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u7531\u4e8e DRAM \u6210\u672c\u4e0a\u6da8\uff0cApple \u6b63\u5728\u5168\u7ebf\u4e0a\u8c03 iPhone \u552e\u4ef7\u3002\n\nWhy it matters:\nA DRAM cost spike hitting consumer-electronics pricing power confirms memory-market tightness is broad enough to move end-product prices, not just component margins \u2014 supports the C6 memory/storage stress thesis of an AI-driven memory supply squeeze.\n\n\u5f71\u54cd:\nDRAM \u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u7ec8\u7aef\u5b9a\u4ef7\uff0c\u8bf4\u660e\u5185\u5b58\u5e02\u573a\u7684\u7d27\u5f20\u7a0b\u5ea6\u5df2\u7ecf\u4e0d\u53ea\u662f\u538b\u7f29\u5382\u5546\u5229\u6da6\u7387\uff0c\u800c\u662f\u6491\u8d77 C6 \u5185\u5b58/\u5b58\u50a8\u7d27\u5f20\u7684\u8bba\u70b9\u2014\u2014AI \u9a71\u52a8\u7684\u5185\u5b58\u4f9b\u7ed9\u6324\u538b\u6b63\u5728\u6269\u6563\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3958,
-      "ts": 1788994034,
-      "ts_str": "2026-09-09 22:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX investors get bold Wall Street price target for 2027 year-end - thestreet.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 22:03:00 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxNVk5YYzlZX0NFWWphOXZ4SnVCR0tmbmVUVno1cGc0Z0pBLWpFRWxIck85dVlGM3gyLWg2NEJyWG1HVWFueHdMTnk0UTdpVFBhano2cXJLNWUxX19LMnMxZ0duNzNHeERfbHFMMm05SXIzZmd6eFBLVXVUY2lkbjFYZngwc3AxUWlNMlp6UXV6UmFlaFpBNHU4bHJuSjh1ek5YVHF2YndvZjZOMWI3ZThzQ3Fibmo?oc=5\n\nSpaceX investors get bold Wall Street price target for 2027 year-end - thestreet.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNVk5YYzlZX0NFWWphOXZ4SnVCR0tmbmVUVno1cGc0Z0pBLWpFRWxIck85dVlGM3gyLWg2NEJyWG1HVWFueHdMTnk0UTdpVFBhano2cXJLNWUxX19LMnMxZ0duNzNHeERfbHFMMm05SXIzZmd6eFBLVXVUY2lkbjFYZngwc3AxUWlNMlp6UXV6UmFlaFpBNHU4bHJuSjh1ek5YVHF2YndvZjZOMWI3ZThzQ3Fibmo?oc=5\" target=\"_blank\">SpaceX investors get bold Wall Street price target for 2027 year-end</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thestreet.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Wall Street analyst issued a bullish price target for SpaceX's implied valuation by year-end 2027, per a news headline tracked under the C11 index-mechanics signal.\n\n\u5185\u5bb9:\n\u4e00\u4f4d\u534e\u5c14\u8857\u5206\u6790\u5e08\u7ed9 SpaceX \u5230 2027 \u5e74\u5e95\u7684\u9690\u542b\u4f30\u503c\u7ed9\u51fa\u4e86\u770b\u591a\u76ee\u6807\u4ef7\uff0c\u6807\u9898\u88ab C11 \u6307\u6570\u673a\u5236\u4fe1\u53f7track\u5230\u3002\n\nWhy it matters:\nPrice-target chatter is sentiment, not a filing or flow event \u2014 it doesn't move the lock-up calendar or ETF holdings, but it's the kind of narrative that inflates expectations ahead of any future IPO/liquidity event tied to the passive-flow thesis.\n\n\u5f71\u54cd:\n\u8fd9\u7c7b\u76ee\u6807\u4ef7\u4f20\u95fb\u53ea\u662f\u60c5\u7eea\u9762\u6d88\u606f\uff0c\u4e0d\u662f filing \u6216\u8d44\u91d1\u6d41\u53d8\u5316\uff0c\u4e0d\u4f1a\u5f71\u54cd\u89e3\u7981\u65e5\u5386\u6216 ETF \u6301\u4ed3\uff0c\u4f46\u4f1a\u4e3a\u672a\u6765\u4efb\u4f55\u548c\u88ab\u52a8\u8d44\u91d1\u6d41\u903b\u8f91\u6302\u94a9\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\uff08\u6bd4\u5982 IPO\uff09\u9884\u5148\u7092\u70ed\u9884\u671f\u3002\n",
       "emailed": false
     }
   ],
