@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789387862,
-  "generated_at_str": "2026-09-14 12:11:02 UTC",
-  "last_event_ts": 1789387506,
+  "generated_at": 1789388057,
+  "generated_at_str": "2026-09-14 12:14:17 UTC",
+  "last_event_ts": 1789388056,
   "tables": {
     "alerts_dedup": {
-      "count": 4166,
-      "last_ts": 1789386434,
-      "last_str": "2026-09-14 11:47:14 UTC"
+      "count": 4167,
+      "last_ts": 1789388056,
+      "last_str": "2026-09-14 12:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-09-14 11:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1261,
-      "last_ts": 1789386246,
-      "last_str": "2026-09-14 11:44:06 UTC"
+      "count": 1262,
+      "last_ts": 1789388046,
+      "last_str": "2026-09-14 12:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5895,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-14 11:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31502,
-      "last_ts": 1789386243,
-      "last_str": "2026-09-14 11:44:03 UTC"
+      "count": 31513,
+      "last_ts": 1789388043,
+      "last_str": "2026-09-14 12:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9446,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4174,
+      "ts": 1789388056,
+      "ts_str": "2026-09-14 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s IPO wait grows longer as AI safety fears mount - Fortune",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 11:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxOVzR4bWl2NTBLNXZTT1JUZkZrZ2gzeGhfdWNfYW5UU3VfTGVQUnhXQS1wVEJQWDVYcmo2VW1jU00ydTMyd2NaSEdiNkJMZUxockxBWDVrbW41VlJPTkNDUzhKYUlZeHd0eThhNmtsTFRIQWl2b05xd2pzUGRBUDNxdTFIbEZzS1RvV1JHYlVmMzJaaGM?oc=5\n\nOpenAI\u2019s IPO wait grows longer as AI safety fears mount - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOVzR4bWl2NTBLNXZTT1JUZkZrZ2gzeGhfdWNfYW5UU3VfTGVQUnhXQS1wVEJQWDVYcmo2VW1jU00ydTMyd2NaSEdiNkJMZUxockxBWDVrbW41VlJPTkNDUzhKYUlZeHd0eThhNmtsTFRIQWl2b05xd2pzUGRBUDNxdTFIbEZzS1RvV1JHYlVmMzJaaGM?oc=5\" target=\"_blank\">OpenAI\u2019s IPO wait grows longer as AI safety fears mount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news alert (no ticker/numbers given) reports OpenAI's IPO is being pushed back further as AI safety concerns grow, matching C3's generic 'IPO' keyword trigger.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u7c7b\u544a\u8b66\uff08\u65e0 ticker/\u5177\u4f53\u6570\u5b57\uff09\u62a5\u9053 OpenAI \u7684 IPO \u56e0 AI \u5b89\u5168\u62c5\u5fe7\u52a0\u5267\u800c\u8fdb\u4e00\u6b65\u63a8\u8fdf\uff0c\u89e6\u53d1\u4e86 C3 \u7684\u901a\u7528 'IPO' \u5173\u952e\u8bcd\u5224\u636e\u3002\n\nWhy it matters:\nThis is MED-tier speculation, not a hard signal \u2014 a delayed IPO on safety grounds could reflect regulatory friction or governance issues rather than financial stress, but it's still noise-prone since C3's IPO token fires on any IPO-adjacent headline regardless of substance.\n\n\u5f71\u54cd:\n\u8fd9\u662f MED \u7ea7\u522b\u7684\u6295\u673a\u6027\u65b0\u95fb\uff0c\u4e0d\u662f\u786c\u6570\u636e\u4fe1\u53f7\u2014\u2014IPO \u63a8\u8fdf\u53ef\u80fd\u53cd\u6620\u76d1\u7ba1\u963b\u529b\u6216\u6cbb\u7406\u95ee\u9898\uff0c\u4e0d\u4e00\u5b9a\u662f\u8d22\u52a1\u538b\u529b\uff0c\u4f46 C3 \u7684 IPO token \u672c\u8eab\u5bb9\u6613\u5bf9\u4efb\u4f55\u6cbe\u8fb9\u6807\u9898\u90fd\u89e6\u53d1\uff0c\u4fe1\u606f\u91cf\u6709\u9650\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4173,
       "ts": 1789386434,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SPCX Stock Faces Another Lockup Expiry Today \u2013 Here\u2019s How It Fared After Previous Unlocks - Stocktwits",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 12:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWVBWUktIZEEtQnhwZHZSSFlybEJmdU5GX1lvWGdHZjVMUTZ0M0I1Mi04T3BYS2lBT0tOcHhHU3p4YkxpU0RLdmQ4czFSdjEzTEd0UmlIMmVqU2JVNjNOT0FHYi05c3RqcUpQenYyTDRlZVVpNWJQODlqbGpVaDVaSmNndTJId3NEYmN4cXo5THZNbFh3SmlpM0tMQl9aeVZsSFBBY0szaUMwVzUyYjN6TUJoTWxjckgzNkZQa2drZEZaa3EwMW8wOXgyVzZ4RDRncGZCblBHbUVra1NOYmZvSElNWU5lNHdEUFphNXNDT1oyX2JMSWc?oc=5\n\nSPCX Stock Faces Another Lockup Expiry Today \u2013 Here\u2019s How It Fared After Previous Unlocks - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWVBWUktIZEEtQnhwZHZSSFlybEJmdU5GX1lvWGdHZjVMUTZ0M0I1Mi04T3BYS2lBT0tOcHhHU3p4YkxpU0RLdmQ4czFSdjEzTEd0UmlIMmVqU2JVNjNOT0FHYi05c3RqcUpQenYyTDRlZVVpNWJQODlqbGpVaDVaSmNndTJId3NEYmN4cXo5THZNbFh3SmlpM0tMQl9aeVZsSFBBY0szaUMwVzUyYjN6TUJoTWxjckgzNkZQa2drZEZaa3EwMW8wOXgyVzZ4RDRncGZCblBHbUVra1NOYmZvSElNWU5lNHdEUFphNXNDT1oyX2JMSWc?oc=5\" target=\"_blank\">SPCX Stock Faces Another Lockup Expiry Today \u2013 Here\u2019s How It Fared After Previous Unlocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX shares faced another lock-up expiry today; coverage frames it against how the stock performed after previous unlocks.\n\n\u5185\u5bb9:\nSPCX \u80a1\u7968\u4eca\u65e5\u518d\u5ea6\u8fce\u6765\u4e00\u6b21\u89e3\u7981\uff0c\u62a5\u9053\u62ff\u5b83\u4e0e\u6b64\u524d\u51e0\u6b21\u89e3\u7981\u540e\u7684\u8d70\u52bf\u505a\u5bf9\u6bd4\u3002\n\nWhy it matters:\nEach lock-up unlock increases the float of tradable SPCX shares, testing whether index-driven and passive demand can absorb the supply without a price drop \u2014 a direct read on the C11 passive-flow thesis.\n\n\u5f71\u54cd:\n\u6bcf\u6b21\u89e3\u7981\u90fd\u4f1a\u589e\u52a0\u53ef\u4ea4\u6613\u7684 SPCX \u6d41\u901a\u80a1\u6570\u91cf\uff0c\u8003\u9a8c\u88ab\u52a8\u8d44\u91d1\u548c\u6307\u6570\u5316\u9700\u6c42\u80fd\u4e0d\u80fd\u5438\u6536\u8fd9\u90e8\u5206\u65b0\u589e\u4f9b\u7ed9\u800c\u4e0d\u7838\u4f4e\u80a1\u4ef7\u2014\u2014\u8fd9\u76f4\u63a5\u68c0\u9a8c C11 \u7684\u88ab\u52a8\u6d41\u5165\u903b\u8f91\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3974,
-      "ts": 1789044445,
-      "ts_str": "2026-09-10 12:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Falls More Than 4% as 319 Million Shares Unlock - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 17:08:17 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPdUdfUVRNN19HTzV0NmRrNkNXb0ZyUE0zYXpjQzVBVFA1THRTNjFaekNhdTk3ci1WVUtwS19iREo2UDIxci1OblYxMDVzY2RNMjA5VFk1eFpxQ0N1d0h0Q1pKUFFGTFZyMU1veWZKOHRlb1d1MlhOVHR2enI3eWRXSHZIR2NvcjRPdml1TnUwSERzZw?oc=5\n\nSpaceX Falls More Than 4% as 319 Million Shares Unlock - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPdUdfUVRNN19HTzV0NmRrNkNXb0ZyUE0zYXpjQzVBVFA1THRTNjFaekNhdTk3ci1WVUtwS19iREo2UDIxci1OblYxMDVzY2RNMjA5VFk1eFpxQ0N1d0h0Q1pKUFFGTFZyMU1veWZKOHRlb1d1MlhOVHR2enI3eWRXSHZIR2NvcjRPdml1TnUwSERzZw?oc=5\" target=\"_blank\">SpaceX Falls More Than 4% as 319 Million Shares Unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX shares fell more than 4% as a lock-up expiration released 319 million shares for potential sale.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u968f\u7740\u4e00\u6279\u9650\u552e\u80a1\u89e3\u7981\uff0cSpaceX \u80a1\u4ef7\u4e0b\u8dcc\u8d85\u8fc7 4%\uff0c\u6b64\u6b21\u89e3\u7981\u6d89\u53ca 3.19 \u4ebf\u80a1\u3002\n\nWhy it matters:\nA large unlock adds sell-side supply from insiders and early investors just as SpaceX's private valuation feeds into public AI-infrastructure sentiment via Starlink/data-center capex ties; a sharp drop on unlock day signals the market expects real selling pressure, not just paper dilution.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u610f\u5473\u7740\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u83b7\u5f97\u7684\u53ef\u5356\u51fa\u80a1\u4efd\u9aa4\u589e\uff0c\u800c SpaceX \u7684\u4f30\u503c\u53c8\u901a\u8fc7 Starlink \u7b49\u4e1a\u52a1\u4e0e AI \u57fa\u7840\u8bbe\u65bd\u7684\u8d44\u672c\u5f00\u652f\u53d9\u4e8b\u6302\u94a9\u3002\u89e3\u7981\u5f53\u5929\u80a1\u4ef7\u660e\u663e\u4e0b\u8dcc\uff0c\u8bf4\u660e\u5e02\u573a\u9884\u671f\u7684\u662f\u771f\u5b9e\u7684\u629b\u538b\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u4e0a\u7684\u7a00\u91ca\u3002\n",
       "emailed": false
     }
   ],
