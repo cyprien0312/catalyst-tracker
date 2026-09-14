@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789395063,
-  "generated_at_str": "2026-09-14 14:11:03 UTC",
-  "last_event_ts": 1789394885,
+  "generated_at": 1789395257,
+  "generated_at_str": "2026-09-14 14:14:17 UTC",
+  "last_event_ts": 1789395256,
   "tables": {
     "alerts_dedup": {
-      "count": 4169,
-      "last_ts": 1789393633,
-      "last_str": "2026-09-14 13:47:13 UTC"
+      "count": 4170,
+      "last_ts": 1789395256,
+      "last_str": "2026-09-14 14:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-13 23:00:38 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5425,
-      "last_ts": 1789393445,
-      "last_str": "2026-09-14 13:44:05 UTC"
+      "count": 5426,
+      "last_ts": 1789395245,
+      "last_str": "2026-09-14 14:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1264,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-14 14:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31540,
-      "last_ts": 1789393443,
-      "last_str": "2026-09-14 13:44:03 UTC"
+      "count": 31549,
+      "last_ts": 1789395243,
+      "last_str": "2026-09-14 14:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9459,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4177,
+      "ts": 1789395256,
+      "ts_str": "2026-09-14 14:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Market Talk: OpenAI 'just creating drama to boost demand' as IPO pushed back - Reuters",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 11:56:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xbmR5VXJqcmlpb1dhMHp3UFQzbnhzaEFJM0VJZkdTVDJwclI5MnJxVnBWMW9PTDVfTEJIanBHQ0xJWFJVdXV0T3kyeURyWkYxTWhteGREOXdvelhKQS16aVVpbG90VDQ?oc=5\n\nMarket Talk: OpenAI 'just creating drama to boost demand' as IPO pushed back - Reuters\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xbmR5VXJqcmlpb1dhMHp3UFQzbnhzaEFJM0VJZkdTVDJwclI5MnJxVnBWMW9PTDVfTEJIanBHQ0xJWFJVdXV0T3kyeURyWkYxTWhteGREOXdvelhKQS16aVVpbG90VDQ?oc=5\" target=\"_blank\">Market Talk: OpenAI 'just creating drama to boost demand' as IPO pushed back</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Market Talk items both flag OpenAI's IPO being pushed back and quote it as 'just creating drama to boost demand.'\n\n\u5185\u5bb9:\n\u4e24\u6761 Market Talk \u65b0\u95fb\u90fd\u63d0\u5230 OpenAI \u7684 IPO \u63a8\u8fdf\uff0c\u5e76\u5f15\u7528\u8bf4\u6cd5\u79f0\u8fd9\u300c\u53ea\u662f\u5728\u5236\u9020\u8bdd\u9898\u4ee5\u523a\u6fc0\u9700\u6c42\u300d\u3002\n\nWhy it matters:\nIPO delay plus a framing that reads as deliberate hype-management is a soft signal on OpenAI's funding/liquidity timeline, but this is speculation dressed as commentary, not a filed fact \u2014 weight it accordingly against the C3 burn-rate trigger.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u52a0\u4e0a\u8fd9\u79cd\u300c\u523b\u610f\u5236\u9020\u8bdd\u9898\u300d\u7684\u63aa\u8f9e\uff0c\u7b97\u662f OpenAI \u878d\u8d44/\u6d41\u52a8\u6027\u65f6\u95f4\u7ebf\u4e0a\u7684\u4e00\u4e2a\u8f6f\u4fe1\u53f7\uff0c\u4f46\u8fd9\u7ec8\u7a76\u662f\u8bc4\u8bba\u6027\u731c\u6d4b\u800c\u975e\u62ab\u9732\u4e8b\u5b9e\uff0c\u6743\u91cd\u4e0a\u4e0d\u80fd\u8ddf C3 \u7684 burn-rate \u786c\u6307\u6807\u540c\u7b49\u5bf9\u5f85\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4176,
       "ts": 1789393633,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] China\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply - Modern Diplomacy",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 13:18:18 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTE55bjc3UVB5cE51c0dqLU5lNHRYUTJmeVB4dUNLamphZGxwYk9abERzdlpIdU82cXJUMExRTHJQWnhtSzhzSlA5LU95WG02eVh1Sm93TUNCNDBMY1VLWlRYS2JFSGVTZG1FaTFhY1d3TG5mNFVqMVNUVTNIbHR1QQ?oc=5\n\nChina\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply - Modern Diplomacy\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE55bjc3UVB5cE51c0dqLU5lNHRYUTJmeVB4dUNLamphZGxwYk9abERzdlpIdU82cXJUMExRTHJQWnhtSzhzSlA5LU95WG02eVh1Sm93TUNCNDBMY1VLWlRYS2JFSGVTZG1FaTFhY1d3TG5mNFVqMVNUVTNIbHR1QQ?oc=5\" target=\"_blank\">China\u2019s AI Chipmakers Raise Prices as HBM Shortage Squeezes Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Modern Diplomacy</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChinese AI chip makers raised prices as an HBM shortage squeezes supply, per two RSS entries of the same headline.\n\n\u5185\u5bb9:\n\u4e24\u6761\u76f8\u540c\u6807\u9898\u7684 RSS \u62a5\u9053\u79f0\uff0cHBM \u77ed\u7f3a\u6324\u538b\u4f9b\u5e94\uff0c\u4e2d\u56fd AI \u82af\u7247\u5382\u5546\u56e0\u6b64\u6da8\u4ef7\u3002\n\nWhy it matters:\nMemory scarcity feeding through to AI chip pricing confirms the supply-side capex thesis \u2014 tight HBM directly constrains AI accelerator output regardless of demand, and rising prices for buyers compound the capex burden hyperscalers already carry.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u4f20\u5bfc\u5230 AI \u82af\u7247\u5b9a\u4ef7\uff0c\u5370\u8bc1\u4e86\u4f9b\u7ed9\u4fa7\u7684 capex \u903b\u8f91\u2014\u2014HBM \u7d27\u5f20\u4f1a\u76f4\u63a5\u9650\u5236 AI \u52a0\u901f\u5668\u4ea7\u51fa\uff0c\u8ddf\u9700\u6c42\u65e0\u5173\uff1b\u5bf9\u4e70\u5bb6\u6765\u8bf4\u6da8\u4ef7\u8fd8\u4f1a\u52a0\u91cd\u8d85\u5927\u89c4\u6a21\u5382\u5546\u672c\u5df2\u6c89\u91cd\u7684 capex \u8d1f\u62c5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3978,
-      "ts": 1789047325,
-      "ts_str": "2026-09-10 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Sources: Prices of Chinese AI chips rise due to memory chip shortage - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 13:30:55 GMT\nLink:      https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWldFRVB2alpKWnBVdlBBcDRsLXlkMW1qLVMzSFVNMzE0LWpCUzcyWlcwbTQyb05QUGxCb0JVZmFuTEJmLUtKTnZWenFpQ2RLNHJ0Wmk0c3VtRm43Mm1zM2szajFBZ01SWDhF?oc=5\n\nSources: Prices of Chinese AI chips rise due to memory chip shortage - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644\n\n<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZWldFRVB2alpKWnBVdlBBcDRsLXlkMW1qLVMzSFVNMzE0LWpCUzcyWlcwbTQyb05QUGxCb0JVZmFuTEJmLUtKTnZWenFpQ2RLNHJ0Wmk0c3VtRm43Mm1zM2szajFBZ01SWDhF?oc=5\" target=\"_blank\">Sources: Prices of Chinese AI chips rise due to memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMultiple Google News RSS items report Chinese AI chip prices rising due to a memory chip shortage \u2014 the same headline recurring across feed queries.\n\n\u5185\u5bb9:\n\u591a\u6761 Google News RSS \u62a5\u9053\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u63a8\u9ad8\u4e86\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\uff0c\u540c\u4e00\u6807\u9898\u5728\u4e0d\u540c feed \u67e5\u8be2\u91cc\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nMemory-shortage-driven price surges tighten the input-cost side of AI hardware and squeeze margins for chipmakers/OEMs building AI accelerators, adding to supply-chain stress on top of capex/credit signals.\n\n\u5f71\u54cd:\n\u5185\u5b58\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u4f1a\u62ac\u9ad8 AI \u786c\u4ef6\u7684\u6210\u672c\u7aef\uff0c\u538b\u7f29\u82af\u7247\u5382\u5546\u548c OEM \u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u662f\u5728 capex\u3001\u4fe1\u7528\u7b49\u4fe1\u53f7\u4e4b\u5916\u53c8\u53e0\u52a0\u4e86\u4e00\u5c42\u4f9b\u5e94\u94fe\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
