@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789364467,
-  "generated_at_str": "2026-09-14 05:41:07 UTC",
-  "last_event_ts": 1789364104,
+  "generated_at": 1789364673,
+  "generated_at_str": "2026-09-14 05:44:33 UTC",
+  "last_event_ts": 1789364672,
   "tables": {
     "alerts_dedup": {
-      "count": 4141,
-      "last_ts": 1789357455,
-      "last_str": "2026-09-14 03:44:15 UTC"
+      "count": 4143,
+      "last_ts": 1789364672,
+      "last_str": "2026-09-14 05:44:32 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-13 23:00:38 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5407,
-      "last_ts": 1789361050,
-      "last_str": "2026-09-14 04:44:10 UTC"
+      "count": 5408,
+      "last_ts": 1789364645,
+      "last_str": "2026-09-14 05:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1256,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-14 02:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31337,
-      "last_ts": 1789362843,
-      "last_str": "2026-09-14 05:14:03 UTC"
+      "count": 31351,
+      "last_ts": 1789364644,
+      "last_str": "2026-09-14 05:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9418,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4149,
+      "ts": 1789364672,
+      "ts_str": "2026-09-14 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Softbank Group stock slides 11% after OpenAI says it will not seek a 2026 IPO - Investing.com UK",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 05:30:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVFsUzhENHNod1dCRGllLUQzc0FtZ1hwTDNKUE5PbVdRRjd2blF5NmxGZzhPWG1wMGZUZl8yTVd3N3VibUZWRzVLRS11NWJZT1EtV0xWWlJWdTVRNlBoVnhOa3NlekNWeU44UTVNV2VoQWcwcHIxejFxTW91ZXRDMUdSRzByblhLUloxckItandJWGszMHRyWkRoenp0UTZId2dKUm1mOGh6YnNTZDE4bXp3SUFQcmZVdnNTWGdFbGdUYkN0YmFaOUl4NDI?oc=5\n\nSoftbank Group stock slides 11% after OpenAI says it will not seek a 2026 IPO - Investing.com UK\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPSVFsUzhENHNod1dCRGllLUQzc0FtZ1hwTDNKUE5PbVdRRjd2blF5NmxGZzhPWG1wMGZUZl8yTVd3N3VibUZWRzVLRS11NWJZT1EtV0xWWlJWdTVRNlBoVnhOa3NlekNWeU44UTVNV2VoQWcwcHIxejFxTW91ZXRDMUdSRzByblhLUloxckItandJWGszMHRyWkRoenp0UTZId2dKUm1mOGh6YnNTZDE4bXp3SUFQcmZVdnNTWGdFbGdUYkN0YmFaOUl4NDI?oc=5\" target=\"_blank\">Softbank Group stock slides 11% after OpenAI says it will not seek a 2026 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank Group shares fell 11% after OpenAI said it will not pursue an IPO in 2026.\n\n\u5185\u5bb9:\nSoftBank Group \u80a1\u4ef7\u4e0b\u8dcc 11%\uff0c\u6b64\u524d OpenAI \u8868\u793a\u4e0d\u4f1a\u5728 2026 \u5e74\u5bfb\u6c42 IPO\u3002\n\nWhy it matters:\nSoftBank is one of OpenAI's largest backers, so this repricing is the market's read on OpenAI's near-term liquidity path and valuation credibility, not OpenAI's own filing \u2014 a proxy signal rather than a direct C3 event.\n\n\u5f71\u54cd:\nSoftBank \u662f OpenAI \u6700\u5927\u7684\u5916\u90e8\u80a1\u4e1c\u4e4b\u4e00\uff0c\u8fd9\u6b21\u629b\u552e\u53cd\u6620\u7684\u662f\u5e02\u573a\u5bf9 OpenAI \u77ed\u671f\u6d41\u52a8\u6027\u8def\u5f84\u548c\u4f30\u503c\u53ef\u4fe1\u5ea6\u7684\u91cd\u65b0\u5b9a\u4ef7\uff0c\u800c\u4e0d\u662f OpenAI \u81ea\u5df1\u53d1\u7684\u58f0\u660e\u2014\u2014\u7b97\u662f\u4e00\u4e2a\u4ee3\u7406\u4fe1\u53f7\uff0c\u4e0d\u662f\u76f4\u63a5\u7684 C3 \u4e8b\u4ef6\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4150,
+      "ts": 1789364672,
+      "ts_str": "2026-09-14 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI\u2019s Deferred IPO Erases 11% From SoftBank, With $10 Billion Due in October - TechStock\u00b2",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 05:14:30 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxOVHRQdW93YmgtUndRQkRHNndQWlNxOXIySHV6VDVJc19FSWlpYjFfbjh4NFA1MlNVNWtGWmVwb2l4RVNZVnlhRFdtWEpHMExkbi1pX0xENnNpMjg4MWJpVzJiekZVUE9hUkpwaDJYdlhMNXFzclhsSTBVZWJLTi03bHdNWWJYbm9EampaemwyV2lsVE8yNmRXWkd6OGs?oc=5\n\nOpenAI\u2019s Deferred IPO Erases 11% From SoftBank, With $10 Billion Due in October - TechStock\u00b2\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOVHRQdW93YmgtUndRQkRHNndQWlNxOXIySHV6VDVJc19FSWlpYjFfbjh4NFA1MlNVNWtGWmVwb2l4RVNZVnlhRFdtWEpHMExkbi1pX0xENnNpMjg4MWJpVzJiekZVUE9hUkpwaDJYdlhMNXFzclhsSTBVZWJLTi03bHdNWWJYbm9EampaemwyV2lsVE8yNmRXWkd6OGs?oc=5\" target=\"_blank\">OpenAI\u2019s Deferred IPO Erases 11% From SoftBank, With $10 Billion Due in October</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechStock\u00b2</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank marked down 11% amid OpenAI's IPO being pushed back, with a $10B payment reportedly due from SoftBank in October.\n\n\u5185\u5bb9:\nSoftBank \u56e0 OpenAI IPO \u63a8\u8fdf\u800c\u4f30\u503c\u7f29\u6c34 11%\uff0c\u636e\u62a5\u9053 SoftBank 10 \u6708\u987b\u652f\u4ed8 $10B\u3002\n\nWhy it matters:\nA deferred IPO removes the exit/liquidity event investors were pricing in for OpenAI stakes, and a large near-term cash obligation from a key backer (SoftBank) tightens the funding chain feeding OpenAI's compute buildout \u2014 a stress point for the capex-funding side of the AI thesis, not a demand-side signal.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740\u5e02\u573a\u539f\u672c\u9884\u671f\u7684 OpenAI \u80a1\u6743\u9000\u51fa/\u6d41\u52a8\u6027\u4e8b\u4ef6\u843d\u7a7a\uff0c\u800c\u5173\u952e\u51fa\u8d44\u65b9 SoftBank \u8fd1\u671f\u8981\u638f\u51fa\u4e00\u5927\u7b14\u73b0\u91d1\uff0c\u8fd9\u4f1a\u6536\u7d27\u652f\u6491 OpenAI \u7b97\u529b\u6269\u5f20\u7684\u8d44\u91d1\u94fe\u2014\u2014\u662f\u8d44\u91d1\u4fa7\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u9700\u6c42\u4fa7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4148,
       "ts": 1789357455,
@@ -2295,26 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Falls More Than 4% as 319 Million Shares Unlock - Benzinga",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 17:08:17 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWFoQ092M2dtSDRhMTV4ano1SmFXcDJzTDNNbXpYcG8wZ1hEWktNb1VDckJfMjZPUHNhVFM1VTZfU2prOXYyTnBmbDZRRU44OURsSzVnS1JSQmZVMmlQQU10aWp2MHJQQktZRXRVNzlmRi1LVG1PQnRYZ01mOHo0bW9jLVdNN2QxN0hMa2xFXzlKU2dXaENtcGE5aGNMRG1tTXZ4UnN5Yw?oc=5\n\nSpaceX Falls More Than 4% as 319 Million Shares Unlock - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWFoQ092M2dtSDRhMTV4ano1SmFXcDJzTDNNbXpYcG8wZ1hEWktNb1VDckJfMjZPUHNhVFM1VTZfU2prOXYyTnBmbDZRRU44OURsSzVnS1JSQmZVMmlQQU10aWp2MHJQQktZRXRVNzlmRi1LVG1PQnRYZ01mOHo0bW9jLVdNN2QxN0hMa2xFXzlKU2dXaENtcGE5aGNMRG1tTXZ4UnN5Yw?oc=5\" target=\"_blank\">SpaceX Falls More Than 4% as 319 Million Shares Unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX shares fell more than 4% as a lock-up expiration released 319 million shares for potential sale.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0c\u968f\u7740\u4e00\u6279\u9650\u552e\u80a1\u89e3\u7981\uff0cSpaceX \u80a1\u4ef7\u4e0b\u8dcc\u8d85\u8fc7 4%\uff0c\u6b64\u6b21\u89e3\u7981\u6d89\u53ca 3.19 \u4ebf\u80a1\u3002\n\nWhy it matters:\nA large unlock adds sell-side supply from insiders and early investors just as SpaceX's private valuation feeds into public AI-infrastructure sentiment via Starlink/data-center capex ties; a sharp drop on unlock day signals the market expects real selling pressure, not just paper dilution.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u610f\u5473\u7740\u5185\u90e8\u4eba\u548c\u65e9\u671f\u6295\u8d44\u8005\u83b7\u5f97\u7684\u53ef\u5356\u51fa\u80a1\u4efd\u9aa4\u589e\uff0c\u800c SpaceX \u7684\u4f30\u503c\u53c8\u901a\u8fc7 Starlink \u7b49\u4e1a\u52a1\u4e0e AI \u57fa\u7840\u8bbe\u65bd\u7684\u8d44\u672c\u5f00\u652f\u53d9\u4e8b\u6302\u94a9\u3002\u89e3\u7981\u5f53\u5929\u80a1\u4ef7\u660e\u663e\u4e0b\u8dcc\uff0c\u8bf4\u660e\u5e02\u573a\u9884\u671f\u7684\u662f\u771f\u5b9e\u7684\u629b\u538b\uff0c\u800c\u4e0d\u53ea\u662f\u8d26\u9762\u4e0a\u7684\u7a00\u91ca\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3950,
-      "ts": 1788972438,
-      "ts_str": "2026-09-09 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2% - 24/7 Wall ",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 16:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaUFkSV9xNkpHdmo5NURBSlNQZ3JfVkd0SEczck8weWM1c0huWjgwYl9nSnotNlh2eXlvSFlZU214ZWVlNV82bXIybEpSdnNSZ3BaSXBReW9oVXIyUlc5ekt5MjlpNGg3R09GUEJPRERUOGtmWHd0MWR6WEE2OXpMdzBBT0hBS0gzdFIyUFhFSDU5V3VzWUlkQ3ZPSmJWU25ua1lLY25LZEFOTjQtSDZiRmNXelhhZ1plMENnRTJsQWNneW9wbmJIamdhMTRodUZVR1liSnRIWjVBckJXV2c?oc=5\n\nSpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2% - 24/7 Wall St.\n\n<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaUFkSV9xNkpHdmo5NURBSlNQZ3JfVkd0SEczck8weWM1c0huWjgwYl9nSnotNlh2eXlvSFlZU214ZWVlNV82bXIybEpSdnNSZ3BaSXBReW9oVXIyUlc5ekt5MjlpNGg3R09GUEJPRERUOGtmWHd0MWR6WEE2OXpMdzBBT0hBS0gzdFIyUFhFSDU5V3VzWUlkQ3ZPSmJWU25ua1lLY25LZEFOTjQtSDZiRmNXelhhZ1plMENnRTJsQWNneW9wbmJIamdhMTRodUZVR1liSnRIWjVBckJXV2c?oc=5\" target=\"_blank\">SpaceX Sinks 5% as $47.2B Insider Share Unlock Hits the Tape, AST SpaceMobile Drops 4%, Rocket Lab Slips 2%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">24/7 Wall St.</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares dropped 5% as a $47.2B insider share unlock hit the market; AST SpaceMobile fell 4% and Rocket Lab slipped 2% in sympathy.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u56e0 $47.2B \u89c4\u6a21\u7684\u5185\u90e8\u4eba\u80a1\u4efd\u89e3\u7981\u4e0b\u8dcc 5%\uff0cAST SpaceMobile \u8054\u52a8\u4e0b\u8dcc 4%\uff0cRocket Lab \u4e0b\u8dcc 2%\u3002\n\nWhy it matters:\nA lock-up expiry of this size forces early holders to decide whether to sell into a still-thin secondary market, and the sympathy selloff in AST SpaceMobile and Rocket Lab shows the space/AI-infra-adjacent complex is trading as one correlated basket rather than on fundamentals \u2014 a hallmark of late-cycle, flow-driven pricing.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\uff0c\u4f1a\u903c\u65e9\u671f\u80a1\u4e1c\u5728\u6d41\u52a8\u6027\u4ecd\u7136\u6709\u9650\u7684\u4e8c\u7ea7\u5e02\u573a\u4e0a\u51b3\u5b9a\u8981\u4e0d\u8981\u629b\u552e\uff1bAST SpaceMobile \u548c Rocket Lab \u8ddf\u7740\u4e00\u8d77\u8dcc\uff0c\u8bf4\u660e\u592a\u7a7a/AI \u57fa\u5efa\u8fd9\u4e00\u7bee\u5b50\u80a1\u7968\u73b0\u5728\u662f\u88ab\u5f53\u6210\u4e00\u4e2a\u6574\u4f53\u8054\u52a8\u4ea4\u6613\uff0c\u800c\u4e0d\u662f\u5404\u81ea\u6309\u57fa\u672c\u9762\u5b9a\u4ef7\u2014\u2014\u8fd9\u6b63\u662f\u5468\u671f\u665a\u671f\u3001\u8d44\u91d1\u9762\u9a71\u52a8\u884c\u60c5\u7684\u5178\u578b\u7279\u5f81\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3948,
-      "ts": 1788968845,
-      "ts_str": "2026-09-09 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] QUICK SPARK: SpaceX Lockup Alert \u2014 319 Million SPCX Shares Unlock Today - Benzinga",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 09 Sep 2026 15:16:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVV1b0xXcmxEZndZejZ4cndPd3VFTnpjYzZxZzRsR0ppR3hydkZBS1dvWlA2eTV1a1drUmlaQzM2eEI0bV95ZDFsZEpRODY5ZFNZR3NWcXloRjQweldsY2c5QmJYR1BkNGFKd2hpZ3VzVFJKdzFJNHhWUTZQdm1Pc2tueGVCTExyYWhHeFBtUXIxUkhPS2tNQkMzM2JFcndvbklTcEZybzVDaHE1Q2dCZkYwMmhMRE5JT0MxdjI1SE04TkZIMHFHOA?oc=5\n\nQUICK SPARK: SpaceX Lockup Alert \u2014 319 Million SPCX Shares Unlock Today - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVVV1b0xXcmxEZndZejZ4cndPd3VFTnpjYzZxZzRsR0ppR3hydkZBS1dvWlA2eTV1a1drUmlaQzM2eEI0bV95ZDFsZEpRODY5ZFNZR3NWcXloRjQweldsY2c5QmJYR1BkNGFKd2hpZ3VzVFJKdzFJNHhWUTZQdm1Pc2tueGVCTExyYWhHeFBtUXIxUkhPS2tNQkMzM2JFcndvbklTcEZybzVDaHE1Q2dCZkYwMmhMRE5JT0MxdjI1SE04TkZIMHFHOA?oc=5\" target=\"_blank\">QUICK SPARK: SpaceX Lockup Alert \u2014 319 Million SPCX Shares Unlock Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX lockup alert headline reports 319 million SPCX shares unlocking today.\n\n\u5185\u5bb9:\nSpaceX \u89e3\u7981\u8b66\u62a5\u5934\u6761\u62a5\u9053\u4eca\u5929\u6709 3.19 \u4ebf\u80a1 SPCX \u89e3\u7981\u3002\n\nWhy it matters:\nA lockup expiration of this size can trigger forced or opportunistic selling by early holders, pressuring the stock and testing whether passive-flow demand can absorb it \u2014 the core C11 index-mechanics thesis.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u89e3\u7981\u5230\u671f\uff0c\u5bb9\u6613\u5f15\u53d1\u65e9\u671f\u6301\u6709\u4eba\u7684\u629b\u552e\uff08\u65e0\u8bba\u88ab\u8feb\u8fd8\u662f\u4e3b\u52a8\uff09\uff0c\u4f1a\u6253\u538b\u80a1\u4ef7\uff0c\u4e5f\u6b63\u597d\u68c0\u9a8c\u88ab\u52a8\u8d44\u91d1\u7684\u627f\u63a5\u80fd\u529b\u662f\u5426\u591f\u2014\u2014\u8fd9\u6b63\u662f C11 \u5173\u6ce8\u7684\u6307\u6570\u673a\u5236\u6838\u5fc3\u903b\u8f91\u3002\n",
       "emailed": false
     }
   ],
