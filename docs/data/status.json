@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789378862,
-  "generated_at_str": "2026-09-14 09:41:02 UTC",
-  "last_event_ts": 1789378505,
+  "generated_at": 1789379059,
+  "generated_at_str": "2026-09-14 09:44:19 UTC",
+  "last_event_ts": 1789379058,
   "tables": {
     "alerts_dedup": {
-      "count": 4155,
-      "last_ts": 1789377254,
-      "last_str": "2026-09-14 09:14:14 UTC"
+      "count": 4156,
+      "last_ts": 1789379058,
+      "last_str": "2026-09-14 09:44:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-14 08:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31432,
-      "last_ts": 1789377243,
-      "last_str": "2026-09-14 09:14:03 UTC"
+      "count": 31442,
+      "last_ts": 1789379043,
+      "last_str": "2026-09-14 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9431,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4163,
+      "ts": 1789379058,
+      "ts_str": "2026-09-14 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Delays IPO Amid AI Safety Concerns - KNRS",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 07:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPazEwbUkzblhlWjlPc3ptY2w5M0Q1MWxMMlN4YW1MSXdPdzdVZF9WdHI1WHJ2YXptNTRNSG5RdjctNG52Ulk1SnlfR1NKY2JPWGw4U2hYTjZyTFdfLXJpMEhDU1VDaG1lTkwxdTIxeUVEV2pMaW81c0hzR3VpZVQtelV6UjNoNGM1RTBCOEZ3?oc=5\n\nOpenAI Delays IPO Amid AI Safety Concerns - KNRS\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPazEwbUkzblhlWjlPc3ptY2w5M0Q1MWxMMlN4YW1MSXdPdzdVZF9WdHI1WHJ2YXptNTRNSG5RdjctNG52Ulk1SnlfR1NKY2JPWGw4U2hYTjZyTFdfLXJpMEhDU1VDaG1lTkwxdTIxeUVEV2pMaW81c0hzR3VpZVQtelV6UjNoNGM1RTBCOEZ3?oc=5\" target=\"_blank\">OpenAI Delays IPO Amid AI Safety Concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KNRS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA duplicate headline \u2014 'OpenAI Delays IPO Amid AI Safety Concerns' \u2014 hit the OpenAI-keyword feed twice, triggering a MED-severity C3 alert with no burn-rate figure attached.\n\n\u5185\u5bb9:\n\u6807\u9898\u300cOpenAI Delays IPO Amid AI Safety Concerns\u300d\u91cd\u590d\u547d\u4e2d OpenAI \u5173\u952e\u8bcd feed \u4e24\u6b21\uff0c\u89e6\u53d1\u4e00\u6761 MED \u7ea7 C3 \u544a\u8b66\uff0c\u6ca1\u6709\u9644\u5e26 burn-rate \u6570\u5b57\u3002\n\nWhy it matters:\nThis is a speculation/news-cycle hit, not a hard financial signal \u2014 no burn-rate metric crossed the >25% QoQ threshold, so it stays at MED. An IPO delay citing 'safety concerns' is still worth tracking as sentiment, but it doesn't move the OpenAI-stress thesis on its own.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u65b0\u95fb/\u8206\u8bba\u7c7b\u547d\u4e2d\uff0c\u4e0d\u662f\u786c\u8d22\u52a1\u4fe1\u53f7\u2014\u2014\u6ca1\u6709 burn-rate \u6307\u6807\u89e6\u53d1 >25% \u73af\u6bd4\u7684\u95e8\u69db\uff0c\u6240\u4ee5\u505c\u5728 MED\u3002\u4ee5\u300c\u5b89\u5168\u987e\u8651\u300d\u4e3a\u7531\u63a8\u8fdf IPO \u503c\u5f97\u5f53\u60c5\u7eea\u4fe1\u53f7\u8bb0\u4e00\u7b14\uff0c\u4f46\u5355\u770b\u8fd9\u6761\u4e0d\u8db3\u4ee5\u64bc\u52a8 OpenAI \u8d44\u91d1\u538b\u529b\u7684\u5224\u65ad\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4162,
       "ts": 1789377254,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Falls 3.86% Below $150 After 319 Million Share Unlock - Coin Gabbar",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 04:37:00 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxQNFZBbW9xSTUxRXJpb0o2QndHRU5hZGtxcVYzcVZjbV9vU2FVQTI0QUo3Tnkzc0VaV3piY25qTGhtN29RV3g4ZEZ2U2ljTHlrYjFseHp0b01vYnA2ajVtRUwxM2d6bjFldEtwR1J6T2ZfbU1HaFhHUUllWTFiXzZ0U0lrZDB1RTUwZ1EyelNNMWhuYi1tbVRIOVZpTFdOeklwODVTbll2T2I4SGdTSkg0?oc=5\n\nSpaceX Stock Falls 3.86% Below $150 After 319 Million Share Unlock - Coin Gabbar\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQNFZBbW9xSTUxRXJpb0o2QndHRU5hZGtxcVYzcVZjbV9vU2FVQTI0QUo3Tnkzc0VaV3piY25qTGhtN29RV3g4ZEZ2U2ljTHlrYjFseHp0b01vYnA2ajVtRUwxM2d6bjFldEtwR1J6T2ZfbU1HaFhHUUllWTFiXzZ0U0lrZDB1RTUwZ1EyelNNMWhuYi1tbVRIOVZpTFdOeklwODVTbll2T2I4SGdTSkg0?oc=5\" target=\"_blank\">SpaceX Stock Falls 3.86% Below $150 After 319 Million Share Unlock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coin Gabbar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares fell 3.86% to below $150 after a 319 million share unlock hit the market.\n\n\u5185\u5bb9:\nSpaceX \u89e3\u7981 3.19 \u4ebf\u80a1\u540e\uff0c\u80a1\u4ef7\u4e0b\u8dcc 3.86%\uff0c\u8dcc\u7834 $150\u3002\n\nWhy it matters:\nA large unlock adds a wave of newly tradable shares just as passive/index-adjacent flows and employee liquidity needs collide \u2014 the kind of supply shock that can pressure a name independent of fundamentals, and matters here as a read on how fragile private-market-to-public liquidity mechanics are for AI-infrastructure-adjacent names.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u610f\u5473\u7740\u77ed\u65f6\u95f4\u5185\u6d8c\u5165\u5927\u91cf\u53ef\u4ea4\u6613\u80a1\u4efd\uff0c\u5bb9\u6613\u5728\u57fa\u672c\u9762\u6ca1\u53d8\u7684\u60c5\u51b5\u4e0b\u5355\u7eaf\u56e0\u4f9b\u7ed9\u51b2\u51fb\u538b\u4f4e\u80a1\u4ef7\uff0c\u8fd9\u662f\u89c2\u5bdf AI \u57fa\u7840\u8bbe\u65bd\u76f8\u5173\u540d\u5b57\u4ece\u79c1\u52df\u6d41\u52a8\u6027\u8fc7\u6e21\u5230\u516c\u5f00\u5e02\u573a\u65f6\u8106\u5f31\u7a0b\u5ea6\u7684\u4e00\u4e2a\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3961,
-      "ts": 1789009529,
-      "ts_str": "2026-09-10 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Memory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge - finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 10 Sep 2026 02:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9RblRyWGZrYmVUY2ZvOGN2Qm9tY20xRm4tOVJidDRSRHdyZUk3NHpGcklxdEhIcTNxSkd0ME9oX0FQSUlGYnhubGJ2dlJmaTQwQ2dyVzJIMzhnY2RiSVZxekd5UFUtTUZZSGs3bzdxck9LbjF6WGc?oc=5\n\nMemory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9RblRyWGZrYmVUY2ZvOGN2Qm9tY20xRm4tOVJidDRSRHdyZUk3NHpGcklxdEhIcTNxSkd0ME9oX0FQSUlGYnhubGJ2dlJmaTQwQ2dyVzJIMzhnY2RiSVZxekd5UFUtTUZZSGs3bzdxck9LbjF6WGc?oc=5\" target=\"_blank\">Memory Chips Now Account for Half of Global Semiconductor Revenue as AI-Driven Supply Crunch Fuels Price Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports memory chips (DRAM/NAND) now make up half of global semiconductor revenue, driven by AI-related supply shortages pushing prices up.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u53d7 AI \u9700\u6c42\u9a71\u52a8\u7684\u4f9b\u5e94\u7d27\u5f20\u63a8\u9ad8\u4ef7\u683c\uff0c\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u5982\u4eca\u5df2\u5360\u5168\u7403\u534a\u5bfc\u4f53\u6536\u5165\u7684\u4e00\u534a\u3002\n\nWhy it matters:\nRising memory prices squeeze margins for every AI-infra builder that isn't a memory maker \u2014 it's a cost-side stress signal on top of the capex-side ones, and a supply crunch this severe historically precedes a sharp correction once new fab capacity lands.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u4f1a\u6324\u538b\u9664\u5185\u5b58\u5382\u5546\u4e4b\u5916\u6240\u6709 AI \u57fa\u5efa\u53c2\u4e0e\u8005\u7684\u5229\u6da6\uff0c\u8fd9\u662f\u6210\u672c\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u548c\u8d44\u672c\u5f00\u652f\u7aef\u7684\u4fe1\u53f7\u5f62\u6210\u547c\u5e94\uff1b\u5386\u53f2\u4e0a\u8fd9\u79cd\u7a0b\u5ea6\u7684\u4f9b\u5e94\u7d27\u5f20\uff0c\u5f80\u5f80\u5728\u65b0\u4ea7\u80fd\u843d\u5730\u540e\u5f15\u53d1\u4ef7\u683c\u5927\u5e45\u56de\u843d\u3002\n",
       "emailed": false
     }
   ],
