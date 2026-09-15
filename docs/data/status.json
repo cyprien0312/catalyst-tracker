@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789510262,
-  "generated_at_str": "2026-09-15 22:11:02 UTC",
-  "last_event_ts": 1789510089,
+  "generated_at": 1789510454,
+  "generated_at_str": "2026-09-15 22:14:14 UTC",
+  "last_event_ts": 1789510454,
   "tables": {
     "alerts_dedup": {
-      "count": 4207,
-      "last_ts": 1789503255,
-      "last_str": "2026-09-15 20:14:15 UTC"
+      "count": 4208,
+      "last_ts": 1789510454,
+      "last_str": "2026-09-15 22:14:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-14 23:00:28 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5524,
-      "last_ts": 1789508645,
-      "last_str": "2026-09-15 21:44:05 UTC"
+      "count": 5526,
+      "last_ts": 1789510443,
+      "last_str": "2026-09-15 22:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1284,
-      "last_ts": 1789508646,
-      "last_str": "2026-09-15 21:44:06 UTC"
+      "count": 1285,
+      "last_ts": 1789510444,
+      "last_str": "2026-09-15 22:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5964,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-15 22:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 31943,
-      "last_ts": 1789508643,
-      "last_str": "2026-09-15 21:44:03 UTC"
+      "count": 31950,
+      "last_ts": 1789510442,
+      "last_str": "2026-09-15 22:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9585,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4215,
+      "ts": 1789510454,
+      "ts_str": "2026-09-15 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI weighs funding round at $1.2tn valuation before IPO - ft.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 21:54:39 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2duRmFITkhXUGVBRGdXU2FzSWEyTkttMzgtVldzZGxnUWZQaVQ3LUk3Z0dRWmZzaUJ6dU9oMmZuaF80MWIyMUJ6ejE5VE0zSExBTGNCbnFnRExLVzJucHBuTEZzY2dEdHVfak9XSDF1NG8tU3ZmakVLU3BpQ3J1LVZLNWs?oc=5\n\nOpenAI weighs funding round at $1.2tn valuation before IPO - ft.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2duRmFITkhXUGVBRGdXU2FzSWEyTkttMzgtVldzZGxnUWZQaVQ3LUk3Z0dRWmZzaUJ6dU9oMmZuaF80MWIyMUJ6ejE5VE0zSExBTGNCbnFnRExLVzJucHBuTEZzY2dEdHVfak9XSDF1NG8tU3ZmakVLU3BpQ3J1LVZLNWs?oc=5\" target=\"_blank\">OpenAI weighs funding round at $1.2tn valuation before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly weighing a funding round at a $1.2tn valuation ahead of a possible IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u8003\u8651\u4ee5 $1.2tn \u4f30\u503c\u8fdb\u884c\u4e00\u8f6e\u878d\u8d44\uff0c\u4e3a\u53ef\u80fd\u7684 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nA valuation this size, run through a private funding round rather than public markets, signals investors are pricing in years of AI-capex growth without earnings to test the number against \u2014 the kind of speculative marker that tends to precede a repricing when the capex-payback thesis gets challenged.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u9ad8\u7684\u4f30\u503c\u8d70\u7684\u662f\u79c1\u52df\u878d\u8d44\u800c\u4e0d\u662f\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\uff0c\u8bf4\u660e\u6295\u8d44\u4eba\u5df2\u7ecf\u628a\u672a\u6765\u591a\u5e74\u7684 AI capex \u589e\u957f\u9884\u671f\u6253\u8fdb\u4e86\u6570\u5b57\u91cc\uff0c\u5374\u6ca1\u6709\u771f\u5b9e\u76c8\u5229\u53bb\u9a8c\u8bc1\u3002\u8fd9\u7c7b\u8131\u79bb\u57fa\u672c\u9762\u7684\u4f30\u503c\u6807\u8bb0\uff0c\u5f80\u5f80\u662f capex \u56de\u672c\u903b\u8f91\u53d7\u8d28\u7591\u65f6\u6700\u5148\u88ab\u91cd\u65b0\u5b9a\u4ef7\u7684\u5bf9\u8c61\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4214,
       "ts": 1789503255,
@@ -2306,16 +2316,6 @@
       "subject": "[C10-MED] 10y Real Yield rising: 2.55% (+62bp off 90d-low)",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-10\nCurrent:  2.55%\n90d low:  1.93%\nMove:     +62bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield hit 2.55% on 2026-09-10, up 0.62pp from its trailing-90-day low of 1.93%.\n\n\u5185\u5bb9:\n10\u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\u5728 2026-09-10 \u5347\u81f3 2.55%\uff0c\u8f83\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 1.93% \u4e0a\u5347\u4e86 0.62 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to long-duration AI-capex cash flows and make Treasuries a more competitive alternative to speculative growth bets \u2014 a classic valuation headwind for the AI-infrastructure trade, mirroring C7's credit-spread fuse but on the rates side.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\u4f1a\u63d0\u9ad8 AI capex \u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u4e5f\u8ba9\u56fd\u503a\u76f8\u5bf9\u6295\u673a\u6027\u6210\u957f\u80a1\u7684\u5438\u5f15\u529b\u4e0a\u5347\u2014\u2014\u8fd9\u662f\u5bf9 AI \u57fa\u5efa\u4ea4\u6613\u7684\u7ecf\u5178\u4f30\u503c\u5229\u7a7a\uff0c\u903b\u8f91\u4e0a\u548c C7 \u7684\u4fe1\u7528\u5229\u5dee\u5f15\u4fe1\u7c7b\u4f3c\uff0c\u53ea\u662f\u6362\u6210\u4e86\u5229\u7387\u7aef\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 4016,
-      "ts": 1789165767,
-      "ts_str": "2026-09-11 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "HIGH",
-      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.55% \u2265 2.50%",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-10\nCurrent:  2.55%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.55%, crossing the 2.5% stress trigger, per the FRED series REAL10 reading on 2026-09-10.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS \u6536\u76ca\u7387\uff09\u5728 2026-09-10 \u5347\u81f3 2.55%\uff0c\u7a81\u7834\u4e86 2.5% \u7684\u538b\u529b\u89e6\u53d1\u7ebf\uff08FRED \u7cfb\u5217 REAL10\uff09\u3002\n\nWhy it matters:\nRising real yields raise the discount rate applied to AI capex's far-out cash flows and make debt-funded buildouts (data centers, GPU fleets) costlier to finance. This is a broad liquidity headwind, not company-specific \u2014 it tightens conditions for every leveraged AI infrastructure bet at once.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u8d70\u9ad8\u4f1a\u62c9\u9ad8 AI capex \u90a3\u4e9b\u8fdc\u671f\u73b0\u91d1\u6d41\u7684\u8d34\u73b0\u7387\uff0c\u4e5f\u8ba9\u6570\u636e\u4e2d\u5fc3\u3001GPU \u673a\u961f\u8fd9\u7c7b\u9760\u4e3e\u503a\u6269\u5f20\u7684\u9879\u76ee\u878d\u8d44\u6210\u672c\u4e0a\u5347\u3002\u8fd9\u662f\u4e00\u4e2a\u9762\u5411\u5168\u5c40\u7684\u6d41\u52a8\u6027\u5229\u7a7a\uff0c\u4e0d\u662f\u9488\u5bf9\u5355\u4e00\u516c\u53f8\u2014\u2014\u5b83\u4f1a\u540c\u65f6\u6536\u7d27\u6240\u6709\u9ad8\u6760\u6746 AI \u57fa\u7840\u8bbe\u65bd\u6295\u8d44\u7684\u5904\u5883\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
