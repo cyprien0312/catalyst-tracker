@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789439523,
-  "generated_at_str": "2026-09-15 02:32:03 UTC",
-  "last_event_ts": 1789438444,
+  "generated_at": 1789439708,
+  "generated_at_str": "2026-09-15 02:35:08 UTC",
+  "last_event_ts": 1789439708,
   "tables": {
     "alerts_dedup": {
-      "count": 4191,
-      "last_ts": 1789430717,
-      "last_str": "2026-09-15 00:05:17 UTC"
+      "count": 4192,
+      "last_ts": 1789439708,
+      "last_str": "2026-09-15 02:35:08 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-15 01:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5919,
-      "last_ts": 1789437902,
-      "last_str": "2026-09-15 02:05:02 UTC"
+      "count": 5921,
+      "last_ts": 1789439702,
+      "last_str": "2026-09-15 02:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7126,
-      "last_ts": 1789436105,
-      "last_str": "2026-09-15 01:35:05 UTC"
+      "count": 7127,
+      "last_ts": 1789439704,
+      "last_str": "2026-09-15 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4261,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-14 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5410,
-      "last_ts": 1789436106,
-      "last_str": "2026-09-15 01:35:06 UTC"
+      "count": 5412,
+      "last_ts": 1789439705,
+      "last_str": "2026-09-15 02:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 31715,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4199,
+      "ts": 1789439708,
+      "ts_str": "2026-09-15 02:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Sandisk 4TB Extreme Portable SSD sees price cut to $444 - Technobezz",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 02:31:10 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFZYWmxJenpVMHpTUlhvNUh5ME1QejBndmd6V3FITWdmbndhUEhuWTJCd2tKRnRWc1lHVDB3dFJHRHh0eldiYlR2eEF5WTRHUGg5ZERZVXhELWFnbWlXdUhLYzAxd3ctcmNLX2RhTXFFQUptM1BKMnpZVTY3Y1VGcVVpblpMTldOTFlNWDRzcw?oc=5\n\nSandisk 4TB Extreme Portable SSD sees price cut to $444 - Technobezz\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFZYWmxJenpVMHpTUlhvNUh5ME1QejBndmd6V3FITWdmbndhUEhuWTJCd2tKRnRWc1lHVDB3dFJHRHh0eldiYlR2eEF5WTRHUGg5ZERZVXhELWFnbWlXdUhLYzAxd3ctcmNLX2RhTXFFQUptM1BKMnpZVTY3Y1VGcVVpblpMTldOTFlNWDRzcw?oc=5\" target=\"_blank\">Sandisk 4TB Extreme Portable SSD sees price cut to $444</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technobezz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices declining \u2014 cuts, drops, oversupply, glut, or inventory-correction language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nMemory contract prices are the most cyclical, fastest-clearing signal in the AI-hardware supply chain. A rollover after the 2025-2026 super-spike is the leading indicator this catalyst exists for: in past cycles, memory price peaks led capex cuts by one to two quarters. Watch whether reversal headlines cluster \u2014 a single soft week is noise, three consecutive weeks is a turn.\n",
+      "emailed": false
+    },
     {
       "id": 4198,
       "ts": 1789430717,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan - igor\u00b4sLAB",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 04:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0tFQjBLQWZMT2IwQ2hoWjVmdHpTX1B1Rkh6SHAyTGFwZkp0dkp3LUdQenBVZnFrT2F2UEZNeldfd2xVMnpMRUVVLXd4N19HQXI3U0c2NVNyeUtpTk1CSFNyN0VDeGRseWEyRHhCTUJxNlNMVWhHMmt1eEZWWXotMENaNEZNc01BOEJuTjJjLUJ5NlFsdG9uYw?oc=5\n\nHBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan - igor\u00b4sLAB\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0tFQjBLQWZMT2IwQ2hoWjVmdHpTX1B1Rkh6SHAyTGFwZkp0dkp3LUdQenBVZnFrT2F2UEZNeldfd2xVMnpMRUVVLXd4N19HQXI3U0c2NVNyeUtpTk1CSFNyN0VDeGRseWEyRHhCTUJxNlNMVWhHMmt1eEZWWXotMENaNEZNc01BOEJuTjJjLUJ5NlFsdG9uYw?oc=5\" target=\"_blank\">HBM Shortage: Huawei Ascend 950DT Above 250,000 Yuan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">igor\u00b4sLAB</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News headline reported Huawei's Ascend 950DT AI chip price surpassing 250,000 yuan, citing an HBM shortage as the driver, duplicated across two RSS entries.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u6807\u9898\u62a5\u9053 Huawei Ascend 950DT \u56e0 HBM \u77ed\u7f3a\u800c\u4ef7\u683c\u7a81\u7834 25 \u4e07\u5143\uff0c\u540c\u4e00\u6761\u6d88\u606f\u91cd\u590d\u51fa\u73b0\u5728\u4e24\u6761 RSS \u8bb0\u5f55\u91cc\u3002\n\nWhy it matters:\nHBM scarcity feeding through to a >$34k end-product price is exactly the memory-bottleneck stress C6 watches for \u2014 it signals hyperscaler/AI-chip supply chains are capacity-constrained on the memory side, not just logic, which raises the cost basis of the whole AI-capex build-out.\n\n\u5f71\u54cd:\nHBM \u77ed\u7f3a\u76f4\u63a5\u4f20\u5bfc\u5230\u7ec8\u7aef\u82af\u7247\u4ef7\u683c\u7a81\u7834 25 \u4e07\u5143\uff08\u7ea6 3.4 \u4e07\u7f8e\u5143\uff09\uff0c\u8fd9\u6b63\u662f C6 \u8981\u76ef\u7684\u5185\u5b58\u74f6\u9888\u538b\u529b\u2014\u2014\u8bf4\u660e AI \u82af\u7247\u4f9b\u5e94\u94fe\u4e0d\u53ea\u662f\u903b\u8f91\u82af\u7247\u5403\u7d27\uff0c\u5185\u5b58\u8fd9\u4e00\u7aef\u4e5f\u5728\u5361\u4ea7\u80fd\uff0c\u6574\u4f53 AI capex \u7684\u6210\u672c\u57fa\u7840\u56e0\u6b64\u88ab\u63a8\u9ad8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 3998,
-      "ts": 1789119325,
-      "ts_str": "2026-09-11 09:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Chinese AI Chip Prices Surge as HBM Supply Strains - \uc870\uc120\uc77c\ubcf4",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 11 Sep 2026 07:46:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1VyWU9YUm94Snd4MVh6SzRQMklrVWRwdXhUVVN5SUdWcHE2MVNITjlPMTc5Tkg5T1BFVE1XTE9YOHN6a0RMdWJ0ZVNsaXZfMGcyM0YyWXVJRk5YZFJCNG92d3lrbzl0NVpYb1VDUHd0b2pMU3M1SEl2NnVMNWpsNk50NGJYNkF6?oc=5\n\nChinese AI Chip Prices Surge as HBM Supply Strains - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1VyWU9YUm94Snd4MVh6SzRQMklrVWRwdXhUVVN5SUdWcHE2MVNITjlPMTc5Tkg5T1BFVE1XTE9YOHN6a0RMdWJ0ZVNsaXZfMGcyM0YyWXVJRk5YZFJCNG92d3lrbzl0NVpYb1VDUHd0b2pMU3M1SEl2NnVMNWpsNk50NGJYNkF6?oc=5\" target=\"_blank\">Chinese AI Chip Prices Surge as HBM Supply Strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News reports Chinese AI chip prices are surging as HBM supply strains tighten.\n\n\u5185\u5bb9:\nGoogle News \u62a5\u9053\u79f0\uff0cHBM \u4f9b\u5e94\u5403\u7d27\u6b63\u63a8\u9ad8\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\u3002\n\nWhy it matters:\nTight HBM supply is the bottleneck constraining AI accelerator output \u2014 rising chip prices from supply strain (not demand collapse) is the opposite of the oversupply/order-cancellation pattern C6 usually screens for, and points to continued hardware scarcity rather than a memory glut.\n\n\u5f71\u54cd:\nHBM \u4f9b\u5e94\u7d27\u5f20\u6b63\u662f\u5236\u7ea6 AI \u52a0\u901f\u5361\u4ea7\u80fd\u7684\u74f6\u9888\u2014\u2014\u4ef7\u683c\u4e0a\u6da8\u662f\u4f9b\u5e94\u7d27\u5f20\u800c\u975e\u9700\u6c42\u584c\u9677\u5bfc\u81f4\u7684\uff0c\u8ddf C6 \u901a\u5e38\u76ef\u7684\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u6a21\u5f0f\u65b9\u5411\u76f8\u53cd\uff0c\u8bf4\u660e\u786c\u4ef6\u77ed\u7f3a\u4ecd\u5728\u6301\u7eed\uff0c\u4e0d\u662f\u5185\u5b58\u8fc7\u5269\u3002\n",
       "emailed": false
     }
   ],
