@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789560663,
-  "generated_at_str": "2026-09-16 12:11:03 UTC",
-  "last_event_ts": 1789560331,
+  "generated_at": 1789560858,
+  "generated_at_str": "2026-09-16 12:14:18 UTC",
+  "last_event_ts": 1789560857,
   "tables": {
     "alerts_dedup": {
-      "count": 4250,
-      "last_ts": 1789560331,
-      "last_str": "2026-09-16 12:05:31 UTC"
+      "count": 4251,
+      "last_ts": 1789560857,
+      "last_str": "2026-09-16 12:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-15 23:00:31 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5552,
-      "last_ts": 1789559044,
-      "last_str": "2026-09-16 11:44:04 UTC"
+      "count": 5554,
+      "last_ts": 1789560845,
+      "last_str": "2026-09-16 12:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1293,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-16 12:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 32084,
-      "last_ts": 1789559042,
-      "last_str": "2026-09-16 11:44:02 UTC"
+      "count": 32092,
+      "last_ts": 1789560843,
+      "last_str": "2026-09-16 12:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9629,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4258,
+      "ts": 1789560857,
+      "ts_str": "2026-09-16 12:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI exploring pre-IPO funding round at $1.2 trillion valuation - qz.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 12:09:14 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y1dmMVVydlpLRk9JbC10VE02Q21tc0tlb0JKVzdNcEFyanA2a19hWFd1UTd1SmZoQ2lER0YxN2hhb3UwYkZyT2UwSWlCWm9vRVhjOS1zejFmZkdidlcwSFE3Qi1zSUlqdHlWTHRWVURDc1VLX2c?oc=5\n\nOpenAI exploring pre-IPO funding round at $1.2 trillion valuation - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y1dmMVVydlpLRk9JbC10VE02Q21tc0tlb0JKVzdNcEFyanA2a19hWFd1UTd1SmZoQ2lER0YxN2hhb3UwYkZyT2UwSWlCWm9vRVhjOS1zejFmZkdidlcwSFE3Qi1zSUlqdHlWTHRWVURDc1VLX2c?oc=5\" target=\"_blank\">OpenAI exploring pre-IPO funding round at $1.2 trillion valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks for a pre-IPO funding round at a $1.2 trillion valuation.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u6b63\u6d3d\u8c08\u4e00\u8f6e IPO \u524d\u878d\u8d44\uff0c\u4f30\u503c\u8fbe $1.2 trillion\u3002\n\nWhy it matters:\nA valuation this large, pre-revenue-justification, is the clearest thermometer for how much the market is pricing OpenAI's future rather than its current cash flow \u2014 it raises the bar every downstream AI-capex bet (Microsoft, Oracle, neoclouds) is implicitly justified against.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u9ad8\u7684\u4f30\u503c\uff0c\u8fd8\u662f\u5728\u76c8\u5229\u8fdc\u6491\u4e0d\u8d77\u6765\u7684\u9636\u6bb5\u7ed9\u51fa\u7684\uff0c\u662f\u8861\u91cf\u5e02\u573a\u5728\u4e3a OpenAI \u7684\u672a\u6765\u800c\u4e0d\u662f\u73b0\u5728\u7684\u73b0\u91d1\u6d41\u5b9a\u4ef7\u7684\u6700\u76f4\u89c2\u6e29\u5ea6\u8ba1\u3002\u5b83\u4e5f\u628a Microsoft\u3001Oracle\u3001\u5404\u5bb6 neocloud \u8fd9\u4e9b\u4e0b\u6e38 AI capex \u62bc\u6ce8\u9690\u542b\u8981\u8fbe\u5230\u7684\u95e8\u69db\u4e00\u5e76\u62ac\u9ad8\u4e86\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4256,
       "ts": 1789560331,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says By Reuters - Investing.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 20:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxQaTdiOWRpUFo4clVPMFV3OFZpY2VmSmxRMmp5a0ZnZXRGZVhpLS1nc010ZFdOSkg5M1pMOEdhcHZLS3RFZktZWjZoSmtQdmhKVlVwZHd1TllJbFBmeVYtZmlLVW95eHc4NnJ4MjVud2xTc3F6SzZBTFRxdEdwZmZrVWdoWkg3aFpOdFFoTXZpQ01xOERqNmJDWkhqS2c1ajI1enhMV3RwT2RTWlp1WmZ4VXVFN2s0dHZ5VkN2MFV5UkVuQzZnelpyY1RlQ1E?oc=5\n\nOpenAI IPO will not happen in 2026 amid AI safety fears, Altman says By Reuters - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQaTdiOWRpUFo4clVPMFV3OFZpY2VmSmxRMmp5a0ZnZXRGZVhpLS1nc010ZFdOSkg5M1pMOEdhcHZLS3RFZktZWjZoSmtQdmhKVlVwZHd1TllJbFBmeVYtZmlLVW95eHc4NnJ4MjVud2xTc3F6SzZBTFRxdEdwZmZrVWdoWkg3aFpOdFFoTXZpQ01xOERqNmJDWkhqS2c1ajI1enhMV3RwT2RTWlp1WmZ4VXVFN2s0dHZ5VkN2MFV5UkVuQzZnelpyY1RlQ1E?oc=5\" target=\"_blank\">OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says By Reuters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters reports Altman said OpenAI will not IPO in 2026, citing AI safety concerns.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e\u62a5\u9053\uff0cAltman \u8868\u793a\u56e0 AI \u5b89\u5168\u65b9\u9762\u7684\u62c5\u5fe7\uff0cOpenAI 2026 \u5e74\u4e0d\u4f1a IPO\u3002\n\nWhy it matters:\nThis is a MED-severity news item feeding the C3 OpenAI-stress signal \u2014 it's a delayed-IPO headline, not a burn-rate or filing metric, so it carries no direct capex/cash-runway signal on its own. Relevant mainly as sentiment: a pushed-out IPO removes a near-term liquidity/valuation-marking event for the OpenAI ecosystem.\n\n\u5f71\u54cd:\n\u8fd9\u662f C3 OpenAI \u538b\u529b\u4fe1\u53f7\u91cc\u7684 MED \u7ea7\u65b0\u95fb\u6761\u76ee\u2014\u2014\u53ea\u662f\u5ef6\u8fdf IPO \u7684\u6d88\u606f\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u8d22\u62a5\u6307\u6807\uff0c\u672c\u8eab\u4e0d\u5e26\u76f4\u63a5\u7684 capex/\u73b0\u91d1\u8dd1\u9053\u4fe1\u53f7\u3002\u4e3b\u8981\u610f\u4e49\u5728\u60c5\u7eea\u9762\uff1aIPO \u63a8\u8fdf\u610f\u5473\u7740 OpenAI \u751f\u6001\u5708\u8fd1\u671f\u5c11\u4e86\u4e00\u4e2a\u80fd\u7ed9\u4f30\u503c\u5b9a\u4ef7\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4060,
-      "ts": 1789263881,
-      "ts_str": "2026-09-13 01:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Would be ill-advised: Sam Altman pauses OpenAI IPO plans over safety concerns - India Today",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 01:41:39 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcC1PeFNQTkpoWlcwRml5SWlMdUxhdFJWM0FObDA4aXl5Q3lHRTFRTnhfeUxPMHpTN1c5RGcxLVlpWkhoZDdRcW4zd3NCNzVzQXlnSTZCQUJZVFQ5UndaREVEbjhVWGF4TlhzQ29zempiZE1VZVdncTlwaGpJbi1ydkZKZWthNEc2eVhSaS1iS3FDVHhERmZqbzJxODR4OFRDYUJhUnFqTFhmRVM1b0g0YkRCNWQ3dWFUV0hsc18xRERSNENGSE9KeVlTcjVrLVpDLWN5MkRYVmdFd2ot0gHcAUFVX3lxTFBwLU94U1BOSmhaVzBGaXlJaUx1TGF0UlYzQU5sMDhpeXlDeUdFMVFOeF95TE8welM3VzlEZzEtWWlaSGhkN1FxbjN3c0I3NXNBeWdJNkJBQllUVDlSd1pERURuOFVYYXhOWHNDb3N6amJkTVVlV2dxOXBoakluLXJ2Rkpla2E0RzZ5WFJpLWJLcUNUeERGZmpvMnE4NHg4VENhQmFScWpMWGZFUzVvSDRiREI1ZDd1YVRXSGxzXzFERFI0Q0ZIT0p5WVNyNWstWkMtY3kyRFhWZ0V3ai0?oc=5\n\nWould be ill-advised: Sam Altman pauses OpenAI IPO plans over safety concerns - India Today\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcC1PeFNQTkpoWlcwRml5SWlMdUxhdFJWM0FObDA4aXl5Q3lHRTFRTnhfeUxPMHpTN1c5RGcxLVlpWkhoZDdRcW4zd3NCNzVzQXlnSTZCQUJZVFQ5UndaREVEbjhVWGF4TlhzQ29zempiZE1VZVdncTlwaGpJbi1ydkZKZWthNEc2eVhSaS1iS3FDVHhERmZqbzJxODR4OFRDYUJhUnFqTFhmRVM1b0g0YkRCNWQ3dWFUV0hsc18xRERSNENGSE9KeVlTcjVrLVpDLWN5MkRYVmdFd2ot0gHcAUFVX3lxTFBwLU94U1BOSmhaVzBGaXlJaUx1TGF0UlYzQU5sMDhpeXlDeUdFMVFOeF95TE8welM3VzlEZzEtWWlaSGhkN1FxbjN3c0I3NXNBeWdJNkJBQllUVDlSd1pERURuOFVYYXhOWHNDb3N6amJkTVVlV2dxOXBoakluLXJ2Rkpla2E0RzZ5WFJpLWJLcUNUeERGZmpvMnE4NHg4VENhQmFScWpMWGZFUzVvSDRiREI1ZDd1YVRXSGxzXzFERFI0Q0ZIT0p5WVNyNWstWkMtY3kyRFhWZ0V3ai0?oc=5\" target=\"_blank\">Would be ill-advised: Sam Altman pauses OpenAI IPO plans over safety concerns</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India Today</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS entries with identical titles report that Sam Altman paused OpenAI's IPO plans over safety concerns; no ticker, numbers, or filing accompany the alert.\n\n\u5185\u5bb9:\n\u4e24\u6761\u6765\u81ea Google News RSS \u7684\u6807\u9898\u5b8c\u5168\u76f8\u540c\u7684\u65b0\u95fb\u79f0\uff0cSam Altman \u56e0\u5b89\u5168\u987e\u8651\u6682\u505c\u4e86 OpenAI \u7684 IPO \u8ba1\u5212\uff1b\u672c\u6761\u544a\u8b66\u6ca1\u6709 ticker\u3001\u6570\u5b57\u6216 SEC \u6587\u4ef6\u4f50\u8bc1\u3002\n\nWhy it matters:\nOpenAI stepping back from an IPO removes a near-term liquidity/valuation-marking event and signals internal caution about disclosure or governance readiness \u2014 worth tracking as a soft data point, but this is a single unconfirmed headline duplicated across feeds, not a burn-rate or financial metric, so it stays at MED rather than HIGH.\n\n\u5f71\u54cd:\nOpenAI \u6682\u7f13 IPO \u610f\u5473\u7740\u77ed\u671f\u5185\u5c11\u4e86\u4e00\u4e2a\u7ed9\u4f30\u503c\u5b9a\u4ef7\u3001\u63d0\u4f9b\u6d41\u52a8\u6027\u7684\u4e8b\u4ef6\uff0c\u4e5f\u8bf4\u660e\u516c\u53f8\u5185\u90e8\u5bf9\u62ab\u9732\u6216\u6cbb\u7406\u51c6\u5907\u8fd8\u4e0d\u653e\u5fc3\uff0c\u503c\u5f97\u7559\u610f\u3002\u4f46\u8fd9\u53ea\u662f\u4e00\u6761\u88ab\u591a\u4e2a RSS \u6e90\u91cd\u590d\u63a8\u9001\u7684\u672a\u7ecf\u8bc1\u5b9e\u7684\u65b0\u95fb\u6807\u9898\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u4e00\u7c7b\u7684\u8d22\u52a1\u6307\u6807\uff0c\u6240\u4ee5\u53ea\u5224 MED\uff0c\u591f\u4e0d\u4e0a HIGH\u3002\n",
       "emailed": false
     }
   ],
