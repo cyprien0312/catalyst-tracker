@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789552922,
-  "generated_at_str": "2026-09-16 10:02:02 UTC",
-  "last_event_ts": 1789552024,
+  "generated_at": 1789553118,
+  "generated_at_str": "2026-09-16 10:05:18 UTC",
+  "last_event_ts": 1789553117,
   "tables": {
     "alerts_dedup": {
-      "count": 4239,
-      "last_ts": 1789552024,
-      "last_str": "2026-09-16 09:47:04 UTC"
+      "count": 4240,
+      "last_ts": 1789553117,
+      "last_str": "2026-09-16 10:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-16 08:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6002,
-      "last_ts": 1789551302,
-      "last_str": "2026-09-16 09:35:02 UTC"
+      "count": 6006,
+      "last_ts": 1789553102,
+      "last_str": "2026-09-16 10:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7220,
-      "last_ts": 1789551305,
-      "last_str": "2026-09-16 09:35:05 UTC"
+      "count": 7223,
+      "last_ts": 1789553105,
+      "last_str": "2026-09-16 10:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4321,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4247,
+      "ts": 1789553117,
+      "ts_str": "2026-09-16 10:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Chip Shortage Requires Investment and Teamwork - RealClearDefense",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 09:44:54 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0FzTEdSR3FJd2ZfQVY0aDNWczd4N183OFYxMndUdUxGWXNFMUZEZ1hTX1ljZk9Ydmo0Q3pzMk5FZmFqVGpWMnRQZDFfODMyM3NvazV5d1BYTURqVm80YUJUTFdGcHBTaEh6dHJmLUJYYmJLNkR5VXV4TDAtS2NEUVg5ZU5LOUZVajZNSmJXcWEwWWZPdExWUmYxQVlNU2kzMVVNdk15b1NyNzRWbzhURDdEaE1LSG5nd2dj?oc=5\n\nMemory Chip Shortage Requires Investment and Teamwork - RealClearDefense\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0FzTEdSR3FJd2ZfQVY0aDNWczd4N183OFYxMndUdUxGWXNFMUZEZ1hTX1ljZk9Ydmo0Q3pzMk5FZmFqVGpWMnRQZDFfODMyM3NvazV5d1BYTURqVm80YUJUTFdGcHBTaEh6dHJmLUJYYmJLNkR5VXV4TDAtS2NEUVg5ZU5LOUZVajZNSmJXcWEwWWZPdExWUmYxQVlNU2kzMVVNdk15b1NyNzRWbzhURDdEaE1LSG5nd2dj?oc=5\" target=\"_blank\">Memory Chip Shortage Requires Investment and Teamwork</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RealClearDefense</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns of a memory chip shortage, framing it as requiring industry investment and coordination \u2014 no company, ticker, or figure is attached.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u8b66\u544a\u5185\u5b58\u82af\u7247\u51fa\u73b0\u77ed\u7f3a\uff0c\u5f3a\u8c03\u9700\u8981\u884c\u4e1a\u6295\u8d44\u4e0e\u534f\u540c\uff0c\u6ca1\u6709\u6307\u660e\u5177\u4f53\u516c\u53f8\u3001ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nA supply-side memory shortage points the opposite direction from the AI-capex bubble-stress thesis: tight DRAM/NAND/HBM means demand for AI compute is outrunning fab capacity, not that spend is unsupported by revenue. Watch whether this is genuine tightness or vendor messaging ahead of a price hike.\n\n\u5f71\u54cd:\n\u4f9b\u7ed9\u4fa7\u7684\u5185\u5b58\u77ed\u7f3a\u5176\u5b9e\u548c AI capex \u6ce1\u6cab\u538b\u529b\u7684\u53d9\u4e8b\u65b9\u5411\u76f8\u53cd\u2014\u2014DRAM/NAND/HBM \u5403\u7d27\u8bf4\u660e AI \u7b97\u529b\u9700\u6c42\u8dd1\u8d62\u4e86\u6676\u5706\u4ea7\u80fd\uff0c\u800c\u4e0d\u662f\u652f\u51fa\u6ca1\u6709\u6536\u5165\u652f\u6491\u3002\u9700\u8981\u7559\u610f\u8fd9\u662f\u771f\u5b9e\u7684\u4ea7\u80fd\u7d27\u5f20\uff0c\u8fd8\u662f\u5382\u5546\u5728\u6da8\u4ef7\u524d\u653e\u98ce\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4246,
       "ts": 1789552024,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Altman: IPO unlikely this year - Politico",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 22:02:00 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5idkxmTGxtak5KbG82VFRsbllKWjFuS011Q3IyNHN3MFV3bWRnQzd1dmNaNEE2U1hGUU9RSEZsUzZqYVdIMmdTQzR0SDBtam54RENNVXhxYWJvZHQ0cTk2OVRKQWJ0QV9Vc1FYZzBHeENPQ2Ywa29KMU1Bbw?oc=5\n\nAltman: IPO unlikely this year - Politico\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5idkxmTGxtak5KbG82VFRsbllKWjFuS011Q3IyNHN3MFV3bWRnQzd1dmNaNEE2U1hGUU9RSEZsUzZqYVdIMmdTQzR0SDBtam54RENNVXhxYWJvZHQ0cTk2OVRKQWJ0QV9Vc1FYZzBHeENPQ2Ywa29KMU1Bbw?oc=5\" target=\"_blank\">Altman: IPO unlikely this year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said an OpenAI IPO is unlikely this year; the headline was picked up by multiple feeds.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a\u4eca\u5e74 OpenAI \u4e0d\u592a\u53ef\u80fd IPO\uff0c\u8be5\u6d88\u606f\u88ab\u591a\u4e2a\u4fe1\u6e90\u8f6c\u8f7d\u3002\n\nWhy it matters:\nNo IPO means no public-market discipline on OpenAI's burn rate, and it removes a near-term event that could have forced disclosure of real unit economics. On its own this is routine founder deflection, not new information \u2014 MED reflects that, not confirmation of stress.\n\n\u5f71\u54cd:\n\u4e0d\u4e0a\u5e02\u610f\u5473\u7740 OpenAI \u7684\u70e7\u94b1\u901f\u5ea6\u6682\u65f6\u4e0d\u7528\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u7ea6\u675f\uff0c\u4e5f\u5c11\u4e86\u4e00\u4e2a\u53ef\u80fd\u5012\u903c\u62ab\u9732\u771f\u5b9e\u5355\u4f4d\u7ecf\u6d4e\u7684\u8fd1\u671f\u4e8b\u4ef6\u3002\u4f46\u8fd9\u672c\u8eab\u662f\u521b\u59cb\u4eba\u5e38\u89c1\u7684\u63a8\u8131\u8bf4\u8f9e\uff0c\u4e0d\u7b97\u65b0\u4fe1\u606f\uff0cMED \u7ea7\u522b\u4e5f\u53ea\u662f\u5982\u5b9e\u53cd\u6620\u8fd9\u4e00\u70b9\uff0c\u4e0d\u4ee3\u8868\u538b\u529b\u4fe1\u53f7\u88ab\u5750\u5b9e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4047,
-      "ts": 1789251281,
-      "ts_str": "2026-09-12 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Why OpenAI\u2019s Sam Altman says an IPO isn\u2019t in the cards this year - MarketWatch",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 21:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT1BrR21jQzFIRVlfTWN1MUZYNWhjYVFwY2c3Zmc4eDdzbXZfRnZOR1NEcDh6V2s1UUREenkwdWdvcHNFLTFLVnFxUzAyQzZLTmxuaVdzUjRzNFZBSGtPbUFGSFFaYWh4N1p5U0tySFc2UFJuUHhFVHE1SVNPMUpRWS1MSGF1SjJfNGNZQmdCWWoydXdVQXBiQ0pXVmZsVmlYLWtoRTNWRE4?oc=5\n\nWhy OpenAI\u2019s Sam Altman says an IPO isn\u2019t in the cards this year - MarketWatch\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT1BrR21jQzFIRVlfTWN1MUZYNWhjYVFwY2c3Zmc4eDdzbXZfRnZOR1NEcDh6V2s1UUREenkwdWdvcHNFLTFLVnFxUzAyQzZLTmxuaVdzUjRzNFZBSGtPbUFGSFFaYWh4N1p5U0tySFc2UFJuUHhFVHE1SVNPMUpRWS1MSGF1SjJfNGNZQmdCWWoydXdVQXBiQ0pXVmZsVmlYLWtoRTNWRE4?oc=5\" target=\"_blank\">Why OpenAI\u2019s Sam Altman says an IPO isn\u2019t in the cards this year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketWatch</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI CEO Sam Altman said in remarks covered by multiple outlets that an IPO is not on the table this year.\n\n\u5185\u5bb9:\nOpenAI CEO Sam Altman \u5728\u591a\u5bb6\u5a92\u4f53\u62a5\u9053\u7684\u8868\u6001\u4e2d\u79f0\uff0c\u4eca\u5e74\u4e0d\u8003\u8651 IPO\u3002\n\nWhy it matters:\nA near-term IPO would have forced disclosure of OpenAI's actual burn rate and financials, which the market currently has to infer. Ruling it out removes a potential transparency catalyst and lets valuation keep running on projections rather than audited numbers.\n\n\u5f71\u54cd:\n\u8fd1\u671f IPO \u672c\u53ef\u80fd\u5f3a\u5236\u62ab\u9732 OpenAI \u771f\u5b9e\u7684\u70e7\u94b1\u901f\u5ea6\u548c\u8d22\u52a1\u72b6\u51b5\uff0c\u73b0\u5728\u5e02\u573a\u53ea\u80fd\u9760\u731c\u6d4b\u3002\u6392\u9664\u8fd9\u4e2a\u9009\u9879\u7b49\u4e8e\u62ff\u6389\u4e86\u4e00\u4e2a\u900f\u660e\u5ea6\u89e6\u53d1\u70b9\uff0c\u4f30\u503c\u53ef\u4ee5\u7ee7\u7eed\u9760\u9884\u6d4b\u6491\u7740\uff0c\u4e0d\u7528\u4ea4\u51fa\u7ecf\u5ba1\u8ba1\u7684\u6570\u5b57\u3002\n",
       "emailed": false
     }
   ],
