@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789576323,
-  "generated_at_str": "2026-09-16 16:32:03 UTC",
-  "last_event_ts": 1789575244,
+  "generated_at": 1789576506,
+  "generated_at_str": "2026-09-16 16:35:06 UTC",
+  "last_event_ts": 1789576505,
   "tables": {
     "alerts_dedup": {
-      "count": 4259,
-      "last_ts": 1789574728,
-      "last_str": "2026-09-16 16:05:28 UTC"
+      "count": 4260,
+      "last_ts": 1789576505,
+      "last_str": "2026-09-16 16:35:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-16 16:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6020,
-      "last_ts": 1789574703,
-      "last_str": "2026-09-16 16:05:03 UTC"
+      "count": 6021,
+      "last_ts": 1789576502,
+      "last_str": "2026-09-16 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7245,
-      "last_ts": 1789574705,
-      "last_str": "2026-09-16 16:05:05 UTC"
+      "count": 7247,
+      "last_ts": 1789576504,
+      "last_str": "2026-09-16 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4329,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-16 16:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5464,
-      "last_ts": 1789572906,
-      "last_str": "2026-09-16 15:35:06 UTC"
+      "count": 5467,
+      "last_ts": 1789576504,
+      "last_str": "2026-09-16 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 32163,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4267,
+      "ts": 1789576505,
+      "ts_str": "2026-09-16 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] Kioxia Halts NAND Price Hikes to Prevent Demand Slump - \uc870\uc120\uc77c\ubcf4",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 15:39:39 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxONEc5NDhfRnRLMWVSS0hSWkxDS3hraW5DeFJubzdIYWZYTk8yc3JlM0tLR1ZjMklvVHNCNjRzbTcwWjNQc29qWlltQ1pGc013V2c0MmN1b21sUm9JaFBneDhlMEJsbkQ3NDE3YldUaG4xeEp3bVQ4RzhrdXJNVUVuUGY4b3ZjWk1F?oc=5\n\nKioxia Halts NAND Price Hikes to Prevent Demand Slump - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxONEc5NDhfRnRLMWVSS0hSWkxDS3hraW5DeFJubzdIYWZYTk8yc3JlM0tLR1ZjMklvVHNCNjRzbTcwWjNQc29qWlltQ1pGc013V2c0MmN1b21sUm9JaFBneDhlMEJsbkQ3NDE3YldUaG4xeEp3bVQ4RzhrdXJNVUVuUGY4b3ZjWk1F?oc=5\" target=\"_blank\">Kioxia Halts NAND Price Hikes to Prevent Demand Slump</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nKioxia announced it is halting planned NAND price hikes to avoid triggering a demand slump.\n\n\u5185\u5bb9:\nKioxia \u5ba3\u5e03\u6682\u505c\u539f\u8ba1\u5212\u7684 NAND \u6da8\u4ef7\uff0c\u4ee5\u907f\u514d\u9700\u6c42\u9aa4\u964d\u3002\n\nWhy it matters:\nA memory supplier pulling back on price increases signals it is more worried about demand destruction than capturing margin \u2014 a soft-demand tell in the AI-storage supply chain, though it's the opposite direction from a cut/oversupply shock.\n\n\u5f71\u54cd:\n\u4e00\u5bb6\u5185\u5b58\u4f9b\u5e94\u5546\u4e3b\u52a8\u653e\u5f03\u6da8\u4ef7\uff0c\u8bf4\u660e\u5b83\u66f4\u62c5\u5fc3\u9700\u6c42\u88ab\u6253\u6389\uff0c\u800c\u4e0d\u662f\u60f3\u591a\u8d5a\u5dee\u4ef7\u2014\u2014\u8fd9\u662f AI \u5b58\u50a8\u4f9b\u5e94\u94fe\u91cc\u9700\u6c42\u8d70\u8f6f\u7684\u4fe1\u53f7\uff0c\u4f46\u65b9\u5411\u548c\u300c\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u300d\u6b63\u597d\u76f8\u53cd\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4264,
       "ts": 1789574728,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 03:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTWk1NHZWRkRoZU8wdUFia1R4UHE5MC1DdDVqcUVEVlRyb05XUU5IaVE1RzRQSTdwbVE4ZE1fYWYwaHpNcW9hVTJETWpyaG5NQVVDTDdEOWdieFp1d2kzREptZnlMbEh0eEItaURIWFdXa3Z1ekFwYkR0NjdJRVhaVVpreURqUUtKaGlFeDBvd3F5RUVSem5iVmRqN0Vsb2ktWUUtbUtNWENGZ0JCOFhkV291SWVUbEpfcTM1U18yMlpFRGxDSWQ5emlRbkc0WFY0bXZUVC1zT09YZlhTVy1j?oc=5\n\nOpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTWk1NHZWRkRoZU8wdUFia1R4UHE5MC1DdDVqcUVEVlRyb05XUU5IaVE1RzRQSTdwbVE4ZE1fYWYwaHpNcW9hVTJETWpyaG5NQVVDTDdEOWdieFp1d2kzREptZnlMbEh0eEItaURIWFdXa3Z1ekFwYkR0NjdJRVhaVVpreURqUUtKaGlFeDBvd3F5RUVSem5iVmRqN0Vsb2ktWUUtbUtNWENGZ0JCOFhkV291SWVUbEpfcTM1U18yMlpFRGxDSWQ5emlRbkc0WFY0bXZUVC1zT09YZlhTVy1j?oc=5\" target=\"_blank\">OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/AP-style headline reporting OpenAI CEO Sam Altman ruled out an IPO this year and called AI extinction risk 'unacceptable.'\n\n\u5185\u5bb9:\n\u8def\u900f/\u7f8e\u8054\u793e\u98ce\u683c\u7684\u62a5\u9053\uff1aOpenAI CEO Sam Altman \u8868\u793a\u4eca\u5e74\u4e0d\u4f1a IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669'\u4e0d\u53ef\u63a5\u53d7'\u3002\n\nWhy it matters:\nNo burn-rate or filing data here \u2014 this is standing commentary, not a new capex/cash-flow tell. Ruling out an IPO removes one path to fresh outside capital for OpenAI's compute buildout, mildly relevant to the funding side of the AI-capex thesis but not a fuse-level signal on its own.\n\n\u5f71\u54cd:\n\u8fd9\u91cc\u6ca1\u6709 burn rate \u6216 filing \u6570\u636e\uff0c\u53ea\u662f\u5e38\u89c4\u8868\u6001\uff0c\u4e0d\u7b97\u65b0\u7684 capex/\u73b0\u91d1\u6d41\u4fe1\u53f7\u3002\u6392\u9664\u4eca\u5e74 IPO \u610f\u5473\u7740 OpenAI \u5c11\u4e86\u4e00\u6761\u878d\u8d44\u6e20\u9053\uff0c\u8ddf AI capex \u7684\u8d44\u91d1\u6765\u6e90\u95ee\u9898\u6cbe\u8fb9\uff0c\u4f46\u5355\u72ec\u770b\u4e0d\u6784\u6210\u5f15\u4fe1\u7ea7\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4069,
-      "ts": 1789271058,
-      "ts_str": "2026-09-13 03:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - Yahoo News Canada",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 03:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE5nNEVWOEVHVE1jeDlVTGdNRnZjamRjazl4RWRlT0FjMnpPWkVXME9LUFdzN2EzX2JSTlhOX280aXl0V0VFNzRWV1NSUllOaFNSTGtpNHRDdEs1Q1lEWXpoTFZOOEgzeWdQamdySkVLRlNjMDl6X1p6Y0xn?oc=5\n\nOpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable' - Yahoo News Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5nNEVWOEVHVE1jeDlVTGdNRnZjamRjazl4RWRlT0FjMnpPWkVXME9LUFdzN2EzX2JSTlhOX280aXl0V0VFNzRWV1NSUllOaFNSTGtpNHRDdEs1Q1lEWXpoTFZOOEgzeWdQamdySkVLRlNjMDl6X1p6Y0xn?oc=5\" target=\"_blank\">OpenAI's Altman won't do IPO this year, calls AI extinction risk 'unacceptable'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo News Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/AP-style headline reporting OpenAI CEO Sam Altman ruled out an IPO this year and called AI extinction risk 'unacceptable.'\n\n\u5185\u5bb9:\n\u8def\u900f/\u7f8e\u8054\u793e\u98ce\u683c\u7684\u62a5\u9053\uff1aOpenAI CEO Sam Altman \u8868\u793a\u4eca\u5e74\u4e0d\u4f1a IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669'\u4e0d\u53ef\u63a5\u53d7'\u3002\n\nWhy it matters:\nNo burn-rate or filing data here \u2014 this is standing commentary, not a new capex/cash-flow tell. Ruling out an IPO removes one path to fresh outside capital for OpenAI's compute buildout, mildly relevant to the funding side of the AI-capex thesis but not a fuse-level signal on its own.\n\n\u5f71\u54cd:\n\u8fd9\u91cc\u6ca1\u6709 burn rate \u6216 filing \u6570\u636e\uff0c\u53ea\u662f\u5e38\u89c4\u8868\u6001\uff0c\u4e0d\u7b97\u65b0\u7684 capex/\u73b0\u91d1\u6d41\u4fe1\u53f7\u3002\u6392\u9664\u4eca\u5e74 IPO \u610f\u5473\u7740 OpenAI \u5c11\u4e86\u4e00\u6761\u878d\u8d44\u6e20\u9053\uff0c\u8ddf AI capex \u7684\u8d44\u91d1\u6765\u6e90\u95ee\u9898\u6cbe\u8fb9\uff0c\u4f46\u5355\u72ec\u770b\u4e0d\u6784\u6210\u5f15\u4fe1\u7ea7\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
