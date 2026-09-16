@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789556523,
-  "generated_at_str": "2026-09-16 11:02:03 UTC",
-  "last_event_ts": 1789555634,
+  "generated_at": 1789556718,
+  "generated_at_str": "2026-09-16 11:05:18 UTC",
+  "last_event_ts": 1789556717,
   "tables": {
     "alerts_dedup": {
-      "count": 4244,
-      "last_ts": 1789555634,
-      "last_str": "2026-09-16 10:47:14 UTC"
+      "count": 4245,
+      "last_ts": 1789556717,
+      "last_str": "2026-09-16 11:05:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-16 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7226,
-      "last_ts": 1789554906,
-      "last_str": "2026-09-16 10:35:06 UTC"
+      "count": 7229,
+      "last_ts": 1789556706,
+      "last_str": "2026-09-16 11:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4324,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-16 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5450,
-      "last_ts": 1789554907,
-      "last_str": "2026-09-16 10:35:07 UTC"
+      "count": 5453,
+      "last_ts": 1789556707,
+      "last_str": "2026-09-16 11:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 32073,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4252,
+      "ts": 1789556717,
+      "ts_str": "2026-09-16 11:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory chip shortage may drive up prices of budget phones and laptops - Motilal Oswal",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 09:22:21 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE01QjdYUFFybmJGSXp0Y1ZGcEw4aEdQSUY2bGdvVG9vcFlRclNTSElWTlBNX010b0NiYkJsNENLSHVhQjJDYXFNelozMFdQNm9PZnZuYmJ5UGF2UmQyNkNzV1JIdENvRW1MUFE?oc=5\n\nMemory chip shortage may drive up prices of budget phones and laptops - Motilal Oswal\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE01QjdYUFFybmJGSXp0Y1ZGcEw4aEdQSUY2bGdvVG9vcFlRclNTSElWTlBNX010b0NiYkJsNENLSHVhQjJDYXFNelozMFdQNm9PZnZuYmJ5UGF2UmQyNkNzV1JIdENvRW1MUFE?oc=5\" target=\"_blank\">Memory chip shortage may drive up prices of budget phones and laptops</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Motilal Oswal</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns that a memory chip shortage could push up prices of budget phones and laptops, with the RSS entry duplicated across feeds.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u53ef\u80fd\u63a8\u9ad8\u5165\u95e8\u7ea7\u624b\u673a\u548c\u7b14\u8bb0\u672c\u7535\u8111\u4ef7\u683c\uff0c\u8be5\u6761\u76ee\u5728 RSS \u91cc\u91cd\u590d\u51fa\u73b0\u3002\n\nWhy it matters:\nThis is downstream price-pass-through commentary, not a primary supply/demand signal from a chipmaker or OEM \u2014 it flags tightening memory supply feeding the AI-capex thesis, but the source is consumer-device pricing speculation, not a hard data point.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e0b\u6e38\u4ef7\u683c\u4f20\u5bfc\u7c7b\u62a5\u9053\uff0c\u4e0d\u662f\u82af\u7247\u5382\u6216 OEM \u53d1\u51fa\u7684\u4e00\u624b\u4f9b\u9700\u4fe1\u53f7\u2014\u2014\u5b83\u4fa7\u9762\u5370\u8bc1\u5185\u5b58\u4f9b\u7ed9\u6536\u7d27\u3001\u547c\u5e94 AI capex \u7684\u53d9\u4e8b\uff0c\u4f46\u4fe1\u606f\u6e90\u53ea\u662f\u6d88\u8d39\u7535\u5b50\u6da8\u4ef7\u7684\u731c\u6d4b\uff0c\u4e0d\u662f\u786c\u6570\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4251,
       "ts": 1789555634,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI chief rules out IPO this year amid AI safety debate - finance.yahoo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 22:18:21 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxNN3NDSTFleE1IMFBZRUthaEdvcGtEUXBtRGlXd3puTkgzeFNHOXd0bXpyNmxKcFBTY3FZOXNYSTIwbTJ4bjFkN2prMVFhMkkwSTVMMVJWbk9KOGpiYWZNbzgyRHktMGhnMURpTHEteUJ5T19sdmJLSDNFbmFjUTVJWEhDa3pMbnFXVGFaLXU3X0ZoZzVxX0E?oc=5\n\nOpenAI chief rules out IPO this year amid AI safety debate - finance.yahoo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNN3NDSTFleE1IMFBZRUthaEdvcGtEUXBtRGlXd3puTkgzeFNHOXd0bXpyNmxKcFBTY3FZOXNYSTIwbTJ4bjFkN2prMVFhMkkwSTVMMVJWbk9KOGpiYWZNbzgyRHktMGhnMURpTHEteUJ5T19sdmJLSDNFbmFjUTVJWEhDa3pMbnFXVGFaLXU3X0ZoZzVxX0E?oc=5\" target=\"_blank\">OpenAI chief rules out IPO this year amid AI safety debate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.yahoo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's CEO said the company will not pursue an IPO this year, citing ongoing debate over AI safety.\n\n\u5185\u5bb9:\nOpenAI CEO \u8868\u793a\u516c\u53f8\u4eca\u5e74\u4e0d\u4f1a\u63a8\u8fdb IPO\uff0c\u539f\u56e0\u662f AI \u5b89\u5168\u95ee\u9898\u4e0a\u4ecd\u6709\u4e89\u8bae\u3002\n\nWhy it matters:\nThis is routine IPO speculation, not a capex or burn-rate signal \u2014 no financial metric moved. It's background noise for the OpenAI-stress thesis, worth tracking only if it recurs alongside funding or spending news.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5e38\u89c4\u7684 IPO \u731c\u6d4b\u65b0\u95fb\uff0c\u6ca1\u6709\u4efb\u4f55\u8d22\u52a1\u6307\u6807\u53d8\u5316\uff0c\u8ddf OpenAI \u8d44\u91d1\u538b\u529b\u7684\u8bba\u70b9\u5173\u7cfb\u4e0d\u5927\u3002\u9664\u975e\u540e\u7eed\u8ddf\u878d\u8d44\u6216\u70e7\u94b1\u6d88\u606f\u540c\u65f6\u51fa\u73b0\uff0c\u5426\u5219\u53ea\u662f\u80cc\u666f\u566a\u97f3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4053,
-      "ts": 1789254869,
-      "ts_str": "2026-09-12 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI CEO Sam Altman Rules Out 2026 IPO, Citing 'Ill-Advised' Timing on AI Safety - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 22:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vd2xlOU9oZmhldnJxSWtReTVLeV8xLWFlWHktQk9yWUJjT2M4ZUloUndiS1JWNHNULUhIb0tPMm12N3dWVjZzbXhMbXFpSEd5QktGcUFDYlV1ZzJTR3FZNDdrSXNQeXQzcFRSMnYxbEU4WENiS0E?oc=5\n\nOpenAI CEO Sam Altman Rules Out 2026 IPO, Citing 'Ill-Advised' Timing on AI Safety - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vd2xlOU9oZmhldnJxSWtReTVLeV8xLWFlWHktQk9yWUJjT2M4ZUloUndiS1JWNHNULUhIb0tPMm12N3dWVjZzbXhMbXFpSEd5QktGcUFDYlV1ZzJTR3FZNDdrSXNQeXQzcFRSMnYxbEU4WENiS0E?oc=5\" target=\"_blank\">OpenAI CEO Sam Altman Rules Out 2026 IPO, Citing 'Ill-Advised' Timing on AI Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI CEO Sam Altman said he is ruling out an IPO in 2026, calling that timing 'ill-advised' given AI safety concerns.\n\n\u5185\u5bb9:\nOpenAI CEO Sam Altman \u8868\u793a\u6392\u9664 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u79f0\u8003\u8651\u5230 AI \u5b89\u5168\u95ee\u9898\uff0c\u8fd9\u4e2a\u65f6\u95f4\u70b9\u201c\u4e0d\u5408\u9002\u201d\u3002\n\nWhy it matters:\nA near-term IPO would have forced OpenAI into public disclosure and market scrutiny of its burn rate and compute costs \u2014 ruling it out removes a potential transparency catalyst and keeps the company's capex/revenue mismatch opaque for longer.\n\n\u5f71\u54cd:\n\u8fd1\u671f IPO \u672c\u4f1a\u8feb\u4f7f OpenAI \u516c\u5f00\u62ab\u9732\u70e7\u94b1\u901f\u5ea6\u548c\u7b97\u529b\u6210\u672c\uff0c\u63a5\u53d7\u5e02\u573a\u5ba1\u89c6\u3002\u6392\u9664\u8fd9\u4e2a\u9009\u9879\u610f\u5473\u7740\u5c11\u4e86\u4e00\u4e2a\u53ef\u80fd\u63ed\u793a\u771f\u5b9e\u8d22\u52a1\u72b6\u51b5\u7684\u50ac\u5316\u5242\uff0c\u516c\u53f8\u8d44\u672c\u5f00\u652f\u4e0e\u6536\u5165\u4e4b\u95f4\u7684\u843d\u5dee\u4f1a\u7ee7\u7eed\u4fdd\u6301\u4e0d\u900f\u660e\u3002\n",
       "emailed": false
     }
   ],
