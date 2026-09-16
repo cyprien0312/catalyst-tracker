@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789525924,
-  "generated_at_str": "2026-09-16 02:32:04 UTC",
-  "last_event_ts": 1789524845,
+  "generated_at": 1789526118,
+  "generated_at_str": "2026-09-16 02:35:18 UTC",
+  "last_event_ts": 1789526117,
   "tables": {
     "alerts_dedup": {
-      "count": 4223,
-      "last_ts": 1789523224,
-      "last_str": "2026-09-16 01:47:04 UTC"
+      "count": 4224,
+      "last_ts": 1789526117,
+      "last_str": "2026-09-16 02:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-09-16 02:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5971,
-      "last_ts": 1789522503,
-      "last_str": "2026-09-16 01:35:03 UTC"
+      "count": 5972,
+      "last_ts": 1789526102,
+      "last_str": "2026-09-16 02:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7169,
@@ -89,14 +89,14 @@
       "last_str": "2026-09-16 01:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4300,
-      "last_ts": 1789524304,
-      "last_str": "2026-09-16 02:05:04 UTC"
+      "count": 4302,
+      "last_ts": 1789526104,
+      "last_str": "2026-09-16 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5441,
-      "last_ts": 1789524306,
-      "last_str": "2026-09-16 02:05:06 UTC"
+      "count": 5442,
+      "last_ts": 1789526107,
+      "last_str": "2026-09-16 02:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 31998,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4231,
+      "ts": 1789526117,
+      "ts_str": "2026-09-16 02:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Kioxia CEO Urges Restraint on NAND Price Hikes to Protect AI Investment Sentiment - finance.biggo.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 02:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9xaW9lOXgwVTZUY1hoQWwwaTA5Nk1wX2FGdnEwaV80VnBWMllTLVlyZ0NGVFJHNmJSajBSTEtYZGc3YnFfcDgtei0xcThicHlWNDFUN2RnRTVkVTFzMnNwcFdMeTdjUV80X0FpTUgzbFczbXNiekE?oc=5\n\nKioxia CEO Urges Restraint on NAND Price Hikes to Protect AI Investment Sentiment - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9xaW9lOXgwVTZUY1hoQWwwaTA5Nk1wX2FGdnEwaV80VnBWMllTLVlyZ0NGVFJHNmJSajBSTEtYZGc3YnFfcDgtei0xcThicHlWNDFUN2RnRTVkVTFzMnNwcFdMeTdjUV80X0FpTUgzbFczbXNiekE?oc=5\" target=\"_blank\">Kioxia CEO Urges Restraint on NAND Price Hikes to Protect AI Investment Sentiment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nKioxia's CEO publicly urged the industry to show restraint on NAND price hikes, framing further increases as a risk to AI investment sentiment.\n\n\u5185\u5bb9:\nKioxia CEO \u516c\u5f00\u547c\u5401\u884c\u4e1a\u5728 NAND \u6da8\u4ef7\u4e0a\u4fdd\u6301\u514b\u5236\uff0c\u79f0\u8fdb\u4e00\u6b65\u6da8\u4ef7\u4f1a\u5371\u53ca AI \u6295\u8d44\u60c5\u7eea\u3002\n\nWhy it matters:\nA supplier CEO warning against further price hikes signals NAND pricing may already be stretched enough to threaten downstream AI capex appetite \u2014 a rare admission that the memory-shortage narrative could be turning into a self-inflicted demand problem.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u5546 CEO \u4e3b\u52a8\u51fa\u6765\u558a\u8bdd\u522b\u518d\u6da8\u4ef7\uff0c\u8bf4\u660e NAND \u4ef7\u683c\u53ef\u80fd\u5df2\u7ecf\u6da8\u5230\u5a01\u80c1\u4e0b\u6e38 AI \u8d44\u672c\u5f00\u652f\u610f\u613f\u7684\u5730\u6b65\u2014\u2014\u8fd9\u7b49\u4e8e\u53d8\u76f8\u627f\u8ba4\u300c\u7f3a\u8d27\u6da8\u4ef7\u300d\u7684\u53d9\u4e8b\u6709\u53ef\u80fd\u53cd\u566c\u9700\u6c42\u672c\u8eab\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4230,
       "ts": 1789523224,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune - bloomberg.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 19:36:39 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzhjTS1GNC1rcHlXYWQzQ2lZZ3RjWm16N25vNzZXTGZPZHRnM3Z2WndKb2Fsb1Q4VE9ENDdUamR0enFSeUdINWpabW93eDRueFlSYmkyWGtWaFRvVGs3UlR1MXpUWHhYdlFvdWNTTEhUZHRzRllyZ2hjQUFyNTV2eklxazV0dWNabXNtTURUU2tGVEJNTWdfTWRkRGE3MlpGanpqR2JqOHdXQThxRm9F?oc=5\n\nOpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune - bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzhjTS1GNC1rcHlXYWQzQ2lZZ3RjWm16N25vNzZXTGZPZHRnM3Z2WndKb2Fsb1Q4VE9ENDdUamR0enFSeUdINWpabW93eDRueFlSYmkyWGtWaFRvVGs3UlR1MXpUWHhYdlFvdWNTTEhUZHRzRllyZ2hjQUFyNTV2eklxazV0dWNabXNtTURUU2tGVEJNTWdfTWRkRGE3MlpGanpqR2JqOHdXQThxRm9F?oc=5\" target=\"_blank\">OpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman told Fortune that an OpenAI IPO won't happen before 2027, ruling out near-term public listing.\n\n\u5185\u5bb9:\nSam Altman \u5411 Fortune \u8868\u793a\uff0cOpenAI \u7684 IPO \u4e0d\u4f1a\u5728 2027 \u5e74\u4e4b\u524d\u53d1\u751f\uff0c\u6392\u9664\u4e86\u8fd1\u671f\u4e0a\u5e02\u7684\u53ef\u80fd\u3002\n\nWhy it matters:\nPushes out the timeline for external audited disclosure of OpenAI's finances, meaning burn-rate and revenue claims stay unverifiable via SEC filings for at least another year \u2014 a low-signal MED item, not a change in fundamentals.\n\n\u5f71\u54cd:\n\u8fd9\u628a OpenAI \u8d22\u52a1\u7ecf\u5ba1\u8ba1\u62ab\u9732\u7684\u65f6\u95f4\u7ebf\u53c8\u5f80\u540e\u63a8\u4e86\uff0c\u610f\u5473\u7740\u70e7\u94b1\u901f\u5ea6\u548c\u8425\u6536\u8bf4\u6cd5\u81f3\u5c11\u518d\u6709\u4e00\u5e74\u6ca1\u6cd5\u9760 SEC \u6587\u4ef6\u6838\u5b9e\u2014\u2014\u8fd9\u662f\u4f4e\u4fe1\u53f7\u7684 MED \u4e8b\u4ef6\uff0c\u57fa\u672c\u9762\u6ca1\u53d8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4029,
-      "ts": 1789244079,
-      "ts_str": "2026-09-12 20:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 19:36:39 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1FpOTJLTGgxcVF4UndsN2pXV2wzNUVxU2NZc1RENmV5UXZISnRiaWx4bW1PSml0aHBqYkl3RHBDVWhra3QycmdsakVoX2pzUE42dHI2TGhva3hlYTZHZHZYTGtyMzYzaDh2RzNya3BzZzVwbWJ4N2N6alRvbG9BSVY4LWlIZ2xpbHBkZEZvalg?oc=5\n\nOpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1FpOTJLTGgxcVF4UndsN2pXV2wzNUVxU2NZc1RENmV5UXZISnRiaWx4bW1PSml0aHBqYkl3RHBDVWhra3QycmdsakVoX2pzUE42dHI2TGhva3hlYTZHZHZYTGtyMzYzaDh2RzNya3BzZzVwbWJ4N2N6alRvbG9BSVY4LWlIZ2xpbHBkZEZvalg?oc=5\" target=\"_blank\">OpenAI IPO Won\u2019t Happen Until 2027, Sam Altman Tells Fortune</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman told Fortune that an OpenAI IPO won't happen before 2027, ruling out near-term public listing.\n\n\u5185\u5bb9:\nSam Altman \u5411 Fortune \u8868\u793a\uff0cOpenAI \u7684 IPO \u4e0d\u4f1a\u5728 2027 \u5e74\u4e4b\u524d\u53d1\u751f\uff0c\u6392\u9664\u4e86\u8fd1\u671f\u4e0a\u5e02\u7684\u53ef\u80fd\u3002\n\nWhy it matters:\nPushes out the timeline for external audited disclosure of OpenAI's finances, meaning burn-rate and revenue claims stay unverifiable via SEC filings for at least another year \u2014 a low-signal MED item, not a change in fundamentals.\n\n\u5f71\u54cd:\n\u8fd9\u628a OpenAI \u8d22\u52a1\u7ecf\u5ba1\u8ba1\u62ab\u9732\u7684\u65f6\u95f4\u7ebf\u53c8\u5f80\u540e\u63a8\u4e86\uff0c\u610f\u5473\u7740\u70e7\u94b1\u901f\u5ea6\u548c\u8425\u6536\u8bf4\u6cd5\u81f3\u5c11\u518d\u6709\u4e00\u5e74\u6ca1\u6cd5\u9760 SEC \u6587\u4ef6\u6838\u5b9e\u2014\u2014\u8fd9\u662f\u4f4e\u4fe1\u53f7\u7684 MED \u4e8b\u4ef6\uff0c\u57fa\u672c\u9762\u6ca1\u53d8\u3002\n",
       "emailed": false
     }
   ],
