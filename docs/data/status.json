@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789656246,
-  "generated_at_str": "2026-09-17 14:44:06 UTC",
-  "last_event_ts": 1789656245,
+  "generated_at": 1789656437,
+  "generated_at_str": "2026-09-17 14:47:16 UTC",
+  "last_event_ts": 1789656436,
   "tables": {
     "alerts_dedup": {
-      "count": 4279,
-      "last_ts": 1789653914,
-      "last_str": "2026-09-17 14:05:14 UTC"
+      "count": 4280,
+      "last_ts": 1789656436,
+      "last_str": "2026-09-17 14:47:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -24,9 +24,9 @@
       "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c11_lockup": {
-      "count": 5,
-      "last_ts": 1788446835,
-      "last_str": "2026-09-03 14:47:15 UTC"
+      "count": 6,
+      "last_ts": 1789656433,
+      "last_str": "2026-09-17 14:47:13 UTC"
     },
     "c1_filings": {
       "count": 111,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-17 14:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9781,
-      "last_ts": 1789652823,
-      "last_str": "2026-09-17 13:47:03 UTC"
+      "count": 9788,
+      "last_ts": 1789656435,
+      "last_str": "2026-09-17 14:47:15 UTC"
     }
   },
   "c4_xbrl": [
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4287,
+      "ts": 1789656436,
+      "ts_str": "2026-09-17 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 105 (3.3\u4ebf shares)",
+      "body": "Severity:   MED\nTranche:    Day 105\nDate:       2026-09-25  (7 day(s) out)\nRelease:    3.3\u4ebf shares (2.5% of shares outstanding)\nCumulative: 22.6% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX's next lock-up tranche releases $3.3B in shares, bringing cumulative unlocked supply to 22.6% of total.\n\n\u5185\u5bb9:\nSPCX \u4e0b\u4e00\u6279\u89e3\u7981\u5c06\u91ca\u653e $3.3B \u7684\u80a1\u4efd\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u603b\u80a1\u672c\u7684 22.6%\u3002\n\nWhy it matters:\nA large scheduled unlock adds real sell-pressure risk to a stock that's become a proxy for AI-infra enthusiasm \u2014 index funds and passive flows have to absorb the float regardless of fundamentals. It's a mechanical, calendar-driven stress test on the passive-flow bid, not a signal about SpaceX's business.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u4e00\u6279\u6309\u65e5\u5386\u8868\u89e3\u7981\u7684\u80a1\u4efd\uff0c\u4f1a\u7ed9\u8fd9\u53ea\u5df2\u7ecf\u53d8\u6210 AI \u57fa\u5efa\u60c5\u7eea\u4ee3\u7406\u80a1\u7684\u6807\u7684\u5e26\u6765\u5b9e\u9645\u629b\u538b\u2014\u2014\u88ab\u52a8\u8d44\u91d1\u548c\u6307\u6570\u57fa\u91d1\u5f97\u786c\u5403\u4e0b\u8fd9\u90e8\u5206\u6d41\u901a\u91cf\uff0c\u8ddf\u516c\u53f8\u57fa\u672c\u9762\u6ca1\u5173\u7cfb\u3002\u8fd9\u662f\u5bf9\u88ab\u52a8\u8d44\u91d1\u627f\u63a5\u80fd\u529b\u7684\u673a\u68b0\u5f0f\u538b\u529b\u6d4b\u8bd5\uff0c\u4e0d\u662f\u5bf9 SpaceX \u4e1a\u52a1\u672c\u8eab\u7684\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4285,
       "ts": 1789653914,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 05:48:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04d0ZBYlFDcmFhRFFCWk1lZ3NvUUVkQUxNLW9BbmRPVkx6X1dnRVMxbnZ2QnBPZTZQZ1lVSWdxVVFaRmxwdzBQNGZyc2dyU0RGdUxVNFRnUnNaVzBvd0xyeGVRdDNaMEU?oc=5\n\nSam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04d0ZBYlFDcmFhRFFCWk1lZ3NvUUVkQUxNLW9BbmRPVkx6X1dnRVMxbnZ2QnBPZTZQZ1lVSWdxVVFaRmxwdzBQNGZyc2dyU0RGdUxVNFRnUnNaVzBvd0xyeGVRdDNaMEU?oc=5\" target=\"_blank\">Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yellow.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/other outlets report Sam Altman has ruled out an OpenAI IPO in 2026, citing AI safety work as the reason.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e\u7b49\u5a92\u4f53\u62a5\u9053\uff0cSam Altman \u6392\u9664\u4e86 OpenAI \u5728 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u7406\u7531\u662f AI \u5b89\u5168\u5de5\u4f5c\u3002\n\nWhy it matters:\nRemoves a near-term liquidity/exit path that would otherwise let OpenAI raise public capital or give backers a mark-to-market; keeps OpenAI reliant on private mega-rounds and partner capex (e.g. Microsoft, Oracle) to fund compute, which is exactly the fragile-funding-chain dynamic the C3 signal watches for.\n\n\u5f71\u54cd:\n\u8fd9\u7b49\u4e8e\u5173\u6389\u4e86\u4e00\u4e2a\u8fd1\u671f\u7684\u6d41\u52a8\u6027/\u9000\u51fa\u6e20\u9053\u2014\u2014OpenAI \u6ca1\u6cd5\u9760\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u4e5f\u6ca1\u6cd5\u8ba9\u73b0\u6709\u6295\u8d44\u4eba\u7684\u6301\u80a1\u5f97\u5230\u516c\u5f00\u5b9a\u4ef7\uff0c\u53ea\u80fd\u7ee7\u7eed\u9760\u79c1\u52df\u5de8\u989d\u878d\u8d44\u548c Microsoft\u3001Oracle \u8fd9\u7c7b\u5408\u4f5c\u4f19\u4f34\u7684\u8d44\u672c\u5f00\u652f\u6491\u7b97\u529b\u9700\u6c42\u3002\u8fd9\u6b63\u662f C3 \u4fe1\u53f7\u76ef\u7684\u90a3\u79cd\u8106\u5f31\u8d44\u91d1\u94fe\u98ce\u9669\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4087,
-      "ts": 1789285639,
-      "ts_str": "2026-09-13 07:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX weighting in Nasdaq 100 set to more than double - Bloomberg By Investing.com - Investing.com South Africa",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 00:34:11 GMT\nLink:      https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWlLYUlCRHcwT0tQcXgzME5xMHRRa2M0bkd0NGlaWF8tYU1uaHdlM2theDRMZjhwN2VOZDcybGdKb3ZQNDI4U1l6WXVlRldfRV9rdEN3VENVekVUakpFaWF4c1A3VDZsdmtIRFRXWkJDLUZ1SDFWeUJBZmViWGQ5Ym5YM3pGZEdidmI1ZW9YREUtZU1xdnQyMUZ0WGVITGYzSzd3eWI0QWtCdkZ2OXp4T1RPOWw2bW9ZQTV1bVR3?oc=5\n\nSpaceX weighting in Nasdaq 100 set to more than double - Bloomberg By Investing.com - Investing.com South Africa\n\n<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWlLYUlCRHcwT0tQcXgzME5xMHRRa2M0bkd0NGlaWF8tYU1uaHdlM2theDRMZjhwN2VOZDcybGdKb3ZQNDI4U1l6WXVlRldfRV9rdEN3VENVekVUakpFaWF4c1A3VDZsdmtIRFRXWkJDLUZ1SDFWeUJBZmViWGQ5Ym5YM3pGZEdidmI1ZW9YREUtZU1xdnQyMUZ0WGVITGYzSzd3eWI0QWtCdkZ2OXp4T1RPOWw2bW9ZQTV1bVR3?oc=5\" target=\"_blank\">SpaceX weighting in Nasdaq 100 set to more than double - Bloomberg By Investing.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com South Africa</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Bloomberg report syndicated via Investing.com says SpaceX's weighting in the Nasdaq 100 is set to more than double.\n\n\u5185\u5bb9:\n\u5f6d\u535a\u793e\u7684\u4e00\u5219\u62a5\u9053\uff08\u7ecf Investing.com \u8f6c\u8f7d\uff09\u79f0\uff0cSpaceX \u5728\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u4e2d\u7684\u6743\u91cd\u9884\u8ba1\u5c06\u7ffb\u500d\u4ee5\u4e0a\u3002\n\nWhy it matters:\nA bigger index weight forces passive Nasdaq-100 trackers to buy more SpaceX shares mechanically, regardless of valuation \u2014 index-flow demand, not fundamentals, becomes a price support. It's the C11 thesis in miniature: a single private-to-public name's inclusion mechanics can move flows independent of the AI-capex story itself.\n\n\u5f71\u54cd:\n\u6307\u6570\u6743\u91cd\u53d8\u5927\uff0c\u4f1a\u5f3a\u5236\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u7684\u88ab\u52a8\u57fa\u91d1\u673a\u68b0\u6027\u589e\u6301 SpaceX\uff0c\u8ddf\u4f30\u503c\u9ad8\u4f4e\u65e0\u5173\u2014\u2014\u8fd9\u662f\u9760\u6307\u6570\u8d44\u91d1\u6d41\u800c\u4e0d\u662f\u57fa\u672c\u9762\u6491\u4ef7\u3002\u8fd9\u6b63\u662f C11 \u4e3b\u9898\u7684\u7f29\u5f71\uff1a\u4e00\u53ea\u4ece\u79c1\u52df\u8d70\u5411\u516c\u5f00\u5e02\u573a\u7684\u80a1\u7968\uff0c\u5149\u9760\u7eb3\u5165\u6307\u6570\u7684\u673a\u5236\u5c31\u80fd\u5e26\u52a8\u8d44\u91d1\u6d41\uff0c\u548c AI capex \u6545\u4e8b\u672c\u8eab\u6ca1\u5173\u7cfb\u3002\n",
       "emailed": false
     }
   ],
