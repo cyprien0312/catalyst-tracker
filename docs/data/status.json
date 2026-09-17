@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789606923,
-  "generated_at_str": "2026-09-17 01:02:03 UTC",
-  "last_event_ts": 1789606023,
+  "generated_at": 1789607119,
+  "generated_at_str": "2026-09-17 01:05:19 UTC",
+  "last_event_ts": 1789607118,
   "tables": {
     "alerts_dedup": {
-      "count": 4272,
-      "last_ts": 1789601714,
-      "last_str": "2026-09-16 23:35:14 UTC"
+      "count": 4273,
+      "last_ts": 1789607118,
+      "last_str": "2026-09-17 01:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-16 20:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5489,
-      "last_ts": 1789603507,
-      "last_str": "2026-09-17 00:05:07 UTC"
+      "count": 5491,
+      "last_ts": 1789607106,
+      "last_str": "2026-09-17 01:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 32294,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4280,
+      "ts": 1789607118,
+      "ts_str": "2026-09-17 01:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR5 RAM prices surge 5.5-fold, seen worsening in 2027 - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 17 Sep 2026 00:14:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVGV1NkRaY296UmVVNDFJN2lKZm5VVzNycEtLeWFtVnliYlEtNnl0N2xRUE9jZGlRSUlnUVFJRGxxRFJjUjIzM1RDX1lHTkRBSERTN0dHZnFiMjk2dVZ5Tjl5aW5teFo5QlNrS3I3bHJtczlWX0tmSHFKTjIyb2dGTVZMSEhaeWVIN2cxeXlpX0cwdS1hUmt6LXN5Z2ZrS1hBR3UtSGpyNU0?oc=5\n\nDDR5 RAM prices surge 5.5-fold, seen worsening in 2027 - \ub514\uc9c0\ud138\ud22c\ub370\uc774\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVGV1NkRaY296UmVVNDFJN2lKZm5VVzNycEtLeWFtVnliYlEtNnl0N2xRUE9jZGlRSUlnUVFJRGxxRFJjUjIzM1RDX1lHTkRBSERTN0dHZnFiMjk2dVZ5Tjl5aW5teFo5QlNrS3I3bHJtczlWX0tmSHFKTjIyb2dGTVZMSEhaeWVIN2cxeXlpX0cwdS1hUmt6LXN5Z2ZrS1hBR3UtSGpyNU0?oc=5\" target=\"_blank\">DDR5 RAM prices surge 5.5-fold, seen worsening in 2027</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub514\uc9c0\ud138\ud22c\ub370\uc774</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/industry reports say DDR5 RAM prices have surged 5.5x, with the shortage expected to worsen into 2027.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e/\u884c\u4e1a\u62a5\u9053\u79f0 DDR5 \u5185\u5b58\u4ef7\u683c\u5df2\u66b4\u6da8 5.5 \u500d\uff0c\u4e14\u77ed\u7f3a\u9884\u8ba1\u4f1a\u6301\u7eed\u6076\u5316\u5230 2027 \u5e74\u3002\n\nWhy it matters:\nA multi-fold DRAM price spike squeezes margins across every AI server builder and OEM, and a supply crunch stretching into 2027 signals the memory bottleneck is structural, not a transient blip \u2014 reinforcing the bubble-stress case that AI infrastructure costs are outrunning what the economics can absorb.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u7ffb\u6570\u500d\u4f1a\u6324\u538b\u6240\u6709 AI \u670d\u52a1\u5668\u5382\u5546\u548c OEM \u7684\u5229\u6da6\u7a7a\u95f4\uff0c\u7f3a\u8d27\u9884\u671f\u4e00\u8def\u62d6\u5230 2027 \u5e74\u8bf4\u660e\u5185\u5b58\u74f6\u9888\u662f\u7ed3\u6784\u6027\u7684\u3001\u4e0d\u662f\u6682\u65f6\u6ce2\u52a8\u2014\u2014\u8fd9\u8fdb\u4e00\u6b65\u5370\u8bc1\u4e86 AI \u57fa\u7840\u8bbe\u65bd\u6210\u672c\u6b63\u5728\u8d85\u51fa\u7ecf\u6d4e\u8d26\u80fd\u627f\u53d7\u8303\u56f4\u7684\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4279,
       "ts": 1789601714,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 12 Sep 2026 17:58:51 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPRWF5Ql9mMEdJUG43d3RUYzF2VGRrdVdTcDlyS25XQlp0dUx2OGc0RVYydFRITHdvVWVuUGZNbXBwUmd2MUxNY2E4RWdyTlBPUlhNSkRFMkVyUUxUV3hIYkU0Q2NaNXNkU2x0VnNpQmNiaHBaWGpQVDlFRTY4S2RTUi1DRU01aEQ3TlA2YTd0WG1TaTNaWTdxSUdpOTBHSjA?oc=5\n\nSpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPRWF5Ql9mMEdJUG43d3RUYzF2VGRrdVdTcDlyS25XQlp0dUx2OGc0RVYydFRITHdvVWVuUGZNbXBwUmd2MUxNY2E4RWdyTlBPUlhNSkRFMkVyUUxUV3hIYkU0Q2NaNXNkU2x0VnNpQmNiaHBaWGpQVDlFRTY4S2RTUi1DRU01aEQ3TlA2YTd0WG1TaTNaWTdxSUdpOTBHSjA?oc=5\" target=\"_blank\">SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNasdaq announced SpaceX will get a larger weighting in the Nasdaq 100 after the next index rebalance.\n\n\u5185\u5bb9:\nNasdaq \u5ba3\u5e03\u4e0b\u6b21\u6307\u6570\u518d\u5e73\u8861\u540e\uff0cSpaceX \u5728 Nasdaq 100 \u4e2d\u7684\u6743\u91cd\u5c06\u4e0a\u8c03\u3002\n\nWhy it matters:\nA bigger index weight forces passive funds tracking the Nasdaq 100 to buy more SpaceX shares mechanically, regardless of valuation \u2014 this is the index-mechanics flow C11 is built to catch, distinct from any change in SpaceX's actual fundamentals.\n\n\u5f71\u54cd:\n\u6743\u91cd\u4e00\u63d0\u9ad8\uff0c\u8ddf\u8e2a Nasdaq 100 \u7684\u88ab\u52a8\u57fa\u91d1\u5c31\u5f97\u673a\u68b0\u6027\u5730\u4e70\u5165\u66f4\u591a SpaceX \u80a1\u7968\uff0c\u8ddf\u57fa\u672c\u9762\u597d\u574f\u6ca1\u5173\u7cfb\u2014\u2014\u8fd9\u6b63\u662f C11 \u8981\u6293\u7684\u6307\u6570\u673a\u5236\u578b\u8d44\u91d1\u6d41\uff0c\u8ddf\u516c\u53f8\u672c\u8eab\u7ecf\u8425\u72b6\u51b5\u53d8\u5316\u662f\u4e24\u56de\u4e8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4077,
-      "ts": 1789278290,
-      "ts_str": "2026-09-13 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI rules out 2026 IPO as Sam Altman flags AI safety risks - thenationalnews.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 05:38:44 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaV85SXZONVdCb1djbmliTEJWeGRXYmMxMDNKOTNsa3puYWlYNzFpOGd4alBndkFmVmZGZU5YbTJFWU5RbTJFbmhmYU0tQ3NKazQ5RFhhLXVqM0l3c0t4VlNnZlBOTGtMUUFrdDBMa2Q2MFRsTTFGWVVmcURQVGl0WDQweXJ0c2VmSms1eGVxamxvLVo1UmdNLWdvS2E3cm9IanpIeVpqTUUtR0xPNnRENkVVZGdaNmw5RTMzUk5XZUc?oc=5\n\nOpenAI rules out 2026 IPO as Sam Altman flags AI safety risks - thenationalnews.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaV85SXZONVdCb1djbmliTEJWeGRXYmMxMDNKOTNsa3puYWlYNzFpOGd4alBndkFmVmZGZU5YbTJFWU5RbTJFbmhmYU0tQ3NKazQ5RFhhLXVqM0l3c0t4VlNnZlBOTGtMUUFrdDBMa2Q2MFRsTTFGWVVmcURQVGl0WDQweXJ0c2VmSms1eGVxamxvLVo1UmdNLWdvS2E3cm9IanpIeVpqTUUtR0xPNnRENkVVZGdaNmw5RTMzUk5XZUc?oc=5\" target=\"_blank\">OpenAI rules out 2026 IPO as Sam Altman flags AI safety risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thenationalnews.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/Google News coverage says OpenAI has ruled out an IPO in 2026, with Sam Altman citing AI safety concerns as a reason.\n\n\u5185\u5bb9:\n\u8def\u900f/Google News \u62a5\u9053\u79f0 OpenAI \u5df2\u6392\u9664 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0cSam Altman \u63d0\u5230 AI \u5b89\u5168\u98ce\u9669\u662f\u539f\u56e0\u4e4b\u4e00\u3002\n\nWhy it matters:\nThis is IPO-speculation news, not a burn-rate or filing signal \u2014 MED severity reflects that OpenAI stress catalysts fire on any keyword hit regardless of substance. Ruling out an IPO removes a potential liquidity/capital-raising event for OpenAI, which matters for the capex-funding side of the AI-infrastructure thesis but isn't itself a stress data point.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e IPO \u731c\u6d4b\u7c7b\u65b0\u95fb\uff0c\u4e0d\u662f\u70e7\u94b1\u901f\u5ea6\u6216\u76d1\u7ba1\u6587\u4ef6\u4fe1\u53f7\u2014\u2014MED \u7ea7\u522b\u53ea\u662f\u56e0\u4e3a OpenAI \u538b\u529b\u7c7b\u544a\u8b66\u53ea\u8981\u547d\u4e2d\u5173\u952e\u8bcd\u5c31\u4f1a\u89e6\u53d1\uff0c\u8ddf\u5b9e\u8d28\u5185\u5bb9\u65e0\u5173\u3002\u6392\u9664 IPO \u610f\u5473\u7740 OpenAI \u5c11\u4e86\u4e00\u6761\u878d\u8d44/\u6d41\u52a8\u6027\u6e20\u9053\uff0c\u8fd9\u5bf9 AI \u57fa\u5efa capex \u7684\u8d44\u91d1\u6765\u6e90\u903b\u8f91\u6709\u5173\u8054\uff0c\u4f46\u672c\u8eab\u4e0d\u6784\u6210\u538b\u529b\u6570\u636e\u70b9\u3002\n",
       "emailed": false
     }
   ],
