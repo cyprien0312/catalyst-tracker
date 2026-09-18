@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789716723,
-  "generated_at_str": "2026-09-18 07:32:03 UTC",
-  "last_event_ts": 1789715644,
+  "generated_at": 1789716915,
+  "generated_at_str": "2026-09-18 07:35:15 UTC",
+  "last_event_ts": 1789716914,
   "tables": {
     "alerts_dedup": {
-      "count": 4288,
-      "last_ts": 1789710253,
-      "last_str": "2026-09-18 05:44:13 UTC"
+      "count": 4289,
+      "last_ts": 1789716914,
+      "last_str": "2026-09-18 07:35:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-09-18 05:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7337,
-      "last_ts": 1789711505,
-      "last_str": "2026-09-18 06:05:05 UTC"
+      "count": 7338,
+      "last_ts": 1789716903,
+      "last_str": "2026-09-18 07:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4368,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4296,
+      "ts": 1789716914,
+      "ts_str": "2026-09-18 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Chinese AI chip prices surge amid HBM shortage - qz.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 07:15:45 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE5jd1hScy1wN05CaHhid0RSU3Rhd1lPNG95T0lMcnU3RUNJTVg5a0dyc3FHbWxPMkgzNDNiNzljODFmRTJ3d2JGRklfNlF0QTBkS2l2YmJhMHg4VlIyWk9WaWwzMXpKazh4OXNPdzJGRHBFME96VjNuZFl1NzA?oc=5\n\nChinese AI chip prices surge amid HBM shortage - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5jd1hScy1wN05CaHhid0RSU3Rhd1lPNG95T0lMcnU3RUNJTVg5a0dyc3FHbWxPMkgzNDNiNzljODFmRTJ3d2JGRklfNlF0QTBkS2l2YmJhMHg4VlIyWk9WaWwzMXpKazh4OXNPdzJGRHBFME96VjNuZFl1NzA?oc=5\" target=\"_blank\">Chinese AI chip prices surge amid HBM shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Chinese AI chip price surge is being reported alongside an HBM shortage; the same RSS item appears twice in the feed.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\u56e0 HBM \u77ed\u7f3a\u800c\u4e0a\u6da8\uff1b\u540c\u4e00\u6761 RSS \u5185\u5bb9\u5728 feed \u91cc\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nHBM is the binding constraint for AI accelerator output, so a shortage-driven price surge signals supply-side tightening across the AI hardware chain \u2014 consistent with the memory/storage stress thesis, though the duplicate entry likely inflates apparent signal strength rather than reflecting two independent reports.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5668\u4ea7\u80fd\u7684\u74f6\u9888,\u56e0\u77ed\u7f3a\u6da8\u4ef7\u610f\u5473\u7740\u6574\u6761 AI \u786c\u4ef6\u4f9b\u5e94\u94fe\u5728\u6536\u7d27,\u7b26\u5408\u5185\u5b58/\u5b58\u50a8\u538b\u529b\u8fd9\u6761\u8bba\u70b9\u3002\u4e0d\u8fc7\u540c\u4e00\u6761\u91cd\u590d\u51fa\u73b0\u4e24\u6b21,\u4fe1\u53f7\u5f3a\u5ea6\u5927\u6982\u7387\u88ab\u653e\u5927\u4e86,\u4e0d\u4ee3\u8868\u6709\u4e24\u6761\u72ec\u7acb\u62a5\u9053\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4295,
       "ts": 1789710253,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 09:59:11 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0lOYnBnV2txeVo5Zno4SmFvUTRZbm0zNlV1aUNhUjFOUVdYMElKeGlmR3hiWVMzS2pfaFNsOEhMcE9YVVFKdHFDRk0xWXpHRW5xZ0R5dXY5NXNMZDU3VlVBX0FXYXo5SjAyREZNV052UQ?oc=5\n\nSam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work - Yellow.com\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0lOYnBnV2txeVo5Zno4SmFvUTRZbm0zNlV1aUNhUjFOUVdYMElKeGlmR3hiWVMzS2pfaFNsOEhMcE9YVVFKdHFDRk0xWXpHRW5xZ0R5dXY5NXNMZDU3VlVBX0FXYXo5SjAyREZNV052UQ?oc=5\" target=\"_blank\">Sam Altman Rules Out A 2026 OpenAI IPO And Blames AI Safety Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yellow.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReuters/other outlets report Sam Altman has ruled out an OpenAI IPO in 2026, citing AI safety work as the reason.\n\n\u5185\u5bb9:\n\u8def\u900f\u793e\u7b49\u5a92\u4f53\u62a5\u9053\uff0cSam Altman \u6392\u9664\u4e86 OpenAI \u5728 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u7406\u7531\u662f AI \u5b89\u5168\u5de5\u4f5c\u3002\n\nWhy it matters:\nRemoves a near-term liquidity/exit path that would otherwise let OpenAI raise public capital or give backers a mark-to-market; keeps OpenAI reliant on private mega-rounds and partner capex (e.g. Microsoft, Oracle) to fund compute, which is exactly the fragile-funding-chain dynamic the C3 signal watches for.\n\n\u5f71\u54cd:\n\u8fd9\u7b49\u4e8e\u5173\u6389\u4e86\u4e00\u4e2a\u8fd1\u671f\u7684\u6d41\u52a8\u6027/\u9000\u51fa\u6e20\u9053\u2014\u2014OpenAI \u6ca1\u6cd5\u9760\u516c\u5f00\u5e02\u573a\u878d\u8d44\uff0c\u4e5f\u6ca1\u6cd5\u8ba9\u73b0\u6709\u6295\u8d44\u4eba\u7684\u6301\u80a1\u5f97\u5230\u516c\u5f00\u5b9a\u4ef7\uff0c\u53ea\u80fd\u7ee7\u7eed\u9760\u79c1\u52df\u5de8\u989d\u878d\u8d44\u548c Microsoft\u3001Oracle \u8fd9\u7c7b\u5408\u4f5c\u4f19\u4f34\u7684\u8d44\u672c\u5f00\u652f\u6491\u7b97\u529b\u9700\u6c42\u3002\u8fd9\u6b63\u662f C3 \u4fe1\u53f7\u76ef\u7684\u90a3\u79cd\u8106\u5f31\u8d44\u91d1\u94fe\u98ce\u9669\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4097,
-      "ts": 1789296256,
-      "ts_str": "2026-09-13 10:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI rules out 2026 IPO as Altman cites safety work - Tech in Asia",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 00:54:00 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxPa1F4VGdEeTFWTy1IbGNLeDFIUHp6ZU5OaHZaWldWbVlDdnBPRmwyb1oteFIxSmdWRHVoNGRuTlJfTVoyTXVaN00yUGlwM0RFNkxWVjc5S25nOFZpdjNpenBqRDBITk15bExzc01wYlhMQ3Rwa3pLZGpqOWZlcTZFTHFUYkc?oc=5\n\nOpenAI rules out 2026 IPO as Altman cites safety work - Tech in Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPa1F4VGdEeTFWTy1IbGNLeDFIUHp6ZU5OaHZaWldWbVlDdnBPRmwyb1oteFIxSmdWRHVoNGRuTlJfTVoyTXVaN00yUGlwM0RFNkxWVjc5S25nOFZpdjNpenBqRDBITk15bExzc01wYlhMQ3Rwa3pLZGpqOWZlcTZFTHFUYkc?oc=5\" target=\"_blank\">OpenAI rules out 2026 IPO as Altman cites safety work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech in Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI ruled out an IPO in 2026, with Sam Altman citing ongoing safety work as the reason.\n\n\u5185\u5bb9:\nOpenAI \u6392\u9664\u4e86 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0cSam Altman \u7ed9\u51fa\u7684\u7406\u7531\u662f\u5b89\u5168\u65b9\u9762\u7684\u5de5\u4f5c\u4ecd\u5728\u8fdb\u884c\u3002\n\nWhy it matters:\nRemoves a near-term liquidity/scrutiny event that would have forced audited financials and public burn-rate disclosure \u2014 keeps OpenAI's capex commitments opaque for longer, which is mildly bearish for anyone trying to verify the C3 burn-rate thesis from outside.\n\n\u5f71\u54cd:\n\u8fd9\u7b49\u4e8e\u628a\u4e00\u4e2a\u672c\u53ef\u80fd\u5f3a\u5236\u62ab\u9732\u5ba1\u8ba1\u8d22\u52a1\u548c\u771f\u5b9e\u70e7\u94b1\u901f\u5ea6\u7684\u6d41\u52a8\u6027\u4e8b\u4ef6\u5f80\u540e\u63a8\u8fdf\uff0c\u5916\u90e8\u60f3\u6838\u5b9e C3 \u70e7\u94b1\u5047\u8bbe\u7684\u96be\u5ea6\u56e0\u6b64\u53c8\u589e\u52a0\u4e86\uff0c\u7b97\u662f\u8f7b\u5ea6\u5229\u7a7a\u3002\n",
       "emailed": false
     }
   ],
