@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789767123,
-  "generated_at_str": "2026-09-18 21:32:03 UTC",
-  "last_event_ts": 1789766044,
+  "generated_at": 1789767316,
+  "generated_at_str": "2026-09-18 21:35:16 UTC",
+  "last_event_ts": 1789767316,
   "tables": {
     "alerts_dedup": {
-      "count": 4302,
-      "last_ts": 1789763721,
-      "last_str": "2026-09-18 20:35:21 UTC"
+      "count": 4303,
+      "last_ts": 1789767316,
+      "last_str": "2026-09-18 21:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -89,14 +89,14 @@
       "last_str": "2026-09-18 20:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4407,
-      "last_ts": 1789765504,
-      "last_str": "2026-09-18 21:05:04 UTC"
+      "count": 4408,
+      "last_ts": 1789767303,
+      "last_str": "2026-09-18 21:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5583,
-      "last_ts": 1789765506,
-      "last_str": "2026-09-18 21:05:06 UTC"
+      "count": 5584,
+      "last_ts": 1789767305,
+      "last_str": "2026-09-18 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 33019,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4310,
+      "ts": 1789767316,
+      "ts_str": "2026-09-18 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] The PCSpecialist Momentum Pro Uses DDR4 To Lower The Price - PC Perspective",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 19:52:30 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPNExqRjBGX25LVkhDMENNdmZLUXR3TDdpV0NwZnNMN2FhaW9CM1dPS0J5emI4bUk0Uk54cXBCTEFZQXVRem9yanVHdmloVVMtT1F5UGhGcXkwWjBpN21FNW9TYXdiZ012dHFMT2dIS3poWjRRNWk1V3dpaDNvNzBfUGZWTE5vQVUwcWdiOVpR?oc=5\n\nThe PCSpecialist Momentum Pro Uses DDR4 To Lower The Price - PC Perspective\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPNExqRjBGX25LVkhDMENNdmZLUXR3TDdpV0NwZnNMN2FhaW9CM1dPS0J5emI4bUk0Uk54cXBCTEFZQXVRem9yanVHdmloVVMtT1F5UGhGcXkwWjBpN21FNW9TYXdiZ012dHFMT2dIS3poWjRRNWk1V3dpaDNvNzBfUGZWTE5vQVUwcWdiOVpR?oc=5\" target=\"_blank\">The PCSpecialist Momentum Pro Uses DDR4 To Lower The Price</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PC Perspective</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA PCSpecialist Momentum Pro listing dropped its price by switching from DDR5 to DDR4 memory, with the same headline duplicated in the RSS feed.\n\n\u5185\u5bb9:\nPCSpecialist Momentum Pro \u8fd9\u6b3e\u4ea7\u54c1\u628a\u5185\u5b58\u4ece DDR5 \u6362\u6210 DDR4 \u4ee5\u964d\u4f4e\u552e\u4ef7\uff0c\u540c\u4e00\u6761\u6807\u9898\u5728 RSS \u91cc\u8fd8\u91cd\u590d\u51fa\u73b0\u4e86\u4e00\u6b21\u3002\n\nWhy it matters:\nThis is a single retailer's SKU-level configuration choice to hit a price point, not a memory-market supply/demand signal \u2014 it doesn't indicate DRAM oversupply, order cancellations, or capex retrenchment. Reads as a C6 false positive from a product-review headline rather than a genuine memory-stress event.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u96f6\u552e\u5546\u4e3a\u538b\u4f4e\u5355\u54c1\u4ef7\u683c\u505a\u7684\u914d\u7f6e\u8c03\u6574\uff0c\u4e0d\u4ee3\u8868\u5185\u5b58\u5e02\u573a\u4f9b\u9700\u51fa\u4e86\u95ee\u9898\uff0c\u4e5f\u8c08\u4e0d\u4e0a\u780d\u5355\u6216\u8d44\u672c\u5f00\u652f\u6536\u7f29\u3002\u66f4\u50cf\u662f\u4e00\u6761\u88ab C6 \u8bef\u5224\u7684\u4ea7\u54c1\u8bc4\u6d4b\u6807\u9898\uff0c\u800c\u4e0d\u662f\u771f\u6b63\u7684\u5185\u5b58\u627f\u538b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4309,
       "ts": 1789763721,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] IPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be \u2018Ill-Advised\u2019 - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 15:08:28 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjJ1SFg4UWo3aVpUQXBVckd2WU8xMjhZNUdMb3VjT2xubkM4MGJCVUluR1kwa2E5dW5HZ2lkcENfRVRlcHNfdVFsTFQ4MmhYMlBOcER0R3lKbEJ2d0R2el9MUUVJX3RLVEN5SFlxUVphNHRhLTkyNW1vbk9sbTQ5UkNwZEFSU0dreFdTRjBqQmdsT19Tdk00?oc=5\n\nIPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be \u2018Ill-Advised\u2019 - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOVjJ1SFg4UWo3aVpUQXBVckd2WU8xMjhZNUdMb3VjT2xubkM4MGJCVUluR1kwa2E5dW5HZ2lkcENfRVRlcHNfdVFsTFQ4MmhYMlBOcER0R3lKbEJ2d0R2el9MUUVJX3RLVEN5SFlxUVphNHRhLTkyNW1vbk9sbTQ5UkNwZEFSU0dreFdTRjBqQmdsT19Tdk00?oc=5\" target=\"_blank\">IPO Delayed: Sam Altman Says an OpenAI Going Public in 2026 Would Be \u2018Ill-Advised\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said an OpenAI IPO in 2026 would be 'ill-advised,' publicly pushing back on near-term public-listing speculation.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a\uff0cOpenAI \u5728 2026 \u5e74\u4e0a\u5e02\u662f\u300c\u4e0d\u660e\u667a\u7684\u300d\uff0c\u516c\u5f00\u5426\u8ba4\u4e86\u8fd1\u671f\u4e0a\u5e02\u7684\u731c\u6d4b\u3002\n\nWhy it matters:\nThis is IPO-speculation news, not a burn-rate or financial-disclosure signal \u2014 it doesn't move the C3 thesis on its own, it just delays the timeline for external financial scrutiny of OpenAI's numbers.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u53ea\u662f IPO \u731c\u6d4b\u7c7b\u65b0\u95fb\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u8d22\u52a1\u62ab\u9732\u4fe1\u53f7\uff0c\u672c\u8eab\u4e0d\u5f71\u54cd C3 \u7684\u8bba\u70b9\u2014\u2014\u53ea\u662f\u628a\u5916\u90e8\u5bf9 OpenAI \u8d22\u52a1\u6570\u5b57\u7684\u5ba1\u89c6\u65f6\u95f4\u70b9\u5f80\u540e\u63a8\u4e86\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4111,
-      "ts": 1789314269,
-      "ts_str": "2026-09-13 15:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's Sam Altman rules out IPO this year, calls AI extinction risk 'unacceptable' - The News International",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 15:20:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivwFBVV95cUxNVlJSNlZZN0tXS2hFWTB2QUF3ZHZXQ0EyX2ZJdktxTzZMdWZuUmVVRUh4QWhJRUY1ZWFEWVNYbXExckhlRlNOb2REUTBZTXRndjJDbThYZnNnZ1dwX0w2Rl9ZRk5aTHppOG52NnNzRWxuMDduMU5iajVUbEpxYmdpMlhYR1lRcGhLMV8yQjIxZDBCczJYcC0tajZGMTZsbHp1MlVUQjNuNUtoQVQtQk0wZlN6RjFIdm1SUUFjUUlmMNIBuwFBVV95cUxPNGdtcEpDZnVhMTlaVko4akVDUnY0c0RxQ2x4Y3N5Q3VPUUNoLXJRdFEzenhZSWNHRHliV0JOLUNUOC1HOWJpREdkVTUxazNiUFNWNmRQRXJJcVRubVVvNUsyclF5SWtsd1pTZW0tbDhZMllBUFk2NFFjakFfLVlNYkItTkdhLUU0Rk92cW8zRU1EaW8xM1F2emlMelFIOGg4R004M2djemtGbUtrdW1hTFNyRUxGQjg2MmJn?oc=5\n\nOpenAI's Sam Altman rules out IPO this year, calls AI extinction risk 'unacceptable' - The News International\n\n<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNVlJSNlZZN0tXS2hFWTB2QUF3ZHZXQ0EyX2ZJdktxTzZMdWZuUmVVRUh4QWhJRUY1ZWFEWVNYbXExckhlRlNOb2REUTBZTXRndjJDbThYZnNnZ1dwX0w2Rl9ZRk5aTHppOG52NnNzRWxuMDduMU5iajVUbEpxYmdpMlhYR1lRcGhLMV8yQjIxZDBCczJYcC0tajZGMTZsbHp1MlVUQjNuNUtoQVQtQk0wZlN6RjFIdm1SUUFjUUlmMNIBuwFBVV95cUxPNGdtcEpDZnVhMTlaVko4akVDUnY0c0RxQ2x4Y3N5Q3VPUUNoLXJRdFEzenhZSWNHRHliV0JOLUNUOC1HOWJpREdkVTUxazNiUFNWNmRQRXJJcVRubVVvNUsyclF5SWtsd1pTZW0tbDhZMllBUFk2NFFjakFfLVlNYkItTkdhLUU0Rk92cW8zRU1EaW8xM1F2emlMelFIOGg4R004M2djemtGbUtrdW1hTFNyRUxGQjg2MmJn?oc=5\" target=\"_blank\">OpenAI's Sam Altman rules out IPO this year, calls AI extinction risk 'unacceptable'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News International</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman publicly ruled out an OpenAI IPO this year and called AI extinction risk 'unacceptable' \u2014 pure commentary, no filing, no financial data.\n\n\u5185\u5bb9:\nSam Altman \u516c\u5f00\u8868\u793a\u4eca\u5e74\u4e0d\u4f1a\u8ba9 OpenAI IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669\u201c\u4e0d\u53ef\u63a5\u53d7\u201d\u2014\u2014\u7eaf\u53e3\u5934\u8868\u6001\uff0c\u6ca1\u6709 filing\uff0c\u4e5f\u6ca1\u6709\u8d22\u52a1\u6570\u636e\u3002\n\nWhy it matters:\nThis is speculation-token noise (the recurring IPO-chatter pattern already flagged for C3), not a substantive burn-rate or capital-structure signal \u2014 no numbers to compare against the >25% QoQ threshold.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e C3 \u91cc\u5e38\u89c1\u7684 IPO \u6295\u673a\u566a\u97f3\uff0c\u4e0d\u662f\u5b9e\u8d28\u6027\u7684\u70e7\u94b1\u901f\u5ea6\u6216\u8d44\u672c\u7ed3\u6784\u4fe1\u53f7\uff0c\u4e5f\u6ca1\u6709\u6570\u5b57\u53ef\u7528\u6765\u5bf9\u7167\u90a3\u6761 >25% \u73af\u6bd4\u7684\u89e6\u53d1\u9608\u503c\u3002\n",
       "emailed": false
     }
   ],
