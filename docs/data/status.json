@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789699262,
-  "generated_at_str": "2026-09-18 02:41:02 UTC",
-  "last_event_ts": 1789698904,
+  "generated_at": 1789699453,
+  "generated_at_str": "2026-09-18 02:44:13 UTC",
+  "last_event_ts": 1789699453,
   "tables": {
     "alerts_dedup": {
-      "count": 4285,
-      "last_ts": 1789692435,
-      "last_str": "2026-09-18 00:47:15 UTC"
+      "count": 4286,
+      "last_ts": 1789699453,
+      "last_str": "2026-09-18 02:44:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-18 01:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 32754,
-      "last_ts": 1789697642,
-      "last_str": "2026-09-18 02:14:02 UTC"
+      "count": 32760,
+      "last_ts": 1789699443,
+      "last_str": "2026-09-18 02:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9848,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4293,
+      "ts": 1789699453,
+      "ts_str": "2026-09-18 02:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] How Cooley is accelerating IPO work with ChatGPT - OpenAI",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 17 Sep 2026 23:18:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YeVF6bldjRm9WWVhsTXB3S1VMTDRONC0xeUYtd3lrWGZnT2hGLUdwZlN2OXBpZURRMV9JQmcwb2R0TUdKb1FWNnZfR1p5WUl0R2pv?oc=5\n\nHow Cooley is accelerating IPO work with ChatGPT - OpenAI\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YeVF6bldjRm9WWVhsTXB3S1VMTDRONC0xeUYtd3lrWGZnT2hGLUdwZlN2OXBpZURRMV9JQmcwb2R0TUdKb1FWNnZfR1p5WUl0R2pv?oc=5\" target=\"_blank\">How Cooley is accelerating IPO work with ChatGPT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OpenAI</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Cooley law-firm article titled \"How Cooley is accelerating IPO work with ChatGPT\" was picked up on the OpenAI-keyword feed.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u6807\u9898\u4e3a\u300aHow Cooley is accelerating IPO work with ChatGPT\u300b\u7684\u5f8b\u6240\u6587\u7ae0\u547d\u4e2d\u4e86 OpenAI \u5173\u952e\u8bcd feed\u3002\n\nWhy it matters:\nThis is routine vendor/product-adoption coverage, not a burn-rate or capex signal \u2014 it's the low-severity default for any OpenAI-keyword hit without an extracted metric.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u666e\u901a\u7684\u4ea7\u54c1\u5e94\u7528\u62a5\u9053\uff0c\u4e0d\u6d89\u53ca burn rate \u6216\u8d44\u672c\u5f00\u652f\u6570\u636e\uff0c\u6ca1\u6709\u53ef\u63d0\u53d6\u6307\u6807\u65f6\u547d\u4e2d OpenAI \u5173\u952e\u8bcd\u9ed8\u8ba4\u5c31\u662f\u8fd9\u4e2a\u4f4e\u4e25\u91cd\u5ea6\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4292,
       "ts": 1789692435,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Nvidia Stock Price Target Rises Past $327 as SpaceX Seals Exclusive Chip Deal - Financial-News.co.uk",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 09:24:08 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxONW1NdVkteHNHbWxpUl9oX3R6QUV3V09sZjk0eTJ3cVNrVUlReE1GaUVEd2lGUXo1T1lnWDdiSW82NFlyTGdCZzFCSEtuUVZYUUFfNmc3NFFQek9VS181SkVHTDVuWkF3WklNRzJTNDJicnFOMk0xd1BCX1dUUThGYTJBa2t1Wk15U2FNTWtfdEQzaks4SFJobGpjT0dnVmg4ZldMU2hqOC1qRlRlVHhB?oc=5\n\nNvidia Stock Price Target Rises Past $327 as SpaceX Seals Exclusive Chip Deal - Financial-News.co.uk\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxONW1NdVkteHNHbWxpUl9oX3R6QUV3V09sZjk0eTJ3cVNrVUlReE1GaUVEd2lGUXo1T1lnWDdiSW82NFlyTGdCZzFCSEtuUVZYUUFfNmc3NFFQek9VS181SkVHTDVuWkF3WklNRzJTNDJicnFOMk0xd1BCX1dUUThGYTJBa2t1Wk15U2FNTWtfdEQzaks4SFJobGpjT0dnVmg4ZldMU2hqOC1qRlRlVHhB?oc=5\" target=\"_blank\">Nvidia Stock Price Target Rises Past $327 as SpaceX Seals Exclusive Chip Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial-News.co.uk</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Nvidia's stock price target was raised past $327 after SpaceX reportedly secured an exclusive chip supply deal with Nvidia.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\uff0c\u5728 SpaceX \u4e0e Nvidia \u8fbe\u6210\u636e\u79f0\u7684\u72ec\u5bb6\u82af\u7247\u4f9b\u5e94\u534f\u8bae\u540e\uff0cNvidia \u7684\u80a1\u4ef7\u76ee\u6807\u4ef7\u88ab\u4e0a\u8c03\u81f3 $327 \u4ee5\u4e0a\u3002\n\nWhy it matters:\nThis is a mission-adjacent SpaceX headline, not evidence about the SPCX unlock/passive-flow mechanics C11 tracks \u2014 it shows up because it mentions SpaceX, but it's about Nvidia demand optimism, not index weighting, ETF flows, or lock-up expiry. Treat as low-signal noise unless it's paired with an actual unlock-calendar or holdings-diff event.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u53ea\u662f\u56e0\u4e3a\u63d0\u5230 SpaceX \u624d\u88ab\u6293\u8fdb C11\uff0c\u5185\u5bb9\u5176\u5b9e\u662f Nvidia \u9700\u6c42\u4e50\u89c2\u60c5\u7eea\uff0c\u8ddf C11 \u771f\u6b63\u76ef\u7684\u89e3\u7981\u65e5\u5386\u3001\u88ab\u52a8\u8d44\u91d1\u6d41\u3001ETF \u6301\u4ed3\u53d8\u5316\u6ca1\u5173\u7cfb\u3002\u9664\u975e\u540c\u65f6\u4f34\u968f\u771f\u6b63\u7684\u89e3\u7981\u6216\u6301\u4ed3\u6570\u636e\u53d8\u52a8\uff0c\u5426\u5219\u5e94\u89c6\u4e3a\u4f4e\u4fe1\u53f7\u566a\u97f3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4092,
-      "ts": 1789292669,
-      "ts_str": "2026-09-13 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Sam Altman Rules Out OpenAI IPO in 2026 - ForkLog",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 13 Sep 2026 07:31:45 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE85QjlTNC1MZzVudzdVVVVYNy1EdkJOWmI4WWtqWm5JWEF0RXUtdC1GazBuWnBjdEhFT2RXc3V5Z2x0YnBRR3o4VFZsVVpLV3ZjTkJoMHYtNHIzSmptaTh0dF93cktJRFBSQXM5bmVVTFc?oc=5\n\nSam Altman Rules Out OpenAI IPO in 2026 - ForkLog\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE85QjlTNC1MZzVudzdVVVVYNy1EdkJOWmI4WWtqWm5JWEF0RXUtdC1GazBuWnBjdEhFT2RXc3V5Z2x0YnBRR3o4VFZsVVpLV3ZjTkJoMHYtNHIzSmptaTh0dF93cktJRFBSQXM5bmVVTFc?oc=5\" target=\"_blank\">Sam Altman Rules Out OpenAI IPO in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ForkLog</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports Sam Altman ruling out an OpenAI IPO in 2026; the feed carried the identical title twice.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053 Sam Altman \u6392\u9664\u4e86 OpenAI \u5728 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u540c\u4e00\u6761\u6807\u9898\u5728 feed \u91cc\u91cd\u590d\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nThis is C3's routine OpenAI-keyword news noise rather than a burn-rate metric move, so it's MED by default \u2014 ruling out an IPO removes a near-term liquidity/valuation-marking event for the AI-capex thesis rather than adding stress.\n\n\u5f71\u54cd:\n\u8fd9\u662f C3 \u5e38\u89c4\u7684 OpenAI \u5173\u952e\u8bcd\u65b0\u95fb\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6307\u6807\u53d8\u52a8\uff0c\u6240\u4ee5\u9ed8\u8ba4\u662f MED\uff1b\u6392\u9664 IPO \u610f\u5473\u7740\u8fd1\u671f\u5c11\u4e86\u4e00\u4e2a\u80fd\u7ed9 AI capex \u53d9\u4e8b\u63d0\u4f9b\u6d41\u52a8\u6027/\u4f30\u503c\u951a\u70b9\u7684\u4e8b\u4ef6\uff0c\u672c\u8eab\u8c08\u4e0d\u4e0a\u52a0\u5267\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
