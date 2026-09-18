@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-09-18 22:26:25 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-09-18 22:29:23 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,63 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="4312" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.61% (+66bp off 90d-low)</span>
+    <span class="meta">2026-09-18 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-17
+Current:  2.61%
+90d low:  1.95%
+Move:     +66bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year TIPS real yield hit 2.61% on 2026-09-17, up 0.66pp from its trailing-90-day low of 1.95%.
+
+内容:
+10 年期 TIPS 实际收益率在 2026-09-17 升至 2.61%，较过去 90 天低点 1.95% 上升了 0.66 个百分点。
+
+Why it matters:
+Real yields are the discount rate for long-duration AI capex bets — a rise this fast tightens financial conditions and raises the hurdle rate for data-center buildouts funded on projected future cash flows. C10 mirrors C7&#39;s structure and escalates MED→HIGH at 2x the trigger off the same trailing-90 low.
+
+影响:
+实际收益率是长久期 AI capex 押注的贴现率——涨得这么快会收紧金融条件，抬高那些靠未来现金流预期融资的数据中心项目的门槛。C10 和 C7 结构一致，同样以过去 90 天低点为基准，涨幅达到触发值 2 倍时从 MED 升到 HIGH。
+</pre>
+  <button class="mark-read" type="button" data-id="4312">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="4313" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.61% ≥ 2.50%</span>
+    <span class="meta">2026-09-18 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-17
+Current:  2.61%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield hit 2.61%, above the 2.5 stress threshold, as of 2026-09-17.
+
+内容:
+截至 2026-09-17，10年期实际（TIPS）收益率报 2.61%，突破 2.5 的压力阈值。
+
+Why it matters:
+Real yields this high raise the discount rate applied to long-duration AI-capex cash flows and tighten financial conditions broadly — persistent readings above threshold squeeze the multiples that justify current AI infrastructure spend.
+
+影响:
+实际利率这么高，会抬高给 AI capex 这类长久期现金流打折的折现率，整体金融环境也跟着收紧——这个读数持续压在阈值之上，会挤压支撑当前 AI 基建投入的估值倍数。
+</pre>
+  <button class="mark-read" type="button" data-id="4313">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4311" data-catalyst="C11" data-severity="MED">
   <summary>
@@ -6441,84 +6498,20 @@ IPO 搁置意味着市场少了一个用来给 OpenAI 估值定价的近期流�
   <button class="mark-read" type="button" data-id="4113">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4114" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] Altman: OpenAI IPO Won&#39;t Happen in 2026 - صحيفة مال</span>
-    <span class="meta">2026-09-13 16:14 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Sun, 13 Sep 2026 12:30:12 GMT
-Link:      https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZ1NFemU5WF9qNmZ3QmlkdkRfdkN2RGZZdzlfblRobFl0a0xCaE51U2hFTjNEUVdYbFJRRk1VZFdTMWZyR1pwWU1fbTFFLUtWdU5IcUhRVVkxbU5xMUhFTV9xUkswS2c1?oc=5
-
-Altman: OpenAI IPO Won&#39;t Happen in 2026 - صحيفة مال
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZ1NFemU5WF9qNmZ3QmlkdkRfdkN2RGZZdzlfblRobFl0a0xCaE51U2hFTjNEUVdYbFJRRk1VZFdTMWZyR1pwWU1fbTFFLUtWdU5IcUhRVVkxbU5xMUhFTV9xUkswS2c1?oc=5&#34; target=&#34;_blank&#34;&gt;Altman: OpenAI IPO Won&#39;t Happen in 2026&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;صحيفة مال&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-Sam Altman said OpenAI will not IPO in 2026, according to news coverage picked up by the tracker&#39;s IPO keyword.
-
-内容:
-Sam Altman 表示 OpenAI 不会在 2026 年 IPO，这条消息命中了 tracker 的 IPO 关键词。
-
-Why it matters:
-A founder ruling out a near-term IPO removes one potential liquidity/valuation check on OpenAI&#39;s private marks, letting the current funding-round valuations stand unchallenged by public-market pricing for longer. On its own this is routine founder messaging, not a stress signal — MED severity here mostly reflects the tracker&#39;s blunt keyword match on &#34;IPO&#34; rather than new information.
-
-影响:
-创始人排除近期 IPO，意味着公开市场定价这道校验私募估值的关卡被推得更远，OpenAI 现有融资轮的估值短期内不会被公开市场检验。这本身是常规的创始人表态，算不上压力信号——MED 级别主要是因为 tracker 用「IPO」关键词粗暴匹配，不代表出现了新信息。
-</pre>
-  <button class="mark-read" type="button" data-id="4114">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4112" data-catalyst="C11" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C11</code>
-    <span class="subj">[C11-MED] SpaceX (SPCX) Nasdaq 100 Weight Set to More Than Double, Fueling Massive ETF Inflows - Blockonomi</span>
-    <span class="meta">2026-09-13 15:47 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Sun, 13 Sep 2026 11:03:03 GMT
-Link:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjZDVE9UU0tPNUZSSVF3UWh4dDlnN3ZTLWRNZDNxbHNYVGh2ZDBVZUZlcXF6cFJkT0NrUXc5OFNDVFJubWVZbk14MlMycFdhRDA3cFZHRWgwRUJKZ3Z5cjhIa2lBVnBZQnlLNjg1TGFlUzJXRHRnXzlPaUswTnFGenBzXzlHQnZRYkdZRFJSTHV3ZDhqN3ZNbFpNQjZwOWtGZ0d4Y0N5OFc?oc=5
-
-SpaceX (SPCX) Nasdaq 100 Weight Set to More Than Double, Fueling Massive ETF Inflows - Blockonomi
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjZDVE9UU0tPNUZSSVF3UWh4dDlnN3ZTLWRNZDNxbHNYVGh2ZDBVZUZlcXF6cFJkT0NrUXc5OFNDVFJubWVZbk14MlMycFdhRDA3cFZHRWgwRUJKZ3Z5cjhIa2lBVnBZQnlLNjg1TGFlUzJXRHRnXzlPaUswTnFGenBzXzlHQnZRYkdZRFJSTHV3ZDhqN3ZNbFpNQjZwOWtGZ0d4Y0N5OFc?oc=5&#34; target=&#34;_blank&#34;&gt;SpaceX (SPCX) Nasdaq 100 Weight Set to More Than Double, Fueling Massive ETF Inflows&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Blockonomi&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-SpaceX (SPCX) is set to have its Nasdaq-100 index weight more than double, which will force passive-tracking ETFs to buy substantially more shares.
-
-内容:
-SpaceX (SPCX) 在纳斯达克100指数中的权重即将翻倍以上，这将迫使被动跟踪型 ETF 大幅增持该股票。
-
-Why it matters:
-A mechanical index-weight increase drives large, price-insensitive buying from index funds regardless of fundamentals — this is exactly the passive-flow amplification mechanism C11 is built to watch, and it inflates the stock&#39;s valuation independent of the underlying business.
-
-影响:
-指数权重的机械式上调会带来大量对价格不敏感的被动买盘，跟基本面没关系——这正是 C11 要盯的被动资金流放大机制，会把股价推高到脱离实际业务价值的水平。
-</pre>
-  <button class="mark-read" type="button" data-id="4112">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4304</td>
-<td>2026-09-18 21:47:16 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4306</td>
+<td>2026-09-18 22:29:22 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>66</td>
-<td>2026-09-17 22:29:11 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>68</td>
+<td>2026-09-18 22:29:10 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
