@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789870262,
-  "generated_at_str": "2026-09-20 02:11:02 UTC",
-  "last_event_ts": 1789869905,
+  "generated_at": 1789870457,
+  "generated_at_str": "2026-09-20 02:14:17 UTC",
+  "last_event_ts": 1789870457,
   "tables": {
     "alerts_dedup": {
-      "count": 4333,
-      "last_ts": 1789868654,
-      "last_str": "2026-09-20 01:44:14 UTC"
+      "count": 4334,
+      "last_ts": 1789870457,
+      "last_str": "2026-09-20 02:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-20 02:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33284,
-      "last_ts": 1789868644,
-      "last_str": "2026-09-20 01:44:04 UTC"
+      "count": 33291,
+      "last_ts": 1789870443,
+      "last_str": "2026-09-20 02:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9986,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4341,
+      "ts": 1789870457,
+      "ts_str": "2026-09-20 02:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] It's official: OpenAI files IPO - Mashable",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 19 Sep 2026 22:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\n\nIt's official: OpenAI files IPO - Mashable\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\" target=\"_blank\">It's official: OpenAI files IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mashable</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI has officially filed for an IPO, per duplicated headline text from a Google News RSS entry.\n\n\u5185\u5bb9:\n\u6839\u636e Google News RSS \u91cc\u91cd\u590d\u51fa\u73b0\u7684\u6807\u9898\u6587\u672c\uff0cOpenAI \u5df2\u6b63\u5f0f\u63d0\u4ea4 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nAn IPO filing forces public disclosure of OpenAI's financials \u2014 burn rate, revenue, compute costs \u2014 which the C3 thesis depends on; a >25% QoQ burn-rate jump on that filing would escalate this to HIGH. For now it's just confirmation the filing process has started, not new financial data.\n\n\u5f71\u54cd:\nIPO \u7533\u8bf7\u4f1a\u5f3a\u5236\u516c\u5f00\u8d22\u52a1\u6570\u636e\u2014\u2014\u70e7\u94b1\u901f\u5ea6\u3001\u8425\u6536\u3001\u7b97\u529b\u6210\u672c\u2014\u2014\u8fd9\u6b63\u662f C3 \u8bba\u70b9\u4f9d\u8d56\u7684\u4e1c\u897f\uff1b\u5982\u679c\u7533\u62a5\u6587\u4ef6\u91cc\u70e7\u94b1\u901f\u5ea6\u73af\u6bd4\u6da8\u8d85 25%\uff0c\u4f1a\u5347\u7ea7\u4e3a HIGH\u3002\u76ee\u524d\u53ea\u662f\u786e\u8ba4\u7533\u62a5\u6d41\u7a0b\u542f\u52a8\uff0c\u8fd8\u6ca1\u6709\u65b0\u7684\u8d22\u52a1\u6570\u5b57\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4340,
       "ts": 1789868654,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 01:34:13 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\n\nHBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\" target=\"_blank\">HBM4 Shortage: DRAM Inventory Falls Below 10 Days</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports HBM4 shortage with DRAM inventory falling below 10 days, indicating rapid depletion of memory chip stock.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u4e00\u6761\u6807\u9898\u62a5\u9053 HBM4 \u77ed\u7f3a\uff0cDRAM \u5e93\u5b58\u8dcc\u7834 10 \u5929\u3002\n\nWhy it matters:\nSub-10-day DRAM inventory signals demand is outrunning supply hard enough that buffers are nearly gone \u2014 consistent with AI accelerators (HBM4) soaking up memory capacity. This tightens the memory-cost input into every AI-server BOM, a cost-side pressure that compounds the capex-payback question rather than resolving it.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u8dcc\u7834 10 \u5929\u8bf4\u660e\u9700\u6c42\u6d88\u8017\u901f\u5ea6\u5df2\u7ecf\u5feb\u5230\u7f13\u51b2\u51e0\u4e4e\u8017\u5c3d\uff0c\u7b26\u5408 HBM4 \u88ab AI \u52a0\u901f\u5668\u5927\u91cf\u5403\u6389\u4ea7\u80fd\u7684\u5224\u65ad\u3002\u8fd9\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u91cc\u7684\u5185\u5b58\u90e8\u5206\uff0c\u662f\u5728\u6210\u672c\u7aef\u7ed9 AI capex \u56de\u672c\u903b\u8f91\u518d\u52a0\u4e00\u5c42\u538b\u529b\uff0c\u800c\u4e0d\u662f\u7f13\u89e3\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4142,
-      "ts": 1789351521,
-      "ts_str": "2026-09-14 02:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] HBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 01:34:13 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\n\nHBM4 Shortage: DRAM Inventory Falls Below 10 Days - tech-insider.org\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE4zTFJVX3h6OGtCc2VKaHMwWXB0ZHZsQUFvSUJFWUVqQTRXSUpWRFdDU3g4aDdCRWlBTWNOQ25sOUtnMUlIZDVpNU93enB5T0R3YUxwRWI5QTIyWE1helZtcU1fMmZtWWFQY0p0cFNRYzBVZUhr?oc=5\" target=\"_blank\">HBM4 Shortage: DRAM Inventory Falls Below 10 Days</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tech-insider.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports HBM4 shortage with DRAM inventory falling below 10 days, indicating rapid depletion of memory chip stock.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u4e00\u6761\u6807\u9898\u62a5\u9053 HBM4 \u77ed\u7f3a\uff0cDRAM \u5e93\u5b58\u8dcc\u7834 10 \u5929\u3002\n\nWhy it matters:\nSub-10-day DRAM inventory signals demand is outrunning supply hard enough that buffers are nearly gone \u2014 consistent with AI accelerators (HBM4) soaking up memory capacity. This tightens the memory-cost input into every AI-server BOM, a cost-side pressure that compounds the capex-payback question rather than resolving it.\n\n\u5f71\u54cd:\n\u5e93\u5b58\u8dcc\u7834 10 \u5929\u8bf4\u660e\u9700\u6c42\u6d88\u8017\u901f\u5ea6\u5df2\u7ecf\u5feb\u5230\u7f13\u51b2\u51e0\u4e4e\u8017\u5c3d\uff0c\u7b26\u5408 HBM4 \u88ab AI \u52a0\u901f\u5668\u5927\u91cf\u5403\u6389\u4ea7\u80fd\u7684\u5224\u65ad\u3002\u8fd9\u4f1a\u63a8\u9ad8\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7269\u6599\u6210\u672c\u91cc\u7684\u5185\u5b58\u90e8\u5206\uff0c\u662f\u5728\u6210\u672c\u7aef\u7ed9 AI capex \u56de\u672c\u903b\u8f91\u518d\u52a0\u4e00\u5c42\u538b\u529b\uff0c\u800c\u4e0d\u662f\u7f13\u89e3\u3002\n",
       "emailed": false
     }
   ],
