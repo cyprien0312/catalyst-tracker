@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-09-21 22:26:32 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-09-21 22:29:25 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,63 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4417" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.68% ≥ 2.50%</span>
+    <span class="meta">2026-09-21 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-18
+Current:  2.68%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year TIPS-derived real yield (FRED series REAL10) reached 2.68% on 2026-09-18, crossing the 2.5% stress threshold.
+
+内容:
+10 年期 TIPS 实际收益率（FRED REAL10 系列）2026-09-18 达到 2.68%，突破 2.5% 的压力阈值。
+
+Why it matters:
+Rising real yields raise the discount rate applied to long-duration AI-capex bets and make debt-funded data-center buildouts more expensive to finance — a direct headwind to the AI-infrastructure spend cycle, independent of credit spreads or equity sentiment.
+
+影响:
+实际收益率走高会抬高长久期 AI capex 项目的折现率，也让靠举债建数据中心的模式融资成本更高——这是对 AI 基建支出周期的直接利空，跟信用利差或股市情绪无关。
+</pre>
+  <button class="mark-read" type="button" data-id="4417">mark read</button>
+</details>
+
+<details class="alert sev-MED" data-id="4416" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.68% (+69bp off 90d-low)</span>
+    <span class="meta">2026-09-21 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-18
+Current:  2.68%
+90d low:  1.99%
+Move:     +69bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield jumped to 2.68% on 2026-09-18, up 0.69pp from its trailing-90-day low of 1.99%.
+
+内容:
+10 年期实际（TIPS）收益率在 2026-09-18 升至 2.68%，较过去 90 天低点 1.99% 上升了 0.69 个百分点。
+
+Why it matters:
+Rising real yields raise the discount rate on long-duration AI-capex cash flows and tighten financial conditions broadly — a headwind for the same speculative growth names driving the AI infrastructure buildout. This crosses the 2x-trigger threshold that escalates C10 to HIGH.
+
+影响:
+实际利率上升会提高 AI capex 这类长久期现金流的贴现率，也会整体收紧金融环境——对撑起 AI 基建热潮的这批高估值成长股是利空。这次涨幅达到了触发线的 2 倍，所以 C10 升级到 HIGH。
+</pre>
+  <button class="mark-read" type="button" data-id="4416">mark read</button>
+</details>
 
 <details class="alert sev-CRITICAL" data-id="4415" data-catalyst="C3" data-severity="CRITICAL">
   <summary>
@@ -6454,77 +6511,20 @@ A jump from the prior ~$500bn range to $1.2tn private-market pricing would mark 
   <button class="mark-read" type="button" data-id="4219">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4216" data-catalyst="C10" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C10</code>
-    <span class="subj">[C10-MED] 10y Real Yield rising: 2.60% (+67bp off 90d-low)</span>
-    <span class="meta">2026-09-15 22:29 UTC · muted</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-09-14
-Current:  2.60%
-90d low:  1.93%
-Move:     +67bp off 90d-low (fire ≥ +40bp)
-
-────────────────────────────────────────────────────────────
-What this means:
-The 10-year TIPS real yield hit 2.60pp on 2026-09-14, up 0.67pp from its trailing-90-day low of 1.93pp — a rise flagged by C10&#39;s REAL_YIELD_SPIKE trigger.
-
-内容:
-10 年期 TIPS 实际收益率在 2026-09-14 达到 2.60pp，较过去 90 天低点 1.93pp 上升 0.67pp，触发了 C10 的 REAL_YIELD_SPIKE。
-
-Why it matters:
-Real yields this high raise the discount rate applied to long-duration AI-capex cash flows that mostly land years out, directly compressing the valuation these bets depend on. A 0.67pp move off the recent low crossing C10&#39;s trigger threshold signals liquidity is tightening under the AI trade, not just around it.
-
-影响:
-实际收益率走高会提高远期现金流的折现率，而 AI capex 的回报大多要等好几年后才兑现，这直接压低这类投资的估值。这次 0.67pp 的涨幅已经越过 C10 的触发线，说明流动性收紧不只是发生在 AI 交易外围，而是已经影响到它本身。
-</pre>
-  <button class="mark-read" type="button" data-id="4216">mark read</button>
-</details>
-
-<details class="alert sev-HIGH" data-id="4217" data-catalyst="C10" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C10</code>
-    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.60% ≥ 2.50%</span>
-    <span class="meta">2026-09-15 22:29 UTC</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-09-14
-Current:  2.60%
-Stress ≥: 2.50%
-
-────────────────────────────────────────────────────────────
-What this means:
-The 10-year real (TIPS) yield hit 2.60pp, matching the C10 stress threshold of 2.50pp and triggering off the trailing-90-day low.
-
-内容:
-10 年期实际利率（TIPS）报 2.60pp，触及 C10 的 2.50pp 压力阈值，由过去 90 天低点触发。
-
-Why it matters:
-Real yields at this level tighten financial conditions and raise the discount rate on long-duration AI capex bets — the further above 2.5 it runs, the more the market re-prices speculative multiples downward, mirroring the C7 credit-spread mechanism.
-
-影响:
-实际利率升到这个水平会收紧金融环境，抬高长久期 AI capex 押注的贴现率——数值越往上冲，市场对投机性估值的下修压力就越大，逻辑和 C7 信用利差那条一样。
-</pre>
-  <button class="mark-read" type="button" data-id="4217">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4408</td>
-<td>2026-09-21 22:14:16 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4410</td>
+<td>2026-09-21 22:29:25 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>68</td>
-<td>2026-09-18 22:29:10 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>70</td>
+<td>2026-09-21 22:29:14 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
