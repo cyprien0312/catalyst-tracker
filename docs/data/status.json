@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790014262,
-  "generated_at_str": "2026-09-21 18:11:02 UTC",
-  "last_event_ts": 1790013906,
+  "generated_at": 1790014456,
+  "generated_at_str": "2026-09-21 18:14:16 UTC",
+  "last_event_ts": 1790014456,
   "tables": {
     "alerts_dedup": {
-      "count": 4399,
-      "last_ts": 1790005633,
-      "last_str": "2026-09-21 15:47:13 UTC"
+      "count": 4400,
+      "last_ts": 1790014456,
+      "last_str": "2026-09-21 18:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-20 23:00:36 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5748,
-      "last_ts": 1790012645,
-      "last_str": "2026-09-21 17:44:05 UTC"
+      "count": 5752,
+      "last_ts": 1790014445,
+      "last_str": "2026-09-21 18:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1362,
-      "last_ts": 1790010846,
-      "last_str": "2026-09-21 17:14:06 UTC"
+      "count": 1363,
+      "last_ts": 1790014445,
+      "last_str": "2026-09-21 18:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6201,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-21 18:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33763,
-      "last_ts": 1790012643,
-      "last_str": "2026-09-21 17:44:03 UTC"
+      "count": 33773,
+      "last_ts": 1790014443,
+      "last_str": "2026-09-21 18:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10099,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4407,
+      "ts": 1790014456,
+      "ts_str": "2026-09-21 18:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] No IPO For OpenAI? Palantir CEO Says Nationalisation Only Viable Path For Frontier AI Labs - ndtvprofit.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 17:48:05 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxNVVpaMEZrakZBaVJXd1ZiOWk0Rnc4V3dCeGYzZnZnaXJXNlVmQndKTmNQYThLbXZxZWxjMjFEYzd4OV96c2tFclNmak9wNFhFdzRLZXlsTnpzRVBvSEdwUXQxSUp0Nk1JNlVidHIyUksyY1g0WlFzZkxJaFhmdjNIVkd3ZlRhdDFqQkFlaVEydjQ4Mnk3c25iZmNVWFRCc2tESWtlTkR2RmhtaGYzRjF3R0xLWjdpN3ZoVjdka0Vub2k4YnBDSC1DWUFLYXhmVEXSAdcBQVVfeXFMT2ZZdllVZV9pYk0wbjVPcjV2YlA4ZTJpWjM1RlJseHByM2owSXRkcXRQZDZGX2FXR01VaENTZEdJNGFpMUNuWjJhS1A4ZnlTc2N1ZUxNQXNDUFhnREFxTk8ybHUtUGttckVxVGdENWQ2R1N0ZlB3RHByUGMyU2V5Wmxtc2NiWDZtMnVFUmhhZzZCRDE1WWRaZDl4VWU0ekYydWhqWWFEaHVabFppeVduRGZxYmVnVFg1QVJxSHFXLXJXOFdTRzRkZkZvMFF5NnhqMWFhTXYyeVk?oc=5\n\nNo IPO For OpenAI? Palantir CEO Says Nationalisation Only Viable Path For Frontier AI Labs - ndtvprofit.com\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNVVpaMEZrakZBaVJXd1ZiOWk0Rnc4V3dCeGYzZnZnaXJXNlVmQndKTmNQYThLbXZxZWxjMjFEYzd4OV96c2tFclNmak9wNFhFdzRLZXlsTnpzRVBvSEdwUXQxSUp0Nk1JNlVidHIyUksyY1g0WlFzZkxJaFhmdjNIVkd3ZlRhdDFqQkFlaVEydjQ4Mnk3c25iZmNVWFRCc2tESWtlTkR2RmhtaGYzRjF3R0xLWjdpN3ZoVjdka0Vub2k4YnBDSC1DWUFLYXhmVEXSAdcBQVVfeXFMT2ZZdllVZV9pYk0wbjVPcjV2YlA4ZTJpWjM1RlJseHByM2owSXRkcXRQZDZGX2FXR01VaENTZEdJNGFpMUNuWjJhS1A4ZnlTc2N1ZUxNQXNDUFhnREFxTk8ybHUtUGttckVxVGdENWQ2R1N0ZlB3RHByUGMyU2V5Wmxtc2NiWDZtMnVFUmhhZzZCRDE1WWRaZDl4VWU0ekYydWhqWWFEaHVabFppeVduRGZxYmVnVFg1QVJxSHFXLXJXOFdTRzRkZkZvMFF5NnhqMWFhTXYyeVk?oc=5\" target=\"_blank\">No IPO For OpenAI? Palantir CEO Says Nationalisation Only Viable Path For Frontier AI Labs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ndtvprofit.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item speculates that OpenAI cannot IPO, with Palantir CEO Alex Karp suggesting nationalisation is the only viable path for frontier AI labs.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0 OpenAI \u53ef\u80fd\u65e0\u6cd5 IPO\uff0cPalantir CEO Alex Karp \u8ba4\u4e3a\u56fd\u6709\u5316\u662f\u524d\u6cbf AI \u5b9e\u9a8c\u5ba4\u552f\u4e00\u53ef\u884c\u7684\u51fa\u8def\u3002\n\nWhy it matters:\nThis is opinion/speculation, not a filing or hard metric \u2014 it reflects growing public debate over whether frontier AI labs can sustain private/IPO funding models, tying into the broader question of who backstops the capex if OpenAI's path to liquidity is blocked.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u8bc4\u8bba/\u731c\u6d4b\uff0c\u4e0d\u662f filing \u6216\u786c\u6570\u636e\uff0c\u4f46\u53cd\u6620\u51fa\u5bf9\u524d\u6cbf AI \u5b9e\u9a8c\u5ba4\u80fd\u5426\u9760\u79c1\u52df/IPO \u6a21\u5f0f\u6491\u4e0b\u53bb\u7684\u516c\u5f00\u8d28\u7591\u5728\u5347\u6e29\uff0c\u7275\u8fde\u5230\u5982\u679c OpenAI \u7684\u9000\u51fa\u901a\u9053\u88ab\u5835\uff0ccapex \u6700\u7ec8\u8c01\u6765\u515c\u5e95\u8fd9\u4e2a\u66f4\u5927\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4406,
       "ts": 1790005633,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 13:31:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\n\nSamsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\" target=\"_blank\">Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Android Headlines</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung reportedly plans to raise memory chip prices, a move flagged as likely to push smartphone prices higher.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSamsung \u8ba1\u5212\u4e0a\u8c03\u5185\u5b58\u82af\u7247\u4ef7\u683c\uff0c\u6b64\u4e3e\u53ef\u80fd\u63a8\u9ad8\u667a\u80fd\u624b\u673a\u552e\u4ef7\u3002\n\nWhy it matters:\nA price hike signals tight DRAM/NAND supply amid AI-driven demand \u2014 the same dynamic C6 is built to catch. But this is a single-source consumer-electronics headline, not a hyperscaler capex or datacenter-memory data point, so it's weak evidence for the AI-infra bubble-stress thesis specifically.\n\n\u5f71\u54cd:\n\u6da8\u4ef7\u610f\u5473\u7740 DRAM/NAND \u4f9b\u7ed9\u56e0 AI \u9700\u6c42\u8d8b\u7d27\uff0c\u8fd9\u6b63\u662f C6 \u60f3\u6355\u6349\u7684\u52a8\u6001\u3002\u4f46\u8fd9\u6761\u6d88\u606f\u53ea\u662f\u5355\u4e00\u6765\u6e90\u7684\u6d88\u8d39\u7535\u5b50\u7c7b\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u6216\u6570\u636e\u4e2d\u5fc3\u5185\u5b58\u6570\u636e\uff0c\u5bf9 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u8bba\u7684\u8bc1\u636e\u529b\u6709\u9650\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4207,
-      "ts": 1789474456,
-      "ts_str": "2026-09-15 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Chief Sam Altman Rules Out 2026 IPO as AI Risks Mount. Amodei and Musk Agree. - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 09:36:03 GMT\nLink:      https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ0E2MDBaTERXNlh5cEJSMXJWRklxb2ZoamFHV0ktVC1EcUZWUFgtb3hmQzRCeEk3LTRJSmZOdTdsSmc4RkFCMV82V3hfZzIzczhHTzJ6R1NwSF8tMjJNMnlnVnk2bnN1b3pjMHJkdTFjRlhjbkIxUldUTHJSSld1OTBoMG15RHJUdHNWbVRCWXdmN004MTE2cG1CNTEzc09nVUhYR1JoN1FOMERMQ0lfTkppYVVkSTVJb25nS195S19JLW91d2lpWkZWamw0MUpySHNYRi1NTnN1UjJu?oc=5\n\nOpenAI Chief Sam Altman Rules Out 2026 IPO as AI Risks Mount. Amodei and Musk Agree. - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ0E2MDBaTERXNlh5cEJSMXJWRklxb2ZoamFHV0ktVC1EcUZWUFgtb3hmQzRCeEk3LTRJSmZOdTdsSmc4RkFCMV82V3hfZzIzczhHTzJ6R1NwSF8tMjJNMnlnVnk2bnN1b3pjMHJkdTFjRlhjbkIxUldUTHJSSld1OTBoMG15RHJUdHNWbVRCWXdmN004MTE2cG1CNTEzc09nVUhYR1JoN1FOMERMQ0lfTkppYVVkSTVJb25nS195S19JLW91d2lpWkZWamw0MUpySHNYRi1NTnN1UjJu?oc=5\" target=\"_blank\">OpenAI Chief Sam Altman Rules Out 2026 IPO as AI Risks Mount. Amodei and Musk Agree.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman said OpenAI will not pursue an IPO in 2026, citing rising AI risk; Dario Amodei and Elon Musk were reported as agreeing with that risk assessment.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a OpenAI 2026 \u5e74\u4e0d\u4f1a IPO\uff0c\u7406\u7531\u662f AI \u98ce\u9669\u4e0a\u5347\uff1b\u62a5\u9053\u79f0 Dario Amodei \u548c Elon Musk \u90fd\u8ba4\u540c\u8fd9\u4e00\u98ce\u9669\u5224\u65ad\u3002\n\nWhy it matters:\nNo IPO means no new disclosure regime or public burn-rate reporting for OpenAI \u2014 the C3 thesis stays dependent on leaks and voluntary statements rather than filings. The risk framing from Altman, Amodei, and Musk together also reads as expectation-setting ahead of any future funding round, not new financial information.\n\n\u5f71\u54cd:\n\u4e0d IPO \u610f\u5473\u7740 OpenAI \u4e0d\u4f1a\u6709\u5f3a\u5236\u4fe1\u606f\u62ab\u9732\u6216\u516c\u5f00\u70e7\u94b1\u6570\u636e\uff0cC3 \u7684\u5224\u636e\u53ea\u80fd\u7ee7\u7eed\u9760\u6cc4\u9732\u548c\u81ea\u613f\u8868\u6001\u6491\u7740\uff0c\u7f3a\u5c11 filing \u7ea7\u522b\u7684\u786c\u6570\u636e\u3002Altman\u3001Amodei\u3001Musk \u4e00\u8d77\u628a\u98ce\u9669\u53d9\u4e8b\u62ac\u51fa\u6765\uff0c\u66f4\u50cf\u662f\u5728\u4e3a\u672a\u6765\u67d0\u8f6e\u878d\u8d44\u505a\u9884\u671f\u7ba1\u7406\uff0c\u4e0d\u662f\u65b0\u7684\u8d22\u52a1\u4fe1\u606f\u3002\n",
       "emailed": false
     }
   ],
