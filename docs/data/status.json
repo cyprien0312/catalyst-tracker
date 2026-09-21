@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790016062,
-  "generated_at_str": "2026-09-21 18:41:02 UTC",
-  "last_event_ts": 1790015706,
+  "generated_at": 1790016259,
+  "generated_at_str": "2026-09-21 18:44:19 UTC",
+  "last_event_ts": 1790016258,
   "tables": {
     "alerts_dedup": {
-      "count": 4400,
-      "last_ts": 1790014456,
-      "last_str": "2026-09-21 18:14:16 UTC"
+      "count": 4402,
+      "last_ts": 1790016258,
+      "last_str": "2026-09-21 18:44:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-21 18:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33773,
-      "last_ts": 1790014443,
-      "last_str": "2026-09-21 18:14:03 UTC"
+      "count": 33784,
+      "last_ts": 1790016242,
+      "last_str": "2026-09-21 18:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10099,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4408,
+      "ts": 1790016258,
+      "ts_str": "2026-09-21 18:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank launches $11 billion bond sale to fund OpenAI investment - The American Bazaar",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 18:25:18 GMT\nLink:      https://news.google.com/rss/articles/CBMitwFBVV95cUxQaGdRbFl0UDlGU3Nld3dHZWZhcjFpbTRzdFIwYUhmMk14am1TZTFmejE3LXlUTUtONXduMFg1ZDQ1cmxVTGh1bHVCTnVwbUpkY2stZXdpc2Nzc3VTdFlsbnkyMlpyTi1UNEN1OWp0ZnVBck9wdVZSMXAzQUxST0FXa05yTUJGUXZCUkV3QzRtempFemxFejVoa2xVOXNkTmhuZTctTG5Ed2JvMWdvRzZBM1FhZFgwVnM?oc=5\n\nSoftBank launches $11 billion bond sale to fund OpenAI investment - The American Bazaar\n\n<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQaGdRbFl0UDlGU3Nld3dHZWZhcjFpbTRzdFIwYUhmMk14am1TZTFmejE3LXlUTUtONXduMFg1ZDQ1cmxVTGh1bHVCTnVwbUpkY2stZXdpc2Nzc3VTdFlsbnkyMlpyTi1UNEN1OWp0ZnVBck9wdVZSMXAzQUxST0FXa05yTUJGUXZCUkV3QzRtempFemxFejVoa2xVOXNkTmhuZTctTG5Ed2JvMWdvRzZBM1FhZFgwVnM?oc=5\" target=\"_blank\">SoftBank launches $11 billion bond sale to fund OpenAI investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The American Bazaar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank launched an $11 billion bond sale to fund its OpenAI investment.\n\n\u5185\u5bb9:\n\u8f6f\u94f6\u53d1\u884c 110 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u7528\u4e8e\u4e3a\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u878d\u8d44\u3002\n\nWhy it matters:\nSoftBank is raising public debt to keep funding OpenAI's capital needs rather than covering them from operating cash or existing liquidity. That shifts the AI-capex bill onto SoftBank's own credit \u2014 a leverage-driven funding source is more fragile than internally generated cash, and worth watching for follow-through if SoftBank's spreads react.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u662f\u9760\u53d1\u503a\u7b79\u94b1\u6765\u652f\u6301\u5bf9 OpenAI \u7684\u6301\u7eed\u6295\u5165\uff0c\u800c\u4e0d\u662f\u7528\u81ea\u6709\u7ecf\u8425\u73b0\u91d1\u8986\u76d6\u3002\u8fd9\u610f\u5473\u7740 AI \u8d44\u672c\u5f00\u652f\u7684\u8d26\u5355\u88ab\u8f6c\u79fb\u5230\u4e86\u8f6f\u94f6\u81ea\u5df1\u7684\u4fe1\u7528\u4e0a\u2014\u2014\u9760\u52a0\u6760\u6746\u6491\u8d77\u6765\u7684\u8d44\u91d1\u6765\u6e90\u6bd4\u5185\u751f\u73b0\u91d1\u66f4\u8106\u5f31\uff0c\u503c\u5f97\u7559\u610f\u8f6f\u94f6\u4fe1\u7528\u5229\u5dee\u662f\u5426\u968f\u4e4b\u8d70\u9614\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 4409,
+      "ts": 1790016258,
+      "ts_str": "2026-09-21 18:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Tests Credit Market With $11B OpenAI Bond Deal - connectmoney.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 18:34:17 GMT\nLink:      https://news.google.com/rss/articles/CBMilwFBVV95cUxNa1VvOG1VcHpndXh4YTlrcHNzcmVheGZHRzJqSUNEV2JIZ2xoUUxNcHo3cVVyUnhBSU5Tb0o3bERHbXg5c1djdk15c1FXbFlOc0lDMTlPZDVraFpHc2dvdTFfMEFkWFhKNXh1ZGY3QmJvMGR3Y0xfNXN5Um9YbzZPYTMydjRjUEpCODZ6eGp1dEIyNlQ4Vjk0?oc=5\n\nSoftBank Tests Credit Market With $11B OpenAI Bond Deal - connectmoney.com\n\n<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNa1VvOG1VcHpndXh4YTlrcHNzcmVheGZHRzJqSUNEV2JIZ2xoUUxNcHo3cVVyUnhBSU5Tb0o3bERHbXg5c1djdk15c1FXbFlOc0lDMTlPZDVraFpHc2dvdTFfMEFkWFhKNXh1ZGY3QmJvMGR3Y0xfNXN5Um9YbzZPYTMydjRjUEpCODZ6eGp1dEIyNlQ4Vjk0?oc=5\" target=\"_blank\">SoftBank Tests Credit Market With $11B OpenAI Bond Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">connectmoney.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is reportedly testing the credit markets with an $11B bond deal tied to OpenAI.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSoftBank \u6b63\u8bd5\u63a2\u4fe1\u8d37\u5e02\u573a\uff0c\u4e3a OpenAI \u76f8\u5173\u9879\u76ee\u53d1\u884c $11B \u503a\u5238\u3002\n\nWhy it matters:\nOpenAI's compute buildout is now leaning on debt raised through a backer rather than pure equity or vendor financing \u2014 a heavier, harder-to-unwind capital structure. It sharpens the C3 burn-rate thesis: OpenAI's cash needs are large enough to require third-party credit markets, not just VC money.\n\n\u5f71\u54cd:\nOpenAI \u7684\u7b97\u529b\u6269\u5f20\u73b0\u5728\u8981\u9760\u80cc\u540e\u91d1\u4e3b\u53d1\u503a\u878d\u8d44\uff0c\u800c\u4e0d\u53ea\u662f\u80a1\u6743\u6216\u4f9b\u5e94\u5546\u878d\u8d44\uff0c\u8fd9\u79cd\u8d44\u672c\u7ed3\u6784\u66f4\u91cd\u3001\u66f4\u96be\u89e3\u9664\u3002\u8fd9\u4e5f\u5370\u8bc1\u4e86 C3 \u7684\u70e7\u94b1\u5047\u8bbe\uff1aOpenAI \u7684\u73b0\u91d1\u9700\u6c42\u5df2\u7ecf\u5927\u5230\u8981\u52a8\u7528\u7b2c\u4e09\u65b9\u4fe1\u8d37\u5e02\u573a\uff0c\u5149\u9760 VC \u7684\u94b1\u4e0d\u591f\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4407,
       "ts": 1790014456,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Defies Gravity With a Nasdaq-100 Double-Weighting Boost - MarketBeat",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 13:58:06 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2ljaUhJRG5RS1Q4bHpEZGd5VzVaV3hUZ3p5TEtjSk1DVlNncGwzVWFBMWg4QWsteEQtdkdQdnNOZV9QdVNiU2ZVMGh4bmQ0S0MwUVBGV0ZlVFZDem1EMXJ3Z0JaLVpFclpBMVRBUkM1VzdqTVNxQVlKNm1rQzAwQlg0dnVCSVpFYVFWUjZiOHA4b29ROXR2WEFKNGlMUjNl?oc=5\n\nSpaceX Defies Gravity With a Nasdaq-100 Double-Weighting Boost - MarketBeat\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2ljaUhJRG5RS1Q4bHpEZGd5VzVaV3hUZ3p5TEtjSk1DVlNncGwzVWFBMWg4QWsteEQtdkdQdnNOZV9QdVNiU2ZVMGh4bmQ0S0MwUVBGV0ZlVFZDem1EMXJ3Z0JaLVpFclpBMVRBUkM1VzdqTVNxQVlKNm1rQzAwQlg0dnVCSVpFYVFWUjZiOHA4b29ROXR2WEFKNGlMUjNl?oc=5\" target=\"_blank\">SpaceX Defies Gravity With a Nasdaq-100 Double-Weighting Boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketBeat</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage reports SpaceX receiving a Nasdaq-100 double-weighting boost, meaning index funds tracking the Nasdaq-100 would need to buy roughly twice the normal cap-weighted allocation of SpaceX shares once it lists and qualifies.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u5c06\u83b7\u5f97 Nasdaq-100 \u7684\u53cc\u500d\u6743\u91cd\u5f85\u9047\uff0c\u610f\u5473\u7740\u4e00\u65e6 SpaceX \u4e0a\u5e02\u5e76\u6ee1\u8db3\u6761\u4ef6\uff0c\u8ddf\u8e2a Nasdaq-100 \u7684\u6307\u6570\u57fa\u91d1\u9700\u8981\u4e70\u5165\u7ea6\u4e24\u500d\u4e8e\u6b63\u5e38\u5e02\u503c\u52a0\u6743\u6bd4\u4f8b\u7684 SpaceX \u80a1\u7968\u3002\n\nWhy it matters:\nA double-weighting rule forces a mechanical, price-insensitive wave of passive buying independent of SpaceX's actual fundamentals \u2014 this is exactly the kind of index-mechanics flow that can inflate a single name's valuation and mask whether the underlying AI/infrastructure capex thesis is sound. It's a flow signal, not a fundamentals signal.\n\n\u5f71\u54cd:\n\u53cc\u500d\u6743\u91cd\u89c4\u5219\u4f1a\u5f3a\u5236\u4ea7\u751f\u4e00\u6ce2\u4e0d\u770b\u57fa\u672c\u9762\u3001\u7eaf\u7cb9\u56e0\u6307\u6570\u89c4\u5219\u89e6\u53d1\u7684\u88ab\u52a8\u4e70\u76d8\uff0c\u548c SpaceX \u81ea\u8eab\u7ecf\u8425\u72b6\u51b5\u65e0\u5173\u3002\u8fd9\u7c7b\u6307\u6570\u673a\u5236\u9a71\u52a8\u7684\u8d44\u91d1\u6d41\u6070\u6070\u4f1a\u628a\u5355\u4e00\u6807\u7684\u7684\u4f30\u503c\u63a8\u9ad8\uff0c\u63a9\u76d6\u80cc\u540e AI \u57fa\u5efa capex \u903b\u8f91\u662f\u5426\u7ad9\u5f97\u4f4f\u2014\u2014\u8fd9\u662f\u8d44\u91d1\u6d41\u4fe1\u53f7\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4208,
-      "ts": 1789479317,
-      "ts_str": "2026-09-15 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 13:31:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\n\nSamsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\" target=\"_blank\">Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Android Headlines</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung reportedly plans to raise memory chip prices, a move flagged as likely to push smartphone prices higher.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSamsung \u8ba1\u5212\u4e0a\u8c03\u5185\u5b58\u82af\u7247\u4ef7\u683c\uff0c\u6b64\u4e3e\u53ef\u80fd\u63a8\u9ad8\u667a\u80fd\u624b\u673a\u552e\u4ef7\u3002\n\nWhy it matters:\nA price hike signals tight DRAM/NAND supply amid AI-driven demand \u2014 the same dynamic C6 is built to catch. But this is a single-source consumer-electronics headline, not a hyperscaler capex or datacenter-memory data point, so it's weak evidence for the AI-infra bubble-stress thesis specifically.\n\n\u5f71\u54cd:\n\u6da8\u4ef7\u610f\u5473\u7740 DRAM/NAND \u4f9b\u7ed9\u56e0 AI \u9700\u6c42\u8d8b\u7d27\uff0c\u8fd9\u6b63\u662f C6 \u60f3\u6355\u6349\u7684\u52a8\u6001\u3002\u4f46\u8fd9\u6761\u6d88\u606f\u53ea\u662f\u5355\u4e00\u6765\u6e90\u7684\u6d88\u8d39\u7535\u5b50\u7c7b\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u6216\u6570\u636e\u4e2d\u5fc3\u5185\u5b58\u6570\u636e\uff0c\u5bf9 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u8bba\u7684\u8bc1\u636e\u529b\u6709\u9650\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4209,
-      "ts": 1789479317,
-      "ts_str": "2026-09-15 13:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 13:31:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\n\nSamsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive - Android Headlines\n\n<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek1obldOR0NnLWtYVEg0VkVIdXI4dEpKY0R3QTV4TE55Ujd1ZEtXQWw4THplSXFfQlJXN1hKeHlvbWMxRnZReFRQQTdVbDlNNXVzWWtpUmJPaUJ1QkQwV281MzBBTWdpZEdkTHVfMnRkQ1pLOHpJVy1lRFIwQVQxNjgxTWFTT3EtZmZxVWllMFYtanV4ZU5zUFMxVFlGQW5CYm5FaFpXTGNoTlZNTlA5dlpNd0JmWmtYXzNXWTJlTUs?oc=5\" target=\"_blank\">Samsung's Planned Memory Price Hike Could Make Smartphones Even More Expensive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Android Headlines</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSamsung reportedly plans to raise memory chip prices, a move flagged as likely to push smartphone prices higher.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cSamsung \u8ba1\u5212\u4e0a\u8c03\u5185\u5b58\u82af\u7247\u4ef7\u683c\uff0c\u6b64\u4e3e\u53ef\u80fd\u63a8\u9ad8\u667a\u80fd\u624b\u673a\u552e\u4ef7\u3002\n\nWhy it matters:\nA price hike signals tight DRAM/NAND supply amid AI-driven demand \u2014 the same dynamic C6 is built to catch. But this is a single-source consumer-electronics headline, not a hyperscaler capex or datacenter-memory data point, so it's weak evidence for the AI-infra bubble-stress thesis specifically.\n\n\u5f71\u54cd:\n\u6da8\u4ef7\u610f\u5473\u7740 DRAM/NAND \u4f9b\u7ed9\u56e0 AI \u9700\u6c42\u8d8b\u7d27\uff0c\u8fd9\u6b63\u662f C6 \u60f3\u6355\u6349\u7684\u52a8\u6001\u3002\u4f46\u8fd9\u6761\u6d88\u606f\u53ea\u662f\u5355\u4e00\u6765\u6e90\u7684\u6d88\u8d39\u7535\u5b50\u7c7b\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u6216\u6570\u636e\u4e2d\u5fc3\u5185\u5b58\u6570\u636e\uff0c\u5bf9 AI \u57fa\u5efa\u6ce1\u6cab\u538b\u529b\u8bba\u7684\u8bc1\u636e\u529b\u6709\u9650\u3002\n",
       "emailed": false
     }
   ],
