@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790028662,
-  "generated_at_str": "2026-09-21 22:11:02 UTC",
-  "last_event_ts": 1790028305,
+  "generated_at": 1790028857,
+  "generated_at_str": "2026-09-21 22:14:17 UTC",
+  "last_event_ts": 1790028856,
   "tables": {
     "alerts_dedup": {
-      "count": 4407,
-      "last_ts": 1790027238,
-      "last_str": "2026-09-21 21:47:18 UTC"
+      "count": 4408,
+      "last_ts": 1790028856,
+      "last_str": "2026-09-21 22:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-09-21 20:14:03 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1366,
-      "last_ts": 1790027045,
-      "last_str": "2026-09-21 21:44:05 UTC"
+      "count": 1367,
+      "last_ts": 1790028844,
+      "last_str": "2026-09-21 22:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6210,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-21 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33845,
-      "last_ts": 1790027043,
-      "last_str": "2026-09-21 21:44:03 UTC"
+      "count": 33850,
+      "last_ts": 1790028842,
+      "last_str": "2026-09-21 22:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10115,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4415,
+      "ts": 1790028856,
+      "ts_str": "2026-09-21 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank's $11B Junk Bond Bet Deepens Its OpenAI Debt Risk - Yellow.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 21:43:40 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE14SGFWeGtPZzZTenZjTk4wTlNOb3U2NnJ1eGtjSGRpU0RrMkNCQ3FwYm94Sl96SjdRcXFtcUE3eXpXYXlxbjdGdjlGYWtVNk0tMldBQ2dQdFRVQ2ZLdVQwNS0yWTBMeWhFb3c?oc=5\n\nSoftBank's $11B Junk Bond Bet Deepens Its OpenAI Debt Risk - Yellow.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE14SGFWeGtPZzZTenZjTk4wTlNOb3U2NnJ1eGtjSGRpU0RrMkNCQ3FwYm94Sl96SjdRcXFtcUE3eXpXYXlxbjdGdjlGYWtVNk0tMldBQ2dQdFRVQ2ZLdVQwNS0yWTBMeWhFb3c?oc=5\" target=\"_blank\">SoftBank's $11B Junk Bond Bet Deepens Its OpenAI Debt Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yellow.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports SoftBank raised $11B through junk bonds, deepening its debt exposure tied to OpenAI.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0cSoftBank \u901a\u8fc7\u53d1\u884c $11B \u5783\u573e\u503a\u878d\u8d44\uff0c\u52a0\u6df1\u4e86\u5176\u4e0e OpenAI \u76f8\u5173\u7684\u503a\u52a1\u655e\u53e3\u3002\n\nWhy it matters:\nSoftBank is a core OpenAI funding conduit \u2014 financing that stake with high-yield debt instead of equity raises the leverage embedded in the AI-capex ecosystem and makes it more fragile to a credit-spread widening.\n\n\u5f71\u54cd:\nSoftBank \u662f OpenAI \u8d44\u91d1\u94fe\u7684\u6838\u5fc3\u4e2d\u8f6c\u7ad9\uff0c\u7528\u9ad8\u6536\u76ca\u503a\u800c\u975e\u80a1\u6743\u7ed9\u8fd9\u7b14\u6295\u8d44\u878d\u8d44\uff0c\u610f\u5473\u7740\u6574\u4e2a AI capex \u751f\u6001\u91cc\u5d4c\u5165\u7684\u6760\u6746\u66f4\u9ad8\uff0c\u4e00\u65e6\u4fe1\u7528\u5229\u5dee\u8d70\u9614\uff0c\u8fd9\u7c7b\u7ed3\u6784\u4f1a\u66f4\u8106\u5f31\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4414,
       "ts": 1790027238,
@@ -2306,16 +2316,6 @@
       "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.60% \u2265 2.50%",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-14\nCurrent:  2.60%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield hit 2.60pp, matching the C10 stress threshold of 2.50pp and triggering off the trailing-90-day low.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS\uff09\u62a5 2.60pp\uff0c\u89e6\u53ca C10 \u7684 2.50pp \u538b\u529b\u9608\u503c\uff0c\u7531\u8fc7\u53bb 90 \u5929\u4f4e\u70b9\u89e6\u53d1\u3002\n\nWhy it matters:\nReal yields at this level tighten financial conditions and raise the discount rate on long-duration AI capex bets \u2014 the further above 2.5 it runs, the more the market re-prices speculative multiples downward, mirroring the C7 credit-spread mechanism.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u5347\u5230\u8fd9\u4e2a\u6c34\u5e73\u4f1a\u6536\u7d27\u91d1\u878d\u73af\u5883\uff0c\u62ac\u9ad8\u957f\u4e45\u671f AI capex \u62bc\u6ce8\u7684\u8d34\u73b0\u7387\u2014\u2014\u6570\u503c\u8d8a\u5f80\u4e0a\u51b2\uff0c\u5e02\u573a\u5bf9\u6295\u673a\u6027\u4f30\u503c\u7684\u4e0b\u4fee\u538b\u529b\u5c31\u8d8a\u5927\uff0c\u903b\u8f91\u548c C7 \u4fe1\u7528\u5229\u5dee\u90a3\u6761\u4e00\u6837\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 4215,
-      "ts": 1789510454,
-      "ts_str": "2026-09-15 22:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI weighs funding round at $1.2tn valuation before IPO - ft.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 21:54:39 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2duRmFITkhXUGVBRGdXU2FzSWEyTkttMzgtVldzZGxnUWZQaVQ3LUk3Z0dRWmZzaUJ6dU9oMmZuaF80MWIyMUJ6ejE5VE0zSExBTGNCbnFnRExLVzJucHBuTEZzY2dEdHVfak9XSDF1NG8tU3ZmakVLU3BpQ3J1LVZLNWs?oc=5\n\nOpenAI weighs funding round at $1.2tn valuation before IPO - ft.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2duRmFITkhXUGVBRGdXU2FzSWEyTkttMzgtVldzZGxnUWZQaVQ3LUk3Z0dRWmZzaUJ6dU9oMmZuaF80MWIyMUJ6ejE5VE0zSExBTGNCbnFnRExLVzJucHBuTEZzY2dEdHVfak9XSDF1NG8tU3ZmakVLU3BpQ3J1LVZLNWs?oc=5\" target=\"_blank\">OpenAI weighs funding round at $1.2tn valuation before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ft.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly weighing a funding round at a $1.2tn valuation ahead of a possible IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u8003\u8651\u4ee5 $1.2tn \u4f30\u503c\u8fdb\u884c\u4e00\u8f6e\u878d\u8d44\uff0c\u4e3a\u53ef\u80fd\u7684 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nA valuation this size, run through a private funding round rather than public markets, signals investors are pricing in years of AI-capex growth without earnings to test the number against \u2014 the kind of speculative marker that tends to precede a repricing when the capex-payback thesis gets challenged.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u9ad8\u7684\u4f30\u503c\u8d70\u7684\u662f\u79c1\u52df\u878d\u8d44\u800c\u4e0d\u662f\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\uff0c\u8bf4\u660e\u6295\u8d44\u4eba\u5df2\u7ecf\u628a\u672a\u6765\u591a\u5e74\u7684 AI capex \u589e\u957f\u9884\u671f\u6253\u8fdb\u4e86\u6570\u5b57\u91cc\uff0c\u5374\u6ca1\u6709\u771f\u5b9e\u76c8\u5229\u53bb\u9a8c\u8bc1\u3002\u8fd9\u7c7b\u8131\u79bb\u57fa\u672c\u9762\u7684\u4f30\u503c\u6807\u8bb0\uff0c\u5f80\u5f80\u662f capex \u56de\u672c\u903b\u8f91\u53d7\u8d28\u7591\u65f6\u6700\u5148\u88ab\u91cd\u65b0\u5b9a\u4ef7\u7684\u5bf9\u8c61\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
