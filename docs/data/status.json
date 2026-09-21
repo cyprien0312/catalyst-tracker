@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789991075,
-  "generated_at_str": "2026-09-21 11:44:35 UTC",
-  "last_event_ts": 1789991074,
+  "generated_at": 1789991245,
+  "generated_at_str": "2026-09-21 11:47:25 UTC",
+  "last_event_ts": 1789991245,
   "tables": {
     "alerts_dedup": {
-      "count": 4383,
-      "last_ts": 1789991074,
-      "last_str": "2026-09-21 11:44:34 UTC"
+      "count": 4385,
+      "last_ts": 1789991245,
+      "last_str": "2026-09-21 11:47:25 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-21 11:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 10063,
-      "last_ts": 1789987622,
-      "last_str": "2026-09-21 10:47:02 UTC"
+      "count": 10067,
+      "last_ts": 1789991223,
+      "last_str": "2026-09-21 11:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4391,
+      "ts": 1789991245,
+      "ts_str": "2026-09-21 11:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 10:58:32 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5\n\nWall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5\" target=\"_blank\">Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe two RSS entries both cite Wall Street analysts issuing a 12-month price target on SpaceX (SPCX) stock.\n\n\u5185\u5bb9:\n\u4e24\u6761 RSS \u6761\u76ee\u90fd\u662f\u534e\u5c14\u8857\u5206\u6790\u5e08\u7ed9 SpaceX\uff08SPCX\uff09\u80a1\u7968\u8bbe\u5b9a 12 \u4e2a\u6708\u76ee\u6807\u4ef7\uff0c\u5c5e\u4e8e\u5e38\u89c4\u62a5\u9053\u3002\n\nWhy it matters:\nThis is routine sell-side coverage, not an index-mechanics or unlock event \u2014 it shouldn't be weighted as a bubble-stress signal on its own; check whether the proximity classifier is picking up generic ticker chatter rather than an actual flow/unlock trigger.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5e38\u89c4\u5356\u65b9\u8986\u76d6\uff0c\u4e0d\u662f\u6307\u6570\u673a\u5236\u6216\u89e3\u7981\u4e8b\u4ef6\u672c\u8eab\uff0c\u5355\u72ec\u770b\u4e0d\u8be5\u7b97\u4f5c bubble-stress \u4fe1\u53f7\uff1b\u8981\u68c0\u67e5\u4e00\u4e0b\u662f\u4e0d\u662f proximity \u5206\u7c7b\u5668\u628a\u6cdb\u6cdb\u7684 ticker \u63d0\u53ca\u5f53\u6210\u4e86\u771f\u6b63\u7684\u8d44\u91d1\u6d41/\u89e3\u7981\u89e6\u53d1\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4392,
+      "ts": 1789991245,
+      "ts_str": "2026-09-21 11:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles - AD HOC NEWS",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 11:27:37 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxPaUFqYm41U0pCcHRUWVBzVU5kbUpzSEFYNXBlZWFHT2tVYzNMUFRxUVVPNGJvSl8wV253eEd2VTBRZHkyZ2tQTFFCUFFBNEFzWG1iYU84ZEZ0XzM1RThUVnJiQTR2c0R0b3JURnFiUkw1c2ZmNDNTdXp4STJJRUpERXItOEw1NEkyV05ST2ZuSV9GSjU5YnNaWUxpQVVxNExLWWtMY2ZtM2tMQ3BFSzQzUVVBOWNqelZ3QjJVVEtyTVByaExrSFBfSGFUQ0E2UlU?oc=5\n\nSpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPaUFqYm41U0pCcHRUWVBzVU5kbUpzSEFYNXBlZWFHT2tVYzNMUFRxUVVPNGJvSl8wV253eEd2VTBRZHkyZ2tQTFFCUFFBNEFzWG1iYU84ZEZ0XzM1RThUVnJiQTR2c0R0b3JURnFiUkw1c2ZmNDNTdXp4STJJRUpERXItOEw1NEkyV05ST2ZuSV9GSjU5YnNaWUxpQVVxNExLWWtMY2ZtM2tMQ3BFSzQzUVVBOWNqelZ3QjJVVEtyTVByaExrSFBfSGFUQ0E2UlU?oc=5\" target=\"_blank\">SpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports SpaceX's Nasdaq-100 index weight nearly doubling, meaning passive funds tracking the index now must hold roughly twice as much SpaceX stock.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053 SpaceX \u5728\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u4e2d\u7684\u6743\u91cd\u51e0\u4e4e\u7ffb\u500d\uff0c\u610f\u5473\u7740\u8ddf\u8e2a\u8be5\u6307\u6570\u7684\u88ab\u52a8\u57fa\u91d1\u73b0\u5728\u9700\u8981\u6301\u6709\u5927\u7ea6\u4e24\u500d\u7684 SpaceX \u80a1\u7968\u3002\n\nWhy it matters:\nPassive index flows are mechanical, not valuation-driven \u2014 a doubled weight forces incremental buying from every NDX-tracking ETF regardless of price, which is exactly the index-mechanics amplification the C11 signal watches for around SpaceX's IPO/lock-up unlock.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6d41\u662f\u673a\u68b0\u6027\u7684\uff0c\u4e0d\u770b\u4f30\u503c\u2014\u2014\u6743\u91cd\u7ffb\u500d\u4f1a\u8ba9\u6240\u6709\u8ddf\u8e2a NDX \u7684 ETF \u88ab\u8feb\u589e\u6301\uff0c\u4e0d\u7ba1\u4ef7\u683c\u9ad8\u4f4e\u3002\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u76ef\u7684\u90a3\u79cd\u6307\u6570\u673a\u5236\u653e\u5927\u6548\u5e94\uff0c\u5c24\u5176\u662f\u5728 SpaceX IPO/\u89e3\u7981\u7a97\u53e3\u9644\u8fd1\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4390,
       "ts": 1789991074,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Nscale Adds Former OpenAI Exec Fidji Simo to Board Ahead of Potential IPO - Channel Insider",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 17:55:24 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxNWEF5OGxIaWJpYXhxcDZqQjhyZVBubGtsUG0zX2hHTGtuOEZxTlltVmRyWjFkakpwNVhVdEprMGp2VGJLUE9oaFM0ektacUdkeEN4WUJPbWhReDl1VF83YlB0N1NPa0FmNTdfcnlPMkFsVmV0ajFocEVVTVlTZEdYekJtSDZjQQ?oc=5\n\nNscale Adds Former OpenAI Exec Fidji Simo to Board Ahead of Potential IPO - Channel Insider\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNWEF5OGxIaWJpYXhxcDZqQjhyZVBubGtsUG0zX2hHTGtuOEZxTlltVmRyWjFkakpwNVhVdEprMGp2VGJLUE9oaFM0ektacUdkeEN4WUJPbWhReDl1VF83YlB0N1NPa0FmNTdfcnlPMkFsVmV0ajFocEVVTVlTZEdYekJtSDZjQQ?oc=5\" target=\"_blank\">Nscale Adds Former OpenAI Exec Fidji Simo to Board Ahead of Potential IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Channel Insider</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item reports Nscale added former OpenAI executive Fidji Simo to its board ahead of a potential IPO.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u62a5\u9053\u79f0\uff0cNscale \u5728\u7b79\u5907\u6f5c\u5728 IPO \u4e4b\u9645\uff0c\u4efb\u547d\u524d OpenAI \u9ad8\u7ba1 Fidji Simo \u4e3a\u8463\u4e8b\u4f1a\u6210\u5458\u3002\n\nWhy it matters:\nThis is personnel/IPO-prep chatter about an OpenAI-adjacent infra startup, not a burn-rate or financial-distress signal \u2014 low weight for the OpenAI-stress thesis on its own.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f OpenAI \u76f8\u5173\u57fa\u7840\u8bbe\u65bd\u521d\u521b\u516c\u53f8\u7684\u4eba\u4e8b\u548c IPO \u7b79\u5907\u7c7b\u65b0\u95fb\uff0c\u4e0d\u6d89\u53ca\u70e7\u94b1\u901f\u5ea6\u6216\u8d22\u52a1\u538b\u529b\u6570\u636e\uff0c\u5bf9 OpenAI \u627f\u538b\u4e3b\u7ebf\u7684\u6743\u91cd\u8f83\u4f4e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4189,
-      "ts": 1789413286,
-      "ts_str": "2026-09-14 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s Altman won\u2019t do IPO this year, calls AI extinction risk \u2018unacceptable\u2019 - Virginia Business",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 16:23:35 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxQM3E5cElNV0VLRnN6UXdOM1g1NDhFM01WelRkU2tiZVRmU1QzRF9tbExsTV94OXY4Y1BLUXc3SDRDR1VBZXBwTFpfSU56UE9OM2lQU3RZclVxQ3YzV1pNd1h5MTVZanp6LUdVUEgxVjRkcHQtMmZLM09Ec1l5eDNMUFRLaw?oc=5\n\nOpenAI\u2019s Altman won\u2019t do IPO this year, calls AI extinction risk \u2018unacceptable\u2019 - Virginia Business\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQM3E5cElNV0VLRnN6UXdOM1g1NDhFM01WelRkU2tiZVRmU1QzRF9tbExsTV94OXY4Y1BLUXc3SDRDR1VBZXBwTFpfSU56UE9OM2lQU3RZclVxQ3YzV1pNd1h5MTVZanp6LUdVUEgxVjRkcHQtMmZLM09Ec1l5eDNMUFRLaw?oc=5\" target=\"_blank\">OpenAI\u2019s Altman won\u2019t do IPO this year, calls AI extinction risk \u2018unacceptable\u2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Virginia Business</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's Sam Altman said there will be no IPO this year and called AI extinction risk 'unacceptable.'\n\n\u5185\u5bb9:\nOpenAI \u7684 Sam Altman \u8868\u793a\u4eca\u5e74\u4e0d\u4f1a IPO\uff0c\u5e76\u79f0 AI \u706d\u7edd\u98ce\u9669\u201c\u4e0d\u53ef\u63a5\u53d7\u201d\u3002\n\nWhy it matters:\nA near-term IPO would have been a major liquidity/valuation-check event for the AI-capex thesis; ruling it out removes that catalyst and keeps OpenAI's real financials opaque. The extinction-risk framing is standard rhetoric, not new information \u2014 low signal value for the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u8fd1\u671f IPO \u672c\u53ef\u4ee5\u6210\u4e3a\u68c0\u9a8c AI capex \u903b\u8f91\u7684\u4e00\u6b21\u91cd\u8981\u6d41\u52a8\u6027/\u4f30\u503c\u4e8b\u4ef6\uff0c\u6392\u9664\u8fd9\u4e2a\u9009\u9879\u610f\u5473\u7740\u8fd9\u4e2a\u50ac\u5316\u5242\u6d88\u5931\u4e86\uff0cOpenAI \u7684\u771f\u5b9e\u8d22\u52a1\u72b6\u51b5\u7ee7\u7eed\u4e0d\u900f\u660e\u3002\u706d\u7edd\u98ce\u9669\u8fd9\u7c7b\u8bf4\u6cd5\u662f\u8001\u751f\u5e38\u8c08\uff0c\u4e0d\u7b97\u65b0\u4fe1\u606f\uff0c\u5bf9 bubble-stress \u5224\u65ad\u7684\u4fe1\u53f7\u4ef7\u503c\u4e0d\u9ad8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4190,
-      "ts": 1789413286,
-      "ts_str": "2026-09-14 19:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] SoftBank's $10 Billion October Commitment Meets OpenAI's IPO Delay - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 17:22:01 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxQbUktclVsR2x4YTU3NTVIV050aDhCOGtTTS03NWROTkJfZWdweTZhR2JmMUhGekxobTlLRWJUOWJmTzQyR054dXdGRk5LcHBseW1oUkpHZGd5dHdVSW85OGdwVGhJSWRWTTdkaVRTOENrVWEwM2JqblNhQXJDXzhqcXU0d2RoM2hXVmJzZ1JTenhIenlpQWk1QzVuQXNlS1N4NHF1eVNn?oc=5\n\nSoftBank's $10 Billion October Commitment Meets OpenAI's IPO Delay - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQbUktclVsR2x4YTU3NTVIV050aDhCOGtTTS03NWROTkJfZWdweTZhR2JmMUhGekxobTlLRWJUOWJmTzQyR054dXdGRk5LcHBseW1oUkpHZGd5dHdVSW85OGdwVGhJSWRWTTdkaVRTOENrVWEwM2JqblNhQXJDXzhqcXU0d2RoM2hXVmJzZ1JTenhIenlpQWk1QzVuQXNlS1N4NHF1eVNn?oc=5\" target=\"_blank\">SoftBank's $10 Billion October Commitment Meets OpenAI's IPO Delay</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank confirmed a $10B funding commitment to OpenAI slated for October, landing the same week OpenAI's IPO timeline slipped.\n\n\u5185\u5bb9:\nSoftBank \u786e\u8ba4\u5c06\u4e8e 10 \u6708\u5411 OpenAI \u6ce8\u5165 $10B \u627f\u8bfa\u8d44\u91d1\uff0c\u540c\u4e00\u5468 OpenAI \u7684 IPO \u65f6\u95f4\u8868\u53c8\u63a8\u8fdf\u4e86\u3002\n\nWhy it matters:\nA large private capital commitment arriving right as the IPO \u2014 the mechanism that would let early backers cash out and give public markets a mark-to-market price \u2014 gets pushed back extends OpenAI's reliance on private mega-rounds instead of public-market discipline, consistent with the C3 burn-rate thesis that OpenAI needs ever-larger private infusions to keep funding compute.\n\n\u5f71\u54cd:\n\u4e00\u7b14\u5927\u989d\u79c1\u52df\u8d44\u91d1\u6070\u597d\u5728 IPO\u2014\u2014\u672c\u8be5\u8ba9\u65e9\u671f\u80a1\u4e1c\u5957\u73b0\u3001\u8ba9\u516c\u5f00\u5e02\u573a\u7ed9\u51fa\u771f\u5b9e\u5b9a\u4ef7\u7684\u673a\u5236\u2014\u2014\u53c8\u88ab\u63a8\u8fdf\u7684\u5f53\u53e3\u5230\u4f4d\uff0c\u8bf4\u660e OpenAI \u8fd8\u5728\u9760\u79c1\u52df\u5de8\u989d\u6ce8\u8d44\u7eed\u547d\uff0c\u800c\u4e0d\u662f\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u7684\u68c0\u9a8c\uff0c\u8fd9\u548c C3 \u7684\u6838\u5fc3\u903b\u8f91\u4e00\u81f4\uff1aOpenAI \u9700\u8981\u8d8a\u6765\u8d8a\u5927\u7684\u79c1\u52df\u8f93\u8840\u624d\u80fd\u6491\u4f4f\u7b97\u529b\u5f00\u652f\u3002\n",
       "emailed": false
     }
   ],
