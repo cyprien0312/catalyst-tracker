@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790005262,
-  "generated_at_str": "2026-09-21 15:41:02 UTC",
-  "last_event_ts": 1790004908,
+  "generated_at": 1790005454,
+  "generated_at_str": "2026-09-21 15:44:14 UTC",
+  "last_event_ts": 1790005453,
   "tables": {
     "alerts_dedup": {
-      "count": 4397,
-      "last_ts": 1790002034,
-      "last_str": "2026-09-21 14:47:14 UTC"
+      "count": 4398,
+      "last_ts": 1790005453,
+      "last_str": "2026-09-21 15:44:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-20 23:00:36 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5741,
-      "last_ts": 1790003646,
-      "last_str": "2026-09-21 15:14:06 UTC"
+      "count": 5743,
+      "last_ts": 1790005444,
+      "last_str": "2026-09-21 15:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1360,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-21 15:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33720,
-      "last_ts": 1790003642,
-      "last_str": "2026-09-21 15:14:02 UTC"
+      "count": 33726,
+      "last_ts": 1790005443,
+      "last_str": "2026-09-21 15:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10084,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4405,
+      "ts": 1790005453,
+      "ts_str": "2026-09-21 15:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Group to launch $11bn bond sale to fund OpenAI investment - Nikkei Asia",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 15:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxQakhyaWhld200d0tHQlYyd21nWXlXZUc1SG05UGhEQXlwbnBvcGU1Y3l4SnBxU0h6R0RWNU1mQ09IYTROQ2w3NUxpNzJYRGpTazhWLUNVallUYmpyVl9LY2U4eUZhYmltb095ZTFlTEQxVGlWM18ta3BRcFU2bkdyWU8zU0lvNGRaWGpsZFNWb1R4LUduZzBMenhnQmthQXFzWnl2a3A1OVZ6Vjg?oc=5\n\nSoftBank Group to launch $11bn bond sale to fund OpenAI investment - Nikkei Asia\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQakhyaWhld200d0tHQlYyd21nWXlXZUc1SG05UGhEQXlwbnBvcGU1Y3l4SnBxU0h6R0RWNU1mQ09IYTROQ2w3NUxpNzJYRGpTazhWLUNVallUYmpyVl9LY2U4eUZhYmltb095ZTFlTEQxVGlWM18ta3BRcFU2bkdyWU8zU0lvNGRaWGpsZFNWb1R4LUduZzBMenhnQmthQXFzWnl2a3A1OVZ6Vjg?oc=5\" target=\"_blank\">SoftBank Group to launch $11bn bond sale to fund OpenAI investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank Group announced an $11 billion bond sale to fund its investment in OpenAI.\n\n\u5185\u5bb9:\n\u8f6f\u94f6\u96c6\u56e2\u5ba3\u5e03\u53d1\u884c 110 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u7528\u4e8e\u4e3a\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u878d\u8d44\u3002\n\nWhy it matters:\nSoftBank is raising debt, not using cash on hand, to keep pace with OpenAI's capital needs \u2014 a sign the round size is outrunning what even a large backer can self-fund. Leverage stacked on top of an unprofitable, capex-heavy AI lab raises the stakes if the OpenAI bet sours.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u662f\u9760\u4e3e\u503a\u800c\u4e0d\u662f\u81ea\u6709\u73b0\u91d1\u6765\u8ddf\u4e0a OpenAI \u7684\u878d\u8d44\u8282\u594f\uff0c\u8bf4\u660e\u8fd9\u8f6e\u6295\u8d44\u89c4\u6a21\u5df2\u7ecf\u5927\u5230\u8fde\u8f6f\u94f6\u8fd9\u6837\u7684\u5927\u91d1\u4e3b\u90fd\u6491\u4e0d\u4f4f\u81ea\u7b79\u3002\u5728\u4e00\u4e2a\u8fd8\u5728\u70e7\u94b1\u3001\u6ca1\u6709\u76c8\u5229\u7684 AI \u5b9e\u9a8c\u5ba4\u4e0a\u53e0\u52a0\u6760\u6746\uff0c\u4e00\u65e6 OpenAI \u8fd9\u7b14\u6295\u8d44\u51fa\u95ee\u9898\uff0c\u4ee3\u4ef7\u4f1a\u88ab\u653e\u5927\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4404,
       "ts": 1790002034,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Sam Altman says OpenAI\u2019s IPO window has been pushed to 2027\u2014but markets aren\u2019t the culprit - Fortune",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 10:59:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE1WNDBnc3RjZV9vZmtqSGZHQkZUd2RqdU9tdWJKMDIyMk1uVXJFWXhqOXVuVHE0X1VBNEhPczZRcTk2cFNfamoyOWhqTFpqcVNtRlpDS2oyLWlkMVVmV0U5NTM1WEtwMllrWlpqNy03LWxpeW5fS0dkaEdSc3dETUgxZ19WZVMtQzFfNXpjamxTcUg2aE1BYUZZa2NJeW40a2RxZk1uRjBjUFU?oc=5\n\nSam Altman says OpenAI\u2019s IPO window has been pushed to 2027\u2014but markets aren\u2019t the culprit - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOE1WNDBnc3RjZV9vZmtqSGZHQkZUd2RqdU9tdWJKMDIyMk1uVXJFWXhqOXVuVHE0X1VBNEhPczZRcTk2cFNfamoyOWhqTFpqcVNtRlpDS2oyLWlkMVVmV0U5NTM1WEtwMllrWlpqNy03LWxpeW5fS0dkaEdSc3dETUgxZ19WZVMtQzFfNXpjamxTcUg2aE1BYUZZa2NJeW40a2RxZk1uRjBjUFU?oc=5\" target=\"_blank\">Sam Altman says OpenAI\u2019s IPO window has been pushed to 2027\u2014but markets aren\u2019t the culprit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSam Altman says OpenAI's IPO timeline has slipped to 2027, and he explicitly says it's not because of market conditions.\n\n\u5185\u5bb9:\nSam Altman \u8868\u793a OpenAI \u7684 IPO \u7a97\u53e3\u63a8\u8fdf\u5230\u4e86 2027 \u5e74\uff0c\u5e76\u660e\u786e\u8bf4\u8fd9\u4e0d\u662f\u5e02\u573a\u539f\u56e0\u9020\u6210\u7684\u3002\n\nWhy it matters:\nA pushed-back IPO removes a near-term liquidity event that would have forced audited financials and market-priced scrutiny of OpenAI's burn \u2014 'not the market's fault' framing deflects from the alternative explanation, that the numbers or governance aren't ready. This is soft/speculative, MED not HIGH, since no burn-rate metric is attached.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740\u8fd1\u671f\u4e0d\u4f1a\u6709\u5f3a\u5236\u5ba1\u8ba1\u8d22\u62a5\u548c\u5e02\u573a\u5b9a\u4ef7\u5ba1\u89c6 OpenAI \u70e7\u94b1\u60c5\u51b5\u7684\u65f6\u95f4\u70b9\u3002\u300c\u4e0d\u662f\u5e02\u573a\u7684\u9519\u300d\u8fd9\u4e2a\u8bf4\u6cd5\u53cd\u800c\u66f4\u50cf\u662f\u5728\u56de\u907f\u53e6\u4e00\u79cd\u53ef\u80fd\u2014\u2014\u6570\u5b57\u6216\u6cbb\u7406\u7ed3\u6784\u8fd8\u6ca1\u51c6\u5907\u597d\u3002\u8fd9\u6761\u504f\u8f6f\u6027/\u6295\u673a\u6027\uff0c\u6ca1\u6709\u9644\u5e26\u5177\u4f53\u71c3\u70e7\u7387\u6570\u5b57\uff0c\u6240\u4ee5\u662f MED \u800c\u975e HIGH\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4206,
-      "ts": 1789470866,
-      "ts_str": "2026-09-15 11:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic vs OpenAI IPO: What's Confirmed, What's Rumor, and Who Lists First - MEXC",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 09:40:45 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUFmXzZJdkw3eTMxT01DcEFLTG9EYllwZnpJUmN2a09YMk1WNjJxeGQxSGhfenpYd3hhWVNrdE5fWlJ0YVdSYktHR1l3Rkk3empBZjczSFZsM05mbGZTdzdoNEYybmllZm42N1BBNU42MXQ3dU15bmM4Sm41a2M3aFprZ1JhUjdHVm5QbTVBZWpqY1dqVHZ6RlI0S2tzSzRqbGotOGNzZm8weUE?oc=5\n\nAnthropic vs OpenAI IPO: What's Confirmed, What's Rumor, and Who Lists First - MEXC\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUFmXzZJdkw3eTMxT01DcEFLTG9EYllwZnpJUmN2a09YMk1WNjJxeGQxSGhfenpYd3hhWVNrdE5fWlJ0YVdSYktHR1l3Rkk3empBZjczSFZsM05mbGZTdzdoNEYybmllZm42N1BBNU42MXQ3dU15bmM4Sm41a2M3aFprZ1JhUjdHVm5QbTVBZWpqY1dqVHZ6RlI0S2tzSzRqbGotOGNzZm8weUE?oc=5\" target=\"_blank\">Anthropic vs OpenAI IPO: What's Confirmed, What's Rumor, and Who Lists First</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MEXC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News item flagged for the term IPO, appearing twice with an identical headline comparing Anthropic and OpenAI IPO status \u2014 no confirmed filing, only speculation about who lists first.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News \u65b0\u95fb\u547d\u4e2d\u4e86 IPO \u5173\u952e\u8bcd\uff0c\u540c\u4e00\u6807\u9898\u91cd\u590d\u4e24\u6b21\uff0c\u5185\u5bb9\u662f\u731c\u6d4b Anthropic \u548c OpenAI \u8c01\u5148\u4e0a\u5e02\uff0c\u6ca1\u6709\u4efb\u4f55\u786e\u8ba4\u7684\u7533\u62a5\u6587\u4ef6\uff0c\u7eaf\u5c5e\u4f20\u95fb\u3002\n\nWhy it matters:\nThis is generic IPO-speculation noise, not a burn-rate or filing signal \u2014 C3's MED tier is dominated by \\bIPO\\b hits like this and carries no real bubble-stress information on its own.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u5c5e\u4e8e\u7eaf\u7cb9\u7684 IPO \u731c\u6d4b\u7c7b\u566a\u97f3\uff0c\u4e0d\u662f\u70e7\u94b1\u7387\u6216\u76d1\u7ba1\u6587\u4ef6\u4fe1\u53f7\u2014\u2014C3 \u7684 MED \u5c42\u5927\u91cf\u662f\u8fd9\u79cd \\bIPO\\b \u547d\u4e2d\uff0c\u5355\u770b\u8fd9\u6761\u6ca1\u6709\u5b9e\u8d28\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u606f\u3002\n",
       "emailed": false
     }
   ],
