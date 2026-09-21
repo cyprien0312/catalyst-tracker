@@ -1,12 +1,12 @@
 {
-  "generated_at": 1789958462,
-  "generated_at_str": "2026-09-21 02:41:02 UTC",
-  "last_event_ts": 1789958105,
+  "generated_at": 1789958655,
+  "generated_at_str": "2026-09-21 02:44:15 UTC",
+  "last_event_ts": 1789958654,
   "tables": {
     "alerts_dedup": {
-      "count": 4353,
-      "last_ts": 1789956869,
-      "last_str": "2026-09-21 02:14:29 UTC"
+      "count": 4354,
+      "last_ts": 1789958654,
+      "last_str": "2026-09-21 02:44:14 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-20 23:00:36 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5719,
-      "last_ts": 1789955043,
-      "last_str": "2026-09-21 01:44:03 UTC"
+      "count": 5720,
+      "last_ts": 1789958645,
+      "last_str": "2026-09-21 02:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1357,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-20 22:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33511,
-      "last_ts": 1789956842,
-      "last_str": "2026-09-21 02:14:02 UTC"
+      "count": 33520,
+      "last_ts": 1789958644,
+      "last_str": "2026-09-21 02:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10036,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4361,
+      "ts": 1789958654,
+      "ts_str": "2026-09-21 02:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports - Investing.com",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 02:04:30 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMXZqbjV0eldUdlIwSkRpOFhReWZnY25RYmt6VEdCVE52NmRwcEVtWjV1cHFkSVowdHpVcDZ0MGZ4ajNSS1A1Z2N3dXhxR092bGFNb2E2aGZydVpFQUxrSDZUb0pkSnptSWpXY2xUbUJGbVlMMmJ0OUJhMGMwVE5QMGpDSXRPRG5FbEJxbHEtQko3MldjTzNKZmFLVXl6QWhzaS1HcHRWQkZDT1hKWExqLTJzSFMzZXRnYjRlRmY2YnNWNDNDWjJJb3JEYjROeE5KUWc?oc=5\n\nSoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMXZqbjV0eldUdlIwSkRpOFhReWZnY25RYmt6VEdCVE52NmRwcEVtWjV1cHFkSVowdHpVcDZ0MGZ4ajNSS1A1Z2N3dXhxR092bGFNb2E2aGZydVpFQUxrSDZUb0pkSnptSWpXY2xUbUJGbVlMMmJ0OUJhMGMwVE5QMGpDSXRPRG5FbEJxbHEtQko3MldjTzNKZmFLVXl6QWhzaS1HcHRWQkZDT1hKWExqLTJzSFMzZXRnYjRlRmY2YnNWNDNDWjJJb3JEYjROeE5KUWc?oc=5\" target=\"_blank\">SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a bond sale of over $11 billion to fund its OpenAI-related commitments, per Bloomberg.\n\n\u5185\u5bb9:\n\u636e\u5f6d\u535a\u793e\u62a5\u9053\uff0c\u8f6f\u94f6\u8ba1\u5212\u53d1\u884c\u903e 110 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u7528\u4e8e\u8d44\u52a9\u5176\u5728 OpenAI \u4e0a\u7684\u76f8\u5173\u6295\u5165\u3002\n\nWhy it matters:\nSoftBank is raising debt, not equity, to bankroll its OpenAI exposure \u2014 a sign the capital needed to fund the buildout is outrunning cash on hand. Debt-financed AI bets raise the stakes if OpenAI's revenue trajectory disappoints, tightening the link between SoftBank's balance sheet and OpenAI-specific stress.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u8fd9\u6b21\u662f\u9760\u53d1\u503a\u800c\u4e0d\u662f\u80a1\u6743\u878d\u8d44\u6765\u6491 OpenAI \u655e\u53e3\uff0c\u8bf4\u660e\u652f\u6491\u8fd9\u8f6e\u6295\u5165\u6240\u9700\u7684\u8d44\u91d1\u5df2\u7ecf\u8d85\u51fa\u4e86\u81ea\u6709\u73b0\u91d1\u7684\u8986\u76d6\u8303\u56f4\u3002\u7528\u503a\u52a1\u7ed9 AI \u6295\u5165\u52a0\u6760\u6746\uff0c\u4e00\u65e6 OpenAI \u7684\u8425\u6536\u589e\u957f\u4e0d\u53ca\u9884\u671f\uff0c\u98ce\u9669\u4f1a\u66f4\u76f4\u63a5\u5730\u4f20\u5bfc\u5230\u8f6f\u94f6\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u4e0a\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4359,
       "ts": 1789956869,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI rules out 2026 IPO over AI safety work - Crypto News",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 09:09:12 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE9EUDRzTUR3NlFBVUpaX1JMSXhQSW03MU1JNGlYMmcxbG5TRVhib09fcWlIZGo3dnBRb2tOYXFXS3dPa3hhZm8xdnZaX212RUM2VnhGQ3p6S0pxZDJvcnZHMFpRbGl2dmZkUUI1WVYtd1BBbFp2?oc=5\n\nOpenAI rules out 2026 IPO over AI safety work - Crypto News\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9EUDRzTUR3NlFBVUpaX1JMSXhQSW03MU1JNGlYMmcxbG5TRVhib09fcWlIZGo3dnBRb2tOYXFXS3dPa3hhZm8xdnZaX212RUM2VnhGQ3p6S0pxZDJvcnZHMFpRbGl2dmZkUUI1WVYtd1BBbFp2?oc=5\" target=\"_blank\">OpenAI rules out 2026 IPO over AI safety work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crypto News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI publicly ruled out an IPO in 2026, citing ongoing AI safety work as the reason for delay.\n\n\u5185\u5bb9:\nOpenAI \u516c\u5f00\u6392\u9664\u4e86 2026 \u5e74 IPO \u7684\u53ef\u80fd\uff0c\u7406\u7531\u662f AI \u5b89\u5168\u5de5\u4f5c\u4ecd\u5728\u63a8\u8fdb\u3002\n\nWhy it matters:\nRemoves a near-term liquidity event that would have forced audited financials and public-market scrutiny of OpenAI's burn rate and revenue claims. Keeps the company's real unit economics opaque for longer, which is consistent with (not contrary to) the bubble-stress thesis \u2014 less external verification, not less risk.\n\n\u5f71\u54cd:\n\u8fd9\u610f\u5473\u7740\u8fd1\u671f\u4e0d\u4f1a\u6709\u5f3a\u5236\u62ab\u9732\u5ba1\u8ba1\u8d22\u62a5\u3001\u63a5\u53d7\u516c\u5f00\u5e02\u573a\u5ba1\u89c6\u70e7\u94b1\u901f\u5ea6\u548c\u6536\u5165\u8bf4\u6cd5\u7684\u8282\u70b9\u3002OpenAI \u771f\u5b9e\u7684\u5355\u4f4d\u7ecf\u6d4e\u72b6\u51b5\u4f1a\u7ee7\u7eed\u4fdd\u6301\u4e0d\u900f\u660e\u2014\u2014\u8fd9\u8ddf\u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u662f\u4e00\u81f4\u7684\uff0c\u4e0d\u900f\u660e\u672c\u8eab\u5e76\u4e0d\u4ee3\u8868\u98ce\u9669\u53d8\u5c0f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4158,
-      "ts": 1789375496,
-      "ts_str": "2026-09-14 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] AM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:) - Seeking Alpha",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 14 Sep 2026 08:13:19 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1pxa2J2Ynd3US1GTEpLM2NQSG1tU0tpdlJqMmdrMGd4Z2E2OVFkZlFYejdCRm5nV3RmNUVkb3dfcFkwcDBjYjA0Z3Fyc2ktZDU2N29xUWVrYTlMTjR4MTB0V09sTFk2VFlnOEJ0YXBCdjUtX0lPSVNTZzNwd1NHNVc0WDFmaU9CNWtiQXFKR2sxeHlMMnFEYjVyYWZ0R0xYR1d2bmI5NjVubkF1WGc?oc=5\n\nAM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:) - Seeking Alpha\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1pxa2J2Ynd3US1GTEpLM2NQSG1tU0tpdlJqMmdrMGd4Z2E2OVFkZlFYejdCRm5nV3RmNUVkb3dfcFkwcDBjYjA0Z3Fyc2ktZDU2N29xUWVrYTlMTjR4MTB0V09sTFk2VFlnOEJ0YXBCdjUtX0lPSVNTZzNwd1NHNVc0WDFmaU9CNWtiQXFKR2sxeHlMMnFEYjVyYWZ0R0xYR1d2bmI5NjVubkF1WGc?oc=5\" target=\"_blank\">AM Need to Know: OpenAI rules out 2026 IPO, tanker rates hit records & more (SPX:)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews roundup mentions OpenAI ruling out an IPO in 2026, alongside unrelated tanker-rate coverage \u2014 a low-signal aggregation, not an OpenAI-specific filing or metric.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6458\u8981\u63d0\u5230 OpenAI \u6392\u9664 2026 \u5e74\u4e0a\u5e02\uff08IPO\uff09\uff0c\u540c\u4e00\u6761\u91cc\u8fd8\u5939\u6742\u7740\u4e0d\u76f8\u5173\u7684\u6cb9\u8f6e\u8fd0\u4ef7\u6d88\u606f\u2014\u2014\u662f\u4f4e\u4fe1\u606f\u91cf\u7684\u65b0\u95fb\u805a\u5408\uff0c\u4e0d\u662f OpenAI \u4e13\u5c5e\u7684 filing \u6216\u6307\u6807\u3002\n\nWhy it matters:\nNo burn-rate number or filing text here, just a headline blip; MED severity reflects that this is IPO-timeline speculation rather than the >25% QoQ burn-rate trigger the C3 thesis actually tracks.\n\n\u5f71\u54cd:\n\u8fd9\u91cc\u6ca1\u6709\u5177\u4f53\u7684\u70e7\u94b1\u7387\u6570\u5b57\u6216 filing \u5185\u5bb9\uff0c\u53ea\u662f\u4e2a\u6807\u9898\u7ea7\u522b\u7684\u4fe1\u53f7\uff0cMED \u4e25\u91cd\u5ea6\u4e5f\u8bf4\u660e\u8fd9\u53ea\u662f\u5173\u4e8e\u4e0a\u5e02\u65f6\u95f4\u8868\u7684\u731c\u6d4b\uff0c\u5e76\u975e C3 \u771f\u6b63\u76ef\u7684\u90a3\u4e2a QoQ \u70e7\u94b1\u7387\u6da8\u8d85 25% \u7684\u89e6\u53d1\u6761\u4ef6\u3002\n",
       "emailed": false
     }
   ],
