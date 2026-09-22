@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790037663,
-  "generated_at_str": "2026-09-22 00:41:03 UTC",
-  "last_event_ts": 1790037307,
+  "generated_at": 1790037858,
+  "generated_at_str": "2026-09-22 00:44:18 UTC",
+  "last_event_ts": 1790037857,
   "tables": {
     "alerts_dedup": {
-      "count": 4411,
-      "last_ts": 1790035518,
-      "last_str": "2026-09-22 00:05:18 UTC"
+      "count": 4412,
+      "last_ts": 1790037857,
+      "last_str": "2026-09-22 00:44:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-21 23:00:23 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5756,
-      "last_ts": 1790036043,
-      "last_str": "2026-09-22 00:14:03 UTC"
+      "count": 5760,
+      "last_ts": 1790037845,
+      "last_str": "2026-09-22 00:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1367,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-22 00:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 33864,
-      "last_ts": 1790034243,
-      "last_str": "2026-09-21 23:44:03 UTC"
+      "count": 33872,
+      "last_ts": 1790037843,
+      "last_str": "2026-09-22 00:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10120,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4419,
+      "ts": 1790037857,
+      "ts_str": "2026-09-22 00:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank launches $11B bond sale for OpenAI investment - TNGlobal",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 00:40:16 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmt5amhHTlFUeTg1U0o5bXpYVnZHM015bWVhZkloS3Jqa0ltbk1nWjMzYnZrcjFBOGhqUC0zaXZFSGIwX1U5ZUdaU3hSVDJ1YWJMemtmRHVGQjlTQl9uUUZqU3JYVzg1LTgtbkN1dnVnX2RweXJZUFpEZzNsa0xiTnNB?oc=5\n\nSoftBank launches $11B bond sale for OpenAI investment - TNGlobal\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmt5amhHTlFUeTg1U0o5bXpYVnZHM015bWVhZkloS3Jqa0ltbk1nWjMzYnZrcjFBOGhqUC0zaXZFSGIwX1U5ZUdaU3hSVDJ1YWJMemtmRHVGQjlTQl9uUUZqU3JYVzg1LTgtbkN1dnVnX2RweXJZUFpEZzNsa0xiTnNB?oc=5\" target=\"_blank\">SoftBank launches $11B bond sale for OpenAI investment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TNGlobal</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is launching an $11 billion bond sale to fund its investment in OpenAI.\n\n\u5185\u5bb9:\n\u8f6f\u94f6\u6b63\u53d1\u884c 110 \u4ebf\u7f8e\u5143\u503a\u5238\uff0c\u4e3a\u5176\u5bf9 OpenAI \u7684\u6295\u8d44\u878d\u8d44\u3002\n\nWhy it matters:\nSoftBank is going into debt to fund a private AI equity stake \u2014 leverage is now flowing into the OpenAI ecosystem from a source that itself isn't AI revenue. If OpenAI's valuation stalls, SoftBank is the one holding bond obligations against an illiquid, unprofitable asset \u2014 a classic sign of speculative capital chasing the AI-capex cycle.\n\n\u5f71\u54cd:\n\u8f6f\u94f6\u5728\u4e3e\u503a\u53bb\u4e70\u4e00\u4efd\u79c1\u52df AI \u80a1\u6743\u2014\u2014\u6760\u6746\u8d44\u91d1\u6b63\u4ece\u4e00\u4e2a\u8ddf AI \u6536\u5165\u65e0\u5173\u7684\u6765\u6e90\u6d41\u5165 OpenAI \u751f\u6001\u3002\u5982\u679c OpenAI \u4f30\u503c\u4e0d\u6da8\uff0c\u8f6f\u94f6\u624b\u4e0a\u5c31\u662f\u4e00\u5806\u5bf9\u5e94\u6d41\u52a8\u6027\u5dee\u3001\u8fd8\u4e0d\u8d5a\u94b1\u7684\u8d44\u4ea7\u7684\u503a\u5238\u2014\u2014\u8fd9\u662f\u6295\u673a\u8d44\u672c\u8ffd\u9010 AI capex \u5468\u671f\u7684\u5178\u578b\u8ff9\u8c61\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4418,
       "ts": 1790035518,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Weighs Funding Round At $1.2 Trillion Valuation Before IPO - FT - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 22:06:05 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxQazloTHM1LXdrMGszZ3BsZEQ1b3hZYnJyN2ZpWkJtMUl0MkFnTmVTYlVxMkIwSWhSbzNRc1VxSDZUTE85WU52Q051d2VpLThSbmhkYUp1TkJ0Sk5jcktSN0pSSlAzclhKbEpDMHp2SG9YQ1BJSE14NzNfVlhnSEdtcllqTUhsVUtZSEpGdFJIZGYxSldGa3JGamI5ZE1KaEdJRWExbFRCOXd3RzRCbzE3aGt3czhCbHpYWUpSbXVjcVpzUlRnTEhxcWFoZmFOd05NNk1j?oc=5\n\nOpenAI Weighs Funding Round At $1.2 Trillion Valuation Before IPO - FT - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQazloTHM1LXdrMGszZ3BsZEQ1b3hZYnJyN2ZpWkJtMUl0MkFnTmVTYlVxMkIwSWhSbzNRc1VxSDZUTE85WU52Q051d2VpLThSbmhkYUp1TkJ0Sk5jcktSN0pSSlAzclhKbEpDMHp2SG9YQ1BJSE14NzNfVlhnSEdtcllqTUhsVUtZSEpGdFJIZGYxSldGa3JGamI5ZE1KaEdJRWExbFRCOXd3RzRCbzE3aGt3czhCbHpYWUpSbXVjcVpzUlRnTEhxcWFoZmFOd05NNk1j?oc=5\" target=\"_blank\">OpenAI Weighs Funding Round At $1.2 Trillion Valuation Before IPO - FT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say OpenAI is weighing a new funding round at a $1.2 trillion valuation ahead of a planned IPO, per the Financial Times.\n\n\u5185\u5bb9:\n\u636e FT \u62a5\u9053\uff0cOpenAI \u6b63\u5728\u8003\u8651\u5728 IPO \u524d\u4ee5 1.2 \u4e07\u4ebf\u7f8e\u5143\u4f30\u503c\u8fdb\u884c\u65b0\u4e00\u8f6e\u878d\u8d44\u3002\n\nWhy it matters:\nA valuation this size \u2014 roughly triple OpenAI's prior mark \u2014 needs revenue growth or capital markets to validate it fast; if the IPO or round stalls or prices lower, it removes the marginal buyer propping up the whole AI-capex chain that depends on OpenAI's spending.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u4f30\u503c\u5927\u7ea6\u662f OpenAI \u6b64\u524d\u4f30\u503c\u7684\u4e09\u500d\uff0c\u9700\u8981\u6536\u5165\u589e\u957f\u6216\u8d44\u672c\u5e02\u573a\u5f88\u5feb\u4e70\u8d26\u624d\u80fd\u6491\u4f4f\u3002\u5982\u679c\u8fd9\u8f6e\u878d\u8d44\u6216 IPO \u63a8\u8fdf\u3001\u4f30\u503c\u88ab\u538b\u4f4e\uff0c\u5c31\u7b49\u4e8e\u62bd\u8d70\u4e86\u6491\u7740\u6574\u6761 AI capex \u94fe\u6761\u7684\u8fb9\u9645\u4e70\u5bb6\u2014\u2014\u6bd5\u7adf\u5f88\u591a\u652f\u51fa\u90fd\u6307\u7740 OpenAI \u7ee7\u7eed\u70e7\u94b1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4218,
-      "ts": 1789512268,
-      "ts_str": "2026-09-15 22:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports - Reuters",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 22:40:58 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc3hqMlQtdi1BT1QzTGs4U1BVXzcxb05pRnpHMjI4RjBFekZBQ2lQSVZRTURaN1h3eGlZN0pCdmY1UzdwQzlNeldrMXh0YTFkZmxsdVBmV211YmdwZWIxTTAya1VpLUdtbGNRZkZZbFBVUklUVnVzd1NZRHpSTkpTZ3pWUGhQMmVzaW1qZDYydE83eTBNb3c4T2duTEw2dWx5WUVjZXVTX1Ixb25LR2ExRHlQTDltNWVrLW5KOExsdjJCaFE?oc=5\n\nOpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports - Reuters\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc3hqMlQtdi1BT1QzTGs4U1BVXzcxb05pRnpHMjI4RjBFekZBQ2lQSVZRTURaN1h3eGlZN0pCdmY1UzdwQzlNeldrMXh0YTFkZmxsdVBmV211YmdwZWIxTTAya1VpLUdtbGNRZkZZbFBVUklUVnVzd1NZRHpSTkpTZ3pWUGhQMmVzaW1qZDYydE83eTBNb3c4T2duTEw2dWx5WUVjZXVTX1Ixb25LR2ExRHlQTDltNWVrLW5KOExsdjJCaFE?oc=5\" target=\"_blank\">OpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Financial Times report says OpenAI is considering a funding round at a $1.2 trillion valuation ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u300a\u91d1\u878d\u65f6\u62a5\u300b\u62a5\u9053\uff0cOpenAI \u6b63\u8003\u8651\u5728 IPO \u524d\u4ee5 $1.2 trillion \u4f30\u503c\u8fdb\u884c\u4e00\u8f6e\u878d\u8d44\u3002\n\nWhy it matters:\nA valuation this size prices in years of dominant, uncontested AI revenue growth; it raises the bar for OpenAI's actual financial results (burn rate, revenue growth) to justify the number, and any slip becomes a much bigger story once real fundraising or IPO filings appear.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u4f30\u503c\u5df2\u7ecf\u628a\u672a\u6765\u591a\u5e74 AI \u6536\u5165\u6301\u7eed\u9ad8\u901f\u589e\u957f\u4e14\u51e0\u4e4e\u6ca1\u6709\u7ade\u4e89\u5bf9\u624b\u5206\u6d41\u7684\u9884\u671f\u90fd\u7b97\u8fdb\u53bb\u4e86\uff0c\u7b49\u4e8e\u628a OpenAI \u5b9e\u9645\u8d22\u52a1\u6570\u636e\uff08\u70e7\u94b1\u901f\u5ea6\u3001\u6536\u5165\u589e\u901f\uff09\u7684\u8fbe\u6807\u95e8\u69db\u62ac\u5f97\u66f4\u9ad8\uff0c\u4e00\u65e6\u771f\u6b63\u878d\u8d44\u6216 IPO \u6587\u4ef6\u62ab\u9732\u7684\u6570\u5b57\u8ddf\u4e0d\u4e0a\uff0c\u843d\u5dee\u4f1a\u88ab\u653e\u5927\u6210\u66f4\u5927\u7684\u65b0\u95fb\u3002\n",
       "emailed": false
     }
   ],
