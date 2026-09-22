@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790115986,
-  "generated_at_str": "2026-09-22 22:26:26 UTC",
-  "last_event_ts": 1790115244,
+  "generated_at": 1790116145,
+  "generated_at_str": "2026-09-22 22:29:05 UTC",
+  "last_event_ts": 1790116144,
   "tables": {
     "alerts_dedup": {
-      "count": 4433,
-      "last_ts": 1790113456,
-      "last_str": "2026-09-22 21:44:16 UTC"
+      "count": 4435,
+      "last_ts": 1790116144,
+      "last_str": "2026-09-22 22:29:04 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 70,
-      "last_ts": 1790029754,
-      "last_str": "2026-09-21 22:29:14 UTC"
+      "count": 72,
+      "last_ts": 1790116142,
+      "last_str": "2026-09-22 22:29:02 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4442,
+      "ts": 1790116144,
+      "ts_str": "2026-09-22 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "HIGH",
+      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.62% \u2265 2.50%",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-21\nCurrent:  2.62%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real yield is at or above an absolute restrictive level (\u22652.50%).\n\nWhy it matters:\nAt this level real money is outright restrictive, not merely tightening. It marks the zone where leveraged, no-current-cashflow AI bets and the refinancing of AI-linked debt come under sustained valuation pressure \u2014 the macro discount-rate equivalent of C7's outright credit stress.\n",
+      "emailed": true
+    },
+    {
+      "id": 4441,
+      "ts": 1790116143,
+      "ts_str": "2026-09-22 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.62% (+63bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-21\nCurrent:  2.62%\n90d low:  1.99%\nMove:     +63bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
+      "emailed": false
+    },
     {
       "id": 4440,
       "ts": 1790113456,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory chip shortage squeezes affordable devices and risks smartphone shipments - NewsBytes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 09:12:24 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxNSFlEUU14ZlZiM0VjV3oyODlGYnZEYTFTSWVPT3I2eVNCSFEtSGtTbzF3RVZzalZpSjBNNlNaaEkxWDM0S2RWbXVnU0xBdF9QN0RlcTRBWC1UNjZRdjNNdktaWFJMN1BGLWJTdXYtcEFKOVRGNUtwMnMtWndPTV9wOEFCMklPQU1FUVhkTXBLbklNWEpfM3BlUU5rNVRnbFlKcmUyMTVWQUM1MTNXa2Fja0p1NXI5MnhybVVIRi13QlRMNTlqMnc?oc=5\n\nMemory chip shortage squeezes affordable devices and risks smartphone shipments - NewsBytes\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNSFlEUU14ZlZiM0VjV3oyODlGYnZEYTFTSWVPT3I2eVNCSFEtSGtTbzF3RVZzalZpSjBNNlNaaEkxWDM0S2RWbXVnU0xBdF9QN0RlcTRBWC1UNjZRdjNNdktaWFJMN1BGLWJTdXYtcEFKOVRGNUtwMnMtWndPTV9wOEFCMklPQU1FUVhkTXBLbklNWEpfM3BlUU5rNVRnbFlKcmUyMTVWQUM1MTNXa2Fja0p1NXI5MnhybVVIRi13QlRMNTlqMnc?oc=5\" target=\"_blank\">Memory chip shortage squeezes affordable devices and risks smartphone shipments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsBytes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says a memory-chip shortage (DRAM/NAND) is squeezing affordable smartphones and putting shipment volumes at risk.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u5185\u5b58\u82af\u7247\uff08DRAM/NAND\uff09\u77ed\u7f3a\u6b63\u5728\u6324\u538b\u5e73\u4ef7\u667a\u80fd\u624b\u673a\u7684\u6210\u672c\u7a7a\u95f4\uff0c\u51fa\u8d27\u91cf\u9762\u4e34\u98ce\u9669\u3002\n\nWhy it matters:\nMemory scarcity pricing in at the device level confirms the supply-demand imbalance C6 tracks \u2014 AI datacenter buildout is pulling DRAM/NAND capacity away from consumer electronics, and rising component costs compressing phone margins is a downstream tell that the squeeze is real, not just a hyperscaler talking point.\n\n\u5f71\u54cd:\n\u5185\u5b58\u7d27\u7f3a\u5df2\u7ecf\u4f20\u5bfc\u5230\u7ec8\u7aef\u8bbe\u5907\u5b9a\u4ef7\uff0c\u5370\u8bc1\u4e86 C6 \u4e00\u76f4\u5728\u8ddf\u8e2a\u7684\u4f9b\u9700\u5931\u8861\uff1aAI \u6570\u636e\u4e2d\u5fc3\u5efa\u8bbe\u6b63\u5728\u62a2\u5360\u672c\u8be5\u6d41\u5411\u6d88\u8d39\u7535\u5b50\u7684 DRAM/NAND \u4ea7\u80fd\uff0c\u624b\u673a\u56e0\u5143\u5668\u4ef6\u6da8\u4ef7\u800c\u5229\u6da6\u627f\u538b\uff0c\u8bf4\u660e\u8fd9\u8f6e\u7d27\u7f3a\u662f\u771f\u5b9e\u7684\uff0c\u4e0d\u53ea\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546\u8bf4\u8bf4\u800c\u5df2\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4241,
-      "ts": 1789548269,
-      "ts_str": "2026-09-16 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI discusses new pre-IPO funding round at $1.2T valuation - Techzine Global",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 08:25:41 GMT\nLink:      https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVRhQUpmcG9kNUotVzRkS2Q4ZDhQMkN3ektCNTUwMDE5TG43dVM4WmF2Q1FlVzh5dkZMTUhCWFhFYk1hOEl6WE1ZaWd0TEkxdjhPOEdWbi1UeGs3dU5oZkhOSGhGSXRXZDFORUJ5azlPbDk5SXZPRV8tbGxzckRSU1pfRy1DeC1wTjlrZFMxVnZnLXY5TFltUzFmUUZXMjNqR2R2WmhiNzZhWEh0TGlidg?oc=5\n\nOpenAI discusses new pre-IPO funding round at $1.2T valuation - Techzine Global\n\n<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVRhQUpmcG9kNUotVzRkS2Q4ZDhQMkN3ektCNTUwMDE5TG43dVM4WmF2Q1FlVzh5dkZMTUhCWFhFYk1hOEl6WE1ZaWd0TEkxdjhPOEdWbi1UeGs3dU5oZkhOSGhGSXRXZDFORUJ5azlPbDk5SXZPRV8tbGxzckRSU1pfRy1DeC1wTjlrZFMxVnZnLXY5TFltUzFmUUZXMjNqR2R2WmhiNzZhWEh0TGlidg?oc=5\" target=\"_blank\">OpenAI discusses new pre-IPO funding round at $1.2T valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Techzine Global</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks for a new pre-IPO funding round at a $1.2T valuation; the same headline appeared twice, likely from duplicate RSS feeds.\n\n\u5185\u5bb9:\n\u6709\u6d88\u606f\u79f0 OpenAI \u6b63\u5728\u6d3d\u8c08\u65b0\u4e00\u8f6e IPO \u524d\u878d\u8d44\uff0c\u4f30\u503c\u8fbe $1.2T\uff1b\u540c\u4e00\u6761\u6807\u9898\u51fa\u73b0\u4e86\u4e24\u6b21\uff0c\u5927\u6982\u7387\u662f\u4e0d\u540c RSS \u6e90\u91cd\u590d\u63a8\u9001\u3002\n\nWhy it matters:\nA valuation jump like this raises the bar the eventual IPO (or any liquidity event) has to clear \u2014 the higher it goes, the more the AI-capex thesis depends on OpenAI actually monetizing at that scale. Per C3's spec, this is a MED speculation-stage signal, not yet a burn-rate metric crossing the >25% QoQ HIGH threshold.\n\n\u5f71\u54cd:\n\u4f30\u503c\u4e00\u8def\u63a8\u9ad8\uff0c\u610f\u5473\u7740\u672a\u6765 IPO \u6216\u4efb\u4f55\u6d41\u52a8\u6027\u4e8b\u4ef6\u8981\u8de8\u8fc7\u7684\u95e8\u69db\u4e5f\u6c34\u6da8\u8239\u9ad8\u2014\u2014AI capex \u53d9\u4e8b\u80fd\u4e0d\u80fd\u5151\u73b0\uff0c\u8d8a\u6765\u8d8a\u7cfb\u4e8e OpenAI \u80fd\u4e0d\u80fd\u6491\u4f4f\u8fd9\u4e2a\u4f30\u503c\u3002\u6309 C3 \u7684\u5224\u636e\uff0c\u8fd9\u5c5e\u4e8e MED \u7ea7\u522b\u7684\u6295\u673a\u6027\u6d88\u606f\uff0c\u8fd8\u6ca1\u89e6\u53ca burn rate \u73af\u6bd4\u6da8\u8d85 25% \u7684 HIGH \u95e8\u69db\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4242,
-      "ts": 1789548269,
-      "ts_str": "2026-09-16 08:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Does OpenAI IPO Delay Change The Bull Case For SoftBank Stock? - simplywall.st",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 08:35:34 GMT\nLink:      https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0N3MTljRHRCQ3BSdzdPRGlsZVdtU1UxZm1RbTZoY096S1pyTDNHdjhha21hU0gxMEhiWk9qaDVLMHQ2Q0pCWTMzWUlIdDFVQ0JxNkEwM1pDb1hjcWd2azh2RzBWOVBsbi1CU2JhLWtBajVqckhHUFlqdnJjNzdEX0ZzeW8zZnRxQnZnRU01TDM0SHZNVFEwZm94enF5Ni1QdHJXTnU1OHRPVm0zU3RiMC1KSUVINXA1QmRkWHBzMUJJOC1wc3didVZnOXlMNDVRekHSAdcBQVVfeXFMTU5BZC03dnlHLXhOdDM5SkdEeVVwRmJSRkhycHVueWR5Z1cyOGctcTdjcDY5OU0zRzFHeEplLWYtcm1YRHQzN2JEU2lRNVB1N21iYlUxZEgzeURCQjA5TFN1Zm9YVjU5TlhQZHBPeDBqRm9LcmxSR3pUc1lJU0R5OGgxaTlRZ1pPZ3ViU2F6enduYWpLUHl0VzFSLTcxUGFXbTRremZWTllxem1NaU02aW9mUGRsbEJxbHZWa2wxN1kwaUNwbE5vWGlvRnZqZW1JOWZJVURBejQ?oc=5\n\nDoes OpenAI IPO Delay Change The Bull Case For SoftBank Stock? - simplywall.st\n\n<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU0N3MTljRHRCQ3BSdzdPRGlsZVdtU1UxZm1RbTZoY096S1pyTDNHdjhha21hU0gxMEhiWk9qaDVLMHQ2Q0pCWTMzWUlIdDFVQ0JxNkEwM1pDb1hjcWd2azh2RzBWOVBsbi1CU2JhLWtBajVqckhHUFlqdnJjNzdEX0ZzeW8zZnRxQnZnRU01TDM0SHZNVFEwZm94enF5Ni1QdHJXTnU1OHRPVm0zU3RiMC1KSUVINXA1QmRkWHBzMUJJOC1wc3didVZnOXlMNDVRekHSAdcBQVVfeXFMTU5BZC03dnlHLXhOdDM5SkdEeVVwRmJSRkhycHVueWR5Z1cyOGctcTdjcDY5OU0zRzFHeEplLWYtcm1YRHQzN2JEU2lRNVB1N21iYlUxZEgzeURCQjA5TFN1Zm9YVjU5TlhQZHBPeDBqRm9LcmxSR3pUc1lJU0R5OGgxaTlRZ1pPZ3ViU2F6enduYWpLUHl0VzFSLTcxUGFXbTRremZWTllxem1NaU02aW9mUGRsbEJxbHZWa2wxN1kwaUNwbE5vWGlvRnZqZW1JOWZJVURBejQ?oc=5\" target=\"_blank\">Does OpenAI IPO Delay Change The Bull Case For SoftBank Stock?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">simplywall.st</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA batch of speculative headlines about SoftBank's stock outlook tied to a delayed OpenAI IPO, with no filing or hard number attached \u2014 this is the recurring MED-tier IPO-speculation noise the codebase already flags as low-signal.\n\n\u5185\u5bb9:\n\u4e00\u6279\u5173\u4e8e OpenAI IPO \u5ef6\u671f\u4f1a\u5982\u4f55\u5f71\u54cd SoftBank \u80a1\u4ef7\u524d\u666f\u7684\u6295\u673a\u6027\u6807\u9898\uff0c\u6ca1\u6709\u9644\u5e26\u4efb\u4f55 filing \u6216\u786c\u6570\u5b57\u2014\u2014\u8fd9\u6b63\u662f\u4ee3\u7801\u91cc\u5df2\u7ecf\u6807\u8bb0\u8fc7\u7684\u4f4e\u4fe1\u53f7 MED \u7ea7 IPO \u6295\u673a\u566a\u97f3\u3002\n\nWhy it matters:\nIPO timing chatter about a SoftBank-adjacent name is downstream sentiment, not a burn-rate or filing signal \u2014 it doesn't move the C3 thesis on its own and mostly adds noise to the 98%-IPO-token pattern already logged as a known tuning issue.\n\n\u5f71\u54cd:\n\u5173\u4e8e SoftBank \u80a1\u4ef7\u7684 IPO \u65f6\u70b9\u731c\u6d4b\u53ea\u662f\u4e0b\u6e38\u60c5\u7eea\u9762\u7684\u4e1c\u897f\uff0c\u4e0d\u662f filing \u6216\u70e7\u94b1\u901f\u5ea6\u4fe1\u53f7\uff0c\u672c\u8eab\u4e0d\u5f71\u54cd C3 \u7684\u8bba\u70b9\uff0c\u5927\u6982\u7387\u53ea\u662f\u7ed9\u90a3\u4e2a\u5df2\u77e5\u300c98% \u9760 IPO \u8fd9\u4e2a token \u5237\u51fa\u6765\u300d\u7684\u8c03\u97f3\u91cf\u95ee\u9898\u518d\u6dfb\u4e00\u6761\u566a\u97f3\u3002\n",
       "emailed": false
     }
   ],
