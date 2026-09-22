@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790093462,
-  "generated_at_str": "2026-09-22 16:11:02 UTC",
-  "last_event_ts": 1790093107,
+  "generated_at": 1790093657,
+  "generated_at_str": "2026-09-22 16:14:17 UTC",
+  "last_event_ts": 1790093657,
   "tables": {
     "alerts_dedup": {
-      "count": 4427,
-      "last_ts": 1790092045,
-      "last_str": "2026-09-22 15:47:25 UTC"
+      "count": 4428,
+      "last_ts": 1790093657,
+      "last_str": "2026-09-22 16:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-21 23:00:23 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5790,
-      "last_ts": 1790091844,
-      "last_str": "2026-09-22 15:44:04 UTC"
+      "count": 5791,
+      "last_ts": 1790093644,
+      "last_str": "2026-09-22 16:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1374,
-      "last_ts": 1790081045,
-      "last_str": "2026-09-22 12:44:05 UTC"
+      "count": 1375,
+      "last_ts": 1790093645,
+      "last_str": "2026-09-22 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6245,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-22 16:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 34036,
-      "last_ts": 1790091843,
-      "last_str": "2026-09-22 15:44:03 UTC"
+      "count": 34038,
+      "last_ts": 1790093642,
+      "last_str": "2026-09-22 16:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10172,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4435,
+      "ts": 1790093657,
+      "ts_str": "2026-09-22 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] SpaceX, OpenAI, Anthropic Are Making the IPO Market Look Small - Benzinga",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 15:50:14 GMT\nLink:      https://news.google.com/rss/articles/CBMikAFBVV95cUxNZXVEaGplX0NGVEFRNWdrYjZfcGEtZ1k5T1loU1U4SkVTTXVnNjhTeUswMFlBODllNjdaSDFCcy1abU9OWTNVd2UzWVNkX0JmTW9SUzByV3VFNFdtLWQ2TGFweHU3a0w1WlViT2dmbk1rektxT0REcnI4clFURzVyVy14dHlRX1VDcUZSUXRRVXo?oc=5\n\nSpaceX, OpenAI, Anthropic Are Making the IPO Market Look Small - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNZXVEaGplX0NGVEFRNWdrYjZfcGEtZ1k5T1loU1U4SkVTTXVnNjhTeUswMFlBODllNjdaSDFCcy1abU9OWTNVd2UzWVNkX0JmTW9SUzByV3VFNFdtLWQ2TGFweHU3a0w1WlViT2dmbk1rektxT0REcnI4clFURzVyVy14dHlRX1VDcUZSUXRRVXo?oc=5\" target=\"_blank\">SpaceX, OpenAI, Anthropic Are Making the IPO Market Look Small</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews coverage groups SpaceX, OpenAI, and Anthropic as private companies whose valuations now dwarf the traditional IPO market, without any specific filing or metric.\n\n\u5185\u5bb9:\n\u591a\u7bc7\u62a5\u9053\u628a SpaceX\u3001OpenAI\u3001Anthropic \u5f52\u4e3a\u4e00\u7c7b\uff0c\u79f0\u8fd9\u4e9b\u79c1\u6709\u516c\u53f8\u7684\u4f30\u503c\u5df2\u7ecf\u8ba9\u4f20\u7edf IPO \u5e02\u573a\u663e\u5f97\u6e3a\u5c0f\uff0c\u62a5\u9053\u4e2d\u6ca1\u6709\u5177\u4f53\u7684 filing \u6216\u6307\u6807\u6570\u5b57\u3002\n\nWhy it matters:\nThis is generic media commentary on AI-sector private valuations, not a burn-rate or filing-based signal \u2014 it's the kind of ambient hype coverage that inflates MED-tier volume without adding to the OpenAI stress thesis directly.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u5a92\u4f53\u5bf9 AI \u677f\u5757\u79c1\u6709\u4f30\u503c\u7684\u6cdb\u6cdb\u8bc4\u8bba\uff0c\u4e0d\u6d89\u53ca\u5177\u4f53\u7684 burn-rate \u6216 filing \u6570\u636e\uff0c\u662f\u90a3\u79cd\u4f1a\u62c9\u9ad8 MED \u5c42\u90ae\u4ef6\u91cf\u3001\u4f46\u5bf9 OpenAI \u538b\u529b\u4e3b\u7ebf\u672c\u8eab\u6ca1\u6709\u76f4\u63a5\u589e\u91cf\u4fe1\u606f\u7684\u6c1b\u56f4\u6027\u62a5\u9053\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4433,
       "ts": 1790092045,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report - Benzinga",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 05:23:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGpmazg3TWgxTWktMXdZVWlfTG1hSWozWEpKYlR5TjhVZHFRaVlGcVJkNlozaTg2MWdkQWo2Y2VpelhDanNYY0ptZ1NhWFFpaWpvTjdpWmdFakZEWFM5QkFNX2xoTkMyRnpTQjlfdWh3VTMxcFNTX1NrcHBoeTB4Slk4bVpZUE14ZmRSMFVMSUhHellQeEhwbTc5dFRzZTZCTndNUk1QbGhMbGM?oc=5\n\nOpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGpmazg3TWgxTWktMXdZVWlfTG1hSWozWEpKYlR5TjhVZHFRaVlGcVJkNlozaTg2MWdkQWo2Y2VpelhDanNYY0ptZ1NhWFFpaWpvTjdpWmdFakZEWFM5QkFNX2xoTkMyRnpTQjlfdWh3VTMxcFNTX1NrcHBoeTB4Slk4bVpZUE14ZmRSMFVMSUhHellQeEhwbTc5dFRzZTZCTndNUk1QbGhMbGM?oc=5\" target=\"_blank\">OpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks to raise new funding at a $1.2 trillion valuation, with Sam Altman ruling out an IPO in 2026.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u6d3d\u8c08\u4ee5 $1.2 trillion \u4f30\u503c\u8fdb\u884c\u65b0\u4e00\u8f6e\u878d\u8d44\uff0cSam Altman \u6392\u9664\u4e86 2026 \u5e74 IPO \u7684\u53ef\u80fd\u3002\n\nWhy it matters:\nA valuation this size, still privately funded, pushes the burn-rate question further out of public disclosure reach \u2014 exactly the opacity C3 exists to flag. Ruling out a near-term IPO means the capex-to-revenue mismatch stays unauditable for at least another year while spending commitments to Microsoft/Oracle/others keep compounding.\n\n\u5f71\u54cd:\n\u4f30\u503c\u6da8\u5230\u8fd9\u4e2a\u91cf\u7ea7\u5374\u4ecd\u4e0d\u4e0a\u5e02\uff0c\u610f\u5473\u7740\u70e7\u94b1\u901f\u5ea6\u8fd9\u7c7b\u5173\u952e\u6570\u636e\u7ee7\u7eed\u7559\u5728\u516c\u5f00\u62ab\u9732\u8303\u56f4\u4e4b\u5916\u2014\u2014\u8fd9\u6b63\u662f C3 \u8981\u76ef\u7684\u4e0d\u900f\u660e\u6027\u3002\u6392\u9664\u8fd1\u671f IPO\uff0c\u4ee3\u8868 capex \u548c\u6536\u5165\u4e4b\u95f4\u7684\u9519\u914d\u81f3\u5c11\u8fd8\u8981\u518d\u7792\u4e00\u5e74\uff0c\u800c\u5bf9 Microsoft/Oracle \u7b49\u7684\u652f\u51fa\u627f\u8bfa\u4ecd\u5728\u7d2f\u79ef\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4235,
-      "ts": 1789528445,
-      "ts_str": "2026-09-16 03:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports - WDEZ",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 23:18:32 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcGtTeERLX2NVNmI2MnVzZ1JqMDZxWkRxVV9xUlJHbzktbkpJZzNMTi0yaDI0T3B0YzZiUXJzZXEwZGphelFRdGhTeEdmN0xhOU11c1JVeF9ENVRjUUFYZHlMYy1heVlvZU5ra3NLMFRrZEhZVVFQRU45b19FNHBNMFhjM3FUeFliLWhCT2NjT2V2QUR1YVhwUnZtZFRaemZ6X0ViU1pHTEQ?oc=5\n\nOpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports - WDEZ\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcGtTeERLX2NVNmI2MnVzZ1JqMDZxWkRxVV9xUlJHbzktbkpJZzNMTi0yaDI0T3B0YzZiUXJzZXEwZGphelFRdGhTeEdmN0xhOU11c1JVeF9ENVRjUUFYZHlMYy1heVlvZU5ra3NLMFRrZEhZVVFQRU45b19FNHBNMFhjM3FUeFliLWhCT2NjT2V2QUR1YVhwUnZtZFRaemZ6X0ViU1pHTEQ?oc=5\" target=\"_blank\">OpenAI mulls funding round at $1.2 trillion valuation ahead of IPO, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WDEZ</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Financial Times report says OpenAI is considering a funding round at a $1.2 trillion valuation ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u82f1\u56fd\u300a\u91d1\u878d\u65f6\u62a5\u300b\u62a5\u9053\uff0cOpenAI \u6b63\u8003\u8651\u5728 IPO \u524d\u4ee5 $1.2 trillion \u4f30\u503c\u8fdb\u884c\u4e00\u8f6e\u878d\u8d44\u3002\n\nWhy it matters:\nA valuation this size prices in years of dominant, uncontested AI revenue growth; it raises the bar for OpenAI's actual financial results (burn rate, revenue growth) to justify the number, and any slip becomes a much bigger story once real fundraising or IPO filings appear.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u4f30\u503c\u5df2\u7ecf\u628a\u672a\u6765\u591a\u5e74 AI \u6536\u5165\u6301\u7eed\u9ad8\u901f\u589e\u957f\u4e14\u51e0\u4e4e\u6ca1\u6709\u7ade\u4e89\u5bf9\u624b\u5206\u6d41\u7684\u9884\u671f\u90fd\u7b97\u8fdb\u53bb\u4e86\uff0c\u7b49\u4e8e\u628a OpenAI \u5b9e\u9645\u8d22\u52a1\u6570\u636e\uff08\u70e7\u94b1\u901f\u5ea6\u3001\u6536\u5165\u589e\u901f\uff09\u7684\u8fbe\u6807\u95e8\u69db\u62ac\u5f97\u66f4\u9ad8\uff0c\u4e00\u65e6\u771f\u6b63\u878d\u8d44\u6216 IPO \u6587\u4ef6\u62ab\u9732\u7684\u6570\u5b57\u8ddf\u4e0d\u4e0a\uff0c\u843d\u5dee\u4f1a\u88ab\u653e\u5927\u6210\u66f4\u5927\u7684\u65b0\u95fb\u3002\n",
       "emailed": false
     }
   ],
