@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790098323,
-  "generated_at_str": "2026-09-22 17:32:03 UTC",
-  "last_event_ts": 1790097245,
+  "generated_at": 1790098519,
+  "generated_at_str": "2026-09-22 17:35:19 UTC",
+  "last_event_ts": 1790098518,
   "tables": {
     "alerts_dedup": {
-      "count": 4428,
-      "last_ts": 1790093657,
-      "last_str": "2026-09-22 16:14:17 UTC"
+      "count": 4429,
+      "last_ts": 1790098518,
+      "last_str": "2026-09-22 17:35:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-22 17:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6250,
-      "last_ts": 1790096702,
-      "last_str": "2026-09-22 17:05:02 UTC"
+      "count": 6252,
+      "last_ts": 1790098503,
+      "last_str": "2026-09-22 17:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7603,
-      "last_ts": 1790096705,
-      "last_str": "2026-09-22 17:05:05 UTC"
+      "count": 7606,
+      "last_ts": 1790098505,
+      "last_str": "2026-09-22 17:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4502,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-22 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5741,
-      "last_ts": 1790096705,
-      "last_str": "2026-09-22 17:05:05 UTC"
+      "count": 5744,
+      "last_ts": 1790098506,
+      "last_str": "2026-09-22 17:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 34055,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4436,
+      "ts": 1790098518,
+      "ts_str": "2026-09-22 17:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] iPhone 18 DRAM Shortage Strands $1B in Chips [2026] - shattered.io",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 14:56:04 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE9KQ1dBcTV5cXd1SlBJRGdKZ3NVZWNIdUpkX080NHZNblVRSUk5d1EteHllM1ByblYzNl9feWlmM0FmUENvMUtYTkY4V2FSUGtWb3ZjeGtVXzZyQ19DckxEOGNxd284Vnh0QXB5OFlHMkt4QQ?oc=5\n\niPhone 18 DRAM Shortage Strands $1B in Chips [2026] - shattered.io\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9KQ1dBcTV5cXd1SlBJRGdKZ3NVZWNIdUpkX080NHZNblVRSUk5d1EteHllM1ByblYzNl9feWlmM0FmUENvMUtYTkY4V2FSUGtWb3ZjeGtVXzZyQ19DckxEOGNxd284Vnh0QXB5OFlHMkt4QQ?oc=5\" target=\"_blank\">iPhone 18 DRAM Shortage Strands $1B in Chips [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports an iPhone 18 DRAM shortage stranding $1B in chips, with the RSS feed duplicating the same headline twice.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0 iPhone 18 \u9762\u4e34 DRAM \u77ed\u7f3a\uff0c\u5bfc\u81f4 $1B \u82af\u7247\u88ab\u6401\u7f6e\uff0cRSS \u91cc\u540c\u4e00\u6761\u6807\u9898\u91cd\u590d\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nA shortage severe enough to strand a billion dollars of committed chip capacity signals memory supply tightness spilling from AI datacenter demand into consumer devices \u2014 consistent with the C6 thesis that AI-driven DRAM/HBM allocation is squeezing the rest of the market.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u4e25\u91cd\u5230\u80fd\u56f0\u4f4f $1B \u7684\u82af\u7247\u4ea7\u80fd\uff0c\u8bf4\u660e\u5185\u5b58\u4f9b\u7ed9\u7d27\u5f20\u5df2\u7ecf\u4ece AI \u6570\u636e\u4e2d\u5fc3\u8513\u5ef6\u5230\u6d88\u8d39\u7535\u5b50\uff0c\u8fd9\u5370\u8bc1\u4e86 C6 \u7684\u5224\u65ad\u2014\u2014AI \u5bf9 DRAM/HBM \u7684\u62a2\u5360\u6b63\u5728\u6324\u538b\u6574\u4e2a\u5e02\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4435,
       "ts": 1790093657,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Stock Unlock Sept. 24: The Price Level That Decides Everything - Coin Gabbar",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 04:45:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxQQUtJU3k4ZndpZzRYRWtKR1pVcVg2NzRLeUpQYTYxYnVKdnNqOVF1ZHRscGU3Q2FGbEtrb2hEcDFFeDR4ZW1Yd0lGdnR1ZllmWnI0YzJreFY4OF9vVXgxYUtCQjdNazhhMG1rUHR0TF9mR0RHT3d4MC16WWl0dlRkVE1sbw?oc=5\n\nSpaceX Stock Unlock Sept. 24: The Price Level That Decides Everything - Coin Gabbar\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQQUtJU3k4ZndpZzRYRWtKR1pVcVg2NzRLeUpQYTYxYnVKdnNqOVF1ZHRscGU3Q2FGbEtrb2hEcDFFeDR4ZW1Yd0lGdnR1ZllmWnI0YzJreFY4OF9vVXgxYUtCQjdNazhhMG1rUHR0TF9mR0RHT3d4MC16WWl0dlRkVE1sbw?oc=5\" target=\"_blank\">SpaceX Stock Unlock Sept. 24: The Price Level That Decides Everything</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coin Gabbar</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news article previews SpaceX's stock unlock on Sept. 24, framing a specific price level as the deciding factor for what happens to the stock once locked-up shares become tradable.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u9884\u544a SpaceX \u80a1\u7968\u5c06\u5728 9 \u6708 24 \u65e5\u89e3\u7981\uff0c\u5e76\u5c06\u67d0\u4e2a\u5177\u4f53\u4ef7\u4f4d\u5b9a\u6027\u4e3a\u89e3\u7981\u540e\u8d70\u52bf\u7684\u5173\u952e\u5206\u6c34\u5cad\u3002\n\nWhy it matters:\nA large unlock event increases the supply of tradable shares; if the price is below the level insiders/employees anchored on, expect heavier selling pressure. For the passive-flows thesis, this is exactly the mechanical supply/demand test C11 tracks \u2014 independent of SpaceX's actual business fundamentals.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u4f1a\u589e\u52a0\u53ef\u4ea4\u6613\u80a1\u4efd\u7684\u4f9b\u7ed9\uff1b\u5982\u679c\u80a1\u4ef7\u4f4e\u4e8e\u5185\u90e8\u4eba/\u5458\u5de5\u5fc3\u7406\u951a\u5b9a\u7684\u4ef7\u4f4d\uff0c\u629b\u538b\u4f1a\u660e\u663e\u52a0\u5927\u3002\u5bf9\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\u7684\u8bba\u70b9\u6765\u8bf4\uff0c\u8fd9\u6b63\u662f C11 \u8981\u8ffd\u8e2a\u7684\u673a\u68b0\u6027\u4f9b\u9700\u6d4b\u8bd5\uff0c\u8ddf SpaceX \u57fa\u672c\u9762\u672c\u8eab\u65e0\u5173\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4236,
-      "ts": 1789537455,
-      "ts_str": "2026-09-16 05:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report - Benzinga",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 05:23:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGpmazg3TWgxTWktMXdZVWlfTG1hSWozWEpKYlR5TjhVZHFRaVlGcVJkNlozaTg2MWdkQWo2Y2VpelhDanNYY0ptZ1NhWFFpaWpvTjdpWmdFakZEWFM5QkFNX2xoTkMyRnpTQjlfdWh3VTMxcFNTX1NrcHBoeTB4Slk4bVpZUE14ZmRSMFVMSUhHellQeEhwbTc5dFRzZTZCTndNUk1QbGhMbGM?oc=5\n\nOpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report - Benzinga\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWGpmazg3TWgxTWktMXdZVWlfTG1hSWozWEpKYlR5TjhVZHFRaVlGcVJkNlozaTg2MWdkQWo2Y2VpelhDanNYY0ptZ1NhWFFpaWpvTjdpWmdFakZEWFM5QkFNX2xoTkMyRnpTQjlfdWh3VTMxcFNTX1NrcHBoeTB4Slk4bVpZUE14ZmRSMFVMSUhHellQeEhwbTc5dFRzZTZCTndNUk1QbGhMbGM?oc=5\" target=\"_blank\">OpenAI Eyes Fresh Funding at $1.2 Trillion Valuation as Sam Altman Rules Out 2026 IPO: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks to raise new funding at a $1.2 trillion valuation, with Sam Altman ruling out an IPO in 2026.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u6d3d\u8c08\u4ee5 $1.2 trillion \u4f30\u503c\u8fdb\u884c\u65b0\u4e00\u8f6e\u878d\u8d44\uff0cSam Altman \u6392\u9664\u4e86 2026 \u5e74 IPO \u7684\u53ef\u80fd\u3002\n\nWhy it matters:\nA valuation this size, still privately funded, pushes the burn-rate question further out of public disclosure reach \u2014 exactly the opacity C3 exists to flag. Ruling out a near-term IPO means the capex-to-revenue mismatch stays unauditable for at least another year while spending commitments to Microsoft/Oracle/others keep compounding.\n\n\u5f71\u54cd:\n\u4f30\u503c\u6da8\u5230\u8fd9\u4e2a\u91cf\u7ea7\u5374\u4ecd\u4e0d\u4e0a\u5e02\uff0c\u610f\u5473\u7740\u70e7\u94b1\u901f\u5ea6\u8fd9\u7c7b\u5173\u952e\u6570\u636e\u7ee7\u7eed\u7559\u5728\u516c\u5f00\u62ab\u9732\u8303\u56f4\u4e4b\u5916\u2014\u2014\u8fd9\u6b63\u662f C3 \u8981\u76ef\u7684\u4e0d\u900f\u660e\u6027\u3002\u6392\u9664\u8fd1\u671f IPO\uff0c\u4ee3\u8868 capex \u548c\u6536\u5165\u4e4b\u95f4\u7684\u9519\u914d\u81f3\u5c11\u8fd8\u8981\u518d\u7792\u4e00\u5e74\uff0c\u800c\u5bf9 Microsoft/Oracle \u7b49\u7684\u652f\u51fa\u627f\u8bfa\u4ecd\u5728\u7d2f\u79ef\u3002\n",
       "emailed": false
     }
   ],
