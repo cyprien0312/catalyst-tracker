@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790190122,
-  "generated_at_str": "2026-09-23 19:02:02 UTC",
-  "last_event_ts": 1790189225,
+  "generated_at": 1790190307,
+  "generated_at_str": "2026-09-23 19:05:07 UTC",
+  "last_event_ts": 1790190307,
   "tables": {
     "alerts_dedup": {
-      "count": 4460,
-      "last_ts": 1790189225,
-      "last_str": "2026-09-23 18:47:05 UTC"
+      "count": 4461,
+      "last_ts": 1790190307,
+      "last_str": "2026-09-23 19:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-09-23 18:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6315,
-      "last_ts": 1790188507,
-      "last_str": "2026-09-23 18:35:07 UTC"
+      "count": 6316,
+      "last_ts": 1790190301,
+      "last_str": "2026-09-23 19:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7679,
-      "last_ts": 1790184904,
-      "last_str": "2026-09-23 17:35:04 UTC"
+      "count": 7680,
+      "last_ts": 1790190304,
+      "last_str": "2026-09-23 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4540,
-      "last_ts": 1790184903,
-      "last_str": "2026-09-23 17:35:03 UTC"
+      "count": 4544,
+      "last_ts": 1790190303,
+      "last_str": "2026-09-23 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5799,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4468,
+      "ts": 1790190307,
+      "ts_str": "2026-09-23 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs - Newstrack English",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 09:18:46 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxNalhrUDdKMndOLXZGeTJaVFJoSUdQWGwycjJleWtPMEFyTXB2REs3dnhSY3FQRWZxdkNTR1lsc25FMlNFbVdrZzhIY2hyWkFKenFEN0h4V0FGODFRdUxBV2N3TEVVckJsMkoydjE0RE5kSW95aVlqbTJhbGw2dkt4WEM0Z2g0WGd6ZV9zUWRqaURfQ1dLb1piSDAwT0tRVXcwdEQ3UXZtQVBXZFVfMlBldDNlZjQ5TEVMV0ZZ0gHAAUFVX3lxTE1IVU83S2NDTlJmQ3dxQWRGWk9ic0dJcENFd3ZOZmVEbmFyM2JpM2lzS29pRnNVQ3NldnBYd05XTFJiWVZXNlJyalEweGpZQ3pKZjA2RTh5eC1qVUxqSkg0dkJiV1FodXpUUzBydUd6ZmwtT0o0enJVaWgtTHZNWEk3TmYtdmVvUVJReWJNRU9LZE1vdDlWYTBBT3BLUU9LbUJvSmVWWjNwSTVOU2ZUaDV2NGt5aU4zcHFFSWR6OHJGbw?oc=5\n\nSamsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs - Newstrack English\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNalhrUDdKMndOLXZGeTJaVFJoSUdQWGwycjJleWtPMEFyTXB2REs3dnhSY3FQRWZxdkNTR1lsc25FMlNFbVdrZzhIY2hyWkFKenFEN0h4V0FGODFRdUxBV2N3TEVVckJsMkoydjE0RE5kSW95aVlqbTJhbGw2dkt4WEM0Z2g0WGd6ZV9zUWRqaURfQ1dLb1piSDAwT0tRVXcwdEQ3UXZtQVBXZFVfMlBldDNlZjQ5TEVMV0ZZ0gHAAUFVX3lxTE1IVU83S2NDTlJmQ3dxQWRGWk9ic0dJcENFd3ZOZmVEbmFyM2JpM2lzS29pRnNVQ3NldnBYd05XTFJiWVZXNlJyalEweGpZQ3pKZjA2RTh5eC1qVUxqSkg0dkJiV1FodXpUUzBydUd6ZmwtT0o0enJVaWgtTHZNWEk3TmYtdmVvUVJReWJNRU9LZE1vdDlWYTBBT3BLUU9LbUJvSmVWWjNwSTVOU2ZUaDV2NGt5aU4zcHFFSWR6OHJGbw?oc=5\" target=\"_blank\">Samsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newstrack English</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 4467,
       "ts": 1790189225,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Price Surge Erases Ultra-Low-Cost Smartphones - \uc870\uc120\uc77c\ubcf4",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 15:39:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDdMVGw3X18zbFRFQkVwZHpoQkkyMXJ3ZVR6TDc5aEVkWGU2ckFuVFM5dGlueUZHNUU0bVV6TjRCNHp5SW5FMnNFXy1YdFJWU0xpNENwY2dOTzgyV1o2TVJuUFI4a0ZfNE9wdkptOUhSbjlZUkQ5djNRT19MUHRYZ1BDQXFNV3M5?oc=5\n\nMemory Price Surge Erases Ultra-Low-Cost Smartphones - \uc870\uc120\uc77c\ubcf4\n\n<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaDdMVGw3X18zbFRFQkVwZHpoQkkyMXJ3ZVR6TDc5aEVkWGU2ckFuVFM5dGlueUZHNUU0bVV6TjRCNHp5SW5FMnNFXy1YdFJWU0xpNENwY2dOTzgyV1o2TVJuUFI4a0ZfNE9wdkptOUhSbjlZUkQ5djNRT19MUHRYZ1BDQXFNV3M5?oc=5\" target=\"_blank\">Memory Price Surge Erases Ultra-Low-Cost Smartphones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uc870\uc120\uc77c\ubcf4</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA memory-price-surge story was picked up twice from the same RSS query, reporting that rising DRAM/NAND prices have wiped out the ultra-low-cost smartphone segment.\n\n\u5185\u5bb9:\n\u4e00\u6761\u5173\u4e8e\u5185\u5b58\u4ef7\u683c\u66b4\u6da8\u7684\u65b0\u95fb\u88ab\u540c\u4e00\u6761 RSS \u67e5\u8be2\u91cd\u590d\u6293\u53d6\u4e86\u4e24\u6b21\uff0c\u62a5\u9053\u79f0 DRAM/NAND \u6da8\u4ef7\u5df2\u7ecf\u628a\u8d85\u4f4e\u4ef7\u667a\u80fd\u624b\u673a\u8fd9\u4e2a\u54c1\u7c7b\u6253\u6ca1\u4e86\u3002\n\nWhy it matters:\nMemory-price spikes are the AI-capex bill hitting downstream consumer hardware \u2014 hyperscalers and GPU makers are absorbing HBM/DRAM supply, squeezing everyone else. It's a real-economy cost signal, not just a component-margin story.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u662f AI capex \u8d26\u5355\u8f6c\u5ac1\u5230\u4e0b\u6e38\u6d88\u8d39\u7535\u5b50\u7684\u8868\u73b0\u2014\u2014\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c GPU \u5382\u5546\u5728\u5403\u6389 HBM/DRAM \u4f9b\u7ed9\uff0c\u6324\u538b\u5176\u4ed6\u6240\u6709\u4eba\u3002\u8fd9\u662f\u5b9e\u4f53\u7ecf\u6d4e\u5c42\u9762\u7684\u6210\u672c\u4fe1\u53f7\uff0c\u4e0d\u53ea\u662f\u96f6\u90e8\u4ef6\u6bdb\u5229\u7387\u7684\u4e8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4268,
-      "ts": 1789577239,
-      "ts_str": "2026-09-16 16:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SPCX Stock Eyes $200 as Nasdaq-100 Rebalancing and Space Defense Boost SpaceX - FXLeaders",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 16:01:06 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdVVHclhMdlNaWVUydEx2RHYzMVlHaFlnREE5cTltbGctdkZnWVVXQkpSV0pYVHRQQkotZUx1OEhYZVhKNUxoaDllQ25lRUxMcFR6Q3M5dlJBSXAzeHJScmJwZG1YckpsckUzeVRZRXc1bW5ZRzJOR2M5Zk00N2NabW5Cck1ES2w4VU53cVJDdHktbHVFNC1EN0xpSVJ3a1l4bFNCNHQzcmM3aDZCeXNTVFR6WFdfcXAzUG1Z?oc=5\n\nSPCX Stock Eyes $200 as Nasdaq-100 Rebalancing and Space Defense Boost SpaceX - FXLeaders\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdVVHclhMdlNaWVUydEx2RHYzMVlHaFlnREE5cTltbGctdkZnWVVXQkpSV0pYVHRQQkotZUx1OEhYZVhKNUxoaDllQ25lRUxMcFR6Q3M5dlJBSXAzeHJScmJwZG1YckpsckUzeVRZRXc1bW5ZRzJOR2M5Zk00N2NabW5Cck1ES2w4VU53cVJDdHktbHVFNC1EN0xpSVJ3a1l4bFNCNHQzcmM3aDZCeXNTVFR6WFdfcXAzUG1Z?oc=5\" target=\"_blank\">SPCX Stock Eyes $200 as Nasdaq-100 Rebalancing and Space Defense Boost SpaceX</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXLeaders</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item claims SPCX stock is targeting $200 a share, attributing the move to potential Nasdaq-100 rebalancing inclusion plus a boost from space-defense contracts.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0 SPCX \u80a1\u4ef7\u76ee\u6807\u770b\u5411 $200\uff0c\u7406\u7531\u662f Nasdaq-100 \u6f5c\u5728\u6307\u6570\u8c03\u6574\u7eb3\u5165\uff0c\u52a0\u4e0a\u592a\u7a7a\u9632\u52a1\u5408\u540c\u7684\u63d0\u632f\u3002\n\nWhy it matters:\nThis is the passive-flow mechanism C11 exists to catch: if SpaceX enters the Nasdaq-100, index-tracking funds must buy shares regardless of valuation, creating price support unrelated to fundamentals. A $200 target built on rebalancing speculation plus contract news is exactly the kind of narrative that can inflate a single-name valuation ahead of, or independent of, actual index inclusion \u2014 worth flagging as unlock-adjacent hype, not confirmed mechanics.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u8981\u76ef\u7684\u88ab\u52a8\u8d44\u91d1\u673a\u5236\uff1a\u5982\u679c SpaceX \u88ab\u7eb3\u5165 Nasdaq-100\uff0c\u6307\u6570\u57fa\u91d1\u4f1a\u88ab\u8feb\u4e70\u5165\u80a1\u7968\uff0c\u4e0d\u7ba1\u4f30\u503c\u9ad8\u4f4e\uff0c\u8fd9\u79cd\u4e70\u76d8\u548c\u57fa\u672c\u9762\u65e0\u5173\u3002\u7528\u300c\u6307\u6570\u7eb3\u5165\u731c\u6d4b + \u5408\u540c\u6d88\u606f\u300d\u5806\u51fa $200 \u76ee\u6807\u4ef7\uff0c\u6b63\u662f\u90a3\u79cd\u5728\u89e3\u7981\u524d\u540e\u7092\u70ed\u5355\u4e00\u6807\u7684\u4f30\u503c\u7684\u53d9\u4e8b\uff0c\u5c5e\u4e8e\u89e3\u7981\u76f8\u5173\u7092\u4f5c\u800c\u975e\u5df2\u786e\u8ba4\u7684\u6307\u6570\u673a\u5236\uff0c\u503c\u5f97\u6807\u8bb0\u4f46\u4e0d\u4ee3\u8868\u5df2\u6210\u771f\u3002\n",
       "emailed": false
     }
   ],
