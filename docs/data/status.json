@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790179323,
-  "generated_at_str": "2026-09-23 16:02:03 UTC",
-  "last_event_ts": 1790178426,
+  "generated_at": 1790179508,
+  "generated_at_str": "2026-09-23 16:05:08 UTC",
+  "last_event_ts": 1790179507,
   "tables": {
     "alerts_dedup": {
-      "count": 4453,
-      "last_ts": 1790178426,
-      "last_str": "2026-09-23 15:47:06 UTC"
+      "count": 4454,
+      "last_ts": 1790179507,
+      "last_str": "2026-09-23 16:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-23 15:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7676,
-      "last_ts": 1790174104,
-      "last_str": "2026-09-23 14:35:04 UTC"
+      "count": 7677,
+      "last_ts": 1790179506,
+      "last_str": "2026-09-23 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4536,
-      "last_ts": 1790177704,
-      "last_str": "2026-09-23 15:35:04 UTC"
+      "count": 4537,
+      "last_ts": 1790179504,
+      "last_str": "2026-09-23 16:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5791,
-      "last_ts": 1790177706,
-      "last_str": "2026-09-23 15:35:06 UTC"
+      "count": 5793,
+      "last_ts": 1790179506,
+      "last_str": "2026-09-23 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 34354,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4461,
+      "ts": 1790179507,
+      "ts_str": "2026-09-23 16:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron Stock Draws Bigger Analyst Upside Than Sandisk as DRAM Prices Surge - kobaran.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 14:28:48 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxNTE44T29oSUJKVVFYTTFYYzdXZ2Ntd0xEYjJIUmt6LVVFNlROcnhkMHh5LS05dnF0YjQ0TU9qRGQyZm5rYTFTY3gzMFRwb1ZXNmFnTGl0bVhsUTRLV2M3NVlZLXQ1Mk1ySmdTdUJld20wUUljLUp1MTRWZzEzZlFUSERwcjhSeE15WTRPQWlvM3pCOGlDLWxYQzZYMW9DLVV1?oc=5\n\nMicron Stock Draws Bigger Analyst Upside Than Sandisk as DRAM Prices Surge - kobaran.com\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNTE44T29oSUJKVVFYTTFYYzdXZ2Ntd0xEYjJIUmt6LVVFNlROcnhkMHh5LS05dnF0YjQ0TU9qRGQyZm5rYTFTY3gzMFRwb1ZXNmFnTGl0bVhsUTRLV2M3NVlZLXQ1Mk1ySmdTdUJld20wUUljLUp1MTRWZzEzZlFUSERwcjhSeE15WTRPQWlvM3pCOGlDLWxYQzZYMW9DLVV1?oc=5\" target=\"_blank\">Micron Stock Draws Bigger Analyst Upside Than Sandisk as DRAM Prices Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">kobaran.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 4459,
       "ts": 1790178426,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Investors Reportedly Offered OpenAI a New Funding Round After Postponed IPO. Valuation Could Top $1 Trillion. - Internat",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 14:37:11 GMT\nLink:      https://news.google.com/rss/articles/CBMixgFBVV95cUxPaUR3UjFCSkpmMzVfTzB5N0tmanczRVBFcWk2ZDRKclZTNnpsZmpMVDBMNjRfMWtuUDYxYVVYYktBVThlYUluN2lvNHJKYkI1dXF4VGEyMEh1LUppakZZWmFyR3dtdFdrTUMyOUw2OE5yX1poX3NkOVBmcWJYQzZEWGpEVnVnOUpNT3VyZUhvYVNWQXJMaF9fTWRrM3VEVGcwNEN6S1NXNUFwQ2d0TEIwcTZFR0prYWZxZ29KaGJVc2lHMThGbHc?oc=5\n\nInvestors Reportedly Offered OpenAI a New Funding Round After Postponed IPO. Valuation Could Top $1 Trillion. - International Business Times\n\n<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPaUR3UjFCSkpmMzVfTzB5N0tmanczRVBFcWk2ZDRKclZTNnpsZmpMVDBMNjRfMWtuUDYxYVVYYktBVThlYUluN2lvNHJKYkI1dXF4VGEyMEh1LUppakZZWmFyR3dtdFdrTUMyOUw2OE5yX1poX3NkOVBmcWJYQzZEWGpEVnVnOUpNT3VyZUhvYVNWQXJMaF9fTWRrM3VEVGcwNEN6S1NXNUFwQ2d0TEIwcTZFR0prYWZxZ29KaGJVc2lHMThGbHc?oc=5\" target=\"_blank\">Investors Reportedly Offered OpenAI a New Funding Round After Postponed IPO. Valuation Could Top $1 Trillion.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Business Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews reports say investors offered OpenAI a new funding round after its planned IPO was postponed, with the valuation possibly topping $1 trillion.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cOpenAI \u7684 IPO \u8ba1\u5212\u63a8\u8fdf\u540e\uff0c\u6295\u8d44\u8005\u5411\u5176\u63d0\u4f9b\u4e86\u65b0\u4e00\u8f6e\u878d\u8d44\uff0c\u4f30\u503c\u53ef\u80fd\u7a81\u7834 1 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nA postponed IPO forced onto private funding at trillion-dollar marks signals the exit path is closing while burn keeps running \u2014 that's the core C3 thesis: OpenAI's capex commitments are getting harder to fund through normal channels.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u3001\u88ab\u8feb\u8f6c\u5411\u79c1\u52df\u878d\u8d44\u3001\u4f30\u503c\u8fd8\u51b2\u5230\u4e07\u4ebf\u7ea7\uff0c\u8fd9\u8bf4\u660e\u9000\u51fa\u901a\u9053\u5728\u6536\u7d27\uff0c\u800c\u70e7\u94b1\u8fd8\u5728\u7ee7\u7eed\u2014\u2014\u8fd9\u6b63\u662f C3 \u5173\u6ce8\u7684\u6838\u5fc3\uff1aOpenAI \u7684 capex \u627f\u8bfa\u6b63\u53d8\u5f97\u8d8a\u6765\u8d8a\u96be\u901a\u8fc7\u6b63\u5e38\u6e20\u9053\u6765\u652f\u6491\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4261,
-      "ts": 1789568054,
-      "ts_str": "2026-09-16 14:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI eyes $1.2T valuation in fresh funding talks ahead of potential 2027 IPO - Tech Funding News",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 12:00:17 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVE9GcGw2VlRmSndpUVZVaTdlRjdKY0VfM2FyYXNZZjh2QWVOdlh6VVlzYkRLS0pPUlJtdHVCejRSVnI1WUZ3N2ZYRGlKODJiV2c5MERNZWU2X2x0WVZPcXJCbUtlWmtvekRDMlVWbTZZdHJuWjNpbjR5bUtvWDRLRTdxWXVpUUR4WkdFdzZaS1pvT3RjN2VBRGhnaXJFeFN3WjRNcjRHUXlrdw?oc=5\n\nOpenAI eyes $1.2T valuation in fresh funding talks ahead of potential 2027 IPO - Tech Funding News\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVE9GcGw2VlRmSndpUVZVaTdlRjdKY0VfM2FyYXNZZjh2QWVOdlh6VVlzYkRLS0pPUlJtdHVCejRSVnI1WUZ3N2ZYRGlKODJiV2c5MERNZWU2X2x0WVZPcXJCbUtlWmtvekRDMlVWbTZZdHJuWjNpbjR5bUtvWDRLRTdxWXVpUUR4WkdFdzZaS1pvT3RjN2VBRGhnaXJFeFN3WjRNcjRHUXlrdw?oc=5\" target=\"_blank\">OpenAI eyes $1.2T valuation in fresh funding talks ahead of potential 2027 IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Funding News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks for a fresh funding round valuing it at $1.2T, ahead of a possible 2027 IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u6d3d\u8c08\u65b0\u4e00\u8f6e\u878d\u8d44\uff0c\u4f30\u503c\u6307\u5411 $1.2T\uff0c\u540c\u65f6\u5728\u4e3a 2027 \u5e74\u53ef\u80fd\u7684 IPO \u94fa\u8def\u3002\n\nWhy it matters:\nA $1.2T valuation with an IPO timeline signals investors and OpenAI itself see a near-term liquidity/scaling path \u2014 this is speculative funding-market chatter, not a burn-rate or filing data point, so it stays below the HIGH threshold defined for this catalyst.\n\n\u5f71\u54cd:\n$1.2T \u4f30\u503c\u52a0\u4e0a IPO \u65f6\u95f4\u8868\uff0c\u8bf4\u660e\u6295\u8d44\u4eba\u548c OpenAI \u81ea\u5df1\u90fd\u5728\u4e3a\u77ed\u671f\u5185\u7684\u6d41\u52a8\u6027\u548c\u6269\u5f20\u94fa\u8def\uff0c\u4f46\u8fd9\u53ea\u662f\u878d\u8d44\u5e02\u573a\u7684\u4f20\u95fb\uff0c\u4e0d\u6d89\u53ca\u70e7\u94b1\u901f\u5ea6\u6216\u5b9e\u9645\u8d22\u62a5\u6570\u636e\uff0c\u6240\u4ee5\u591f\u4e0d\u4e0a\u8fd9\u4e2a\u4fe1\u53f7\u7684 HIGH \u95e8\u69db\u3002\n",
       "emailed": false
     }
   ],
