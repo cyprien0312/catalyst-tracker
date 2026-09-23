@@ -1,7 +1,7 @@
 {
-  "generated_at": 1790135046,
-  "generated_at_str": "2026-09-23 03:44:06 UTC",
-  "last_event_ts": 1790135043,
+  "generated_at": 1790135228,
+  "generated_at_str": "2026-09-23 03:47:08 UTC",
+  "last_event_ts": 1790135223,
   "tables": {
     "alerts_dedup": {
       "count": 4436,
@@ -104,9 +104,9 @@
       "last_str": "2026-09-23 03:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 10220,
-      "last_ts": 1790131623,
-      "last_str": "2026-09-23 02:47:03 UTC"
+      "count": 10226,
+      "last_ts": 1790135223,
+      "last_str": "2026-09-23 03:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -2366,11 +2366,11 @@
   ],
   "plan": {
     "ndx": {
-      "current": 30482.35,
-      "date": "2026-09-21",
-      "ath": 30660.6,
-      "ath_date": "2026-06-02",
-      "drawdown": -0.005813650091648581
+      "current": 30732.4,
+      "date": "2026-09-22",
+      "ath": 30732.4,
+      "ath_date": "2026-09-22",
+      "drawdown": 0.0
     },
     "spx": null,
     "regime": "A",
@@ -2380,28 +2380,28 @@
         "thresh": 0.0,
         "pct": 10,
         "label": "starter \u00b7 FOMO insurance",
-        "level": 30660.6,
+        "level": 30732.4,
         "triggered": true
       },
       {
         "thresh": -0.1,
         "pct": 10,
         "label": "dip 1",
-        "level": 27594.54,
+        "level": 27659.160000000003,
         "triggered": false
       },
       {
         "thresh": -0.15,
         "pct": 15,
         "label": "dip 2",
-        "level": 26061.51,
+        "level": 26122.54,
         "triggered": false
       },
       {
         "thresh": -0.2,
         "pct": 25,
         "label": "dip 3",
-        "level": 24528.48,
+        "level": 24585.920000000002,
         "triggered": false
       }
     ],
@@ -2411,7 +2411,7 @@
       "thresh": -0.1,
       "pct": 10,
       "label": "dip 1",
-      "level": 27594.54
+      "level": 27659.160000000003
     },
     "needs_stabilisation": false
   }
