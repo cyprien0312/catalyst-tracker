@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790148723,
-  "generated_at_str": "2026-09-23 07:32:03 UTC",
-  "last_event_ts": 1790147644,
+  "generated_at": 1790148908,
+  "generated_at_str": "2026-09-23 07:35:08 UTC",
+  "last_event_ts": 1790148907,
   "tables": {
     "alerts_dedup": {
-      "count": 4437,
-      "last_ts": 1790146024,
-      "last_str": "2026-09-23 06:47:04 UTC"
+      "count": 4438,
+      "last_ts": 1790148907,
+      "last_str": "2026-09-23 07:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-23 06:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7654,
-      "last_ts": 1790147105,
-      "last_str": "2026-09-23 07:05:05 UTC"
+      "count": 7656,
+      "last_ts": 1790148905,
+      "last_str": "2026-09-23 07:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4520,
-      "last_ts": 1790139903,
-      "last_str": "2026-09-23 05:05:03 UTC"
+      "count": 4521,
+      "last_ts": 1790148904,
+      "last_str": "2026-09-23 07:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5769,
-      "last_ts": 1790141707,
-      "last_str": "2026-09-23 05:35:07 UTC"
+      "count": 5772,
+      "last_ts": 1790148906,
+      "last_str": "2026-09-23 07:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 34248,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4445,
+      "ts": 1790148907,
+      "ts_str": "2026-09-23 07:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] JPMorgan: The downgrading of HBM specifications does not alter the underlying shortage; demand is still projected to gro",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 07:15:49 GMT\nLink:      https://news.google.com/rss/articles/CBMirAFBVV95cUxNcmxuNlhRRFJCUWhMNjQyNDJJYUpJdTdJZGxwSzlkU2Q5N0JLcWdvYk03cGtEUm03NzVzRHpQa0dKT1dKNzA4d29WaElqbDB0c2dfLVBjZlBzOHNwMlZMMno3bmd4SEFFR2ktaGJnOU5kNldGUVUtRlZNWEhUQnRGQ2ljTHlyRUtvWU9hc2pEcnFEckdDTURQQ21vamQyQk9NcERXeHBuQ25FcDRh?oc=5\n\nJPMorgan: The downgrading of HBM specifications does not alter the underlying shortage; demand is still projected to grow at a compound annual growth rate of 63% from 2026 to 2028. - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNcmxuNlhRRFJCUWhMNjQyNDJJYUpJdTdJZGxwSzlkU2Q5N0JLcWdvYk03cGtEUm03NzVzRHpQa0dKT1dKNzA4d29WaElqbDB0c2dfLVBjZlBzOHNwMlZMMno3bmd4SEFFR2ktaGJnOU5kNldGUVUtRlZNWEhUQnRGQ2ljTHlyRUtvWU9hc2pEcnFEckdDTURQQ21vamQyQk9NcERXeHBuQ25FcDRh?oc=5\" target=\"_blank\">JPMorgan: The downgrading of HBM specifications does not alter the underlying shortage; demand is still projected to grow at a compound annual growth rate of 63% from 2026 to 2028.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 4444,
       "ts": 1790146024,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] The Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week ",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 09:48:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiogJBVV95cUxNei1obU9QZWk2UDVNY2FmMlZyczdnTmNWSzA1am9BNXA3M0ZXaTVsQkhYRDhOR290cllnNnFuU19CN1hjTXNsN1FYOUdITFowbjZDTWphUEFGZERDWVVzOFVxQjE1d0hNWlFFeEEzaTY5bUdjWUN4OEhKVW5yWldfemMtYXZhcGx3OXgtblZFWjVlNy1GWXVBQ19pWF9MUlNaSlVRLUZSREx4bTlnVHdPc2hxSGRGZDg4b2hwVlJ0Y2c3U19xMk1wUHhXUTd3MDZIR0Q1UXk2MHdZMEp5bnpncldOdTdkcXFWMHJhc01RUTg3azZQeVlWcGRmb3lGQ3lDa2pUbmhGcFZkWWg3WllGbU44VUVUSjlHVVhXYV9KQ3lkZw?oc=5\n\nThe Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxNei1obU9QZWk2UDVNY2FmMlZyczdnTmNWSzA1am9BNXA3M0ZXaTVsQkhYRDhOR290cllnNnFuU19CN1hjTXNsN1FYOUdITFowbjZDTWphUEFGZERDWVVzOFVxQjE1d0hNWlFFeEEzaTY5bUdjWUN4OEhKVW5yWldfemMtYXZhcGx3OXgtblZFWjVlNy1GWXVBQ19pWF9MUlNaSlVRLUZSREx4bTlnVHdPc2hxSGRGZDg4b2hwVlJ0Y2c3U19xMk1wUHhXUTd3MDZIR0Q1UXk2MHdZMEp5bnpncldOdTdkcXFWMHJhc01RUTg3azZQeVlWcGRmb3lGQ3lDa2pUbmhGcFZkWWg3WllGbU44VUVUSjlHVVhXYV9KQ3lkZw?oc=5\" target=\"_blank\">The Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news article reports up to $48 billion in SpaceX insider selling pressure could hit secondary/tender markets next week, framed as retail investors being disadvantaged by the timing.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u6700\u591a $48 billion \u7684 SpaceX \u5185\u90e8\u4eba\u629b\u552e\u538b\u529b\u53ef\u80fd\u5728\u4e0b\u5468\u6d8c\u5165\u5e02\u573a\uff0c\u62a5\u9053\u5c06\u5176\u5b9a\u6027\u4e3a\u6563\u6237\u6295\u8d44\u8005\u56e0\u629b\u552e\u65f6\u673a\u800c\u53d7\u635f\u3002\n\nWhy it matters:\nA tranche of this size landing at once is a large supply overhang for SpaceX-linked exposure and index-adjacent flows; it's the kind of unlock event C11 is built to catch before it shows up in price action, separate from the deterministic lock-up calendar baseline.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u4e00\u7b14\u89e3\u7981\u4efd\u989d\u4e00\u6b21\u6027\u7838\u5411\u4e8c\u7ea7/\u8981\u7ea6\u5e02\u573a\uff0c\u4f1a\u5bf9 SpaceX \u76f8\u5173\u655e\u53e3\u548c\u6307\u6570\u8054\u52a8\u8d44\u91d1\u6d41\u5f62\u6210\u660e\u663e\u7684\u4f9b\u7ed9\u538b\u529b\uff1b\u8fd9\u6b63\u662f C11 \u60f3\u5728\u4ef7\u683c\u53cd\u5e94\u51fa\u73b0\u4e4b\u524d\u6355\u6349\u7684\u4e8b\u4ef6\uff0c\u548c\u56fa\u5b9a\u7684\u89e3\u7981\u65e5\u5386\u57fa\u7ebf\u662f\u4e24\u7801\u4e8b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4244,
-      "ts": 1789551867,
-      "ts_str": "2026-09-16 09:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO looks like a no-go: Sam Altman is discussing a new round of VC funding valuing the company at $1.2 trillion -",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 09:28:00 GMT\nLink:      https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTZSSWF6VklVTjI4cm56dlFQOVd4YmtGeHRhWDZyd2N3dWt0WXloQzhaWklBM1pmVUFyYmd2ZjRBWHdFcExXc3dVVFZlR3kwdDNQdWk1R2FRay16R1p0M0NlSTNDZXo0WldtcEVQS3h4anpsWk94N1ladGVvdHQtN0ZLejBCeVJiNHRxODRlTQ?oc=5\n\nOpenAI IPO looks like a no-go: Sam Altman is discussing a new round of VC funding valuing the company at $1.2 trillion - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTZSSWF6VklVTjI4cm56dlFQOVd4YmtGeHRhWDZyd2N3dWt0WXloQzhaWklBM1pmVUFyYmd2ZjRBWHdFcExXc3dVVFZlR3kwdDNQdWk1R2FRay16R1p0M0NlSTNDZXo0WldtcEVQS3h4anpsWk94N1ladGVvdHQtN0ZLejBCeVJiNHRxODRlTQ?oc=5\" target=\"_blank\">OpenAI IPO looks like a no-go: Sam Altman is discussing a new round of VC funding valuing the company at $1.2 trillion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say Sam Altman is in talks for a new VC funding round valuing OpenAI at $1.2 trillion, seen as a sign the IPO route isn't happening for now.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 Sam Altman \u6b63\u5728\u6d3d\u8c08\u65b0\u4e00\u8f6e VC \u878d\u8d44\uff0c\u4f30\u503c\u8fbe $1.2 trillion\uff0c\u8fd9\u88ab\u89e3\u8bfb\u4e3a OpenAI \u77ed\u671f\u5185\u4e0d\u8d70 IPO \u8def\u7ebf\u7684\u4fe1\u53f7\u3002\n\nWhy it matters:\nA private mega-round instead of an IPO removes public-market price discovery and scrutiny of OpenAI's burn rate \u2014 the exact input the C3 catalyst tracks. It also keeps OpenAI's valuation supported by insider/VC pricing rather than a market test, which is itself a bubble-stress marker.\n\n\u5f71\u54cd:\n\u79c1\u52df\u5de8\u989d\u878d\u8d44\u4ee3\u66ff IPO\uff0c\u610f\u5473\u7740 OpenAI \u7684\u4f30\u503c\u7ee7\u7eed\u7ed5\u5f00\u516c\u5f00\u5e02\u573a\u7684\u5b9a\u4ef7\u548c\u5ba1\u89c6\uff0c\u800c\u8fd9\u6070\u6070\u662f C3 \u5728\u8ffd\u8e2a\u7684\u5173\u952e\u8f93\u5165\u2014\u2014\u70e7\u94b1\u901f\u5ea6\u3002\u4f30\u503c\u9760\u5185\u90e8\u4eba/VC \u5b9a\u4ef7\u6491\u7740\u800c\u975e\u7ecf\u53d7\u5e02\u573a\u68c0\u9a8c\uff0c\u8fd9\u672c\u8eab\u5c31\u662f\u4e00\u4e2a\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
