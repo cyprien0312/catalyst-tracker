@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790178067,
-  "generated_at_str": "2026-09-23 15:41:07 UTC",
-  "last_event_ts": 1790177706,
+  "generated_at": 1790178249,
+  "generated_at_str": "2026-09-23 15:44:09 UTC",
+  "last_event_ts": 1790178248,
   "tables": {
     "alerts_dedup": {
-      "count": 4450,
-      "last_ts": 1790174648,
-      "last_str": "2026-09-23 14:44:08 UTC"
+      "count": 4451,
+      "last_ts": 1790178248,
+      "last_str": "2026-09-23 15:44:08 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-22 23:00:04 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5861,
-      "last_ts": 1790174644,
-      "last_str": "2026-09-23 14:44:04 UTC"
+      "count": 5863,
+      "last_ts": 1790178245,
+      "last_str": "2026-09-23 15:44:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1385,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-23 15:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 34346,
-      "last_ts": 1790176442,
-      "last_str": "2026-09-23 15:14:02 UTC"
+      "count": 34354,
+      "last_ts": 1790178243,
+      "last_str": "2026-09-23 15:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10299,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4458,
+      "ts": 1790178248,
+      "ts_str": "2026-09-23 15:44 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] Why is SoftBank doubling down on its OpenAI bond bet? - Yahoo! Finance Canada",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 10:00:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1URkVwQnlTZ2dMSFgtQktfYkxIRG9ONEZTX2stRk0wcl92YzVIUGZGOW1DQXFOMlZhZHpkbWQ5Wl9ySXBlSmRpX2hlOU81UktoNUV5WE5Vd2FnLW1jTWlIR1o3dzE5bnd5eEczcmVua2JvSTQ3NHQ4b01LdDFuOVR3Z1dka3NIMWc?oc=5\n\nWhy is SoftBank doubling down on its OpenAI bond bet? - Yahoo! Finance Canada\n\n<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQRU1URkVwQnlTZ2dMSFgtQktfYkxIRG9ONEZTX2stRk0wcl92YzVIUGZGOW1DQXFOMlZhZHpkbWQ5Wl9ySXBlSmRpX2hlOU81UktoNUV5WE5Vd2FnLW1jTWlIR1o3dzE5bnd5eEczcmVua2JvSTQ3NHQ4b01LdDFuOVR3Z1dka3NIMWc?oc=5\" target=\"_blank\">Why is SoftBank doubling down on its OpenAI bond bet?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo! Finance Canada</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
+      "emailed": true
+    },
     {
       "id": 4455,
       "ts": 1790174648,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] SKHY Stock Navigates DRAM Shortage And AI Memory Boom - StocksToTrade",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 12:33:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFA1UFdYaFJMemRRRnZvSkNrTFJJZVBYR0JEc3dWbFBoZGplbi0xRWtVUy1hYlRCLVowdHpGMldpSmljbldlZUxROWk5d2kwUTZnMVRyb0ZRRU5tZnMxb25NUEwxWk5kNjJlNmdiUkxWejdEYjZNakE?oc=5\n\nSKHY Stock Navigates DRAM Shortage And AI Memory Boom - StocksToTrade\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFA1UFdYaFJMemRRRnZvSkNrTFJJZVBYR0JEc3dWbFBoZGplbi0xRWtVUy1hYlRCLVowdHpGMldpSmljbldlZUxROWk5d2kwUTZnMVRyb0ZRRU5tZnMxb25NUEwxWk5kNjJlNmdiUkxWejdEYjZNakE?oc=5\" target=\"_blank\">SKHY Stock Navigates DRAM Shortage And AI Memory Boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StocksToTrade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSKHY (SK Hynix) coverage links a DRAM shortage narrative to the AI memory demand boom \u2014 a supply-tightness story, not a demand collapse or order cut.\n\n\u5185\u5bb9:\nSKHY\uff08SK \u6d77\u529b\u58eb\uff09\u76f8\u5173\u62a5\u9053\u628a DRAM \u77ed\u7f3a\u548c AI \u5185\u5b58\u9700\u6c42\u7e41\u8363\u7ed1\u5728\u4e00\u8d77\u8bf4\u2014\u2014\u8fd9\u662f\u4f9b\u7ed9\u7d27\u5f20\u7684\u6545\u4e8b\uff0c\u4e0d\u662f\u9700\u6c42\u5d29\u584c\u6216\u780d\u5355\u3002\n\nWhy it matters:\nThis is the inverse of C6's intended trigger: shortage-driven price surges reflect bubble-supporting demand, not the stress signal (cancellations/oversupply/gluts) the catalyst is meant to catch. A shortage headline with a price token can slip past the classifier as a false positive.\n\n\u5f71\u54cd:\n\u8fd9\u8ddf C6 \u672c\u8be5\u6293\u7684\u4fe1\u53f7\u65b9\u5411\u6b63\u597d\u76f8\u53cd\uff1a\u77ed\u7f3a\u63a8\u6da8\u4ef7\u683c\u53cd\u6620\u7684\u662f\u652f\u6491\u6ce1\u6cab\u7684\u9700\u6c42\u7aef\uff0c\u4e0d\u662f\u8fd9\u4e2a\u50ac\u5316\u5242\u8981\u6293\u7684\u538b\u529b\u4fe1\u53f7\uff08\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\uff09\u3002\u5e26\u4ef7\u683c token \u7684\u77ed\u7f3a\u6807\u9898\u53ef\u80fd\u88ab\u5206\u7c7b\u5668\u8bef\u5224\u6210\u547d\u4e2d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4258,
-      "ts": 1789560857,
-      "ts_str": "2026-09-16 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI exploring pre-IPO funding round at $1.2 trillion valuation - qz.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 12:09:14 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y1dmMVVydlpLRk9JbC10VE02Q21tc0tlb0JKVzdNcEFyanA2a19hWFd1UTd1SmZoQ2lER0YxN2hhb3UwYkZyT2UwSWlCWm9vRVhjOS1zejFmZkdidlcwSFE3Qi1zSUlqdHlWTHRWVURDc1VLX2c?oc=5\n\nOpenAI exploring pre-IPO funding round at $1.2 trillion valuation - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB4Y1dmMVVydlpLRk9JbC10VE02Q21tc0tlb0JKVzdNcEFyanA2a19hWFd1UTd1SmZoQ2lER0YxN2hhb3UwYkZyT2UwSWlCWm9vRVhjOS1zejFmZkdidlcwSFE3Qi1zSUlqdHlWTHRWVURDc1VLX2c?oc=5\" target=\"_blank\">OpenAI exploring pre-IPO funding round at $1.2 trillion valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly in talks for a pre-IPO funding round at a $1.2 trillion valuation.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u6b63\u6d3d\u8c08\u4e00\u8f6e IPO \u524d\u878d\u8d44\uff0c\u4f30\u503c\u8fbe $1.2 trillion\u3002\n\nWhy it matters:\nA valuation this large, pre-revenue-justification, is the clearest thermometer for how much the market is pricing OpenAI's future rather than its current cash flow \u2014 it raises the bar every downstream AI-capex bet (Microsoft, Oracle, neoclouds) is implicitly justified against.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u9ad8\u7684\u4f30\u503c\uff0c\u8fd8\u662f\u5728\u76c8\u5229\u8fdc\u6491\u4e0d\u8d77\u6765\u7684\u9636\u6bb5\u7ed9\u51fa\u7684\uff0c\u662f\u8861\u91cf\u5e02\u573a\u5728\u4e3a OpenAI \u7684\u672a\u6765\u800c\u4e0d\u662f\u73b0\u5728\u7684\u73b0\u91d1\u6d41\u5b9a\u4ef7\u7684\u6700\u76f4\u89c2\u6e29\u5ea6\u8ba1\u3002\u5b83\u4e5f\u628a Microsoft\u3001Oracle\u3001\u5404\u5bb6 neocloud \u8fd9\u4e9b\u4e0b\u6e38 AI capex \u62bc\u6ce8\u9690\u542b\u8981\u8fbe\u5230\u7684\u95e8\u69db\u4e00\u5e76\u62ac\u9ad8\u4e86\u3002\n",
       "emailed": false
     }
   ],
