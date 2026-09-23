@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790151062,
-  "generated_at_str": "2026-09-23 08:11:02 UTC",
-  "last_event_ts": 1790150708,
+  "generated_at": 1790151246,
+  "generated_at_str": "2026-09-23 08:14:06 UTC",
+  "last_event_ts": 1790151246,
   "tables": {
     "alerts_dedup": {
-      "count": 4438,
-      "last_ts": 1790148907,
-      "last_str": "2026-09-23 07:35:07 UTC"
+      "count": 4439,
+      "last_ts": 1790151246,
+      "last_str": "2026-09-23 08:14:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-22 23:00:04 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5839,
-      "last_ts": 1790149445,
-      "last_str": "2026-09-23 07:44:05 UTC"
+      "count": 5841,
+      "last_ts": 1790151244,
+      "last_str": "2026-09-23 08:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1381,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-23 07:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 34251,
-      "last_ts": 1790149443,
-      "last_str": "2026-09-23 07:44:03 UTC"
+      "count": 34255,
+      "last_ts": 1790151242,
+      "last_str": "2026-09-23 08:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10247,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4446,
+      "ts": 1790151246,
+      "ts_str": "2026-09-23 08:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank Bond Deal Targets $10 Billion For OpenAI - StratNews Global",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 07:37:37 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE5Ld0pzQ0RSUFk0b2VYSmRfVkVCbURWVFcxRXRvajhHbGNMUURtcG5zV1VaaHFzR1lMazRPaWY5NDIzSEsyU2lDQ0pGMjBRS3AxUU5iNjdIazlKRjdoUldKbFdYYXBBZ1hQSGNEeloySUZ1dGs?oc=5\n\nSoftBank Bond Deal Targets $10 Billion For OpenAI - StratNews Global\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5Ld0pzQ0RSUFk0b2VYSmRfVkVCbURWVFcxRXRvajhHbGNMUURtcG5zV1VaaHFzR1lMazRPaWY5NDIzSEsyU2lDQ0pGMjBRS3AxUU5iNjdIazlKRjdoUldKbFdYYXBBZ1hQSGNEeloySUZ1dGs?oc=5\" target=\"_blank\">SoftBank Bond Deal Targets $10 Billion For OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StratNews Global</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
+      "emailed": true
+    },
     {
       "id": 4445,
       "ts": 1790148907,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Memory Chip Shortage Requires Investment and Teamwork - RealClearDefense",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 09:44:54 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0FzTEdSR3FJd2ZfQVY0aDNWczd4N183OFYxMndUdUxGWXNFMUZEZ1hTX1ljZk9Ydmo0Q3pzMk5FZmFqVGpWMnRQZDFfODMyM3NvazV5d1BYTURqVm80YUJUTFdGcHBTaEh6dHJmLUJYYmJLNkR5VXV4TDAtS2NEUVg5ZU5LOUZVajZNSmJXcWEwWWZPdExWUmYxQVlNU2kzMVVNdk15b1NyNzRWbzhURDdEaE1LSG5nd2dj?oc=5\n\nMemory Chip Shortage Requires Investment and Teamwork - RealClearDefense\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ0FzTEdSR3FJd2ZfQVY0aDNWczd4N183OFYxMndUdUxGWXNFMUZEZ1hTX1ljZk9Ydmo0Q3pzMk5FZmFqVGpWMnRQZDFfODMyM3NvazV5d1BYTURqVm80YUJUTFdGcHBTaEh6dHJmLUJYYmJLNkR5VXV4TDAtS2NEUVg5ZU5LOUZVajZNSmJXcWEwWWZPdExWUmYxQVlNU2kzMVVNdk15b1NyNzRWbzhURDdEaE1LSG5nd2dj?oc=5\" target=\"_blank\">Memory Chip Shortage Requires Investment and Teamwork</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RealClearDefense</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item warns of a memory chip shortage, framing it as requiring industry investment and coordination \u2014 no company, ticker, or figure is attached.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u8b66\u544a\u5185\u5b58\u82af\u7247\u51fa\u73b0\u77ed\u7f3a\uff0c\u5f3a\u8c03\u9700\u8981\u884c\u4e1a\u6295\u8d44\u4e0e\u534f\u540c\uff0c\u6ca1\u6709\u6307\u660e\u5177\u4f53\u516c\u53f8\u3001ticker \u6216\u6570\u5b57\u3002\n\nWhy it matters:\nA supply-side memory shortage points the opposite direction from the AI-capex bubble-stress thesis: tight DRAM/NAND/HBM means demand for AI compute is outrunning fab capacity, not that spend is unsupported by revenue. Watch whether this is genuine tightness or vendor messaging ahead of a price hike.\n\n\u5f71\u54cd:\n\u4f9b\u7ed9\u4fa7\u7684\u5185\u5b58\u77ed\u7f3a\u5176\u5b9e\u548c AI capex \u6ce1\u6cab\u538b\u529b\u7684\u53d9\u4e8b\u65b9\u5411\u76f8\u53cd\u2014\u2014DRAM/NAND/HBM \u5403\u7d27\u8bf4\u660e AI \u7b97\u529b\u9700\u6c42\u8dd1\u8d62\u4e86\u6676\u5706\u4ea7\u80fd\uff0c\u800c\u4e0d\u662f\u652f\u51fa\u6ca1\u6709\u6536\u5165\u652f\u6491\u3002\u9700\u8981\u7559\u610f\u8fd9\u662f\u771f\u5b9e\u7684\u4ea7\u80fd\u7d27\u5f20\uff0c\u8fd8\u662f\u5382\u5546\u5728\u6da8\u4ef7\u524d\u653e\u98ce\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4246,
-      "ts": 1789552024,
-      "ts_str": "2026-09-16 09:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] The Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week ",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 15 Sep 2026 09:48:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiogJBVV95cUxNei1obU9QZWk2UDVNY2FmMlZyczdnTmNWSzA1am9BNXA3M0ZXaTVsQkhYRDhOR290cllnNnFuU19CN1hjTXNsN1FYOUdITFowbjZDTWphUEFGZERDWVVzOFVxQjE1d0hNWlFFeEEzaTY5bUdjWUN4OEhKVW5yWldfemMtYXZhcGx3OXgtblZFWjVlNy1GWXVBQ19pWF9MUlNaSlVRLUZSREx4bTlnVHdPc2hxSGRGZDg4b2hwVlJ0Y2c3U19xMk1wUHhXUTd3MDZIR0Q1UXk2MHdZMEp5bnpncldOdTdkcXFWMHJhc01RUTg3azZQeVlWcGRmb3lGQ3lDa2pUbmhGcFZkWWg3WllGbU44VUVUSjlHVVhXYV9KQ3lkZw?oc=5\n\nThe Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week - The Globe and Mail\n\n<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxNei1obU9QZWk2UDVNY2FmMlZyczdnTmNWSzA1am9BNXA3M0ZXaTVsQkhYRDhOR290cllnNnFuU19CN1hjTXNsN1FYOUdITFowbjZDTWphUEFGZERDWVVzOFVxQjE1d0hNWlFFeEEzaTY5bUdjWUN4OEhKVW5yWldfemMtYXZhcGx3OXgtblZFWjVlNy1GWXVBQ19pWF9MUlNaSlVRLUZSREx4bTlnVHdPc2hxSGRGZDg4b2hwVlJ0Y2c3U19xMk1wUHhXUTd3MDZIR0Q1UXk2MHdZMEp5bnpncldOdTdkcXFWMHJhc01RUTg3azZQeVlWcGRmb3lGQ3lDa2pUbmhGcFZkWWg3WllGbU44VUVUSjlHVVhXYV9KQ3lkZw?oc=5\" target=\"_blank\">The Retail Investor Fleecing Continues: Up to $48 Billion in SpaceX Insider Selling Pressure Can Hit the Tape Next Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Globe and Mail</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news article reports up to $48 billion in SpaceX insider selling pressure could hit secondary/tender markets next week, framed as retail investors being disadvantaged by the timing.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u65b0\u95fb\u62a5\u9053\u79f0\uff0c\u6700\u591a $48 billion \u7684 SpaceX \u5185\u90e8\u4eba\u629b\u552e\u538b\u529b\u53ef\u80fd\u5728\u4e0b\u5468\u6d8c\u5165\u5e02\u573a\uff0c\u62a5\u9053\u5c06\u5176\u5b9a\u6027\u4e3a\u6563\u6237\u6295\u8d44\u8005\u56e0\u629b\u552e\u65f6\u673a\u800c\u53d7\u635f\u3002\n\nWhy it matters:\nA tranche of this size landing at once is a large supply overhang for SpaceX-linked exposure and index-adjacent flows; it's the kind of unlock event C11 is built to catch before it shows up in price action, separate from the deterministic lock-up calendar baseline.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u4e00\u7b14\u89e3\u7981\u4efd\u989d\u4e00\u6b21\u6027\u7838\u5411\u4e8c\u7ea7/\u8981\u7ea6\u5e02\u573a\uff0c\u4f1a\u5bf9 SpaceX \u76f8\u5173\u655e\u53e3\u548c\u6307\u6570\u8054\u52a8\u8d44\u91d1\u6d41\u5f62\u6210\u660e\u663e\u7684\u4f9b\u7ed9\u538b\u529b\uff1b\u8fd9\u6b63\u662f C11 \u60f3\u5728\u4ef7\u683c\u53cd\u5e94\u51fa\u73b0\u4e4b\u524d\u6355\u6349\u7684\u4e8b\u4ef6\uff0c\u548c\u56fa\u5b9a\u7684\u89e3\u7981\u65e5\u5386\u57fa\u7ebf\u662f\u4e24\u7801\u4e8b\u3002\n",
       "emailed": false
     }
   ],
