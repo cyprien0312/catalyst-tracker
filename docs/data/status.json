@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790202386,
-  "generated_at_str": "2026-09-23 22:26:26 UTC",
-  "last_event_ts": 1790201645,
+  "generated_at": 1790202546,
+  "generated_at_str": "2026-09-23 22:29:06 UTC",
+  "last_event_ts": 1790202545,
   "tables": {
     "alerts_dedup": {
-      "count": 4463,
-      "last_ts": 1790196429,
-      "last_str": "2026-09-23 20:47:09 UTC"
+      "count": 4465,
+      "last_ts": 1790202545,
+      "last_str": "2026-09-23 22:29:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 72,
-      "last_ts": 1790116142,
-      "last_str": "2026-09-22 22:29:02 UTC"
+      "count": 74,
+      "last_ts": 1790202543,
+      "last_str": "2026-09-23 22:29:03 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4472,
+      "ts": 1790202545,
+      "ts_str": "2026-09-23 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "HIGH",
+      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.63% \u2265 2.50%",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-22\nCurrent:  2.63%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real yield is at or above an absolute restrictive level (\u22652.50%).\n\nWhy it matters:\nAt this level real money is outright restrictive, not merely tightening. It marks the zone where leveraged, no-current-cashflow AI bets and the refinancing of AI-linked debt come under sustained valuation pressure \u2014 the macro discount-rate equivalent of C7's outright credit stress.\n",
+      "emailed": true
+    },
+    {
+      "id": 4471,
+      "ts": 1790202544,
+      "ts_str": "2026-09-23 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.63% (+63bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-22\nCurrent:  2.63%\n90d low:  2.00%\nMove:     +63bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
+      "emailed": false
+    },
     {
       "id": 4470,
       "ts": 1790196429,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI says it can manage AI risks; Its IPO delay raises bigger questions - Yahoo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 19:00:36 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUlMV3J6b3dOTWZLZzVYUk43bFg0N0VGNFAwV3JIbGtndE1WVHpGWGlzRVJ4VUxrTjBvN0Q4M3RTbWg5bEZwMV80SXNKNWVaSUlOQTZoODY1a0VYczlCeUhEWmpldmRudndXQl9vZXE3SEpxUE1nSVV6U21NcGNxcWFDS1lwY1lPTzdLTEEyMWVxUGVUeFE?oc=5\n\nOpenAI says it can manage AI risks; Its IPO delay raises bigger questions - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUlMV3J6b3dOTWZLZzVYUk43bFg0N0VGNFAwV3JIbGtndE1WVHpGWGlzRVJ4VUxrTjBvN0Q4M3RTbWg5bEZwMV80SXNKNWVaSUlOQTZoODY1a0VYczlCeUhEWmpldmRudndXQl9vZXE3SEpxUE1nSVV6U21NcGNxcWFDS1lwY1lPTzdLTEEyMWVxUGVUeFE?oc=5\" target=\"_blank\">OpenAI says it can manage AI risks; Its IPO delay raises bigger questions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 headline reports OpenAI defending its AI risk management while noting its IPO delay raises bigger questions \u2014 no specific ticker, number, or filing cited.\n\n\u5185\u5bb9:\n\u4e00\u6761 C3 \u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u4e3a\u5176 AI \u98ce\u9669\u7ba1\u7406\u80fd\u529b\u8fa9\u62a4\uff0c\u540c\u65f6\u63d0\u5230\u5176 IPO \u63a8\u8fdf\u5f15\u53d1\u4e86\u66f4\u5927\u7684\u7591\u95ee\u2014\u2014\u6ca1\u6709\u5177\u4f53 ticker\u3001\u6570\u5b57\u6216 filing \u4f9d\u636e\u3002\n\nWhy it matters:\nThis is generic IPO-speculation commentary, not a hard signal \u2014 burn-rate or filing data would be needed to move this past MED. Still, repeated IPO-timeline doubt from mainstream coverage is a soft indicator that OpenAI's path to a liquidity event (and the capital discipline that would force) keeps slipping.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u6cdb\u6cdb\u7684 IPO \u731c\u6d4b\u7c7b\u62a5\u9053\uff0c\u4e0d\u662f\u786c\u4fe1\u53f7\u2014\u2014\u8981\u5347\u7ea7\u5230\u66f4\u9ad8\u7ea7\u522b\u5f97\u6709 burn rate \u6216 filing \u6570\u636e\u652f\u6491\u3002\u4e0d\u8fc7\u4e3b\u6d41\u5a92\u4f53\u53cd\u590d\u8d28\u7591 OpenAI \u7684 IPO \u65f6\u95f4\u8868\uff0c\u4e5f\u7b97\u4e00\u4e2a\u8f6f\u6307\u6807\uff0c\u8bf4\u660e\u5b83\u8d70\u5411\u6d41\u52a8\u6027\u4e8b\u4ef6\uff08\u8fdb\u800c\u88ab\u8feb\u6536\u7d27\u8d44\u672c\u7eaa\u5f8b\uff09\u7684\u8def\u5f84\u8fd8\u5728\u6301\u7eed\u63a8\u8fdf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4273,
-      "ts": 1789587866,
-      "ts_str": "2026-09-16 19:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI weighs $1.2 trillion funding round before IPO - betanews.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 19:10:18 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE5RdXNXYnU1N1BFaHZJc0ExYUxKZmxNYzBTQ1lhZk5aTjF3SUZOQmEyNW0tM1ZTUDJoaTZXZXEyVnVRdk5pTUdVZzB5TVlIMTE0cmdEQW0xZGlYMHItdnhYOUMzRXJla2cxeDBxVVZLVS0?oc=5\n\nOpenAI weighs $1.2 trillion funding round before IPO - betanews.com\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5RdXNXYnU1N1BFaHZJc0ExYUxKZmxNYzBTQ1lhZk5aTjF3SUZOQmEyNW0tM1ZTUDJoaTZXZXEyVnVRdk5pTUdVZzB5TVlIMTE0cmdEQW0xZGlYMHItdnhYOUMzRXJla2cxeDBxVVZLVS0?oc=5\" target=\"_blank\">OpenAI weighs $1.2 trillion funding round before IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">betanews.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly weighing a funding round that would value it at $1.2 trillion ahead of a potential IPO \u2014 the same headline duplicated in the snippet.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0 OpenAI \u6b63\u5728\u8003\u8651\u4e00\u8f6e IPO \u524d\u878d\u8d44\uff0c\u4f30\u503c\u9ad8\u8fbe $1.2 \u4e07\u4ebf\u2014\u2014\u5feb\u7167\u91cc\u540c\u4e00\u6761\u6807\u9898\u91cd\u590d\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nA valuation this size prices in years of dominant, uncontested AI revenue growth; any funding round at this scale also tests whether private capital still wants to underwrite OpenAI's burn rate. It's speculative pre-round chatter, not a signed term sheet, which is why this lands at MED not HIGH.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u4f30\u503c\u6c34\u5e73\u76f8\u5f53\u4e8e\u5047\u8bbe OpenAI \u672a\u6765\u591a\u5e74\u90fd\u80fd\u7ef4\u6301\u538b\u5012\u6027\u7684 AI \u6536\u5165\u589e\u957f\u3002\u8fd9\u79cd\u89c4\u6a21\u7684\u878d\u8d44\u4e5f\u662f\u5728\u6d4b\u8bd5\u79c1\u52df\u8d44\u672c\u662f\u5426\u8fd8\u613f\u610f\u4e3a\u5b83\u7684\u70e7\u94b1\u901f\u5ea6\u4e70\u5355\u3002\u76ee\u524d\u53ea\u662f\u8f6e\u6b21\u524d\u7684\u4f20\u95fb\uff0c\u6ca1\u6709\u7b7e\u7ea6\u6761\u6b3e\uff0c\u6240\u4ee5\u53ea\u8bc4\u4e3a MED \u800c\u975e HIGH\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4271,
-      "ts": 1789584257,
-      "ts_str": "2026-09-16 18:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI's $1.2 trillion funding push comes with an IPO surprise - GuruFocus",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 18:33:27 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxOTDhZcHVNQm1vejNMSVM5YnNxQWFBM29SMmFMLVllZGZaLVRTSW5fVUN5Uk5UczJkc2lLc2xEdUl3bEtZUFBSVlR5NC0yZDFvQUxWampUZ2JuQkJndUlOeU9seFlyTzBaZlpFVkZzam43eEZhNE9qYVVRUDZMLVZucWZYQnF6UDZpaWxRTEgtakhJQ2FORmMwaE5wNmNmcWc?oc=5\n\nOpenAI's $1.2 trillion funding push comes with an IPO surprise - GuruFocus\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOTDhZcHVNQm1vejNMSVM5YnNxQWFBM29SMmFMLVllZGZaLVRTSW5fVUN5Uk5UczJkc2lLc2xEdUl3bEtZUFBSVlR5NC0yZDFvQUxWampUZ2JuQkJndUlOeU9seFlyTzBaZlpFVkZzam43eEZhNE9qYVVRUDZMLVZucWZYQnF6UDZpaWxRTEgtakhJQ2FORmMwaE5wNmNmcWc?oc=5\" target=\"_blank\">OpenAI's $1.2 trillion funding push comes with an IPO surprise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GuruFocus</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadlines about OpenAI's $1.2 trillion funding push mention a surprise IPO plan, appearing twice in the same feed.\n\n\u5185\u5bb9:\n\u6709\u5173 OpenAI 1.2 \u4e07\u4ebf\u7f8e\u5143\u878d\u8d44\u7684\u62a5\u9053\u63d0\u5230\u4e00\u4e2a IPO \u610f\u5916\u8ba1\u5212\uff0c\u540c\u4e00\u6761\u65b0\u95fb\u5728 feed \u91cc\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nA $1.2T raise implies OpenAI needs capital far beyond current revenue, and an IPO would shift funding risk from private investors to public markets. This is exactly the kind of burn-rate/capital-structure stress C3 tracks \u2014 a company this size needing an IPO signals private capital may be reaching its limit for AI infra spend.\n\n\u5f71\u54cd:\n1.2 \u4e07\u4ebf\u7f8e\u5143\u7684\u878d\u8d44\u89c4\u6a21\u610f\u5473\u7740 OpenAI \u7684\u8d44\u91d1\u9700\u6c42\u8fdc\u8d85\u5f53\u524d\u6536\u5165\uff0c\u8d70 IPO \u76f8\u5f53\u4e8e\u628a\u878d\u8d44\u98ce\u9669\u4ece\u79c1\u52df\u6295\u8d44\u8005\u8f6c\u79fb\u5230\u516c\u5f00\u5e02\u573a\u3002\u8fd9\u6b63\u662f C3 \u5173\u6ce8\u7684\u70e7\u94b1/\u8d44\u672c\u7ed3\u6784\u538b\u529b\u4fe1\u53f7\u2014\u2014\u8fd9\u4e2a\u4f53\u91cf\u7684\u516c\u53f8\u8981\u9760 IPO \u8865\u8840\uff0c\u8bf4\u660e\u79c1\u52df\u8d44\u672c\u5bf9 AI \u57fa\u5efa\u652f\u51fa\u53ef\u80fd\u5df2\u7ecf\u63a5\u8fd1\u4e0a\u9650\u3002\n",
       "emailed": false
     }
   ],
