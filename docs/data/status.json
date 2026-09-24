@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790212262,
-  "generated_at_str": "2026-09-24 01:11:02 UTC",
-  "last_event_ts": 1790211907,
+  "generated_at": 1790212448,
+  "generated_at_str": "2026-09-24 01:14:08 UTC",
+  "last_event_ts": 1790212447,
   "tables": {
     "alerts_dedup": {
-      "count": 4465,
-      "last_ts": 1790202545,
-      "last_str": "2026-09-23 22:29:05 UTC"
+      "count": 4466,
+      "last_ts": 1790212447,
+      "last_str": "2026-09-24 01:14:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-09-24 00:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1393,
-      "last_ts": 1790210645,
-      "last_str": "2026-09-24 00:44:05 UTC"
+      "count": 1394,
+      "last_ts": 1790212445,
+      "last_str": "2026-09-24 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6326,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-24 01:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 34505,
-      "last_ts": 1790210643,
-      "last_str": "2026-09-24 00:44:03 UTC"
+      "count": 34514,
+      "last_ts": 1790212443,
+      "last_str": "2026-09-24 01:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10359,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4473,
+      "ts": 1790212447,
+      "ts_str": "2026-09-24 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "CRITICAL",
+      "subject": "[C3-CRITICAL] SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet - CNBC",
+      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 00:59:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTFBncms4eVRRNGEtUlp3NnJPZ1FaMUZVS21KVEZlOHpPLXlYNXpvT1pwX3psREpJbG9oOXpyQnZpNVR5cHliQTc3TzBGeTFocjJlMW9OUmtOcGhHREY2UnRHa0gyOFVTQVZxODZEeThhajNmYmpJeVVKRTZuclBVd9IBgwFBVV95cUxQaUVhS1dzUlJFSEJCWW04TlcxUXJYTGUwNzhkY2EyTU9yZ1IwVXpFZTMtQVR1T0tKNTRZQ3daeXRDbVltUzZZZFVLU29nVEtVUVpzMndoLW1mTklBWFVmNnB6QzRsdDdaMWpQLWhsdWtFTUFwQ01XUUQtMU1EN0hlZnlTdw?oc=5\n\nSoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBncms4eVRRNGEtUlp3NnJPZ1FaMUZVS21KVEZlOHpPLXlYNXpvT1pwX3psREpJbG9oOXpyQnZpNVR5cHliQTc3TzBGeTFocjJlMW9OUmtOcGhHREY2UnRHa0gyOFVTQVZxODZEeThhajNmYmpJeVVKRTZuclBVd9IBgwFBVV95cUxQaUVhS1dzUlJFSEJCWW04TlcxUXJYTGUwNzhkY2EyTU9yZ1IwVXpFZTMtQVR1T0tKNTRZQ3daeXRDbVltUzZZZFVLU29nVEtVUVpzMndoLW1mTklBWFVmNnB6QzRsdDdaMWpQLWhsdWtFTUFwQ01XUUQtMU1EN0hlZnlTdw?oc=5\" target=\"_blank\">SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
+      "emailed": true
+    },
     {
       "id": 4472,
       "ts": 1790202545,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX Stock Eyes $200 as Nasdaq-100 Rebalancing, Space Defense Boost SpaceX - FXLeaders",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 18:46:43 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxQREJ6TTJBM281eHpIVWlYamtsNktYR2s1UXFTbjg2QlNMSkJ1N2hoWFR4Si0xYWFmb0wzamZmSnl6aDlKVmc0WEp5d2JoTnNIa0NUQVJjZ09OdUtRVXEzOTF5RGF3ZFVKZ01BbXQ0SmcteVFaT3NFM0tVeUlldkd6VjBMaEFNZ3NVR1o5WFduWnQySmJIbV9keVNJRUVrMXpkVHBYRjZZTXcxRnlaaWR6OGlGOWhvZw?oc=5\n\nSPCX Stock Eyes $200 as Nasdaq-100 Rebalancing, Space Defense Boost SpaceX - FXLeaders\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQREJ6TTJBM281eHpIVWlYamtsNktYR2s1UXFTbjg2QlNMSkJ1N2hoWFR4Si0xYWFmb0wzamZmSnl6aDlKVmc0WEp5d2JoTnNIa0NUQVJjZ09OdUtRVXEzOTF5RGF3ZFVKZ01BbXQ0SmcteVFaT3NFM0tVeUlldkd6VjBMaEFNZ3NVR1o5WFduWnQySmJIbV9keVNJRUVrMXpkVHBYRjZZTXcxRnlaaWR6OGlGOWhvZw?oc=5\" target=\"_blank\">SPCX Stock Eyes $200 as Nasdaq-100 Rebalancing, Space Defense Boost SpaceX</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FXLeaders</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX stock is being tied to a Nasdaq-100 rebalancing plus a boost from Space Defense coverage, per Google News RSS.\n\n\u5185\u5bb9:\n\u6709 Google News RSS \u62a5\u9053\u79f0 SPCX \u80a1\u7968\u6b63\u56e0\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u8c03\u6574\uff0c\u4ee5\u53ca\u592a\u7a7a\u9632\u52a1\u76f8\u5173\u4e1a\u52a1\u7684\u63d0\u632f\u800c\u53d7\u5230\u5173\u6ce8\u3002\n\nWhy it matters:\nThis is exactly the passive-flow mechanism C11 tracks \u2014 index inclusion talk can pull in mechanical ETF buying regardless of fundamentals, and space-defense framing is unrelated business narrative bleeding into the SpaceX ticker, so this reads as noise until an actual index committee action is confirmed.\n\n\u5f71\u54cd:\n\u8fd9\u6b63\u662f C11 \u8981\u76ef\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u673a\u5236\u2014\u2014\u4e00\u65e6\u7092\u4f5c\u6307\u6570\u7eb3\u5165\u9884\u671f\uff0c\u88ab\u52a8 ETF \u4e70\u76d8\u53ef\u80fd\u8ddf\u8fdb\uff0c\u8ddf\u57fa\u672c\u9762\u6ca1\u5173\u7cfb\uff1b\u800c\u592a\u7a7a\u9632\u52a1\u8fd9\u7c7b\u53d9\u4e8b\u6df7\u8fdb SpaceX \u80a1\u7968\u8ba8\u8bba\u66f4\u50cf\u566a\u97f3\uff0c\u5728\u6307\u6570\u59d4\u5458\u4f1a\u771f\u6b63\u91c7\u53d6\u884c\u52a8\u4e4b\u524d\u90fd\u7b97\u4e0d\u4e0a\u5b9e\u9524\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4272,
-      "ts": 1789587866,
-      "ts_str": "2026-09-16 19:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI says it can manage AI risks; Its IPO delay raises bigger questions - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 16 Sep 2026 19:00:36 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUlMV3J6b3dOTWZLZzVYUk43bFg0N0VGNFAwV3JIbGtndE1WVHpGWGlzRVJ4VUxrTjBvN0Q4M3RTbWg5bEZwMV80SXNKNWVaSUlOQTZoODY1a0VYczlCeUhEWmpldmRudndXQl9vZXE3SEpxUE1nSVV6U21NcGNxcWFDS1lwY1lPTzdLTEEyMWVxUGVUeFE?oc=5\n\nOpenAI says it can manage AI risks; Its IPO delay raises bigger questions - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOVUlMV3J6b3dOTWZLZzVYUk43bFg0N0VGNFAwV3JIbGtndE1WVHpGWGlzRVJ4VUxrTjBvN0Q4M3RTbWg5bEZwMV80SXNKNWVaSUlOQTZoODY1a0VYczlCeUhEWmpldmRudndXQl9vZXE3SEpxUE1nSVV6U21NcGNxcWFDS1lwY1lPTzdLTEEyMWVxUGVUeFE?oc=5\" target=\"_blank\">OpenAI says it can manage AI risks; Its IPO delay raises bigger questions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA C3 headline reports OpenAI defending its AI risk management while noting its IPO delay raises bigger questions \u2014 no specific ticker, number, or filing cited.\n\n\u5185\u5bb9:\n\u4e00\u6761 C3 \u65b0\u95fb\u62a5\u9053\u79f0 OpenAI \u4e3a\u5176 AI \u98ce\u9669\u7ba1\u7406\u80fd\u529b\u8fa9\u62a4\uff0c\u540c\u65f6\u63d0\u5230\u5176 IPO \u63a8\u8fdf\u5f15\u53d1\u4e86\u66f4\u5927\u7684\u7591\u95ee\u2014\u2014\u6ca1\u6709\u5177\u4f53 ticker\u3001\u6570\u5b57\u6216 filing \u4f9d\u636e\u3002\n\nWhy it matters:\nThis is generic IPO-speculation commentary, not a hard signal \u2014 burn-rate or filing data would be needed to move this past MED. Still, repeated IPO-timeline doubt from mainstream coverage is a soft indicator that OpenAI's path to a liquidity event (and the capital discipline that would force) keeps slipping.\n\n\u5f71\u54cd:\n\u8fd9\u5c5e\u4e8e\u6cdb\u6cdb\u7684 IPO \u731c\u6d4b\u7c7b\u62a5\u9053\uff0c\u4e0d\u662f\u786c\u4fe1\u53f7\u2014\u2014\u8981\u5347\u7ea7\u5230\u66f4\u9ad8\u7ea7\u522b\u5f97\u6709 burn rate \u6216 filing \u6570\u636e\u652f\u6491\u3002\u4e0d\u8fc7\u4e3b\u6d41\u5a92\u4f53\u53cd\u590d\u8d28\u7591 OpenAI \u7684 IPO \u65f6\u95f4\u8868\uff0c\u4e5f\u7b97\u4e00\u4e2a\u8f6f\u6307\u6807\uff0c\u8bf4\u660e\u5b83\u8d70\u5411\u6d41\u52a8\u6027\u4e8b\u4ef6\uff08\u8fdb\u800c\u88ab\u8feb\u6536\u7d27\u8d44\u672c\u7eaa\u5f8b\uff09\u7684\u8def\u5f84\u8fd8\u5728\u6301\u7eed\u63a8\u8fdf\u3002\n",
       "emailed": false
     }
   ],
