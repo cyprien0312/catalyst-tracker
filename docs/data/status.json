@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790253123,
-  "generated_at_str": "2026-09-24 12:32:03 UTC",
-  "last_event_ts": 1790252044,
+  "generated_at": 1790253308,
+  "generated_at_str": "2026-09-24 12:35:08 UTC",
+  "last_event_ts": 1790253307,
   "tables": {
     "alerts_dedup": {
-      "count": 4478,
-      "last_ts": 1790250425,
-      "last_str": "2026-09-24 11:47:05 UTC"
+      "count": 4479,
+      "last_ts": 1790253307,
+      "last_str": "2026-09-24 12:35:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-24 10:14:11 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6351,
-      "last_ts": 1790249702,
-      "last_str": "2026-09-24 11:35:02 UTC"
+      "count": 6352,
+      "last_ts": 1790253302,
+      "last_str": "2026-09-24 12:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7719,
-      "last_ts": 1790249705,
-      "last_str": "2026-09-24 11:35:05 UTC"
+      "count": 7721,
+      "last_ts": 1790253304,
+      "last_str": "2026-09-24 12:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4560,
@@ -94,9 +94,9 @@
       "last_str": "2026-09-24 12:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5838,
-      "last_ts": 1790251506,
-      "last_str": "2026-09-24 12:05:06 UTC"
+      "count": 5840,
+      "last_ts": 1790253306,
+      "last_str": "2026-09-24 12:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 34707,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4486,
+      "ts": 1790253307,
+      "ts_str": "2026-09-24 12:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] How memory chip shortage is boosting profits at UK\u2019s Raspberry Pi - The Times",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 12:06:35 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNtMGpBd3E5ZmZtT3NFTGFXZHdmUVB1cFUzWndSdWxVbmFIbHgzTGstcXdIU0hEUEtncHg0VG1yZGxkalhXaElEWlhGaVRveE82cnU1UXgwcEMzZnpJelVybTkyeW1MRHRrRU9TcFBlV09idTdTWEhVTW81dEdqRE5OXzFuNGxkSUtmc2pWbUN5dWFySnlOcQ?oc=5\n\nHow memory chip shortage is boosting profits at UK\u2019s Raspberry Pi - The Times\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTNtMGpBd3E5ZmZtT3NFTGFXZHdmUVB1cFUzWndSdWxVbmFIbHgzTGstcXdIU0hEUEtncHg0VG1yZGxkalhXaElEWlhGaVRveE82cnU1UXgwcEMzZnpJelVybTkyeW1MRHRrRU9TcFBlV09idTdTWEhVTW81dEdqRE5OXzFuNGxkSUtmc2pWbUN5dWFySnlOcQ?oc=5\" target=\"_blank\">How memory chip shortage is boosting profits at UK\u2019s Raspberry Pi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 4485,
       "ts": 1790250425,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX unlock in \u22647d: Day 105 (3.3\u4ebf shares)",
       "body": "Severity:   MED\nTranche:    Day 105\nDate:       2026-09-25  (7 day(s) out)\nRelease:    3.3\u4ebf shares (2.5% of shares outstanding)\nCumulative: 22.6% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX's next lock-up tranche releases $3.3B in shares, bringing cumulative unlocked supply to 22.6% of total.\n\n\u5185\u5bb9:\nSPCX \u4e0b\u4e00\u6279\u89e3\u7981\u5c06\u91ca\u653e $3.3B \u7684\u80a1\u4efd\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230\u603b\u80a1\u672c\u7684 22.6%\u3002\n\nWhy it matters:\nA large scheduled unlock adds real sell-pressure risk to a stock that's become a proxy for AI-infra enthusiasm \u2014 index funds and passive flows have to absorb the float regardless of fundamentals. It's a mechanical, calendar-driven stress test on the passive-flow bid, not a signal about SpaceX's business.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u5927\u4e00\u6279\u6309\u65e5\u5386\u8868\u89e3\u7981\u7684\u80a1\u4efd\uff0c\u4f1a\u7ed9\u8fd9\u53ea\u5df2\u7ecf\u53d8\u6210 AI \u57fa\u5efa\u60c5\u7eea\u4ee3\u7406\u80a1\u7684\u6807\u7684\u5e26\u6765\u5b9e\u9645\u629b\u538b\u2014\u2014\u88ab\u52a8\u8d44\u91d1\u548c\u6307\u6570\u57fa\u91d1\u5f97\u786c\u5403\u4e0b\u8fd9\u90e8\u5206\u6d41\u901a\u91cf\uff0c\u8ddf\u516c\u53f8\u57fa\u672c\u9762\u6ca1\u5173\u7cfb\u3002\u8fd9\u662f\u5bf9\u88ab\u52a8\u8d44\u91d1\u627f\u63a5\u80fd\u529b\u7684\u673a\u68b0\u5f0f\u538b\u529b\u6d4b\u8bd5\uff0c\u4e0d\u662f\u5bf9 SpaceX \u4e1a\u52a1\u672c\u8eab\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4285,
-      "ts": 1789653914,
-      "ts_str": "2026-09-17 14:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Apple may do another price hike as it reportedly accepts Samsung's higher memory prices for next year - GSMArena.com new",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 17 Sep 2026 13:53:02 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZkx6eUFUeXVyNmx1eE5tTVJpVkI1TmVPWldzc3JwYjNteVVqVjh4aC1oZWZTaXFiZXVnVVRlOE5jaXdIT1F5VUlpVjhsU2V4Sy1MYzc0WTdJa0NBSDFPd1g0Q0IwNDZscUFPNF9pdUNtd3VGU1ZhSWVFNXR2UkZUYk95bGFmSkM2R1pNcFJNVklzNkxjNjI1Qkp4TDBLa25pZXVzUlFZWlhlS3FreWI3RlRaX0FUbE9HWmdhS013RDdzMUQyWUFMeFlRQ0gtMEdXeFJUR01qONIB0wFBVV95cUxNbUlkYnFZRTRHVGtlWmpMcFg1UGpqZ1NnQWVReXRWT29ZaHVrSHhoMk1IYXhTQkc1VXpwRnhpLXlIWVNEQ1VlZENPaHhZbjJtdl9TczB3T3BFRmRzenFnTGlLWXpwUkcydEFyLTEtNjA4aURMWnFmQVpmZGhTMEdRYk9TdDNYRkZIOF9WQUxfbGdRNGVIUjhOV2VrZ1p5Yk9mYkMxUTRPaVk1RndveEZvQWtTQ0I1a2RsUS0tamhKTU1jYlJqYVo1RlFlb3FLc203ckRB?oc=5\n\nApple may do another price hike as it reportedly accepts Samsung's higher memory prices for next year - GSMArena.com news - GSMArena.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZkx6eUFUeXVyNmx1eE5tTVJpVkI1TmVPWldzc3JwYjNteVVqVjh4aC1oZWZTaXFiZXVnVVRlOE5jaXdIT1F5VUlpVjhsU2V4Sy1MYzc0WTdJa0NBSDFPd1g0Q0IwNDZscUFPNF9pdUNtd3VGU1ZhSWVFNXR2UkZUYk95bGFmSkM2R1pNcFJNVklzNkxjNjI1Qkp4TDBLa25pZXVzUlFZWlhlS3FreWI3RlRaX0FUbE9HWmdhS013RDdzMUQyWUFMeFlRQ0gtMEdXeFJUR01qONIB0wFBVV95cUxNbUlkYnFZRTRHVGtlWmpMcFg1UGpqZ1NnQWVReXRWT29ZaHVrSHhoMk1IYXhTQkc1VXpwRnhpLXlIWVNEQ1VlZENPaHhZbjJtdl9TczB3T3BFRmRzenFnTGlLWXpwUkcydEFyLTEtNjA4aURMWnFmQVpmZGhTMEdRYk9TdDNYRkZIOF9WQUxfbGdRNGVIUjhOV2VrZ1p5Yk9mYkMxUTRPaVk1RndveEZvQWtTQ0I1a2RsUS0tamhKTU1jYlJqYVo1RlFlb3FLc203ckRB?oc=5\" target=\"_blank\">Apple may do another price hike as it reportedly accepts Samsung's higher memory prices for next year - GSMArena.com news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GSMArena.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple reportedly accepted Samsung's higher DRAM/NAND memory prices for next year, and may hike device prices again in response.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cApple \u5df2\u63a5\u53d7 Samsung \u660e\u5e74\u66f4\u9ad8\u7684\u5185\u5b58\u62a5\u4ef7\uff08DRAM/NAND\uff09\uff0c\u5e76\u53ef\u80fd\u56e0\u6b64\u518d\u6b21\u4e0a\u8c03\u4ea7\u54c1\u552e\u4ef7\u3002\n\nWhy it matters:\nThis is the price-pass-through leg of the memory-supercycle thesis: AI-driven HBM demand is squeezing conventional DRAM/NAND capacity, and the cost is now visibly flowing downstream to consumer OEMs. Duplicate RSS entries here reflect the same GSMArena item, not two separate reports.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5185\u5b58\u8d85\u7ea7\u5468\u671f\u903b\u8f91\u91cc\u4ef7\u683c\u4f20\u5bfc\u7684\u4e00\u73af\uff1aAI \u5bf9 HBM \u7684\u9700\u6c42\u6324\u538b\u4e86\u4f20\u7edf DRAM/NAND \u4ea7\u80fd\uff0c\u6210\u672c\u73b0\u5728\u5df2\u7ecf\u660e\u663e\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u5382\u5546\u8eab\u4e0a\u3002\u8fd9\u91cc\u51fa\u73b0\u4e24\u6761\u91cd\u590d\u6761\u76ee\uff0c\u662f\u540c\u4e00\u7bc7 GSMArena \u62a5\u9053\u88ab\u6293\u4e86\u4e24\u6b21\uff0c\u4e0d\u662f\u4e24\u6761\u72ec\u7acb\u6d88\u606f\u3002\n",
       "emailed": false
     }
   ],
