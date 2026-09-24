@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-09-24 22:26:34 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-09-24 22:29:05 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,51 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="4493" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.76% (+70bp off 90d-low)</span>
+    <span class="meta">2026-09-24 22:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-23
+Current:  2.76%
+90d low:  2.06%
+Move:     +70bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (inflation-adjusted) Treasury yield has risen ≥40 bp off its recent trailing low.
+
+Why it matters:
+Real yields are the discount rate on every long-duration cash flow — and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.
+</pre>
+  <button class="mark-read" type="button" data-id="4493">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="4494" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.76% ≥ 2.50%</span>
+    <span class="meta">2026-09-24 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-23
+Current:  2.76%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real yield is at or above an absolute restrictive level (≥2.50%).
+
+Why it matters:
+At this level real money is outright restrictive, not merely tightening. It marks the zone where leveraged, no-current-cashflow AI bets and the refinancing of AI-linked debt come under sustained valuation pressure — the macro discount-rate equivalent of C7&#39;s outright credit stress.
+</pre>
+  <button class="mark-read" type="button" data-id="4494">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4492" data-catalyst="C11" data-severity="MED">
   <summary>
@@ -6135,84 +6180,20 @@ This is speculative deal-linkage reporting, not a filing or hard metric — flag
   <button class="mark-read" type="button" data-id="4295">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4294" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] OpenAI’s listing delay raises stakes for SoftBank’s $50bn data centre IPO - Financial Times</span>
-    <span class="meta">2026-09-18 03:44 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Fri, 18 Sep 2026 03:07:51 GMT
-Link:      https://news.google.com/rss/articles/CBMihAFBVV95cUxQR05kM2J2OTJxRUJ5VWVGcjNLVGVXODRQWmpOQ2ZtNFU5bTNPc0ZXNk1yYm4xMkdsN0FfSFNQRnNDb3NmdU1rUmJZS0E1NnpyVXR1Y0RYSTBjeFVvZFBTNEstNkQxRDhYQnpCeG1tR0V2XzdYUUNHOVRFMW12V01WTUpZZ3A?oc=5
-
-OpenAI’s listing delay raises stakes for SoftBank’s $50bn data centre IPO - Financial Times
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMihAFBVV95cUxQR05kM2J2OTJxRUJ5VWVGcjNLVGVXODRQWmpOQ2ZtNFU5bTNPc0ZXNk1yYm4xMkdsN0FfSFNQRnNDb3NmdU1rUmJZS0E1NnpyVXR1Y0RYSTBjeFVvZFBTNEstNkQxRDhYQnpCeG1tR0V2XzdYUUNHOVRFMW12V01WTUpZZ3A?oc=5&#34; target=&#34;_blank&#34;&gt;OpenAI’s listing delay raises stakes for SoftBank’s $50bn data centre IPO&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Financial Times&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-OpenAI&#39;s IPO listing has been delayed, raising the stakes for SoftBank&#39;s related $50bn data-centre IPO.
-
-内容:
-OpenAI 的上市计划推迟，这让 SoftBank 那笔 500 亿美元数据中心相关 IPO 的成败变得更关键。
-
-Why it matters:
-A slipped OpenAI listing timeline threatens the financing chain behind capacity build-outs tied to it — if the equity raise that was meant to fund or validate that data-centre spend stalls, it&#39;s a soft signal the capital markets are getting less willing to underwrite the AI-capex buildout on the current timetable.
-
-影响:
-OpenAI 上市时间表推迟，可能牵动与之绑定的数据中心融资链——如果这笔本该为产能扩张输血或背书的股权融资也跟着卡壳，说明资本市场对按现有节奏继续输血 AI capex 的意愿在减弱，是个偏软的信号。
-</pre>
-  <button class="mark-read" type="button" data-id="4294">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4293" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] How Cooley is accelerating IPO work with ChatGPT - OpenAI</span>
-    <span class="meta">2026-09-18 02:44 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 17 Sep 2026 23:18:02 GMT
-Link:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YeVF6bldjRm9WWVhsTXB3S1VMTDRONC0xeUYtd3lrWGZnT2hGLUdwZlN2OXBpZURRMV9JQmcwb2R0TUdKb1FWNnZfR1p5WUl0R2pv?oc=5
-
-How Cooley is accelerating IPO work with ChatGPT - OpenAI
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YeVF6bldjRm9WWVhsTXB3S1VMTDRONC0xeUYtd3lrWGZnT2hGLUdwZlN2OXBpZURRMV9JQmcwb2R0TUdKb1FWNnZfR1p5WUl0R2pv?oc=5&#34; target=&#34;_blank&#34;&gt;How Cooley is accelerating IPO work with ChatGPT&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;OpenAI&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A Cooley law-firm article titled &#34;How Cooley is accelerating IPO work with ChatGPT&#34; was picked up on the OpenAI-keyword feed.
-
-内容:
-一篇标题为《How Cooley is accelerating IPO work with ChatGPT》的律所文章命中了 OpenAI 关键词 feed。
-
-Why it matters:
-This is routine vendor/product-adoption coverage, not a burn-rate or capex signal — it&#39;s the low-severity default for any OpenAI-keyword hit without an extracted metric.
-
-影响:
-这是普通的产品应用报道，不涉及 burn rate 或资本开支数据，没有可提取指标时命中 OpenAI 关键词默认就是这个低严重度。
-</pre>
-  <button class="mark-read" type="button" data-id="4293">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4485</td>
-<td>2026-09-24 21:47:05 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4487</td>
+<td>2026-09-24 22:29:04 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>74</td>
-<td>2026-09-23 22:29:03 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>76</td>
+<td>2026-09-24 22:29:03 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
