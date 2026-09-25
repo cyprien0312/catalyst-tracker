@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790359862,
-  "generated_at_str": "2026-09-25 18:11:02 UTC",
-  "last_event_ts": 1790359512,
+  "generated_at": 1790360047,
+  "generated_at_str": "2026-09-25 18:14:07 UTC",
+  "last_event_ts": 1790360047,
   "tables": {
     "alerts_dedup": {
-      "count": 4494,
-      "last_ts": 1790355907,
-      "last_str": "2026-09-25 17:05:07 UTC"
+      "count": 4495,
+      "last_ts": 1790360047,
+      "last_str": "2026-09-25 18:14:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-24 23:00:17 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 5990,
-      "last_ts": 1790358249,
-      "last_str": "2026-09-25 17:44:09 UTC"
+      "count": 5993,
+      "last_ts": 1790360045,
+      "last_str": "2026-09-25 18:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1420,
-      "last_ts": 1790356445,
-      "last_str": "2026-09-25 17:14:05 UTC"
+      "count": 1421,
+      "last_ts": 1790360045,
+      "last_str": "2026-09-25 18:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6410,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-25 18:05:12 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 35099,
-      "last_ts": 1790358248,
-      "last_str": "2026-09-25 17:44:08 UTC"
+      "count": 35109,
+      "last_ts": 1790360043,
+      "last_str": "2026-09-25 18:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10569,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4502,
+      "ts": 1790360047,
+      "ts_str": "2026-09-25 18:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI IPO: What happens next? - NeoTeo",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 25 Sep 2026 17:51:23 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTdoOEQ4QW9zRFExaUJMTF9YR2toM0haVWd3UWhtd19CRUNTaXVacGZpS0UzVUd6WEhnMUF3OG0xN0o5UmI0QkJrOTItMGZzM09iSVBWQTI3VkNlMm5Kbm84cVh0YTFUWG9heDdpQ1VNc092LXd1bVd5b3VqTEpDTjRncjA5dG4yd2kxcVo0UzdGNHZ6X3BZZXlB?oc=5\n\nOpenAI IPO: What happens next? - NeoTeo\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTdoOEQ4QW9zRFExaUJMTF9YR2toM0haVWd3UWhtd19CRUNTaXVacGZpS0UzVUd6WEhnMUF3OG0xN0o5UmI0QkJrOTItMGZzM09iSVBWQTI3VkNlMm5Kbm84cVh0YTFUWG9heDdpQ1VNc092LXd1bVd5b3VqTEpDTjRncjA5dG4yd2kxcVo0UzdGNHZ6X3BZZXlB?oc=5\" target=\"_blank\">OpenAI IPO: What happens next?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NeoTeo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 4501,
       "ts": 1790355907,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] SanDisk 1TB Portable SSD Gets an Early Amazon Price Cut Despite Being Brand-New - Kotaku",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 10:15:35 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxPa2FwRFRpUXFUNWxYS1hJbWtvNG1mTkQ1OExEd2ZnRVdjTVVKTllERDB2N1ZVQnhVR1JSY195TmN2TU52SWRUdmpKMVgteHFpUWlKUmFIVENYUnpnTnZNWDJkTFdhOVBRTWJDazhJdmZraUVGQ1J0YkxsU0pqSGp0amozREkxWHBHZ1dWUHpwSmE0VGlVU3NDZnRDUzVXRWNjSG1ycEhydnRJMjNmT2c?oc=5\n\nSanDisk 1TB Portable SSD Gets an Early Amazon Price Cut Despite Being Brand-New - Kotaku\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPa2FwRFRpUXFUNWxYS1hJbWtvNG1mTkQ1OExEd2ZnRVdjTVVKTllERDB2N1ZVQnhVR1JSY195TmN2TU52SWRUdmpKMVgteHFpUWlKUmFIVENYUnpnTnZNWDJkTFdhOVBRTWJDazhJdmZraUVGQ1J0YkxsU0pqSGp0amozREkxWHBHZ1dWUHpwSmE0VGlVU3NDZnRDUzVXRWNjSG1ycEhydnRJMjNmT2c?oc=5\" target=\"_blank\">SanDisk 1TB Portable SSD Gets an Early Amazon Price Cut Despite Being Brand-New</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kotaku</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News item is a straight price cut on an existing SanDisk 1TB portable SSD, appearing twice from duplicate RSS feeds.\n\n\u5185\u5bb9:\n\u8fd9\u662f\u4e00\u6761 Google News \u6d88\u606f\uff0c\u8bb2\u7684\u662f SanDisk 1TB \u79fb\u52a8\u56fa\u6001\u786c\u76d8\u7684\u5e38\u89c4\u964d\u4ef7\uff0c\u56e0\u91cd\u590d RSS \u6e90\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nThis is a single-SKU retail discount, not evidence of a memory/storage supply-demand shift \u2014 no order cancellation, no oversupply data, no manufacturer statement. Likely a C6 classifier false positive on the price-drop token, not a real bubble-stress signal.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5355\u4e2a SKU \u7684\u96f6\u552e\u4fc3\u9500\uff0c\u4e0d\u662f\u5185\u5b58/\u5b58\u50a8\u4f9b\u9700\u683c\u5c40\u53d8\u5316\u7684\u8bc1\u636e\u2014\u2014\u6ca1\u6709\u780d\u5355\uff0c\u6ca1\u6709\u4ea7\u80fd\u8fc7\u5269\u6570\u636e\uff0c\u4e5f\u6ca1\u6709\u5382\u5546\u58f0\u660e\u3002\u66f4\u53ef\u80fd\u662f C6 \u5206\u7c7b\u5668\u547d\u4e2d\u964d\u4ef7\u5173\u952e\u8bcd\u4ea7\u751f\u7684\u8bef\u62a5\uff0c\u4e0d\u662f\u771f\u6b63\u7684\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4301,
-      "ts": 1789725927,
-      "ts_str": "2026-09-18 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] \"Next Year's DRAM Production Increase to Be Limited to 8% ... Shortage to Continue Through 2031\" - \ub9e4\uc77c\uacbd\uc81c",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 08:55:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wb3Y4NHRlMjhITWdoWlJNUWpfZ3lHWnoyOTlFdGwzRnplTUFBbmxBdmw2U3duVmNPMTdkZkNhYVNMODdnVVpPbm5wZExYTGFJVTJF?oc=5\n\n\"Next Year's DRAM Production Increase to Be Limited to 8% ... Shortage to Continue Through 2031\" - \ub9e4\uc77c\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wb3Y4NHRlMjhITWdoWlJNUWpfZ3lHWnoyOTlFdGwzRnplTUFBbmxBdmw2U3duVmNPMTdkZkNhYVNMODdnVVpPbm5wZExYTGFJVTJF?oc=5\" target=\"_blank\">\"Next Year's DRAM Production Increase to Be Limited to 8% ... Shortage to Continue Through 2031\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub9e4\uc77c\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS headlines (same article, duplicate feed hits) report that next year's DRAM production increase will be capped at 8%, with the shortage expected to persist through 2031.\n\n\u5185\u5bb9:\n\u4e24\u6761 Google News RSS \u6807\u9898\uff08\u540c\u4e00\u7bc7\u6587\u7ae0\uff0c\u6765\u81ea\u4e0d\u540c feed \u7684\u91cd\u590d\u547d\u4e2d\uff09\u62a5\u9053\u660e\u5e74 DRAM \u4ea7\u80fd\u589e\u5e45\u5c06\u88ab\u9650\u5236\u5728 8%\uff0c\u4e14\u77ed\u7f3a\u9884\u8ba1\u5c06\u6301\u7eed\u5230 2031 \u5e74\u3002\n\nWhy it matters:\nA multi-year supply constraint keeps memory prices elevated for every hyperscaler building AI servers, feeding straight into the capex-per-unit-compute cost side of the bubble-stress thesis. It also signals memory suppliers are not chasing the AI demand spike with proportional capacity, which cuts against the 'infinite supply chases infinite demand' overbuild narrative.\n\n\u5f71\u54cd:\n\u591a\u5e74\u671f\u7684\u4f9b\u7ed9\u53d7\u9650\u4f1a\u8ba9\u6bcf\u4e2a\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5efa AI \u670d\u52a1\u5668\u65f6\u7684\u5185\u5b58\u6210\u672c\u957f\u671f\u5c45\u9ad8\u4e0d\u4e0b\uff0c\u76f4\u63a5\u51b2\u51fb AI capex \u7684\u5355\u4f4d\u7b97\u529b\u6210\u672c\u8fd9\u6761\u7ebf\u3002\u540c\u65f6\u4e5f\u8bf4\u660e\u5185\u5b58\u5382\u5546\u6ca1\u6709\u6309 AI \u9700\u6c42\u7684\u7206\u53d1\u5f0f\u589e\u957f\u540c\u6b65\u6269\u4ea7\uff0c\u8fd9\u4e0e\u300c\u4ea7\u80fd\u4f1a\u65e0\u9650\u8ffd\u7740\u9700\u6c42\u8dd1\u300d\u7684\u8fc7\u5ea6\u5efa\u8bbe\u53d9\u4e8b\u76f8\u77db\u76fe\u3002\n",
       "emailed": false
     }
   ],
