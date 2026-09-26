@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790413323,
-  "generated_at_str": "2026-09-26 09:02:03 UTC",
-  "last_event_ts": 1790412423,
+  "generated_at": 1790413509,
+  "generated_at_str": "2026-09-26 09:05:09 UTC",
+  "last_event_ts": 1790413508,
   "tables": {
     "alerts_dedup": {
-      "count": 4501,
-      "last_ts": 1790408825,
-      "last_str": "2026-09-26 07:47:05 UTC"
+      "count": 4502,
+      "last_ts": 1790413508,
+      "last_str": "2026-09-26 09:05:08 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-26 02:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6434,
-      "last_ts": 1790411702,
-      "last_str": "2026-09-26 08:35:02 UTC"
+      "count": 6435,
+      "last_ts": 1790413503,
+      "last_str": "2026-09-26 09:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7813,
-      "last_ts": 1790411705,
-      "last_str": "2026-09-26 08:35:05 UTC"
+      "count": 7815,
+      "last_ts": 1790413506,
+      "last_str": "2026-09-26 09:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4609,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4509,
+      "ts": 1790413508,
+      "ts_str": "2026-09-26 09:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory supply shortages may persist until 2028! UBS Group raises earnings estimates for Micron (MU.US), bullish on stron",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 26 Sep 2026 07:41:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnp5RW80WkN2SWdZLXRTeDFaR21yeE52aGdyb1hlNlZmVHk1ZkNTdmVqSDgtVzhvOWlxTU1ZOFpMUlBsQXZEaFFtRkdlenlLbHJvRU9iMWpRdm02MURFTDJiczFQUVhQUGgwUlNMdFU5NzA4VEhrdTZmcW9USmhVZ3A5d0lWblVwRjFJTUY0dkxWT1I4dVVxb2pEc1BQNjd2d3JyeGc4bWVsdw?oc=5\n\nMemory supply shortages may persist until 2028! UBS Group raises earnings estimates for Micron (MU.US), bullish on strong HBM demand and increased share buybacks. - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRnp5RW80WkN2SWdZLXRTeDFaR21yeE52aGdyb1hlNlZmVHk1ZkNTdmVqSDgtVzhvOWlxTU1ZOFpMUlBsQXZEaFFtRkdlenlLbHJvRU9iMWpRdm02MURFTDJiczFQUVhQUGgwUlNMdFU5NzA4VEhrdTZmcW9USmhVZ3A5d0lWblVwRjFJTUY0dkxWT1I4dVVxb2pEc1BQNjd2d3JyeGc4bWVsdw?oc=5\" target=\"_blank\">Memory supply shortages may persist until 2028! UBS Group raises earnings estimates for Micron (MU.US), bullish on strong HBM demand and increased share buybacks.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
+      "emailed": false
+    },
     {
       "id": 4508,
       "ts": 1790408825,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] The PCSpecialist Momentum Pro Uses DDR4 To Lower The Price - PC Perspective",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 19:52:30 GMT\nLink:      https://news.google.com/rss/articles/CBMijgFBVV95cUxPNExqRjBGX25LVkhDMENNdmZLUXR3TDdpV0NwZnNMN2FhaW9CM1dPS0J5emI4bUk0Uk54cXBCTEFZQXVRem9yanVHdmloVVMtT1F5UGhGcXkwWjBpN21FNW9TYXdiZ012dHFMT2dIS3poWjRRNWk1V3dpaDNvNzBfUGZWTE5vQVUwcWdiOVpR?oc=5\n\nThe PCSpecialist Momentum Pro Uses DDR4 To Lower The Price - PC Perspective\n\n<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPNExqRjBGX25LVkhDMENNdmZLUXR3TDdpV0NwZnNMN2FhaW9CM1dPS0J5emI4bUk0Uk54cXBCTEFZQXVRem9yanVHdmloVVMtT1F5UGhGcXkwWjBpN21FNW9TYXdiZ012dHFMT2dIS3poWjRRNWk1V3dpaDNvNzBfUGZWTE5vQVUwcWdiOVpR?oc=5\" target=\"_blank\">The PCSpecialist Momentum Pro Uses DDR4 To Lower The Price</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PC Perspective</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA PCSpecialist Momentum Pro listing dropped its price by switching from DDR5 to DDR4 memory, with the same headline duplicated in the RSS feed.\n\n\u5185\u5bb9:\nPCSpecialist Momentum Pro \u8fd9\u6b3e\u4ea7\u54c1\u628a\u5185\u5b58\u4ece DDR5 \u6362\u6210 DDR4 \u4ee5\u964d\u4f4e\u552e\u4ef7\uff0c\u540c\u4e00\u6761\u6807\u9898\u5728 RSS \u91cc\u8fd8\u91cd\u590d\u51fa\u73b0\u4e86\u4e00\u6b21\u3002\n\nWhy it matters:\nThis is a single retailer's SKU-level configuration choice to hit a price point, not a memory-market supply/demand signal \u2014 it doesn't indicate DRAM oversupply, order cancellations, or capex retrenchment. Reads as a C6 false positive from a product-review headline rather than a genuine memory-stress event.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u96f6\u552e\u5546\u4e3a\u538b\u4f4e\u5355\u54c1\u4ef7\u683c\u505a\u7684\u914d\u7f6e\u8c03\u6574\uff0c\u4e0d\u4ee3\u8868\u5185\u5b58\u5e02\u573a\u4f9b\u9700\u51fa\u4e86\u95ee\u9898\uff0c\u4e5f\u8c08\u4e0d\u4e0a\u780d\u5355\u6216\u8d44\u672c\u5f00\u652f\u6536\u7f29\u3002\u66f4\u50cf\u662f\u4e00\u6761\u88ab C6 \u8bef\u5224\u7684\u4ea7\u54c1\u8bc4\u6d4b\u6807\u9898\uff0c\u800c\u4e0d\u662f\u771f\u6b63\u7684\u5185\u5b58\u627f\u538b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4309,
-      "ts": 1789763721,
-      "ts_str": "2026-09-18 20:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] China\u2019s CXMT Plans NAND Flash Push as Memory Shortage Deepens - thevision24.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 19:23:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE5majlMTG5JZGN3d3hLUXBnWEs0TFVoZGI1ellBNEpZWjU3ZEMxSUNXaUFKT051cnN5cnNhdW5ZcG5xV2M1OUFkMmtRdThGMllNaWEzNQ?oc=5\n\nChina\u2019s CXMT Plans NAND Flash Push as Memory Shortage Deepens - thevision24.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5majlMTG5JZGN3d3hLUXBnWEs0TFVoZGI1ellBNEpZWjU3ZEMxSUNXaUFKT051cnN5cnNhdW5ZcG5xV2M1OUFkMmtRdThGMllNaWEzNQ?oc=5\" target=\"_blank\">China\u2019s CXMT Plans NAND Flash Push as Memory Shortage Deepens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thevision24.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Chinese Google News RSS item reports CXMT is expanding NAND flash production as a memory shortage deepens, with the same headline duplicated across the feed entry.\n\n\u5185\u5bb9:\n\u4e00\u6761\u4e2d\u6587\u76f8\u5173\u7684 Google News RSS \u62a5\u9053\u79f0\uff0c\u968f\u7740\u5185\u5b58\u77ed\u7f3a\u52a0\u6df1\uff0cCXMT \u6b63\u5728\u52a0\u7801 NAND flash \u4ea7\u80fd\uff0c\u540c\u4e00\u6807\u9898\u5728\u8be5\u6761\u76ee\u91cc\u91cd\u590d\u4e86\u4e00\u6b21\u3002\n\nWhy it matters:\nA memory-supply crunch tightens margins for anyone buying HBM/DRAM/NAND for AI training clusters and raises hardware-cost risk for capex-heavy hyperscalers; a Chinese producer racing to fill the gap also signals how tight global memory supply currently is.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u5e94\u5403\u7d27\u4f1a\u63a8\u9ad8\u8bad\u7ec3\u96c6\u7fa4\u6240\u9700 HBM/DRAM/NAND \u7684\u91c7\u8d2d\u6210\u672c\uff0c\u5bf9\u8d44\u672c\u5f00\u652f\u5df2\u7ecf\u5f88\u91cd\u7684\u8d85\u5927\u89c4\u6a21\u5382\u5546\u662f\u538b\u529b\u4fe1\u53f7\uff1b\u4e2d\u56fd\u5382\u5546\u6025\u7740\u8865\u4ea7\u80fd\uff0c\u4e5f\u8bf4\u660e\u5168\u7403\u5185\u5b58\u4f9b\u7ed9\u786e\u5b9e\u5f88\u7d27\u3002\n",
       "emailed": false
     }
   ],
