@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790502062,
-  "generated_at_str": "2026-09-27 09:41:02 UTC",
-  "last_event_ts": 1790501702,
+  "generated_at": 1790502247,
+  "generated_at_str": "2026-09-27 09:44:07 UTC",
+  "last_event_ts": 1790502246,
   "tables": {
     "alerts_dedup": {
-      "count": 4506,
-      "last_ts": 1790500447,
-      "last_str": "2026-09-27 09:14:07 UTC"
+      "count": 4507,
+      "last_ts": 1790502246,
+      "last_str": "2026-09-27 09:44:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-09-27 05:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1429,
-      "last_ts": 1790471646,
-      "last_str": "2026-09-27 01:14:06 UTC"
+      "count": 1430,
+      "last_ts": 1790502245,
+      "last_str": "2026-09-27 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6461,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-27 09:05:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 35646,
-      "last_ts": 1790500444,
-      "last_str": "2026-09-27 09:14:04 UTC"
+      "count": 35651,
+      "last_ts": 1790502243,
+      "last_str": "2026-09-27 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10660,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4514,
+      "ts": 1790502246,
+      "ts_str": "2026-09-27 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic and OpenAI Are Both Racing to IPO. GE Vernova Wins Either Way. - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 27 Sep 2026 09:04:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxPN20tb1pmenkxSzFGOThaVjZUbkJZRU0yalg3TzFhMlJ6dkhrYjJVNXQyd3AwOWpFdkp0VzE5NDFTWk9sQ3hpb0p1TXN0N0cyTVloTWlsX094aUZGR1RRaS12M1dON1VNWmtOblhmNXFqVXB2aEtBbjBJekZJa1hKeXFn?oc=5\n\nAnthropic and OpenAI Are Both Racing to IPO. GE Vernova Wins Either Way. - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPN20tb1pmenkxSzFGOThaVjZUbkJZRU0yalg3TzFhMlJ6dkhrYjJVNXQyd3AwOWpFdkp0VzE5NDFTWk9sQ3hpb0p1TXN0N0cyTVloTWlsX094aUZGR1RRaS12M1dON1VNWmtOblhmNXFqVXB2aEtBbjBJekZJa1hKeXFn?oc=5\" target=\"_blank\">Anthropic and OpenAI Are Both Racing to IPO. GE Vernova Wins Either Way.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 4513,
       "ts": 1790500447,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI forecasts cash burn near $280 billion by 2030, FT reports - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 18 Sep 2026 23:27:10 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxPMHFlUGJhT24tbjE1N0VNNXBQTU1Pcks5VEV2OVh1bVpLZmtRbEVLYzFxd1B0Z1F2eXhkYmZEblNTdDJNV3VJMW1xV3NVTXFkZjNGeHV2bzNBMnRENldiYXVpSlZqODc4QWRPa3hPWHRjMkVYU2pERS05NzNZT0FtZXZPcWQxdlBOaGJnU2taRVFsS21OREllTXdCSFNpYUlEdFJkSlNzTlloNDFWU3YycDVhT3NVOWN5SUkwYWxaMFlubHZTTWRJcFQ5VEk?oc=5\n\nOpenAI forecasts cash burn near $280 billion by 2030, FT reports - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPMHFlUGJhT24tbjE1N0VNNXBQTU1Pcks5VEV2OVh1bVpLZmtRbEVLYzFxd1B0Z1F2eXhkYmZEblNTdDJNV3VJMW1xV3NVTXFkZjNGeHV2bzNBMnRENldiYXVpSlZqODc4QWRPa3hPWHRjMkVYU2pERS05NzNZT0FtZXZPcWQxdlBOaGJnU2taRVFsS21OREllTXdCSFNpYUlEdFJkSlNzTlloNDFWU3YycDVhT3NVOWN5SUkwYWxaMFlubHZTTWRJcFQ5VEk?oc=5\" target=\"_blank\">OpenAI forecasts cash burn near $280 billion by 2030, FT reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI reportedly projects cash burn will reach roughly $280 billion by 2030, per the Financial Times.\n\n\u5185\u5bb9:\n\u636e\u82f1\u56fd\u300a\u91d1\u878d\u65f6\u62a5\u300b\u62a5\u9053\uff0cOpenAI \u9884\u8ba1\u5230 2030 \u5e74\u73b0\u91d1\u6d88\u8017\u5c06\u8fbe\u5230\u7ea6 $280 billion\u3002\n\nWhy it matters:\nA projection this far out and this large signals OpenAI expects to stay deeply cash-negative through the decade, meaning it needs continuous mega-rounds or partner capex commitments (Microsoft, Oracle, etc.) just to keep operating. Any wobble in funding appetite for the whole AI-infra chain becomes existential for OpenAI specifically, and OpenAI-linked demand is a load-bearing assumption for hyperscaler/neocloud capex plans.\n\n\u5f71\u54cd:\n\u8fd9\u4e48\u8fdc\u3001\u8fd9\u4e48\u5927\u7684\u70e7\u94b1\u9884\u6d4b\u8bf4\u660e OpenAI \u8ba4\u4e3a\u81ea\u5df1\u6574\u4e2a\u5341\u5e74\u90fd\u4f1a\u6301\u7eed\u6df1\u5ea6\u5931\u8840\uff0c\u5f97\u9760\u4e0d\u65ad\u878d\u5927\u8f6e\u6216\u8005\u9760\u5fae\u8f6f\u3001\u7532\u9aa8\u6587\u8fd9\u7c7b\u4f19\u4f34\u625b\u8d44\u672c\u5f00\u652f\u624d\u80fd\u6491\u4e0b\u53bb\u3002\u4e00\u65e6\u6574\u6761 AI \u57fa\u5efa\u94fe\u7684\u878d\u8d44\u80c3\u53e3\u51fa\u95ee\u9898\uff0cOpenAI \u9996\u5f53\u5176\u51b2\uff0c\u800c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684 capex \u8ba1\u5212\u53c8\u6070\u597d\u5efa\u7acb\u5728\u300cOpenAI \u9700\u6c42\u4f1a\u4e00\u76f4\u5728\u300d\u8fd9\u4e2a\u5047\u8bbe\u4e0a\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4315,
-      "ts": 1789776868,
-      "ts_str": "2026-09-19 00:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI expects $278 billion cash burn through 2030 - FT - Investing.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 19 Sep 2026 00:02:19 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkF3eXBHUDc1UXItT1ZzTUF2eTdVdTBub0w3RW1WWGdnU3RGSE10WHMzclNfNGdmRmRXUGNQeFJYUkZzc1JVaUFGMHBhaTlKam9wVklDbm9wWThJYmRoZGtfM25Kc3pCQWYtTnZGMzZZOG01R0VUR0tiNnhYYjVwNFRlZUNTZ043UVY3Y1htX045LUVxeS1ReUt2NWRicl9kM2ZuZjNwVDM?oc=5\n\nOpenAI expects $278 billion cash burn through 2030 - FT - Investing.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVkF3eXBHUDc1UXItT1ZzTUF2eTdVdTBub0w3RW1WWGdnU3RGSE10WHMzclNfNGdmRmRXUGNQeFJYUkZzc1JVaUFGMHBhaTlKam9wVklDbm9wWThJYmRoZGtfM25Kc3pCQWYtTnZGMzZZOG01R0VUR0tiNnhYYjVwNFRlZUNTZ043UVY3Y1htX045LUVxeS1ReUt2NWRicl9kM2ZuZjNwVDM?oc=5\" target=\"_blank\">OpenAI expects $278 billion cash burn through 2030 - FT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI is reportedly projecting $278 billion in cumulative cash burn through 2030, per the FT.\n\n\u5185\u5bb9:\n\u636e FT \u62a5\u9053\uff0cOpenAI \u9884\u8ba1\u5230 2030 \u5e74\u7d2f\u8ba1\u73b0\u91d1\u6d88\u8017\u5c06\u8fbe $278 billion\u3002\n\nWhy it matters:\nThat's a number an order of magnitude beyond OpenAI's current revenue run-rate, and it's the single largest anchor of the AI-capex thesis \u2014 every hyperscaler's spend narrative assumes OpenAI (and peers) keep buying compute at this pace. A burn figure this size makes the funding-gap question concrete rather than abstract.\n\n\u5f71\u54cd:\n\u8fd9\u4e2a\u6570\u5b57\u6bd4 OpenAI \u76ee\u524d\u7684\u8425\u6536\u89c4\u6a21\u9ad8\u51fa\u4e00\u4e2a\u6570\u91cf\u7ea7\uff0c\u4e5f\u662f\u6574\u4e2a AI capex \u53d9\u4e8b\u91cc\u6700\u91cd\u8981\u7684\u652f\u70b9\u4e4b\u4e00\u2014\u2014\u5404\u5927\u4e91\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u903b\u8f91\u90fd\u5efa\u7acb\u5728 OpenAI\uff08\u53ca\u540c\u7c7b\u516c\u53f8\uff09\u4f1a\u6301\u7eed\u4ee5\u8fd9\u4e2a\u8282\u594f\u4e70\u7b97\u529b\u7684\u5047\u8bbe\u4e0a\u3002\u70e7\u94b1\u89c4\u6a21\u6446\u5230\u8fd9\u4e48\u5177\u4f53\uff0c\u878d\u8d44\u7f3a\u53e3\u95ee\u9898\u5c31\u4e0d\u518d\u662f\u7a7a\u8c08\u4e86\u3002\n",
       "emailed": false
     }
   ],
