@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790720802,
-  "generated_at_str": "2026-09-29 22:26:42 UTC",
-  "last_event_ts": 1790720044,
+  "generated_at": 1790720969,
+  "generated_at_str": "2026-09-29 22:29:29 UTC",
+  "last_event_ts": 1790720969,
   "tables": {
     "alerts_dedup": {
-      "count": 4550,
-      "last_ts": 1790718257,
-      "last_str": "2026-09-29 21:44:17 UTC"
+      "count": 4552,
+      "last_ts": 1790720969,
+      "last_str": "2026-09-29 22:29:29 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-08-05 20:53:04 UTC"
     },
     "c10_signals": {
-      "count": 80,
-      "last_ts": 1790634553,
-      "last_str": "2026-09-28 22:29:13 UTC"
+      "count": 82,
+      "last_ts": 1790720959,
+      "last_str": "2026-09-29 22:29:19 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4559,
+      "ts": 1790720969,
+      "ts_str": "2026-09-29 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "HIGH",
+      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.90% \u2265 2.50%",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-28\nCurrent:  2.90%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe FRED 10-year TIPS real yield (REAL10) rose to 2.9% as of 2026-09-28, crossing the 2.5% stress level.\n\n\u5185\u5bb9:\nFRED \u7684 10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387\uff08REAL10\uff09\u622a\u81f3 2026-09-28 \u5347\u81f3 2.9%\uff0c\u7a81\u7834 2.5% \u7684\u538b\u529b\u7ebf\u3002\n\nWhy it matters:\nReal yields this high raise the discount rate on long-duration AI capex bets and make debt-funded data-center buildouts more expensive \u2014 this is the same real-yield channel C10 tracks alongside the broad-dollar index.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u4f1a\u62ac\u9ad8\u957f\u4e45\u671f AI capex \u6295\u8d44\u7684\u6298\u73b0\u7387\uff0c\u4e5f\u8ba9\u9760\u4e3e\u503a\u5efa\u6570\u636e\u4e2d\u5fc3\u7684\u6a21\u5f0f\u6210\u672c\u66f4\u9ad8\u2014\u2014\u8fd9\u6b63\u662f C10 \u548c\u5e7f\u4e49\u7f8e\u5143\u6307\u6570\u4e00\u8d77\u76ef\u7684\u90a3\u6761\u5229\u7387\u4f20\u5bfc\u94fe\u3002\n",
+      "emailed": true
+    },
+    {
+      "id": 4558,
+      "ts": 1790720968,
+      "ts_str": "2026-09-29 22:29 UTC",
+      "catalyst": "C10",
+      "severity": "HIGH",
+      "subject": "[C10-HIGH] 10y Real Yield rising: 2.90% (+84bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-28\nCurrent:  2.90%\n90d low:  2.06%\nMove:     +84bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield spiked to 2.9%, up 0.84pp from its trailing-90-day low of 2.06% (obs date 2026-09-28).\n\n\u5185\u5bb9:\n10\u5e74\u671f\u5b9e\u9645(TIPS)\u6536\u76ca\u7387\u8df3\u5347\u81f32.9%\uff0c\u6bd4\u8fc7\u53bb90\u5929\u4f4e\u70b92.06%\u9ad8\u51fa0.84\u4e2a\u767e\u5206\u70b9\uff08\u6570\u636e\u65e5\u671f2026-09-28\uff09\u3002\n\nWhy it matters:\nReal yields are the discount rate on long-duration AI-capex cash flows \u2014 a jump this size directly compresses the valuation of any story priced on distant payback. It's also a tightening-liquidity signal that pairs with C7 credit stress as one of the two fuses driving the buy-plan regime.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u662f\u7ed9AI capex\u8fd9\u79cd\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u4f30\u503c\u65f6\u7528\u7684\u8d34\u73b0\u7387\uff0c\u6da8\u8fd9\u4e48\u591a\u4f1a\u76f4\u63a5\u538b\u4f4e\u9760\u8fdc\u671f\u56de\u672c\u8bb2\u6545\u4e8b\u7684\u516c\u53f8\u7684\u4f30\u503c\u3002\u8fd9\u4e5f\u662f\u6d41\u52a8\u6027\u6536\u7d27\u7684\u4fe1\u53f7\uff0c\u548cC7\u4fe1\u7528\u5229\u5dee\u4e00\u8d77\u6784\u6210\u51b3\u5b9a\u4e70\u5165\u8ba1\u5212regime\u5207\u6362\u7684\u4e24\u4e2a\u5f15\u4fe1\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4557,
       "ts": 1790718257,
@@ -2296,26 +2316,6 @@
       "subject": "[C3-CRITICAL] SoftBank Seeks Over $11 Billion in Junk Bond Deal for OpenAI Bet - Bloomberg.com",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 01:58:00 GMT\nLink:      https://news.google.com/rss/articles/CBMitAFBVV95cUxPU0o1UjZOa1FQMEhiUEdRVFh0Um1SYnh6TWl3Z2FJSUFUZ3ltX2d1UzE4TzBXb2VYU3NfelRXWjUtbmxxRVlLRkRLUkpQZm5XR0FQMEJIaVNHaXMxMVZ0Y0F5NDgtODFCbGFIRnlSU2FRcTNDTHFpS0xsRnFQT3I1UkdCcWFTaUhreHZJejk4cnRGcERTOThEOGt4MkkxOFpKdTlaYjJkbXJfYXFFeWZlVHR4WEs?oc=5\n\nSoftBank Seeks Over $11 Billion in Junk Bond Deal for OpenAI Bet - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPU0o1UjZOa1FQMEhiUEdRVFh0Um1SYnh6TWl3Z2FJSUFUZ3ltX2d1UzE4TzBXb2VYU3NfelRXWjUtbmxxRVlLRkRLUkpQZm5XR0FQMEJIaVNHaXMxMVZ0Y0F5NDgtODFCbGFIRnlSU2FRcTNDTHFpS0xsRnFQT3I1UkdCcWFTaUhreHZJejk4cnRGcERTOThEOGt4MkkxOFpKdTlaYjJkbXJfYXFFeWZlVHR4WEs?oc=5\" target=\"_blank\">SoftBank Seeks Over $11 Billion in Junk Bond Deal for OpenAI Bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is seeking a junk-bond debt deal of over $11 billion to fund its OpenAI bet.\n\n\u5185\u5bb9:\nSoftBank \u6b63\u5728\u5bfb\u6c42\u8d85\u8fc7 $11B \u7684\u5783\u573e\u503a\u878d\u8d44\uff0c\u7528\u4e8e\u7ed9\u81ea\u5df1\u62bc\u6ce8 OpenAI \u7684\u4ed3\u4f4d\u52a0\u6760\u6746\u3002\n\nWhy it matters:\nThis is debt-financed leverage for an AI investment, not equity \u2014 it raises the stakes of an OpenAI stumble by adding creditor claims and fixed interest costs on top of the existing capital at risk. Junk-rated debt for a speculative-stage AI bet is a marker of late-cycle risk-seeking behavior.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u7528\u503a\u52a1\u800c\u975e\u80a1\u6743\u7ed9 AI \u6295\u8d44\u52a0\u6760\u6746\u2014\u2014\u4e00\u65e6 OpenAI \u51fa\u95ee\u9898\uff0c\u9664\u4e86\u539f\u6709\u7684\u6295\u8d44\u98ce\u9669\uff0c\u8fd8\u591a\u4e86\u503a\u6743\u4eba\u7d22\u507f\u548c\u56fa\u5b9a\u5229\u606f\u8d1f\u62c5\u3002\u7528\u5783\u573e\u7ea7\u503a\u52a1\u7ed9\u4e00\u7b14\u6295\u673a\u6027\u7684 AI \u62bc\u6ce8\u878d\u8d44\uff0c\u662f\u5468\u671f\u665a\u671f\u5192\u9669\u884c\u4e3a\u7684\u6807\u5fd7\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 4360,
-      "ts": 1789956869,
-      "ts_str": "2026-09-21 02:14 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports - Investing.com Nigeria",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 02:06:35 GMT\nLink:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTU1YLVZ1REtFd2J0TG1IWExaaTlzczBUQ3Y2Y1VNOFFWZlZRYmtHM2xzNTlqZWxVTC1VT3dtcVpKWWk4RnVQMVhPbGRjbTZWOVAwZldXcks3MDlWR09mTkNNOFp3S1otV0lURU1HVVh0RUppR0pmQkVlM0RUU1g4dzh5ME1OTVVhRzZONk9sUnc0SklpNERldEpwU1dtbXNrODJnRlE1aDRzcVBON21aUWhZenRIMlFud0ppa2t0R2l1eHdCTFE5dkRhTzI4bDQ0?oc=5\n\nSoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports - Investing.com Nigeria\n\n<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTU1YLVZ1REtFd2J0TG1IWExaaTlzczBUQ3Y2Y1VNOFFWZlZRYmtHM2xzNTlqZWxVTC1VT3dtcVpKWWk4RnVQMVhPbGRjbTZWOVAwZldXcks3MDlWR09mTkNNOFp3S1otV0lURU1HVVh0RUppR0pmQkVlM0RUU1g4dzh5ME1OTVVhRzZONk9sUnc0SklpNERldEpwU1dtbXNrODJnRlE1aDRzcVBON21aUWhZenRIMlFud0ppa2t0R2l1eHdCTFE5dkRhTzI4bDQ0?oc=5\" target=\"_blank\">SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com Nigeria</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is planning a bond sale of more than $11B, according to Bloomberg, to fund its OpenAI-related commitments.\n\n\u5185\u5bb9:\n\u636e\u5f6d\u535a\u793e\u62a5\u9053\uff0c\u8f6f\u94f6\u8ba1\u5212\u53d1\u884c\u903e $11B \u7684\u503a\u5238\uff0c\u7528\u4e8e\u8d44\u52a9\u5176\u5728 OpenAI \u76f8\u5173\u9879\u76ee\u4e0a\u7684\u6295\u5165\u3002\n\nWhy it matters:\nThis is debt financing entering the AI-capex chain one hop removed from OpenAI itself \u2014 a backer raising leveraged capital to keep funding its bets signals the round sizes have outgrown what can be funded from cash/equity alone. Feeds the C3 burn-rate thesis even without a direct OpenAI filing.\n\n\u5f71\u54cd:\n\u8fd9\u7b14\u94b1\u662f\u95f4\u63a5\u6d41\u5165 AI capex \u94fe\u6761\u7684\u6760\u6746\u8d44\u91d1\u2014\u2014\u8f6f\u94f6\u4f5c\u4e3a\u51fa\u8d44\u65b9\u8981\u9760\u53d1\u503a\u6765\u6491\u4f4f\u5bf9 OpenAI \u7684\u627f\u8bfa\uff0c\u8bf4\u660e\u5355\u9760\u73b0\u91d1\u548c\u80a1\u6743\u5df2\u7ecf\u6491\u4e0d\u4f4f\u8fd9\u8f6e\u7684\u89c4\u6a21\u4e86\u3002\u5373\u4fbf\u6ca1\u6709 OpenAI \u81ea\u5df1\u7684\u6587\u4ef6\uff0c\u8fd9\u4e5f\u652f\u6301\u4e86 C3 \u70e7\u94b1\u901f\u5ea6\u4e0a\u5347\u7684\u5224\u65ad\u3002\n",
-      "emailed": true
-    },
-    {
-      "id": 4358,
-      "ts": 1789947856,
-      "ts_str": "2026-09-20 23:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI\u2019s Cash Burn Could Approach $280 Billion by 2030 - PYMNTS.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 20 Sep 2026 23:38:00 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxNQzVyRTlFV0dtTFY5YV90UXpGVzBHVDUzRDNublNaSlludm43QlE3czllNFBVTE1mQUpSVHEydk5rU0M3OUpYWUtkOWhFaVFBbzRxaHBQTnB5Zm1fUzdGbVlfekRsbWJwbm85SnJqV09GdVozTzdFQ3RVNGEtbEtTSndtZTRfZHV6SXpPWHVfS0ZPbXl0cy1LUnU1NlRqUzNkcmI0bmlReS1od18yWUFn?oc=5\n\nOpenAI\u2019s Cash Burn Could Approach $280 Billion by 2030 - PYMNTS.com\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNQzVyRTlFV0dtTFY5YV90UXpGVzBHVDUzRDNublNaSlludm43QlE3czllNFBVTE1mQUpSVHEydk5rU0M3OUpYWUtkOWhFaVFBbzRxaHBQTnB5Zm1fUzdGbVlfekRsbWJwbm85SnJqV09GdVozTzdFQ3RVNGEtbEtTSndtZTRfZHV6SXpPWHVfS0ZPbXl0cy1LUnU1NlRqUzNkcmI0bmlReS1od18yWUFn?oc=5\" target=\"_blank\">OpenAI\u2019s Cash Burn Could Approach $280 Billion by 2030</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PYMNTS.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI's cash burn is projected to reach roughly $280 billion by 2030, per a widely-circulated news report.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cOpenAI \u7684\u73b0\u91d1\u6d88\u8017\u5230 2030 \u5e74\u53ef\u80fd\u903c\u8fd1 $280 billion\u3002\n\nWhy it matters:\nThis is a forward-looking projection, not a filed number, but it quantifies the scale of the capital OpenAI needs to keep raising to fund compute buildout. If the trajectory holds, it puts a hard ceiling on how long external funding can keep pace before either revenue or investor appetite has to catch up \u2014 a core input to the AI-capex-payback thesis.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e00\u4e2a\u524d\u77bb\u6027\u9884\u6d4b\uff0c\u4e0d\u662f\u5df2\u62ab\u9732\u7684\u8d22\u62a5\u6570\u5b57\uff0c\u4f46\u5b83\u628a OpenAI \u4e3a\u7ef4\u6301\u7b97\u529b\u6269\u5f20\u9700\u8981\u6301\u7eed\u878d\u8d44\u7684\u89c4\u6a21\u91cf\u5316\u4e86\u51fa\u6765\u3002\u5982\u679c\u8fd9\u4e2a\u8f68\u8ff9\u6210\u7acb\uff0c\u5c31\u7ed9\u5916\u90e8\u878d\u8d44\u80fd\u6491\u591a\u4e45\u5212\u4e86\u4e00\u6761\u786c\u4e0a\u9650\u2014\u2014\u8981\u4e48\u8425\u6536\u8ddf\u4e0a\uff0c\u8981\u4e48\u6295\u8d44\u4eba\u7684\u8010\u5fc3\u5148\u5230\u5934\uff0c\u8fd9\u6b63\u662f AI capex \u56de\u672c\u8bba\u8bc1\u7684\u6838\u5fc3\u53d8\u91cf\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
