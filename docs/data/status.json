@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790677922,
-  "generated_at_str": "2026-09-29 10:32:02 UTC",
-  "last_event_ts": 1790676846,
+  "generated_at": 1790678125,
+  "generated_at_str": "2026-09-29 10:35:25 UTC",
+  "last_event_ts": 1790678125,
   "tables": {
     "alerts_dedup": {
-      "count": 4531,
-      "last_ts": 1790676322,
-      "last_str": "2026-09-29 10:05:22 UTC"
+      "count": 4533,
+      "last_ts": 1790678125,
+      "last_str": "2026-09-29 10:35:25 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-09-29 10:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7959,
-      "last_ts": 1790676311,
-      "last_str": "2026-09-29 10:05:11 UTC"
+      "count": 7962,
+      "last_ts": 1790678106,
+      "last_str": "2026-09-29 10:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4671,
-      "last_ts": 1790670904,
-      "last_str": "2026-09-29 08:35:04 UTC"
+      "count": 4672,
+      "last_ts": 1790678104,
+      "last_str": "2026-09-29 10:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6033,
-      "last_ts": 1790674508,
-      "last_str": "2026-09-29 09:35:08 UTC"
+      "count": 6034,
+      "last_ts": 1790678107,
+      "last_str": "2026-09-29 10:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 36442,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4539,
+      "ts": 1790678125,
+      "ts_str": "2026-09-29 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Prices Surge Over Double Next Year - Businesskorea",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 10:18:41 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE10OFZqbFdFTWRVQ1hYeUJRZml6RXpxVEZwMk5aVWhIVzFRTHV6SkpWQ2FZT05HWVI1SjRsc2F2cjd3bjJ1VkNVMm5ybjNLRk0xSkdYQ0hhaExpa1JOTXZ2ZzRCOFhvc0dOSU1uTHpnR0ZVUy1n?oc=5\n\nHBM Prices Surge Over Double Next Year - Businesskorea\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE10OFZqbFdFTWRVQ1hYeUJRZml6RXpxVEZwMk5aVWhIVzFRTHV6SkpWQ2FZT05HWVI1SjRsc2F2cjd3bjJ1VkNVMm5ybjNLRk0xSkdYQ0hhaExpa1JOTXZ2ZzRCOFhvc0dOSU1uTHpnR0ZVUy1n?oc=5\" target=\"_blank\">HBM Prices Surge Over Double Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM prices more than doubling next year, matching C6's memory-term + price-surge token pair.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u62a5\u9053\uff0cHBM \u4ef7\u683c\u660e\u5e74\u5c06\u7ffb\u500d\u4ee5\u4e0a\uff0c\u547d\u4e2d\u4e86 C6 \u7684\u5b58\u50a8\u672f\u8bed\u52a0\u4ef7\u683c\u66b4\u6da8\u8bcd\u7ec4\u5408\u3002\n\nWhy it matters:\nA doubling in HBM pricing signals severe supply tightness for the chips that gate AI accelerator production \u2014 if memory becomes the binding constraint, hyperscaler capex plans get squeezed by input cost and availability, not just demand.\n\n\u5f71\u54cd:\nHBM \u4ef7\u683c\u7ffb\u500d\u8bf4\u660e\u8fd9\u79cd\u5361\u4f4f AI \u52a0\u901f\u5668\u4ea7\u80fd\u7684\u82af\u7247\u4f9b\u7ed9\u4e25\u91cd\u5403\u7d27\u3002\u5982\u679c\u5185\u5b58\u53d8\u6210\u74f6\u9888\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u8ba1\u5212\u4f1a\u88ab\u8f93\u5165\u6210\u672c\u548c\u8d27\u6e90\u6390\u4f4f\uff0c\u4e0d\u53ea\u662f\u9700\u6c42\u7aef\u7684\u95ee\u9898\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4540,
+      "ts": 1790678125,
+      "ts_str": "2026-09-29 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] \"HBM average selling price to rise 121% next year amid supply shortage\" - \ub9e4\uc77c\uacbd\uc81c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 10:02:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5\n\n\"HBM average selling price to rise 121% next year amid supply shortage\" - \ub9e4\uc77c\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5\" target=\"_blank\">\"HBM average selling price to rise 121% next year amid supply shortage\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub9e4\uc77c\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports that HBM average selling price is expected to rise 121% next year due to a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u79f0\uff0c\u56e0\u4f9b\u5e94\u77ed\u7f3a\uff0cHBM \u5e73\u5747\u552e\u4ef7\u9884\u8ba1\u660e\u5e74\u4e0a\u6da8 121%\u3002\n\nWhy it matters:\nHBM is the memory bottleneck for AI accelerators \u2014 a 121% ASP jump signals demand outstripping fab capacity, which raises GPU/server BOM costs and squeezes hyperscaler margins even as it confirms real, not speculative, AI-infrastructure demand.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u7684\u5185\u5b58\u74f6\u9888\uff0cASP \u66b4\u6da8 121% \u8bf4\u660e\u9700\u6c42\u5df2\u7ecf\u8dd1\u8d62\u6676\u5706\u4ea7\u80fd\uff0c\u4f1a\u63a8\u9ad8 GPU/\u670d\u52a1\u5668\u6574\u673a\u6210\u672c\u3001\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5229\u6da6\uff0c\u540c\u65f6\u4e5f\u5370\u8bc1\u4e86 AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u662f\u771f\u5b9e\u7684\uff0c\u4e0d\u662f\u7eaf\u7092\u4f5c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4537,
       "ts": 1790676322,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] It's official: OpenAI files IPO - Mashable",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 19 Sep 2026 22:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\n\nIt's official: OpenAI files IPO - Mashable\n\n<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xWW0yam01REJDdnFOQ1ZCSk01RC1sWExMSkZtZnpNaWdFWVVQVjFQWEZkTXNTTHlFRGh3ci1OSjRmQ0tNblUySzg4SkJ2ak9YaHBWQQ?oc=5\" target=\"_blank\">It's official: OpenAI files IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mashable</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nOpenAI has officially filed for an IPO, per duplicated headline text from a Google News RSS entry.\n\n\u5185\u5bb9:\n\u6839\u636e Google News RSS \u91cc\u91cd\u590d\u51fa\u73b0\u7684\u6807\u9898\u6587\u672c\uff0cOpenAI \u5df2\u6b63\u5f0f\u63d0\u4ea4 IPO \u7533\u8bf7\u3002\n\nWhy it matters:\nAn IPO filing forces public disclosure of OpenAI's financials \u2014 burn rate, revenue, compute costs \u2014 which the C3 thesis depends on; a >25% QoQ burn-rate jump on that filing would escalate this to HIGH. For now it's just confirmation the filing process has started, not new financial data.\n\n\u5f71\u54cd:\nIPO \u7533\u8bf7\u4f1a\u5f3a\u5236\u516c\u5f00\u8d22\u52a1\u6570\u636e\u2014\u2014\u70e7\u94b1\u901f\u5ea6\u3001\u8425\u6536\u3001\u7b97\u529b\u6210\u672c\u2014\u2014\u8fd9\u6b63\u662f C3 \u8bba\u70b9\u4f9d\u8d56\u7684\u4e1c\u897f\uff1b\u5982\u679c\u7533\u62a5\u6587\u4ef6\u91cc\u70e7\u94b1\u901f\u5ea6\u73af\u6bd4\u6da8\u8d85 25%\uff0c\u4f1a\u5347\u7ea7\u4e3a HIGH\u3002\u76ee\u524d\u53ea\u662f\u786e\u8ba4\u7533\u62a5\u6d41\u7a0b\u542f\u52a8\uff0c\u8fd8\u6ca1\u6709\u65b0\u7684\u8d22\u52a1\u6570\u5b57\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4340,
-      "ts": 1789868654,
-      "ts_str": "2026-09-20 01:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Anthropic\u2019s $65 Billion Momentum Meets OpenAI\u2019s New AI Threat Ahead of IPO - NiftyTrader",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 19 Sep 2026 09:50:10 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxPUXR1NVdwSjh3VDJOUjV0NG5WRU1BTXZ2clR1NnNfVmp6VDdOeWtOd0RmSTBBamtQdW9XeGRXN1pVM3hVY3gzX21nSmFZZ2ZVc0JKMHYtV2I4MmtXSlo1QzBoeDBHWERCSlZvVWJENFFYTEl0TTMyVHFUMlVrS09FaERB?oc=5\n\nAnthropic\u2019s $65 Billion Momentum Meets OpenAI\u2019s New AI Threat Ahead of IPO - NiftyTrader\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPUXR1NVdwSjh3VDJOUjV0NG5WRU1BTXZ2clR1NnNfVmp6VDdOeWtOd0RmSTBBamtQdW9XeGRXN1pVM3hVY3gzX21nSmFZZ2ZVc0JKMHYtV2I4MmtXSlo1QzBoeDBHWERCSlZvVWJENFFYTEl0TTMyVHFUMlVrS09FaERB?oc=5\" target=\"_blank\">Anthropic\u2019s $65 Billion Momentum Meets OpenAI\u2019s New AI Threat Ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NiftyTrader</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo outlets report Anthropic hit a $65B valuation/momentum milestone while OpenAI is described as a new threat facing it ahead of an IPO; no ticker, filing, or hard number is attached beyond the $65B figure.\n\n\u5185\u5bb9:\n\u4e24\u5bb6\u5a92\u4f53\u62a5\u9053 Anthropic \u4f30\u503c/\u52bf\u5934\u8fbe\u5230 $65B\uff0c\u540c\u65f6\u628a OpenAI \u63cf\u8ff0\u6210\u5176 IPO \u524d\u9762\u4e34\u7684\u65b0\u5a01\u80c1\uff1b\u9664\u4e86\u8fd9\u4e2a $65B \u6570\u5b57\u5916\uff0c\u6ca1\u6709\u9644\u5e26 ticker \u6216\u5177\u4f53 filing \u6570\u636e\u3002\n\nWhy it matters:\nThis is competitive-dynamics chatter between two frontier labs, not a hyperscaler capex/balance-sheet signal \u2014 it's roughly the kind of headline the C3 tracker treats as MED background noise rather than a load-bearing bubble-stress tell.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4e24\u5bb6\u524d\u6cbf\u5b9e\u9a8c\u5ba4\u4e4b\u95f4\u7684\u7ade\u4e89\u6001\u52bf\u65b0\u95fb\uff0c\u4e0d\u662f\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u6216\u8d44\u4ea7\u8d1f\u503a\u8868\u5c42\u9762\u7684\u4fe1\u53f7\u2014\u2014\u5927\u81f4\u5c5e\u4e8e C3 \u91cc\u5f52\u4e3a MED \u7ea7\u80cc\u666f\u566a\u97f3\u7684\u90a3\u7c7b\u6807\u9898\uff0c\u4e0d\u662f\u6709\u5206\u91cf\u7684\u6ce1\u6cab\u538b\u529b\u6307\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4339,
-      "ts": 1789865234,
-      "ts_str": "2026-09-20 00:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX\u2019s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance - Yahoo Finance UK",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 19 Sep 2026 14:17:01 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVAzYU5nZWlrMnRJNTUweWp6VmN1bzRoZ092azJ5OWR4NXRQUjh6R29YQzJFOENQdklrcW04QjRvQ09GNWVuVGZvYUlQYXZJQlpuWHVWQnN5a3B4ajNHNTM0WFFyNXVpNUo5bXlLUXVtNkxNU2kzRlFOWnlRQW5ZTmFCNC1falNmOTRF?oc=5\n\nSpaceX\u2019s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance - Yahoo Finance UK\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVAzYU5nZWlrMnRJNTUweWp6VmN1bzRoZ092azJ5OWR4NXRQUjh6R29YQzJFOENQdklrcW04QjRvQ09GNWVuVGZvYUlQYXZJQlpuWHVWQnN5a3B4ajNHNTM0WFFyNXVpNUo5bXlLUXVtNkxNU2kzRlFOWnlRQW5ZTmFCNC1falNmOTRF?oc=5\" target=\"_blank\">SpaceX\u2019s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance UK</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's Nasdaq 100 index weight was confirmed at 2.82% in the latest rebalance.\n\n\u5185\u5bb9:\nSpaceX \u5728\u6700\u65b0\u4e00\u6b21\u6307\u6570\u518d\u5e73\u8861\u4e2d\uff0c\u5176\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u6743\u91cd\u88ab\u786e\u8ba4\u4e3a 2.82%\u3002\n\nWhy it matters:\nA larger confirmed index weight means more passive/index-fund buying flows into SpaceX automatically, independent of fundamentals \u2014 this is exactly the mechanical demand channel C11 tracks, and it raises the stakes of any future unlock or lock-up expiry hitting that flow.\n\n\u5f71\u54cd:\n\u786e\u8ba4\u7684\u6307\u6570\u6743\u91cd\u8d8a\u9ad8\uff0c\u88ab\u52a8/\u6307\u6570\u57fa\u91d1\u8d44\u91d1\u5c31\u4f1a\u8d8a\u591a\u5730\u81ea\u52a8\u4e70\u5165 SpaceX\uff0c\u8ddf\u57fa\u672c\u9762\u65e0\u5173\u2014\u2014\u8fd9\u6b63\u662f C11 \u76ef\u7684\u673a\u68b0\u6027\u8d44\u91d1\u6d41\u901a\u9053\uff0c\u4e5f\u610f\u5473\u7740\u672a\u6765\u4efb\u4f55\u89e3\u7981\u4e8b\u4ef6\u5bf9\u8fd9\u6761\u8d44\u91d1\u6d41\u7684\u51b2\u51fb\u4f1a\u66f4\u5927\u3002\n",
       "emailed": false
     }
   ],
