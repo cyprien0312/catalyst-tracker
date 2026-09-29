@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790699523,
-  "generated_at_str": "2026-09-29 16:32:03 UTC",
-  "last_event_ts": 1790698469,
+  "generated_at": 1790699711,
+  "generated_at_str": "2026-09-29 16:35:11 UTC",
+  "last_event_ts": 1790699710,
   "tables": {
     "alerts_dedup": {
-      "count": 4540,
-      "last_ts": 1790698469,
-      "last_str": "2026-09-29 16:14:29 UTC"
+      "count": 4541,
+      "last_ts": 1790699710,
+      "last_str": "2026-09-29 16:35:10 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-09-29 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6571,
-      "last_ts": 1790697903,
-      "last_str": "2026-09-29 16:05:03 UTC"
+      "count": 6575,
+      "last_ts": 1790699707,
+      "last_str": "2026-09-29 16:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7982,
-      "last_ts": 1790697905,
-      "last_str": "2026-09-29 16:05:05 UTC"
+      "count": 7986,
+      "last_ts": 1790699709,
+      "last_str": "2026-09-29 16:35:09 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4683,
-      "last_ts": 1790697903,
-      "last_str": "2026-09-29 16:05:03 UTC"
+      "count": 4684,
+      "last_ts": 1790699708,
+      "last_str": "2026-09-29 16:35:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6045,
-      "last_ts": 1790692507,
-      "last_str": "2026-09-29 14:35:07 UTC"
+      "count": 6047,
+      "last_ts": 1790699710,
+      "last_str": "2026-09-29 16:35:10 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 36566,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4548,
+      "ts": 1790699710,
+      "ts_str": "2026-09-29 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron Heads Into Earnings as JPMorgan Sees HBM Shortage Lasting Through 2028 - Longbridge",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 07:14:18 GMT\nLink:      https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPY3ZwVEFfcFhhenNqWWlocWVtY2ZvMDBsS1RUcUZWc2J4ZUt1eTRDSmlQS2psdUdpanlhNWdYSzlUV1hrMTExakJuamxvN0lIbkE?oc=5\n\nMicron Heads Into Earnings as JPMorgan Sees HBM Shortage Lasting Through 2028 - Longbridge\n\n<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPY3ZwVEFfcFhhenNqWWlocWVtY2ZvMDBsS1RUcUZWc2J4ZUt1eTRDSmlQS2psdUdpanlhNWdYSzlUV1hrMTExakJuamxvN0lIbkE?oc=5\" target=\"_blank\">Micron Heads Into Earnings as JPMorgan Sees HBM Shortage Lasting Through 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Longbridge</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nJPMorgan projects the HBM shortage will persist through 2028, a forecast circulating as Micron heads into earnings.\n\n\u5185\u5bb9:\n\u6469\u6839\u5927\u901a\u9884\u6d4b HBM \u77ed\u7f3a\u5c06\u6301\u7eed\u5230 2028 \u5e74\uff0c\u8fd9\u4e00\u9884\u6d4b\u5728 Micron \u8d22\u62a5\u524d\u6d41\u4f20\u5f00\u6765\u3002\n\nWhy it matters:\nA multi-year shortage call from a major bank signals sustained pricing power for memory suppliers, reinforcing the AI-capex thesis that HBM demand from accelerators is outrunning supply \u2014 the opposite of a bubble-stress signal, but worth tracking as a sentiment extreme.\n\n\u5f71\u54cd:\n\u5927\u884c\u7ed9\u51fa\u8de8\u5e74\u5ea6\u7684\u77ed\u7f3a\u5224\u65ad\uff0c\u610f\u5473\u7740\u5185\u5b58\u5382\u5546\u7684\u5b9a\u4ef7\u6743\u4f1a\u7ef4\u6301\u8f83\u4e45\uff0c\u4e5f\u5f3a\u5316\u4e86 AI \u8d44\u672c\u5f00\u652f\u7684\u903b\u8f91\u2014\u2014\u52a0\u901f\u5361\u5bf9 HBM \u7684\u9700\u6c42\u8dd1\u8d62\u4e86\u4f9b\u7ed9\uff0c\u8fd9\u5176\u5b9e\u662f\u6ce1\u6cab\u538b\u529b\u7684\u53cd\u5411\u4fe1\u53f7\uff0c\u4f46\u60c5\u7eea\u5df2\u7ecf\u504f\u6781\u7aef\uff0c\u503c\u5f97\u7559\u610f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4546,
       "ts": 1790698469,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX stock slips as Nasdaq-100 weight doubles and Morgan Stanley keeps a bullish view - AD HOC NEWS",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 20 Sep 2026 11:13:18 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUVUalQ3UFhLTU9rSU5IWWlod2tqSGxBb2lUeWZzelRhRkFLamo3aWxZX0pYMWI3R1pkbVpmRTJ0d1RKWnRPVG01VTl0U0RLVElqbC1KenVHakduZXdjUk1CSllwN2E1Sm1JUEs0ZVNsUXRTZG9zVnhGN3dXcm1oTVh3OGhiaE5PSy03UVlIdXhxMzZWS0RTLUo3ZXBza182T0thUklLb0Nkalp2TTA5YzBXTVNqQWxjUXRwR1VCbFRlekdGRUY0dklwMk9MR05KSWdV?oc=5\n\nSpaceX stock slips as Nasdaq-100 weight doubles and Morgan Stanley keeps a bullish view - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUVUalQ3UFhLTU9rSU5IWWlod2tqSGxBb2lUeWZzelRhRkFLamo3aWxZX0pYMWI3R1pkbVpmRTJ0d1RKWnRPVG01VTl0U0RLVElqbC1KenVHakduZXdjUk1CSllwN2E1Sm1JUEs0ZVNsUXRTZG9zVnhGN3dXcm1oTVh3OGhiaE5PSy03UVlIdXhxMzZWS0RTLUo3ZXBza182T0thUklLb0Nkalp2TTA5YzBXTVNqQWxjUXRwR1VCbFRlekdGRUY0dklwMk9MR05KSWdV?oc=5\" target=\"_blank\">SpaceX stock slips as Nasdaq-100 weight doubles and Morgan Stanley keeps a bullish view</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's Nasdaq-100 index weight doubled, and shares slipped anyway even as Morgan Stanley kept its bullish rating.\n\n\u5185\u5bb9:\nSpaceX \u5728\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u4e2d\u7684\u6743\u91cd\u7ffb\u500d\uff0c\u5c3d\u7ba1\u6469\u6839\u58eb\u4e39\u5229\u7ef4\u6301\u770b\u591a\u8bc4\u7ea7\uff0c\u80a1\u4ef7\u4ecd\u7136\u4e0b\u6ed1\u3002\n\nWhy it matters:\nA doubled index weight means passive/index funds must buy roughly twice as much SPCX just to track the benchmark \u2014 mechanical flow, not fundamentals. The stock dropping despite that inflow and a bullish sell-side call suggests active selling (likely unlock-related) is outweighing the passive bid, a sign the index-mechanics tailwind is being overwhelmed.\n\n\u5f71\u54cd:\n\u6743\u91cd\u7ffb\u500d\u610f\u5473\u7740\u88ab\u52a8/\u6307\u6570\u57fa\u91d1\u4e3a\u4e86\u8ddf\u8e2a\u57fa\u51c6\uff0c\u8981\u4e70\u5165\u5927\u7ea6\u4e24\u500d\u7684 SPCX \u4ed3\u4f4d\u2014\u2014\u8fd9\u662f\u673a\u68b0\u6027\u4e70\u76d8\uff0c\u8ddf\u57fa\u672c\u9762\u65e0\u5173\u3002\u80a1\u4ef7\u5728\u8fd9\u79cd\u4e70\u76d8\u548c\u5927\u884c\u770b\u591a\u8bc4\u7ea7\u7684\u53cc\u91cd\u52a0\u6301\u4e0b\u4f9d\u7136\u4e0b\u8dcc\uff0c\u8bf4\u660e\u4e3b\u52a8\u629b\u552e\uff08\u5f88\u53ef\u80fd\u4e0e\u89e3\u7981\u6709\u5173\uff09\u538b\u8fc7\u4e86\u88ab\u52a8\u4e70\u76d8\uff0c\u6307\u6570\u673a\u5236\u8fd9\u4e2a\u5229\u597d\u6b63\u5728\u88ab\u538b\u5236\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4348,
-      "ts": 1789901234,
-      "ts_str": "2026-09-20 10:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX\u2019s share in Nasdaq 100 will rise to 2.82% | Passive funds must adjust holdings due to change | Inshorts - Inshorts",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 20 Sep 2026 10:27:16 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxQbUhiMnFaenRjbjltZ1E3ZUlZTDR0RUZUeE5aR2RxTnk0cUEyMDBXUTk2RFFMcXlVSXMwQXNSS05wZEJuQ2JkVXN4eThDaGZFdkxTeWQ4RnZvZHNpY0hfbWlpQkZNX05JeGR6X3MzTXlUOGJxSjlpNlE0RGQwTEZaTElQdThtUXJrRGY0emZLRk1aWlpE0gGaAUFVX3lxTFBvNjdyd2tUZ1lRaVdCeW10S09IaU0xYjJVbjZMV2hRNXh2MjZUVVZub1Y5N2hGUGhfQlFtTlREUnFKcUx2U3BEck9tbnozWExoVGJXMDlVcnVvM2RlN0RDS2hUNGE3NXZKc2lEOTc3YVd4VnEyOXZoa0VmOXZ3SkFOQWM1TEE3TGhYQ3NJZFlPQ1V4N1FxMGhNZEE?oc=5\n\nSpaceX\u2019s share in Nasdaq 100 will rise to 2.82% | Passive funds must adjust holdings due to change | Inshorts - Inshorts\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQbUhiMnFaenRjbjltZ1E3ZUlZTDR0RUZUeE5aR2RxTnk0cUEyMDBXUTk2RFFMcXlVSXMwQXNSS05wZEJuQ2JkVXN4eThDaGZFdkxTeWQ4RnZvZHNpY0hfbWlpQkZNX05JeGR6X3MzTXlUOGJxSjlpNlE0RGQwTEZaTElQdThtUXJrRGY0emZLRk1aWlpE0gGaAUFVX3lxTFBvNjdyd2tUZ1lRaVdCeW10S09IaU0xYjJVbjZMV2hRNXh2MjZUVVZub1Y5N2hGUGhfQlFtTlREUnFKcUx2U3BEck9tbnozWExoVGJXMDlVcnVvM2RlN0RDS2hUNGE3NXZKc2lEOTc3YVd4VnEyOXZoa0VmOXZ3SkFOQWM1TEE3TGhYQ3NJZFlPQ1V4N1FxMGhNZEE?oc=5\" target=\"_blank\">SpaceX\u2019s share in Nasdaq 100 will rise to 2.82% | Passive funds must adjust holdings due to change | Inshorts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inshorts</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's weight in the Nasdaq 100 is set to rise to 2.82%, forcing passive index funds to buy shares to match the new weighting.\n\n\u5185\u5bb9:\nSpaceX \u5728\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u4e2d\u7684\u6743\u91cd\u5c06\u5347\u81f3 2.82%\uff0c\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u5c06\u88ab\u8feb\u6309\u65b0\u6743\u91cd\u4e70\u5165\u80a1\u7968\u3002\n\nWhy it matters:\nThis is the mechanical, non-fundamental demand leg of the C11 thesis: passive funds are structurally forced buyers regardless of valuation once SpaceX enters/expands in the index, which can mask deteriorating fundamentals with pure flow-driven price support.\n\n\u5f71\u54cd:\n\u8fd9\u662f C11 \u903b\u8f91\u91cc\u8ddf\u57fa\u672c\u9762\u65e0\u5173\u3001\u7eaf\u673a\u5236\u6027\u7684\u4e70\u76d8\uff1a\u4e00\u65e6 SpaceX \u8fdb\u5165\u6216\u6269\u5927\u5728\u6307\u6570\u4e2d\u7684\u6743\u91cd\uff0c\u88ab\u52a8\u57fa\u91d1\u5c31\u662f\u7ed3\u6784\u6027\u7684\u5f3a\u5236\u4e70\u5bb6\uff0c\u4e0d\u7ba1\u4f30\u503c\u8d35\u4e0d\u8d35\uff0c\u8fd9\u79cd\u8d44\u91d1\u6d41\u53ef\u80fd\u63a9\u76d6\u57fa\u672c\u9762\u7684\u6076\u5316\u3002\n",
       "emailed": false
     }
   ],
