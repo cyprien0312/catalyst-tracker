@@ -1,7 +1,7 @@
 {
-  "generated_at": 1790723462,
-  "generated_at_str": "2026-09-29 23:11:02 UTC",
-  "last_event_ts": 1790723104,
+  "generated_at": 1790723646,
+  "generated_at_str": "2026-09-29 23:14:06 UTC",
+  "last_event_ts": 1790723644,
   "tables": {
     "alerts_dedup": {
       "count": 4553,
@@ -69,9 +69,9 @@
       "last_str": "2026-09-29 23:00:32 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 6142,
-      "last_ts": 1790721845,
-      "last_str": "2026-09-29 22:44:05 UTC"
+      "count": 6144,
+      "last_ts": 1790723644,
+      "last_str": "2026-09-29 23:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1464,
@@ -99,9 +99,9 @@
       "last_str": "2026-09-29 22:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 36758,
-      "last_ts": 1790721843,
-      "last_str": "2026-09-29 22:44:03 UTC"
+      "count": 36766,
+      "last_ts": 1790723643,
+      "last_str": "2026-09-29 23:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 10989,
@@ -2364,5 +2364,55 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 30276.81,
+      "date": "2026-09-28",
+      "ath": 30732.4,
+      "ath_date": "2026-09-22",
+      "drawdown": -0.014824419830537172
+    },
+    "spx": null,
+    "regime": "A",
+    "fuses": [],
+    "rungs": [
+      {
+        "thresh": 0.0,
+        "pct": 10,
+        "label": "starter \u00b7 FOMO insurance",
+        "level": 30732.4,
+        "triggered": true
+      },
+      {
+        "thresh": -0.1,
+        "pct": 10,
+        "label": "dip 1",
+        "level": 27659.160000000003,
+        "triggered": false
+      },
+      {
+        "thresh": -0.15,
+        "pct": 15,
+        "label": "dip 2",
+        "level": 26122.54,
+        "triggered": false
+      },
+      {
+        "thresh": -0.2,
+        "pct": 25,
+        "label": "dip 3",
+        "level": 24585.920000000002,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 10,
+    "reserve": 40,
+    "next_rung": {
+      "thresh": -0.1,
+      "pct": 10,
+      "label": "dip 1",
+      "level": 27659.160000000003
+    },
+    "needs_stabilisation": false
+  }
 }
