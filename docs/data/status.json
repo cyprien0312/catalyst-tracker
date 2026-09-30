@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790811123,
-  "generated_at_str": "2026-09-30 23:32:03 UTC",
-  "last_event_ts": 1790810057,
+  "generated_at": 1790811317,
+  "generated_at_str": "2026-09-30 23:35:17 UTC",
+  "last_event_ts": 1790811317,
   "tables": {
     "alerts_dedup": {
-      "count": 4589,
-      "last_ts": 1790810057,
-      "last_str": "2026-09-30 23:14:17 UTC"
+      "count": 4590,
+      "last_ts": 1790811317,
+      "last_str": "2026-09-30 23:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-09-30 21:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6656,
-      "last_ts": 1790807702,
-      "last_str": "2026-09-30 22:35:02 UTC"
+      "count": 6657,
+      "last_ts": 1790811303,
+      "last_str": "2026-09-30 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8072,
-      "last_ts": 1790809504,
-      "last_str": "2026-09-30 23:05:04 UTC"
+      "count": 8076,
+      "last_ts": 1790811305,
+      "last_str": "2026-09-30 23:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4732,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4597,
+      "ts": 1790811317,
+      "ts_str": "2026-09-30 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 23:08:39 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxNVjd3YXI2cmp5OFV2N2hWREt3RWoxTE5mY0R2WXNMbWxmc01qY21aRU95ZkJrdFJaWDhGanV5Y1N5c2NkYnM1aHduODdwWVhKbkRvTzh1VzFXVGxhNnRMdHY1NzlzYUhxaUFXNGkxNGhKS19hOXdBZmt4M1VxTndVQXlmdWx6YXR1bjlIMmxFOTF3Q0Jic2NZXy1FbXFNQQ?oc=5\n\nHBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNVjd3YXI2cmp5OFV2N2hWREt3RWoxTE5mY0R2WXNMbWxmc01qY21aRU95ZkJrdFJaWDhGanV5Y1N5c2NkYnM1aHduODdwWVhKbkRvTzh1VzFXVGxhNnRMdHY1NzlzYUhxaUFXNGkxNGhKS19hOXdBZmt4M1VxTndVQXlmdWx6YXR1bjlIMmxFOTF3Q0Jic2NZXy1FbXFNQQ?oc=5\" target=\"_blank\">HBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce forecasts HBM prices will more than double in 2027, citing a supply crunch.\n\n\u5185\u5bb9:\nTrendForce \u9884\u6d4b HBM \u4ef7\u683c\u5728 2027 \u5e74\u5c06\u56e0\u4f9b\u5e94\u7d27\u7f3a\u800c\u7ffb\u500d\u4ee5\u4e0a\u3002\n\nWhy it matters:\nA memory-price spike this severe confirms the AI buildout is bottlenecked on HBM capacity, not demand \u2014 it directly raises the bill-of-materials cost for every accelerator card (Nvidia/AMD) and squeezes margins downstream. It's also a sign memory makers are under-investing relative to AI compute growth, which can cascade into further capex and pricing surprises across the supply chain.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u7ea7\u522b\u7684\u5b58\u50a8\u82af\u7247\u6da8\u4ef7\u8bf4\u660e AI \u7b97\u529b\u6269\u5f20\u5361\u5728 HBM \u4ea7\u80fd\u4e0a\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u4e0d\u8db3\u2014\u2014\u76f4\u63a5\u63a8\u9ad8\u6bcf\u5f20 AI \u52a0\u901f\u5361\uff08Nvidia/AMD\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u4e0b\u6e38\u5229\u6da6\u3002\u4e5f\u53cd\u6620\u5185\u5b58\u5382\u5546\u7684\u4ea7\u80fd\u6295\u5165\u8ddf\u4e0d\u4e0a AI \u7b97\u529b\u589e\u901f\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u5f15\u53d1\u6574\u6761\u4f9b\u5e94\u94fe\u7684 capex \u548c\u5b9a\u4ef7\u8fde\u9501\u53cd\u5e94\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4596,
       "ts": 1790810057,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] As SPCX Gains Nasdaq-100 Weight, Which Holdings May Funds Need to Trim? - Moomoo",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 12:34:49 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEtyc2xGVm44TVlSVEJ5Q2RGMmVxUDNzNUh0RU9sb1BlMEI3SDFkcnBlNTZXRVNKZXFwaENxY19SdUUzeDZHa1FMNjlIVE4tNnB5TVZPUzVmS1l5Z1ZpdzRTN1lVVkNwSXgyVnZ0ajViXzRQbVl2OVlKdFpGSndCWWZ0RjhFNW5LcG5nMzQ0ZFpBMkRyekphNmtyTFBoeUUxbFpVWFlJeE95dGdHMjMw?oc=5\n\nAs SPCX Gains Nasdaq-100 Weight, Which Holdings May Funds Need to Trim? - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVEtyc2xGVm44TVlSVEJ5Q2RGMmVxUDNzNUh0RU9sb1BlMEI3SDFkcnBlNTZXRVNKZXFwaENxY19SdUUzeDZHa1FMNjlIVE4tNnB5TVZPUzVmS1l5Z1ZpdzRTN1lVVkNwSXgyVnZ0ajViXzRQbVl2OVlKdFpGSndCWWZ0RjhFNW5LcG5nMzQ0ZFpBMkRyekphNmtyTFBoeUUxbFpVWFlJeE95dGdHMjMw?oc=5\" target=\"_blank\">As SPCX Gains Nasdaq-100 Weight, Which Holdings May Funds Need to Trim?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX's weight in the Nasdaq-100 is rising, which forces index-tracking funds to trim other holdings to make room.\n\n\u5185\u5bb9:\nSPCX \u5728\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u4e2d\u7684\u6743\u91cd\u4e0a\u5347\uff0c\u5bfc\u81f4\u8ddf\u8e2a\u8be5\u6307\u6570\u7684\u57fa\u91d1\u88ab\u8feb\u51cf\u6301\u5176\u4ed6\u6301\u4ed3\u817e\u51fa\u7a7a\u95f4\u3002\n\nWhy it matters:\nThis is passive-flow mechanics, not a fundamental signal \u2014 as SPCX's market cap grows post-IPO, its index weight grows too, and NDX-tracking funds must sell other constituents to stay in line. It's a forced-selling pressure point unrelated to any company's actual performance, worth watching as a source of unrelated volatility.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u88ab\u52a8\u8d44\u91d1\u7684\u673a\u5236\u6027\u8c03\u4ed3\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u2014\u2014SPCX \u4e0a\u5e02\u540e\u5e02\u503c\u589e\u957f\uff0c\u5176\u6307\u6570\u6743\u91cd\u968f\u4e4b\u4e0a\u5347\uff0c\u8ddf\u8e2a NDX \u7684\u57fa\u91d1\u5fc5\u987b\u5356\u51fa\u5176\u4ed6\u6210\u5206\u80a1\u6765\u7ef4\u6301\u914d\u6bd4\u3002\u8fd9\u662f\u4e00\u4e2a\u548c\u4efb\u4f55\u516c\u53f8\u5b9e\u9645\u8868\u73b0\u65e0\u5173\u7684\u88ab\u52a8\u629b\u538b\u70b9\uff0c\u503c\u5f97\u7559\u610f\u5b83\u5e26\u6765\u7684\u989d\u5916\u6ce2\u52a8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4398,
-      "ts": 1789998461,
-      "ts_str": "2026-09-21 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Why SpaceX Stock Could Get a Big Boost From Nasdaq 100 Rebalancing Today - Barron's",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 08:50:00 GMT\nLink:      https://news.google.com/rss/articles/CBMimAJBVV95cUxQcTdneS1mbGpUSEc0OElJYUFTZzNwaFpwTXU4VTJPcVk0ZVEzcUxCa0RzNGQyYkhIZkJpSk5UcXJKZHVyZTAtZVdfQzdzTVJXblJqdm5lTEJna3ZzYVZsamNJb0VEd3F5dWp1REFHUHMtcWJqOTFsNkhTSDMyTl9NeldxcjhxckUzejZIRER6WVhfS1RDSWxqcFFLZGYtSTQyWGNCek9Fb21BTEdHNDZQVG9Ea0ViZnpib1VtSFJHRU44Wi1JaHhWMzFqQy0zdkxyVHU2VXRTTVlBRnZpMDdiendPdlpQTWJyNk1kSVJLNDlVeFAtRzZLY1RFTHUyc295SWFMU3Y2V0JxbWdURlZtNVI1UnpJbmZ0?oc=5\n\nWhy SpaceX Stock Could Get a Big Boost From Nasdaq 100 Rebalancing Today - Barron's\n\n<a href=\"https://news.google.com/rss/articles/CBMimAJBVV95cUxQcTdneS1mbGpUSEc0OElJYUFTZzNwaFpwTXU4VTJPcVk0ZVEzcUxCa0RzNGQyYkhIZkJpSk5UcXJKZHVyZTAtZVdfQzdzTVJXblJqdm5lTEJna3ZzYVZsamNJb0VEd3F5dWp1REFHUHMtcWJqOTFsNkhTSDMyTl9NeldxcjhxckUzejZIRER6WVhfS1RDSWxqcFFLZGYtSTQyWGNCek9Fb21BTEdHNDZQVG9Ea0ViZnpib1VtSFJHRU44Wi1JaHhWMzFqQy0zdkxyVHU2VXRTTVlBRnZpMDdiendPdlpQTWJyNk1kSVJLNDlVeFAtRzZLY1RFTHUyc295SWFMU3Y2V0JxbWdURlZtNVI1UnpJbmZ0?oc=5\" target=\"_blank\">Why SpaceX Stock Could Get a Big Boost From Nasdaq 100 Rebalancing Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX's stock is expected to see a boost from today's Nasdaq 100 index rebalancing.\n\n\u5185\u5bb9:\n\u62a5\u9053\u79f0\uff0cSpaceX \u80a1\u7968\u9884\u8ba1\u4f1a\u56e0\u4eca\u5929\u7684\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u518d\u5e73\u8861\u83b7\u5f97\u63d0\u632f\u3002\n\nWhy it matters:\nPassive inflows from index rebalancing can lift a name's valuation independent of fundamentals \u2014 for a private company like SpaceX with no public listing, this framing signals index-mechanics speculation ahead of any confirmed IPO or public float, which is exactly the kind of flow-driven narrative the C11 signal tracks.\n\n\u5f71\u54cd:\n\u6307\u6570\u518d\u5e73\u8861\u5e26\u6765\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u53ef\u4ee5\u5728\u57fa\u672c\u9762\u4e4b\u5916\u5355\u72ec\u63a8\u9ad8\u4f30\u503c\u3002SpaceX \u76ee\u524d\u5e76\u672a\u516c\u5f00\u4e0a\u5e02\uff0c\u8fd9\u79cd\u8bf4\u6cd5\u672c\u8d28\u4e0a\u662f\u5728\u7092\u4f5c\u6307\u6570\u673a\u5236\u5c42\u9762\u7684\u9884\u671f\uff0c\u800c\u4e0d\u662f\u786e\u8ba4\u7684 IPO \u6216\u516c\u5f00\u6d41\u901a\u80a1\u4fe1\u606f\u2014\u2014\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u8981\u76ef\u9632\u7684\u90a3\u79cd\u8d44\u91d1\u6d41\u53d9\u4e8b\u3002\n",
       "emailed": false
     }
   ],
