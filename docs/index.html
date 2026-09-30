@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-09-30 22:26:23 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-09-30 22:29:24 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,63 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4593" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.91% ≥ 2.50%</span>
+    <span class="meta">2026-09-30 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-29
+Current:  2.91%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year real (TIPS) yield rose to 2.91pp, crossing the 2.5pp stress level defined for C10 — pushing above its trailing-90-day low by more than the configured trigger threshold.
+
+内容:
+10 年期实际利率（TIPS）升至 2.91pp，突破 C10 设定的 2.5pp 压力位——超出其过去 90 天低点的幅度已达到触发阈值。
+
+Why it matters:
+A rising real yield raises the discount rate applied to long-duration AI-capex cash flows and increases the opportunity cost of holding speculative growth assets over risk-free debt. Combined with the broad-USD index sitting at 120.33, tightening dollar liquidity compounds funding-cost pressure on leveraged AI infrastructure buildouts.
+
+影响:
+实际利率上升，会提高对 AI capex 这类长久期现金流的折现率，也拉高了持有投机性成长资产相对无风险国债的机会成本。叠加广义美元指数处于 120.33 的高位，流动性收紧会进一步加大高杠杆 AI 基建项目的融资成本压力。
+</pre>
+  <button class="mark-read" type="button" data-id="4593">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="4592" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield rising: 2.91% (+85bp off 90d-low)</span>
+    <span class="meta">2026-09-30 22:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-09-29
+Current:  2.91%
+90d low:  2.06%
+Move:     +85bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year TIPS real yield jumped to 2.91pp on 2026-09-29, up 0.85pp from its trailing-90-day low of 2.06pp.
+
+内容:
+10 年期 TIPS 实际收益率在 2026-09-29 升至 2.91pp，较过去 90 天低点 2.06pp 上升 0.85pp。
+
+Why it matters:
+Rising real yields raise the discount rate on long-duration AI-capex bets and make debt-funded data-center buildouts costlier to service. Combined with C10&#39;s broad-USD leg, this is the liquidity-tightening side of the bubble-stress thesis, not a demand signal.
+
+影响:
+实际收益率上升会抬高长久期 AI capex 投资的折现率，也让靠举债建数据中心的成本变贵。配合 C10 里美元指数那条腿看，这是流动性收紧的信号，不是需求端的事。
+</pre>
+  <button class="mark-read" type="button" data-id="4592">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4591" data-catalyst="C8" data-severity="MED">
   <summary>
@@ -5966,84 +6023,20 @@ The compute spend outpacing revenue growth by this margin means OpenAI&#39;s cap
   <button class="mark-read" type="button" data-id="4394">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4395" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] Anthropic Pushes IPO Past Midterms as OpenAI&#39;s Astra Gains - GuruFocus</span>
-    <span class="meta">2026-09-21 12:14 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Mon, 21 Sep 2026 11:58:21 GMT
-Link:      https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXN6ZkxOUkEtd1hldkQtcFNEUWtEUFRMbzdNVmdrWVlCLWV4eGMwekhKOFB4dzBYWnowUEJRM2tZcnN5aVktODdmenBWaWkyMWJ2bWNQSHJqUTd5RFBjeWZXMHEzRUlueVpsUWJNRms0UF9ZMjluelhIdFR4VDMwZ29xczB3cTZwdk1wU1VQVnRCQzNncXR2eUVoY2E?oc=5
-
-Anthropic Pushes IPO Past Midterms as OpenAI&#39;s Astra Gains - GuruFocus
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXN6ZkxOUkEtd1hldkQtcFNEUWtEUFRMbzdNVmdrWVlCLWV4eGMwekhKOFB4dzBYWnowUEJRM2tZcnN5aVktODdmenBWaWkyMWJ2bWNQSHJqUTd5RFBjeWZXMHEzRUlueVpsUWJNRms0UF9ZMjluelhIdFR4VDMwZ29xczB3cTZwdk1wU1VQVnRCQzNncXR2eUVoY2E?oc=5&#34; target=&#34;_blank&#34;&gt;Anthropic Pushes IPO Past Midterms as OpenAI&#39;s Astra Gains&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;GuruFocus&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-Reuters/press coverage frames Anthropic as delaying its IPO past the U.S. midterm elections while OpenAI&#39;s &#39;Astra&#39; initiative gains traction — this is C3-tagged speculation, not a filing or hard data point.
-
-内容:
-路透社等媒体报道称 Anthropic 把 IPO 推迟到美国中期选举之后，同时 OpenAI 的 &#39;Astra&#39; 项目势头上升——这是打了 C3 标签的市场传闻，不是 filing 或硬数据。
-
-Why it matters:
-It&#39;s IPO-timing chatter, not a burn-rate or funding-distress signal, so it doesn&#39;t meet the C3 HIGH bar (&gt;25% QoQ burn increase). Relevant mainly as a sentiment marker: competitive framing between Anthropic and OpenAI feeds the narrative that the frontier-lab funding race is intensifying, which matters for how much capital keeps flowing into AI infra regardless of near-term revenue.
-
-影响:
-这只是 IPO 时间点的猜测，不是烧钱速度或融资困境信号，够不到 C3 HIGH 的门槛（环比烧钱增速超 25%）。它的意义主要是情绪面的：Anthropic 和 OpenAI 之间的竞争叙事说明前沿实验室的融资竞赛在升温，这关系到不管短期营收如何，资金会不会继续往 AI 基建里砸。
-</pre>
-  <button class="mark-read" type="button" data-id="4395">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4391" data-catalyst="C11" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C11</code>
-    <span class="subj">[C11-MED] Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold</span>
-    <span class="meta">2026-09-21 11:47 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Mon, 21 Sep 2026 10:58:32 GMT
-Link:      https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5
-
-Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5&#34; target=&#34;_blank&#34;&gt;Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Finbold&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-The two RSS entries both cite Wall Street analysts issuing a 12-month price target on SpaceX (SPCX) stock.
-
-内容:
-两条 RSS 条目都是华尔街分析师给 SpaceX（SPCX）股票设定 12 个月目标价，属于常规报道。
-
-Why it matters:
-This is routine sell-side coverage, not an index-mechanics or unlock event — it shouldn&#39;t be weighted as a bubble-stress signal on its own; check whether the proximity classifier is picking up generic ticker chatter rather than an actual flow/unlock trigger.
-
-影响:
-这只是常规卖方覆盖，不是指数机制或解禁事件本身，单独看不该算作 bubble-stress 信号；要检查一下是不是 proximity 分类器把泛泛的 ticker 提及当成了真正的资金流/解禁触发。
-</pre>
-  <button class="mark-read" type="button" data-id="4391">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4584</td>
-<td>2026-09-30 21:17:10 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4586</td>
+<td>2026-09-30 22:29:23 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>82</td>
-<td>2026-09-29 22:29:19 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>84</td>
+<td>2026-09-30 22:29:11 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
