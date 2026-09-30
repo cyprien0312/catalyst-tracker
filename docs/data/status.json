@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790802845,
-  "generated_at_str": "2026-09-30 21:14:05 UTC",
-  "last_event_ts": 1790802844,
+  "generated_at": 1790803031,
+  "generated_at_str": "2026-09-30 21:17:11 UTC",
+  "last_event_ts": 1790803030,
   "tables": {
     "alerts_dedup": {
-      "count": 4583,
-      "last_ts": 1790802318,
-      "last_str": "2026-09-30 21:05:18 UTC"
+      "count": 4584,
+      "last_ts": 1790803030,
+      "last_str": "2026-09-30 21:17:10 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -59,9 +59,9 @@
       "last_str": "2026-08-15 17:56:11 UTC"
     },
     "c8_signals": {
-      "count": 11,
-      "last_ts": 1789161421,
-      "last_str": "2026-09-11 21:17:01 UTC"
+      "count": 12,
+      "last_ts": 1790803022,
+      "last_str": "2026-09-30 21:17:02 UTC"
     },
     "focus_history": {
       "count": 85,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4591,
+      "ts": 1790803030,
+      "ts_str": "2026-09-30 21:17 UTC",
+      "catalyst": "C8",
+      "severity": "MED",
+      "subject": "[C8-MED] Core PCE YoY 3.0% (\u2265 3.0%) \u2014 Fed cuts blocked",
+      "body": "Metric:   Core PCE YoY\nMonth:    2026-08-01\nYoY:      3.01%\nThreshold: 3.0%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCore PCE inflation came in at 3.01% YoY for August 2026, just above the 3.0% threshold.\n\n\u5185\u5bb9:\n2026\u5e748\u6708\u6838\u5fc3PCE\u540c\u6bd4\u8bfb\u6570\u4e3a3.01%\uff0c\u521a\u597d\u8e29\u8fc73.0%\u7684\u95e8\u69db\u7ebf\u3002\n\nWhy it matters:\nCore PCE is the Fed's preferred inflation gauge, and a print above 3% keeps rate cuts off the table \u2014 that matters for AI capex because the whole build-out is financed on cheap credit assumptions. A hawkish Fed tightens the discount rate on every neocloud's debt-funded GPU spend.\n\n\u5f71\u54cd:\n\u6838\u5fc3PCE\u662f\u7f8e\u8054\u50a8\u6700\u770b\u91cd\u7684\u901a\u80c0\u6307\u6807\uff0c\u8bfb\u6570\u78343%\u610f\u5473\u7740\u964d\u606f\u57fa\u672c\u6ca1\u620f\u2014\u2014\u8fd9\u5bf9AI capex\u5f88\u5173\u952e\uff0c\u56e0\u4e3a\u6574\u4e2a\u5efa\u8bbe\u70ed\u6f6e\u90fd\u5efa\u7acb\u5728\u4f4e\u878d\u8d44\u6210\u672c\u7684\u5047\u8bbe\u4e0a\u3002\u7f8e\u8054\u50a8\u8f6c\u9e70\u4f1a\u76f4\u63a5\u63a8\u9ad8\u5404\u5bb6neocloud\u4e3e\u503a\u4e70GPU\u7684\u6298\u73b0\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4590,
       "ts": 1790802318,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 10:58:32 GMT\nLink:      https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5\n\nWall Street analyst sets SpaceX (SPCX) stock price target for 12 months - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOdExpcUFDdnNqYVN1clVfWmo0dmF5NnFhbWY4SVhjTDlfSDNEanZ6QVAzQ1FMak5HYmdRS1BpcWNVWG5oU1N2NjBKVEVEMkQ1SVdWOGpMejA2ZC1Rd0hsNUZNNklpZkQwWTM5VjZwOVNQUVRjVnAzblZZRG84RG4yUC1LWkxBcGgtOG04N3FmZ1dPSnZP?oc=5\" target=\"_blank\">Wall Street analyst sets SpaceX (SPCX) stock price target for 12 months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe two RSS entries both cite Wall Street analysts issuing a 12-month price target on SpaceX (SPCX) stock.\n\n\u5185\u5bb9:\n\u4e24\u6761 RSS \u6761\u76ee\u90fd\u662f\u534e\u5c14\u8857\u5206\u6790\u5e08\u7ed9 SpaceX\uff08SPCX\uff09\u80a1\u7968\u8bbe\u5b9a 12 \u4e2a\u6708\u76ee\u6807\u4ef7\uff0c\u5c5e\u4e8e\u5e38\u89c4\u62a5\u9053\u3002\n\nWhy it matters:\nThis is routine sell-side coverage, not an index-mechanics or unlock event \u2014 it shouldn't be weighted as a bubble-stress signal on its own; check whether the proximity classifier is picking up generic ticker chatter rather than an actual flow/unlock trigger.\n\n\u5f71\u54cd:\n\u8fd9\u53ea\u662f\u5e38\u89c4\u5356\u65b9\u8986\u76d6\uff0c\u4e0d\u662f\u6307\u6570\u673a\u5236\u6216\u89e3\u7981\u4e8b\u4ef6\u672c\u8eab\uff0c\u5355\u72ec\u770b\u4e0d\u8be5\u7b97\u4f5c bubble-stress \u4fe1\u53f7\uff1b\u8981\u68c0\u67e5\u4e00\u4e0b\u662f\u4e0d\u662f proximity \u5206\u7c7b\u5668\u628a\u6cdb\u6cdb\u7684 ticker \u63d0\u53ca\u5f53\u6210\u4e86\u771f\u6b63\u7684\u8d44\u91d1\u6d41/\u89e3\u7981\u89e6\u53d1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4392,
-      "ts": 1789991245,
-      "ts_str": "2026-09-21 11:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles - AD HOC NEWS",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 11:27:37 GMT\nLink:      https://news.google.com/rss/articles/CBMizwFBVV95cUxPaUFqYm41U0pCcHRUWVBzVU5kbUpzSEFYNXBlZWFHT2tVYzNMUFRxUVVPNGJvSl8wV253eEd2VTBRZHkyZ2tQTFFCUFFBNEFzWG1iYU84ZEZ0XzM1RThUVnJiQTR2c0R0b3JURnFiUkw1c2ZmNDNTdXp4STJJRUpERXItOEw1NEkyV05ST2ZuSV9GSjU5YnNaWUxpQVVxNExLWWtMY2ZtM2tMQ3BFSzQzUVVBOWNqelZ3QjJVVEtyTVByaExrSFBfSGFUQ0E2UlU?oc=5\n\nSpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPaUFqYm41U0pCcHRUWVBzVU5kbUpzSEFYNXBlZWFHT2tVYzNMUFRxUVVPNGJvSl8wV253eEd2VTBRZHkyZ2tQTFFCUFFBNEFzWG1iYU84ZEZ0XzM1RThUVnJiQTR2c0R0b3JURnFiUkw1c2ZmNDNTdXp4STJJRUpERXItOEw1NEkyV05ST2ZuSV9GSjU5YnNaWUxpQVVxNExLWWtMY2ZtM2tMQ3BFSzQzUVVBOWNqelZ3QjJVVEtyTVByaExrSFBfSGFUQ0E2UlU?oc=5\" target=\"_blank\">SpaceX stock gains index weight as Nasdaq 100 allocation nearly doubles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports SpaceX's Nasdaq-100 index weight nearly doubling, meaning passive funds tracking the index now must hold roughly twice as much SpaceX stock.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053 SpaceX \u5728\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u4e2d\u7684\u6743\u91cd\u51e0\u4e4e\u7ffb\u500d\uff0c\u610f\u5473\u7740\u8ddf\u8e2a\u8be5\u6307\u6570\u7684\u88ab\u52a8\u57fa\u91d1\u73b0\u5728\u9700\u8981\u6301\u6709\u5927\u7ea6\u4e24\u500d\u7684 SpaceX \u80a1\u7968\u3002\n\nWhy it matters:\nPassive index flows are mechanical, not valuation-driven \u2014 a doubled weight forces incremental buying from every NDX-tracking ETF regardless of price, which is exactly the index-mechanics amplification the C11 signal watches for around SpaceX's IPO/lock-up unlock.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6d41\u662f\u673a\u68b0\u6027\u7684\uff0c\u4e0d\u770b\u4f30\u503c\u2014\u2014\u6743\u91cd\u7ffb\u500d\u4f1a\u8ba9\u6240\u6709\u8ddf\u8e2a NDX \u7684 ETF \u88ab\u8feb\u589e\u6301\uff0c\u4e0d\u7ba1\u4ef7\u683c\u9ad8\u4f4e\u3002\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u76ef\u7684\u90a3\u79cd\u6307\u6570\u673a\u5236\u653e\u5927\u6548\u5e94\uff0c\u5c24\u5176\u662f\u5728 SpaceX IPO/\u89e3\u7981\u7a97\u53e3\u9644\u8fd1\u3002\n",
       "emailed": false
     }
   ],
