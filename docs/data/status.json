@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790808605,
-  "generated_at_str": "2026-09-30 22:50:05 UTC",
-  "last_event_ts": 1790808422,
+  "generated_at": 1790808991,
+  "generated_at_str": "2026-09-30 22:56:31 UTC",
+  "last_event_ts": 1790808990,
   "tables": {
     "alerts_dedup": {
-      "count": 4587,
-      "last_ts": 1790808256,
-      "last_str": "2026-09-30 22:44:16 UTC"
+      "count": 4588,
+      "last_ts": 1790808990,
+      "last_str": "2026-09-30 22:56:30 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -54,9 +54,9 @@
       "last_str": "2026-05-11 16:19:02 UTC"
     },
     "c5_signals": {
-      "count": 2,
-      "last_ts": 1786816571,
-      "last_str": "2026-08-15 17:56:11 UTC"
+      "count": 3,
+      "last_ts": 1790808971,
+      "last_str": "2026-09-30 22:56:11 UTC"
     },
     "c8_signals": {
       "count": 12,
@@ -178,9 +178,9 @@
     {
       "iso": "PJM",
       "snapshot_date": "2026-10-01",
-      "total_mw": 643284.5534999999,
+      "total_mw": 643278.6335,
       "count": 9263,
-      "withdrawn_count": 6917
+      "withdrawn_count": 6992
     },
     {
       "iso": "CAISO",
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4595,
+      "ts": 1790808990,
+      "ts_str": "2026-09-30 22:56 UTC",
+      "catalyst": "C5",
+      "severity": "HIGH",
+      "subject": "[C5-HIGH] PJM: 75 new withdrawals vs 2026-09-30",
+      "body": "Withdrawn count 6992 (was 6917).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPJM's interconnection queue withdrawals rose from 6,917 to 6,992 MW between 2026-09-30 and 2026-10-01 \u2014 75 new withdrawals in one day, clearing the \u22655-new-\u2265100MW-withdrawals threshold.\n\n\u5185\u5bb9:\nPJM \u7684\u5e76\u7f51\u6392\u961f\u64a4\u56de\u91cf\u4ece 2026-09-30 \u7684 6,917MW \u6da8\u5230 10-01 \u7684 6,992MW\uff0c\u4e00\u5929\u5185\u65b0\u589e 75 \u7b14\u64a4\u56de\uff0c\u8d85\u8fc7\u300c\u22655 \u7b14\u65b0\u589e \u2265100MW \u64a4\u56de\u300d\u7684\u89e6\u53d1\u9608\u503c\u3002\n\nWhy it matters:\nWithdrawals mean project developers are pulling generation/load requests out of the queue \u2014 a proxy for grid capacity getting rationed or projects going uneconomic. A spike this size points to PJM bottlenecking exactly where AI datacenter load is trying to interconnect, which is the grid-constraint leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u64a4\u56de\u610f\u5473\u7740\u5f00\u53d1\u5546\u4e3b\u52a8\u628a\u53d1\u7535/\u7528\u7535\u7533\u8bf7\u4ece\u6392\u961f\u4e2d\u64a4\u8d70\u2014\u2014\u8981\u4e48\u7535\u7f51\u5bb9\u91cf\u88ab\u914d\u7ed9\u5361\u4f4f\uff0c\u8981\u4e48\u9879\u76ee\u5df2\u7ecf\u4e0d\u5212\u7b97\u3002\u5355\u65e5\u64a4\u56de\u8fd9\u4e2a\u91cf\u7ea7\uff0c\u8bf4\u660e PJM \u7684\u74f6\u9888\u6b63\u597d\u5361\u5728 AI \u6570\u636e\u4e2d\u5fc3\u62a2\u5e76\u7f51\u7684\u8282\u70b9\u4e0a\uff0c\u662f\u8fd9\u5957\u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u7535\u7f51\u5236\u7ea6\u8fd9\u4e00\u6761\u817f\u7684\u8bc1\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4594,
       "ts": 1790808256,
@@ -2306,16 +2316,6 @@
       "subject": "[C11-HIGH] SpaceX Stock Faces Key Test as October 9 Share Unlock Nears - kobaran.com",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 13:08:16 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxOOE9hNTVkT1JycGZNb3YteFAxSWdibG1BSEd2SHZUWW5SVEhxY3pXZElhOWItREhUaDdEdDN6d05vVmZoREl0QnBDOXZ5T1RDQVZQZkZvRnJzRHRnTEs2OXFfb0swVjBGU3ZHdndILXJnVVd1VjhKT1cydFRCWFoxc2VRVTMyd2JJTUJWcg?oc=5\n\nSpaceX Stock Faces Key Test as October 9 Share Unlock Nears - kobaran.com\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOOE9hNTVkT1JycGZNb3YteFAxSWdibG1BSEd2SHZUWW5SVEhxY3pXZElhOWItREhUaDdEdDN6d05vVmZoREl0QnBDOXZ5T1RDQVZQZkZvRnJzRHRnTEs2OXFfb0swVjBGU3ZHdndILXJnVVd1VjhKT1cydFRCWFoxc2VRVTMyd2JJTUJWcg?oc=5\" target=\"_blank\">SpaceX Stock Faces Key Test as October 9 Share Unlock Nears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">kobaran.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX news coverage is flagging October 9 as a key date ahead of a scheduled share unlock.\n\n\u5185\u5bb9:\n\u591a\u7bc7\u65b0\u95fb\u62a5\u9053\u6307\u51fa\uff0c10 \u6708 9 \u65e5\u4e34\u8fd1 SpaceX \u4e00\u6b21\u8ba1\u5212\u4e2d\u7684\u80a1\u4efd\u89e3\u7981\uff0c\u88ab\u89c6\u4e3a\u5173\u952e\u8003\u9a8c\u8282\u70b9\u3002\n\nWhy it matters:\nA large unlock event increases the float of shares eligible for sale, raising the risk of price pressure or forced-selling dynamics around passive-flow mechanics \u2014 relevant to the index-mechanics stress thesis this catalyst tracks.\n\n\u5f71\u54cd:\n\u5927\u89c4\u6a21\u89e3\u7981\u4f1a\u589e\u52a0\u53ef\u4ea4\u6613\u6d41\u901a\u80a1\u6570\u91cf\uff0c\u5e26\u6765\u629b\u538b\u6216\u88ab\u52a8\u8d44\u91d1\u673a\u5236\u5c42\u9762\u7684\u98ce\u9669\uff0c\u8fd9\u6b63\u662f\u8be5\u50ac\u5316\u5242\u8ffd\u8e2a\u7684\u6307\u6570\u673a\u5236\u538b\u529b\u903b\u8f91\u6240\u5173\u5fc3\u7684\u70b9\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 4393,
-      "ts": 1789992889,
-      "ts_str": "2026-09-21 12:14 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank launches $11 billion junk bond deal for OpenAI bet - qz.com",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 11:54:09 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE5jZHpsbUZYai1Wb3NKUHRLdlhWVWNLRkxqbHN4QmpaSlhZcEttSUVRZUtMQnhrRERYT2ZXcW9zM1VnLThRR1dGMFJBYWk4LU0zRk5xaVlSSGt2M2huZW9OTEROWTRYWWNCN0E?oc=5\n\nSoftBank launches $11 billion junk bond deal for OpenAI bet - qz.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5jZHpsbUZYai1Wb3NKUHRLdlhWVWNLRkxqbHN4QmpaSlhZcEttSUVRZUtMQnhrRERYT2ZXcW9zM1VnLThRR1dGMFJBYWk4LU0zRk5xaVlSSGt2M2huZW9OTEROWTRYWWNCN0E?oc=5\" target=\"_blank\">SoftBank launches $11 billion junk bond deal for OpenAI bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">qz.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank is launching an $11 billion junk bond offering tied to its OpenAI investment.\n\n\u5185\u5bb9:\nSoftBank \u6b63\u5728\u53d1\u884c\u4e00\u7b14 110 \u4ebf\u7f8e\u5143\u7684\u5783\u573e\u503a\uff0c\u7528\u4e8e\u4e3a\u5176 OpenAI \u76f8\u5173\u6295\u8d44\u878d\u8d44\u3002\n\nWhy it matters:\nFinancing an AI bet with high-yield debt rather than equity or cash raises the leverage and default risk baked into the OpenAI ecosystem \u2014 a direct read on how much credit markets are willing to underwrite the AI-capex buildout, and a canary for the C7 credit-spread fuse if demand for the deal is weak.\n\n\u5f71\u54cd:\n\u7528\u9ad8\u6536\u76ca\u503a\u800c\u975e\u80a1\u6743\u6216\u73b0\u91d1\u7ed9 AI \u6295\u8d44\u878d\u8d44\uff0c\u610f\u5473\u7740 OpenAI \u751f\u6001\u7cfb\u7edf\u91cc\u53e0\u52a0\u4e86\u66f4\u591a\u6760\u6746\u548c\u8fdd\u7ea6\u98ce\u9669\uff0c\u76f4\u63a5\u53cd\u6620\u4fe1\u8d37\u5e02\u573a\u613f\u610f\u4e3a AI capex \u6269\u5f20\u80cc\u591a\u5c11\u4e66\uff1b\u5982\u679c\u8fd9\u7b14\u503a\u9700\u6c42\u75b2\u8f6f\uff0c\u4e5f\u662f C7 \u4fe1\u7528\u5229\u5dee\u5f15\u4fe1\u7684\u4e00\u4e2a\u9884\u8b66\u4fe1\u53f7\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
