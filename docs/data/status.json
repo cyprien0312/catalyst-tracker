@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790876462,
-  "generated_at_str": "2026-10-01 17:41:02 UTC",
-  "last_event_ts": 1790876105,
+  "generated_at": 1790876656,
+  "generated_at_str": "2026-10-01 17:44:16 UTC",
+  "last_event_ts": 1790876655,
   "tables": {
     "alerts_dedup": {
-      "count": 4605,
-      "last_ts": 1790873056,
-      "last_str": "2026-10-01 16:44:16 UTC"
+      "count": 4606,
+      "last_ts": 1790876655,
+      "last_str": "2026-10-01 17:44:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-09-30 23:00:40 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 6258,
-      "last_ts": 1790874849,
-      "last_str": "2026-10-01 17:14:09 UTC"
+      "count": 6262,
+      "last_ts": 1790876644,
+      "last_str": "2026-10-01 17:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1492,
-      "last_ts": 1790873044,
-      "last_str": "2026-10-01 16:44:04 UTC"
+      "count": 1493,
+      "last_ts": 1790876645,
+      "last_str": "2026-10-01 17:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6703,
@@ -99,9 +99,9 @@
       "last_str": "2026-10-01 17:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 37236,
-      "last_ts": 1790874847,
-      "last_str": "2026-10-01 17:14:07 UTC"
+      "count": 37245,
+      "last_ts": 1790876642,
+      "last_str": "2026-10-01 17:44:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11173,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4613,
+      "ts": 1790876655,
+      "ts_str": "2026-10-01 17:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI reportedly seeks $30 billion after delaying IPO - R&D World",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 17:28:44 GMT\nLink:      https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWktUS16SGVVQTdKTTVUWXNHU2FuNlhGel9qbTN5dHFVVnRfZkdBR3ltSkVZMVZJT3JNZmdzcnlTQmRxR2dCTk9XYUhGaXZGc05GX3IxRWZkV1liZTBEU2tEdDhNUXFTbmNYZ3ROdS1CcGdVbzNGMUFCcFV3cUUxNjJvbjdUbGNyVGNRTg?oc=5\n\nOpenAI reportedly seeks $30 billion after delaying IPO - R&D World\n\n<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWktUS16SGVVQTdKTTVUWXNHU2FuNlhGel9qbTN5dHFVVnRfZkdBR3ltSkVZMVZJT3JNZmdzcnlTQmRxR2dCTk9XYUhGaXZGc05GX3IxRWZkV1liZTBEU2tEdDhNUXFTbmNYZ3ROdS1CcGdVbzNGMUFCcFV3cUUxNjJvbjdUbGNyVGNRTg?oc=5\" target=\"_blank\">OpenAI reportedly seeks $30 billion after delaying IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">R&amp;D World</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say OpenAI has delayed its IPO and is seeking to raise $30 billion in private funding instead.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u63a8\u8fdf\u4e86 IPO\uff0c\u8f6c\u800c\u5bfb\u6c42\u79c1\u52df\u878d\u8d44 $30B\u3002\n\nWhy it matters:\nIf OpenAI needs another $30B privately, its compute commitments are still running ahead of revenue. Delaying the IPO also means public markets won't yet be testing its valuation. OpenAI is the anchor buyer for much of the AI-capex build-out, so any trouble funding it reaches straight back to hyperscalers, neoclouds and their lenders.\n\n\u5f71\u54cd:\nOpenAI \u8fd8\u8981\u79c1\u4e0b\u518d\u878d $30B\uff0c\u8bf4\u660e\u5b83\u7684\u7b97\u529b\u627f\u8bfa\u4ecd\u7136\u8dd1\u5728\u6536\u5165\u524d\u9762\u3002\u63a8\u8fdf IPO \u4e5f\u610f\u5473\u7740\u516c\u5f00\u5e02\u573a\u6682\u65f6\u4e0d\u4f1a\u53bb\u68c0\u9a8c\u5b83\u7684\u4f30\u503c\u3002OpenAI \u662f\u8fd9\u4e00\u8f6e AI capex \u7684\u6838\u5fc3\u4e70\u5bb6\uff0c\u5b83\u7684\u878d\u8d44\u4e00\u65e6\u5403\u7d27\uff0c\u538b\u529b\u4f1a\u76f4\u63a5\u4f20\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3001neocloud \u4ee5\u53ca\u7ed9\u5b83\u4eec\u653e\u8d37\u7684\u673a\u6784\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4612,
       "ts": 1790873056,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX stock ends the day higher at the close after Nasdaq 100 weight boost - AD HOC NEWS",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 21:07:55 GMT\nLink:      https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFpkWEpyY2tvMFJUWkdEQ3UxMzRxOW1lMU5BU0NlR3lmUDJscV9IYjd1cUtGZGRudlRNS0xaTUxhMnhXVTFDMFJYQW1TcWN0S0RYVEl5Y29DUENTWjBPRFpPUmw4dDJpUVZxNW8wNloxMmxSUFNVc0t0UFZRV2VIQnNVcjkxVVhRODdfbHZWNFEyNzVFMDlNU210cm5TNVhJVjJNSmFRSDBYVkRfSk5XczdhdFhPbElsLVJwNEFabG1WSTZsaU4w?oc=5\n\nSpaceX stock ends the day higher at the close after Nasdaq 100 weight boost - AD HOC NEWS\n\n<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFpkWEpyY2tvMFJUWkdEQ3UxMzRxOW1lMU5BU0NlR3lmUDJscV9IYjd1cUtGZGRudlRNS0xaTUxhMnhXVTFDMFJYQW1TcWN0S0RYVEl5Y29DUENTWjBPRFpPUmw4dDJpUVZxNW8wNloxMmxSUFNVc0t0UFZRV2VIQnNVcjkxVVhRODdfbHZWNFEyNzVFMDlNU210cm5TNVhJVjJNSmFRSDBYVkRfSk5XczdhdFhPbElsLVJwNEFabG1WSTZsaU4w?oc=5\" target=\"_blank\">SpaceX stock ends the day higher at the close after Nasdaq 100 weight boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD HOC NEWS</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTwo Google News RSS entries both reported SpaceX shares closing higher after a Nasdaq 100 weighting increase.\n\n\u5185\u5bb9:\n\u4e24\u6761 Google News RSS \u6761\u76ee\u90fd\u62a5\u9053 SpaceX \u80a1\u4ef7\u5728\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u6743\u91cd\u4e0a\u8c03\u540e\u6536\u9ad8\u3002\n\nWhy it matters:\nA passive-flow boost from an index weight increase pushes the stock up mechanically, independent of fundamentals \u2014 this is exactly the kind of index-driven inflow the C11 signal tracks as a bubble-stress amplifier for SpaceX's public equity.\n\n\u5f71\u54cd:\n\u6307\u6570\u6743\u91cd\u4e0a\u8c03\u5e26\u6765\u7684\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\uff0c\u4f1a\u4e0d\u770b\u57fa\u672c\u9762\u5730\u673a\u68b0\u6027\u63a8\u9ad8\u80a1\u4ef7\u2014\u2014\u8fd9\u6b63\u662f C11 \u4fe1\u53f7\u8981\u8ffd\u8e2a\u7684\u3001\u653e\u5927 SpaceX \u516c\u5f00\u80a1\u7968\u6ce1\u6cab\u538b\u529b\u7684\u6307\u6570\u9a71\u52a8\u578b\u8d44\u91d1\u6d41\u5165\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4413,
-      "ts": 1790019854,
-      "ts_str": "2026-09-21 19:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI Needs Fresh Capital After Shelving Its IPO, Reportedly at a $1.2 Trillion Valuation - trendingtopics.eu",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 15:20:50 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVB2WkREOUdBNE92OUxVRE10YWswdHpwTTROVHR6eFB0bDQ2SWxWYXNoZzhUY2ZZVlVRRW5zNGN3WUNkUE1EUDdzdnpsSkY0VVZjbGo2b1piUUNlMFJDTzFobFV6bklFZGlCNWVQdDVweWZnLUVZQmE4eXRQVHlmTGtqTlRoY3R2N19xX1VrZS11ZVRTVzBLb0o5MjlMWG5xalJLQlR5cGFxelJIaC1oWGN1Z3dIM1FrUzg0?oc=5\n\nOpenAI Needs Fresh Capital After Shelving Its IPO, Reportedly at a $1.2 Trillion Valuation - trendingtopics.eu\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVB2WkREOUdBNE92OUxVRE10YWswdHpwTTROVHR6eFB0bDQ2SWxWYXNoZzhUY2ZZVlVRRW5zNGN3WUNkUE1EUDdzdnpsSkY0VVZjbGo2b1piUUNlMFJDTzFobFV6bklFZGlCNWVQdDVweWZnLUVZQmE4eXRQVHlmTGtqTlRoY3R2N19xX1VrZS11ZVRTVzBLb0o5MjlMWG5xalJLQlR5cGFxelJIaC1oWGN1Z3dIM1FrUzg0?oc=5\" target=\"_blank\">OpenAI Needs Fresh Capital After Shelving Its IPO, Reportedly at a $1.2 Trillion Valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">trendingtopics.eu</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBloomberg reports OpenAI needs fresh capital after shelving its planned IPO, with the company reportedly valued at $1.2 trillion.\n\n\u5185\u5bb9:\n\u5f6d\u535a\u62a5\u9053\u79f0 OpenAI \u6401\u7f6e\u4e86\u539f\u5b9a IPO \u8ba1\u5212\uff0c\u9700\u8981\u91cd\u65b0\u878d\u8d44\uff0c\u62a5\u9053\u7ed9\u51fa\u7684\u4f30\u503c\u4e3a 1.2 \u4e07\u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nScrapping the IPO removes the exit-liquidity path that would have let OpenAI's cash-burn continue on public-market terms; falling back to private capital raises at a $1.2T valuation signals funding is getting harder or pricier even as burn stays high, feeding the C3 thesis that OpenAI's spend is outrunning sustainable financing.\n\n\u5f71\u54cd:\n\u653e\u5f03 IPO \u610f\u5473\u7740 OpenAI \u5931\u53bb\u4e86\u9760\u516c\u5f00\u5e02\u573a\u6d88\u5316\u6301\u7eed\u70e7\u94b1\u7684\u9000\u51fa\u901a\u9053\uff0c\u8f6c\u800c\u5728 1.2 \u4e07\u4ebf\u4f30\u503c\u4e0b\u7ee7\u7eed\u627e\u79c1\u52df\u8d44\u91d1\uff0c\u8bf4\u660e\u878d\u8d44\u6b63\u53d8\u96be\u6216\u53d8\u8d35\uff0c\u800c\u70e7\u94b1\u901f\u5ea6\u5e76\u672a\u653e\u7f13\uff0c\u8fd9\u6b63\u597d\u5370\u8bc1 C3 \u91cc\u300cOpenAI \u652f\u51fa\u8dd1\u8d62\u878d\u8d44\u80fd\u529b\u300d\u7684\u5224\u65ad\u3002\n",
       "emailed": false
     }
   ],
