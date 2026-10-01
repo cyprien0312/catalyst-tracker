@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790825522,
-  "generated_at_str": "2026-10-01 03:32:02 UTC",
-  "last_event_ts": 1790824445,
+  "generated_at": 1790825718,
+  "generated_at_str": "2026-10-01 03:35:18 UTC",
+  "last_event_ts": 1790825717,
   "tables": {
     "alerts_dedup": {
-      "count": 4591,
-      "last_ts": 1790823923,
-      "last_str": "2026-10-01 03:05:23 UTC"
+      "count": 4592,
+      "last_ts": 1790825717,
+      "last_str": "2026-10-01 03:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-10-01 03:05:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8082,
-      "last_ts": 1790822106,
-      "last_str": "2026-10-01 02:35:06 UTC"
+      "count": 8084,
+      "last_ts": 1790825705,
+      "last_str": "2026-10-01 03:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4735,
@@ -94,9 +94,9 @@
       "last_str": "2026-10-01 02:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6119,
-      "last_ts": 1790822107,
-      "last_str": "2026-10-01 02:35:07 UTC"
+      "count": 6121,
+      "last_ts": 1790825707,
+      "last_str": "2026-10-01 03:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 37101,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4599,
+      "ts": 1790825717,
+      "ts_str": "2026-10-01 03:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 02:56:21 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\n\nMicron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\" target=\"_blank\">Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Micron is raising 2027 HBM prices after 2026 memory-surge demand wasn't captured because of fixed contracts.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0cMicron \u56e0\u56fa\u5b9a\u5408\u7ea6\u9501\u4ef7\u9519\u5931\u4e86 2026 \u5e74\u5185\u5b58\u9700\u6c42\u6fc0\u589e\u7684\u7ea2\u5229\uff0c\u4e8e\u662f\u4e0a\u8c03 2027 \u5e74 HBM \u4ef7\u683c\u3002\n\nWhy it matters:\nMemory suppliers passing through price hikes on HBM \u2014 the bottleneck input for AI accelerators \u2014 confirms sustained tightness in the AI-chip supply chain rather than oversupply; it's bullish for memory margins but adds another input-cost pressure point for AI capex.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u5546\u80fd\u5bf9 HBM\uff08AI \u52a0\u901f\u5361\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\uff09\u63d0\u4ef7\uff0c\u8bf4\u660e AI \u82af\u7247\u4f9b\u5e94\u94fe\u4ecd\u7136\u7d27\u7f3a\u800c\u975e\u8fc7\u5269\uff0c\u5bf9\u5185\u5b58\u5382\u5229\u6da6\u662f\u5229\u597d\uff0c\u4f46\u4e5f\u7ed9 AI capex \u53c8\u6dfb\u4e86\u4e00\u9879\u6210\u672c\u538b\u529b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4598,
       "ts": 1790823923,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Market Chatter: Microsoft-backed OpenAI Seeks Valuation Above $1.2 Trillion Despite Projected $278 Billion Cash Burn - \u5bcc",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 10:35:04 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLVBDRWZhaXNycGtWcml4c1JZWWlXR29fX0t3TTVvVnY1R1F4Mkk0NXVTR3R0MktCVXZWSGk2LXFjbUVkdmJPZk13XzI3OWJwUjBqRkVFOHNycGpKUmlCa0ZLNENKTWRSMmRGNjlpR1Z0bVEtTlcxUVRLSVdaUzd4cUZqdDN0UnUwdlZKMWY2N1A1b3NLblhhMER1MGRHMWVJY3pzY0N5d254ZVU?oc=5\n\nMarket Chatter: Microsoft-backed OpenAI Seeks Valuation Above $1.2 Trillion Despite Projected $278 Billion Cash Burn - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLVBDRWZhaXNycGtWcml4c1JZWWlXR29fX0t3TTVvVnY1R1F4Mkk0NXVTR3R0MktCVXZWSGk2LXFjbUVkdmJPZk13XzI3OWJwUjBqRkVFOHNycGpKUmlCa0ZLNENKTWRSMmRGNjlpR1Z0bVEtTlcxUVRLSVdaUzd4cUZqdDN0UnUwdlZKMWY2N1A1b3NLblhhMER1MGRHMWVJY3pzY0N5d254ZVU?oc=5\" target=\"_blank\">Market Chatter: Microsoft-backed OpenAI Seeks Valuation Above $1.2 Trillion Despite Projected $278 Billion Cash Burn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMarket chatter reports OpenAI is seeking a valuation above $1.2 trillion while projecting $278 billion in cash burn.\n\n\u5185\u5bb9:\n\u5e02\u573a\u4f20\u95fb\u79f0 OpenAI \u6b63\u5728\u5bfb\u6c42\u8d85\u8fc7 1.2 \u4e07\u4ebf\u7f8e\u5143\u7684\u4f30\u503c\uff0c\u540c\u65f6\u9884\u8ba1\u73b0\u91d1\u6d88\u8017\u5c06\u8fbe\u5230 2780 \u4ebf\u7f8e\u5143\u3002\n\nWhy it matters:\nA $278B projected burn figure, if accurate, dwarfs prior disclosures and would confirm the spend trajectory the C3 catalyst is built to catch \u2014 but this is unverified 'market chatter,' not a filing or company statement, so treat the number as a rumor until corroborated.\n\n\u5f71\u54cd:\n2780 \u4ebf\u7f8e\u5143\u7684\u9884\u8ba1\u70e7\u94b1\u89c4\u6a21\u5982\u679c\u5c5e\u5b9e\uff0c\u8fdc\u8d85\u6b64\u524d\u62ab\u9732\u7684\u6570\u5b57\uff0c\u4f1a\u5370\u8bc1 C3 \u8fd9\u4e2a\u4fe1\u53f7\u60f3\u8981\u6293\u7684\u70e7\u94b1\u8f68\u8ff9\uff1b\u4f46\u8fd9\u53ea\u662f\u672a\u7ecf\u8bc1\u5b9e\u7684\"\u5e02\u573a\u4f20\u95fb\"\uff0c\u4e0d\u662f\u6587\u4ef6\u6216\u516c\u53f8\u5b98\u65b9\u8868\u6001\uff0c\u6570\u5b57\u8981\u5f53\u4f20\u95fb\u770b\u5f85\uff0c\u7b49\u786e\u8bc1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4396,
-      "ts": 1789998461,
-      "ts_str": "2026-09-21 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Stock Rises Ahead of Nasdaq 100 Rebalancing - Barron's",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 21 Sep 2026 13:12:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE10YkFNOUV0R1VGb2c3QnV4YTdHRDM3TmhJRFN1b3NMb01zQXNzLUFYQnk3REhNUW1QQmxJa2dIbGxQYUJ1MV90Z0RORTRYU19kY1NuYUhZVENDVlkzSzl3VEwya3htTGZ0NllmMnJFMHhvRkRkQ3dhTlZBSWs?oc=5\n\nSpaceX Stock Rises Ahead of Nasdaq 100 Rebalancing - Barron's\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE10YkFNOUV0R1VGb2c3QnV4YTdHRDM3TmhJRFN1b3NMb01zQXNzLUFYQnk3REhNUW1QQmxJa2dIbGxQYUJ1MV90Z0RORTRYU19kY1NuYUhZVENDVlkzSzl3VEwya3htTGZ0NllmMnJFMHhvRkRkQ3dhTlZBSWs?oc=5\" target=\"_blank\">SpaceX Stock Rises Ahead of Nasdaq 100 Rebalancing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX stock rose ahead of its inclusion in the Nasdaq-100 rebalancing.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u5728\u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u518d\u5e73\u8861\u4e4b\u524d\u4e0a\u6da8\u3002\n\nWhy it matters:\nIndex inclusion forces passive Nasdaq-100 trackers to buy shares mechanically, regardless of fundamentals \u2014 a flow-driven price move layered on top of the existing lock-up unlock dynamics, and a reminder that index mechanics can mask or amplify real demand signals for AI infrastructure names.\n\n\u5f71\u54cd:\n\u7eb3\u5165\u6307\u6570\u4f1a\u8ba9\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u7684\u88ab\u52a8\u57fa\u91d1\u88ab\u8feb\u673a\u68b0\u4e70\u5165\u8be5\u80a1\uff0c\u8fd9\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u2014\u2014\u662f\u53e0\u52a0\u5728\u89e3\u7981\u65e5\u5386\u4e4b\u4e0a\u7684\u8d44\u91d1\u6d41\u9a71\u52a8\u578b\u4e0a\u6da8\uff0c\u4e5f\u63d0\u9192\u4eba\u4eec\u6307\u6570\u673a\u5236\u672c\u8eab\u53ef\u80fd\u63a9\u76d6\u6216\u653e\u5927 AI \u57fa\u7840\u8bbe\u65bd\u7c7b\u80a1\u7968\u7684\u771f\u5b9e\u9700\u6c42\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
