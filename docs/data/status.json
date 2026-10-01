@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790893923,
-  "generated_at_str": "2026-10-01 22:32:03 UTC",
-  "last_event_ts": 1790893766,
+  "generated_at": 1790894116,
+  "generated_at_str": "2026-10-01 22:35:16 UTC",
+  "last_event_ts": 1790894115,
   "tables": {
     "alerts_dedup": {
-      "count": 4620,
-      "last_ts": 1790893766,
-      "last_str": "2026-10-01 22:29:26 UTC"
+      "count": 4621,
+      "last_ts": 1790894115,
+      "last_str": "2026-10-01 22:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-10-01 22:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8133,
-      "last_ts": 1790892306,
-      "last_str": "2026-10-01 22:05:06 UTC"
+      "count": 8135,
+      "last_ts": 1790894103,
+      "last_str": "2026-10-01 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4785,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4628,
+      "ts": 1790894115,
+      "ts_str": "2026-10-01 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron posts record earnings, says most of next year's HBM already sold out - \ud5e4\ub7f4\ub4dc\uacbd\uc81c",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 01:22:38 GMT\nLink:      https://news.google.com/rss/articles/CBMiV0FVX3lxTE9NMUlOMVpTd1hFZkRRZWN6N0FpREljLVBPbW03UmRCOG8zWVN0NzhES3BubmNYRWc3Q3pQQUJRdXQxeVQ5ZE5icFh3bUVNdHhlWmNabXdKNA?oc=5\n\nMicron posts record earnings, says most of next year's HBM already sold out - \ud5e4\ub7f4\ub4dc\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9NMUlOMVpTd1hFZkRRZWN6N0FpREljLVBPbW03UmRCOG8zWVN0NzhES3BubmNYRWc3Q3pQQUJRdXQxeVQ5ZE5icFh3bUVNdHhlWmNabXdKNA?oc=5\" target=\"_blank\">Micron posts record earnings, says most of next year's HBM already sold out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ud5e4\ub7f4\ub4dc\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron reported record earnings and said most of next year's HBM supply is already sold out.\n\n\u5185\u5bb9:\nMicron \u516c\u5e03\u521b\u7eaa\u5f55\u7684\u4e1a\u7ee9\uff0c\u5e76\u8868\u793a\u660e\u5e74\u5927\u90e8\u5206 HBM \u4ea7\u80fd\u5df2\u7ecf\u552e\u7f44\u3002\n\nWhy it matters:\nThis is a shortage signal, not a bust signal. HBM demand from AI accelerators still runs ahead of supply, so AI capex is still flowing through to memory makers. The bubble-stress risk is a later turn: once sold-out capacity has been built out against forward orders, any pause in accelerator demand would quickly flip HBM from shortage to oversupply.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u77ed\u7f3a\u4fe1\u53f7\uff0c\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u4fe1\u53f7\u3002AI \u52a0\u901f\u5668\u5bf9 HBM \u7684\u9700\u6c42\u4ecd\u7136\u8d85\u8fc7\u4f9b\u7ed9\uff0c\u8bf4\u660e AI capex \u8fd8\u5728\u5b9e\u6253\u5b9e\u5730\u4f20\u5bfc\u5230\u5b58\u50a8\u5382\u5546\u3002\u6ce1\u6cab\u538b\u529b\u7684\u98ce\u9669\u5728\u540e\u9762\uff1a\u4ea7\u80fd\u6309\u8fdc\u671f\u8ba2\u5355\u6269\u51fa\u6765\u4ee5\u540e\uff0c\u4e00\u65e6\u52a0\u901f\u5668\u9700\u6c42\u653e\u7f13\uff0cHBM \u4f1a\u5f88\u5feb\u4ece\u77ed\u7f3a\u8f6c\u4e3a\u8fc7\u5269\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4627,
       "ts": 1790893766,
@@ -2305,16 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Nasdaq-100 Weight 2.82%: Index Bid vs 3.1bn Unlock Shares - FinanceFeeds",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 10:48:24 GMT\nLink:      https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3BRa0pRX2t3LVR2QVJWNHJ3UGdtNERPSlZwUXpHamdCMTE3UUdLdkFNaWZxMkJrbGVKNHNUTkY0YnkzNW9OQkJCRTNqWl9MMVFFVDJzRkJTdGxCMUtJMFU2Z21zd1NOam9mSmpvdVVTOUwyRzZ1ejhvTDJMejYwcXFZVzFiQ1U?oc=5\n\nSpaceX Nasdaq-100 Weight 2.82%: Index Bid vs 3.1bn Unlock Shares - FinanceFeeds\n\n<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3BRa0pRX2t3LVR2QVJWNHJ3UGdtNERPSlZwUXpHamdCMTE3UUdLdkFNaWZxMkJrbGVKNHNUTkY0YnkzNW9OQkJCRTNqWl9MMVFFVDJzRkJTdGxCMUtJMFU2Z21zd1NOam9mSmpvdVVTOUwyRzZ1ejhvTDJMejYwcXFZVzFiQ1U?oc=5\" target=\"_blank\">SpaceX Nasdaq-100 Weight 2.82%: Index Bid vs 3.1bn Unlock Shares</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanceFeeds</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News coverage cites SpaceX's implied Nasdaq-100 weight at 2.82%, framing the 3.1B-share unlock as an index-mechanics story \u2014 passive-fund buying pressure versus the flood of newly tradable shares.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u62a5\u9053\u79f0 SpaceX \u5728 Nasdaq-100 \u7684\u9690\u542b\u6743\u91cd\u4e3a 2.82%\uff0c\u628a 31 \u4ebf\u80a1\u89e3\u7981\u5305\u88c5\u6210\u4e00\u4e2a\u6307\u6570\u673a\u5236\u6545\u4e8b\u2014\u2014\u88ab\u52a8\u8d44\u91d1\u7684\u4e70\u76d8\u538b\u529b vs. \u65b0\u589e\u53ef\u4ea4\u6613\u80a1\u7968\u7684\u51b2\u51fb\u3002\n\nWhy it matters:\nA 2.82% weight means index funds must buy a fixed dollar amount regardless of price, but that structural bid is exactly what unlock supply tests \u2014 if sellers outpace the passive inflow, the index-support thesis for SpaceX's valuation breaks. This is the mechanism C11 exists to watch, not fresh information.\n\n\u5f71\u54cd:\n2.82% \u7684\u6743\u91cd\u610f\u5473\u7740\u6307\u6570\u57fa\u91d1\u5fc5\u987b\u6309\u56fa\u5b9a\u91d1\u989d\u4e70\u5165\u3001\u4e0d\u7ba1\u4ef7\u683c\u5982\u4f55\uff0c\u4f46\u8fd9\u80a1\u7ed3\u6784\u6027\u4e70\u76d8\u6070\u6070\u662f\u89e3\u7981\u4f9b\u7ed9\u8981\u68c0\u9a8c\u7684\u4e1c\u897f\u2014\u2014\u5982\u679c\u5356\u76d8\u8d85\u8fc7\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\uff0cSpaceX \u4f30\u503c\u9760\u6307\u6570\u6258\u5e95\u8fd9\u4e2a\u903b\u8f91\u5c31\u7ad9\u4e0d\u4f4f\u4e86\u3002\u8fd9\u6b63\u662f C11 \u4e00\u76f4\u5728\u76ef\u7684\u673a\u5236\uff0c\u4e0d\u662f\u65b0\u4fe1\u606f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4428,
-      "ts": 1790077456,
-      "ts_str": "2026-09-22 11:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI punted. Anthropic stalled. The hottest imminent IPO fits on your finger - Fortune",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 11:34:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVN6UkN6aUJJZUZZTkhkN3o5bDQxVG1ERFRRWW5wazQxTWFtUExJR3RsMmw4SXhoejFrZENMY092QmhKaHJPSHRHUzhKVERjV0R1V3VQX3ZXemV5NGxPZ25mNi1ySzNlWllCM1NCeU5LOVRPNGZYbk9HQi1YWXJyUWtLdDdsV0Z3TllwTnFlZW9PemFJR0lRT2I4Q1RQcWdwWVVGejhPaGFPRkNSeFBaVnZUbw?oc=5\n\nOpenAI punted. Anthropic stalled. The hottest imminent IPO fits on your finger - Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVN6UkN6aUJJZUZZTkhkN3o5bDQxVG1ERFRRWW5wazQxTWFtUExJR3RsMmw4SXhoejFrZENMY092QmhKaHJPSHRHUzhKVERjV0R1V3VQX3ZXemV5NGxPZ25mNi1ySzNlWllCM1NCeU5LOVRPNGZYbk9HQi1YWXJyUWtLdDdsV0Z3TllwTnFlZW9PemFJR0lRT2I4Q1RQcWdwWVVGejhPaGFPRkNSeFBaVnZUbw?oc=5\" target=\"_blank\">OpenAI punted. Anthropic stalled. The hottest imminent IPO fits on your finger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA finance/media headline notes OpenAI and Anthropic both delayed IPO plans, while a smaller AI company's IPO is imminent.\n\n\u5185\u5bb9:\n\u4e00\u6761\u8d22\u7ecf/\u5a92\u4f53\u6807\u9898\u79f0 OpenAI \u548c Anthropic \u90fd\u63a8\u8fdf\u4e86 IPO \u8ba1\u5212\uff0c\u800c\u4e00\u5bb6\u89c4\u6a21\u5c0f\u5f97\u591a\u7684 AI \u516c\u53f8\u5374\u5373\u5c06\u4e0a\u5e02\u3002\n\nWhy it matters:\nThe two most valuable private AI labs pulling back from public listings while capital instead chases a much smaller name suggests investors are wary of pricing OpenAI/Anthropic-scale AI bets in public markets right now \u2014 a soft signal on sentiment, not a hard data point.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u4f30\u503c\u6700\u9ad8\u7684 AI \u5b9e\u9a8c\u5ba4\u90fd\u5728\u56de\u907f\u516c\u5f00\u4e0a\u5e02\uff0c\u8d44\u91d1\u5374\u8f6c\u5411\u4e00\u5bb6\u5c0f\u5f97\u591a\u7684\u516c\u53f8\uff0c\u8fd9\u591a\u5c11\u8bf4\u660e\u5e02\u573a\u5bf9\u7ed9 OpenAI/Anthropic \u7ea7\u522b\u7684 AI \u62bc\u6ce8\u5b9a\u4ef7\u8fd8\u6bd4\u8f83\u8c28\u614e\u2014\u2014\u8fd9\u53ea\u662f\u60c5\u7eea\u9762\u7684\u8f6f\u4fe1\u53f7\uff0c\u4e0d\u662f\u786c\u6570\u636e\u3002\n",
       "emailed": false
     }
   ],
