@@ -433,7 +433,7 @@ silently falls back to the static `_REGISTRY` in `lib/explanations.py`.
 4. `subprocess.run(["claude", "-p", prompt, "--model", <model>, "--output-format", "json"])`
    with per-call timeout. Parse envelope (`{is_error, subtype, result}`), then extract
    the inner `{what, why, what_zh, why_zh}` JSON (tolerates ```json fences).
-   The `--model` is passed explicitly (default `claude-opus-4-8`) because the CLI's
+   The `--model` is passed explicitly (default `claude-opus-5-5`) because the CLI's
    own default (Fable 5) returns `is_error="Claude Fable 5 is currently unavailable"`
    in some regions (e.g. AU), which would silently force the static-template fallback.
 5. Cache the result with 30-day TTL in the `llm_cache` table of
@@ -470,7 +470,7 @@ path. Same CLI, same `--model`, same graceful fallback.
 | `CATALYST_LLM_CLAUDE_BIN` | `which claude` | Override binary path (useful in cron) |
 | `CATALYST_LLM_TIMEOUT` | `30` | Per-call subprocess timeout, seconds |
 | `CATALYST_LLM_SLEEP_AFTER` | `2` | Seconds to sleep after a successful fresh call; `0` disables |
-| `CATALYST_LLM_MODEL` | `claude-opus-4-8` | Passed to `claude --model`; also the cache-key namespace tag. Override if Opus is unavailable or to pin another model. |
+| `CATALYST_LLM_MODEL` | `claude-opus-5-5` | Passed to `claude --model`; also the cache-key namespace tag. Override if Opus is unavailable or to pin another model. |
 
 The prompt version is bumped (`_PROMPT_VERSION` in `lib/llm.py`) whenever the
 system prompt or schema changes, which automatically invalidates all cached

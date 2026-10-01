@@ -105,10 +105,10 @@ def _claude_bin() -> str | None:
     return os.environ.get("CATALYST_LLM_CLAUDE_BIN") or shutil.which("claude")
 
 
-# Model passed to `claude --model`. Defaults to Opus 4.8 because the CLI's
+# Model passed to `claude --model`. Defaults to Opus 5.5 (2026-10-01; was 4.8) because the CLI's
 # own default (Fable 5) is unavailable in some regions (e.g. AU) — the
 # headless call returns is_error="... Fable 5 is currently unavailable".
-_DEFAULT_MODEL = "claude-opus-4-8"
+_DEFAULT_MODEL = "claude-opus-5-5"
 
 
 def _model() -> str:
