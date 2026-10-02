@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-02 14:44:06 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-02 14:47:17 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,38 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="4641" data-catalyst="C11" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C11</code>
+    <span class="subj">[C11-MED] SPCX unlock in ≤7d: Day 120 (3.3亿 shares)</span>
+    <span class="meta">2026-10-02 14:47 UTC · muted</span>
+  </summary>
+  <pre>Severity:   MED
+Tranche:    Day 120
+Date:       2026-10-10  (7 day(s) out)
+Release:    3.3亿 shares (2.5% of shares outstanding)
+Cumulative: 25.1% of total unlocked after this tranche
+
+Lock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked
+tranches are estimates and shift with the reporting calendar.
+
+────────────────────────────────────────────────────────────
+What this means:
+An upcoming SPCX lock-up tranche will release about 3.3bn of locked shares. After it, 25.1% of the locked stock will be unlocked in total.
+
+内容:
+SPCX 即将迎来一批 lock-up 解禁，释放约 3.3bn 锁定股份。这批之后，累计解禁比例达到 25.1%。
+
+Why it matters:
+Each unlock adds supply that insiders and early holders can sell. With a quarter of the lock-up released, holders&#39; willingness to keep holding becomes a real test of demand for the stock. A weak tape around the release date would show that passive index inflows are not absorbing the new float, which is an early sign that funding for AI and space infrastructure is under strain.
+
+影响:
+每次解禁都会多出一批内部人和早期股东可以卖的股份。解禁已过四分之一，持有人愿不愿意继续拿着，开始真正考验这只股票的需求。如果解禁日前后走势偏弱，说明被动指数资金没接住新增流通盘，这是 AI 和航天基础设施资金面吃紧的早期信号。
+</pre>
+  <button class="mark-read" type="button" data-id="4641">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4640" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -5993,37 +6025,14 @@ At this level real money is outright restrictive, not merely tightening. It mark
   <button class="mark-read" type="button" data-id="4442">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4441" data-catalyst="C10" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C10</code>
-    <span class="subj">[C10-MED] 10y Real Yield rising: 2.62% (+63bp off 90d-low)</span>
-    <span class="meta">2026-09-22 22:29 UTC · muted</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-09-21
-Current:  2.62%
-90d low:  1.99%
-Move:     +63bp off 90d-low (fire ≥ +40bp)
-
-────────────────────────────────────────────────────────────
-What this means:
-The 10-year real (inflation-adjusted) Treasury yield has risen ≥40 bp off its recent trailing low.
-
-Why it matters:
-Real yields are the discount rate on every long-duration cash flow — and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.
-</pre>
-  <button class="mark-read" type="button" data-id="4441">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4633</td>
-<td>2026-10-02 14:35:06 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4634</td>
+<td>2026-10-02 14:47:16 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
@@ -6034,8 +6043,8 @@ Real yields are the discount rate on every long-duration cash flow — and AI-in
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
 
-<tr><td><code>c11_lockup</code></td><td>6</td>
-<td>2026-09-17 14:47:13 UTC</td></tr>
+<tr><td><code>c11_lockup</code></td><td>7</td>
+<td>2026-10-02 14:47:14 UTC</td></tr>
 
 <tr><td><code>c1_filings</code></td><td>111</td>
 <td>2026-09-11 20:32:02 UTC</td></tr>
@@ -6082,8 +6091,8 @@ Real yields are the discount rate on every long-duration cash flow — and AI-in
 <tr><td><code>rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>37581</td>
 <td>2026-10-02 14:44:03 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>11234</td>
-<td>2026-10-02 13:47:03 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>11243</td>
+<td>2026-10-02 14:47:15 UTC</td></tr>
 
 </table>
 

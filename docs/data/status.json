@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790952246,
-  "generated_at_str": "2026-10-02 14:44:06 UTC",
-  "last_event_ts": 1790952245,
+  "generated_at": 1790952437,
+  "generated_at_str": "2026-10-02 14:47:17 UTC",
+  "last_event_ts": 1790952436,
   "tables": {
     "alerts_dedup": {
-      "count": 4633,
-      "last_ts": 1790951706,
-      "last_str": "2026-10-02 14:35:06 UTC"
+      "count": 4634,
+      "last_ts": 1790952436,
+      "last_str": "2026-10-02 14:47:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -24,9 +24,9 @@
       "last_str": "2026-07-14 06:47:14 UTC"
     },
     "c11_lockup": {
-      "count": 6,
-      "last_ts": 1789656433,
-      "last_str": "2026-09-17 14:47:13 UTC"
+      "count": 7,
+      "last_ts": 1790952434,
+      "last_str": "2026-10-02 14:47:14 UTC"
     },
     "c1_filings": {
       "count": 111,
@@ -104,9 +104,9 @@
       "last_str": "2026-10-02 14:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 11234,
-      "last_ts": 1790948823,
-      "last_str": "2026-10-02 13:47:03 UTC"
+      "count": 11243,
+      "last_ts": 1790952435,
+      "last_str": "2026-10-02 14:47:15 UTC"
     }
   },
   "c4_xbrl": [
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4641,
+      "ts": 1790952436,
+      "ts_str": "2026-10-02 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 120 (3.3\u4ebf shares)",
+      "body": "Severity:   MED\nTranche:    Day 120\nDate:       2026-10-10  (7 day(s) out)\nRelease:    3.3\u4ebf shares (2.5% of shares outstanding)\nCumulative: 25.1% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn upcoming SPCX lock-up tranche will release about 3.3bn of locked shares. After it, 25.1% of the locked stock will be unlocked in total.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6279 lock-up \u89e3\u7981\uff0c\u91ca\u653e\u7ea6 3.3bn \u9501\u5b9a\u80a1\u4efd\u3002\u8fd9\u6279\u4e4b\u540e\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230 25.1%\u3002\n\nWhy it matters:\nEach unlock adds supply that insiders and early holders can sell. With a quarter of the lock-up released, holders' willingness to keep holding becomes a real test of demand for the stock. A weak tape around the release date would show that passive index inflows are not absorbing the new float, which is an early sign that funding for AI and space infrastructure is under strain.\n\n\u5f71\u54cd:\n\u6bcf\u6b21\u89e3\u7981\u90fd\u4f1a\u591a\u51fa\u4e00\u6279\u5185\u90e8\u4eba\u548c\u65e9\u671f\u80a1\u4e1c\u53ef\u4ee5\u5356\u7684\u80a1\u4efd\u3002\u89e3\u7981\u5df2\u8fc7\u56db\u5206\u4e4b\u4e00\uff0c\u6301\u6709\u4eba\u613f\u4e0d\u613f\u610f\u7ee7\u7eed\u62ff\u7740\uff0c\u5f00\u59cb\u771f\u6b63\u8003\u9a8c\u8fd9\u53ea\u80a1\u7968\u7684\u9700\u6c42\u3002\u5982\u679c\u89e3\u7981\u65e5\u524d\u540e\u8d70\u52bf\u504f\u5f31\uff0c\u8bf4\u660e\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6ca1\u63a5\u4f4f\u65b0\u589e\u6d41\u901a\u76d8\uff0c\u8fd9\u662f AI \u548c\u822a\u5929\u57fa\u7840\u8bbe\u65bd\u8d44\u91d1\u9762\u5403\u7d27\u7684\u65e9\u671f\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4640,
       "ts": 1790951706,
@@ -2306,16 +2316,6 @@
       "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.62% \u2265 2.50%",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-21\nCurrent:  2.62%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real yield is at or above an absolute restrictive level (\u22652.50%).\n\nWhy it matters:\nAt this level real money is outright restrictive, not merely tightening. It marks the zone where leveraged, no-current-cashflow AI bets and the refinancing of AI-linked debt come under sustained valuation pressure \u2014 the macro discount-rate equivalent of C7's outright credit stress.\n",
       "emailed": true
-    },
-    {
-      "id": 4441,
-      "ts": 1790116143,
-      "ts_str": "2026-09-22 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.62% (+63bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-21\nCurrent:  2.62%\n90d low:  1.99%\nMove:     +63bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
-      "emailed": false
     }
   ],
   "catalysts": [
