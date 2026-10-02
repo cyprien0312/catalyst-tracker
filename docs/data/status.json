@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790910123,
-  "generated_at_str": "2026-10-02 03:02:03 UTC",
-  "last_event_ts": 1790909222,
+  "generated_at": 1790910307,
+  "generated_at_str": "2026-10-02 03:05:07 UTC",
+  "last_event_ts": 1790910307,
   "tables": {
     "alerts_dedup": {
-      "count": 4622,
-      "last_ts": 1790898434,
-      "last_str": "2026-10-01 23:47:14 UTC"
+      "count": 4623,
+      "last_ts": 1790910307,
+      "last_str": "2026-10-02 03:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-10-02 00:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6723,
-      "last_ts": 1790906703,
-      "last_str": "2026-10-02 02:05:03 UTC"
+      "count": 6725,
+      "last_ts": 1790910303,
+      "last_str": "2026-10-02 03:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8139,
-      "last_ts": 1790904904,
-      "last_str": "2026-10-02 01:35:04 UTC"
+      "count": 8140,
+      "last_ts": 1790910305,
+      "last_str": "2026-10-02 03:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4785,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4630,
+      "ts": 1790910307,
+      "ts_str": "2026-10-02 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - AOL.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 03:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTE9YMGI4LU5QZ0NQS2J5YTFoN2xJRFlZZ0x6bnJmM1EzZW9LbGxWQVlodWhxYURHejFlMTdKMmlWa0IyMVJILTM1aFd0UlB6bWx5cXJxc1FnT3pKaU1oajVKdEpLUjQ5Y0ZmQldkSDBoMlpuNDBKcGtRdU9aZjI?oc=5\n\nMicron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - AOL.com\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9YMGI4LU5QZ0NQS2J5YTFoN2xJRFlZZ0x6bnJmM1EzZW9LbGxWQVlodWhxYURHejFlMTdKMmlWa0IyMVJILTM1aFd0UlB6bWx5cXJxc1FnT3pKaU1oajVKdEpLUjQ5Y0ZmQldkSDBoMlpuNDBKcGtRdU9aZjI?oc=5\" target=\"_blank\">Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports Micron's DRAM revenue rose 343% year over year, which it attributes to a RAM shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cMicron \u7684 DRAM \u6536\u5165\u540c\u6bd4\u589e\u957f 343%\uff0c\u539f\u56e0\u662f RAM \u77ed\u7f3a\u3002\n\nWhy it matters:\nA shortage-driven revenue surge shows AI demand, mainly HBM for accelerators, is still absorbing memory supply faster than fabs can add it. This is a sign of tightness, not stress, but memory is the most cyclical part of the stack. Shortages at this scale have historically triggered capacity buildouts that end in oversupply and price collapses, so watch for the flip to cancellations or inventory gluts.\n\n\u5f71\u54cd:\n\u6536\u5165\u66b4\u6da8\u662f\u77ed\u7f3a\u63a8\u51fa\u6765\u7684\uff0c\u8bf4\u660e AI \u9700\u6c42\uff08\u4e3b\u8981\u662f\u52a0\u901f\u5361\u7528\u7684 HBM\uff09\u5403\u6389\u5185\u5b58\u4ea7\u80fd\u7684\u901f\u5ea6\u4ecd\u5feb\u8fc7\u6676\u5706\u5382\u6269\u4ea7\u3002\u8fd9\u662f\u4f9b\u7ed9\u504f\u7d27\u7684\u4fe1\u53f7\uff0c\u8fd8\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u3002\u4f46\u5185\u5b58\u662f\u6574\u6761\u4ea7\u4e1a\u94fe\u91cc\u5468\u671f\u6027\u6700\u5f3a\u7684\u4e00\u73af\uff1a\u5386\u53f2\u4e0a\u8fd9\u79cd\u91cf\u7ea7\u7684\u77ed\u7f3a\u90fd\u4f1a\u5f15\u6765\u6269\u4ea7\u6f6e\uff0c\u6700\u540e\u4ee5\u4f9b\u8fc7\u4e8e\u6c42\u548c\u4ef7\u683c\u5d29\u76d8\u6536\u573a\u3002\u540e\u9762\u8981\u76ef\u7684\u662f\u780d\u5355\u6216\u5e93\u5b58\u79ef\u538b\u4f55\u65f6\u51fa\u73b0\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4629,
       "ts": 1790898434,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] China AI Chip Prices Jump 50% as HBM Shortage Bites [2026] - shattered.io",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 11:49:03 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE55T01JdXFPclF6eXp1dUtKV3JjNFZtTXhKb0pwRXlOb3pTclVsZVV3VFluZFR1YlBIWmZpSUpUX1BDVk1YbEVYVlA1ajJEWTVUeEJEc0dSQTlHaEg3WE82eU9DV19sLVk2Q1V5MHgxakg4S1E?oc=5\n\nChina AI Chip Prices Jump 50% as HBM Shortage Bites [2026] - shattered.io\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE55T01JdXFPclF6eXp1dUtKV3JjNFZtTXhKb0pwRXlOb3pTclVsZVV3VFluZFR1YlBIWmZpSUpUX1BDVk1YbEVYVlA1ajJEWTVUeEJEc0dSQTlHaEg3WE82eU9DV19sLVk2Q1V5MHgxakg4S1E?oc=5\" target=\"_blank\">China AI Chip Prices Jump 50% as HBM Shortage Bites [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Chinese AI-chip price report says prices jumped 50% amid an HBM shortage.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u53d7 HBM \u77ed\u7f3a\u5f71\u54cd\uff0c\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\u4e0a\u6da8 50%\u3002\n\nWhy it matters:\nHBM is the binding constraint on AI accelerator output \u2014 a shortage that pushes chip prices up 50% signals supply can't keep pace with AI-capex demand, tightening the whole hardware stack and raising input costs for every downstream buildout.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u4ea7\u80fd\u7684\u74f6\u9888\u2014\u2014\u77ed\u7f3a\u5bfc\u81f4\u82af\u7247\u4ef7\u683c\u66b4\u6da8 50%\uff0c\u8bf4\u660e\u4f9b\u7ed9\u8ddf\u4e0d\u4e0a AI capex \u9700\u6c42\uff0c\u6574\u6761\u786c\u4ef6\u94fe\u6761\u88ab\u6536\u7d27\uff0c\u4e0b\u6e38\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u4e5f\u968f\u4e4b\u62ac\u9ad8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4431,
-      "ts": 1790078716,
-      "ts_str": "2026-09-22 12:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] China AI Chip Prices Jump 50% as HBM Shortage Bites [2026] - shattered.io",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 11:49:03 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE55T01JdXFPclF6eXp1dUtKV3JjNFZtTXhKb0pwRXlOb3pTclVsZVV3VFluZFR1YlBIWmZpSUpUX1BDVk1YbEVYVlA1ajJEWTVUeEJEc0dSQTlHaEg3WE82eU9DV19sLVk2Q1V5MHgxakg4S1E?oc=5\n\nChina AI Chip Prices Jump 50% as HBM Shortage Bites [2026] - shattered.io\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE55T01JdXFPclF6eXp1dUtKV3JjNFZtTXhKb0pwRXlOb3pTclVsZVV3VFluZFR1YlBIWmZpSUpUX1BDVk1YbEVYVlA1ajJEWTVUeEJEc0dSQTlHaEg3WE82eU9DV19sLVk2Q1V5MHgxakg4S1E?oc=5\" target=\"_blank\">China AI Chip Prices Jump 50% as HBM Shortage Bites [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Chinese AI-chip price report says prices jumped 50% amid an HBM shortage.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u79f0\uff0c\u53d7 HBM \u77ed\u7f3a\u5f71\u54cd\uff0c\u4e2d\u56fd AI \u82af\u7247\u4ef7\u683c\u4e0a\u6da8 50%\u3002\n\nWhy it matters:\nHBM is the binding constraint on AI accelerator output \u2014 a shortage that pushes chip prices up 50% signals supply can't keep pace with AI-capex demand, tightening the whole hardware stack and raising input costs for every downstream buildout.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u4ea7\u80fd\u7684\u74f6\u9888\u2014\u2014\u77ed\u7f3a\u5bfc\u81f4\u82af\u7247\u4ef7\u683c\u66b4\u6da8 50%\uff0c\u8bf4\u660e\u4f9b\u7ed9\u8ddf\u4e0d\u4e0a AI capex \u9700\u6c42\uff0c\u6574\u6761\u786c\u4ef6\u94fe\u6761\u88ab\u6536\u7d27\uff0c\u4e0b\u6e38\u5efa\u8bbe\u7684\u91c7\u8d2d\u6210\u672c\u4e5f\u968f\u4e4b\u62ac\u9ad8\u3002\n",
       "emailed": false
     }
   ],
