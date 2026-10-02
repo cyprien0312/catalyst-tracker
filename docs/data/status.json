@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790919123,
-  "generated_at_str": "2026-10-02 05:32:03 UTC",
-  "last_event_ts": 1790918043,
+  "generated_at": 1790919306,
+  "generated_at_str": "2026-10-02 05:35:06 UTC",
+  "last_event_ts": 1790919305,
   "tables": {
     "alerts_dedup": {
-      "count": 4624,
-      "last_ts": 1790915717,
-      "last_str": "2026-10-02 04:35:17 UTC"
+      "count": 4625,
+      "last_ts": 1790919305,
+      "last_str": "2026-10-02 05:35:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-10-02 00:44:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6728,
-      "last_ts": 1790915702,
-      "last_str": "2026-10-02 04:35:02 UTC"
+      "count": 6731,
+      "last_ts": 1790919301,
+      "last_str": "2026-10-02 05:35:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8148,
-      "last_ts": 1790917505,
-      "last_str": "2026-10-02 05:05:05 UTC"
+      "count": 8152,
+      "last_ts": 1790919304,
+      "last_str": "2026-10-02 05:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4789,
-      "last_ts": 1790917504,
-      "last_str": "2026-10-02 05:05:04 UTC"
+      "count": 4793,
+      "last_ts": 1790919303,
+      "last_str": "2026-10-02 05:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6174,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4632,
+      "ts": 1790919305,
+      "ts_str": "2026-10-02 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple gears up to raise prices amid dram NAND shortages - NewsBytes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 02 Oct 2026 02:45:54 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGtBS3ozSGRlTS1XMXNQdHRxXzZWN0VCVHZGQ1J2RDdjWnB4aWZRNE9hcnpMLXFvOF84dnRzM3lVaWZKSkplS0VhMkxUcVRoeE54TjB3Rm15Si02V0ttb2I2UXRzR0xCRzBxN1Zrelh6alFsSVpTVGJrRXNRWVRmdmcwcFRfUEVsUHduTUdmZldiRGllS2JmTlhBLThUN0pkTjBKTQ?oc=5\n\nApple gears up to raise prices amid dram NAND shortages - NewsBytes\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGtBS3ozSGRlTS1XMXNQdHRxXzZWN0VCVHZGQ1J2RDdjWnB4aWZRNE9hcnpMLXFvOF84dnRzM3lVaWZKSkplS0VhMkxUcVRoeE54TjB3Rm15Si02V0ttb2I2UXRzR0xCRzBxN1Zrelh6alFsSVpTVGJrRXNRWVRmdmcwcFRfUEVsUHduTUdmZldiRGllS2JmTlhBLThUN0pkTjBKTQ?oc=5\" target=\"_blank\">Apple gears up to raise prices amid dram NAND shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsBytes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadline reports that Apple is preparing to raise product prices because of DRAM and NAND shortages; the same headline appears twice in the snippet.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u79f0 Apple \u56e0 DRAM \u548c NAND \u77ed\u7f3a\u51c6\u5907\u6da8\u4ef7\uff1bsnippet \u91cc\u540c\u4e00\u6807\u9898\u91cd\u590d\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nMemory supply is tight enough that even Apple, with its scale and long-term supply contracts, plans to pass costs on to buyers. AI servers' heavy demand for HBM and enterprise SSDs is likely pulling wafer capacity away from consumer memory. This is a demand-strength signal, not an oversupply or order-cut signal: AI capex is still squeezing upstream supply. The bubble-stress risk is cost inflation for downstream buyers, not a demand collapse.\n\n\u5f71\u54cd:\n\u5185\u5b58\u4f9b\u5e94\u5df2\u7ecf\u7d27\u5230 Apple \u8fd9\u79cd\u89c4\u6a21\u3001\u624b\u63e1\u957f\u7ea6\u7684\u4e70\u5bb6\u90fd\u8981\u628a\u6210\u672c\u8f6c\u7ed9\u6d88\u8d39\u8005\u3002\u80cc\u540e\u5927\u6982\u7387\u662f AI \u670d\u52a1\u5668\u5bf9 HBM \u548c\u4f01\u4e1a\u7ea7 SSD \u7684\u9700\u6c42\u5728\u62a2\u6676\u5706\u4ea7\u80fd\uff0c\u6324\u5360\u6d88\u8d39\u7ea7\u5185\u5b58\u3002\u8fd9\u662f\u9700\u6c42\u8fc7\u70ed\u4fe1\u53f7\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\u6216\u780d\u5355\u4fe1\u53f7\uff1aAI capex \u4ecd\u5728\u6324\u538b\u4e0a\u6e38\u4f9b\u7ed9\u3002\u5bf9\u6ce1\u6cab\u538b\u529b\u7684\u542b\u4e49\u662f\u4e0b\u6e38\u6210\u672c\u4e0a\u5347\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u5d29\u584c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4631,
       "ts": 1790915717,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] RKLB Stock Rallies After Earning Nasdaq 100 Spot \u2013 SpaceX Could Be Next Under New Rules - Stocktwits",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 03:17:03 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlM1ejdGV0NweEJmanNsdzRheG1jaURFVjJTam9rb210WEpSRTlNaWluZlhTbWpNRkJFZjZDNVl4RlpQdnZSYmM2XzktQ0ViR19iNUF1Q2tod0xybzYzbTMySDRzbDFxMkY3UGI2dlRTOS1TaC1GQ3JXajVrQnRtekQ1dHNNb194allEeXhTZmJra0JmU0VEaE5PT0R2MzY0TWNGQjlQNHZBQ2YyVTNzQ1VfSi1UVjR5OXk3ZTd4dEpnRUt5X21uTUd0Zw?oc=5\n\nRKLB Stock Rallies After Earning Nasdaq 100 Spot \u2013 SpaceX Could Be Next Under New Rules - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlM1ejdGV0NweEJmanNsdzRheG1jaURFVjJTam9rb210WEpSRTlNaWluZlhTbWpNRkJFZjZDNVl4RlpQdnZSYmM2XzktQ0ViR19iNUF1Q2tod0xybzYzbTMySDRzbDFxMkY3UGI2dlRTOS1TaC1GQ3JXajVrQnRtekQ1dHNNb194allEeXhTZmJra0JmU0VEaE5PT0R2MzY0TWNGQjlQNHZBQ2YyVTNzQ1VfSi1UVjR5OXk3ZTd4dEpnRUt5X21uTUd0Zw?oc=5\" target=\"_blank\">RKLB Stock Rallies After Earning Nasdaq 100 Spot \u2013 SpaceX Could Be Next Under New Rules</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nRKLB earned inclusion in the Nasdaq 100 under new eligibility rules, and coverage speculates SpaceX could be next.\n\n\u5185\u5bb9:\nRKLB \u4f9d\u636e\u65b0\u89c4\u5219\u83b7\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\uff0c\u76f8\u5173\u62a5\u9053\u731c\u6d4b SpaceX \u53ef\u80fd\u662f\u4e0b\u4e00\u4e2a\u3002\n\nWhy it matters:\nIndex inclusion forces passive funds (QQQ etc.) to buy regardless of valuation \u2014 a purely mechanical flow event, not a fundamentals signal. If the same pathway opens for SpaceX post-IPO, it front-runs the C11 unlock-and-flow thesis with a second, larger forced-buying catalyst.\n\n\u5f71\u54cd:\n\u6307\u6570\u7eb3\u5165\u4f1a\u5f3a\u5236\u88ab\u52a8\u57fa\u91d1\uff08\u5982 QQQ\uff09\u4e70\u5165\uff0c\u8ddf\u4f30\u503c\u65e0\u5173\u2014\u2014\u8fd9\u662f\u7eaf\u673a\u68b0\u6027\u7684\u8d44\u91d1\u6d41\u4e8b\u4ef6\uff0c\u4e0d\u662f\u57fa\u672c\u9762\u4fe1\u53f7\u3002\u5982\u679c\u540c\u6837\u7684\u8def\u5f84\u672a\u6765\u5bf9 SpaceX IPO \u540e\u5f00\u653e\uff0c\u4f1a\u5728 C11 \u7684\u89e3\u7981+\u6d41\u52a8\u6027\u53d9\u4e8b\u4e4b\u5916\uff0c\u63d0\u524d\u57cb\u4e0b\u7b2c\u4e8c\u4e2a\u3001\u89c4\u6a21\u66f4\u5927\u7684\u88ab\u52a8\u4e70\u76d8\u5f15\u4fe1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4432,
-      "ts": 1790088433,
-      "ts_str": "2026-09-22 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Nasdaq 100 funds forced to buy more SpaceX shar... - Pluang",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 22 Sep 2026 14:15:01 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE0yaHJOQmJSU1JEb0ZBa2VNeGt0WVo3ME5OZWM1SFJwX2YzeW84TFBZVkVFcXB0cHJKMjktNFZsN1BTY2FiU21XWFBXU0VlM1htWThRZnEzNFZlNWo1NkVfVXQtdUlXUjAxU3hUT1lIOWE?oc=5\n\nNasdaq 100 funds forced to buy more SpaceX shar... - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE0yaHJOQmJSU1JEb0ZBa2VNeGt0WVo3ME5OZWM1SFJwX2YzeW84TFBZVkVFcXB0cHJKMjktNFZsN1BTY2FiU21XWFBXU0VlM1htWThRZnEzNFZlNWo1NkVfVXQtdUlXUjAxU3hUT1lIOWE?oc=5\" target=\"_blank\">Nasdaq 100 funds forced to buy more SpaceX shar...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMultiple Google News items report that Nasdaq 100-tracking funds are being forced to buy more SpaceX shares, consistent with a passive-flow mechanic tied to SpaceX's index inclusion.\n\n\u5185\u5bb9:\n\u591a\u6761 Google News \u62a5\u9053\u79f0\uff0c\u8ddf\u8e2a\u7eb3\u65af\u8fbe\u514b 100 \u6307\u6570\u7684\u57fa\u91d1\u88ab\u8feb\u4e70\u5165\u66f4\u591a SpaceX \u80a1\u7968\uff0c\u7b26\u5408 SpaceX \u7eb3\u5165\u6307\u6570\u540e\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u7684\u673a\u5236\u7279\u5f81\u3002\n\nWhy it matters:\nPassive index funds must buy regardless of valuation once a name enters the index, so index-driven demand can prop up the price independent of fundamentals \u2014 a mechanical, not fundamental, tailwind that reverses if SpaceX's weighting or index status changes.\n\n\u5f71\u54cd:\n\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u4e00\u65e6\u67d0\u53ea\u80a1\u7968\u5165\u6307\u6570\uff0c\u4e0d\u8bba\u4f30\u503c\u9ad8\u4f4e\u90fd\u5fc5\u987b\u4e70\u5165\uff0c\u6240\u4ee5\u6307\u6570\u9a71\u52a8\u7684\u9700\u6c42\u80fd\u5728\u57fa\u672c\u9762\u4e4b\u5916\u673a\u68b0\u5730\u6491\u4f4f\u80a1\u4ef7\u2014\u2014\u8fd9\u662f\u673a\u68b0\u6027\u7684\u5229\u597d\uff0c\u4e00\u65e6 SpaceX \u7684\u6743\u91cd\u6216\u6307\u6570\u8eab\u4efd\u6709\u53d8\uff0c\u8fd9\u80a1\u529b\u91cf\u4e5f\u4f1a\u53cd\u8f6c\u3002\n",
       "emailed": false
     }
   ],
