@@ -1,12 +1,12 @@
 {
-  "generated_at": 1790964123,
-  "generated_at_str": "2026-10-02 18:02:03 UTC",
-  "last_event_ts": 1790963222,
+  "generated_at": 1790964310,
+  "generated_at_str": "2026-10-02 18:05:10 UTC",
+  "last_event_ts": 1790964305,
   "tables": {
     "alerts_dedup": {
-      "count": 4638,
-      "last_ts": 1790958926,
-      "last_str": "2026-10-02 16:35:26 UTC"
+      "count": 4639,
+      "last_ts": 1790964305,
+      "last_str": "2026-10-02 18:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-10-02 17:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8190,
-      "last_ts": 1790962506,
-      "last_str": "2026-10-02 17:35:06 UTC"
+      "count": 8194,
+      "last_ts": 1790964304,
+      "last_str": "2026-10-02 18:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4807,
-      "last_ts": 1790962504,
-      "last_str": "2026-10-02 17:35:04 UTC"
+      "count": 4811,
+      "last_ts": 1790964303,
+      "last_str": "2026-10-02 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6213,
-      "last_ts": 1790962508,
-      "last_str": "2026-10-02 17:35:08 UTC"
+      "count": 6219,
+      "last_ts": 1790964305,
+      "last_str": "2026-10-02 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 37623,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4646,
+      "ts": 1790964305,
+      "ts_str": "2026-10-02 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Bernstein: Memory chip shortage to persist until 2028; sets Micron price target at $1,300 - \u5bcc\u9014\u725b\u725b",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 02 Oct 2026 07:23:20 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdm85YW44QjlPN1V2U0k3akhkNVNaeXBXZVRyaHUwRjNSZTZtUW5DV0ktSk1odjlkNm9McTR6WGpiQmpkNWJQMWN3MmdvVzRxaWVXbWJmc1JBMHN5a3E0MVIwWFRldXV2ZWtJOEdCcXhhbmFwWExMMFhwXzN6b2ZTODQ2QUo2c1dSaU9aTV9kb01JODlFaUsxb0RiMkxhbTVzclpNa0RrdzBRYlE?oc=5\n\nBernstein: Memory chip shortage to persist until 2028; sets Micron price target at $1,300 - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdm85YW44QjlPN1V2U0k3akhkNVNaeXBXZVRyaHUwRjNSZTZtUW5DV0ktSk1odjlkNm9McTR6WGpiQmpkNWJQMWN3MmdvVzRxaWVXbWJmc1JBMHN5a3E0MVIwWFRldXV2ZWtJOEdCcXhhbmFwWExMMFhwXzN6b2ZTODQ2QUo2c1dSaU9aTV9kb01JODlFaUsxb0RiMkxhbTVzclpNa0RrdzBRYlE?oc=5\" target=\"_blank\">Bernstein: Memory chip shortage to persist until 2028; sets Micron price target at $1,300</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein says the memory chip shortage will last until 2028 and set a $1,300 price target on Micron (MU).\n\n\u5185\u5bb9:\nBernstein \u8ba4\u4e3a\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u4f1a\u6301\u7eed\u5230 2028 \u5e74\uff0c\u5e76\u7ed9 Micron (MU) \u5b9a\u4e86 $1,300 \u7684\u76ee\u6807\u4ef7\u3002\n\nWhy it matters:\nA shortage forecast running to 2028 means AI demand for DRAM/HBM is still running ahead of supply, and memory makers keep pricing power. A shortage like this also inflates hyperscaler capex per unit of compute. If AI demand cools, today's capacity build-out turns into the next oversupply and price crash, as in past memory cycles.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u9884\u671f\u4e00\u76f4\u5ef6\u7eed\u5230 2028 \u5e74\uff0c\u8bf4\u660e AI \u5bf9 DRAM/HBM \u7684\u9700\u6c42\u4ecd\u7136\u8dd1\u5728\u4f9b\u7ed9\u524d\u9762\uff0c\u5b58\u50a8\u5382\u5546\u63e1\u7740\u5b9a\u4ef7\u6743\u3002\u8fd9\u79cd\u77ed\u7f3a\u4e5f\u4f1a\u63a8\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\u3002\u4e00\u65e6 AI \u9700\u6c42\u964d\u6e29\uff0c\u773c\u4e0b\u6269\u51fa\u6765\u7684\u4ea7\u80fd\u5c31\u662f\u4e0b\u4e00\u8f6e\u8fc7\u5269\u548c\u4ef7\u683c\u66b4\u8dcc\u7684\u6765\u6e90\uff0c\u4ee5\u5f80\u7684\u5b58\u50a8\u5468\u671f\u90fd\u662f\u8fd9\u4e48\u8d70\u7684\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4644,
       "ts": 1790958926,
@@ -2306,16 +2316,6 @@
       "subject": "[C11-HIGH] SpaceX (SPCX.US) sees first signs of executive share sales post-IPO, with president planning to sell $52 million in stoc",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 07:49:58 GMT\nLink:      https://news.google.com/rss/articles/CBMipwFBVV95cUxNai1pWWdwSHBzQXFScWxCZElYdzBqVml2T3pTNndKNEVqWHFPeXZsdmw3YmVNODFOTzNucGlIQWRNa0FCdGdnNldQbmtTTURPdzQwS2d1Rm1aV2RtOGFiSnNSOEZGWWNMYkRxY2xodmJsdzRHUGJWRGJpcjFKZ18tcnY0Ti1LVlpZcGJ1SlR2SzFHMzRRMVlfV2h0M1JsWWZUZGhuaGl5NA?oc=5\n\nSpaceX (SPCX.US) sees first signs of executive share sales post-IPO, with president planning to sell $52 million in stock ahead of Starship\u2019s inaugural orbital test - Moomoo\n\n<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNai1pWWdwSHBzQXFScWxCZElYdzBqVml2T3pTNndKNEVqWHFPeXZsdmw3YmVNODFOTzNucGlIQWRNa0FCdGdnNldQbmtTTURPdzQwS2d1Rm1aV2RtOGFiSnNSOEZGWWNMYkRxY2xodmJsdzRHUGJWRGJpcjFKZ18tcnY0Ti1LVlpZcGJ1SlR2SzFHMzRRMVlfV2h0M1JsWWZUZGhuaGl5NA?oc=5\" target=\"_blank\">SpaceX (SPCX.US) sees first signs of executive share sales post-IPO, with president planning to sell $52 million in stock ahead of Starship\u2019s inaugural orbital test</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": false
-    },
-    {
-      "id": 4446,
-      "ts": 1790151246,
-      "ts_str": "2026-09-23 08:14 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank Bond Deal Targets $10 Billion For OpenAI - StratNews Global",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 07:37:37 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE5Ld0pzQ0RSUFk0b2VYSmRfVkVCbURWVFcxRXRvajhHbGNMUURtcG5zV1VaaHFzR1lMazRPaWY5NDIzSEsyU2lDQ0pGMjBRS3AxUU5iNjdIazlKRjdoUldKbFdYYXBBZ1hQSGNEeloySUZ1dGs?oc=5\n\nSoftBank Bond Deal Targets $10 Billion For OpenAI - StratNews Global\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5Ld0pzQ0RSUFk0b2VYSmRfVkVCbURWVFcxRXRvajhHbGNMUURtcG5zV1VaaHFzR1lMazRPaWY5NDIzSEsyU2lDQ0pGMjBRS3AxUU5iNjdIazlKRjdoUldKbFdYYXBBZ1hQSGNEeloySUZ1dGs?oc=5\" target=\"_blank\">SoftBank Bond Deal Targets $10 Billion For OpenAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StratNews Global</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
-      "emailed": true
     }
   ],
   "catalysts": [
