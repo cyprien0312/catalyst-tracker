@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-05 21:26:19 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-05 21:29:41 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,92 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4677" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.92% ≥ 2.50%</span>
+    <span class="meta">2026-10-05 21:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-02
+Current:  2.92%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year US Treasury real (TIPS) yield printed 2.92% on 2026-10-02, above the 2.5% stress level and up from 2.88% on 2026-10-01.
+
+内容:
+美国 10 年期国债实际收益率（TIPS）在 2026-10-02 报 2.92%，高于 2.5% 的压力线，前一天（2026-10-01）是 2.88%。
+
+Why it matters:
+A real yield near 3% raises the discount rate on long-duration growth equity and makes debt-funded AI capex more expensive. It also tightens liquidity for the high-multiple names whose valuations rest on payoffs years out. Sustained readings at this level squeeze the AI-capex payback math from the financing side.
+
+影响:
+实际利率逼近 3%，长久期成长股的折现率随之抬高，靠举债推进的 AI capex 融资成本也跟着上升。估值押在多年后回报的高估值股票，流动性会被收紧。实际利率长期停在这个水平，AI capex 的回本账会从融资端被挤压。
+</pre>
+  <button class="mark-read" type="button" data-id="4677">mark read</button>
+</details>
+
+<details class="alert sev-MED" data-id="4675" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] Broad USD Index rising: 121.4 (+3.0% off 90d-low)</span>
+    <span class="meta">2026-10-05 21:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   USD (DTWEXBGS)
+Date:     2026-10-02
+Current:  121.4
+90d low:  117.9
+Move:     +3.0% off 90d-low (fire ≥ +2.5%)
+
+────────────────────────────────────────────────────────────
+What this means:
+The Fed&#39;s broad trade-weighted US dollar index (FRED DTWEXBGS) hit 121.385 on 2026-10-02. That is 2.97% above its trailing-90-day low of 117.883.
+
+内容:
+美联储广义贸易加权美元指数（FRED DTWEXBGS）2026-10-02 报 121.385，比过去 90 天低点 117.883 高出 2.97%。
+
+Why it matters:
+A fast dollar rally tightens global financial conditions: offshore dollar funding costs more, and the overseas revenue of US megacaps shrinks when converted back. Combined with a 10y real yield near 2.88% (FRED DFII10, 2026-10-01), it raises the discount rate on long-duration AI-capex payback stories and drains the cheap liquidity that has funded them.
+
+影响:
+美元快速走强会收紧全球金融条件：离岸美元融资变贵，美国大型科技股的海外收入换算回来也会缩水。10 年期实际利率还在 2.88% 左右（FRED DFII10，2026-10-01），两者叠在一起，抬高了回本周期很长的 AI capex 故事的折现率，也在抽走一直给这些投入输血的廉价流动性。
+</pre>
+  <button class="mark-read" type="button" data-id="4675">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="4676" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield rising: 2.92% (+86bp off 90d-low)</span>
+    <span class="meta">2026-10-05 21:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-02
+Current:  2.92%
+90d low:  2.06%
+Move:     +86bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year US real (TIPS) yield hit 2.92% on 2026-10-02. That is 0.86 pp above its trailing-90-day low of 2.06%.
+
+内容:
+2026-10-02,美国 10 年期实际收益率(TIPS)升到 2.92%,比过去 90 天的低点 2.06% 高 0.86 个百分点。
+
+Why it matters:
+A higher real yield raises the discount rate applied to long-duration AI earnings. It also makes debt-funded capex more expensive at the moment hyperscalers and neoclouds are leaning on credit. A fast rise of nearly 90 bp tightens liquidity and puts pressure on the valuations that hold up the AI-capex cycle.
+
+影响:
+实际收益率升高,AI 公司远期利润的折现率也跟着升,估值因此承压。超大规模厂商和 neocloud 正在大量举债扩产,借钱建设的成本也被抬高了。不到 90 天升了近 90 个基点,流动性明显收紧,撑着 AI capex 周期的估值会受压。
+</pre>
+  <button class="mark-read" type="button" data-id="4676">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4674" data-catalyst="C3" data-severity="MED">
   <summary>
@@ -6149,98 +6235,20 @@ Up-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour
   <button class="mark-read" type="button" data-id="4478">mark read</button>
 </details>
 
-<details class="alert sev-HIGH" data-id="4477" data-catalyst="C11" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C11</code>
-    <span class="subj">[C11-HIGH] SPCX Stock Under Pressure As Retail Frets Over Another Lockup Release — A Secret Space Force Deal Looms - Yahoo Finance</span>
-    <span class="meta">2026-09-24 04:47 UTC · muted</span>
-  </summary>
-  <pre>Severity:  HIGH
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 24 Sep 2026 01:51:00 GMT
-Link:      https://news.google.com/rss/articles/CBMingFBVV95cUxNUk9udGgwRWY0SXZic3F2cF9ka0FWczk0RVc3c0REYnlXeXNSYVRrTXNscFBUY2lJWjJvMlVjZ3JKc2Fra1lWcm8zaEpVMkVVVVEwb1VOekp6MXYzc3ctT1N0cVJWTWpVOGY1OUxNUjg1RUZYMjRUTTRzRG9QYWluZkhsN0dHNjMyWG5iVUpneW5teU5xMm1ZdkZuY21vQQ?oc=5
-
-SPCX Stock Under Pressure As Retail Frets Over Another Lockup Release — A Secret Space Force Deal Looms - Yahoo Finance
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMingFBVV95cUxNUk9udGgwRWY0SXZic3F2cF9ka0FWczk0RVc3c0REYnlXeXNSYVRrTXNscFBUY2lJWjJvMlVjZ3JKc2Fra1lWcm8zaEpVMkVVVVEwb1VOekp6MXYzc3ctT1N0cVJWTWpVOGY1OUxNUjg1RUZYMjRUTTRzRG9QYWluZkhsN0dHNjMyWG5iVUpneW5teU5xMm1ZdkZuY21vQQ?oc=5&#34; target=&#34;_blank&#34;&gt;SPCX Stock Under Pressure As Retail Frets Over Another Lockup Release — A Secret Space Force Deal Looms&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Yahoo Finance&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-News pairs SpaceX with unlock / share-sale / dilution language.
-
-Why it matters:
-Confirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from &#39;index inclusion demand&#39; to &#39;supply overhang&#39; — that rotation historically marks the top of index-inclusion pops.
-</pre>
-  <button class="mark-read" type="button" data-id="4477">mark read</button>
-</details>
-
-<details class="alert sev-HIGH" data-id="4476" data-catalyst="C11" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C11</code>
-    <span class="subj">[C11-HIGH] SpaceX Unlocks 328 Million Shares Ahead of IPO Lockup Expiration - Intellectia AI</span>
-    <span class="meta">2026-09-24 03:47 UTC · muted</span>
-  </summary>
-  <pre>Severity:  HIGH
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 24 Sep 2026 00:16:23 GMT
-Link:      https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1cxRTF5aUFaRm54TW4xOXVyYURjdjVXelpWbWNsT0NGQ1gwZjNPeGR6SkpaTVAzeVA5NGJEYnNYak1Wc2JkTFlQaWpJckV3QXIzYnpKdEp2a2R1ektLNVNKRXYwMkduYVFFYU5yTUZ1LXpqR2U1TndhS1lROU41SC1YNWQzSGFuU3Y4TzRIcUhMdENsdU01M3pEZ1BVQzA?oc=5
-
-SpaceX Unlocks 328 Million Shares Ahead of IPO Lockup Expiration - Intellectia AI
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1cxRTF5aUFaRm54TW4xOXVyYURjdjVXelpWbWNsT0NGQ1gwZjNPeGR6SkpaTVAzeVA5NGJEYnNYak1Wc2JkTFlQaWpJckV3QXIzYnpKdEp2a2R1ektLNVNKRXYwMkduYVFFYU5yTUZ1LXpqR2U1TndhS1lROU41SC1YNWQzSGFuU3Y4TzRIcUhMdENsdU01M3pEZ1BVQzA?oc=5&#34; target=&#34;_blank&#34;&gt;SpaceX Unlocks 328 Million Shares Ahead of IPO Lockup Expiration&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Intellectia AI&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-News pairs SpaceX with unlock / share-sale / dilution language.
-
-Why it matters:
-Confirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from &#39;index inclusion demand&#39; to &#39;supply overhang&#39; — that rotation historically marks the top of index-inclusion pops.
-</pre>
-  <button class="mark-read" type="button" data-id="4476">mark read</button>
-</details>
-
-<details class="alert sev-CRITICAL" data-id="4475" data-catalyst="C3" data-severity="CRITICAL">
-  <summary>
-    <span class="sev sev-bg-CRITICAL">CRITICAL</span>
-    <code>C3</code>
-    <span class="subj">[C3-CRITICAL] SoftBank takes on junk-bond debt at record yields to fund OpenAI ambitions - The Japan Times</span>
-    <span class="meta">2026-09-24 03:44 UTC</span>
-  </summary>
-  <pre>Severity:  CRITICAL
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 24 Sep 2026 03:27:00 GMT
-Link:      https://news.google.com/rss/articles/CBMimgFBVV95cUxPb0tObEZ2Ui1xQzdTSjhyODVkVUk2Z1Y4WDNNLXF4X2dYZVNaem05ZnVmOWxXT3VTRm80czkzc2Iyd1c4OURiVmdHNGlsQ1l5QU9CNklyZzA4NVByNk9mVHd3bHdSRGdVNUMxZWIxNExXbTVXVWFrNWJQaUdnYVRVYnlIN3JpNk0yUXpNNDB0b1ZXUExQTkNoeXZ3?oc=5
-
-SoftBank takes on junk-bond debt at record yields to fund OpenAI ambitions - The Japan Times
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMimgFBVV95cUxPb0tObEZ2Ui1xQzdTSjhyODVkVUk2Z1Y4WDNNLXF4X2dYZVNaem05ZnVmOWxXT3VTRm80czkzc2Iyd1c4OURiVmdHNGlsQ1l5QU9CNklyZzA4NVByNk9mVHd3bHdSRGdVNUMxZWIxNExXbTVXVWFrNWJQaUdnYVRVYnlIN3JpNk0yUXpNNDB0b1ZXUExQTkNoeXZ3?oc=5&#34; target=&#34;_blank&#34;&gt;SoftBank takes on junk-bond debt at record yields to fund OpenAI ambitions&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;The Japan Times&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).
-
-Why it matters:
-OpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack — read the linked source immediately.
-</pre>
-  <button class="mark-read" type="button" data-id="4475">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4667</td>
-<td>2026-10-05 18:14:16 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4670</td>
+<td>2026-10-05 21:29:36 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>88</td>
-<td>2026-10-02 22:29:13 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>91</td>
+<td>2026-10-05 21:29:24 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
