@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791174723,
-  "generated_at_str": "2026-10-05 04:32:03 UTC",
-  "last_event_ts": 1791173643,
+  "generated_at": 1791174920,
+  "generated_at_str": "2026-10-05 04:35:20 UTC",
+  "last_event_ts": 1791174920,
   "tables": {
     "alerts_dedup": {
-      "count": 4659,
-      "last_ts": 1791164824,
-      "last_str": "2026-10-05 01:47:04 UTC"
+      "count": 4660,
+      "last_ts": 1791174920,
+      "last_str": "2026-10-05 04:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-10-05 00:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6858,
-      "last_ts": 1791171302,
-      "last_str": "2026-10-05 03:35:02 UTC"
+      "count": 6859,
+      "last_ts": 1791174903,
+      "last_str": "2026-10-05 04:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8310,
-      "last_ts": 1791171305,
-      "last_str": "2026-10-05 03:35:05 UTC"
+      "count": 8313,
+      "last_ts": 1791174904,
+      "last_str": "2026-10-05 04:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 4851,
@@ -94,9 +94,9 @@
       "last_str": "2026-10-05 04:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6302,
-      "last_ts": 1791173103,
-      "last_str": "2026-10-05 04:05:03 UTC"
+      "count": 6304,
+      "last_ts": 1791174904,
+      "last_str": "2026-10-05 04:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 38051,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4667,
+      "ts": 1791174920,
+      "ts_str": "2026-10-05 04:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple raises MacBook and iPad prices amid memory chip shortage - NewsBytes",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 05 Oct 2026 04:30:04 GMT\nLink:      https://news.google.com/rss/articles/CBMirgFBVV95cUxQZncyTk03YTM5TlFkbDJHSG1KdXJMR21zNnhCODY1Y0dkUWhTNExsTld4SVBtU1dKaG5GRlNaTk9xNG9hczV6TjNaczFnTTZLcnlaQXBadkEwRml0eVk1dXBsWDZUMGFBbkRvVDVqS3NKREIwWm05dVZxZ3d5ZnNDN0VUZTRFa2ItcWlYZG5QU0VWamdTakJ3N0s5Sl90RjU1dlF0cGk4VTFYa0tObFE?oc=5\n\nApple raises MacBook and iPad prices amid memory chip shortage - NewsBytes\n\n<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQZncyTk03YTM5TlFkbDJHSG1KdXJMR21zNnhCODY1Y0dkUWhTNExsTld4SVBtU1dKaG5GRlNaTk9xNG9hczV6TjNaczFnTTZLcnlaQXBadkEwRml0eVk1dXBsWDZUMGFBbkRvVDVqS3NKREIwWm05dVZxZ3d5ZnNDN0VUZTRFa2ItcWlYZG5QU0VWamdTakJ3N0s5Sl90RjU1dlF0cGk4VTFYa0tObFE?oc=5\" target=\"_blank\">Apple raises MacBook and iPad prices amid memory chip shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsBytes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nApple raised MacBook and iPad prices and attributed the increase to a memory chip shortage.\n\n\u5185\u5bb9:\nApple \u4e0a\u8c03\u4e86 MacBook \u548c iPad \u7684\u552e\u4ef7\uff0c\u7ed9\u51fa\u7684\u7406\u7531\u662f\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u3002\n\nWhy it matters:\nMemory scarcity has stopped being a component-cost story and is now showing up in consumer retail prices. This fits AI data centers soaking up DRAM/HBM/NAND supply and crowding out consumer electronics, so AI capex demand is still running hot. The counter-risk: if the shortage is driving price hikes now, it can flip into oversupply once hyperscaler orders slow.\n\n\u5f71\u54cd:\n\u5185\u5b58\u7d27\u7f3a\u5df2\u7ecf\u4ece\u96f6\u90e8\u4ef6\u6210\u672c\u4f20\u5bfc\u5230\u6d88\u8d39\u7535\u5b50\u7684\u96f6\u552e\u4ef7\u3002\u539f\u56e0\u662f AI \u6570\u636e\u4e2d\u5fc3\u5927\u91cf\u5403\u6389 DRAM/HBM/NAND \u4ea7\u80fd\uff0c\u6324\u5360\u4e86\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u5e94\uff0c\u8bf4\u660e AI capex \u9700\u6c42\u4ecd\u7136\u5f88\u65fa\u3002\u53cd\u5411\u98ce\u9669\u662f\uff1a\u773c\u4e0b\u77ed\u7f3a\u63a8\u7740\u6da8\u4ef7\uff0c\u4e00\u65e6 hyperscaler \u653e\u6162\u4e0b\u5355\uff0c\u5c31\u4f1a\u8f6c\u6210\u4f9b\u8fc7\u4e8e\u6c42\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4666,
       "ts": 1791164824,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs - Newstrack English",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 09:18:46 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxNalhrUDdKMndOLXZGeTJaVFJoSUdQWGwycjJleWtPMEFyTXB2REs3dnhSY3FQRWZxdkNTR1lsc25FMlNFbVdrZzhIY2hyWkFKenFEN0h4V0FGODFRdUxBV2N3TEVVckJsMkoydjE0RE5kSW95aVlqbTJhbGw2dkt4WEM0Z2g0WGd6ZV9zUWRqaURfQ1dLb1piSDAwT0tRVXcwdEQ3UXZtQVBXZFVfMlBldDNlZjQ5TEVMV0ZZ0gHAAUFVX3lxTE1IVU83S2NDTlJmQ3dxQWRGWk9ic0dJcENFd3ZOZmVEbmFyM2JpM2lzS29pRnNVQ3NldnBYd05XTFJiWVZXNlJyalEweGpZQ3pKZjA2RTh5eC1qVUxqSkg0dkJiV1FodXpUUzBydUd6ZmwtT0o0enJVaWgtTHZNWEk3TmYtdmVvUVJReWJNRU9LZE1vdDlWYTBBT3BLUU9LbUJvSmVWWjNwSTVOU2ZUaDV2NGt5aU4zcHFFSWR6OHJGbw?oc=5\n\nSamsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs - Newstrack English\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNalhrUDdKMndOLXZGeTJaVFJoSUdQWGwycjJleWtPMEFyTXB2REs3dnhSY3FQRWZxdkNTR1lsc25FMlNFbVdrZzhIY2hyWkFKenFEN0h4V0FGODFRdUxBV2N3TEVVckJsMkoydjE0RE5kSW95aVlqbTJhbGw2dkt4WEM0Z2g0WGd6ZV9zUWRqaURfQ1dLb1piSDAwT0tRVXcwdEQ3UXZtQVBXZFVfMlBldDNlZjQ5TEVMV0ZZ0gHAAUFVX3lxTE1IVU83S2NDTlJmQ3dxQWRGWk9ic0dJcENFd3ZOZmVEbmFyM2JpM2lzS29pRnNVQ3NldnBYd05XTFJiWVZXNlJyalEweGpZQ3pKZjA2RTh5eC1qVUxqSkg0dkJiV1FodXpUUzBydUd6ZmwtT0o0enJVaWgtTHZNWEk3TmYtdmVvUVJReWJNRU9LZE1vdDlWYTBBT3BLUU9LbUJvSmVWWjNwSTVOU2ZUaDV2NGt5aU4zcHFFSWR6OHJGbw?oc=5\" target=\"_blank\">Samsung Hikes Galaxy S26 Prices in India After Apple, Citing Rising Memory Chip Costs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newstrack English</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 4467,
-      "ts": 1790189225,
-      "ts_str": "2026-09-23 18:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] SpaceX Faces Another Share Unlock as Investors Watch Supply - Yahoo Finance",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 23 Sep 2026 15:49:51 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWxycWlfYUUzWVByazh4RWNHZUNGX2h3UTJtX191Zk9KWlVqNG9WUF9rYzd0X3pzY25xTzBncnBjakQ3d0o0NTBMRVUyNkprcUZLb3R1SUxueDkydGl2WVJ3cUYwUnhidjFTWDA2cEpWYVhjT01VZmtNZjdhRF9JWlhTVk1wZ09TYmxLakgxMWhkTVUwLWhZQUpTS1JWWjA?oc=5\n\nSpaceX Faces Another Share Unlock as Investors Watch Supply - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWxycWlfYUUzWVByazh4RWNHZUNGX2h3UTJtX191Zk9KWlVqNG9WUF9rYzd0X3pzY25xTzBncnBjakQ3d0o0NTBMRVUyNkprcUZLb3R1SUxueDkydGl2WVJ3cUYwUnhidjFTWDA2cEpWYVhjT01VZmtNZjdhRF9JWlhTVk1wZ09TYmxLakgxMWhkTVUwLWhZQUpTS1JWWjA?oc=5\" target=\"_blank\">SpaceX Faces Another Share Unlock as Investors Watch Supply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": false
     }
   ],
