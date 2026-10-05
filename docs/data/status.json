@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791223323,
-  "generated_at_str": "2026-10-05 18:02:03 UTC",
-  "last_event_ts": 1791222433,
+  "generated_at": 1791223508,
+  "generated_at_str": "2026-10-05 18:05:08 UTC",
+  "last_event_ts": 1791223507,
   "tables": {
     "alerts_dedup": {
-      "count": 4665,
-      "last_ts": 1791222433,
-      "last_str": "2026-10-05 17:47:13 UTC"
+      "count": 4666,
+      "last_ts": 1791223507,
+      "last_str": "2026-10-05 18:05:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-10-05 17:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6883,
-      "last_ts": 1791221702,
-      "last_str": "2026-10-05 17:35:02 UTC"
+      "count": 6884,
+      "last_ts": 1791223501,
+      "last_str": "2026-10-05 18:05:01 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8341,
-      "last_ts": 1791221705,
-      "last_str": "2026-10-05 17:35:05 UTC"
+      "count": 8344,
+      "last_ts": 1791223505,
+      "last_str": "2026-10-05 18:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4861,
-      "last_ts": 1791218103,
-      "last_str": "2026-10-05 16:35:03 UTC"
+      "count": 4862,
+      "last_ts": 1791223503,
+      "last_str": "2026-10-05 18:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6355,
-      "last_ts": 1791221706,
-      "last_str": "2026-10-05 17:35:06 UTC"
+      "count": 6359,
+      "last_ts": 1791223506,
+      "last_str": "2026-10-05 18:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 38296,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4673,
+      "ts": 1791223506,
+      "ts_str": "2026-10-05 18:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years - TechPowerUp",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 05 Oct 2026 15:10:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiwwFBVV95cUxPREhTTjhuVnVKcUVBRi1QTlRmb3NZSnJaSlpLWElJanVjM1FXZTc5SVV6R280aVZsVEItdVFfb2ZBcS1BWlFKWG5oNDlONFNXWkh2OGU0S2prcms3V1BtT2NCakNqdmVvN0M5Vjc4ckZFZlQtVWNyNGR6ZlNxWWVSNy15SkVvdm54M2wzUkZEZEdiZDJmeG40YWFOX0pGTTY0b19iQTladVlJLTA0RDNqSXRhRklHZHQwSnlkT3hZb2cyNmPSAcMBQVVfeXFMT0RIU044blZ1SnFFQUYtUE5UZm9zWUpyWkpaS1hJSWp1YzNRV2U3OUlVekdvNGlWbFRCLXVRX29mQXEtQVpRSlhuaDQ5TjRTV1pIdjhlNEtqa3JrN1dQbU9jQmpDanZlbzdDOVY3OHJGRWZULVVjcjRkemZTcVllUjcteUpFb3ZueDNsM1JGRGRHYmQyZnhuNGFhTl9KRk02NG9fYkE5WnVZSS0wNEQzakl0YUZJR2R0MEp5ZE94WW9nMjZj?oc=5\n\nChinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years - TechPowerUp\n\n<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPREhTTjhuVnVKcUVBRi1QTlRmb3NZSnJaSlpLWElJanVjM1FXZTc5SVV6R280aVZsVEItdVFfb2ZBcS1BWlFKWG5oNDlONFNXWkh2OGU0S2prcms3V1BtT2NCakNqdmVvN0M5Vjc4ckZFZlQtVWNyNGR6ZlNxWWVSNy15SkVvdm54M2wzUkZEZEdiZDJmeG40YWFOX0pGTTY0b19iQTladVlJLTA0RDNqSXRhRklHZHQwSnlkT3hZb2cyNmPSAcMBQVVfeXFMT0RIU044blZ1SnFFQUYtUE5UZm9zWUpyWkpaS1hJSWp1YzNRV2U3OUlVekdvNGlWbFRCLXVRX29mQXEtQVpRSlhuaDQ5TjRTV1pIdjhlNEtqa3JrN1dQbU9jQmpDanZlbzdDOVY3OHJGRWZULVVjcjRkemZTcVllUjcteUpFb3ZueDNsM1JGRGRHYmQyZnhuNGFhTl9KRk02NG9fYkE5WnVZSS0wNEQzakl0YUZJR2R0MEp5ZE94WW9nMjZj?oc=5\" target=\"_blank\">Chinese NAND Maker YMTC Reportedly Expects Memory Shortage to Last Another Three Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechPowerUp</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChinese NAND maker YMTC reportedly expects the memory shortage to last about three more years. This is a press report, not a company filing, so the figure is unconfirmed.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0c\u4e2d\u56fd NAND \u5382\u5546 YMTC \u9884\u8ba1\u5185\u5b58\u77ed\u7f3a\u8fd8\u4f1a\u6301\u7eed\u7ea6 3 \u5e74\u3002\u8fd9\u662f\u5a92\u4f53\u8f6c\u8ff0\uff0c\u4e0d\u662f\u516c\u53f8\u516c\u544a\uff0c\u8fd9\u4e2a\u6570\u5b57\u6ca1\u6709\u5f97\u5230\u786e\u8ba4\u3002\n\nWhy it matters:\nA multi-year shortage means AI servers keep absorbing DRAM/NAND/HBM supply faster than fabs can add it, which pushes up memory costs per unit of hyperscaler capex. Memory is a classic boom-bust cycle. When suppliers forecast a long tight market, they tend to over-add capacity, and that sets up the oversupply leg that C6 watches for.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u6301\u7eed\u591a\u5e74\uff0c\u8bf4\u660e AI \u670d\u52a1\u5668\u5403\u6389 DRAM/NAND/HBM \u7684\u901f\u5ea6\u8d85\u8fc7\u6676\u5706\u5382\u6269\u4ea7\u7684\u901f\u5ea6\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u540c\u6837\u7684 capex \u4e70\u5230\u7684\u5185\u5b58\u66f4\u5c11\u3002\u5185\u5b58\u662f\u5178\u578b\u7684\u5468\u671f\u884c\u4e1a\u3002\u5382\u5546\u666e\u904d\u9884\u671f\u957f\u671f\u7d27\u7f3a\u65f6\uff0c\u5f80\u5f80\u4f1a\u8fc7\u5ea6\u6269\u4ea7\uff0c\u8fd9\u5c31\u57cb\u4e0b\u4e86 C6 \u8981\u76ef\u7684\u4f9b\u8fc7\u4e8e\u6c42\u90a3\u4e00\u6bb5\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4672,
       "ts": 1791222433,
@@ -2306,16 +2316,6 @@
       "subject": "[C11-HIGH] SPCX Stock Under Pressure As Retail Frets Over Another Lockup Release \u2014 A Secret Space Force Deal Looms - TradingView",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 01:51:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi9AFBVV95cUxOS1lYWDlha3JrNVJUTGVUNTJ3empremZMWVhaNzdqajlpd3V4dkNyLWRUZ3lwbDNrUE5qTElPLWJnWWwteWVPeGp3ZUdVTHRBZGtGaUJtdmQxZHFzQmNjeG9UT1JRY2gyelh4dkN3SWVSbDdPRlJtMTY3WWxYeTVhTElzMkJXbWJYZGpRQzBrbmxTZEhMdHYzSFFJU2pwUDFvWkpFUExBUWdFV0ttYWwzYWtLUkZFSWNYbW9meE9fR0pzSUd1VkZfVldnN2hxbjFjcHBfaDcxU2pBTzJFMEJHNllHOXZkZmk5ZmVRNDFoQVkyUkFi?oc=5\n\nSPCX Stock Under Pressure As Retail Frets Over Another Lockup Release \u2014 A Secret Space Force Deal Looms - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxOS1lYWDlha3JrNVJUTGVUNTJ3empremZMWVhaNzdqajlpd3V4dkNyLWRUZ3lwbDNrUE5qTElPLWJnWWwteWVPeGp3ZUdVTHRBZGtGaUJtdmQxZHFzQmNjeG9UT1JRY2gyelh4dkN3SWVSbDdPRlJtMTY3WWxYeTVhTElzMkJXbWJYZGpRQzBrbmxTZEhMdHYzSFFJU2pwUDFvWkpFUExBUWdFV0ttYWwzYWtLUkZFSWNYbW9meE9fR0pzSUd1VkZfVldnN2hxbjFjcHBfaDcxU2pBTzJFMEJHNllHOXZkZmk5ZmVRNDFoQVkyUkFi?oc=5\" target=\"_blank\">SPCX Stock Under Pressure As Retail Frets Over Another Lockup Release \u2014 A Secret Space Force Deal Looms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": false
-    },
-    {
-      "id": 4473,
-      "ts": 1790212447,
-      "ts_str": "2026-09-24 01:14 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet - CNBC",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 00:59:00 GMT\nLink:      https://news.google.com/rss/articles/CBMifkFVX3lxTFBncms4eVRRNGEtUlp3NnJPZ1FaMUZVS21KVEZlOHpPLXlYNXpvT1pwX3psREpJbG9oOXpyQnZpNVR5cHliQTc3TzBGeTFocjJlMW9OUmtOcGhHREY2UnRHa0gyOFVTQVZxODZEeThhajNmYmpJeVVKRTZuclBVd9IBgwFBVV95cUxQaUVhS1dzUlJFSEJCWW04TlcxUXJYTGUwNzhkY2EyTU9yZ1IwVXpFZTMtQVR1T0tKNTRZQ3daeXRDbVltUzZZZFVLU29nVEtVUVpzMndoLW1mTklBWFVmNnB6QzRsdDdaMWpQLWhsdWtFTUFwQ01XUUQtMU1EN0hlZnlTdw?oc=5\n\nSoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet - CNBC\n\n<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBncms4eVRRNGEtUlp3NnJPZ1FaMUZVS21KVEZlOHpPLXlYNXpvT1pwX3psREpJbG9oOXpyQnZpNVR5cHliQTc3TzBGeTFocjJlMW9OUmtOcGhHREY2UnRHa0gyOFVTQVZxODZEeThhajNmYmpJeVVKRTZuclBVd9IBgwFBVV95cUxQaUVhS1dzUlJFSEJCWW04TlcxUXJYTGUwNzhkY2EyTU9yZ1IwVXpFZTMtQVR1T0tKNTRZQ3daeXRDbVltUzZZZFVLU29nVEtVUVpzMndoLW1mTklBWFVmNnB6QzRsdDdaMWpQLWhsdWtFTUFwQ01XUUQtMU1EN0hlZnlTdw?oc=5\" target=\"_blank\">SoftBank shares jump over 7% after $11.1 billion bond issuance to fund OpenAI bet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item or MSFT filing mentions OpenAI near a CRITICAL-tier financial keyword (bond, prospectus, default, covenant, write-down, impair, restructuring, going-concern).\n\nWhy it matters:\nOpenAI is the linchpin AI customer for MSFT, the largest single tenant for many neoclouds, and a marquee buyer of NVDA chips. Any genuine financial-distress signal at OpenAI would cascade through every layer of the AI-infrastructure stack \u2014 read the linked source immediately.\n",
-      "emailed": true
     }
   ],
   "catalysts": [
