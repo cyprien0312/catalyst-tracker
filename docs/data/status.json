@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791304323,
-  "generated_at_str": "2026-10-06 16:32:03 UTC",
-  "last_event_ts": 1791303245,
+  "generated_at": 1791304520,
+  "generated_at_str": "2026-10-06 16:35:20 UTC",
+  "last_event_ts": 1791304520,
   "tables": {
     "alerts_dedup": {
-      "count": 4684,
-      "last_ts": 1791287237,
-      "last_str": "2026-10-06 11:47:17 UTC"
+      "count": 4687,
+      "last_ts": 1791304520,
+      "last_str": "2026-10-06 16:35:20 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-10-06 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6930,
-      "last_ts": 1791302702,
-      "last_str": "2026-10-06 16:05:02 UTC"
+      "count": 6932,
+      "last_ts": 1791304502,
+      "last_str": "2026-10-06 16:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8406,
-      "last_ts": 1791302705,
-      "last_str": "2026-10-06 16:05:05 UTC"
+      "count": 8408,
+      "last_ts": 1791304505,
+      "last_str": "2026-10-06 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4879,
-      "last_ts": 1791286503,
-      "last_str": "2026-10-06 11:35:03 UTC"
+      "count": 4880,
+      "last_ts": 1791304504,
+      "last_str": "2026-10-06 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6432,
-      "last_ts": 1791302707,
-      "last_str": "2026-10-06 16:05:07 UTC"
+      "count": 6434,
+      "last_ts": 1791304507,
+      "last_str": "2026-10-06 16:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 38556,
@@ -317,6 +317,36 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4692,
+      "ts": 1791304520,
+      "ts_str": "2026-10-06 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Fina",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 06 Oct 2026 14:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\n\nYMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\" target=\"_blank\">YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nYMTC, China's largest NAND maker, warned that the NAND supply crunch could last until 2029 because AI infrastructure is absorbing capacity that used to go to consumer-grade products.\n\n\u5185\u5bb9:\n\u4e2d\u56fd\u6700\u5927\u7684 NAND \u5382\u5546 YMTC \u8b66\u544a\uff0cNAND \u4f9b\u5e94\u7d27\u5f20\u53ef\u80fd\u6301\u7eed\u5230 2029 \u5e74\u3002\u539f\u56e0\u662f AI \u57fa\u7840\u8bbe\u65bd\u5360\u7528\u4e86\u539f\u672c\u7ed9\u6d88\u8d39\u7ea7\u4ea7\u54c1\u7684\u4ea7\u80fd\u3002\n\nWhy it matters:\nThis is a tightness signal, not a bust signal: AI demand is still pulling memory supply away from everyone else, which raises storage costs for hyperscalers and device makers. It is also a supplier forecasting its own pricing power. Multi-year shortage calls like this tend to drive capacity expansion that later turns into oversupply, so watch for the flip to oversupply and order-cancellation language.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u8bf4\u660e\u4f9b\u5e94\u504f\u7d27\uff0c\u8fd8\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\uff1aAI \u9700\u6c42\u8fd8\u5728\u4ece\u5176\u4ed6\u7528\u9014\u62a2\u5185\u5b58\u4ea7\u80fd\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u7ec8\u7aef\u5382\u5546\u7684\u5b58\u50a8\u6210\u672c\u90fd\u4f1a\u4e0a\u5347\u3002\u8fd9\u4e5f\u662f\u4f9b\u5e94\u5546\u5728\u66ff\u81ea\u5df1\u7684\u5b9a\u4ef7\u6743\u8bf4\u8bdd\u3002\u8fd9\u79cd\u300c\u7f3a\u8d27\u597d\u51e0\u5e74\u300d\u7684\u5224\u65ad\uff0c\u5f80\u5f80\u4f1a\u5f15\u6765\u6269\u4ea7\uff0c\u6269\u4ea7\u4e4b\u540e\u53c8\u5bb9\u6613\u53d8\u6210\u8fc7\u5269\u3002\u540e\u9762\u8981\u76ef\u7684\u662f\u53e3\u98ce\u6709\u6ca1\u6709\u8f6c\u5411\u8fc7\u5269\u548c\u780d\u5355\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4693,
+      "ts": 1791304520,
+      "ts_str": "2026-10-06 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Fina",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 06 Oct 2026 14:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\n\nYMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\" target=\"_blank\">YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nYMTC, China's largest NAND maker, warned that the NAND supply crunch could last until 2029 because AI infrastructure is absorbing capacity that used to go to consumer-grade products.\n\n\u5185\u5bb9:\n\u4e2d\u56fd\u6700\u5927\u7684 NAND \u5382\u5546 YMTC \u8b66\u544a\uff0cNAND \u4f9b\u5e94\u7d27\u5f20\u53ef\u80fd\u6301\u7eed\u5230 2029 \u5e74\u3002\u539f\u56e0\u662f AI \u57fa\u7840\u8bbe\u65bd\u5360\u7528\u4e86\u539f\u672c\u7ed9\u6d88\u8d39\u7ea7\u4ea7\u54c1\u7684\u4ea7\u80fd\u3002\n\nWhy it matters:\nThis is a tightness signal, not a bust signal: AI demand is still pulling memory supply away from everyone else, which raises storage costs for hyperscalers and device makers. It is also a supplier forecasting its own pricing power. Multi-year shortage calls like this tend to drive capacity expansion that later turns into oversupply, so watch for the flip to oversupply and order-cancellation language.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u8bf4\u660e\u4f9b\u5e94\u504f\u7d27\uff0c\u8fd8\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\uff1aAI \u9700\u6c42\u8fd8\u5728\u4ece\u5176\u4ed6\u7528\u9014\u62a2\u5185\u5b58\u4ea7\u80fd\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u7ec8\u7aef\u5382\u5546\u7684\u5b58\u50a8\u6210\u672c\u90fd\u4f1a\u4e0a\u5347\u3002\u8fd9\u4e5f\u662f\u4f9b\u5e94\u5546\u5728\u66ff\u81ea\u5df1\u7684\u5b9a\u4ef7\u6743\u8bf4\u8bdd\u3002\u8fd9\u79cd\u300c\u7f3a\u8d27\u597d\u51e0\u5e74\u300d\u7684\u5224\u65ad\uff0c\u5f80\u5f80\u4f1a\u5f15\u6765\u6269\u4ea7\uff0c\u6269\u4ea7\u4e4b\u540e\u53c8\u5bb9\u6613\u53d8\u6210\u8fc7\u5269\u3002\u540e\u9762\u8981\u76ef\u7684\u662f\u53e3\u98ce\u6709\u6ca1\u6709\u8f6c\u5411\u8fc7\u5269\u548c\u780d\u5355\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4694,
+      "ts": 1791304520,
+      "ts_str": "2026-10-06 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Fina",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 06 Oct 2026 14:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\n\nYMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBISUhXTE9yZEJ3dFhnR3VaQTBQUEpRS0o2dE14XzVJYTlzRnY4Z0JlMEliNmpsOW5BUWhnOGxvLUZINHJ5V1lSdDVySWZDRk9hdTRiTjZXdVdyN2lTZWFjQlNseFhWTTBxTllIdk9YVXZtY09vVnc?oc=5\" target=\"_blank\">YMTC Warns NAND Supply Crunch Could Last Until 2029 as AI Infrastructure Crowds Out Consumer-Grade Capacity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nYMTC, China's largest NAND maker, warned that the NAND supply crunch could last until 2029 because AI infrastructure is absorbing capacity that used to go to consumer-grade products.\n\n\u5185\u5bb9:\n\u4e2d\u56fd\u6700\u5927\u7684 NAND \u5382\u5546 YMTC \u8b66\u544a\uff0cNAND \u4f9b\u5e94\u7d27\u5f20\u53ef\u80fd\u6301\u7eed\u5230 2029 \u5e74\u3002\u539f\u56e0\u662f AI \u57fa\u7840\u8bbe\u65bd\u5360\u7528\u4e86\u539f\u672c\u7ed9\u6d88\u8d39\u7ea7\u4ea7\u54c1\u7684\u4ea7\u80fd\u3002\n\nWhy it matters:\nThis is a tightness signal, not a bust signal: AI demand is still pulling memory supply away from everyone else, which raises storage costs for hyperscalers and device makers. It is also a supplier forecasting its own pricing power. Multi-year shortage calls like this tend to drive capacity expansion that later turns into oversupply, so watch for the flip to oversupply and order-cancellation language.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u8bf4\u660e\u4f9b\u5e94\u504f\u7d27\uff0c\u8fd8\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\uff1aAI \u9700\u6c42\u8fd8\u5728\u4ece\u5176\u4ed6\u7528\u9014\u62a2\u5185\u5b58\u4ea7\u80fd\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c\u7ec8\u7aef\u5382\u5546\u7684\u5b58\u50a8\u6210\u672c\u90fd\u4f1a\u4e0a\u5347\u3002\u8fd9\u4e5f\u662f\u4f9b\u5e94\u5546\u5728\u66ff\u81ea\u5df1\u7684\u5b9a\u4ef7\u6743\u8bf4\u8bdd\u3002\u8fd9\u79cd\u300c\u7f3a\u8d27\u597d\u51e0\u5e74\u300d\u7684\u5224\u65ad\uff0c\u5f80\u5f80\u4f1a\u5f15\u6765\u6269\u4ea7\uff0c\u6269\u4ea7\u4e4b\u540e\u53c8\u5bb9\u6613\u53d8\u6210\u8fc7\u5269\u3002\u540e\u9762\u8981\u76ef\u7684\u662f\u53e3\u98ce\u6709\u6ca1\u6709\u8f6c\u5411\u8fc7\u5269\u548c\u780d\u5355\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4691,
       "ts": 1791287237,
@@ -2285,36 +2315,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] SpaceX Lockup Expiry: Mizuho Reiterates \u2018Outperform\u2019 Rating As More Than 328M Shares Become Eligible For Trading - Tradi",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 15:31:49 GMT\nLink:      https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRkN5RDhkcFd3R2ViMXBQclZrWWdLbkwzbml5cWNXVDVnd3lQTFNvbUNlN1R4QXNKMFhJLUZuNXpjTnYtb1owNUxJcjR5Y3FIZGVDeHhhTGk5X0tlMnhQR0lYb0I0QkdpSXNXZkFLdGdsWHEzM2tuazJqbU51ZG5aLXp4S3hYaUE5aDlBSjdWaWZRVmR6emp2V1JFb1gyZFNRdE1qVzJmY1pLNUI0cGx2MG4zTjlKYlYtOUNaOEhlb2JsWngxMFBvM0Fvc0pabjdJS0phbm5JRnl4TUZVUVNWNU03d01RLWtwbVBvc0lTQWcyOVc2a29JZFEyQjREZE0?oc=5\n\nSpaceX Lockup Expiry: Mizuho Reiterates \u2018Outperform\u2019 Rating As More Than 328M Shares Become Eligible For Trading - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRkN5RDhkcFd3R2ViMXBQclZrWWdLbkwzbml5cWNXVDVnd3lQTFNvbUNlN1R4QXNKMFhJLUZuNXpjTnYtb1owNUxJcjR5Y3FIZGVDeHhhTGk5X0tlMnhQR0lYb0I0QkdpSXNXZkFLdGdsWHEzM2tuazJqbU51ZG5aLXp4S3hYaUE5aDlBSjdWaWZRVmR6emp2V1JFb1gyZFNRdE1qVzJmY1pLNUI0cGx2MG4zTjlKYlYtOUNaOEhlb2JsWngxMFBvM0Fvc0pabjdJS0phbm5JRnl4TUZVUVNWNU03d01RLWtwbVBvc0lTQWcyOVc2a29JZFEyQjREZE0?oc=5\" target=\"_blank\">SpaceX Lockup Expiry: Mizuho Reiterates \u2018Outperform\u2019 Rating As More Than 328M Shares Become Eligible For Trading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
-      "emailed": false
-    },
-    {
-      "id": 4493,
-      "ts": 1790288944,
-      "ts_str": "2026-09-24 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] 10y Real Yield rising: 2.76% (+70bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-23\nCurrent:  2.76%\n90d low:  2.06%\nMove:     +70bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (inflation-adjusted) Treasury yield has risen \u226540 bp off its recent trailing low.\n\nWhy it matters:\nReal yields are the discount rate on every long-duration cash flow \u2014 and AI-infra valuations are the longest-duration bet in the market. A real-yield spike compresses those valuations directly and raises the true cost of the debt funding the buildout, regardless of where headline rates sit. This is the cleanest read on money getting genuinely more expensive.\n",
-      "emailed": false
-    },
-    {
-      "id": 4494,
-      "ts": 1790288944,
-      "ts_str": "2026-09-24 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "HIGH",
-      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.76% \u2265 2.50%",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-23\nCurrent:  2.76%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real yield is at or above an absolute restrictive level (\u22652.50%).\n\nWhy it matters:\nAt this level real money is outright restrictive, not merely tightening. It marks the zone where leveraged, no-current-cashflow AI bets and the refinancing of AI-linked debt come under sustained valuation pressure \u2014 the macro discount-rate equivalent of C7's outright credit stress.\n",
-      "emailed": true
-    },
-    {
-      "id": 4492,
-      "ts": 1790286425,
-      "ts_str": "2026-09-24 21:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX\u2019s Weight in the Nasdaq-100 Is Set to Double, But There Are More Important Catalysts to Watch for SPCX Stock - Bar",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 21:21:25 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSUFUYTZQb3pxSWFmRGpLbnR3QmR0WUdMejRkSEJsR1o3WW9ZWU5PQkswTzlHSmdwZVA3eGZKQ2xkeXFFckxKeVhyX09NeGJsNGRjOWlnckdZYl9veVp0T2p5eDc1MlBDWFUwdzg3LVJINEl0bVNEc0FZc3pKa1lkN21zdk5ZWHBXY08tbEh1ZFVuVWt5Mks3SG55dHNETGk3dE5ITV9zcEdFbDVpblVENXh2bWFlSjM2czVGay0xc0E4RGdCOVl1UGo5R2hvdGJLUXlPSGszXzZ5S3VabF8wYVI2cDhQSEp3QUY5RQ?oc=5\n\nSpaceX\u2019s Weight in the Nasdaq-100 Is Set to Double, But There Are More Important Catalysts to Watch for SPCX Stock - Barchart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSUFUYTZQb3pxSWFmRGpLbnR3QmR0WUdMejRkSEJsR1o3WW9ZWU5PQkswTzlHSmdwZVA3eGZKQ2xkeXFFckxKeVhyX09NeGJsNGRjOWlnckdZYl9veVp0T2p5eDc1MlBDWFUwdzg3LVJINEl0bVNEc0FZc3pKa1lkN21zdk5ZWHBXY08tbEh1ZFVuVWt5Mks3SG55dHNETGk3dE5ITV9zcEdFbDVpblVENXh2bWFlSjM2czVGay0xc0E4RGdCOVl1UGo5R2hvdGJLUXlPSGszXzZ5S3VabF8wYVI2cDhQSEp3QUY5RQ?oc=5\" target=\"_blank\">SpaceX\u2019s Weight in the Nasdaq-100 Is Set to Double, But There Are More Important Catalysts to Watch for SPCX Stock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barchart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with index-inclusion / passive-flow / price-target language.\n\nWhy it matters:\nPassive-flow hype is the demand side of the trade. On its own it is late-cycle froth confirmation: forced buying with a known supply wave behind it is exactly the setup this tracker exists to time.\n",
       "emailed": false
     }
   ],
