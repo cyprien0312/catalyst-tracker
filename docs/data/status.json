@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791338522,
-  "generated_at_str": "2026-10-07 02:02:02 UTC",
-  "last_event_ts": 1791337622,
+  "generated_at": 1791338727,
+  "generated_at_str": "2026-10-07 02:05:27 UTC",
+  "last_event_ts": 1791338726,
   "tables": {
     "alerts_dedup": {
-      "count": 4693,
-      "last_ts": 1791336921,
-      "last_str": "2026-10-07 01:35:21 UTC"
+      "count": 4695,
+      "last_ts": 1791338726,
+      "last_str": "2026-10-07 02:05:26 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-10-07 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6970,
-      "last_ts": 1791336903,
-      "last_str": "2026-10-07 01:35:03 UTC"
+      "count": 6973,
+      "last_ts": 1791338702,
+      "last_str": "2026-10-07 02:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8436,
-      "last_ts": 1791336905,
-      "last_str": "2026-10-07 01:35:05 UTC"
+      "count": 8438,
+      "last_ts": 1791338705,
+      "last_str": "2026-10-07 02:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4900,
-      "last_ts": 1791336904,
-      "last_str": "2026-10-07 01:35:04 UTC"
+      "count": 4902,
+      "last_ts": 1791338703,
+      "last_str": "2026-10-07 02:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6458,
-      "last_ts": 1791335105,
-      "last_str": "2026-10-07 01:05:05 UTC"
+      "count": 6459,
+      "last_ts": 1791338706,
+      "last_str": "2026-10-07 02:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 38649,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4701,
+      "ts": 1791338726,
+      "ts_str": "2026-10-07 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] PRE-MARKET TAIWAN AND SINGAPORE STOCKS NEWS: Nanya Technology (2408 TT) reportedly notified customers of another DRAM co",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 07 Oct 2026 01:04:00 GMT\nLink:      https://news.google.com/rss/articles/CBMivAJBVV95cUxQdVV0X0xRS09MV3lVYzJ6RkZBejhGc1NvVDRBY0tySmVzTkVDdHhsUUJCU1RCSGlsaFlvUTViamtQbzEtRl9kamZnNGtkbVRUY094bE5waXQ2U3hOVXBwTVpmN1ZZR1d6eXJha3VtYWpTeEpmZXZ2Q1JDRi1EMVJBMkdEQndqdVdNV2w1aXpnYjJJOWozTm5qeW56bmRNdV9rQTd2WG9XMlBuc3Rxam9OQ0RLNjJSRldtSndodkF6NzA3LVdYQ0F4cWFjenJucC1RdE1hYTBfNHQ1dVlsSjAxWm1tUTR3VkpvdFlINlFoejBBeGJqWjVXdGlQazFoYllBZnI0VXYtUnU2amI1cDQ1LVVBR2ZmVnBtN0NmUGQxUzdpd216d25xdTZULVdENkQtdHNoenNSYS1uYXVY?oc=5\n\nPRE-MARKET TAIWAN AND SINGAPORE STOCKS NEWS: Nanya Technology (2408 TT) reportedly notified customers of another DRAM contract price increase of up to 20%, according to industry sources - Newsquawk\n\n<a href=\"https://news.google.com/rss/articles/CBMivAJBVV95cUxQdVV0X0xRS09MV3lVYzJ6RkZBejhGc1NvVDRBY0tySmVzTkVDdHhsUUJCU1RCSGlsaFlvUTViamtQbzEtRl9kamZnNGtkbVRUY094bE5waXQ2U3hOVXBwTVpmN1ZZR1d6eXJha3VtYWpTeEpmZXZ2Q1JDRi1EMVJBMkdEQndqdVdNV2w1aXpnYjJJOWozTm5qeW56bmRNdV9rQTd2WG9XMlBuc3Rxam9OQ0RLNjJSRldtSndodkF6NzA3LVdYQ0F4cWFjenJucC1RdE1hYTBfNHQ1dVlsSjAxWm1tUTR3VkpvdFlINlFoejBBeGJqWjVXdGlQazFoYllBZnI0VXYtUnU2amI1cDQ1LVVBR2ZmVnBtN0NmUGQxUzdpd216d25xdTZULVdENkQtdHNoenNSYS1uYXVY?oc=5\" target=\"_blank\">PRE-MARKET TAIWAN AND SINGAPORE STOCKS NEWS: Nanya Technology (2408 TT) reportedly notified customers of another DRAM contract price increase of up to 20%, according to industry sources</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newsquawk</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNanya Technology (2408 TT) has reportedly told customers it will raise DRAM contract prices again, by up to 20%, according to industry sources.\n\n\u5185\u5bb9:\n\u636e\u4e1a\u5185\u6d88\u606f\uff0c\u5357\u4e9a\u79d1 Nanya Technology (2408 TT) \u901a\u77e5\u5ba2\u6237\uff0cDRAM \u5408\u7ea6\u4ef7\u5c06\u518d\u6b21\u4e0a\u8c03\uff0c\u6700\u9ad8\u6da8 20%\u3002\n\nWhy it matters:\nA second round of hikes this large points to a tight DRAM supply, likely because AI and HBM demand is soaking up wafer capacity that would otherwise make commodity DRAM. Right now this shows AI demand is still strong, not that the cycle is breaking. The stress risk is the reverse: rising prices push customers to stockpile and fabs to add capacity, which later turns into oversupply and cancelled orders once AI capex slows.\n\n\u5f71\u54cd:\n\u53c8\u4e00\u8f6e\u9ad8\u8fbe 20% \u7684\u6da8\u4ef7\u8bf4\u660e DRAM \u4f9b\u5e94\u504f\u7d27\u3002\u539f\u56e0\u5f88\u53ef\u80fd\u662f AI \u548c HBM \u9700\u6c42\u5360\u8d70\u4e86\u672c\u6765\u7528\u4e8e\u666e\u901a DRAM \u7684\u6676\u5706\u4ea7\u80fd\u3002\u773c\u4e0b\u8fd9\u8bf4\u660e AI \u9700\u6c42\u4ecd\u7136\u5f3a\u52b2\uff0c\u8fd8\u4e0d\u662f\u5468\u671f\u7834\u88c2\u7684\u4fe1\u53f7\u3002\u8981\u9632\u7684\u662f\u53cd\u8fc7\u6765\uff1a\u6da8\u4ef7\u4f1a\u8ba9\u5ba2\u6237\u56e4\u8d27\u3001\u5382\u5546\u6269\u4ea7\uff0c\u7b49 AI capex \u653e\u7f13\uff0c\u5c31\u4f1a\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\u548c\u780d\u5355\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4702,
+      "ts": 1791338726,
+      "ts_str": "2026-10-07 02:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] RX 9070 GRE Hits $529 as GPU Memory Prices Jump 200% [2026] - https://tech-insider.org/",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 07 Oct 2026 01:32:11 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTFBBN2tWMENVbkh0blRzQUtGU29jQ2N4SFozNHFSNFJYXzg5M3FlRXdSS1ppTDVDQlhpUmE3cVJZcUo5ZlF4WUU4VVF5MTB3bThSUU1lOVRaOFNROTBDWHZmWXhmQjNPU1ZmNWJ2Nk0tZUluQXItYW1oTHZnbw?oc=5\n\nRX 9070 GRE Hits $529 as GPU Memory Prices Jump 200% [2026] - https://tech-insider.org/\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBBN2tWMENVbkh0blRzQUtGU29jQ2N4SFozNHFSNFJYXzg5M3FlRXdSS1ppTDVDQlhpUmE3cVJZcUo5ZlF4WUU4VVF5MTB3bThSUU1lOVRaOFNROTBDWHZmWXhmQjNPU1ZmNWJ2Nk0tZUluQXItYW1oTHZnbw?oc=5\" target=\"_blank\">RX 9070 GRE Hits $529 as GPU Memory Prices Jump 200% [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">https://tech-insider.org/</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports GPU memory prices have jumped 200%, with AMD's RX 9070 GRE graphics card now listed at $529.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u6807\u9898\u79f0 GPU \u663e\u5b58\u4ef7\u683c\u4e0a\u6da8 200%\uff0cAMD RX 9070 GRE \u663e\u5361\u552e\u4ef7\u5df2\u5230 $529\u3002\n\nWhy it matters:\nA 200% move in graphics memory pricing points to supply being pulled toward AI accelerators (HBM/GDDR capacity). Consumer GPUs are absorbing that squeeze. Tight memory is a late-cycle input-cost signal: it raises AI build-out costs, and if demand cools it can quickly turn into the oversupply C6 watches for. Single blog source, no ticker or primary data, so treat it as a background reading rather than confirmation.\n\n\u5f71\u54cd:\n\u663e\u5b58\u6da8\u4ef7 200%\uff0c\u8bf4\u660e\u5185\u5b58\u4ea7\u80fd\uff08HBM/GDDR\uff09\u6b63\u88ab AI \u52a0\u901f\u5361\u62a2\u8d70\uff0c\u6d88\u8d39\u7ea7\u663e\u5361\u5728\u66ff AI \u625b\u6210\u672c\u3002\u5185\u5b58\u7d27\u7f3a\u662f\u5468\u671f\u540e\u6bb5\u7684\u6210\u672c\u4fe1\u53f7\uff1a\u5b83\u63a8\u9ad8 AI \u57fa\u5efa\u7684\u82b1\u8d39\uff0c\u9700\u6c42\u4e00\u65e6\u964d\u6e29\uff0c\u53c8\u53ef\u80fd\u5f88\u5feb\u7ffb\u6210 C6 \u76ef\u7740\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3002\u8fd9\u6761\u53ea\u6709\u4e00\u4e2a\u535a\u5ba2\u6765\u6e90\uff0c\u6ca1\u6709 ticker \u4e5f\u6ca1\u6709\u4e00\u624b\u6570\u636e\uff0c\u53ea\u80fd\u5f53\u80cc\u666f\u8bfb\u6570\uff0c\u4e0d\u7b97\u786e\u8ba4\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4699,
       "ts": 1791336921,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 20:36:12 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 4502,
-      "ts": 1790360047,
-      "ts_str": "2026-09-25 18:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO: What happens next? - NeoTeo",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 25 Sep 2026 17:51:23 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTdoOEQ4QW9zRFExaUJMTF9YR2toM0haVWd3UWhtd19CRUNTaXVacGZpS0UzVUd6WEhnMUF3OG0xN0o5UmI0QkJrOTItMGZzM09iSVBWQTI3VkNlMm5Kbm84cVh0YTFUWG9heDdpQ1VNc092LXd1bVd5b3VqTEpDTjRncjA5dG4yd2kxcVo0UzdGNHZ6X3BZZXlB?oc=5\n\nOpenAI IPO: What happens next? - NeoTeo\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTdoOEQ4QW9zRFExaUJMTF9YR2toM0haVWd3UWhtd19CRUNTaXVacGZpS0UzVUd6WEhnMUF3OG0xN0o5UmI0QkJrOTItMGZzM09iSVBWQTI3VkNlMm5Kbm84cVh0YTFUWG9heDdpQ1VNc092LXd1bVd5b3VqTEpDTjRncjA5dG4yd2kxcVo0UzdGNHZ6X3BZZXlB?oc=5\" target=\"_blank\">OpenAI IPO: What happens next?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NeoTeo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
-      "emailed": false
-    },
-    {
-      "id": 4501,
-      "ts": 1790355907,
-      "ts_str": "2026-09-25 17:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 24 Sep 2026 20:36:12 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\n\nSamsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike - scanx.trade\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNek96Q3hJZDJ1YkZSX25fUnNla0x2TDFxT2V5VGdMMHl2RklHcjB6aHIzY29KWnZNR19remJBMWpYSGZheUFXYlNacVJqSHNwVE9EMEpHYVV3MUNLejBYNUFMR25DYUpfNkRVdlhub2hpbmJJSVdBYWNVd3Q2NFV2WEZHcVM0VFhYMDBjRDA2cURIZDIwa05pSFd6bGQ3VUsxaWhDRG4xZy12OFNkcVFqNThhdTFTSUpXb1ZZdw?oc=5\" target=\"_blank\">Samsung, SK hynix, and Micron Sued Over DRAM Price Fixing Amid Samsung's Expected 20% Price Hike</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">scanx.trade</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
       "emailed": false
     }
   ],
