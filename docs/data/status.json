@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791389462,
-  "generated_at_str": "2026-10-07 16:11:02 UTC",
-  "last_event_ts": 1791389106,
+  "generated_at": 1791389658,
+  "generated_at_str": "2026-10-07 16:14:18 UTC",
+  "last_event_ts": 1791389657,
   "tables": {
     "alerts_dedup": {
-      "count": 4702,
-      "last_ts": 1791380834,
-      "last_str": "2026-10-07 13:47:14 UTC"
+      "count": 4703,
+      "last_ts": 1791389657,
+      "last_str": "2026-10-07 16:14:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,14 +69,14 @@
       "last_str": "2026-10-06 22:00:27 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 6482,
-      "last_ts": 1791386043,
-      "last_str": "2026-10-07 15:14:03 UTC"
+      "count": 6483,
+      "last_ts": 1791389644,
+      "last_str": "2026-10-07 16:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1549,
-      "last_ts": 1791377050,
-      "last_str": "2026-10-07 12:44:10 UTC"
+      "count": 1551,
+      "last_ts": 1791389645,
+      "last_str": "2026-10-07 16:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7004,
@@ -99,9 +99,9 @@
       "last_str": "2026-10-07 16:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 38791,
-      "last_ts": 1791387842,
-      "last_str": "2026-10-07 15:44:02 UTC"
+      "count": 38807,
+      "last_ts": 1791389643,
+      "last_str": "2026-10-07 16:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 11866,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4710,
+      "ts": 1791389657,
+      "ts_str": "2026-10-07 16:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Watch Anthropic, OpenAI Clouding Other IPO Prospects: Ruder - Bloomberg.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 07 Oct 2026 16:10:25 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcDNjc2ZITjZQa0VrZU13ZGxnSVlaaW5VTXhCM0M1VzVqNGtxeEJFOWpQb2diQ1NiVnBMbmxnUEdDUU8ybmh5SnhKbGJ4dzhFT05Rams3SjJGMUcza2c1T2ZMLVFyVW1iMWFEd00xQjNhY1I2eGdRU0N5Zi16TWZUWDQ1OVlObHBweFo5RE9LZmdBTGktT3NuN1pOWHFscHZnTm9Uak5yd2k0Zw?oc=5\n\nWatch Anthropic, OpenAI Clouding Other IPO Prospects: Ruder - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcDNjc2ZITjZQa0VrZU13ZGxnSVlaaW5VTXhCM0M1VzVqNGtxeEJFOWpQb2diQ1NiVnBMbmxnUEdDUU8ybmh5SnhKbGJ4dzhFT05Rams3SjJGMUcza2c1T2ZMLVFyVW1iMWFEd00xQjNhY1I2eGdRU0N5Zi16TWZUWDQ1OVlObHBweFo5RE9LZmdBTGktT3NuN1pOWHFscHZnTm9Uak5yd2k0Zw?oc=5\" target=\"_blank\">Watch Anthropic, OpenAI Clouding Other IPO Prospects: Ruder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news video headline reports that commentator Ruder says possible IPOs by Anthropic and OpenAI are overshadowing other companies' IPO prospects. No filing, burn-rate figure or deal terms are attached; the alert fired on the OpenAI + IPO keywords.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u89c6\u9891\u6807\u9898\u79f0\uff0c\u8bc4\u8bba\u4eba Ruder \u8ba4\u4e3a Anthropic \u548c OpenAI \u53ef\u80fd\u7684 IPO \u6b63\u5728\u538b\u8fc7\u5176\u4ed6\u516c\u53f8\u7684\u4e0a\u5e02\u524d\u666f\u3002\u6ca1\u6709\u9644\u5e26 filing\u3001burn-rate \u6570\u5b57\u6216\u4ea4\u6613\u6761\u6b3e\u3002\u8fd9\u6761\u544a\u8b66\u662f OpenAI \u548c IPO \u4e24\u4e2a\u5173\u952e\u8bcd\u89e6\u53d1\u7684\u3002\n\nWhy it matters:\nIf two AI labs are seen as soaking up public-market appetite before either has listed, investors are betting heavily on AI-lab equity and expect public investors to fund their losses. This is commentary, not hard data. It adds to IPO speculation but does not show a change in OpenAI's finances.\n\n\u5f71\u54cd:\n\u4e24\u5bb6 AI \u5b9e\u9a8c\u5ba4\u8fd8\u6ca1\u4e0a\u5e02\uff0c\u5e02\u573a\u5c31\u62c5\u5fc3\u5b83\u4eec\u4f1a\u5438\u8d70\u516c\u5f00\u5e02\u573a\u7684\u8d44\u91d1\u3002\u53ef\u89c1\u8d44\u91d1\u62bc\u5728 AI \u5b9e\u9a8c\u5ba4\u80a1\u6743\u4e0a\u7684\u7b79\u7801\u5f88\u91cd\uff0c\u4e5f\u6307\u671b\u516c\u5f00\u5e02\u573a\u6765\u627f\u63a5\u5b83\u4eec\u7684\u4e8f\u635f\u3002\u8fd9\u6761\u53ea\u662f\u8bc4\u8bba\uff0c\u4e0d\u662f\u786c\u6570\u636e\u3002\u5b83\u8ba9 IPO \u6295\u673a\u7684\u566a\u97f3\u66f4\u591a\uff0c\u4f46\u4e0d\u8bf4\u660e OpenAI \u7684\u8d22\u52a1\u72b6\u51b5\u6709\u53d8\u5316\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4709,
       "ts": 1791380834,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Storage shortages may persist until 2028! UBS Group raised Micron's earnings forecast, expressing optimism about the str",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 26 Sep 2026 09:11:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHI1R1U2UWR0eWJsZHotQ3U0ZVkwRVUwdzJSN2xpQjJUTnpYQU4wRnYxVTVNMmxqaDFNTEZzdlZEMEJxekxGXzNpWGk1M25kUFBOZF9GbFV0Wm03UkR1R3ZMTlJKWGJPX01hZEhfOERfWm5sZWVfR194MHp1M3ppdm9ScmpnZWZXcGxUM3FZYzFxZHl5TU44cGdUWjRuVFZXMWc2QW9uQmgzVjQ?oc=5\n\nStorage shortages may persist until 2028! UBS Group raised Micron's earnings forecast, expressing optimism about the strong HBM market and increased share buybacks. - \u5bcc\u9014\u725b\u725b\n\n<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcHI1R1U2UWR0eWJsZHotQ3U0ZVkwRVUwdzJSN2xpQjJUTnpYQU4wRnYxVTVNMmxqaDFNTEZzdlZEMEJxekxGXzNpWGk1M25kUFBOZF9GbFV0Wm03UkR1R3ZMTlJKWGJPX01hZEhfOERfWm5sZWVfR194MHp1M3ppdm9ScmpnZWZXcGxUM3FZYzFxZHl5TU44cGdUWjRuVFZXMWc2QW9uQmgzVjQ?oc=5\" target=\"_blank\">Storage shortages may persist until 2028! UBS Group raised Micron's earnings forecast, expressing optimism about the strong HBM market and increased share buybacks.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\u5bcc\u9014\u725b\u725b</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports memory/storage prices surging \u2014 hikes, shortages, allocation, or record-high language near a DRAM/NAND/HBM/SSD/HDD mention.\n\nWhy it matters:\nUp-cycle confirmation, not a stress signal by itself. But blow-off-top behaviour (double-booking, panic allocation, 'sold out through next year') is what tops are made of \u2014 rising surge-headline frequency raises the prior that the reversal, when it comes, will be sharp. Also a direct cost headwind: every dollar of memory price increase worsens data-center capex payback math.\n",
-      "emailed": false
-    },
-    {
-      "id": 4510,
-      "ts": 1790416025,
-      "ts_str": "2026-09-26 09:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] The Case for Selling SpaceX Stock Before its December Lock-Up Expiration - AOL.ca",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 26 Sep 2026 02:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmphRzNySXpUODJNSkpkMjRneF9JVUdaLTVsWVNtWXdvamN5U3FRelM4em5RVEpuUFVOYUxYSlJWODdVM3VFTFRKaXkzWXJrM0lkNWFtY0I5OWdiVDZscnFCRkZ3WDJUSnN4WE41RHR0WUVMX3F3VnZyOVZGMVJmT3RSTQ?oc=5\n\nThe Case for Selling SpaceX Stock Before its December Lock-Up Expiration - AOL.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmphRzNySXpUODJNSkpkMjRneF9JVUdaLTVsWVNtWXdvamN5U3FRelM4em5RVEpuUFVOYUxYSlJWODdVM3VFTFRKaXkzWXJrM0lkNWFtY0I5OWdiVDZscnFCRkZ3WDJUSnN4WE41RHR0WUVMX3F3VnZyOVZGMVJmT3RSTQ?oc=5\" target=\"_blank\">The Case for Selling SpaceX Stock Before its December Lock-Up Expiration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews pairs SpaceX with unlock / share-sale / dilution language.\n\nWhy it matters:\nConfirms the unlock calendar is becoming the market narrative. Watch whether coverage shifts from 'index inclusion demand' to 'supply overhang' \u2014 that rotation historically marks the top of index-inclusion pops.\n",
       "emailed": false
     }
   ],
