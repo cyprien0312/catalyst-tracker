@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791477124,
-  "generated_at_str": "2026-10-08 16:32:04 UTC",
-  "last_event_ts": 1791476044,
+  "generated_at": 1791477307,
+  "generated_at_str": "2026-10-08 16:35:07 UTC",
+  "last_event_ts": 1791477306,
   "tables": {
     "alerts_dedup": {
-      "count": 4727,
-      "last_ts": 1791464715,
-      "last_str": "2026-10-08 13:05:15 UTC"
+      "count": 4728,
+      "last_ts": 1791477306,
+      "last_str": "2026-10-08 16:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-10-08 16:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8531,
-      "last_ts": 1791475504,
-      "last_str": "2026-10-08 16:05:04 UTC"
+      "count": 8532,
+      "last_ts": 1791477305,
+      "last_str": "2026-10-08 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4979,
-      "last_ts": 1791473703,
-      "last_str": "2026-10-08 15:35:03 UTC"
+      "count": 4980,
+      "last_ts": 1791477303,
+      "last_str": "2026-10-08 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6572,
-      "last_ts": 1791475505,
-      "last_str": "2026-10-08 16:05:05 UTC"
+      "count": 6574,
+      "last_ts": 1791477306,
+      "last_str": "2026-10-08 16:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 39086,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4735,
+      "ts": 1791477306,
+      "ts_str": "2026-10-08 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] HBM Prices to Double as Memory Shortage Drives Samsung Profit Surge - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 08 Oct 2026 08:45:59 GMT\nLink:      https://news.google.com/rss/articles/CBMinAFBVV95cUxQNEtWeVFCN1BYbWdRLXdwMDlTOHRNYVNGVTJQdDZ2VDhVNHo4RFk2enhqZTBOZmYyakdVV0pYc1BFelo2UHZMdlJfSVZoMXY4SXMtUGdjdldpaFFsaE1iRWhzVjlWTzlDZ0Rqb2s3Z1RCdjB0WkowVDgzZzdPSnpxYjkycG9wS3VoRjBCbmNzN0ZMSGhFUEVFWUlaZmw?oc=5\n\nHBM Prices to Double as Memory Shortage Drives Samsung Profit Surge - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQNEtWeVFCN1BYbWdRLXdwMDlTOHRNYVNGVTJQdDZ2VDhVNHo4RFk2enhqZTBOZmYyakdVV0pYc1BFelo2UHZMdlJfSVZoMXY4SXMtUGdjdldpaFFsaE1iRWhzVjlWTzlDZ0Rqb2s3Z1RCdjB0WkowVDgzZzdPSnpxYjkycG9wS3VoRjBCbmNzN0ZMSGhFUEVFWUlaZmw?oc=5\" target=\"_blank\">HBM Prices to Double as Memory Shortage Drives Samsung Profit Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that HBM prices are set to double because of a memory shortage, and that the shortage is driving a surge in Samsung's profit. The headline gives no specific price levels or dates.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u77ed\u7f3a\u5c06\u8ba9 HBM \u4ef7\u683c\u7ffb\u500d\uff0c\u5e76\u63a8\u52a8 Samsung \u5229\u6da6\u5927\u589e\u3002\u6807\u9898\u91cc\u6ca1\u6709\u5177\u4f53\u4ef7\u683c\u548c\u65f6\u95f4\u3002\n\nWhy it matters:\nAI accelerator demand is still taking more HBM than suppliers can make, so for now the capex cycle has not cracked. It also raises the cost of each AI server, which squeezes hyperscaler capex payback. Memory has a long boom-bust history: shortage-driven price doubling usually triggers a capacity build that turns into oversupply once AI demand slows.\n\n\u5f71\u54cd:\nAI \u52a0\u901f\u5361\u5bf9 HBM \u7684\u9700\u6c42\u4ecd\u7136\u8d85\u8fc7\u4f9b\u5e94\uff0c\u8bf4\u660e capex \u5468\u671f\u773c\u4e0b\u8fd8\u6ca1\u65ad\u3002\u4f46\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u6210\u672c\u4e5f\u8ddf\u7740\u4e0a\u6da8\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u56de\u672c\u538b\u529b\u66f4\u5927\u3002\u5185\u5b58\u884c\u4e1a\u5411\u6765\u66b4\u6da8\u66b4\u8dcc\uff1a\u77ed\u7f3a\u5e26\u6765\u7684\u4ef7\u683c\u7ffb\u500d\u5f80\u5f80\u4f1a\u5f15\u53d1\u6269\u4ea7\uff0c\u4e00\u65e6 AI \u9700\u6c42\u653e\u7f13\uff0c\u5c31\u4f1a\u53d8\u6210\u4ea7\u80fd\u8fc7\u5269\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4734,
       "ts": 1791464715,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ - Chosunbiz",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 09:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZZ1FSUTh6d19fMFpUQktLZVRuUV85M3k1Z1BGekw5S0xWTXFRY3BidEpGRlJaQ0tVSm85UWwxdy14QTNYNkJ6OFQ1eHdUYmM3aXBoQ2V1eTJIWnhXRTdtZ1BTSkFESTNHbVgwQ19jWk1HMkxRcFFqNF930gGOAUFVX3lxTFBMa3lJX1JxNTFnb3B3TFRseUNheG9HT3NoREtqb3lyc1doUkVPRS1IVGdUbDV0Z21IYWF5VWIySk10Y0kwbDEyWGlqMDY1aWpCaDlwZkVrQTBzTzdNNTkwYkxlYm4zNjM1eS0zUFJuQmVLU3B4M2o2LUtsaURqLXN2bTRsVVBIVF9YNWU4YUE?oc=5\n\nHBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZZ1FSUTh6d19fMFpUQktLZVRuUV85M3k1Z1BGekw5S0xWTXFRY3BidEpGRlJaQ0tVSm85UWwxdy14QTNYNkJ6OFQ1eHdUYmM3aXBoQ2V1eTJIWnhXRTdtZ1BTSkFESTNHbVgwQ19jWk1HMkxRcFFqNF930gGOAUFVX3lxTFBMa3lJX1JxNTFnb3B3TFRseUNheG9HT3NoREtqb3lyc1doUkVPRS1IVGdUbDV0Z21IYWF5VWIySk10Y0kwbDEyWGlqMDY1aWpCaDlwZkVrQTBzTzdNNTkwYkxlYm4zNjM1eS0zUFJuQmVLU3B4M2o2LUtsaURqLXN2bTRsVVBIVF9YNWU4YUE?oc=5\" target=\"_blank\">HBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHBM prices are rising as AI demand collides with the industry-wide shift to HBM4, tightening near-term supply.\n\n\u5185\u5bb9:\nAI \u9700\u6c42\u53e0\u52a0 HBM4 \u6362\u4ee3\uff0cHBM \u4ef7\u683c\u6b63\u5728\u4e0a\u6da8\uff0c\u77ed\u671f\u4f9b\u7ed9\u6536\u7d27\u3002\n\nWhy it matters:\nRising HBM prices raise the bill-of-materials cost for every AI accelerator, squeezing hyperscaler capex efficiency \u2014 the opposite of the oversupply/order-cancellation pattern C6 is built to catch, but still a cost-pressure data point on the AI-capex thesis.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u4f1a\u63a8\u9ad8\u6bcf\u9897 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\u2014\u2014\u867d\u7136\u65b9\u5411\u548c C6 \u672c\u6765\u76ef\u7684\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u4fe1\u53f7\u76f8\u53cd\uff0c\u4f46\u4ecd\u662f AI capex \u53d9\u4e8b\u91cc\u7684\u4e00\u4e2a\u6210\u672c\u538b\u529b\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4536,
-      "ts": 1790674520,
-      "ts_str": "2026-09-29 09:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] HBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ - Chosunbiz",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 09:15:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZZ1FSUTh6d19fMFpUQktLZVRuUV85M3k1Z1BGekw5S0xWTXFRY3BidEpGRlJaQ0tVSm85UWwxdy14QTNYNkJ6OFQ1eHdUYmM3aXBoQ2V1eTJIWnhXRTdtZ1BTSkFESTNHbVgwQ19jWk1HMkxRcFFqNF930gGOAUFVX3lxTFBMa3lJX1JxNTFnb3B3TFRseUNheG9HT3NoREtqb3lyc1doUkVPRS1IVGdUbDV0Z21IYWF5VWIySk10Y0kwbDEyWGlqMDY1aWpCaDlwZkVrQTBzTzdNNTkwYkxlYm4zNjM1eS0zUFJuQmVLU3B4M2o2LUtsaURqLXN2bTRsVVBIVF9YNWU4YUE?oc=5\n\nHBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ - Chosunbiz\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZZ1FSUTh6d19fMFpUQktLZVRuUV85M3k1Z1BGekw5S0xWTXFRY3BidEpGRlJaQ0tVSm85UWwxdy14QTNYNkJ6OFQ1eHdUYmM3aXBoQ2V1eTJIWnhXRTdtZ1BTSkFESTNHbVgwQ19jWk1HMkxRcFFqNF930gGOAUFVX3lxTFBMa3lJX1JxNTFnb3B3TFRseUNheG9HT3NoREtqb3lyc1doUkVPRS1IVGdUbDV0Z21IYWF5VWIySk10Y0kwbDEyWGlqMDY1aWpCaDlwZkVrQTBzTzdNNTkwYkxlYm4zNjM1eS0zUFJuQmVLU3B4M2o2LUtsaURqLXN2bTRsVVBIVF9YNWU4YUE?oc=5\" target=\"_blank\">HBM prices surge as AI demand and HBM4 shift tighten supply - CHOSUNBIZ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chosunbiz</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHBM prices are rising as AI demand collides with the industry-wide shift to HBM4, tightening near-term supply.\n\n\u5185\u5bb9:\nAI \u9700\u6c42\u53e0\u52a0 HBM4 \u6362\u4ee3\uff0cHBM \u4ef7\u683c\u6b63\u5728\u4e0a\u6da8\uff0c\u77ed\u671f\u4f9b\u7ed9\u6536\u7d27\u3002\n\nWhy it matters:\nRising HBM prices raise the bill-of-materials cost for every AI accelerator, squeezing hyperscaler capex efficiency \u2014 the opposite of the oversupply/order-cancellation pattern C6 is built to catch, but still a cost-pressure data point on the AI-capex thesis.\n\n\u5f71\u54cd:\nHBM \u6da8\u4ef7\u4f1a\u63a8\u9ad8\u6bcf\u9897 AI \u52a0\u901f\u5361\u7684\u7269\u6599\u6210\u672c\uff0c\u538b\u7f29\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u6548\u7387\u2014\u2014\u867d\u7136\u65b9\u5411\u548c C6 \u672c\u6765\u76ef\u7684\u780d\u5355/\u4f9b\u8fc7\u4e8e\u6c42\u4fe1\u53f7\u76f8\u53cd\uff0c\u4f46\u4ecd\u662f AI capex \u53d9\u4e8b\u91cc\u7684\u4e00\u4e2a\u6210\u672c\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
