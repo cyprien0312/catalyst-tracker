@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791479463,
-  "generated_at_str": "2026-10-08 17:11:03 UTC",
-  "last_event_ts": 1791479106,
+  "generated_at": 1791479656,
+  "generated_at_str": "2026-10-08 17:14:16 UTC",
+  "last_event_ts": 1791479655,
   "tables": {
     "alerts_dedup": {
-      "count": 4729,
-      "last_ts": 1791478034,
-      "last_str": "2026-10-08 16:47:14 UTC"
+      "count": 4730,
+      "last_ts": 1791479655,
+      "last_str": "2026-10-08 17:14:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -69,9 +69,9 @@
       "last_str": "2026-10-07 22:00:27 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 6552,
-      "last_ts": 1791477844,
-      "last_str": "2026-10-08 16:44:04 UTC"
+      "count": 6554,
+      "last_ts": 1791479644,
+      "last_str": "2026-10-08 17:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1564,
@@ -99,9 +99,9 @@
       "last_str": "2026-10-08 17:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 39092,
-      "last_ts": 1791477843,
-      "last_str": "2026-10-08 16:44:03 UTC"
+      "count": 39101,
+      "last_ts": 1791479642,
+      "last_str": "2026-10-08 17:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12024,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4737,
+      "ts": 1791479655,
+      "ts_str": "2026-10-08 17:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI Insider Quits over Safety Issues: \u201cThis Is Nuts\u2026This Is Not Right.\u201d The IPO Hangs in the Balance. - TIKR.com",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 08 Oct 2026 17:02:27 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxQa015TEViWDFNRFY1MmRnclJvMnhYWXBYVmtDNUVLbUVqMHhpQzUzdFRRZm0xenhua3Y3eUtJUWJhVEQxcjlrU3hGWF8xV0pRQnlTTjdUT0lUUTVQbXo3X0h2ajRiSDBMS0NsQ0U1WFpjd1FkbVdhOVJtNWdPMjZjbjFpUnoxeFBsR0dHQ0tSaXJ2RXQwbnBkUzlXRHJTUVlTMDBnME1JalpMRkJRalZKdU5abzJZSDRQN05sU3ZRaG9vQXFL?oc=5\n\nOpenAI Insider Quits over Safety Issues: \u201cThis Is Nuts\u2026This Is Not Right.\u201d The IPO Hangs in the Balance. - TIKR.com\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQa015TEViWDFNRFY1MmRnclJvMnhYWXBYVmtDNUVLbUVqMHhpQzUzdFRRZm0xenhua3Y3eUtJUWJhVEQxcjlrU3hGWF8xV0pRQnlTTjdUT0lUUTVQbXo3X0h2ajRiSDBMS0NsQ0U1WFpjd1FkbVdhOVJtNWdPMjZjbjFpUnoxeFBsR0dHQ0tSaXJ2RXQwbnBkUzlXRHJTUVlTMDBnME1JalpMRkJRalZKdU5abzJZSDRQN05sU3ZRaG9vQXFL?oc=5\" target=\"_blank\">OpenAI Insider Quits over Safety Issues: \u201cThis Is Nuts\u2026This Is Not Right.\u201d The IPO Hangs in the Balance.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TIKR.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that an OpenAI insider quit over safety concerns, quoted as saying \"This Is Nuts\u2026This Is Not Right,\" and frames the pending IPO as at risk. The alert carries no filing, ticker or number.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u4e00\u540d OpenAI \u5185\u90e8\u4eba\u58eb\u56e0\u5b89\u5168\u95ee\u9898\u79bb\u804c\uff0c\u539f\u8bdd\u662f \"This Is Nuts\u2026This Is Not Right\"\uff0c\u5e76\u8bf4 IPO \u524d\u666f\u56e0\u6b64\u60ac\u800c\u672a\u51b3\u3002\u8fd9\u6761\u544a\u8b66\u6ca1\u6709 filing\u3001ticker \u6216\u5177\u4f53\u6570\u5b57\u3002\n\nWhy it matters:\nA senior safety departure raises governance and disclosure risk just as OpenAI tries to go public. A delayed or repriced IPO would cut off a major funding channel for the AI-capex buildout. On its own this is a headline-level MED signal, not hard evidence of financial stress.\n\n\u5f71\u54cd:\nOpenAI \u6b63\u5728\u63a8\u8fdb\u4e0a\u5e02\uff0c\u8fd9\u65f6\u6709\u5b89\u5168\u65b9\u9762\u7684\u6838\u5fc3\u4eba\u5458\u51fa\u8d70\uff0c\u6cbb\u7406\u548c\u62ab\u9732\u98ce\u9669\u90fd\u4f1a\u4e0a\u5347\u3002IPO \u4e00\u65e6\u63a8\u8fdf\u6216\u88ab\u538b\u4ef7\uff0cAI capex \u6269\u5f20\u5c31\u5c11\u4e86\u4e00\u6761\u91cd\u8981\u878d\u8d44\u6e20\u9053\u3002\u4e0d\u8fc7\u8fd9\u53ea\u662f\u6807\u9898\u7ea7\u7684 MED \u4fe1\u53f7\uff0c\u4e0d\u80fd\u5f53\u4f5c\u8d22\u52a1\u538b\u529b\u7684\u786c\u8bc1\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4736,
       "ts": 1791478034,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Server DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 09:59:42 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE9lRzVBR1kyYWdlNGJHUklheWZUMVZpRVJidmZRb05Xa2pMNW94OVpwWkhtSFJsY1RiOEtXd3JjN2tFdm5NYTlncEhEMmh0NkE0Qi1VRnhLZjUya3FYNmFlRWxvUmZZNE5lbFRGM3lScVhBRnBm?oc=5\n\nServer DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9lRzVBR1kyYWdlNGJHUklheWZUMVZpRVJidmZRb05Xa2pMNW94OVpwWkhtSFJsY1RiOEtXd3JjN2tFdm5NYTlncEhEMmh0NkE0Qi1VRnhLZjUya3FYNmFlRWxvUmZZNE5lbFRGM3lScVhBRnBm?oc=5\" target=\"_blank\">Server DDR5 RDIMM Prices Surge Past $2,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports server DDR5 RDIMM prices surging past $2,000, appearing twice in the feed (duplicate/repeated headline).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u670d\u52a1\u5668 DDR5 RDIMM \u4ef7\u683c\u7a81\u7834 $2,000\uff0c\u8be5\u6807\u9898\u5728 feed \u4e2d\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\u3002\n\nWhy it matters:\nDRAM price spikes squeeze hyperscaler capex budgets and margins on AI server builds, and a surge this sharp signals tightening memory supply just as AI infrastructure buildout demands more of it \u2014 a direct cost-side stress on the capex cycle.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u66b4\u6da8\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u9884\u7b97\u548c AI \u670d\u52a1\u5668\u5229\u6da6\u7387\uff0c\u6da8\u5e45\u5982\u6b64\u9661\u5ced\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u6b63\u5728\u6536\u7d27\uff0c\u6070\u597d\u649e\u4e0a AI \u57fa\u5efa\u6269\u5f20\u5bf9\u5185\u5b58\u9700\u6c42\u4e0a\u5347\u7684\u8282\u70b9\u2014\u2014\u76f4\u63a5\u51b2\u51fb capex \u5468\u671f\u7684\u6210\u672c\u7aef\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4538,
-      "ts": 1790676322,
-      "ts_str": "2026-09-29 10:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Server DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 09:59:42 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE9lRzVBR1kyYWdlNGJHUklheWZUMVZpRVJidmZRb05Xa2pMNW94OVpwWkhtSFJsY1RiOEtXd3JjN2tFdm5NYTlncEhEMmh0NkE0Qi1VRnhLZjUya3FYNmFlRWxvUmZZNE5lbFRGM3lScVhBRnBm?oc=5\n\nServer DDR5 RDIMM Prices Surge Past $2,000 - Businesskorea\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9lRzVBR1kyYWdlNGJHUklheWZUMVZpRVJidmZRb05Xa2pMNW94OVpwWkhtSFJsY1RiOEtXd3JjN2tFdm5NYTlncEhEMmh0NkE0Qi1VRnhLZjUya3FYNmFlRWxvUmZZNE5lbFRGM3lScVhBRnBm?oc=5\" target=\"_blank\">Server DDR5 RDIMM Prices Surge Past $2,000</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports server DDR5 RDIMM prices surging past $2,000, appearing twice in the feed (duplicate/repeated headline).\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u62a5\u9053\u670d\u52a1\u5668 DDR5 RDIMM \u4ef7\u683c\u7a81\u7834 $2,000\uff0c\u8be5\u6807\u9898\u5728 feed \u4e2d\u91cd\u590d\u51fa\u73b0\u4e24\u6b21\u3002\n\nWhy it matters:\nDRAM price spikes squeeze hyperscaler capex budgets and margins on AI server builds, and a surge this sharp signals tightening memory supply just as AI infrastructure buildout demands more of it \u2014 a direct cost-side stress on the capex cycle.\n\n\u5f71\u54cd:\nDRAM \u4ef7\u683c\u66b4\u6da8\u4f1a\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u8d44\u672c\u5f00\u652f\u9884\u7b97\u548c AI \u670d\u52a1\u5668\u5229\u6da6\u7387\uff0c\u6da8\u5e45\u5982\u6b64\u9661\u5ced\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u6b63\u5728\u6536\u7d27\uff0c\u6070\u597d\u649e\u4e0a AI \u57fa\u5efa\u6269\u5f20\u5bf9\u5185\u5b58\u9700\u6c42\u4e0a\u5347\u7684\u8282\u70b9\u2014\u2014\u76f4\u63a5\u51b2\u51fb capex \u5468\u671f\u7684\u6210\u672c\u7aef\u3002\n",
       "emailed": false
     }
   ],
