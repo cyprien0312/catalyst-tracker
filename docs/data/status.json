@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791486123,
-  "generated_at_str": "2026-10-08 19:02:03 UTC",
-  "last_event_ts": 1791485224,
+  "generated_at": 1791486306,
+  "generated_at_str": "2026-10-08 19:05:06 UTC",
+  "last_event_ts": 1791486305,
   "tables": {
     "alerts_dedup": {
-      "count": 4731,
-      "last_ts": 1791485224,
-      "last_str": "2026-10-08 18:47:04 UTC"
+      "count": 4732,
+      "last_ts": 1791486305,
+      "last_str": "2026-10-08 19:05:05 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,19 +84,19 @@
       "last_str": "2026-10-08 18:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8539,
-      "last_ts": 1791484509,
-      "last_str": "2026-10-08 18:35:09 UTC"
+      "count": 8541,
+      "last_ts": 1791486304,
+      "last_str": "2026-10-08 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 4986,
-      "last_ts": 1791484508,
-      "last_str": "2026-10-08 18:35:08 UTC"
+      "count": 4987,
+      "last_ts": 1791486303,
+      "last_str": "2026-10-08 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6578,
-      "last_ts": 1791482705,
-      "last_str": "2026-10-08 18:05:05 UTC"
+      "count": 6580,
+      "last_ts": 1791486305,
+      "last_str": "2026-10-08 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 39143,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4739,
+      "ts": 1791486305,
+      "ts_str": "2026-10-08 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Lifts Samsung's Chip Arm, Squeezes Device Unit - Seoul Economic Daily",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 08 Oct 2026 08:50:59 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxQYW1rVExLRllyT3dvQ3VYVWVJQ2VBUFg0S3R4ZWRzZEdJRUdkV1ZiNnphZ2ZubEFtUUQwTEZXU3E0Zi1OVmpSR25wWFV2bXlsaDJQVktHUmRfczVISXRTOFNuOFN4R2ZPV3VUa3JoVzYtRzZiQXF1SFdROFBUS3ZmNVYtbzYxTF9lZ05CNFNKWTVhVTdEYlp5amNvUjcxV20wVWc?oc=5\n\nMemory Price Surge Lifts Samsung's Chip Arm, Squeezes Device Unit - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYW1rVExLRllyT3dvQ3VYVWVJQ2VBUFg0S3R4ZWRzZEdJRUdkV1ZiNnphZ2ZubEFtUUQwTEZXU3E0Zi1OVmpSR25wWFV2bXlsaDJQVktHUmRfczVISXRTOFNuOFN4R2ZPV3VUa3JoVzYtRzZiQXF1SFdROFBUS3ZmNVYtbzYxTF9lZ05CNFNKWTVhVTdEYlp5amNvUjcxV20wVWc?oc=5\" target=\"_blank\">Memory Price Surge Lifts Samsung's Chip Arm, Squeezes Device Unit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that a memory price surge is lifting Samsung's chip division while squeezing its device unit, which has to pay more for memory.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u63a8\u9ad8\u4e86 Samsung \u82af\u7247\u90e8\u95e8\u7684\u4e1a\u7ee9\uff0c\u540c\u65f6\u6324\u538b\u4e86\u5b83\u7684\u7ec8\u7aef\u8bbe\u5907\u90e8\u95e8\uff0c\u56e0\u4e3a\u8bbe\u5907\u90e8\u95e8\u4e70\u5185\u5b58\u7684\u6210\u672c\u4e0a\u5347\u4e86\u3002\n\nWhy it matters:\nRising memory prices point to tight supply, mostly driven by AI/HBM demand pulling capacity away from conventional DRAM and NAND. That supports the AI-demand story in the near term. It also pushes component costs onto downstream hardware makers, and shortage-driven price spikes in memory have historically come before overbuild and oversupply. That makes this a late-cycle tell worth watching, not an all-clear.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0c\u4e3b\u8981\u539f\u56e0\u662f AI/HBM \u9700\u6c42\u628a\u4ea7\u80fd\u4ece\u666e\u901a DRAM \u548c NAND \u90a3\u8fb9\u62a2\u8d70\u4e86\u3002\u77ed\u671f\u770b\uff0c\u8fd9\u652f\u6491\u4e86 AI \u9700\u6c42\u7684\u8bf4\u6cd5\u3002\u4f46\u6210\u672c\u4e5f\u968f\u4e4b\u8f6c\u5ac1\u7ed9\u4e0b\u6e38\u786c\u4ef6\u5382\u5546\u3002\u5185\u5b58\u884c\u4e1a\u5386\u6765\u662f\u7f3a\u8d27\u6da8\u4ef7\u4e4b\u540e\u63a5\u7740\u8fc7\u5ea6\u6269\u4ea7\u3001\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u6240\u4ee5\u8fd9\u66f4\u50cf\u5468\u671f\u540e\u6bb5\u8981\u76ef\u4f4f\u7684\u4fe1\u53f7\uff0c\u4e0d\u4ee3\u8868\u53ef\u4ee5\u653e\u5fc3\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4738,
       "ts": 1791485224,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Prices Surge Over Double Next Year - Businesskorea",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 10:18:41 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE10OFZqbFdFTWRVQ1hYeUJRZml6RXpxVEZwMk5aVWhIVzFRTHV6SkpWQ2FZT05HWVI1SjRsc2F2cjd3bjJ1VkNVMm5ybjNLRk0xSkdYQ0hhaExpa1JOTXZ2ZzRCOFhvc0dOSU1uTHpnR0ZVUy1n?oc=5\n\nHBM Prices Surge Over Double Next Year - Businesskorea\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE10OFZqbFdFTWRVQ1hYeUJRZml6RXpxVEZwMk5aVWhIVzFRTHV6SkpWQ2FZT05HWVI1SjRsc2F2cjd3bjJ1VkNVMm5ybjNLRk0xSkdYQ0hhaExpa1JOTXZ2ZzRCOFhvc0dOSU1uTHpnR0ZVUy1n?oc=5\" target=\"_blank\">HBM Prices Surge Over Double Next Year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Businesskorea</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS item reported HBM prices more than doubling next year, matching C6's memory-term + price-surge token pair.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6d88\u606f\u62a5\u9053\uff0cHBM \u4ef7\u683c\u660e\u5e74\u5c06\u7ffb\u500d\u4ee5\u4e0a\uff0c\u547d\u4e2d\u4e86 C6 \u7684\u5b58\u50a8\u672f\u8bed\u52a0\u4ef7\u683c\u66b4\u6da8\u8bcd\u7ec4\u5408\u3002\n\nWhy it matters:\nA doubling in HBM pricing signals severe supply tightness for the chips that gate AI accelerator production \u2014 if memory becomes the binding constraint, hyperscaler capex plans get squeezed by input cost and availability, not just demand.\n\n\u5f71\u54cd:\nHBM \u4ef7\u683c\u7ffb\u500d\u8bf4\u660e\u8fd9\u79cd\u5361\u4f4f AI \u52a0\u901f\u5668\u4ea7\u80fd\u7684\u82af\u7247\u4f9b\u7ed9\u4e25\u91cd\u5403\u7d27\u3002\u5982\u679c\u5185\u5b58\u53d8\u6210\u74f6\u9888\uff0c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684 capex \u8ba1\u5212\u4f1a\u88ab\u8f93\u5165\u6210\u672c\u548c\u8d27\u6e90\u6390\u4f4f\uff0c\u4e0d\u53ea\u662f\u9700\u6c42\u7aef\u7684\u95ee\u9898\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4540,
-      "ts": 1790678125,
-      "ts_str": "2026-09-29 10:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] \"HBM average selling price to rise 121% next year amid supply shortage\" - \ub9e4\uc77c\uacbd\uc81c",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 10:02:42 GMT\nLink:      https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5\n\n\"HBM average selling price to rise 121% next year amid supply shortage\" - \ub9e4\uc77c\uacbd\uc81c\n\n<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xQUFVb08xbDRCdWhpamc2eFBLeFNlZE9qVGZGb2hrX05IRld6UTNPbDdBeFhqVVFaNVVoRjBmM2RKdFVSYUdRc2ZqREtZYXo4djJN?oc=5\" target=\"_blank\">\"HBM average selling price to rise 121% next year amid supply shortage\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\ub9e4\uc77c\uacbd\uc81c</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Google News RSS headline reports that HBM average selling price is expected to rise 121% next year due to a supply shortage.\n\n\u5185\u5bb9:\n\u4e00\u6761 Google News RSS \u6807\u9898\u79f0\uff0c\u56e0\u4f9b\u5e94\u77ed\u7f3a\uff0cHBM \u5e73\u5747\u552e\u4ef7\u9884\u8ba1\u660e\u5e74\u4e0a\u6da8 121%\u3002\n\nWhy it matters:\nHBM is the memory bottleneck for AI accelerators \u2014 a 121% ASP jump signals demand outstripping fab capacity, which raises GPU/server BOM costs and squeezes hyperscaler margins even as it confirms real, not speculative, AI-infrastructure demand.\n\n\u5f71\u54cd:\nHBM \u662f AI \u52a0\u901f\u5361\u7684\u5185\u5b58\u74f6\u9888\uff0cASP \u66b4\u6da8 121% \u8bf4\u660e\u9700\u6c42\u5df2\u7ecf\u8dd1\u8d62\u6676\u5706\u4ea7\u80fd\uff0c\u4f1a\u63a8\u9ad8 GPU/\u670d\u52a1\u5668\u6574\u673a\u6210\u672c\u3001\u6324\u538b\u8d85\u5927\u89c4\u6a21\u5382\u5546\u5229\u6da6\uff0c\u540c\u65f6\u4e5f\u5370\u8bc1\u4e86 AI \u57fa\u7840\u8bbe\u65bd\u9700\u6c42\u662f\u771f\u5b9e\u7684\uff0c\u4e0d\u662f\u7eaf\u7092\u4f5c\u3002\n",
       "emailed": false
     }
   ],
