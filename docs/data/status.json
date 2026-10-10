@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791675123,
-  "generated_at_str": "2026-10-10 23:32:03 UTC",
-  "last_event_ts": 1791674042,
+  "generated_at": 1791675318,
+  "generated_at_str": "2026-10-10 23:35:18 UTC",
+  "last_event_ts": 1791675317,
   "tables": {
     "alerts_dedup": {
-      "count": 4762,
-      "last_ts": 1791668106,
-      "last_str": "2026-10-10 21:35:06 UTC"
+      "count": 4763,
+      "last_ts": 1791675317,
+      "last_str": "2026-10-10 23:35:17 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-10-10 20:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7169,
-      "last_ts": 1791669902,
-      "last_str": "2026-10-10 22:05:02 UTC"
+      "count": 7171,
+      "last_ts": 1791675303,
+      "last_str": "2026-10-10 23:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8681,
@@ -89,9 +89,9 @@
       "last_str": "2026-10-10 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5043,
-      "last_ts": 1791666303,
-      "last_str": "2026-10-10 21:05:03 UTC"
+      "count": 5044,
+      "last_ts": 1791675304,
+      "last_str": "2026-10-10 23:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6702,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4770,
+      "ts": 1791675317,
+      "ts_str": "2026-10-10 23:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Samsung Mobile Loss Widens in Q3 As Memory Prices Soar - eTeknix",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 10 Oct 2026 09:00:13 GMT\nLink:      https://news.google.com/rss/articles/CBMibkFVX3lxTE52NElPWHlSeUp2NEtTaHpMbV9PNTlnYUJnU3Uwb0IwZG5KUEt3eWxveTA2VkpKX093NkpLZDZfSXJ3aFp4N05QLTVlRnktOEpObFhXbWVkZ2Izc2VBMXZmMGx3QlVNS1FpeEw3ZTFn?oc=5\n\nSamsung Mobile Loss Widens in Q3 As Memory Prices Soar - eTeknix\n\n<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE52NElPWHlSeUp2NEtTaHpMbV9PNTlnYUJnU3Uwb0IwZG5KUEt3eWxveTA2VkpKX093NkpLZDZfSXJ3aFp4N05QLTVlRnktOEpObFhXbWVkZ2Izc2VBMXZmMGx3QlVNS1FpeEw3ZTFn?oc=5\" target=\"_blank\">Samsung Mobile Loss Widens in Q3 As Memory Prices Soar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eTeknix</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that Samsung's mobile division posted a wider Q3 loss because memory prices soared. The headline gives no figures for the loss or the price increase.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6807\u9898\u79f0\uff0cSamsung \u624b\u673a\u4e1a\u52a1 Q3 \u4e8f\u635f\u6269\u5927\uff0c\u539f\u56e0\u662f\u5185\u5b58\u4ef7\u683c\u98d9\u5347\u3002\u6807\u9898\u6ca1\u6709\u7ed9\u51fa\u4e8f\u635f\u989d\u6216\u6da8\u4ef7\u5e45\u5ea6\u3002\n\nWhy it matters:\nThis is a shortage signal, not a bust signal. AI demand for HBM and server DRAM is pulling capacity away from commodity memory, and the cost spike is now squeezing downstream device makers. Memory price surges near cycle peaks have historically led to capacity overbuilds, so this matters for C6 because the next leg is often oversupply.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u77ed\u7f3a\u4fe1\u53f7\uff0c\u4e0d\u662f\u5d29\u76d8\u4fe1\u53f7\u3002AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\u628a\u4ea7\u80fd\u4ece\u666e\u901a\u5185\u5b58\u6324\u8d70\uff0c\u6210\u672c\u4e0a\u6da8\u5df2\u7ecf\u538b\u5230\u4e0b\u6e38\u7ec8\u7aef\u5382\u5546\u8eab\u4e0a\u3002\u5386\u53f2\u4e0a\uff0c\u5468\u671f\u9ad8\u70b9\u9644\u8fd1\u7684\u5185\u5b58\u6da8\u4ef7\u5e38\u5e38\u5f15\u6765\u4ea7\u80fd\u8fc7\u5ea6\u6269\u5f20\uff0c\u6240\u4ee5 C6 \u8981\u76ef\u7684\u662f\u4e0b\u4e00\u6b65\u5f80\u5f80\u4f1a\u51fa\u73b0\u7684\u4f9b\u8fc7\u4e8e\u6c42\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4769,
       "ts": 1791668106,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] Watch Trump Rejects Need for New AI Safety Laws, OpenAI's Altman on IPO Plans - Bloomberg.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 05:20:59 GMT\nLink:      https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWYtLXdaZHlrcVphUjZmVGNEeXBmcHdtVHF3c2dzel9VTENiSmdEdlpkenp5ajNtMjhUQzQxSTNmZDhCNU1MRGYxZW9sUUl3c2lTQVlMVmpseFF0SlVGbkFGZGV4UGYwZ2dyU2F3cy1GbDNSX2RsZmhsVEsyeGd5dzhMY1FNUQ?oc=5\n\nWatch Trump Rejects Need for New AI Safety Laws, OpenAI's Altman on IPO Plans - Bloomberg.com\n\n<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWYtLXdaZHlrcVphUjZmVGNEeXBmcHdtVHF3c2dzel9VTENiSmdEdlpkenp5ajNtMjhUQzQxSTNmZDhCNU1MRGYxZW9sUUl3c2lTQVlMVmpseFF0SlVGbkFGZGV4UGYwZ2dyU2F3cy1GbDNSX2RsZmhsVEsyeGd5dzhMY1FNUQ?oc=5\" target=\"_blank\">Watch Trump Rejects Need for New AI Safety Laws, OpenAI's Altman on IPO Plans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGoogle News headline: Trump says no new AI safety laws are needed; OpenAI's Altman commented on IPO plans.\n\n\u5185\u5bb9:\nGoogle News \u6807\u9898\uff1aTrump \u8868\u793a\u4e0d\u9700\u8981\u65b0\u7684 AI \u5b89\u5168\u6cd5\u89c4\uff1bOpenAI \u7684 Altman \u8c08\u53ca IPO \u8ba1\u5212\u3002\n\nWhy it matters:\nPolitical signal against AI regulation plus renewed IPO chatter \u2014 a softer regulatory backdrop and a path to public-market cash reduce near-term funding risk for OpenAI, but repeated IPO speculation with no filing is noise, not a hard funding event.\n\n\u5f71\u54cd:\n\u76d1\u7ba1\u6001\u5ea6\u653e\u677e\u52a0\u4e0a IPO \u4f20\u95fb\u5347\u6e29\uff0c\u7406\u8bba\u4e0a\u4f1a\u964d\u4f4e OpenAI \u8fd1\u671f\u7684\u878d\u8d44\u98ce\u9669\uff0c\u4f46\u8fd9\u7c7b\u53cd\u590d\u51fa\u73b0\u7684 IPO \u731c\u6d4b\u5728\u6ca1\u6709\u5b9e\u9645\u9012\u8868\u524d\u53ea\u662f\u566a\u97f3\uff0c\u4e0d\u662f\u786c\u6027\u878d\u8d44\u4e8b\u4ef6\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4570,
-      "ts": 1790743457,
-      "ts_str": "2026-09-30 04:44 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says - Gizmodo",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 04:14:16 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxQZF8xaEYzcUU5cG0welBPeHF1QnNWV0Rvb2Rid0lnZktSWms5T3YyeVZvbHNyS3pZYzQ1RXBjM2pHZGU2dHhnSzFzS19WWnVBclhzX3lzRFhfX0tmTXczVHN6VWFNTU14bGI5cGlJbUFVVm5rY216YjlFZzFFYkl3eEp6cUx2UnU5clE4SlRERkFWYnhpbVNYUDU0RQ?oc=5\n\nNo OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says - Gizmodo\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQZF8xaEYzcUU5cG0welBPeHF1QnNWV0Rvb2Rid0lnZktSWms5T3YyeVZvbHNyS3pZYzQ1RXBjM2pHZGU2dHhnSzFzS19WWnVBclhzX3lzRFhfX0tmTXczVHN6VWFNTU14bGI5cGlJbUFVVm5rY216YjlFZzFFYkl3eEp6cUx2UnU5clE4SlRERkFWYnhpbVNYUDU0RQ?oc=5\" target=\"_blank\">No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI CEO Sam Altman saying there will be no IPO until the AI stops 'going rogue' \u2014 no financial metric, filing, or ticker attached.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 OpenAI CEO Sam Altman \u8868\u793a\uff0c\u5728 AI \u505c\u6b62\u300c\u8dd1\u504f\u300d\u4e4b\u524d\u4e0d\u4f1a IPO \u2014\u2014 \u6ca1\u6709\u9644\u5e26\u4efb\u4f55\u8d22\u52a1\u6307\u6807\u3001filing \u6216 ticker\u3002\n\nWhy it matters:\nThis is pure speculation/commentary, not a disclosed metric or filing event \u2014 it doesn't move the burn-rate or IPO-timeline thesis on its own, but it's tracked because IPO-timing chatter is a recurring C3 theme worth watching in aggregate.\n\n\u5f71\u54cd:\n\u8fd9\u7eaf\u5c5e\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u62ab\u9732\u7684\u6307\u6807\u6216 filing \u4e8b\u4ef6\uff0c\u5355\u72ec\u770b\u4e0d\u4f1a\u6539\u53d8 burn-rate \u6216 IPO \u65f6\u95f4\u7ebf\u7684\u5224\u65ad\uff1b\u4e4b\u6240\u4ee5\u88ab\u8ddf\u8e2a\uff0c\u662f\u56e0\u4e3a IPO \u65f6\u95f4\u70b9\u7684\u4f20\u95fb\u662f C3 \u91cc\u53cd\u590d\u51fa\u73b0\u7684\u8bdd\u9898\uff0c\u503c\u5f97\u957f\u671f\u89c2\u5bdf\u5176\u7d2f\u79ef\u8d8b\u52bf\u3002\n",
       "emailed": false
     }
   ],
