@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791649923,
-  "generated_at_str": "2026-10-10 16:32:03 UTC",
-  "last_event_ts": 1791648842,
+  "generated_at": 1791650116,
+  "generated_at_str": "2026-10-10 16:35:16 UTC",
+  "last_event_ts": 1791650115,
   "tables": {
     "alerts_dedup": {
-      "count": 4758,
-      "last_ts": 1791632106,
-      "last_str": "2026-10-10 11:35:06 UTC"
+      "count": 4759,
+      "last_ts": 1791650115,
+      "last_str": "2026-10-10 16:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-10-10 16:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8667,
-      "last_ts": 1791648304,
-      "last_str": "2026-10-10 16:05:04 UTC"
+      "count": 8668,
+      "last_ts": 1791650104,
+      "last_str": "2026-10-10 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5039,
@@ -94,9 +94,9 @@
       "last_str": "2026-10-10 13:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6688,
-      "last_ts": 1791648305,
-      "last_str": "2026-10-10 16:05:05 UTC"
+      "count": 6689,
+      "last_ts": 1791650105,
+      "last_str": "2026-10-10 16:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 39675,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4766,
+      "ts": 1791650115,
+      "ts_str": "2026-10-10 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Apple Cuts iPhone 18 Pro Orders 15-20% Amid Memory Chip Shortage - News and Statistics - IndexBox",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 10 Oct 2026 15:50:35 GMT\nLink:      https://news.google.com/rss/articles/CBMimgFBVV95cUxOdjUycHRTdUNlaDItNW5sNk5la0g4X0tDeldvSUFwa1NjMFA1YjVNX1BWNGRqT1EzR2IzX2lHbE9Pcll0MnZGYks1ZGo3d0pVNHFzMjVhR3JKX0JQUjlCajhRaU05UTNjQlE4ZjMyRVN2d2pUTWVYdl9DN3VQZ2Z3R2lnNVZnUDNUZk1NZjgwLXlybFdtZjU0azJR?oc=5\n\nApple Cuts iPhone 18 Pro Orders 15-20% Amid Memory Chip Shortage - News and Statistics - IndexBox\n\n<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOdjUycHRTdUNlaDItNW5sNk5la0g4X0tDeldvSUFwa1NjMFA1YjVNX1BWNGRqT1EzR2IzX2lHbE9Pcll0MnZGYks1ZGo3d0pVNHFzMjVhR3JKX0JQUjlCajhRaU05UTNjQlE4ZjMyRVN2d2pUTWVYdl9DN3VQZ2Z3R2lnNVZnUDNUZk1NZjgwLXlybFdtZjU0azJR?oc=5\" target=\"_blank\">Apple Cuts iPhone 18 Pro Orders 15-20% Amid Memory Chip Shortage - News and Statistics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IndexBox</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item (source shown only as \"News and Statistics\") reports that Apple cut iPhone 18 Pro orders by 15-20% because of a memory-chip shortage. The tracker tagged it C6_PRICE_SURGE: the shortage term sits next to a memory term.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\uff08\u6765\u6e90\u53ea\u6807\u4e3a \"News and Statistics\"\uff09\u79f0\uff0cApple \u56e0\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u628a iPhone 18 Pro \u7684\u8ba2\u5355\u780d\u4e86 15-20%\u3002tracker \u628a\u5b83\u6807\u6210 C6_PRICE_SURGE\uff1a\u77ed\u7f3a\u4e00\u8bcd\u7d27\u6328\u7740\u5185\u5b58\u8bcd\u3002\n\nWhy it matters:\nThis is the opposite of oversupply stress: AI demand for HBM and server DRAM is squeezing memory supply and prices hard enough that consumer devices lose allocation. It shows AI capex still outbidding everyone else for silicon, so near-term demand looks real. But it also pushes input costs up across the stack and hits phone volumes. The report is single-sourced and unconfirmed by Apple, so treat it as a thermometer reading, not a fuse.\n\n\u5f71\u54cd:\n\u8fd9\u8ddf\u4f9b\u8fc7\u4e8e\u6c42\u6b63\u597d\u76f8\u53cd\u3002AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\u628a\u5185\u5b58\u7684\u4f9b\u7ed9\u548c\u4ef7\u683c\u6324\u5f97\u5f88\u7d27\uff0c\u6d88\u8d39\u7535\u5b50\u90fd\u5206\u4e0d\u5230\u8d27\u3002\u8fd9\u8bf4\u660e AI capex \u62a2\u82af\u7247\u4ecd\u7136\u62a2\u5f97\u8fc7\u6240\u6709\u4eba\uff0c\u77ed\u671f\u9700\u6c42\u662f\u771f\u7684\u3002\u4f46\u5b83\u4e5f\u4f1a\u63a8\u9ad8\u6574\u6761\u94fe\u7684\u6210\u672c\uff0c\u5e76\u538b\u4f4e\u624b\u673a\u51fa\u8d27\u91cf\u3002\u6d88\u606f\u53ea\u6709\u5355\u4e00\u6765\u6e90\uff0cApple \u4e5f\u6ca1\u786e\u8ba4\uff0c\u6240\u4ee5\u53ea\u80fd\u5f53\u6e29\u5ea6\u8ba1\u8bfb\u6570\u770b\uff0c\u4e0d\u662f\u4fdd\u9669\u4e1d\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4765,
       "ts": 1791632106,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SPCX Stock In Focus Ahead Of Nasdaq 100 Entry This Week \u2014 Retail Sees 22% Upside Potential (works) - Stocktwits",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 23:10:31 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUpzcDJXclVSR1lHNXNfbXpyekxBZzllRmJ6QlRicjZrVk1xQUdlRTFqWW54dV9lYVR2Vk80QjNrblZNOU5NZTB6VVpCamx0OWIyU2RBd2xXeU9wRXo5Ml8yU3lyanNHZUU1V2I4ZGZMWUIzSTdhay1ienlQSF9MWXdkMF9vbloyb3pxWHFOVEhXdkZUTlJKUmJEZTZUcE1peGZrSmN3U04zRXd0UzQxaEpIUERRVnRFX1g5UEJld3dYX3dNREVaQg?oc=5\n\nSPCX Stock In Focus Ahead Of Nasdaq 100 Entry This Week \u2014 Retail Sees 22% Upside Potential (works) - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUpzcDJXclVSR1lHNXNfbXpyekxBZzllRmJ6QlRicjZrVk1xQUdlRTFqWW54dV9lYVR2Vk80QjNrblZNOU5NZTB6VVpCamx0OWIyU2RBd2xXeU9wRXo5Ml8yU3lyanNHZUU1V2I4ZGZMWUIzSTdhay1ienlQSF9MWXdkMF9vbloyb3pxWHFOVEhXdkZUTlJKUmJEZTZUcE1peGZrSmN3U04zRXd0UzQxaEpIUERRVnRFX1g5UEJld3dYX3dNREVaQg?oc=5\" target=\"_blank\">SPCX Stock In Focus Ahead Of Nasdaq 100 Entry This Week \u2014 Retail Sees 22% Upside Potential (works)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA recycled headline says SPCX stock is drawing retail attention ahead of its Nasdaq-100 index entry this week, with retail chatter pricing 22% upside.\n\n\u5185\u5bb9:\n\u4e00\u6761\u91cd\u590d\u51fa\u73b0\u7684\u65b0\u95fb\u79f0\uff0cSPCX \u80a1\u7968\u5728\u672c\u5468\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\u6307\u6570\u524d\u53d7\u5230\u6563\u6237\u5173\u6ce8\uff0c\u6563\u6237\u8ba8\u8bba\u4e2d\u7ed9\u51fa22%\u7684\u4e0a\u884c\u7a7a\u95f4\u9884\u671f\u3002\n\nWhy it matters:\nPassive index funds must buy SPCX once it's added to the Nasdaq-100, creating forced mechanical demand independent of fundamentals \u2014 a classic index-inclusion flow event, and retail hype amplifying it ahead of the actual inclusion date adds speculative froth on top.\n\n\u5f71\u54cd:\n\u4e00\u65e6 SPCX \u88ab\u7eb3\u5165\u7eb3\u65af\u8fbe\u514b100\uff0c\u88ab\u52a8\u6307\u6570\u57fa\u91d1\u5c31\u5fc5\u987b\u4e70\u5165\u8be5\u80a1\uff0c\u8fd9\u662f\u4e0e\u57fa\u672c\u9762\u65e0\u5173\u7684\u673a\u68b0\u6027\u5f3a\u5236\u9700\u6c42\u2014\u2014\u5178\u578b\u7684\u6307\u6570\u7eb3\u5165\u8d44\u91d1\u6d41\u4e8b\u4ef6\uff1b\u7eb3\u5165\u65e5\u4e4b\u524d\u6563\u6237\u7092\u4f5c\u7684\u53e0\u52a0\uff0c\u53c8\u7ed9\u8fd9\u6ce2\u6d41\u52a8\u6027\u4e8b\u4ef6\u6dfb\u4e86\u4e00\u5c42\u6295\u673a\u6ce1\u6cab\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4563,
-      "ts": 1790733934,
-      "ts_str": "2026-09-30 02:05 UTC",
-      "catalyst": "C6",
-      "severity": "HIGH",
-      "subject": "[C6-HIGH] Divergence in AI Demand: Token Usage Surges, H100 Prices Drop While B200 Rebounds, DRAM Prices Fall for the First Time A",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 01:53:25 GMT\nLink:      https://news.google.com/rss/articles/CBMipAFBVV95cUxPWldBSEtYaUdXZzl5Tl9acUUyc2xlN2lsRWV2SE5OYmQtWUQ5TXg3RHR6bUJnaVFRTUFxcmlqTlliREo5X0F5eDgwYy1UdDE5akdQNkU0c25fMmlNbEY3Nk0zNVJYTFZEeVI5RU10WGlaRTlfZUVJczRyWFJHSUtGY09TS1NyQVhTVkFjeW5rbkRwYzdkbjB6Y01aaW8xQ2ktSFJ1Xw?oc=5\n\nDivergence in AI Demand: Token Usage Surges, H100 Prices Drop While B200 Rebounds, DRAM Prices Fall for the First Time After Five Consecutive Increases - news.futunn.com\n\n<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPWldBSEtYaUdXZzl5Tl9acUUyc2xlN2lsRWV2SE5OYmQtWUQ5TXg3RHR6bUJnaVFRTUFxcmlqTlliREo5X0F5eDgwYy1UdDE5akdQNkU0c25fMmlNbEY3Nk0zNVJYTFZEeVI5RU10WGlaRTlfZUVJczRyWFJHSUtGY09TS1NyQVhTVkFjeW5rbkRwYzdkbjB6Y01aaW8xQ2ktSFJ1Xw?oc=5\" target=\"_blank\">Divergence in AI Demand: Token Usage Surges, H100 Prices Drop While B200 Rebounds, DRAM Prices Fall for the First Time After Five Consecutive Increases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.futunn.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA single RSS headline pairs two divergent memory trends: H100 GPU prices dropping while B200 rebounds, alongside a report that DRAM prices fell for the first time after five consecutive increases.\n\n\u5185\u5bb9:\n\u4e00\u6761 RSS \u6807\u9898\u540c\u65f6\u62a5\u4e86\u4e24\u4e2a\u5206\u5316\u4fe1\u53f7\uff1aH100 GPU \u4ef7\u683c\u4e0b\u8dcc\u3001B200 \u56de\u5347\uff0c\u540c\u65f6 DRAM \u4ef7\u683c\u5728\u8fde\u7eed\u4e94\u6b21\u4e0a\u6da8\u540e\u9996\u6b21\u4e0b\u8dcc\u3002\n\nWhy it matters:\nA DRAM price reversal after five straight hikes could mark the top of the memory upcycle that's been propping up hardware-supplier margins across the AI stack \u2014 worth watching for confirmation, but this is one headline, not a verified multi-source trend.\n\n\u5f71\u54cd:\nDRAM \u8fde\u6da8\u4e94\u6b21\u540e\u9996\u6b21\u8f6c\u8dcc\uff0c\u53ef\u80fd\u662f\u8fd9\u8f6e\u652f\u6491\u786c\u4ef6\u4f9b\u5e94\u5546\u5229\u6da6\u7684\u5b58\u50a8\u5668\u6da8\u4ef7\u5468\u671f\u89c1\u9876\u7684\u4fe1\u53f7\uff0c\u503c\u5f97\u7559\u610f\u540e\u7eed\u662f\u5426\u6709\u66f4\u591a\u4fe1\u6e90\u786e\u8ba4\uff0c\u4f46\u76ee\u524d\u53ea\u662f\u5355\u6761\u6807\u9898\uff0c\u8fd8\u8c08\u4e0d\u4e0a\u5df2\u9a8c\u8bc1\u7684\u8d8b\u52bf\u3002\n",
       "emailed": false
     }
   ],
