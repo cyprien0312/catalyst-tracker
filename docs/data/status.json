@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791667923,
-  "generated_at_str": "2026-10-10 21:32:03 UTC",
-  "last_event_ts": 1791666843,
+  "generated_at": 1791668107,
+  "generated_at_str": "2026-10-10 21:35:07 UTC",
+  "last_event_ts": 1791668106,
   "tables": {
     "alerts_dedup": {
-      "count": 4761,
-      "last_ts": 1791662714,
-      "last_str": "2026-10-10 20:05:14 UTC"
+      "count": 4762,
+      "last_ts": 1791668106,
+      "last_str": "2026-10-10 21:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-10-10 20:14:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7167,
-      "last_ts": 1791664503,
-      "last_str": "2026-10-10 20:35:03 UTC"
+      "count": 7168,
+      "last_ts": 1791668102,
+      "last_str": "2026-10-10 21:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8679,
@@ -94,9 +94,9 @@
       "last_str": "2026-10-10 21:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6701,
-      "last_ts": 1791664506,
-      "last_str": "2026-10-10 20:35:06 UTC"
+      "count": 6702,
+      "last_ts": 1791668106,
+      "last_str": "2026-10-10 21:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 39716,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4769,
+      "ts": 1791668106,
+      "ts_str": "2026-10-10 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms - BigGo Finance",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 10 Oct 2026 09:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTTFoZVlRd0pnMnFGVUlpRk9NdnhwMWJLNEVzc1VocE1xelEwb3NCMzUwTUVmZm93QUlTTUo3U3AzZG5Ydlp5LUp3VzV2ZmktQWlJekxjRDhjMEp2MEZLUkZQdUpEQzZ1a3F1ZTljSXp6OHB2Nmc?oc=5\n\nMemory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTTFoZVlRd0pnMnFGVUlpRk9NdnhwMWJLNEVzc1VocE1xelEwb3NCMzUwTUVmZm93QUlTTUo3U3AzZG5Ydlp5LUp3VzV2ZmktQWlJekxjRDhjMEp2MEZLUkZQdUpEQzZ1a3F1ZTljSXp6OHB2Nmc?oc=5\" target=\"_blank\">Memory Price Surge Erodes PC Margins, Forcing Makers Back to DDR4 and Older Platforms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news report says rising memory prices are squeezing PC makers' margins, and some are moving back to DDR4 and older platforms to contain costs.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0c\u5185\u5b58\u6da8\u4ef7\u6b63\u5728\u538b\u7f29 PC \u5382\u5546\u7684\u5229\u6da6\u7387\uff0c\u90e8\u5206\u5382\u5546\u4e3a\u63a7\u5236\u6210\u672c\u9000\u56de DDR4 \u548c\u66f4\u8001\u7684\u5e73\u53f0\u3002\n\nWhy it matters:\nThis is the shortage side of the memory cycle, not a glut: memory makers are shifting wafer capacity to HBM and server DRAM for AI, and consumer devices are paying for it. It shows AI demand is real today, but it also builds the conditions for a sharp memory-price reversal if AI orders slow while that capacity is still committed.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5185\u5b58\u5468\u671f\u91cc\u7f3a\u8d27\u7684\u4e00\u9762\uff0c\u4e0d\u662f\u8fc7\u5269\u3002\u5185\u5b58\u5382\u628a\u6676\u5706\u4ea7\u80fd\u8f6c\u7ed9 AI \u7528\u7684 HBM \u548c\u670d\u52a1\u5668 DRAM\uff0c\u6d88\u8d39\u7535\u5b50\u8ddf\u7740\u591a\u4ed8\u94b1\u3002\u5b83\u8bf4\u660e\u773c\u4e0b AI \u9700\u6c42\u662f\u771f\u7684\u3002\u4f46\u4ea7\u80fd\u5df2\u7ecf\u62bc\u5728 AI \u4e0a\uff0c\u4e00\u65e6 AI \u8ba2\u5355\u653e\u7f13\uff0c\u5185\u5b58\u4ef7\u683c\u5c31\u53ef\u80fd\u6025\u8f6c\u76f4\u4e0b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4767,
       "ts": 1791662714,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C3-MED] No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says - Gizmodo",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 04:14:16 GMT\nLink:      https://news.google.com/rss/articles/CBMimwFBVV95cUxQZF8xaEYzcUU5cG0welBPeHF1QnNWV0Rvb2Rid0lnZktSWms5T3YyeVZvbHNyS3pZYzQ1RXBjM2pHZGU2dHhnSzFzS19WWnVBclhzX3lzRFhfX0tmTXczVHN6VWFNTU14bGI5cGlJbUFVVm5rY216YjlFZzFFYkl3eEp6cUx2UnU5clE4SlRERkFWYnhpbVNYUDU0RQ?oc=5\n\nNo OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says - Gizmodo\n\n<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQZF8xaEYzcUU5cG0welBPeHF1QnNWV0Rvb2Rid0lnZktSWms5T3YyeVZvbHNyS3pZYzQ1RXBjM2pHZGU2dHhnSzFzS19WWnVBclhzX3lzRFhfX0tmTXczVHN6VWFNTU14bGI5cGlJbUFVVm5rY216YjlFZzFFYkl3eEp6cUx2UnU5clE4SlRERkFWYnhpbVNYUDU0RQ?oc=5\" target=\"_blank\">No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports OpenAI CEO Sam Altman saying there will be no IPO until the AI stops 'going rogue' \u2014 no financial metric, filing, or ticker attached.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0 OpenAI CEO Sam Altman \u8868\u793a\uff0c\u5728 AI \u505c\u6b62\u300c\u8dd1\u504f\u300d\u4e4b\u524d\u4e0d\u4f1a IPO \u2014\u2014 \u6ca1\u6709\u9644\u5e26\u4efb\u4f55\u8d22\u52a1\u6307\u6807\u3001filing \u6216 ticker\u3002\n\nWhy it matters:\nThis is pure speculation/commentary, not a disclosed metric or filing event \u2014 it doesn't move the burn-rate or IPO-timeline thesis on its own, but it's tracked because IPO-timing chatter is a recurring C3 theme worth watching in aggregate.\n\n\u5f71\u54cd:\n\u8fd9\u7eaf\u5c5e\u731c\u6d4b\u6027\u62a5\u9053\uff0c\u4e0d\u662f\u62ab\u9732\u7684\u6307\u6807\u6216 filing \u4e8b\u4ef6\uff0c\u5355\u72ec\u770b\u4e0d\u4f1a\u6539\u53d8 burn-rate \u6216 IPO \u65f6\u95f4\u7ebf\u7684\u5224\u65ad\uff1b\u4e4b\u6240\u4ee5\u88ab\u8ddf\u8e2a\uff0c\u662f\u56e0\u4e3a IPO \u65f6\u95f4\u70b9\u7684\u4f20\u95fb\u662f C3 \u91cc\u53cd\u590d\u51fa\u73b0\u7684\u8bdd\u9898\uff0c\u503c\u5f97\u957f\u671f\u89c2\u5bdf\u5176\u7d2f\u79ef\u8d8b\u52bf\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4568,
-      "ts": 1790739318,
-      "ts_str": "2026-09-30 03:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] AI Servers Compete for Memory Capacity as DDR5 Module Prices Surge More Than Fivefold in 10 Months - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 02:36:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBTTW5jdVFTU2dhWmJkSlhxbDd6ZmtRMDgwLXIyaGlMMDFOMWt0R0k5Mk5hemx2VzVpZFRlczl0dGpDTC1tdzgxcVRUNkRVM0Q4NzhwSlZsZ0FhWHMzZG9xUEEzS0tIZ2xvOUY4amk0SmtaaUxZSHc?oc=5\n\nAI Servers Compete for Memory Capacity as DDR5 Module Prices Surge More Than Fivefold in 10 Months - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBTTW5jdVFTU2dhWmJkSlhxbDd6ZmtRMDgwLXIyaGlMMDFOMWt0R0k5Mk5hemx2VzVpZFRlczl0dGpDTC1tdzgxcVRUNkRVM0Q4NzhwSlZsZ0FhWHMzZG9xUEEzS0tIZ2xvOUY4amk0SmtaaUxZSHc?oc=5\" target=\"_blank\">AI Servers Compete for Memory Capacity as DDR5 Module Prices Surge More Than Fivefold in 10 Months</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR5 module prices have surged more than fivefold in the past 10 months, driven by AI servers competing for memory capacity.\n\n\u5185\u5bb9:\nDDR5 \u5185\u5b58\u6761\u4ef7\u683c\u5728\u8fc7\u53bb 10 \u4e2a\u6708\u91cc\u6da8\u4e86\u8d85\u8fc7 5 \u500d\uff0c\u539f\u56e0\u662f AI \u670d\u52a1\u5668\u5728\u62a2\u5185\u5b58\u5bb9\u91cf\u3002\n\nWhy it matters:\nA 5x price spike means memory has flipped from a commodity cost line to a genuine capex constraint \u2014 hyperscalers are now bidding against each other for scarce DRAM, which squeezes margins on every AI server built and signals the supply chain can't keep pace with GPU shipment growth.\n\n\u5f71\u54cd:\n\u6da8 5 \u500d\u610f\u5473\u7740\u5185\u5b58\u5df2\u7ecf\u4ece\u4e00\u9879\u666e\u901a\u6210\u672c\u53d8\u6210\u4e86\u5b9e\u6253\u5b9e\u7684\u4ea7\u80fd\u74f6\u9888\u2014\u2014\u5404\u5bb6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u73b0\u5728\u5728\u62a2\u540c\u4e00\u6279\u7a00\u7f3a DRAM\uff0c\u6bcf\u53f0 AI \u670d\u52a1\u5668\u7684\u5229\u6da6\u90fd\u88ab\u6324\u538b\uff0c\u4e5f\u8bf4\u660e\u4f9b\u5e94\u94fe\u7684\u6269\u4ea7\u901f\u5ea6\u8ddf\u4e0d\u4e0a GPU \u51fa\u8d27\u7684\u8282\u594f\u3002\n",
       "emailed": false
     }
   ],
