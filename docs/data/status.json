@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791681063,
-  "generated_at_str": "2026-10-11 01:11:03 UTC",
-  "last_event_ts": 1791680705,
+  "generated_at": 1791681257,
+  "generated_at_str": "2026-10-11 01:14:17 UTC",
+  "last_event_ts": 1791681256,
   "tables": {
     "alerts_dedup": {
-      "count": 4764,
-      "last_ts": 1791676037,
-      "last_str": "2026-10-10 23:47:17 UTC"
+      "count": 4765,
+      "last_ts": 1791681256,
+      "last_str": "2026-10-11 01:14:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-10-10 19:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1584,
-      "last_ts": 1791663246,
-      "last_str": "2026-10-10 20:14:06 UTC"
+      "count": 1585,
+      "last_ts": 1791681245,
+      "last_str": "2026-10-11 01:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7172,
@@ -99,9 +99,9 @@
       "last_str": "2026-10-11 01:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 39747,
-      "last_ts": 1791679443,
-      "last_str": "2026-10-11 00:44:03 UTC"
+      "count": 39749,
+      "last_ts": 1791681242,
+      "last_str": "2026-10-11 01:14:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 12505,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4772,
+      "ts": 1791681256,
+      "ts_str": "2026-10-11 01:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwi",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 10 Oct 2026 17:56:03 GMT\nLink:      https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\n\nCOIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEowbzNSazNnUTZURklGY1FUWE9UYnhoSDB3TW1kemJyQ212cnF6Rk5kdlN4T29ESDg0WlhvelctYTFycjR2MmdGd3ZhdmdMZEhwenpwcDdPMkY1V1Ruc0VXRm9tWWw2dFpvVzFSNTVNb09Udkc2QTFpdy1UdHJWajdHZ19ETG1EWVRTZ2ZlV083alJfbkJ5SVRENzl0SWtlZzBfWWhiUExoT0pFaHd1UmxMVnRlTmNod1hVTmx4NDdJRnVVRFhFaWdwODM1YjQzVlg4Qw?oc=5\" target=\"_blank\">COIN Stock Breaks Three-Day Losing Streak: Coinbase Challenges Binance With OpenAI, Anthropic Pre-IPO Futures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCoinbase (COIN) is launching pre-IPO futures on OpenAI and Anthropic, competing with Binance, and the headline notes COIN stock ended a three-day losing streak. The alert fired on the OpenAI/IPO keywords, not on any OpenAI filing, funding or burn-rate number.\n\n\u5185\u5bb9:\nCoinbase (COIN) \u63a8\u51fa OpenAI \u548c Anthropic \u7684 pre-IPO futures\uff0c\u8ddf Binance \u62a2\u8fd9\u5757\u751f\u610f\u3002\u6807\u9898\u987a\u5e26\u63d0\u5230 COIN \u80a1\u4ef7\u7ed3\u675f\u4e86\u4e09\u8fde\u8dcc\u3002\u8fd9\u6761\u544a\u8b66\u662f\u88ab OpenAI / IPO \u5173\u952e\u8bcd\u89e6\u53d1\u7684\uff0c\u4e0d\u6d89\u53ca OpenAI \u7684\u4efb\u4f55 filing\u3001\u878d\u8d44\u6216\u70e7\u94b1\u6570\u636e\u3002\n\nWhy it matters:\nThis says nothing direct about OpenAI's finances. It is a crypto exchange listing a speculative product. At most it shows retail demand to bet on frontier-lab valuations before any listing, which is froth on the sentiment side of the bubble, not a stress signal. Treat it as MED noise, not evidence of strain.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u5bf9 OpenAI \u7684\u8d22\u52a1\u72b6\u51b5\u6ca1\u6709\u76f4\u63a5\u4fe1\u606f\uff0c\u53ea\u662f\u4e00\u5bb6\u52a0\u5bc6\u4ea4\u6613\u6240\u4e0a\u4e86\u4e2a\u6295\u673a\u4ea7\u54c1\u3002\u5b83\u6700\u591a\u8bf4\u660e\u6563\u6237\u60f3\u5728\u4e0a\u5e02\u524d\u62bc\u6ce8\u5934\u90e8 AI \u5b9e\u9a8c\u5ba4\u7684\u4f30\u503c\u3002\u8fd9\u662f\u60c5\u7eea\u9762\u7684\u6ce1\u6cab\u8ff9\u8c61\uff0c\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u3002\u6309 MED \u7ea7\u566a\u97f3\u5904\u7406\uff0c\u522b\u5f53\u6210 OpenAI \u627f\u538b\u7684\u8bc1\u636e\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4771,
       "ts": 1791676037,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Apple's New CEO Wields the Axe to Streamline Organization as Memory Price Hikes and Services Revenue Decline Create Dual",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 04:25:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZN2xFZE1GeVJOd1ZXbi1JRi12RFZjcE0wbXV0ZWFWV3F2dm9aMTR3eFJ2SXdqWnhBdDVMVy14MUNkMGdoRVVhelhIZGVITFVRUzBzTU4yZ3J4bURNcmhNNF9ITzdoT2RJX1QxNzh3eEw1RHAtRkE?oc=5\n\nApple's New CEO Wields the Axe to Streamline Organization as Memory Price Hikes and Services Revenue Decline Create Dual Pressure - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZN2xFZE1GeVJOd1ZXbi1JRi12RFZjcE0wbXV0ZWFWV3F2dm9aMTR3eFJ2SXdqWnhBdDVMVy14MUNkMGdoRVVhelhIZGVITFVRUzBzTU4yZ3J4bURNcmhNNF9ITzdoT2RJX1QxNzh3eEw1RHAtRkE?oc=5\" target=\"_blank\">Apple's New CEO Wields the Axe to Streamline Organization as Memory Price Hikes and Services Revenue Decline Create Dual Pressure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports Apple's new CEO is restructuring the company while memory price hikes squeeze margins alongside declining services revenue.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\u82f9\u679c\u65b0\u4efb CEO \u6b63\u5728\u63a8\u52a8\u7ec4\u7ec7\u91cd\u7ec4\uff0c\u540c\u65f6\u5185\u5b58\u6da8\u4ef7\u4e0e\u670d\u52a1\u6536\u5165\u4e0b\u6ed1\u5f62\u6210\u53cc\u91cd\u538b\u529b\u3002\n\nWhy it matters:\nConfirms DRAM/NAND cost increases are hitting a major device OEM's bottom line hard enough to trigger organizational cuts, corroborating C6's memory-shortage thesis from the demand side \u2014 AI datacenter HBM/DRAM demand is crowding out consumer electronics supply.\n\n\u5f71\u54cd:\n\u8fd9\u8bf4\u660e DRAM/NAND \u6da8\u4ef7\u5df2\u7ecf\u4e25\u91cd\u5230\u8ba9\u4e00\u5bb6\u4e3b\u8981\u7ec8\u7aef\u5382\u5546\u52a8\u624b\u88c1\u64a4\u7ec4\u7ec7\u67b6\u6784\uff0c\u4ece\u9700\u6c42\u7aef\u5370\u8bc1\u4e86 C6 \u7684\u5185\u5b58\u77ed\u7f3a\u5224\u65ad\u2014\u2014AI \u6570\u636e\u4e2d\u5fc3\u5bf9 HBM/DRAM \u7684\u62a2\u8d2d\u6b63\u5728\u6324\u5360\u6d88\u8d39\u7535\u5b50\u7684\u4f9b\u5e94\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4573,
-      "ts": 1790753733,
-      "ts_str": "2026-09-30 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] As Memory Prices Surge, PC Buying Criteria Shift\u201416GB Becomes the New Minimum - finance.biggo.com",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 29 Sep 2026 23:55:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5VQ2t5aEoxMzU1Q0dxZHd6ZTlBNDdPMmZLc0Q4QjREbDc2NjZBSjBkaFplakJPcThUaXZGMFRkZmpubndfRnhJRGpPNmZzOUJTa25pOWRVdVg5SjFzbUZwcHVYYmFuemt5T285TXBnVlNPc2lKNlE?oc=5\n\nAs Memory Prices Surge, PC Buying Criteria Shift\u201416GB Becomes the New Minimum - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5VQ2t5aEoxMzU1Q0dxZHd6ZTlBNDdPMmZLc0Q4QjREbDc2NjZBSjBkaFplakJPcThUaXZGMFRkZmpubndfRnhJRGpPNmZzOUJTa25pOWRVdVg5SjFzbUZwcHVYYmFuemt5T285TXBnVlNPc2lKNlE?oc=5\" target=\"_blank\">As Memory Prices Surge, PC Buying Criteria Shift\u201416GB Becomes the New Minimum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA memory/storage price-surge headline paired with a PC-buying-criteria shift, citing 16GB as the new minimum RAM configuration, appeared duplicated across two RSS feed lines.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\u5185\u5b58\u4ef7\u683c\u98d9\u5347\uff0c\u5bfc\u81f4 PC \u91c7\u8d2d\u6807\u51c6\u53d1\u751f\u53d8\u5316\u2014\u201416GB \u6210\u4e3a\u65b0\u7684\u6700\u4f4e\u914d\u7f6e\uff0c\u8be5\u6807\u9898\u5728 RSS \u91cc\u91cd\u590d\u51fa\u73b0\u4e86\u4e24\u6b21\u3002\n\nWhy it matters:\nRising DRAM prices forcing OEMs to raise baseline specs is a demand-side confirmation of the memory shortage thesis \u2014 it signals the price surge is severe enough to already reshape end-product bill-of-materials, not just spot-market noise.\n\n\u5f71\u54cd:\nDRAM \u6da8\u4ef7\u5df2\u7ecf\u903c\u5f97 OEM \u5382\u5546\u63d0\u9ad8\u6574\u673a\u7684\u6700\u4f4e\u5185\u5b58\u914d\u7f6e\uff0c\u8fd9\u662f\u4ece\u9700\u6c42\u7aef\u5370\u8bc1\u5185\u5b58\u77ed\u7f3a\u7684\u8bf4\u6cd5\u2014\u2014\u8bf4\u660e\u6da8\u4ef7\u5e45\u5ea6\u5df2\u7ecf\u5927\u5230\u80fd\u91cd\u5851\u7ec8\u7aef\u4ea7\u54c1\u7684\u7269\u6599\u6e05\u5355\uff0c\u800c\u4e0d\u53ea\u662f\u73b0\u8d27\u5e02\u573a\u7684\u77ed\u671f\u6ce2\u52a8\u3002\n",
       "emailed": false
     }
   ],
