@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791829922,
-  "generated_at_str": "2026-10-12 18:32:02 UTC",
-  "last_event_ts": 1791828844,
+  "generated_at": 1791830116,
+  "generated_at_str": "2026-10-12 18:35:16 UTC",
+  "last_event_ts": 1791830116,
   "tables": {
     "alerts_dedup": {
-      "count": 4785,
-      "last_ts": 1791823635,
-      "last_str": "2026-10-12 16:47:15 UTC"
+      "count": 4786,
+      "last_ts": 1791830116,
+      "last_str": "2026-10-12 18:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-10-12 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7258,
-      "last_ts": 1791828302,
-      "last_str": "2026-10-12 18:05:02 UTC"
+      "count": 7261,
+      "last_ts": 1791830103,
+      "last_str": "2026-10-12 18:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8801,
@@ -94,9 +94,9 @@
       "last_str": "2026-10-12 17:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6785,
-      "last_ts": 1791828305,
-      "last_str": "2026-10-12 18:05:05 UTC"
+      "count": 6789,
+      "last_ts": 1791830107,
+      "last_str": "2026-10-12 18:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 40075,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4793,
+      "ts": 1791830116,
+      "ts_str": "2026-10-12 18:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Ru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 17:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMNIB7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMA?oc=5\n\nDDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMNIB7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMA?oc=5\" target=\"_blank\">DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR4 contract prices rose 24% in three months, outpacing DDR5, and Barclays warns the memory shortage at Micron (MU) will last until 2028.\n\n\u5185\u5bb9:\nDDR4 \u5185\u5b58\u82af\u7247\u5408\u7ea6\u4ef7\u4e09\u4e2a\u6708\u6da8\u4e86 24%\uff0c\u6da8\u5e45\u8d85\u8fc7 DDR5\u3002Barclays \u9884\u8b66 Micron (MU) \u9762\u4e34\u7684\u5185\u5b58\u77ed\u7f3a\u4f1a\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nMemory is supply-constrained, not oversupplied: AI demand for HBM and DDR5 keeps absorbing capacity and pushing up even legacy DDR4 prices. Near term this points against a bubble burst, but a shortage that runs into 2028 invites capacity overbuild, and that is how memory cycles usually end in an oversupply crash.\n\n\u5f71\u54cd:\n\u5185\u5b58\u73b0\u5728\u7f3a\u8d27\uff0c\u6ca1\u6709\u8fc7\u5269\u3002AI \u5bf9 HBM \u548c DDR5 \u7684\u9700\u6c42\u4e00\u76f4\u5728\u5403\u4ea7\u80fd\uff0c\u8fde\u8001\u4e00\u4ee3\u7684 DDR4 \u90fd\u88ab\u5e26\u7740\u6da8\u4ef7\u3002\u77ed\u671f\u770b\u8fd9\u4e0d\u652f\u6301\u6ce1\u6cab\u7834\u88c2\u7684\u5224\u65ad\u3002\u4f46\u77ed\u7f3a\u4e00\u76f4\u62d6\u5230 2028 \u5e74\uff0c\u5382\u5546\u5c31\u4f1a\u62a2\u7740\u6269\u4ea7\uff0c\u5185\u5b58\u5468\u671f\u901a\u5e38\u5c31\u662f\u8fd9\u6837\u4ee5\u4f9b\u8fc7\u4e8e\u6c42\u7684\u4ef7\u683c\u5d29\u76d8\u6536\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4792,
       "ts": 1791823635,
@@ -2306,16 +2316,6 @@
       "subject": "[C3-MED] FTC Launches Sweeping Probe Into Anthropic and OpenAI \u2014 Just as a $2 Trillion IPO Hangs in the Balance - Barchart.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 20:19:06 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYUxyeDRuY19zMHNna19tNWVCWlpTNTByQ1Z0UGJ3ckJ5Z19JZTVXOUsyRGZkYVlDSllKaFlldV80NmwwTW9rWTc3THFUMHRESDhZN3pRVnQydGFiZVhNQk51LXJhRzc4Z2FMMlpST2ptbG43ZDgtaWpxRVRpTS13ZzAtQTE0dHhmT1lwZnZlVHhsTXVJaDZCR2Z0dTB3Z01wWGxTQnAtVjlBcTVZLXozMXBrQXdFVzF5YjdiVTVvSnhHQl9EdTFrQzBwd3RTdzVUblJvbWpydmE3Nzg?oc=5\n\nFTC Launches Sweeping Probe Into Anthropic and OpenAI \u2014 Just as a $2 Trillion IPO Hangs in the Balance - Barchart.com\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYUxyeDRuY19zMHNna19tNWVCWlpTNTByQ1Z0UGJ3ckJ5Z19JZTVXOUsyRGZkYVlDSllKaFlldV80NmwwTW9rWTc3THFUMHRESDhZN3pRVnQydGFiZVhNQk51LXJhRzc4Z2FMMlpST2ptbG43ZDgtaWpxRVRpTS13ZzAtQTE0dHhmT1lwZnZlVHhsTXVJaDZCR2Z0dTB3Z01wWGxTQnAtVjlBcTVZLXozMXBrQXdFVzF5YjdiVTVvSnhHQl9EdTFrQzBwd3RTdzVUblJvbWpydmE3Nzg?oc=5\" target=\"_blank\">FTC Launches Sweeping Probe Into Anthropic and OpenAI \u2014 Just as a $2 Trillion IPO Hangs in the Balance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barchart.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nFTC opened a broad investigation into Anthropic and OpenAI, timed against a reported $2 trillion OpenAI IPO.\n\n\u5185\u5bb9:\nFTC \u5bf9 Anthropic \u548c OpenAI \u5c55\u5f00\u5e7f\u6cdb\u8c03\u67e5\uff0c\u6b63\u503c OpenAI \u4f20\u51fa $2 trillion IPO \u4f30\u503c\u7684\u65f6\u5019\u3002\n\nWhy it matters:\nA regulatory probe hitting right as OpenAI courts public-market valuation adds legal/compliance overhang to an already speculative IPO story \u2014 it's a headline risk to the C3 burn/IPO thesis, not a hard financial metric.\n\n\u5f71\u54cd:\n\u76d1\u7ba1\u8c03\u67e5\u6b63\u597d\u649e\u4e0a OpenAI \u51b2\u51fb\u4e07\u4ebf\u7ea7 IPO \u4f30\u503c\u7684\u8282\u70b9\uff0c\u7ed9\u672c\u5c31\u6295\u673a\u6027\u5f88\u5f3a\u7684 IPO \u53d9\u4e8b\u53c8\u6dfb\u4e86\u4e00\u5c42\u6cd5\u5f8b/\u5408\u89c4\u98ce\u9669\uff0c\u5c5e\u4e8e\u6807\u9898\u515a\u5f0f\u7684\u98ce\u9669\u4fe1\u53f7\uff0c\u4e0d\u662f\u786c\u8d22\u52a1\u6570\u636e\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 4593,
-      "ts": 1790807363,
-      "ts_str": "2026-09-30 22:29 UTC",
-      "catalyst": "C10",
-      "severity": "HIGH",
-      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.91% \u2265 2.50%",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-09-29\nCurrent:  2.91%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.91pp, crossing the 2.5pp stress level defined for C10 \u2014 pushing above its trailing-90-day low by more than the configured trigger threshold.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS\uff09\u5347\u81f3 2.91pp\uff0c\u7a81\u7834 C10 \u8bbe\u5b9a\u7684 2.5pp \u538b\u529b\u4f4d\u2014\u2014\u8d85\u51fa\u5176\u8fc7\u53bb 90 \u5929\u4f4e\u70b9\u7684\u5e45\u5ea6\u5df2\u8fbe\u5230\u89e6\u53d1\u9608\u503c\u3002\n\nWhy it matters:\nA rising real yield raises the discount rate applied to long-duration AI-capex cash flows and increases the opportunity cost of holding speculative growth assets over risk-free debt. Combined with the broad-USD index sitting at 120.33, tightening dollar liquidity compounds funding-cost pressure on leveraged AI infrastructure buildouts.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u4e0a\u5347\uff0c\u4f1a\u63d0\u9ad8\u5bf9 AI capex \u8fd9\u7c7b\u957f\u4e45\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\uff0c\u4e5f\u62c9\u9ad8\u4e86\u6301\u6709\u6295\u673a\u6027\u6210\u957f\u8d44\u4ea7\u76f8\u5bf9\u65e0\u98ce\u9669\u56fd\u503a\u7684\u673a\u4f1a\u6210\u672c\u3002\u53e0\u52a0\u5e7f\u4e49\u7f8e\u5143\u6307\u6570\u5904\u4e8e 120.33 \u7684\u9ad8\u4f4d\uff0c\u6d41\u52a8\u6027\u6536\u7d27\u4f1a\u8fdb\u4e00\u6b65\u52a0\u5927\u9ad8\u6760\u6746 AI \u57fa\u5efa\u9879\u76ee\u7684\u878d\u8d44\u6210\u672c\u538b\u529b\u3002\n",
-      "emailed": true
     }
   ],
   "catalysts": [
