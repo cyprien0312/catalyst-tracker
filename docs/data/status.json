@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791840723,
-  "generated_at_str": "2026-10-12 21:32:03 UTC",
-  "last_event_ts": 1791839645,
+  "generated_at": 1791840907,
+  "generated_at_str": "2026-10-12 21:35:07 UTC",
+  "last_event_ts": 1791840906,
   "tables": {
     "alerts_dedup": {
-      "count": 4791,
-      "last_ts": 1791837306,
-      "last_str": "2026-10-12 20:35:06 UTC"
+      "count": 4792,
+      "last_ts": 1791840906,
+      "last_str": "2026-10-12 21:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-10-12 21:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7263,
-      "last_ts": 1791837303,
-      "last_str": "2026-10-12 20:35:03 UTC"
+      "count": 7264,
+      "last_ts": 1791840903,
+      "last_str": "2026-10-12 21:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8808,
-      "last_ts": 1791839104,
-      "last_str": "2026-10-12 21:05:04 UTC"
+      "count": 8809,
+      "last_ts": 1791840905,
+      "last_str": "2026-10-12 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5075,
-      "last_ts": 1791839103,
-      "last_str": "2026-10-12 21:05:03 UTC"
+      "count": 5076,
+      "last_ts": 1791840904,
+      "last_str": "2026-10-12 21:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6794,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4799,
+      "ts": 1791840906,
+      "ts_str": "2026-10-12 21:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Ru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 17:35:22 GMT\nLink:      https://news.google.com/rss/articles/CBMi5wFBVV95cUxQajJoUENnN2hjRG5YaXk4RXE1YmgxMDhrRDFwc1dsNXF6Qm95T1hxZDBnOS1xOXhfcFhBdk9pLVJiUlUxeTZXS1p4YXlTdy1LTW9KNDJwbXdLelBlMzRHWmJKaWpxYWt1TjlrWHlMT01aTDJOU3dEZTNuaEc1S0diekthRUJQZTF6TzAzQ2JIaUdQZ2IyaDFMOFdjVGJMRkV5RVhCdWNUQ3Rvd2RJVlpzX0FvUm80Qkl2R2pXTXlnMjlXcHF1bEtweWxwM0VuR29WNDRlcXhQNzJOMkx2azZxSTR5Q1JEUDTSAewBQVVfeXFMT0FidXdBYUw0dE5qb3Q1Sm1iQ2NxTTFPWGdONnp6NjJ3QkFuaGNJU0ZSTWM0SDNxS3F0bzZabHJMd0s1NW9oZERmbm82R3ZFSnlzSEUxV3JuS0NGX0EtRHJyOUN2dk9fU0xJX2loZkhaN0xDbHdpX1R0RU1LSWhVbHBjNGdYczlxeU9tTmpZNndETFpwQ2VySWpwby0zVkpwZVM0VmtvemJncUplOGM3ekQ1dnhuOWczM3IwM24tR0VRR3A3dkZLcVdsTjRScHBZb0Z4Zk1ueVdGaTFjWEw2WHdBQXNBckxvYVhscTA?oc=5\n\nDDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQajJoUENnN2hjRG5YaXk4RXE1YmgxMDhrRDFwc1dsNXF6Qm95T1hxZDBnOS1xOXhfcFhBdk9pLVJiUlUxeTZXS1p4YXlTdy1LTW9KNDJwbXdLelBlMzRHWmJKaWpxYWt1TjlrWHlMT01aTDJOU3dEZTNuaEc1S0diekthRUJQZTF6TzAzQ2JIaUdQZ2IyaDFMOFdjVGJMRkV5RVhCdWNUQ3Rvd2RJVlpzX0FvUm80Qkl2R2pXTXlnMjlXcHF1bEtweWxwM0VuR29WNDRlcXhQNzJOMkx2azZxSTR5Q1JEUDTSAewBQVVfeXFMT0FidXdBYUw0dE5qb3Q1Sm1iQ2NxTTFPWGdONnp6NjJ3QkFuaGNJU0ZSTWM0SDNxS3F0bzZabHJMd0s1NW9oZERmbm82R3ZFSnlzSEUxV3JuS0NGX0EtRHJyOUN2dk9fU0xJX2loZkhaN0xDbHdpX1R0RU1LSWhVbHBjNGdYczlxeU9tTmpZNndETFpwQ2VySWpwby0zVkpwZVM0VmtvemJncUplOGM3ekQ1dnhuOWczM3IwM24tR0VRR3A3dkZLcVdsTjRScHBZb0Z4Zk1ueVdGaTFjWEw2WHdBQXNBckxvYVhscTA?oc=5\" target=\"_blank\">DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR4 contract prices rose 24% in three months, outpacing DDR5, and Barclays warns the memory shortage at Micron (MU) will last until 2028.\n\n\u5185\u5bb9:\nDDR4 \u5185\u5b58\u82af\u7247\u5408\u7ea6\u4ef7\u4e09\u4e2a\u6708\u6da8\u4e86 24%\uff0c\u6da8\u5e45\u8d85\u8fc7 DDR5\u3002Barclays \u9884\u8b66 Micron (MU) \u9762\u4e34\u7684\u5185\u5b58\u77ed\u7f3a\u4f1a\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nMemory is supply-constrained, not oversupplied: AI demand for HBM and DDR5 keeps absorbing capacity and pushing up even legacy DDR4 prices. Near term this points against a bubble burst, but a shortage that runs into 2028 invites capacity overbuild, and that is how memory cycles usually end in an oversupply crash.\n\n\u5f71\u54cd:\n\u5185\u5b58\u73b0\u5728\u7f3a\u8d27\uff0c\u6ca1\u6709\u8fc7\u5269\u3002AI \u5bf9 HBM \u548c DDR5 \u7684\u9700\u6c42\u4e00\u76f4\u5728\u5403\u4ea7\u80fd\uff0c\u8fde\u8001\u4e00\u4ee3\u7684 DDR4 \u90fd\u88ab\u5e26\u7740\u6da8\u4ef7\u3002\u77ed\u671f\u770b\u8fd9\u4e0d\u652f\u6301\u6ce1\u6cab\u7834\u88c2\u7684\u5224\u65ad\u3002\u4f46\u77ed\u7f3a\u4e00\u76f4\u62d6\u5230 2028 \u5e74\uff0c\u5382\u5546\u5c31\u4f1a\u62a2\u7740\u6269\u4ea7\uff0c\u5185\u5b58\u5468\u671f\u901a\u5e38\u5c31\u662f\u8fd9\u6837\u4ee5\u4f9b\u8fc7\u4e8e\u6c42\u7684\u4ef7\u683c\u5d29\u76d8\u6536\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4798,
       "ts": 1791837306,
@@ -2306,16 +2316,6 @@
       "subject": "[C3-CRITICAL] SoftBank\u2019s $30 Billion OpenAI Bet Just Hit Its Final Tranche. The $11 Billion Bond Sale That Funded It Is the Real Signa",
       "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 09:31:49 GMT\nLink:      https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYTNaMVRsbi00TkY2VHZWc0Q2RU1PbDRHcjVYOGZDMG5PSnZhSHI0YjdvY0E1VmtSblBualN4bnFxMjVSUHU5eHJ6SXloMG1VM29Hb1I0alFEc0ZvQTBXc2FlZ25LUldobS1kUlY4NXpDSkEwa1h4QnVxblczVk1fZXdxanRoUWMzTEtSM09UXzRPcjBkVE5zdTZ4VXZNc0w2YmJQUjY2VFRMSDVVY2pHT3pGOU9NZko5ZFQwVWdfRmFmMzU4RzlKajlTZUVyaG5zQWlNXzVB?oc=5\n\nSoftBank\u2019s $30 Billion OpenAI Bet Just Hit Its Final Tranche. The $11 Billion Bond Sale That Funded It Is the Real Signal. - forkast.news\n\n<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYTNaMVRsbi00TkY2VHZWc0Q2RU1PbDRHcjVYOGZDMG5PSnZhSHI0YjdvY0E1VmtSblBualN4bnFxMjVSUHU5eHJ6SXloMG1VM29Hb1I0alFEc0ZvQTBXc2FlZ25LUldobS1kUlY4NXpDSkEwa1h4QnVxblczVk1fZXdxanRoUWMzTEtSM09UXzRPcjBkVE5zdTZ4VXZNc0w2YmJQUjY2VFRMSDVVY2pHT3pGOU9NZko5ZFQwVWdfRmFmMzU4RzlKajlTZUVyaG5zQWlNXzVB?oc=5\" target=\"_blank\">SoftBank\u2019s $30 Billion OpenAI Bet Just Hit Its Final Tranche. The $11 Billion Bond Sale That Funded It Is the Real Signal.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">forkast.news</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSoftBank's $30 billion investment commitment into OpenAI has reached its final tranche, funded in part by an $11 billion bond sale.\n\n\u5185\u5bb9:\nSoftBank \u5bf9 OpenAI \u7684 300 \u4ebf\u7f8e\u5143\u6295\u8d44\u627f\u8bfa\u5df2\u6253\u5165\u6700\u540e\u4e00\u7b14\uff0c\u5176\u4e2d\u90e8\u5206\u8d44\u91d1\u6765\u81ea\u4e00\u7b14 110 \u4ebf\u7f8e\u5143\u7684\u53d1\u503a\u3002\n\nWhy it matters:\nA major OpenAI backer raising debt to fund its stake \u2014 rather than paying from cash flow \u2014 signals that even the biggest capital providers in this ecosystem are leveraging up to keep the AI buildout funded. That's a direct read on financing fragility in the OpenAI stress thesis, not just OpenAI's own burn rate.\n\n\u5f71\u54cd:\nOpenAI \u6700\u5927\u7684\u91d1\u4e3b\u4e4b\u4e00\u8981\u9760\u53d1\u503a\u800c\u4e0d\u662f\u81ea\u6709\u73b0\u91d1\u6d41\u6765\u586b\u8fd9\u7b14\u6295\u8d44\uff0c\u8bf4\u660e\u8fde\u751f\u6001\u91cc\u6700\u5927\u7684\u8d44\u91d1\u65b9\u90fd\u5728\u52a0\u6760\u6746\u7ef4\u6301 AI \u5efa\u8bbe\u3002\u8fd9\u662f\u5bf9 OpenAI \u878d\u8d44\u7aef\u8106\u5f31\u6027\u7684\u76f4\u63a5\u4fe1\u53f7\uff0c\u4e0d\u53ea\u662f OpenAI \u81ea\u5df1\u70e7\u94b1\u5feb\u6162\u7684\u95ee\u9898\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 4599,
-      "ts": 1790825717,
-      "ts_str": "2026-10-01 03:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 02:56:21 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\n\nMicron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\" target=\"_blank\">Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Micron is raising 2027 HBM prices after 2026 memory-surge demand wasn't captured because of fixed contracts.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0cMicron \u56e0\u56fa\u5b9a\u5408\u7ea6\u9501\u4ef7\u9519\u5931\u4e86 2026 \u5e74\u5185\u5b58\u9700\u6c42\u6fc0\u589e\u7684\u7ea2\u5229\uff0c\u4e8e\u662f\u4e0a\u8c03 2027 \u5e74 HBM \u4ef7\u683c\u3002\n\nWhy it matters:\nMemory suppliers passing through price hikes on HBM \u2014 the bottleneck input for AI accelerators \u2014 confirms sustained tightness in the AI-chip supply chain rather than oversupply; it's bullish for memory margins but adds another input-cost pressure point for AI capex.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u5546\u80fd\u5bf9 HBM\uff08AI \u52a0\u901f\u5361\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\uff09\u63d0\u4ef7\uff0c\u8bf4\u660e AI \u82af\u7247\u4f9b\u5e94\u94fe\u4ecd\u7136\u7d27\u7f3a\u800c\u975e\u8fc7\u5269\uff0c\u5bf9\u5185\u5b58\u5382\u5229\u6da6\u662f\u5229\u597d\uff0c\u4f46\u4e5f\u7ed9 AI capex \u53c8\u6dfb\u4e86\u4e00\u9879\u6210\u672c\u538b\u529b\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
