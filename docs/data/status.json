@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791831723,
-  "generated_at_str": "2026-10-12 19:02:03 UTC",
-  "last_event_ts": 1791830835,
+  "generated_at": 1791831922,
+  "generated_at_str": "2026-10-12 19:05:22 UTC",
+  "last_event_ts": 1791831916,
   "tables": {
     "alerts_dedup": {
-      "count": 4787,
-      "last_ts": 1791830835,
-      "last_str": "2026-10-12 18:47:15 UTC"
+      "count": 4789,
+      "last_ts": 1791831916,
+      "last_str": "2026-10-12 19:05:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,24 +79,24 @@
       "last_str": "2026-10-12 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7261,
-      "last_ts": 1791830103,
-      "last_str": "2026-10-12 18:35:03 UTC"
+      "count": 7262,
+      "last_ts": 1791831902,
+      "last_str": "2026-10-12 19:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8801,
-      "last_ts": 1791828305,
-      "last_str": "2026-10-12 18:05:05 UTC"
+      "count": 8804,
+      "last_ts": 1791831904,
+      "last_str": "2026-10-12 19:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5071,
-      "last_ts": 1791824703,
-      "last_str": "2026-10-12 17:05:03 UTC"
+      "count": 5072,
+      "last_ts": 1791831903,
+      "last_str": "2026-10-12 19:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 6789,
-      "last_ts": 1791830107,
-      "last_str": "2026-10-12 18:35:07 UTC"
+      "count": 6791,
+      "last_ts": 1791831905,
+      "last_str": "2026-10-12 19:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 40082,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4795,
+      "ts": 1791831916,
+      "ts_str": "2026-10-12 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Smartphone Shipments Fall 20% Amid Memory Chip Shortage - Mexico Business News",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 16:40:00 GMT\nLink:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlVMQzJSVmpFTGU3d1M0YVhyZ1dMSGtxR1lDc0FZOXlkM0NzRFhqWXZERkZLRVQ3Qy1ablQzY2NLTlRWMjBvclJjUXpReHRoTEJpM2Fzc0lMeU1raUNJaWZZQ04yRFQ3ODRMa1UtREVxLUcyZGs1aENwWHNtanQ3QldhaWMwUDdNckRrQW1tMi1IYlFnQ3Fwbi03RjNPbkxU?oc=5\n\nGlobal Smartphone Shipments Fall 20% Amid Memory Chip Shortage - Mexico Business News\n\n<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlVMQzJSVmpFTGU3d1M0YVhyZ1dMSGtxR1lDc0FZOXlkM0NzRFhqWXZERkZLRVQ3Qy1ablQzY2NLTlRWMjBvclJjUXpReHRoTEJpM2Fzc0lMeU1raUNJaWZZQ04yRFQ3ODRMa1UtREVxLUcyZGs1aENwWHNtanQ3QldhaWMwUDdNckRrQW1tMi1IYlFnQ3Fwbi03RjNPbkxU?oc=5\" target=\"_blank\">Global Smartphone Shipments Fall 20% Amid Memory Chip Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mexico Business News</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports global smartphone shipments fell 20% amid a memory chip shortage. The tracker flagged it as C6_PRICE_SURGE because 'memory chip' appears next to 'shortage'.\n\n\u5185\u5bb9:\n\u6709\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u53d7\u5b58\u50a8\u82af\u7247\u77ed\u7f3a\u5f71\u54cd\uff0c\u5168\u7403\u667a\u80fd\u624b\u673a\u51fa\u8d27\u91cf\u4e0b\u964d 20%\u3002tracker \u5224\u4e3a C6_PRICE_SURGE\uff0c\u56e0\u4e3a\u6807\u9898\u91cc memory chip \u548c shortage \u6328\u5728\u4e00\u8d77\u3002\n\nWhy it matters:\nThe shortage points to AI demand (HBM and server DRAM) taking wafer capacity and pushing up memory prices for consumer devices. A 20% drop in phone shipments shows the cost is spilling into the wider economy. Strong AI memory demand supports the capex story for now, but it shifts margin pressure onto device makers and becomes a demand-destruction risk if prices stay high.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u8bf4\u660e AI \u9700\u6c42\uff08HBM\u3001\u670d\u52a1\u5668 DRAM\uff09\u5728\u62a2\u6676\u5706\u4ea7\u80fd\uff0c\u6d88\u8d39\u7535\u5b50\u7528\u7684\u5b58\u50a8\u56e0\u6b64\u6da8\u4ef7\u3002\u624b\u673a\u51fa\u8d27\u91cf\u8dcc 20%\uff0c\u8bf4\u660e\u6210\u672c\u5df2\u7ecf\u4f20\u5230\u66f4\u5927\u7684\u7ecf\u6d4e\u9762\u4e0a\u3002\u773c\u4e0b AI \u5bf9\u5b58\u50a8\u7684\u5f3a\u9700\u6c42\u8fd8\u5728\u6491 capex \u7684\u903b\u8f91\uff0c\u4f46\u5229\u6da6\u538b\u529b\u8f6c\u5230\u4e86\u7ec8\u7aef\u5382\u5546\u8eab\u4e0a\u3002\u5982\u679c\u9ad8\u4ef7\u6301\u7eed\uff0c\u5c31\u4f1a\u53d8\u6210\u9700\u6c42\u88ab\u538b\u57ae\u7684\u98ce\u9669\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4796,
+      "ts": 1791831916,
+      "ts_str": "2026-10-12 19:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Ru",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 17:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMNIB7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMA?oc=5\n\nDDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMNIB7AFBVV95cUxPQWJ1d0FhTDR0TmpvdDVKbWJDY3FNMU9YZ042eno2MndCQW5oY0lTRlJNYzRIM3FLcXRvNlpsckx3SzU1b2hkRGZubzZHdkVKeXNIRTFXcm5LQ0ZfQS1EcnI5Q3Z2T19TTElfaWhmSFo3TENsd2lfVHRFTUtJaFVscGM0Z1hzOXF5T21Oalk2d0RMWnBDZXJJanBvLTNWSnBlUzRWa296YmdxSmU4Yzd6RDV2eG45ZzMzcjAzbi1HRVFHcDd2RktxV2xONFJwcFlvRnhmTW55V0ZpMWNYTDZYd0FBc0FyTG9hWGxxMA?oc=5\" target=\"_blank\">DDR4 Memory Chip Contract Prices Surge 24% In Three Months, Outpacing DDR5 As Barclays Warns Micron\u2019s Memory Shortage Runs Until 2028</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR4 contract prices rose 24% in three months, outpacing DDR5, and Barclays warns the memory shortage at Micron (MU) will last until 2028.\n\n\u5185\u5bb9:\nDDR4 \u5185\u5b58\u82af\u7247\u5408\u7ea6\u4ef7\u4e09\u4e2a\u6708\u6da8\u4e86 24%\uff0c\u6da8\u5e45\u8d85\u8fc7 DDR5\u3002Barclays \u9884\u8b66 Micron (MU) \u9762\u4e34\u7684\u5185\u5b58\u77ed\u7f3a\u4f1a\u6301\u7eed\u5230 2028 \u5e74\u3002\n\nWhy it matters:\nMemory is supply-constrained, not oversupplied: AI demand for HBM and DDR5 keeps absorbing capacity and pushing up even legacy DDR4 prices. Near term this points against a bubble burst, but a shortage that runs into 2028 invites capacity overbuild, and that is how memory cycles usually end in an oversupply crash.\n\n\u5f71\u54cd:\n\u5185\u5b58\u73b0\u5728\u7f3a\u8d27\uff0c\u6ca1\u6709\u8fc7\u5269\u3002AI \u5bf9 HBM \u548c DDR5 \u7684\u9700\u6c42\u4e00\u76f4\u5728\u5403\u4ea7\u80fd\uff0c\u8fde\u8001\u4e00\u4ee3\u7684 DDR4 \u90fd\u88ab\u5e26\u7740\u6da8\u4ef7\u3002\u77ed\u671f\u770b\u8fd9\u4e0d\u652f\u6301\u6ce1\u6cab\u7834\u88c2\u7684\u5224\u65ad\u3002\u4f46\u77ed\u7f3a\u4e00\u76f4\u62d6\u5230 2028 \u5e74\uff0c\u5382\u5546\u5c31\u4f1a\u62a2\u7740\u6269\u4ea7\uff0c\u5185\u5b58\u5468\u671f\u901a\u5e38\u5c31\u662f\u8fd9\u6837\u4ee5\u4f9b\u8fc7\u4e8e\u6c42\u7684\u4ef7\u683c\u5d29\u76d8\u6536\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4794,
       "ts": 1791830835,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] HBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says - Seoul Economic Daily",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 23:08:39 GMT\nLink:      https://news.google.com/rss/articles/CBMingFBVV95cUxNVjd3YXI2cmp5OFV2N2hWREt3RWoxTE5mY0R2WXNMbWxmc01qY21aRU95ZkJrdFJaWDhGanV5Y1N5c2NkYnM1aHduODdwWVhKbkRvTzh1VzFXVGxhNnRMdHY1NzlzYUhxaUFXNGkxNGhKS19hOXdBZmt4M1VxTndVQXlmdWx6YXR1bjlIMmxFOTF3Q0Jic2NZXy1FbXFNQQ?oc=5\n\nHBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says - Seoul Economic Daily\n\n<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNVjd3YXI2cmp5OFV2N2hWREt3RWoxTE5mY0R2WXNMbWxmc01qY21aRU95ZkJrdFJaWDhGanV5Y1N5c2NkYnM1aHduODdwWVhKbkRvTzh1VzFXVGxhNnRMdHY1NzlzYUhxaUFXNGkxNGhKS19hOXdBZmt4M1VxTndVQXlmdWx6YXR1bjlIMmxFOTF3Q0Jic2NZXy1FbXFNQQ?oc=5\" target=\"_blank\">HBM Prices to More Than Double in 2027 on Supply Crunch, TrendForce Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seoul Economic Daily</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nTrendForce forecasts HBM prices will more than double in 2027, citing a supply crunch.\n\n\u5185\u5bb9:\nTrendForce \u9884\u6d4b HBM \u4ef7\u683c\u5728 2027 \u5e74\u5c06\u56e0\u4f9b\u5e94\u7d27\u7f3a\u800c\u7ffb\u500d\u4ee5\u4e0a\u3002\n\nWhy it matters:\nA memory-price spike this severe confirms the AI buildout is bottlenecked on HBM capacity, not demand \u2014 it directly raises the bill-of-materials cost for every accelerator card (Nvidia/AMD) and squeezes margins downstream. It's also a sign memory makers are under-investing relative to AI compute growth, which can cascade into further capex and pricing surprises across the supply chain.\n\n\u5f71\u54cd:\n\u8fd9\u79cd\u7ea7\u522b\u7684\u5b58\u50a8\u82af\u7247\u6da8\u4ef7\u8bf4\u660e AI \u7b97\u529b\u6269\u5f20\u5361\u5728 HBM \u4ea7\u80fd\u4e0a\uff0c\u800c\u4e0d\u662f\u9700\u6c42\u4e0d\u8db3\u2014\u2014\u76f4\u63a5\u63a8\u9ad8\u6bcf\u5f20 AI \u52a0\u901f\u5361\uff08Nvidia/AMD\uff09\u7684\u7269\u6599\u6210\u672c\uff0c\u6324\u538b\u4e0b\u6e38\u5229\u6da6\u3002\u4e5f\u53cd\u6620\u5185\u5b58\u5382\u5546\u7684\u4ea7\u80fd\u6295\u5165\u8ddf\u4e0d\u4e0a AI \u7b97\u529b\u589e\u901f\uff0c\u53ef\u80fd\u8fdb\u4e00\u6b65\u5f15\u53d1\u6574\u6761\u4f9b\u5e94\u94fe\u7684 capex \u548c\u5b9a\u4ef7\u8fde\u9501\u53cd\u5e94\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4596,
-      "ts": 1790810057,
-      "ts_str": "2026-09-30 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI delayed its IPO. That makes private investors happy - marketplace.org",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 30 Sep 2026 22:45:59 GMT\nLink:      https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYV9UaHdwX0t0a3ZZODlXeTNDLW8zdkNWZGZwN005ZjJYTDc2cGY3Wnd2dVc0MXdEYlA2aTRqQV9QUDBfbzdMWU1odk40a25wU2pzVVIxODNvLTVFQk9qVDJxVFd4LXZaNno2aU1JUHdMZnZQUlVtdTF5d1Q1MjdOTzdyak1TYkx2VjJuYWRXSUxuVzRuTm84eWZNczA2VEMxNVpZVVdSbUdwZw?oc=5\n\nOpenAI delayed its IPO. That makes private investors happy - marketplace.org\n\n<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYV9UaHdwX0t0a3ZZODlXeTNDLW8zdkNWZGZwN005ZjJYTDc2cGY3Wnd2dVc0MXdEYlA2aTRqQV9QUDBfbzdMWU1odk40a25wU2pzVVIxODNvLTVFQk9qVDJxVFd4LXZaNno2aU1JUHdMZnZQUlVtdTF5d1Q1MjdOTzdyak1TYkx2VjJuYWRXSUxuVzRuTm84eWZNczA2VEMxNVpZVVdSbUdwZw?oc=5\" target=\"_blank\">OpenAI delayed its IPO. That makes private investors happy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">marketplace.org</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline noted OpenAI delayed its IPO, framed as good news for private investors (duplicated line, likely a feed artifact).\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0 OpenAI \u63a8\u8fdf IPO\uff0c\u88ab\u89e3\u8bfb\u4e3a\u5bf9\u79c1\u52df\u6295\u8d44\u8005\u662f\u597d\u6d88\u606f\uff08\u8fd9\u884c\u6587\u672c\u91cd\u590d\u51fa\u73b0\uff0c\u5927\u6982\u7387\u662f feed \u7684\u91cd\u590d\u6293\u53d6\uff09\u3002\n\nWhy it matters:\nAn IPO delay keeps OpenAI's true valuation and financials out of public scrutiny longer, letting private markdowns lag reality \u2014 a mild negative for burn-rate transparency, but this is routine speculation-tier noise, not a burn-rate spike.\n\n\u5f71\u54cd:\nIPO \u63a8\u8fdf\u610f\u5473\u7740 OpenAI \u7684\u771f\u5b9e\u4f30\u503c\u548c\u8d22\u52a1\u72b6\u51b5\u80fd\u66f4\u4e45\u4e0d\u88ab\u516c\u5f00\u5ba1\u89c6\uff0c\u79c1\u52df\u7aef\u7684\u4f30\u503c\u8c03\u6574\u53ef\u80fd\u6ede\u540e\u4e8e\u73b0\u5b9e\uff0c\u5bf9 burn rate \u900f\u660e\u5ea6\u662f\u8f7b\u5fae\u5229\u7a7a\u3002\u4f46\u8fd9\u6761\u5c5e\u4e8e\u5e38\u89c4\u6295\u673a\u7c7b\u65b0\u95fb\uff0c\u5e76\u975e burn rate \u9aa4\u589e\u7684\u4fe1\u53f7\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4595,
-      "ts": 1790808990,
-      "ts_str": "2026-09-30 22:56 UTC",
-      "catalyst": "C5",
-      "severity": "HIGH",
-      "subject": "[C5-HIGH] PJM: 75 new withdrawals vs 2026-09-30",
-      "body": "Withdrawn count 6992 (was 6917).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPJM's interconnection queue withdrawals rose from 6,917 to 6,992 MW between 2026-09-30 and 2026-10-01 \u2014 75 new withdrawals in one day, clearing the \u22655-new-\u2265100MW-withdrawals threshold.\n\n\u5185\u5bb9:\nPJM \u7684\u5e76\u7f51\u6392\u961f\u64a4\u56de\u91cf\u4ece 2026-09-30 \u7684 6,917MW \u6da8\u5230 10-01 \u7684 6,992MW\uff0c\u4e00\u5929\u5185\u65b0\u589e 75 \u7b14\u64a4\u56de\uff0c\u8d85\u8fc7\u300c\u22655 \u7b14\u65b0\u589e \u2265100MW \u64a4\u56de\u300d\u7684\u89e6\u53d1\u9608\u503c\u3002\n\nWhy it matters:\nWithdrawals mean project developers are pulling generation/load requests out of the queue \u2014 a proxy for grid capacity getting rationed or projects going uneconomic. A spike this size points to PJM bottlenecking exactly where AI datacenter load is trying to interconnect, which is the grid-constraint leg of the bubble-stress thesis.\n\n\u5f71\u54cd:\n\u64a4\u56de\u610f\u5473\u7740\u5f00\u53d1\u5546\u4e3b\u52a8\u628a\u53d1\u7535/\u7528\u7535\u7533\u8bf7\u4ece\u6392\u961f\u4e2d\u64a4\u8d70\u2014\u2014\u8981\u4e48\u7535\u7f51\u5bb9\u91cf\u88ab\u914d\u7ed9\u5361\u4f4f\uff0c\u8981\u4e48\u9879\u76ee\u5df2\u7ecf\u4e0d\u5212\u7b97\u3002\u5355\u65e5\u64a4\u56de\u8fd9\u4e2a\u91cf\u7ea7\uff0c\u8bf4\u660e PJM \u7684\u74f6\u9888\u6b63\u597d\u5361\u5728 AI \u6570\u636e\u4e2d\u5fc3\u62a2\u5e76\u7f51\u7684\u8282\u70b9\u4e0a\uff0c\u662f\u8fd9\u5957\u6ce1\u6cab\u538b\u529b\u53d9\u4e8b\u91cc\u7535\u7f51\u5236\u7ea6\u8fd9\u4e00\u6761\u817f\u7684\u8bc1\u636e\u3002\n",
       "emailed": false
     }
   ],
