@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791837123,
-  "generated_at_str": "2026-10-12 20:32:03 UTC",
-  "last_event_ts": 1791836042,
+  "generated_at": 1791837307,
+  "generated_at_str": "2026-10-12 20:35:07 UTC",
+  "last_event_ts": 1791837306,
   "tables": {
     "alerts_dedup": {
-      "count": 4790,
-      "last_ts": 1791835518,
-      "last_str": "2026-10-12 20:05:18 UTC"
+      "count": 4791,
+      "last_ts": 1791837306,
+      "last_str": "2026-10-12 20:35:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,19 +79,19 @@
       "last_str": "2026-10-12 17:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7262,
-      "last_ts": 1791831902,
-      "last_str": "2026-10-12 19:05:02 UTC"
+      "count": 7263,
+      "last_ts": 1791837303,
+      "last_str": "2026-10-12 20:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8805,
-      "last_ts": 1791835505,
-      "last_str": "2026-10-12 20:05:05 UTC"
+      "count": 8807,
+      "last_ts": 1791837305,
+      "last_str": "2026-10-12 20:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5073,
-      "last_ts": 1791835503,
-      "last_str": "2026-10-12 20:05:03 UTC"
+      "count": 5074,
+      "last_ts": 1791837304,
+      "last_str": "2026-10-12 20:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 6793,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4798,
+      "ts": 1791837306,
+      "ts_str": "2026-10-12 20:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global Smartphone Market Slumps as Memory Chip Shortage Drives Up Prices - Analytics Insight",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 19:50:52 GMT\nLink:      https://news.google.com/rss/articles/CBMivAFBVV95cUxQT3hHYi1IOV9FREVydl9EX2gtejFzY0lYUlVHcGJRak9VYnJmRjhOdVhyVEdnMmd4N2N0RlRjNWlwYWtnUHpJcEVhSWVwSWpXSEZiMWYzTEQxMTBVeDdCaWNwaFZtZDRHV2Zld0JVNUdxWm9jdTdSbG1TdDVDQ1NvWXZWeE9fa2FYNnpNaVhiRlE2MjZOOVRXM1piU3c3bDh1dDN1OUtQQTh4a1A0dXJJako1Tm5sbHZ3QUczTtIBvAFBVV95cUxQT3hHYi1IOV9FREVydl9EX2gtejFzY0lYUlVHcGJRak9VYnJmRjhOdVhyVEdnMmd4N2N0RlRjNWlwYWtnUHpJcEVhSWVwSWpXSEZiMWYzTEQxMTBVeDdCaWNwaFZtZDRHV2Zld0JVNUdxWm9jdTdSbG1TdDVDQ1NvWXZWeE9fa2FYNnpNaVhiRlE2MjZOOVRXM1piU3c3bDh1dDN1OUtQQTh4a1A0dXJJako1Tm5sbHZ3QUczTg?oc=5\n\nGlobal Smartphone Market Slumps as Memory Chip Shortage Drives Up Prices - Analytics Insight\n\n<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQT3hHYi1IOV9FREVydl9EX2gtejFzY0lYUlVHcGJRak9VYnJmRjhOdVhyVEdnMmd4N2N0RlRjNWlwYWtnUHpJcEVhSWVwSWpXSEZiMWYzTEQxMTBVeDdCaWNwaFZtZDRHV2Zld0JVNUdxWm9jdTdSbG1TdDVDQ1NvWXZWeE9fa2FYNnpNaVhiRlE2MjZOOVRXM1piU3c3bDh1dDN1OUtQQTh4a1A0dXJJako1Tm5sbHZ3QUczTtIBvAFBVV95cUxQT3hHYi1IOV9FREVydl9EX2gtejFzY0lYUlVHcGJRak9VYnJmRjhOdVhyVEdnMmd4N2N0RlRjNWlwYWtnUHpJcEVhSWVwSWpXSEZiMWYzTEQxMTBVeDdCaWNwaFZtZDRHV2Zld0JVNUdxWm9jdTdSbG1TdDVDQ1NvWXZWeE9fa2FYNnpNaVhiRlE2MjZOOVRXM1piU3c3bDh1dDN1OUtQQTh4a1A0dXJJako1Tm5sbHZ3QUczTg?oc=5\" target=\"_blank\">Global Smartphone Market Slumps as Memory Chip Shortage Drives Up Prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Analytics Insight</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports the global smartphone market is slumping because a memory-chip shortage is pushing up prices.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\uff0c\u5168\u7403\u667a\u80fd\u624b\u673a\u5e02\u573a\u56e0\u6b64\u4e0b\u6ed1\u3002\n\nWhy it matters:\nThis is a shortage-side memory signal, not an oversupply one: AI demand for HBM and server DRAM is absorbing wafer capacity and squeezing consumer devices. It confirms AI capex is still pulling hard today. The risk is the next leg of the memory cycle: shortages trigger capacity additions, and if AI orders slow once that supply lands, prices can swing to a glut.\n\n\u5f71\u54cd:\n\u8fd9\u6761\u662f\u5185\u5b58\u300c\u77ed\u7f3a\u300d\u4fe1\u53f7\uff0c\u4e0d\u662f\u300c\u8fc7\u5269\u300d\u4fe1\u53f7\u3002AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\u5360\u8d70\u4e86\u6676\u5706\u4ea7\u80fd\uff0c\u6d88\u8d39\u7535\u5b50\u88ab\u6324\u51fa\u3002\u8bf4\u660e AI capex \u773c\u4e0b\u4ecd\u5728\u5f3a\u529b\u62c9\u52a8\u9700\u6c42\u3002\u98ce\u9669\u5728\u5185\u5b58\u5468\u671f\u7684\u4e0b\u4e00\u6bb5\uff1a\u77ed\u7f3a\u4f1a\u50ac\u751f\u6269\u4ea7\uff0c\u7b49\u65b0\u4ea7\u80fd\u843d\u5730\u65f6 AI \u8ba2\u5355\u5982\u679c\u653e\u7f13\uff0c\u4ef7\u683c\u5c31\u53ef\u80fd\u8f6c\u6210\u8fc7\u5269\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4797,
       "ts": 1791835518,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 02:56:21 GMT\nLink:      https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\n\nMicron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts - digitimes\n\n<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3dfT3diX1ZhVzFfR0ROZHVIdWhpZmdwWDdzOU9RUGs1RkNiUzZDNC01VExpOWRleUJRMWlBaFk2SFJ1cS1BdjJvM3ZxaGdWc2o5YnVnZzdSNlgtV2RfUXZIMjhHcDc1X2Y4Ujh3dmNaVVAyUXRxczJSMFVGMWJLZFI3cGs?oc=5\" target=\"_blank\">Micron hikes 2027 HBM prices after missing 2026 memory surge on fixed contracts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">digitimes</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports Micron is raising 2027 HBM prices after 2026 memory-surge demand wasn't captured because of fixed contracts.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u79f0\uff0cMicron \u56e0\u56fa\u5b9a\u5408\u7ea6\u9501\u4ef7\u9519\u5931\u4e86 2026 \u5e74\u5185\u5b58\u9700\u6c42\u6fc0\u589e\u7684\u7ea2\u5229\uff0c\u4e8e\u662f\u4e0a\u8c03 2027 \u5e74 HBM \u4ef7\u683c\u3002\n\nWhy it matters:\nMemory suppliers passing through price hikes on HBM \u2014 the bottleneck input for AI accelerators \u2014 confirms sustained tightness in the AI-chip supply chain rather than oversupply; it's bullish for memory margins but adds another input-cost pressure point for AI capex.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u5546\u80fd\u5bf9 HBM\uff08AI \u52a0\u901f\u5361\u7684\u5173\u952e\u74f6\u9888\u90e8\u4ef6\uff09\u63d0\u4ef7\uff0c\u8bf4\u660e AI \u82af\u7247\u4f9b\u5e94\u94fe\u4ecd\u7136\u7d27\u7f3a\u800c\u975e\u8fc7\u5269\uff0c\u5bf9\u5185\u5b58\u5382\u5229\u6da6\u662f\u5229\u597d\uff0c\u4f46\u4e5f\u7ed9 AI capex \u53c8\u6dfb\u4e86\u4e00\u9879\u6210\u672c\u538b\u529b\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4598,
-      "ts": 1790823923,
-      "ts_str": "2026-10-01 03:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - Gizmodo",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 02:56:04 GMT\nLink:      https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzcwNFVWeUp2SzZtUFd0SUdyQjhrckR0S1V3WVpvcmU1Y1RfQ1JIUVRaMHN2QTNhS0dqdW4xUzFnejFnNUVkSEoxT0RoaWVuemNlNWdqUzVIQkpMVnhldUFoOFFJZnZMLWdEMkM3OFVTMnA2anItdlRjOGhEOUxvVmdsbVNkV2djajcwOXZJdFEzaEhPNUZaLUk5Zm1uY1R0UXlPRUpxWThZUG95XzNz?oc=5\n\nMicron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - Gizmodo\n\n<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzcwNFVWeUp2SzZtUFd0SUdyQjhrckR0S1V3WVpvcmU1Y1RfQ1JIUVRaMHN2QTNhS0dqdW4xUzFnejFnNUVkSEoxT0RoaWVuemNlNWdqUzVIQkpMVnhldUFoOFFJZnZMLWdEMkM3OFVTMnA2anItdlRjOGhEOUxvVmdsbVNkV2djajcwOXZJdFEzaEhPNUZaLUk5Zm1uY1R0UXlPRUpxWThZUG95XzNz?oc=5\" target=\"_blank\">Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gizmodo</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron's DRAM revenue jumped 343% year-over-year, attributed to a RAM shortage.\n\n\u5185\u5bb9:\nMicron \u7684 DRAM \u8425\u6536\u540c\u6bd4\u66b4\u6da8 343%\uff0c\u539f\u56e0\u662f RAM \u77ed\u7f3a\u3002\n\nWhy it matters:\nA 343% DRAM revenue spike confirms the memory supply-demand mismatch feeding AI-server cost inflation \u2014 this is the shortage side of the C6 thesis, where tight memory supply raises hyperscaler capex per unit of compute and squeezes margins downstream.\n\n\u5f71\u54cd:\nDRAM \u8425\u6536\u66b4\u6da8 343% \u5370\u8bc1\u4e86\u5185\u5b58\u4f9b\u9700\u5931\u8861\u6b63\u5728\u63a8\u9ad8 AI \u670d\u52a1\u5668\u7684\u6210\u672c\u2014\u2014\u8fd9\u662f C6 \u903b\u8f91\u91cc\u300c\u77ed\u7f3a\u300d\u90a3\u4e00\u9762\uff0c\u5185\u5b58\u5403\u7d27\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546\u6bcf\u5355\u4f4d\u7b97\u529b\u7684\u8d44\u672c\u5f00\u652f\uff0c\u5e76\u538b\u7f29\u4e0b\u6e38\u5229\u6da6\u7387\u3002\n",
       "emailed": false
     }
   ],
