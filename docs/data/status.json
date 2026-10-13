@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791869523,
-  "generated_at_str": "2026-10-13 05:32:03 UTC",
-  "last_event_ts": 1791868444,
+  "generated_at": 1791869719,
+  "generated_at_str": "2026-10-13 05:35:19 UTC",
+  "last_event_ts": 1791869719,
   "tables": {
     "alerts_dedup": {
-      "count": 4800,
-      "last_ts": 1791867915,
-      "last_str": "2026-10-13 05:05:15 UTC"
+      "count": 4802,
+      "last_ts": 1791869719,
+      "last_str": "2026-10-13 05:35:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-10-12 21:44:19 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7287,
-      "last_ts": 1791867902,
-      "last_str": "2026-10-13 05:05:02 UTC"
+      "count": 7288,
+      "last_ts": 1791869703,
+      "last_str": "2026-10-13 05:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8832,
-      "last_ts": 1791867905,
-      "last_str": "2026-10-13 05:05:05 UTC"
+      "count": 8833,
+      "last_ts": 1791869706,
+      "last_str": "2026-10-13 05:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5087,
@@ -317,6 +317,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4808,
+      "ts": 1791869719,
+      "ts_str": "2026-10-13 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 13 Oct 2026 00:56:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE5tTnVPQ2hncE5ic09MRWY5MXA0RExiRTdWM0tBdWRUTzhkY1oxZERJLVhjV3BDczZCTVhHTE5OTGhpc0lDQ1ZsaENERzVvRGdkWHVKVDNmNnJuMVphbTU0OWhXTVpaRUNvZkE?oc=5\n\nDDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5tTnVPQ2hncE5ic09MRWY5MXA0RExiRTdWM0tBdWRUTzhkY1oxZERJLVhjV3BDczZCTVhHTE5OTGhpc0lDQ1ZsaENERzVvRGdkWHVKVDNmNnJuMVphbTU0OWhXTVpaRUNvZkE?oc=5\" target=\"_blank\">DDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR4 chip prices rose 24% in three months, faster than DDR5, as the memory shortage continues.\n\n\u5185\u5bb9:\nDDR4 \u82af\u7247\u4ef7\u683c\u4e09\u4e2a\u6708\u6da8\u4e86 24%\uff0c\u6da8\u5e45\u8d85\u8fc7 DDR5\uff0c\u5185\u5b58\u77ed\u7f3a\u8fd8\u5728\u6301\u7eed\u3002\n\nWhy it matters:\nMemory makers are moving wafer capacity to HBM and DDR5 for AI servers, which starves legacy DDR4 supply. This shows AI demand still tightening memory supply, not an oversupply bust. It also raises costs for non-AI hardware buyers, and shortage-driven price spikes have historically come before capacity overbuilds and sharp memory down-cycles.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u628a\u6676\u5706\u4ea7\u80fd\u8f6c\u53bb\u7ed9 AI \u670d\u52a1\u5668\u505a HBM \u548c DDR5\uff0c\u8001\u7684 DDR4 \u56e0\u6b64\u4f9b\u4e0d\u4e0a\u3002\u8fd9\u8bf4\u660e AI \u9700\u6c42\u8fd8\u5728\u628a\u5185\u5b58\u4f9b\u5e94\u7ef7\u7d27\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\u3001\u8981\u5d29\u7684\u4fe1\u53f7\u3002\u4ee3\u4ef7\u843d\u5728\u975e AI \u786c\u4ef6\u4e70\u5bb6\u8eab\u4e0a\u3002\u5386\u53f2\u4e0a\uff0c\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u4e4b\u540e\uff0c\u5f80\u5f80\u8ddf\u7740\u4ea7\u80fd\u8fc7\u5ea6\u6269\u5f20\u548c\u5185\u5b58\u884c\u4e1a\u7684\u6025\u8dcc\u5468\u671f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4809,
+      "ts": 1791869719,
+      "ts_str": "2026-10-13 05:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists - XenoSpectrum",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 13 Oct 2026 00:56:02 GMT\nLink:      https://news.google.com/rss/articles/CBMiakFVX3lxTE5tTnVPQ2hncE5ic09MRWY5MXA0RExiRTdWM0tBdWRUTzhkY1oxZERJLVhjV3BDczZCTVhHTE5OTGhpc0lDQ1ZsaENERzVvRGdkWHVKVDNmNnJuMVphbTU0OWhXTVpaRUNvZkE?oc=5\n\nDDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE5tTnVPQ2hncE5ic09MRWY5MXA0RExiRTdWM0tBdWRUTzhkY1oxZERJLVhjV3BDczZCTVhHTE5OTGhpc0lDQ1ZsaENERzVvRGdkWHVKVDNmNnJuMVphbTU0OWhXTVpaRUNvZkE?oc=5\" target=\"_blank\">DDR4 Chip Prices Jump 24% in Three Months, Outpacing DDR5 as Memory Shortage Persists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDDR4 chip prices rose 24% in three months, faster than DDR5, as the memory shortage continues.\n\n\u5185\u5bb9:\nDDR4 \u82af\u7247\u4ef7\u683c\u4e09\u4e2a\u6708\u6da8\u4e86 24%\uff0c\u6da8\u5e45\u8d85\u8fc7 DDR5\uff0c\u5185\u5b58\u77ed\u7f3a\u8fd8\u5728\u6301\u7eed\u3002\n\nWhy it matters:\nMemory makers are moving wafer capacity to HBM and DDR5 for AI servers, which starves legacy DDR4 supply. This shows AI demand still tightening memory supply, not an oversupply bust. It also raises costs for non-AI hardware buyers, and shortage-driven price spikes have historically come before capacity overbuilds and sharp memory down-cycles.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u628a\u6676\u5706\u4ea7\u80fd\u8f6c\u53bb\u7ed9 AI \u670d\u52a1\u5668\u505a HBM \u548c DDR5\uff0c\u8001\u7684 DDR4 \u56e0\u6b64\u4f9b\u4e0d\u4e0a\u3002\u8fd9\u8bf4\u660e AI \u9700\u6c42\u8fd8\u5728\u628a\u5185\u5b58\u4f9b\u5e94\u7ef7\u7d27\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\u3001\u8981\u5d29\u7684\u4fe1\u53f7\u3002\u4ee3\u4ef7\u843d\u5728\u975e AI \u786c\u4ef6\u4e70\u5bb6\u8eab\u4e0a\u3002\u5386\u53f2\u4e0a\uff0c\u77ed\u7f3a\u63a8\u9ad8\u4ef7\u683c\u4e4b\u540e\uff0c\u5f80\u5f80\u8ddf\u7740\u4ea7\u80fd\u8fc7\u5ea6\u6269\u5f20\u548c\u5185\u5b58\u884c\u4e1a\u7684\u6025\u8dcc\u5468\u671f\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4806,
       "ts": 1791867915,
@@ -2295,26 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 15:35:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5\n\nCostco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5\" target=\"_blank\">Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finance.biggo.com</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCostco warned holiday shoppers that a memory-chip shortage will push electronics prices higher.\n\n\u5185\u5bb9:\nCostco \u63d0\u9192\u5047\u65e5\u8d2d\u7269\u5b63\u7684\u6d88\u8d39\u8005\uff1a\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4f1a\u63a8\u9ad8\u7535\u5b50\u4ea7\u54c1\u4ef7\u683c\u3002\n\nWhy it matters:\nA mass-market retailer now cites tight memory supply in consumer pricing, so AI demand for HBM and server DRAM is pulling wafer capacity away from consumer parts. A shortage supports memory makers' pricing for now. It also means AI capex is pushing costs onto the rest of the economy, and if hyperscalers slow orders that tightness can quickly turn into oversupply.\n\n\u5f71\u54cd:\n\u8fde Costco \u8fd9\u6837\u9762\u5411\u5927\u4f17\u7684\u96f6\u552e\u5546\u90fd\u628a\u5185\u5b58\u4f9b\u5e94\u7d27\u5f20\u5199\u8fdb\u4e86\u6d88\u8d39\u7aef\u5b9a\u4ef7\uff0c\u8bf4\u660e AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\u6b63\u5728\u62a2\u8d70\u6d88\u8d39\u7ea7\u4ea7\u54c1\u7684\u6676\u5706\u4ea7\u80fd\u3002\u77ed\u7f3a\u773c\u4e0b\u6491\u4f4f\u4e86\u5185\u5b58\u5382\u5546\u7684\u5b9a\u4ef7\uff0c\u4f46\u4e5f\u8bf4\u660e AI capex \u7684\u6210\u672c\u6b63\u5728\u8f6c\u5ac1\u7ed9\u6574\u4e2a\u7ecf\u6d4e\u3002\u4e00\u65e6\u8d85\u5927\u89c4\u6a21\u5382\u5546\u653e\u7f13\u4e0b\u5355\uff0c\u8fd9\u79cd\u7d27\u5f20\u4f1a\u5f88\u5feb\u53d8\u6210\u8fc7\u5269\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4608,
-      "ts": 1790867119,
-      "ts_str": "2026-10-01 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Huawei warns of more smartphone price hikes as the memory chip crunch bites - Startup Fortune",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 05:46:25 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0szaWQzZXl5RVgxZ0NIZUdlSlgxREZiYWhGeGZvTXZWZGNIVlFTWnotU3MxQldSbHRnbmNpZGlJY1lqWFlJYmU3X0hKVmc0aHE0ZTVUakR1SEpGeDZ2MW9ZRGZCUXVHRGFtZHNrTTNMUGFTOHZ3SW5BLWFwOU5pWmhKeGpqNmxBMEk1YlBBN2N6MHktdWhfdWctcGtobS00cUNZUTN3?oc=5\n\nHuawei warns of more smartphone price hikes as the memory chip crunch bites - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0szaWQzZXl5RVgxZ0NIZUdlSlgxREZiYWhGeGZvTXZWZGNIVlFTWnotU3MxQldSbHRnbmNpZGlJY1lqWFlJYmU3X0hKVmc0aHE0ZTVUakR1SEpGeDZ2MW9ZRGZCUXVHRGFtZHNrTTNMUGFTOHZ3SW5BLWFwOU5pWmhKeGpqNmxBMEk1YlBBN2N6MHktdWhfdWctcGtobS00cUNZUTN3?oc=5\" target=\"_blank\">Huawei warns of more smartphone price hikes as the memory chip crunch bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei warned of more smartphone price hikes because of a shortage of memory chips. The tracker flagged this as a memory price surge (C6_PRICE_SURGE).\n\n\u5185\u5bb9:\nHuawei \u8b66\u544a\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4f1a\u8ba9\u667a\u80fd\u624b\u673a\u7ee7\u7eed\u6da8\u4ef7\u3002tracker \u628a\u8fd9\u6761\u8bb0\u4e3a\u5185\u5b58\u6da8\u4ef7\u4fe1\u53f7\uff08C6_PRICE_SURGE\uff09\u3002\n\nWhy it matters:\nMemory is still in shortage, not oversupply, so this is not a bust signal. AI demand for HBM and server DRAM is taking supply away from consumer devices. Watch for higher prices cutting phone and PC demand, and for the shortage turning into oversupply once new memory capacity comes online.\n\n\u5f71\u54cd:\n\u5185\u5b58\u73b0\u5728\u8fd8\u662f\u4f9b\u4e0d\u5e94\u6c42\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u6240\u4ee5\u8fd9\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\u3002AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\uff0c\u628a\u672c\u8be5\u7ed9\u6d88\u8d39\u7535\u5b50\u7684\u4ea7\u80fd\u62a2\u8d70\u4e86\u3002\u8981\u76ef\u4e24\u4ef6\u4e8b\uff1a\u624b\u673a\u548c PC \u4f1a\u4e0d\u4f1a\u56e0\u4e3a\u6da8\u4ef7\u5356\u4e0d\u52a8\uff0c\u65b0\u4ea7\u80fd\u6295\u4ea7\u540e\u77ed\u7f3a\u4f1a\u4e0d\u4f1a\u53d8\u6210\u8fc7\u5269\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4609,
-      "ts": 1790867119,
-      "ts_str": "2026-10-01 15:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Huawei warns of more smartphone price hikes as the memory chip crunch bites - Startup Fortune",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 05:46:25 GMT\nLink:      https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0szaWQzZXl5RVgxZ0NIZUdlSlgxREZiYWhGeGZvTXZWZGNIVlFTWnotU3MxQldSbHRnbmNpZGlJY1lqWFlJYmU3X0hKVmc0aHE0ZTVUakR1SEpGeDZ2MW9ZRGZCUXVHRGFtZHNrTTNMUGFTOHZ3SW5BLWFwOU5pWmhKeGpqNmxBMEk1YlBBN2N6MHktdWhfdWctcGtobS00cUNZUTN3?oc=5\n\nHuawei warns of more smartphone price hikes as the memory chip crunch bites - Startup Fortune\n\n<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0szaWQzZXl5RVgxZ0NIZUdlSlgxREZiYWhGeGZvTXZWZGNIVlFTWnotU3MxQldSbHRnbmNpZGlJY1lqWFlJYmU3X0hKVmc0aHE0ZTVUakR1SEpGeDZ2MW9ZRGZCUXVHRGFtZHNrTTNMUGFTOHZ3SW5BLWFwOU5pWmhKeGpqNmxBMEk1YlBBN2N6MHktdWhfdWctcGtobS00cUNZUTN3?oc=5\" target=\"_blank\">Huawei warns of more smartphone price hikes as the memory chip crunch bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHuawei warned of more smartphone price hikes because of a shortage of memory chips. The tracker flagged this as a memory price surge (C6_PRICE_SURGE).\n\n\u5185\u5bb9:\nHuawei \u8b66\u544a\uff0c\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u4f1a\u8ba9\u667a\u80fd\u624b\u673a\u7ee7\u7eed\u6da8\u4ef7\u3002tracker \u628a\u8fd9\u6761\u8bb0\u4e3a\u5185\u5b58\u6da8\u4ef7\u4fe1\u53f7\uff08C6_PRICE_SURGE\uff09\u3002\n\nWhy it matters:\nMemory is still in shortage, not oversupply, so this is not a bust signal. AI demand for HBM and server DRAM is taking supply away from consumer devices. Watch for higher prices cutting phone and PC demand, and for the shortage turning into oversupply once new memory capacity comes online.\n\n\u5f71\u54cd:\n\u5185\u5b58\u73b0\u5728\u8fd8\u662f\u4f9b\u4e0d\u5e94\u6c42\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u6240\u4ee5\u8fd9\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\u3002AI \u5bf9 HBM \u548c\u670d\u52a1\u5668 DRAM \u7684\u9700\u6c42\uff0c\u628a\u672c\u8be5\u7ed9\u6d88\u8d39\u7535\u5b50\u7684\u4ea7\u80fd\u62a2\u8d70\u4e86\u3002\u8981\u76ef\u4e24\u4ef6\u4e8b\uff1a\u624b\u673a\u548c PC \u4f1a\u4e0d\u4f1a\u56e0\u4e3a\u6da8\u4ef7\u5356\u4e0d\u52a8\uff0c\u65b0\u4ea7\u80fd\u6295\u4ea7\u540e\u77ed\u7f3a\u4f1a\u4e0d\u4f1a\u53d8\u6210\u8fc7\u5269\u3002\n",
       "emailed": false
     }
   ],
