@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-13 21:26:19 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-13 21:29:33 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,92 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4824" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield rising: 2.91% (+80bp off 90d-low)</span>
+    <span class="meta">2026-10-13 21:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-09
+Current:  2.91%
+90d low:  2.11%
+Move:     +80bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The 10-year Treasury real (TIPS) yield hit 2.91% on 2026-10-09, up 0.80 pp from its trailing-90-day low of 2.11%.
+
+内容:
+10 年期美债实际收益率（TIPS）在 2026-10-09 升至 2.91%，比近 90 天低点 2.11% 高出 0.80 pp。
+
+Why it matters:
+Higher real yields raise the discount rate on long-duration AI equities, whose valuations depend on cash flows far in the future. They also make it more expensive to borrow for the debt-funded share of AI capex, such as neocloud loans and hyperscaler bond issues. A 0.80 pp rise in under three months is fast enough to tighten liquidity across the AI-infrastructure trade.
+
+影响:
+实际利率上升会抬高贴现率。AI 相关股票的估值主要靠远期现金流，所以受压最大。AI capex 里靠举债的那部分也会更贵，比如 neocloud 的贷款和超大规模厂商发的债。不到三个月涨了 0.80 pp，速度够快，会让整个 AI 基础设施交易的流动性收紧。
+</pre>
+  <button class="mark-read" type="button" data-id="4824">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="4825" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.91% ≥ 2.50%</span>
+    <span class="meta">2026-10-13 21:29 UTC</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-09
+Current:  2.91%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The US 10-year real (TIPS) yield printed 2.91% on 2026-10-09, above the 2.5% stress level and up from 2.87% the day before.
+
+内容:
+美国 10 年期实际利率（TIPS 收益率）在 2026-10-09 报 2.91%，高于 2.5% 的压力线，前一天是 2.87%。
+
+Why it matters:
+A 10y real yield near 3% raises the hurdle rate for long-duration AI-infrastructure projects and lowers the present value of their distant cash flows. It also tightens financing for debt-funded capex (neoclouds, data-center builders), at a time when that spend is already outrunning revenue. [src: https://fred.stlouisfed.org/series/DFII10]
+
+影响:
+10 年期实际利率逼近 3%，长周期 AI 基建项目的门槛回报率随之抬高，远期现金流的折现值也被压低。靠举债推进 capex 的玩家（neocloud、数据中心开发商）融资会更紧，而这块支出本来就在跑赢收入。[src: https://fred.stlouisfed.org/series/DFII10]
+</pre>
+  <button class="mark-read" type="button" data-id="4825">mark read</button>
+</details>
+
+<details class="alert sev-MED" data-id="4823" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] Broad USD Index rising: 121.6 (+3.2% off 90d-low)</span>
+    <span class="meta">2026-10-13 21:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   USD (DTWEXBGS)
+Date:     2026-10-09
+Current:  121.6
+90d low:  117.9
+Move:     +3.2% off 90d-low (fire ≥ +2.5%)
+
+────────────────────────────────────────────────────────────
+What this means:
+The Nominal Broad US Dollar Index (FRED DTWEXBGS) reached 121.602 on 2026-10-09. That is up 3.155% from its trailing-90-day low of 117.883.
+
+内容:
+美元广义名义指数（FRED DTWEXBGS）2026-10-09 升至 121.602，比过去 90 天低点 117.883 高 3.155%。
+
+Why it matters:
+A fast dollar rally tightens global financial conditions and drains offshore USD liquidity, which raises funding costs for the debt-financed AI capex build-out. With the 10y real yield at 2.87 pp (FRED DFII10, 2026-10-08), money is getting more expensive on two fronts, and that hits long-duration AI equities and leveraged neoclouds first.
+
+影响:
+美元快速走强会收紧全球金融条件，离岸美元流动性也随之变紧。AI capex 扩张有不少靠举债，融资成本因此上升。10 年期实际利率同时在 2.87 pp（FRED DFII10，2026-10-08），资金成本从两头一起抬高。最先承压的是长久期 AI 股票和高杠杆的 neocloud。
+</pre>
+  <button class="mark-read" type="button" data-id="4823">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4821" data-catalyst="C11" data-severity="MED">
   <summary>
@@ -6391,116 +6477,20 @@ Higher real yields raise the discount rate on long-duration AI-capex payoffs and
   <button class="mark-read" type="button" data-id="4626">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4624" data-catalyst="C6" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C6</code>
-    <span class="subj">[C6-MED] Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com</span>
-    <span class="meta">2026-10-01 22:05 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 01 Oct 2026 15:35:00 GMT
-Link:      https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5
-
-Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5&#34; target=&#34;_blank&#34;&gt;Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;finance.biggo.com&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-Costco warned holiday shoppers that a memory-chip shortage will push electronics prices higher.
-
-内容:
-Costco 提醒假日购物季的消费者：内存芯片短缺会推高电子产品价格。
-
-Why it matters:
-A mass-market retailer now cites tight memory supply in consumer pricing, so AI demand for HBM and server DRAM is pulling wafer capacity away from consumer parts. A shortage supports memory makers&#39; pricing for now. It also means AI capex is pushing costs onto the rest of the economy, and if hyperscalers slow orders that tightness can quickly turn into oversupply.
-
-影响:
-连 Costco 这样面向大众的零售商都把内存供应紧张写进了消费端定价，说明 AI 对 HBM 和服务器 DRAM 的需求正在抢走消费级产品的晶圆产能。短缺眼下撑住了内存厂商的定价，但也说明 AI capex 的成本正在转嫁给整个经济。一旦超大规模厂商放缓下单，这种紧张会很快变成过剩。
-</pre>
-  <button class="mark-read" type="button" data-id="4624">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4625" data-catalyst="C6" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C6</code>
-    <span class="subj">[C6-MED] Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com</span>
-    <span class="meta">2026-10-01 22:05 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 01 Oct 2026 15:35:00 GMT
-Link:      https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5
-
-Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher - finance.biggo.com
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMidkFVX3lxTE10YUk5STYyNE5PWlJyZE45M0hmUG1MX1JXcmRETTg2MTRYNG9LWnBXUmlRZ0Eza21NdGloODhZTkh1eWl6T09PeTRSYzJIUEZ4Rk5kd1hqRGtuOVJNeTdHdzhTS19MSlUzU0tvUFp3c2xmcmRDOXc?oc=5&#34; target=&#34;_blank&#34;&gt;Costco Warns Holiday Shoppers: Memory Chip Shortage to Push Electronics Prices Higher&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;finance.biggo.com&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-Costco warned holiday shoppers that a memory-chip shortage will push electronics prices higher.
-
-内容:
-Costco 提醒假日购物季的消费者：内存芯片短缺会推高电子产品价格。
-
-Why it matters:
-A mass-market retailer now cites tight memory supply in consumer pricing, so AI demand for HBM and server DRAM is pulling wafer capacity away from consumer parts. A shortage supports memory makers&#39; pricing for now. It also means AI capex is pushing costs onto the rest of the economy, and if hyperscalers slow orders that tightness can quickly turn into oversupply.
-
-影响:
-连 Costco 这样面向大众的零售商都把内存供应紧张写进了消费端定价，说明 AI 对 HBM 和服务器 DRAM 的需求正在抢走消费级产品的晶圆产能。短缺眼下撑住了内存厂商的定价，但也说明 AI capex 的成本正在转嫁给整个经济。一旦超大规模厂商放缓下单，这种紧张会很快变成过剩。
-</pre>
-  <button class="mark-read" type="button" data-id="4625">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4623" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] Sam Altman&#39;s OpenAI Paused AI Training for the Second Time in 3 Months After Agents Escaped a Secure Sandbox and Accesse</span>
-    <span class="meta">2026-10-01 20:14 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 01 Oct 2026 16:32:00 GMT
-Link:      https://news.google.com/rss/articles/CBMifEFVX3lxTE96a1Zsb2tCNFAtNjFqWFdMcm8tb2l2NnZBWXVjNHl2RVZzSm5nLVdEY3ZYb050dEJkODZ2dEFlclpOMU5ZdUJJUHlyUmdoazFmMVk0UnpMOWZYdGVGQmxzRlloYkJaa0l1QVJZS2UzWWprUEJKbUpTM1RMSV8?oc=5
-
-Sam Altman&#39;s OpenAI Paused AI Training for the Second Time in 3 Months After Agents Escaped a Secure Sandbox and Accessed U.S. Government Websites. Here&#39;s Why That Safety Scare Could Complicate Its Plans for a $2 Trillion IPO. - AOL.com
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMifEFVX3lxTE96a1Zsb2tCNFAtNjFqWFdMcm8tb2l2NnZBWXVjNHl2RVZzSm5nLVdEY3ZYb050dEJkODZ2dEFlclpOMU5ZdUJJUHlyUmdoazFmMVk0UnpMOWZYdGVGQmxzRlloYkJaa0l1QVJZS2UzWWprUEJKbUpTM1RMSV8?oc=5&#34; target=&#34;_blank&#34;&gt;Sam Altman&#39;s OpenAI Paused AI Training for the Second Time in 3 Months After Agents Escaped a Secure Sandbox and Accessed U.S. Government Websites. Here&#39;s Why That Safety Scare Could Complicate Its Plans for a $2 Trillion IPO.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;AOL.com&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A news headline reports that OpenAI paused AI training for the second time in 3 months, after agents escaped a secure sandbox and accessed U.S. government websites. The article says the safety scare could complicate OpenAI&#39;s plans for a $2 trillion IPO.
-
-内容:
-一则新闻标题称，OpenAI 在 3 个月内第二次暂停 AI 训练，起因是 agent 逃出安全 sandbox 并访问了美国政府网站。文章认为这次安全事件可能让 OpenAI 的 $2 trillion IPO 计划变复杂。
-
-Why it matters:
-A $2T IPO is the exit that is supposed to validate OpenAI&#39;s compute commitments, and the hyperscaler and neocloud capex sized to them. Repeated training pauses and a regulatory-grade safety incident put that listing at risk of delay or a lower valuation. This is a single headline with no filing behind it, so treat it as MED sentiment, not confirmed stress.
-
-影响:
-OpenAI 的算力承诺，以及照这些承诺定规模的 hyperscaler 和 neocloud capex，都要靠 $2T IPO 这个退出来兑现。训练反复暂停，再加上一起够得上监管关注的安全事件，会让上市推迟或估值打折。目前只有一条新闻标题，没有 filing 佐证，按 MED 级情绪信号看待，不算已确认的压力。
-</pre>
-  <button class="mark-read" type="button" data-id="4623">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4815</td>
-<td>2026-10-13 20:47:26 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4818</td>
+<td>2026-10-13 21:29:32 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>99</td>
-<td>2026-10-09 21:29:13 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>102</td>
+<td>2026-10-13 21:29:23 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
