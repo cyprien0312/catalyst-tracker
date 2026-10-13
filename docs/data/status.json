@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791887523,
-  "generated_at_str": "2026-10-13 10:32:03 UTC",
-  "last_event_ts": 1791886445,
+  "generated_at": 1791887720,
+  "generated_at_str": "2026-10-13 10:35:20 UTC",
+  "last_event_ts": 1791887719,
   "tables": {
     "alerts_dedup": {
-      "count": 4806,
-      "last_ts": 1791884119,
-      "last_str": "2026-10-13 09:35:19 UTC"
+      "count": 4807,
+      "last_ts": 1791887719,
+      "last_str": "2026-10-13 10:35:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-10-13 10:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7302,
-      "last_ts": 1791885903,
-      "last_str": "2026-10-13 10:05:03 UTC"
+      "count": 7303,
+      "last_ts": 1791887703,
+      "last_str": "2026-10-13 10:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8848,
-      "last_ts": 1791885904,
-      "last_str": "2026-10-13 10:05:04 UTC"
+      "count": 8851,
+      "last_ts": 1791887706,
+      "last_str": "2026-10-13 10:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5091,
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4814,
+      "ts": 1791887719,
+      "ts_str": "2026-10-13 10:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global smartphone shipments hit 14-year low as memory chip shortage drives up phone prices - India Today",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 13 Oct 2026 10:13:57 GMT\nLink:      https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNnlNeTYxeXJTNkdBTzM4Q281WGRFbVFtZlhDRnZVdjJrT0VpLWFvZUpBLW1DMGVZQ3NlaU56a0wzdGlhdkQ4dXJ4UGFzcHA5b183Mzh3T21hOXBBLWVfVjBTRTlvYkVQX2Zvdm1pUHpPNFFubm9vYUhadUd5aHV1OG9YLWhtYnRDX2pCdXYtQTM3UHFHbWk0UjdXMklZSG9rRWoxbmZ0X0tXYkxTTEktNndTRHpCN3VBUzFPTjlaLTZpeHhKSFhHMTZtTHRLY3ZKdmplVjR2RdIB3AFBVV95cUxQR0ZReDBCSDVJQWVDYnlhUmstLUMyRTNJUHY1NXc0OFRjVmdTWDFXd3luZlM1OFNlS1EwVkEyWGFjQnhTRHg3a2lINlVDbWJRdEdDWTh6SkVNblU0LW9rNkFYeFFnQW85T0ZNb3dZX3FqUGIwRkJxNC0zaEtYN2RkekwzNlJfM1FtbTRFYzl6ZU43aGhTNkNrbFpOQXpMSjF0RUFta00tdTJ6a3J1ODhyOVliTl9OVXVBY3IyLWZtYkxSZjhqZlZ1U0FiSVBpMF9ndkdfSHhpallhZXJ6?oc=5\n\nGlobal smartphone shipments hit 14-year low as memory chip shortage drives up phone prices - India Today\n\n<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNnlNeTYxeXJTNkdBTzM4Q281WGRFbVFtZlhDRnZVdjJrT0VpLWFvZUpBLW1DMGVZQ3NlaU56a0wzdGlhdkQ4dXJ4UGFzcHA5b183Mzh3T21hOXBBLWVfVjBTRTlvYkVQX2Zvdm1pUHpPNFFubm9vYUhadUd5aHV1OG9YLWhtYnRDX2pCdXYtQTM3UHFHbWk0UjdXMklZSG9rRWoxbmZ0X0tXYkxTTEktNndTRHpCN3VBUzFPTjlaLTZpeHhKSFhHMTZtTHRLY3ZKdmplVjR2RdIB3AFBVV95cUxQR0ZReDBCSDVJQWVDYnlhUmstLUMyRTNJUHY1NXc0OFRjVmdTWDFXd3luZlM1OFNlS1EwVkEyWGFjQnhTRHg3a2lINlVDbWJRdEdDWTh6SkVNblU0LW9rNkFYeFFnQW85T0ZNb3dZX3FqUGIwRkJxNC0zaEtYN2RkekwzNlJfM1FtbTRFYzl6ZU43aGhTNkNrbFpOQXpMSjF0RUFta00tdTJ6a3J1ODhyOVliTl9OVXVBY3IyLWZtYkxSZjhqZlZ1U0FiSVBpMF9ndkdfSHhpallhZXJ6?oc=5\" target=\"_blank\">Global smartphone shipments hit 14-year low as memory chip shortage drives up phone prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India Today</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nGlobal smartphone shipments fell to a 14-year low, and the headline blames a memory chip shortage that is pushing phone prices up.\n\n\u5185\u5bb9:\n\u5168\u7403\u667a\u80fd\u624b\u673a\u51fa\u8d27\u91cf\u8dcc\u5230 14 \u5e74\u6765\u6700\u4f4e\u3002\u62a5\u9053\u8ba4\u4e3a\u539f\u56e0\u662f\u5185\u5b58\u82af\u7247\u77ed\u7f3a\u63a8\u9ad8\u4e86\u624b\u673a\u4ef7\u683c\u3002\n\nWhy it matters:\nMemory makers are steering DRAM/NAND capacity toward AI servers and HBM, and consumer devices are absorbing the cost. That shows AI capex is still pulling supply tight. Shortage-driven price spikes plus collapsing end demand usually mark a memory cycle near its peak: if AI orders slow, the industry is left with capacity built for a demand level that consumer markets have already stopped supporting.\n\n\u5f71\u54cd:\n\u5185\u5b58\u5382\u5546\u628a DRAM/NAND \u4ea7\u80fd\u5f80 AI \u670d\u52a1\u5668\u548c HBM \u503e\u659c\uff0c\u6da8\u4ef7\u7684\u6210\u672c\u843d\u5230\u4e86\u6d88\u8d39\u7535\u5b50\u5934\u4e0a\u3002\u8fd9\u8bf4\u660e AI capex \u4ecd\u5728\u628a\u4f9b\u7ed9\u5403\u7d27\u3002\u4e0d\u8fc7\uff0c\u77ed\u7f3a\u5e26\u6765\u7684\u6da8\u4ef7\u52a0\u4e0a\u7ec8\u7aef\u9700\u6c42\u840e\u7f29\uff0c\u901a\u5e38\u610f\u5473\u7740\u5185\u5b58\u5468\u671f\u63a5\u8fd1\u9876\u90e8\u3002\u4e00\u65e6 AI \u8ba2\u5355\u653e\u7f13\uff0c\u884c\u4e1a\u624b\u91cc\u7684\u4ea7\u80fd\u662f\u6309\u4e00\u4e2a\u6d88\u8d39\u7aef\u5df2\u7ecf\u6491\u4e0d\u4f4f\u7684\u9700\u6c42\u6c34\u5e73\u5efa\u7684\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4813,
       "ts": 1791884119,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Sandisk Just Got a $2,100 Price Target as AI Keeps NAND Supply Tight - Yahoo Finance Australia",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 17:47:01 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTE5qTlUzT3FOTzh4NEdiXzBjbmRnNXJyYmVTZ2tVY2RkeEVTejdOYnp4SUhmbVd1ekExUmNGdEx4cnZ4cEx2X1plRzBwM1ozZ0cwOGxYYWM2NFZDcVRUZVA1UFlBV3BtM0U5OEE3LXlUV0VZNG9yNktydWdUVQ?oc=5\n\nSandisk Just Got a $2,100 Price Target as AI Keeps NAND Supply Tight - Yahoo Finance Australia\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5qTlUzT3FOTzh4NEdiXzBjbmRnNXJyYmVTZ2tVY2RkeEVTejdOYnp4SUhmbVd1ekExUmNGdEx4cnZ4cEx2X1plRzBwM1ozZ0cwOGxYYWM2NFZDcVRUZVA1UFlBV3BtM0U5OEE3LXlUV0VZNG9yNktydWdUVQ?oc=5\" target=\"_blank\">Sandisk Just Got a $2,100 Price Target as AI Keeps NAND Supply Tight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Australia</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn analyst set a $2,100 price target on Sandisk (SNDK), citing AI demand keeping NAND supply tight.\n\n\u5185\u5bb9:\n\u6709\u5206\u6790\u5e08\u7ed9 Sandisk (SNDK) \u5b9a\u4e86 $2,100 \u7684\u76ee\u6807\u4ef7\uff0c\u7406\u7531\u662f AI \u9700\u6c42\u8ba9 NAND \u4f9b\u5e94\u6301\u7eed\u504f\u7d27\u3002\n\nWhy it matters:\nTight supply means AI-driven storage demand still exceeds supply, so this is not stress yet. Memory is a classic boom-bust cycle, though: record pricing and aggressive sell-side targets usually come near the peak and pull in the capacity that later causes oversupply. This is an analyst opinion, not hard pricing data.\n\n\u5f71\u54cd:\n\u4f9b\u5e94\u504f\u7d27\u8bf4\u660e AI \u5e26\u6765\u7684\u5b58\u50a8\u9700\u6c42\u4ecd\u7136\u5927\u4e8e\u4f9b\u7ed9\uff0c\u773c\u4e0b\u8fd8\u4e0d\u7b97\u538b\u529b\u4fe1\u53f7\u3002\u4e0d\u8fc7\u5b58\u50a8\u662f\u5178\u578b\u7684\u5f3a\u5468\u671f\u884c\u4e1a\uff1a\u4ef7\u683c\u521b\u65b0\u9ad8\u3001\u5356\u65b9\u76ee\u6807\u4ef7\u8d8a\u558a\u8d8a\u9ad8\uff0c\u5f80\u5f80\u51fa\u73b0\u5728\u5468\u671f\u9876\u90e8\u9644\u8fd1\uff0c\u4e5f\u4f1a\u5f15\u6765\u6269\u4ea7\uff0c\u540e\u9762\u5c31\u662f\u4f9b\u8fc7\u4e8e\u6c42\u3002\u8fd9\u6761\u662f\u5206\u6790\u5e08\u89c2\u70b9\uff0c\u4e0d\u662f\u786c\u6027\u7684\u4ef7\u683c\u6570\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4615,
-      "ts": 1790877931,
-      "ts_str": "2026-10-01 18:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - AOL.ca",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 01 Oct 2026 03:13:00 GMT\nLink:      https://news.google.com/rss/articles/CBMie0FVX3lxTFBKbUZYSzNUMFc5WjcyRUhoVEx5TTBJSXpRQ1VnTWpBUE9uZk43V2YxMjI0d1R4OGVGTDhXemtqeGdPM2Uxc3VKSV9mZFk5ZzFiNlJwclBHdlBiOWlDeEZ0MDZiM1poMlJhNm11clYwbC1DU0FGRmpOZENScw?oc=5\n\nMicron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage - AOL.ca\n\n<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBKbUZYSzNUMFc5WjcyRUhoVEx5TTBJSXpRQ1VnTWpBUE9uZk43V2YxMjI0d1R4OGVGTDhXemtqeGdPM2Uxc3VKSV9mZFk5ZzFiNlJwclBHdlBiOWlDeEZ0MDZiM1poMlJhNm11clYwbC1DU0FGRmpOZENScw?oc=5\" target=\"_blank\">Micron\u2019s DRAM Revenue Shot Up 343% Compared to Last Year, Courtesy of RAM Shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.ca</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports Micron's DRAM revenue rose 343% year over year, which it attributes to a RAM shortage.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0\uff0cMicron \u7684 DRAM \u6536\u5165\u540c\u6bd4\u589e\u957f 343%\uff0c\u539f\u56e0\u662f RAM \u77ed\u7f3a\u3002\n\nWhy it matters:\nA shortage-driven revenue surge shows AI demand, mainly HBM for accelerators, is still absorbing memory supply faster than fabs can add it. This is a sign of tightness, not stress, but memory is the most cyclical part of the stack. Shortages at this scale have historically triggered capacity buildouts that end in oversupply and price collapses, so watch for the flip to cancellations or inventory gluts.\n\n\u5f71\u54cd:\n\u6536\u5165\u66b4\u6da8\u662f\u77ed\u7f3a\u63a8\u51fa\u6765\u7684\uff0c\u8bf4\u660e AI \u9700\u6c42\uff08\u4e3b\u8981\u662f\u52a0\u901f\u5361\u7528\u7684 HBM\uff09\u5403\u6389\u5185\u5b58\u4ea7\u80fd\u7684\u901f\u5ea6\u4ecd\u5feb\u8fc7\u6676\u5706\u5382\u6269\u4ea7\u3002\u8fd9\u662f\u4f9b\u7ed9\u504f\u7d27\u7684\u4fe1\u53f7\uff0c\u8fd8\u4e0d\u662f\u538b\u529b\u4fe1\u53f7\u3002\u4f46\u5185\u5b58\u662f\u6574\u6761\u4ea7\u4e1a\u94fe\u91cc\u5468\u671f\u6027\u6700\u5f3a\u7684\u4e00\u73af\uff1a\u5386\u53f2\u4e0a\u8fd9\u79cd\u91cf\u7ea7\u7684\u77ed\u7f3a\u90fd\u4f1a\u5f15\u6765\u6269\u4ea7\u6f6e\uff0c\u6700\u540e\u4ee5\u4f9b\u8fc7\u4e8e\u6c42\u548c\u4ef7\u683c\u5d29\u76d8\u6536\u573a\u3002\u540e\u9762\u8981\u76ef\u7684\u662f\u780d\u5355\u6216\u5e93\u5b58\u79ef\u538b\u4f55\u65f6\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
