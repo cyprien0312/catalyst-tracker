@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-13 02:02:02 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-13 02:05:18 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,38 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4802" data-catalyst="C6" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C6</code>
+    <span class="subj">[C6-HIGH] Tasting A Midwinter Night’s Dram Act 14, Now With Sherry Casks And A Lower Price Point - Forbes</span>
+    <span class="meta">2026-10-13 02:05 UTC · muted</span>
+  </summary>
+  <pre>Severity:  HIGH
+Feed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
+Published: Tue, 13 Oct 2026 01:49:13 GMT
+Link:      https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM1BTal9yZGJZZlRFSWlieGZHTnhnRzk3OFFCMGpJVm43czNCX1BSNnc3X2VqcWRueWkta0pNX0tXWU9kN041VHRVS0F5cXdTS09EQU1oaTZSZTZxTGp6R0JUM0QwcU80VUdIbFBwRGNoVGgzc0I0dHcyUG45bUZJVlVGSTVvd2otM0VRSjM5TFFmcDRReHM4YW5STFNac2RNVzR1TjA1aExNMTFsT1c2VGdWcnFFdHNEeklzRzBRRVQ3TTNfMWFjZHhLMFd6c29E?oc=5
+
+Tasting A Midwinter Night’s Dram Act 14, Now With Sherry Casks And A Lower Price Point - Forbes
+
+&lt;a href=&#34;https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM1BTal9yZGJZZlRFSWlieGZHTnhnRzk3OFFCMGpJVm43czNCX1BSNnc3X2VqcWRueWkta0pNX0tXWU9kN041VHRVS0F5cXdTS09EQU1oaTZSZTZxTGp6R0JUM0QwcU80VUdIbFBwRGNoVGgzc0I0dHcyUG45bUZJVlVGSTVvd2otM0VRSjM5TFFmcDRReHM4YW5STFNac2RNVzR1TjA1aExNMTFsT1c2VGdWcnFFdHNEeklzRzBRRVQ3TTNfMWFjZHhLMFd6c29E?oc=5&#34; target=&#34;_blank&#34;&gt;Tasting A Midwinter Night’s Dram Act 14, Now With Sherry Casks And A Lower Price Point&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Forbes&lt;/font&gt;
+
+────────────────────────────────────────────────────────────
+What this means:
+False positive. The headline is a whisky tasting review of &#39;A Midwinter Night&#39;s Dram Act 14&#39;, a bottling with sherry casks and a lower price point. &#39;Dram&#39; here means a measure of whisky, not DRAM memory chips.
+
+内容:
+这是误报。标题是一篇威士忌品鉴文章，评的是 &#39;A Midwinter Night&#39;s Dram Act 14&#39;，这一版改用雪莉桶，价格也降了。这里的 &#39;Dram&#39; 指一小杯威士忌，不是 DRAM 内存芯片。
+
+Why it matters:
+No relevance to the AI-capex or memory-stress thesis. The C6 classifier matched &#39;Dram&#39; case-insensitively and read &#39;Lower Price&#39; as a price-reversal token, so this alert should be ignored. A case-sensitive match on &#39;DRAM&#39; or a guard against whisky terms like &#39;cask&#39; or &#39;tasting&#39; would block it.
+
+影响:
+这条和 AI capex 或内存压力的判断都没关系，可以忽略。C6 分类器匹配 &#39;Dram&#39; 时不分大小写，又把 &#39;Lower Price&#39; 当成了降价 token。要拦住这类标题，可以只认全大写的 &#39;DRAM&#39;，或者给 cask、tasting 这类威士忌用词加一道闸门。
+</pre>
+  <button class="mark-read" type="button" data-id="4802">mark read</button>
+</details>
 
 <details class="alert sev-HIGH" data-id="4801" data-catalyst="C11" data-severity="HIGH">
   <summary>
@@ -6455,46 +6487,14 @@ A sell-side note forecasting further memory ASP gains, paired with rising enterp
   <button class="mark-read" type="button" data-id="4604">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4602" data-catalyst="C6" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C6</code>
-    <span class="subj">[C6-MED] India may see costlier smartphones as RAM shortage worsens: World’s biggest memory chip maker says demand w... - Bhaskar</span>
-    <span class="meta">2026-10-01 10:35 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Thu, 01 Oct 2026 10:18:59 GMT
-Link:      https://news.google.com/rss/articles/CBMitwFBVV95cUxOaG1zLXhCc2RWRFR3UjM1VFNNY0phYks3dmF2aVdyMXpBTGwxajU5d19ucy1lSS1mOGRELTkxeVBMWGM0eUhlTXU4bVVEcEd4d2xWWUFISEx2Z3AyV2N1Nk50a2dDMWdyUG5DUHFYVWQ3dl9QazI5NzFtX1NLQWJlNVVncVlLTEJVYmRhWnJuQ1lnYVpKbFJwdnlPa0N4V01oVnNTNzhjRm5vekhxdTdoOTRvMWhHWkHSAbwBQVVfeXFMTXN3OGN6RWlKajVoWlcxSlU3SHdXclc2S3hWUmx2V0dBa0pLSDJnYUJRN29pZFJnMmFuV21Sa0dhOXRseHMwV2FoaDI0NGpjd05HX3VuekR6S29SY0xFdEdXelhrbHRvdjVqdlFWYTByOXhweEctbjd3YzZreGxxMG55R295NzZJUkdTNnFScW9EVms0VURyRkoyamNLZ1ZHZ2tWMi1rekcwbVpiQlVOTW82WTNhNkJPNUV0bl8?oc=5
-
-India may see costlier smartphones as RAM shortage worsens: World’s biggest memory chip maker says demand w... - Bhaskar English
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMitwFBVV95cUxOaG1zLXhCc2RWRFR3UjM1VFNNY0phYks3dmF2aVdyMXpBTGwxajU5d19ucy1lSS1mOGRELTkxeVBMWGM0eUhlTXU4bVVEcEd4d2xWWUFISEx2Z3AyV2N1Nk50a2dDMWdyUG5DUHFYVWQ3dl9QazI5NzFtX1NLQWJlNVVncVlLTEJVYmRhWnJuQ1lnYVpKbFJwdnlPa0N4V01oVnNTNzhjRm5vekhxdTdoOTRvMWhHWkHSAbwBQVVfeXFMTXN3OGN6RWlKajVoWlcxSlU3SHdXclc2S3hWUmx2V0dBa0pLSDJnYUJRN29pZFJnMmFuV21Sa0dhOXRseHMwV2FoaDI0NGpjd05HX3VuekR6S29SY0xFdEdXelhrbHRvdjVqdlFWYTByOXhweEctbjd3YzZreGxxMG55R295NzZJUkdTNnFScW9EVms0VURyRkoyamNLZ1ZHZ2tWMi1rekcwbVpiQlVOTW82WTNhNkJPNUV0bl8?oc=5&#34; target=&#34;_blank&#34;&gt;India may see costlier smartphones as RAM shortage worsens: World’s biggest memory chip maker says demand w...&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Bhaskar English&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A Google News RSS item reports India may see pricier smartphones as a RAM shortage worsens, citing the world&#39;s largest memory chipmaker warning of demand exceeding supply.
-
-内容:
-一条 Google News RSS 报道称，由于 RAM 短缺加剧，印度智能手机可能涨价，全球最大的内存芯片厂商警告需求已超过供给。
-
-Why it matters:
-Tight DRAM supply feeding AI datacenter demand is now visibly spilling into consumer electronics pricing — a sign the memory bottleneck is broad enough to move end-user costs, not just hyperscaler procurement. Confirms C6&#39;s thesis that AI-driven memory demand is squeezing the whole supply chain.
-
-影响:
-AI 数据中心对 DRAM 的旺盛需求正外溢到消费电子定价上——说明内存紧缺已经严重到影响终端用户成本，不只是超大规模厂商的采购端。这印证了 C6 的判断：AI 驱动的内存需求正在挤压整条供应链。
-</pre>
-  <button class="mark-read" type="button" data-id="4602">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4794</td>
-<td>2026-10-13 00:47:04 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4795</td>
+<td>2026-10-13 02:05:18 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
@@ -6538,14 +6538,14 @@ AI 数据中心对 DRAM 的旺盛需求正外溢到消费电子定价上——�
 <tr><td><code>rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD</code></td><td>1595</td>
 <td>2026-10-12 21:44:19 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7271</td>
-<td>2026-10-13 00:05:02 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7275</td>
+<td>2026-10-13 02:05:03 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>8819</td>
-<td>2026-10-13 01:35:05 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>8823</td>
+<td>2026-10-13 02:05:06 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>5082</td>
-<td>2026-10-13 01:35:04 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>5083</td>
+<td>2026-10-13 02:05:04 UTC</td></tr>
 
 <tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>6803</td>
 <td>2026-10-13 01:35:06 UTC</td></tr>
