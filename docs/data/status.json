@@ -1,12 +1,12 @@
 {
-  "generated_at": 1791989046,
-  "generated_at_str": "2026-10-14 14:44:06 UTC",
-  "last_event_ts": 1791989045,
+  "generated_at": 1791989236,
+  "generated_at_str": "2026-10-14 14:47:16 UTC",
+  "last_event_ts": 1791989236,
   "tables": {
     "alerts_dedup": {
-      "count": 4833,
-      "last_ts": 1791985474,
-      "last_str": "2026-10-14 13:44:34 UTC"
+      "count": 4834,
+      "last_ts": 1791989236,
+      "last_str": "2026-10-14 14:47:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -104,9 +104,9 @@
       "last_str": "2026-10-14 14:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 12923,
-      "last_ts": 1791985623,
-      "last_str": "2026-10-14 13:47:03 UTC"
+      "count": 12930,
+      "last_ts": 1791989223,
+      "last_str": "2026-10-14 14:47:03 UTC"
     }
   },
   "c4_xbrl": [
@@ -317,6 +317,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4841,
+      "ts": 1791989236,
+      "ts_str": "2026-10-14 14:47 UTC",
+      "catalyst": "C11",
+      "severity": "MED",
+      "subject": "[C11-MED] Morgan Stanley sets SpaceX stock price target - Finbold",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 14 Oct 2026 14:00:49 GMT\nLink:      https://news.google.com/rss/articles/CBMidEFVX3lxTE9IUjVlZ1Z0RERfemlidjBvN1ViVERLSlJWQTZMUFRvay1DQTA0WTNCUTBrRG1JRU1BTXVDWGFqZElwUHB4WEYzdF80R0JoZWowMEVPc1kzeHYwSURoNUV2Z3pnQVQ3dmh0SXYyRXRCUG5VbUVD?oc=5\n\nMorgan Stanley sets SpaceX stock price target - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9IUjVlZ1Z0RERfemlidjBvN1ViVERLSlJWQTZMUFRvay1DQTA0WTNCUTBrRG1JRU1BTXVDWGFqZElwUHB4WEYzdF80R0JoZWowMEVPc1kzeHYwSURoNUV2Z3pnQVQ3dmh0SXYyRXRCUG5VbUVD?oc=5\" target=\"_blank\">Morgan Stanley sets SpaceX stock price target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMorgan Stanley published a price target on SpaceX stock; the headline gives no target number. The classifier tagged it as an index-flow item.\n\n\u5185\u5bb9:\nMorgan Stanley \u7ed9 SpaceX \u80a1\u7968\u8bbe\u5b9a\u4e86\u76ee\u6807\u4ef7\uff0c\u6807\u9898\u91cc\u6ca1\u6709\u7ed9\u51fa\u5177\u4f53\u6570\u5b57\u3002\u5206\u7c7b\u5668\u628a\u5b83\u5f52\u4e3a index-flow \u7c7b\u65b0\u95fb\u3002\n\nWhy it matters:\nCoverage initiation by a bulge-bracket bank comes before a stock enters index and passive-fund flows, and it sets the anchor price that the lock-up unlock tranches will trade against. On its own it is sell-side sentiment, not a measured flow: no ETF holding change or index inclusion is reported here, so treat it as background until the holdings diff or the unlock calendar confirms it.\n\n\u5f71\u54cd:\n\u5927\u578b\u6295\u884c\u5f00\u59cb\u8986\u76d6\uff0c\u901a\u5e38\u53d1\u751f\u5728\u80a1\u7968\u8fdb\u5165\u6307\u6570\u548c\u88ab\u52a8\u8d44\u91d1\u4e4b\u524d\u3002\u5b83\u5b9a\u4e0b\u7684\u4ef7\u683c\u951a\u70b9\uff0c\u4e5f\u662f\u540e\u7eed lock-up \u5206\u6279\u89e3\u7981\u65f6\u5e02\u573a\u53c2\u7167\u7684\u4ef7\u4f4d\u3002\u4f46\u8fd9\u6761\u53ea\u662f\u5356\u65b9\u89c2\u70b9\uff0c\u4e0d\u662f\u5b9e\u6d4b\u7684\u8d44\u91d1\u6d41\uff1a\u8fd9\u91cc\u6ca1\u6709\u62a5\u544a ETF \u6301\u4ed3\u53d8\u5316\uff0c\u4e5f\u6ca1\u6709\u7eb3\u5165\u6307\u6570\u3002\u7b49 holdings diff \u6216\u89e3\u7981\u65e5\u5386\u7ed9\u51fa\u786e\u8ba4\u4e4b\u524d\uff0c\u5148\u5f53\u80cc\u666f\u4fe1\u606f\u770b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4838,
       "ts": 1791985474,
@@ -2305,16 +2315,6 @@
       "severity": "MED",
       "subject": "[C6-MED] NVIDIA's Next-Gen GPUs May Carry Less HBM as Shortages Raise Prospect of 8-Layer Stacks - XenoSpectrum",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 02 Oct 2026 03:48:21 GMT\nLink:      https://news.google.com/rss/articles/CBMic0FVX3lxTE9VTzlhR0JKTFJ3YUxHNUNZaGJVZ1YwZkpyWU1nV29wYmxMMTVLN0ZqTVAwdkdSc05DdV9XSEd1V09pakd6MWxBTkQ2UGxSMFVZd1NaaUhxTjBCZkFPWXRiRG1ranN5ckNFMmlZcE5vekFTUUk?oc=5\n\nNVIDIA's Next-Gen GPUs May Carry Less HBM as Shortages Raise Prospect of 8-Layer Stacks - XenoSpectrum\n\n<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9VTzlhR0JKTFJ3YUxHNUNZaGJVZ1YwZkpyWU1nV29wYmxMMTVLN0ZqTVAwdkdSc05DdV9XSEd1V09pakd6MWxBTkQ2UGxSMFVZd1NaaUhxTjBCZkFPWXRiRG1ranN5ckNFMmlZcE5vekFTUUk?oc=5\" target=\"_blank\">NVIDIA's Next-Gen GPUs May Carry Less HBM as Shortages Raise Prospect of 8-Layer Stacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">XenoSpectrum</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports NVIDIA's next-gen GPUs may ship with less HBM, because supply shortages raise the prospect of falling back to 8-layer stacks instead of taller ones. It is a speculative report ('may'), not a confirmed spec change.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6807\u9898\u79f0\uff0cNVIDIA \u4e0b\u4e00\u4ee3 GPU \u53ef\u80fd\u51cf\u5c11 HBM \u642d\u8f7d\u91cf\uff1a\u4f9b\u5e94\u77ed\u7f3a\u8ba9\u5b83\u6709\u53ef\u80fd\u9000\u56de 8 \u5c42\u5806\u53e0\uff0c\u800c\u4e0d\u662f\u7528\u66f4\u9ad8\u5c42\u6570\u7684\u65b9\u6848\u3002\u8fd9\u662f\u63a8\u6d4b\u6027\u62a5\u9053\uff08'may'\uff09\uff0c\u4e0d\u662f\u5df2\u786e\u8ba4\u7684\u89c4\u683c\u53d8\u66f4\u3002\n\nWhy it matters:\nHBM supply, not GPU demand, is still the binding constraint on AI hardware. The shortage keeps memory pricing and SK Hynix/Samsung/Micron margins elevated, but it also means a cut in memory per GPU and a cap on accelerator performance per dollar. This is a stress signal on the supply side, not a sign of demand cracking. The demand-side tell would be oversupply or order cancellations.\n\n\u5f71\u54cd:\n\u5361\u4f4f AI \u786c\u4ef6\u7684\u4ecd\u662f HBM \u4f9b\u7ed9\uff0c\u4e0d\u662f GPU \u9700\u6c42\u3002\u77ed\u7f3a\u8ba9\u5185\u5b58\u4ef7\u683c\u548c SK Hynix\u3001Samsung\u3001Micron \u7684\u5229\u6da6\u7387\u7ef4\u6301\u9ad8\u4f4d\uff0c\u4f46\u4e5f\u610f\u5473\u7740\u6bcf\u5757 GPU \u7684\u663e\u5b58\u8981\u7f29\u6c34\uff0c\u5355\u4f4d\u6210\u672c\u80fd\u4e70\u5230\u7684\u7b97\u529b\u88ab\u538b\u4f4f\u3002\u8fd9\u662f\u4f9b\u7ed9\u7aef\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u9700\u6c42\u8f6c\u5f31\u3002\u9700\u6c42\u7aef\u771f\u51fa\u95ee\u9898\u65f6\uff0c\u770b\u5230\u7684\u4f1a\u662f\u4f9b\u8fc7\u4e8e\u6c42\u6216\u780d\u5355\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4641,
-      "ts": 1790952436,
-      "ts_str": "2026-10-02 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 120 (3.3\u4ebf shares)",
-      "body": "Severity:   MED\nTranche:    Day 120\nDate:       2026-10-10  (7 day(s) out)\nRelease:    3.3\u4ebf shares (2.5% of shares outstanding)\nCumulative: 25.1% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nAn upcoming SPCX lock-up tranche will release about 3.3bn of locked shares. After it, 25.1% of the locked stock will be unlocked in total.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6279 lock-up \u89e3\u7981\uff0c\u91ca\u653e\u7ea6 3.3bn \u9501\u5b9a\u80a1\u4efd\u3002\u8fd9\u6279\u4e4b\u540e\uff0c\u7d2f\u8ba1\u89e3\u7981\u6bd4\u4f8b\u8fbe\u5230 25.1%\u3002\n\nWhy it matters:\nEach unlock adds supply that insiders and early holders can sell. With a quarter of the lock-up released, holders' willingness to keep holding becomes a real test of demand for the stock. A weak tape around the release date would show that passive index inflows are not absorbing the new float, which is an early sign that funding for AI and space infrastructure is under strain.\n\n\u5f71\u54cd:\n\u6bcf\u6b21\u89e3\u7981\u90fd\u4f1a\u591a\u51fa\u4e00\u6279\u5185\u90e8\u4eba\u548c\u65e9\u671f\u80a1\u4e1c\u53ef\u4ee5\u5356\u7684\u80a1\u4efd\u3002\u89e3\u7981\u5df2\u8fc7\u56db\u5206\u4e4b\u4e00\uff0c\u6301\u6709\u4eba\u613f\u4e0d\u613f\u610f\u7ee7\u7eed\u62ff\u7740\uff0c\u5f00\u59cb\u771f\u6b63\u8003\u9a8c\u8fd9\u53ea\u80a1\u7968\u7684\u9700\u6c42\u3002\u5982\u679c\u89e3\u7981\u65e5\u524d\u540e\u8d70\u52bf\u504f\u5f31\uff0c\u8bf4\u660e\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u6ca1\u63a5\u4f4f\u65b0\u589e\u6d41\u901a\u76d8\uff0c\u8fd9\u662f AI \u548c\u822a\u5929\u57fa\u7840\u8bbe\u65bd\u8d44\u91d1\u9762\u5403\u7d27\u7684\u65e9\u671f\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
