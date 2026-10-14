@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-14 02:32:03 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-14 02:35:18 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,38 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="4827" data-catalyst="C6" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C6</code>
+    <span class="subj">[C6-MED] Memory Price Surge Sends Smartphone Shipments to 14-Year Low - 조선일보</span>
+    <span class="meta">2026-10-14 02:35 UTC · muted</span>
+  </summary>
+  <pre>Severity:  MED
+Feed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
+Published: Tue, 13 Oct 2026 22:22:55 GMT
+Link:      https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazhQNHhTeXhGZXFaZG1jT0JaclN1ODg5N2lRVE40b1RPcTYxbW1ZYzc2UVlnT3ZfNWtzZHVOeFBJOUNYOVRoUHRsVjVJd1NsbnJzMEJ1QzhBcnJJM3dvaUlJYWtlNGVUN1NNbzFwc2RMcnVUSmpONzJMcjZVbW5BTkVBVHg4M05O?oc=5
+
+Memory Price Surge Sends Smartphone Shipments to 14-Year Low - 조선일보
+
+&lt;a href=&#34;https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazhQNHhTeXhGZXFaZG1jT0JaclN1ODg5N2lRVE40b1RPcTYxbW1ZYzc2UVlnT3ZfNWtzZHVOeFBJOUNYOVRoUHRsVjVJd1NsbnJzMEJ1QzhBcnJJM3dvaUlJYWtlNGVUN1NNbzFwc2RMcnVUSmpONzJMcjZVbW5BTkVBVHg4M05O?oc=5&#34; target=&#34;_blank&#34;&gt;Memory Price Surge Sends Smartphone Shipments to 14-Year Low&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;조선일보&lt;/font&gt;
+
+────────────────────────────────────────────────────────────
+What this means:
+A headline reports that a memory price surge has pushed smartphone shipments to a 14-year low. The source gives no specific price or shipment numbers.
+
+内容:
+一条新闻标题称，内存涨价把智能手机出货量压到了 14 年来的最低点。原文没有给出具体的价格或出货数字。
+
+Why it matters:
+Memory makers are shifting wafer capacity to HBM for AI accelerators, which squeezes DRAM/NAND supply for consumer devices, and phone makers are now cutting volume because of it. So far this points to AI demand still running hot, not to a bust. But a price spike that destroys end demand is how memory cycles usually peak: when AI orders slow, the shifted capacity comes back to a consumer market that has already shrunk, and that sets up oversupply.
+
+影响:
+内存厂把晶圆产能挪去给 AI 加速卡做 HBM，消费电子能拿到的 DRAM/NAND 就少了，手机厂商现在已经开始因此减产。眼下这说明 AI 需求还很旺，不是泡沫破裂的信号。但涨价涨到把终端需求打下去，通常就是内存周期见顶的样子：等 AI 订单一放缓，挪走的产能会回到一个已经萎缩的消费市场，供过于求的局面就埋下了。
+</pre>
+  <button class="mark-read" type="button" data-id="4827">mark read</button>
+</details>
 
 <details class="alert sev-HIGH" data-id="4826" data-catalyst="C11" data-severity="HIGH">
   <summary>
@@ -6452,42 +6484,14 @@ This is a shortage signal, not a bust signal. HBM demand from AI accelerators st
   <button class="mark-read" type="button" data-id="4628">mark read</button>
 </details>
 
-<details class="alert sev-HIGH" data-id="4627" data-catalyst="C10" data-severity="HIGH">
-  <summary>
-    <span class="sev sev-bg-HIGH">HIGH</span>
-    <code>C10</code>
-    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.93% ≥ 2.50%</span>
-    <span class="meta">2026-10-01 22:29 UTC</span>
-  </summary>
-  <pre>Series:   REAL10 (DFII10)
-Date:     2026-09-30
-Current:  2.93%
-Stress ≥: 2.50%
-
-────────────────────────────────────────────────────────────
-What this means:
-The US 10-year real (TIPS) yield printed 2.93% on 2026-09-30, above the tracker&#39;s 2.5% stress level and up from 2.91% on 2026-09-29.
-
-内容:
-美国 10 年期实际利率（TIPS 收益率）2026-09-30 报 2.93%，高于 tracker 设定的 2.5% 压力线，前一个读数是 2026-09-29 的 2.91%。
-
-Why it matters:
-A real yield near 3% raises the discount rate on long-dated cash flows, and AI-infrastructure valuations depend on payback many years out. It also makes debt-funded data-center buildouts more expensive, and the rate is rising at the same time hyperscaler capex is outrunning operating cash.
-
-影响:
-实际利率逼近 3%，远期现金流的折现率随之抬高。AI 基础设施的估值押的就是多年以后才回本，所以首当其冲。靠举债建数据中心的成本也在涨。偏偏超大规模厂商的 capex 正在跑赢经营现金流，利率这时还在往上走。
-</pre>
-  <button class="mark-read" type="button" data-id="4627">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4819</td>
-<td>2026-10-13 23:47:13 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4820</td>
+<td>2026-10-14 02:35:17 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-08-05 20:53:04 UTC</td></tr>
@@ -6531,11 +6535,11 @@ A real yield near 3% raises the discount rate on long-dated cash flows, and AI-i
 <tr><td><code>rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD</code></td><td>1603</td>
 <td>2026-10-14 00:14:05 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7334</td>
-<td>2026-10-14 01:35:02 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7335</td>
+<td>2026-10-14 02:35:03 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>8889</td>
-<td>2026-10-14 02:05:10 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>8890</td>
+<td>2026-10-14 02:35:04 UTC</td></tr>
 
 <tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>5122</td>
 <td>2026-10-14 01:05:04 UTC</td></tr>
