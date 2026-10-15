@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792047905,
-  "generated_at_str": "2026-10-15 07:05:05 UTC",
-  "last_event_ts": 1792047904,
+  "generated_at": 1792048096,
+  "generated_at_str": "2026-10-15 07:08:16 UTC",
+  "last_event_ts": 1792048095,
   "tables": {
     "alerts_dedup": {
-      "count": 4845,
-      "last_ts": 1792046118,
-      "last_str": "2026-10-15 06:35:18 UTC"
+      "count": 4846,
+      "last_ts": 1792048095,
+      "last_str": "2026-10-15 07:08:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -33,6 +33,11 @@
       "last_ts": 1789158722,
       "last_str": "2026-09-11 20:32:02 UTC"
     },
+    "c2_crash": {
+      "count": 1,
+      "last_ts": 1792048083,
+      "last_str": "2026-10-15 07:08:03 UTC"
+    },
     "c2_filings": {
       "count": 88,
       "last_ts": 1791409083,
@@ -40,8 +45,8 @@
     },
     "c2_price_check": {
       "count": 4,
-      "last_ts": 1792024685,
-      "last_str": "2026-10-15 00:38:05 UTC"
+      "last_ts": 1792048095,
+      "last_str": "2026-10-15 07:08:15 UTC"
     },
     "c3_msft_filings": {
       "count": 21,
@@ -317,6 +322,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4853,
+      "ts": 1792048095,
+      "ts_str": "2026-10-15 07:08 UTC",
+      "catalyst": "C2",
+      "severity": "HIGH",
+      "subject": "[C2-HIGH] CRWV: crash -15.5% on 3.5x volume",
+      "body": "Ticker:    CRWV\nDate:      2026-10-14\nClose:     65.78 (prior 77.81)\nChange:    -15.5%\nVolume:    108,452,700 (20d avg 30,909,025, ratio 3.5x)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nCRWV fell 15.46% on 2026-10-14 on 3.51x its normal volume, which crosses the C2 crash trigger of a \u226515% one-day drop on 3x volume.\n\n\u5185\u5bb9:\nCRWV \u5728 2026-10-14 \u5355\u65e5\u4e0b\u8dcc 15.46%\uff0c\u6210\u4ea4\u91cf\u662f\u5e73\u65f6\u7684 3.51 \u500d\uff0c\u8fbe\u5230\u4e86 C2 \u7684\u89e6\u53d1\u6761\u4ef6\uff08\u5355\u65e5\u8dcc\u5e45 \u226515% \u4e14\u6210\u4ea4\u91cf \u22653 \u500d\uff09\u3002\n\nWhy it matters:\nCoreWeave is the bellwether neocloud: its business is GPU capacity financed with debt and backed by AI-lab contracts. A high-volume crash like this means investors are repricing its ability to service that debt or renew those contracts. That is the first place AI-capex stress would show up, before it reaches the hyperscalers. C2 is one of the fuses that can switch the buy plan to Regime B.\n\n\u5f71\u54cd:\nCoreWeave \u662f neocloud \u7684\u98ce\u5411\u6807\uff0c\u9760\u4e3e\u503a\u4e70 GPU \u7b97\u529b\uff0c\u6536\u5165\u6765\u81ea AI \u5b9e\u9a8c\u5ba4\u7684\u5408\u7ea6\u3002\u653e\u91cf\u66b4\u8dcc\u8bf4\u660e\u5e02\u573a\u5728\u91cd\u65b0\u8bc4\u4f30\u5b83\u80fd\u4e0d\u80fd\u8fd8\u4e0a\u503a\u3001\u7eed\u4e0a\u5408\u7ea6\u3002AI capex \u7684\u538b\u529b\u5f80\u5f80\u6700\u5148\u5728\u8fd9\u91cc\u51fa\u73b0\uff0c\u7136\u540e\u624d\u4f20\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u3002C2 \u662f\u4fdd\u9669\u4e1d\u4e4b\u4e00\uff0c\u89e6\u53d1\u540e\u53ef\u80fd\u628a\u4e70\u5165\u8ba1\u5212\u5207\u5230 Regime B\u3002\n",
+      "emailed": true
+    },
     {
       "id": 4851,
       "ts": 1792046118,
@@ -2306,16 +2321,6 @@
       "subject": "[C3-MED] AI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228 - AI: Reset to Zero",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 03 Oct 2026 05:02:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5\n\nAI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228 - AI: Reset to Zero\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5\" target=\"_blank\">AI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI: Reset to Zero</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA newsletter roundup (AI-RTZ #1228) mentioned OpenAI's '$1.4 Trillion', alongside an Anthropic IPO item and Gemini 4. This is a headline digest, not a filing, and it contains no new metric.\n\n\u5185\u5bb9:\n\u4e00\u4efd newsletter \u6c47\u603b\uff08AI-RTZ #1228\uff09\u63d0\u5230\u4e86 OpenAI \u7684\u300c$1.4 Trillion\u300d\uff0c\u540c\u671f\u8fd8\u6709 Anthropic IPO \u548c Gemini 4 \u7684\u6761\u76ee\u3002\u8fd9\u662f\u6807\u9898\u6c47\u603b\uff0c\u4e0d\u662f filing\uff0c\u4e5f\u6ca1\u6709\u65b0\u7684\u6307\u6807\u3002\n\nWhy it matters:\n$1.4T is the widely reported size of OpenAI's multi-year compute and infrastructure commitments. That figure is far larger than its revenue, and that funding gap is the core of the C3 stress thesis. The item only restates a known number, so it is background noise. It does not show rising burn or new funding stress.\n\n\u5f71\u54cd:\n$1.4T \u662f\u5916\u754c\u5e7f\u6cdb\u62a5\u9053\u7684 OpenAI \u591a\u5e74\u671f\u7b97\u529b\u4e0e\u57fa\u7840\u8bbe\u65bd\u627f\u8bfa\u603b\u989d\u3002\u8fd9\u4e2a\u6570\u8fdc\u8d85\u5b83\u7684\u6536\u5165\uff0c\u8fd9\u4e2a\u8d44\u91d1\u7f3a\u53e3\u6b63\u662f C3 \u538b\u529b\u903b\u8f91\u7684\u6838\u5fc3\u3002\u8fd9\u6761\u53ea\u662f\u91cd\u590d\u5df2\u77e5\u6570\u5b57\uff0c\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\u3002\u5b83\u6ca1\u6709\u663e\u793a\u70e7\u94b1\u52a0\u901f\uff0c\u4e5f\u6ca1\u6709\u65b0\u7684\u878d\u8d44\u538b\u529b\u3002\n",
       "emailed": false
-    },
-    {
-      "id": 4653,
-      "ts": 1790982854,
-      "ts_str": "2026-10-02 23:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI IPO Date: Investor Timeline, Valuation and Expectations - SmartAsset",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 02 Oct 2026 22:52:30 GMT\nLink:      https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUZMX0tXaVBQLTZhYVhQSGhWYndyQUo3TVBpMm9fU21lQWRzOFpBcHZubmxQeEJEMW0xcUUweEhxaDVwUHdwc1ItWVZxV3FlRHIzRVhlWXRDbGo1akJlb0p4SHJYVFJtUVRzNlJhek44eHRlaGtsVW55eUZRREZILV9TMFJOWUFCZlh5WjNBNTVWOXhKMWlyag?oc=5\n\nOpenAI IPO Date: Investor Timeline, Valuation and Expectations - SmartAsset\n\n<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUZMX0tXaVBQLTZhYVhQSGhWYndyQUo3TVBpMm9fU21lQWRzOFpBcHZubmxQeEJEMW0xcUUweEhxaDVwUHdwc1ItWVZxV3FlRHIzRVhlWXRDbGo1akJlb0p4SHJYVFJtUVRzNlJhek44eHRlaGtsVW55eUZRREZILV9TMFJOWUFCZlh5WjNBNTVWOXhKMWlyag?oc=5\" target=\"_blank\">OpenAI IPO Date: Investor Timeline, Valuation and Expectations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SmartAsset</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item titled \"OpenAI IPO Date: Investor Timeline, Valuation and Expectations\" matched the C3 OpenAI keyword filter. It is an explainer piece on IPO timing and valuation, not a filing or a confirmed IPO announcement.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u9898\u4e3a\u300aOpenAI IPO Date: Investor Timeline, Valuation and Expectations\u300b\u7684\u65b0\u95fb\u547d\u4e2d\u4e86 C3 \u7684 OpenAI \u5173\u952e\u8bcd\u8fc7\u6ee4\u3002\u8fd9\u662f\u4e00\u7bc7\u4ecb\u7ecd IPO \u65f6\u95f4\u8868\u548c\u4f30\u503c\u7684\u79d1\u666e\u6587\u7ae0\uff0c\u4e0d\u662f filing\uff0c\u4e5f\u4e0d\u662f\u6b63\u5f0f\u7684 IPO \u516c\u544a\u3002\n\nWhy it matters:\nThe piece only speculates about an IPO and gives no new burn-rate, funding or filing data, so it is background noise for the bubble-stress thesis. It would matter only if an actual S-1 or a dated listing plan followed, since that would expose OpenAI's audited losses and capex commitments to public markets.\n\n\u5f71\u54cd:\n\u6587\u7ae0\u53ea\u662f\u5bf9 IPO \u7684\u731c\u6d4b\uff0c\u6ca1\u6709\u7ed9\u51fa\u65b0\u7684\u70e7\u94b1\u901f\u5ea6\u3001\u878d\u8d44\u6216 filing \u6570\u636e\uff0c\u5bf9\u6ce1\u6cab\u538b\u529b\u5224\u65ad\u6765\u8bf4\u53ea\u662f\u80cc\u666f\u566a\u97f3\u3002\u53ea\u6709\u540e\u7eed\u51fa\u73b0\u771f\u6b63\u7684 S-1 \u6216\u6709\u660e\u786e\u65e5\u671f\u7684\u4e0a\u5e02\u8ba1\u5212\u624d\u6709\u610f\u4e49\uff0c\u56e0\u4e3a\u90a3\u4f1a\u628a OpenAI \u7ecf\u5ba1\u8ba1\u7684\u4e8f\u635f\u548c capex \u627f\u8bfa\u516c\u5f00\u7ed9\u5e02\u573a\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
@@ -2373,45 +2378,40 @@
       "drawdown": -0.04079688221084021
     },
     "spx": null,
-    "regime": "A",
-    "fuses": [],
+    "regime": "B",
+    "fuses": [
+      "C2"
+    ],
     "rungs": [
       {
-        "thresh": 0.0,
+        "thresh": -0.3,
         "pct": 10,
-        "label": "starter \u00b7 FOMO insurance",
-        "level": 31224.69,
-        "triggered": true
-      },
-      {
-        "thresh": -0.1,
-        "pct": 10,
-        "label": "dip 1",
-        "level": 28102.220999999998,
+        "label": "knife 1 \u00b7 fuse active",
+        "level": 21857.283,
         "triggered": false
       },
       {
-        "thresh": -0.15,
-        "pct": 15,
-        "label": "dip 2",
-        "level": 26540.9865,
+        "thresh": -0.4,
+        "pct": 10,
+        "label": "knife 2",
+        "level": 18734.814,
         "triggered": false
       },
       {
-        "thresh": -0.2,
-        "pct": 25,
-        "label": "dip 3",
-        "level": 24979.752,
+        "thresh": -0.5,
+        "pct": 20,
+        "label": "backup-the-truck \u00b7 needs stabilisation",
+        "level": 15612.345,
         "triggered": false
       }
     ],
-    "cumulative_target": 10,
-    "reserve": 40,
+    "cumulative_target": 0,
+    "reserve": 0,
     "next_rung": {
-      "thresh": -0.1,
+      "thresh": -0.3,
       "pct": 10,
-      "label": "dip 1",
-      "level": 28102.220999999998
+      "label": "knife 1 \u00b7 fuse active",
+      "level": 21857.283
     },
     "needs_stabilisation": false
   }
