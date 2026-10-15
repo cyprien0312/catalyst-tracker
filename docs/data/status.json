@@ -1,17 +1,17 @@
 {
-  "generated_at": 1792050606,
-  "generated_at_str": "2026-10-15 07:50:06 UTC",
-  "last_event_ts": 1792050423,
+  "generated_at": 1792051057,
+  "generated_at_str": "2026-10-15 07:57:37 UTC",
+  "last_event_ts": 1792050782,
   "tables": {
     "alerts_dedup": {
-      "count": 4846,
-      "last_ts": 1792048095,
-      "last_str": "2026-10-15 07:08:15 UTC"
+      "count": 4847,
+      "last_ts": 1792050782,
+      "last_str": "2026-10-15 07:53:02 UTC"
     },
     "buyplan_regime": {
       "count": 2,
-      "last_ts": 1785963184,
-      "last_str": "2026-08-05 20:53:04 UTC"
+      "last_ts": 1792050782,
+      "last_str": "2026-10-15 07:53:02 UTC"
     },
     "c10_signals": {
       "count": 104,
@@ -322,6 +322,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4854,
+      "ts": 1792050782,
+      "ts_str": "2026-10-15 07:53 UTC",
+      "catalyst": "BUYPLAN",
+      "severity": "CRITICAL",
+      "subject": "[BUYPLAN] regime A \u2192 B (lit: C2): fuse lit \u2014 FREEZE the fast ladder, hold the reserve",
+      "body": "Buy-plan regime flipped A \u2192 B (lit: C2).\nfuse lit \u2014 FREEZE the fast ladder, hold the reserve.\n\n\u2605 BUY PLAN \u2014 NDX trigger \u00b7 portfolio ladder\nNDX 29,951 \u00b7 ATH 31,225 (2026-10-06) \u00b7 drawdown -4.1%  [2026-10-14]\nSPX 7,719 \u00b7 drawdown -1.3% (ref \u2014 IVV/BGBL core draws down shallower than NDX)\nRegime B \u00b7 \u6ce1\u6cab\u7834\u88c2\uff08\u5f15\u4fe1\u4eae\uff09\u00b7 buy patience \u2014 lit: C2\nCumulative target now: 0% deployed\n\n  \u2b1c  -30%  knife 1 \u00b7 fuse active               10%  @ NDX 21,857  \u2190 next\n  \u2b1c  -40%  knife 2                             10%  @ NDX 18,735\n  \u2b1c  -50%  backup-the-truck \u00b7 needs stabilisation  20%  @ NDX 15,612\n\n  \u26a0 Regime B: fast ladder FROZEN. Deep rung needs stabilisation \u2014\n    C7 stops widening / starts tightening, OR 4-6wk no new 20d-low.",
+      "emailed": true
+    },
     {
       "id": 4853,
       "ts": 1792048095,
@@ -2310,16 +2320,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options - SmartAsset",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 03 Oct 2026 10:29:47 GMT\nLink:      https://news.google.com/rss/articles/CBMiXkFVX3lxTE15OEdhUlNaM0Z5cjB2VFdVbU5kYlU1VXNKcGF6YXpBbVZvTEhSTnFNbWo1LUZPdkxmbG1FcGJSRTI0bkgwTWxLNERtVFQ2S1lvaXpqaC03RWVoa1FJN1E?oc=5\n\nOpenAI Stock IPO: Expected Valuation, Timeline and Investment Options - SmartAsset\n\n<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE15OEdhUlNaM0Z5cjB2VFdVbU5kYlU1VXNKcGF6YXpBbVZvTEhSTnFNbWo1LUZPdkxmbG1FcGJSRTI0bkgwTWxLNERtVFQ2S1lvaXpqaC03RWVoa1FJN1E?oc=5\" target=\"_blank\">OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SmartAsset</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA generic explainer headline, \"OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options\", matched C3's IPO keyword. It reports no filing, date, valuation figure or burn-rate number.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u6cdb\u6cdb\u7684\u79d1\u666e\u6587\u7ae0\uff0c\u6807\u9898\u662f\u300cOpenAI Stock IPO: Expected Valuation, Timeline and Investment Options\u300d\uff0c\u89e6\u53d1\u4e86 C3 \u7684 IPO \u5173\u952e\u8bcd\u3002\u6587\u4e2d\u6ca1\u6709\u4efb\u4f55 filing\u3001\u65e5\u671f\u3001\u4f30\u503c\u6570\u5b57\u6216\u70e7\u94b1\u901f\u5ea6\u6570\u636e\u3002\n\nWhy it matters:\nLow signal. Retail-facing IPO speculation pieces like this show up daily, and this one has no new disclosure behind it. The C3 events that matter are an actual S-1, a down-round or a burn-rate jump of more than 25% QoQ. Treat this as background noise, not stress evidence.\n\n\u5f71\u54cd:\n\u4fe1\u53f7\u5f88\u5f31\u3002\u8fd9\u7c7b\u9762\u5411\u6563\u6237\u7684 IPO \u731c\u6d4b\u6587\u7ae0\u6bcf\u5929\u90fd\u6709\uff0c\u8fd9\u7bc7\u80cc\u540e\u4e5f\u6ca1\u6709\u65b0\u7684\u62ab\u9732\u3002C3 \u771f\u6b63\u8981\u770b\u7684\u662f\u6b63\u5f0f S-1\u3001\u964d\u4ef7\u878d\u8d44\u6216 burn rate \u73af\u6bd4\u6da8\u8d85\u8fc7 25%\u3002\u8fd9\u6761\u5f53\u80cc\u666f\u566a\u97f3\u770b\uff0c\u4e0d\u7b97\u538b\u529b\u8bc1\u636e\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4654,
-      "ts": 1791004456,
-      "ts_str": "2026-10-03 05:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] AI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228 - AI: Reset to Zero",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 03 Oct 2026 05:02:37 GMT\nLink:      https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5\n\nAI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228 - AI: Reset to Zero\n\n<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5\" target=\"_blank\">AI: Anthropic\u2019s IPO Go Time, OpenAI\u2019s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AI: Reset to Zero</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA newsletter roundup (AI-RTZ #1228) mentioned OpenAI's '$1.4 Trillion', alongside an Anthropic IPO item and Gemini 4. This is a headline digest, not a filing, and it contains no new metric.\n\n\u5185\u5bb9:\n\u4e00\u4efd newsletter \u6c47\u603b\uff08AI-RTZ #1228\uff09\u63d0\u5230\u4e86 OpenAI \u7684\u300c$1.4 Trillion\u300d\uff0c\u540c\u671f\u8fd8\u6709 Anthropic IPO \u548c Gemini 4 \u7684\u6761\u76ee\u3002\u8fd9\u662f\u6807\u9898\u6c47\u603b\uff0c\u4e0d\u662f filing\uff0c\u4e5f\u6ca1\u6709\u65b0\u7684\u6307\u6807\u3002\n\nWhy it matters:\n$1.4T is the widely reported size of OpenAI's multi-year compute and infrastructure commitments. That figure is far larger than its revenue, and that funding gap is the core of the C3 stress thesis. The item only restates a known number, so it is background noise. It does not show rising burn or new funding stress.\n\n\u5f71\u54cd:\n$1.4T \u662f\u5916\u754c\u5e7f\u6cdb\u62a5\u9053\u7684 OpenAI \u591a\u5e74\u671f\u7b97\u529b\u4e0e\u57fa\u7840\u8bbe\u65bd\u627f\u8bfa\u603b\u989d\u3002\u8fd9\u4e2a\u6570\u8fdc\u8d85\u5b83\u7684\u6536\u5165\uff0c\u8fd9\u4e2a\u8d44\u91d1\u7f3a\u53e3\u6b63\u662f C3 \u538b\u529b\u903b\u8f91\u7684\u6838\u5fc3\u3002\u8fd9\u6761\u53ea\u662f\u91cd\u590d\u5df2\u77e5\u6570\u5b57\uff0c\u5c5e\u4e8e\u80cc\u666f\u566a\u97f3\u3002\u5b83\u6ca1\u6709\u663e\u793a\u70e7\u94b1\u52a0\u901f\uff0c\u4e5f\u6ca1\u6709\u65b0\u7684\u878d\u8d44\u538b\u529b\u3002\n",
       "emailed": false
     }
   ],
