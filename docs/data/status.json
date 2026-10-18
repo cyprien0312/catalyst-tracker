@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792292523,
-  "generated_at_str": "2026-10-18 03:02:03 UTC",
-  "last_event_ts": 1792291623,
+  "generated_at": 1792292720,
+  "generated_at_str": "2026-10-18 03:05:20 UTC",
+  "last_event_ts": 1792292719,
   "tables": {
     "alerts_dedup": {
-      "count": 4888,
-      "last_ts": 1792269859,
-      "last_str": "2026-10-17 20:44:19 UTC"
+      "count": 4890,
+      "last_ts": 1792292719,
+      "last_str": "2026-10-18 03:05:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,14 +84,14 @@
       "last_str": "2026-10-17 12:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7711,
-      "last_ts": 1792290902,
-      "last_str": "2026-10-18 02:35:02 UTC"
+      "count": 7713,
+      "last_ts": 1792292702,
+      "last_str": "2026-10-18 03:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9222,
-      "last_ts": 1792290905,
-      "last_str": "2026-10-18 02:35:05 UTC"
+      "count": 9223,
+      "last_ts": 1792292704,
+      "last_str": "2026-10-18 03:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5277,
@@ -322,6 +322,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4896,
+      "ts": 1792292719,
+      "ts_str": "2026-10-18 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 18 Oct 2026 02:36:20 GMT\nLink:      https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5\n\nDDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/\n\n<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5\" target=\"_blank\">DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">https://tech-insider.org/</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports DDR5 RAM hitting $450 for a 32GB kit, blamed on an AI-driven memory shortage.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u6807\u9898\u79f0\uff0c32GB DDR5 \u5185\u5b58\u6da8\u5230 $450\uff0c\u539f\u56e0\u662f AI \u5e26\u6765\u7684\u5185\u5b58\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI demand is soaking up DRAM wafer capacity, as HBM and server DDR5 get priority, and the squeeze is now reaching consumer prices. This is a stress signal on the shortage side, not oversupply: it shows AI capex still pulling hard on memory supply. It also raises the input costs for anyone building AI servers.\n\n\u5f71\u54cd:\nAI \u9700\u6c42\u5728\u62a2 DRAM \u6676\u5706\u4ea7\u80fd\uff0cHBM \u548c\u670d\u52a1\u5668 DDR5 \u4f18\u5148\uff0c\u6324\u538b\u5df2\u7ecf\u4f20\u5230\u6d88\u8d39\u7aef\u4ef7\u683c\u3002\u8fd9\u662f\u77ed\u7f3a\u65b9\u5411\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\uff1aAI capex \u4ecd\u5728\u5f3a\u529b\u62c9\u52a8\u5185\u5b58\u4f9b\u7ed9\uff0c\u540c\u65f6\u4e5f\u63a8\u9ad8\u4e86\u6240\u6709 AI \u670d\u52a1\u5668\u7684\u786c\u4ef6\u6210\u672c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 4897,
+      "ts": 1792292719,
+      "ts_str": "2026-10-18 03:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 18 Oct 2026 02:36:20 GMT\nLink:      https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5\n\nDDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026] - https://tech-insider.org/\n\n<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBSa1AzYWRpbUJmZm1ITTZuT3h1Z25fN091MkpZc0FydmZiOEhZY1NkU3dnRTdFd0pXTWNneThuTkFidnM0Zms0Qm45WmMzQjFNUXI3RU9iSXVUcDE5UmhqZC1ZTXdwVjh4bU1UaVNB?oc=5\" target=\"_blank\">DDR5 RAM Hits $450 for 32GB as AI Shortage Bites [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">https://tech-insider.org/</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA tech-insider.org headline reports DDR5 RAM hitting $450 for a 32GB kit, blamed on an AI-driven memory shortage.\n\n\u5185\u5bb9:\ntech-insider.org \u7684\u6807\u9898\u79f0\uff0c32GB DDR5 \u5185\u5b58\u6da8\u5230 $450\uff0c\u539f\u56e0\u662f AI \u5e26\u6765\u7684\u5185\u5b58\u77ed\u7f3a\u3002\n\nWhy it matters:\nAI demand is soaking up DRAM wafer capacity, as HBM and server DDR5 get priority, and the squeeze is now reaching consumer prices. This is a stress signal on the shortage side, not oversupply: it shows AI capex still pulling hard on memory supply. It also raises the input costs for anyone building AI servers.\n\n\u5f71\u54cd:\nAI \u9700\u6c42\u5728\u62a2 DRAM \u6676\u5706\u4ea7\u80fd\uff0cHBM \u548c\u670d\u52a1\u5668 DDR5 \u4f18\u5148\uff0c\u6324\u538b\u5df2\u7ecf\u4f20\u5230\u6d88\u8d39\u7aef\u4ef7\u683c\u3002\u8fd9\u662f\u77ed\u7f3a\u65b9\u5411\u7684\u538b\u529b\u4fe1\u53f7\uff0c\u4e0d\u662f\u4f9b\u8fc7\u4e8e\u6c42\uff1aAI capex \u4ecd\u5728\u5f3a\u529b\u62c9\u52a8\u5185\u5b58\u4f9b\u7ed9\uff0c\u540c\u65f6\u4e5f\u63a8\u9ad8\u4e86\u6240\u6709 AI \u670d\u52a1\u5668\u7684\u786c\u4ef6\u6210\u672c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4895,
       "ts": 1792269859,
@@ -2301,26 +2321,6 @@
       "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.95% \u2265 2.50%",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-10-05\nCurrent:  2.95%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year US real (TIPS) yield printed 2.95% on 2026-10-05, above C10's 2.5% stress level and up from 2.92% on 2026-10-02.\n\n\u5185\u5bb9:\n\u7f8e\u56fd 10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS \u6536\u76ca\u7387\uff092026-10-05 \u62a5 2.95%\uff0c\u9ad8\u4e8e C10 \u8bbe\u5b9a\u7684 2.5% \u538b\u529b\u7ebf\uff0c\u8f83 2026-10-02 \u7684 2.92% \u7ee7\u7eed\u4e0a\u884c\u3002\n\nWhy it matters:\nA near-3% real yield raises the discount rate on long-duration AI cash flows that are still years away, which compresses the valuations that support the capex story. It also makes debt-funded data-center buildouts more expensive to finance. Sustained real-rate pressure is the macro squeeze that has historically ended speculative capex cycles.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u5229\u7387\u903c\u8fd1 3%\uff0c\u7b49\u4e8e\u62ac\u9ad8\u4e86\u5bf9 AI \u8fdc\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u7387\u3002\u8fd9\u4e9b\u6536\u5165\u5927\u591a\u8fd8\u8981\u597d\u51e0\u5e74\u624d\u5151\u73b0\uff0c\u652f\u6491 capex \u53d9\u4e8b\u7684\u4f30\u503c\u4f1a\u88ab\u538b\u7f29\u3002\u9760\u4e3e\u503a\u5efa\u6570\u636e\u4e2d\u5fc3\u7684\u878d\u8d44\u6210\u672c\u4e5f\u8ddf\u7740\u4e0a\u5347\u3002\u5b9e\u9645\u5229\u7387\u6301\u7eed\u8d70\u9ad8\uff0c\u5386\u53f2\u4e0a\u5c31\u662f\u7ec8\u7ed3\u6295\u673a\u6027\u8d44\u672c\u5f00\u652f\u5468\u671f\u7684\u5b8f\u89c2\u6324\u538b\u3002\n",
       "emailed": true
-    },
-    {
-      "id": 4697,
-      "ts": 1791322166,
-      "ts_str": "2026-10-06 21:29 UTC",
-      "catalyst": "C10",
-      "severity": "HIGH",
-      "subject": "[C10-HIGH] 10y Real Yield rising: 2.95% (+89bp off 90d-low)",
-      "body": "Series:   REAL10 (DFII10)\nDate:     2026-10-05\nCurrent:  2.95%\n90d low:  2.06%\nMove:     +89bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year US real (TIPS) yield rose to 2.95% on 2026-10-05, up 0.89 pp from its trailing-90-day low of 2.06%.\n\n\u5185\u5bb9:\n\u7f8e\u56fd 10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5728 2026-10-05 \u5347\u81f3 2.95%\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 2.06% \u9ad8\u51fa 0.89 \u4e2a\u767e\u5206\u70b9\u3002\n\nWhy it matters:\nHigher real yields raise the discount rate on long-dated AI-capex payoffs and make funding more expensive, which hits the most speculative, cash-burning names and the debt-funded build-out hardest. A near-90bp move in three months tightens liquidity, and that has historically come before de-rating of long-duration growth equities. (FRED DFII10 read 2.92% on 2026-10-02, so the move is still holding: https://fred.stlouisfed.org/series/DFII10)\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u8d70\u9ad8\u4f1a\u63a8\u9ad8\u8d34\u73b0\u7387\uff0cAI capex \u7684\u8fdc\u671f\u56de\u62a5\u56e0\u6b64\u66f4\u4e0d\u503c\u94b1\uff0c\u878d\u8d44\u6210\u672c\u4e5f\u8ddf\u7740\u4e0a\u5347\u3002\u53d7\u4f24\u6700\u91cd\u7684\u662f\u70e7\u94b1\u6700\u5feb\u3001\u4f30\u503c\u6700\u6295\u673a\u7684\u516c\u53f8\uff0c\u4ee5\u53ca\u9760\u4e3e\u503a\u6269\u5efa\u7684\u90a3\u90e8\u5206\u4ea7\u80fd\u3002\u4e09\u4e2a\u6708\u5185\u4e0a\u884c\u8fd1 90bp \u610f\u5473\u7740\u6d41\u52a8\u6027\u5728\u6536\u7d27\uff0c\u8fc7\u53bb\u8fd9\u79cd\u6536\u7d27\u5f80\u5f80\u53d1\u751f\u5728\u957f\u4e45\u671f\u6210\u957f\u80a1\u6740\u4f30\u503c\u4e4b\u524d\u3002FRED DFII10 \u5728 2026-10-02 \u662f 2.92%\uff0c\u8bf4\u660e\u8fd9\u8f6e\u4e0a\u884c\u6ca1\u6709\u56de\u843d\uff1ahttps://fred.stlouisfed.org/series/DFII10\n",
-      "emailed": true
-    },
-    {
-      "id": 4696,
-      "ts": 1791316023,
-      "ts_str": "2026-10-06 19:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Stock Rises Again. Goldman Sachs Hikes Price Target on AI Surge - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 06 Oct 2026 18:26:36 GMT\nLink:      https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUF6bDFBMGxDWnMyUVpkaUNMRkFHOGVPWVlnNDgxS1NnLXFmTjR0dC03VGx1Q0dwSmViSF90ZW95ZkszTElReDB6NEFhOUJWRFpkTDctWVdqeHNyQXRGUFRVdnhhdkZzRUxXZUcyMktjeU1LcFpXT3htcTg0VEYycE1aOFkyZFZBeVE1SmVyck5GR1E4MWNsYTBoUm9rc3M4RUZRcU9fLW1IYzFhZVdNc3J4N1VvTFNCM09JUlhqT3ZBbG1uS2dUUQ?oc=5\n\nSpaceX Stock Rises Again. Goldman Sachs Hikes Price Target on AI Surge - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNUF6bDFBMGxDWnMyUVpkaUNMRkFHOGVPWVlnNDgxS1NnLXFmTjR0dC03VGx1Q0dwSmViSF90ZW95ZkszTElReDB6NEFhOUJWRFpkTDctWVdqeHNyQXRGUFRVdnhhdkZzRUxXZUcyMktjeU1LcFpXT3htcTg0VEYycE1aOFkyZFZBeVE1SmVyck5GR1E4MWNsYTBoUm9rc3M4RUZRcU9fLW1IYzFhZVdNc3J4N1VvTFNCM09JUlhqT3ZBbG1uS2dUUQ?oc=5\" target=\"_blank\">SpaceX Stock Rises Again. Goldman Sachs Hikes Price Target on AI Surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadline: SpaceX stock rose again after Goldman Sachs raised its price target, citing an AI surge. No target number or percentage was given in the snippet. It was tagged as an index-flow item.\n\n\u5185\u5bb9:\n\u6807\u9898\uff1aGoldman Sachs \u4ee5 AI \u70ed\u6f6e\u4e3a\u7531\u4e0a\u8c03 SpaceX \u76ee\u6807\u4ef7\uff0cSpaceX \u80a1\u4ef7\u518d\u6b21\u4e0a\u6da8\u3002\u6458\u8981\u91cc\u6ca1\u7ed9\u5177\u4f53\u76ee\u6807\u4ef7\u6216\u6da8\u5e45\u3002\u8fd9\u6761\u88ab\u5f52\u4e3a\u6307\u6570\u8d44\u91d1\u6d41\u7c7b\u65b0\u95fb\u3002\n\nWhy it matters:\nA sell-side target hike framed around AI pulls SpaceX into the AI-infrastructure trade. That adds momentum and passive-flow demand on top of a name that faces scheduled lock-up unlocks. Rising prices ahead of unlock tranches raise insiders' incentive to sell, so the eventual supply shock gets bigger.\n\n\u5f71\u54cd:\n\u5356\u65b9\u7528 AI \u53d9\u4e8b\u4e0a\u8c03\u76ee\u6807\u4ef7\uff0cSpaceX \u56e0\u6b64\u88ab\u62c9\u8fdb AI \u57fa\u5efa\u4ea4\u6613\u3002\u52a8\u91cf\u8d44\u91d1\u548c\u88ab\u52a8\u8d44\u91d1\u4f1a\u53e0\u52a0\u8fdb\u6765\uff0c\u800c\u8fd9\u53ea\u7968\u540e\u9762\u8fd8\u6392\u7740\u9501\u5b9a\u671f\u89e3\u7981\u3002\u89e3\u7981\u524d\u80a1\u4ef7\u8d8a\u6da8\uff0c\u5185\u90e8\u4eba\u8d8a\u60f3\u5356\uff0c\u5230\u65f6\u5019\u7684\u629b\u538b\u5c31\u8d8a\u5927\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
