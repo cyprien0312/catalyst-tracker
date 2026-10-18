@@ -10,6 +10,8 @@ Env:
   from a *verified domain*; the `onboarding@resend.dev` sandbox sender can only
   reach the Resend account owner's own address.
 - ALERT_TO        (required) — comma-separated list of recipients.
+- CATALYST_EMAIL_OFF (optional) — `1` = global kill switch: nothing is sent
+  (alerts, digest, news roll-up). Monitoring and alert persistence continue.
 """
 import os
 
@@ -21,6 +23,11 @@ RESEND_ENDPOINT = "https://api.resend.com/emails"
 DEFAULT_FROM = "Catalyst Tracker <onboarding@resend.dev>"
 
 
+def email_off() -> bool:
+    """Global kill switch: CATALYST_EMAIL_OFF=1 suppresses every outbound email."""
+    return os.environ.get("CATALYST_EMAIL_OFF", "").strip().lower() in {"1", "true", "yes", "on"}
+
+
 def recipients() -> list[str]:
     """Parse ALERT_TO into a list of trimmed, non-empty addresses."""
     raw = require_env("ALERT_TO")
@@ -30,7 +37,12 @@ def recipients() -> list[str]:
 def send_email(subject: str, *, text: str, html: str | None = None,
                headers: dict[str, str] | None = None,
                timeout: int = 30) -> None:
-    """Send an email through Resend. Raises on transport/API failure."""
+    """Send an email through Resend. Raises on transport/API failure.
+
+    No-op when the global kill switch (CATALYST_EMAIL_OFF) is on.
+    """
+    if email_off():
+        return
     api_key = require_env("RESEND_API_KEY")
     sender = os.environ.get("RESEND_FROM") or DEFAULT_FROM
 

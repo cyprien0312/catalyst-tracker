@@ -148,3 +148,19 @@ def test_send_alert_dedup_prevents_second_db_row(post, tmp_path, monkeypatch):
     with sqlite3.connect(tmp_path / "t.sqlite") as c:
         n = c.execute("SELECT COUNT(*) FROM alerts").fetchone()[0]
     assert n == 1
+
+
+@patch("lib.email_send.requests.post")
+def test_global_email_off_mutes_everything(post, tmp_path, monkeypatch):
+    for k, v in ENV.items():
+        monkeypatch.setenv(k, v)
+    monkeypatch.setenv("CATALYST_EMAIL_OFF", "1")
+    st = State("notify", db_path=tmp_path / "t.sqlite")
+    post.return_value = _ok_response()
+    assert send_alert("subj", "body", severity="CRITICAL", catalyst="c7", state=st) is False
+    from lib.email_send import send_email
+    send_email("digest", text="x")
+    assert not post.called
+    with st.connection() as c:
+        row = c.execute("SELECT emailed FROM alerts").fetchone()
+    assert row[0] == 0

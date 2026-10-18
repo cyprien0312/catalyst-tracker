@@ -16,6 +16,9 @@
   | `refresh_knowledge.sh` 08:45 · `send_daily_report.sh` 09:00 · **`send_news_report.sh` 09:10** · `check_rungs.sh` 每小时 :53 | 每天/每小时 |
 
   GitHub Actions 的定时是**故意关掉**的，生产跑本机 cron。
+- **🔇 邮件全关（2026-10-19，用户要求）**：`~/.catalyst.env` 里 `CATALYST_EMAIL_OFF=1`，
+  逐条告警、09:00 日报、09:10 news roll-up **一封都不发**；cron 照跑、告警照写 `alerts` 表（`emailed=0`）。
+  恢复：删掉那行或改成 0（备份 `~/.catalyst.env.bak-20261019`）。下面的「邮件量」是恢复后的策略。
 - **邮件量**：2026-08-04 起，逐条告警只在 CRITICAL（新闻类）/ HIGH（C10）/ 全部（保险丝 C7
   C2、硬数据 C4 C1、buyplan）时即时发；其余全部进 09:10 的 news roll-up。
   按真实 7 天历史回放：**68 封 → 5 封**。

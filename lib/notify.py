@@ -2,7 +2,7 @@ import hashlib
 import os
 import time
 
-from lib.email_send import send_email
+from lib.email_send import email_off, send_email
 from lib.state import State
 
 DEDUP_TTL_SECONDS = 7 * 86400
@@ -43,6 +43,8 @@ def _email_muted_for(catalyst: str | None, severity: str) -> bool:
     set, the alert emails iff its severity is at or above the floor. Otherwise
     the blanket CATALYST_EMAIL_DISABLE list mutes the catalyst entirely.
     """
+    if email_off():
+        return True
     floor = _min_severity_for(catalyst)
     if floor is not None:
         return _SEVERITY_ORDER.get(severity, 1) < _SEVERITY_ORDER[floor]
