@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792513923,
-  "generated_at_str": "2026-10-20 16:32:03 UTC",
-  "last_event_ts": 1792512844,
+  "generated_at": 1792514116,
+  "generated_at_str": "2026-10-20 16:35:16 UTC",
+  "last_event_ts": 1792514116,
   "tables": {
     "alerts_dedup": {
-      "count": 4982,
-      "last_ts": 1792510518,
-      "last_str": "2026-10-20 15:35:18 UTC"
+      "count": 4983,
+      "last_ts": 1792514116,
+      "last_str": "2026-10-20 16:35:16 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -89,19 +89,19 @@
       "last_str": "2026-10-20 16:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9412,
-      "last_ts": 1792512305,
-      "last_str": "2026-10-20 16:05:05 UTC"
+      "count": 9415,
+      "last_ts": 1792514103,
+      "last_str": "2026-10-20 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5355,
-      "last_ts": 1792512303,
-      "last_str": "2026-10-20 16:05:03 UTC"
+      "count": 5356,
+      "last_ts": 1792514103,
+      "last_str": "2026-10-20 16:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7241,
-      "last_ts": 1792512306,
-      "last_str": "2026-10-20 16:05:06 UTC"
+      "count": 7244,
+      "last_ts": 1792514104,
+      "last_str": "2026-10-20 16:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 42225,
@@ -322,6 +322,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 4990,
+      "ts": 1792514116,
+      "ts_str": "2026-10-20 16:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] China's CXMT swings to profit as AI demand fuels memory chip price surge - Business Standard",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 16:26:37 GMT\nLink:      https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlhxSlB3VmpJVXZyRmh3SUx4MnlwTk91eE9YOEJsNWoxaUY3TW1ZVzdOcC1sZmZDOWtwVVJmaG4zTWdEbXBoY2s1cF9YT1VneVpHZHhoM3JvREZGYW12a2ZOT3BUMVZBeWdJSEwtSlJ6TFpTcDBWMFRnWXZaRzVCTzN1SURyV2xpRnhQcFAzdzVQUms0dThHb0JfUUR1RkxTMGhVaGgxTE1MMHhwTlZ4UG1mR2lEQ1FBQnc4ZlgtRkVIaUNvMkRMOGZmbHpZWjFjREIw0gHYAUFVX3lxTE5aYWI0ZGY3Q2VWdFo3SDk0V0dzam43OWtFelIxeXpOXzNBV1dvcmFVVUk1ZFFfZzlDX2VvRjNuMzlhUUN2R1VxdGJlbVZlTDNxcTZaWkl6Z1VKcG9tamxnT1FzUkgzYWVlSXFSaHd0TnMyUzI2Tms1Uml3M0ZyUlNJR2tIQUF4RmtlYmNVcWNoWk5tUUFYMnEtSXZWZGNlblFvT3Z0YkZXemtRNUdIVnNRa09pREJLdU1qVnphcUNHRV9GVmM2QUxtZmZENVV4ZlVVYzVVVG9YVw?oc=5\n\nChina's CXMT swings to profit as AI demand fuels memory chip price surge - Business Standard\n\n<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlhxSlB3VmpJVXZyRmh3SUx4MnlwTk91eE9YOEJsNWoxaUY3TW1ZVzdOcC1sZmZDOWtwVVJmaG4zTWdEbXBoY2s1cF9YT1VneVpHZHhoM3JvREZGYW12a2ZOT3BUMVZBeWdJSEwtSlJ6TFpTcDBWMFRnWXZaRzVCTzN1SURyV2xpRnhQcFAzdzVQUms0dThHb0JfUUR1RkxTMGhVaGgxTE1MMHhwTlZ4UG1mR2lEQ1FBQnc4ZlgtRkVIaUNvMkRMOGZmbHpZWjFjREIw0gHYAUFVX3lxTE5aYWI0ZGY3Q2VWdFo3SDk0V0dzam43OWtFelIxeXpOXzNBV1dvcmFVVUk1ZFFfZzlDX2VvRjNuMzlhUUN2R1VxdGJlbVZlTDNxcTZaWkl6Z1VKcG9tamxnT1FzUkgzYWVlSXFSaHd0TnMyUzI2Tms1Uml3M0ZyUlNJR2tIQUF4RmtlYmNVcWNoWk5tUUFYMnEtSXZWZGNlblFvT3Z0YkZXemtRNUdIVnNRa09pREJLdU1qVnphcUNHRV9GVmM2QUxtZmZENVV4ZlVVYzVVVG9YVw?oc=5\" target=\"_blank\">China's CXMT swings to profit as AI demand fuels memory chip price surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nChina's CXMT swung to a profit as AI demand pushed memory-chip prices sharply higher.\n\n\u5185\u5bb9:\n\u4e2d\u56fd\u5b58\u50a8\u82af\u7247\u5382\u5546 CXMT \u626d\u4e8f\u4e3a\u76c8\uff0c\u539f\u56e0\u662f AI \u9700\u6c42\u63a8\u9ad8\u4e86\u5185\u5b58\u82af\u7247\u4ef7\u683c\u3002\n\nWhy it matters:\nA memory price surge means supply is tight and AI demand is still absorbing capacity, so this is a demand-strength signal, not a bust signal. The stress angle is cost: higher DRAM/HBM prices raise the hardware bill on hyperscaler capex, and shortage-driven pricing in memory has historically ended in overbuild and a sharp reversal.\n\n\u5f71\u54cd:\n\u5185\u5b58\u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0cAI \u9700\u6c42\u4ecd\u5728\u6d88\u5316\u4ea7\u80fd\u3002\u8fd9\u662f\u9700\u6c42\u5f3a\u52b2\u7684\u4fe1\u53f7\uff0c\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\u3002\u538b\u529b\u5728\u6210\u672c\u7aef\uff1aDRAM/HBM \u6da8\u4ef7\u4f1a\u62ac\u9ad8\u8d85\u5927\u89c4\u6a21\u5382\u5546 capex \u91cc\u7684\u786c\u4ef6\u5f00\u652f\u3002\u800c\u4e14\u4ece\u5386\u53f2\u770b\uff0c\u5185\u5b58\u884c\u4e1a\u9760\u77ed\u7f3a\u6491\u8d77\u6765\u7684\u6da8\u4ef7\uff0c\u5f80\u5f80\u4ee5\u6269\u4ea7\u8fc7\u5ea6\u548c\u4ef7\u683c\u6025\u8dcc\u6536\u573a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 4989,
       "ts": 1792510518,
@@ -2310,16 +2320,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Stock Price Target Raised To $230 as Pivotal Research Cites Starlink Growth - CoinGape",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 15:27:47 GMT\nLink:      https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDJJQXc1X0JVY3Z1cnNEblpvWkFjZUxwR2lUMDMwcE4tamFCQ3ZhZ09qWkc4Wm5fX2ZkYmozcDczYnJTQWdOREc5bG5Cb09kVnZrZEdEWjBsSGlITHoyUHZqWlVfMmZmd20zMGlVYXN3NGxfcVUwNzNoYWd3NURHS1hUVlNzaHRGUWlrWGVDc1F4RHg4MERzc25hblA4ZGtRTkFBQmJ4ck41TUUyeEtKalBjaTZ1UQ?oc=5\n\nSpaceX Stock Price Target Raised To $230 as Pivotal Research Cites Starlink Growth - CoinGape\n\n<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDJJQXc1X0JVY3Z1cnNEblpvWkFjZUxwR2lUMDMwcE4tamFCQ3ZhZ09qWkc4Wm5fX2ZkYmozcDczYnJTQWdOREc5bG5Cb09kVnZrZEdEWjBsSGlITHoyUHZqWlVfMmZmd20zMGlVYXN3NGxfcVUwNzNoYWd3NURHS1hUVlNzaHRGUWlrWGVDc1F4RHg4MERzc25hblA4ZGtRTkFBQmJ4ck41TUUyeEtKalBjaTZ1UQ?oc=5\" target=\"_blank\">SpaceX Stock Price Target Raised To $230 as Pivotal Research Cites Starlink Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoinGape</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPivotal Research raised its SpaceX price target to $230, citing Starlink subscriber and revenue growth. This is a sell-side target change, not an index inclusion or passive-flow event.\n\n\u5185\u5bb9:\nPivotal Research \u628a SpaceX \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u5230 $230\uff0c\u7406\u7531\u662f Starlink \u7684\u7528\u6237\u548c\u6536\u5165\u589e\u957f\u3002\u8fd9\u662f\u5356\u65b9\u5206\u6790\u5e08\u8c03\u76ee\u6807\u4ef7\uff0c\u4e0d\u662f\u6307\u6570\u7eb3\u5165\uff0c\u4e5f\u4e0d\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u5165\u3002\n\nWhy it matters:\nAnalyst upgrades tighten the narrative support under SpaceX's valuation ahead of lock-up tranches. Higher targets can delay selling by insiders and early holders, but they don't add mechanical index demand. The C11 stress test still depends on whether real passive buying can absorb unlock supply.\n\n\u5f71\u54cd:\n\u89e3\u7981\u6279\u6b21\u4e34\u8fd1\u65f6\uff0c\u5206\u6790\u5e08\u4e0a\u8c03\u76ee\u6807\u4ef7\u4f1a\u8ba9 SpaceX \u4f30\u503c\u7684\u53d9\u4e8b\u652f\u6491\u66f4\u7d27\u3002\u76ee\u6807\u4ef7\u4e0a\u8c03\u53ef\u80fd\u8ba9\u5185\u90e8\u4eba\u548c\u65e9\u671f\u80a1\u4e1c\u665a\u70b9\u5356\uff0c\u4f46\u4e0d\u4f1a\u5e26\u6765\u6307\u6570\u88ab\u52a8\u4e70\u76d8\u90a3\u79cd\u673a\u68b0\u9700\u6c42\u3002C11 \u771f\u6b63\u8981\u770b\u7684\u4ecd\u662f\uff1a\u89e3\u7981\u653e\u51fa\u6765\u7684\u7b79\u7801\uff0c\u88ab\u52a8\u8d44\u91d1\u63a5\u4e0d\u63a5\u5f97\u4f4f\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4791,
-      "ts": 1791820047,
-      "ts_str": "2026-10-12 15:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX price target raised as Starlink takes aim at U.S. telecom giants - Finbold",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 12 Oct 2026 15:00:25 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxQQXpxa28wR2JNRnBlM2RaYXNrUFR5NnhzSS1JNVdDaFdvaDZpNTZJVmx2QXVQUldzZENIVkVoN21SSDNBNXZncXBOdlZOWldDMzJTVTd6Z2J0SGdXY1p5ZjNGNEx6MHdkTFJYeDVwRnZLbnZqZl9jRmsyS3hReXBYRFRSVEJuQmNScnhLTS1zbjlPZkFSQXc?oc=5\n\nSpaceX price target raised as Starlink takes aim at U.S. telecom giants - Finbold\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQQXpxa28wR2JNRnBlM2RaYXNrUFR5NnhzSS1JNVdDaFdvaDZpNTZJVmx2QXVQUldzZENIVkVoN21SSDNBNXZncXBOdlZOWldDMzJTVTd6Z2J0SGdXY1p5ZjNGNEx6MHdkTFJYeDVwRnZLbnZqZl9jRmsyS3hReXBYRFRSVEJuQmNScnhLTS1zbjlPZkFSQXc?oc=5\" target=\"_blank\">SpaceX price target raised as Starlink takes aim at U.S. telecom giants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Finbold</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that an analyst raised SpaceX's price target, framed around Starlink competing with U.S. telecom carriers. The headline appeared twice, and it cites no target figure, no index-inclusion event and no fund-flow number.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\u6709\u5206\u6790\u5e08\u4e0a\u8c03\u4e86 SpaceX \u7684\u76ee\u6807\u4ef7\uff0c\u7406\u7531\u662f Starlink \u5f00\u59cb\u548c\u7f8e\u56fd\u7535\u4fe1\u5de8\u5934\u7ade\u4e89\u3002\u540c\u4e00\u6807\u9898\u91cd\u590d\u51fa\u73b0\u4e86\u4e24\u6b21\uff0c\u6587\u4e2d\u6ca1\u6709\u7ed9\u51fa\u76ee\u6807\u4ef7\u6570\u5b57\uff0c\u4e5f\u6ca1\u6709\u63d0\u5230\u7eb3\u5165\u6307\u6570\u6216\u8d44\u91d1\u6d41\u5165\u7684\u6570\u636e\u3002\n\nWhy it matters:\nThis is sell-side sentiment, not a passive-flow or lock-up event, so it does not move the C11 unlock and index-mechanics thesis by itself. Rising targets ahead of unlock tranches do raise the stakes: a richer valuation leaves more room for the price to drop when insiders get liquidity and passive funds have to rebalance.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5356\u65b9\u60c5\u7eea\uff0c\u4e0d\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u6216\u89e3\u7981\u4e8b\u4ef6\uff0c\u5355\u770b\u8fd9\u4e00\u6761\uff0cC11 \u7684\u89e3\u7981\u548c\u6307\u6570\u673a\u5236\u903b\u8f91\u4e0d\u53d7\u5f71\u54cd\u3002\u4e0d\u8fc7\u89e3\u7981\u524d\u76ee\u6807\u4ef7\u4e00\u8def\u4e0a\u8c03\uff0c\u8d4c\u6ce8\u5c31\u66f4\u5927\u4e86\uff1a\u4f30\u503c\u8d8a\u9ad8\uff0c\u5185\u90e8\u4eba\u80fd\u5957\u73b0\u3001\u88ab\u52a8\u57fa\u91d1\u53c8\u8981\u8c03\u4ed3\u7684\u65f6\u5019\uff0c\u80a1\u4ef7\u53ef\u4e0b\u8dcc\u7684\u7a7a\u95f4\u5c31\u8d8a\u5927\u3002\n",
       "emailed": false
     }
   ],
