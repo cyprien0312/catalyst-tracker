@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-20 20:02:03 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-20 20:05:16 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -131,6 +131,38 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-HIGH" data-id="4996" data-catalyst="C6" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C6</code>
+    <span class="subj">[C6-HIGH] Impressive RTX 5070, 7 265KF PC with 32GB of DDR5 sees a decent price cut at Newegg - PC Guide</span>
+    <span class="meta">2026-10-20 20:05 UTC · muted</span>
+  </summary>
+  <pre>Severity:  HIGH
+Feed:      https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
+Published: Tue, 20 Oct 2026 07:40:20 GMT
+Link:      https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0NkdjZOOXJnUEc3TmpIQkpyd3hzQ0F1Skd0a1BCZzlLNl92R2h2RGRCVGhkNG5yWmdrNzltNUJNOUpWUU10V0RYaHJ2X3lFQUtjTV96MGhDZnZtM21mZ1FPN0U5RTl6VEU4R2VGcFU3Mi1JNlZaSzdQYk15Wjd2ZlR3TjZ5VE15aGVHeTdTSjlCMlBYUTZ2VkNYaW4zQnRtMDZWOE93ZERDeEZKcE5LRkI0RQ?oc=5
+
+Impressive RTX 5070, 7 265KF PC with 32GB of DDR5 sees a decent price cut at Newegg - PC Guide
+
+&lt;a href=&#34;https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0NkdjZOOXJnUEc3TmpIQkpyd3hzQ0F1Skd0a1BCZzlLNl92R2h2RGRCVGhkNG5yWmdrNzltNUJNOUpWUU10V0RYaHJ2X3lFQUtjTV96MGhDZnZtM21mZ1FPN0U5RTl6VEU4R2VGcFU3Mi1JNlZaSzdQYk15Wjd2ZlR3TjZ5VE15aGVHeTdTSjlCMlBYUTZ2VkNYaW4zQnRtMDZWOE93ZERDeEZKcE5LRkI0RQ?oc=5&#34; target=&#34;_blank&#34;&gt;Impressive RTX 5070, 7 265KF PC with 32GB of DDR5 sees a decent price cut at Newegg&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;PC Guide&lt;/font&gt;
+
+────────────────────────────────────────────────────────────
+What this means:
+A Newegg retail deal cut the price of a prebuilt gaming PC (RTX 5070, Core Ultra 7 265KF, 32GB DDR5). The DDR5 mention plus the phrase &#39;price cut&#39; matched C6&#39;s price-reversal rule.
+
+内容:
+Newegg 对一台整机游戏 PC（RTX 5070、Core Ultra 7 265KF、32GB DDR5）做了促销降价。DDR5 和「price cut」同时出现，触发了 C6 的 price-reversal 规则。
+
+Why it matters:
+Likely a false positive. This is a consumer retail discount on a whole PC, not a DRAM contract or spot price move, so it says nothing about memory oversupply or AI-capex demand. Ignore it unless DRAM/HBM contract-price data shows the same reversal.
+
+影响:
+这条大概率是误报。降价的是零售整机，不是 DRAM 合约价或现货价，看不出内存供过于求，也看不出 AI capex 需求在变弱。除非 DRAM/HBM 合约价数据也出现同样的回落，否则可以忽略。
+</pre>
+  <button class="mark-read" type="button" data-id="4996">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="4995" data-catalyst="C3" data-severity="MED">
   <summary>
@@ -6440,46 +6472,14 @@ This is a shortage-side memory signal, not an oversupply one: AI demand for HBM 
   <button class="mark-read" type="button" data-id="4797">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4795" data-catalyst="C6" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C6</code>
-    <span class="subj">[C6-MED] Global Smartphone Shipments Fall 20% Amid Memory Chip Shortage - Mexico Business News</span>
-    <span class="meta">2026-10-12 19:05 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Mon, 12 Oct 2026 16:40:00 GMT
-Link:      https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlVMQzJSVmpFTGU3d1M0YVhyZ1dMSGtxR1lDc0FZOXlkM0NzRFhqWXZERkZLRVQ3Qy1ablQzY2NLTlRWMjBvclJjUXpReHRoTEJpM2Fzc0lMeU1raUNJaWZZQ04yRFQ3ODRMa1UtREVxLUcyZGs1aENwWHNtanQ3QldhaWMwUDdNckRrQW1tMi1IYlFnQ3Fwbi03RjNPbkxU?oc=5
-
-Global Smartphone Shipments Fall 20% Amid Memory Chip Shortage - Mexico Business News
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlVMQzJSVmpFTGU3d1M0YVhyZ1dMSGtxR1lDc0FZOXlkM0NzRFhqWXZERkZLRVQ3Qy1ablQzY2NLTlRWMjBvclJjUXpReHRoTEJpM2Fzc0lMeU1raUNJaWZZQ04yRFQ3ODRMa1UtREVxLUcyZGs1aENwWHNtanQ3QldhaWMwUDdNckRrQW1tMi1IYlFnQ3Fwbi03RjNPbkxU?oc=5&#34; target=&#34;_blank&#34;&gt;Global Smartphone Shipments Fall 20% Amid Memory Chip Shortage&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Mexico Business News&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A headline reports global smartphone shipments fell 20% amid a memory chip shortage. The tracker flagged it as C6_PRICE_SURGE because &#39;memory chip&#39; appears next to &#39;shortage&#39;.
-
-内容:
-有新闻标题称，受存储芯片短缺影响，全球智能手机出货量下降 20%。tracker 判为 C6_PRICE_SURGE，因为标题里 memory chip 和 shortage 挨在一起。
-
-Why it matters:
-The shortage points to AI demand (HBM and server DRAM) taking wafer capacity and pushing up memory prices for consumer devices. A 20% drop in phone shipments shows the cost is spilling into the wider economy. Strong AI memory demand supports the capex story for now, but it shifts margin pressure onto device makers and becomes a demand-destruction risk if prices stay high.
-
-影响:
-短缺说明 AI 需求（HBM、服务器 DRAM）在抢晶圆产能，消费电子用的存储因此涨价。手机出货量跌 20%，说明成本已经传到更大的经济面上。眼下 AI 对存储的强需求还在撑 capex 的逻辑，但利润压力转到了终端厂商身上。如果高价持续，就会变成需求被压垮的风险。
-</pre>
-  <button class="mark-read" type="button" data-id="4795">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>4988</td>
-<td>2026-10-20 19:44:14 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>4989</td>
+<td>2026-10-20 20:05:15 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-10-15 07:53:02 UTC</td></tr>
@@ -6526,17 +6526,17 @@ The shortage points to AI demand (HBM and server DRAM) taking wafer capacity and
 <tr><td><code>rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD</code></td><td>1669</td>
 <td>2026-10-20 19:44:05 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7902</td>
-<td>2026-10-20 19:35:02 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7903</td>
+<td>2026-10-20 20:05:03 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>9428</td>
-<td>2026-10-20 19:35:05 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>9429</td>
+<td>2026-10-20 20:05:05 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>5358</td>
-<td>2026-10-20 19:35:03 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>5359</td>
+<td>2026-10-20 20:05:04 UTC</td></tr>
 
-<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7255</td>
-<td>2026-10-20 19:35:06 UTC</td></tr>
+<tr><td><code>rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>7260</td>
+<td>2026-10-20 20:05:06 UTC</td></tr>
 
 <tr><td><code>rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en</code></td><td>42274</td>
 <td>2026-10-20 19:44:03 UTC</td></tr>
