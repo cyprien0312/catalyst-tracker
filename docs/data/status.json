@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792611123,
-  "generated_at_str": "2026-10-21 19:32:03 UTC",
-  "last_event_ts": 1792610044,
+  "generated_at": 1792611315,
+  "generated_at_str": "2026-10-21 19:35:15 UTC",
+  "last_event_ts": 1792611315,
   "tables": {
     "alerts_dedup": {
-      "count": 5014,
-      "last_ts": 1792609521,
-      "last_str": "2026-10-21 19:05:21 UTC"
+      "count": 5016,
+      "last_ts": 1792611315,
+      "last_str": "2026-10-21 19:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,14 +84,14 @@
       "last_str": "2026-10-21 18:14:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7978,
-      "last_ts": 1792609503,
-      "last_str": "2026-10-21 19:05:03 UTC"
+      "count": 7980,
+      "last_ts": 1792611302,
+      "last_str": "2026-10-21 19:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9496,
-      "last_ts": 1792604104,
-      "last_str": "2026-10-21 17:35:04 UTC"
+      "count": 9497,
+      "last_ts": 1792611304,
+      "last_str": "2026-10-21 19:35:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 5395,
@@ -322,6 +322,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5022,
+      "ts": 1792611315,
+      "ts_str": "2026-10-21 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM - TweakTown",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 21 Oct 2026 19:25:09 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5\n\nDell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5\" target=\"_blank\">Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDell's CEO warned that the memory shortage will get worse, with a $95 billion AI server order backlog waiting on DRAM and HBM supply.\n\n\u5185\u5bb9:\nDell CEO \u8b66\u544a\u5185\u5b58\u77ed\u7f3a\u8fd8\u4f1a\u52a0\u5267\uff0c$95B \u7684 AI \u670d\u52a1\u5668\u8ba2\u5355\u79ef\u538b\u6b63\u5728\u7b49 DRAM \u548c HBM \u4f9b\u8d27\u3002\n\nWhy it matters:\nAI server demand is still outrunning memory supply, which keeps DRAM and HBM prices rising and the memory makers' margins high. It also means $95B of hardware revenue is stuck waiting on parts. If the shortage drags on, deliveries slip. If hyperscalers later cut orders, that backlog can turn into oversupply, the late-cycle reversal C6 is built to catch.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u4ecd\u7136\u8d85\u8fc7\u5185\u5b58\u4f9b\u7ed9\uff0cDRAM \u548c HBM \u4ef7\u683c\u4f1a\u7ee7\u7eed\u4e0a\u6da8\uff0c\u5185\u5b58\u5382\u5546\u7684\u5229\u6da6\u4e5f\u4fdd\u6301\u5728\u9ad8\u4f4d\u3002\u8fd9\u4e5f\u8bf4\u660e\u6709 $95B \u7684\u786c\u4ef6\u6536\u5165\u5361\u5728\u7f3a\u4ef6\u4e0a\u3002\u77ed\u7f3a\u62d6\u5f97\u8d8a\u4e45\uff0c\u4ea4\u4ed8\u63a8\u8fdf\u8d8a\u591a\u3002\u5982\u679c\u4e4b\u540e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u780d\u5355\uff0c\u8fd9\u7b14\u79ef\u538b\u4f1a\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u8fd9\u6b63\u662f C6 \u8981\u6355\u6349\u7684\u5468\u671f\u665a\u671f\u53cd\u8f6c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 5023,
+      "ts": 1792611315,
+      "ts_str": "2026-10-21 19:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM - TweakTown",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Wed, 21 Oct 2026 19:25:09 GMT\nLink:      https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5\n\nDell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM - TweakTown\n\n<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5\" target=\"_blank\">Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TweakTown</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nDell's CEO warned that the memory shortage will get worse, with a $95 billion AI server order backlog waiting on DRAM and HBM supply.\n\n\u5185\u5bb9:\nDell CEO \u8b66\u544a\u5185\u5b58\u77ed\u7f3a\u8fd8\u4f1a\u52a0\u5267\uff0c$95B \u7684 AI \u670d\u52a1\u5668\u8ba2\u5355\u79ef\u538b\u6b63\u5728\u7b49 DRAM \u548c HBM \u4f9b\u8d27\u3002\n\nWhy it matters:\nAI server demand is still outrunning memory supply, which keeps DRAM and HBM prices rising and the memory makers' margins high. It also means $95B of hardware revenue is stuck waiting on parts. If the shortage drags on, deliveries slip. If hyperscalers later cut orders, that backlog can turn into oversupply, the late-cycle reversal C6 is built to catch.\n\n\u5f71\u54cd:\nAI \u670d\u52a1\u5668\u9700\u6c42\u4ecd\u7136\u8d85\u8fc7\u5185\u5b58\u4f9b\u7ed9\uff0cDRAM \u548c HBM \u4ef7\u683c\u4f1a\u7ee7\u7eed\u4e0a\u6da8\uff0c\u5185\u5b58\u5382\u5546\u7684\u5229\u6da6\u4e5f\u4fdd\u6301\u5728\u9ad8\u4f4d\u3002\u8fd9\u4e5f\u8bf4\u660e\u6709 $95B \u7684\u786c\u4ef6\u6536\u5165\u5361\u5728\u7f3a\u4ef6\u4e0a\u3002\u77ed\u7f3a\u62d6\u5f97\u8d8a\u4e45\uff0c\u4ea4\u4ed8\u63a8\u8fdf\u8d8a\u591a\u3002\u5982\u679c\u4e4b\u540e\u8d85\u5927\u89c4\u6a21\u5382\u5546\u780d\u5355\uff0c\u8fd9\u7b14\u79ef\u538b\u4f1a\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u8fd9\u6b63\u662f C6 \u8981\u6355\u6349\u7684\u5468\u671f\u665a\u671f\u53cd\u8f6c\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5020,
       "ts": 1792609521,
@@ -2301,26 +2321,6 @@
       "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.91% \u2265 2.50%",
       "body": "Series:   REAL10 (DFII10)\nDate:     2026-10-09\nCurrent:  2.91%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe US 10-year real (TIPS) yield printed 2.91% on 2026-10-09, above the 2.5% stress level and up from 2.87% the day before.\n\n\u5185\u5bb9:\n\u7f8e\u56fd 10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\uff08TIPS \u6536\u76ca\u7387\uff09\u5728 2026-10-09 \u62a5 2.91%\uff0c\u9ad8\u4e8e 2.5% \u7684\u538b\u529b\u7ebf\uff0c\u524d\u4e00\u5929\u662f 2.87%\u3002\n\nWhy it matters:\nA 10y real yield near 3% raises the hurdle rate for long-duration AI-infrastructure projects and lowers the present value of their distant cash flows. It also tightens financing for debt-funded capex (neoclouds, data-center builders), at a time when that spend is already outrunning revenue. [src: https://fred.stlouisfed.org/series/DFII10]\n\n\u5f71\u54cd:\n10 \u5e74\u671f\u5b9e\u9645\u5229\u7387\u903c\u8fd1 3%\uff0c\u957f\u5468\u671f AI \u57fa\u5efa\u9879\u76ee\u7684\u95e8\u69db\u56de\u62a5\u7387\u968f\u4e4b\u62ac\u9ad8\uff0c\u8fdc\u671f\u73b0\u91d1\u6d41\u7684\u6298\u73b0\u503c\u4e5f\u88ab\u538b\u4f4e\u3002\u9760\u4e3e\u503a\u63a8\u8fdb capex \u7684\u73a9\u5bb6\uff08neocloud\u3001\u6570\u636e\u4e2d\u5fc3\u5f00\u53d1\u5546\uff09\u878d\u8d44\u4f1a\u66f4\u7d27\uff0c\u800c\u8fd9\u5757\u652f\u51fa\u672c\u6765\u5c31\u5728\u8dd1\u8d62\u6536\u5165\u3002[src: https://fred.stlouisfed.org/series/DFII10]\n",
       "emailed": true
-    },
-    {
-      "id": 4823,
-      "ts": 1791926971,
-      "ts_str": "2026-10-13 21:29 UTC",
-      "catalyst": "C10",
-      "severity": "MED",
-      "subject": "[C10-MED] Broad USD Index rising: 121.6 (+3.2% off 90d-low)",
-      "body": "Series:   USD (DTWEXBGS)\nDate:     2026-10-09\nCurrent:  121.6\n90d low:  117.9\nMove:     +3.2% off 90d-low (fire \u2265 +2.5%)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe Nominal Broad US Dollar Index (FRED DTWEXBGS) reached 121.602 on 2026-10-09. That is up 3.155% from its trailing-90-day low of 117.883.\n\n\u5185\u5bb9:\n\u7f8e\u5143\u5e7f\u4e49\u540d\u4e49\u6307\u6570\uff08FRED DTWEXBGS\uff092026-10-09 \u5347\u81f3 121.602\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 117.883 \u9ad8 3.155%\u3002\n\nWhy it matters:\nA fast dollar rally tightens global financial conditions and drains offshore USD liquidity, which raises funding costs for the debt-financed AI capex build-out. With the 10y real yield at 2.87 pp (FRED DFII10, 2026-10-08), money is getting more expensive on two fronts, and that hits long-duration AI equities and leveraged neoclouds first.\n\n\u5f71\u54cd:\n\u7f8e\u5143\u5feb\u901f\u8d70\u5f3a\u4f1a\u6536\u7d27\u5168\u7403\u91d1\u878d\u6761\u4ef6\uff0c\u79bb\u5cb8\u7f8e\u5143\u6d41\u52a8\u6027\u4e5f\u968f\u4e4b\u53d8\u7d27\u3002AI capex \u6269\u5f20\u6709\u4e0d\u5c11\u9760\u4e3e\u503a\uff0c\u878d\u8d44\u6210\u672c\u56e0\u6b64\u4e0a\u5347\u300210 \u5e74\u671f\u5b9e\u9645\u5229\u7387\u540c\u65f6\u5728 2.87 pp\uff08FRED DFII10\uff0c2026-10-08\uff09\uff0c\u8d44\u91d1\u6210\u672c\u4ece\u4e24\u5934\u4e00\u8d77\u62ac\u9ad8\u3002\u6700\u5148\u627f\u538b\u7684\u662f\u957f\u4e45\u671f AI \u80a1\u7968\u548c\u9ad8\u6760\u6746\u7684 neocloud\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4821,
-      "ts": 1791924446,
-      "ts_str": "2026-10-13 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] Verizon, T-Mobile, Comcast, Charter Stocks Get Bernstein Price Target Cuts On SpaceX\u2019s Starlink Mobile Push - Stocktwits",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 13 Oct 2026 13:25:30 GMT\nLink:      https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0d3WW1XaVZmOVg2Z1liS0RkTEt1RlIyYmFNVHFUWmRxcGdHa0U2VzByTEFrUG0wR3ZBV1QxRjdBMkF4dWJkbWU1V043aEFGaDhJNkFIR0pJT0JXZWd1RGVEQkJlZGxkZHhncE5wNXlCbl8tWXQ3RGp0T194UjY0bVpnODJNRmJYWkhBVkF0bXM4YVZDT3BqbGF0UjZFZE96Mm9kOTZPUUNLcHVSRzR6WkdVODBXZkhZZk5Fbzktdm9ILUF6RmxWN0dOajQ?oc=5\n\nVerizon, T-Mobile, Comcast, Charter Stocks Get Bernstein Price Target Cuts On SpaceX\u2019s Starlink Mobile Push - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0d3WW1XaVZmOVg2Z1liS0RkTEt1RlIyYmFNVHFUWmRxcGdHa0U2VzByTEFrUG0wR3ZBV1QxRjdBMkF4dWJkbWU1V043aEFGaDhJNkFIR0pJT0JXZWd1RGVEQkJlZGxkZHhncE5wNXlCbl8tWXQ3RGp0T194UjY0bVpnODJNRmJYWkhBVkF0bXM4YVZDT3BqbGF0UjZFZE96Mm9kOTZPUUNLcHVSRzR6WkdVODBXZkhZZk5Fbzktdm9ILUF6RmxWN0dOajQ?oc=5\" target=\"_blank\">Verizon, T-Mobile, Comcast, Charter Stocks Get Bernstein Price Target Cuts On SpaceX\u2019s Starlink Mobile Push</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nBernstein cut its price targets on Verizon, T-Mobile, Comcast and Charter, citing SpaceX's Starlink push into mobile service.\n\n\u5185\u5bb9:\nBernstein \u4e0b\u8c03\u4e86 Verizon\u3001T-Mobile\u3001Comcast \u548c Charter \u7684\u76ee\u6807\u4ef7\uff0c\u7406\u7531\u662f SpaceX \u7684 Starlink \u8fdb\u519b\u79fb\u52a8\u901a\u4fe1\u4e1a\u52a1\u3002\n\nWhy it matters:\nSell-side analysts are already pricing Starlink as a real competitive threat to telecom incumbents, which supports the growth story behind a SpaceX IPO. That story feeds the valuation, and the size of the coming lock-up unlocks and passive index buying scales with that valuation. The note is commentary, though, not a filing or flow data, so it doesn't change the unlock calendar.\n\n\u5f71\u54cd:\n\u5356\u65b9\u5df2\u7ecf\u628a Starlink \u5f53\u6210\u7535\u4fe1\u8001\u724c\u516c\u53f8\u7684\u771f\u5b9e\u7ade\u4e89\u5a01\u80c1\u6765\u5b9a\u4ef7\uff0cSpaceX IPO \u7684\u589e\u957f\u6545\u4e8b\u56e0\u6b64\u66f4\u7ad9\u5f97\u4f4f\u3002\u8fd9\u4e2a\u6545\u4e8b\u6491\u7740\u4f30\u503c\uff0c\u540e\u7eed\u89e3\u7981\u89c4\u6a21\u548c\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u7684\u4e70\u5165\u91cf\u90fd\u8ddf\u7740\u4f30\u503c\u8d70\u3002\u4e0d\u8fc7\u8fd9\u53ea\u662f\u7814\u62a5\u89c2\u70b9\uff0c\u4e0d\u662f filing \u6216\u8d44\u91d1\u6d41\u6570\u636e\uff0c\u89e3\u7981\u65e5\u5386\u4e0d\u53d7\u5f71\u54cd\u3002\n",
-      "emailed": false
     }
   ],
   "catalysts": [
