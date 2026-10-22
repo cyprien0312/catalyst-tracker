@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792707062,
-  "generated_at_str": "2026-10-22 22:11:02 UTC",
-  "last_event_ts": 1792706705,
+  "generated_at": 1792707265,
+  "generated_at_str": "2026-10-22 22:14:25 UTC",
+  "last_event_ts": 1792707265,
   "tables": {
     "alerts_dedup": {
-      "count": 5052,
-      "last_ts": 1792705633,
-      "last_str": "2026-10-22 21:47:13 UTC"
+      "count": 5054,
+      "last_ts": 1792707265,
+      "last_str": "2026-10-22 22:14:25 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,14 +74,14 @@
       "last_str": "2026-10-22 22:00:32 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 7294,
-      "last_ts": 1792705444,
-      "last_str": "2026-10-22 21:44:04 UTC"
+      "count": 7297,
+      "last_ts": 1792707245,
+      "last_str": "2026-10-22 22:14:05 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1703,
-      "last_ts": 1792705445,
-      "last_str": "2026-10-22 21:44:05 UTC"
+      "count": 1704,
+      "last_ts": 1792707245,
+      "last_str": "2026-10-22 22:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8064,
@@ -104,9 +104,9 @@
       "last_str": "2026-10-22 22:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 42843,
-      "last_ts": 1792705443,
-      "last_str": "2026-10-22 21:44:03 UTC"
+      "count": 42853,
+      "last_ts": 1792707243,
+      "last_str": "2026-10-22 22:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14695,
@@ -329,6 +329,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5060,
+      "ts": 1792707265,
+      "ts_str": "2026-10-22 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI working on new $30B raise at $1.25T valuation ahead of IPO - TechCrunch",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 22 Oct 2026 22:08:24 GMT\nLink:      https://news.google.com/rss/articles/CBMinwFBVV95cUxON0lOUndGcjRBanppZmhpM1o2blEzanc5WEpHeU5PQi1HUFYzZ3pod2pvY3JIdm5BTnI2RDYzTlg1ZGd1QkhxSGR2OTB6UEFkNElQbkkwYk1sclEtdG1pMzFYRnl6Nlo3ZUlwb1hEaFM2WlRHRmNjcE1nblA1c202RzNwLUlhVnhLZVlFc2NSakpLdUcwRTJhVS1MYVdkSVU?oc=5\n\nOpenAI working on new $30B raise at $1.25T valuation ahead of IPO - TechCrunch\n\n<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxON0lOUndGcjRBanppZmhpM1o2blEzanc5WEpHeU5PQi1HUFYzZ3pod2pvY3JIdm5BTnI2RDYzTlg1ZGd1QkhxSGR2OTB6UEFkNElQbkkwYk1sclEtdG1pMzFYRnl6Nlo3ZUlwb1hEaFM2WlRHRmNjcE1nblA1c202RzNwLUlhVnhLZVlFc2NSakpLdUcwRTJhVS1MYVdkSVU?oc=5\" target=\"_blank\">OpenAI working on new $30B raise at $1.25T valuation ahead of IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechCrunch</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nReports say OpenAI is working on a new $30B raise at a $1.25T valuation, ahead of a planned IPO.\n\n\u5185\u5bb9:\n\u636e\u62a5\u9053\uff0cOpenAI \u6b63\u5728 IPO \u524d\u7b79\u5212\u65b0\u4e00\u8f6e $30B \u878d\u8d44\uff0c\u4f30\u503c $1.25T\u3002\n\nWhy it matters:\nThis is speculative press, not a filing or a disclosed metric, which is why it rates only MED. A $30B pre-IPO round shows OpenAI's cash burn still depends on fresh private capital. At $1.25T, any miss in revenue growth or a weak IPO reception would put pressure on the whole AI-capex funding chain, from neoclouds to hyperscaler contracts.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5a92\u4f53\u62a5\u9053\uff0c\u4e0d\u662f filing\uff0c\u4e5f\u6ca1\u6709\u62ab\u9732\u5177\u4f53\u6307\u6807\uff0c\u6240\u4ee5\u53ea\u7ed9 MED\u3002IPO \u524d\u8fd8\u8981\u518d\u878d $30B\uff0c\u8bf4\u660e OpenAI \u70e7\u94b1\u4ecd\u8981\u9760\u79c1\u52df\u8d44\u91d1\u7eed\u547d\u3002\u4f30\u503c\u5230\u4e86 $1.25T\uff0c\u6536\u5165\u589e\u901f\u4e00\u65e6\u4e0d\u53ca\u9884\u671f\uff0c\u6216\u8005 IPO \u9047\u51b7\uff0c\u538b\u529b\u4f1a\u987a\u7740\u6574\u6761 AI capex \u878d\u8d44\u94fe\u5f80\u4e0b\u4f20\uff0c\u4ece neocloud \u4e00\u76f4\u4f20\u5230\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u5408\u540c\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 5061,
+      "ts": 1792707265,
+      "ts_str": "2026-10-22 22:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] OpenAI seeks $30B funding round at $1.25T valuation ahead of potential IPO - Cryptonews.net",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 22 Oct 2026 21:54:54 GMT\nLink:      https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QUHVBRFRpakZwZlAyZW4xb25NOW5iM1pOelhsMEVjRFdHTDNtOHZlbUJjNDl5QmxGWGF0UnRBbGpIR1dvRXJiNWJBR3V2cDVrMFNoLXg4dWc?oc=5\n\nOpenAI seeks $30B funding round at $1.25T valuation ahead of potential IPO - Cryptonews.net\n\n<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QUHVBRFRpakZwZlAyZW4xb25NOW5iM1pOelhsMEVjRFdHTDNtOHZlbUJjNDl5QmxGWGF0UnRBbGpIR1dvRXJiNWJBR3V2cDVrMFNoLXg4dWc?oc=5\" target=\"_blank\">OpenAI seeks $30B funding round at $1.25T valuation ahead of potential IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cryptonews.net</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports OpenAI is seeking a $30B funding round at a $1.25T valuation ahead of a potential IPO.\n\n\u5185\u5bb9:\n\u6709\u62a5\u9053\u79f0\uff0cOpenAI \u6b63\u4ee5 $1.25T \u4f30\u503c\u5bfb\u6c42\u4e00\u8f6e $30B \u878d\u8d44\uff0c\u4e3a\u53ef\u80fd\u7684 IPO \u505a\u51c6\u5907\u3002\n\nWhy it matters:\nThis is a funding-round report, not a measured burn-rate increase, so the alert stays at MED. Raising $30B in one round shows how much outside capital OpenAI's compute commitments need. Pricing the company at $1.25T before an IPO ties the AI-capex chain to public-market appetite: if the round or IPO stalls, OpenAI's funding gap flows straight to its cloud and chip suppliers.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u878d\u8d44\u62a5\u9053\uff0c\u4e0d\u662f\u6d4b\u5f97\u7684 burn rate \u4e0a\u5347\uff0c\u6240\u4ee5\u53ea\u5230 MED\u3002\u5355\u8f6e\u878d $30B\uff0c\u8bf4\u660e OpenAI \u7684\u7b97\u529b\u627f\u8bfa\u8981\u9760\u5927\u91cf\u5916\u90e8\u8d44\u91d1\u6491\u7740\u3002IPO \u524d\u5c31\u6309 $1.25T \u5b9a\u4ef7\uff0c\u6574\u6761 AI capex \u94fe\u5c31\u5f97\u770b\u516c\u5f00\u5e02\u573a\u613f\u4e0d\u613f\u610f\u63a5\u76d8\u3002\u8fd9\u8f6e\u878d\u8d44\u6216 IPO \u4e00\u65e6\u5361\u4f4f\uff0cOpenAI \u7684\u8d44\u91d1\u7f3a\u53e3\u4f1a\u76f4\u63a5\u4f20\u5230\u5b83\u7684\u4e91\u5382\u5546\u548c\u82af\u7247\u4f9b\u5e94\u5546\u8eab\u4e0a\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5059,
       "ts": 1792705633,
@@ -2307,26 +2327,6 @@
       "severity": "HIGH",
       "subject": "[C11-HIGH] US Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, ME",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 15 Oct 2026 08:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkx0OF9CZ29wQjNqTXdXd2tKNFd6ZUZmZU1YUVBKMTZvYkF5S1lRd3J6Ylo0T0ZSSTE3RjZGWW9QeF96Rk96RlRwTk9rc0k4Z2RCOXV0ZWxDZGZmN3JYeHdqOEk2SF9OY2VxcXFCVFZhNl9OMTFaa21maklVMFVkYjJfNU9XcjN6NndOM1pUZUp1TVBrOHJtX0lCS0R5eGo3ZHNFck9ZOENZTW9UYjhuakIzX3l1LTBTU2hrSTFvRTFlMlJp?oc=5\n\nUS Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkx0OF9CZ29wQjNqTXdXd2tKNFd6ZUZmZU1YUVBKMTZvYkF5S1lRd3J6Ylo0T0ZSSTE3RjZGWW9QeF96Rk96RlRwTk9rc0k4Z2RCOXV0ZWxDZGZmN3JYeHdqOEk2SF9OY2VxcXFCVFZhNl9OMTFaa21maklVMFVkYjJfNU9XcjN6NndOM1pUZUp1TVBrOHJtX0lCS0R5eGo3ZHNFck9ZOENZTW9UYjhuakIzX3l1LTBTU2hrSTFvRTFlMlJp?oc=5\" target=\"_blank\">US Stock Futures Inch Higher Following S&amp;P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Benzinga-style market wrap says US stock futures edged higher after an S&P 500 and Nasdaq drop, as investors brace for a SpaceX share unlock; GOOGL, UBER, META, FLUT and AMZN are named as stocks in focus.\n\n\u5185\u5bb9:\n\u4e00\u7bc7 Benzinga \u98ce\u683c\u7684\u76d8\u524d\u7efc\u8ff0\u79f0\uff0cS&P 500 \u548c Nasdaq \u4e0b\u8dcc\u540e\u7f8e\u80a1\u671f\u8d27\u5c0f\u5e45\u8d70\u9ad8\uff0c\u6295\u8d44\u8005\u5728\u4e3a SpaceX \u80a1\u7968\u89e3\u7981\u505a\u51c6\u5907\uff1b\u6587\u4e2d\u70b9\u540d GOOGL\u3001UBER\u3001META\u3001FLUT\u3001AMZN \u4e3a\u5173\u6ce8\u4e2a\u80a1\u3002\n\nWhy it matters:\nThis is news coverage, not data. The headline shows the market already treating a SpaceX unlock as an index-level supply event, so locked-up insider shares and passive-fund flows can move broader AI and tech benchmarks. GOOGL holds a SpaceX stake, so a mark-down there would hit a mega-cap directly; the other names are tagged only loosely.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u65b0\u95fb\u62a5\u9053\uff0c\u4e0d\u662f\u6570\u636e\u3002\u6807\u9898\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u628a SpaceX \u89e3\u7981\u770b\u6210\u6307\u6570\u5c42\u9762\u7684\u4f9b\u7ed9\u4e8b\u4ef6\uff1a\u9501\u5b9a\u671f\u5185\u7684\u5185\u90e8\u4eba\u6301\u80a1\u548c\u88ab\u52a8\u57fa\u91d1\u8d44\u91d1\u6d41\uff0c\u53ef\u80fd\u7275\u52a8\u66f4\u5927\u8303\u56f4\u7684 AI \u548c\u79d1\u6280\u6307\u6570\u3002GOOGL \u6301\u6709 SpaceX \u80a1\u4efd\uff0c\u4f30\u503c\u4e00\u65e6\u4e0b\u8c03\u4f1a\u76f4\u63a5\u6253\u5230\u8fd9\u5bb6\u5de8\u5934\uff1b\u5176\u4f59\u51e0\u53ea\u53ea\u662f\u88ab\u987a\u5e26\u70b9\u540d\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4861,
-      "ts": 1792094716,
-      "ts_str": "2026-10-15 20:05 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] DRAM giants profit massively amid shortage, but China's CXMT is expanding capacity to challenge their dominance. - Pluan",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 15 Oct 2026 19:44:17 GMT\nLink:      https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1NXMFZNNE1jcnh5MXlqWHZxTUJyWU9QSzc3VXlCZTJYWjMtbHdRQWxlbHFIOU1oazdGZDlTLU5tdDJ3LVpFeV9SRUpEajFpUGxoa1hkMDJ5dVVnbGN3WkVyRWxfMloyUy0wMWlxeWZISzRaMDZISzhTeHZwNHJXald1T1lpX28xS0lzUVAwUVNPSms?oc=5\n\nDRAM giants profit massively amid shortage, but China's CXMT is expanding capacity to challenge their dominance. - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1NXMFZNNE1jcnh5MXlqWHZxTUJyWU9QSzc3VXlCZTJYWjMtbHdRQWxlbHFIOU1oazdGZDlTLU5tdDJ3LVpFeV9SRUpEajFpUGxoa1hkMDJ5dVVnbGN3WkVyRWxfMloyUy0wMWlxeWZISzRaMDZISzhTeHZwNHJXald1T1lpX28xS0lzUVAwUVNPSms?oc=5\" target=\"_blank\">DRAM giants profit massively amid shortage, but China's CXMT is expanding capacity to challenge their dominance.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that the big DRAM makers are earning outsized profits from a memory shortage, while China's CXMT is expanding capacity to take share from them.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u79f0\uff0cDRAM \u5de8\u5934\u6b63\u501f\u5185\u5b58\u77ed\u7f3a\u5927\u8d5a\uff0c\u800c\u4e2d\u56fd\u7684 CXMT\uff08\u957f\u946b\u5b58\u50a8\uff09\u5728\u6269\u4ea7\uff0c\u60f3\u62a2\u5b83\u4eec\u7684\u4efd\u989d\u3002\n\nWhy it matters:\nA shortage means AI-driven memory demand still exceeds supply, so this is not a bust signal yet. The CXMT capacity build matters for later: memory is a classic boom-bust cycle, and new supply arriving just as AI capex growth slows is how a shortage turns into a glut and price collapse.\n\n\u5f71\u54cd:\n\u77ed\u7f3a\u8bf4\u660e AI \u5e26\u6765\u7684\u5185\u5b58\u9700\u6c42\u4ecd\u5927\u4e8e\u4f9b\u7ed9\uff0c\u773c\u4e0b\u8fd8\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u7684\u4fe1\u53f7\u3002CXMT \u6269\u4ea7\u662f\u4ee5\u540e\u7684\u98ce\u9669\uff1a\u5185\u5b58\u884c\u4e1a\u5411\u6765\u662f\u66b4\u6da8\u66b4\u8dcc\u7684\u5468\u671f\u3002\u5982\u679c\u65b0\u4ea7\u80fd\u6295\u4ea7\u65f6 AI capex \u589e\u901f\u6b63\u597d\u653e\u7f13\uff0c\u77ed\u7f3a\u5c31\u4f1a\u53d8\u6210\u8fc7\u5269\uff0c\u4ef7\u683c\u968f\u4e4b\u5d29\u76d8\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4860,
-      "ts": 1792092919,
-      "ts_str": "2026-10-15 19:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Micron Opens Second Taichung Packaging and Test Facility in Taiwan; 2027 HBM Capacity Fully Sold Out - BigGo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 15 Oct 2026 07:56:00 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTFBGUVpqa2VYakIwbDN6bkR5ZHhkc19GaXlfaEZUN0FiRzFWaGpOcm1BcktKWmdNZ2NBNldWbzdpM0d6ekVGZS1HY2FFUHpPYVdhQXpIYV94M1ZyWkp2X0xrYmZxdDN4QmNoVWp4bVd4czVScXM3NkE?oc=5\n\nMicron Opens Second Taichung Packaging and Test Facility in Taiwan; 2027 HBM Capacity Fully Sold Out - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBGUVpqa2VYakIwbDN6bkR5ZHhkc19GaXlfaEZUN0FiRzFWaGpOcm1BcktKWmdNZ2NBNldWbzdpM0d6ekVGZS1HY2FFUHpPYVdhQXpIYV94M1ZyWkp2X0xrYmZxdDN4QmNoVWp4bVd4czVScXM3NkE?oc=5\" target=\"_blank\">Micron Opens Second Taichung Packaging and Test Facility in Taiwan; 2027 HBM Capacity Fully Sold Out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nMicron opened a second packaging and test facility in Taichung, Taiwan, and said its 2027 HBM capacity is fully sold out.\n\n\u5185\u5bb9:\nMicron \u5728\u53f0\u6e7e\u53f0\u4e2d\u5f00\u4e86\u7b2c\u4e8c\u5ea7\u5c01\u88c5\u6d4b\u8bd5\u5382\uff0c\u5e76\u79f0 2027 \u5e74\u7684 HBM \u4ea7\u80fd\u5df2\u5168\u90e8\u552e\u7f44\u3002\n\nWhy it matters:\nHBM demand is still running ahead of supply, booked a year out. That shows tightness, not memory stress: the bubble-stress signal would be order cancellations or oversupply. A sold-out 2027 does mean any later cancellation would hit from a high base, so watch for buyers revising those commitments.\n\n\u5f71\u54cd:\nHBM \u9700\u6c42\u8fd8\u5728\u8dd1\u8d62\u4f9b\u7ed9\uff0c\u8ba2\u5355\u5df2\u6392\u5230\u4e00\u5e74\u540e\u3002\u8fd9\u8bf4\u660e\u4f9b\u5e94\u504f\u7d27\uff0c\u4e0d\u662f\u5185\u5b58\u538b\u529b\u3002\u6ce1\u6cab\u538b\u529b\u4fe1\u53f7\u8981\u770b\u780d\u5355\u6216\u4f9b\u8fc7\u4e8e\u6c42\u30022027 \u5e74\u4ea7\u80fd\u5df2\u5168\u90e8\u8ba2\u6ee1\uff0c\u4ee5\u540e\u8981\u662f\u6709\u4eba\u780d\u5355\uff0c\u5c31\u662f\u4ece\u9ad8\u4f4d\u5f80\u4e0b\u780d\uff0c\u8981\u76ef\u4e70\u5bb6\u4f1a\u4e0d\u4f1a\u4fee\u6539\u8fd9\u4e9b\u8ba2\u5355\u3002\n",
       "emailed": false
     }
   ],
