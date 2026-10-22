@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792708322,
-  "generated_at_str": "2026-10-22 22:32:02 UTC",
-  "last_event_ts": 1792707265,
+  "generated_at": 1792708516,
+  "generated_at_str": "2026-10-22 22:35:16 UTC",
+  "last_event_ts": 1792708515,
   "tables": {
     "alerts_dedup": {
-      "count": 5054,
-      "last_ts": 1792707265,
-      "last_str": "2026-10-22 22:14:25 UTC"
+      "count": 5055,
+      "last_ts": 1792708515,
+      "last_str": "2026-10-22 22:35:15 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -84,9 +84,9 @@
       "last_str": "2026-10-22 22:14:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8064,
-      "last_ts": 1792706702,
-      "last_str": "2026-10-22 22:05:02 UTC"
+      "count": 8065,
+      "last_ts": 1792708502,
+      "last_str": "2026-10-22 22:35:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 9560,
@@ -94,14 +94,14 @@
       "last_str": "2026-10-22 22:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5437,
-      "last_ts": 1792703104,
-      "last_str": "2026-10-22 21:05:04 UTC"
+      "count": 5438,
+      "last_ts": 1792708503,
+      "last_str": "2026-10-22 22:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7375,
-      "last_ts": 1792706705,
-      "last_str": "2026-10-22 22:05:05 UTC"
+      "last_ts": 1792708505,
+      "last_str": "2026-10-22 22:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 42853,
@@ -329,6 +329,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5062,
+      "ts": 1792708515,
+      "ts_str": "2026-10-22 22:35 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] Global PC Shipments Drop 21% In Q3 As Memory Prices Surge, And Forecasts Point To An Even Steeper 27% Fall In Q4 - Wccft",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 22 Oct 2026 20:45:52 GMT\nLink:      https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNEdvUWM4bmpqLURmM2U5RWtUX2hkcUJNc2c0T01OOGVhYUtpVmpHYllRdUZ1SnZVVVRLdlJlTURfSDF5RC1FaEdCRTFQUEU2SER0a0ZzRjdVcEtYYUM3NVlQWVJIRW9JRG00NXVfcXMwU01LV0FTV0ZNRFNvZ2c1anp1MWc0UjQ2VUZB0gGQAUFVX3lxTE96QlZhbXNFNTVldUFZUGdlTGNqZmhNXzE5N3V4cFJIdEJBOTJweHVBZUlhZzRpT3BRbkhlUks2aGxITVhHVl9QamFWdXhaanU2UGtmNDh0RFFkbVJhSTdlOVpXckF5cUdxNWtDT3B6Qkh1aE9KcDRxQ0JRUGhTZmhOUE9wSjVMZ0dOcGV3SFh0aQ?oc=5\n\nGlobal PC Shipments Drop 21% In Q3 As Memory Prices Surge, And Forecasts Point To An Even Steeper 27% Fall In Q4 - Wccftech\n\n<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNEdvUWM4bmpqLURmM2U5RWtUX2hkcUJNc2c0T01OOGVhYUtpVmpHYllRdUZ1SnZVVVRLdlJlTURfSDF5RC1FaEdCRTFQUEU2SER0a0ZzRjdVcEtYYUM3NVlQWVJIRW9JRG00NXVfcXMwU01LV0FTV0ZNRFNvZ2c1anp1MWc0UjQ2VUZB0gGQAUFVX3lxTE96QlZhbXNFNTVldUFZUGdlTGNqZmhNXzE5N3V4cFJIdEJBOTJweHVBZUlhZzRpT3BRbkhlUks2aGxITVhHVl9QamFWdXhaanU2UGtmNDh0RFFkbVJhSTdlOVpXckF5cUdxNWtDT3B6Qkh1aE9KcDRxQ0JRUGhTZmhOUE9wSjVMZ0dOcGV3SFh0aQ?oc=5\" target=\"_blank\">Global PC Shipments Drop 21% In Q3 As Memory Prices Surge, And Forecasts Point To An Even Steeper 27% Fall In Q4</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wccftech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports global PC shipments fell 21% in Q3 as memory prices surged, with forecasts pointing to a steeper 27% drop in Q4.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0,\u5168\u7403 PC \u51fa\u8d27\u91cf Q3 \u4e0b\u6ed1 21%,\u539f\u56e0\u662f\u5185\u5b58\u4ef7\u683c\u66b4\u6da8;\u9884\u6d4b Q4 \u8fd8\u4f1a\u8fdb\u4e00\u6b65\u4e0b\u6ed1 27%\u3002\n\nWhy it matters:\nAI data centers are absorbing DRAM/NAND/HBM supply and pushing up memory prices for everyone else, so consumer PC demand is being priced out. Memory makers are getting rich off AI while downstream hardware demand shrinks. If AI orders slow, that capacity has no healthy consumer market to fall back on, and the swing from shortage to glut can be sharp.\n\n\u5f71\u54cd:\nAI \u6570\u636e\u4e2d\u5fc3\u5728\u62a2 DRAM/NAND/HBM \u4ea7\u80fd,\u628a\u5185\u5b58\u4ef7\u683c\u63a8\u9ad8,\u6d88\u8d39\u7ea7 PC \u7684\u9700\u6c42\u88ab\u6324\u6389\u3002\u5185\u5b58\u5382\u9760 AI \u8d5a\u5f97\u76c6\u6ee1\u94b5\u6ee1,\u4e0b\u6e38\u786c\u4ef6\u9700\u6c42\u5374\u5728\u840e\u7f29\u3002\u4e00\u65e6 AI \u8ba2\u5355\u653e\u7f13,\u8fd9\u90e8\u5206\u4ea7\u80fd\u6ca1\u6709\u5065\u5eb7\u7684\u6d88\u8d39\u7aef\u5e02\u573a\u53ef\u4ee5\u63a5,\u4ece\u77ed\u7f3a\u8f6c\u5411\u8fc7\u5269\u4f1a\u6765\u5f97\u5f88\u731b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5060,
       "ts": 1792707265,
@@ -2317,16 +2327,6 @@
       "severity": "HIGH",
       "subject": "[C6-HIGH] Elon Musk\u2019s China RAM Warning Raises Questions for Samsung, SK Hynix as South Korea Faces Potential Memory Chip Oversupp",
       "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 15 Oct 2026 10:52:28 GMT\nLink:      https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVWmd2aGxzM3NoUzREeWozY19ScmlJbkZfQlBvaWozYXZTb2R1WlBrYjA0U1RqdlR5RlpMNld4SkdGNDJpSWN3N1BaUVA0c2FSUDRDS3MtaC1VNGNxVzlqQk5ndk5WUXIt?oc=5\n\nElon Musk\u2019s China RAM Warning Raises Questions for Samsung, SK Hynix as South Korea Faces Potential Memory Chip Oversupply and Less Time To Diversify - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVWmd2aGxzM3NoUzREeWozY19ScmlJbkZfQlBvaWozYXZTb2R1WlBrYjA0U1RqdlR5RlpMNld4SkdGNDJpSWN3N1BaUVA0c2FSUDRDS3MtaC1VNGNxVzlqQk5ndk5WUXIt?oc=5\" target=\"_blank\">Elon Musk\u2019s China RAM Warning Raises Questions for Samsung, SK Hynix as South Korea Faces Potential Memory Chip Oversupply and Less Time To Diversify</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item reports that Elon Musk warned about Chinese RAM capacity, which raises questions for Samsung and SK Hynix as South Korea faces a potential memory-chip oversupply and less time to diversify.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u62a5\u9053\uff0cElon Musk \u5c31\u4e2d\u56fd RAM \u4ea7\u80fd\u53d1\u51fa\u8b66\u544a\uff0c\u4ee4\u5916\u754c\u62c5\u5fe7 Samsung \u548c SK Hynix \u7684\u524d\u666f\uff1a\u97e9\u56fd\u53ef\u80fd\u9762\u4e34\u5b58\u50a8\u82af\u7247\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u7559\u7ed9\u5b83\u4eec\u5206\u6563\u5e03\u5c40\u7684\u65f6\u95f4\u4e5f\u66f4\u5c11\u4e86\u3002\n\nWhy it matters:\nThis is commentary about a possible future glut, not reported price cuts or order cancellations, so it is a weak signal. If Chinese DRAM capacity ramps while AI demand slows, the memory upcycle that has funded Samsung and SK Hynix's HBM build-out would reverse. Memory pricing is usually among the first places AI-capex stress shows up.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5bf9\u672a\u6765\u53ef\u80fd\u8fc7\u5269\u7684\u8bc4\u8bba\uff0c\u4e0d\u662f\u5df2\u53d1\u751f\u7684\u964d\u4ef7\u6216\u780d\u5355\uff0c\u4fe1\u53f7\u504f\u5f31\u3002\u8981\u662f\u4e2d\u56fd DRAM \u4ea7\u80fd\u653e\u91cf\u65f6 AI \u9700\u6c42\u53c8\u653e\u7f13\uff0cSamsung \u548c SK Hynix \u9760\u8fd9\u8f6e\u5b58\u50a8\u4e0a\u884c\u5468\u671f\u6491\u8d77\u7684 HBM \u6269\u4ea7\u5c31\u4f1a\u53cd\u8f6c\u3002\u5b58\u50a8\u4ef7\u683c\u901a\u5e38\u662f AI capex \u627f\u538b\u6700\u65e9\u9732\u5934\u7684\u5730\u65b9\u4e4b\u4e00\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4862,
-      "ts": 1792097235,
-      "ts_str": "2026-10-15 20:47 UTC",
-      "catalyst": "C11",
-      "severity": "HIGH",
-      "subject": "[C11-HIGH] US Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, ME",
-      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Thu, 15 Oct 2026 08:42:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkx0OF9CZ29wQjNqTXdXd2tKNFd6ZUZmZU1YUVBKMTZvYkF5S1lRd3J6Ylo0T0ZSSTE3RjZGWW9QeF96Rk96RlRwTk9rc0k4Z2RCOXV0ZWxDZGZmN3JYeHdqOEk2SF9OY2VxcXFCVFZhNl9OMTFaa21maklVMFVkYjJfNU9XcjN6NndOM1pUZUp1TVBrOHJtX0lCS0R5eGo3ZHNFck9ZOENZTW9UYjhuakIzX3l1LTBTU2hrSTFvRTFlMlJp?oc=5\n\nUS Stock Futures Inch Higher Following S&P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus - Stocktwits\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkx0OF9CZ29wQjNqTXdXd2tKNFd6ZUZmZU1YUVBKMTZvYkF5S1lRd3J6Ylo0T0ZSSTE3RjZGWW9QeF96Rk96RlRwTk9rc0k4Z2RCOXV0ZWxDZGZmN3JYeHdqOEk2SF9OY2VxcXFCVFZhNl9OMTFaa21maklVMFVkYjJfNU9XcjN6NndOM1pUZUp1TVBrOHJtX0lCS0R5eGo3ZHNFck9ZOENZTW9UYjhuakIzX3l1LTBTU2hrSTFvRTFlMlJp?oc=5\" target=\"_blank\">US Stock Futures Inch Higher Following S&amp;P 500, Nasdaq Drop As Investors Brace For SpaceX Share Unlock \u2014 GOOGL, UBER, META, FLUT, AMZN In Focus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA Benzinga-style market wrap says US stock futures edged higher after an S&P 500 and Nasdaq drop, as investors brace for a SpaceX share unlock; GOOGL, UBER, META, FLUT and AMZN are named as stocks in focus.\n\n\u5185\u5bb9:\n\u4e00\u7bc7 Benzinga \u98ce\u683c\u7684\u76d8\u524d\u7efc\u8ff0\u79f0\uff0cS&P 500 \u548c Nasdaq \u4e0b\u8dcc\u540e\u7f8e\u80a1\u671f\u8d27\u5c0f\u5e45\u8d70\u9ad8\uff0c\u6295\u8d44\u8005\u5728\u4e3a SpaceX \u80a1\u7968\u89e3\u7981\u505a\u51c6\u5907\uff1b\u6587\u4e2d\u70b9\u540d GOOGL\u3001UBER\u3001META\u3001FLUT\u3001AMZN \u4e3a\u5173\u6ce8\u4e2a\u80a1\u3002\n\nWhy it matters:\nThis is news coverage, not data. The headline shows the market already treating a SpaceX unlock as an index-level supply event, so locked-up insider shares and passive-fund flows can move broader AI and tech benchmarks. GOOGL holds a SpaceX stake, so a mark-down there would hit a mega-cap directly; the other names are tagged only loosely.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u65b0\u95fb\u62a5\u9053\uff0c\u4e0d\u662f\u6570\u636e\u3002\u6807\u9898\u8bf4\u660e\u5e02\u573a\u5df2\u7ecf\u628a SpaceX \u89e3\u7981\u770b\u6210\u6307\u6570\u5c42\u9762\u7684\u4f9b\u7ed9\u4e8b\u4ef6\uff1a\u9501\u5b9a\u671f\u5185\u7684\u5185\u90e8\u4eba\u6301\u80a1\u548c\u88ab\u52a8\u57fa\u91d1\u8d44\u91d1\u6d41\uff0c\u53ef\u80fd\u7275\u52a8\u66f4\u5927\u8303\u56f4\u7684 AI \u548c\u79d1\u6280\u6307\u6570\u3002GOOGL \u6301\u6709 SpaceX \u80a1\u4efd\uff0c\u4f30\u503c\u4e00\u65e6\u4e0b\u8c03\u4f1a\u76f4\u63a5\u6253\u5230\u8fd9\u5bb6\u5de8\u5934\uff1b\u5176\u4f59\u51e0\u53ea\u53ea\u662f\u88ab\u987a\u5e26\u70b9\u540d\u3002\n",
       "emailed": false
     }
   ],
