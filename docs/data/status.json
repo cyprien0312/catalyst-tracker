@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792644635,
-  "generated_at_str": "2026-10-22 04:50:35 UTC",
+  "generated_at": 1792645015,
+  "generated_at_str": "2026-10-22 04:56:55 UTC",
   "last_event_ts": 1792644423,
   "tables": {
     "alerts_dedup": {
@@ -2369,5 +2369,50 @@
       "name": "SpaceX IPO Unlock / Passive Flows"
     }
   ],
-  "plan": null
+  "plan": {
+    "ndx": {
+      "current": 29822.52,
+      "date": "2026-10-21",
+      "ath": 31224.69,
+      "ath_date": "2026-10-06",
+      "drawdown": -0.044905810113727296
+    },
+    "spx": null,
+    "regime": "B",
+    "fuses": [
+      "C2"
+    ],
+    "rungs": [
+      {
+        "thresh": -0.3,
+        "pct": 10,
+        "label": "knife 1 \u00b7 fuse active",
+        "level": 21857.283,
+        "triggered": false
+      },
+      {
+        "thresh": -0.4,
+        "pct": 10,
+        "label": "knife 2",
+        "level": 18734.814,
+        "triggered": false
+      },
+      {
+        "thresh": -0.5,
+        "pct": 20,
+        "label": "backup-the-truck \u00b7 needs stabilisation",
+        "level": 15612.345,
+        "triggered": false
+      }
+    ],
+    "cumulative_target": 0,
+    "reserve": 0,
+    "next_rung": {
+      "thresh": -0.3,
+      "pct": 10,
+      "label": "knife 1 \u00b7 fuse active",
+      "level": 21857.283
+    },
+    "needs_stabilisation": false
+  }
 }
