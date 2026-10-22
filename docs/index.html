@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-22 07:50:05 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-22 07:57:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,29 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="5038" data-catalyst="BUYPLAN" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>BUYPLAN</code>
+    <span class="subj">[BUYPLAN] regime B → A: fuses clear — back to the shallow ladder</span>
+    <span class="meta">2026-10-22 07:53 UTC · muted</span>
+  </summary>
+  <pre>Buy-plan regime flipped B → A.
+fuses clear — back to the shallow ladder.
+
+★ BUY PLAN — NDX trigger · portfolio ladder
+NDX 29,823 · ATH 31,225 (2026-10-06) · drawdown -4.5%  [2026-10-21]
+SPX 7,757 · drawdown -0.8% (ref — IVV/BGBL core draws down shallower than NDX)
+Regime A · 健康回调（引信未响）· buy speed
+Cumulative target now: 10% deployed · reserve held 40%
+
+  ✅    0%  starter · FOMO insurance            10%  @ NDX 31,225
+  ⬜  -10%  dip 1                               10%  @ NDX 28,102  ← next
+  ⬜  -15%  dip 2                               15%  @ NDX 26,541
+  ⬜  -20%  dip 3                               25%  @ NDX 24,980</pre>
+  <button class="mark-read" type="button" data-id="5038">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="5034" data-catalyst="C6" data-severity="MED">
   <summary>
@@ -6450,49 +6473,17 @@ This is CFO talk about a possible revenue line, not a filing or a burn-rate figu
   <button class="mark-read" type="button" data-id="4839">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4840" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] OpenAI CFO Sarah Friar Discusses AI Safety &amp; Alignment Spending</span>
-    <span class="meta">2026-10-14 13:44 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://feeds.bloomberg.com/technology/news.rss
-Published: Wed, 14 Oct 2026 13:26:00 GMT
-Link:      https://www.bloomberg.com/news/videos/2026-10-14/openai-cfo-sarah-friar-on-ai-safety-alignment-spending-video
-
-OpenAI CFO Sarah Friar Discusses AI Safety &amp; Alignment Spending
-
-Bloomberg&#39;s Tom MacKenzie sits down with OpenAI CFO Sarah Friar at at the International AI Summit in Dublin to discuss AI safety and alignment spending.  (Source: Bloomberg)
-
-────────────────────────────────────────────────────────────
-What this means:
-Bloomberg&#39;s Tom MacKenzie interviewed OpenAI CFO Sarah Friar at the International AI Summit in Dublin about how much OpenAI spends on AI safety and alignment. The snippet gives no figures, guidance or filing.
-
-内容:
-Bloomberg 的 Tom MacKenzie 在都柏林 International AI Summit 上采访了 OpenAI CFO Sarah Friar，话题是 OpenAI 在 AI 安全与对齐上的支出。摘要里没有数字、指引或 filing。
-
-Why it matters:
-A CFO talking on camera about a spending category is mainly narrative. It is not stress data: no burn rate, funding gap or cost overrun is disclosed, so the C3 HIGH trigger (burn-rate metric up &gt;25% QoQ) is not met. It is worth watching only if Friar puts a number on safety or compute spend that changes the cash-burn picture.
-
-影响:
-CFO 上镜谈某类支出，主要是讲故事，不算压力数据。采访没有披露 burn rate、资金缺口或成本超支，所以没达到 C3 的 HIGH 触发条件（burn-rate 指标环比涨超 25%）。只有当 Friar 给安全或算力支出报出具体数字、而且改变了烧钱节奏的判断时，才值得跟进。
-</pre>
-  <button class="mark-read" type="button" data-id="4840">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>5030</td>
-<td>2026-10-22 07:05:29 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>5031</td>
+<td>2026-10-22 07:53:03 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
-<td>2026-10-15 07:53:02 UTC</td></tr>
+<td>2026-10-22 07:53:03 UTC</td></tr>
 
 <tr><td><code>c10_signals</code></td><td>113</td>
 <td>2026-10-20 21:29:14 UTC</td></tr>
