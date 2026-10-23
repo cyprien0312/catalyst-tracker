@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792734062,
-  "generated_at_str": "2026-10-23 05:41:02 UTC",
-  "last_event_ts": 1792733706,
+  "generated_at": 1792734262,
+  "generated_at_str": "2026-10-23 05:44:22 UTC",
+  "last_event_ts": 1792734262,
   "tables": {
     "alerts_dedup": {
-      "count": 5063,
-      "last_ts": 1792723454,
-      "last_str": "2026-10-23 02:44:14 UTC"
+      "count": 5064,
+      "last_ts": 1792734262,
+      "last_str": "2026-10-23 05:44:22 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -74,9 +74,9 @@
       "last_str": "2026-10-22 22:00:32 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 7311,
-      "last_ts": 1792732446,
-      "last_str": "2026-10-23 05:14:06 UTC"
+      "count": 7313,
+      "last_ts": 1792734249,
+      "last_str": "2026-10-23 05:44:09 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1708,
@@ -104,9 +104,9 @@
       "last_str": "2026-10-23 05:35:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 42899,
-      "last_ts": 1792730642,
-      "last_str": "2026-10-23 04:44:02 UTC"
+      "count": 42903,
+      "last_ts": 1792734248,
+      "last_str": "2026-10-23 05:44:08 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 14754,
@@ -329,6 +329,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5071,
+      "ts": 1792734262,
+      "ts_str": "2026-10-23 05:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Why is OpenAI lowering its valuation to $1.25 trn ahead of potential IPO? - Business Standard",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 23 Oct 2026 04:22:04 GMT\nLink:      https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaXJKX0VKeUZUZTJTXzdWTHhRODhSZW52RUJHdk5sd1ZIbTBWbkdoZVpTSHpZYzdodlQ2LUVjd2tmVWxTejA1VnJpdEw2V25MOXNTa29yTU9DTzlNNGZKSmhONWRIcWJqS0JvN2o2MHNvR3dPX0tRZ0hpeG00VDlSaURSWXgyNUNQSkxWV2FwLWZvdmpMdzlmbUZMWmdPSmNYSnVUekJkSm9wVGJ2ajFuVVBsZjNDamxTNEN1VExtWmpUbU82U2tkM0tKbXE4OUlRcWVPNHZXSTBtQWdpaVF2aVBBel9pcVUwSzA2NW5Fdm1hZ9IB9wFBVV95cUxOb0ZQajNmaWhDN0lWcjdNX0Z5NlUxZ3ZUdm1sY1FrSXZRdVFwZlduZUpIcHZWY2laaFVfa1o1WkFhYWFoa2puaHhYMFZpa0ZjVjNBZVVVSjZUZWVSLXhNMlRmSTFFX3VBd0ZFSzc1bG5vdlQwMzROUDlNZXp4LTctUUQtMjVDbzRkdEZhc3dHQUZMVDYwT0ZsZmdidUZBRzEtdnh0QmMzQ3BEM0hyWXlIejlRbDFBUVA3dFNpbGpTdF9CMU1qcWRjM3RvQy1NSWt6cXF0cWhGV2tIbnRyYkJoSjhwS1V5SmZXVm5GNGVicnB2NDlhY29r?oc=5\n\nWhy is OpenAI lowering its valuation to $1.25 trn ahead of potential IPO? - Business Standard\n\n<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaXJKX0VKeUZUZTJTXzdWTHhRODhSZW52RUJHdk5sd1ZIbTBWbkdoZVpTSHpZYzdodlQ2LUVjd2tmVWxTejA1VnJpdEw2V25MOXNTa29yTU9DTzlNNGZKSmhONWRIcWJqS0JvN2o2MHNvR3dPX0tRZ0hpeG00VDlSaURSWXgyNUNQSkxWV2FwLWZvdmpMdzlmbUZMWmdPSmNYSnVUekJkSm9wVGJ2ajFuVVBsZjNDamxTNEN1VExtWmpUbU82U2tkM0tKbXE4OUlRcWVPNHZXSTBtQWdpaVF2aVBBel9pcVUwSzA2NW5Fdm1hZ9IB9wFBVV95cUxOb0ZQajNmaWhDN0lWcjdNX0Z5NlUxZ3ZUdm1sY1FrSXZRdVFwZlduZUpIcHZWY2laaFVfa1o1WkFhYWFoa2puaHhYMFZpa0ZjVjNBZVVVSjZUZWVSLXhNMlRmSTFFX3VBd0ZFSzc1bG5vdlQwMzROUDlNZXp4LTctUUQtMjVDbzRkdEZhc3dHQUZMVDYwT0ZsZmdidUZBRzEtdnh0QmMzQ3BEM0hyWXlIejlRbDFBUVA3dFNpbGpTdF9CMU1qcWRjM3RvQy1NSWt6cXF0cWhGV2tIbnRyYkJoSjhwS1V5SmZXVm5GNGVicnB2NDlhY29r?oc=5\" target=\"_blank\">Why is OpenAI lowering its valuation to $1.25 trn ahead of potential IPO?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline asks why OpenAI is lowering its valuation to $1.25 trillion ahead of a potential IPO. The snippet gives no prior valuation, no source and no burn-rate figures.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u95ee\uff1aOpenAI \u4e3a\u4ec0\u4e48\u5728\u53ef\u80fd\u7684 IPO \u4e4b\u524d\u628a\u4f30\u503c\u964d\u5230 $1.25 trn\uff1f\u6458\u8981\u91cc\u6ca1\u6709\u4e4b\u524d\u7684\u4f30\u503c\u3001\u6ca1\u6709\u6d88\u606f\u6765\u6e90\uff0c\u4e5f\u6ca1\u6709\u70e7\u94b1\u6570\u636e\u3002\n\nWhy it matters:\nOpenAI is the biggest single buyer behind much of the announced AI-capex pipeline. A valuation cut before an IPO means private investors are pricing less upside, and that makes it harder for OpenAI to keep funding its compute commitments with new equity. This is a MED headline, not a filing. It turns into a stress signal if the cut is confirmed or comes with weaker revenue or burn numbers.\n\n\u5f71\u54cd:\nOpenAI \u662f\u5927\u91cf\u5df2\u516c\u5e03 AI capex \u80cc\u540e\u6700\u5927\u7684\u5355\u4e00\u4e70\u5bb6\u3002IPO \u524d\u964d\u4f30\u503c\uff0c\u8bf4\u660e\u79c1\u52df\u6295\u8d44\u4eba\u7ed9\u7684\u4e0a\u884c\u7a7a\u95f4\u53d8\u5c0f\u4e86\uff0cOpenAI \u9760\u53d1\u65b0\u80a1\u7ed9\u7b97\u529b\u5408\u540c\u7eed\u547d\u4f1a\u66f4\u96be\u3002\u8fd9\u6761\u53ea\u662f MED \u7ea7\u7684\u65b0\u95fb\u6807\u9898\uff0c\u4e0d\u662f filing\u3002\u5982\u679c\u964d\u4f30\u503c\u88ab\u8bc1\u5b9e\uff0c\u6216\u8005\u540c\u65f6\u51fa\u73b0\u66f4\u5dee\u7684\u6536\u5165\u3001\u70e7\u94b1\u6570\u636e\uff0c\u624d\u7b97\u771f\u6b63\u7684\u538b\u529b\u4fe1\u53f7\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5070,
       "ts": 1792723454,
@@ -2317,16 +2327,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 01:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\n\nYang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\" target=\"_blank\">Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA commentary piece by Yang Yige says Micron has overtaken SK Hynix on the back of a \"legacy DRAM price surge,\" and argues the real test is HBM4E.\n\n\u5185\u5bb9:\n\u6768\u4e00\u6208\u7684\u8bc4\u8bba\u6587\u7ae0\u79f0\uff0cMicron \u51ed\u300c\u4f20\u7edf DRAM \u6da8\u4ef7\u300d\u8d85\u8fc7\u4e86 SK Hynix\uff0c\u5e76\u8ba4\u4e3a\u771f\u6b63\u7684\u8003\u9a8c\u5728 HBM4E\u3002\n\nWhy it matters:\nThis is a shortage-side signal: legacy DRAM prices are rising, not collapsing. That points to tight supply, not an AI-driven memory glut. It eases the bubble-stress thesis for now. The risk sits in HBM4E: if next-gen HBM supply ramps ahead of AI accelerator demand, that is where oversupply would show up first.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4f9b\u7ed9\u504f\u7d27\u7684\u4fe1\u53f7\uff1a\u4f20\u7edf DRAM \u5728\u6da8\u4ef7\uff0c\u6ca1\u6709\u5d29\u3002\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\uff0c\u4e0d\u662f AI \u5e26\u6765\u7684\u5185\u5b58\u8fc7\u5269\uff0c\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u6682\u65f6\u504f\u5229\u597d\u3002\u98ce\u9669\u5728 HBM4E\uff1a\u5982\u679c\u4e0b\u4e00\u4ee3 HBM \u7684\u4ea7\u80fd\u8dd1\u5728 AI \u52a0\u901f\u5668\u9700\u6c42\u524d\u9762\uff0c\u8fc7\u5269\u4f1a\u6700\u5148\u5728\u90a3\u91cc\u51fa\u73b0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4871,
-      "ts": 1792136128,
-      "ts_str": "2026-10-16 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 01:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\n\nYang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\" target=\"_blank\">Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA commentary piece by Yang Yige says Micron has overtaken SK Hynix on the back of a \"legacy DRAM price surge,\" and argues the real test is HBM4E.\n\n\u5185\u5bb9:\n\u6768\u4e00\u6208\u7684\u8bc4\u8bba\u6587\u7ae0\u79f0\uff0cMicron \u51ed\u300c\u4f20\u7edf DRAM \u6da8\u4ef7\u300d\u8d85\u8fc7\u4e86 SK Hynix\uff0c\u5e76\u8ba4\u4e3a\u771f\u6b63\u7684\u8003\u9a8c\u5728 HBM4E\u3002\n\nWhy it matters:\nThis is a shortage-side signal: legacy DRAM prices are rising, not collapsing. That points to tight supply, not an AI-driven memory glut. It eases the bubble-stress thesis for now. The risk sits in HBM4E: if next-gen HBM supply ramps ahead of AI accelerator demand, that is where oversupply would show up first.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4f9b\u7ed9\u504f\u7d27\u7684\u4fe1\u53f7\uff1a\u4f20\u7edf DRAM \u5728\u6da8\u4ef7\uff0c\u6ca1\u6709\u5d29\u3002\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\uff0c\u4e0d\u662f AI \u5e26\u6765\u7684\u5185\u5b58\u8fc7\u5269\uff0c\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u6682\u65f6\u504f\u5229\u597d\u3002\u98ce\u9669\u5728 HBM4E\uff1a\u5982\u679c\u4e0b\u4e00\u4ee3 HBM \u7684\u4ea7\u80fd\u8dd1\u5728 AI \u52a0\u901f\u5668\u9700\u6c42\u524d\u9762\uff0c\u8fc7\u5269\u4f1a\u6700\u5148\u5728\u90a3\u91cc\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
