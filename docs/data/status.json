@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792764484,
-  "generated_at_str": "2026-10-23 14:08:04 UTC",
-  "last_event_ts": 1792764317,
+  "generated_at": 1792764674,
+  "generated_at_str": "2026-10-23 14:11:14 UTC",
+  "last_event_ts": 1792764673,
   "tables": {
     "alerts_dedup": {
-      "count": 5075,
-      "last_ts": 1792764317,
-      "last_str": "2026-10-23 14:05:17 UTC"
+      "count": 5076,
+      "last_ts": 1792764673,
+      "last_str": "2026-10-23 14:11:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -62,6 +62,11 @@
       "count": 3,
       "last_ts": 1790808971,
       "last_str": "2026-09-30 22:56:11 UTC"
+    },
+    "c7_signals": {
+      "count": 1,
+      "last_ts": 1792764661,
+      "last_str": "2026-10-23 14:11:01 UTC"
     },
     "c8_signals": {
       "count": 14,
@@ -329,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5083,
+      "ts": 1792764673,
+      "ts_str": "2026-10-23 14:11 UTC",
+      "catalyst": "C7",
+      "severity": "MED",
+      "subject": "[C7-MED] High-Yield OAS widening: 340bp (+80bp off low)",
+      "body": "Series:   HY (BAMLH0A0HYM2)\nDate:     2026-10-22\nCurrent:  340 bp\n90d low:  260 bp\nWidened:  +80 bp\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nICE BofA US High-Yield OAS widened to 340bp on 2026-10-22, 80bp above its trailing-90-day low of 260bp. That crosses C7's 75bp widening trigger.\n\n\u5185\u5bb9:\nICE BofA \u7f8e\u56fd\u9ad8\u6536\u76ca\u503a OAS \u5728 2026-10-22 \u8d70\u9614\u5230 340bp\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u7684\u4f4e\u70b9 260bp \u9ad8\u4e86 80bp\uff0c\u8d8a\u8fc7\u4e86 C7 \u7684 75bp \u8d70\u9614\u89e6\u53d1\u7ebf\u3002\n\nWhy it matters:\nCredit is a fuse in this tracker, and it moves before equities do. An 80bp move off the low means lenders are demanding more to fund risky borrowers, and leveraged AI-capex builders and neoclouds depend on that money. The level is still below the 400bp absolute line, so this is early repricing, not a full credit stress. It does flip the buy plan toward Regime B. [src: https://github.com/cyprien0312/catalyst-tracker/blob/main/docs/source-spec.md#c7-credit-market-stress]\n\n\u5f71\u54cd:\n\u5728\u8fd9\u5957\u8ffd\u8e2a\u91cc\uff0c\u4fe1\u7528\u5229\u5dee\u662f\u4fdd\u9669\u4e1d\uff0c\u901a\u5e38\u6bd4\u80a1\u7968\u5148\u52a8\u3002\u4ece\u4f4e\u70b9\u8d70\u9614 80bp\uff0c\u8bf4\u660e\u5e02\u573a\u7ed9\u9ad8\u98ce\u9669\u501f\u6b3e\u4eba\u653e\u8d37\u65f6\u5f00\u59cb\u8981\u66f4\u9ad8\u7684\u5229\u606f\uff0c\u800c\u9760\u6760\u6746\u6269 AI capex \u7684\u516c\u53f8\u548c neocloud \u6b63\u5403\u8fd9\u53e3\u996d\u3002340bp \u8fd8\u6ca1\u5230 400bp \u7684\u7edd\u5bf9\u7ebf\uff0c\u6240\u4ee5\u8fd9\u662f\u91cd\u65b0\u5b9a\u4ef7\u7684\u65e9\u671f\uff0c\u8fd8\u4e0d\u662f\u5168\u9762\u7684\u4fe1\u7528\u5371\u673a\u3002\u4f46\u5b83\u4f1a\u628a buy plan \u63a8\u5411 Regime B\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5082,
       "ts": 1792764317,
@@ -2317,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C11-MED] SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 20:35:15 GMT\nLink:      https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYVlVQ0I1eDlzaXUxX2V4Wlc4WjJ3blR1M1ZsSlJWRzZpM2dyZzM1X28xODlvV3BhcFJLNFBoSXlpeDhEN2g1d3VXZUJMTTlNblhaYmNNRVFlYk9nR1lURXVpVlFsQWlNTGI3RHVLdm9fVml1Sy1BT0NiR002dDl6cWhZdndOdDBBNWpFWlQ0cThXamZSeVhMVWdFSVdtRXlEYWstcDJMdE5kWW5ORGlsWlgzOVpnTmE2bk5v?oc=5\n\nSpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYVlVQ0I1eDlzaXUxX2V4Wlc4WjJ3blR1M1ZsSlJWRzZpM2dyZzM1X28xODlvV3BhcFJLNFBoSXlpeDhEN2g1d3VXZUJMTTlNblhaYmNNRVFlYk9nR1lURXVpVlFsQWlNTGI3RHVLdm9fVml1Sy1BT0NiR002dDl6cWhZdndOdDBBNWpFWlQ0cThXamZSeVhMVWdFSVdtRXlEYWstcDJMdE5kWW5ORGlsWlgzOVpnTmE2bk5v?oc=5\" target=\"_blank\">SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares fell 1.94% on the day even though Evercore set a $275 price target; the headline was tagged C11_INDEX_FLOW.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u5f53\u65e5\u4e0b\u8dcc 1.94%\uff0cEvercore \u540c\u65f6\u7ed9\u51fa $275 \u76ee\u6807\u4ef7\uff1b\u8fd9\u6761\u6807\u9898\u88ab\u5f52\u5165 C11_INDEX_FLOW\u3002\n\nWhy it matters:\nA one-day 1.94% move and a sell-side price target are not index-inclusion or passive-flow events, so this is close to noise for the unlock/passive-flow thesis. It only matters if the weakness keeps building into a lock-up tranche date or an ETF rebalance, because that would show passive demand failing to absorb new supply.\n\n\u5f71\u54cd:\n\u5355\u65e5\u8dcc 1.94% \u52a0\u4e00\u4e2a\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u65e2\u4e0d\u662f\u7eb3\u5165\u6307\u6570\uff0c\u4e5f\u4e0d\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\uff0c\u5bf9\u89e3\u7981\u548c\u88ab\u52a8\u8d44\u91d1\u8fd9\u6761\u903b\u8f91\u6765\u8bf4\u57fa\u672c\u662f\u566a\u97f3\u3002\u53ea\u6709\u8dcc\u52bf\u4e00\u8def\u5ef6\u7eed\u5230\u67d0\u4e2a lock-up \u89e3\u7981\u65e5\u6216 ETF \u8c03\u4ed3\u65f6\u624d\u503c\u5f97\u770b\uff0c\u90a3\u8bf4\u660e\u88ab\u52a8\u4e70\u76d8\u5df2\u7ecf\u63a5\u4e0d\u4f4f\u65b0\u589e\u7684\u4f9b\u7ed9\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4883,
-      "ts": 1792187234,
-      "ts_str": "2026-10-16 21:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target - Yahoo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 20:35:15 GMT\nLink:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUN6d0F5MWtIU1JySlZSN0VJUEtFZ0VLeEJQbm16QVJJOTVWZ3lNeUl4UENYekRibVRka2k3QkVXZWhsSDVUaFk3MVV5NUVBMkR2YWVUMW16c21vS0dSSnNPMzhWdVUxT1lrN0ZHNGFaSHlScmpJcUV6ZG1hSXlibEZnOG5ONGNqY0NEZTh2cmdFZw?oc=5\n\nSpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target - Yahoo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUN6d0F5MWtIU1JySlZSN0VJUEtFZ0VLeEJQbm16QVJJOTVWZ3lNeUl4UENYekRibVRka2k3QkVXZWhsSDVUaFk3MVV5NUVBMkR2YWVUMW16c21vS0dSSnNPMzhWdVUxT1lrN0ZHNGFaSHlScmpJcUV6ZG1hSXlibEZnOG5ONGNqY0NEZTh2cmdFZw?oc=5\" target=\"_blank\">SpaceX Stocks Fall 1.94% Despite Evercore's $275 Price Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSpaceX shares fell 1.94% on the day even though Evercore set a $275 price target; the headline was tagged C11_INDEX_FLOW.\n\n\u5185\u5bb9:\nSpaceX \u80a1\u4ef7\u5f53\u65e5\u4e0b\u8dcc 1.94%\uff0cEvercore \u540c\u65f6\u7ed9\u51fa $275 \u76ee\u6807\u4ef7\uff1b\u8fd9\u6761\u6807\u9898\u88ab\u5f52\u5165 C11_INDEX_FLOW\u3002\n\nWhy it matters:\nA one-day 1.94% move and a sell-side price target are not index-inclusion or passive-flow events, so this is close to noise for the unlock/passive-flow thesis. It only matters if the weakness keeps building into a lock-up tranche date or an ETF rebalance, because that would show passive demand failing to absorb new supply.\n\n\u5f71\u54cd:\n\u5355\u65e5\u8dcc 1.94% \u52a0\u4e00\u4e2a\u5356\u65b9\u76ee\u6807\u4ef7\uff0c\u65e2\u4e0d\u662f\u7eb3\u5165\u6307\u6570\uff0c\u4e5f\u4e0d\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u52a8\uff0c\u5bf9\u89e3\u7981\u548c\u88ab\u52a8\u8d44\u91d1\u8fd9\u6761\u903b\u8f91\u6765\u8bf4\u57fa\u672c\u662f\u566a\u97f3\u3002\u53ea\u6709\u8dcc\u52bf\u4e00\u8def\u5ef6\u7eed\u5230\u67d0\u4e2a lock-up \u89e3\u7981\u65e5\u6216 ETF \u8c03\u4ed3\u65f6\u624d\u503c\u5f97\u770b\uff0c\u90a3\u8bf4\u660e\u88ab\u52a8\u4e70\u76d8\u5df2\u7ecf\u63a5\u4e0d\u4f4f\u65b0\u589e\u7684\u4f9b\u7ed9\u3002\n",
       "emailed": false
     }
   ],

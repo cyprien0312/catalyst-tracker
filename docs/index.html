@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-23 14:08:04 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-23 14:11:14 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,35 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="5083" data-catalyst="C7" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C7</code>
+    <span class="subj">[C7-MED] High-Yield OAS widening: 340bp (+80bp off low)</span>
+    <span class="meta">2026-10-23 14:11 UTC · muted</span>
+  </summary>
+  <pre>Series:   HY (BAMLH0A0HYM2)
+Date:     2026-10-22
+Current:  340 bp
+90d low:  260 bp
+Widened:  +80 bp
+
+────────────────────────────────────────────────────────────
+What this means:
+ICE BofA US High-Yield OAS widened to 340bp on 2026-10-22, 80bp above its trailing-90-day low of 260bp. That crosses C7&#39;s 75bp widening trigger.
+
+内容:
+ICE BofA 美国高收益债 OAS 在 2026-10-22 走阔到 340bp，比过去 90 天的低点 260bp 高了 80bp，越过了 C7 的 75bp 走阔触发线。
+
+Why it matters:
+Credit is a fuse in this tracker, and it moves before equities do. An 80bp move off the low means lenders are demanding more to fund risky borrowers, and leveraged AI-capex builders and neoclouds depend on that money. The level is still below the 400bp absolute line, so this is early repricing, not a full credit stress. It does flip the buy plan toward Regime B. [src: https://github.com/cyprien0312/catalyst-tracker/blob/main/docs/source-spec.md#c7-credit-market-stress]
+
+影响:
+在这套追踪里，信用利差是保险丝，通常比股票先动。从低点走阔 80bp，说明市场给高风险借款人放贷时开始要更高的利息，而靠杠杆扩 AI capex 的公司和 neocloud 正吃这口饭。340bp 还没到 400bp 的绝对线，所以这是重新定价的早期，还不是全面的信用危机。但它会把 buy plan 推向 Regime B。
+</pre>
+  <button class="mark-read" type="button" data-id="5083">mark read</button>
+</details>
 
 <details class="alert sev-HIGH" data-id="5082" data-catalyst="C6" data-severity="HIGH">
   <summary>
@@ -6467,46 +6496,14 @@ A one-day 1.94% move and a sell-side price target are not index-inclusion or pas
   <button class="mark-read" type="button" data-id="4884">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4883" data-catalyst="C11" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C11</code>
-    <span class="subj">[C11-MED] SpaceX Stocks Fall 1.94% Despite Evercore&#39;s $275 Price Target - Yahoo Finance</span>
-    <span class="meta">2026-10-16 21:47 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Fri, 16 Oct 2026 20:35:15 GMT
-Link:      https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUN6d0F5MWtIU1JySlZSN0VJUEtFZ0VLeEJQbm16QVJJOTVWZ3lNeUl4UENYekRibVRka2k3QkVXZWhsSDVUaFk3MVV5NUVBMkR2YWVUMW16c21vS0dSSnNPMzhWdVUxT1lrN0ZHNGFaSHlScmpJcUV6ZG1hSXlibEZnOG5ONGNqY0NEZTh2cmdFZw?oc=5
-
-SpaceX Stocks Fall 1.94% Despite Evercore&#39;s $275 Price Target - Yahoo Finance
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUN6d0F5MWtIU1JySlZSN0VJUEtFZ0VLeEJQbm16QVJJOTVWZ3lNeUl4UENYekRibVRka2k3QkVXZWhsSDVUaFk3MVV5NUVBMkR2YWVUMW16c21vS0dSSnNPMzhWdVUxT1lrN0ZHNGFaSHlScmpJcUV6ZG1hSXlibEZnOG5ONGNqY0NEZTh2cmdFZw?oc=5&#34; target=&#34;_blank&#34;&gt;SpaceX Stocks Fall 1.94% Despite Evercore&#39;s $275 Price Target&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Yahoo Finance&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-SpaceX shares fell 1.94% on the day even though Evercore set a $275 price target; the headline was tagged C11_INDEX_FLOW.
-
-内容:
-SpaceX 股价当日下跌 1.94%，Evercore 同时给出 $275 目标价；这条标题被归入 C11_INDEX_FLOW。
-
-Why it matters:
-A one-day 1.94% move and a sell-side price target are not index-inclusion or passive-flow events, so this is close to noise for the unlock/passive-flow thesis. It only matters if the weakness keeps building into a lock-up tranche date or an ETF rebalance, because that would show passive demand failing to absorb new supply.
-
-影响:
-单日跌 1.94% 加一个卖方目标价，既不是纳入指数，也不是被动资金流动，对解禁和被动资金这条逻辑来说基本是噪音。只有跌势一路延续到某个 lock-up 解禁日或 ETF 调仓时才值得看，那说明被动买盘已经接不住新增的供给。
-</pre>
-  <button class="mark-read" type="button" data-id="4883">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>5075</td>
-<td>2026-10-23 14:05:17 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>5076</td>
+<td>2026-10-23 14:11:13 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-10-23 13:53:02 UTC</td></tr>
@@ -6540,6 +6537,9 @@ A one-day 1.94% move and a sell-side price target are not index-inclusion or pas
 
 <tr><td><code>c5_signals</code></td><td>3</td>
 <td>2026-09-30 22:56:11 UTC</td></tr>
+
+<tr><td><code>c7_signals</code></td><td>1</td>
+<td>2026-10-23 14:11:01 UTC</td></tr>
 
 <tr><td><code>c8_signals</code></td><td>14</td>
 <td>2026-10-14 20:17:13 UTC</td></tr>
