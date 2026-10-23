@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792790779,
-  "generated_at_str": "2026-10-23 21:26:19 UTC",
-  "last_event_ts": 1792790044,
+  "generated_at": 1792790962,
+  "generated_at_str": "2026-10-23 21:29:22 UTC",
+  "last_event_ts": 1792790962,
   "tables": {
     "alerts_dedup": {
-      "count": 5085,
-      "last_ts": 1792787723,
-      "last_str": "2026-10-23 20:35:23 UTC"
+      "count": 5087,
+      "last_ts": 1792790962,
+      "last_str": "2026-10-23 21:29:22 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -14,9 +14,9 @@
       "last_str": "2026-10-23 13:53:02 UTC"
     },
     "c10_signals": {
-      "count": 115,
-      "last_ts": 1792704553,
-      "last_str": "2026-10-22 21:29:13 UTC"
+      "count": 117,
+      "last_ts": 1792790952,
+      "last_str": "2026-10-23 21:29:12 UTC"
     },
     "c11_etf_diff": {
       "count": 2,
@@ -334,6 +334,26 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5093,
+      "ts": 1792790962,
+      "ts_str": "2026-10-23 21:29 UTC",
+      "catalyst": "C10",
+      "severity": "MED",
+      "subject": "[C10-MED] 10y Real Yield rising: 2.64% (+50bp off 90d-low)",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-10-22\nCurrent:  2.64%\n90d low:  2.14%\nMove:     +50bp off 90d-low (fire \u2265 +40bp)\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year real (TIPS) yield rose to 2.64% on 2026-10-22, up 0.50 pp from its trailing-90-day low of 2.14%.\n\n\u5185\u5bb9:\n10 \u5e74\u671f\u5b9e\u9645\u6536\u76ca\u7387\uff08TIPS\uff09\u5728 2026-10-22 \u5347\u81f3 2.64%\uff0c\u6bd4\u8fd1 90 \u5929\u4f4e\u70b9 2.14% \u9ad8\u51fa 0.50 pp\u3002\n\nWhy it matters:\nA higher real yield raises the discount rate on long-duration AI-capex payoffs and makes debt-funded data-center buildouts more expensive. It also tightens financial conditions for the neoclouds and hyperscalers whose spending depends on cheap capital, so the bubble has less room for error.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u4e0a\u5347\uff0cAI capex \u8fd9\u7c7b\u56de\u62a5\u5468\u671f\u5f88\u957f\u7684\u6295\u5165\u6298\u73b0\u7387\u8ddf\u7740\u4e0a\u5347\uff0c\u9760\u4e3e\u503a\u5efa\u6570\u636e\u4e2d\u5fc3\u7684\u6210\u672c\u4e5f\u53d8\u9ad8\u3002neocloud \u548c\u8d85\u5927\u89c4\u6a21\u5382\u5546\u7684\u6269\u5f20\u9760\u4fbf\u5b9c\u8d44\u91d1\u6491\u7740\uff0c\u878d\u8d44\u73af\u5883\u4e00\u6536\u7d27\uff0c\u6ce1\u6cab\u80fd\u627f\u53d7\u7684\u5931\u8bef\u7a7a\u95f4\u5c31\u66f4\u5c0f\u3002\n",
+      "emailed": false
+    },
+    {
+      "id": 5094,
+      "ts": 1792790962,
+      "ts_str": "2026-10-23 21:29 UTC",
+      "catalyst": "C10",
+      "severity": "HIGH",
+      "subject": "[C10-HIGH] 10y Real Yield restrictive: 2.64% \u2265 2.50%",
+      "body": "Series:   REAL10 (DFII10)\nDate:     2026-10-22\nCurrent:  2.64%\nStress \u2265: 2.50%\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nThe 10-year TIPS real yield (REAL10) printed 2.64% on 2026-10-22, above the 2.5% stress level.\n\n\u5185\u5bb9:\n10 \u5e74\u671f TIPS \u5b9e\u9645\u6536\u76ca\u7387 (REAL10) \u5728 2026-10-22 \u62a5 2.64%\uff0c\u9ad8\u4e8e 2.5% \u7684\u538b\u529b\u7ebf\u3002\n\nWhy it matters:\nReal yields this high raise the discount rate on long-duration AI earnings and tighten financing for debt-funded capex. Liquidity is working against the AI-infrastructure build-out instead of supporting it.\n\n\u5f71\u54cd:\n\u5b9e\u9645\u6536\u76ca\u7387\u5230\u8fd9\u4e2a\u6c34\u5e73\uff0c\u8fdc\u671f AI \u76c8\u5229\u7684\u6298\u73b0\u7387\u88ab\u62ac\u9ad8\uff0c\u9760\u4e3e\u503a\u6491\u8d77\u7684\u8d44\u672c\u5f00\u652f\u878d\u8d44\u4e5f\u66f4\u7d27\u3002\u6d41\u52a8\u6027\u5728\u62d6\u7d2f AI \u57fa\u7840\u8bbe\u65bd\u6269\u5f20\uff0c\u800c\u4e0d\u662f\u7ed9\u5b83\u6258\u5e95\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5092,
       "ts": 1792787723,
@@ -2312,26 +2332,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI and Anthropic pre-IPO futures diverge as CoreWeave shares hit one-year low - Pluang",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 17 Oct 2026 00:34:51 GMT\nLink:      https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRGVQMmhlZ29vTHJtMEpTRWduOE5NSW9YMG1NYmF2SG9wNVotWk5Kd1paQTlaZjVCbDhwRzBfQjFkdEd6bG9PMzhPczFnbWF2cWtCamFLSGtEclNHUnN1dUoybGgxZnFiOGhMSU44SFk5Rld4WVdQcmF6VGVhQmxOMFZxNFpHT2lmbU45SEQyYmtLcWFZOV9LVkVVbWp6RTlFVHplN2IxdTk?oc=5\n\nOpenAI and Anthropic pre-IPO futures diverge as CoreWeave shares hit one-year low - Pluang\n\n<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRGVQMmhlZ29vTHJtMEpTRWduOE5NSW9YMG1NYmF2SG9wNVotWk5Kd1paQTlaZjVCbDhwRzBfQjFkdEd6bG9PMzhPczFnbWF2cWtCamFLSGtEclNHUnN1dUoybGgxZnFiOGhMSU44SFk5Rld4WVdQcmF6VGVhQmxOMFZxNFpHT2lmbU45SEQyYmtLcWFZOV9LVkVVbWp6RTlFVHplN2IxdTk?oc=5\" target=\"_blank\">OpenAI and Anthropic pre-IPO futures diverge as CoreWeave shares hit one-year low</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pluang</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that pre-IPO futures on OpenAI and Anthropic are moving in opposite directions, while CoreWeave (CRWV) shares have fallen to a one-year low.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u79f0 OpenAI \u548c Anthropic \u7684 pre-IPO \u671f\u8d27\u8d70\u52bf\u76f8\u53cd\uff0c\u540c\u65f6 CoreWeave (CRWV) \u80a1\u4ef7\u8dcc\u5230\u4e00\u5e74\u65b0\u4f4e\u3002\n\nWhy it matters:\nA split in pre-IPO futures means the market has stopped valuing every frontier lab the same way and is now judging each one's funding and burn on its own. CoreWeave hitting a one-year low at the same time shows stress in the neocloud layer, which depends on OpenAI-scale demand. That ties C3 to the C2 neocloud fuse. This is only a MED news item for now: the snippet gives no price levels or size of the gap.\n\n\u5f71\u54cd:\npre-IPO \u671f\u8d27\u8d70\u52bf\u5206\u5f00\uff0c\u8bf4\u660e\u5e02\u573a\u4e0d\u518d\u7ed9\u6240\u6709\u5934\u90e8\u5927\u6a21\u578b\u516c\u53f8\u540c\u4e00\u4e2a\u4f30\u503c\uff0c\u5f00\u59cb\u5206\u522b\u770b\u5404\u5bb6\u7684\u878d\u8d44\u548c\u70e7\u94b1\u60c5\u51b5\u3002CoreWeave \u540c\u65f6\u8dcc\u5230\u4e00\u5e74\u4f4e\u70b9\uff0c\u8bf4\u660e\u9760 OpenAI \u8fd9\u7c7b\u5927\u5ba2\u6237\u9700\u6c42\u6491\u7740\u7684 neocloud \u4e5f\u5728\u627f\u538b\uff0c\u8fd9\u5c31\u628a C3 \u548c C2 \u7684 neocloud \u4fdd\u9669\u4e1d\u8fde\u5230\u4e86\u4e00\u8d77\u3002\u76ee\u524d\u53ea\u662f MED \u7ea7\u65b0\u95fb\uff1a\u7247\u6bb5\u91cc\u6ca1\u6709\u5177\u4f53\u4ef7\u683c\uff0c\u4e5f\u6ca1\u8bf4\u5dee\u8ddd\u591a\u5927\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4894,
-      "ts": 1792248424,
-      "ts_str": "2026-10-17 14:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SpaceX Balances Pentagon Payloads, an $8 Billion Spectrum Bet and a Fresh $275 Price Target - ad-hoc-news.de",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sat, 17 Oct 2026 10:30:53 GMT\nLink:      https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZkhHVS0wUkVpOV81RUVBeTRzOHV3c3pFM0RzSldEY1lrMlM5MnR5QjNSNVJzSEFVb3pNMGo1WkJXeERNVlNST2dEMkZtUS12STJrOHNUUlVFOFRpUXlNUDQzcnFzX1BZSV9MSk0tYWdJWkdBS0dKcktVdWZsWTZKZkFoRElWX211U1NVV2JBS3ZmYWZvTlZxZ2VBRXpwMlpyZjh5b3lNbFpScG1Fb3c3ekhDVTU4bXRURVdsTXhHdHRQVkNzaVpydDRENmR1T3FHampzUnRXN3E5SHFHR3lJemd1RVFJVi13ek5GMmlHay04QQ?oc=5\n\nSpaceX Balances Pentagon Payloads, an $8 Billion Spectrum Bet and a Fresh $275 Price Target - ad-hoc-news.de\n\n<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZkhHVS0wUkVpOV81RUVBeTRzOHV3c3pFM0RzSldEY1lrMlM5MnR5QjNSNVJzSEFVb3pNMGo1WkJXeERNVlNST2dEMkZtUS12STJrOHNUUlVFOFRpUXlNUDQzcnFzX1BZSV9MSk0tYWdJWkdBS0dKcktVdWZsWTZKZkFoRElWX211U1NVV2JBS3ZmYWZvTlZxZ2VBRXpwMlpyZjh5b3lNbFpScG1Fb3c3ekhDVTU4bXRURVdsTXhHdHRQVkNzaVpydDRENmR1T3FHampzUnRXN3E5SHFHR3lJemd1RVFJVi13ek5GMmlHay04QQ?oc=5\" target=\"_blank\">SpaceX Balances Pentagon Payloads, an $8 Billion Spectrum Bet and a Fresh $275 Price Target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ad-hoc-news.de</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item (ad-hoc-news.de) covered SpaceX's Pentagon launch work, an $8 billion spectrum purchase and a new $275 analyst price target. It reports no index inclusion, ETF rebalance or lock-up event.\n\n\u5185\u5bb9:\n\u4e00\u6761 ad-hoc-news.de \u7684\u65b0\u95fb\u62a5\u9053\u4e86 SpaceX \u7684 Pentagon \u53d1\u5c04\u4e1a\u52a1\u3001$8B \u7684\u9891\u8c31\u6536\u8d2d\uff0c\u4ee5\u53ca\u4e00\u4e2a\u65b0\u7684 $275 \u5206\u6790\u5e08\u76ee\u6807\u4ef7\u3002\u6587\u4e2d\u6ca1\u6709\u63d0\u5230\u7eb3\u5165\u6307\u6570\u3001ETF \u8c03\u4ed3\u6216\u89e3\u7981\u4e8b\u4ef6\u3002\n\nWhy it matters:\nThis is sell-side coverage, not a passive-flow mechanic. A fresh price target matters only as sentiment that can draw retail and active money ahead of unlock tranches. An $8B spectrum bet is a large capital commitment that raises the bar for Starlink cash generation to justify the valuation. Treat it as background noise for the C11 index-flow thesis, not a trigger.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5356\u65b9\u7814\u62a5\u7c7b\u62a5\u9053\uff0c\u4e0d\u662f\u88ab\u52a8\u8d44\u91d1\u6d41\u7684\u673a\u5236\u6027\u4e8b\u4ef6\u3002\u65b0\u76ee\u6807\u4ef7\u7684\u4f5c\u7528\u53ea\u662f\u60c5\u7eea\u9762\uff1a\u5728\u89e3\u7981\u6279\u6b21\u5230\u6765\u524d\u5438\u5f15\u6563\u6237\u548c\u4e3b\u52a8\u8d44\u91d1\u3002$8B \u7684\u9891\u8c31\u6295\u5165\u662f\u4e00\u7b14\u5927\u989d\u8d44\u672c\u627f\u8bfa\uff0cStarlink \u8981\u4ea7\u751f\u66f4\u591a\u73b0\u91d1\u624d\u6491\u5f97\u4f4f\u4f30\u503c\u3002\u5bf9 C11 \u7684\u6307\u6570\u8d44\u91d1\u6d41\u903b\u8f91\u6765\u8bf4\uff0c\u8fd9\u6761\u53ea\u7b97\u80cc\u666f\u566a\u97f3\uff0c\u4e0d\u6784\u6210\u89e6\u53d1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4893,
-      "ts": 1792244833,
-      "ts_str": "2026-10-17 13:47 UTC",
-      "catalyst": "C11",
-      "severity": "MED",
-      "subject": "[C11-MED] SPCX unlock in \u22647d: Day 135 (3.3\u4ebf shares)",
-      "body": "Severity:   MED\nTranche:    Day 135\nDate:       2026-10-25  (7 day(s) out)\nRelease:    3.3\u4ebf shares (2.5% of shares outstanding)\nCumulative: 27.6% of total unlocked after this tranche\n\nLock-up terms per the SPCX S-1/424B4 (EDGAR); dates for earnings-linked\ntranches are estimates and shift with the reporting calendar.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSPCX has an upcoming lock-up tranche that will release about $3.3B of SpaceX stock to the market. Once it unlocks, 27.6% of shares will be free to trade in total.\n\n\u5185\u5bb9:\nSPCX \u5373\u5c06\u8fce\u6765\u4e00\u6279\u9501\u5b9a\u671f\u89e3\u7981\uff0c\u7ea6 $3.3B \u7684 SpaceX \u80a1\u7968\u4f1a\u8fdb\u5165\u5e02\u573a\u3002\u89e3\u7981\u540e\u7d2f\u8ba1\u53ef\u6d41\u901a\u6bd4\u4f8b\u8fbe\u5230 27.6%\u3002\n\nWhy it matters:\nUnlocks add supply that passive index buyers have to absorb. A $3.3B tranche tests whether that demand holds up without new money coming in. Weak trading around the release would show the AI and space mega-cap premium depends on flows more than on fundamentals.\n\n\u5f71\u54cd:\n\u89e3\u7981\u4f1a\u589e\u52a0\u4f9b\u7ed9\uff0c\u88ab\u52a8\u6307\u6570\u8d44\u91d1\u8981\u628a\u8fd9\u4e9b\u80a1\u7968\u63a5\u4f4f\u3002$3.3B \u8fd9\u4e00\u6279\u662f\u4e2a\u68c0\u9a8c\uff1a\u6ca1\u6709\u65b0\u589e\u8d44\u91d1\u65f6\uff0c\u88ab\u52a8\u9700\u6c42\u8fd8\u6491\u4e0d\u6491\u5f97\u4f4f\u3002\u5982\u679c\u89e3\u7981\u524d\u540e\u8d70\u52bf\u75b2\u5f31\uff0c\u8bf4\u660e AI \u548c\u822a\u5929\u5de8\u5934\u7684\u6ea2\u4ef7\u66f4\u591a\u9760\u8d44\u91d1\u6d41\uff0c\u800c\u4e0d\u662f\u57fa\u672c\u9762\u3002\n",
       "emailed": false
     }
   ],
