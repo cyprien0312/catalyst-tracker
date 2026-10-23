@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792735323,
-  "generated_at_str": "2026-10-23 06:02:03 UTC",
-  "last_event_ts": 1792734422,
+  "generated_at": 1792735518,
+  "generated_at_str": "2026-10-23 06:05:18 UTC",
+  "last_event_ts": 1792735518,
   "tables": {
     "alerts_dedup": {
-      "count": 5064,
-      "last_ts": 1792734262,
-      "last_str": "2026-10-23 05:44:22 UTC"
+      "count": 5065,
+      "last_ts": 1792735518,
+      "last_str": "2026-10-23 06:05:18 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -89,19 +89,19 @@
       "last_str": "2026-10-23 05:35:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9578,
-      "last_ts": 1792733705,
-      "last_str": "2026-10-23 05:35:05 UTC"
+      "count": 9579,
+      "last_ts": 1792735504,
+      "last_str": "2026-10-23 06:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5446,
-      "last_ts": 1792728304,
-      "last_str": "2026-10-23 04:05:04 UTC"
+      "count": 5447,
+      "last_ts": 1792735503,
+      "last_str": "2026-10-23 06:05:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 7393,
-      "last_ts": 1792733706,
-      "last_str": "2026-10-23 05:35:06 UTC"
+      "count": 7394,
+      "last_ts": 1792735505,
+      "last_str": "2026-10-23 06:05:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 42903,
@@ -329,6 +329,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5072,
+      "ts": 1792735518,
+      "ts_str": "2026-10-23 06:05 UTC",
+      "catalyst": "C6",
+      "severity": "MED",
+      "subject": "[C6-MED] NAND prices surge, but is SK hynix missing its investment window? - \uba38\ub2c8\ud22c\ub370\uc774",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 23 Oct 2026 04:43:36 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTE9zYmNRVXlZa0pSLXF1cVNmN3hBNzBoTHBKWFdVdzVISTZaXzcyQzh0b01Mcl9vRE9vRVU1cTNvclVScHYzaW9tU0hHNjZMenp4QWVNNG54ZlhTY0REdkJLUmpGU3QyTFRLUVpWV05uN04?oc=5\n\nNAND prices surge, but is SK hynix missing its investment window? - \uba38\ub2c8\ud22c\ub370\uc774\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9zYmNRVXlZa0pSLXF1cVNmN3hBNzBoTHBKWFdVdzVISTZaXzcyQzh0b01Mcl9vRE9vRVU1cTNvclVScHYzaW9tU0hHNjZMenp4QWVNNG54ZlhTY0REdkJLUmpGU3QyTFRLUVpWV05uN04?oc=5\" target=\"_blank\">NAND prices surge, but is SK hynix missing its investment window?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">\uba38\ub2c8\ud22c\ub370\uc774</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news headline reports that NAND prices are surging and asks whether SK hynix is missing its investment window.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0 NAND \u4ef7\u683c\u5927\u6da8\uff0c\u5e76\u8d28\u7591 SK hynix \u662f\u5426\u6b63\u5728\u9519\u8fc7\u6295\u8d44\u7a97\u53e3\u3002\n\nWhy it matters:\nA NAND price surge means supply is tight: AI-server storage demand is outrunning fab output. That backs the AI-demand story for now. It also sets up the classic memory-cycle risk: makers rush capex into a spike, and the new capacity lands as oversupply if AI orders cool.\n\n\u5f71\u54cd:\nNAND \u6da8\u4ef7\u8bf4\u660e\u4f9b\u7ed9\u504f\u7d27\uff0cAI \u670d\u52a1\u5668\u7684\u5b58\u50a8\u9700\u6c42\u8dd1\u5728\u4e86\u6676\u5706\u5382\u4ea7\u80fd\u524d\u9762\uff0c\u773c\u4e0b\u662f\u5728\u652f\u6491 AI \u9700\u6c42\u7684\u903b\u8f91\u3002\u4f46\u8fd9\u4e5f\u662f\u5b58\u50a8\u5468\u671f\u7684\u8001\u5957\u8def\uff1a\u5382\u5546\u5728\u4ef7\u683c\u9ad8\u70b9\u96c6\u4e2d\u6269\u4ea7\uff0c\u4e00\u65e6 AI \u8ba2\u5355\u964d\u6e29\uff0c\u65b0\u4ea7\u80fd\u843d\u5730\u65f6\u5c31\u4f1a\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5071,
       "ts": 1792734262,
@@ -2317,16 +2327,6 @@
       "severity": "MED",
       "subject": "[C11-MED] Evercore ISI raises SpaceX stock price target to $275 on compute growth - Investing.com India",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 10:30:41 GMT\nLink:      https://news.google.com/rss/articles/CBMiywFBVV95cUxNSjFFVXRDYXdvNGFqVVYzM2t0aDNlWjI1X1g5RV9MSEduSHZfSHNweWFtM1pFZk45S0hiRmw3d3QxZG5uYjhqbTluSlBjNWJobGRuMzBiajBpVDFPbkpfYWdpMDcwVkZ3OU84b1U3YXFPNjBMcTNDUG56M3RCZUNqT0o0UXRFQXR2T2ZpMnc0Ql9TczhvRDhuWFo3RWpaeTl6U2hrdmY0QmlDYVpaLVByakNWQk9WQk4tdENWMjlodEJubDFhLVg2cTZyZw?oc=5\n\nEvercore ISI raises SpaceX stock price target to $275 on compute growth - Investing.com India\n\n<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNSjFFVXRDYXdvNGFqVVYzM2t0aDNlWjI1X1g5RV9MSEduSHZfSHNweWFtM1pFZk45S0hiRmw3d3QxZG5uYjhqbTluSlBjNWJobGRuMzBiajBpVDFPbkpfYWdpMDcwVkZ3OU84b1U3YXFPNjBMcTNDUG56M3RCZUNqT0o0UXRFQXR2T2ZpMnc0Ql9TczhvRDhuWFo3RWpaeTl6U2hrdmY0QmlDYVpaLVByakNWQk9WQk4tdENWMjlodEJubDFhLVg2cTZyZw?oc=5\" target=\"_blank\">Evercore ISI raises SpaceX stock price target to $275 on compute growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com India</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nEvercore ISI raised its SpaceX price target to $275 and cited compute growth as the reason.\n\n\u5185\u5bb9:\nEvercore ISI \u628a SpaceX \u7684\u76ee\u6807\u4ef7\u4e0a\u8c03\u5230 $275\uff0c\u7406\u7531\u662f compute \u4e1a\u52a1\u589e\u957f\u3002\n\nWhy it matters:\nThis is a sell-side bullish call, not an index-flow or lock-up event. It still matters for the thesis: an analyst is pricing SpaceX partly as an AI-compute story, which ties the stock's valuation to the same capex narrative the tracker monitors. Higher targets also pull in more passive and benchmark demand ahead of lock-up unlocks, so a later reversal would hit harder.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u5356\u65b9\u770b\u591a\u7684\u7814\u62a5\uff0c\u4e0d\u662f\u6307\u6570\u8d44\u91d1\u6d41\u6216\u89e3\u7981\u4e8b\u4ef6\u3002\u5b83\u548c AI capex \u4e3b\u7ebf\u6709\u5173\uff1a\u5206\u6790\u5e08\u5df2\u7ecf\u90e8\u5206\u6309 AI \u7b97\u529b\u6545\u4e8b\u7ed9 SpaceX \u5b9a\u4ef7\uff0c\u5b83\u7684\u4f30\u503c\u56e0\u6b64\u548c\u672c tracker \u76ef\u7684 capex \u53d9\u4e8b\u7ed1\u5728\u4e00\u8d77\u3002\u89e3\u7981\u524d\u76ee\u6807\u4ef7\u8d8a\u62ac\u8d8a\u9ad8\uff0c\u88ab\u52a8\u8d44\u91d1\u548c\u5bf9\u6807\u8d44\u91d1\u4e5f\u4f1a\u8ddf\u8fdb\uff0c\u4e4b\u540e\u4e00\u65e6\u53cd\u8f6c\uff0c\u8dcc\u5f97\u66f4\u72e0\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4870,
-      "ts": 1792136128,
-      "ts_str": "2026-10-16 07:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Fri, 16 Oct 2026 01:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\n\nYang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E - BigGo Finance\n\n<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zRFkwMDhTS21sc3JHc1YtaTNBazhZN2hFWnk5VHBKcXZJcDZfRG0xR3lUSkpuWm9rb3RFZW8xVFlua0pWQ2pOMkhKamllSFhEcnFpdm9DYTFhTDg?oc=5\" target=\"_blank\">Yang Yige: Micron Overtakes SK Hynix on the \"Legacy DRAM Price Surge,\" but the Real Test Lies in HBM4E</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BigGo Finance</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA commentary piece by Yang Yige says Micron has overtaken SK Hynix on the back of a \"legacy DRAM price surge,\" and argues the real test is HBM4E.\n\n\u5185\u5bb9:\n\u6768\u4e00\u6208\u7684\u8bc4\u8bba\u6587\u7ae0\u79f0\uff0cMicron \u51ed\u300c\u4f20\u7edf DRAM \u6da8\u4ef7\u300d\u8d85\u8fc7\u4e86 SK Hynix\uff0c\u5e76\u8ba4\u4e3a\u771f\u6b63\u7684\u8003\u9a8c\u5728 HBM4E\u3002\n\nWhy it matters:\nThis is a shortage-side signal: legacy DRAM prices are rising, not collapsing. That points to tight supply, not an AI-driven memory glut. It eases the bubble-stress thesis for now. The risk sits in HBM4E: if next-gen HBM supply ramps ahead of AI accelerator demand, that is where oversupply would show up first.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u4f9b\u7ed9\u504f\u7d27\u7684\u4fe1\u53f7\uff1a\u4f20\u7edf DRAM \u5728\u6da8\u4ef7\uff0c\u6ca1\u6709\u5d29\u3002\u8bf4\u660e\u4f9b\u7ed9\u7d27\u5f20\uff0c\u4e0d\u662f AI \u5e26\u6765\u7684\u5185\u5b58\u8fc7\u5269\uff0c\u5bf9\u6ce1\u6cab\u538b\u529b\u8bba\u70b9\u6682\u65f6\u504f\u5229\u597d\u3002\u98ce\u9669\u5728 HBM4E\uff1a\u5982\u679c\u4e0b\u4e00\u4ee3 HBM \u7684\u4ea7\u80fd\u8dd1\u5728 AI \u52a0\u901f\u5668\u9700\u6c42\u524d\u9762\uff0c\u8fc7\u5269\u4f1a\u6700\u5148\u5728\u90a3\u91cc\u51fa\u73b0\u3002\n",
       "emailed": false
     }
   ],
