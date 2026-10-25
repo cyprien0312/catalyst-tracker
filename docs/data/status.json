@@ -1,12 +1,12 @@
 {
-  "generated_at": 1792969862,
-  "generated_at_str": "2026-10-25 23:11:02 UTC",
-  "last_event_ts": 1792969504,
+  "generated_at": 1792970046,
+  "generated_at_str": "2026-10-25 23:14:06 UTC",
+  "last_event_ts": 1792970046,
   "tables": {
     "alerts_dedup": {
-      "count": 5108,
-      "last_ts": 1792930446,
-      "last_str": "2026-10-25 12:14:06 UTC"
+      "count": 5109,
+      "last_ts": 1792970046,
+      "last_str": "2026-10-25 23:14:06 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,9 +79,9 @@
       "last_str": "2026-10-25 22:00:05 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 7386,
-      "last_ts": 1792964644,
-      "last_str": "2026-10-25 21:44:04 UTC"
+      "count": 7387,
+      "last_ts": 1792970044,
+      "last_str": "2026-10-25 23:14:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
       "count": 1723,
@@ -109,9 +109,9 @@
       "last_str": "2026-10-25 21:35:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 43418,
-      "last_ts": 1792968243,
-      "last_str": "2026-10-25 22:44:03 UTC"
+      "count": 43421,
+      "last_ts": 1792970043,
+      "last_str": "2026-10-25 23:14:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 15202,
@@ -334,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5116,
+      "ts": 1792970046,
+      "ts_str": "2026-10-25 23:14 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Anthropic IPO Might Crush OpenAI (And SpaceX?) Sarah Engels (TXxjHzlUBE) - Unisba Media",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 25 Oct 2026 21:01:10 GMT\nLink:      https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnN3NXVWOHFBaVFCWW1QWXduRVg4QUdGZlZHMlNLNXM5UWhhS3JKLTJVZXZUSlJuSUpxMlM1ZlZ1aG9hZUdjc3RpUFV5SklpUUJwRElxQ3FBMkRoT2J1ZjNrdzlydkhSQW9RUTgtU2VoanF4Mk1oRFZzNUtEUGJrS29hcw?oc=5\n\nAnthropic IPO Might Crush OpenAI (And SpaceX?) Sarah Engels (TXxjHzlUBE) - Unisba Media\n\n<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnN3NXVWOHFBaVFCWW1QWXduRVg4QUdGZlZHMlNLNXM5UWhhS3JKLTJVZXZUSlJuSUpxMlM1ZlZ1aG9hZUdjc3RpUFV5SklpUUJwRElxQ3FBMkRoT2J1ZjNrdzlydkhSQW9RUTgtU2VoanF4Mk1oRFZzNUtEUGJrS29hcw?oc=5\" target=\"_blank\">Anthropic IPO Might Crush OpenAI (And SpaceX?) Sarah Engels (TXxjHzlUBE)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unisba Media</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news item mentions OpenAI alongside CFO Sarah Friar or generic revenue language.\n\nWhy it matters:\nLower-confidence signal \u2014 could be routine commentary. But Sarah Friar speaking publicly often precedes financial-disclosure moments (capital raises, IR updates).\n",
+      "emailed": false
+    },
     {
       "id": 5115,
       "ts": 1792930446,
@@ -2322,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI's Revenue Report Deepens AI Bubble Fears, Firmus Shelves IPO Motherwell Vs Hearts (n78Twd8y6L) - Unisba Media",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 18 Oct 2026 10:17:58 GMT\nLink:      https://news.google.com/rss/articles/CBMibEFVX3lxTE5fMnZyS2xfTXp2cnhSclN0SDA3RlFqM2l6Tkh5TzdsTFhSM2I5enBDaXkzMWJrR1hjbkRlUWhJR2dQVUZoeGlEa2o1dWpHRjlFM2tNU1BLbG55LWt4c18wNjR6RTI5cFZGQ3dseg?oc=5\n\nOpenAI's Revenue Report Deepens AI Bubble Fears, Firmus Shelves IPO Motherwell Vs Hearts (n78Twd8y6L) - Unisba Media\n\n<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5fMnZyS2xfTXp2cnhSclN0SDA3RlFqM2l6Tkh5TzdsTFhSM2I5enBDaXkzMWJrR1hjbkRlUWhJR2dQVUZoeGlEa2o1dWpHRjlFM2tNU1BLbG55LWt4c18wNjR6RTI5cFZGQ3dseg?oc=5\" target=\"_blank\">OpenAI's Revenue Report Deepens AI Bubble Fears, Firmus Shelves IPO Motherwell Vs Hearts (n78Twd8y6L)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unisba Media</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news-digest headline says OpenAI's revenue report has deepened AI bubble fears. The same roundup reports that Firmus has shelved its IPO; the trailing 'Motherwell Vs Hearts' is an unrelated football item stuck onto the headline. No figures are given.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6c47\u603b\u6807\u9898\u8bf4\uff0cOpenAI \u7684\u8425\u6536\u62a5\u544a\u52a0\u6df1\u4e86\u5e02\u573a\u5bf9 AI \u6ce1\u6cab\u7684\u62c5\u5fe7\u3002\u540c\u4e00\u6761\u6c47\u603b\u8fd8\u63d0\u5230 Firmus \u6401\u7f6e\u4e86 IPO\u3002\u7ed3\u5c3e\u7684\u300cMotherwell Vs Hearts\u300d\u662f\u6df7\u8fdb\u6807\u9898\u7684\u65e0\u5173\u8db3\u7403\u65b0\u95fb\u3002\u6807\u9898\u91cc\u6ca1\u6709\u4efb\u4f55\u6570\u5b57\u3002\n\nWhy it matters:\nOpenAI is the largest single buyer behind the hyperscaler and neocloud capex build-out, so doubts about its revenue go straight to whether that spend can be paid back. An AI-infrastructure company shelving its IPO in the same news cycle suggests public markets are getting less willing to fund the build-out. Both points come from headline sentiment only, with no hard numbers, which is why this is MED rather than a burn-rate trigger.\n\n\u5f71\u54cd:\n\u8d85\u5927\u89c4\u6a21\u5382\u5546\u548c neocloud \u7684 capex \u6269\u5f20\uff0c\u6700\u5927\u7684\u5355\u4e00\u4e70\u5bb6\u5c31\u662f OpenAI\u3002\u5b83\u7684\u8425\u6536\u4e00\u65e6\u88ab\u8d28\u7591\uff0c\u8fd9\u7b14\u5f00\u652f\u80fd\u4e0d\u80fd\u56de\u672c\u5c31\u6210\u4e86\u95ee\u9898\u3002\u540c\u4e00\u8f6e\u65b0\u95fb\u91cc\u8fd8\u6709 AI \u7b97\u529b\u516c\u53f8\u6401\u7f6e IPO\uff0c\u8bf4\u660e\u516c\u5f00\u5e02\u573a\u7ed9\u8fd9\u8f6e\u6269\u5f20\u51fa\u94b1\u7684\u610f\u613f\u5728\u4e0b\u964d\u3002\u4e24\u70b9\u90fd\u53ea\u6765\u81ea\u6807\u9898\u60c5\u7eea\uff0c\u6ca1\u6709\u786c\u6570\u5b57\uff0c\u6240\u4ee5\u53ea\u5230 MED\uff0c\u4e0d\u7b97 burn-rate \u89e6\u53d1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4916,
-      "ts": 1792348514,
-      "ts_str": "2026-10-18 18:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] CXMT Could Challenge Established DRAM Makers Amid Supply Shortages - NoobFeed",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Sun, 18 Oct 2026 18:24:11 GMT\nLink:      https://news.google.com/rss/articles/CBMidkFVX3lxTE5MWjNuODN2cFRBTVEwNksza1dMUmYwLXhvai1tVXpCNjFXeWlGY3VqRmRaa0MwLUFNV1hzNGkwOEtwc3JZd3RZaklubVg5emNGb2pleDNvazRmbi0tNXUtTFpYczZVQVpmTmtXeUF3VXJMRFJoX1E?oc=5\n\nCXMT Could Challenge Established DRAM Makers Amid Supply Shortages - NoobFeed\n\n<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5MWjNuODN2cFRBTVEwNksza1dMUmYwLXhvai1tVXpCNjFXeWlGY3VqRmRaa0MwLUFNV1hzNGkwOEtwc3JZd3RZaklubVg5emNGb2pleDNvazRmbi0tNXUtTFpYczZVQVpmTmtXeUF3VXJMRFJoX1E?oc=5\" target=\"_blank\">CXMT Could Challenge Established DRAM Makers Amid Supply Shortages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NoobFeed</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline says CXMT (ChangXin Memory, China's main DRAM maker) could challenge established DRAM makers while DRAM supply is short; C6 tagged it as a price-surge / shortage signal.\n\n\u5185\u5bb9:\n\u4e00\u6761\u65b0\u95fb\u6807\u9898\u79f0 CXMT\uff08\u957f\u946b\u5b58\u50a8\uff0c\u4e2d\u56fd\u4e3b\u8981 DRAM \u5382\u5546\uff09\u53ef\u80fd\u501f DRAM \u4f9b\u5e94\u77ed\u7f3a\u6311\u6218\u8001\u724c DRAM \u5382\u5546\uff0cC6 \u628a\u5b83\u6807\u4e3a\u6da8\u4ef7 / \u77ed\u7f3a\u4fe1\u53f7\u3002\n\nWhy it matters:\nA DRAM shortage means AI-driven memory demand, HBM above all, is still soaking up capacity, so it points to a tight market, not a bust. The stress angle is that CXMT adding capacity into high prices is how oversupply starts later in the cycle. This is commentary, not a reported price move or order cut.\n\n\u5f71\u54cd:\nDRAM \u7f3a\u8d27\u8bf4\u660e AI \u5e26\u6765\u7684\u5185\u5b58\u9700\u6c42\uff08\u4e3b\u8981\u662f HBM\uff09\u8fd8\u5728\u5403\u6389\u4ea7\u80fd\uff0c\u5e02\u573a\u662f\u504f\u7d27\uff0c\u4e0d\u662f\u6ce1\u6cab\u7834\u88c2\u3002\u538b\u529b\u5728\u540e\u9762\uff1aCXMT \u8d81\u9ad8\u4ef7\u6269\u4ea7\uff0c\u6b63\u662f\u5468\u671f\u540e\u6bb5\u4f9b\u8fc7\u4e8e\u6c42\u7684\u8d77\u70b9\u3002\u8fd9\u6761\u662f\u8bc4\u8bba\uff0c\u4e0d\u662f\u5b9e\u9645\u62a5\u51fa\u7684\u4ef7\u683c\u53d8\u52a8\u6216\u780d\u5355\u3002\n",
       "emailed": false
     }
   ],
