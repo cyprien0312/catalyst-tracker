@@ -39,7 +39,7 @@
 </style>
 </head><body>
 <h1>catalyst-tracker</h1>
-<div class="meta">Generated 2026-10-26 21:26:20 UTC · <a href="thresholds.html">view thresholds →</a></div>
+<div class="meta">Generated 2026-10-26 21:29:38 UTC · <a href="thresholds.html">view thresholds →</a></div>
 
 
 
@@ -138,6 +138,92 @@
   <button id="clear-read" type="button">reset read state</button>
 </div>
 <div id="alerts-list">
+
+<details class="alert sev-MED" data-id="5143" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] Broad USD Index rising: 121.3 (+2.9% off 90d-low)</span>
+    <span class="meta">2026-10-26 21:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   USD (DTWEXBGS)
+Date:     2026-10-23
+Current:  121.3
+90d low:  117.9
+Move:     +2.9% off 90d-low (fire ≥ +2.5%)
+
+────────────────────────────────────────────────────────────
+What this means:
+The Nominal Broad US Dollar Index rose to 121.32 on 2026-10-23, up 2.915 points (~2.5%) from its trailing-90-day low of 117.883.
+
+内容:
+Nominal Broad US Dollar Index 在 2026-10-23 升至 121.32，较过去 90 天低点 117.883 上涨 2.915 点（约 2.5%）。
+
+Why it matters:
+A fast dollar rally tightens global financial conditions and drains offshore USD liquidity, which raises funding costs for the leveraged AI-capex build-out and hits the high-beta tech and crypto assets that depend on easy liquidity. Combined with a 10y real yield of 2.64 pp, it adds pressure on long-duration AI valuations.
+
+影响:
+美元快速走强会收紧全球金融条件，抽走离岸美元流动性。高杠杆的 AI capex 扩张因此融资更贵，依赖宽松流动性的高 beta 科技股和加密资产也会受压。10 年期实际利率同时在 2.64 pp，长久期的 AI 估值压力更大。
+</pre>
+  <button class="mark-read" type="button" data-id="5143">mark read</button>
+</details>
+
+<details class="alert sev-MED" data-id="5144" data-catalyst="C10" data-severity="MED">
+  <summary>
+    <span class="sev sev-bg-MED">MED</span>
+    <code>C10</code>
+    <span class="subj">[C10-MED] 10y Real Yield rising: 2.66% (+52bp off 90d-low)</span>
+    <span class="meta">2026-10-26 21:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-23
+Current:  2.66%
+90d low:  2.14%
+Move:     +52bp off 90d-low (fire ≥ +40bp)
+
+────────────────────────────────────────────────────────────
+What this means:
+The US 10-year real (TIPS) yield rose to 2.66% on 2026-10-23, 52 bp above its trailing-90-day low of 2.14%.
+
+内容:
+美国 10 年期实际利率(TIPS)在 2026-10-23 升至 2.66%,比近 90 天低点 2.14% 高出 52 bp。
+
+Why it matters:
+Higher real yields raise the discount rate on long-dated AI-capex payoffs and make funding more expensive, which hits long-duration tech multiples hardest. A 52 bp rise from the 90-day low points to tighter liquidity, which tends to arrive before credit stress (C7) on leveraged AI builders.
+
+影响:
+实际利率越高,AI capex 那些回报要很多年后才兑现的项目,折现率就越高,融资也越贵。长久期科技股的估值受冲击最大。从 90 天低点涨了 52 bp,说明流动性在收紧。这种收紧往往先于高杠杆 AI 建设方的信用压力(C7)出现。
+</pre>
+  <button class="mark-read" type="button" data-id="5144">mark read</button>
+</details>
+
+<details class="alert sev-HIGH" data-id="5145" data-catalyst="C10" data-severity="HIGH">
+  <summary>
+    <span class="sev sev-bg-HIGH">HIGH</span>
+    <code>C10</code>
+    <span class="subj">[C10-HIGH] 10y Real Yield restrictive: 2.66% ≥ 2.50%</span>
+    <span class="meta">2026-10-26 21:29 UTC · muted</span>
+  </summary>
+  <pre>Series:   REAL10 (DFII10)
+Date:     2026-10-23
+Current:  2.66%
+Stress ≥: 2.50%
+
+────────────────────────────────────────────────────────────
+What this means:
+The US 10-year real (TIPS) yield (FRED DFII10) printed 2.66% on 2026-10-23, above the 2.5% stress level, up from 2.64% on 2026-10-22.
+
+内容:
+美国 10 年期实际利率（TIPS，FRED DFII10）2026-10-23 报 2.66%，高于 2.5% 的压力线，前一天（2026-10-22）是 2.64%。
+
+Why it matters:
+A 10-year real yield above 2.5% raises the hurdle rate for long-duration AI-capex payback and pushes down valuations of the growth names that carry the AI trade. It also tightens funding for debt-financed builders such as neoclouds and data-center developers, which is the channel through which bubble stress spreads.
+
+影响:
+10 年期实际利率站上 2.5%，AI capex 回本要越过的门槛就更高，AI 交易里那批成长股的估值也会被压低。靠举债扩张的 neocloud 和数据中心开发商融资随之收紧，泡沫压力主要顺着这条线传导。
+</pre>
+  <button class="mark-read" type="button" data-id="5145">mark read</button>
+</details>
 
 <details class="alert sev-MED" data-id="5142" data-catalyst="C3" data-severity="MED">
   <summary>
@@ -6376,116 +6462,20 @@ This is crypto speculation using OpenAI&#39;s name, not a change in OpenAI&#39;s
   <button class="mark-read" type="button" data-id="4945">mark read</button>
 </details>
 
-<details class="alert sev-MED" data-id="4946" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] OpenAI Jumps the Gun With $30 Billion Raise at Up to $1.4 Trillion Valuation, Looking to Upstage Anthropic&#39;s IPO - BigGo</span>
-    <span class="meta">2026-10-20 02:44 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Tue, 20 Oct 2026 02:25:00 GMT
-Link:      https://news.google.com/rss/articles/CBMidkFVX3lxTFA5b2h5ZFdsLXJDYnkzNlN5VXhUV2Rpck42UHhJUTBBTk9ITEJhOU9MM042OVFyQVpmc0FwQWtOZy1oQUJUbkR2c2YzNmlwRFJBLUd0bkNMU1h4bGxrR1R1TG1ZaFpSNTEwVkdDNUZudUF3a0NIc3c?oc=5
-
-OpenAI Jumps the Gun With $30 Billion Raise at Up to $1.4 Trillion Valuation, Looking to Upstage Anthropic&#39;s IPO - BigGo Finance
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMidkFVX3lxTFA5b2h5ZFdsLXJDYnkzNlN5VXhUV2Rpck42UHhJUTBBTk9ITEJhOU9MM042OVFyQVpmc0FwQWtOZy1oQUJUbkR2c2YzNmlwRFJBLUd0bkNMU1h4bGxrR1R1TG1ZaFpSNTEwVkdDNUZudUF3a0NIc3c?oc=5&#34; target=&#34;_blank&#34;&gt;OpenAI Jumps the Gun With $30 Billion Raise at Up to $1.4 Trillion Valuation, Looking to Upstage Anthropic&#39;s IPO&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;BigGo Finance&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A headline reports OpenAI is raising $30B at a valuation of up to $1.4T, timed to get ahead of Anthropic&#39;s planned IPO.
-
-内容:
-据标题报道，OpenAI 正以最高 $1.4T 估值融资 $30B，有意赶在 Anthropic IPO 之前完成。
-
-Why it matters:
-A $30B private round means OpenAI&#39;s cash burn still needs outside capital at ever-higher marks. Racing a rival&#39;s IPO suggests the two labs are now competing for the same pool of investor money. If that pool has a ceiling, whoever raises second pays for it, and the AI-capex chain that runs on these raises loses its funding cushion.
-
-影响:
-一轮 $30B 的私募说明 OpenAI 的烧钱速度仍要靠外部资本填，而且估值越抬越高。抢在对手 IPO 前出手，说明两家实验室已经在争同一批投资人的钱。这池子钱如果有上限，后融资的一方要付代价，靠这些融资撑着的 AI capex 链条也会少一层资金缓冲。
-</pre>
-  <button class="mark-read" type="button" data-id="4946">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4942" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] Why is OpenAI racing to raise $30 billion before Anthropic&#39;s IPO? - Latest news from Azerbaijan</span>
-    <span class="meta">2026-10-20 02:14 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Tue, 20 Oct 2026 02:05:55 GMT
-Link:      https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzA4RGtFMkljYlBldGRZbk5KRjVibm1fbkFxT2NPM2tNN20tVUVWUDNPZVM1aHJzN3FpSEh2WHRTOUROT0w5OURhdTdBMi1YWFZ5ZXpXcy1JT3NHYXYxdVFIOU1pRVV5R1VUR01PYnEtQXBDMjRCUkpBdlJILXhhTHB2c3FBTldTNi1SUg?oc=5
-
-Why is OpenAI racing to raise $30 billion before Anthropic&#39;s IPO? - Latest news from Azerbaijan
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzA4RGtFMkljYlBldGRZbk5KRjVibm1fbkFxT2NPM2tNN20tVUVWUDNPZVM1aHJzN3FpSEh2WHRTOUROT0w5OURhdTdBMi1YWFZ5ZXpXcy1JT3NHYXYxdVFIOU1pRVV5R1VUR01PYnEtQXBDMjRCUkpBdlJILXhhTHB2c3FBTldTNi1SUg?oc=5&#34; target=&#34;_blank&#34;&gt;Why is OpenAI racing to raise $30 billion before Anthropic&#39;s IPO?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Latest news from Azerbaijan&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-A news headline asks why OpenAI is rushing to raise $30 billion before Anthropic&#39;s IPO. It is a framing question, not a filing, and gives no confirmed terms, valuation or close date.
-
-内容:
-一条新闻标题问:OpenAI 为什么要赶在 Anthropic IPO 之前融资 $30B。这只是设问式报道,不是 filing,没有给出确定的条款、估值或交割时间。
-
-Why it matters:
-A $30B raise timed against a rival&#39;s IPO suggests OpenAI wants to lock in private capital before public-market pricing of a direct peer resets AI-lab valuations. It is a reminder that frontier-lab burn still depends on ever-larger external funding rounds. On its own it is speculation, and no burn-rate metric was extracted, so it stays MED.
-
-影响:
-赶在对手 IPO 前募 $30B,说明 OpenAI 想先锁定私募资金,免得同类公司上市定价后整个 AI 实验室估值被重估。这也说明头部实验室烧钱仍要靠越来越大的外部融资。单看这条只是推测,也没有提取到 burn-rate 数字,所以只算 MED。
-</pre>
-  <button class="mark-read" type="button" data-id="4942">mark read</button>
-</details>
-
-<details class="alert sev-MED" data-id="4943" data-catalyst="C3" data-severity="MED">
-  <summary>
-    <span class="sev sev-bg-MED">MED</span>
-    <code>C3</code>
-    <span class="subj">[C3-MED] OpenAI races to secure ₩40 trillion before Anthropic IPO - CHOSUNBIZ - Chosunbiz</span>
-    <span class="meta">2026-10-20 02:14 UTC · muted</span>
-  </summary>
-  <pre>Severity:  MED
-Feed:      https://news.google.com/rss/search?q=OpenAI+when:1d&amp;hl=en-US&amp;gl=US&amp;ceid=US:en
-Published: Tue, 20 Oct 2026 01:49:00 GMT
-Link:      https://news.google.com/rss/articles/CBMiekFVX3lxTE5Bd3Zqc3dTOVBxdUJPclJVLVJCQVZXUk1xRGtXWmIya3dVTHRVTmllVEVXUVhDXzNxeUt0ZVZwcENQdUh0SEZRZ2NQbi1JS0hwOXRXWWNPOFZfRGtKbi1WeGdjZklCMnUycEZUOHQtOUVzWGlvTUZ2cldn0gGOAUFVX3lxTE0waFoxTG1UVllpOGJUM1RXWFRXOUQwR1ctZU1oMG05blczU08zclJzWkVkX2ZJNUpXNG1namg3MGJMTmgta3JzVW5mOXR2MFNZQ1F0NU9IR0RVT01kOHphbTVQQzRSMEl2aFdmTTJRT1RkYWxHdU5la3ItekYzWTQxMGllaGFUUmVNaEZON1E?oc=5
-
-OpenAI races to secure ₩40 trillion before Anthropic IPO - CHOSUNBIZ - Chosunbiz
-
-&lt;a href=&#34;https://news.google.com/rss/articles/CBMiekFVX3lxTE5Bd3Zqc3dTOVBxdUJPclJVLVJCQVZXUk1xRGtXWmIya3dVTHRVTmllVEVXUVhDXzNxeUt0ZVZwcENQdUh0SEZRZ2NQbi1JS0hwOXRXWWNPOFZfRGtKbi1WeGdjZklCMnUycEZUOHQtOUVzWGlvTUZ2cldn0gGOAUFVX3lxTE0waFoxTG1UVllpOGJUM1RXWFRXOUQwR1ctZU1oMG05blczU08zclJzWkVkX2ZJNUpXNG1namg3MGJMTmgta3JzVW5mOXR2MFNZQ1F0NU9IR0RVT01kOHphbTVQQzRSMEl2aFdmTTJRT1RkYWxHdU5la3ItekYzWTQxMGllaGFUUmVNaEZON1E?oc=5&#34; target=&#34;_blank&#34;&gt;OpenAI races to secure ₩40 trillion before Anthropic IPO - CHOSUNBIZ&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&#34;#6f6f6f&#34;&gt;Chosunbiz&lt;/font&gt;
-
-────────────────────────────────────────────────────────────
-What this means:
-CHOSUNBIZ reports OpenAI is racing to raise ₩40 trillion (roughly $28B) before Anthropic&#39;s IPO.
-
-内容:
-CHOSUNBIZ 报道，OpenAI 正赶在 Anthropic IPO 之前筹集 ₩40 trillion（约 $28B）。
-
-Why it matters:
-This points to OpenAI&#39;s funding need, not to any change in its burn rate, so it stays MED. A rush to close a round before a rival lists suggests OpenAI expects investor money for AI labs to get scarcer or pricier once Anthropic has a public valuation. That makes OpenAI&#39;s spending more dependent on getting deals done in time.
-
-影响:
-这条讲的是 OpenAI 要钱，不是 burn rate 数据有变化，所以仍是 MED。抢在对手上市前完成融资，说明 OpenAI 担心 Anthropic 有了公开估值后，投给 AI 实验室的钱会变少或变贵。OpenAI 的支出因此更依赖融资能否及时谈成。
-</pre>
-  <button class="mark-read" type="button" data-id="4943">mark read</button>
-</details>
-
 </div>
 
 <h2>State table counts</h2>
 <table>
 <tr><th>Table</th><th>Rows</th><th>Last event (UTC)</th></tr>
 
-<tr><td><code>alerts_dedup</code></td><td>5135</td>
-<td>2026-10-26 20:44:20 UTC</td></tr>
+<tr><td><code>alerts_dedup</code></td><td>5138</td>
+<td>2026-10-26 21:29:31 UTC</td></tr>
 
 <tr><td><code>buyplan_regime</code></td><td>2</td>
 <td>2026-10-23 13:53:02 UTC</td></tr>
 
-<tr><td><code>c10_signals</code></td><td>117</td>
-<td>2026-10-23 21:29:12 UTC</td></tr>
+<tr><td><code>c10_signals</code></td><td>120</td>
+<td>2026-10-26 21:29:22 UTC</td></tr>
 
 <tr><td><code>c11_etf_diff</code></td><td>2</td>
 <td>2026-07-14 06:47:14 UTC</td></tr>
