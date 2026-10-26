@@ -1,12 +1,12 @@
 {
-  "generated_at": 1793025483,
-  "generated_at_str": "2026-10-26 14:38:03 UTC",
-  "last_event_ts": 1793025306,
+  "generated_at": 1793025674,
+  "generated_at_str": "2026-10-26 14:41:14 UTC",
+  "last_event_ts": 1793025673,
   "tables": {
     "alerts_dedup": {
-      "count": 5123,
-      "last_ts": 1793022435,
-      "last_str": "2026-10-26 13:47:15 UTC"
+      "count": 5124,
+      "last_ts": 1793025673,
+      "last_str": "2026-10-26 14:41:13 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -64,9 +64,9 @@
       "last_str": "2026-09-30 22:56:11 UTC"
     },
     "c7_signals": {
-      "count": 1,
-      "last_ts": 1792764661,
-      "last_str": "2026-10-23 14:11:01 UTC"
+      "count": 2,
+      "last_ts": 1793025662,
+      "last_str": "2026-10-26 14:41:02 UTC"
     },
     "c8_signals": {
       "count": 14,
@@ -334,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5131,
+      "ts": 1793025673,
+      "ts_str": "2026-10-26 14:41 UTC",
+      "catalyst": "C7",
+      "severity": "MED",
+      "subject": "[C7-MED] High-Yield OAS widening: 338bp (+78bp off low)",
+      "body": "Series:   HY (BAMLH0A0HYM2)\nDate:     2026-10-23\nCurrent:  338 bp\n90d low:  260 bp\nWidened:  +78 bp\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nUS High-Yield OAS widened to 338bp on 2026-10-23, 78bp above its trailing-90-day low of 260bp. That clears C7's 75bp relative trigger, though the spread is still below the 400bp absolute line.\n\n\u5185\u5bb9:\n\u7f8e\u56fd\u9ad8\u6536\u76ca\u503a OAS \u5728 2026-10-23 \u5347\u5230 338bp\uff0c\u6bd4\u8fc7\u53bb 90 \u5929\u4f4e\u70b9 260bp \u9ad8\u51fa 78bp\u3002\u8fd9\u5df2\u8d8a\u8fc7 C7 \u7684 75bp \u76f8\u5bf9\u89e6\u53d1\u7ebf\uff0c\u4f46\u79bb 400bp \u7684\u7edd\u5bf9\u7ebf\u8fd8\u6709\u8ddd\u79bb\u3002\n\nWhy it matters:\nCredit is the fuse. AI capex is increasingly funded with debt, especially at neoclouds and leveraged data-center builders, so wider HY spreads raise their cost of capital before equities react. The move is fast but not yet stressed; a push toward 400bp would confirm that lenders are repricing the AI build-out. [src: https://fred.stlouisfed.org/series/BAMLH0A0HYM2]\n\n\u5f71\u54cd:\n\u4fe1\u7528\u5e02\u573a\u662f C7 \u7684\u4fdd\u9669\u4e1d\u3002AI capex \u8d8a\u6765\u8d8a\u9760\u4e3e\u503a\u6491\uff0cneocloud \u548c\u9ad8\u6760\u6746\u6570\u636e\u4e2d\u5fc3\u5f00\u53d1\u5546\u5c24\u5176\u5982\u6b64\u3002\u9ad8\u6536\u76ca\u5229\u5dee\u8d70\u9614\u4f1a\u5148\u62ac\u9ad8\u5b83\u4eec\u7684\u878d\u8d44\u6210\u672c\uff0c\u80a1\u5e02\u5f80\u5f80\u8fd8\u6ca1\u53cd\u5e94\u3002\u8fd9\u6b21\u8d70\u9614\u901f\u5ea6\u5feb\uff0c\u4f46\u7edd\u5bf9\u6c34\u5e73\u8fd8\u4e0d\u7b97\u627f\u538b\u3002\u5982\u679c\u7ee7\u7eed\u903c\u8fd1 400bp\uff0c\u5c31\u8bf4\u660e\u653e\u8d37\u65b9\u5f00\u59cb\u7ed9 AI \u57fa\u5efa\u91cd\u65b0\u5b9a\u4ef7\u3002[src: https://fred.stlouisfed.org/series/BAMLH0A0HYM2]\n",
+      "emailed": false
+    },
     {
       "id": 5130,
       "ts": 1793022435,
@@ -2322,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say - TradingView",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 19 Oct 2026 23:14:27 GMT\nLink:      https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYTFqcy1kVDhsSS1ybEthR0dRMjhyTWNTeTRtNFhIWFEtOXM5ZHp4U29WU1BRYkJ1MUFoYjFJamNVZm1RdmlkN3pkX2dYci04c2FfcmVZUDFuLTJtbDI3WElFVEIzaHFud0dRZ0VvcTlXX0NiblFkUmNKak11QVpuQ09Pb2dLMTAteklXNFpiM1FfT2tTcUFwTDdyaV9WUlJTMlk5V3JhM2N2VllZUUYyNDc0bTVHQkNEaXN6WFBMMUhsZnNLd0FGdlVINkJBODg0QkRiUkkzUkFSZTg?oc=5\n\nOpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYTFqcy1kVDhsSS1ybEthR0dRMjhyTWNTeTRtNFhIWFEtOXM5ZHp4U29WU1BRYkJ1MUFoYjFJamNVZm1RdmlkN3pkX2dYci04c2FfcmVZUDFuLTJtbDI3WElFVEIzaHFud0dRZ0VvcTlXX0NiblFkUmNKak11QVpuQ09Pb2dLMTAteklXNFpiM1FfT2tTcUFwTDdyaV9WUlJTMlk5V3JhM2N2VllZUUYyNDc0bTVHQkNEaXN6WFBMMUhsZnNLd0FGdlVINkJBODg0QkRiUkkzUkFSZTg?oc=5\" target=\"_blank\">OpenAI seeks to accelerate fundraising ahead of Anthropic IPO, sources say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nSources say OpenAI is trying to speed up its fundraising so it closes before Anthropic's IPO.\n\n\u5185\u5bb9:\n\u636e\u77e5\u60c5\u4eba\u58eb\u900f\u9732\uff0cOpenAI \u6b63\u8bbe\u6cd5\u52a0\u5feb\u878d\u8d44\uff0c\u5e0c\u671b\u8d76\u5728 Anthropic IPO \u4e4b\u524d\u5b8c\u6210\u3002\n\nWhy it matters:\nOpenAI wants to raise money before a public Anthropic listing sets a market price for frontier labs and competes for the same pool of capital. Hurrying a raise suggests OpenAI's cash needs are pressing and that it worries about what a public comparable would do to its valuation. That is stress on the funding side of the AI-capex thesis, though so far it is only a report from sources.\n\n\u5f71\u54cd:\nAnthropic \u4e00\u65e6\u4e0a\u5e02\uff0c\u5c31\u4f1a\u7ed9\u5934\u90e8\u6a21\u578b\u516c\u53f8\u5b9a\u51fa\u4e00\u4e2a\u516c\u5f00\u5e02\u573a\u4ef7\u683c\uff0c\u8fd8\u4f1a\u548c OpenAI \u62a2\u540c\u4e00\u6279\u8d44\u91d1\uff0c\u6240\u4ee5 OpenAI \u60f3\u5728\u90a3\u4e4b\u524d\u628a\u94b1\u62ff\u5230\u624b\u3002\u6025\u7740\u878d\u8d44\u8bf4\u660e\u5b83\u5bf9\u73b0\u91d1\u7684\u9700\u6c42\u5f88\u8feb\u5207\uff0c\u4e5f\u62c5\u5fc3\u6709\u4e86\u516c\u5f00\u53ef\u6bd4\u5bf9\u8c61\u4e4b\u540e\u81ea\u5df1\u7684\u4f30\u503c\u4f1a\u53d7\u5f71\u54cd\u3002\u8fd9\u662f AI capex \u903b\u8f91\u5728\u878d\u8d44\u7aef\u51fa\u73b0\u538b\u529b\u7684\u4fe1\u53f7\uff0c\u4e0d\u8fc7\u76ee\u524d\u53ea\u662f\u77e5\u60c5\u4eba\u58eb\u7684\u8bf4\u6cd5\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4930,
-      "ts": 1792453484,
-      "ts_str": "2026-10-19 23:44 UTC",
-      "catalyst": "C3",
-      "severity": "CRITICAL",
-      "subject": "[C3-CRITICAL] Weekly Recap: SoftBank (9984) OpenAI stake rise and $11B bond sale - TradingView",
-      "body": "Severity:  CRITICAL\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 19 Oct 2026 22:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkRaWmRad2Vuc2NDbDhESkVJS1owZUY5YlViNmFDT3FmRmxuYXY0dl9YR2V1SzRJNmpMQ3pPajJmNTJUZDFUUUVnN0h5eHc1dHF5TU0wT0l3Z1F6R0tmb1hmaTdOZDdXRy1RTFVyLWpadHhqS1ZDYW1ZcVZZaFhXNkdMSEpQQjk2ZU1lQWF5eko0S242Rl9kMFZrdms5clFIZ1FGaVQ5cEVlcFlZSExYekpGaTU0T3p0czgwRlh4NDNxdw?oc=5\n\nWeekly Recap: SoftBank (9984) OpenAI stake rise and $11B bond sale - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkRaWmRad2Vuc2NDbDhESkVJS1owZUY5YlViNmFDT3FmRmxuYXY0dl9YR2V1SzRJNmpMQ3pPajJmNTJUZDFUUUVnN0h5eHc1dHF5TU0wT0l3Z1F6R0tmb1hmaTdOZDdXRy1RTFVyLWpadHhqS1ZDYW1ZcVZZaFhXNkdMSEpQQjk2ZU1lQWF5eko0S242Rl9kMFZrdms5clFIZ1FGaVQ5cEVlcFlZSExYekpGaTU0T3p0czgwRlh4NDNxdw?oc=5\" target=\"_blank\">Weekly Recap: SoftBank (9984) OpenAI stake rise and $11B bond sale</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA weekly recap headline reports that SoftBank (9984) raised its stake in OpenAI and sold $11B of bonds.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6bcf\u5468\u56de\u987e\u6807\u9898\u79f0\uff0cSoftBank (9984) \u589e\u6301\u4e86 OpenAI \u80a1\u4efd\uff0c\u5e76\u53d1\u884c\u4e86 $11B \u503a\u5238\u3002\n\nWhy it matters:\nSoftBank is paying for its growing OpenAI exposure partly with new debt. OpenAI's cash burn therefore sits on a leveraged balance sheet. If OpenAI's valuation or funding stalls, the stress hits SoftBank's credit too, not only private equity holders.\n\n\u5f71\u54cd:\nSoftBank \u589e\u6301 OpenAI \u7684\u94b1\u6709\u4e00\u90e8\u5206\u662f\u65b0\u501f\u7684\u503a\uff0cOpenAI \u70e7\u7684\u94b1\u56e0\u6b64\u538b\u5728\u4e00\u5f20\u52a0\u4e86\u6760\u6746\u7684\u8d44\u4ea7\u8d1f\u503a\u8868\u4e0a\u3002OpenAI \u7684\u4f30\u503c\u6216\u878d\u8d44\u4e00\u65e6\u5361\u4f4f\uff0c\u53d7\u51b2\u51fb\u7684\u9664\u4e86\u79c1\u52df\u80a1\u4e1c\uff0c\u8fd8\u6709 SoftBank \u7684\u4fe1\u7528\u3002\n",
       "emailed": false
     }
   ],
