@@ -1,12 +1,12 @@
 {
-  "generated_at": 1793094062,
-  "generated_at_str": "2026-10-27 09:41:02 UTC",
-  "last_event_ts": 1793093707,
+  "generated_at": 1793094259,
+  "generated_at_str": "2026-10-27 09:44:19 UTC",
+  "last_event_ts": 1793094259,
   "tables": {
     "alerts_dedup": {
-      "count": 5149,
-      "last_ts": 1793093707,
-      "last_str": "2026-10-27 09:35:07 UTC"
+      "count": 5150,
+      "last_ts": 1793094259,
+      "last_str": "2026-10-27 09:44:19 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -79,14 +79,14 @@
       "last_str": "2026-10-26 22:00:22 UTC"
     },
     "rss_seen:https://feeds.bloomberg.com/technology/news.rss": {
-      "count": 7475,
-      "last_ts": 1793088844,
-      "last_str": "2026-10-27 08:14:04 UTC"
+      "count": 7476,
+      "last_ts": 1793094244,
+      "last_str": "2026-10-27 09:44:04 UTC"
     },
     "rss_seen:https://feeds.content.dowjones.io/public/rss/RSSWSJD": {
-      "count": 1737,
-      "last_ts": 1793087046,
-      "last_str": "2026-10-27 07:44:06 UTC"
+      "count": 1739,
+      "last_ts": 1793094245,
+      "last_str": "2026-10-27 09:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 8300,
@@ -109,9 +109,9 @@
       "last_str": "2026-10-27 09:35:07 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 43812,
-      "last_ts": 1793092443,
-      "last_str": "2026-10-27 09:14:03 UTC"
+      "count": 43818,
+      "last_ts": 1793094243,
+      "last_str": "2026-10-27 09:44:03 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=SpaceX+OR+SPCX+stock+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 15489,
@@ -334,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5157,
+      "ts": 1793094259,
+      "ts_str": "2026-10-27 09:44 UTC",
+      "catalyst": "C3",
+      "severity": "MED",
+      "subject": "[C3-MED] Claude says Anthropic's IPO is a buy. ChatGPT disagrees - Axios",
+      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Mon, 26 Oct 2026 22:48:39 GMT\nLink:      https://news.google.com/rss/articles/CBMicEFVX3lxTFBOQkpIcTdUQTA1ZWJqVUh5Z3gxZ0NYVmMweHhFX3paZm1KWDJNblhKVEozTmIxZTdMX3YwLVNxUklhekF4ZENmY08xNk5zYmhDeTFxUWk1aVNWWWlnM0tMU0pscXhzeFpGZG9ZTERWZWs?oc=5\n\nClaude says Anthropic's IPO is a buy. ChatGPT disagrees - Axios\n\n<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBOQkpIcTdUQTA1ZWJqVUh5Z3gxZ0NYVmMweHhFX3paZm1KWDJNblhKVEozTmIxZTdMX3YwLVNxUklhekF4ZENmY08xNk5zYmhDeTFxUWk1aVNWWWlnM0tMU0pscXhzeFpGZG9ZTERWZWs?oc=5\" target=\"_blank\">Claude says Anthropic's IPO is a buy. ChatGPT disagrees</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that Claude and ChatGPT disagree on whether Anthropic's IPO is a buy. The article is about Anthropic, not OpenAI, and it has no financials, filings or burn-rate numbers. C3 fired on the token 'IPO'.\n\n\u5185\u5bb9:\n\u4e00\u6761\u6807\u9898\u79f0 Claude \u548c ChatGPT \u5bf9 Anthropic \u7684 IPO \u662f\u5426\u503c\u5f97\u4e70\u770b\u6cd5\u76f8\u53cd\u3002\u6587\u7ae0\u8bb2\u7684\u662f Anthropic\uff0c\u4e0d\u662f OpenAI\uff0c\u4e5f\u6ca1\u6709\u8d22\u52a1\u6570\u636e\u3001SEC \u6587\u4ef6\u6216 burn rate \u6570\u5b57\u3002C3 \u662f\u56e0\u4e3a 'IPO' \u8fd9\u4e2a\u8bcd\u89e6\u53d1\u7684\u3002\n\nWhy it matters:\nThis is novelty coverage and adds no information to the OpenAI-stress thesis. The only relevant point is that an Anthropic listing would put a public-market price on a frontier AI lab, which would become a valuation benchmark for OpenAI's private marks. The headline itself does not move that.\n\n\u5f71\u54cd:\n\u8fd9\u662f\u730e\u5947\u7c7b\u62a5\u9053\uff0c\u5bf9 OpenAI \u538b\u529b\u8fd9\u6761\u5224\u65ad\u6ca1\u6709\u65b0\u4fe1\u606f\u3002\u552f\u4e00\u6709\u5173\u7684\u4e00\u70b9\uff1aAnthropic \u4e00\u65e6\u4e0a\u5e02\uff0c\u524d\u6cbf AI \u5b9e\u9a8c\u5ba4\u5c31\u6709\u4e86\u516c\u5f00\u5e02\u573a\u5b9a\u4ef7\uff0c\u4f1a\u6210\u4e3a OpenAI \u79c1\u52df\u4f30\u503c\u7684\u53c2\u7167\u3002\u4f46\u8fd9\u6761\u6807\u9898\u672c\u8eab\u4e0d\u6539\u53d8\u8fd9\u4ef6\u4e8b\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5156,
       "ts": 1793093707,
@@ -2322,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C3-MED] OpenAI races to raise $30 billion at $1.4 trillion valuation ahead of Anthropic IPO - CTech",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 05:38:00 GMT\nLink:      https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5\n\nOpenAI races to raise $30 billion at $1.4 trillion valuation ahead of Anthropic IPO - CTech\n\n<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjaUJ3eGVobUkyVmNrdEJ2VmNzSEk3RTZTbTVXRXNYZ3o3M3RoTEhvSzNXLUJDaDRmNmZucXdiZW0wUlE0SFVFRHJFa1BHYjhvR2NXVnBMUjVidlljYkl6RUxaSk5ROTg?oc=5\" target=\"_blank\">OpenAI races to raise $30 billion at $1.4 trillion valuation ahead of Anthropic IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CTech</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nNews headline: OpenAI is racing to raise $30 billion at a $1.4 trillion valuation, timed ahead of an Anthropic IPO.\n\n\u5185\u5bb9:\n\u65b0\u95fb\u6807\u9898\u79f0\uff0cOpenAI \u6b63\u8d76\u5728 Anthropic IPO \u4e4b\u524d\uff0c\u4ee5 $1.4 trillion \u4f30\u503c\u878d\u8d44 $30 billion\u3002\n\nWhy it matters:\nA $30B raise points to a cash burn that only fresh outside capital can fund, and a $1.4T valuation sets a very high bar for future revenue. Racing to close before a rival lists suggests OpenAI wants to lock in pricing while investor appetite holds, which is a late-cycle funding pattern. This fired at MED off headline keywords; it carries no extracted burn-rate number.\n\n\u5f71\u54cd:\n\u4e00\u6b21\u878d $30B\uff0c\u8bf4\u660e\u70e7\u94b1\u901f\u5ea6\u8981\u9760\u6301\u7eed\u7684\u5916\u90e8\u8f93\u8840\u624d\u6491\u5f97\u4f4f\u3002$1.4T \u4f30\u503c\u4e5f\u7ed9\u672a\u6765\u6536\u5165\u5b9a\u4e86\u6781\u9ad8\u7684\u95e8\u69db\u3002\u62a2\u5728\u5bf9\u624b\u4e0a\u5e02\u524d\u5b8c\u6210\u878d\u8d44\uff0c\u8bf4\u660e OpenAI \u60f3\u8d81\u6295\u8d44\u4eba\u8fd8\u613f\u610f\u638f\u94b1\u65f6\u5148\u628a\u4ef7\u683c\u9501\u4f4f\uff0c\u8fd9\u662f\u5468\u671f\u665a\u671f\u5178\u578b\u7684\u878d\u8d44\u6a21\u5f0f\u3002\u8fd9\u6761\u544a\u8b66\u7531\u6807\u9898\u5173\u952e\u8bcd\u89e6\u53d1\uff0c\u7ea7\u522b MED\uff0c\u91cc\u9762\u6ca1\u6709\u63d0\u53d6\u5230 burn-rate \u6570\u5b57\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4957,
-      "ts": 1792476870,
-      "ts_str": "2026-10-20 06:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] Pump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket - TradingView",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 00:09:00 GMT\nLink:      https://news.google.com/rss/articles/CBMixAFBVV95cUxQRU1xemotNDEtb3NvWk9pV2RuNEs5Z0JIbUhJZHg0NzROdkZuWDRfc0RNR1FWSUxZeVdnLW80UzlxWlUzS3Y1Z1laMkhvcnEwcHZ2dVZVRGt2d05WczB3REpEZjYybm1pUVppc1JqMkdzc3NtM0FNc0pNZXdiNGdEdmhSd3NFampHZWg2R0dxNlNnT3l1STJsVk5uMnJuMDNRUUtINm80SUhoTU9GMFpNbVFzR2ZYTGpVdjFnM1EtVTUwbGJG?oc=5\n\nPump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket - TradingView\n\n<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQRU1xemotNDEtb3NvWk9pV2RuNEs5Z0JIbUhJZHg0NzROdkZuWDRfc0RNR1FWSUxZeVdnLW80UzlxWlUzS3Y1Z1laMkhvcnEwcHZ2dVZVRGt2d05WczB3REpEZjYybm1pUVppc1JqMkdzc3NtM0FNc0pNZXdiNGdEdmhSd3NFampHZWg2R0dxNlNnT3l1STJsVk5uMnJuMDNRUUtINm80SUhoTU9GMFpNbVFzR2ZYTGpVdjFnM1EtVTUwbGJG?oc=5\" target=\"_blank\">Pump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nPump.fun's token rose 8% after the platform launched tokens that track OpenAI and Polymarket ahead of any IPO. This is a crypto-market headline. OpenAI did not issue the tokens and no OpenAI filing or financial number is involved.\n\n\u5185\u5bb9:\nPump.fun \u63a8\u51fa\u4e86\u6302\u94a9 OpenAI \u548c Polymarket \u7684 pre-IPO token\uff0c\u81ea\u5bb6 token \u968f\u540e\u6da8\u4e86 8%\u3002\u8fd9\u662f\u4e00\u6761\u52a0\u5bc6\u5e02\u573a\u65b0\u95fb\u3002token \u4e0d\u662f OpenAI \u53d1\u7684\uff0c\u4e5f\u4e0d\u6d89\u53ca OpenAI \u7684\u4efb\u4f55 filing \u6216\u8d22\u52a1\u6570\u5b57\u3002\n\nWhy it matters:\nLittle direct relevance: C3 fired only on the 'OpenAI' and 'IPO' keywords, and nothing here measures OpenAI's burn rate, funding or credit. At most, it shows how much retail investors want OpenAI exposure before any listing, which is a froth sentiment marker, not a stress signal.\n\n\u5f71\u54cd:\n\u8ddf C3 \u7684\u8bba\u70b9\u57fa\u672c\u65e0\u5173\u3002\u89e6\u53d1\u5b83\u7684\u53ea\u662f\u300cOpenAI\u300d\u548c\u300cIPO\u300d\u4e24\u4e2a\u5173\u952e\u8bcd\uff0c\u65b0\u95fb\u91cc\u6ca1\u6709 OpenAI \u7684 burn rate\u3001\u878d\u8d44\u6216\u4fe1\u7528\u6570\u636e\u3002\u786c\u8981\u8bf4\u6709\u7528\uff0c\u5b83\u53ea\u80fd\u8bf4\u660e\u6563\u6237\u5728\u4e0a\u5e02\u524d\u5c31\u62a2\u7740\u8981 OpenAI \u655e\u53e3\u3002\u8fd9\u7b97\u5e02\u573a\u8fc7\u70ed\u7684\u60c5\u7eea\u4fe1\u53f7\uff0c\u4e0d\u7b97\u538b\u529b\u4fe1\u53f7\u3002\n",
       "emailed": false
     }
   ],
