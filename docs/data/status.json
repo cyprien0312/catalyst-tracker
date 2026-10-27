@@ -1,12 +1,12 @@
 {
-  "generated_at": 1793134923,
-  "generated_at_str": "2026-10-27 21:02:03 UTC",
-  "last_event_ts": 1793134022,
+  "generated_at": 1793135121,
+  "generated_at_str": "2026-10-27 21:05:21 UTC",
+  "last_event_ts": 1793135121,
   "tables": {
     "alerts_dedup": {
-      "count": 5154,
-      "last_ts": 1793119636,
-      "last_str": "2026-10-27 16:47:16 UTC"
+      "count": 5155,
+      "last_ts": 1793135121,
+      "last_str": "2026-10-27 21:05:21 UTC"
     },
     "buyplan_regime": {
       "count": 2,
@@ -89,19 +89,19 @@
       "last_str": "2026-10-27 16:44:05 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 8327,
-      "last_ts": 1793133303,
-      "last_str": "2026-10-27 20:35:03 UTC"
+      "count": 8328,
+      "last_ts": 1793135102,
+      "last_str": "2026-10-27 21:05:02 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22HBM%22+OR+%22memory+chip%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 9831,
-      "last_ts": 1793133306,
-      "last_str": "2026-10-27 20:35:06 UTC"
+      "count": 9834,
+      "last_ts": 1793135106,
+      "last_str": "2026-10-27 21:05:06 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
-      "count": 5580,
-      "last_ts": 1793126103,
-      "last_str": "2026-10-27 18:35:03 UTC"
+      "count": 5582,
+      "last_ts": 1793135104,
+      "last_str": "2026-10-27 21:05:04 UTC"
     },
     "rss_seen:https://news.google.com/rss/search?q=%22SSD%22+OR+%22HDD%22+OR+%22hard+drive%22+price+when:1d&hl=en-US&gl=US&ceid=US:en": {
       "count": 7666,
@@ -334,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5162,
+      "ts": 1793135121,
+      "ts_str": "2026-10-27 21:05 UTC",
+      "catalyst": "C6",
+      "severity": "HIGH",
+      "subject": "[C6-HIGH] How to purchase SSDs during a NAND flash price drop - TechTarget",
+      "body": "Severity:  HIGH\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 27 Oct 2026 20:04:42 GMT\nLink:      https://news.google.com/rss/articles/CBMilgFBVV95cUxPd1NsajhmcXJMQ0VZUHZSUmN4ZzFvdFpaUkNFOEp6dEF2MUxjTFMyVVBaalotRHQxMTFXS2E4VFJJZWRpcWRSNVIwajVUeks0OHp2X2FBNHh1NlZ2SFlUMURZNEZqbkRZZzAzdWp1RzMxelAzMjdzSDVFcTJRaGk2UEZvV05yc3VhaGdZUFRIY2RQSVZBRGc?oc=5\n\nHow to purchase SSDs during a NAND flash price drop - TechTarget\n\n<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPd1NsajhmcXJMQ0VZUHZSUmN4ZzFvdFpaUkNFOEp6dEF2MUxjTFMyVVBaalotRHQxMTFXS2E4VFJJZWRpcWRSNVIwajVUeks0OHp2X2FBNHh1NlZ2SFlUMURZNEZqbkRZZzAzdWp1RzMxelAzMjdzSDVFcTJRaGk2UEZvV05yc3VhaGdZUFRIY2RQSVZBRGc?oc=5\" target=\"_blank\">How to purchase SSDs during a NAND flash price drop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechTarget</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nC6 matched a consumer buying-guide headline, \"How to purchase SSDs during a NAND flash price drop\", which pairs NAND with a price-drop token. The source is a how-to article, not a supplier, analyst or contract-price report.\n\n\u5185\u5bb9:\nC6 \u547d\u4e2d\u4e86\u4e00\u7bc7\u6d88\u8d39\u8005\u8d2d\u4e70\u6307\u5357\uff0c\u6807\u9898\u662f\u300cHow to purchase SSDs during a NAND flash price drop\u300d\uff0cNAND \u548c\u964d\u4ef7\u8bcd\u540c\u65f6\u51fa\u73b0\u3002\u6765\u6e90\u662f\u4e00\u7bc7\u6559\u4eba\u600e\u4e48\u4e70\u7684\u6587\u7ae0\uff0c\u4e0d\u662f\u5382\u5546\u3001\u5206\u6790\u5e08\u6216\u5408\u7ea6\u4ef7\u62a5\u544a\u3002\n\nWhy it matters:\nFalling NAND prices would point to memory oversupply, an early sign that AI-driven storage demand is cooling. But a consumer shopping guide carries no figures or company source, so treat it as weak background noise unless contract-price data or supplier guidance confirms it.\n\n\u5f71\u54cd:\nNAND \u964d\u4ef7\u8bf4\u660e\u5b58\u50a8\u53ef\u80fd\u4f9b\u8fc7\u4e8e\u6c42\uff0c\u662f AI \u5e26\u52a8\u7684\u5b58\u50a8\u9700\u6c42\u964d\u6e29\u7684\u65e9\u671f\u4fe1\u53f7\u3002\u4f46\u6d88\u8d39\u8005\u8d2d\u7269\u6307\u5357\u6ca1\u6709\u6570\u5b57\uff0c\u4e5f\u6ca1\u6709\u5382\u5546\u51fa\u5904\uff0c\u53ea\u80fd\u5f53\u4f5c\u5f31\u80cc\u666f\u566a\u97f3\u3002\u8981\u7b49\u5408\u7ea6\u4ef7\u6570\u636e\u6216\u5382\u5546\u6307\u5f15\u8bc1\u5b9e\u4e86\u624d\u7b97\u6570\u3002\n",
+      "emailed": false
+    },
     {
       "id": 5161,
       "ts": 1793119636,
@@ -2322,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C6-MED] Smartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs - Sammy Fans",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22NAND%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 04:36:25 GMT\nLink:      https://news.google.com/rss/articles/CBMifEFVX3lxTFBLQndldVltT1E4QlZJTTJ0TmhVNjN5OUxHb2UwaDhSYjZPOUFfOUJyM19FZFJiQVBwRGpSVDlmLUhKcFh2MHRmNkRYLUROdTI1U3ctZFNEdFpaS3VVNnljMFgwR3VfZ0FfNk1jTlNSd1dzMTNLQ0RqcF9VUGbSAYIBQVVfeXFMUDd3SEI3NzF1QjhfbXdIMGs0NHo5WU9yem9pNW1rMEl5N0VfQ1FQdlgxcjBWaUc2U3pWay1NRHVFbW1ubnIwNy1DZmtqN1NnanJhOWtVNEJqejVmd2RHTWhXQ1JKM193bjNfcnRfamJjc0VRVGoxdkI5NkZKZ0t6VGtlUQ?oc=5\n\nSmartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs - Sammy Fans\n\n<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBLQndldVltT1E4QlZJTTJ0TmhVNjN5OUxHb2UwaDhSYjZPOUFfOUJyM19FZFJiQVBwRGpSVDlmLUhKcFh2MHRmNkRYLUROdTI1U3ctZFNEdFpaS3VVNnljMFgwR3VfZ0FfNk1jTlNSd1dzMTNLQ0RqcF9VUGbSAYIBQVVfeXFMUDd3SEI3NzF1QjhfbXdIMGs0NHo5WU9yem9pNW1rMEl5N0VfQ1FQdlgxcjBWaUc2U3pWay1NRHVFbW1ubnIwNy1DZmtqN1NnanJhOWtVNEJqejVmd2RHTWhXQ1JKM193bjNfcnRfamJjc0VRVGoxdkI5NkZKZ0t6VGtlUQ?oc=5\" target=\"_blank\">Smartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sammy Fans</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that PC makers are signing long-term agreements (LTAs) to lock in DRAM and NAND supply, leaving smartphone makers exposed to further memory price hikes.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0,PC \u5382\u5546\u6b63\u5728\u7b7e LTA(\u957f\u671f\u4f9b\u8d27\u534f\u8bae)\u9501\u5b9a DRAM \u548c NAND \u4f9b\u5e94,\u667a\u80fd\u624b\u673a\u5382\u5546\u56e0\u6b64\u66f4\u5bb9\u6613\u53d7\u5230\u5185\u5b58\u6da8\u4ef7\u51b2\u51fb\u3002\n\nWhy it matters:\nBuyers locking in multi-year supply means memory is tight, and AI demand is a big reason: fabs are shifting capacity to HBM for AI accelerators, which squeezes commodity DRAM/NAND. This is a boom-phase signal, not a bust. If AI capex slows, these LTAs and the extra capacity added at peak prices could become an oversupply overhang.\n\n\u5f71\u54cd:\n\u4e70\u5bb6\u62a2\u7740\u7b7e\u591a\u5e74\u671f\u5408\u7ea6\u9501\u8d27,\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u504f\u7d27\u3002AI \u9700\u6c42\u662f\u4e00\u5927\u539f\u56e0:\u6676\u5706\u5382\u628a\u4ea7\u80fd\u8f6c\u53bb\u7ed9 AI \u52a0\u901f\u5668\u505a HBM,\u6324\u5360\u4e86\u666e\u901a DRAM/NAND \u7684\u4ea7\u80fd\u3002\u8fd9\u662f\u7e41\u8363\u671f\u4fe1\u53f7,\u8fd8\u4e0d\u662f\u7834\u88c2\u4fe1\u53f7\u3002\u4f46\u5982\u679c AI capex \u653e\u7f13,\u8fd9\u4e9b LTA \u548c\u5728\u9ad8\u4ef7\u65f6\u6269\u51fa\u6765\u7684\u4ea7\u80fd\u53ef\u80fd\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\u7684\u5305\u88b1\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4961,
-      "ts": 1792480469,
-      "ts_str": "2026-10-20 07:14 UTC",
-      "catalyst": "C3",
-      "severity": "MED",
-      "subject": "[C3-MED] OpenAI races to raise $30B at $1.4T valuation ahead of Anthropic IPO - Dealroom",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 06:45:41 GMT\nLink:      https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmhRVUp1SHZLcEtRZmkxNnlURUtKc1AxNklvZFhNTTBaam5HQXNka3AzWGNTMDlreE1sN3FrRk5rdWZkRkx3Ri1yRWIydjFYSEZLRnlhbjBoQkR0cXZCbE1MQVJqTXVSNDA2c2NrWV81YkhiLTJmWHlybGtoOXBsMTRTdm9DRm1JRkhGdVRmU1pUY0pvLWhiRDlxNkhLWFpGbnc?oc=5\n\nOpenAI races to raise $30B at $1.4T valuation ahead of Anthropic IPO - Dealroom\n\n<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmhRVUp1SHZLcEtRZmkxNnlURUtKc1AxNklvZFhNTTBaam5HQXNka3AzWGNTMDlreE1sN3FrRk5rdWZkRkx3Ri1yRWIydjFYSEZLRnlhbjBoQkR0cXZCbE1MQVJqTXVSNDA2c2NrWV81YkhiLTJmWHlybGtoOXBsMTRTdm9DRm1JRkhGdVRmU1pUY0pvLWhiRDlxNkhLWFpGbnc?oc=5\" target=\"_blank\">OpenAI races to raise $30B at $1.4T valuation ahead of Anthropic IPO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dealroom</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nHeadline reports OpenAI is racing to raise $30B at a $1.4T valuation ahead of an Anthropic IPO.\n\n\u5185\u5bb9:\n\u6807\u9898\u79f0 OpenAI \u6b63\u8d76\u5728 Anthropic IPO \u4e4b\u524d\uff0c\u4ee5 $1.4T \u4f30\u503c\u878d\u8d44 $30B\u3002\n\nWhy it matters:\nA $30B raise means OpenAI's cash burn still depends on outside capital. Racing to close it before a competitor's IPO suggests a fight over a limited pool of AI capital, and a weak Anthropic listing could reprice both valuations. This is a MED headline, not a confirmed close, so it shows funding pressure rather than distress.\n\n\u5f71\u54cd:\n\u878d $30B \u8bf4\u660e OpenAI \u7684\u70e7\u94b1\u4ecd\u8981\u9760\u5916\u90e8\u8d44\u91d1\u6491\u7740\u3002\u8d76\u5728\u5bf9\u624b IPO \u524d\u5b8c\u6210\uff0c\u8bf4\u660e AI \u80fd\u62ff\u5230\u7684\u94b1\u6709\u9650\uff0c\u5927\u5bb6\u5728\u62a2\u540c\u4e00\u7b14\u3002Anthropic \u4e0a\u5e02\u8868\u73b0\u5dee\u7684\u8bdd\uff0c\u4e24\u5bb6\u7684\u4f30\u503c\u90fd\u53ef\u80fd\u88ab\u91cd\u65b0\u5b9a\u4ef7\u3002\u8fd9\u53ea\u662f MED \u7ea7\u522b\u7684\u65b0\u95fb\u6807\u9898\uff0c\u878d\u8d44\u8fd8\u6ca1\u786e\u8ba4\u5b8c\u6210\uff0c\u8bf4\u660e\u6709\u878d\u8d44\u538b\u529b\uff0c\u8fd8\u8c08\u4e0d\u4e0a\u9677\u5165\u56f0\u5883\u3002\n",
       "emailed": false
     }
   ],
