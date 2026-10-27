@@ -1,17 +1,17 @@
 {
-  "generated_at": 1793116206,
-  "generated_at_str": "2026-10-27 15:50:06 UTC",
-  "last_event_ts": 1793116033,
+  "generated_at": 1793116580,
+  "generated_at_str": "2026-10-27 15:56:20 UTC",
+  "last_event_ts": 1793116387,
   "tables": {
     "alerts_dedup": {
-      "count": 5152,
-      "last_ts": 1793116033,
-      "last_str": "2026-10-27 15:47:13 UTC"
+      "count": 5153,
+      "last_ts": 1793116387,
+      "last_str": "2026-10-27 15:53:07 UTC"
     },
     "buyplan_regime": {
       "count": 2,
-      "last_ts": 1792763582,
-      "last_str": "2026-10-23 13:53:02 UTC"
+      "last_ts": 1793116387,
+      "last_str": "2026-10-27 15:53:07 UTC"
     },
     "c10_signals": {
       "count": 120,
@@ -334,6 +334,16 @@
     }
   ],
   "alerts": [
+    {
+      "id": 5160,
+      "ts": 1793116387,
+      "ts_str": "2026-10-27 15:53 UTC",
+      "catalyst": "BUYPLAN",
+      "severity": "MED",
+      "subject": "[BUYPLAN] regime B \u2192 A: fuses clear \u2014 back to the shallow ladder",
+      "body": "Buy-plan regime flipped B \u2192 A.\nfuses clear \u2014 back to the shallow ladder.\n\n\u2605 BUY PLAN \u2014 NDX trigger \u00b7 portfolio ladder\nNDX 29,273 \u00b7 ATH 31,225 (2026-10-06) \u00b7 drawdown -6.2%  [2026-10-26]\nSPX 7,677 \u00b7 drawdown -1.8% (ref \u2014 IVV/BGBL core draws down shallower than NDX)\nRegime A \u00b7 \u5065\u5eb7\u56de\u8c03\uff08\u5f15\u4fe1\u672a\u54cd\uff09\u00b7 buy speed\nCumulative target now: 10% deployed \u00b7 reserve held 40%\n\n  \u2705    0%  starter \u00b7 FOMO insurance            10%  @ NDX 31,225\n  \u2b1c  -10%  dip 1                               10%  @ NDX 28,102  \u2190 next\n  \u2b1c  -15%  dip 2                               15%  @ NDX 26,541\n  \u2b1c  -20%  dip 3                               25%  @ NDX 24,980",
+      "emailed": false
+    },
     {
       "id": 5159,
       "ts": 1793116033,
@@ -2322,16 +2332,6 @@
       "severity": "MED",
       "subject": "[C3-MED] What Anthropic\u2019s IPO Filing Could Reveal and Why OpenAI Is Racing It - BeInCrypto",
       "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=OpenAI+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 07:00:00 GMT\nLink:      https://news.google.com/rss/articles/CBMickFVX3lxTE5KOFlhbHZxUDFZSjlrV0J5WnR6YjVfb1h3VC1JZFRQWUJCdk5KSHVDdXdhU09qc1BZVFpkS2ZPQWhHMFJMQVR2Zl9HejRubWY5b3o4Y012V2F0U2FCX1h5TUJjb2VqM3dIU2EtU3J6azZqUQ?oc=5\n\nWhat Anthropic\u2019s IPO Filing Could Reveal and Why OpenAI Is Racing It - BeInCrypto\n\n<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5KOFlhbHZxUDFZSjlrV0J5WnR6YjVfb1h3VC1JZFRQWUJCdk5KSHVDdXdhU09qc1BZVFpkS2ZPQWhHMFJMQVR2Zl9HejRubWY5b3o4Y012V2F0U2FCX1h5TUJjb2VqM3dIU2EtU3J6azZqUQ?oc=5\" target=\"_blank\">What Anthropic\u2019s IPO Filing Could Reveal and Why OpenAI Is Racing It</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BeInCrypto</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA news piece speculates on what Anthropic's expected IPO filing (S-1) might disclose and says OpenAI is racing to list first. It reports no filing, no numbers and no new OpenAI disclosure.\n\n\u5185\u5bb9:\n\u4e00\u7bc7\u62a5\u9053\u63a8\u6d4b Anthropic \u9884\u671f\u4e2d\u7684 IPO \u7533\u62a5\u6587\u4ef6(S-1)\u53ef\u80fd\u62ab\u9732\u4ec0\u4e48\uff0c\u5e76\u79f0 OpenAI \u5728\u62a2\u5148\u4e0a\u5e02\u3002\u6587\u4e2d\u6ca1\u6709\u5b9e\u9645\u7533\u62a5\uff0c\u6ca1\u6709\u6570\u5b57\uff0c\u4e5f\u6ca1\u6709 OpenAI \u7684\u65b0\u62ab\u9732\u3002\n\nWhy it matters:\nIf either lab lists, its S-1 would be the first audited view of frontier-lab burn rate, compute commitments and revenue quality, which is the data this thesis lacks. A race to IPO also suggests private capital alone may no longer cover the compute bill. Until a filing actually lands, this is speculation; this alert was triggered by the IPO keyword, not by a burn-rate metric.\n\n\u5f71\u54cd:\n\u4e24\u5bb6\u65e0\u8bba\u54ea\u5bb6\u4e0a\u5e02\uff0cS-1 \u90fd\u4f1a\u7b2c\u4e00\u6b21\u7ed9\u51fa\u524d\u6cbf AI \u516c\u53f8\u7ecf\u5ba1\u8ba1\u7684\u70e7\u94b1\u901f\u5ea6\u3001\u7b97\u529b\u5408\u540c\u627f\u8bfa\u548c\u6536\u5165\u8d28\u91cf\uff0c\u8fd9\u6b63\u662f\u8fd9\u6761\u8bba\u70b9\u7f3a\u7684\u6570\u636e\u3002\u62a2\u7740\u4e0a\u5e02\u4e5f\u8bf4\u660e\u5149\u9760\u79c1\u52df\u878d\u8d44\u53ef\u80fd\u5df2\u7ecf\u6491\u4e0d\u8d77\u7b97\u529b\u5f00\u652f\u3002\u771f\u6b63\u7684\u7533\u62a5\u51fa\u6765\u4e4b\u524d\uff0c\u8fd9\u6761\u53ea\u662f\u63a8\u6d4b\uff1b\u8fd9\u6761\u544a\u8b66\u662f IPO \u5173\u952e\u8bcd\u89e6\u53d1\u7684\uff0c\u4e0d\u662f burn-rate \u6307\u6807\u3002\n",
-      "emailed": false
-    },
-    {
-      "id": 4959,
-      "ts": 1792478118,
-      "ts_str": "2026-10-20 06:35 UTC",
-      "catalyst": "C6",
-      "severity": "MED",
-      "subject": "[C6-MED] Smartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs - Sammy Fans",
-      "body": "Severity:  MED\nFeed:      https://news.google.com/rss/search?q=%22DRAM%22+price+when:1d&hl=en-US&gl=US&ceid=US:en\nPublished: Tue, 20 Oct 2026 04:39:23 GMT\nLink:      https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3dIQjc3MXVCOF9td0gwazQ0ejlZT3J6b2k1bWswSXk3RV9DUVB2WDFyMFZpRzZTelZrLU1EdUVtbW5ucjA3LUNma2o3U2dqcmE5a1U0Qmp6NWZ3ZEdNaFdDUkozX3duM19ydF9qYmNzRVFUajF2Qjk2RkpnS3pUa2VR0gGCAUFVX3lxTFA3d0hCNzcxdUI4X213SDBrNDR6OVlPcnpvaTVtazBJeTdFX0NRUHZYMXIwVmlHNlN6VmstTUR1RW1tbm5yMDctQ2ZrajdTZ2pyYTlrVTRCano1ZndkR01oV0NSSjNfd24zX3J0X2piY3NFUVRqMXZCOTZGSmdLelRrZVE?oc=5\n\nSmartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs - Sammy Fans\n\n<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3dIQjc3MXVCOF9td0gwazQ0ejlZT3J6b2k1bWswSXk3RV9DUVB2WDFyMFZpRzZTelZrLU1EdUVtbW5ucjA3LUNma2o3U2dqcmE5a1U0Qmp6NWZ3ZEdNaFdDUkozX3duM19ydF9qYmNzRVFUajF2Qjk2RkpnS3pUa2VR0gGCAUFVX3lxTFA3d0hCNzcxdUI4X213SDBrNDR6OVlPcnpvaTVtazBJeTdFX0NRUHZYMXIwVmlHNlN6VmstTUR1RW1tbm5yMDctQ2ZrajdTZ2pyYTlrVTRCano1ZndkR01oV0NSSjNfd24zX3J0X2piY3NFUVRqMXZCOTZGSmdLelRrZVE?oc=5\" target=\"_blank\">Smartphone makers vulnerable to DRAM, NAND price hikes as PC titans sign LTAs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sammy Fans</font>\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nWhat this means:\nA headline reports that PC makers are signing long-term agreements (LTAs) to lock in DRAM and NAND supply, leaving smartphone makers exposed to further memory price hikes.\n\n\u5185\u5bb9:\n\u4e00\u5219\u65b0\u95fb\u6807\u9898\u79f0,PC \u5382\u5546\u6b63\u5728\u7b7e LTA(\u957f\u671f\u4f9b\u8d27\u534f\u8bae)\u9501\u5b9a DRAM \u548c NAND \u4f9b\u5e94,\u667a\u80fd\u624b\u673a\u5382\u5546\u56e0\u6b64\u66f4\u5bb9\u6613\u53d7\u5230\u5185\u5b58\u6da8\u4ef7\u51b2\u51fb\u3002\n\nWhy it matters:\nBuyers locking in multi-year supply means memory is tight, and AI demand is a big reason: fabs are shifting capacity to HBM for AI accelerators, which squeezes commodity DRAM/NAND. This is a boom-phase signal, not a bust. If AI capex slows, these LTAs and the extra capacity added at peak prices could become an oversupply overhang.\n\n\u5f71\u54cd:\n\u4e70\u5bb6\u62a2\u7740\u7b7e\u591a\u5e74\u671f\u5408\u7ea6\u9501\u8d27,\u8bf4\u660e\u5185\u5b58\u4f9b\u5e94\u504f\u7d27\u3002AI \u9700\u6c42\u662f\u4e00\u5927\u539f\u56e0:\u6676\u5706\u5382\u628a\u4ea7\u80fd\u8f6c\u53bb\u7ed9 AI \u52a0\u901f\u5668\u505a HBM,\u6324\u5360\u4e86\u666e\u901a DRAM/NAND \u7684\u4ea7\u80fd\u3002\u8fd9\u662f\u7e41\u8363\u671f\u4fe1\u53f7,\u8fd8\u4e0d\u662f\u7834\u88c2\u4fe1\u53f7\u3002\u4f46\u5982\u679c AI capex \u653e\u7f13,\u8fd9\u4e9b LTA \u548c\u5728\u9ad8\u4ef7\u65f6\u6269\u51fa\u6765\u7684\u4ea7\u80fd\u53ef\u80fd\u53d8\u6210\u4f9b\u8fc7\u4e8e\u6c42\u7684\u5305\u88b1\u3002\n",
       "emailed": false
     }
   ],
